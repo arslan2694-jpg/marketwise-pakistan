@@ -49,6 +49,21 @@ web root. If it's deployed under a sub-path (e.g.
 app rather than at the domain root), add `basePath: "/western-philosophy"`
 to `next.config.ts` before building, so internal links resolve correctly.
 
+## Standalone single-file build (double-click, fully offline)
+
+For a genuinely single `.html` file — no `out/` folder, no server, works
+via `file://`, zero external requests — see `western-philosophy/
+standalone/`. It's a separate hand-written vanilla-JS app (not a Next.js
+export) that reproduces every feature with the same generated dataset
+inlined directly into one file:
+
+```bash
+cd western-philosophy/standalone
+python3 build.py   # -> dist/western-philosophy-standalone.html (~5MB)
+```
+
+See `standalone/README.md` for how it works and what was verified.
+
 ## Rebuilding the educational dataset from the PDF
 
 The pipeline is: extract raw text → (content-generation pass, currently
