@@ -1,0 +1,373 @@
+{
+  "chapter_id": "book-2-ch-xv",
+  "book_id": "book-2",
+  "part_id": "book-2-part-2",
+  "roman": "XV",
+  "title": "The Eclipse of the Papacy",
+  "start_page": 479,
+  "end_page": 489,
+  "orientation": "This chapter closes Book Two by tracing the rapid decline of papal moral and political authority from its thirteenth-century peak through the Avignon papacy, the Templars' suppression, the Great Schism, the conciliar movement, and Wycliffe's heresy, down to the eve of the Renaissance. It matters because it explains, in institutional and political terms, why the medieval Catholic synthesis Russell has traced since the fall of Rome broke apart, and it sets up the transition -- via humanism, the rediscovery of Plato, and the 'new liberty of the spirit' -- into Book Three, Modern Philosophy.",
+  "historical_background": "Russell opens with a retrospective synthesis: the thirteenth-century Catholic worldview combined Greek philosophy (Pythagoras, Parmenides, Plato, Aristotle), oriental mystery-religion elements absorbed after Alexander's conquests (dying-and-resurrected gods, sacramental rites, a separated priesthood, Persian dualism), Neoplatonism, and Roman administrative method, all synthesized by Christianity and organized through the Church's gradual transformation from republic to monarchy (Gregory the Great to Innocent III). He judges the thirteenth-century substitution of Aristotle for Plato and Augustine (via Aquinas) a mistake from the Christian point of view, since Plato's temperament was more naturally religious. The chapter then narrates the fourteenth- and fifteenth-century collapse of papal authority: the loss of Constantinople (1261), subservience to the French crown, the Avignon papacy (1309-ca.1377), the Great Schism (1378-1417), the conciliar movement, and the rise of national monarchies, commercial wealth, and Renaissance humanism that together produced 'the modern world.'",
+  "philosophical_problems": [
+    "Whether Aristotle or Plato provides a more suitable philosophical foundation for Christian theology (Russell's own retrospective judgment on the thirteenth-century choice)",
+    "Whether righteousness alone confers title to property and dominion, and who has authority to judge this -- civil power or the Church (Wycliffe)",
+    "Whether ultimate ecclesiastical authority rests in the Pope or in a General Council (the conciliar question, continued from the previous chapter)",
+    "Whether God's decrees are arbitrary or whether the actual world is the only possible world, since God is bound to choose the best (Wycliffe's theological determinism)"
+  ],
+  "philosophers_discussed": [
+    {
+      "name": "John Wycliffe",
+      "role_in_chapter": "English secular priest and Oxford theologian (ca. 1320-84), last important Oxford scholastic; a realist and Platonist who held the actual world is the only possible world since God must choose the best; developed increasingly radical anti-papal doctrines (civil dominion depends on righteousness, papal supremacy rests on the forged Donation of Constantine, denial of transubstantiation), translated the Vulgate into English, and founded the 'poor priests'; his English followers were the Lollards, and his doctrines reached Bohemia via Huss.",
+      "is_primary_subject": true
+    },
+    {
+      "name": "Marsiglio of Padua",
+      "role_in_chapter": "Referenced as the source (via condemned theses) of doctrines Gregory XI accused Wycliffe of deriving his own views from, connecting Wycliffe's anti-papal theory back to the conciliar/popular-sovereignty tradition developed in the previous chapter.",
+      "is_primary_subject": false
+    }
+  ],
+  "schools_discussed": [
+    "The conciliar movement (culminating at the Council of Constance, 1414-18)",
+    "The Lollards (Wycliffe's English followers)",
+    "Renaissance humanism (emerging at the chapter's close, admiring pagan Greece and Rome)"
+  ],
+  "core_concepts": [
+    {
+      "name": "Russell's retrospective synthesis of the medieval Catholic worldview",
+      "plain_explanation": "Russell opens the chapter by summarizing how the whole medieval Christian synthesis was built: Greek philosophy provided the intellectual framework, Eastern 'mystery religion' elements (dying-and-rising gods, sacramental meals, baptism-like second birth, a separated magical priesthood, impressive ritual, and Persian dualism -- good vs. evil, Ahura Mazda vs. Ahriman, with Satan descending from Ahriman) supplied much of Christianity's religious power, and Roman administrative methods gave the Church its organizational strength. He argues Christianity succeeded partly by combining a Jewish-style sacred book and exclusive truth-claim with a more universal (non-racial) appeal, and by offering sharper doctrines of heaven and hell than either the Jews or the pagan mystery cults.",
+      "precise_definition": "Russell's summary account of medieval Catholicism as a historical synthesis of Greek philosophy, Near Eastern mystery-religion and dualist elements (absorbed into Hellenistic culture after Alexander and channeled through Neoplatonism), Jewish scriptural monotheism, and Roman methods of hierarchical administration.",
+      "why_it_mattered": "It functions as Russell's closing assessment of everything traced across Book Two, explaining both the sources of the medieval Church's unprecedented strength ('a strength which no earlier social organization had equalled') and, implicitly, the complexity of forces whose fourteenth-century weakening the rest of the chapter narrates.",
+      "historical_origin": "Presented by Russell as a retrospective synthesis at the opening of the chapter, summarizing material developed across the whole of Book Two and, implicitly, Book One.",
+      "associated_philosopher": "",
+      "examples": [
+        "The dying and resurrected god and sacramental eating of the god's flesh, absorbed from Near Eastern mystery religion",
+        "Persian dualism (Ahura Mazda vs. Ahriman) reworked into Christian teaching, with Satan developed from Ahriman",
+        "Easter combining the Jewish Passover with pagan resurrected-god celebrations"
+      ],
+      "objections": [],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "",
+      "connection_to_politics_or_religion": "The entire concept is explicitly about the fusion of religion, philosophy, and political administration into a single, historically unprecedented institution.",
+      "is_major": true
+    },
+    {
+      "name": "Russell's judgment that substituting Aristotle for Plato/Augustine was a Christian mistake",
+      "plain_explanation": "Russell argues that because Plato's temperament was inherently more religious than Aristotle's, and because Christian theology had from nearly its beginning been adapted to Platonism (largely via Augustine), the thirteenth-century triumph of Aristotle (secured by Albertus Magnus and Aquinas) was, from the Church's own point of view, a poor trade -- even though, ironically, it also unintentionally prepared the way for a later 'return from Platonic dreaming to scientific observation.'",
+      "precise_definition": "Russell's direct evaluative claim, made in his own voice, that the scholastic elevation of Aristotle above Plato and Augustine as the 'supreme authority after Scripture and the Church' weakened rather than strengthened Christian theology's natural religious temperament, notwithstanding its unintended long-term benefit of nudging Western thought toward empirical observation.",
+      "why_it_mattered": "This is one of the clearest instances in the whole book of Russell stepping outside historical narration to render a first-person philosophical-theological verdict, and it retrospectively frames his critical treatment of Aquinas in Chapter XIII.",
+      "historical_origin": "Stated directly by Russell in this chapter's opening retrospective section.",
+      "associated_philosopher": "",
+      "examples": [
+        "Plato's teaching that knowledge is not perception but a kind of reminiscent vision, contrasted with Aristotle's greater empiricism"
+      ],
+      "objections": [],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "Russell credits this same Aristotelian shift, 'little though he intended it,' with Aquinas preparing the way for the eventual return to scientific observation -- a double-edged legacy.",
+      "connection_to_politics_or_religion": "Directly a claim about the fit between a philosophical system and a religious tradition's own temperament.",
+      "is_major": false
+    },
+    {
+      "name": "Wycliffe's doctrine of civil dominion and its escalation into heresy",
+      "plain_explanation": "Wycliffe, orthodox until his fifties, argued in 1376 lectures 'On Civil Dominion' that righteousness alone gives title to dominion and property, that unrighteous clergy therefore have no valid title to theirs, and that civil (not ecclesiastical) authority should decide whether a cleric keeps his property. From there he escalated: property itself is a result of sin (Christ and the Apostles owned none, so clergy should own none either); during the Great Schism he branded the Pope Antichrist and argued the Donation of Constantine had made all subsequent popes apostates; he translated the Vulgate into English and founded itinerant 'poor priests'; and finally he denied transubstantiation outright, calling it 'a deceit and a blasphemous folly.'",
+      "precise_definition": "Wycliffe's progressively radicalizing theological-political doctrine, beginning from the claim that righteousness (not mere possession) grounds legitimate dominion and property, and ending in outright denial of transubstantiation and denunciation of the papacy as apostate.",
+      "why_it_mattered": "It exemplifies, for Russell, how a movement driven initially by moral and political conviction (sympathy for the poor, horror of clerical wealth) could be driven by its own logic into full doctrinal heresy, and it directly seeded both the English Lollard movement and, via Huss, the pre-Reformation Bohemian Hussite movement.",
+      "historical_origin": "Begins with Wycliffe's 1376 Oxford lectures 'On Civil Dominion,' escalating through the Great Schism (from 1378) to his death in 1384.",
+      "associated_philosopher": "John Wycliffe",
+      "examples": [
+        "English royal support for Wycliffe's doctrines, since they justified withholding tribute money from a Pope subservient to France, especially convenient during England's war with France",
+        "The University of Oxford's refusal to admit papal jurisdiction over its own teachers, protecting Wycliffe from a bishops' tribunal",
+        "The House of Commons's refusal to concur when the House of Lords condemned Wycliffe's itinerant 'poor priests'"
+      ],
+      "objections": [
+        "Gregory XI condemned eighteen theses in Wycliffe's lectures, charging they derived from Marsiglio of Padua"
+      ],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "His English followers, the Lollards, were persecuted and largely suppressed, but his doctrines reached Bohemia (via the marriage of Richard II to a Bohemian princess) where Huss became his disciple and the movement survived, despite persecution, until the Reformation.",
+      "connection_to_politics_or_religion": "Deeply political from the outset: John of Gaunt protected Wycliffe as long as politically convenient, and the doctrine's appeal to the English crown was inseparable from anti-French, anti-papal-tribute politics.",
+      "is_major": true
+    },
+    {
+      "name": "The Great Schism and the conciliar resolution",
+      "plain_explanation": "After Gregory XI's death, disputed elections produced two rival popes -- Urban VI in Rome and Clement VII in Avignon -- each recognized by different, largely politically-determined coalitions of states (France backed Avignon; France's enemies backed Rome). Since a legitimate pope should logically outrank any other authority, only something above both claimants -- a General Council -- could resolve the impasse. A first attempt at Pisa (1409) backfired, producing a third pope instead of resolving the dispute. The Council of Constance (1414-18) finally succeeded: it decreed popes cannot dissolve councils and must submit to them, deposed the discredited claimants, and secured the uncontested election of Martin V in 1417.",
+      "precise_definition": "The nearly forty-year period (1378-1417) during which rival papal claimants, based respectively in Rome and Avignon, divided Catholic Christendom along largely national political lines, finally resolved by the Council of Constance's assertion of conciliar authority over the papacy.",
+      "why_it_mattered": "It represents the most severe institutional crisis of the medieval papacy, demonstrating in practice the conciliarist theory (Marsiglio, Occam) developed in the previous chapter, even though the movement's larger ambition -- permanently subordinating the papacy to regular General Councils -- ultimately failed once the schism itself was healed.",
+      "historical_origin": "Begins with the disputed 1378 election following Gregory XI's death; resolved at the Council of Constance, 1414-18.",
+      "associated_philosopher": "",
+      "examples": [
+        "The Council of Pisa's (1409) failed attempt, which deposed both existing popes but elected a third (eventually the notorious ex-pirate John XXIII), yielding three popes instead of resolving anything",
+        "The Council of Constance's condemnation and execution of Huss despite a promised safe conduct, and its posthumous exhumation and burning of Wycliffe's bones"
+      ],
+      "objections": [],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "The subsequent Council of Basel (from 1431) was decisively defeated by Pope Eugenius IV by 1448, showing the conciliar movement's ultimate failure to permanently constrain papal authority, even as the papacy 'emerged politically triumphant, but with very greatly diminished power of inspiring moral reverence.'",
+      "connection_to_politics_or_religion": "National political alignments (France vs. its enemies, Scotland vs. England) directly determined which pope different countries recognized, illustrating the schism's essentially political character.",
+      "is_major": true
+    }
+  ],
+  "arguments": [
+    {
+      "title": "Wycliffe's argument from righteousness to legitimate dominion",
+      "philosopher": "John Wycliffe",
+      "premises": [
+        "Righteousness alone gives valid title to dominion and property",
+        "Unrighteous (sinful, worldly) clergy are not righteous in the relevant sense",
+        "Therefore unrighteous clergy have no valid title to their property"
+      ],
+      "conclusion": "Civil authority, not the Church itself, should decide whether an unrighteous ecclesiastic retains his property, and since Christ and the Apostles owned nothing, clergy in general ought to own nothing.",
+      "explanation": "Russell presents this as the starting point of a doctrine that escalated over subsequent years into denial of transubstantiation and denunciation of the papacy as apostate, driven, in Russell's account, primarily by Wycliffe's moral feelings (sympathy for the poor, horror at clerical wealth) rather than by prior doctrinal innovation.",
+      "objections": [
+        "Gregory XI formally condemned eighteen theses drawn from these lectures, linking them to Marsiglio of Padua's already-condemned political theory"
+      ],
+      "implications": [
+        "Provided English royal government a convenient justification for withholding papal tribute, ensuring Wycliffe's protection for political as much as doctrinal reasons"
+      ]
+    }
+  ],
+  "key_distinctions": [
+    "Papal claims to universal temporal supremacy (Innocent III's peak) vs. actual, steadily declining political power in the fourteenth and fifteenth centuries",
+    "The Avignon papacy's period of French political subservience vs. the Roman papacy's attempted reassertion of independence",
+    "Conciliarism's goal of preserving a unified Catholic Church through democratic reform vs. the later Protestant doctrine of private judgement, which rejected submission even to a Council",
+    "Wycliffe's early, purely political/moral criticism of clerical wealth vs. his later full doctrinal heresy (denial of transubstantiation)"
+  ],
+  "connections_to_earlier_philosophers": "The chapter's opening synthesis directly recalls the Neoplatonism, Orphism, and Pythagoreanism treated in earlier volumes/chapters as combining with 'barbarian' Eastern religious elements; the conciliarist theory Wycliffe is accused of borrowing from is explicitly traced to Marsiglio of Padua, covered in the previous chapter, closing the loop on that chapter's political theory.",
+  "connections_to_later_philosophers": "Wycliffe's doctrines, transmitted to Bohemia via Huss, 'survived until the Reformation' despite persecution, and in England 'prepared the soil for Protestantism'; the chapter's closing account of the rise of humanism, the recovery of Plato via Byzantine refugees, and the 'new liberty of the spirit' directly introduces the transition into Book Three, Modern Philosophy, which follows immediately after this chapter.",
+  "political_social_context": "The chapter traces a cluster of interlocking causes for papal decline: the rise of national monarchies (France, England) that eclipsed both Empire and papacy; growing commercial wealth and lay education, especially in Italy but also in Flanders, the Hanse towns, and England's wool trade; the corrupting effect of the Jubilee indulgence system inaugurated by Boniface VIII in 1300; the scandalous seizure and suppression of the Templars (1307-13) by Philip IV and Clement V for financial gain; and figures like Cola di Rienzi, whose short-lived, quasi-democratic revival of Roman republicanism in the 1340s-50s illustrates the wider erosion of papal prestige even in Rome itself.",
+  "religion_science_culture_context": "The chapter closes with the rise of Renaissance humanism -- admiration for pagan Greece and Rome, the exposure of the Donation of Constantine as a forgery, the recovery of Plato at first hand via Byzantine refugees after Constantinople's fall to the Turks (1453), and explorations (Vasco da Gama, Columbus, Copernicus) that 'enlarged the world' and 'the heavens' -- all contributing to what Russell calls 'this moment of joyful liberation' in which 'the modern world was born.'",
+  "russell_presentation": "Russell frames the entire chapter as an account of moral and institutional decline: Innocent III's political triumph already contained the seeds of decay, since, in Russell's words, 'the manner of its subsequent decline might already have been foreseen.' He is unsparing about the corruption underlying specific episodes -- the Jubilee indulgence system as a money-making scheme, the Templars' persecution as a naked financial conspiracy between Clement V and Philip IV (citing Henry C. Lea's judgment that the charges against the Templars were 'wholly without foundation'), and the general worldliness of the Avignon papacy. He is personally sympathetic to Wycliffe's moral motivations even while noting the theological confusions or the political convenience underlying his protection, and closes on an unusually lyrical, celebratory note about the birth of the modern world through Renaissance 'liberty of the spirit,' explicitly naming this as the point 'from which the decline began' for the medieval synthesis he has spent the whole of Book Two describing.",
+  "critical_context": "Common scholarly criticism: some historians caution against Russell's relatively uncritical acceptance of Henry C. Lea's early-twentieth-century verdict that the charges against the Templars were 'wholly without foundation'; more recent scholarship has offered a more mixed assessment of what evidence (however extracted under torture) may or may not indicate about the order's actual practices, without endorsing the charges as straightforwardly true.",
+  "key_takeaways": [
+    "Russell synthesizes the medieval Catholic worldview as a fusion of Greek philosophy, Near Eastern mystery-religion and dualist elements, Jewish scripture, and Roman administrative method.",
+    "Russell judges the thirteenth-century scholastic elevation of Aristotle over Plato/Augustine a mistake from Christianity's own religious standpoint, though it unintentionally encouraged later scientific observation.",
+    "Papal decline was driven by the loss of Constantinople (1261), subservience to the French crown, the Avignon papacy (1309-ca.1377), the corrupt Jubilee indulgence system, and the scandalous suppression of the Templars.",
+    "John Wycliffe's doctrine escalated from a claim that righteousness alone grounds valid dominion to outright denial of transubstantiation and denunciation of the papacy as apostate; his influence reached Bohemia via Huss.",
+    "The Great Schism (1378-1417) produced rival popes recognized along national political lines, resolved only by the conciliar Council of Constance (1414-18), though the broader conciliar movement was ultimately defeated by the papacy by 1448.",
+    "The chapter closes with the rise of Renaissance humanism, the recovery of Plato via Byzantine refugees, and voyages of exploration, marking, in Russell's account, the birth of 'the modern world.'"
+  ],
+  "study_notes": "This chapter functions as both a conclusion and a hinge: it concludes Book Two by explaining the collapse of the medieval Catholic synthesis whose construction the whole book has traced, and it hinges directly into Book Three by describing the cultural conditions (humanism, recovered Plato, exploration, a 'pagan' revaluation of earthly life) that make 'modern philosophy' possible. When studying it, keep two separate threads distinct: the institutional/political narrative (Innocent III's peak, Avignon, the Templars, the Great Schism, conciliarism) and the intellectual-biographical case study of Wycliffe, which Russell uses to show concretely how moral outrage at institutional corruption could escalate into full doctrinal heresy and, eventually, proto-Protestant influence via Huss.\n\nAlso worth studying closely is Russell's explicit self-positioned judgment early in the chapter that Aristotle's triumph over Plato/Augustine was, from Christianity's own point of view, a mistake -- notice how this retrospectively frames and justifies his sharply critical assessment of Aquinas's philosophical sincerity in Chapter XIII: if Plato's more naturally religious temperament would have suited Christian theology better, then Aquinas's Aristotelian apparatus, however impressive as a system, was arguably always going to strain against its own religious purpose.\n\nFinally, note carefully the distinction Russell draws between the conciliar movement's actual aims (a more democratic, but still unified, Catholic Church) and the later Protestant doctrine of private judgement (individual believers need not submit even to a Council) -- conflating the two is a common error, and Russell is careful to keep them apart even while tracing a causal line from one to encouraging conditions for the other.",
+  "glossary_terms": [
+    {
+      "term": "Avignon papacy",
+      "beginner_explanation": "The period (roughly 1309-1377) when the popes lived in Avignon, France, rather than Rome, and were widely seen as politically dependent on the French crown.",
+      "academic_explanation": "The period beginning with Clement V's 1309 relocation of the papal court to Avignon, during which successive popes were widely regarded as politically subservient to the French monarchy, weakening papal claims to universal authority.",
+      "related_concepts": ["Great Schism"]
+    },
+    {
+      "term": "Great Schism",
+      "beginner_explanation": "A roughly forty-year period (1378-1417) when there were two, and briefly three, rival popes, each recognized by different European states.",
+      "academic_explanation": "The papal schism beginning with the disputed 1378 election of Urban VI (Rome) against Clement VII (Avignon), dividing Catholic Christendom along largely national political lines until resolved by the Council of Constance's election of Martin V in 1417.",
+      "related_concepts": ["Avignon papacy", "Conciliar movement"]
+    },
+    {
+      "term": "Conciliar movement",
+      "beginner_explanation": "A movement holding that a General Council of the whole Church, not the Pope alone, has ultimate authority -- used to resolve the Great Schism.",
+      "academic_explanation": "The theological-political movement, building on theories developed by Marsiglio of Padua and Occam, asserting that a General Council holds authority superior to any single pope; it successfully resolved the Great Schism at the Council of Constance (1414-18) but was ultimately defeated as a permanent constitutional check on papal power by 1448.",
+      "related_concepts": ["Great Schism", "Marsiglio's and Occam's theory of popular and conciliar sovereignty"]
+    },
+    {
+      "term": "Lollards",
+      "beginner_explanation": "English followers of John Wycliffe who were persecuted and largely suppressed.",
+      "academic_explanation": "The English religious movement following Wycliffe's teachings, severely persecuted and practically stamped out after his death, though the underlying anti-papal sentiment survived underground and helped prepare English ground for later Protestantism.",
+      "related_concepts": ["John Wycliffe"]
+    },
+    {
+      "term": "Transubstantiation",
+      "beginner_explanation": "The Catholic doctrine that the bread and wine of communion actually become the body and blood of Christ.",
+      "academic_explanation": "The Catholic sacramental doctrine that in the Eucharist the substance of bread and wine is converted into the substance of Christ's body and blood, while the accidents (appearance) remain unchanged; Wycliffe's outright denial of this doctrine marked his final and most decisive break with orthodoxy.",
+      "related_concepts": ["John Wycliffe"]
+    }
+  ],
+  "questions": [
+    {
+      "type": "short_answer",
+      "prompt": "According to Russell's opening synthesis, what four main sources combined to produce the medieval Catholic worldview?",
+      "answer": "Pure Greek philosophy (Pythagoras, Parmenides, Plato, Aristotle); Near Eastern/oriental mystery-religion elements absorbed after Alexander's conquests (dying-resurrected gods, sacramental rites, a separated priesthood, Persian dualism); Neoplatonism, which synthesized these with Hellenic thought; and the Old Testament's sacred book together with Roman methods of hierarchical administration.",
+      "explanation": "Russell presents this synthesis as giving the Catholic Church 'a strength which no earlier social organization had equalled.'",
+      "source_page": 479
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Why does Russell think the thirteenth-century substitution of Aristotle for Plato and Augustine was, from the Christian point of view, a mistake?",
+      "answer": "Because Plato's temperament was more naturally religious than Aristotle's, and Christian theology had, from almost the beginning, been adapted to Platonism; Aristotle, by contrast, was much more of an empiricist, whose teaching that knowledge is perception (rather than a kind of reminiscent vision, as Plato held) sat less naturally with Christian theology, even though it unintentionally helped prepare the eventual turn toward scientific observation.",
+      "explanation": "This is a rare case of Russell offering his own direct theological-philosophical evaluation rather than pure historical narration.",
+      "source_page": 479
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Describe the sequence of events by which the Templars were suppressed in 1307-13, and what conclusion does Russell (following Henry C. Lea) draw about the charges against them?",
+      "answer": "Clement V and Philip IV of France, both in need of money, arranged for the Church to discover heresy among the Templars (a wealthy banking and landholding order); on a given day in 1307 all leading French Templars were arrested and, under torture, confessed to doing homage to Satan and other abominations; the order was suppressed in 1313 and its property confiscated. Russell, citing Henry C. Lea's History of the Inquisition, states that after full investigation the charges were found to be 'wholly without foundation.'",
+      "explanation": "This episode exemplifies the broader pattern of financial and political motives underlying religious persecution in this period.",
+      "source_page": 480
+    },
+    {
+      "type": "identify_philosopher",
+      "prompt": "Which English theologian argued that righteousness alone gives valid title to dominion and property, eventually escalating to denial of transubstantiation and denunciation of the papacy as apostate?",
+      "answer": "John Wycliffe",
+      "explanation": "Wycliffe's doctrine began as a political/moral critique of unrighteous clergy's property claims and escalated, over the course of the Great Schism, into full doctrinal heresy.",
+      "source_page": 484
+    },
+    {
+      "type": "short_answer",
+      "prompt": "What was the Great Schism, and how was it finally resolved?",
+      "answer": "Beginning with the disputed 1378 papal election, rival popes -- Urban VI in Rome and Clement VII in Avignon -- were recognized along largely national political lines for roughly forty years. A first attempt at resolution at the Council of Pisa (1409) failed, producing a third pope instead. The schism was finally resolved by the Council of Constance (1414-18), which decreed that popes must submit to councils, deposed the rival claimants, and secured the uncontested election of Martin V in 1417.",
+      "explanation": "Russell notes the schism could only be resolved by some authority superior to both legitimate claimants, which only a General Council could supply.",
+      "source_page": 482
+    },
+    {
+      "type": "compare_contrast",
+      "prompt": "Compare the aims of the conciliar movement with the later Protestant doctrine of private judgement, as Russell distinguishes them.",
+      "answer": "The conciliar movement (following Marsiglio and Occam) aimed to preserve the unity of the Catholic faith while replacing papal absolutism with democratic, representative means -- councils elected via representatives, including laity. The later Protestant doctrine of private judgement, by contrast, rejected submission even to a General Council, holding that religious belief is not to be decided by any governmental machinery at all. Russell notes that in practice, most Protestants who gained power merely substituted the king for the Pope, securing neither true private judgement nor a democratic method of deciding doctrine.",
+      "explanation": "Russell is careful to keep these two positions distinct even while tracing a line of influence from the earlier to the later.",
+      "source_page": 484
+    },
+    {
+      "type": "short_answer",
+      "prompt": "How did Wycliffe's doctrines spread to Bohemia, and what was their ultimate fate there?",
+      "answer": "Because Richard II's wife was Bohemian, Wycliffe's doctrines became known in Bohemia, where Jan Huss became his disciple; despite persecution (Huss was burned at the Council of Constance, and Wycliffe's own bones were later exhumed and burned by the same council), the doctrines survived in Bohemia until the Reformation.",
+      "explanation": "This transmission links English Wycliffism directly to the pre-Reformation Hussite movement in Bohemia.",
+      "source_page": 485
+    }
+  ],
+  "flashcards": [
+    { "front": "What four sources does Russell say combined to form the medieval Catholic worldview?", "back": "Greek philosophy, Near Eastern mystery-religion/dualist elements, the Old Testament/Jewish scripture, and Roman administrative methods.", "category": "concept" },
+    { "front": "What does Russell say was a mistake from the Christian point of view regarding thirteenth-century philosophy?", "back": "The substitution of Aristotle for Plato and Augustine, since Plato's temperament was more naturally religious.", "category": "concept" },
+    { "front": "Who instituted the Jubilee indulgence in 1300, and what was its effect?", "back": "Boniface VIII; it brought immense revenue to the Curia and marked, in Russell's account, the summit of papal success and the start of its decline.", "category": "event" },
+    { "front": "In what year did the papacy relocate to Avignon, and under which Pope?", "back": "1309, under Clement V.", "category": "event" },
+    { "front": "What happened to the Templars in 1307-13?", "back": "Clement V and Philip IV of France arranged their suppression on fabricated heresy charges, extracted under torture, for financial gain; Henry C. Lea's investigation found the charges 'wholly without foundation.'", "category": "event" },
+    { "front": "What are John Wycliffe's approximate dates?", "back": "ca. 1320-1384.", "category": "philosopher" },
+    { "front": "What doctrine did Wycliffe advance in his 1376 lectures 'On Civil Dominion'?", "back": "That righteousness alone gives valid title to dominion and property, and unrighteous clergy have no valid title to theirs.", "category": "concept" },
+    { "front": "What did Wycliffe eventually deny outright, marking his final break with orthodoxy?", "back": "Transubstantiation, which he called 'a deceit and a blasphemous folly.'", "category": "concept" },
+    { "front": "What were Wycliffe's English followers called?", "back": "The Lollards.", "category": "term" },
+    { "front": "Who was Wycliffe's Bohemian disciple?", "back": "Jan Huss.", "category": "philosopher" },
+    { "front": "What years did the Great Schism span, and how was it finally resolved?", "back": "1378-1417; resolved by the Council of Constance (1414-18), which elected Martin V.", "category": "event" },
+    { "front": "What happened at the Council of Pisa (1409)?", "back": "It deposed both existing popes but elected a third, producing three rival popes instead of resolving the schism.", "category": "event" },
+    { "front": "What ultimately happened to the conciliar movement's broader ambitions after healing the Great Schism?", "back": "It was defeated by Pope Eugenius IV, with the Council of Basel's authority effectively broken by 1448, though the papacy emerged with greatly diminished moral prestige.", "category": "event" },
+    { "front": "What cultural developments does Russell say marked the birth of 'the modern world' at the chapter's close?", "back": "Renaissance humanism, recovery of Plato via Byzantine refugees, exposure of the Donation of Constantine as a forgery, and explorations by Vasco da Gama, Columbus, and Copernicus.", "category": "concept" }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "According to Russell, why was the thirteenth-century scholastic elevation of Aristotle over Plato and Augustine arguably a mistake from Christianity's own point of view?",
+      "options": [
+        "Aristotle was not available in Latin translation",
+        "Plato's temperament was more naturally religious, and Christian theology had long been adapted to Platonism",
+        "Aristotle denied the existence of God",
+        "Aquinas never actually used Aristotle's works"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell argues Plato's more religious temperament suited Christian theology better than Aristotle's greater empiricism.",
+      "related_concept": "Russell's judgment that substituting Aristotle for Plato/Augustine was a Christian mistake",
+      "source_page": 479
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "In what year did Pope Clement V settle the papal court in Avignon?",
+      "options": ["1300", "1309", "1378", "1417"],
+      "correct_index": 1,
+      "explanation": "Clement V settled in Avignon in 1309, beginning a roughly seventy-year period of papal residence there.",
+      "related_concept": "The Great Schism and the conciliar resolution",
+      "source_page": 480
+    },
+    {
+      "type": "true_false",
+      "prompt": "According to Russell, citing Henry C. Lea, the charges of heresy brought against the Templars were well-founded.",
+      "options": ["True", "False"],
+      "correct_index": 1,
+      "explanation": "Russell states that Lea's investigation concluded the charges were 'wholly without foundation,' the persecution being motivated by the financial interests of Clement V and Philip IV.",
+      "related_concept": "The Great Schism and the conciliar resolution",
+      "source_page": 480
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "What was the core claim of Wycliffe's 1376 lectures 'On Civil Dominion'?",
+      "options": [
+        "That the Pope should have absolute civil authority over all Christian kings",
+        "That righteousness alone gives valid title to dominion and property, so unrighteous clergy have no valid title to theirs",
+        "That transubstantiation is a valid doctrine",
+        "That the Bible should never be translated from Latin"
+      ],
+      "correct_index": 1,
+      "explanation": "This claim was the starting point for Wycliffe's escalating series of increasingly heretical positions.",
+      "related_concept": "Wycliffe's doctrine of civil dominion and its escalation into heresy",
+      "source_page": 484
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "Which Church council finally resolved the Great Schism by asserting authority over rival popes?",
+      "options": ["The Council of Pisa (1409)", "The Council of Constance (1414-18)", "The Council of Basel (1431)", "The Council of Clermont (1095)"],
+      "correct_index": 1,
+      "explanation": "The Council of Constance decreed popes must submit to councils, deposed the rival claimants, and secured the uncontested election of Martin V in 1417; the earlier Council of Pisa had failed and produced a third rival pope instead.",
+      "related_concept": "The Great Schism and the conciliar resolution",
+      "source_page": 482
+    },
+    {
+      "type": "fill_in_blank",
+      "prompt": "Wycliffe's English followers were known as the ____.",
+      "options": ["Lollards", "Waldenses", "Cathari", "Spirituals"],
+      "correct_index": 0,
+      "explanation": "The Lollards were severely persecuted and practically stamped out in England, though the underlying sentiment survived underground.",
+      "related_concept": "Wycliffe's doctrine of civil dominion and its escalation into heresy",
+      "source_page": 485
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "prompt": "How does Russell distinguish the conciliar movement's goals from the later Protestant doctrine of private judgement?",
+      "options": [
+        "They are identical in every respect",
+        "The conciliar movement sought unity of the Catholic faith through democratic means; Protestant private judgement rejected submission even to a Council",
+        "The conciliar movement rejected all Church authority whatsoever",
+        "Private judgement was a Catholic doctrine, while conciliarism was Protestant"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell notes the conciliar movement, unlike later Protestants, still aimed to preserve unity within the Catholic Church via democratic means, not to license individual doctrinal dissent.",
+      "related_concept": "Wycliffe's doctrine of civil dominion and its escalation into heresy",
+      "source_page": 484
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "Which Bohemian disciple of Wycliffe was burned at the Council of Constance despite a promised safe conduct?",
+      "options": ["Cola di Rienzi", "Jan Huss", "Marsiglio of Padua", "Michael of Cesena"],
+      "correct_index": 1,
+      "explanation": "Huss, whose doctrines reached Bohemia through Wycliffe's influence via Richard II's Bohemian queen, was condemned and burned at Constance in 1415.",
+      "related_concept": "Wycliffe's doctrine of civil dominion and its escalation into heresy",
+      "source_page": 483
+    },
+    {
+      "type": "true_false",
+      "prompt": "According to Russell, the conciliar movement's broader ambition to permanently subordinate the papacy to regular General Councils ultimately succeeded.",
+      "options": ["True", "False"],
+      "correct_index": 1,
+      "explanation": "Russell notes Pope Eugenius IV ultimately defeated the reforming council at Basel by 1448, so the papacy emerged 'politically triumphant,' though with greatly diminished moral authority.",
+      "related_concept": "The Great Schism and the conciliar resolution",
+      "source_page": 483
+    }
+  ],
+  "essay_prompts": [
+    {
+      "task_type": "Explain",
+      "prompt": "Explain the multiple causes Russell identifies for the decline of papal authority in the fourteenth and fifteenth centuries, and assess which he treats as most decisive.",
+      "rubric": [
+        "Identifies at least four distinct causes (Avignon subservience, Jubilee/indulgences, Templars, Great Schism, rise of national monarchies and commercial wealth)",
+        "Uses specific textual evidence for each",
+        "Offers a reasoned assessment of relative importance",
+        "Clear, well-organized exposition"
+      ]
+    },
+    {
+      "task_type": "Analyze",
+      "prompt": "Analyze how John Wycliffe's doctrine escalated from a political/moral critique of clerical wealth into full doctrinal heresy, and explain why Russell treats this escalation as characteristic of the broader forces undermining the papacy in this period.",
+      "rubric": [
+        "Traces the stages of Wycliffe's doctrinal development accurately",
+        "Connects Wycliffe's case to the chapter's broader themes of clerical corruption and papal decline",
+        "Discusses the role of English political convenience in his protection",
+        "Well-organized, uses specific textual evidence"
+      ]
+    }
+  ],
+  "extraction_confidence": "high"
+}
