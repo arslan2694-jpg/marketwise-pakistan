@@ -18,13 +18,36 @@ npm install   # first time only
 npm run dev   # http://localhost:3000
 ```
 
-Production build:
+Production build (runs `next start`, a small Node server):
 
 ```bash
 cd western-philosophy/web
 npm run build
 npm start
 ```
+
+## Standalone static export (no server required)
+
+`next.config.ts` sets `output: "export"`, so `next build` also emits a
+plain folder of static HTML/CSS/JS at `western-philosophy/web/out/` — 817
+pre-rendered pages (every chapter, philosopher, concept, school, plus the
+static routes), each fully self-contained with no Node process needed to
+serve them:
+
+```bash
+cd western-philosophy/web
+npm run build          # generates ./out
+npx serve out           # or: python3 -m http.server 8080 --directory out
+```
+
+`out/` is regenerated on every build and is gitignored (like
+`node_modules`/`.next`) rather than committed — treat it the same as any
+other build artifact. Deploy it to any static host (GitHub Pages, Netlify,
+S3 + CloudFront, Nginx, etc.) by copying `out/`'s contents to the host's
+web root. If it's deployed under a sub-path (e.g.
+`your-domain.com/western-philosophy/` alongside the existing MarketWise
+app rather than at the domain root), add `basePath: "/western-philosophy"`
+to `next.config.ts` before building, so internal links resolve correctly.
 
 ## Rebuilding the educational dataset from the PDF
 
