@@ -1,0 +1,384 @@
+ignores. What he says on this subject, therefore, is largely beside the mark. 
+At the same time, it must be admitted that, unless words, to some extent, had fixed meanings,
+discourse would be impossible. Here again, however, it is easy to be too absolute. Words do
+change their meanings; take, for example, the word "idea." It is only by a considerable process of
+education that we learn to give to this word something like the meaning which Plato gave to it. It
+is necessary that the changes in the meanings of words should be slower than the changes that the
+words describe; but it is not necessary that there should be no changes in the meanings of words.
+Perhaps this does not apply to the abstract words of logic and mathematics, but these words, as we
+have seen, apply only to the form, not to the matter, of propositions. Here, again, we find that
+logic and mathematics are peculiar. Plato, under the influence of the Pythagoreans, assimilated
+other knowledge too much to mathematics. He shared this mistake with many of the greatest
+philosophers, but it was a mistake none the less. 
+CHAPTER XIX Aristotle's Metaphysics 
+IN reading any important philosopher, but most of all in reading Aristotle, it is necessary to study
+him in two ways: with reference to his predecessors, and with reference to his successors. In the
+former aspect, Aristotle's merits are enormous; in the latter, his demerits are equally enormous.
+For his demerits, however, his successors are more responsible than he is. He came at the end of
+the creative period in Greek thought, and after his death it was two thousand years before the
+world produced any philosopher who could be regarded as approximately his equal. Towards the
+end of this long period his authority had become almost as unquestioned as that of the Church,
+and in science, as well as in philosophy, had become a serious obstacle to progress. Ever since the
+beginning of 
+-159- 
+
+the seventeenth century, almost every serious intellectual advance has had to begin with an
+attack on some Aristotelian doctrine; in logic, this is still true at the present day. But it would
+have been at least as disastrous if any of his predecessors (except perhaps Democritus) had
+acquired equal authority. To do him justice, we must, to begin with, forget his excessive
+posthumous fame, and the equally excessive posthumous condemnation to which it led. 
+Aristotle was born, probably in 384 B.C., at Stagyra in Thrace. His father had inherited the
+position of family physician to the king of Macedonia. At about the age of eighteen Aristotle
+came to Athens and became a pupil of Plato; he remained in the Academy for nearly twenty
+years, until the death of Plato in 348-7 B.C. He then travelled for a time, and married either the
+sister or the niece of a tyrant named Hermias. ( Scandal said she was the daughter or concubine
+of Hermias, but both stories are disproved by the fact that he was a eunuch.) In 343 B.C. he
+became tutor to Alexander, then thirteen years old, and continued in that position until, at the
+age of sixteen, s was pronounced by his father to be of age, and was appointed regent during
+Philip's absence. Everything one would wish to know of the relations of Aristotle and
+Alexander is unascertainable, the more so as legends were soon invented on the subject. There
+are letters between them which are generally regarded as forgeries. People who admire both
+men suppose that the tutor influenced the pupil. Hegel thinks that Alexander's career shows the
+practical usefulness of philosophy. As to this, A. W. Benn says: "It would be unfortunate if
+philosophy had no better testimonial to show for herself than the character of Alexander. . . .
+Arrogant, drunken, cruel, vindictive, and grossly superstitious, he united the vices of a Highland
+chieftain to the frenzy of an Oriental despot." * 
+For my part, while I agree with Benn about the character of Alexander, I nevertheless think that
+his work was enormously important and enormously beneficial, since, but for him, the whole
+tradition of Hellenic civilization might well have perished. As to Aristotle's influence on him,
+we are left free to conjecture whatever seems to us most plausible. For my part, I should
+suppose it nil. Alexander was an ambitious and passionate boy, on bad terms with his father,
+and 
+____________________ 
+* The Greek Philosophers, Vol. I, p. 285. 
+-160- 
+
+presumably impatient of schooling. Aristotle thought no State should have as many as one
+hundred thousand citizens, * and preached the doctrine of the golden mean. I cannot imagine
+his pupil regarding him as anything but a prosy old pedant, set over him by his father to keep
+him out of mischief. Alexander, it is true, had a certain snobbish respect for Athenian
+civilization, but this was common to his whole dynasty, who wished to prove that they were not
+barbarians. It was analogous to the feeling of nineteenth-century Russian aristocrats for Paris.
+This, therefore, was not attributable to Aristotle's influence. And I do not see anything else in
+Alexander that could possibly have come from this source. 
+It is more surprising that Alexander had so little influence on Aristotle, whose speculations on
+politics were blandly oblivious of the fact that the era of City States had given way to the era of
+empires. I suspect that Aristotle, to the end, thought of him as "that idle and headstrong boy,
+who never could understand anything of philosophy." On the whole, the contacts of these two
+great men seem to have been as unfruitful as if they had lived in different worlds. 
+From 335 B.C. to 323 B.C. (in which latter year Alexander died), Aristotle lived at Athens. It
+was during these twelve years that he founded his school and wrote most of his books. At the
+death of Alexander, the Athenians rebelled, and turned on his friends, including Aristotle, who
+was indicted for impiety, but, unlike Socrates, fled to avoid punishment. In the next year ( 322)
+he died. 
+Aristotle, as a philosopher, is in many ways very different from all his predecessors. He is the
+first to write like a professor: his treatises are systematic, his discussions are divided into heads,
+he is a professional teacher, not an inspired prophet. His work is critical, careful, pedestrian,
+without any trace of Bacchic enthusiasm. The Orphic elements in Plato are watered down in
+Aristotle, and mixed with a strong dose of common sense; where he is Platonic, one feels that
+his natural temperament has been overpowered by the teaching to which he has been subjected.
+He is not passionate, or in any profound sense religious. The errors of his predecessors were the
+glorious errors of youth attempting the impossible; his errors are those of age which cannot free
+itself of habitual prejudices. He is best in 
+____________________ 
+* Ethics, 1170b. 
+-161- 
+
+detail and in criticism; he fails in large construction, for lack of fundamental clarity and Titanic
+fire. 
+It is difficult to decide at what point to begin an account of Aristotle's metaphysics, but perhaps
+the best place is his criticism of the theory of ideas and his own alternative doctrine of universals.
+He advances against the ideas a number of very good arguments, most of which are already to be
+found in Plato Parmenides. The strongest argument is that of the "third man": if a man is a man
+because he resembles the ideal man, there must be a still more ideal man to whom both ordinary
+men and the ideal man are similar. Again, Socrates is both a man and an animal, and the question
+arises whether the ideal man is an ideal animal; if he is, there must be as many ideal animals as
+there are species of animals. It is needless to pursue the matter; Aristotle makes it obvious that,
+when a number of individuals share a predicate, this cannot be because of relation to something of
+the same kind as themselves, but more ideal. This much may be taken as proved, but Aristotle's
+own doctrine is far from clear. It was this lack of clarity that made possible the medieval
+controversy between nominalists and realists. 
+Aristotle's metaphysics, roughly speaking, may be described as Plato diluted by common sense.
+He is difficult because Plato and common sense do not mix easily. When one tries to understand
+him, one thinks part of the time that he is expressing the ordinary views of a person innocent of
+philosophy, and the rest of the time that he is setting forth Platonism with a new vocabulary. It
+does not do to lay too much stress on any single passage, because there is liable to be a correction
+or modification of it in some later passage. On the whole, the easiest way to understand both his
+theory of universals and his theory of matter and form is to set forth first the common-sense
+doctrine which is half of his view, and then to consider the Platonic modifications to which he
+subjects it. 
+Up to a certain point, the theory of universals is quite simple. In language, there are proper names,
+and there are adjectives. The proper names apply to "things" or "persons," each of which is the
+only thing or person to which the name in question applies. The sun, the moon, France, Napoleon,
+are unique; there are not a number of instances of things to which these names apply. On the other
+hand, words like "cat," "dog," "man" apply to many different things. The 
+-162- 
+
+problem of universals is concerned with the meanings of such words, and also of adjectives,
+such as "white," "hard," "round," and so on. He says:* "By the term 'universal' I mean that
+which is of such a nature as to be predicated of many subjects, by 'individual' that which is not
+thus predicated." 
+What is signified by a proper name is a "substance," while what is signified by an adjective or
+class-name, such as "human" or "man," is called a "universal." A substance is a "this," but a
+universal is a "such"--it indicates the sort of thing, not the actual particular thing. A universal is
+not a substance, because it is not a "this." ( Plato's heavenly bed would be a "this" to those who
+could perceive it; this is a matter as to which Aristotle disagrees with Plato.) "It seems
+impossible," Aristotle says, "that any universal term should be the name of a substance. For . . .
+the substance of each thing is that which is peculiar to it, which does not belong to anything
+else; but the universal is common, since that is called universal which is such as to belong to
+more than one thing." The gist of the matter, so far, is that a universal cannot exist by itself, but
+only in particular things. 
+Superficially, Aristotle's doctrine is plain enough. Suppose I say "there is such a thing as the
+game of football," most people would regard the remark as a truism. But if I were to infer that
+football could exist without football-players, I should be rightly held to be talking nonsense.
+Similarly, it would be held, there is such a thing as parenthood, but only because there are
+parents; there is such a thing as sweetness, but only because there are sweet things; and there is
+redness, but only because there are red things. And this dependence is thought to be not
+reciprocal: the men who play football would still exist even if they never played football; things
+which are usually sweet may turn sour; and my face, which is usually red, may turn pale without
+ceasing to be my face. In this way we are led to conclude that what is meant by an adjective is
+dependent for its being on what is meant by a proper name, but not vice versa. This is, I think,
+what Aristotle means. His doctrine on this point, as on many others, is a common-sense
+prejudice pedantically expressed. 
+But it is not easy to give precision to the theory. Granted that football could not exist without
+football-players, it could perfectly well 
+____________________ 
+* On Interpretation, 17a. 
+-163- 
+
+exist without this or that football-player. And granted that a person can exist without playing
+football, he nevertheless cannot exist without doing something. The quality redness cannot exist
+without some subject, but it can exist without this or that subject; similarly a subject cannot exist
+without some quality, but can exist without this or that quality. The supposed ground for the
+distinction between things and qualities thus seems to be illusory. 
+The true ground of the distinction is, in fact, linguistic; it is derived from syntax. There are proper
+names, adjectives, and relationwords; we may say "John is wise, James is foolish, John is taller
+than James." Here "John" and "James" are proper names, "wise" and "foolish" are adjectives, and
+"taller" is a relation-word. Metaphysicians, ever since Aristotle, have interpreted these syntactical
+differences metaphysically: John and James are substances, wisdom and folly are universals.
+(Relation-words were ignored or misinterpreted.) It may be that, given sufficient care,
+metaphysical differences can be found that have some relation to these syntactical differences, but,
+if so, it will be only by means of a long process, involving, incidentally, the creation of an
+artificial philosophical language. And this language will contain no such names as "John" and
+"James," and no such adjectives as "wise" and "foolish"; all the words of ordinary languages will
+have yielded to analysis, and been replaced by words having a less complex significance. Until
+this labour has been performed, the question of particulars and universals cannot be adequately
+discussed. And when we reach the point at which we can at last discuss it, we shall find that the
+question we are discussing is quite quite different from what we supposed it to be at the outset. 
+If, therefore, I have failed to make Aristotle's theory of universals clear, that is (I maintain)
+because it is not clear. But it is certainly an advance on the theory of ideas, and is certainly
+concerned with a genuine and very important problem. 
+There is another term which is important in Aristotle and in his scholastic followers, and that is
+the term "essence." This is by no means synonymous with "universal." Your "essence" is "what
+you are by your very nature." It is, one may say, those of your properties which you cannot lose
+without ceasing to be yourself. Not only an individual thing, but a species, has an essence. The
+definition of a species should consist in mentioning its essence. I shall return to the conception of 
+-164- 
+
+"essence" in connection with Aristotle's logic. For the present I will merely observe that it seems
+to me a muddle-headed action, incapable of precision. 
+The next point in Aristotle's metaphysics is the distinction of "form" and "matter." (It must be
+understood that "matter," in the sense in which it is opposed to "form," is different from "matter"
+as opposed to "mind.") 
+Here, again, there is a common-sense basis for Aristotle's theory, but here, more than in the case
+of universals, the Platonic modifications are very important. We may start with a marble statue;
+here marble is the matter, while the shape conferred by the sculptor is the form. Or, to take
+Aristotle's examples, if a man makes a bronze sphere, bronze is the matter, and sphericity is the
+form; while in the case of a calm sea, water is the matter and smoothness is the form. So far, all is
+simple. 
+He goes on to say that it is in virtue of the form that the matter is some one definite thing, and this
+is the substance of the thing. What Aristotle means seems to be plain common sense: a "thing"
+must be bounded, and the boundary constitutes its form. Take, say, a volume of water: any part of
+it can be marked off from the rest by being enclosed in a vessel, and then this part becomes a
+"thing," but so long as the part is in no way marked out from the rest of the homogeneous mass it
+is not a "thing." A statue is a "thing," and the marble of which it is composed is, in a sense,
+unchanged from what it was as part of a lump or as part of the contents of a quarry. We should not
+naturally say that it is the form that confers substantiality, but that is because the atomic
+hypothesis is ingrained in our imagination. Each atom, however, if it is a "thing," is so in virtue of
+its being delimited from other atoms, and so having, in some sense, a "form." 
+We now come to a new statement, which at first sight seems difficult. The soul, we are told, is the
+form of the body. Here it is clear that "form" does not mean "shape." I shall return later to the
+sense in which the soul is the form of the body; for the present, I will only observe that, in
+Aristotle's system, the soul is what makes the body one thing, having unity of purpose, and the
+characteristics that we associate with the word "organism." The purpose of an eye is to see, but it
+cannot see when parted from its body. In fact, it is the soul that sees. 
+It would seem, then, that "form" is what gives unity to a portion 
+-165- 
+
+of matter, and that this unity is usually, if not always, teleological. But "form" turns out to be
+much more than this, and the more is very difficult. 
+The form of a thing, we are told, is its essence and primary substance. Forms are substantial,
+although universals are not. When a man makes a brazen sphere, both the matter and the form
+already existed, and all that he does is to bring them together; the man does not make the form,
+any more than he makes the brass. Not everything has matter; there are eternal things, and these
+have no matter, except those of them that are movable in space. Things increase in actuality by
+acquiring form; matter without form is only a potentiality. 
+The view that forms are substances, which exist independently of the matter in which they are
+exemplified, seems to expose Aristotle to his own arguments against Platonic ideas. A form is
+intended by him to be something quite different from a universal, but it has many of the same
+characteristics. Form is, we are told, more real than matter; this is reminiscent of the sole reality
+of the ideas. The change that Aristotle makes in Plato's metaphysic is, it would seem, less than
+he represents it as being. This view is taken by Zeller, who, on the question of matter and form,
+says: * 
+The final explanation of Aristotle's want of clearness on this subject is, however, to be found in
+the fact that he had only half emancipated himself, as we shall see, from Plato's tendency to
+hypostatise ideas. The 'Forms' had for him, as the 'Ideas' had for Plato, a metaphysical existence
+of their own, as conditioning all individual things. And keenly as he followed the growth of
+ideas out of experience, it is none the less true that these ideas, especially at the point where
+they are farthest removed from experience and immediate perception, are metamorphosed in the
+end from a logical product of human thought into an immediate presentment of a supersensible
+world, and the object, in that sense, of an intellectual intuition. 
+I do not see how Aristotle could have found a reply to this criticism. 
+The only answer that I can imagine would be one that maintained that no two things could have
+the same form. If a man makes two brass spheres (we should have to say), each has its own
+special 
+____________________ 
+* Aristotle, Vol. I, p. 204. 
+-166- 
+
+sphericity, which is substantial and particular, an instance of the universal "sphericity," but not
+identical with it. I do not think the language of the passages I quoted would readily support this
+interpretation. And it would be open to the objection that the particular sphericity would, on
+Aristotle's view, be unknowable, whereas it is of the essence of his metaphysics that, as there
+comes to be more of form and less of matter, things become gradually more knowable. This is
+only consistent with the rest of his views if the form can be embodied in many particular things. If
+he were to say that there are as many forms that are instances of sphericity as there are spherical
+things, he would have to make very radical alterations in his philosophy. For instance, his view
+that a form is identical with its essence is incompatible with the above suggested escape. 
+The doctrine of matter and form in Aristotle is connected with the distinction of potentiality and
+actuality. Bare matter is conceived as a potentiality of form; all change is what we should call
+"evolution," in the sense that after the change the thing in question has more form than before.
+That which has more form is considered to be more "actual." God is pure form and pure actuality;
+in Him, therefore, there can be no change. It will be seen that this doctrine is optimistic and
+teleological: the universe and everything in it is developing towards something continually better
+than what went before. 
+The concept of potentiality is convenient in some connections, provided it is so used that we can
+translate our statements into a form in which the concept is absent. "A block of marble is a
+potential statue" means "from a block of marble, by suitable acts, a statue is produced." But when
+potentiality is used as a fundamental and irreducible concept, it always conceals confusion of
+thought. Aristotle's use of it is one of the bad points in his system. 
+Aristotle's theology is interesting, and closely connected with the rest of his metaphysics--indeed,
+"theology" is one of his names for what we call "metaphysics." (The book which we know under
+that name was not so called by him.) 
+There are, he says, three kinds of substances: those that are sensible and perishable, those that are
+sensible but not perishable, and those that are neither sensible nor perishable. The first class
+includes plants and animals, the second includes the heavenly bodies (which Aristotle 
+-167- 
+
+believed to undergo no change except motion), the third includes the rational soul in man, and
+also God. 
+The main argument for God is the First Cause: there must be something which originates motion,
+and this something must itself be unmoved, and must be eternal, substance, and actuality. The
+object of desire and the object of thought, Aristotle says, cause movement in this way, without
+themselves being in motion. So God produces motion by being loved, whereas every other cause
+of motion works by being itself in motion (like a billiard ball). God is pure thought; for thought is
+what is best. "Life also belongs to God; for the actuality of thought is life, and God is that
+actuality; and God's self-dependent actuality is life most good and eternal. We say therefore that
+God is a living being, eternal, most good, so that life and duration continuous and eternal belong
+to God; for this is God" (1072b). 
+"It is clear then from what has been said that there is a substance which is eternal and unmovable
+and separate from sensible things, It has been shown that this substance cannot have any
+magnitude, but is without parts and indivisible. . . . But it has also been shown that it is impassive
+and unalterable; for all the other changes are posterior to change of place" (1073a). 
+God does not have the attributes of a Christian Providence, for it would derogate from His
+perfection to think about anything except what is perfect, i.e. Himself. "It must be of itself that the
+divine thought thinks (since it is the most excellent of things), and its thinking is a thinking on
+thinking." (1074b). We must infer that God does not know of the existence of our sublunary
+world. Aristotle, like Spinoza, holds that, while men must love God, it is impossible that God
+should love men. 
+God is not definable as "the unmoved mover." On the contrary, astronomical considerations lead
+to the conclusion that there are either forty-seven or fifty-five unmoved movers (1074a). The
+relation of these to God is not made clear; indeed the natural interpretation would be that there are
+forty-seven or fifty-five gods. For after one of the above passages on God Aristotle proceeds: "We
+must not ignore the question whether we are to suppose one such substance or more than one,"
+and at once embarks upon the argument that leads to the fortyseven or fifty-five unmoved movers.
+The conception of an unmoved mover is a difficult one. To a mod- 
+-168- 
+
+ern mind, it would seem that the cause of a change must be a previous change, and that, if the
+universe were ever wholly static, it would remain so eternally. To understand what Aristotle
+means, we must take account of what he says about causes. There are, according to him, four
+kinds of causes, which were called, respectively, material, formal, efficient, and final. Let us take
+again the man who is making a statue. The material cause of the statue is the marble, the formal
+cause is the essence of the statue to be produced, the efficient cause is the contact of the chisel
+with the marble, and the final cause is the end that the sculptor has in view. In modern
+terminology, the word "cause" would be confined to the efficient cause. The unmoved mover may
+be regarded as a final cause: it supplies a purpose for change, which is essentially an evolution
+towards likeness with God. 
+I said that Aristotle was not by temperament deeply religious, but this is only partly true. One
+could, perhaps, interpret one aspect of his religion, somewhat freely, as follows: 
+God exists eternally, as pure thought, happiness, complete selffulfilment, without any unrealized
+purposes. The sensible world, on the contrary, is imperfect, but it has life, desire, thought of an
+imperfect kind, and aspiration. All living things are in a greater or less degree aware of God, and
+are moved to action by admiration and love of God. Thus God is the final cause of all activity.
+Change consists in giving form to matter, but, where sensible things are concerned, a substratum
+of matter always remains. Only God consists of form without matter. The world is continually
+evolving towards a greater degree of form, and thus becoming progressively more like God. But
+the process cannot be completed, because matter cannot be wholly eliminated. This is a religion of
+progress and evolution, for God's static perfection moves the world only through the love that
+finite beings feel for Him. Plato was mathematical, Aristotle was biological; this accounts for the
+differences in their religions. 
+This would, however, be a one-sided view of Aristotle's religion; he has also the Greek love of
+static perfection and preference for contemplation rather than action. His doctrine of the soul
+illustrates this aspect of his philosophy. 
+Whether Aristotle taught immortality in any form, or not, was a vexed question among
+commentators. Averroes, who held that he did not, had followers in Christian countries, of whom
+the more 
+-169- 
+
+extreme were called Epicureans, and whom Dante found in hell. In fact, Aristotle's doctrine is
+complex, and easily lends itself to misunderstandings. In his book On the Soul, he regards the soul
+as bound up with the body, and ridicules the Pythagorean doctrine of transmigration (407b). The
+soul, it seems, perishes with the body: "it indubitably follows that the soul is inseparable from its
+body" (413a); but he immediately adds: "or at any rate certain parts of it are." Body and soul are
+related as matter and form: "the soul must be a substance in the sense of the form of a material
+body having life potentially within it. But substance is actuality, and thus soul is the actuality of a
+body as above characterized" (412a). Soul "is substance in the sense which corresponds to the
+definitive formula of a thing's essence. That means that it is the 'essential whatness' of a body of
+the character just assigned" (i.e. having life) (412b). "The soul is the first grade of actuality of a
+natural body having life potentially in it. The body so described is a body which is organized
+(412a). To ask whether soul and body are one is as meaningless as to ask whether the wax and the
+shape given it by the stamp are one (412b). Self-nutrition is the only psychic power possessed by
+plants (413a). The soul is the final cause of the body (414a). 
+In this book, he distinguishes between "soul" and "mind," making mind higher than soul, and less
+bound to the body. After speaking of the relation of soul and body, he says: "The case of mind is
+different; it seems to be an independent substance implanted within the soul and to be incapable of
+being destroyed" (408b). Again: "We have no evidence as yet about mind or the power to think; it
+seems to be a widely different kind of soul, differing as what is eternal from what is perishable; it
+alone is capable of existence in isolation from all other psychic powers. All the other parts of soul,
+it is evident from what we have said, are, in spite of certain statements to the contrary, incapable
+of separate existence" (413b). The mind is the part of us that understands mathematics and
+philosophy; its objects are timeless, and therefore it is regarded as itself timeless. The soul is what
+moves the body and perceives sensible objects; it is characterized by self-nutrition, sensation,
+thinking, and motivity (413b); but the mind has the higher function of thinking, which has no
+relation to the body or to the senses. Hence the mind can be immortal, though the rest of the soul
+cannot. 
+-170- 
+
+To understand Aristotle's doctrine of the soul. we must remember that the soul is the "form" of the
+body, and that spatial shape is one kind of "form." What is there in common is hte conferring of
+unity upon a certain amount of matter. The part of a block of marble which afterwards becomes a
+statue is, as yet, not sparated from the rest of the marble; it is not yet a "thing," and has not yet any
+unity. After the sculptor has made the statue, it has unity, which it derives from its shape. Now the
+esential feature of the soul, in virtue of which it is the "form" of the body, is that it makes the body
+an organic whole, having purposes as a unit. A single organ has purposes lying outside itself; the
+eye, in isolation, cannot see. Thus many things can be said in which an animal or plant as a whole
+is the subject, which cannot be said about any part of it. It is in this sense that organization, or
+form, confers substantiality. That which confers substantiality upon a plant or animal is what
+Aristotle calls it "soul." But "mind" is something different, less intimately bound up with the
+body; perhaps it is a part of the soul, but it is possessed by only a small minority of living beings
+(415a). Mind as speculation cannot be the cause of movement, for it never thinks about what is
+practicable, and never says what is to be avoided or what pursued (432b). 
+A similar doctrine, though with a slight change of terminology, is set forth in the Nicomachean
+Ethics. There is in the soul one element that is rational, and that is irrational. The irrational part is
+twofold: the vegetative, which is found in everything living, even in plants, and the appetitive,
+which exists in all animals (1102b). The life of the rational soul consists in contemplation, which
+is the completehappiness of man, though not fully attainable. "Such a life would be too high for
+man; for it is not in so far as he is man that he will live so, but in so far as something divine is
+present in him; and by so much as this is superior to our composite nature is its activity superior to
+that which is the exercise of the other kind of virtue (the practical kind). If reason is divine, then,
+in comparison with man, the life in accordance with it is divine in comparison in human life. But
+we must not follow those who advise us, being men, to think of human things, and being mortal,
+of mortal things, but must, so far as we can, make ourselves immortal, and strain every nerve ot
+live in accordance with the best thing in us; for even if it be small in bulk, 
+-171- 

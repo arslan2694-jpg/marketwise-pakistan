@@ -1,0 +1,202 @@
+trialism, with a scientific technique very different from traditional culture. A third cause was
+popular education, which conferred the power to read and write, but did not confer culture; this
+enabled a new type of demagogue to practise a new type of propaganda, as seen in the
+dictatorships. 
+Both for good and evil, therefore, the day of the cultured gentleman is past. 
+CHAPTER XXII Aristotle's Logic 
+ARISTOTLE'S influence, which was very great in many different fields, was greatest of all in
+logic. In late antiquity, when Plato was still supreme in metaphysics, Aristotle was the recognized
+authority in logic, and he retained this position throughout the Middle Ages. It was not till the
+thirteenth century that Christian philosophers accorded him supremacy in the field of metaphysics.
+This supremacy was largely lost after the Renaissance, but his supremacy in logic survived. Even
+at the present day, all Catholic teachers of philosophy and many others still obstinately reject the
+discoveries of modern logic, and adhere with a strange tenacity to a system which is as definitely
+antiquated as Ptolemaic astronomy. This makes it difficult to do historical justice to Aristotle. His
+present-day influence is so inimical to clear thinking that it is hard to remember how great an
+advance he made upon all his predecessors (including Plato), or how admirable his logical work
+would still seem if it had been a stage in a continual progress, instead of being (as in fact it was) a
+dead end, followed by over two thousand years of stagnation. In dealing with the predecessors of
+Aristotle, it is not necessary to remind the reader that they are not verbally inspired; one can
+therefore praise them for their ability without being supposed to subscribe to all their doctrines.
+Aristotle, on the contrary, is still, especially in logic, a battle-ground, and cannot be treated in a
+purely historical spirit. 
+-195- 
+
+Aristotle's most important work in logic is the doctrine of the syllogism. A syllogism is an
+argument consisting of three parts, a major premiss, a minor premiss, and a conclusion.
+Syllogisms are of a number of different kinds, each of which has a name, given by the scholastics.
+The most familiar is the kind called "Barbara": 
+All men are mortal (Major premiss). Socrates is a man (Minor premiss). Therefore: Socrates is
+mortal (Conclusion). Or: All men are mortal. All Greeks are men. Therefore: All Greeks are
+mortal. 
+( Aristotle does not distinguish between these two forms; this, as we shall see later, is a mistake.) 
+Other forms are: No fishes are rational, all sharks are fishes, therefore no sharks are rational. (This
+is called "Celarent.") 
+All men are rational, some animals are men, therefore some animals are rational. (This is called
+"Darii.") 
+No Greeks are black, some men are Greeks, therefore some men are not black. (This is called
+"Ferio.") 
+These four make up the "first figure"; Aristotle adds a second and third figure, and the schoolmen
+added a fourth. It is shown that the three later figures can be reduced to the first by various
+devices. 
+There are some inferences that can be made from a single premiss. From "some men are mortal"
+we can infer that "some mortals are men." According to Aristotle, this can also be inferred from
+"all men are mortal." From "no gods are mortal" we can infer "no mortals are gods," but from
+"some men are not Greeke" it does not follow that "some Greeks are not men." 
+Apart from such inferences as the above, Aristotle and his followers thought that all deductive
+inference, when strictly stated, is syllogistic. By setting forth all the valid kinds of syllogism, and
+setting out any suggested argument in syllogistic form, it should therefore be possible to avoid all
+fallacies. 
+This system was the beginning of formal logic, and, as such, was both important and admirable.
+But considered as the end, not the beginning, of formal logic, it is open to three kinds of criticism:
+-196- 
+
+(1) Formal defects within the system itself. 
+(2) Over-estimation of the syllogism, as compared to other forms of deductive argument. 
+(3) Over-estimation of deduction as a form of argument. 
+On each of these three, something must be said. 
+(1) Formal defects . Let us begin with the two statements "Socrates is a man" and "all Greeks are
+men." It is necessary to make a sharp distinction between these two, which is not done in
+Aristotelian logic. The statement "all Greeks are men" is commonly interpreted as implying that
+there are Greeks; without this implication, some of Aristotle's syllogisms are not valid. Take for
+instance: 
+"All Greeks are men, all Greeks are white, therefore some men are white." This is valid if there
+are Greeks, but not otherwise. If I were to say: 
+"All golden mountains are mountains, all golden mountains are golden, therefore some mountains
+are golden," my conclusion would be false, though in some sense my premisses would be true. If
+we are to be explicit, we must therefore divide the one statement "all Greeks are men" into two,
+one saying "there are Greeks," and the other saying "if anything is a Greek, it is a man." The latter
+statement is purely hypothetical, and does not imply that there are Greeks. 
+The statement "all Greeks are men" is thus much more complex in form than the statement
+"Socrates is a man." "Socrates is a man" has "Socrates" for its subject, but "all Greeks are men"
+does not have "all Greeks" for its subject, for there is nothing about "all Greeks" either in the
+statement "there are Greeks" or in the statement "if anything is a Greek it is a man." 
+This purely formal error was a source of errors in metaphysics and theory of knowledge. Consider
+the state of our knowledge in regard to the two propositions "Socrates is mortal" and "all men are
+mortal." In order to know the truth of "Socrates is mortal," most of us are content to rely upon
+testimony; but if testimony is to be reliable, it must lead us back to some one who knew Socrates
+and saw him dead. The one perceived fact--the dead body of Socrates--together with the
+knowledge that this was called "Socrates," was enough to assure us of the mortality of Socrates.
+But when it comes to "all men are mortal," the matter is different. The question of our knowledge
+of such general propositions is a very difficult one. Sometimes 
+-197- 
+
+they are merely verbal: "all Greeks are men" is known because nothing is called "a Greek" unless
+it is a man. Such general statements can be ascertained from the dictionary; they tell us nothing
+about the world except how words are used. But "all men are mortal" is not of this sort; there is
+nothing logically self-contradictory about an immortal man. We believe the proposition on the
+basis of induction, because there is no well-authenticated case of a man living more than (say) 150
+years; but this only makes the proposition probable, not certain. It cannot be certain so long as
+living men exist. 
+Metaphysical errors arose through supposing that "all men" is the subject of "all men are mortal"
+in the same sense as that in which "Socrates" is the subject of "Socrates is mortal." It made it
+possible to hold that, in some sense, "all men" denotes an entity of the same sort as that denoted
+by "Socrates." This led Aristotle to say that in a sense a species is a substance. He is careful to
+qualify this statement, but his followers, especially Porphyry, showed less caution. 
+Another error into which Aristotle falls through this mistake is to think that a predicate of a
+predicate can be a predicate of the original subject. If I say " Socrates is Greek, all Greeks are
+human," Aristotle thinks that "human" is a predicate of "Greek," while "Greek" is a predicate of
+"Socrates," and obviously "human" is a predicate of "Socrates." But in fact "human" is not a
+predicate of "Greek." The distinction between names and predicates, or, in metaphysical language,
+between particulars and universals, is thus blurred, with disastrous consequences to philosophy.
+One of the resulting confusions was to suppose that a class with only one member is identical with
+that one member. This made it impossible to have a correct theory of the number one, and led to
+endless bad metaphysics about unity. 
+(2) Over-estimation of the syllogism . The syllogism is only one kind of deductive argument. In
+mathematics, which is wholly deductive, syllogisms hardly ever occur. Of course it would be
+possible to re-write mathematical arguments in syllogistic form, but this would be very artificial
+and would not make them any more cogent. Take arithmetic, for example. If I buy goods worth
+$4.63, and tender a $5 bill in payment, how much change is due to me? To put this simple sum in
+the form of a syllogism would be absurd, and would tend to conceal the real nature of the
+argument. Again, within logic there are non-syllogistic inferences, such as: "A horse is an animal,
+there- 
+-198- 
+
+fore a horse's head is an animal's head." Valid syllogisms, in fact, are only some among valid
+deductions, and have no logical priority over others. The attempt to give pre-eminence to the
+syllogism in deduction misled philosophers as to the nature of mathematical reasoning. Kant, who
+perceived that mathematics is not syllogistic, inferred that it uses extra-logical principles, which,
+however, he supposed to be as certain as those of logic. He, like his predecessors, though in a
+different way, was misled by respect for Aristotle. 
+(3) Over-estimation of deduction . The Greeks in general attached more importance to deduction
+as a source of knowledge than modern philosophers do. In this respect, Aristotle was less at fault
+than Plato; he repeatedly admitted the importance of induction, and he devoted considerable
+attention to the question: how do we know the first premisses from which deduction must start?
+Nevertheless, he, like other Greeks, gave undue prominence to deduction in his theory of
+knowledge. We shall agree that Mr. Smith (say) is mortal, and we may, loosely, say that we know
+this because we know that all men are mortal. But what we really know is not "all men are
+mortal"; we know rather something like "all men born more than one hundred and fifty years ago
+are mortal, and so are almost all men born more than one hundred years ago." This is our reason
+for thinking that Mr. Smith will die. But this argument is an induction, not a deduction. It has less
+cogency than a deduction, and yields only a probability, not a certainty; but on the other hand it
+gives new knowledge, which deduction does not. All the important inferences outside logic and
+pure mathematics are inductive, not deductive; the only exceptions are law and theology, each of
+which derives its first principles from an unquestionable text, viz. the statute books or the
+scriptures. 
+Apart from The Prior Analytics, which deals with the syllogism, there are other writings of
+Aristotle which have considerable importance in the history of philosophy. One of these is the
+short work on The Categories. Porphyry the Neoplatonist wrote a commentary on this book,
+which had a very notable influence on medieval philosophy; but for the present let us ignore
+Porphyry and confine ourselves to Aristotle. 
+What, exactly, is meant by the word "category," whether in Aristotle or in Kant and Hegel, I must
+confess that I have never been able 
+-199- 
+
+to understand. I do not myself believe that the term "category" is in any way useful in philosophy,
+as representing any clear idea. There are, in Aristotle, ten categories: substance, quantity, quality,
+relation, place, time, position, state, action, and affection. The only definition offered of the term
+"category" is: "expressions which are in no way composite signify"--and then follows the above
+list. This seems to mean that every word of which the meaning is not compounded of the
+meanings of other words signifies a substance or a quantity or etc. There is no suggestion of any
+principle on which the list of ten categories has been compiled. 
+"Substance" is primarily what is not predicable of a subject nor present in a subject. A thing is
+said to be 'present in a subject" when, though not a part of the subject, it cannot exist without the
+subject. The instances given are a piece of grammatical knowledge which is present in a mind, and
+a certain whiteness which may be present in a body. A substance in the above primary sense is an
+individual thing or person or animal. But in a secondary sense a species or a genus-e.g., "man" or
+"animal"-may be called a substance. This secondary sense seems indefensible, and opened the
+door, in later writers, to much bad metaphysics. 
+The Posterior Analytics is a work largely concerned with a question which must trouble any
+deductive theory, namely: How are first premisses obtained? Since deduction must start from
+somewhere, we must begin with something unproved, which must be known otherwise than by
+demonstration. I shall not give Aristotle's theory in detail, since it depends upon the notion of
+essence. A definition, he says, is a statement of a thing's essential nature. The notion of essence is
+an intimate part of every philosophy subsequent to Aristotle, until we come to modern times. It is,
+in my opinion, a hopelessly muddle-headed notion, but its historical importance requires us to say
+something about it. 
+The "essence" of a thing appears to have meant "those of its properties which it cannot change
+without losing its identity." Socrates may be sometimes happy, sometimes sad; sometimes well,
+sometimes ill. Since he can change these properties without ceasing to be Socrates, they are no
+part of his essence. But it is supposed to be of the essence of Socrates that he is a man, though a
+Pythagorean, who believes in transmigration, will not admit this. In fact, the question of 
+-200- 
+
+"essence" is one as to the use of words. We apply the same name, on different occasions, to
+somewhat different occurrences, which we regard as manifestations of a single "thing" or
+"person." In fact, however, this is only a verbal convenience. The "essence" of Socrates thus
+consists of those properties in the absence of which we should not use the name "Socrates." The
+question is purely linguistic: a word may have an essence, but a thing cannot. 
+The conception of "substance," like that of "essence," is a transference to metaphysics of what is
+only a linguistic convenience. We find it convenient, in describing the world, to describe a certain
+number of occurrences as events in the life of "Socrates," and a certain number of others as events
+in the life of "Mr. Smith." This leads us to think of "Socrates" or "Mr. Smith" as denoting
+something that persists through a certain number of years, and as in some way more "solid" and
+"real" than the events that happen to him. If Socrates is ill, we think that Socrates, at other times,
+is well, and therefore the being of Socrates is independent of his illness; illness, on the other hand,
+requires somebody to be ill. But although Socrates need not be ill, something must be occurring to
+him if he is to be considered to exist. He is not, therefore, really any more "solid" than the things
+that happen to him. 
+"Substance," when taken seriously, is a concept impossible to free from difficulties. A substance
+is supposed to be the subject of properties, and to be something distinct from all its properties. But
+when we take away the properties, and try to imagine the substance by itself, we find that there is
+nothing left. To put the matter in another way: What distinguishes one substance from another?
+Not difference of properties, for, according to the logic of substance, difference of properties
+presupposes numerical diversity between the substances concerned. Two substances, therefore,
+must be just two, without being, in themselves, in any way distinguishable. How, then, are we
+ever to find out that they are two? 
+"Substance," in fact, is merely a convenient way of collecting events into bundles. What can we
+know about Mr. Smith? When we look at him, we see a pattern of colours; when we listen to him
+talking, we hear a series of sounds. We believe that, like us, he has thoughts and feelings. But
+what is Mr. Smith apart from all these occurrences? A mere imaginary hook, from which the
+occurrences 
+-201- 

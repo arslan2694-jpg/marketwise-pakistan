@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+:root {
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Academic light palette */
+  --page: #faf8f4;
+  --surface: #ffffff;
+  --surface-2: #f1ede4;
+  --ink: #1c1a17;
+  --ink-2: #4a453c;
+  --ink-3: #756e60;
+  --line: rgba(28, 26, 23, 0.12);
+  --line-strong: rgba(28, 26, 23, 0.22);
+  --brand: #6b2b2b;
+  --brand-strong: #4f1f1f;
+  --brand-soft: #f4e6e2;
+  --accent: #1f3a5f;
+  --accent-soft: #e4ebf3;
+  --ok: #2f6f4f;
+  --warn: #9a6a00;
+  --bad: #a3342f;
+  --shadow: 0 2px 10px rgba(28, 22, 15, 0.06), 0 1px 2px rgba(28, 22, 15, 0.05);
+  --radius: 10px;
+  --radius-sm: 6px;
+  --sidebar-w: 268px;
+  --topbar-h: 56px;
+}
+
+:root[data-theme="dark"] {
+  --page: #12100e;
+  --surface: #1a1815;
+  --surface-2: #221f1a;
+  --ink: #ece7de;
+  --ink-2: #bcb4a6;
+  --ink-3: #8b8375;
+  --line: rgba(236, 231, 222, 0.1);
+  --line-strong: rgba(236, 231, 222, 0.2);
+  --brand: #d99a8f;
+  --brand-strong: #e8b3a9;
+  --brand-soft: #2c1c1a;
+  --accent: #8fb0d9;
+  --accent-soft: #1a2531;
+  --ok: #7fbf9f;
+  --warn: #d9ab5c;
+  --bad: #e08b85;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #12100e;
+    --surface: #1a1815;
+    --surface-2: #221f1a;
+    --ink: #ece7de;
+    --ink-2: #bcb4a6;
+    --ink-3: #8b8375;
+    --line: rgba(236, 231, 222, 0.1);
+    --line-strong: rgba(236, 231, 222, 0.2);
+    --brand: #d99a8f;
+    --brand-strong: #e8b3a9;
+    --brand-soft: #2c1c1a;
+    --accent: #8fb0d9;
+    --accent-soft: #1a2531;
+    --ok: #7fbf9f;
+    --warn: #d9ab5c;
+    --bad: #e08b85;
+  }
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+* {
+  border-color: var(--line);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+.prose-reading {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--ink);
+}
+
+.prose-reading p {
+  margin-bottom: 1.1em;
+}
+
+::selection {
+  background: var(--brand-soft);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+  border-radius: 8px;
+}

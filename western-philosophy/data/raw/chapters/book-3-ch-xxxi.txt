@@ -1,0 +1,242 @@
+where it led to anarchy and disaster. Its work was largely undone by the Reformation and the
+Counter-reformation. But modern technique, while not altogether favourable to the lordly
+individual of the Renaissance, has revived the sense of the collective power of human
+communities. Man, formerly too humble, begins to think of himself as almost a God. The Italian
+pragmatist Papini urges us to substitute the "Imitation of God" for the "Imitation of Christ." 
+In all this I feel a grave danger, the danger of what might be called cosmic impiety. The concept of
+"truth" as something dependent upon facts largely outside human control has been one of the ways
+in which philosophy hitherto has inculcated the necessary element of humility. When this check
+upon pride is removed, a further step is taken on the road towards a certain kind of madness--the
+intoxication of power which invaded philosophy with Fichte, and to which modern men, whether
+philosophers or not, are prone. I am persuaded that this intoxication is the greatest danger of our
+time, and that any philosophy which, however unintentionally, contributes to it is increasing the
+danger of vast social disaster. 
+CHAPTER XXXI The Philosophy of Logical Analysis 
+IN philosophy ever since the time of Pythagoras there has been an opposition between the men
+whose thought was mainly inspired by mathematics and those who were more influenced by the
+empirical sciences. Plato, Thomas Aquinas, Spinoza, and Kant belong to what may be called the
+mathematical party; Democritus, Aristotle, and the modern empiricists from Locke onwards,
+belong to the opposite party. In our day a school of philosophy has arisen which sets to work to
+eliminate Pythagoreanism from the principles 
+of mathematics, and to combine empiricism with an interest in the deductive parts of human
+knowledge. The aims of this school are less spectacular than those of most philosophers in the
+past, but some of its achievements are as solid as those of the men of science. 
+The origin of this philosophy is in the achievements of mathematicians who set to work to
+purge their subject of fallacies and slipshod reasoning. The great mathematicians of the
+seventeenth century were optimistic and anxious for quick results; consequently they left the
+foundations of analytical geometry and the infinitesimal calculus insecure. Leibniz believed in
+actual infinitesimals, but although this belief suited his metaphysics it had no sound basis in
+mathematics. Weierstrass, soon after the middle of the nineteenth century, showed how to
+establish the calculus without infinitesimals, and thus at last made it logically secure. Next
+came Georg Cantor, who developed the theory of continuity and infinite number. "Continuity"
+had been, until he defined it, a vague word, convenient for philosophers like Hegel, who
+wished to introduce metaphysical muddles into mathematics. Cantor gave a precise significance
+to the word, and showed that continuity, as he defined it, was the concept needed by
+mathematicians and physicists. By this means a great deal of mysticism, such as that of
+Bergson, was rendered antiquated. 
+Cantor also overcame the long-standing logical puzzles about infinite number. Take the series
+of whole numbers from 1 onwards; how many of them are there? Clearly the number is not
+finite. Up to a thousand, there are a thousand numbers; up to a million, a million. Whatever
+finite number you mention, there are evidently more numbers than that, because from 1 up to
+the number in question there are just that number of numbers, and then there are others that are
+greater. The number of finite whole numbers must, therefore, be an infinite number. But now
+comes a curious fact: The number of even numbers must be the same as the number of all
+whole numbers. Consider the two rows: 
+1, 2, 3, 4, 5, 6, . . . . 
+
+2, 4, 6, 8, 10, 12, . . . .
+There is one entry in the lower row for every one in the top row; therefore the number of terms
+in the two rows must be the same, although the lower row consists of only half the terms in the
+top row. 
+-829- 
+Leibniz, who noticed this, thought it a contradiction, and concluded that, though there are infinite
+collections, there are no infinite numbers. Georg Cantor, on the contrary, boldly denied that it is a
+contradiction. He was right; it is only an oddity. 
+Georg Cantor defined an "infinite" collection as one which has parts containing as many terms as
+the whole collection contains. On this basis he was able to build up a most interesting
+mathematical theory of infinite numbers, thereby taking into the realm of exact logic a whole
+region formerly given over to mysticism and confusion. 
+The next man of importance was Frege, who published his first work in 1879, and his definition
+of "number" in 1884; but, in spite of the epoch-making nature of his discoveries, he remained
+wholly without recognition until I drew attention to him in 1903. It is remarkable that, before
+Frege, every definition of number that had been suggested contained elementary logical blunders.
+It was customary to identify "number" with "plurality." But an instance of "number" is a particular
+number, say 3, and an instance of 3 is a particular triad. The triad is a plurality, but the class of all
+triads--which Frege identified with the number 3--is a plurality of pluralities, and number in
+general, of which 3 is an instance, is a plurality of pluralities of pluralities. The elementary
+grammatical mistake of confounding this with the simple plurality of a given triad made the whole
+philosophy of number, before Frege, a tissue of nonsense in the strictest sense of the term
+"nonsense." 
+From Frege's work it followed that arithmetic, and pure mathematics generally, is nothing but a
+prolongation of deductive logic. This disproved Kant's theory that arithmetical propositions are
+"synthetic" and involve a reference to time. The development of pure mathematics from logic was
+set forth in detail in Principia Mathematica, by Whitehead and myself. 
+It gradually became clear that a great part of philosophy can be reduced to something that may be
+called "syntax," though the word has to be used in a somewhat wider sense than has hitherto been
+customary. Some men, notably Carnap, have advanced the theory that all philosophical problems
+are really syntactical, and that, when errors in syntax are avoided, a philosophical problem is
+thereby either solved or shown to be insoluble. I think this is an overstatement, but 
+-830- 
+
+there can be no doubt that the utility of philosophical syntax in relation to traditional problems is
+very great. 
+I will illustrate its utility by a brief explanation of what is called the theory of descriptions. By a
+"description" I mean a phrase such as "The present President of the United States," in which a
+person or thing is designated, not by name, but by some property which is supposed or known to
+be peculiar to him or it. Such phrases had given a lot of trouble. Suppose I say "The golden
+mountain does not exist," and suppose you ask "What is it that does not exist?" It would seem
+that, if I say "It is the golden mountain," I am attributing some sort of existence to it. Obviously I
+am not making the same statement as if I said, "The round square does not exist." This seemed to
+imply that the golden mountain is one thing and the round square is another, although neither
+exists. The theory of descriptions was designed to meet this and other difficulties. 
+According to this theory, when a statement containing a phrase of the form "the so-and-so" is
+rightly analysed, the phrase "the so-andso" disappears. For example, take the statement "Scott was
+the author of Waverley." The theory interprets this statement as saying: 
+"One and only one man wrote Waverley, and that man was Scott." Or, more fully: 
+"There is an entity c such that the statement 'x wrote Waverley' is true if x is c and false otherwise;
+moreover c is Scott." 
+The first part of this, before the word "moreover," is defined as meaning: "The author of Waverley
+exists (or existed or will exist)." Thus "The golden mountain does not exist" means: 
+"There is no entity c such that 'x is golden and mountainous is true when x is c, but not otherwise."
+With this definition the puzzle as to what is meant when we say "The golden mountain does not
+exist" disappears. 
+"Existence," according to this theory, can only be asserted of descriptions. We can say "The author
+of Waverley exists," but to say "Scott exists" is bad grammar, or rather bad syntax. This clears up
+two millennia of muddle-headedness about "existence," beginning with Plato Theaetetus. 
+One result of the work we have been considering is to dethrone mathematics from the lofty place
+that it has occupied since Pythagoras and Plato, and to destroy the presumption against empiricism
+which 
+-831- 
+
+has been derived from it. Mathematical knowledge, it is true, is not obtained by induction from
+experience; our reason for believing that 2 and 2 are 4 is not that we have so often found, by
+observation, that one couple and another couple together make a quartet. In this sense,
+mathematical knowledge is still not empirical. But it is also not a priori knowledge about the
+world. It is, in fact, merely verbal knowledge. "3" means "2 + 1," and "4" means "3 + 1." Hence it
+follows (though the proof is long) that "4" means the same as "2 + 2." Thus mathematical
+knowledge ceases to be mysterious. It is all of the same nature as the "great truth" that there are
+three feet in a yard. 
+Physics, as well as pure mathematics, has supplied material for the philosophy of logical analysis.
+This has occurred especially through the theory of relativity and quantum mechanics. 
+What is important to the philosopher in the theory of relativity is the substitution of space-time for
+space and time. Common sense thinks of the physical world as composed of "things" which
+persist through a certain period of time and move in space. Philosophy and physics developed the
+notion of "thing" into that of "material substance," and thought of material substance as consisting
+of particles, each very small, and each persisting throughout all time. Einstein substituted events
+for particles; each event had to each other a relation called "interval," which could be analysed in
+various ways into a timeelement and a space-element. The choice between these various ways was
+arbitrary, and no one of them was theoretically preferable to any other. Given two events A and B,
+in different regions, it might happen that according to one convention they were simultaneous,
+according to another A was earlier than B, and according to yet another B was earlier than A. No
+physical facts correspond to these different conventions. 
+From all this it seems to follow that events, not particles, must be the "stuff" of physics. What has
+been thought of as a particle will have to be thought of as a series of events. The series of events
+that replaces a particle has certain important physical properties, and therefore demands our
+attention; but it has no more substantiality than any other series of events that we might arbitrarily
+single out. Thus "matter" is not part of the ultimate material of the world, but merely a convenient
+way of collecting events into bundles. 
+Quantum theory reinforces this conclusion, but its chief philosophi- 
+-832- 
+
+cal importance is that it regards physical phenomena as possibly discontinuous. It suggests that, in
+an atom (interpreted as above), a certain state of affairs persists for a certain time, and then
+suddenly is replaced by a finitely different state of affairs. Continuity of motion, which had always
+been assumed, appears to have been a mere prejudice. The philosophy appropriate to quantum
+theory, however, has not yet been adequately developed. I suspect that it will demand even more
+radical departures from the traditional doctrine of space and time than those demanded by the
+theory of relativity. 
+While physics has been making matter less material, psychology has been making mind less
+mental. We had occasion in a former chapter to compare the association of ideas with the
+conditioned reflex. The latter, which has replaced the former, is obviously much more
+physiological. (This is only one illustration; I do not wish to exaggerate the scope of the
+conditioned reflex.) Thus from both ends physics and psychology have been approaching each
+other, and making more possible the doctrine of "neutral monism" suggested by William James's
+criticism of "consciousness." The distinction of mind and matter came into philosophy from
+religion, although, for a long time, it seemed to have valid grounds. I think that both mind and
+matter are merely convenient ways of grouping events. Some single events, I should admit, belong
+only to material groups, but others belong to both kinds of groups, and are therefore at once
+mental and material. This doctrine effects a great simplification in our picture of the structure of
+the world. 
+Modern physics and physiology throw a new light upon the ancient problem of perception. If there
+is to be anything that can be called "perception," it must be in some degree an effect of the object
+perceived, and it must more or less resemble the object if it is to be a source of knowledge of the
+object. The first requisite can only be fulfilled if there are causal chains which are, to a greater or
+less extent, independent of the rest of the world. According to physics, this is the case. Light-
+waves travel from the sun to the earth, and in doing so obey their own laws. This is only roughly
+true. Einstein has shown that light-rays are affected by gravitation. When they reach our
+atmosphere, they suffer refraction, and some are more scattered than others. When they reach a
+human eye, all sorts of things happen which would not happen elsewhere, ending up with what we
+call "seeing the 
+-833- 
+
+sun." But although the sun of our visual experience is very different from the sun of the
+astronomer, it is still a source of knowledge as to the latter, because "seeing the sun" differs from
+"seeing the moon" in ways that are causally connected with the difference between the
+astronomer's sun and the astronomer's moon. What we can know of physical objects in this way,
+however, is only certain abstract properties of structure. We can know that the sun is round in a
+sense, though not quite the sense in which what we see is round; but we have no reason to suppose
+that it is bright or warm, because physics can account for its seeming so without supposing that it
+is so. Our knowledge of the physical world, therefore, is only abstract and mathematical. 
+Modern analytical empiricism, of which I have been giving an outline, differs from that of Locke,
+Berkeley, and Hume by its incorporation of mathematics and its development of a powerful
+logical technique. It is thus able, in regard to certain problems, to achieve definite answers, which
+have the quality of science rather than of philosophy. It has the advantage, as compared with the
+philosophies of the systembuilders, of being able to tackle its problems one at a time, instead of
+having to invent at one stroke a block theory of the whole universe. Its methods, in this respect,
+resemble those of science. I have no doubt that, in so far as philosophical knowledge is possible, it
+is by such methods that it must be sought; I have also no doubt that, by these methods, many
+ancient problems are completely soluble. 
+There remains, however, a vast field, traditionally included in philosophy, where scientific
+methods are inadequate. This field includes ultimate questions of value; science alone, for
+example, cannot prove that it is bad to enjoy the infliction of cruelty. Whatever can be known, can
+be known by means of science; but things which are legitimately matters of feeling lie outside its
+province. 
+Philosophy, throughout its history, has consisted of two parts inharmoniously blended: on the one
+hand a theory as to the nature of the world, on the other an ethical or political doctrine as to the
+best way of living. The failure to separate these two with sufficient clarity has been a source of
+much confused thinking. Philosophers, from Plato to William James, have allowed their opinions
+as to the constitution of the universe to be influenced by the desire for edification: knowing, as
+they supposed, what beliefs would make men virtuous, 
+-834- 
+
+they have invented arguments, often very sophistical, to prove that these beliefs are true. For my
+part I reprobate this kind of bias, both on moral and on intellectual grounds. Morally, a
+philosopher who uses his professional competence for anything except a disinterested search for
+truth is guilty of a kind of treachery. And when he assumes, in advance of inquiry, that certain
+beliefs, whether true or false, are such as to promote good behaviour, he is so limiting the scope of
+philosophical speculation as to make philosophy trivial; the true philosopher is prepared to
+examine all preconceptions. When any limits are placed, consciously or unconsciously, upon the
+pursuit of truth, philosophy becomes paralysed by fear, and the ground is prepared for a
+government censorship punishing those who utter "dangerous thoughts"--in fact, the philosopher
+has already placed such a censorship over his own investigations. 
+Intellectually, the effect of mistaken moral considerations upon philosophy has been to impede
+progress to an extraordinary extent. I do not myself believe that philosophy can either prove or
+disprove the truth of religious dogmas, but ever since Plato most philosophers have considered it
+part of their business to produce "proofs" of immortality and the existence of God. They have
+found fault with the proofs of their predecessors--SaintThomas rejected Saint Anselm's proofs,
+and Kant rejected Descartes'--but they have supplied new ones of their own. In order to make their
+proofs seem valid, they have had to falsify logic, to make mathematics mystical, and to pretend
+that deep-seated prejudices were heaven-sent intuitions. 
+All this is rejected by the philosophers who make logical analysis the main business of
+philosophy. They confess frankly that the human intellect is unable to find conclusive answers to
+many questions of profound importance to mankind, but they refuse to believe that there is some
+"higher" way of knowing, by which we can discover truths hidden from science and the intellect.
+For this renunciation they have been rewarded by the discovery that many questions, formerly
+obscured by the fog of metaphysics, can be answered with precision, and by objective methods
+which introduce nothing of the philosopher's temperament except the desire to understand. Take
+such questions as: What is number? What are space and time? What is mind, and what is matter? I
+do not say that we can here and now give definitive answers to all these ancient questions, but I do
+say that 
+a method has been discovered by which, as in science, we can make successive approximations to
+the truth, in which each new stage results from an improvement, not a rejection, of what has gone
+before. 
+In the welter of conflicting fanaticisms, one of the few unifying forces is scientific truthfulness, by
+which I mean the habit of basing our beliefs upon observations and inferences as impersonal, and
+as much divested of local and temperamental bias, as is possible for human beings. To have
+insisted upon the introduction of this virtue into philosophy, and to have invented a powerful
+method by which it can be rendered fruitful, are the chief merits of the philosophical school of
+which I am a member. The habit of careful veracity acquired in the practice of this philosophical
+method can be extended to the whole sphere of human activity, producing, wherever it exists, a
+lessening of fanaticism with an increasing capacity of sympathy and mutual understanding. In
+abandoning a part of its dogmatic pretensions, philosophy does not cease to suggest and inspire a
+way of life. 

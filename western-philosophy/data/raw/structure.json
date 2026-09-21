@@ -1,0 +1,619 @@
+{
+  "books": [
+    {
+      "id": "book-1",
+      "order": 1,
+      "title": "Ancient Philosophy",
+      "start_page": 19,
+      "parts": [
+        {
+          "id": "book-1-part-1",
+          "order": 1,
+          "title": "The Pre-Socratics",
+          "start_page": 20,
+          "chapters": [
+            {
+              "id": "book-1-ch-i",
+              "roman": "I",
+              "title": "The Rise of Greek Civilization",
+              "start_page": 20,
+              "end_page": 40
+            },
+            {
+              "id": "book-1-ch-ii",
+              "roman": "II",
+              "title": "The Milesian School",
+              "start_page": 41,
+              "end_page": 45
+            },
+            {
+              "id": "book-1-ch-iii",
+              "roman": "III",
+              "title": "Pythagoras",
+              "start_page": 46,
+              "end_page": 54
+            },
+            {
+              "id": "book-1-ch-iv",
+              "roman": "IV",
+              "title": "Heraclitus",
+              "start_page": 55,
+              "end_page": 64
+            },
+            {
+              "id": "book-1-ch-v",
+              "roman": "V",
+              "title": "Parmenides",
+              "start_page": 65,
+              "end_page": 69
+            },
+            {
+              "id": "book-1-ch-vi",
+              "roman": "VI",
+              "title": "Empedocles",
+              "start_page": 70,
+              "end_page": 74
+            },
+            {
+              "id": "book-1-ch-vii",
+              "roman": "VII",
+              "title": "Athens in Relation to Culture",
+              "start_page": 75,
+              "end_page": 77
+            },
+            {
+              "id": "book-1-ch-viii",
+              "roman": "VIII",
+              "title": "Anaxagoras",
+              "start_page": 78,
+              "end_page": 80
+            },
+            {
+              "id": "book-1-ch-ix",
+              "roman": "IX",
+              "title": "The Atomists",
+              "start_page": 81,
+              "end_page": 89
+            },
+            {
+              "id": "book-1-ch-x",
+              "roman": "X",
+              "title": "Protagoras",
+              "start_page": 90,
+              "end_page": 97
+            }
+          ]
+        },
+        {
+          "id": "book-1-part-2",
+          "order": 2,
+          "title": "Socrates, Plato, and Aristotle",
+          "start_page": 98,
+          "chapters": [
+            {
+              "id": "book-1-ch-xi",
+              "roman": "XI",
+              "title": "Socrates",
+              "start_page": 98,
+              "end_page": 109
+            },
+            {
+              "id": "book-1-ch-xii",
+              "roman": "XII",
+              "title": "The Influence of Sparta",
+              "start_page": 110,
+              "end_page": 119
+            },
+            {
+              "id": "book-1-ch-xiii",
+              "roman": "XIII",
+              "title": "The Sources of Plato's Opinions",
+              "start_page": 120,
+              "end_page": 123
+            },
+            {
+              "id": "book-1-ch-xiv",
+              "roman": "XIV",
+              "title": "Plato's Utopia",
+              "start_page": 124,
+              "end_page": 134
+            },
+            {
+              "id": "book-1-ch-xv",
+              "roman": "XV",
+              "title": "The Theory of Ideas",
+              "start_page": 135,
+              "end_page": 147
+            },
+            {
+              "id": "book-1-ch-xvi",
+              "roman": "XVI",
+              "title": "Plato's Theory of Immortality",
+              "start_page": 148,
+              "end_page": 158
+            },
+            {
+              "id": "book-1-ch-xvii",
+              "roman": "XVII",
+              "title": "Plato's Cosmogony",
+              "start_page": 159,
+              "end_page": 164
+            },
+            {
+              "id": "book-1-ch-xviii",
+              "roman": "XVIII",
+              "title": "Knowledge and Perception in Plato",
+              "start_page": 165,
+              "end_page": 174
+            },
+            {
+              "id": "book-1-ch-xix",
+              "roman": "XIX",
+              "title": "Aristotle's Metaphysics",
+              "start_page": 175,
+              "end_page": 187
+            },
+            {
+              "id": "book-1-ch-xx",
+              "roman": "XX",
+              "title": "Aristotle's Ethics",
+              "start_page": 188,
+              "end_page": 199
+            },
+            {
+              "id": "book-1-ch-xxi",
+              "roman": "XXI",
+              "title": "Aristotle's Politics",
+              "start_page": 200,
+              "end_page": 210
+            },
+            {
+              "id": "book-1-ch-xxii",
+              "roman": "XXII",
+              "title": "Aristotle's Logic",
+              "start_page": 211,
+              "end_page": 217
+            },
+            {
+              "id": "book-1-ch-xxiii",
+              "roman": "XXIII",
+              "title": "Aristotle's Physics",
+              "start_page": 218,
+              "end_page": 222
+            },
+            {
+              "id": "book-1-ch-xxiv",
+              "roman": "XXIV",
+              "title": "Early Greek Mathematics and Astronomy",
+              "start_page": 223,
+              "end_page": 232
+            }
+          ]
+        },
+        {
+          "id": "book-1-part-3",
+          "order": 3,
+          "title": "Ancient Philosophy after Aristotle",
+          "start_page": 233,
+          "chapters": [
+            {
+              "id": "book-1-ch-xxv",
+              "roman": "XXV",
+              "title": "The Hellenistic World",
+              "start_page": 233,
+              "end_page": 242
+            },
+            {
+              "id": "book-1-ch-xxvi",
+              "roman": "XXVI",
+              "title": "Cynics and Sceptics",
+              "start_page": 243,
+              "end_page": 253
+            },
+            {
+              "id": "book-1-ch-xxvii",
+              "roman": "XXVII",
+              "title": "The Epicureans",
+              "start_page": 254,
+              "end_page": 265
+            },
+            {
+              "id": "book-1-ch-xxviii",
+              "roman": "XXVIII",
+              "title": "Stoicism",
+              "start_page": 266,
+              "end_page": 283
+            },
+            {
+              "id": "book-1-ch-xxix",
+              "roman": "XXIX",
+              "title": "The Roman Empire in Relation to Culture",
+              "start_page": 284,
+              "end_page": 297
+            },
+            {
+              "id": "book-1-ch-xxx",
+              "roman": "XXX",
+              "title": "Plotinus",
+              "start_page": 298,
+              "end_page": 316
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book-2",
+      "order": 2,
+      "title": "Catholic Philosophy",
+      "start_page": 311,
+      "introduction_start_page": 312,
+      "parts": [
+        {
+          "id": "book-2-part-1",
+          "order": 1,
+          "title": "The Fathers",
+          "start_page": 317,
+          "chapters": [
+            {
+              "id": "book-2-ch-i",
+              "roman": "I",
+              "title": "The Religious Development of the Jews",
+              "start_page": 317,
+              "end_page": 331
+            },
+            {
+              "id": "book-2-ch-ii",
+              "roman": "II",
+              "title": "Christianity During the First Four Centuries",
+              "start_page": 332,
+              "end_page": 340
+            },
+            {
+              "id": "book-2-ch-iii",
+              "roman": "III",
+              "title": "Three Doctors of the Church",
+              "start_page": 341,
+              "end_page": 358
+            },
+            {
+              "id": "book-2-ch-iv",
+              "roman": "IV",
+              "title": "Saint Augustine's Philosophy and Theology",
+              "start_page": 359,
+              "end_page": 372
+            },
+            {
+              "id": "book-2-ch-v",
+              "roman": "V",
+              "title": "The Fifth and Sixth Centuries",
+              "start_page": 373,
+              "end_page": 380
+            },
+            {
+              "id": "book-2-ch-vi",
+              "roman": "VI",
+              "title": "Saint Benedict and Gregory the Great",
+              "start_page": 381,
+              "end_page": 392
+            }
+          ]
+        },
+        {
+          "id": "book-2-part-2",
+          "order": 2,
+          "title": "The Schoolmen",
+          "start_page": 393,
+          "chapters": [
+            {
+              "id": "book-2-ch-vii",
+              "roman": "VII",
+              "title": "The Papacy in the Dark Ages",
+              "start_page": 393,
+              "end_page": 404
+            },
+            {
+              "id": "book-2-ch-viii",
+              "roman": "VIII",
+              "title": "John the Scot",
+              "start_page": 405,
+              "end_page": 411
+            },
+            {
+              "id": "book-2-ch-ix",
+              "roman": "IX",
+              "title": "Ecclesiastical Reform in the Eleventh Century",
+              "start_page": 412,
+              "end_page": 423
+            },
+            {
+              "id": "book-2-ch-x",
+              "roman": "X",
+              "title": "Mohammedan Culture and Philosophy",
+              "start_page": 424,
+              "end_page": 431
+            },
+            {
+              "id": "book-2-ch-xi",
+              "roman": "XI",
+              "title": "The Twelfth Century",
+              "start_page": 432,
+              "end_page": 444
+            },
+            {
+              "id": "book-2-ch-xii",
+              "roman": "XII",
+              "title": "The Thirteenth Century",
+              "start_page": 445,
+              "end_page": 454
+            },
+            {
+              "id": "book-2-ch-xiii",
+              "roman": "XIII",
+              "title": "Saint Thomas Aquinas",
+              "start_page": 455,
+              "end_page": 465
+            },
+            {
+              "id": "book-2-ch-xiv",
+              "roman": "XIV",
+              "title": "Franciscan Schoolmen",
+              "start_page": 466,
+              "end_page": 478
+            },
+            {
+              "id": "book-2-ch-xv",
+              "roman": "XV",
+              "title": "The Eclipse of the Papacy",
+              "start_page": 479,
+              "end_page": 489
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "book-3",
+      "order": 3,
+      "title": "Modern Philosophy",
+      "start_page": 489,
+      "parts": [
+        {
+          "id": "book-3-part-1",
+          "order": 1,
+          "title": "From the Renaissance to Hume",
+          "start_page": 490,
+          "chapters": [
+            {
+              "id": "book-3-ch-i",
+              "roman": "I",
+              "title": "General Characteristics",
+              "start_page": 490,
+              "end_page": 493
+            },
+            {
+              "id": "book-3-ch-ii",
+              "roman": "II",
+              "title": "The Italian Renaissance",
+              "start_page": 494,
+              "end_page": 502
+            },
+            {
+              "id": "book-3-ch-iii",
+              "roman": "III",
+              "title": "Machiavelli",
+              "start_page": 503,
+              "end_page": 510
+            },
+            {
+              "id": "book-3-ch-iv",
+              "roman": "IV",
+              "title": "Erasmus and More",
+              "start_page": 511,
+              "end_page": 520
+            },
+            {
+              "id": "book-3-ch-v",
+              "roman": "V",
+              "title": "The Reformation and Counter-Reformation",
+              "start_page": 521,
+              "end_page": 523
+            },
+            {
+              "id": "book-3-ch-vi",
+              "roman": "VI",
+              "title": "The Rise of Science",
+              "start_page": 524,
+              "end_page": 538
+            },
+            {
+              "id": "book-3-ch-vii",
+              "roman": "VII",
+              "title": "Francis Bacon",
+              "start_page": 539,
+              "end_page": 542
+            },
+            {
+              "id": "book-3-ch-viii",
+              "roman": "VIII",
+              "title": "Hobbes's Leviathan",
+              "start_page": 543,
+              "end_page": 553
+            },
+            {
+              "id": "book-3-ch-ix",
+              "roman": "IX",
+              "title": "Descartes",
+              "start_page": 554,
+              "end_page": 564
+            },
+            {
+              "id": "book-3-ch-x",
+              "roman": "X",
+              "title": "Spinoza",
+              "start_page": 565,
+              "end_page": 576
+            },
+            {
+              "id": "book-3-ch-xi",
+              "roman": "XI",
+              "title": "Leibniz",
+              "start_page": 577,
+              "end_page": 591
+            },
+            {
+              "id": "book-3-ch-xii",
+              "roman": "XII",
+              "title": "Philosophical Liberalism",
+              "start_page": 592,
+              "end_page": 599
+            },
+            {
+              "id": "book-3-ch-xiii",
+              "roman": "XIII",
+              "title": "Locke's Theory of Knowledge",
+              "start_page": 600,
+              "end_page": 612
+            },
+            {
+              "id": "book-3-ch-xiv",
+              "roman": "XIV",
+              "title": "Locke's Political Philosophy",
+              "start_page": 613,
+              "end_page": 635
+            },
+            {
+              "id": "book-3-ch-xv",
+              "roman": "XV",
+              "title": "Locke's Influence",
+              "start_page": 636,
+              "end_page": 641
+            },
+            {
+              "id": "book-3-ch-xvi",
+              "roman": "XVI",
+              "title": "Berkeley",
+              "start_page": 642,
+              "end_page": 653
+            },
+            {
+              "id": "book-3-ch-xvii",
+              "roman": "XVII",
+              "title": "Hume",
+              "start_page": 654,
+              "end_page": 668
+            }
+          ]
+        },
+        {
+          "id": "book-3-part-2",
+          "order": 2,
+          "title": "From Rousseau to the Present Day",
+          "start_page": 669,
+          "chapters": [
+            {
+              "id": "book-3-ch-xviii",
+              "roman": "XVIII",
+              "title": "The Romantic Movement",
+              "start_page": 669,
+              "end_page": 677
+            },
+            {
+              "id": "book-3-ch-xix",
+              "roman": "XIX",
+              "title": "Rousseau",
+              "start_page": 678,
+              "end_page": 694
+            },
+            {
+              "id": "book-3-ch-xx",
+              "roman": "XX",
+              "title": "Kant",
+              "start_page": 695,
+              "end_page": 710
+            },
+            {
+              "id": "book-3-ch-xxi",
+              "roman": "XXI",
+              "title": "Currents of Thought in the Nineteenth Century",
+              "start_page": 711,
+              "end_page": 720
+            },
+            {
+              "id": "book-3-ch-xxii",
+              "roman": "XXII",
+              "title": "Hegel",
+              "start_page": 721,
+              "end_page": 736
+            },
+            {
+              "id": "book-3-ch-xxiii",
+              "roman": "XXIII",
+              "title": "Byron",
+              "start_page": 737,
+              "end_page": 743
+            },
+            {
+              "id": "book-3-ch-xxiv",
+              "roman": "XXIV",
+              "title": "Schopenhauer",
+              "start_page": 744,
+              "end_page": 749
+            },
+            {
+              "id": "book-3-ch-xxv",
+              "roman": "XXV",
+              "title": "Nietzsche",
+              "start_page": 750,
+              "end_page": 762
+            },
+            {
+              "id": "book-3-ch-xxvi",
+              "roman": "XXVI",
+              "title": "The Utilitarians",
+              "start_page": 763,
+              "end_page": 771
+            },
+            {
+              "id": "book-3-ch-xxvii",
+              "roman": "XXVII",
+              "title": "Karl Marx",
+              "start_page": 772,
+              "end_page": 780
+            },
+            {
+              "id": "book-3-ch-xxviii",
+              "roman": "XXVIII",
+              "title": "Bergson",
+              "start_page": 781,
+              "end_page": 799
+            },
+            {
+              "id": "book-3-ch-xxix",
+              "roman": "XXIX",
+              "title": "William James",
+              "start_page": 800,
+              "end_page": 807
+            },
+            {
+              "id": "book-3-ch-xxx",
+              "roman": "XXX",
+              "title": "John Dewey",
+              "start_page": 808,
+              "end_page": 816
+            },
+            {
+              "id": "book-3-ch-xxxi",
+              "roman": "XXXI",
+              "title": "The Philosophy of Logical Analysis",
+              "start_page": 817,
+              "end_page": 823
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "index_start_page": 824,
+  "total_pages": 955
+}
