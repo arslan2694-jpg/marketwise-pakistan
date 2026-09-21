@@ -1,0 +1,480 @@
+{
+  "chapter_id": "book-3-ch-viii",
+  "book_id": "book-3",
+  "part_id": "book-3-part-1",
+  "roman": "VIII",
+  "title": "Hobbes's Leviathan",
+  "start_page": 543,
+  "end_page": 553,
+  "orientation": "Russell presents Thomas Hobbes (1588-1679) as a philosopher hard to classify: an empiricist like the later Locke, Berkeley, and Hume, yet unusually respectful of mathematics and mathematical method, giving him a combination of virtues not found together again in English philosophy until Russell's own era. The chapter's real center of gravity is Hobbes's Leviathan (1651), whose materialist psychology, social-contract theory of the state, and uncompromising defense of absolute sovereignty Russell reconstructs in detail before offering a sustained critical assessment of its strengths (logical clarity, freedom from superstition, modernity) and its two chief limitations (neglect of class conflict within the state, and neglect of the international 'state of nature' between states).",
+  "historical_background": "Hobbes was raised by an uncle after his ill-tempered vicar father lost his post; he went to Oxford at fifteen, was later tutor to the future second Earl of Devonshire, and through this connection met Galileo (visiting him in Italy in 1636), Kepler's work, Ben Jonson, Bacon, and Lord Herbert of Cherbury. His Royalist convictions long predated the English Civil War: he fled to France in 1640 when Laud and Strafford were sent to the Tower, wrote De Cive (1641) setting out the theory later expanded in Leviathan (1651), taught mathematics to the future Charles II in exile, but then made submission to Cromwell on returning to England, since (on his own principle) a sovereign who cannot protect his subjects loses their obligation of loyalty. After the Restoration he was suspected of atheism, investigated by a parliamentary committee following the Plague and Great Fire, and had to publish controversial works abroad for the rest of his long life.",
+  "philosophical_problems": [
+    "What is the ultimate nature of mind, sensation, and thought, if everything -- including life itself -- is fundamentally motion?",
+    "Why do humans, unlike bees or ants, require an artificial covenant rather than natural cooperation to form stable communities?",
+    "What justifies the absolute power of a sovereign, and is anarchy always a worse outcome than even a despotic government?",
+    "Is there such a thing as objective good and bad, if 'good' and 'bad' are defined merely as objects of individual desire and aversion?",
+    "What relations, if any, hold between states in the absence of an international government?"
+  ],
+  "philosophers_discussed": [
+    {
+      "name": "Thomas Hobbes",
+      "role_in_chapter": "The chapter's sole primary subject: his materialist metaphysics and psychology (sensation as motion, imagination as decaying sense, will as the last appetite remaining in deliberation), his nominalism, his admiration for geometry as a model science, his account of the state of nature as a 'war of all against all,' his social-contract theory of the commonwealth ('Leviathan') as an artificial man created by covenant, his defense of absolute (preferably monarchical) sovereignty, his account of the limited liberty of subjects (bounded chiefly by an inalienable right of self-defense), and his uncompromising Erastianism (subordination of Church to State) are all reconstructed and then critically assessed.",
+      "is_primary_subject": true
+    }
+  ],
+  "schools_discussed": [
+    "English empiricism (Hobbes as an atypical, mathematically-informed forerunner of Locke, Berkeley, and Hume)",
+    "Social contract theory",
+    "Nominalism",
+    "Materialist/mechanist psychology"
+  ],
+  "core_concepts": [
+    {
+      "name": "Materialism and the state of nature as a 'war of all against all'",
+      "plain_explanation": "Hobbes believed everything, including life and mind, is ultimately just matter in motion. Before any government exists, every person naturally desires both to preserve their own freedom and to gain power over others, and this clash of desires produces a constant war of all against all, making life 'nasty, brutish, and short,' with no property, justice, or injustice -- only force and fraud.",
+      "precise_definition": "Russell's summary: 'Life, he says, is nothing but a motion of the limbs... In a state of nature, before there is any government, every man desires to preserve his own liberty, but to acquire dominion over others; both these desires are dictated by the impulse to self-preservation. From their conflict arises a war of all against all, which makes life \"nasty, brutish, and short.\" In a state of nature, there is no property, no justice or injustice; there is only war, and \"force and fraud are, in war, the two cardinal virtues.\"'",
+      "why_it_mattered": "It supplies Hobbes's entire justification for government: since the state of nature is intolerable, rational self-interested individuals will consent to nearly any authority capable of ending it, which grounds his defense of near-absolute sovereignty.",
+      "historical_origin": "Presented at the start of Leviathan (1651) as the foundation of Hobbes's political philosophy, notably unlike most defenders of despotic government in holding all men naturally equal.",
+      "associated_philosopher": "Thomas Hobbes",
+      "examples": [
+        "Hobbes's explicit denial that despotic government's defenders usually assume natural equality -- Hobbes does assume it"
+      ],
+      "objections": [],
+      "competing_positions": [
+        "Aristotle's view of humans as naturally political/social animals capable of natural cooperation"
+      ],
+      "influence_on_later_thinkers": "Directly shaped, by contrast, Locke's and Rousseau's own versions of the social contract and state of nature, discussed later in Russell's book.",
+      "connection_to_politics_or_religion": "This is the metaphysical and psychological foundation for Hobbes's entire political theory.",
+      "is_major": true
+    },
+    {
+      "name": "The social contract and the creation of 'Leviathan'",
+      "plain_explanation": "To escape the war of all against all, Hobbes imagines people agreeing among themselves (not with the ruler) to obey whatever sovereign the majority chooses. This creates the 'Commonwealth' or 'Leviathan,' an artificial person with the sovereign as its artificial soul; once created, the people's political role ends, since the covenant is not between citizens and ruler but among citizens themselves to obey the ruler.",
+      "precise_definition": "Russell's account: 'It is supposed that a number of people come together and agree to choose a sovereign... which shall exercise authority over them and put an end to the universal war... The covenant is not, as afterwards in Locke and Rousseau, between the citizens and the ruling power; it is a covenant made by the citizens with each other to obey such ruling power as the majority shall choose. When they have chosen, their political power is at an end.' Russell stresses this 'covenant' is 'an explanatory myth,' not a claimed historical event.",
+      "why_it_mattered": "This structural feature -- the contract binds citizens to each other, not to the sovereign -- is what makes the sovereign unbound by any contract while subjects remain bound, and thus grounds Hobbes's denial of any right of rebellion.",
+      "historical_origin": "Central argument of Part II of Leviathan (1651).",
+      "associated_philosopher": "Thomas Hobbes",
+      "examples": [
+        "'Covenants, without the sword, are but words' -- Hobbes's insistence that the covenant requires an enforcing power to be effective, which Russell notes 'President Wilson unfortunately forgot'"
+      ],
+      "objections": [],
+      "competing_positions": [
+        "Locke's and Rousseau's later social-contract theories, in which the contract binds citizens and ruler to each other"
+      ],
+      "influence_on_later_thinkers": "Directly contrasted by Russell with Locke and Rousseau, whose contract theories reverse this structure.",
+      "connection_to_politics_or_religion": "The commonwealth's creation is explicitly likened to God's creation of man ('Let Us make man').",
+      "is_major": true
+    },
+    {
+      "name": "Absolute sovereignty and the rejection of divided or limited government",
+      "plain_explanation": "Hobbes argued the sovereign (ideally a monarch, though the argument applies to any single supreme authority) must hold unlimited power -- over property, censorship, religion, and law -- because any division of power (as between King, Lords, and Commons) risks civil war, which Hobbes considered the worst possible outcome, worse even than despotism.",
+      "precise_definition": "Russell's summary: 'The powers of the sovereign, in Hobbes's system, are unlimited. He has the right of censorship over all expression of opinion... The laws of property are to be entirely subject to the sovereign; for in a state of nature there is no property, and therefore property is created by government, which may control its creation as it pleases... It is admitted that the sovereign may be despotic, but even the worst despotism is better than anarchy.'",
+      "why_it_mattered": "This is the core, most historically consequential claim of Leviathan, and Russell devotes his longest evaluative discussion in the chapter to assessing whether Hobbes was right that the risk of anarchy always outweighs the risk of tyranny.",
+      "historical_origin": "Developed across Parts I and II of Leviathan, with Hobbes's preference for monarchy over an assembly defended on several practical grounds (fewer total favorites, secrecy of advice, stability against factional absences).",
+      "associated_philosopher": "Thomas Hobbes",
+      "examples": [
+        "Hobbes's explanation of the English Civil War as caused by power being divided between King, Lords, and Commons",
+        "His rejection of the Aristotelian distinction between tyranny and monarchy, since 'a \"tyranny,\" according to Hobbes, is merely a monarchy that the speaker happens to dislike'"
+      ],
+      "objections": [
+        "Russell's own objection: a state may be so bad that temporary anarchy is preferable to its continuance (citing France 1789 and Russia 1917), and unchecked sovereign power tends toward political, economic, and intellectual abuse unless governments have some fear of rebellion"
+      ],
+      "competing_positions": [
+        "Locke's and Montesquieu's doctrine of division of powers and checks and balances, developed explicitly against Hobbes's position"
+      ],
+      "influence_on_later_thinkers": "Russell traces this dispute forward through Locke's checks and balances to the constitutional structures of England, America, and, more darkly, to twentieth-century states (Germany, Italy, Russia, Japan) where government power exceeded even what Hobbes thought desirable.",
+      "connection_to_politics_or_religion": "Extends explicitly to religion: the sovereign has censorship power and determines what counts as religion versus superstition.",
+      "is_major": true
+    },
+    {
+      "name": "Materialist, deterministic psychology (imagination, passions, and the denial of free will)",
+      "plain_explanation": "Hobbes treated all mental phenomena as motions: sensations are caused by pressure from objects, imagination is a 'decaying sense,' dreaming is imagination during sleep, and will is nothing but the last, strongest desire or aversion remaining after deliberation -- not a separate faculty of free choice. Passions like desire, aversion, love, hate, and even laughter are defined mechanically and largely in competitive terms.",
+      "precise_definition": "Russell's summary: 'imagination is a decaying sense, both being motions... Will is nothing but the last appetite or aversion remaining in deliberation. That is to say, will is not something different from desire and aversion, but merely the strongest in a case of conflict.' Hobbes defines 'good' as an object of desire and 'bad' as an object of aversion, giving these terms no independent objectivity.",
+      "why_it_mattered": "This grounds Hobbes's rigid determinism (he held a public controversy with Bishop Bramhall over free will) and his relativistic account of moral vocabulary, both distinctive and controversial positions for his era.",
+      "historical_origin": "Set out in Part I of Leviathan as the general philosophical foundation preceding the political theory.",
+      "associated_philosopher": "Thomas Hobbes",
+      "examples": [
+        "Laughter defined as 'sudden glory'",
+        "Fear of invisible power, 'if publicly allowed, is religion; if not allowed, superstition' -- making the legislator the arbiter of the distinction"
+      ],
+      "objections": [
+        "Russell's implicit note: since good and bad are merely relative to individual desire on this view, 'if men differ in their desires, there is no theoretical method of adjusting their differences'"
+      ],
+      "competing_positions": [
+        "Bishop Bramhall's defense of free will against Hobbes's determinism",
+        "Plato's view (which Hobbes explicitly rejects) that reason is innate rather than developed by industry"
+      ],
+      "influence_on_later_thinkers": "",
+      "connection_to_politics_or_religion": "The definition of religion versus superstition as resting on public permission directly ties psychology to political authority.",
+      "is_major": true
+    },
+    {
+      "name": "Nominalism and the primacy of geometry as a model science",
+      "plain_explanation": "Hobbes held that only individual things are real; general or universal ideas exist only as names (words), and without language there could be no truth or falsehood at all, since these are properties of statements, not of things. He considered geometry the only genuine science yet created, and thought reasoning should proceed like calculation, starting from careful, non-self-contradictory definitions.",
+      "precise_definition": "Russell's summary: 'Hobbes... is an out-and-out nominalist. There is, he says, nothing universal but names, and without words we could not conceive any general ideas... He considers geometry the one genuine science so far created. Reasoning is of the nature of reckoning, and should start from definitions.'",
+      "why_it_mattered": "It explains both Hobbes's methodological admiration for mathematics (unusual among English empiricists, per Russell) and his hostility to concepts he judged self-contradictory, such as 'incorporeal substance.'",
+      "historical_origin": "Set out in Part I of Leviathan.",
+      "associated_philosopher": "Thomas Hobbes",
+      "examples": [
+        "Hobbes's judgment that 'incorporeal substance' is nonsense, and his two responses to the objection that God is called an incorporeal substance: that God is not an object of philosophy, and that many philosophers have thought God corporeal"
+      ],
+      "objections": [
+        "Russell's own objection: Hobbes failed to appreciate the use of induction for arriving at general laws (e.g., Kepler's proposition that planets move in ellipses is a general proposition whose rivals, like Ptolemy's, are not logically absurd, merely false), despite his admiration for Kepler and Galileo"
+      ],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "Anticipates, in its combination of nominalism with mathematical rigor, a philosophical combination Russell says did not recur among empiricists until 'our own day.'",
+      "connection_to_politics_or_religion": "",
+      "is_major": false
+    },
+    {
+      "name": "The right of self-preservation as the sole limit on obedience to the sovereign",
+      "plain_explanation": "Even though Hobbes gives the sovereign nearly unlimited power, he makes one major exception: because the whole point of government is self-preservation, subjects retain an absolute right to defend their own lives, even against the sovereign -- for instance, a right to refuse to fight in war -- though resistance in defense of someone else remains wrong.",
+      "precise_definition": "Russell's summary: 'The right of self-preservation he regards as absolute, and subjects have the right of self-defence, even against monarchs... he holds (though with limitations) that a man has a right to refuse to fight when called upon by the government to do so. This is a right which no modern government concedes... resistance to the sovereign is only justified in self-defence; resistance in defence of another is always culpable.'",
+      "why_it_mattered": "It is the one logically necessary exception to Hobbes's absolutism, since self-preservation is the very motive Hobbes gives for instituting government in the first place, and it also explains and justifies Hobbes's own submission to Cromwell once Charles II could no longer protect him.",
+      "historical_origin": "Set out in the chapter on the liberty of subjects in Leviathan.",
+      "associated_philosopher": "Thomas Hobbes",
+      "examples": [
+        "Hobbes's own submission to Cromwell during Charles II's exile, on the ground that a sovereign who cannot protect his subjects has no claim on their obedience",
+        "Liberty defined as 'the absence of external impediments to motion,' compatible with necessity, as water is 'free' to flow downhill"
+      ],
+      "objections": [],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "",
+      "connection_to_politics_or_religion": "",
+      "is_major": false
+    }
+  ],
+  "arguments": [
+    {
+      "title": "From the state of nature to the necessity of absolute sovereignty",
+      "philosopher": "Thomas Hobbes",
+      "premises": [
+        "All men are naturally equal in their capacity to threaten and be threatened by one another.",
+        "In a state of nature, each person desires both to preserve their own liberty and to gain dominion over others, both dictated by the impulse to self-preservation.",
+        "This produces a 'war of all against all,' making life 'nasty, brutish, and short,' with no property, justice, or injustice.",
+        "Rational self-interest therefore leads people to covenant with one another to obey a single sovereign power capable of enforcing peace ('Covenants, without the sword, are but words')."
+      ],
+      "conclusion": "A sovereign (preferably a single monarch) must hold unlimited, undivided power over the commonwealth, since any division or limitation of that power risks a relapse into civil war, which is worse than even a despotic government.",
+      "explanation": "Russell reconstructs this as Hobbes's central argument, noting it is not meant as a claim about a literal historical event but as 'an explanatory myth, used to explain why men submit, and should submit, to the limitations on personal freedom entailed in submission to authority.'",
+      "objections": [
+        "Russell's objection that Hobbes wrongly assumes the interests of all citizens (and of the sovereign) are roughly identical, ignoring class conflict",
+        "Russell's objection that a state may become so bad that temporary anarchy is preferable to its continuance"
+      ],
+      "implications": [
+        "Grounds Hobbes's rejection of any right of rebellion (since the sovereign, unlike the subjects, is not bound by the covenant) and his preference for monarchy over assembly government."
+      ]
+    },
+    {
+      "title": "Why monarchy is preferable to government by an assembly",
+      "philosopher": "Thomas Hobbes",
+      "premises": [
+        "A monarch may have favourites, but so may every member of an assembly, so the total number of favourites is likely fewer under a monarchy.",
+        "A monarch can receive advice from anybody secretly, while an assembly can only hear advice from its own members, and only publicly.",
+        "In an assembly, the chance absence of some members may shift the majority and produce a sudden change of policy.",
+        "If an assembly is divided against itself, the result may be civil war."
+      ],
+      "conclusion": "Monarchy is, on balance, the best form of sovereign government, though Hobbes's core argument for absolute, undivided power applies equally to any single supreme authority not limited by other bodies.",
+      "explanation": "Russell notes that Hobbes seems throughout to be thinking not of democratically elected Parliaments but of bodies like the Grand Council of Venice or the House of Lords, never considering how periodic elections might curb an assembly's tendency to serve its members' private interests over the public good.",
+      "objections": [
+        "Russell's implicit objection that Hobbes never considers whether periodical elections could remedy the specific defects he attributes to assembly government"
+      ],
+      "implications": [
+        "Distinguishes the (comparatively narrower and more contestable) argument for monarchy specifically from Hobbes's broader and more central argument for absolute, undivided sovereignty of any kind."
+      ]
+    },
+    {
+      "title": "Russell's argument for why Hobbes's political philosophy neglects class conflict",
+      "philosopher": "Bertrand Russell",
+      "premises": [
+        "Hobbes always considers the national interest as a whole and tacitly assumes the major interests of all citizens are the same.",
+        "He does not realize the importance of the clash between different classes, which Marx later makes the chief cause of social change.",
+        "This is connected with his assumption that the interests of a monarch are roughly identical with those of his subjects.",
+        "In time of peace, the clash between the interests of different classes may be very great, and it is not always true that preaching absolute sovereign power is the best way to avert anarchy in such cases."
+      ],
+      "conclusion": "Some concession in the way of sharing power may be the only way to prevent civil war in a class-divided society -- a possibility Hobbes's framework, focused on a unified national interest, does not adequately allow for, something Russell says 'should have been obvious to Hobbes from the recent history of England.'",
+      "explanation": "Russell uses this to qualify his otherwise substantial admiration for Hobbes, treating it as a genuine and specific limitation rather than a wholesale rejection of Hobbes's case for government as such.",
+      "objections": [],
+      "implications": [
+        "Anticipates later political theory (explicitly, Marx) that makes class conflict, rather than a unified national interest, central to political analysis."
+      ]
+    },
+    {
+      "title": "Russell's argument for extending Hobbes's logic to relations between states",
+      "philosopher": "Bertrand Russell",
+      "premises": [
+        "Leviathan says nothing about relations between states except war and conquest, since in the absence of international government, states remain in a state of nature -- a war of all against all.",
+        "Every argument Hobbes gives in favour of government within a state, so far as it is valid, is equally valid in favour of an international government.",
+        "So long as international anarchy persists, increased efficiency in separate states (improved fighting capacity without any means of preventing war) increases rather than decreases the ferocity and destructiveness of war."
+      ],
+      "conclusion": "To improve the fighting quality of separate states without establishing any means of preventing war between them 'is the road to universal destruction'; only inefficiency (or an international Leviathan) can preserve mankind under conditions of true international anarchy.",
+      "explanation": "Russell treats this as Hobbes's own logic turned outward: the same reasoning that justifies a domestic sovereign to end civil war applies, unaddressed by Hobbes, to the unresolved 'state of nature' that persists between sovereign states.",
+      "objections": [],
+      "implications": [
+        "Frames this as the chapter's second major limitation in Hobbes's political theory, alongside the neglect of class conflict."
+      ]
+    }
+  ],
+  "key_distinctions": [
+    "Hobbes's materialist psychology (sensation, imagination, will as motion) vs. Cartesian mind-body dualism (developed in the following chapter)",
+    "The covenant among citizens to obey a chosen sovereign (Hobbes) vs. a covenant between citizens and the ruling power itself (Locke, Rousseau)",
+    "Tyranny as merely 'a monarchy that the speaker happens to dislike' (Hobbes's collapse of the Aristotelian distinction) vs. the Aristotelian distinction between legitimate monarchy and tyranny",
+    "The right of self-defence (absolute, retained even against the sovereign) vs. all other subject liberties (entirely contingent on what the sovereign concedes)",
+    "The domestic state of nature, ended by a sovereign, vs. the persisting international state of nature between sovereign states, which Hobbes's theory leaves unaddressed"
+  ],
+  "connections_to_earlier_philosophers": "Hobbes rejects Plato's view that reason is innate, holding instead that it is developed by industry; he is influenced far more by Galileo's dynamics than by Bacon's inductive method, despite personal acquaintance with Bacon; his admiration for geometry as the model science echoes and extends the mathematical confidence found in Continental rationalism, though Russell stresses Hobbes reaches it via English empiricism, a highly unusual combination.",
+  "connections_to_later_philosophers": "Russell repeatedly contrasts Hobbes with Locke and Rousseau, whose contract theories reverse the direction of Hobbes's covenant (binding ruler and ruled to each other, not merely citizens to each other) and whose doctrine of the division of powers and checks and balances is presented as a direct answer to Hobbes's insistence on absolute, undivided sovereignty; Russell also explicitly connects Hobbes's neglect of class conflict to Marx's later centering of class conflict in the explanation of social change, and notes Hobbes wrote objections to Descartes's Meditations that Descartes published together with his replies.",
+  "political_social_context": "The chapter situates Leviathan against the immediate backdrop of the English Civil War (which Hobbes attributes to the division of power between King, Lords, and Commons) and the broader European consolidation of absolute monarchy (Louis XI, Edward IV, Ferdinand and Isabella cowing the feudal nobility; Henry IV and Richelieu founding French absolutism; Charles V and Philip II in Spain), contrasted with England, where the Puritans 'undone the work of Henry VIII' -- the very instability that convinced Hobbes anarchy, not despotism, was the graver danger. Russell extends the analysis to his own twentieth century, noting that 'in Germany, Italy, Russia, and Japan, the government has even more power than Hobbes thought desirable,' and that Congress and the Supreme Court still provide some check on the Administration in America.",
+  "religion_science_culture_context": "Hobbes's Erastianism -- his insistence that the Church must be subordinate to the civil sovereign, with no legitimate universal Church independent of national governments, and the Pope's overlordship and claims to infallibility rejected -- is a central feature of Leviathan's Part III; Part IV is a sustained attack on the Church of Rome (for placing spiritual power above temporal) and on 'vain philosophy,' chiefly meaning Aristotle. Hobbes was himself suspected of atheism and investigated by a parliamentary committee, and his general outlook was shaped decisively by direct exposure to Galileo's and Kepler's science.",
+  "russell_presentation": "Russell presents Hobbes as historically important and distinctively modern -- 'more modern than any previous theory, even that of Machiavelli' -- while noting real intellectual limitations: he is 'impatient of subtleties,' inclined 'to cut the Gordian knot,' reaching logical but fact-omitting solutions; 'he wields the battle-axe better than the rapier.' Russell reconstructs Hobbes's psychology, nominalism, and political theory largely sympathetically and in detail before offering an explicit two-part critical balance sheet: Hobbes's great merit is being 'completely free from superstition,' clear, logical, and intelligible in a way earlier political theorists (arguing from Adam and Eve) were not, making him 'still worth refuting' rather than simply dismissible; but his theory suffers from (1) neglecting class conflict by assuming a unified national interest, and (2) saying nothing constructive about relations between states, leaving international anarchy as an unaddressed extension of the very 'war of all against all' his domestic theory is designed to escape. Russell also offers a broader historical verdict: that 'on the whole... the world has gone as Hobbes wished' regarding the growth of state power, 'after a long liberal period during which... it was moving in the opposite direction' -- a judgment he frames as descriptively accurate rather than as endorsement, since he goes on to warn of the dangers of unchecked government power.",
+  "critical_context": "Russell's own critical apparatus in this chapter is unusually extensive and explicit, amounting to a genuine scholarly evaluation rather than mere summary: he directly credits Hobbes's clarity and freedom from superstition while identifying two specific, named limitations (neglect of class conflict, prefiguring Marx; neglect of international relations) that later political theory has taken up at length. Twentieth-century international-relations theory (in the realist tradition) has continued to draw on precisely the Hobbesian 'international state of nature' framing Russell highlights here, generally without resolving the tension Russell identifies between Hobbes's domestic and international arguments.",
+  "key_takeaways": [
+    "Hobbes is unusual among English empiricists for combining empiricism with genuine admiration for mathematics, a combination Russell says did not recur until his own day.",
+    "Hobbes's state of nature -- a 'war of all against all' arising from naturally equal individuals' conflicting desires for liberty and dominion -- grounds his argument that rational self-interest requires submission to an absolute sovereign.",
+    "Unlike Locke's and Rousseau's later contract theories, Hobbes's covenant binds citizens to each other (to obey a chosen sovereign), not the sovereign to the citizens, which is why the sovereign is not bound by any contract while subjects remain bound.",
+    "Hobbes holds the sovereign's power should be unlimited (over property, censorship, and religion) because divided power risks civil war, which he judges worse than even despotism -- though he retains one exception: an inalienable right of self-defence.",
+    "Russell praises Hobbes's clarity, modernity, and freedom from superstition, but identifies two major limitations: neglect of class conflict within the state (anticipating Marx's later critique) and neglect of the unresolved 'state of nature' persisting between sovereign states in the absence of international government."
+  ],
+  "study_notes": "Approach this chapter by separating three layers of Hobbes's system, since Russell moves through them in order: (1) the metaphysical/psychological foundation (materialism, nominalism, determinism -- 'life is nothing but a motion of the limbs'), (2) the state-of-nature argument and the social contract that builds the commonwealth out of that foundation, and (3) the specific institutional conclusions Hobbes draws (absolute sovereignty, preference for monarchy, Erastian subordination of Church to State, and the narrow but real exception for self-defence). Each later layer depends logically on the one before it -- notice, for instance, how the denial of free will in layer (1) supports the deterministic, almost mechanical picture of political obligation in layers (2) and (3).\n\nThe most valuable comparative work in this chapter is the explicit contrast Russell draws with Locke and Rousseau on the direction of the social contract: Hobbes's covenant is citizen-to-citizen, making the sovereign unbound and subjects bound, whereas Locke's and Rousseau's later versions bind ruler and ruled to each other, opening space for a right of resistance that Hobbes's structure forecloses. Keep Russell's two-part critical verdict distinct as well: the class-conflict objection is about the internal cohesion Hobbes assumes within a state, while the international-anarchy objection is about the external relations Hobbes's theory leaves totally unaddressed -- these are separate criticisms, not two versions of the same point, and each opens onto a different later tradition (Marxist political theory on one side, international-relations 'realism' on the other).",
+  "glossary_terms": [
+    {
+      "term": "State of nature",
+      "beginner_explanation": "Hobbes's term for the hypothetical condition of human life before any government exists -- a constant, all-against-all struggle for self-preservation and dominance, with no property, law, or justice.",
+      "academic_explanation": "In Hobbes's Leviathan, the pre-political condition in which naturally equal individuals, each driven by self-preservation to seek both liberty and dominion over others, are in perpetual conflict ('war of all against all'), lacking property, justice, or injustice, and governed only by 'force and fraud.'",
+      "related_concepts": ["Materialism and the state of nature as a 'war of all against all'"]
+    },
+    {
+      "term": "Social contract (covenant)",
+      "beginner_explanation": "An agreement by which people leave the state of nature and form a government -- in Hobbes's version, an agreement among the people themselves to obey whichever sovereign the majority chooses, not a deal between the people and the ruler.",
+      "academic_explanation": "In Hobbes, a covenant made by citizens with one another (not with the sovereign) to obey the ruling power chosen by the majority, creating the 'Leviathan' or Commonwealth as an artificial person; treated by Russell as an 'explanatory myth' rather than a claimed historical event, and explicitly contrasted with the citizen-ruler covenants of Locke and Rousseau.",
+      "related_concepts": ["The social contract and the creation of 'Leviathan'"]
+    },
+    {
+      "term": "Leviathan (the Commonwealth)",
+      "beginner_explanation": "Hobbes's name for the state itself, imagined as a giant artificial person made up of all its citizens, with the sovereign acting as its 'soul.'",
+      "academic_explanation": "Hobbes's figure for the Commonwealth as an artificial man created by the covenant among citizens, with sovereignty functioning as its 'artificial soul,' and the pacts creating it likened to God's creative fiat.",
+      "related_concepts": ["The social contract and the creation of 'Leviathan'"]
+    },
+    {
+      "term": "Erastianism",
+      "beginner_explanation": "The view that the state, not the Church, should have final authority over religious matters within a country.",
+      "academic_explanation": "The doctrine, embraced by Hobbes in Part III of Leviathan, that the Church must be subordinate to the civil sovereign in each nation, denying any legitimate universal Church independent of national governments and rejecting papal overlordship and infallibility.",
+      "related_concepts": ["Absolute sovereignty and the rejection of divided or limited government"]
+    }
+  ],
+  "questions": [
+    {
+      "type": "short_answer",
+      "prompt": "What combination of philosophical traits makes Hobbes, in Russell's view, difficult to classify among his contemporaries?",
+      "answer": "He was an empiricist, like the later Locke, Berkeley, and Hume, but unlike them he was also an admirer of mathematical method in both pure mathematics and its applications, a combination Russell says was not seen again among empiricists until his own day.",
+      "explanation": "This sets up Russell's opening characterization of Hobbes's distinctive intellectual position.",
+      "source_page": 545
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Describe Hobbes's account of the state of nature and how it leads people to accept government.",
+      "answer": "In the state of nature, naturally equal individuals are driven by self-preservation to seek both their own liberty and dominion over others, producing a perpetual 'war of all against all' with no property, justice, or injustice. Because this condition is intolerable, people rationally covenant with one another to obey a sovereign capable of ending it.",
+      "explanation": "This is the foundational argument of Leviathan's political theory.",
+      "source_page": 549
+    },
+    {
+      "type": "compare_contrast",
+      "prompt": "Contrast Hobbes's version of the social contract with the versions later developed by Locke and Rousseau.",
+      "answer": "In Hobbes, the covenant is made by citizens with one another, to obey whatever sovereign the majority chooses; the sovereign is not a party to the contract and so is not bound by it, while the citizens (including the minority) remain bound. In Locke and Rousseau, the contract is between the citizens and the ruling power itself, which opens the possibility of the ruler breaching the contract and citizens having grounds for resistance.",
+      "explanation": "This structural difference is why Hobbes denies any right of rebellion while Locke and Rousseau's traditions allow for one.",
+      "source_page": 550
+    },
+    {
+      "type": "short_answer",
+      "prompt": "What is the one exception Hobbes allows to the sovereign's otherwise unlimited authority over subjects?",
+      "answer": "The right of self-preservation and self-defence, which Hobbes regards as absolute and retained even against the sovereign -- including, with limitations, a right to refuse to fight in war -- though resistance in defence of someone else is not justified.",
+      "explanation": "This is logically necessary given that self-preservation is Hobbes's own stated motive for instituting government.",
+      "source_page": 552
+    },
+    {
+      "type": "argument_reconstruction",
+      "prompt": "Reconstruct Russell's criticism that Hobbes's political theory neglects class conflict.",
+      "answer": "Premise: Hobbes always treats the national interest as unified and assumes the major interests of all citizens (and of the sovereign) are roughly the same. Premise: he does not consider the clash between different classes, which Marx later makes central to social change. Conclusion: in a class-divided society, especially in peacetime, preaching absolute sovereign obedience may not be the best way to avert civil war -- some sharing of power may instead be necessary, a possibility Russell says 'should have been obvious to Hobbes from the recent history of England.'",
+      "explanation": "This is one of Russell's two named limitations of Hobbes's theory.",
+      "source_page": 553
+    },
+    {
+      "type": "short_answer",
+      "prompt": "What is Russell's second major criticism of Hobbes's political theory, concerning relations between states?",
+      "answer": "Leviathan says nothing constructive about relations between states except war and conquest, since without an international government, states remain in a state of nature (war of all against all); Russell argues every reason Hobbes gives for domestic government applies equally to the case for international government, and that increasing the fighting efficiency of separate states without any means of preventing war 'is the road to universal destruction.'",
+      "explanation": "This is Russell's extension of Hobbes's own logic to a domain Hobbes himself left unaddressed.",
+      "source_page": 553
+    },
+    {
+      "type": "identify_philosopher",
+      "prompt": "Which philosopher did Hobbes publicly debate on the question of free will, and what was Hobbes's own position?",
+      "answer": "Bishop Bramhall; Hobbes was himself a rigid determinist, denying free will.",
+      "explanation": "This dispute reflects Hobbes's broader materialist psychology, in which 'will' is simply the last appetite or aversion remaining in deliberation.",
+      "source_page": 547
+    }
+  ],
+  "flashcards": [
+    {"front": "What years did Thomas Hobbes live?", "back": "1588-1679.", "category": "date"},
+    {"front": "In what year was Leviathan published?", "back": "1651.", "category": "date"},
+    {"front": "What earlier book, written 1641 but published 1647, sets forth essentially the same theory as Leviathan?", "back": "De Cive.", "category": "fact"},
+    {"front": "How does Hobbes describe life in the state of nature?", "back": "'Nasty, brutish, and short' -- a 'war of all against all.'", "category": "concept"},
+    {"front": "What are the 'two cardinal virtues' in Hobbes's state of nature, according to Hobbes himself?", "back": "Force and fraud.", "category": "concept"},
+    {"front": "In Hobbes's social contract, who is the covenant made between?", "back": "The citizens with one another (to obey whichever sovereign the majority chooses) -- not between citizens and the sovereign.", "category": "concept"},
+    {"front": "What does Hobbes call the commonwealth, and what figure does he use to describe it?", "back": "'Leviathan'; he describes it as an artificial man, with the sovereign as its artificial soul.", "category": "concept"},
+    {"front": "What is Hobbes's famous phrase about the need for enforcement behind any covenant?", "back": "'Covenants, without the sword, are but words.'", "category": "fact"},
+    {"front": "What is the one right subjects retain even against an absolute sovereign?", "back": "The right of self-preservation and self-defence.", "category": "concept"},
+    {"front": "How does Hobbes define liberty?", "back": "The absence of external impediments to motion -- compatible with necessity (e.g., water is 'free' to flow downhill).", "category": "concept"},
+    {"front": "What does Hobbes say 'will' actually is?", "back": "Nothing but the last appetite or aversion remaining in deliberation -- not a separate free faculty.", "category": "concept"},
+    {"front": "What philosophical school does Hobbes belong to regarding universals?", "back": "Nominalism -- he holds nothing is universal but names.", "category": "concept"},
+    {"front": "What science did Hobbes consider the one genuine science so far created?", "back": "Geometry.", "category": "fact"},
+    {"front": "Name Russell's two chief criticisms of Hobbes's political theory.", "back": "(1) Neglect of class conflict, assuming a unified national interest; (2) neglect of relations between states, leaving international anarchy unaddressed.", "category": "concept"},
+    {"front": "According to Hobbes, why did the English Civil War occur?", "back": "Because power was divided between King, Lords, and Commons.", "category": "fact"}
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "How does Hobbes describe life in the state of nature?",
+      "options": [
+        "Peaceful but poor",
+        "Nasty, brutish, and short",
+        "Governed by natural justice",
+        "Communal and cooperative"
+      ],
+      "correct_index": 1,
+      "explanation": "Hobbes's famous phrase describes the state of nature as a war of all against all, making life 'nasty, brutish, and short.'",
+      "related_concept": "Materialism and the state of nature as a 'war of all against all'",
+      "source_page": 549
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "In Hobbes's social contract, who is the covenant made between?",
+      "options": [
+        "The sovereign and each individual citizen",
+        "The citizens with one another, to obey the chosen sovereign",
+        "God and the sovereign",
+        "Parliament and the King"
+      ],
+      "correct_index": 1,
+      "explanation": "Unlike Locke and Rousseau's later versions, Hobbes's covenant binds citizens to each other, not to the ruler, so the sovereign is not bound by it.",
+      "related_concept": "The social contract and the creation of 'Leviathan'",
+      "source_page": 550
+    },
+    {
+      "type": "true_false",
+      "prompt": "Hobbes believed that all men are naturally unequal, with some born fit to rule and others to be ruled.",
+      "options": ["True", "False"],
+      "correct_index": 1,
+      "explanation": "Russell notes: 'Unlike most defenders of despotic government, Hobbes holds that all men are naturally equal.'",
+      "related_concept": "Materialism and the state of nature as a 'war of all against all'",
+      "source_page": 549
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "What is the one right Hobbes says subjects retain even against an absolute sovereign?",
+      "options": [
+        "The right to free speech",
+        "The right to private property",
+        "The right of self-preservation and self-defence",
+        "The right to elect the sovereign's successor"
+      ],
+      "correct_index": 2,
+      "explanation": "Because self-preservation is Hobbes's own stated motive for government, he logically retains it as subjects' one inalienable right.",
+      "related_concept": "The right of self-preservation as the sole limit on obedience to the sovereign",
+      "source_page": 552
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "According to Russell, what is one major criticism of Hobbes's political theory regarding the internal structure of a commonwealth?",
+      "options": [
+        "That Hobbes overestimated the risk of anarchy",
+        "That Hobbes neglected the clash between different social classes, tacitly assuming a unified national interest",
+        "That Hobbes did not believe in materialism",
+        "That Hobbes rejected the idea of a social contract entirely"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell states Hobbes 'does not realize the importance of the clash between different classes, which Marx makes the chief cause of social change.'",
+      "related_concept": "Russell's argument for why Hobbes's political philosophy neglects class conflict",
+      "source_page": 553
+    },
+    {
+      "type": "fill_in_blank",
+      "difficulty": "beginner",
+      "prompt": "Hobbes's famous phrase 'Covenants, without the sword, are but ____' emphasizes that agreements require an enforcing power.",
+      "options": ["gold", "words", "laws", "promises"],
+      "correct_index": 1,
+      "explanation": "This underlines why the sovereign, holding coercive power, is necessary to make the social covenant effective.",
+      "related_concept": "The social contract and the creation of 'Leviathan'",
+      "source_page": 550
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "prompt": "What is Russell's second major criticism of Hobbes's theory, concerning the relations between states?",
+      "options": [
+        "That Hobbes wrongly believed in a world government",
+        "That Leviathan addresses only domestic war and says nothing constructive about the persisting state of nature between sovereign states",
+        "That Hobbes supported unlimited international trade",
+        "That Hobbes believed war between states was impossible once monarchy was established"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell argues that in the absence of international government, states remain in a state of nature, and Hobbes's own logic implies the need for international government -- something Leviathan never addresses.",
+      "related_concept": "Russell's argument for extending Hobbes's logic to relations between states",
+      "source_page": 553
+    },
+    {
+      "type": "true_false",
+      "prompt": "Hobbes accepted the Aristotelian distinction between legitimate monarchy and tyranny as objectively valid.",
+      "options": ["True", "False"],
+      "correct_index": 1,
+      "explanation": "Hobbes rejected this distinction, holding that 'a \"tyranny,\" according to Hobbes, is merely a monarchy that the speaker happens to dislike.'",
+      "related_concept": "Absolute sovereignty and the rejection of divided or limited government",
+      "source_page": 551
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "prompt": "What philosophical position does Hobbes hold regarding universals ('nothing universal but names')?",
+      "options": ["Platonic realism", "Nominalism", "Conceptualism", "Rationalist idealism"],
+      "correct_index": 1,
+      "explanation": "Russell explicitly calls Hobbes 'an out-and-out nominalist.'",
+      "related_concept": "Nominalism and the primacy of geometry as a model science",
+      "source_page": 548
+    },
+    {
+      "type": "matching",
+      "difficulty": "intermediate",
+      "prompt": "Match each figure to their view on the direction of the social contract: (1) Hobbes, (2) Locke and Rousseau -- to (A) contract between citizens and the ruling power, (B) contract among citizens themselves to obey a chosen sovereign.",
+      "options": ["1-B, 2-A", "1-A, 2-B", "1-A, 2-A", "1-B, 2-B"],
+      "correct_index": 0,
+      "explanation": "Hobbes's contract binds citizens to each other; Locke and Rousseau's later contracts bind citizens and ruler to each other.",
+      "related_concept": "The social contract and the creation of 'Leviathan'",
+      "source_page": 550
+    }
+  ],
+  "essay_prompts": [
+    {
+      "task_type": "Evaluate",
+      "prompt": "Evaluate Hobbes's central argument that the risk of anarchy always justifies near-absolute sovereign power. Use Russell's own two objections (neglect of class conflict; neglect of international relations) in your assessment.",
+      "rubric": [
+        "Accurately reconstructs Hobbes's state-of-nature argument for absolute sovereignty",
+        "Accurately presents Russell's two named criticisms",
+        "Considers counter-examples (e.g., France 1789, Russia 1917) and their bearing on the argument",
+        "Reaches a reasoned, well-supported judgment"
+      ]
+    },
+    {
+      "task_type": "Compare",
+      "prompt": "Compare Hobbes's version of the social contract with the version later developed by Locke and Rousseau, and explain how this structural difference affects each theory's stance on the right of rebellion.",
+      "rubric": [
+        "Accurately describes Hobbes's citizen-to-citizen covenant",
+        "Accurately describes the citizen-to-ruler covenant of Locke and Rousseau",
+        "Explains why Hobbes denies, and the later theorists allow, a right of resistance",
+        "Clear, well-organized comparison"
+      ]
+    }
+  ],
+  "extraction_confidence": "high"
+}
