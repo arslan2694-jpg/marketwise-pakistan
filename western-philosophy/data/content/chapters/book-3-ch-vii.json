@@ -1,0 +1,508 @@
+{
+  "chapter_id": "book-3-ch-vii",
+  "book_id": "book-3",
+  "part_id": "book-3-part-1",
+  "roman": "VII",
+  "title": "Francis Bacon",
+  "start_page": 539,
+  "end_page": 542,
+  "orientation": "Russell presents Francis Bacon (1561-1626) as a transitional and flawed but permanently important figure: 'the founder of modern inductive method and the pioneer in the attempt at logical systematization of scientific procedure,' despite a philosophy that is 'in many ways unsatisfactory' and a life marked by political ambition, a notorious bribery scandal, and a striking blindness to much of the best science being done in his own lifetime. The chapter combines biography, an account of Bacon's inductive method and his famous doctrine of the 'idols' of the mind, and a critical assessment of the lasting weaknesses of his approach to scientific discovery.",
+  "historical_background": "Bacon was the son of Sir Nicholas Bacon, Lord Keeper of the Great Seal, and grew up amid state affairs; he entered Parliament at twenty-three and became an adviser to the Earl of Essex, later helping prosecute Essex after his fall -- an act Russell defends against Lytton Strachey's charge of treachery, since continued loyalty to Essex once he turned traitor 'would have been treasonable.' Bacon's political career peaked under James I: Keeper of the Great Seal (1617), Lord Chancellor (1618), before being prosecuted and convicted in 1620/21 for accepting bribes from litigants, a practice Russell notes was common among judges of the era, ending his public life and forcing him into his final years of writing.",
+  "philosophical_problems": [
+    "What method, if any, can make induction reliable, given that 'induction by simple enumeration' can mislead (as in Bacon's own parable of the Welsh census-taker)?",
+    "Should philosophy be kept wholly separate from theology, with reason governing one domain and revelation the other ('double truth')?",
+    "What common bad habits of mind (the 'idols') systematically lead people into error, and how can they be guarded against?",
+    "What is the proper relationship between deduction, mathematics, and empirical observation in scientific discovery?"
+  ],
+  "philosophers_discussed": [
+    {
+      "name": "Francis Bacon",
+      "role_in_chapter": "The chapter's sole primary subject: his political career and the 1621 bribery scandal are recounted, followed by an extended account of his philosophy -- his practical, power-oriented conception of knowledge ('Knowledge is power'), his separation of philosophy from theology (the doctrine of 'double truth'), his advocacy of induction over deduction and the syllogism, his proposed improved inductive method (lists of hot, cold, and variously-heated bodies; 'prerogative instances'), his doctrine of the four 'idols' (of the tribe, the cave, the market-place, and the theatre, plus 'idols of the schools'), and his substantial blind spots regarding the actual science of his own day.",
+      "is_primary_subject": true
+    }
+  ],
+  "schools_discussed": [
+    "Early modern inductive/empiricist method",
+    "Scholasticism and Aristotelianism (as targets of Bacon's criticism)",
+    "Averroism (as the historical source of the 'double truth' doctrine)"
+  ],
+  "core_concepts": [
+    {
+      "name": "Induction as opposed to deduction and the syllogism",
+      "plain_explanation": "Bacon believed that real scientific knowledge should be built up from careful observation of many particular facts, arriving at general laws step by step, rather than starting from general premises (as in Aristotle's syllogistic logic) and deducing particular conclusions.",
+      "precise_definition": "Bacon was 'the first of the long line of scientifically minded philosophers who have emphasized the importance of induction as opposed to deduction,' seeking, like most of his successors, 'some better kind of induction than what is called \"induction by simple enumeration.\"'",
+      "why_it_mattered": "It positioned Bacon as the historical starting point of the empiricist, inductive tradition in the philosophy of science that runs through his successors down to the present, even though Russell judges his own specific proposals inadequate.",
+      "historical_origin": "Developed in Bacon's writings, especially The Advancement of Learning, as a reaction against scholastic reliance on the syllogism.",
+      "associated_philosopher": "Francis Bacon",
+      "examples": [
+        "Bacon 'not only despised the syllogism, but undervalued mathematics, presumably as insufficiently experimental'"
+      ],
+      "objections": [
+        "Russell's central objection: 'The problem of induction by simple enumeration remains unsolved to this day,' and Bacon's method underestimates the role of deduction (often mathematical) required to test a hypothesis against observation"
+      ],
+      "competing_positions": [
+        "Aristotelian syllogistic deduction from general premises",
+        "Later inductive methods, such as John Stuart Mill's four canons of inductive method"
+      ],
+      "influence_on_later_thinkers": "Directly cited by Russell as anticipating, and being refined by, later thinkers on induction such as John Stuart Mill.",
+      "connection_to_politics_or_religion": "",
+      "is_major": true
+    },
+    {
+      "name": "Induction by simple enumeration and its unreliability",
+      "plain_explanation": "Simple enumeration means concluding a general rule just because every example you have checked so far fits it -- which can go badly wrong, as in Bacon's parable of a Welsh census officer who assumes every villager must be named William Williams after questioning many in a row, only to find one is named John Jones.",
+      "precise_definition": "Russell's illustrative parable: after questioning many householders named William Williams in succession, the census officer concludes 'evidently they are all called William Williams,' but is wrong, since 'there was just one whose name was John Jones... This shows that we may go astray if we trust too implicitly in induction by simple enumeration.'",
+      "why_it_mattered": "It is the central weakness Bacon sought (but failed) to overcome with his more elaborate inductive method, and Russell insists the underlying problem remains genuinely unsolved even in modern science.",
+      "historical_origin": "Bacon's own critique of unsophisticated induction, illustrated by Russell's Welsh-village parable.",
+      "associated_philosopher": "Francis Bacon",
+      "examples": [
+        "The Welsh census-taker parable"
+      ],
+      "objections": [
+        "Bacon's own proposed remedy (lists of instances, 'prerogative instances') does not, in Russell's judgment, fully solve the underlying problem"
+      ],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "John Stuart Mill's four canons of induction are presented as a later, still only partial, attempt to move beyond simple enumeration.",
+      "connection_to_politics_or_religion": "",
+      "is_major": true
+    },
+    {
+      "name": "Bacon's improved inductive method: lists and 'prerogative instances'",
+      "plain_explanation": "To investigate the nature of heat, Bacon proposed making lists of hot bodies, cold bodies, and bodies of intermediate temperature, hoping to find some feature present in all and only the hot ones. Some observations, called 'prerogative instances,' are especially valuable because they let you decide between two otherwise equally possible theories.",
+      "precise_definition": "Bacon's method: compile lists of instances (hot bodies, cold bodies, bodies of varying degrees of heat) to find a characteristic 'always present in hot bodies and absent in cold bodies, and present in varying degrees in bodies of different degrees of heat,' proceeding from laws of low generality to laws of higher generality, with a proposed law tested by application to new circumstances; 'prerogative' instances are those that decide between two theories both compatible with prior observations.",
+      "why_it_mattered": "Bacon applied this method to correctly (per Russell) intuit that heat consists of 'rapid irregular motions of the small parts of bodies,' an early anticipation of the kinetic theory of heat, even though his general method for arriving at hypotheses was flawed.",
+      "historical_origin": "Set out in Bacon's account of scientific method, most famously in the Novum Organum (referenced implicitly through Russell's description, though not named in this excerpt).",
+      "associated_philosopher": "Francis Bacon",
+      "examples": [
+        "Bacon's (correct) hypothesis that heat consists of rapid irregular motions of small parts of bodies"
+      ],
+      "objections": [
+        "Russell's chief objection: 'Bacon's inductive method is faulty through insufficient emphasis on hypothesis. He hoped that mere orderly arrangement of data would make the right hypothesis obvious, but this is seldom the case.'",
+        "The framing of hypotheses, Russell argues, 'is the most difficult part of scientific work,' and no rule-governed method for inventing them has been found"
+      ],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "",
+      "connection_to_politics_or_religion": "",
+      "is_major": true
+    },
+    {
+      "name": "The doctrine of the 'idols' (bad habits of mind)",
+      "plain_explanation": "Bacon identified recurring bad mental habits that lead people into error: idols of the tribe (biases built into human nature, like expecting more order in nature than exists), idols of the cave (an individual thinker's personal prejudices), idols of the market-place (being misled by the imprecision and tyranny of words), idols of the theatre (uncritical acceptance of received systems of thought, especially Aristotle and scholasticism), and idols of the schools (letting a rigid rule, like the syllogism, substitute for actual judgment).",
+      "precise_definition": "Bacon's five 'idols,' as summarized by Russell: idols of the tribe are inherent in human nature (notably the habit of expecting more order in phenomena than actually exists); idols of the cave are personal prejudices of the individual investigator; idols of the market-place concern the tyranny of words and the difficulty of escaping their influence over thought; idols of the theatre concern uncritical acceptance of received systems of thought (chiefly Aristotle and the scholastics); idols of the schools consist in letting a blind rule (such as the syllogism) substitute for judgement in investigation.",
+      "why_it_mattered": "This remains, per Russell, 'one of the most famous parts of Bacon's philosophy,' offering an enduring taxonomy of the sources of intellectual error that goes beyond simple logical fallacy to include psychological, social, and institutional causes of mistaken belief.",
+      "historical_origin": "Bacon's own systematic classification, presented as part of his broader project of reforming scientific method.",
+      "associated_philosopher": "Francis Bacon",
+      "examples": [
+        "Idols of the tribe: expecting more order in nature than is actually present",
+        "Idols of the theatre: uncritical deference to Aristotle and scholasticism"
+      ],
+      "objections": [],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "",
+      "connection_to_politics_or_religion": "",
+      "is_major": true
+    },
+    {
+      "name": "The doctrine of 'double truth': separating philosophy from theology",
+      "plain_explanation": "Bacon held that philosophy should rely only on reason, while accepting orthodox theology as a matter of revelation, not argument -- and even suggested that faith is most praiseworthy precisely when it believes what reason finds most absurd.",
+      "precise_definition": "Russell's account: Bacon 'held that philosophy should be kept separate from theology, not intimately blended with it as in scholasticism... while he thought that reason could show the existence of God, he regarded everything else in theology as known only by revelation... he held that the triumph of faith is greatest when to the unaided reason a dogma appears most absurd... He was thus an advocate of the doctrine of \"double truth,\" that of reason and that of revelation.'",
+      "why_it_mattered": "It shows Bacon straddling an older scholastic-adjacent tradition (the 'double truth' doctrine traces to thirteenth-century Averroists condemned by the Church) even while pioneering a modern, empirical conception of philosophy proper.",
+      "historical_origin": "Traced by Russell to 'certain Averroists in the thirteenth century,' whose version had been condemned by the Church; later used ironically by Bayle in the late seventeenth century.",
+      "associated_philosopher": "Francis Bacon",
+      "examples": [
+        "Bayle's ironic later use of the doctrine: setting out at length everything reason could say against an orthodox belief and then concluding 'so much the greater is the triumph of faith in nevertheless believing'"
+      ],
+      "objections": [
+        "Russell notes: 'How far Bacon's orthodoxy was sincere it is impossible to know'"
+      ],
+      "competing_positions": [
+        "Scholasticism's intimate blending of philosophy and theology"
+      ],
+      "influence_on_later_thinkers": "Anticipates Bayle's ironic deployment of the same 'triumph of faith' logic in the late seventeenth century.",
+      "connection_to_politics_or_religion": "Directly concerns the proper boundary between reasoned philosophy and revealed religion.",
+      "is_major": false
+    },
+    {
+      "name": "Bacon's blindness to the leading science of his own day",
+      "plain_explanation": "Despite being deeply interested in science and having a generally scientific outlook, Bacon missed or ignored much of the best actual scientific work being done around him: he rejected the Copernican theory, seems not to have known Kepler's New Astronomy (1609) despite having no excuse not to, missed the work of Vesalius on anatomy and Gilbert on magnetism, and even seems to have been unaware of the work of his own physician, William Harvey, on the circulation of the blood.",
+      "precise_definition": "Russell's summary: 'Although science was what interested Bacon, and although his general outlook was scientific, he missed most of what was being done in science in his day,' rejecting Copernicus, apparently ignorant of Kepler, Vesalius, Gilbert, and even Harvey -- who, as Bacon's own physician, said Bacon 'writes philosophy like a Lord Chancellor.'",
+      "why_it_mattered": "It qualifies Bacon's reputation as a prophet of science: his importance lies in his general methodological advocacy for empirical, inductive science rather than in any engagement with or contribution to the concrete scientific advances of his own era.",
+      "historical_origin": "A biographical and intellectual limitation Russell attributes partly to Bacon's preoccupation with 'worldly success.'",
+      "associated_philosopher": "Francis Bacon",
+      "examples": [
+        "Rejection of the Copernican theory",
+        "Apparent ignorance of Kepler's New Astronomy (1609), Vesalius's anatomy, Gilbert's work on magnetism, and Harvey's discovery of the circulation of the blood"
+      ],
+      "objections": [],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "",
+      "connection_to_politics_or_religion": "",
+      "is_major": false
+    }
+  ],
+  "arguments": [
+    {
+      "title": "Defense of Bacon against the charge of betraying Essex",
+      "philosopher": "Bertrand Russell",
+      "premises": [
+        "Bacon worked loyally with Essex while Essex himself remained loyal to the Crown.",
+        "Bacon abandoned Essex, and helped in his prosecution, only once continued loyalty to Essex would itself have been treasonable.",
+        "Lytton Strachey's Elizabeth and Essex represents Bacon as 'a monster of treachery and ingratitude' for this abandonment."
+      ],
+      "conclusion": "Strachey's charge is 'quite unjust'; Bacon's conduct involved 'nothing that even the most rigid moralist of the age could condemn.'",
+      "explanation": "Russell distinguishes ordinary personal loyalty from loyalty that would require complicity in treason, arguing the timing of Bacon's break with Essex (only after Essex's disloyalty to the Crown, not before) makes his conduct defensible rather than opportunistic betrayal.",
+      "objections": [
+        "Strachey's own implicit objection, that Bacon's prosecution of his former patron shows deep ingratitude and moral failure regardless of timing"
+      ],
+      "implications": [
+        "Sets up Russell's broader, more measured verdict on Bacon's character later in the chapter: 'not a man of outstanding moral eminence... but also not exceptionally wicked. Morally, he was an average man.'"
+      ]
+    },
+    {
+      "title": "Why Bacon's inductive method fails to fully solve the problem of induction",
+      "philosopher": "Bertrand Russell",
+      "premises": [
+        "Framing the right hypothesis is usually the most difficult part of scientific work, requiring great ability, and no rule-based method for inventing hypotheses has been found.",
+        "Some hypothesis is usually needed even before facts can be collected, since selecting relevant facts itself requires some criterion of relevance.",
+        "Deduction (often mathematical) plays a far greater role in testing hypotheses against observation than Bacon allowed, since there is frequently a long deductive chain from hypothesis to testable consequence.",
+        "Induction by simple enumeration, which Bacon rightly distrusted for detailed scientific work, is nonetheless ultimately what justifies even our most comprehensive, general scientific laws (such as the law of causality itself, per John Stuart Mill's own admission)."
+      ],
+      "conclusion": "Bacon's inductive method is faulty chiefly through insufficient emphasis on hypothesis-formation and mathematical deduction, and the underlying problem of induction by simple enumeration 'remains unsolved to this day,' a situation Russell calls 'profoundly unsatisfactory,' adding that 'neither Bacon nor any of his successors have found a way out of it.'",
+      "explanation": "Russell builds this critique by comparing Bacon's proposed method (orderly collection and arrangement of instances) against the actual practice of later science, in which mathematical deduction from hypothesis to testable prediction plays the central role Bacon's method neglects.",
+      "objections": [],
+      "implications": [
+        "Frames Bacon's legacy as foundational but incomplete: the inductive tradition he begins is still, in Russell's own time, wrestling with the same core problem Bacon identified but could not solve."
+      ]
+    }
+  ],
+  "key_distinctions": [
+    "Induction (Bacon's preferred method) vs. deduction and the syllogism (associated with Aristotle and scholasticism)",
+    "Induction by simple enumeration (unreliable, as in the Welsh-village parable) vs. Bacon's proposed improved method using lists and 'prerogative instances'",
+    "The 'triumph of faith' (revelation, accepted even against reason) vs. philosophy proper (governed only by reason) -- the doctrine of 'double truth'",
+    "The five kinds of 'idols': of the tribe, the cave, the market-place, the theatre, and the schools",
+    "Bacon's general scientific outlook and advocacy vs. his actual, substantial ignorance of the leading science of his own day"
+  ],
+  "connections_to_earlier_philosophers": "Bacon is described as 'virulently hostile to Aristotle,' despising the syllogism and undervaluing mathematics; his doctrine of 'double truth' is traced to thirteenth-century Averroists condemned by the Church; he 'thought very highly of Democritus,' preferring an efficient-cause account of nature (rejecting admixture of teleological explanation in investigation, though not denying that nature as a whole might exemplify Divine purpose).",
+  "connections_to_later_philosophers": "Russell explicitly connects Bacon forward to John Stuart Mill, whose four canons of inductive method are presented as a later, still partial, attempt to overcome the limits of simple enumeration; Bacon's separation of philosophy and theology and his 'triumph of faith' language is linked forward to Bayle's ironic late-seventeenth-century use of the same logic against orthodox belief.",
+  "political_social_context": "Bacon's career is tightly bound to court politics: adviser to and later prosecutor of the fallen Earl of Essex; rising fortunes under James I (Keeper of the Great Seal, 1617; Lord Chancellor, 1618); conviction for judicial bribery in 1620/21, with a sentence (a large fine, imprisonment in the Tower, banishment from court and office) that was only partially enforced, before he spent his final years writing.",
+  "religion_science_culture_context": "The chapter situates Bacon's 'double truth' doctrine within the era's negotiation between reasoned philosophy and religious orthodoxy, and highlights the gap between Bacon's professed scientific outlook and his actual unfamiliarity with contemporary breakthroughs (Copernicus, Kepler, Vesalius, Gilbert, Harvey), underscoring that advocacy for scientific method and engagement with actual cutting-edge science were, in Bacon's case, notably disconnected.",
+  "russell_presentation": "Russell credits Bacon with 'permanent importance as the founder of modern inductive method and the pioneer in the attempt at logical systematization of scientific procedure,' and with a practical, power-oriented conception of philosophy summed up in 'Knowledge is power.' He defends Bacon's personal conduct toward Essex against Strachey's harsher judgment, characterizing him overall as morally 'an average man, no better and no worse than the bulk of his contemporaries.' He praises specific elements of Bacon's thought -- notably the doctrine of the 'idols,' and Bacon's broadly correct (if lucky) intuition that heat consists of rapid, irregular particle motion -- while offering a sustained critique: Bacon 'despised the syllogism' and 'undervalued mathematics,' his inductive method suffers from 'insufficient emphasis on hypothesis,' and he was strikingly out of touch with the best science of his own era, including that of his own physician, Harvey. Russell's overall verdict situates Bacon as historically foundational to the tradition of empirical, inductive science but philosophically incomplete, since the deepest problem he raised (justifying induction by simple enumeration) 'remains unsolved to this day.'",
+  "critical_context": "Russell's own closing assessment already functions as critical context within the chapter: he stresses that the fundamental problem of induction Bacon identified was never solved by Bacon or, in Russell's judgment (writing in the 1940s), by any of Bacon's successors, including John Stuart Mill, whose four canons still depend on assuming the law of causality, itself accepted only 'on the basis of induction by simple enumeration.' This remains, in the history and philosophy of science, a genuinely live methodological debate (associated later with the twentieth-century 'problem of induction' discussed by philosophers such as Popper), though this chapter itself does not go beyond Russell's own summary of the situation as he saw it.",
+  "key_takeaways": [
+    "Russell credits Bacon as the founder of modern inductive method and a pioneer of systematic scientific procedure, despite calling his philosophy 'in many ways unsatisfactory.'",
+    "Bacon's Welsh-village parable illustrates the unreliability of 'induction by simple enumeration,' the core problem his more elaborate inductive method (lists of instances, 'prerogative instances') was meant to solve.",
+    "Bacon's doctrine of the five 'idols' (tribe, cave, market-place, theatre, schools) remains, per Russell, one of the most famous and lasting parts of his philosophy, cataloguing psychological and social sources of error.",
+    "Bacon advocated separating philosophy (governed by reason) from theology (governed by revelation), a version of the medieval 'double truth' doctrine whose sincerity Russell says is impossible to determine.",
+    "Despite his scientific outlook, Bacon was strikingly ignorant of the leading science of his own time, including Kepler, Vesalius, Gilbert, and even his own physician Harvey's discovery of the circulation of the blood.",
+    "Russell's central objection is that Bacon underestimated the role of hypothesis-formation and mathematical deduction in science, and that the underlying problem of induction by simple enumeration remains unsolved."
+  ],
+  "study_notes": "Read this chapter as a study in a genuinely mixed legacy: Bacon matters historically for launching a whole tradition (inductive, empirical, anti-scholastic science) whose central problem he could not himself resolve. Keep two separate evaluative axes distinct as you read: Bacon's personal/political conduct (the Essex affair, the bribery scandal -- both of which Russell treats sympathetically, arriving at a verdict of Bacon as morally 'average') versus Bacon's philosophical achievement (praised for method and the 'idols,' but criticized for underestimating deduction and hypothesis-formation, and for near-total disengagement from the actual cutting-edge science around him).\n\nThe most conceptually important thread to master is the distinction between 'induction by simple enumeration' and a more sophisticated inductive method. Bacon correctly diagnosed the weakness of simple enumeration (the Welsh-village parable is worth being able to reconstruct and explain in your own words) but Russell argues his own proposed solution (lists of instances, 'prerogative instances') does not go far enough, because it underrates how much of scientific confirmation depends on deducing testable consequences from a hypothesis -- a deduction that is 'usually... mathematical.' Notice, too, that Russell treats this as an open problem in his own day ('remains unsolved to this day'), not a historical curiosity Bacon merely failed to close -- a useful reminder that some of the deepest problems raised early in the history of philosophy remain genuinely unresolved much later.",
+  "glossary_terms": [
+    {
+      "term": "Induction by simple enumeration",
+      "beginner_explanation": "Concluding a general rule just because every example checked so far fits it -- which can go wrong, as illustrated by Bacon's parable of a census-taker who wrongly assumes every villager shares one name after meeting many people in a row who do.",
+      "academic_explanation": "A form of inductive inference that generalizes from an unbroken run of confirming instances without any further justification for the generalization; Bacon sought a superior inductive method to replace it for detailed scientific investigation, though Russell notes it remains, even in comprehensive scientific laws, an ultimately unavoidable foundation.",
+      "related_concepts": [
+        "Induction by simple enumeration and its unreliability"
+      ]
+    },
+    {
+      "term": "Idols (Bacon's doctrine of)",
+      "beginner_explanation": "Bacon's name for common bad mental habits that lead people into error -- biases built into human nature, personal prejudice, being misled by imprecise words, blind deference to received authorities like Aristotle, and letting rigid rules replace real judgment.",
+      "academic_explanation": "Bacon's fivefold classification of sources of intellectual error: idols of the tribe (biases inherent in human nature), idols of the cave (an individual investigator's personal prejudices), idols of the market-place (errors arising from the imprecision and tyranny of language), idols of the theatre (uncritical acceptance of received systems of thought, chiefly Aristotelian and scholastic), and idols of the schools (substituting a blind rule, such as the syllogism, for genuine judgement).",
+      "related_concepts": [
+        "The doctrine of the 'idols' (bad habits of mind)"
+      ]
+    },
+    {
+      "term": "Double truth",
+      "beginner_explanation": "The idea that there can be one truth arrived at by reason (philosophy) and a separate truth arrived at by faith (theology), with the two kept apart rather than blended together.",
+      "academic_explanation": "A doctrine, traced by Russell to thirteenth-century Averroists condemned by the Church, holding that philosophy should proceed by reason alone while theology is accepted on revelation, with faith's 'triumph' considered greatest precisely where a dogma appears most absurd to unaided reason; Bacon advocated a version of this position, and Bayle later used it ironically.",
+      "related_concepts": [
+        "The doctrine of 'double truth': separating philosophy from theology"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "type": "short_answer",
+      "prompt": "What does Russell identify as Bacon's most important and lasting philosophical contribution, despite calling his philosophy 'in many ways unsatisfactory'?",
+      "answer": "His role as the founder of modern inductive method and the pioneer in the attempt at logical systematization of scientific procedure.",
+      "explanation": "This is Russell's opening framing of the whole chapter.",
+      "source_page": 540
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Summarize Bacon's Welsh census-taker parable and the point it illustrates.",
+      "answer": "A census officer, after finding the first several householders all named William Williams, concludes everyone in the village must share that name and stops asking -- but he is wrong, since one man is named John Jones. It illustrates the unreliability of induction by simple enumeration: generalizing from a run of confirming instances without further justification can go astray.",
+      "explanation": "Bacon sought a more reliable inductive method partly in response to this kind of failure.",
+      "source_page": 542
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Describe Bacon's proposed method for investigating the nature of heat, and what he concluded.",
+      "answer": "He proposed compiling lists of hot bodies, cold bodies, and bodies of varying degrees of heat, hoping to find a characteristic present in hot bodies and absent in cold ones; using this method he concluded, rightly according to Russell, that heat consists of rapid irregular motions of the small parts of bodies.",
+      "explanation": "Despite reaching a correct conclusion here, Russell argues Bacon's general method is faulty for underemphasizing hypothesis-formation.",
+      "source_page": 542
+    },
+    {
+      "type": "short_answer",
+      "prompt": "List and briefly define Bacon's five 'idols.'",
+      "answer": "Idols of the tribe: biases inherent in human nature (e.g., expecting more order in nature than exists). Idols of the cave: an individual investigator's personal prejudices. Idols of the market-place: errors from the tyranny and imprecision of words. Idols of the theatre: uncritical acceptance of received systems of thought (especially Aristotle and scholasticism). Idols of the schools: letting a blind rule, such as the syllogism, replace real judgement.",
+      "explanation": "Russell calls this 'one of the most famous parts of Bacon's philosophy.'",
+      "source_page": null
+    },
+    {
+      "type": "short_answer",
+      "prompt": "What is the doctrine of 'double truth,' and how did Bacon apply it?",
+      "answer": "The idea, traced to thirteenth-century Averroists, that reason and revelation yield separate truths; Bacon held that philosophy should rely only on reason while accepting theology (beyond the bare existence of God) purely on revelation, holding that faith's triumph is greatest when a dogma appears most absurd to unaided reason.",
+      "explanation": "Russell notes it is impossible to know how sincere Bacon's own orthodoxy was.",
+      "source_page": 541
+    },
+    {
+      "type": "identify_philosopher",
+      "prompt": "Which contemporary scientist -- also Bacon's own physician -- discovered the circulation of the blood, and what did he say about Bacon's writing?",
+      "answer": "William Harvey, who said Bacon 'writes philosophy like a Lord Chancellor.'",
+      "explanation": "Bacon seems to have remained unaware of Harvey's research despite this close personal connection.",
+      "source_page": null
+    },
+    {
+      "type": "argument_reconstruction",
+      "prompt": "Reconstruct Russell's argument for why Bacon's inductive method is ultimately inadequate.",
+      "answer": "Premise 1: framing the right hypothesis, not merely arranging data, is usually the hardest and most essential part of scientific work, and no rule for inventing hypotheses has been found. Premise 2: some hypothesis is typically needed before relevant facts can even be selected. Premise 3: testing a hypothesis against observation usually requires a long, often mathematical, deductive chain that Bacon's method underemphasizes. Conclusion: Bacon's method, though a genuine advance over uncritical simple enumeration, is faulty through insufficient emphasis on hypothesis and deduction, and the deeper problem of induction by simple enumeration remains unsolved.",
+      "explanation": "This is Russell's closing verdict on Bacon's scientific method, extending from the end of Chapter VI into this chapter.",
+      "source_page": 542
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "What years did Francis Bacon live?",
+      "back": "1561-1626.",
+      "category": "date"
+    },
+    {
+      "front": "What position did Bacon reach in 1618, and what happened to him two years later?",
+      "back": "He became Lord Chancellor; two years later he was prosecuted and convicted for accepting bribes from litigants.",
+      "category": "fact"
+    },
+    {
+      "front": "What saying is Bacon commonly regarded as the originator of?",
+      "back": "'Knowledge is power.'",
+      "category": "fact"
+    },
+    {
+      "front": "What is the 'double truth' doctrine, and did Bacon hold it?",
+      "back": "The view that reason yields one truth (philosophy) and revelation another (theology); yes, Bacon advocated a version of it.",
+      "category": "concept"
+    },
+    {
+      "front": "What is 'induction by simple enumeration,' and what parable illustrates its unreliability?",
+      "back": "Generalizing from an unbroken run of confirming instances; illustrated by the Welsh census-taker who wrongly assumes every villager is named William Williams.",
+      "category": "concept"
+    },
+    {
+      "front": "What method did Bacon propose to investigate the nature of heat?",
+      "back": "Compiling lists of hot, cold, and variably-heated bodies to find a characteristic present in hot bodies and absent in cold ones.",
+      "category": "concept"
+    },
+    {
+      "front": "What did Bacon (correctly, per Russell) conclude heat consists of?",
+      "back": "Rapid irregular motions of the small parts of bodies.",
+      "category": "fact"
+    },
+    {
+      "front": "What are 'prerogative instances' in Bacon's method?",
+      "back": "Observations especially valuable because they let you decide between two theories both otherwise compatible with prior observations.",
+      "category": "concept"
+    },
+    {
+      "front": "Name Bacon's five 'idols.'",
+      "back": "Idols of the tribe, the cave, the market-place, the theatre, and the schools.",
+      "category": "concept"
+    },
+    {
+      "front": "What are 'idols of the tribe'?",
+      "back": "Biases inherent in human nature, such as expecting more order in nature than actually exists.",
+      "category": "concept"
+    },
+    {
+      "front": "What are 'idols of the theatre'?",
+      "back": "Uncritical acceptance of received systems of thought, especially Aristotle and scholasticism.",
+      "category": "concept"
+    },
+    {
+      "front": "Which contemporary scientists' work did Bacon apparently fail to engage with, despite his scientific outlook?",
+      "back": "Kepler, Vesalius, Gilbert, and Harvey (his own physician), among others; he also rejected the Copernican theory.",
+      "category": "fact"
+    },
+    {
+      "front": "What is Russell's central objection to Bacon's inductive method?",
+      "back": "It is faulty through insufficient emphasis on hypothesis-formation, and underestimates the role of (often mathematical) deduction in testing hypotheses.",
+      "category": "concept"
+    },
+    {
+      "front": "Who defended Bacon's abandonment of Essex, and who had attacked it as treachery?",
+      "back": "Russell defended it; Lytton Strachey (in Elizabeth and Essex) had attacked it as treachery and ingratitude.",
+      "category": "fact"
+    },
+    {
+      "front": "What is Russell's overall moral verdict on Bacon's character?",
+      "back": "'Morally, he was an average man, no better and no worse than the bulk of his contemporaries.'",
+      "category": "concept"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "For what offense was Bacon prosecuted and convicted in 1620/21, ending his public career?",
+      "options": [
+        "Treason",
+        "Heresy",
+        "Accepting bribes from litigants",
+        "Plagiarism"
+      ],
+      "correct_index": 2,
+      "explanation": "Bacon admitted accepting presents from litigants, a common but by then punishable practice among judges of the era.",
+      "related_concept": "Bacon's blindness to the leading science of his own day",
+      "source_page": 541
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "What method of reasoning did Bacon champion as more reliable than deduction and the syllogism?",
+      "options": [
+        "Induction",
+        "Analogical reasoning",
+        "Revelation",
+        "Dialectic"
+      ],
+      "correct_index": 0,
+      "explanation": "Bacon 'was the first of the long line of scientifically minded philosophers who have emphasized the importance of induction as opposed to deduction.'",
+      "related_concept": "Induction as opposed to deduction and the syllogism",
+      "source_page": null
+    },
+    {
+      "type": "true_false",
+      "prompt": "Bacon's Welsh census-taker parable is used to illustrate the reliability of induction by simple enumeration.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_index": 1,
+      "explanation": "The parable illustrates the opposite -- that induction by simple enumeration can mislead, since the census-taker's generalization turns out false.",
+      "related_concept": "Induction by simple enumeration and its unreliability",
+      "source_page": 542
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "What did Bacon propose to investigate the nature of heat, and what conclusion did he reach?",
+      "options": [
+        "Mathematical deduction from first principles; he concluded heat is a fluid substance",
+        "Lists of hot, cold, and variably-heated bodies; he concluded heat consists of rapid irregular motions of small parts of bodies",
+        "A single decisive experiment; he concluded heat cannot be studied scientifically",
+        "Consultation of Aristotle's Physics; he concluded heat is one of the four elements"
+      ],
+      "correct_index": 1,
+      "explanation": "Bacon's list-based method led him to the (Russell says correct) view that heat is rapid irregular particle motion.",
+      "related_concept": "Bacon's improved inductive method: lists and 'prerogative instances'",
+      "source_page": 542
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "Which of Bacon's 'idols' concerns uncritical acceptance of received systems of thought, especially Aristotle and scholasticism?",
+      "options": [
+        "Idols of the tribe",
+        "Idols of the cave",
+        "Idols of the market-place",
+        "Idols of the theatre"
+      ],
+      "correct_index": 3,
+      "explanation": "Idols of the theatre concern received systems of thought, for which Aristotle and the scholastics afforded Bacon his most noteworthy examples.",
+      "related_concept": "The doctrine of the 'idols' (bad habits of mind)",
+      "source_page": null
+    },
+    {
+      "type": "fill_in_blank",
+      "difficulty": "beginner",
+      "prompt": "Bacon is commonly regarded as the originator of the saying 'Knowledge is ____.'",
+      "options": [
+        "truth",
+        "power",
+        "virtue",
+        "freedom"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell notes Bacon 'is commonly regarded as the originator of the saying \"Knowledge is power.\"'",
+      "related_concept": "Induction as opposed to deduction and the syllogism",
+      "source_page": 541
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "prompt": "Which major contemporary scientific achievements did Bacon apparently fail to engage with, despite his professedly scientific outlook?",
+      "options": [
+        "Newton's Principia and Leibniz's calculus",
+        "Kepler's New Astronomy, Vesalius's anatomy, Gilbert's work on magnetism, and Harvey's discovery of the circulation of the blood",
+        "Descartes's Meditations and Discourse on Method",
+        "Galileo's law of falling bodies and the invention of the telescope"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell lists these as major works Bacon appears to have missed or ignored, including that of his own physician, Harvey.",
+      "related_concept": "Bacon's blindness to the leading science of his own day",
+      "source_page": null
+    },
+    {
+      "type": "true_false",
+      "prompt": "Russell argues that the problem of induction by simple enumeration was fully and permanently solved by Bacon's method of lists and prerogative instances.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell states plainly: 'The problem of induction by simple enumeration remains unsolved to this day... neither Bacon nor any of his successors have found a way out of it.'",
+      "related_concept": "Induction as opposed to deduction and the syllogism",
+      "source_page": 542
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "prompt": "What is the historical origin, according to Russell, of Bacon's 'double truth' doctrine (separating reason from revelation)?",
+      "options": [
+        "It was invented by Bacon himself with no precedent",
+        "It traces to certain Averroists in the thirteenth century, whose version had been condemned by the Church",
+        "It comes directly from Aristotle's Metaphysics",
+        "It was formulated first by Descartes"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell explicitly traces the doctrine to thirteenth-century Averroists condemned by the Church, later used ironically by Bayle.",
+      "related_concept": "The doctrine of 'double truth': separating philosophy from theology",
+      "source_page": 541
+    }
+  ],
+  "essay_prompts": [
+    {
+      "task_type": "Evaluate",
+      "prompt": "Evaluate Russell's overall verdict on Bacon: that he is historically foundational as 'the founder of modern inductive method' yet philosophically incomplete, having underemphasized hypothesis-formation and mathematical deduction. Do you find this a fair balance of credit and criticism?",
+      "rubric": [
+        "Accurately presents Bacon's contribution to inductive method",
+        "Accurately presents Russell's specific criticisms (hypothesis, deduction, unsolved problem of induction)",
+        "Uses the Welsh census-taker parable or the heat investigation as concrete evidence",
+        "Reaches a reasoned, well-supported judgment"
+      ]
+    },
+    {
+      "task_type": "Explain",
+      "prompt": "Explain Bacon's doctrine of the 'idols' and assess whether it remains a useful framework for identifying sources of error in reasoning today.",
+      "rubric": [
+        "Accurately defines all five idols",
+        "Gives or invents a clear example of each",
+        "Assesses contemporary relevance with reasoned argument",
+        "Clear, well-organized structure"
+      ]
+    }
+  ],
+  "extraction_confidence": "high"
+}
