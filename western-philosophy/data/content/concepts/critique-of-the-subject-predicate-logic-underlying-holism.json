@@ -1,0 +1,30 @@
+{
+  "slug": "critique-of-the-subject-predicate-logic-underlying-holism",
+  "name": "Critique of the subject-predicate logic underlying holism",
+  "plain_explanation": "Russell traces Hegel's whole system to an error in traditional logic: the assumption that every true statement must be of the form 'a thing has a property,' which cannot properly handle relations between two or more things (like 'John is the father of James') and so (mistakenly) seems to force everything back into statements about one all-encompassing Whole.",
+  "precise_definition": "The claim, which Russell attributes as implicit in Hegel's system (though not explicit in Hegel's own texts), that traditional subject-predicate logic -- which treats every fact as a single subject having a single property -- cannot accommodate relational facts (like 'A and B are two,' or 'John is the father of James') except by relocating the truth of such statements to 'the Whole,' since relations involve two or more things rather than one.",
+  "why_it_mattered": "For Russell, this is the technical root of Hegel's entire metaphysics of the Absolute: 'the worse your logic, the more interesting the consequences to which it gives rise.'",
+  "historical_origin": "Reconstructed by Russell as implicit in Hegel's system and in that of other metaphysicians who share a similar outlook.",
+  "associated_philosopher": "Bertrand Russell (critiquing Hegel)",
+  "examples": [
+    "'Uncle' as a relational predicate: a man can become an uncle without any change in his own intrinsic qualities, which subject-predicate logic struggles to accommodate",
+    "Russell's demonstration that if Hegel were right, no word could have a meaning, since fully specifying 'John' would require already knowing the meanings of all other words in the universe"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Modern relational logic (developed by Russell himself elsewhere), which treats relations as genuinely real without requiring reduction to a single Whole"
+  ],
+  "influence_on_later_thinkers": "Represents an early statement of Russell's broader project (with Moore) of refuting British Idealism through the logic of relations.",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell (critiquing Hegel)",
+      "treatment": "Russell traces Hegel's whole system to an error in traditional logic: the assumption that every true statement must be of the form 'a thing has a property,' which cannot properly handle relations between two or more things (like 'John is the father of James') and so (mistakenly) seems to force everything back into statements about one all-encompassing Whole."
+    }
+  ]
+}

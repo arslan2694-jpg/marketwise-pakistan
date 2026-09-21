@@ -1,0 +1,52 @@
+{
+  "slug": "sir-thomas-more",
+  "name": "Sir Thomas More",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Northern (Christian) humanism",
+  "major_ideas": [
+    "More's Utopia: communism, equality, and rational social planning"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The chapter's co-primary subject: his political career, his principled opposition to Henry VIII's divorce and to the Act of Supremacy, his execution, and above all his Utopia (1518) are examined as the era's most notable statement of humanist social idealism.",
+  "central_doctrines": "More's Utopia: communism, equality, and rational social planning: Russell's description of Utopia as a Republic-like communist society in which 'the public good cannot flourish where there is private property, and without communism there can be no equality,' organized around identical towns, communal dining, universal (short) working hours, elected officials drawn from a learned class, and tolerant but compulsory theism, while noting Russell's own reservation: 'life in More's Utopia, as in most others, would be intolerably dull. Diversity is essential to happiness... This is a defect of all planned social systems, actual as well as imaginary.'",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "rene-descartes",
+    "saint-jerome",
+    "saint-augustine",
+    "lorenzo-valla",
+    "erasmus"
+  ],
+  "successors": [
+    "jean-jacques-rousseau",
+    "erasmus",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "plato",
+      "about": "More's Utopia: communism, equality, and rational social planning"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Erasmus and More primarily as illustrative figures of temperament rather than as systematic philosophers ('Neither Erasmus nor More was a philosopher in the strict sense of the word'), valuable for showing 'the temper of a pre-revolutionary age' when moderate reform still seemed possible. He treats The Praise of Folly with evident appreciation, both as satire and for its serious closing suggestion that true religion is a form of simple-hearted 'folly' opposed to intellectualized theology -- a view he calls, historically, an early instance of Northern religious sentimentalism. He is notably admiring of More's personal integrity (incorruptibility as Chancellor, courage in refusing the Oath of Supremacy) while treating Utopia with qualified praise: genuinely liberal on war, religious toleration, cruelty to animals, and criminal law, yet flawed by a rigid uniformity that Russell judges incompatible with real human happiness, generalizing this into a criticism of 'all planned social systems, actual as well as imaginary.' He treats both men's later lives -- More's martyrdom, Erasmus's decline into ineffectiveness -- as a study in how a violently polarized age destroys or marginalizes moderate temperaments.",
+  "why_this_matters": "Erasmus and More exemplify a brief, moderate northern Renaissance moment that combined humanist learning with genuine piety and public virtue, distinct from the amoral Italian Renaissance. Erasmus's Praise of Folly satirizes ecclesiastical abuses but ultimately argues that true religion is a form of simple-hearted 'holy folly,' rejecting elaborate theology -- an idea Russell links forward to Rousseau.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-iv",
+      "role": "The chapter's co-primary subject: his political career, his principled opposition to Henry VIII's divorce and to the Act of Supremacy, his execution, and above all his Utopia (1518) are examined as the era's most notable statement of humanist social idealism."
+    }
+  ],
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "time-as-numbered-motion",
+  "name": "Time as numbered motion",
+  "plain_explanation": "Aristotle argues time is not nothing (though it is made of a no-longer-existing past and a not-yet-existing future), but rather 'motion that admits of numeration' -- and, curiously, he wonders whether time could exist at all without a soul present to do the counting.",
+  "precise_definition": "Aristotle's account of time (in the Physics) as a countable aspect of motion, raising the puzzle of whether time can exist independently of a mind capable of numeration, since counting seems to require a counter; Aristotle also holds that motion, and hence time, has always existed and always will, in explicit disagreement with Plato, who held time was created.",
+  "why_it_mattered": "It set up a direct point of conflict for later Christian Aristotelians, who were obliged to dissent from Aristotle's eternal-universe view since scripture holds that the universe had a beginning.",
+  "historical_origin": "Developed in the Physics, following the discussion of motion and preceding the argument for an unmoved mover.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "'There always has been motion, and there always will be; for there cannot be time without motion, and all are agreed that time is uncreated, except Plato.'"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Plato's view (noted as the sole exception among ancient philosophers) that time was created."
+  ],
+  "influence_on_later_thinkers": "Created a direct doctrinal conflict for medieval Christian Aristotelians, who had to reject Aristotle's eternal-universe doctrine on biblical grounds.",
+  "connection_to_politics_or_religion": "Directly conflicted with the Christian doctrine of a created, temporally finite universe.",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Aristotle argues time is not nothing (though it is made of a no-longer-existing past and a not-yet-existing future), but rather 'motion that admits of numeration' -- and, curiously, he wonders whether time could exist at all without a soul present to do the counting."
+    }
+  ]
+}

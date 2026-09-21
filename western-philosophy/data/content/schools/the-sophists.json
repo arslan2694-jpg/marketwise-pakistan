@@ -1,0 +1,20 @@
+{
+  "slug": "the-sophists",
+  "name": "The Sophists",
+  "period": "Ancient",
+  "doctrines": [
+    "The Sophists as a social and professional class",
+    "'Man is the measure of all things' (Protagorean relativism)",
+    "Protagoras's practical defense of convention despite scepticism",
+    "Protagorean relativism ('man is the measure of all things')"
+  ],
+  "philosophers": [
+    "protagoras"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-vii",
+    "book-1-ch-x"
+  ]
+}

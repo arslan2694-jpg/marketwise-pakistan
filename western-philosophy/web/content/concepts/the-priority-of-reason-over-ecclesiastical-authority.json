@@ -1,0 +1,31 @@
+{
+  "slug": "the-priority-of-reason-over-ecclesiastical-authority",
+  "name": "The priority of reason over ecclesiastical authority",
+  "plain_explanation": "John the Scot argued that reason and revelation are both genuine sources of truth and therefore cannot really conflict, but that where they appear to conflict, reason should be preferred. He summarized his view in the maxim that true religion is true philosophy, and true philosophy is true religion.",
+  "precise_definition": "The methodological principle, unusual for its time, that in cases of apparent conflict between philosophical reasoning and received doctrine, philosophical argument takes precedence, since reason and revelation, properly understood, must agree.",
+  "why_it_mattered": "This was what specifically provoked the condemnation of his treatise On Divine Predestination by councils in 855 and 859 (one of which dismissively called it 'Scots porridge') -- not his substantive position on free will (which was in fact uncontroversial), but his claim to the 'equal, or even superior, authority of a philosophy independent of revelation.'",
+  "historical_origin": "Arose from John's intervention in the Gottschalk-Hincmar predestination dispute at the court of Charles the Bald, in a treatise supporting Hincmar's libertarian position.",
+  "associated_philosopher": "John the Scot",
+  "examples": [
+    "\"True religion is true philosophy; but, conversely, true philosophy is true religion.\""
+  ],
+  "objections": [
+    "Condemned as heretical in method (if not in doctrinal content) by councils in 855 and 859"
+  ],
+  "competing_positions": [
+    "The more usual medieval position, later exemplified by Saint Anselm's 'I believe in order to understand,' that faith must precede and ground understanding"
+  ],
+  "influence_on_later_thinkers": "Anticipates, and stands in sharp contrast with, the later scholastic settlement (especially in Aquinas) in which reason operates strictly within bounds set by revealed authority.",
+  "connection_to_politics_or_religion": "Directly a matter of Church authority: his freedom from persecution depended entirely on the personal protection of King Charles the Bald.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-viii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John the Scot",
+      "treatment": "John the Scot argued that reason and revelation are both genuine sources of truth and therefore cannot really conflict, but that where they appear to conflict, reason should be preferred. He summarized his view in the maxim that true religion is true philosophy, and true philosophy is true religion."
+    }
+  ]
+}

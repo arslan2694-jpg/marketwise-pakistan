@@ -1,0 +1,29 @@
+{
+  "slug": "essence",
+  "name": "Essence",
+  "plain_explanation": "Philosophers after Aristotle spoke of a thing's 'essence' -- the properties it cannot lose without ceasing to be itself -- but Russell argues this is really just a fact about how we choose to use a name, not a fact about the world: whether 'being a man' is essential to Socrates depends only on whether we would still call him 'Socrates' if that changed.",
+  "precise_definition": "Aristotle's notion, central to the Posterior Analytics's account of definition and first premisses, that a thing's essential properties are those it cannot change without losing its identity, as opposed to accidental properties (like being happy or sad) that it can change while remaining the same thing; Russell calls this 'a hopelessly muddle-headed notion' whose real content is purely linguistic.",
+  "why_it_mattered": "Essence became, per Russell, 'an intimate part of every philosophy subsequent to Aristotle... until we come to modern times,' making its critique essential to understanding a huge stretch of the later philosophical tradition, even though Russell judges the underlying concept confused.",
+  "historical_origin": "Developed in Aristotle's Posterior Analytics as the basis for definitions and, ultimately, for the unproved first premisses all demonstration must start from.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "Socrates may be sometimes happy, sometimes sad -- accidental properties -- but it is supposed to be of his essence that he is a man, 'though a Pythagorean, who believes in transmigration, will not admit this.'"
+  ],
+  "objections": [
+    "Russell: 'the question of \"essence\" is one as to the use of words'; 'the \"essence\" of Socrates thus consists of those properties in the absence of which we should not use the name \"Socrates.\"' A word may have an essence, but a thing cannot."
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Persisted as a core philosophical concept for roughly two thousand years, per Russell, until displaced in modern philosophy.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Philosophers after Aristotle spoke of a thing's 'essence' -- the properties it cannot lose without ceasing to be itself -- but Russell argues this is really just a fact about how we choose to use a name, not a fact about the world: whether 'being a man' is essential to Socrates depends only on whether we would still call him 'Socrates' if that changed."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "slug": "john-locke",
+  "name": "John Locke",
+  "era": "Modern",
+  "dates": "1637-1704",
+  "geography": "",
+  "school": "British empiricism",
+  "major_ideas": [
+    "Empiricism and the rejection of innate ideas",
+    "Primary and secondary qualities",
+    "Nominalism about universals ('Of General Terms')",
+    "The paradox of ideas: knowledge confined to our own ideas",
+    "Locke's hedonistic ethics and the ideal of prudence",
+    "The state of nature and natural law",
+    "The social contract",
+    "Property and the labour theory of value",
+    "Checks and balances (separation of powers)",
+    "The two European philosophical traditions: British and Continental",
+    "Pleasure-based vs. 'noble' (anti-utilitarian) ethics",
+    "The obsolescence of Locke's individualist political philosophy"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Described as objective by temperament but 'forced reluctantly' into the subjective doctrine that knowledge is of the agreement or disagreement of ideas, a view he found so repulsive that he escaped it only through inconsistency. Introduced at the chapter's close as 'the first comprehensive statement of the liberal philosophy,' the most influential though not the most profound modern philosopher, whose views shaped English constitutional practice and, via the American Constitution, later revolutions. The chapter's sole primary subject: Russell reconstructs his empiricist theory of knowledge -- the rejection of innate ideas, the primary/secondary quality distinction, his nominalism, his account of degrees of assent, and his ultimately inconsistent theory of how ideas relate to an external world -- alongside his hedonistic ethics. The chapter's primary subject: Russell reconstructs Locke's refutation of Filmer, his theory of the state of nature and natural law, his social contract doctrine, his theory of property (including the labour theory of value), and his doctrine of checks and balances, with sustained critical commentary throughout. Treated throughout as the fountainhead of the 'British' empirical tradition in both epistemology and politics, whose influence Russell traces forward through two centuries of European thought. Referenced throughout as the target whose primary/secondary quality distinction Berkeley's arguments extend and radicalize -- Berkeley (via the character Hylas) begins by defending Locke's distinction before being argued out of it entirely by Philonous. Identified as the philosophical starting point Hume shares -- 'like Locke, [Hume begins] with the intention of being sensible and empirical' -- but whom Hume surpasses in rigor, arriving at conclusions Locke's 'comfortable inconsistencies' allowed him to avoid. Named as the founder of the rival tradition of political reform (Roosevelt and Churchill are said to descend from Locke, Hitler from Rousseau); Rousseau's social contract superficially resembles Locke's but proves closer to Hobbes's in substance, and Rousseau lacks Locke's respect for private property and division of powers. Presented as exhibiting an unresolved inconsistency between claiming knowledge is confined to 'ideas' and nonetheless claiming intuitive, demonstrative, and sensitive knowledge of real existence.",
+  "central_doctrines": "Empiricism and the rejection of innate ideas: The doctrine that all our knowledge (with the possible exception of logic and mathematics) is derived from experience; Book I of the Essay argues against Plato, Descartes, and the scholastics that there are no innate ideas or principles, and Book II shows in detail how experience generates our various ideas. Primary and secondary qualities: Primary qualities -- solidity, extension, figure, motion or rest, and number -- are 'inseparable from body' and actually in bodies; secondary qualities -- colour, sound, smell, and the rest -- exist 'only in the percipient.' The paradox of ideas: knowledge confined to our own ideas: Locke states 'the mind ... hath no other immediate object but its own ideas' and that 'knowledge is the perception of the agreement or disagreement of two ideas' -- a view from which it seems to follow that we cannot know of the existence of other people or the physical world, since these, if they exist, are not merely ideas in any mind. Locke escapes this paradox inconsistently, by positing (Book IV, Ch. III) three kinds of 'real' knowledge -- intuitive knowledge of our own existence, demonstrative knowledge of God's existence, and 'sensitive' knowledge of things present to sense -- and by assuming that sensations have external causes which, to some extent, resemble them. The state of nature and natural law: Locke's 'state of nature' is 'men living together according to reason, without a common superior on earth, with authority to judge between them'; it is governed by a 'law of nature' consisting of divine commands (not human legislation), under which all individuals possess natural equality, natural freedom (bounded by the law of nature, not licence), and a natural right to self-defense and even to punish transgressors such as thieves or murderers. The social contract: Civil government originates when individuals consent to leave the state of nature by 'making one body politic'; unlike Hobbes's version, in which the sovereign is not a party to the contract and so gains unlimited power, in Locke's version government is itself a party to the contract, bound by it, and can be justly resisted if it fails to fulfil its part. Property and the labour theory of value: Locke holds 'the great and chief end of men uniting into commonwealths ... is the preservation of their property,' that a man may own as much land as he can till (but no more), and that labour accounts for 'nine tenths' of the value of goods -- an early statement of the labour theory of value later associated with Ricardo and Marx, traceable, via Tawney, back through Locke to Aquinas and the scholastics' hostility to usury. The two European philosophical traditions: British and Continental: The British method draws 'a comparatively modest conclusion ... from a broad survey of many facts,' with a stable, base-heavy structure that can absorb local errors without total collapse; the Continental method 'pyramids' a vast edifice of deduction upon 'a pin-point of logical principle,' producing an unstable structure that total collapse if any part of the foundation is flawed. Pleasure-based vs. 'noble' (anti-utilitarian) ethics: For Locke and his empiricist successors, pleasure was 'the good' throughout the eighteenth and nineteenth centuries; their opponents -- Hobbes (power), Spinoza (partly power, partly mystic union with God), Kant (duty performed for the moral law's own sake, with an afterlife needed to reconcile virtue and happiness) -- held ethics to a standard explicitly opposed to, or higher than, the pursuit of pleasure.",
+  "key_arguments": [
+    "The argument against innate ideas",
+    "The primary/secondary quality distinction",
+    "Locke's inconsistent escape from the paradox of ideas",
+    "The claim that morality is capable of demonstration",
+    "Locke's refutation of Filmer's hereditary/patriarchal monarchy",
+    "Government as remedy for the defects of the state of nature",
+    "The labour theory of value"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "rene-descartes",
+    "theaetetus",
+    "thomas-aquinas",
+    "hugo-grotius",
+    "gottfried-wilhelm-leibniz",
+    "baruch-spinoza"
+  ],
+  "successors": [
+    "jeremy-bentham",
+    "george-berkeley",
+    "david-hume",
+    "karl-marx",
+    "david-ricardo",
+    "montesquieu",
+    "bertrand-russell",
+    "immanuel-kant",
+    "friedrich-nietzsche",
+    "johann-gottlieb-fichte",
+    "georg-wilhelm-friedrich-hegel",
+    "jean-jacques-rousseau",
+    "thomas-carlyle",
+    "lord-byron"
+  ],
+  "disagreements": [
+    {
+      "with": "rene-descartes",
+      "about": "Empiricism and the rejection of innate ideas"
+    },
+    {
+      "with": "gottfried-wilhelm-leibniz",
+      "about": "Empiricism and the rejection of innate ideas"
+    },
+    {
+      "with": "plato",
+      "about": "Empiricism and the rejection of innate ideas"
+    },
+    {
+      "with": "theaetetus",
+      "about": "Empiricism and the rejection of innate ideas"
+    },
+    {
+      "with": "thomas-hobbes",
+      "about": "The state of nature and natural law"
+    },
+    {
+      "with": "thomas-hobbes",
+      "about": "The social contract"
+    },
+    {
+      "with": "sir-robert-filmer",
+      "about": "The social contract"
+    },
+    {
+      "with": "karl-marx",
+      "about": "Property and the labour theory of value"
+    },
+    {
+      "with": "david-ricardo",
+      "about": "Property and the labour theory of value"
+    },
+    {
+      "with": "immanuel-kant",
+      "about": "The two European philosophical traditions: British and Continental"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "The two European philosophical traditions: British and Continental"
+    },
+    {
+      "with": "immanuel-kant",
+      "about": "Pleasure-based vs. 'noble' (anti-utilitarian) ethics"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Locke as philosophy's luckiest figure: he completed his theoretical masterpiece just as England's government fell into the hands of men who shared his political outlook, so both his sound views and his errors (like the primary/secondary quality distinction) proved historically fruitful. Russell stresses Locke's 'sensible' and undogmatic temperament -- he 'is always willing to sacrifice logic rather than become paradoxical' -- as both his great practical virtue and his central theoretical weakness, since Locke's principles, followed out rigorously, would lead to conclusions he refuses to draw. Russell traces Locke's empiricism from the rejection of innate ideas, through the theory of primary and secondary qualities, to an extreme nominalism about universals, before identifying what he regards as the decisive flaw: Locke's official view that we know only our own ideas is incompatible with his common-sense insistence that we know an external, causally connected world, and he resolves this by sheer inconsistency rather than argument. Russell closes by examining Locke's hedonistic ethics (pleasure as the sole spring of action, underwritten by divine reward and punishment) as an anticipation of Bentham, while criticizing its central claim that 'we only desire pleasure' as psychologically the wrong way round.",
+  "why_this_matters": "Locke founded both empiricism (all knowledge derives from experience) and philosophical liberalism, and his theoretical work and the political victory of 1688 reinforced each other historically. Locke's rejection of innate ideas made perception 'the first step and degree towards knowledge,' a revolutionary claim in his time.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Described as objective by temperament but 'forced reluctantly' into the subjective doctrine that knowledge is of the agreement or disagreement of ideas, a view he found so repulsive that he escaped it only through inconsistency."
+    },
+    {
+      "chapter_id": "book-3-ch-xii",
+      "role": "Introduced at the chapter's close as 'the first comprehensive statement of the liberal philosophy,' the most influential though not the most profound modern philosopher, whose views shaped English constitutional practice and, via the American Constitution, later revolutions."
+    },
+    {
+      "chapter_id": "book-3-ch-xiii",
+      "role": "The chapter's sole primary subject: Russell reconstructs his empiricist theory of knowledge -- the rejection of innate ideas, the primary/secondary quality distinction, his nominalism, his account of degrees of assent, and his ultimately inconsistent theory of how ideas relate to an external world -- alongside his hedonistic ethics."
+    },
+    {
+      "chapter_id": "book-3-ch-xiv",
+      "role": "The chapter's primary subject: Russell reconstructs Locke's refutation of Filmer, his theory of the state of nature and natural law, his social contract doctrine, his theory of property (including the labour theory of value), and his doctrine of checks and balances, with sustained critical commentary throughout."
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Treated throughout as the fountainhead of the 'British' empirical tradition in both epistemology and politics, whose influence Russell traces forward through two centuries of European thought."
+    },
+    {
+      "chapter_id": "book-3-ch-xvi",
+      "role": "Referenced throughout as the target whose primary/secondary quality distinction Berkeley's arguments extend and radicalize -- Berkeley (via the character Hylas) begins by defending Locke's distinction before being argued out of it entirely by Philonous."
+    },
+    {
+      "chapter_id": "book-3-ch-xvii",
+      "role": "Identified as the philosophical starting point Hume shares -- 'like Locke, [Hume begins] with the intention of being sensible and empirical' -- but whom Hume surpasses in rigor, arriving at conclusions Locke's 'comfortable inconsistencies' allowed him to avoid."
+    },
+    {
+      "chapter_id": "book-3-ch-xix",
+      "role": "Named as the founder of the rival tradition of political reform (Roosevelt and Churchill are said to descend from Locke, Hitler from Rousseau); Rousseau's social contract superficially resembles Locke's but proves closer to Hobbes's in substance, and Rousseau lacks Locke's respect for private property and division of powers."
+    },
+    {
+      "chapter_id": "book-3-ch-xx",
+      "role": "Presented as exhibiting an unresolved inconsistency between claiming knowledge is confined to 'ideas' and nonetheless claiming intuitive, demonstrative, and sensitive knowledge of real existence."
+    }
+  ],
+  "extraction_confidence": "high"
+}

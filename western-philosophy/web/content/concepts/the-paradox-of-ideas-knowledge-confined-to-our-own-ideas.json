@@ -1,0 +1,30 @@
+{
+  "slug": "the-paradox-of-ideas-knowledge-confined-to-our-own-ideas",
+  "name": "The paradox of ideas: knowledge confined to our own ideas",
+  "plain_explanation": "Locke sometimes says the mind can only ever be aware of its own ideas, never of things themselves. But if that is true, how could we ever know that an external world, or other people, actually exist? Locke never really solves this problem, and instead quietly switches to a different, inconsistent account when the first one gets uncomfortable.",
+  "precise_definition": "Locke states 'the mind ... hath no other immediate object but its own ideas' and that 'knowledge is the perception of the agreement or disagreement of two ideas' -- a view from which it seems to follow that we cannot know of the existence of other people or the physical world, since these, if they exist, are not merely ideas in any mind. Locke escapes this paradox inconsistently, by positing (Book IV, Ch. III) three kinds of 'real' knowledge -- intuitive knowledge of our own existence, demonstrative knowledge of God's existence, and 'sensitive' knowledge of things present to sense -- and by assuming that sensations have external causes which, to some extent, resemble them.",
+  "why_it_mattered": "Russell singles this out as the central defect of Locke's theory of knowledge and traces its consequences forward: the assumption that sensations have resembling external causes cannot itself be justified within strict empiricist principles, and this unresolved difficulty 'troubled empiricism down to the present day,' reappearing in Hume's maxim 'no idea without an antecedent impression.'",
+  "historical_origin": "Book IV of the Essay, especially Chapters I, III, and IV.",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "Locke's three kinds of knowledge of real existence: intuitive (of ourselves), demonstrative (of God), sensitive (of things present to sense)",
+    "Locke's claim that simple ideas must 'agree with things' because the mind cannot invent them on its own"
+  ],
+  "objections": [
+    "Russell's central charge: Locke escapes the paradox 'by means of an inconsistency so gross that only his resolute adherence to common sense could have made him blind to it'"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Hume inherited the difficulty and 'got rid of it' only by dropping the assumption that sensations have external causes -- though Russell notes Hume kept smuggling that assumption back in.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Locke sometimes says the mind can only ever be aware of its own ideas, never of things themselves. But if that is true, how could we ever know that an external world, or other people, actually exist? Locke never really solves this problem, and instead quietly switches to a different, inconsistent account when the first one gets uncomfortable."
+    }
+  ]
+}

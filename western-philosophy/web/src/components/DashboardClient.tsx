@@ -1,20 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
-import { loadProgress, type ProgressState } from "@/lib/progress";
+import { useProgress } from "@/lib/progress";
 import type { FlatChapterRef } from "@/lib/content";
 
 export default function DashboardClient({ chapters }: { chapters: FlatChapterRef[] }) {
-  const [progress, setProgress] = useState<ProgressState | null>(null);
-
-  useEffect(() => {
-    setProgress(loadProgress());
-  }, []);
-
-  if (!progress) {
-    return <div className="h-40 animate-pulse rounded-lg bg-surface-2" />;
-  }
+  const progress = useProgress();
 
   const completedCount = Object.values(progress.completedChapters).filter(Boolean).length;
   const totalChapters = chapters.length;

@@ -1,0 +1,22 @@
+{
+  "slug": "early-scholasticism",
+  "name": "Early scholasticism",
+  "period": "Medieval",
+  "doctrines": [
+    "Anselm's ontological argument",
+    "The medieval problem of universals (Roscelin, William of Champeaux, Abelard)",
+    "Scholasticism's defining characteristics"
+  ],
+  "philosophers": [
+    "roscelin",
+    "saint-anselm",
+    "saint-bernard-of-clairvaux",
+    "abelard"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-2-ch-ix",
+    "book-2-ch-xi"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "henri-bergson",
+  "name": "Henri Bergson",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Bergsonism / process philosophy",
+  "major_ideas": [
+    "The dualism of life and matter (elan vital)",
+    "Intellect versus instinct/intuition",
+    "Duration (la duree) versus mathematical time",
+    "The two kinds of memory and the theory of perception",
+    "Bergson's theory of space and number, and its refutation",
+    "The confusion of subject and object"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Named as sharing, with 'almost all philosophers down to and including' him, the mistaken assumption that causal laws take the simple form 'A causes B,' a form Russell says 'do[es] not occur in any well-developed science.' The chapter's sole primary subject: Russell expounds his dualism of life and matter, his opposition of intuition to intellect, his theories of duration and memory, and his doctrine of creative freedom, before subjecting his theories of space, number, time, and the subject/object relation to detailed technical refutation.",
+  "central_doctrines": "The dualism of life and matter (elan vital): Bergson's central metaphysical dualism, unlike most historical systems, dividing reality into life (a single vital impulse, or elan vital, given once for all at the world's beginning, struggling to break through and organize matter) and matter (the inert 'downward' motion that resists and is used by life), evolution being the ongoing clash and adaptation between the two. Intellect versus instinct/intuition: Bergson's division of cognitive faculties into intellect (naturally suited to the inorganic solid, producing geometry and logic by 'cutting up' the flux of becoming into discontinuous, spatially separate concepts) and instinct/intuition (disinterested, self-conscious instinct, capable of grasping interpenetrating processes synthetically rather than analytically, and connected to true duration rather than space). Duration (la duree) versus mathematical time: Bergson's doctrine that 'pure duration' is 'the form which our conscious states assume when our ego lets itself live,' involving mutual penetration and succession without distinction, radically unlike mathematical time, which Bergson holds is really only a disguised form of space. The two kinds of memory and the theory of perception: In Matter and Memory, Bergson holds that 'the past survives... under two distinct forms: first, in motor mechanisms; secondly, in independent recollections,' arguing that true (recollective) memory is 'a power absolutely independent of matter,' while 'pure perception,' at the opposite pole, is 'the lowest degree of mind... really part of matter,' with the brain's function being merely to select, for practical action, from an otherwise limitless field of potential perception. The confusion of subject and object: Russell's diagnosis that Bergson's whole account of matter, memory, and perception depends on a confusion, shared with many idealists and materialists, between the subject (a present thought, image, or memory, located here and now) and the object (which may be remote in space or time, e.g., the law of gravitation, a friend abroad, or a demolished building) -- a confusion enshrined in Bergson's technical term 'image.'",
+  "key_arguments": [
+    "Bergson's argument that evolution is creative and therefore unpredictable",
+    "Bergson's argument for free will from the differentiation of mind and brain"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "heraclitus",
+    "zeno-of-elea",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell",
+    "georg-cantor",
+    "karl-weierstrass"
+  ],
+  "successors": [
+    "bertrand-russell",
+    "william-james",
+    "john-dewey",
+    "alfred-north-whitehead",
+    "georg-cantor"
+  ],
+  "disagreements": [
+    {
+      "with": "bertrand-russell",
+      "about": "Duration (la duree) versus mathematical time"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Bergson's theory of space and number, and its refutation"
+    },
+    {
+      "with": "gottlob-frege",
+      "about": "Bergson's theory of space and number, and its refutation"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell devotes Part I of the chapter to a careful, largely sympathetic exposition of Bergson's system -- the life/matter dualism, the intellect/intuition division, duration, memory, and freedom -- following Bergson's own imagery closely and admitting at points ('it is, however, a very difficult conception... I do not fully understand it myself') that some of Bergson's central notions resist full comprehension. Part II turns sharply critical, treating Bergson's doctrines of space and time as the two load-bearing pillars of his whole system and dismantling each in turn: Bergson's account of number is shown to rest on a conflation of levels of abstraction; his rejection of the 'cinematographic' view of motion is shown, via Zeno's arrow, to be a mere play on words; his definitions of past and present are shown to be circular; and his key term 'image' is shown to rest on an unexamined confusion of subject and object. Russell's closing judgment is severe: once these foundations fail, 'nothing remains except an imaginative epic, to be judged on aesthetic rather than on intellectual grounds,' and Bergson's philosophy of action for its own sake leaves no room for the contemplative vision Russell believes should inform genuinely valuable action.",
+  "why_this_matters": "Bergson's philosophy is dualistic: a struggling, upward-climbing life-force (elan vital) versus downward-falling, resistant matter. Bergson divides cognition into intellect (spatial, suited to solids, productive of geometry and logic) and intuition (a 'disinterested instinct' suited to grasping continuous, living duration).",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xvii",
+      "role": "Named as sharing, with 'almost all philosophers down to and including' him, the mistaken assumption that causal laws take the simple form 'A causes B,' a form Russell says 'do[es] not occur in any well-developed science.'"
+    },
+    {
+      "chapter_id": "book-3-ch-xxviii",
+      "role": "The chapter's sole primary subject: Russell expounds his dualism of life and matter, his opposition of intuition to intellect, his theories of duration and memory, and his doctrine of creative freedom, before subjecting his theories of space, number, time, and the subject/object relation to detailed technical refutation."
+    }
+  ],
+  "extraction_confidence": "high"
+}

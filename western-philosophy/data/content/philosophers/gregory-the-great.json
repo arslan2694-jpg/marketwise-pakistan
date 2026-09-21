@@ -1,0 +1,54 @@
+{
+  "slug": "gregory-the-great",
+  "name": "Gregory the Great",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Christian monasticism (eremitic and cenobitic)",
+  "major_ideas": [
+    "Papal political authority under Gregory the Great",
+    "Hostility to secular learning"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Pope from 590 to 604, a former Benedictine monk whose Dialogues are the principal source for Saint Benedict's life; Russell presents him as 'childish and credulous' in recounting miracles yet 'astute, masterful' as a political statesman who greatly increased papal authority, hostile to secular learning, and responsible for the mission that converted England.",
+  "central_doctrines": "Papal political authority under Gregory the Great: The expansion, under Gregory the Great (590-604), of papal jurisdiction from a merely honorific primacy to an authority actively exercised, chiefly by extensive correspondence, over bishops and secular rulers across the former Western Empire, and acknowledged to a lesser degree even in the East. Hostility to secular learning: The attitude, exemplified by Gregory's rebuke of the bishop of Vienne for teaching grammar ('the praises of Christ cannot find room in one mouth with the praises of Jupiter'), that pagan secular learning is incompatible with, or dangerous to, Christian devotion.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "saint-augustine",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "alexander-the-great",
+    "saint-benedict",
+    "gerbert-pope-sylvester-ii",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "saint-ambrose",
+      "about": "Papal political authority under Gregory the Great"
+    },
+    {
+      "with": "saint-benedict",
+      "about": "Hostility to secular learning"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell credits the Church, imperfectly, with preserving whatever survived of Roman culture through the general civilizational collapse of the sixth and seventh centuries, while stressing that fanaticism, superstition, and hostility to secular learning were widespread even among its greatest figures. He treats Gregory's Dialogues with open skepticism, recounting their miracle stories in a dry, often ironic tone, and draws an explicit contrast between Gregory as he appears in the Dialogues ('childish and credulous') and Gregory as a political actor ('astute, masterful, and very well aware of what can be achieved'), remarking that 'the most effective men of action are often intellectually second-rate.' He is notably critical of Gregory's fulsome, deferential letters to the usurper Phocas after Phocas's murder of the Emperor Maurice and his sons, noting drily that Gregory 'certainly knew the customary behaviour of Byzantine usurpers' and did not wait to learn the details before flattering the new regime.",
+  "why_this_matters": "Monasticism began in Egypt and Syria in the early fourth century in two forms -- the solitary hermit life of Saint Anthony and the communal life founded by Pachomius -- with the communal (cenobitic) form ultimately prevailing in the West. Saint Benedict's Rule (c. 520, Monte Cassino) moderated earlier ascetic extremism, centralized authority in a lifelong abbot, and became the model for nearly all Western monasteries outside Ireland.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-vi",
+      "role": "Pope from 590 to 604, a former Benedictine monk whose Dialogues are the principal source for Saint Benedict's life; Russell presents him as 'childish and credulous' in recounting miracles yet 'astute, masterful' as a political statesman who greatly increased papal authority, hostile to secular learning, and responsible for the mission that converted England."
+    }
+  ],
+  "extraction_confidence": "high"
+}

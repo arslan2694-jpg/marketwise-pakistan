@@ -1,0 +1,47 @@
+{
+  "slug": "lord-byron",
+  "name": "Lord Byron",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Romanticism",
+  "major_ideas": [
+    "Byron as 'myth' versus Byron as he actually was"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Cited as the exemplar of the 'Byronic' type encouraged by romanticism -- violent, anti-social, an anarchic rebel or conquering tyrant -- and as a protagonist of the principle of nationality; quoted on Jewish financiers. The chapter's primary subject: Russell treats him not as a philosopher in the technical sense but as the originating exemplar, in 'an unphilosophical dress,' of the aristocratic-rebel outlook that Schopenhauer and Nietzsche later develop into full philosophical systems, tracing his biography, his cult of Napoleon, and his enormous Continental influence.",
+  "central_doctrines": "Byron as 'myth' versus Byron as he actually was: Russell's distinction between Byron's actual, more ambivalent psychology (partly posed, partly sincere, sometimes privately preferring Pope's poetry to his own) and the simplified Continental 'myth' of Byron as heroic rebel-sinner, which Russell treats as the actually operative historical force, independent of its accuracy.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "jean-jacques-rousseau",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "friedrich-nietzsche",
+    "arthur-schopenhauer",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell's central claim is that Byron, though a minor and sometimes bad poet by strict literary standards ('his verse seems often poor and his sentiment often tawdry'), was a major historical-philosophical force, particularly outside England, as the living exemplar of the 'aristocratic rebel' -- a figure whose discontent is metaphysical and Titanic rather than material, expressed through cosmic self-assertion and Satanism. Russell reconstructs Byron's psychologically turbulent childhood (feared and vulgar mother, sudden inheritance of a lordship, physical disability, Calvinist upbringing) as the origin of a 'peculiar blend of snobbery and rebellion,' traces his role in the Continental cult of Napoleon, and draws an explicit line from Byron's unphilosophical Satanism to Nietzsche's more fully worked-out (and, per Nietzsche's own words quoted by Russell, admiring) philosophy of the superman. Russell repeatedly editorializes about Byron's actual literary and personal qualities in ways clearly marked as his own judgment (e.g., that Byron's romanticism 'was only half sincere,' that 'the world insisted on simplifying him'), distinct from his historical argument about Byron's influence, which he treats as genuine and enormous regardless of literary merit.",
+  "why_this_matters": "Russell includes Byron in a history of philosophy not as a systematic thinker but as the historically influential exemplar of the 'aristocratic rebel' -- a rebel whose discontent is metaphysical/cosmic rather than material. Byron's outsized influence, per Russell, was felt mainly on the Continent, where his posture of Titanic self-assertion and Satanism was transmitted and developed into philosophy by Schopenhauer and, especially, Nietzsche.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xviii",
+      "role": "Cited as the exemplar of the 'Byronic' type encouraged by romanticism -- violent, anti-social, an anarchic rebel or conquering tyrant -- and as a protagonist of the principle of nationality; quoted on Jewish financiers."
+    },
+    {
+      "chapter_id": "book-3-ch-xxiii",
+      "role": "The chapter's primary subject: Russell treats him not as a philosopher in the technical sense but as the originating exemplar, in 'an unphilosophical dress,' of the aristocratic-rebel outlook that Schopenhauer and Nietzsche later develop into full philosophical systems, tracing his biography, his cult of Napoleon, and his enormous Continental influence."
+    }
+  ],
+  "extraction_confidence": "high"
+}

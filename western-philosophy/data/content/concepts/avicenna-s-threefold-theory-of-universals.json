@@ -1,0 +1,32 @@
+{
+  "slug": "avicenna-s-threefold-theory-of-universals",
+  "name": "Avicenna's threefold theory of universals",
+  "plain_explanation": "Avicenna tries to reconcile Plato (universals exist before things) and Aristotle (universals exist in things) by saying universals exist in three ways: before things, as ideas in God's mind (God must have the idea 'cat' before creating cats); in things, as the common nature actually present in each particular (felinity in each created cat); and after things, in our minds, as the general idea we form by noticing resemblances among particulars we have observed.",
+  "precise_definition": "The doctrine that genera (universals) exist ante rem (in the divine understanding, prior to creation), in re (immanent in the created particulars themselves), and post rem (as abstracted concepts formed by the human mind after experience of particulars).",
+  "why_it_mattered": "It offered a systematic reconciliation of the Platonic and Aristotelian positions on universals that later influenced Christian scholastic treatments of the same problem, including formulas echoed by Averroes and Albertus Magnus.",
+  "historical_origin": "Formulated by Avicenna (980-1037) in the course of adjudicating between the conflicting views he found in Plato and in the two strands of Aristotle's own thought.",
+  "associated_philosopher": "Avicenna",
+  "examples": [
+    "God's idea of 'cat' prior to creating any cats (universals before things)",
+    "Felinity actually present in each created cat (universals in things)",
+    "The general idea 'cat' formed by a mind after observing many particular cats (universals after things)"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Plato's view that universals are anterior to and independent of particular things",
+    "The Aristotelian view (when 'combating Plato') that universals exist only in and through particular things"
+  ],
+  "influence_on_later_thinkers": "Avicenna's formula 'Thought brings about the generality in forms' was repeated by Averroes and Albertus Magnus, and the ante rem/in re/post rem framework recurs throughout later Christian scholastic discussions of universals, including in William of Occam.",
+  "connection_to_politics_or_religion": "Grounds the theory of universals explicitly in God's creative understanding, tying a logical/metaphysical doctrine to theology.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-x"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Avicenna",
+      "treatment": "Avicenna tries to reconcile Plato (universals exist before things) and Aristotle (universals exist in things) by saying universals exist in three ways: before things, as ideas in God's mind (God must have the idea 'cat' before creating cats); in things, as the common nature actually present in each particular (felinity in each created cat); and after things, in our minds, as the general idea we form by noticing resemblances among particulars we have observed."
+    }
+  ]
+}

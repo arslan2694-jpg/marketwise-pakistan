@@ -1,0 +1,90 @@
+{
+  "slug": "friedrich-nietzsche",
+  "name": "Friedrich Nietzsche",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Voluntarism (primacy of will)",
+  "major_ideas": [
+    "Will to power",
+    "The 'noble' man versus 'slave morality'",
+    "Nietzsche's critique of Christianity",
+    "Nietzsche's contempt for women"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Mentioned as agreeing with Plato and Aristotle that the best things in life should be confined to a few, and as having called Christian ethics a 'slave-morality' -- a judgement Russell says Aristotle's portrait of the magnanimous man helps to justify. Grouped with Fichte and Carlyle as philosophers of heroic self-assertion, whose philosophy Russell argues is self-refuting because it leads in practice to despotism. Cited as an example of the romantic tendency to treat blood-relations as an extension of the self, quoted writing to his sister about their shared 'stock'; also linked to the anarchic-rebel psychology Russell describes. Presented as taking 'the next step in the growth of pride' beyond Byron -- willing to put himself in the place of God rather than merely of Satan -- while remaining, in Russell's account, notably sympathetic to and influenced by Byron. The chapter's primary subject: his life, his relationship to Schopenhauer and to Greek philosophy, his ethics of the 'noble man' and will to power, his contempt for women, his critique of Christianity as 'slave morality,' and his comparison to Machiavelli are all reconstructed, followed by Russell's extended critical evaluation. Contrasted with Dewey: both are 'power philosophies,' but Nietzsche's is a philosophy of individual power, whereas Dewey's values the power of the community.",
+  "central_doctrines": "Will to power: Nietzsche's central psychological and ethical category: the drive to power as the fundamental measure of vitality and worth, tested (per Nietzsche's own words quoted by Russell) 'according to the amount of resistance it can offer and the amount of pain and torture it can endure and know how to turn to its own advantage.' The 'noble' man versus 'slave morality': Nietzsche's aristocratic ethical framework: true virtue belongs only to a governing minority (the 'noble' man), who recognizes duties only to equals, may act with cruelty toward inferiors, and embodies the incarnate will to power; this is opposed to Christian/democratic 'slave morality,' which Nietzsche diagnoses as the ideological product of resentment among the 'bungled and botched,' aiming to break the spirit of the strong by converting 'their proud assurance into anxiety and conscience-trouble.' Nietzsche's critique of Christianity: Nietzsche's genealogical critique of Christianity as a 'nihilistic' religion (alongside, but worse than, Buddhism in this respect) originating in Jewish resentment and spread by 'holy epileptics' like Saint Paul, which Nietzsche judges not by its metaphysical truth (which he denies of all religions) but by its social effects: taming the strong, converting proud self-assurance into 'anxiety and conscience-trouble,' and thereby working, in spirit, toward the same egalitarian end as the French Revolution and Socialism, which Nietzsche also opposes.",
+  "key_arguments": [
+    "Nietzsche's argument against Christian/utilitarian reciprocity ethics"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "heraclitus",
+    "socrates",
+    "plato",
+    "niccolo-machiavelli",
+    "lord-byron",
+    "arthur-schopenhauer"
+  ],
+  "successors": [
+    "henri-bergson",
+    "bertrand-russell",
+    "william-james",
+    "john-dewey"
+  ],
+  "disagreements": [
+    {
+      "with": "arthur-schopenhauer",
+      "about": "Will to power"
+    },
+    {
+      "with": "jeremy-bentham",
+      "about": "The 'noble' man versus 'slave morality'"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "The 'noble' man versus 'slave morality'"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Nietzsche's critique of Christianity"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Nietzsche as more consistent and coherent than Schopenhauer, systematically reconstructing his ethics of the 'noble' man, his will to power, his critique of Christian 'slave morality,' his contempt for women, and his comparison to Machiavelli, with extensive direct quotation. Russell is explicit throughout that Nietzsche's importance is primarily ethical and as 'an acute historical critic,' not as an inventor of new technical philosophy. Russell's own editorial voice becomes especially pronounced in the chapter's final third: he calls much of Nietzsche 'merely megalomaniac,' diagnoses Nietzsche's misogyny and will-to-power ethics as themselves rooted in fear (an irony Nietzsche 'never' recognized), and stages an extended imagined dialogue between Nietzsche and the Buddha before declaring outright, in the first person, that he 'dislike[s]' Nietzsche's philosophy and sides with the Buddha -- while candidly admitting this preference rests on 'an appeal to the emotions' rather than strict proof. Russell also takes care to note, in fairness to Nietzsche, that Nietzsche was 'not definitely anti-Semitic' in the way later movements were, was not a German nationalist, and that many later political movements associated with his name diverge from his actual, explicit views -- distinctions a careful reader should keep separate from Russell's harsh ethical verdict on Nietzsche's own stated doctrines.",
+  "why_this_matters": "Nietzsche regarded himself as Schopenhauer's successor, correcting what he saw as an inconsistency between Schopenhauer's voluntarist metaphysics and his ethic of ascetic renunciation by giving will both metaphysical and ethical primacy. Nietzsche's central ethical doctrine distinguishes 'noble' morality (aristocratic, power-oriented, fit only for a superior few) from Christian/democratic 'slave morality,' which he diagnoses as the resentful invention of the weak to tame the strong.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xx",
+      "role": "Mentioned as agreeing with Plato and Aristotle that the best things in life should be confined to a few, and as having called Christian ethics a 'slave-morality' -- a judgement Russell says Aristotle's portrait of the magnanimous man helps to justify."
+    },
+    {
+      "chapter_id": "book-3-ch-xii",
+      "role": "Grouped with Fichte and Carlyle as philosophers of heroic self-assertion, whose philosophy Russell argues is self-refuting because it leads in practice to despotism."
+    },
+    {
+      "chapter_id": "book-3-ch-xviii",
+      "role": "Cited as an example of the romantic tendency to treat blood-relations as an extension of the self, quoted writing to his sister about their shared 'stock'; also linked to the anarchic-rebel psychology Russell describes."
+    },
+    {
+      "chapter_id": "book-3-ch-xxiii",
+      "role": "Presented as taking 'the next step in the growth of pride' beyond Byron -- willing to put himself in the place of God rather than merely of Satan -- while remaining, in Russell's account, notably sympathetic to and influenced by Byron."
+    },
+    {
+      "chapter_id": "book-3-ch-xxv",
+      "role": "The chapter's primary subject: his life, his relationship to Schopenhauer and to Greek philosophy, his ethics of the 'noble man' and will to power, his contempt for women, his critique of Christianity as 'slave morality,' and his comparison to Machiavelli are all reconstructed, followed by Russell's extended critical evaluation."
+    },
+    {
+      "chapter_id": "book-3-ch-xxx",
+      "role": "Contrasted with Dewey: both are 'power philosophies,' but Nietzsche's is a philosophy of individual power, whereas Dewey's values the power of the community."
+    }
+  ],
+  "extraction_confidence": "high"
+}

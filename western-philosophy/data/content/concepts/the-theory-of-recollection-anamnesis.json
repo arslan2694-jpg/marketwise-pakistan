@@ -1,0 +1,31 @@
+{
+  "slug": "the-theory-of-recollection-anamnesis",
+  "name": "The theory of recollection (anamnesis)",
+  "plain_explanation": "Plato argues that because we have ideas -- like 'exact equality' -- that we could never have gotten purely from imperfect sense experience, we must have known them before birth and simply be 'remembering' them; this is meant to prove the soul existed before the body.",
+  "precise_definition": "The doctrine that all a priori knowledge (especially mathematical and logical concepts such as absolute equality, which is never actually found among sensible objects) is recollection of knowledge the soul possessed in a prior, disembodied existence, developed in the Phaedo and at greater length in the Meno via the interrogation of an untutored slave-boy about geometry.",
+  "why_it_mattered": "It is Plato's central argument for the soul's pre-existence (half of the case for full immortality), and it later shaped rationalist views of innate ideas.",
+  "historical_origin": "Presented in the Phaedo and elaborated in the Meno ('there is no teaching, but only recollection').",
+  "associated_philosopher": "Plato",
+  "examples": [
+    "We experience only approximate equality among sensible things, yet we understand 'absolute equality' -- which, Plato argues, we must have brought with us from a prior existence.",
+    "The Meno's slave-boy, questioned by Socrates about geometry, appears to 'remember' truths he was never taught."
+  ],
+  "objections": [
+    "Russell: the argument is wholly inapplicable to empirical knowledge (the slave-boy could not 'remember' historical facts like the building of the Pyramids unless he had actually been present); Russell also doubts we truly possess an idea of 'absolute equality' at all, given that even the best modern measurement of a metre rod yields only an empirical, revisable claim, not certainty.",
+    "Even granting the idea exists, it is 'elicited by experience, although not directly derived from it,' and children do not possess it until a certain age; and if it were explained by a prior existence, the same problem simply recurs one step back, since that prior existence would need its own source for the idea."
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "A forerunner of later rationalist doctrines of innate ideas.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Plato",
+      "treatment": "Plato argues that because we have ideas -- like 'exact equality' -- that we could never have gotten purely from imperfect sense experience, we must have known them before birth and simply be 'remembering' them; this is meant to prove the soul existed before the body."
+    }
+  ]
+}

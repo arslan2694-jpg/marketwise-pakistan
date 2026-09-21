@@ -1,0 +1,30 @@
+{
+  "slug": "all-things-are-numbers-and-the-mathematization-of-reality",
+  "name": "'All things are numbers' and the mathematization of reality",
+  "plain_explanation": "Pythagoras thought of numbers as shapes (like dots on dice), discovered that musical harmony depends on numerical ratios, and concluded that the physical and aesthetic world could ultimately be understood through arithmetic and geometric relationships.",
+  "precise_definition": "The Pythagorean doctrine that the fundamental nature of things is number: numbers were conceived as shapes built from units ('pebbles'), musical intervals were shown to correspond to simple numerical ratios, and the world was pictured as atomic bodies built from units arranged in geometric patterns.",
+  "why_it_mattered": "Russell calls this the beginning of a philosophical tradition, running through Plato and down to Kant, in which mathematical, exact, timeless knowledge is taken as a model for -- and evidence of the superiority of -- a supersensible intelligible world over the changing world of the senses.",
+  "historical_origin": "Attributed to Pythagoras's discovery of the numerical basis of musical intervals and of figurate numbers (square, oblong, triangular, pyramidal).",
+  "associated_philosopher": "Pythagoras",
+  "examples": [
+    "The terms 'harmonic mean' and 'harmonic progression', surviving from Pythagoras's musical discoveries",
+    "'Square' and 'cube' numbers, and figurate (triangular, pyramidal) numbers represented as arrangements of pebbles"
+  ],
+  "objections": [
+    "The discovery of incommensurable magnitudes (e.g. the diagonal of a unit square), which showed that not all lengths stand in whole-number ratios to one another, appeared to disprove the doctrine that everything reduces to (whole) numbers"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Directly inspires Plato's doctrine that 'God is a geometer' and the broader idea of an eternal, intelligible world revealed to intellect rather than sense; Russell traces this line down through Augustine, Aquinas, Descartes, Spinoza, and Kant.",
+  "connection_to_politics_or_religion": "For Pythagoras, mathematical 'theory' (intellectual contemplation) was itself a religious act, the highest form of the purification that frees the soul from the 'wheel of birth'.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-iii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Pythagoras",
+      "treatment": "Pythagoras thought of numbers as shapes (like dots on dice), discovered that musical harmony depends on numerical ratios, and concluded that the physical and aesthetic world could ultimately be understood through arithmetic and geometric relationships."
+    }
+  ]
+}

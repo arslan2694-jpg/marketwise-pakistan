@@ -1,0 +1,31 @@
+{
+  "slug": "geulincx-s-two-clocks-theory-occasionalism",
+  "name": "Geulincx's 'two clocks' theory (occasionalism)",
+  "plain_explanation": "If mind and body genuinely cannot interact (as the conservation of momentum suggested), why does my arm move exactly when I will it to? Geulincx's answer was that mind and body are like two perfectly synchronized clocks: God winds each to keep time with the other, so that on the occasion of my willing, purely physical laws (not my will) actually cause my arm to move -- it only looks as though my mind is causing the motion.",
+  "precise_definition": "Russell's account: 'Suppose you have two clocks which both keep perfect time: whenever one points to the hour, the other will strike, so that if you saw one and heard the other, you would think the one caused the other to strike. So it is with mind and body. Each is wound up by God to keep time with the other, so that, on occasion of my volition, purely physical laws cause my arm to move, although my will has not really acted on my body.'",
+  "why_it_mattered": "It preserves two attractive features Descartes wanted -- the mind's total independence from bodily causation, and the general principle that 'one substance cannot act on another' -- while explaining away, rather than explaining, the appearance of mind-body interaction; but it implies a strict parallel determinism between the mental and physical series, which Russell notes creates serious problems for Christian ethics and the punishment of sin.",
+  "historical_origin": "Proposed by Descartes's Dutch disciple Arnold Geulincx as a direct response to the physical impossibility of the pineal-gland mechanism.",
+  "associated_philosopher": "René Descartes",
+  "examples": [
+    "The image of two synchronized clocks, one striking as the other points to the hour"
+  ],
+  "objections": [
+    "Russell's objection: since the physical series is rigidly determined by natural law, the parallel mental series must be equally deterministic, implying an 'ideal calculator' could in principle infer every mental event (and every word and action) from physical law alone -- a conclusion Russell says 'would be difficult to reconcile with Christian ethics and the punishment of sin'"
+  ],
+  "competing_positions": [
+    "Descartes's own pineal-gland mechanism, which the theory replaces"
+  ],
+  "influence_on_later_thinkers": "Later developed further by Malebranche and (in a different direction) Spinoza.",
+  "connection_to_politics_or_religion": "Directly engages the problem of moral responsibility and divine judgment under strict psychophysical determinism.",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "René Descartes",
+      "treatment": "If mind and body genuinely cannot interact (as the conservation of momentum suggested), why does my arm move exactly when I will it to? Geulincx's answer was that mind and body are like two perfectly synchronized clocks: God winds each to keep time with the other, so that on the occasion of my willing, purely physical laws (not my will) actually cause my arm to move -- it only looks as though my mind is causing the motion."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "nominalism-about-universals-of-general-terms",
+  "name": "Nominalism about universals ('Of General Terms')",
+  "plain_explanation": "Only particular, individual things actually exist in the world. When we use a general word like 'man,' we are not naming some extra abstract thing that all men share -- we are using one particular idea in our minds as a label that applies to many similar particulars.",
+  "precise_definition": "All things that exist are particulars; general ideas (such as 'man') are applicable to many particulars, but in their own being, as ideas in the mind, they are just as particular as anything else that exists -- their generality consists solely in their applicability to many things.",
+  "why_it_mattered": "This 'extreme nominalist position,' extended in Book III's attack on the scholastic doctrine of real 'essence,' cleared away what Russell calls 'metaphysical lumber': it treats species boundaries as made by human classification rather than as fixed in nature, anticipating (though not developing) evolutionary ways of thinking later vindicated by Darwin.",
+  "historical_origin": "Book III of the Essay, Chapter III ('Of General Terms') and Chapter VI ('Of the Names of Substances').",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "The general idea 'man' applying to many particular men",
+    "Monstrosities/borderline cases used by Locke to show species boundaries are man-made, not natural facts",
+    "The scholastic debate over whether the 'essence' of body is extension alone or extension plus solidity, which Locke treats as merely verbal"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The scholastic doctrine of real essences fixed in nature"
+  ],
+  "influence_on_later_thinkers": "Russell notes this point of view was not generally accepted until Darwin persuaded people to think in terms of gradual, continuous change rather than fixed species.",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Only particular, individual things actually exist in the world. When we use a general word like 'man,' we are not naming some extra abstract thing that all men share -- we are using one particular idea in our minds as a label that applies to many similar particulars."
+    }
+  ]
+}

@@ -1,19 +1,24 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { dueFlashcardKeys } from "@/lib/progress";
+import { useMemo, useState } from "react";
+import { useProgress } from "@/lib/progress";
 import FlashcardDeck, { type KeyedFlashcard } from "./FlashcardDeck";
 
 export default function FlashcardsPageClient({ allCards }: { allCards: KeyedFlashcard[] }) {
-  const [due, setDue] = useState<KeyedFlashcard[] | null>(null);
+  const progress = useProgress();
   const [mode, setMode] = useState<"due" | "all">("due");
 
-  useEffect(() => {
-    const dueKeys = new Set(dueFlashcardKeys(allCards.map((c) => c.key)));
-    setDue(allCards.filter((c) => dueKeys.has(c.key)));
-  }, [allCards]);
-
-  if (due === null) return <div className="h-40 animate-pulse rounded-lg bg-surface-2" />;
+  const due = useMemo(() => {
+    // Spaced-repetition "due" filtering is inherently time-dependent; a
+    // snapshot of the current time when progress/cards last changed is
+    // the correct due-date cutoff here, not a stale or precomputed one.
+    // eslint-disable-next-line react-hooks/purity
+    const now = Date.now();
+    return allCards.filter((c) => {
+      const st = progress.flashcards[c.key];
+      return !st || st.dueAt <= now;
+    });
+  }, [allCards, progress.flashcards]);
 
   const cards = mode === "due" ? due : allCards;
 

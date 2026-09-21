@@ -1,0 +1,19 @@
+{
+  "slug": "english-empiricism",
+  "name": "English empiricism",
+  "period": "Modern",
+  "doctrines": [
+    "Materialism and the state of nature as a 'war of all against all'",
+    "The social contract and the creation of 'Leviathan'",
+    "Absolute sovereignty and the rejection of divided or limited government",
+    "Materialist, deterministic psychology (imagination, passions, and the denial of free will)"
+  ],
+  "philosophers": [
+    "thomas-hobbes"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-viii"
+  ]
+}

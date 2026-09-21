@@ -1,0 +1,32 @@
+{
+  "slug": "analytic-vs-synthetic-and-a-priori-vs-empirical-propositions",
+  "name": "Analytic vs. synthetic and a priori vs. empirical propositions",
+  "plain_explanation": "An analytic proposition is true just by the meaning of its words ('a tall man is a man'); a synthetic one adds real information ('Napoleon was a great general'). Separately, an empirical proposition can only be known through sense experience ('Tuesday was a wet day'); an a priori one, though perhaps triggered by experience, is seen to hold with a certainty experience alone could never give (like '2+2=4').",
+  "precise_definition": "Kant separates two distinctions that Leibniz had run together: analytic (predicate contained in the subject, governed by the law of contradiction) versus synthetic (predicate not so contained), and a priori (known independently of, though perhaps occasioned by, experience) versus empirical (knowable only via sense-perception or testimony).",
+  "why_it_mattered": "It lets Kant formulate the central problem of the Critique of Pure Reason: since Hume showed causality is not analytic, and Kant holds mathematics and causality are nonetheless a priori, he must explain how synthetic a priori knowledge -- knowledge that is both informative and yet certain independent of experience -- is possible at all.",
+  "historical_origin": "Critique of Pure Reason (1st ed. 1781, 2nd ed. 1787).",
+  "associated_philosopher": "Immanuel Kant",
+  "examples": [
+    "'A tall man is a man' (analytic)",
+    "'Napoleon was a great general' (synthetic, empirical)",
+    "'Two and two are four' (synthetic, a priori, per Kant)",
+    "The propositions of pure mathematics, held by Kant to be synthetic a priori"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Leibniz's view, which Kant rejects, that all synthetic propositions are known only through experience"
+  ],
+  "influence_on_later_thinkers": "Became the organizing question for the whole Critique of Pure Reason and for subsequent German idealism.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Immanuel Kant",
+      "treatment": "An analytic proposition is true just by the meaning of its words ('a tall man is a man'); a synthetic one adds real information ('Napoleon was a great general'). Separately, an empirical proposition can only be known through sense experience ('Tuesday was a wet day'); an a priori one, though perhaps triggered by experience, is seen to hold with a certainty experience alone could never give (like '2+2=4')."
+    }
+  ]
+}

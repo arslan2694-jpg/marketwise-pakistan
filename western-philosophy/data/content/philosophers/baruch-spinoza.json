@@ -1,0 +1,83 @@
+{
+  "slug": "baruch-spinoza",
+  "name": "Baruch Spinoza",
+  "era": "Modern",
+  "dates": "1634-77",
+  "geography": "",
+  "school": "Rationalism",
+  "major_ideas": [
+    "Substance monism (\"God or Nature\")",
+    "Determinism and the denial of free will",
+    "All determination is negation",
+    "Bondage versus freedom / passions versus adequate ideas",
+    "The intellectual love of God (amor intellectualis Dei)",
+    "Sub specie aeternitatis (under the aspect of eternity)"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Noted as an exception where the subjective/individualist tendency is 'not prominent.' Primary subject; his life, his political writings, and above all the metaphysics, psychology of emotions, and ethics of the Ethics are examined in detail. Leibniz visited him in 1676, discussed philosophy with him for a month, and obtained part of the Ethics in manuscript, but later downplayed the relationship; Leibniz's esoteric system is described as 'largely Spinozistic.' Cited as holding two unreconciled ethical views, one (from Hobbes) valuing power, the other valuing mystic union with God; also named among the Continental rationalists whose metaphysical arguments for God Russell traces to the subject-predicate doctrine. Contrasted with Hegel: Spinoza's Absolute has both extension and thought as attributes, which Hegel rejects, holding the Absolute to be purely spiritual; also cited alongside Hobbes as an earlier proponent of the supremacy of the State.",
+  "central_doctrines": "Substance monism (\"God or Nature\"): The doctrine that reality consists of a single, infinite, self-caused substance possessing infinitely many attributes (of which thought and extension are the only two known to us), and that all finite things are merely modes or adjectival aspects of that one substance. Determinism and the denial of free will: The doctrine that all events, including human volitions, are governed by absolute logical necessity, so that chance and free will in the ordinary sense do not exist. Bondage versus freedom / passions versus adequate ideas: Freedom, for Spinoza, consists in being self-determined through adequate understanding rather than driven by external causes grasped only through confused, inadequate ideas; an emotion ceases to be a 'passion' once we form a clear and distinct idea of it. The intellectual love of God (amor intellectualis Dei): A union of true understanding and joy that arises whenever the mind refers its ideas to God (i.e., understands them as part of the single, necessary whole); it is described as part of the infinite love with which God loves Himself.",
+  "key_arguments": [
+    "The argument from 'all determination is negation' to pantheistic monism",
+    "Solution to the problem of evil via negation",
+    "Geometrical demonstration that 'love towards God must hold the chief place in the mind'"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "parmenides",
+    "plato",
+    "rene-descartes",
+    "plotinus",
+    "thomas-hobbes",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "parmenides",
+    "plato",
+    "gottfried-wilhelm-leibniz",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "rene-descartes",
+      "about": "Substance monism (\"God or Nature\")"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Bondage versus freedom / passions versus adequate ideas"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell calls Spinoza 'the noblest and most lovable of the great philosophers' and, ethically, supreme among them, even though intellectually others surpassed him. He recounts Spinoza's simple, principled life - refusing a bribe to hide his views, surviving an assassination attempt, living modestly as a lens-grinder - as living proof that Spinoza practiced what he preached, dying as calmly as he had lived. Russell walks through the Ethics' three parts (metaphysics, psychology of the passions, and ethics), presenting the metaphysics as a modification of Descartes reduced to a single substance, the psychology as Hobbesian and egoistic, and the ethics - centered on understanding, freedom from fear, and the intellectual love of God - as the most valuable part of the book. Russell is explicit that the geometrical method of proof, however tedious, was essential to Spinoza's system rather than an affectation. He ultimately judges that the metaphysics must be rejected as incompatible with modern logic and scientific method, but that Spinoza's ethical maxims about facing death, misfortune, and the limits of human power calmly - while narrower than Spinoza himself claimed given his denial of free will - remain among the best available, even though Russell personally cannot accept Spinoza's claim that hatred can always be overcome by love, or that particular evils are dissolved by being 'part of the whole.'",
+  "why_this_matters": "Spinoza reduces Descartes's three substances (God, mind, matter) to a single infinite substance, 'God or Nature,' of which minds and bodies are merely aspects. His system is rigidly deterministic: there is no free will or chance, and everything follows with logical necessity from God's nature.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Noted as an exception where the subjective/individualist tendency is 'not prominent.'"
+    },
+    {
+      "chapter_id": "book-3-ch-x",
+      "role": "Primary subject; his life, his political writings, and above all the metaphysics, psychology of emotions, and ethics of the Ethics are examined in detail."
+    },
+    {
+      "chapter_id": "book-3-ch-xi",
+      "role": "Leibniz visited him in 1676, discussed philosophy with him for a month, and obtained part of the Ethics in manuscript, but later downplayed the relationship; Leibniz's esoteric system is described as 'largely Spinozistic.'"
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Cited as holding two unreconciled ethical views, one (from Hobbes) valuing power, the other valuing mystic union with God; also named among the Continental rationalists whose metaphysical arguments for God Russell traces to the subject-predicate doctrine."
+    },
+    {
+      "chapter_id": "book-3-ch-xxii",
+      "role": "Contrasted with Hegel: Spinoza's Absolute has both extension and thought as attributes, which Hegel rejects, holding the Absolute to be purely spiritual; also cited alongside Hobbes as an earlier proponent of the supremacy of the State."
+    }
+  ],
+  "extraction_confidence": "high"
+}

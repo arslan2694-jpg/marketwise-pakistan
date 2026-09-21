@@ -1,0 +1,32 @@
+{
+  "slug": "pyrrhonist-scepticism-as-dogmatic-doubt",
+  "name": "Pyrrhonist Scepticism as 'dogmatic doubt'",
+  "plain_explanation": "Pyrrho and his followers did not just say 'I'm not sure' about this or that; they claimed to know, for certain, that nobody can ever know anything. Russell points out this is itself a strong (and self-undermining) claim to knowledge, unlike ordinary scientific caution or curiosity.",
+  "precise_definition": "The Sceptic position, distinguished by Russell from both scientific caution ('I think it is so, but am not sure') and open inquiry ('I don't know, but hope to find out'), which asserts as a settled conclusion that 'nobody knows, and nobody ever can know' -- a dogmatic claim about the impossibility of knowledge.",
+  "why_it_mattered": "Identifies, for Russell, the central logical weakness of ancient Scepticism: its claim to certainty about universal uncertainty.",
+  "historical_origin": "Systematized by Pyrrho (who served in Alexander's army and traveled to India) after earlier Greek doubts about sense-perception (going back to the Sophists, notably Protagoras and Gorgias).",
+  "associated_philosopher": "Pyrrho",
+  "examples": [
+    "Pyrrho's alleged view that there can never be rational grounds for preferring one course of action to another",
+    "The practical upshot: a Sceptic conforms outwardly to local custom (attending temple rituals, even serving as a priest) while inwardly withholding belief"
+  ],
+  "objections": [
+    "Sceptics deny they dogmatically assert the impossibility of knowledge, but Russell finds their denials 'not very convincing'"
+  ],
+  "competing_positions": [
+    "Parmenides's and Plato's opposite dogmatism, which denies the cognitive value of perception in order to assert certain, purely intellectual knowledge"
+  ],
+  "influence_on_later_thinkers": "Timon's arguments 'cut at the root' of the Aristotelian philosophy that later dominated the Middle Ages, since they attack the very possibility of self-evident first premises for deduction.",
+  "connection_to_politics_or_religion": "Practically compatible with conventional religious observance, since Sceptics conform to custom without asserting belief.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Pyrrho",
+      "treatment": "Pyrrho and his followers did not just say 'I'm not sure' about this or that; they claimed to know, for certain, that nobody can ever know anything. Russell points out this is itself a strong (and self-undermining) claim to knowledge, unlike ordinary scientific caution or curiosity."
+    }
+  ]
+}

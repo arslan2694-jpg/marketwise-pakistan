@@ -1,0 +1,27 @@
+{
+  "slug": "the-problem-of-universals",
+  "name": "The problem of universals",
+  "plain_explanation": "Even after rejecting Plato's specific metaphysics, there remains a genuine puzzle: general words like 'man,' 'dog,' and 'similar' are meaningful, but the world seems to consist only of individual particular things -- so what, if anything, do such words refer to?",
+  "precise_definition": "The philosophical question, first sharply raised by Plato's theory of Ideas, of what (if anything) general and relational terms denote, given that a language composed wholly of proper names could not express the facts we actually need to express.",
+  "why_it_mattered": "Russell treats this as Plato's genuine and lasting contribution, distinct from -- and defensible independently of -- the erroneous metaphysical claims Plato builds on top of it.",
+  "historical_origin": "Extracted by Russell from the 'logical part' of Plato's doctrine of Ideas.",
+  "associated_philosopher": "Plato",
+  "examples": [],
+  "objections": [],
+  "competing_positions": [
+    "A purely nominalist account on which general words are meaningful without denoting any single universal entity, which Russell hints at but does not fully develop here."
+  ],
+  "influence_on_later_thinkers": "Persists 'in varying forms... to the present day,' per Russell.",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Plato",
+      "treatment": "Even after rejecting Plato's specific metaphysics, there remains a genuine puzzle: general words like 'man,' 'dog,' and 'similar' are meaningful, but the world seems to consist only of individual particular things -- so what, if anything, do such words refer to?"
+    }
+  ]
+}

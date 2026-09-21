@@ -1,0 +1,32 @@
+{
+  "slug": "the-denial-of-the-existence-of-matter",
+  "name": "The denial of the existence of matter",
+  "plain_explanation": "Berkeley argued there is no such thing as 'matter' existing independently of minds. What we call material objects -- trees, rocks, tables -- are really just collections ('bundles') of sensible qualities (colours, sounds, textures) that exist only insofar as they are perceived by some mind.",
+  "precise_definition": "Berkeley 'maintained that material objects only exist through being perceived' (esse est percipi); the reality of sensible things 'consists in being perceived,' against the common-sense view (voiced by the character Hylas) that 'to exist is one thing, and to be perceived is another.'",
+  "why_it_mattered": "This is Berkeley's most famous and radical doctrine, supported, Russell argues, by 'a number of ingenious arguments' -- though Russell contends the arguments actually establish a more modest conclusion (that we perceive only relative, mind-dependent qualities, not that all reality is mental).",
+  "historical_origin": "Developed principally in The Principles of Human Knowledge (1710) and dramatized in the Dialogues of Hylas and Philonous (1713).",
+  "associated_philosopher": "George Berkeley",
+  "examples": [
+    "Ronald Knox's limerick about the tree in the quad and its reply ('I am always about in the Quad... GOD')",
+    "The claim that a table is nothing but its visual shape, hardness, sound when rapped, and smell -- with no additional 'substance' behind these qualities"
+  ],
+  "objections": [
+    "Russell's central objection: Berkeley's arguments prove qualities are perceiver-relative, not that they are 'mental' in any well-defined sense, since Berkeley never adequately defines 'mental'"
+  ],
+  "competing_positions": [
+    "Common-sense/scientific realism (voiced by Hylas), which holds material substance exists independently of perception"
+  ],
+  "influence_on_later_thinkers": "Provoked a long line of philosophical responses and refutations; Russell notes 'to refute him has been ... a favourite pastime among metaphysicians,' foreshadowing his own treatment of Hume in the next chapter.",
+  "connection_to_politics_or_religion": "God's constant perception of all things is what, for Berkeley, secures the continuous existence of the physical world -- making this a 'weighty argument,' in Berkeley's own view, for God's existence.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "George Berkeley",
+      "treatment": "Berkeley argued there is no such thing as 'matter' existing independently of minds. What we call material objects -- trees, rocks, tables -- are really just collections ('bundles') of sensible qualities (colours, sounds, textures) that exist only insofar as they are perceived by some mind."
+    }
+  ]
+}

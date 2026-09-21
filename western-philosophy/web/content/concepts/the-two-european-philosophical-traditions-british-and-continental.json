@@ -1,0 +1,30 @@
+{
+  "slug": "the-two-european-philosophical-traditions-british-and-continental",
+  "name": "The two European philosophical traditions: British and Continental",
+  "plain_explanation": "Russell divides post-Locke European philosophy into two families: a 'British' line (Locke, Berkeley, Hume, and later Mill) that reasons cautiously from many observed facts to modest conclusions, and a 'Continental' line (Descartes, Spinoza, Leibniz, and later Kant and Hegel) that builds large, systematic conclusions from a few very general logical principles.",
+  "precise_definition": "The British method draws 'a comparatively modest conclusion ... from a broad survey of many facts,' with a stable, base-heavy structure that can absorb local errors without total collapse; the Continental method 'pyramids' a vast edifice of deduction upon 'a pin-point of logical principle,' producing an unstable structure that total collapse if any part of the foundation is flawed.",
+  "why_it_mattered": "This methodological contrast, for Russell, explains much of the substantive divergence between the two traditions on metaphysics (acceptance vs. rejection of a priori proofs of God), ethics (pleasure vs. 'noble' anti-utilitarian ends), and even politics (piecemeal reform vs. sweeping revolutionary or reactionary programmes).",
+  "historical_origin": "Traced by Russell from Locke and Hume on one side, Descartes, Spinoza, and Leibniz on the other, surviving (he argues) even Kant's attempted synthesis.",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "Hume's inductive handling of the 'missing shade of blue' objection to his own principle, which he treats as non-fatal because his method is empirical, not logical",
+    "Leibniz's monadology, deduced from the premise that whatever is complex must be composed of simples, which cannot be extended, hence not material, hence mental"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Kant's own belief that he had synthesized the two traditions, which Russell rejects as historically false, since Kant's followers remained squarely in the Cartesian tradition"
+  ],
+  "influence_on_later_thinkers": "Survives, per Russell, 'unvarying' from Descartes to Hegel on one side and from Locke to John Stuart Mill on the other, despite Kant's intervention.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Russell divides post-Locke European philosophy into two families: a 'British' line (Locke, Berkeley, Hume, and later Mill) that reasons cautiously from many observed facts to modest conclusions, and a 'Continental' line (Descartes, Spinoza, Leibniz, and later Kant and Hegel) that builds large, systematic conclusions from a few very general logical principles."
+    }
+  ]
+}

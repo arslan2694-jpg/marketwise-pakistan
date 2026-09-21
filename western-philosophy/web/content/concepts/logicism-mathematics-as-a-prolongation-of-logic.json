@@ -1,0 +1,31 @@
+{
+  "slug": "logicism-mathematics-as-a-prolongation-of-logic",
+  "name": "Logicism: mathematics as a prolongation of logic",
+  "plain_explanation": "Russell and Frege argue that all of pure mathematics can, in principle, be built up out of pure logic alone -- so mathematical truths like '2+2=4' are not mysterious insights into an eternal realm, but are, at bottom, simply true by definition of the terms involved, much like the 'truth' that there are three feet in a yard.",
+  "precise_definition": "The doctrine, established by Frege's 1884 definition of number and worked out in detail by Whitehead and Russell in Principia Mathematica, that arithmetic and pure mathematics generally are 'nothing but a prolongation of deductive logic'; mathematical knowledge is thus neither empirical (not learned by induction from experience) nor a priori knowledge about the world, but 'merely verbal' -- knowledge of what our terms mean by definition (e.g., '3' means '2+1,' and it follows, though the proof is long, that '4' means the same as '2+2').",
+  "why_it_mattered": "It disproves Kant's claim that arithmetical propositions are 'synthetic' and involve reference to time, and it 'dethrones mathematics from the lofty place that it has occupied since Pythagoras and Plato,' destroying the traditional presumption against empiricism that mathematics's apparent certainty had supported.",
+  "historical_origin": "Frege's definition of number (1884), developed in detail in Principia Mathematica (Whitehead and Russell).",
+  "associated_philosopher": "Bertrand Russell (building on Gottlob Frege)",
+  "examples": [
+    "Every previous definition of number wrongly identified 'number' with 'plurality'; but an instance of the number 3 is a particular triad (a plurality), while the class of all triads is a plurality of pluralities, and number in general is a plurality of pluralities of pluralities.",
+    "'3' means '2 + 1,' and '4' means '3 + 1'; it follows (though the proof is long) that '4' means the same as '2 + 2.'"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Kant's view that arithmetic is synthetic a priori knowledge involving reference to time",
+    "The traditional view, descending from Pythagoras and Plato, linking mathematics with theology and treating mathematical truth as a model of eternal, non-empirical certainty"
+  ],
+  "influence_on_later_thinkers": "Underpins the whole subsequent method of logical analysis Russell describes, including the theory of philosophical syntax pursued (in Russell's view, to excess) by Carnap.",
+  "connection_to_politics_or_religion": "Breaks the historic link, going back to Pythagoras, between mathematics and theology.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxxi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell (building on Gottlob Frege)",
+      "treatment": "Russell and Frege argue that all of pure mathematics can, in principle, be built up out of pure logic alone -- so mathematical truths like '2+2=4' are not mysterious insights into an eternal realm, but are, at bottom, simply true by definition of the terms involved, much like the 'truth' that there are three feet in a yard."
+    }
+  ]
+}

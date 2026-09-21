@@ -1,0 +1,30 @@
+{
+  "slug": "individualism-intellectual-economic-and-emotional-forms",
+  "name": "Individualism (intellectual, economic, and emotional forms)",
+  "plain_explanation": "The idea that truth, value, and worth are ultimately grounded in the individual person rather than in the community as a whole; Russell traces its growth from Greek collectivism through Stoic and early Christian inward individualism, medieval ecclesiastical collectivism, and finally Protestant-driven intellectual individualism.",
+  "precise_definition": "Russell's central organizing concept, distinguished into (a) intellectual individualism, in which truth is determined by private judgment rather than collective authority; (b) economic individualism, expressed in property rights and free enterprise; and (c) emotional/ethical self-assertive individualism, later associated with Rousseau, romanticism, and the 'cult of the hero.'",
+  "why_it_mattered": "Different combinations of these three forms of individualism produce very different political outcomes - early liberalism combined intellectual and economic individualism while remaining ethically restrained, while its later romantic rival extended individualism into the passions with far more dangerous consequences.",
+  "historical_origin": "Russell traces its earliest appearance to the Cynics and Stoics after Alexander destroyed Greek political liberty, and its decisive breach into mainstream Western thought to Protestantism's assertion that General Councils may err.",
+  "associated_philosopher": "Rene Descartes (as the philosopher who brought individualism fully into modern epistemology)",
+  "examples": [
+    "The Stoic view that a person can live a good life 'in no matter what social circumstances.'",
+    "Descartes's cogito, which grounds knowledge in each person's own existence rather than the community's."
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The medieval Catholic synthesis, in which truth and goodness were determined collectively by the Church's Councils, not by 'solitary thought'"
+  ],
+  "influence_on_later_thinkers": "Splits, after Rousseau and Kant, into what Russell calls the 'hard-headed' and 'soft-hearted' schools of liberalism (discussed further in the following chapter on Locke's influence).",
+  "connection_to_politics_or_religion": "Protestantism's assertion that Councils may err turned the determination of truth 'no longer a social but an individual enterprise,' producing religious strife that early liberalism sought to resolve.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Rene Descartes (as the philosopher who brought individualism fully into modern epistemology)",
+      "treatment": "The idea that truth, value, and worth are ultimately grounded in the individual person rather than in the community as a whole; Russell traces its growth from Greek collectivism through Stoic and early Christian inward individualism, medieval ecclesiastical collectivism, and finally Protestant-driven intellectual individualism."
+    }
+  ]
+}

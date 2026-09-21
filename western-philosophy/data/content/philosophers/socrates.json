@@ -1,0 +1,91 @@
+{
+  "slug": "socrates",
+  "name": "Socrates",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Sophists",
+  "major_ideas": [
+    "The Socratic Problem",
+    "Socratic dialectic (elenchus)",
+    "Socratic ignorance ('I know that I know nothing')",
+    "Virtue as knowledge",
+    "The limits of the dialectic method",
+    "The daimonion (Socrates's divine sign)"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Russell notes he passed his youth and early manhood under Pericles, in a city eager to listen to imported teachers, including Anaxagoras, from whom Socrates said he learned of the pre-eminence of mind in creation. Russell notes that the Platonic Socrates joins Aristotle in complaining that Anaxagoras underuses the concept of mind once he has introduced it; Anaxagoras is also named as an influence helping to form Socrates. Appears at the chapter's edges: as a defendant in Plato's dialogues that dramatize encounters with the Sophists, as one of the very few Athenian-born philosophers/mathematicians of the century, and as the eventual victim (399 B.C.) of the same climate of political prosecution that earlier struck Anaxagoras. The chapter's central figure: an Athenian teacher of philosophy, tried and executed in 399 B.C., whose character, method, and trial are reconstructed mainly through Plato's Apology, Xenophon's Memorabilia, and Plato's Symposium. Credited as the source of Plato's preoccupation with ethical problems and his tendency to seek teleological (purpose-driven) rather than mechanical explanations, making 'the Good' central to Plato's thought. As Plato's dramatized character (Russell repeatedly notes he is 'concerned only with the man as Plato portrays him'): calmly faces execution, refuses to escape, argues for the soul's immortality, and is subjected at the chapter's end to Russell's own mixed ethical verdict. Criticized by Nietzsche for their supposed democratic moral bias and taste for edification; Nietzsche cannot forgive Socrates his humble origin, calling him a 'roturier,' and suggests Plato may have preached virtue only as a means of controlling the lower classes.",
+  "central_doctrines": "The Socratic Problem: The historiographical difficulty of recovering the views and character of the historical Socrates given that our sources (Xenophon's Memorabilia and Plato's dialogues) are not neutral records but works shaped by their authors' own literary and philosophical purposes. Socratic dialectic (elenchus): A method of inquiry by question and answer aimed at testing the consistency of an interlocutor's beliefs and, ideally, arriving inductively at a definition that fits how a term is actually used. Socratic ignorance ('I know that I know nothing'): The Socratic doctrine, as reported in the Apology, that human wisdom is 'worth little or nothing,' and that the wisest man is the one who, like Socrates, recognizes the worthlessness of his own wisdom. Virtue as knowledge: The doctrine, attributed by Russell to Socrates and Plato, that no man sins wittingly, so that knowledge of the good is both necessary and sufficient for virtuous action. The limits of the dialectic method: Russell's analytical distinction between matters that are 'logical rather than factual,' where dialectic can profitably clarify usage and expose inconsistency, and matters of empirical discovery, where it is 'quite unavailing.'",
+  "key_arguments": [
+    "The Oracle Argument",
+    "Virtue cannot be harmed by an unjust sentence",
+    "Death is not to be feared",
+    "The political-expertise (Ship of State) argument"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "parmenides",
+    "plato",
+    "zeno-of-elea",
+    "bertrand-russell",
+    "anaximander",
+    "simmias"
+  ],
+  "successors": [
+    "plato",
+    "bertrand-russell",
+    "saint-paul",
+    "karl-marx"
+  ],
+  "disagreements": [
+    {
+      "with": "bertrand-russell",
+      "about": "Socratic dialectic (elenchus)"
+    },
+    {
+      "with": "galileo",
+      "about": "The limits of the dialectic method"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell opens by stressing that Socrates is uniquely hard to know: we cannot even be sure whether we know 'very little or a great deal' about him. He weighs Xenophon against Plato, judging Xenophon's defence of Socrates as too successful to be believable (since it fails to explain why Socrates was killed) while noting that Plato's literary genius makes him an unreliable witness in a different way. Russell nonetheless treats the Apology as broadly historical in intent and reconstructs its content at length: the informal accusers versus the formal indictment, the Delphic oracle story, the cross-examination of Meletus, and the closing reflections on death. He reads the historical Socrates as a man of a recognizable type -- self-assured, indifferent to worldly success, guided by a private divine sign, and convinced that clear thinking is the key to right living -- resembling a Christian martyr or Puritan in everything but his confident belief in a happy afterlife. Russell then turns from biography to method, crediting Socrates (via Zeno) with developing dialectic, but sharply limiting its scope: useful for logical and definitional questions such as 'what is justice?', but useless, and even actively obstructive when combined with the doctrine of reminiscence, for the discovery of new empirical facts about the world.",
+  "why_this_matters": "Almost everything we 'know' about Socrates comes filtered through Xenophon and Plato, whose portraits conflict, making the historical Socrates genuinely uncertain. Russell treats Plato's Apology as broadly historical in intent and uses it to reconstruct the trial: the informal charge of impiety/naturalism, the Delphic oracle story, and Socrates's cross-examination of Meletus.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-vii",
+      "role": "Russell notes he passed his youth and early manhood under Pericles, in a city eager to listen to imported teachers, including Anaxagoras, from whom Socrates said he learned of the pre-eminence of mind in creation."
+    },
+    {
+      "chapter_id": "book-1-ch-viii",
+      "role": "Russell notes that the Platonic Socrates joins Aristotle in complaining that Anaxagoras underuses the concept of mind once he has introduced it; Anaxagoras is also named as an influence helping to form Socrates."
+    },
+    {
+      "chapter_id": "book-1-ch-x",
+      "role": "Appears at the chapter's edges: as a defendant in Plato's dialogues that dramatize encounters with the Sophists, as one of the very few Athenian-born philosophers/mathematicians of the century, and as the eventual victim (399 B.C.) of the same climate of political prosecution that earlier struck Anaxagoras."
+    },
+    {
+      "chapter_id": "book-1-ch-xi",
+      "role": "The chapter's central figure: an Athenian teacher of philosophy, tried and executed in 399 B.C., whose character, method, and trial are reconstructed mainly through Plato's Apology, Xenophon's Memorabilia, and Plato's Symposium."
+    },
+    {
+      "chapter_id": "book-1-ch-xiii",
+      "role": "Credited as the source of Plato's preoccupation with ethical problems and his tendency to seek teleological (purpose-driven) rather than mechanical explanations, making 'the Good' central to Plato's thought."
+    },
+    {
+      "chapter_id": "book-1-ch-xvi",
+      "role": "As Plato's dramatized character (Russell repeatedly notes he is 'concerned only with the man as Plato portrays him'): calmly faces execution, refuses to escape, argues for the soul's immortality, and is subjected at the chapter's end to Russell's own mixed ethical verdict."
+    },
+    {
+      "chapter_id": "book-3-ch-xxv",
+      "role": "Criticized by Nietzsche for their supposed democratic moral bias and taste for edification; Nietzsche cannot forgive Socrates his humble origin, calling him a 'roturier,' and suggests Plato may have preached virtue only as a means of controlling the lower classes."
+    }
+  ],
+  "extraction_confidence": "high"
+}

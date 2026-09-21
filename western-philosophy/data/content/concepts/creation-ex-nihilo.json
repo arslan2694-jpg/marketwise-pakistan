@@ -1,0 +1,32 @@
+{
+  "slug": "creation-ex-nihilo",
+  "name": "Creation ex nihilo",
+  "plain_explanation": "The doctrine that God made the universe out of absolutely nothing, rather than shaping some pre-existing raw material, as older Greek thought had assumed.",
+  "precise_definition": "The doctrine, taught in the Old Testament and defended by Augustine against Manichaean and Greek views, that God created substance itself, not merely order and arrangement imposed on eternal, pre-existing matter.",
+  "why_it_mattered": "It marks a decisive break from Greek metaphysics, where God is an artificer working on eternal matter, and it forces the question of what, if anything, existed 'before' creation -- the problem that leads directly into Augustine's theory of time.",
+  "historical_origin": "Rooted in Genesis; defended by Augustine as a requirement of Christian orthodoxy against both the Manichaeans and residual Greek assumptions.",
+  "associated_philosopher": "Saint Augustine",
+  "examples": [
+    "Augustine's rejection of the Manichaean objector who asks why God did not create the world sooner"
+  ],
+  "objections": [
+    "The Greek philosophical view that creation out of nothing is impossible, which recurred in Christian times and, Russell notes, led toward pantheism"
+  ],
+  "competing_positions": [
+    "Plato and Aristotle's view of God as artificer shaping eternal matter",
+    "Pantheism (later fully developed by Spinoza), which denies any real distinction between God and the world"
+  ],
+  "influence_on_later_thinkers": "Became settled Christian orthodoxy; the alternative view recurred among mystics, who, Russell notes, have historically found it hard to stay orthodox because they resist placing the world wholly outside God.",
+  "connection_to_politics_or_religion": "Directly theological; underwrites Augustine's argument that Genesis, not Greek metaphysics, must govern Christian cosmology.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-iv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Saint Augustine",
+      "treatment": "The doctrine that God made the universe out of absolutely nothing, rather than shaping some pre-existing raw material, as older Greek thought had assumed."
+    }
+  ]
+}

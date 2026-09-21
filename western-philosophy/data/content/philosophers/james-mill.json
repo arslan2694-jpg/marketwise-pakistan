@@ -1,0 +1,55 @@
+{
+  "slug": "james-mill",
+  "name": "James Mill",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Philosophical Radicalism (Benthamite Utilitarianism)",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Named as a stern Benthamite who, like Bentham, believed in the omnipotence of education, and who took Helvétius as his guide in educating his son. Bentham's chief political disciple, who converted Bentham's doctrines into practical Radical politics, valued moderate intellectual pleasure and temperance above intense feeling, educated his son John Stuart according to Radical theory, and reacted with horror to the early socialism of Hodgskin.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "epicurus",
+    "jeremy-bentham",
+    "john-locke",
+    "bertrand-russell",
+    "david-hartley"
+  ],
+  "successors": [
+    "jeremy-bentham",
+    "friedrich-nietzsche",
+    "philo",
+    "karl-marx",
+    "david-ricardo",
+    "thomas-malthus",
+    "charles-darwin",
+    "bertrand-russell",
+    "thomas-hodgskin",
+    "robert-owen"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell treats the Philosophical Radicals as more politically than philosophically important, crediting Bentham's personal shyness, his fusion of the association principle with the greatest-happiness principle, and his vigorous practical application of an old doctrine (utilitarianism, already found in Hutcheson and Locke) to law reform. He is respectful of Bentham's rationalism, egalitarianism, and opposition to imperialism and tradition-for-its-own-sake, but identifies a serious 'lacuna' in his psychological egoism, and is sharply critical of John Stuart Mill's attempted logical proof of utilitarianism, which he calls 'so fallacious that it is hard to understand how he can have thought it valid.' He closes by tracing how the same Radical soil produced both Darwinism and Socialism, and frames the ethical disagreement between utilitarian democrats and Nietzschean elitists as ultimately political rather than resolvable by theoretical argument alone.",
+  "why_this_matters": "Bentham built his philosophy on two principles: the association of ideas (a deterministic psychology) and the greatest-happiness principle (an ethical criterion). Bentham rejected natural rights as 'nonsense on stilts' and listed civil law's aims as subsistence, abundance, security, and equality -- pointedly omitting liberty.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xxi",
+      "role": "Named as a stern Benthamite who, like Bentham, believed in the omnipotence of education, and who took Helvétius as his guide in educating his son."
+    },
+    {
+      "chapter_id": "book-3-ch-xxvi",
+      "role": "Bentham's chief political disciple, who converted Bentham's doctrines into practical Radical politics, valued moderate intellectual pleasure and temperance above intense feeling, educated his son John Stuart according to Radical theory, and reacted with horror to the early socialism of Hodgskin."
+    }
+  ],
+  "extraction_confidence": "high"
+}

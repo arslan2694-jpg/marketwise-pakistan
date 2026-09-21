@@ -1,0 +1,18 @@
+{
+  "slug": "thomism",
+  "name": "Thomism",
+  "period": "Medieval",
+  "doctrines": [
+    "The five (and related) proofs of God's existence",
+    "God's knowledge of particulars",
+    "The individual human soul, intellect, and the rejection of Averroism"
+  ],
+  "philosophers": [
+    "thomas-aquinas"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-2-ch-xiii"
+  ]
+}

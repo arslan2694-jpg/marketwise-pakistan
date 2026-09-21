@@ -1,0 +1,31 @@
+{
+  "slug": "critique-of-trade-and-usury",
+  "name": "Critique of trade and usury",
+  "plain_explanation": "Aristotle distinguishes a thing's 'proper' use (wearing a shoe) from its 'improper' use (exchanging it for profit), and condemns money-lending at interest ('usury') as the most unnatural way of making money, since money is meant only to facilitate exchange, not to breed more money.",
+  "precise_definition": "Aristotle's economic doctrine (Politics I) that wealth acquired through household management of land is natural and has a proper limit, while wealth acquired through retail trade is unnatural and unlimited, with usury -- 'a gain out of money itself, and not from the natural object of it' -- condemned as the most unnatural mode of acquisition of all.",
+  "why_it_mattered": "Russell traces this doctrine's long afterlife: it 'profoundly influenced scholastic casuistry' and shaped centuries of Christian and Islamic prohibition or regulation of interest-bearing loans, with the alignment of philosophical opinion tracking, Russell argues, the economic interests of whichever class -- landowners or, later, business creditors -- held philosophical influence at a given time.",
+  "historical_origin": "Rooted in Aristotle's broader natural/unnatural distinction applied to economic activity.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "'The most hated sort, and with the greatest reason, is usury, which makes a gain out of money itself, and not from the natural object of it.'"
+  ],
+  "objections": [
+    "Russell: 'the views of philosophers, with few exceptions, have coincided with the pecuniary interests of their class' -- Greek philosophers were landowners (hence anti-interest), medieval churchmen likewise held land (hence upheld the doctrine, reinforced by anti-Semitism against Jewish creditors), and only with the Reformation, when many earnest Protestants were business creditors, did Calvin and other Protestant divines begin sanctioning interest, with the Catholic Church eventually following suit."
+  ],
+  "competing_positions": [
+    "The gradually triumphant Reformation-era view, sanctioned first by Calvin, that lending at interest is legitimate."
+  ],
+  "influence_on_later_thinkers": "Shaped medieval scholastic economic doctrine for centuries; Russell directs readers to Tawney's Religion and the Rise of Capitalism for the fuller history, while noting Tawney's own account has 'a bias in favour of what is pre-capitalistic.'",
+  "connection_to_politics_or_religion": "Medieval Christian condemnation of usury was reinforced by anti-Semitism, since much fluid capital was held by Jewish lenders.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Aristotle distinguishes a thing's 'proper' use (wearing a shoe) from its 'improper' use (exchanging it for profit), and condemns money-lending at interest ('usury') as the most unnatural way of making money, since money is meant only to facilitate exchange, not to breed more money."
+    }
+  ]
+}

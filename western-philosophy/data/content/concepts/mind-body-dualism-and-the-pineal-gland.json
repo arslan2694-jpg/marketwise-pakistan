@@ -1,0 +1,32 @@
+{
+  "slug": "mind-body-dualism-and-the-pineal-gland",
+  "name": "Mind-body dualism and the pineal gland",
+  "plain_explanation": "Descartes held that humans (unlike animals, which he regarded as mere unfeeling automata) possess a rational soul entirely distinct from the body, which nonetheless makes contact with the body's 'vital spirits' at one specific point, the pineal gland, allowing the soul to redirect (though not add to) the total motion of the body.",
+  "precise_definition": "Russell's summary: 'Men are different [from animals]: they have a soul, which resides in the pineal gland. There the soul comes in contact with the \"vital spirits,\" and through this contact there is interaction between soul and body. The total quantity of motion in the universe is constant, and therefore the soul cannot affect it; but it can alter the direction of motion of the animal spirits, and hence, indirectly, of other parts of the body.'",
+  "why_it_mattered": "This is the specific mechanism by which Descartes tried to reconcile his dualism (two utterly distinct substances, mind and matter) with the evident fact that willing seems to move the body; Russell notes it was 'abandoned by his school' almost immediately once the conservation of momentum was discovered, since that discovery showed 'the sort of action of mind on matter that Descartes imagined is impossible.'",
+  "historical_origin": "Set out in the Principia Philosophiae (1644) and related physiological writings.",
+  "associated_philosopher": "René Descartes",
+  "examples": [
+    "Descartes's view that animals, lacking souls, are automata 'governed entirely by the laws of physics, and devoid of feeling or consciousness'"
+  ],
+  "objections": [
+    "The discovery of the conservation of momentum, which shows that any real causal action of mind on matter (of the kind Descartes imagined) is physically impossible",
+    "Geulincx's rejection of genuine interaction in favor of the 'two clocks' theory (occasionalism)"
+  ],
+  "competing_positions": [
+    "Geulincx's, and later Malebranche's and Spinoza's, rejection of the pineal-gland mechanism"
+  ],
+  "influence_on_later_thinkers": "Directly provoked Geulincx's occasionalism and, more broadly, 'brought to completion, or very nearly to completion, the dualism of mind and matter which began with Plato and was developed, largely for religious reasons, by Christian philosophy.'",
+  "connection_to_politics_or_religion": "The dualism has religious roots, per Russell, in a tradition running from Plato through Christian philosophy.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "René Descartes",
+      "treatment": "Descartes held that humans (unlike animals, which he regarded as mere unfeeling automata) possess a rational soul entirely distinct from the body, which nonetheless makes contact with the body's 'vital spirits' at one specific point, the pineal gland, allowing the soul to redirect (though not add to) the total motion of the body."
+    }
+  ]
+}

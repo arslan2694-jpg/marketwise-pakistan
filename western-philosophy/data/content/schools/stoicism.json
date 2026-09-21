@@ -1,0 +1,25 @@
+{
+  "slug": "stoicism",
+  "name": "Stoicism",
+  "period": "Spans multiple eras",
+  "doctrines": [
+    "Cosmic determinism and cyclical conflagration",
+    "The contradiction between egoistic virtue-ethics and preached benevolence"
+  ],
+  "philosophers": [
+    "zeno-of-citium",
+    "seneca",
+    "marcus-aurelius",
+    "epictetus",
+    "chrysippus"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-xi",
+    "book-1-ch-xxviii",
+    "book-1-ch-xxix",
+    "book-1-ch-xxx",
+    "book-2-ch-v"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "anselm-s-ontological-argument",
+  "name": "Anselm's ontological argument",
+  "plain_explanation": "Anselm defines God as 'the greatest possible object of thought.' He then argues that if such an object did not exist, we could think of another object, exactly like it, that did exist -- and that object would be greater, since existing is greater than merely being thought of. So the greatest possible object of thought must exist, since otherwise a still greater one would be conceivable. Therefore God exists.",
+  "precise_definition": "An a priori proof of God's existence purporting to derive existence from the very concept or definition of God as the greatest conceivable being, without appeal to observation or revelation.",
+  "why_it_mattered": "It is the first purely logical proof of God's existence in Western philosophy and inaugurates a long history of philosophical engagement (both critical and constructive) across many later systems.",
+  "historical_origin": "Devised by Saint Anselm, archbishop of Canterbury, in the late eleventh century.",
+  "associated_philosopher": "Saint Anselm",
+  "examples": [
+    "Anselm's own formulation: 'We define God as the greatest possible object of thought... Therefore God exists.'"
+  ],
+  "objections": [
+    "Adversely criticized at the time, then forgotten until the later thirteenth century",
+    "Rejected by Thomas Aquinas, whose authority has prevailed among theologians ever since",
+    "Kant considered that he had 'demolished it once for all'"
+  ],
+  "competing_positions": [
+    "Aquinas's alternative proofs of God's existence (the unmoved mover, first cause, etc.), which do not rely on deriving existence from a concept"
+  ],
+  "influence_on_later_thinkers": "Revived in amended form by Descartes; Leibniz thought it could be made valid by proving God's possibility; it underlies, in some sense, Hegel's system and reappears in F. H. Bradley's principle 'What may be and must be, is.'",
+  "connection_to_politics_or_religion": "A purely philosophical proof intended to secure a religious conclusion without appeal to revealed authority.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Saint Anselm",
+      "treatment": "Anselm defines God as 'the greatest possible object of thought.' He then argues that if such an object did not exist, we could think of another object, exactly like it, that did exist -- and that object would be greater, since existing is greater than merely being thought of. So the greatest possible object of thought must exist, since otherwise a still greater one would be conceivable. Therefore God exists."
+    }
+  ]
+}

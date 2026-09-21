@@ -1,0 +1,32 @@
+{
+  "slug": "induction-as-opposed-to-deduction-and-the-syllogism",
+  "name": "Induction as opposed to deduction and the syllogism",
+  "plain_explanation": "Bacon believed that real scientific knowledge should be built up from careful observation of many particular facts, arriving at general laws step by step, rather than starting from general premises (as in Aristotle's syllogistic logic) and deducing particular conclusions.",
+  "precise_definition": "Bacon was 'the first of the long line of scientifically minded philosophers who have emphasized the importance of induction as opposed to deduction,' seeking, like most of his successors, 'some better kind of induction than what is called \"induction by simple enumeration.\"'",
+  "why_it_mattered": "It positioned Bacon as the historical starting point of the empiricist, inductive tradition in the philosophy of science that runs through his successors down to the present, even though Russell judges his own specific proposals inadequate.",
+  "historical_origin": "Developed in Bacon's writings, especially The Advancement of Learning, as a reaction against scholastic reliance on the syllogism.",
+  "associated_philosopher": "Francis Bacon",
+  "examples": [
+    "Bacon 'not only despised the syllogism, but undervalued mathematics, presumably as insufficiently experimental'"
+  ],
+  "objections": [
+    "Russell's central objection: 'The problem of induction by simple enumeration remains unsolved to this day,' and Bacon's method underestimates the role of deduction (often mathematical) required to test a hypothesis against observation"
+  ],
+  "competing_positions": [
+    "Aristotelian syllogistic deduction from general premises",
+    "Later inductive methods, such as John Stuart Mill's four canons of inductive method"
+  ],
+  "influence_on_later_thinkers": "Directly cited by Russell as anticipating, and being refined by, later thinkers on induction such as John Stuart Mill.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-vii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Francis Bacon",
+      "treatment": "Bacon believed that real scientific knowledge should be built up from careful observation of many particular facts, arriving at general laws step by step, rather than starting from general premises (as in Aristotle's syllogistic logic) and deducing particular conclusions."
+    }
+  ]
+}

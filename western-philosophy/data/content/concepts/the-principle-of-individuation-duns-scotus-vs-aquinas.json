@@ -1,0 +1,32 @@
+{
+  "slug": "the-principle-of-individuation-duns-scotus-vs-aquinas",
+  "name": "The principle of individuation (Duns Scotus vs. Aquinas)",
+  "plain_explanation": "If two things belong to the same species (say, two people), what makes them two distinct individuals rather than one? Aquinas held that, for material things, two individuals of the same essence can be exactly alike in essence and differ only by occupying different positions in space (like identical twins). Duns Scotus disagreed: since he held being and essence are not really different, he concluded that if two things are genuinely distinct, they must differ by some qualitative difference of form, not merely by spatial position -- a view closer to Platonism than Aquinas's.",
+  "precise_definition": "The scholastic problem of specifying what makes numerically distinct individual substances of the same species genuinely different from one another; Duns Scotus locates this in form/haecceity rather than, as Aquinas does for material substances, in differentiated spatial position within otherwise undifferentiated matter.",
+  "why_it_mattered": "It is a central node connecting medieval metaphysics to modern philosophy of identity; Russell traces its modernization through Leibniz's identity of indiscernibles and the subsequent critique of the very notion of 'substance.'",
+  "historical_origin": "Developed by Duns Scotus (ca. 1270-1308) in direct opposition to Aquinas's treatment of essential vs. accidental properties in individuation.",
+  "associated_philosopher": "Duns Scotus",
+  "examples": [
+    "Aquinas's view that identical twins could, in principle, differ solely by the spatial position of their otherwise identical bodies",
+    "Leibniz's later 'identity of indiscernibles,' restating the problem by replacing 'essence' with 'all true propositions about the thing'"
+  ],
+  "objections": [
+    "Physicists later objected to Leibniz's principle, arguing two particles of matter might differ solely in spatiotemporal position -- a view Russell notes relativity complicates further by reducing space and time to relations"
+  ],
+  "competing_positions": [
+    "Aquinas's view that pure matter consists of undifferentiated parts distinguished solely by spatial position"
+  ],
+  "influence_on_later_thinkers": "Russell traces a direct modernizing lineage from Scotus's problem through Leibniz's identity of indiscernibles to the rejection of 'substance' altogether, at which point 'a thing' becomes a mere bundle of qualities -- a view Russell says is, in this later form, closer to Scotus than to Aquinas; Russell notes he treats a version of this question himself under 'Proper Names' in his own Inquiry into Meaning and Truth.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-xiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Duns Scotus",
+      "treatment": "If two things belong to the same species (say, two people), what makes them two distinct individuals rather than one? Aquinas held that, for material things, two individuals of the same essence can be exactly alike in essence and differ only by occupying different positions in space (like identical twins). Duns Scotus disagreed: since he held being and essence are not really different, he concluded that if two things are genuinely distinct, they must differ by some qualitative difference of form, not merely by spatial position -- a view closer to Platonism than Aquinas's."
+    }
+  ]
+}

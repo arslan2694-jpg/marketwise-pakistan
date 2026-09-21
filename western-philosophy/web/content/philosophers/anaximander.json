@@ -1,0 +1,54 @@
+{
+  "slug": "anaximander",
+  "name": "Anaximander",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "The Milesian school",
+  "major_ideas": [
+    "Anaximander's cosmic justice",
+    "Early evolutionary and scientific speculation of Anaximander"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The second, and in Russell's judgment more interesting, Milesian philosopher, who held the primal substance to be an indefinite, infinite, eternal 'boundless' stuff (not water or any known element), introduced the idea of cosmic justice regulating the strife of opposites, made the first map, and held early evolutionary views (including that man descended from fish-like ancestors). Quoted briefly to show that Plato's conception of justice as everyone keeping to 'his appointed place and appointed function' descends from an older, pre-philosophical Greek idea of cosmic justice and reparation for transgressing fixed bounds.",
+  "central_doctrines": "Anaximander's cosmic justice: The doctrine, stated in Anaximander's one surviving fragment, that things 'pass away into that from which they arose... making reparation and satisfaction to one another for their injustice according to the ordering of time' -- an impersonal natural necessity keeping each element within fixed bounds.",
+  "key_arguments": [
+    "Anaximander's argument that the primal substance cannot be any known element"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "thales"
+  ],
+  "successors": [
+    "anaximenes",
+    "pythagoras",
+    "heraclitus"
+  ],
+  "disagreements": [
+    {
+      "with": "anaximenes",
+      "about": "Early evolutionary and scientific speculation of Anaximander"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell insists the Milesian school 'is important, not for what it achieved, but for what it attempted': the specific doctrines (water, the boundless, air) are scientifically crude and mostly wrong, but the underlying project -- explaining the entire natural world by a single, testable, non-mythological hypothesis -- was itself revolutionary. He ranks Anaximander above Thales in interest, crediting him with cosmic justice, primitive evolutionary theory, and the first map, while noting Anaximenes was, oddly, more admired in antiquity than Anaximander despite being 'not quite so interesting' to modern readers. Russell explicitly credits the school's origin to Miletus's commercial contact with Babylonia and Egypt, and frames the whole chapter as a bridge to the more religious, Pythagorean current of philosophy that follows in southern Italy.",
+  "why_this_matters": "The Milesian school (Thales, Anaximander, Anaximenes) is important for its method -- seeking a single, natural, non-mythological explanation of the world -- rather than for the correctness of its specific answers. Thales held everything is made of water; Anaximander held the primal substance is an indefinite, infinite 'boundless' distinct from any known element; Anaximenes held it is air, differentiated by condensation and rarefaction.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-ii",
+      "role": "The second, and in Russell's judgment more interesting, Milesian philosopher, who held the primal substance to be an indefinite, infinite, eternal 'boundless' stuff (not water or any known element), introduced the idea of cosmic justice regulating the strife of opposites, made the first map, and held early evolutionary views (including that man descended from fish-like ancestors)."
+    },
+    {
+      "chapter_id": "book-1-ch-xiv",
+      "role": "Quoted briefly to show that Plato's conception of justice as everyone keeping to 'his appointed place and appointed function' descends from an older, pre-philosophical Greek idea of cosmic justice and reparation for transgressing fixed bounds."
+    }
+  ],
+  "extraction_confidence": "high"
+}

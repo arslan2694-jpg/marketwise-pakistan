@@ -1,0 +1,36 @@
+{
+  "slug": "hegel-s-glorification-of-the-state",
+  "name": "Hegel's glorification of the State",
+  "plain_explanation": "Hegel believed that individuals only have real spiritual worth, morality, and truth through their membership in the State, that the State is close to being 'the Divine Idea as it exists on earth,' and that citizens exist for the sake of the State rather than the State existing for the sake of citizens -- a view Russell says would justify 'every internal tyranny and every external aggression that can possibly be imagined.'",
+  "precise_definition": "Hegel's political doctrine, developed in The Philosophy of History and The Philosophy of Law, that the State is 'the reality of the moral idea,' possesses intrinsic value as an end in itself (not merely as a means to citizens' welfare), that individuals possess objectivity, truth, and morality only as members of the State, and that in their external relations States exist in a Hobbesian state of nature toward one another, not bound by ordinary morality, such that war is not an absolute evil but has positive moral value in preserving 'the moral health of peoples.'",
+  "why_it_mattered": "It is, for Russell, the most practically dangerous part of Hegel's philosophy, since it supplies a philosophical justification for both totalitarian domestic rule and unrestrained international aggression, and Russell devotes extended critical argument to showing it is not even required by Hegel's own metaphysics.",
+  "historical_origin": "The Philosophy of History and The Philosophy of Law (Hegel's Berlin-period lectures).",
+  "associated_philosopher": "Georg Wilhelm Friedrich Hegel",
+  "examples": [
+    "'The State is the Divine Idea as it exists on earth.'",
+    "Hegel's argument against a League of Nations or world government, on the ground that 'a family of States needs an enemy'",
+    "Hegel's claim that 'War has the higher significance that through it the moral health of peoples is preserved'"
+  ],
+  "objections": [
+    "Russell: Hegel's theory is 'largely inconsistent with his own metaphysic,' since his Logic should equally have led him to prefer a world State to an anarchic collection of States, and to respect individuals more (as genuine constituents of an organic whole) than he does.",
+    "Russell: there is no good metaphysical reason, on Hegel's own principles, for exclusive emphasis on the State over other social organizations such as the Church; Russell suspects mere 'Protestant bias.'",
+    "Russell distinguishes means-value from intrinsic (end) value: the State is clearly valuable as a means (protection, roads, schools), but Hegel's claim that it is good as an end in itself requires treating it as a kind of 'super-person,' which Russell calls a 'metaphysical monstrosity' if taken literally."
+  ],
+  "competing_positions": [
+    "The liberal philosophy descending from Locke, which holds that the State exists for the sake of its citizens, not the reverse",
+    "The Catholic doctrine (per Saint Augustine) claiming supreme value for the Church rather than the State -- which Russell judges more internally consistent than Hegel's, since there is only one Church but many States"
+  ],
+  "influence_on_later_thinkers": "Adopted by many Protestant theologians and by late-nineteenth and early-twentieth-century political theory; Russell treats it as providing intellectual cover, however unintentionally, for later totalitarian state-worship.",
+  "connection_to_politics_or_religion": "This entire concept is a fusion of metaphysics with Prussian, Lutheran-Erastian political theology.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Georg Wilhelm Friedrich Hegel",
+      "treatment": "Hegel believed that individuals only have real spiritual worth, morality, and truth through their membership in the State, that the State is close to being 'the Divine Idea as it exists on earth,' and that citizens exist for the sake of the State rather than the State existing for the sake of citizens -- a view Russell says would justify 'every internal tyranny and every external aggression that can possibly be imagined.'"
+    }
+  ]
+}

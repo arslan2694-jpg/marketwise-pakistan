@@ -1,0 +1,31 @@
+{
+  "slug": "the-single-primal-substance-arche",
+  "name": "The single primal substance (arche)",
+  "plain_explanation": "Each Milesian philosopher asked what one basic 'stuff' everything else is made of and can be transformed back into: Thales said water, Anaximander said an indefinite 'boundless' substance, and Anaximenes said air.",
+  "precise_definition": "The idea, foundational to the Milesian school, that the apparent diversity of the world's substances is reducible to transformations of a single underlying material principle.",
+  "why_it_mattered": "Russell treats the very asking of this question -- rather than the specific (and mostly wrong) answers -- as marking the beginning of philosophy and science together, since it is a general, naturalistic hypothesis open in principle to reasoning and evidence rather than myth.",
+  "historical_origin": "First proposed by Thales (water) in early sixth-century B.C. Miletus, then revised successively by Anaximander and Anaximenes.",
+  "associated_philosopher": "Thales, Anaximander, Anaximenes",
+  "examples": [
+    "Thales: water as the original substance, with the earth resting on water",
+    "Anaximander: the 'boundless' (apeiron), infinite and ageless, encompassing all worlds",
+    "Anaximenes: air, which becomes fire when rarefied and water, then earth, then stone when condensed"
+  ],
+  "objections": [
+    "Anaximander's own argument that water (or any single known element) could not be primal, since it would have already conquered and eliminated the opposing elements"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Anaximenes' theory of condensation and rarefaction, making differences between substances purely quantitative, influenced Pythagoras and much later speculation.",
+  "connection_to_politics_or_religion": "Thales' remark that 'all things are full of gods' shows the doctrine was not fully separated from religious ways of speaking, even while moving toward naturalistic explanation.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-ii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Thales, Anaximander, Anaximenes",
+      "treatment": "Each Milesian philosopher asked what one basic 'stuff' everything else is made of and can be transformed back into: Thales said water, Anaximander said an indefinite 'boundless' substance, and Anaximenes said air."
+    }
+  ]
+}

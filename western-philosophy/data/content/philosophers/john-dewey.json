@@ -1,0 +1,51 @@
+{
+  "slug": "john-dewey",
+  "name": "John Dewey",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Instrumentalism / pragmatism (Dewey's variant)",
+  "major_ideas": [
+    "Instrumentalism: 'inquiry' in place of 'truth'"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Mentioned as the third major pragmatist, whose more scientifically oriented version of the doctrine Russell says he will examine in the next chapter, contrasted with James's religiously and morally oriented emphasis. The chapter's primary subject. Russell praises his character and influence, agrees with much of his outlook, but subjects his instrumentalist theory of truth ('inquiry' and 'warranted assertability') to detailed, respectful criticism.",
+  "central_doctrines": "Instrumentalism: 'inquiry' in place of 'truth': Dewey's substitution of 'inquiry' for 'truth' as logic's fundamental concept; he defines inquiry as 'the controlled or directed transformation of an indeterminate situation into one that is so determinate in its constituent distinctions and relations as to convert the elements of the original situation into a unified whole,' concerned with 'objective transformations of objective subject-matter.'",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "pythagoras",
+    "plato",
+    "johann-gottlieb-fichte",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "f-c-s-schiller",
+    "henri-bergson",
+    "bertrand-russell",
+    "william-james"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell is unusually personal and warm toward Dewey, praising his character, his influence on education (paralleling Russell's own efforts), and his political good sense (opposition to Marxism and to violent revolution, informed by visits to Russia and China). He nonetheless dissents sharply from Dewey's core doctrine, walking through his own theory of truth and belief (via the staircase and lion-at-the-zoo examples) before turning to a close, largely destructive analysis of Dewey's official definition of 'inquiry,' which Russell argues is incomplete because it cannot, without circularity, distinguish inquiry from any other reorganizing activity. He then contrasts his own causally grounded notion of truth with Dewey's future-oriented 'warranted assertability,' using the general's battle reports, the coffee-for-breakfast example, and the Rubicon example to argue Dewey's view collapses into absurdity. The chapter (continuing without a section break into material that precedes the next chapter's heading) ends on Russell's broadest and most explicitly value-laden note in the book: a warning that any philosophy which erodes the check that 'stubborn facts' place on human pride edges toward what he calls 'cosmic impiety' and 'the intoxication of power,' which he names the greatest danger of his time.",
+  "why_this_matters": "Russell admires Dewey personally and agrees with much of his political and educational outlook, but dissents from Dewey's central doctrine: substituting 'inquiry' for 'truth.' Dewey defines inquiry as transforming an indeterminate situation into a determinate, unified whole; Russell objects this definition, taken literally, would also cover a drill-sergeant's or bricklayer's work, and secretly depends on an unacknowledged Hegelian metaphysic.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xxix",
+      "role": "Mentioned as the third major pragmatist, whose more scientifically oriented version of the doctrine Russell says he will examine in the next chapter, contrasted with James's religiously and morally oriented emphasis."
+    },
+    {
+      "chapter_id": "book-3-ch-xxx",
+      "role": "The chapter's primary subject. Russell praises his character and influence, agrees with much of his outlook, but subjects his instrumentalist theory of truth ('inquiry' and 'warranted assertability') to detailed, respectful criticism."
+    }
+  ],
+  "extraction_confidence": "high"
+}

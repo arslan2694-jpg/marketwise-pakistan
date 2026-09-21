@@ -1,0 +1,34 @@
+{
+  "slug": "the-absolute",
+  "name": "The Absolute",
+  "plain_explanation": "Hegel held that individual things -- people, objects, moments in time -- are not fully real or self-sufficient on their own; only the entire interconnected universe, taken as a single organized whole, is truly and completely real. Separate things have only a partial, borrowed reality as aspects of this Whole.",
+  "precise_definition": "Hegel's term for ultimate reality: a single, complex, organically unified spiritual Whole (not a simple substance, unlike Parmenides' One or Spinoza's God) of which apparently separate finite things are partial, interdependent aspects, fully real and fully understood only in relation to the whole.",
+  "why_it_mattered": "It is the foundation of Hegel's entire system: his logic, his philosophy of history, and his theory of the State all follow from the claim that reality and truth belong, in the fullest sense, only to the Whole.",
+  "historical_origin": "Developed across Hegel's Logic and Phenomenology of Mind, rooted in mystical experiences Russell says Hegel had in youth.",
+  "associated_philosopher": "Georg Wilhelm Friedrich Hegel",
+  "examples": [
+    "The claim that 'nothing is ultimately and completely real except the whole'",
+    "The rejection of time and space as fully real, since they involve separateness and multiplicity"
+  ],
+  "objections": [
+    "Russell's core logical objection: this view depends on the false assumption that any true statement about a part of the universe must be a statement about its relations to everything else, an assumption Russell traces to (and rejects in) traditional subject-predicate logic."
+  ],
+  "competing_positions": [
+    "Parmenides' simple, undifferentiated One",
+    "Spinoza's God/Nature, possessing both extension and thought",
+    "Analytic philosophy's rejection of holism in favor of genuine, irreducible relations between distinct particulars"
+  ],
+  "influence_on_later_thinkers": "Shaped late-nineteenth-century Anglo-American idealism (Bradley, Bosanquet) and, via the dialectic, Marx's materialist reworking of Hegelian history.",
+  "connection_to_politics_or_religion": "Directly grounds Hegel's later claim that the State, as a more organized whole, has greater reality and value than the individuals who compose it.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Georg Wilhelm Friedrich Hegel",
+      "treatment": "Hegel held that individual things -- people, objects, moments in time -- are not fully real or self-sufficient on their own; only the entire interconnected universe, taken as a single organized whole, is truly and completely real. Separate things have only a partial, borrowed reality as aspects of this Whole."
+    }
+  ]
+}

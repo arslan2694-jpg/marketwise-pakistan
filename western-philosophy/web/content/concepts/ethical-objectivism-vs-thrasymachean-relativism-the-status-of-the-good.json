@@ -1,0 +1,32 @@
+{
+  "slug": "ethical-objectivism-vs-thrasymachean-relativism-the-status-of-the-good",
+  "name": "Ethical objectivism vs. Thrasymachean relativism (the status of 'the Good')",
+  "plain_explanation": "Is a claim like 'pleasure is good' actually true or false in the same way 'snow is white' is, or is 'good' just whatever the powerful decide it is, so that ethical disagreements are really just power struggles?",
+  "precise_definition": "The debate, launched by Thrasymachus's claim that 'justice is nothing else than the interest of the stronger,' over whether ethical statements have objective truth-value independent of desire and power, or whether, absent such objectivity, ethical disagreement reduces to contests of force or propaganda.",
+  "why_it_mattered": "Russell treats this as one of the still-open questions in philosophy and uses it to explain why Plato's confident claim to know 'the Good' cannot simply be taken for granted -- it is itself among the most contested claims in his whole system.",
+  "historical_origin": "Introduced dramatically via the character Thrasymachus (a real Sophist from Chalcedon) in Book I of the Republic.",
+  "associated_philosopher": "Plato",
+  "examples": [
+    "Russell's proposed practical test for ethical 'truth': whether virtually all investigators agree, as they do that 'water is composed of hydrogen and oxygen.'",
+    "The case of Galileo and of Christ's ethical innovations (e.g., 'it is wrong to hate your enemies') as examples of minority views later vindicated by something other than majority opinion or force."
+  ],
+  "objections": [
+    "Socrates's rebuttal of Thrasymachus is, in Russell's judgment, done 'with quibbles' and 'never fairly faced.'"
+  ],
+  "competing_positions": [
+    "Plato's own confident ethical objectivism, which Russell says he holds 'without... being... aware of' the strength of Thrasymachus's challenge."
+  ],
+  "influence_on_later_thinkers": "Remains, per Russell, 'one of the issues in philosophy that are still open.'",
+  "connection_to_politics_or_religion": "Russell notes even theological answers (God determines the good) run into trouble, since calling God 'good' presupposes a standard of goodness independent of God's will.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Plato",
+      "treatment": "Is a claim like 'pleasure is good' actually true or false in the same way 'snow is white' is, or is 'good' just whatever the powerful decide it is, so that ethical disagreements are really just power struggles?"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "sextus-empiricus",
+  "name": "Sextus Empiricus",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [
+    "Scepticism's tolerant, hostile-to-religion character and Sextus Empiricus's case against theism"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The only ancient Sceptic philosopher whose works survive; Russell quotes his treatise 'Arguments Against Belief in a God,' which shows Sceptics conforming outwardly to conventional religious practice while suspending belief, and which argues that affirming God's existence forces an impious choice between making God the author of evil or admitting He is grudging or impotent.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxvi",
+      "role": "The only ancient Sceptic philosopher whose works survive; Russell quotes his treatise 'Arguments Against Belief in a God,' which shows Sceptics conforming outwardly to conventional religious practice while suspending belief, and which argues that affirming God's existence forces an impious choice between making God the author of evil or admitting He is grudging or impotent."
+    }
+  ],
+  "extraction_confidence": "high"
+}

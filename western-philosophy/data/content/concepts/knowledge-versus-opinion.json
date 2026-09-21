@@ -1,0 +1,31 @@
+{
+  "slug": "knowledge-versus-opinion",
+  "name": "Knowledge versus opinion",
+  "plain_explanation": "Knowledge, for Plato, is always about something that really and fully exists, so it cannot be mistaken; opinion is about the ordinary changeable world of particular things, which are always somewhat contradictory (a beautiful thing is also, in some respect, ugly), and so opinion is neither fully true nor fully false.",
+  "precise_definition": "Plato's epistemic distinction, argued in Republic Book V, that knowledge (infallible, because it is logically impossible to know what is not) is of the eternal, unchanging Forms, while opinion (fallible, since particular sensible objects combine opposite characters and are thus intermediate between being and not-being) is of the world presented to the senses.",
+  "why_it_mattered": "It supplies Plato's motive for positing a super-sensible world of Ideas: only such a world can supply objects stable enough to be known with certainty.",
+  "historical_origin": "Builds directly on Parmenides's distinction between the way of truth (what is) and the way of opinion (what seems).",
+  "associated_philosopher": "Plato",
+  "examples": [
+    "A particular beautiful object is, Plato says, also ugly in some respect; 'double' and 'half' are likewise contradictory when applied to the same particular."
+  ],
+  "objections": [
+    "Russell: this is confused about relative terms -- there is no contradiction in 2 being double of 1 and half of 4, so the argument that particulars are self-contradictory does not really hold up under analysis."
+  ],
+  "competing_positions": [
+    "Russell's own view that knowledge and opinion can share the same subject-matter (e.g., believing it will snow, then seeing it snow), which Plato explicitly denies."
+  ],
+  "influence_on_later_thinkers": "Underlies the whole subsequent rationalist tradition that treats sense-based belief as inherently inferior to a priori, intellectual knowledge.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Plato",
+      "treatment": "Knowledge, for Plato, is always about something that really and fully exists, so it cannot be mistaken; opinion is about the ordinary changeable world of particular things, which are always somewhat contradictory (a beautiful thing is also, in some respect, ugly), and so opinion is neither fully true nor fully false."
+    }
+  ]
+}

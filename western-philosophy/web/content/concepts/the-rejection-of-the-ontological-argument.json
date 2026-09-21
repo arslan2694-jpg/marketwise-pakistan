@@ -1,0 +1,29 @@
+{
+  "slug": "the-rejection-of-the-ontological-argument",
+  "name": "The rejection of the ontological argument",
+  "plain_explanation": "Some thinkers said God's existence is self-evident once we understand what 'God' means. Aquinas disagrees: that would only work if we knew God's essence perfectly, since (he holds) in God essence and existence are identical -- but no creature, however wise, knows God's essence well enough to deduce His existence purely from the concept. So the existence of God needs a separate proof, not a definitional shortcut.",
+  "precise_definition": "Aquinas's argument that the ontological proof (deriving God's existence from the concept of God) fails because, although essence and existence are indeed identical in God Himself, no finite intellect grasps God's essence with sufficient completeness to perform this deduction.",
+  "why_it_mattered": "It shows Aquinas deliberately choosing cosmological over a priori argumentation, a methodological choice that shaped the subsequent Thomistic tradition's preference for arguments from the created world over pure conceptual analysis.",
+  "historical_origin": "Presented early in Book I of the Summa contra Gentiles, following the treatment of the nature of wisdom.",
+  "associated_philosopher": "Thomas Aquinas",
+  "examples": [
+    "Aquinas's distinction between wise men, the ignorant, and angels as knowing progressively more of God's essence, yet none sufficiently to deduce existence from it"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Saint Anselm's ontological argument (covered in the chapter on the eleventh century), which Aquinas here implicitly rejects"
+  ],
+  "influence_on_later_thinkers": "Establishes the cosmological-argument tradition within Catholic philosophy as against the ontological-argument tradition later revived by Descartes and Leibniz.",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-xiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Thomas Aquinas",
+      "treatment": "Some thinkers said God's existence is self-evident once we understand what 'God' means. Aquinas disagrees: that would only work if we knew God's essence perfectly, since (he holds) in God essence and existence are identical -- but no creature, however wise, knows God's essence well enough to deduce His existence purely from the concept. So the existence of God needs a separate proof, not a definitional shortcut."
+    }
+  ]
+}

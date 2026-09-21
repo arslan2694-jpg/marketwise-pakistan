@@ -1,0 +1,33 @@
+{
+  "slug": "the-doctrine-of-the-golden-mean",
+  "name": "The doctrine of the golden mean",
+  "plain_explanation": "Every virtue, Aristotle argues, lies at a mid-point between two opposite vices -- one of excess, one of deficiency. Courage, for example, is the mean between the excess of rashness and the deficiency of cowardice.",
+  "precise_definition": "The doctrine that moral virtue is a disposition to feel and act in a way that is intermediate between two vicious extremes, one of excess and one of deficiency, relative to the particular person and situation -- e.g. courage between cowardice and rashness, liberality between prodigality and meanness, proper pride between vanity and humility.",
+  "why_it_mattered": "It became the most famous and influential single doctrine of Aristotle's ethics, offering a systematic method for identifying virtues by locating the extremes on either side of them.",
+  "historical_origin": "Developed across Books II-IV of the Nicomachean Ethics.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "Courage as the mean between cowardice and rashness",
+    "Liberality as the mean between prodigality and meanness",
+    "Ready wit as the mean between buffoonery and boorishness",
+    "Truthfulness (about oneself) as the mean between boastfulness and mock-modesty"
+  ],
+  "objections": [
+    "Russell notes the scheme does not obviously fit truthfulness in any wider sense than truthfulness about oneself, and mocks a real-life mayor who claimed to have steered a mean between 'partiality' and 'impartiality'",
+    "It cannot apply to intellectual contemplation, which the Ethics elsewhere calls the best of all activities -- there being no vice of 'excess' of contemplation on Aristotle's own account"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Became a standard reference point in virtue ethics down to the present.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Every virtue, Aristotle argues, lies at a mid-point between two opposite vices -- one of excess, one of deficiency. Courage, for example, is the mean between the excess of rashness and the deficiency of cowardice."
+    }
+  ]
+}

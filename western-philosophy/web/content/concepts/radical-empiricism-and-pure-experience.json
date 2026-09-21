@@ -1,0 +1,34 @@
+{
+  "slug": "radical-empiricism-and-pure-experience",
+  "name": "Radical empiricism and 'pure experience'",
+  "plain_explanation": "James argues that the everyday assumption that there is a 'knower' (mind) on one side and a 'known' (object) on the other is not basic to reality. Instead, there is just one kind of raw material, 'pure experience,' and any given piece of it can count as either a knower or a known thing depending on the context in which we consider it.",
+  "precise_definition": "First published in the 1904 essay 'Does \"Consciousness\" Exist?', James's doctrine that the subject-object relation is not fundamental: consciousness 'is the name of a nonentity' with 'no aboriginal stuff or quality of being' distinct from that of material objects; there is instead 'only one primal stuff or material,' called 'pure experience' and defined as 'the immediate flux of life which furnishes the material to our later reflection,' out of which knowing arises as a derivative relation between two portions of that stuff.",
+  "why_it_mattered": "Russell states he was persuaded by James (and those who agreed with him) to abandon his own earlier view and now regards this as correct, calling it grounds by itself for giving James 'a high place among philosophers'; it undercuts almost the whole traditional apparatus of mind/matter dualism, the contemplative ideal, and the traditional notion of truth.",
+  "historical_origin": "First published in the essay 'Does \"Consciousness\" Exist?' (1904).",
+  "associated_philosopher": "William James",
+  "examples": [
+    "\"Consciousness... is the name of a nonentity, and has no right to a place among first principles.\"",
+    "A given undivided portion of experience can be, in one context, a knower, and in another, something known."
+  ],
+  "objections": [
+    "Russell disputes only James's use of the word 'experience': common sense holds that many things occur (e.g., events on the far side of the moon) without being experienced by anyone, so 'experience' cannot be coextensive with the 'stuff' of the world.",
+    "Russell suggests James's phrase 'pure experience' points to 'a perhaps unconscious Berkeleian idealism' that James himself never squarely confronted."
+  ],
+  "competing_positions": [
+    "The traditional dualist view, assumed by 'almost everything in accepted philosophy,' that a knower (mind or soul) is aware of a separate object known",
+    "Berkeley's and Hegel's view that what is not experienced is nothing, which Russell (with most philosophers) holds invalid"
+  ],
+  "influence_on_later_thinkers": "Directly gives rise to the doctrine Russell calls 'neutral monism,' further developed in the final chapter on logical analysis in connection with modern physics and psychology.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "William James",
+      "treatment": "James argues that the everyday assumption that there is a 'knower' (mind) on one side and a 'known' (object) on the other is not basic to reality. Instead, there is just one kind of raw material, 'pure experience,' and any given piece of it can count as either a knower or a known thing depending on the context in which we consider it."
+    }
+  ]
+}

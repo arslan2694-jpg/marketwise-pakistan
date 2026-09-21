@@ -1,0 +1,31 @@
+{
+  "slug": "events-not-particles-as-the-stuff-of-physics-neutral-monism-extended",
+  "name": "Events, not particles, as the 'stuff' of physics; neutral monism extended",
+  "plain_explanation": "Modern physics no longer pictures the world as made of tiny, persisting particles of solid 'matter.' Instead, relativity treats the basic ingredients as 'events,' related to each other by an interval that can be split into space and time in different, equally valid ways depending on the observer. This dissolves 'matter' into a convenient way of bundling events together -- and, since mind can be understood the same way, it also dissolves the traditional gulf between mind and matter.",
+  "precise_definition": "Russell's extension, via relativity and quantum theory, of the doctrine anticipated by James's radical empiricism: Einstein substituted events for particles, each event related to every other by an 'interval' divisible into space- and time-components only by an arbitrary convention (so that whether two distant events are simultaneous, or which precedes the other, has no fact of the matter beyond convention); a 'particle' becomes merely a certain useful series of events. Quantum theory reinforces this by suggesting physical states may change discontinuously. Since both physics (making matter 'less material') and psychology (making mind 'less mental,' e.g. via the conditioned reflex) converge from opposite ends, Russell concludes both mind and matter 'are merely convenient ways of grouping events,' some events belonging only to material groups, others to both mental and material groups at once.",
+  "why_it_mattered": "It offers, in Russell's own view, a resolution of the ancient mind-matter problem and a 'great simplification' of the picture of the world's structure, while also reworking the theory of perception: what we know of physical objects through perception is only 'abstract and mathematical,' certain structural properties, not qualities like brightness or warmth.",
+  "historical_origin": "Developed from Einstein's theory of relativity and from quantum mechanics, building on William James's earlier criticism of 'consciousness' and doctrine of neutral monism.",
+  "associated_philosopher": "Bertrand Russell",
+  "examples": [
+    "Two events A and B in different regions may, according to different but equally valid conventions, be simultaneous, or A before B, or B before A, with 'no physical facts' corresponding to the different conventions.",
+    "Light travelling from the sun, refracted by the atmosphere and affected by gravitation, ending in 'seeing the sun' -- an experience causally connected to, but qualitatively unlike, the astronomer's sun itself."
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The traditional view of 'material substance' as composed of small, persisting particles",
+    "Traditional mind-matter dualism, which locates the distinction's origin in religion"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "Russell notes the traditional distinction of mind and matter 'came into philosophy from religion.'",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxxi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell",
+      "treatment": "Modern physics no longer pictures the world as made of tiny, persisting particles of solid 'matter.' Instead, relativity treats the basic ingredients as 'events,' related to each other by an interval that can be split into space and time in different, equally valid ways depending on the observer. This dissolves 'matter' into a convenient way of bundling events together -- and, since mind can be understood the same way, it also dissolves the traditional gulf between mind and matter."
+    }
+  ]
+}

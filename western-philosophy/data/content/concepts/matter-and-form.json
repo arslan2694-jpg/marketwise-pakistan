@@ -1,0 +1,34 @@
+{
+  "slug": "matter-and-form",
+  "name": "Matter and Form",
+  "plain_explanation": "Take a bronze sphere: the bronze is its 'matter,' the sphericity is its 'form.' More generally, whatever a thing is made of is its matter, and the shape or organizing structure that makes that stuff into 'a thing' at all is its form.",
+  "precise_definition": "Aristotle's doctrine that concrete substances are compounds of matter (potentiality) and form (the principle that confers definiteness, unity, and actuality); form is said to be more real and more substantial than matter, and things become more 'actual' as they acquire more form.",
+  "why_it_mattered": "It let Aristotle explain unity and individuation (why a lump of marble becomes 'a statue,' a 'thing') and, extended teleologically, why living organisms and even the cosmos develop toward ever-greater actuality and likeness to God.",
+  "historical_origin": "Developed by Aristotle, in explicit reworking of Platonic metaphysics, chiefly in the Metaphysics.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "A bronze sphere: bronze is matter, sphericity is form",
+    "A calm sea: water is matter, smoothness is form",
+    "The soul as 'the form of the body,' giving it organic unity of purpose"
+  ],
+  "objections": [
+    "Zeller's criticism (quoted by Russell) that Aristotle 'had only half emancipated himself... from Plato's tendency to hypostatise ideas,' since forms, like Ideas, are treated as substantial and more real than matter",
+    "Russell's own objection: if two brass spheres are made, does each have its own particular sphericity (making form unknowable, contrary to Aristotle's system) or the same universal sphericity (making form indistinguishable from a Platonic Idea)? Aristotle has no clear escape from this dilemma"
+  ],
+  "competing_positions": [
+    "Plato's theory that Forms/Ideas exist independently of any matter that exemplifies them"
+  ],
+  "influence_on_later_thinkers": "Became central to medieval Scholastic metaphysics and to Aristotle's own doctrine of the soul as 'the form of the body.'",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Take a bronze sphere: the bronze is its 'matter,' the sphericity is its 'form.' More generally, whatever a thing is made of is its matter, and the shape or organizing structure that makes that stuff into 'a thing' at all is its form."
+    }
+  ]
+}

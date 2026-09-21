@@ -1,0 +1,22 @@
+{
+  "slug": "early-modern-empirical-mathematical-science",
+  "name": "Early modern empirical/mathematical science",
+  "period": "Modern",
+  "doctrines": [
+    "The law of inertia and the abandonment of 'natural' places and motions",
+    "Kepler's three laws of planetary motion",
+    "Newton's law of universal gravitation and the unification of celestial and terrestrial mechanics",
+    "The removal of animism and purpose from physics"
+  ],
+  "philosophers": [
+    "nicolaus-copernicus",
+    "galileo-galilei",
+    "isaac-newton",
+    "johannes-kepler"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-vi"
+  ]
+}

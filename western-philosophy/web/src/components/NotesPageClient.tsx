@@ -1,17 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
-import { loadProgress, deleteNote, type ProgressState } from "@/lib/progress";
+import { deleteNote, useProgress } from "@/lib/progress";
 
 export default function NotesPageClient({ chapterTitles }: { chapterTitles: Record<string, string> }) {
-  const [progress, setProgress] = useState<ProgressState | null>(null);
-
-  useEffect(() => {
-    setProgress(loadProgress());
-  }, []);
-
-  if (!progress) return <div className="h-40 animate-pulse rounded-lg bg-surface-2" />;
+  const progress = useProgress();
 
   const bookmarkedChapters = Object.entries(progress.bookmarks).filter(([, v]) => v).map(([k]) => k);
 
@@ -45,7 +38,7 @@ export default function NotesPageClient({ chapterTitles }: { chapterTitles: Reco
                 <div className="flex items-start justify-between gap-3">
                   <p className="text-[14px] text-ink">{n.text}</p>
                   <button
-                    onClick={() => setProgress(deleteNote(n.id))}
+                    onClick={() => deleteNote(n.id)}
                     className="shrink-0 text-[12px] text-ink-3 hover:text-bad"
                   >
                     remove

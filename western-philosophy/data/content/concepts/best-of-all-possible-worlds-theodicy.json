@@ -1,0 +1,33 @@
+{
+  "slug": "best-of-all-possible-worlds-theodicy",
+  "name": "Best of all possible worlds / theodicy",
+  "plain_explanation": "Leibniz argued that before creating anything, God considered infinitely many possible worlds and chose to create the one with the greatest excess of good over evil - so even though our world contains evil, it is nonetheless the best world logically possible, because some goods (like free will) cannot exist without the risk of some evils (like sin).",
+  "precise_definition": "The doctrine that a possible world is one not contradicting the laws of logic; God, being good, necessarily creates the possible world with the greatest surplus of good over evil, so the evils that exist are logically necessary for a greater compensating good and provide no argument against God's goodness.",
+  "why_it_mattered": "It was Leibniz's popular solution to the problem of evil, satisfying enough to please royal patrons like the Queen of Prussia, but Russell judges it 'logically possible, but not very convincing.'",
+  "historical_origin": "Set out in the Theodicee and the Monadology; famously satirized by Voltaire as the philosophy of Dr. Pangloss, and mocked by F. H. Bradley's remark that 'everything in it is a necessary evil.'",
+  "associated_philosopher": "Gottfried Wilhelm Leibniz",
+  "examples": [
+    "Free will is a great good, but it was logically impossible for God to grant free will while also decreeing there would be no sin, so God permitted Adam's fall as the price of a world with free will.",
+    "The comparison of a drink of cold water being more pleasurable after enduring thirst."
+  ],
+  "objections": [
+    "Russell constructs a deliberately fantastic mirror-image argument (a Manichaean claim that this is the worst of all possible worlds) to show Leibniz's argument is no more rigorous than its opposite.",
+    "Russell notes the argument conveniently comforted the Queen of Prussia while her serfs continued to suffer real evil."
+  ],
+  "competing_positions": [
+    "A Manichaean view that the world is designed by a wicked demiurge to maximize suffering, given as a parallel fantastic argument by Russell"
+  ],
+  "influence_on_later_thinkers": "Voltaire's Doctor Pangloss in Candide is a direct satire of Leibniz's popular optimism.",
+  "connection_to_politics_or_religion": "Written to reassure a queen; Russell notes it functioned to justify the comfort of the powerful amid the suffering of their subjects.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Gottfried Wilhelm Leibniz",
+      "treatment": "Leibniz argued that before creating anything, God considered infinitely many possible worlds and chose to create the one with the greatest excess of good over evil - so even though our world contains evil, it is nonetheless the best world logically possible, because some goods (like free will) cannot exist without the risk of some evils (like sin)."
+    }
+  ]
+}

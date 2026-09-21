@@ -1,0 +1,34 @@
+{
+  "slug": "justice-as-proportion-rather-than-equality",
+  "name": "Justice as proportion rather than equality",
+  "plain_explanation": "Rather than everyone deserving an equal share, Aristotle thinks justice means each person getting a share appropriate to their own worth or merit -- so unequal shares can still be just.",
+  "precise_definition": "Aristotle's view that justice involves 'not equality, but right proportion, which is only sometimes equality,' so that, for example, the superior in an unequal relationship (husband, parent, master) may rightly receive more honour or love than they give, and political power may rightly be distributed unevenly according to virtue.",
+  "why_it_mattered": "It underlies Aristotle's acceptance of slavery, the subordination of women and children, and his preference for aristocracy and monarchy, and sets up Russell's later contrast with modern egalitarian conceptions of justice.",
+  "historical_origin": "Developed in Nicomachean Ethics V, and applied throughout the Ethics to household and political relationships.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "A father may repudiate a wicked son, but a son cannot repudiate his father, since he owes him more than he can repay",
+    "In marriage, 'the man rules... but the matters that befit a woman he hands over to her'",
+    "There can be no injustice to one's own property, including, in this framework, one's slave or son"
+  ],
+  "objections": [
+    "Russell notes Aristotle 'never seems to have realized the difficulty' that 'proportion' must track virtue, which is hard to measure and a matter of party controversy, so in practice it collapses into proportion by wealth"
+  ],
+  "competing_positions": [
+    "Kant's view that every human being is an end in himself",
+    "Bentham and the utilitarians' view that justice means treating everyone's happiness equally, regardless of merit"
+  ],
+  "influence_on_later_thinkers": "Frames the long historical contest, which Russell traces down to Kant and Bentham, over whether justice means equality or desert-based proportion.",
+  "connection_to_politics_or_religion": "Directly political and, in its origin, religious: Russell notes the Greek idea of each person having a 'proper sphere' derives from primitive religion.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Rather than everyone deserving an equal share, Aristotle thinks justice means each person getting a share appropriate to their own worth or merit -- so unequal shares can still be just."
+    }
+  ]
+}

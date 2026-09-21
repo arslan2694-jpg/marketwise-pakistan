@@ -1,0 +1,74 @@
+{
+  "slug": "parmenides",
+  "name": "Parmenides",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "The Eleatic school (implicitly, via Parmenides' base at Elea)",
+  "major_ideas": [
+    "The One (Parmenidean Being)",
+    "The argument from thought and language to the existence of their objects"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Central subject: argued, in the poem On Nature, that the senses are deceptive, that only 'the One' (an infinite, indivisible, unchanging being) truly exists, and that becoming and change are impossible, since 'what is' cannot come from 'what is not'. His arguments against not-being (against the void) and for an unchanging, undivided reality are the problem the atomists set out to answer; Russell frames Leucippus's whole project as reconciling Parmenides's logic with the fact of motion. Credited as the source of Plato's belief that reality is eternal and timeless and that, on logical grounds, all change must be illusory. Credited as the original source of Plato's reality/appearance distinction; also appears as a character in Plato's dialogue Parmenides, where he subjects Socrates's youthful theory of Ideas to a devastating self-critique, including the regress argument later called the 'third man.' Mentioned only briefly: Socrates refuses to discuss him, calling him 'a reverend and awful figure' and 'one being whom I respect above all,' which Russell reads as revealing Plato's own preference for a static universe over the Heraclitean flux he has been provisionally defending. Used as a contrast case: like Hegel, he held that only the Whole/One is ultimately real, but unlike Hegel he conceived it as a simple substance rather than a complex organism; his 'the One is spherical' is used by Russell as a crude illustration of Hegelian dialectical contradiction.",
+  "central_doctrines": "The One (Parmenidean Being): The sole true reality in Parmenides' metaphysics: infinite, indivisible, and (though apparently conceived as material and extended, even spherical) not composed of parts or opposites, since Parmenides denies that opposites (e.g. hot/cold, light/dark) are anything more than the presence or absence of a single quality. The argument from thought and language to the existence of their objects: Parmenides' inference that 'the thing that can be thought and that for the sake of which the thought exists is the same', so that thought and language necessarily have objects existing independently of the act of thinking or speaking, and since such objects can be referred to at any time, they must persist unchangingly through all time.",
+  "key_arguments": [
+    "Parmenides' argument against the possibility of change",
+    "Parmenides's regress argument against participation (the 'third man')"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "pythagoras",
+    "heraclitus",
+    "gerbert-pope-sylvester-ii"
+  ],
+  "successors": [
+    "socrates",
+    "plato",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "heraclitus",
+      "about": "The One (Parmenidean Being)"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Parmenides as the inventor not of logic itself but of 'metaphysics based on logic' -- the first philosopher to argue directly from the nature of thought and language to sweeping conclusions about reality. He walks through Parmenides' argument in detail, reconstructs it charitably, and then subjects it to sustained criticism, using the examples of George Washington, Hamlet, and unicorns to show that the argument rests on a false assumption that words possess one constant meaning across speakers and times. Even so, Russell credits the argument with lasting philosophical influence, since it seeded the durable (and, in his view, more defensible) later concept of substance as the persisting subject of change. He is careful to note that refutations of important philosophical theories are 'seldom final', and stages an imagined Parmenidean rebuttal about memory that he explicitly leaves unresolved, to be taken up later in the book.",
+  "why_this_matters": "Parmenides argued, against Heraclitus, that change is logically impossible and that only a single, unchanging 'One' truly exists; sensory experience of a changing, plural world is illusion. His central argument runs from the nature of thought and language (you cannot think or name what does not exist) to the conclusion that whatever can be named must exist at all times it is named.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-v",
+      "role": "Central subject: argued, in the poem On Nature, that the senses are deceptive, that only 'the One' (an infinite, indivisible, unchanging being) truly exists, and that becoming and change are impossible, since 'what is' cannot come from 'what is not'."
+    },
+    {
+      "chapter_id": "book-1-ch-ix",
+      "role": "His arguments against not-being (against the void) and for an unchanging, undivided reality are the problem the atomists set out to answer; Russell frames Leucippus's whole project as reconciling Parmenides's logic with the fact of motion."
+    },
+    {
+      "chapter_id": "book-1-ch-xiii",
+      "role": "Credited as the source of Plato's belief that reality is eternal and timeless and that, on logical grounds, all change must be illusory."
+    },
+    {
+      "chapter_id": "book-1-ch-xv",
+      "role": "Credited as the original source of Plato's reality/appearance distinction; also appears as a character in Plato's dialogue Parmenides, where he subjects Socrates's youthful theory of Ideas to a devastating self-critique, including the regress argument later called the 'third man.'"
+    },
+    {
+      "chapter_id": "book-1-ch-xviii",
+      "role": "Mentioned only briefly: Socrates refuses to discuss him, calling him 'a reverend and awful figure' and 'one being whom I respect above all,' which Russell reads as revealing Plato's own preference for a static universe over the Heraclitean flux he has been provisionally defending."
+    },
+    {
+      "chapter_id": "book-3-ch-xxii",
+      "role": "Used as a contrast case: like Hegel, he held that only the Whole/One is ultimately real, but unlike Hegel he conceived it as a simple substance rather than a complex organism; his 'the One is spherical' is used by Russell as a crude illustration of Hegelian dialectical contradiction."
+    }
+  ],
+  "extraction_confidence": "high"
+}

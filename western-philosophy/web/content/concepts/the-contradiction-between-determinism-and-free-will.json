@@ -1,0 +1,30 @@
+{
+  "slug": "the-contradiction-between-determinism-and-free-will",
+  "name": "The contradiction between determinism and free will",
+  "plain_explanation": "The Stoics said the universe is completely governed by fixed natural laws, yet they also said the individual will is completely free and self-determining when it is virtuous. Russell argues these two claims cannot both be true: if everything, including a person's character and choices, is the product of prior causes (like upbringing, health, or even drugs and torture), then the 'free' virtuous will is caused too, and is not really independent of outside forces after all.",
+  "precise_definition": "Russell's identification of an internal inconsistency in Stoic philosophy: cosmic determinism (all events, without exception, follow necessarily from prior causes according to natural law) is asserted alongside a doctrine of an autonomous, self-determining virtuous will that no external cause can compel toward vice or away from virtue.",
+  "why_it_mattered": "This is one of Russell's two central philosophical objections to Stoicism, and connects the ancient debate to what he calls a perennial problem 'that runs through philosophy from early times to our own day.'",
+  "historical_origin": "Implicit throughout Stoic doctrine from Zeno onward, made explicit by Russell's critical analysis rather than by the Stoics themselves.",
+  "associated_philosopher": "",
+  "examples": [
+    "Russell's empirical counter-evidence: dyspepsia can worsen a person's temper and virtue; sufficient torture or drugs (morphia, cocaine) can break down anyone's fortitude, showing the will is not independent of physical causes",
+    "Marcus Aurelius himself attributes his own virtue to the good influence of his parents, grandparents, and teachers -- implicitly conceding that even virtuous will has external causes"
+  ],
+  "objections": [
+    "The Stoic reply Russell reconstructs: the universe as a whole (God/Reason) is free, and since the virtuous part of a human being ('fire') is literally a part of God, its will participates in that overall freedom"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Russell notes this is the same free-will/determinism problem debated 'at present... in its own [modern] form.'",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "",
+      "treatment": "The Stoics said the universe is completely governed by fixed natural laws, yet they also said the individual will is completely free and self-determining when it is virtuous. Russell argues these two claims cannot both be true: if everything, including a person's character and choices, is the product of prior causes (like upbringing, health, or even drugs and torture), then the 'free' virtuous will is caused too, and is not really independent of outside forces after all."
+    }
+  ]
+}

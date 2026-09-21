@@ -1,0 +1,32 @@
+{
+  "slug": "newton-s-law-of-universal-gravitation-and-the-unification-of-celestial-and-terrestrial-mechanics",
+  "name": "Newton's law of universal gravitation and the unification of celestial and terrestrial mechanics",
+  "plain_explanation": "Newton showed that the same force that makes an apple fall to earth also keeps the moon orbiting the earth and the planets orbiting the sun: every body attracts every other body with a force proportional to the product of their masses and inversely proportional to the square of the distance between them. From this single formula he could deduce planetary orbits, satellite motion, cometary paths, and the tides.",
+  "precise_definition": "Newton's law: 'Every body attracts every other with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them,' derived by showing that Kepler's three laws are equivalent to the claim that every planet has, at every moment, an acceleration toward the sun that varies inversely as the square of the distance.",
+  "why_it_mattered": "It completed the 'final and complete triumph' of the new astronomy and dynamics, and its success was so total that, Russell notes, 'Newton was in danger of becoming another Aristotle,' with English science not freeing itself from his authority for a century.",
+  "historical_origin": "Set out in Newton's Principia (1687).",
+  "associated_philosopher": "Isaac Newton",
+  "examples": [
+    "Deduction of the motions of planets and satellites, cometary orbits (including Halley's calculations), and the tides",
+    "Later confirmation that minute departures of planetary orbits from perfect ellipses were also deducible from the law"
+  ],
+  "objections": [
+    "Later physics found the concept of 'force' itself superfluous: 'to say that this is due to the \"force\" of gravitation is merely verbal, like saying that opium makes people sleep because it has a dormitive virtue'"
+  ],
+  "competing_positions": [
+    "Descartes's vortex theory of planetary motion (mentioned in Chapter IX), which Newton's theory gradually displaced, first in England and later in France"
+  ],
+  "influence_on_later_thinkers": "Discussed by Russell as eventually modified, but not overturned in its basic form (laws stated in terms of accelerations), by Einstein.",
+  "connection_to_politics_or_religion": "Provoked the theological reflection that God might have set the planets moving but need not intervene further -- discussed under the concept of the removal of animism.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-vi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Isaac Newton",
+      "treatment": "Newton showed that the same force that makes an apple fall to earth also keeps the moon orbiting the earth and the planets orbiting the sun: every body attracts every other body with a force proportional to the product of their masses and inversely proportional to the square of the distance between them. From this single formula he could deduce planetary orbits, satellite motion, cometary paths, and the tides."
+    }
+  ]
+}

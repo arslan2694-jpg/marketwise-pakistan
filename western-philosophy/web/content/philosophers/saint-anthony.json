@@ -1,0 +1,36 @@
+{
+  "slug": "saint-anthony",
+  "name": "Saint Anthony",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [
+    "Eremitic vs. cenobitic monasticism"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The first Christian hermit, born in Egypt around 250, who withdrew into solitude and extreme austerity before emerging around 305 to teach and inspire the eremitic monastic movement in the Thebaid.",
+  "central_doctrines": "Eremitic vs. cenobitic monasticism: The distinction between solitary hermit asceticism, pioneered by Saint Anthony in Egypt from about 270, and communal monastic life without private property, founded by Pachomius around 315-320, in which monks shared meals, labor (chiefly agricultural), and religious observance.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-vi",
+      "role": "The first Christian hermit, born in Egypt around 250, who withdrew into solitude and extreme austerity before emerging around 305 to teach and inspire the eremitic monastic movement in the Thebaid."
+    }
+  ],
+  "extraction_confidence": "high"
+}

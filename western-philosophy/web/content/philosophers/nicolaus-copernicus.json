@@ -1,0 +1,49 @@
+{
+  "slug": "nicolaus-copernicus",
+  "name": "Nicolaus Copernicus",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Early modern empirical/mathematical science",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Credited with the heliocentric hypothesis (sun-centered universe, with the earth's diurnal rotation and annual revolution), presented cautiously as a hypothesis to avoid ecclesiastical censure. Russell stresses his work was still 'Pythagorean' in spirit (circular, uniform motions, aesthetic bias, retained epicycles) rather than fully modern, but praises his combination of patient knowledge of existing data with the boldness to prefer a more 'economical hypothesis.'",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "aristotle",
+    "democritus",
+    "isaac-newton",
+    "aristarchus-of-samos",
+    "thomas-aquinas",
+    "martin-luther",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "isaac-newton",
+    "rene-descartes",
+    "gerbert-pope-sylvester-ii",
+    "thomas-hobbes",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell presents the rise of science as the true dividing line of modernity, crediting Copernicus, Kepler, Galileo, and Newton (in ascending order of achievement, with Galileo and Newton as the two greatest) with combining, for the first time together in a sustained way, patient empirical observation and bold, revisable hypothesis-making. He defends the scientific attitude explicitly against E. A. Burtt's charge that early modern science's success was merely lucky, arguing that what matters is method (tentative, evidence-based belief) rather than the immediate provability of any particular early theory. He is admiring but not uncritical: he notes Copernicus's residual Pythagorean aesthetic bias, Kepler's quasi-mystical motivations, and the danger that Newton's overwhelming authority threatened, like Aristotle's before him, to freeze rather than advance further inquiry. He closes the chapter by drawing out the era's deepest philosophical consequences -- the removal of animism and purpose from physical explanation, the destabilizing effect on orthodox theology, and the paradoxical way in which a cosmologically humbling discovery (earth's insignificance) produced not humility but a new, scientifically-fueled human self-confidence.",
+  "why_this_matters": "Russell identifies the seventeenth century, not the Italian Renaissance or the Reformation, as the true beginning of the modern mental outlook, because of the transformative achievement of Copernicus, Kepler, Galileo, and Newton. Galileo's law of inertia (and Newton's codification of it as the first law of motion) unified terrestrial and celestial dynamics under a single principle: uniform motion is 'natural' unless changed by an external force.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-vi",
+      "role": "Credited with the heliocentric hypothesis (sun-centered universe, with the earth's diurnal rotation and annual revolution), presented cautiously as a hypothesis to avoid ecclesiastical censure. Russell stresses his work was still 'Pythagorean' in spirit (circular, uniform motions, aesthetic bias, retained epicycles) rather than fully modern, but praises his combination of patient knowledge of existing data with the boldness to prefer a more 'economical hypothesis.'"
+    }
+  ],
+  "extraction_confidence": "high"
+}

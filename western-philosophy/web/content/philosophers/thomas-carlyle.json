@@ -1,0 +1,42 @@
+{
+  "slug": "thomas-carlyle",
+  "name": "Thomas Carlyle",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Named, with Fichte and Nietzsche, as a philosopher of the 'cult of the hero,' representative of the anti-liberal, self-assertive strand descending from Rousseau. Cited as an example of romantic hostility to industrialism and the middle class that could resemble an alliance with the proletariat, though Russell notes (via Engels's misreading of him) that Carlyle actually wanted workers subjected to medieval-style masters, not emancipated. Cited as an admirer who initially called Byron 'the noblest spirit in Europe' and coupled him with Napoleon, later coming to prefer Goethe while still pairing Byron with Bonaparte as parallel 'Works of Art' of self-assertion.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xii",
+      "role": "Named, with Fichte and Nietzsche, as a philosopher of the 'cult of the hero,' representative of the anti-liberal, self-assertive strand descending from Rousseau."
+    },
+    {
+      "chapter_id": "book-3-ch-xxi",
+      "role": "Cited as an example of romantic hostility to industrialism and the middle class that could resemble an alliance with the proletariat, though Russell notes (via Engels's misreading of him) that Carlyle actually wanted workers subjected to medieval-style masters, not emancipated."
+    },
+    {
+      "chapter_id": "book-3-ch-xxiii",
+      "role": "Cited as an admirer who initially called Byron 'the noblest spirit in Europe' and coupled him with Napoleon, later coming to prefer Goethe while still pairing Byron with Bonaparte as parallel 'Works of Art' of self-assertion."
+    }
+  ],
+  "extraction_confidence": "high"
+}

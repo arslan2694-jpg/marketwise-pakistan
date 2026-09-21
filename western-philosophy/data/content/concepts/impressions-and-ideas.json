@@ -1,0 +1,31 @@
+{
+  "slug": "impressions-and-ideas",
+  "name": "Impressions and ideas",
+  "plain_explanation": "Hume divides all mental contents ('perceptions') into two kinds: 'impressions,' the vivid, forceful experiences of direct sensation or feeling, and 'ideas,' the fainter copies or images of those impressions that occur in thinking and remembering. Complex ideas (like a 'winged horse') can combine simple ideas in new ways, but every simple idea must ultimately trace back to a corresponding simple impression.",
+  "precise_definition": "Hume's foundational distinction: impressions 'have more force and violence,' while 'by ideas I mean the faint images of these in thinking and reasoning'; his key principle is that 'every simple idea has a simple impression, which resembles it; and every simple impression a correspondent idea,' with complex ideas (which need not resemble any single impression) built out of simple ones.",
+  "why_it_mattered": "This distinction is the foundation of Hume's entire epistemology and his most famous methodological maxim -- 'no idea without an antecedent impression' -- inherited from Locke but stated with far greater rigor and consistency.",
+  "historical_origin": "Opens Book I of the Treatise of Human Nature (1739).",
+  "associated_philosopher": "David Hume",
+  "examples": [
+    "A man born blind has no idea of colours, since he has never had the corresponding impressions",
+    "We can imagine a winged horse (a complex idea) despite never perceiving one, because its components (wings, horse) are each drawn from real impressions"
+  ],
+  "objections": [
+    "Russell's psychological objection: Hume ignores vagueness -- a recalled image of a specific shade of colour or a specific height is rarely precise enough to distinguish it from very similar shades or heights, contrary to Hume's claim that ideas 'exactly represent' their impressions",
+    "This vagueness explains, contra Hume's own difficulty, how we might imagine an intermediate shade of colour between two similar shades we have actually seen"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Became the central axiom of the entire empiricist tradition following Hume.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xvii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "David Hume",
+      "treatment": "Hume divides all mental contents ('perceptions') into two kinds: 'impressions,' the vivid, forceful experiences of direct sensation or feeling, and 'ideas,' the fainter copies or images of those impressions that occur in thinking and remembering. Complex ideas (like a 'winged horse') can combine simple ideas in new ways, but every simple idea must ultimately trace back to a corresponding simple impression."
+    }
+  ]
+}

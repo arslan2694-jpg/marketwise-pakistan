@@ -1,0 +1,30 @@
+{
+  "slug": "cartesian-doubt-methodical-universal-doubt",
+  "name": "Cartesian doubt (methodical, universal doubt)",
+  "plain_explanation": "To find a completely secure starting point for knowledge, Descartes resolves to doubt everything he possibly can: first ordinary sense-experience (since dreams and madness can deceive us just as convincingly), then even mathematics (since an all-powerful evil demon might be tricking him even about counting), regulating his actual conduct meanwhile by ordinary accepted rules so the process of doubting does not disrupt his life.",
+  "precise_definition": "Russell's summary: 'In order to have a firm basis for his philosophy, he resolves to make himself doubt everything that he can manage to doubt... He begins with scepticism in regard to the senses... Even in regard to arithmetic and geometry... doubt is possible... there might be an evil demon, no less cunning and deceitful than powerful employing all his industry in misleading me.'",
+  "why_it_mattered": "It is the method by which Descartes seeks an absolutely indubitable foundation for all further knowledge, and Russell calls it 'of great philosophic importance' as a method even independent of Descartes's own (only half-hearted) application of it, since it requires identifying genuine stopping points -- indubitable facts and indubitable principles of inference -- if scepticism is not to be total.",
+  "historical_origin": "Set out at the start of both the Discourse on Method (1637) and the Meditations (1642).",
+  "associated_philosopher": "René Descartes",
+  "examples": [
+    "Doubting whether he is sitting by the fire, since he has dreamt such things before",
+    "The hypothesis of an evil demon deceiving him even about arithmetic and geometry"
+  ],
+  "objections": [
+    "Russell's methodological point: as a matter of logic, doubt 'can only yield positive results if scepticism is to stop somewhere'; there must be indubitable facts and indubitable principles of inference"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Russell says 'most philosophers since Descartes have attached importance to the theory of knowledge, and their doing so is largely due to him,' making methodic doubt the starting point of the entire modern epistemological tradition.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "René Descartes",
+      "treatment": "To find a completely secure starting point for knowledge, Descartes resolves to doubt everything he possibly can: first ordinary sense-experience (since dreams and madness can deceive us just as convincingly), then even mathematics (since an all-powerful evil demon might be tricking him even about counting), regulating his actual conduct meanwhile by ordinary accepted rules so the process of doubting does not disrupt his life."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "empedocles",
+  "name": "Empedocles",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Orphism and Pythagoreanism (as the main influence on Empedocles' religious doctrines)",
+  "major_ideas": [
+    "The four elements (earth, air, fire, water)",
+    "Love and Strife as cosmic forces",
+    "Rejection of purpose: chance and necessity",
+    "Empedocles' scientific discoveries"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Central subject: proposed earth, air, fire, and water as four everlasting elements, combined and separated by the opposed cosmic forces of Love and Strife in an endless cycle; also a scientist (discoverer of air as a distinct substance, of centrifugal force, and of a crude evolutionary theory) and a self-proclaimed fallen god undergoing purificatory exile. Compared to Anaxagoras: both argue against the existence of a void, citing devices like the clepsydra (water-clock) or an inflated skin to show that apparently empty space contains air. Represents pluralism, the other pole (with Parmenides's monism) that Leucippus's atomism attempts to mediate between. His view that nature works of necessity, without purpose (an ancient anticipation of the survival of the fittest), is explicitly discussed and rejected by Aristotle, who argues that fixed, repeatable outcomes imply that preceding steps occur 'for the sake of' that outcome.",
+  "central_doctrines": "The four elements (earth, air, fire, water): Empedocles' doctrine that earth, air, fire, and water are each everlasting and unchanging in themselves, but can be mixed in varying proportions by the opposed forces of Love and Strife to produce all the changing compound substances observed in the world. Love and Strife as cosmic forces: Two primitive, elemental forces, ranked by Empedocles alongside earth, air, fire, and water themselves, that respectively unite and separate the elements; their alternating dominance produces a cosmic cycle including a 'Golden Age' when Love was completely victorious and an opposite extreme when Strife is wholly dominant. Rejection of purpose: chance and necessity: Empedocles' doctrine that cosmic change is governed 'not by any purpose, but only by Chance and Necessity,' including a crude evolutionary account in which countless random combinations of body parts arose and only certain viable forms survived.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "heraclitus",
+    "parmenides",
+    "plato",
+    "gerbert-pope-sylvester-ii",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "plato",
+    "anaxagoras",
+    "aristotle",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "thales",
+      "about": "The four elements (earth, air, fire, water)"
+    },
+    {
+      "with": "anaximenes",
+      "about": "The four elements (earth, air, fire, water)"
+    },
+    {
+      "with": "heraclitus",
+      "about": "The four elements (earth, air, fire, water)"
+    },
+    {
+      "with": "heraclitus",
+      "about": "Love and Strife as cosmic forces"
+    },
+    {
+      "with": "socrates",
+      "about": "Rejection of purpose: chance and necessity"
+    },
+    {
+      "with": "plato",
+      "about": "Rejection of purpose: chance and necessity"
+    },
+    {
+      "with": "anaxagoras",
+      "about": "Rejection of purpose: chance and necessity"
+    },
+    {
+      "with": "aristotle",
+      "about": "Rejection of purpose: chance and necessity"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell frames Empedocles as another instance of the mixture of 'philosopher, prophet, man of science, and charlatan' already seen in Pythagoras, and insists on treating his science, his philosophy (the four elements and Love/Strife), and his religion separately because 'they are not consistent with each other.' He credits Empedocles with real scientific achievements (the corporeal nature of air, centrifugal force, sex in plants, a fantastical but genuinely proto-evolutionary account of the origin of species) and judges his rejection of purpose in favor of Chance and Necessity to be, in this respect, 'more scientific' than Parmenides, Plato, or Aristotle. At the same time, Russell recounts with evident amusement the more grandiose and superstitious sides of Empedocles' self-presentation -- as a wonder-working immortal god on the one hand, and as a guilt-ridden exiled 'daemon' on the other -- without endorsing either. He treats the Love/Strife cosmology as historically significant chiefly for how it engages with, and softens, the Heraclitus/Parmenides dispute over change.",
+  "why_this_matters": "Empedocles proposed earth, air, fire, and water as four eternal elements, mixed in different proportions to form all changing compound substances -- the basic theory of matter in antiquity for roughly two thousand years. He explained cosmic change through the opposed forces of Love (uniting) and Strife (separating), cycling between a Golden Age of total Love and an opposite extreme of total Strife.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-vi",
+      "role": "Central subject: proposed earth, air, fire, and water as four everlasting elements, combined and separated by the opposed cosmic forces of Love and Strife in an endless cycle; also a scientist (discoverer of air as a distinct substance, of centrifugal force, and of a crude evolutionary theory) and a self-proclaimed fallen god undergoing purificatory exile."
+    },
+    {
+      "chapter_id": "book-1-ch-viii",
+      "role": "Compared to Anaxagoras: both argue against the existence of a void, citing devices like the clepsydra (water-clock) or an inflated skin to show that apparently empty space contains air."
+    },
+    {
+      "chapter_id": "book-1-ch-ix",
+      "role": "Represents pluralism, the other pole (with Parmenides's monism) that Leucippus's atomism attempts to mediate between."
+    },
+    {
+      "chapter_id": "book-1-ch-xxiii",
+      "role": "His view that nature works of necessity, without purpose (an ancient anticipation of the survival of the fittest), is explicitly discussed and rejected by Aristotle, who argues that fixed, repeatable outcomes imply that preceding steps occur 'for the sake of' that outcome."
+    }
+  ],
+  "extraction_confidence": "high"
+}

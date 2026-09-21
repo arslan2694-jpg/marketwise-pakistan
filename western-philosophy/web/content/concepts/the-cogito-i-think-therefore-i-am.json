@@ -1,0 +1,30 @@
+{
+  "slug": "the-cogito-i-think-therefore-i-am",
+  "name": "The cogito ('I think, therefore I am')",
+  "plain_explanation": "No matter how thoroughly Descartes doubts everything, he cannot doubt that he is thinking, since the very act of doubting is itself a form of thought -- and thought seems to require a thinker. This single, seemingly unshakeable fact becomes the first solid foundation stone of his rebuilt philosophy.",
+  "precise_definition": "Descartes's own words, quoted by Russell: '\"While I wanted to think everything false, it must necessarily be that I who thought was something; and remarking that this truth, I think, therefore I am, was so solid and so certain that all the most extravagant suppositions of the sceptics were incapable of upsetting it, I judged that I could receive it without scruple as the first principle of the philosophy that I sought.\"' Descartes generalizes 'thinking' broadly to include doubting, understanding, conceiving, affirming, denying, willing, imagining, and feeling.",
+  "why_it_mattered": "Russell calls this passage 'the kernel of Descartes's theory of knowledge, and contains what is most important in his philosophy,' since it makes mind more certain than matter, and one's own mind more certain (for oneself) than the minds of others -- producing a lasting tendency toward subjectivism in all philosophy descended from Descartes, present 'in all philosophy derived from Descartes... in Continental idealism and in British empiricism -- in the former triumphantly, in the latter regretfully.'",
+  "historical_origin": "The central argument of the Discourse on Method (1637) and the Meditations (1642), known as the cogito ergo sum.",
+  "associated_philosopher": "René Descartes",
+  "examples": [
+    "Descartes's claim that even an all-powerful deceiving demon could not deceive him into existing if he did not exist"
+  ],
+  "objections": [
+    "Russell's own logical objection: the word 'I' in 'I think' is 'really illegitimate'; Descartes ought to state his ultimate premiss as 'there are thoughts,' since he 'nowhere proves that thoughts need a thinker, nor is there reason to believe this except in a grammatical sense'",
+    "Russell notes Saint Augustine had earlier advanced a closely similar argument without giving it the same prominence, qualifying (though not eliminating) Descartes's originality"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Russell traces its influence forward through 'in all philosophy derived from Descartes' toward both Continental idealism and British empiricism, and notes a recent (twentieth-century) attempt to escape Cartesian subjectivism via the philosophy of instrumentalism, which he declines to discuss further here.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "René Descartes",
+      "treatment": "No matter how thoroughly Descartes doubts everything, he cannot doubt that he is thinking, since the very act of doubting is itself a form of thought -- and thought seems to require a thinker. This single, seemingly unshakeable fact becomes the first solid foundation stone of his rebuilt philosophy."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "helvetius",
+  "name": "Helvétius",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [
+    "Environmental determinism and the omnipotence of education"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Presented as a representative philosopher of the French Revolution who combined Lockean empiricism with an extreme environmentalist optimism, holding that all differences between individuals are due to education.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [
+    {
+      "with": "charles-darwin",
+      "about": "Environmental determinism and the omnipotence of education"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xxi",
+      "role": "Presented as a representative philosopher of the French Revolution who combined Lockean empiricism with an extreme environmentalist optimism, holding that all differences between individuals are due to education."
+    }
+  ],
+  "extraction_confidence": "high"
+}

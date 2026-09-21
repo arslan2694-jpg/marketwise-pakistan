@@ -1,0 +1,33 @@
+{
+  "slug": "the-esoteric-doctrine-subject-predicate-logic-and-the-complete-concept-of-substance",
+  "name": "The esoteric doctrine: subject-predicate logic and the complete concept of substance",
+  "plain_explanation": "In private, unpublished writings, Leibniz held that every true statement about a thing is really 'built into' the complete concept of that thing from eternity - so everything that will ever happen to you is already part of the very notion of who you are, known fully only to God. This makes Leibniz's private system just as deterministic as Spinoza's, which is why he kept it hidden.",
+  "precise_definition": "The doctrine that in every true proposition the predicate is contained in the subject; applied to individual substances, this means the complete 'notion' of an individual (e.g., Alexander the Great, or Adam) already logically contains every predicate that will ever truly be asserted of him, including all future events, though only God's infinite understanding can actually analyze this out.",
+  "why_it_mattered": "It reveals what Russell considers the profound, logically serious Leibniz, hidden behind the popular philosopher of free will and possible worlds; it grounds the windowless-monad doctrine (since nothing needs to 'come in' from outside if everything is already contained in the subject's own notion).",
+  "historical_origin": "Found in Leibniz's letters to Arnauld and in manuscripts first published by Louis Couturat in 1901-3, nearly two centuries after Leibniz's death.",
+  "associated_philosopher": "Gottfried Wilhelm Leibniz",
+  "examples": [
+    "Leibniz's example of Alexander the Great: God, seeing the complete individual notion of Alexander, sees within it whether he would conquer Darius and Porus and even how he would die.",
+    "Leibniz's concept of 'compossibility': not all possible things can coexist, and what exists is the largest group of mutually 'compossible' things."
+  ],
+  "objections": [
+    "Arnauld reacted with horror, saying the doctrine that a person's individual notion 'involves once for all everything that will ever happen to him' is incompatible with the Christian doctrine of sin and free will.",
+    "Russell argues the whole subject-predicate logic underlying it either ignores relations or produces fallacious arguments against their reality, and that a consistent believer in this logic 'should be a monist, like Spinoza' rather than a pluralist."
+  ],
+  "competing_positions": [
+    "Leibniz's own published doctrine that human free will 'inclines without necessitating'"
+  ],
+  "influence_on_later_thinkers": "Russell states he was 'the first to notice the importance' of Leibniz's letters to Arnauld for understanding this esoteric doctrine.",
+  "connection_to_politics_or_religion": "Suppressed by Leibniz specifically because it was incompatible with Christian teaching on sin and free will.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Gottfried Wilhelm Leibniz",
+      "treatment": "In private, unpublished writings, Leibniz held that every true statement about a thing is really 'built into' the complete concept of that thing from eternity - so everything that will ever happen to you is already part of the very notion of who you are, known fully only to God. This makes Leibniz's private system just as deterministic as Spinoza's, which is why he kept it hidden."
+    }
+  ]
+}

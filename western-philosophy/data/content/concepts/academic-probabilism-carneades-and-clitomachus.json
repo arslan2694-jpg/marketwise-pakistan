@@ -1,0 +1,31 @@
+{
+  "slug": "academic-probabilism-carneades-and-clitomachus",
+  "name": "Academic probabilism (Carneades and Clitomachus)",
+  "plain_explanation": "Even if you can never be absolutely certain of anything, some beliefs are still much more likely to be true than others, and it is reasonable to act on whichever hypothesis is most probable.",
+  "precise_definition": "A constructive doctrine developed within the sceptical Academy holding that, although certainty is unattainable, degrees of probability can and should guide practical action and belief.",
+  "why_it_mattered": "Russell notes this is a view 'with which most modern philosophers would agree,' making it the most philosophically durable contribution of the sceptical Academy, though the original texts explaining it are lost.",
+  "historical_origin": "Developed by Carneades and continued by his successor Clitomachus in the second century B.C.",
+  "associated_philosopher": "Carneades",
+  "examples": [
+    "Carneades's and Clitomachus's shared campaign against belief in divination, magic, and astrology, treated as unjustified by any real evidence of probability"
+  ],
+  "objections": [
+    "Later revived pure Scepticism (Aenesidemus) explicitly rejected the probability doctrine as an unwarranted concession to dogmatism"
+  ],
+  "competing_positions": [
+    "Aenesidemus's reversion to unmitigated Pyrrhonist doubt"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "Used to argue against popular Hellenistic superstition (divination, astrology).",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Carneades",
+      "treatment": "Even if you can never be absolutely certain of anything, some beliefs are still much more likely to be true than others, and it is reasonable to act on whichever hypothesis is most probable."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "the-association-principle-and-deterministic-psychology",
+  "name": "The association principle and deterministic psychology",
+  "plain_explanation": "The theory that mental life -- ideas, words, and their connections -- is built up entirely out of habitual associations, so that, in principle, a person's thoughts and reactions could be explained the way a scientist explains any other natural process.",
+  "precise_definition": "Hartley's and Bentham's doctrine that association of ideas with ideas, and of ideas with language, is the basic mechanism of mental life, aimed at a fully deterministic account of mental occurrences; Russell treats it as essentially the same doctrine, in purely mental terms, as Pavlov's later, physiologically grounded conditioned reflex.",
+  "why_it_mattered": "It gave Bentham's legal and political reforms a scientific-sounding psychological foundation: if human reactions are lawful and predictable, a code of laws could in principle be engineered to make men virtuous automatically.",
+  "historical_origin": "Emphasised by Hartley in 1749; earlier, Locke had recognized association of ideas only as a source of trivial errors.",
+  "associated_philosopher": "David Hartley (developed by Bentham)",
+  "examples": [
+    "Pavlov's conditioned reflex, which Russell treats as the modern, physiological descendant of the association of ideas"
+  ],
+  "objections": [
+    "Russell notes that Bentham and his followers, like some behaviourists after Pavlov, 'exaggerated the extent of the field' to which the principle validly applies"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Anticipates twentieth-century behaviourism's materialist recasting of the same basic idea via the conditioned reflex.",
+  "connection_to_politics_or_religion": "Underwrote Bentham's confidence that legislation could reshape human character.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "David Hartley (developed by Bentham)",
+      "treatment": "The theory that mental life -- ideas, words, and their connections -- is built up entirely out of habitual associations, so that, in principle, a person's thoughts and reactions could be explained the way a scientist explains any other natural process."
+    }
+  ]
+}

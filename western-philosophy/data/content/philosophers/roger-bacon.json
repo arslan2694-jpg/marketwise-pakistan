@@ -1,0 +1,50 @@
+{
+  "slug": "roger-bacon",
+  "name": "Roger Bacon",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Franciscan scholasticism (Augustinian/Platonist current, opposed to strict Thomism)",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Franciscan polymath (ca. 1214-ca.1294) valued experiment and mathematics, wrote Opus Majus/Minus/Tertium at the Pope's request while under a publication ban, was later imprisoned fourteen years by his own order for attacking clerical ignorance; encyclopedic but unsystematic, and, per Russell, not as purely 'scientific' as later reputation suggests.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "aristotle",
+    "porphyry",
+    "saint-augustine",
+    "roscelin",
+    "abelard",
+    "william-of-champeaux",
+    "saint-bonaventura",
+    "duns-scotus",
+    "william-of-occam"
+  ],
+  "successors": [
+    "gottfried-wilhelm-leibniz",
+    "william-of-occam",
+    "martin-luther",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell is notably deflationary about Roger Bacon's popular reputation, crediting his genuine value of experiment and his geographical influence on Columbus, but judging him 'not, to my mind, so scientific as is sometimes thought' and unsystematic despite his encyclopedic learning; he also flatly denies the popular claim that Bacon invented gunpowder. Russell treats Duns Scotus's metaphysics respectfully as a serious, more Platonic-leaning alternative to Aquinas on individuation, tracing its modern descendants carefully. His treatment of Occam is the chapter's most sympathetic: Russell explicitly follows Ernest Moody's revisionist interpretation over the common tendency to read Occam as a precursor of Descartes or Kant, praises Occam's razor as a principle Russell himself has found fruitful, and credits Occam's separation of logic from theology with encouraging scientific research. Russell's tone throughout combines historical caution (repeatedly correcting popular misattributions -- Occam's razor's exact wording, Bacon and gunpowder) with genuine philosophical engagement, particularly on individuation and Occam's logic.",
+  "why_this_matters": "Franciscan philosophers (Bacon, Scotus, Occam) were generally less strictly Thomistic and retained more Augustinian/Platonist influence than Dominicans. Roger Bacon valued experiment and mathematics highly but was, per Russell, encyclopedic rather than systematic, and less purely 'scientific' than his later reputation suggests.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-xiv",
+      "role": "Franciscan polymath (ca. 1214-ca.1294) valued experiment and mathematics, wrote Opus Majus/Minus/Tertium at the Pope's request while under a publication ban, was later imprisoned fourteen years by his own order for attacking clerical ignorance; encyclopedic but unsystematic, and, per Russell, not as purely 'scientific' as later reputation suggests."
+    }
+  ],
+  "extraction_confidence": "high"
+}

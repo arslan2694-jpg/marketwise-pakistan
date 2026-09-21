@@ -1,0 +1,19 @@
+{
+  "slug": "cartesianism-continental-rationalism",
+  "name": "Cartesianism / Continental rationalism",
+  "period": "Modern",
+  "doctrines": [
+    "Cartesian doubt (methodical, universal doubt)",
+    "The cogito ('I think, therefore I am')",
+    "The criterion of clear and distinct ideas",
+    "Mind-body dualism and the pineal gland"
+  ],
+  "philosophers": [
+    "rene-descartes"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-ix"
+  ]
+}

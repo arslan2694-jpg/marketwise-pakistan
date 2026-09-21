@@ -1,0 +1,57 @@
+{
+  "slug": "pelagius",
+  "name": "Pelagius",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Patristic Christian philosophy",
+  "major_ideas": [
+    "Pelagianism"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "A Welsh (British) ecclesiastic who taught free will, denied original sin, and held that virtuous action earns heaven by its own moral effort; his doctrine, opposed by Augustine, was declared heretical, though it retained temporary support among Eastern theologians.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "thales",
+    "anaximenes",
+    "plato",
+    "aristotle",
+    "epicurus",
+    "origen",
+    "saint-augustine",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "rene-descartes",
+    "immanuel-kant",
+    "saint-augustine",
+    "john-calvin",
+    "karl-marx",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "saint-augustine",
+      "about": "Pelagianism"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell divides his treatment into pure philosophy, philosophy of history, and soteriology, and his evaluations differ sharply across the three. He rates Augustine highly as a philosopher of time, calling the theory 'a great advance on anything to be found on the subject in Greek philosophy' and clearer than Kant's later subjectivist account, while explicitly registering his own disagreement with making time purely mental. He treats The City of God as a work that 'composes itself... into something better than at first appears on rereading,' historically transformative for the medieval Church-State relationship, but intellectually containing 'little that is fundamentally original,' since its eschatology is Jewish, its predestination doctrine Pauline, and its distinction of sacred and profane history already present in the Old Testament -- Augustine's achievement, in Russell's reading, was synthesis and application to his own age's crisis, not invention. Russell is most severe on the Pelagian controversy, calling the resulting doctrine 'this ferocious doctrine' and attributing much of what is 'most ferocious in the medieval Church' to Augustine's own 'gloomy sense of universal guilt'; he closes the chapter by remarking, pointedly, that it is strange the last intellectually eminent men before the Dark Ages were absorbed not in saving civilization but in 'preaching the merit of virginity and the damnation of unbaptized infants.'",
+  "why_this_matters": "Augustine argues time itself began with Creation, so the question 'why did God not create the world sooner?' is meaningless, since there was no 'sooner' in which to act. His theory of time as subjective -- existing in memory (the present of things past) and expectation (the present of things future) -- is judged by Russell a clearer anticipation of Kant than anything in Greek philosophy, though Russell rejects making time purely mental.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-iv",
+      "role": "A Welsh (British) ecclesiastic who taught free will, denied original sin, and held that virtuous action earns heaven by its own moral effort; his doctrine, opposed by Augustine, was declared heretical, though it retained temporary support among Eastern theologians."
+    }
+  ],
+  "extraction_confidence": "high"
+}

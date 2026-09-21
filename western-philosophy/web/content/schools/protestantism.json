@@ -1,0 +1,19 @@
+{
+  "slug": "protestantism",
+  "name": "Protestantism",
+  "period": "Modern",
+  "doctrines": [
+    "The state's authority over the national Church (Erastian tendency)"
+  ],
+  "philosophers": [
+    "john-calvin",
+    "ignatius-of-loyola",
+    "martin-luther"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-v",
+    "book-3-ch-xii"
+  ]
+}

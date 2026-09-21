@@ -1,0 +1,87 @@
+{
+  "slug": "arthur-schopenhauer",
+  "name": "Arthur Schopenhauer",
+  "era": "Modern",
+  "dates": "1788-1860",
+  "geography": "",
+  "school": "Post-Kantian German philosophy",
+  "major_ideas": [
+    "The world as Will",
+    "Cosmic pessimism: Will as evil",
+    "The veil of Maya and ascetic salvation (Nirvana)",
+    "The primacy of Will over Knowledge"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The chapter's primary subject: his life, his adaptation of Kant's philosophy into a metaphysics of Will, his pessimism, his doctrine of ascetic resignation drawn from Hinduism and Buddhism, and the marked gap between his philosophy and his personal conduct are all examined. Presented as Nietzsche's acknowledged predecessor, whose ethic of renunciation Nietzsche judged inconsistent with his own metaphysic of the omnipotence of will; Nietzsche is said to give will ethical as well as metaphysical primacy, correcting what he saw as Schopenhauer's incoherence.",
+  "central_doctrines": "The world as Will: Schopenhauer's central metaphysical claim, developed from Kant: the 'thing-in-itself' (retained, unlike in Fichte and Hegel) is identical with Will; since time and space (Kant's 'principle of individuation') belong only to phenomena, the thing-in-itself/Will cannot be plural or composed of discrete acts of will, and is therefore one, timeless, and identical with the will of the whole universe, of which individual selfhood is merely an illusion of subjective, spatio-temporal perception. Cosmic pessimism: Will as evil: Schopenhauer's ethical verdict on the metaphysical Will: it is the source of all suffering, since it is essentially endless striving without any final satisfaction, such that 'there is no such thing as happiness, for an unfulfilled wish causes pain, and attainment brings only satiety'; suffering is thus not accidental but essential to all life and is increased, not decreased, by increased knowledge. The veil of Maya and ascetic salvation (Nirvana): Schopenhauer's soteriology: since suffering results from the intensity of will, and the separateness of individuals is merely phenomenal (the 'veil of Maya'), the path to relief from suffering lies in the good man's loving, sympathetic insight into the unity of all things, which quiets and eventually denies his own will; practised fully (through asceticism, chastity, and self-torture), this leads toward a state Schopenhauer calls Nirvana, interpreted as the extinction of individual willing and, ultimately, of the phenomenal world itself as objectified will. The primacy of Will over Knowledge: Schopenhauer's doctrine, historically independent of his pessimism, that will is metaphysically paramount over knowledge/intellect; Russell judges this -- not the pessimism -- to be Schopenhauer's more historically important contribution, since it was 'prepared by Rousseau and Kant, but was first proclaimed in its purity by Schopenhauer,' inaugurating what Russell calls 'the most notable change that has come over the temper of philosophy in our age.'",
+  "key_arguments": [
+    "The argument from Kant's ethics to Will as the thing-in-itself",
+    "The argument from essential dissatisfaction to universal suffering"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "immanuel-kant",
+    "johann-gottlieb-fichte",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "friedrich-nietzsche",
+    "henri-bergson",
+    "bertrand-russell",
+    "william-james",
+    "john-dewey"
+  ],
+  "disagreements": [
+    {
+      "with": "johann-gottlieb-fichte",
+      "about": "The world as Will"
+    },
+    {
+      "with": "georg-wilhelm-friedrich-hegel",
+      "about": "The world as Will"
+    },
+    {
+      "with": "baruch-spinoza",
+      "about": "The world as Will"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Cosmic pessimism: Will as evil"
+    },
+    {
+      "with": "friedrich-nietzsche",
+      "about": "Cosmic pessimism: Will as evil"
+    },
+    {
+      "with": "henri-bergson",
+      "about": "Cosmic pessimism: Will as evil"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "The veil of Maya and ascetic salvation (Nirvana)"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Schopenhauer sympathetically as an intellectually serious and unusually cosmopolitan figure -- 'a man of wide culture,' unusually free of nationalism -- whose adaptation of Kant (retaining the thing-in-itself and identifying it with Will) has more going for it than most Kantians recognized. He reconstructs the metaphysics of the single, timeless, cosmic Will, Schopenhauer's pessimistic verdict that this Will is evil and the source of all suffering, and his prescribed ascetic path to Nirvana drawn from Hindu and Buddhist sources. Russell then turns sharply critical of the coherence and sincerity of this doctrine, arguing it does not match the positive goals of the Christian mystics Schopenhauer invokes, and -- in the chapter's most pointed passage -- contrasts Schopenhauer's preached renunciation with his actually comfortable, quarrelsome, and self-indulgent life, citing the incident in which he threw an elderly seamstress down the stairs and was ordered to pay her a pension. Russell closes by separating Schopenhauer's two historical contributions -- pessimism (useful mainly as a corrective to complacent optimism, but not more 'true' than optimism) and the primacy of will (which Russell regards as the more historically important and influential doctrine, 'the most notable change that has come over the temper of philosophy in our age').",
+  "why_this_matters": "Schopenhauer is unusual among philosophers for combining metaphysical seriousness with unrelenting pessimism, in a tradition (Western philosophy) that Russell says has generally leaned optimistic. Unlike Fichte and Hegel, Schopenhauer retains Kant's 'thing-in-itself' and identifies it with Will, arguing that what appears to perception as the body is, in reality, will.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xxiv",
+      "role": "The chapter's primary subject: his life, his adaptation of Kant's philosophy into a metaphysics of Will, his pessimism, his doctrine of ascetic resignation drawn from Hinduism and Buddhism, and the marked gap between his philosophy and his personal conduct are all examined."
+    },
+    {
+      "chapter_id": "book-3-ch-xxv",
+      "role": "Presented as Nietzsche's acknowledged predecessor, whose ethic of renunciation Nietzsche judged inconsistent with his own metaphysic of the omnipotence of will; Nietzsche is said to give will ethical as well as metaphysical primacy, correcting what he saw as Schopenhauer's incoherence."
+    }
+  ],
+  "extraction_confidence": "high"
+}

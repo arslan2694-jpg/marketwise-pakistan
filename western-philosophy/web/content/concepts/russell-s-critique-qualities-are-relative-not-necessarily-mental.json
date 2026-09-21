@@ -1,0 +1,33 @@
+{
+  "slug": "russell-s-critique-qualities-are-relative-not-necessarily-mental",
+  "name": "Russell's critique: qualities are relative, not necessarily 'mental'",
+  "plain_explanation": "Russell agrees with Berkeley that we perceive only qualities (not some extra hidden 'thing' behind them), and that these qualities depend on the perceiver's situation. But he disputes Berkeley's further claim that this makes the qualities 'mental,' arguing Berkeley never properly defines what 'mental' means and simply assumes everything must be either wholly material or wholly mental.",
+  "precise_definition": "Russell's assessment: 'His reasoning is completely cogent as to the first point [we perceive qualities, not things], but as to the second [that these qualities are mental] it suffers from the absence of any definition of the word \\\"mental.\\\"' Berkeley 'relies, in fact, upon the received view that everything must be either material or mental, and that nothing is both.'",
+  "why_it_mattered": "This distinction lets Russell salvage what he regards as Berkeley's genuine philosophical achievement (a relational, perceiver-dependent account of sensible qualities) while rejecting Berkeley's stronger metaphysical idealism (that reality is exhaustively mental).",
+  "historical_origin": "Russell's own critical analysis of the Dialogues, contained in this chapter.",
+  "associated_philosopher": "Bertrand Russell",
+  "examples": [
+    "Russell's 'nephew/uncle' analogy: it is logically necessary that a nephew has an uncle given that he is a nephew, but this proves nothing about whether Mr. A (who happens to be a nephew) could have existed without being anyone's nephew -- analogously, that a perceived object requires a perceiver does not show an object could not have existed unperceived",
+    "Russell's physicalist redefinition: an event is 'perceived' if it has effects of certain kinds (e.g., can be remembered), a definition that does not require any 'mental substance' at all"
+  ],
+  "objections": [
+    "Berkeley's logical arguments (e.g., 'whatever is immediately perceived is an idea; can any idea exist out of the mind?') commit a fallacy of assuming what needs to be proved",
+    "Berkeley's empirical arguments (e.g., heat as a 'pain,' therefore mental) trade on an ambiguity between the painful quality of a sensation and the sensation that has that quality"
+  ],
+  "competing_positions": [
+    "Berkeley's own idealism, that all reality is ultimately mental"
+  ],
+  "influence_on_later_thinkers": "Russell uses this critique to develop his own neutral, physicalist account of 'mind' and 'matter' as different groupings of events, connected respectively by memory-chains or by the equations of physics.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell",
+      "treatment": "Russell agrees with Berkeley that we perceive only qualities (not some extra hidden 'thing' behind them), and that these qualities depend on the perceiver's situation. But he disputes Berkeley's further claim that this makes the qualities 'mental,' arguing Berkeley never properly defines what 'mental' means and simply assumes everything must be either wholly material or wholly mental."
+    }
+  ]
+}

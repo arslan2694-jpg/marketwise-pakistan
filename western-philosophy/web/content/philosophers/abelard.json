@@ -1,0 +1,61 @@
+{
+  "slug": "abelard",
+  "name": "Abelard",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Early scholasticism (nominalism vs. realism on universals)",
+  "major_ideas": [
+    "The medieval problem of universals (Roscelin, William of Champeaux, Abelard)",
+    "Abelard's 'Sic et Non' and the value of dialectic"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Roscelin's pupil (1079-1142), far abler and more famous, remembered both for his romance with Heloise (which ended in his castration by her uncle) and for his major works 'Sic et Non' and his treatment of universals; held that we predicate words-as-meaning of things, not things themselves, thereby steering a course between Roscelin's crude nominalism and William of Champeaux's realism, while still allowing Platonic ideas a place as God's own concepts.",
+  "central_doctrines": "The medieval problem of universals (Roscelin, William of Champeaux, Abelard): The scholastic debate over the ontological status of general terms (genera and species): whether they denote real, independently existing entities (realism), are mere names/vocal sounds with no corresponding reality (nominalism), or occupy some intermediate status as concepts grounded in real resemblances among particulars (Abelard's conceptualist-leaning position).",
+  "key_arguments": [
+    "Abelard's account of universals as resemblance-based predication"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "aristotle",
+    "boethius",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "aristotle",
+    "roscelin",
+    "william-of-champeaux",
+    "thomas-aquinas",
+    "duns-scotus",
+    "william-of-occam",
+    "william-james"
+  ],
+  "disagreements": [
+    {
+      "with": "william-of-champeaux",
+      "about": "The medieval problem of universals (Roscelin, William of Champeaux, Abelard)"
+    },
+    {
+      "with": "roscelin",
+      "about": "The medieval problem of universals (Roscelin, William of Champeaux, Abelard)"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents the twelfth century as a genuinely creative period that did not recognize its own originality, since every party (Emperor, papacy, Lombard cities, scholastics, Crusaders) legitimized itself by appeal to supposed ancient precedent even while doing something new. He is admiring of the intellectual daring of early scholastics like Abelard, praising his treatment of universals as still philosophically respectable by modern standards, while criticizing the scholastic method's characteristic defects (excessive trust in dialectic over observation, verbal hairsplitting) as more extreme than in Plato. Russell is notably unsympathetic to Saint Bernard, whom he credits with genuine religious feeling and fine Latin hymns but faults for intelligence, unfairness to Abelard, and a naive view of Crusading war as sustainable by religious enthusiasm alone -- captured in Russell's pointed remark, quoting the Encyclopaedia Britannica, that Bernard's greatness 'lay not in the qualities of his intellect, but of his character.'",
+  "why_this_matters": "Four bound-together twelfth-century developments -- imperial-papal conflict, the rise of the Lombard cities, the Crusades, and scholasticism -- all culminate in the thirteenth century. Roscelin, the first strict scholastic, held a nominalist view of universals that got him into trouble over the Trinity; he recanted at Rheims in 1092.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-xi",
+      "role": "Roscelin's pupil (1079-1142), far abler and more famous, remembered both for his romance with Heloise (which ended in his castration by her uncle) and for his major works 'Sic et Non' and his treatment of universals; held that we predicate words-as-meaning of things, not things themselves, thereby steering a course between Roscelin's crude nominalism and William of Champeaux's realism, while still allowing Platonic ideas a place as God's own concepts."
+    }
+  ],
+  "extraction_confidence": "high"
+}

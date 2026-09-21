@@ -1,0 +1,19 @@
+{
+  "slug": "philosophical-radicalism",
+  "name": "Philosophical Radicalism",
+  "period": "Modern",
+  "doctrines": [
+    "Utilitarianism and the philosophical radicals",
+    "The greatest-happiness principle (Utilitarianism)",
+    "The lacuna between individual self-interest and the general happiness"
+  ],
+  "philosophers": [
+    "jeremy-bentham",
+    "james-mill"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxvi"
+  ]
+}

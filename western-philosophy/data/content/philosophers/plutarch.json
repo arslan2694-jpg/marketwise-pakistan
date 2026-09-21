@@ -1,0 +1,38 @@
+{
+  "slug": "plutarch",
+  "name": "Plutarch",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Author (in the Life of Lycurgus) of the idealized 'myth' of Sparta that Russell treats as historically more influential than the Spartan reality; his account of Lycurgus's laws (communism of land, iron currency, communal upbringing, mixed views on wives and children) is presented and critically assessed. Greek biographer and philosophical writer (c. A.D. 46-120) who spent significant time in Rome, was honoured by Emperors Hadrian and Trajan, and wrote his 'Parallel Lives' explicitly to draw comparisons between eminent Greeks and Romans, alongside numerous other philosophical and religious works, in an effort to reconcile Greece and Rome in the cultural imagination.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xii",
+      "role": "Author (in the Life of Lycurgus) of the idealized 'myth' of Sparta that Russell treats as historically more influential than the Spartan reality; his account of Lycurgus's laws (communism of land, iron currency, communal upbringing, mixed views on wives and children) is presented and critically assessed."
+    },
+    {
+      "chapter_id": "book-1-ch-xxix",
+      "role": "Greek biographer and philosophical writer (c. A.D. 46-120) who spent significant time in Rome, was honoured by Emperors Hadrian and Trajan, and wrote his 'Parallel Lives' explicitly to draw comparisons between eminent Greeks and Romans, alongside numerous other philosophical and religious works, in an effort to reconcile Greece and Rome in the cultural imagination."
+    }
+  ],
+  "extraction_confidence": "high"
+}

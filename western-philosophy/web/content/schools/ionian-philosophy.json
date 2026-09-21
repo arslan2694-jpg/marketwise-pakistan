@@ -1,0 +1,19 @@
+{
+  "slug": "ionian-philosophy",
+  "name": "Ionian philosophy",
+  "period": "Ancient",
+  "doctrines": [
+    "Universal flux",
+    "The unity/harmony of opposites",
+    "Strife as 'father of all' and cosmic justice",
+    "Universal flux (Heraclitean doctrine applied to sense-objects)"
+  ],
+  "philosophers": [
+    "heraclitus"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-iv"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "the-theory-of-descriptions",
+  "name": "The theory of descriptions",
+  "plain_explanation": "When we say things like 'the golden mountain does not exist,' it sounds as if we must be talking about some strange thing (the golden mountain) that has the property of not existing. Russell's theory shows this is a grammatical illusion: properly analysed, the sentence just says that nothing at all has the properties of being golden and being a mountain -- the phrase 'the golden mountain' disappears entirely once we spell out what the sentence really means.",
+  "precise_definition": "Russell's method for analysing sentences containing a 'description' (a phrase of the form 'the so-and-so' designating something by a property rather than by name): on correct analysis, the descriptive phrase disappears, and 'Scott was the author of Waverley' becomes 'There is an entity c such that \"x wrote Waverley\" is true if x is c and false otherwise; moreover c is Scott.' On this analysis, 'existence' can be asserted only of descriptions ('the author of Waverley exists' is meaningful), never of names directly ('Scott exists' is bad syntax).",
+  "why_it_mattered": "Russell presents it as a paradigm case of how philosophical syntax dissolves an ancient puzzle -- here, 'two millennia of muddle-headedness about \"existence,\" beginning with Plato's Theaetetus' -- through technical analysis rather than metaphysical speculation.",
+  "historical_origin": "Developed by Russell as part of the broader programme of logical analysis illustrated in this chapter.",
+  "associated_philosopher": "Bertrand Russell",
+  "examples": [
+    "'The golden mountain does not exist' analyses as: 'There is no entity c such that \"x is golden and mountainous\" is true when x is c, but not otherwise.'",
+    "'Scott was the author of Waverley' analyses as: 'One and only one man wrote Waverley, and that man was Scott.'"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The naive view that a descriptive phrase like 'the golden mountain' must refer to something (which does not exist) in order for the sentence containing it to be meaningful"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxxi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell",
+      "treatment": "When we say things like 'the golden mountain does not exist,' it sounds as if we must be talking about some strange thing (the golden mountain) that has the property of not existing. Russell's theory shows this is a grammatical illusion: properly analysed, the sentence just says that nothing at all has the properties of being golden and being a mountain -- the phrase 'the golden mountain' disappears entirely once we spell out what the sentence really means."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "mechanistic-physics-and-the-vortex-theory-of-the-solar-system",
+  "name": "Mechanistic physics and the vortex theory of the solar system",
+  "plain_explanation": "Descartes rejected both a vacuum and atoms, holding that all physical interaction happens by direct contact ('impact') within a completely full universe (a 'plenum'), and proposed that the planets are carried around the sun by a great swirling vortex of matter, much as objects circle in a whirlpool.",
+  "precise_definition": "Russell's summary: 'In mechanics, Descartes accepts the first law of motion... But there is no action at a distance, as later in Newton's theory of gravitation. There is no such thing as a vacuum, and there are no atoms; yet all interaction is of the nature of impact... round the sun there is an immense vortex in the plenum, which carries the planets round with it.'",
+  "why_it_mattered": "The vortex theory was 'generally accepted in France, where it was only gradually ousted by the Newtonian theory,' and its contemporary defenders (such as Cotes) even argued it was theologically preferable to Newton's gravitation, since Newtonian gravity required God to have set the planets moving in a direction not toward the sun, whereas the vortex theory seemed to need no such external intervention -- though Russell notes it 'cannot explain why planetary orbits are elliptical, not circular.'",
+  "historical_origin": "Set out in the Principia Philosophiae (1644), building on Descartes's rejection of Aristotle's plurality of souls (retaining, in his mechanistic system, only the rational soul, and only in man).",
+  "associated_philosopher": "René Descartes",
+  "examples": [
+    "Cotes's argument (in the preface to the first English edition of Newton's Principia) that the vortex theory avoids atheism better than Newton's theory requiring divine initial intervention"
+  ],
+  "objections": [
+    "It cannot explain why planetary orbits are elliptical rather than circular",
+    "Gradually displaced by Newtonian gravitation, first in England and later in France"
+  ],
+  "competing_positions": [
+    "Newton's theory of universal gravitation (Chapter VI)"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "Entangled in theological debate over whether vortex mechanics or Newtonian gravitation better avoided the charge of atheism.",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "René Descartes",
+      "treatment": "Descartes rejected both a vacuum and atoms, holding that all physical interaction happens by direct contact ('impact') within a completely full universe (a 'plenum'), and proposed that the planets are carried around the sun by a great swirling vortex of matter, much as objects circle in a whirlpool."
+    }
+  ]
+}

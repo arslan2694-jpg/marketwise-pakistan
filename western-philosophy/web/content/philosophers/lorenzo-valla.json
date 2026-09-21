@@ -1,0 +1,40 @@
+{
+  "slug": "lorenzo-valla",
+  "name": "Lorenzo Valla",
+  "era": "Medieval / Catholic",
+  "dates": "ca. 1406-57",
+  "geography": "",
+  "school": "",
+  "major_ideas": [
+    "The Donation of Constantine"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Renaissance humanist (ca. 1406-57) mentioned as the first to expose the Donation of Constantine as a forgery (1439), on philological grounds -- its Latin could not be eighth-century usage claiming to be fourth-century; Russell notes the irony that he was later made apostolic secretary by Pope Nicholas V. An Epicurean humanist who proved the Donation of Constantine to be a forgery, ridiculed the Vulgate's style, and accused Saint Augustine of heresy; made apostolic secretary by Pope Nicholas V despite (or because of) this unorthodoxy.",
+  "central_doctrines": "The Donation of Constantine: A forged imperial decree, accepted as authentic until Lorenzo Valla's philological exposure of it as a fabrication in 1439, that served as the legal-historical basis for papal claims to temporal sovereignty in Italy.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-vii",
+      "role": "Renaissance humanist (ca. 1406-57) mentioned as the first to expose the Donation of Constantine as a forgery (1439), on philological grounds -- its Latin could not be eighth-century usage claiming to be fourth-century; Russell notes the irony that he was later made apostolic secretary by Pope Nicholas V."
+    },
+    {
+      "chapter_id": "book-3-ch-ii",
+      "role": "An Epicurean humanist who proved the Donation of Constantine to be a forgery, ridiculed the Vulgate's style, and accused Saint Augustine of heresy; made apostolic secretary by Pope Nicholas V despite (or because of) this unorthodoxy."
+    }
+  ],
+  "extraction_confidence": "high"
+}

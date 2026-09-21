@@ -1,0 +1,30 @@
+{
+  "slug": "determinism-and-the-rejection-of-chance",
+  "name": "Determinism and the rejection of chance",
+  "plain_explanation": "Although people accused the atomists of saying everything happens by random chance, they actually believed the opposite: that everything happens by strict natural law and necessity, with nothing uncaused.",
+  "precise_definition": "The atomists' doctrine, contrary to a common ancient misreading, that all events occur of necessity in accordance with natural law; Leucippus is quoted as saying 'Naught happens for nothing, but everything from a ground and of necessity,' and Democritus explicitly denied that anything happens by chance.",
+  "why_it_mattered": "It positions the atomists as strict determinists whose only unexplained element is the original motion of the atoms, which Russell argues is not a defect since any causal chain must have an arbitrary, uncaused starting point.",
+  "historical_origin": "",
+  "associated_philosopher": "Leucippus and Democritus",
+  "examples": [
+    "Leucippus's dictum on necessity",
+    "Democritus's explicit denial of chance"
+  ],
+  "objections": [
+    "Aristotle and others reproached the atomists for not explaining the original motion of the atoms, which Russell defends as no real defect, since 'causation must start from something, and wherever it starts no cause can be assigned for the initial datum.'"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "Rules out 'Providence' or divine purpose as governing events.",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Leucippus and Democritus",
+      "treatment": "Although people accused the atomists of saying everything happens by random chance, they actually believed the opposite: that everything happens by strict natural law and necessity, with nothing uncaused."
+    }
+  ]
+}

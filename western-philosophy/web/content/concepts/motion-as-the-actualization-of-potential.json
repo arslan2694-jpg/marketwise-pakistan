@@ -1,0 +1,31 @@
+{
+  "slug": "motion-as-the-actualization-of-potential",
+  "name": "Motion as the actualization of potential",
+  "plain_explanation": "Aristotle defines motion as 'the fulfilling of what exists potentially' -- so when a dog seizes a bone, the dog is fulfilling its nature by moving, while the bone is treated as simply staying still until seized -- but this picture cannot be squared with the fact that motion is really relative: if A moves relative to B, B equally moves relative to A.",
+  "precise_definition": "Aristotle's account of motion (kinesis) as the process by which a potentially existing state becomes actual, a definition that presupposes an absolute, non-relative distinction between a moving thing and a thing at rest, incompatible with the principle (basic to later physics) that locomotion can only be described relative to some reference body.",
+  "why_it_mattered": "Russell singles this out as a definition that 'cannot be applied to dead matter' and, for the purposes of scientific physics, cannot be reconciled with treating all motion as strictly relative -- a foundational problem inherited from the whole 'nature as purpose' framework.",
+  "historical_origin": "Follows directly from the teleological conception of nature.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "When a dog seizes a bone, common sense says the dog moves while the bone stays at rest 'until seized,' and that the motion serves a purpose (fulfilling the dog's nature) -- a picture that, Russell notes, cannot be extended to inanimate matter."
+  ],
+  "objections": [
+    "Russell: 'no conception of an \"end\" is useful' for scientific physics, 'nor can any motion, in scientific strictness, be treated as other than relative.'"
+  ],
+  "competing_positions": [
+    "The relativistic conception of motion basic to post-Galilean and, ultimately, Einsteinian physics."
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Aristotle defines motion as 'the fulfilling of what exists potentially' -- so when a dog seizes a bone, the dog is fulfilling its nature by moving, while the bone is treated as simply staying still until seized -- but this picture cannot be squared with the fact that motion is really relative: if A moves relative to B, B equally moves relative to A."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "wholes-versus-parts-the-metaphysical-and-ethical-questions-distinguished",
+  "name": "Wholes versus parts: the metaphysical and ethical questions distinguished",
+  "plain_explanation": "Russell separates two questions that Hegel (and 'holists' generally) tend to run together: is a whole more real than its parts (a metaphysical question), and is a whole more valuable than its parts (an ethical question)? Russell argues these are logically distinct, and that Hegel's political conclusions do not actually follow even if his metaphysics were granted.",
+  "precise_definition": "Russell's distinction between the metaphysical holist thesis (no true statement can be made about a part except by assigning its place in the whole, so only the whole is fully real) and the separate ethical holist thesis (value resides in wholes rather than parts), together with his further distinction, within the ethical question, between a thing's value as a means and its intrinsic value as an end.",
+  "why_it_mattered": "It is Russell's key analytical tool for dismantling Hegel's argument from metaphysical holism to political authoritarianism, showing that even granting some version of holism about reality does not licence Hegel's claim that citizens exist for the sake of the State.",
+  "historical_origin": "Russell's own critical apparatus, developed in dialogue with what he calls (via Jan Smuts's term) 'holism.'",
+  "associated_philosopher": "Bertrand Russell",
+  "examples": [
+    "The eye/body analogy: an eye is worthless in value as a means when detached from the body, but Russell notes this does not show the eye has no intrinsic value, nor that all wholes have this same eye/body relationship to their parts",
+    "Russell's 'John is the father of James' example, used to refute the claim that fully understanding any statement about a part requires knowing its relations to the whole universe"
+  ],
+  "objections": [
+    "Applied to Hegel: Hegel's political theory would only be justified if the State could be shown to be a 'super-person' with a single life not reducible to the lives of its members -- which Russell regards as an unproven and implausible further claim."
+  ],
+  "competing_positions": [
+    "Hegel's own view that value and reality run together for wholes"
+  ],
+  "influence_on_later_thinkers": "This is essentially Russell's own analytic-philosophy manifesto against holism, foreshadowing his broader twentieth-century critique of idealism.",
+  "connection_to_politics_or_religion": "Directly used to challenge the metaphysical basis of Hegel's State-worship.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell",
+      "treatment": "Russell separates two questions that Hegel (and 'holists' generally) tend to run together: is a whole more real than its parts (a metaphysical question), and is a whole more valuable than its parts (an ethical question)? Russell argues these are logically distinct, and that Hegel's political conclusions do not actually follow even if his metaphysics were granted."
+    }
+  ]
+}

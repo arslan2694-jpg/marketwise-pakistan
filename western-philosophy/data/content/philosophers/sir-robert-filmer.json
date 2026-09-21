@@ -1,0 +1,52 @@
+{
+  "slug": "sir-robert-filmer",
+  "name": "Sir Robert Filmer",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Divine right of kings",
+  "major_ideas": [
+    "Filmer's patriarchal theory of divine right"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Author of Patriarcha, the divine-right, hereditary theory of monarchy that Locke's First Treatise refutes; Russell examines Filmer's derivation of royal power from Adam's God-given paternal authority in some detail before turning to Locke's rebuttal.",
+  "central_doctrines": "Filmer's patriarchal theory of divine right: The doctrine, from Filmer's Patriarcha, that political power derives entirely from paternal authority: 'the source of regal authority is subjection of children to parents; ... the patriarchs in Genesis were monarchs; ... kings are the heirs of Adam, or at least are to be regarded as such; ... the natural rights of a king are the same as those of a father.'",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "thomas-aquinas",
+    "john-locke",
+    "hugo-grotius"
+  ],
+  "successors": [
+    "jeremy-bentham",
+    "john-locke",
+    "karl-marx",
+    "david-ricardo",
+    "montesquieu",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "john-locke",
+      "about": "Filmer's patriarchal theory of divine right"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell narrates Locke's political philosophy as a decisive, historically triumphant but philosophically uneven achievement. He first walks through Locke's comparatively effortless demolition of Filmer's patriarchal divine right, noting the peculiar historical circumstances (religious plurality, three-way conflict of king/aristocracy/middle class) that made England ready to abandon hereditary theories of legitimacy while Filmer-like reasoning persisted, in Russell's own time, in imperial Japan. He then reconstructs Locke's state of nature and natural law doctrine, stressing its debt to scholasticism and its shaky, largely theological foundations, before turning to the social contract, which Russell treats as historically fictional but not therefore useless as a normative device. The chapter's longest and most pointed criticism falls on Locke's theory of property: Russell shows how Locke's peasant-proprietor assumptions were already obsolete in his own day, how the labour theory of value cannot survive industrial production, and how Locke's 'worship of property' drove him to some of his 'oddest' and least defensible conclusions (e.g., that a monarch might justly flog soldiers but not fine them). Finally, Russell traces the doctrine of checks and balances from its origins in resistance to Stuart absolutism through to its fullest expression in the U.S. Constitution, closing with the observation that Locke's whole framework, built for individual citizens, has become increasingly inadequate to an age of organizations, corporations, and nation-states -- a problem Russell suggests can only be solved by an eventual 'international Social Contract.'",
+  "why_this_matters": "Locke's First Treatise refutes Filmer's patriarchal, hereditary theory of divine-right monarchy by showing its internal inconsistencies (e.g., an unidentifiable 'true heir' of Adam, and unjustified primogeniture). Locke's 'state of nature' is governed by a divinely grounded natural law and is explicitly not, contra Hobbes, a state of war -- but Russell notes real inconsistencies in how Locke describes it.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xiv",
+      "role": "Author of Patriarcha, the divine-right, hereditary theory of monarchy that Locke's First Treatise refutes; Russell examines Filmer's derivation of royal power from Adam's God-given paternal authority in some detail before turning to Locke's rebuttal."
+    }
+  ],
+  "extraction_confidence": "high"
+}

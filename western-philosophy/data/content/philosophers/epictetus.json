@@ -1,0 +1,51 @@
+{
+  "slug": "epictetus",
+  "name": "Epictetus",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Stoicism",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "A former slave turned philosopher, exiled from Rome by Domitian; taught (through his pupil Arrian's notes) that the body alone can be enslaved or imprisoned but the will is invincible; held that all men are equal as sons of God, including slaves, and that citizenship in the universe outranks citizenship in any city; Russell judges his teaching on the equality of slaves and the brotherhood of man superior, on this point, to anything in Plato or Aristotle. Noted again briefly as a Greek who lived most of his teaching life in Rome and drew most of his illustrative examples from Roman life (e.g. exhorting the wise man not to fear the Emperor); his influence on Marcus Aurelius is clear, though his influence on the Greek world is harder to trace.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "heraclitus",
+    "socrates",
+    "plato",
+    "antisthenes",
+    "panaetius",
+    "posidonius",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "immanuel-kant",
+    "posidonius",
+    "marcus-aurelius",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell narrates Stoicism as a school whose ethical core (virtue as the sole good, indifference to fortune) is essentially fixed from Zeno onward, even while its metaphysics shifted substantially, from Zeno's blunt materialism toward the Platonizing tendencies of Panaetius and Posidonius. He gives considerable, often admiring, space to the biographies and writings of Seneca, Epictetus, and Marcus Aurelius, quoting Epictetus and Marcus Aurelius extensively and at points with clear personal sympathy -- particularly for Epictetus's teaching on the equality of slaves and the brotherhood of man, which he judges 'superior to anything to be found in Plato or Aristotle.' At the same time, Russell is unsparing about the gap between Seneca's preached austerity and his actual wealth and conduct, and he treats Marcus Aurelius as a 'pathetic figure' -- conscientious but largely unsuccessful, and burdened rather than fulfilled by his duties. Philosophically, Russell's central contribution in this chapter is to press two internal contradictions he finds unresolved anywhere in the Stoic corpus: the incompatibility of thoroughgoing determinism with an autonomous, self-determining virtuous will, and the incompatibility of an ethics in which only one's own virtue is good with the Stoics' genuine and constant preaching of benevolence toward others. He treats these contradictions as symptomatic of 'an element of sour grapes' in Stoicism -- a heroic but not fully sincere doctrine that happiness does not matter, adopted because happiness itself had become unattainable in the Hellenistic and Roman world. He closes by crediting Stoicism, despite these flaws, with two genuinely durable contributions: a broadly sound, perception-based (if also innatist) epistemology, and the doctrine of natural law and natural equality that fed into Christian and, eventually, modern natural-rights political theory.",
+  "why_this_matters": "Stoicism holds virtue alone is truly good; all external goods (health, wealth, even the safety of loved ones) are 'indifferent' and outside the sage's real concern. Zeno's early materialist cosmology describes an infinitely repeating cycle of cosmic fire, driven by rigid natural law under a providential Zeus/God/Reason/Destiny.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxviii",
+      "role": "A former slave turned philosopher, exiled from Rome by Domitian; taught (through his pupil Arrian's notes) that the body alone can be enslaved or imprisoned but the will is invincible; held that all men are equal as sons of God, including slaves, and that citizenship in the universe outranks citizenship in any city; Russell judges his teaching on the equality of slaves and the brotherhood of man superior, on this point, to anything in Plato or Aristotle."
+    },
+    {
+      "chapter_id": "book-1-ch-xxix",
+      "role": "Noted again briefly as a Greek who lived most of his teaching life in Rome and drew most of his illustrative examples from Roman life (e.g. exhorting the wise man not to fear the Emperor); his influence on Marcus Aurelius is clear, though his influence on the Greek world is harder to trace."
+    }
+  ],
+  "extraction_confidence": "high"
+}

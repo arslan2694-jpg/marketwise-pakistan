@@ -1,0 +1,45 @@
+{
+  "slug": "pythagoreanism",
+  "name": "Pythagoreanism",
+  "period": "Spans multiple eras",
+  "doctrines": [
+    "The Spartan reality vs. the Spartan myth",
+    "The four philosophical sources of Plato's authoritarianism",
+    "The problem of political 'wisdom'",
+    "The three-class Utopia (guardians, soldiers, producers)",
+    "Communism of property and of the family",
+    "The 'noble lie' (myth of the metals)",
+    "Plato's definition of justice",
+    "Ethical objectivism vs. Thrasymachean relativism (the status of 'the Good')",
+    "Knowledge versus opinion",
+    "The Theory of Ideas (Forms)",
+    "The Allegory of the Cave",
+    "The Idea of the Good",
+    "Soul-body dualism",
+    "The theory of recollection (anamnesis)",
+    "The argument from simplicity",
+    "Creation as ordering of pre-existing chaos",
+    "The four elements and geometric atomism",
+    "Time as 'the moving image of eternity'",
+    "The method of exhaustion (an anticipation of the calculus)",
+    "Euclid's axiomatic-deductive method",
+    "Aristarchus's heliocentric hypothesis",
+    "Hipparchus and the epicycle theory (toward the Ptolemaic system)"
+  ],
+  "philosophers": [
+    "eudoxus-of-cnidus",
+    "euclid",
+    "plato",
+    "aristarchus-of-samos"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-xiii",
+    "book-1-ch-xv",
+    "book-1-ch-xvi",
+    "book-1-ch-xvii",
+    "book-1-ch-xxiv",
+    "book-3-ch-vi"
+  ]
+}

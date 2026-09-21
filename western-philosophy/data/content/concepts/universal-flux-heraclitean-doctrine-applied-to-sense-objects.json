@@ -1,0 +1,33 @@
+{
+  "slug": "universal-flux-heraclitean-doctrine-applied-to-sense-objects",
+  "name": "Universal flux (Heraclitean doctrine applied to sense-objects)",
+  "plain_explanation": "The idea that everything perceptible is constantly changing in every respect, so that a thing is never quite the same from one instant to the next.",
+  "precise_definition": "The doctrine, pushed to an extreme by 'the bright youths of Ephesus,' that everything is always changing both by locomotion and by change of every quality at once, so that no percept can be called 'seeing' rather than 'not-seeing,' nor any statement true rather than false.",
+  "why_it_mattered": "Combined with 'knowledge is perception,' it implies that knowledge is only of what becomes, never of what is -- and, pressed to its extreme, undermines the very possibility of stating anything, including the doctrine of flux itself.",
+  "historical_origin": "Traced to Heraclitus and radicalized by his Ephesian disciples, as reported in the Theaetetus.",
+  "associated_philosopher": "Heraclitus",
+  "examples": [
+    "The claim that 'this is white' cannot be truly said, since the thing will have ceased to be white before the sentence is finished",
+    "Russell's aside that modern quantum physics allows change of qualities without change of substance -- something not fatal to science, contrary to what Plato assumed"
+  ],
+  "objections": [
+    "If everything, including the meanings of words, is in perpetual flux, no assertion can be definite or true rather than false",
+    "Aristotle later objected that unrestricted flux would make even locomotion impossible, since a moving thing must remain the same thing while it moves"
+  ],
+  "competing_positions": [
+    "Parmenides' denial of all change, alluded to but not developed in this dialogue"
+  ],
+  "influence_on_later_thinkers": "The puzzle of relational statements it raises (e.g. Socrates being both 'tall' and 'short' relative to different people) Russell says 'puzzled... most of the great philosophers down to Hegel.'",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Heraclitus",
+      "treatment": "The idea that everything perceptible is constantly changing in every respect, so that a thing is never quite the same from one instant to the next."
+    }
+  ]
+}

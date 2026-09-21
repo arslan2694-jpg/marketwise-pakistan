@@ -1,0 +1,38 @@
+{
+  "slug": "marsiglio-of-padua",
+  "name": "Marsiglio of Padua",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Close friend of Occam whose political opinions he influenced; held that the legislator is the majority of the people, who have the right to punish princes and to exercise sovereignty over the Church (including the laity) through elected representatives to General Councils, with the Pope stripped of special powers. Referenced as the source (via condemned theses) of doctrines Gregory XI accused Wycliffe of deriving his own views from, connecting Wycliffe's anti-papal theory back to the conciliar/popular-sovereignty tradition developed in the previous chapter.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-xiv",
+      "role": "Close friend of Occam whose political opinions he influenced; held that the legislator is the majority of the people, who have the right to punish princes and to exercise sovereignty over the Church (including the laity) through elected representatives to General Councils, with the Pope stripped of special powers."
+    },
+    {
+      "chapter_id": "book-2-ch-xv",
+      "role": "Referenced as the source (via condemned theses) of doctrines Gregory XI accused Wycliffe of deriving his own views from, connecting Wycliffe's anti-papal theory back to the conciliar/popular-sovereignty tradition developed in the previous chapter."
+    }
+  ],
+  "extraction_confidence": "high"
+}

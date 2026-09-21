@@ -1,0 +1,55 @@
+{
+  "slug": "averroes-ibn-rushd",
+  "name": "Averroes (Ibn Rushd)",
+  "era": "Medieval / Catholic",
+  "dates": "1126-1198",
+  "geography": "",
+  "school": "Arabic/Mohammedan philosophy (Syrian, Persian, and Spanish branches)",
+  "major_ideas": [
+    "Averroes on reason, revelation, and the unity of intellect"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Spanish-Muslim philosopher and jurist (1126-1198), cadi of Cordova and Seville, physician to the Almohad rulers before being exiled on charges of heresy; sought to purify the Arabic Aristotle of Neoplatonic accretions, held that God's existence is provable by reason and that only the impersonal intellect (not the individual soul) is immortal; far more influential in Christian than in Mohammedan philosophy, where he was 'a dead end.' Referenced as the source of the 'Averroist' doctrine (denial of individual immortality, since only impersonal intellect survives) that Aquinas worked in Paris to refute and separate Aristotle from; Aquinas explicitly denies Averroes's claim that there is only one intellect shared among all men.",
+  "central_doctrines": "Averroes on reason, revelation, and the unity of intellect: The position that (a) God's existence is a truth demonstrable by unaided natural reason, and (b) what survives death is an impersonal, universal intellect rather than an individuated personal soul, since intellect is numerically one across all thinking beings.",
+  "key_arguments": [
+    "Averroes's proof of God's existence by reason alone",
+    "Averroes's 'double truth' defence against charges of unorthodoxy (as reported via Ueberweg)"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "aristotle",
+    "plotinus",
+    "boethius",
+    "kindi"
+  ],
+  "successors": [
+    "thomas-aquinas"
+  ],
+  "disagreements": [
+    {
+      "with": "thomas-aquinas",
+      "about": "Averroes on reason, revelation, and the unity of intellect"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Mohammedan civilization as historically important chiefly as a transmitter rather than an originator: it preserved and passed on Greek philosophy (heavily Neoplatonized), Indian mathematics and astronomy, and Galenic medicine, while itself producing, in his judgment, no philosopher of true originality apart from perhaps Kindi's role as first translator. He treats Avicenna and Averroes as essentially able commentators on Aristotle rather than independent thinkers, and frames Averroes's chief historical importance as lying in his effect on Christian rather than Mohammedan philosophy. Russell's tone toward Islamic philosophy is respectful of its historical function but consistently deflationary about its originality, a judgment he states explicitly and without much qualification.",
+  "why_this_matters": "The rapid Arab conquests (632-732) succeeded partly through the exhaustion of Persia/Byzantium, the welcome of persecuted religious minorities, and Arab religious tolerance of 'the peoples of the Book.' The Umayyad and Abbasid caliphates gave way, over time, to fragmentation into Spain, Persia, Egypt, and North Africa as separate power centers.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-x",
+      "role": "Spanish-Muslim philosopher and jurist (1126-1198), cadi of Cordova and Seville, physician to the Almohad rulers before being exiled on charges of heresy; sought to purify the Arabic Aristotle of Neoplatonic accretions, held that God's existence is provable by reason and that only the impersonal intellect (not the individual soul) is immortal; far more influential in Christian than in Mohammedan philosophy, where he was 'a dead end.'"
+    },
+    {
+      "chapter_id": "book-2-ch-xiii",
+      "role": "Referenced as the source of the 'Averroist' doctrine (denial of individual immortality, since only impersonal intellect survives) that Aquinas worked in Paris to refute and separate Aristotle from; Aquinas explicitly denies Averroes's claim that there is only one intellect shared among all men."
+    }
+  ],
+  "extraction_confidence": "high"
+}

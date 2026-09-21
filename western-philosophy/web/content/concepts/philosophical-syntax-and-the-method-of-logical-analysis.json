@@ -1,0 +1,31 @@
+{
+  "slug": "philosophical-syntax-and-the-method-of-logical-analysis",
+  "name": "Philosophical syntax and the method of logical analysis",
+  "plain_explanation": "A great deal of philosophy, Russell suggests, turns out to be about the logical grammar of language -- getting clear on the actual structure of what we are saying so as to avoid being misled by its surface grammar. Some philosophers think this covers all of philosophy; Russell thinks that overstates the case, but grants the method is extremely useful for traditional problems.",
+  "precise_definition": "The view, advanced most emphatically by Carnap, that a great part of philosophy can be reduced to 'syntax' (used in a wider sense than customary), such that when errors in syntax are avoided, a philosophical problem is either solved or shown to be insoluble; Russell judges this an overstatement but affirms that 'the utility of philosophical syntax in relation to traditional problems is very great,' illustrating it with the theory of descriptions.",
+  "why_it_mattered": "It defines the school's characteristic method: tackling philosophical problems 'one at a time,' with the 'quality of science rather than of philosophy,' instead of constructing a single all-encompassing system at a stroke.",
+  "historical_origin": "Associated especially with Carnap among Russell's contemporaries in this chapter.",
+  "associated_philosopher": "Rudolf Carnap (discussed by Bertrand Russell)",
+  "examples": [
+    "The theory of descriptions as an example of syntactic analysis dissolving the ancient puzzle of 'existence.'"
+  ],
+  "objections": [
+    "Russell: 'I think this is an overstatement' to claim all philosophical problems are merely syntactical."
+  ],
+  "competing_positions": [
+    "Traditional system-building philosophy, which attempts a single 'block theory of the whole universe' at one stroke"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxxi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Rudolf Carnap (discussed by Bertrand Russell)",
+      "treatment": "A great deal of philosophy, Russell suggests, turns out to be about the logical grammar of language -- getting clear on the actual structure of what we are saying so as to avoid being misled by its surface grammar. Some philosophers think this covers all of philosophy; Russell thinks that overstates the case, but grants the method is extremely useful for traditional problems."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "saint-augustine",
+  "name": "Saint Augustine",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Nicene/Catholic orthodoxy",
+  "major_ideas": [
+    "Augustine's early psychology of sin",
+    "Manichaean dualism and Augustine's rejection of it",
+    "Creation ex nihilo",
+    "Augustine's relativistic (subjective) theory of time",
+    "The City of God and the earthly city (the two cities)",
+    "Original sin and predestination (the anti-Pelagian doctrine of salvation)",
+    "The unresolved problem of social order: Rome versus the City of God"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Treated here purely as a man via his Confessions: his North African origins, Manichaean period, mistress and son, intellectual journey through Cicero, astrology, Neoplatonism ('books of the Platonists'), and eventual conversion and baptism by Ambrose in Milan (386); Russell dwells particularly on his obsessive sense of sin (the stolen pears episode) as key to his later theology. The chapter's sole primary subject: Russell treats his theory of time as a genuine philosophical achievement, his City of God as historically transformative if intellectually derivative, and his anti-Pelagian doctrine of predestination as his most influential but most 'ferocious' teaching. Invoked as the authority on predestination whom it was dangerous either to agree with or explicitly to disagree with; John the Scot's defense of free will risked appearing to contradict Augustine's anti-Pelagian writings. Invoked at the chapter's close: Russell argues the durable solution to social order requires combining 'the solidity of the Roman Empire with the idealism of Saint Augustine's City of God.' Cited as having advanced an argument 'closely similar to the cogito' long before Descartes, though without giving it the same prominence; Russell credits Descartes's originality to recognizing the argument's importance rather than to inventing it outright.",
+  "central_doctrines": "Augustine's early psychology of sin: The intense, self-scrutinizing sense of personal guilt recorded throughout Augustine's Confessions (e.g., Book II's extended treatment of the theft of pears as an act of 'gratuitous' wickedness, and Book I's claim that even infants are full of sin), which Russell connects to a broader psychological pattern rooted in Jewish theodicy (self-blame under national/personal suffering) and which becomes foundational to his mature theology of original sin and grace (Chapter IV). Creation ex nihilo: The doctrine, taught in the Old Testament and defended by Augustine against Manichaean and Greek views, that God created substance itself, not merely order and arrangement imposed on eternal, pre-existing matter. Augustine's relativistic (subjective) theory of time: The doctrine that there are properly speaking three 'presents' -- a present of things past (memory), a present of things present (sight), and a present of things future (expectation) -- and that time is therefore subjective, existing in the created, remembering, expecting mind rather than as an objective container that could have existed 'before' Creation. The City of God and the earthly city (the two cities): A providential scheme of history in which the elect (predestined for salvation, symbolized by Abel) belong to the pilgrim 'City of God,' and the reprobate (symbolized by Cain) belong to the earthly city doomed to eternal torment with Satan; in this life the two cities are commingled, but they will be definitively separated at the Last Judgement. Original sin and predestination (the anti-Pelagian doctrine of salvation): The doctrine that Adam's sin corrupted all humanity, that all deserve eternal damnation (including unbaptized infants), that no one can abstain from sin without God's grace, and that God, by an unmotivated choice not based on merit, elects certain baptized persons to salvation while leaving the rest justly damned -- damnation displaying God's justice, salvation His mercy. The unresolved problem of social order: Rome versus the City of God: Russell's closing diagnosis: 'The ancient world found an end to anarchy in the Roman Empire, but the Roman Empire was a brute fact, not an idea. The Catholic world sought an end to anarchy in the Church, which was an idea, but was never adequately embodied in fact... The problem of a durable and satisfactory social order can only be solved by combining the solidity of the Roman Empire with the idealism of Saint Augustine's City of God.'",
+  "key_arguments": [
+    "Why was the world not created sooner? (the timelessness of God and the creation of time)",
+    "The subjectivity of time (the three presents)",
+    "The justice of arbitrary election (the anti-Pelagian doctrine of predestination)"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "boethius",
+    "bertrand-russell",
+    "thales",
+    "anaximenes",
+    "aristotle",
+    "epicurus",
+    "origen"
+  ],
+  "successors": [
+    "saint-ambrose",
+    "thomas-hobbes",
+    "rene-descartes",
+    "immanuel-kant",
+    "john-calvin",
+    "karl-marx",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "plato",
+      "about": "Creation ex nihilo"
+    },
+    {
+      "with": "aristotle",
+      "about": "Creation ex nihilo"
+    },
+    {
+      "with": "baruch-spinoza",
+      "about": "Creation ex nihilo"
+    },
+    {
+      "with": "plato",
+      "about": "Augustine's relativistic (subjective) theory of time"
+    },
+    {
+      "with": "pelagius",
+      "about": "Original sin and predestination (the anti-Pelagian doctrine of salvation)"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "The unresolved problem of social order: Rome versus the City of God"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell ranks the three men explicitly by strength: Ambrose the greatest statesman, Jerome the greatest scholar, Augustine the greatest philosopher, while noting all three shared the era's superstition and credulity (miracle stories, relic discoveries) and its otherworldly indifference to practical statesmanship even as Rome collapsed around them -- a point he makes pointedly of Jerome, whose vivid letters lament the sack of Rome yet turn immediately to advice on preserving virginity. He treats Augustine's Confessions with genuine admiration as psychologically penetrating literature (comparing him favorably in intellect to Tolstoy and Rousseau, his most famous imitators) while finding the extended self-castigation over the pear theft 'morbid' by modern standards and explaining it through the lens of Jewish theodicy discussed in Chapter I. He is skeptical of and lightly ironic toward the miracle stories and credulity of the age (e.g., the timely discovery of martyrs' skeletons) without denying the genuine political and scholarly achievements of Ambrose and Jerome respectively.",
+  "why_this_matters": "Ambrose established, through concrete political confrontations (the Altar of Victory, the Milan basilica, the Thessalonica massacre), the enduring principle that the State must yield to the Church in religious matters -- a doctrine surviving until the Reformation and later opposed directly by Hobbes. Jerome's Vulgate, translated from the Hebrew rather than the Septuagint (with secret rabbinical help), overcame initial hostile reception to become the official Catholic Bible.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-iii",
+      "role": "Treated here purely as a man via his Confessions: his North African origins, Manichaean period, mistress and son, intellectual journey through Cicero, astrology, Neoplatonism ('books of the Platonists'), and eventual conversion and baptism by Ambrose in Milan (386); Russell dwells particularly on his obsessive sense of sin (the stolen pears episode) as key to his later theology."
+    },
+    {
+      "chapter_id": "book-2-ch-iv",
+      "role": "The chapter's sole primary subject: Russell treats his theory of time as a genuine philosophical achievement, his City of God as historically transformative if intellectually derivative, and his anti-Pelagian doctrine of predestination as his most influential but most 'ferocious' teaching."
+    },
+    {
+      "chapter_id": "book-2-ch-viii",
+      "role": "Invoked as the authority on predestination whom it was dangerous either to agree with or explicitly to disagree with; John the Scot's defense of free will risked appearing to contradict Augustine's anti-Pelagian writings."
+    },
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Invoked at the chapter's close: Russell argues the durable solution to social order requires combining 'the solidity of the Roman Empire with the idealism of Saint Augustine's City of God.'"
+    },
+    {
+      "chapter_id": "book-3-ch-ix",
+      "role": "Cited as having advanced an argument 'closely similar to the cogito' long before Descartes, though without giving it the same prominence; Russell credits Descartes's originality to recognizing the argument's importance rather than to inventing it outright."
+    }
+  ],
+  "extraction_confidence": "high"
+}

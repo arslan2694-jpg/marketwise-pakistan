@@ -1,0 +1,29 @@
+{
+  "slug": "the-criterion-of-clear-and-distinct-ideas",
+  "name": "The criterion of clear and distinct ideas",
+  "plain_explanation": "Having found the cogito certain, Descartes asks why it is so obviously true, and concludes it is because it is 'clear and distinct' -- so he adopts, as a general rule, that anything conceived just as clearly and distinctly must also be true, though he admits it can be hard to know exactly which ideas qualify.",
+  "precise_definition": "Russell's summary: 'Descartes next asks himself: why is the cogito so evident? He concludes that it is only because it is clear and distinct. He therefore adopts as a general rule the principle: All things that we conceive very clearly and very distinctly are true. He admits, however, that there is sometimes difficulty in knowing which these things are.'",
+  "why_it_mattered": "This criterion becomes the engine by which Descartes rebuilds knowledge after doubt -- of mathematics, of the existence of God, and eventually of the external world -- yet Russell treats its justification as one of the weakest links in the system, since it and other scholastic maxims Descartes relies on 'have somehow escaped the initial critical scrutiny.'",
+  "historical_origin": "Introduced in the Meditations immediately following the cogito.",
+  "associated_philosopher": "René Descartes",
+  "examples": [
+    "Its use to justify mathematics ('this enables me to know mathematics, and physics also')"
+  ],
+  "objections": [
+    "Russell's objection: 'No reason is given for accepting these maxims, although they are certainly less self-evident than one's own existence, which is proved with a flourish of trumpets'"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "René Descartes",
+      "treatment": "Having found the cogito certain, Descartes asks why it is so obviously true, and concludes it is because it is 'clear and distinct' -- so he adopts, as a general rule, that anything conceived just as clearly and distinctly must also be true, though he admits it can be hard to know exactly which ideas qualify."
+    }
+  ]
+}

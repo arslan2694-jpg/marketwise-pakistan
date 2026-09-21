@@ -1,0 +1,19 @@
+{
+  "slug": "early-modern-inductive-empiricist-method",
+  "name": "Early modern inductive/empiricist method",
+  "period": "Modern",
+  "doctrines": [
+    "Induction as opposed to deduction and the syllogism",
+    "Induction by simple enumeration and its unreliability",
+    "Bacon's improved inductive method: lists and 'prerogative instances'",
+    "The doctrine of the 'idols' (bad habits of mind)"
+  ],
+  "philosophers": [
+    "francis-bacon"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-vii"
+  ]
+}

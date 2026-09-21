@@ -1,0 +1,32 @@
+{
+  "slug": "cosmic-determinism-and-cyclical-conflagration",
+  "name": "Cosmic determinism and cyclical conflagration",
+  "plain_explanation": "The early Stoics thought the entire universe runs by fixed natural law, with no room for chance, starting from pure fire, generating the other elements in sequence, and eventually being consumed again by a great fire -- after which the exact same cycle repeats itself endlessly, forever.",
+  "precise_definition": "The Stoic cosmological doctrine that the universe is governed by rigid natural necessity (Fate/Destiny), that it originated from and will periodically return to a state of pure fire (ekpyrosis), and that this cycle repeats identically an infinite number of times, such that everything that happens has already happened, and will happen again, countless times.",
+  "why_it_mattered": "It forms the metaphysical backdrop against which the Stoic doctrine of free will has to be reconciled -- generating, in Russell's analysis, one of Stoicism's two central logical contradictions.",
+  "historical_origin": "Traceable to Zeno's combination of Heraclitean flux/fire cosmology with a doctrine of strict natural law.",
+  "associated_philosopher": "Zeno of Citium",
+  "examples": [
+    "The doctrine that fire generates air, water, and earth in sequence, and that all will eventually be reabsorbed into fire"
+  ],
+  "objections": [
+    "Russell: an endlessly repeating, purposeless cycle is 'devastatingly futile,' since no genuine long-term improvement is ever possible, only endless recurrence"
+  ],
+  "competing_positions": [
+    "The Epicurean atomic 'swerve' (Ch. XXVII), designed precisely to avoid strict determinism",
+    "The Christian doctrine of a single, final consummation of history, which Russell contrasts with the Stoic cyclical view"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "The supreme fire is identified with God/Zeus; the cosmos is governed by a beneficent Providence which Russell compares explicitly to eighteenth-century natural theology.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Zeno of Citium",
+      "treatment": "The early Stoics thought the entire universe runs by fixed natural law, with no room for chance, starting from pure fire, generating the other elements in sequence, and eventually being consumed again by a great fire -- after which the exact same cycle repeats itself endlessly, forever."
+    }
+  ]
+}

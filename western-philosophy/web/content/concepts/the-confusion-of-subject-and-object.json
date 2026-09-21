@@ -1,0 +1,28 @@
+{
+  "slug": "the-confusion-of-subject-and-object",
+  "name": "The confusion of subject and object",
+  "plain_explanation": "Russell argues that Bergson's key term 'image' quietly blurs the difference between the mental act of imagining something and the actual thing imagined -- so that, taken literally, Bergson's system implies that a distant friend or a demolished building exists 'inside' the person thinking about them.",
+  "precise_definition": "Russell's diagnosis that Bergson's whole account of matter, memory, and perception depends on a confusion, shared with many idealists and materialists, between the subject (a present thought, image, or memory, located here and now) and the object (which may be remote in space or time, e.g., the law of gravitation, a friend abroad, or a demolished building) -- a confusion enshrined in Bergson's technical term 'image.'",
+  "why_it_mattered": "Russell treats this as the deepest root of Bergson's errors: 'as soon as this identification is rejected, his whole system collapses: first his theories of space and time, then his belief in real contingency, then his condemnation of intellect, and finally his account of the relations of mind and matter.'",
+  "historical_origin": "Located especially in the opening definitions of Matter and Memory.",
+  "associated_philosopher": "Henri Bergson",
+  "examples": [
+    "Bergson's claim that the brain, though never itself perceived, is nonetheless an 'image,' since the whole material universe consists of images",
+    "Russell's reductio: if subject and object were truly one, a friend believed to be in South America would, in fact, be 'really in my head'"
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Henri Bergson",
+      "treatment": "Russell argues that Bergson's key term 'image' quietly blurs the difference between the mental act of imagining something and the actual thing imagined -- so that, taken literally, Bergson's system implies that a distant friend or a demolished building exists 'inside' the person thinking about them."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "leucippus",
+  "name": "Leucippus",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Atomism",
+  "major_ideas": [
+    "Atomism (atoms and the void)",
+    "The void as a response to Parmenides",
+    "Mechanistic versus teleological explanation",
+    "Determinism and the rejection of chance"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Co-founder of atomism, credited by Russell with the fundamental ideas of the system; from Miletus, influenced by Parmenides and Zeno; sought to reconcile Parmenidean monism with the reality of motion and plurality by positing atoms and the void. Their doctrine of the void is explicitly rejected by Aristotle in the Physics.",
+  "central_doctrines": "Atomism (atoms and the void): The theory that all things are composed of an infinite number of atoms, physically (though not geometrically) indivisible, indestructible, always in motion, differing in shape and size, moving through empty space (the void) between them, with observable qualities arising from the arrangement, motion, and collision of atoms rather than from any inherent purpose. The void as a response to Parmenides: The atomists' response to the Parmenidean argument that not-being cannot be said to exist: they conceded no logical refutation of Parmenides's position but asserted the void as a necessary postulate on empirical grounds, since a plenum (a universe completely full of matter, as Parmenides held) was believed by all parties in this debate to make motion impossible. Mechanistic versus teleological explanation: Russell's distinction between mechanistic explanation, which answers 'what earlier circumstances caused this event,' and teleological (final-cause) explanation, which answers 'what purpose did this event serve'; the atomists, unlike Socrates, Plato, and Aristotle after them, sought to explain the world without invoking purpose or final causes.",
+  "key_arguments": [
+    "Leucippus's reconciliation of Parmenides and the fact of motion"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "parmenides",
+    "empedocles",
+    "anaxagoras"
+  ],
+  "successors": [
+    "aristotle",
+    "democritus",
+    "epicurus",
+    "isaac-newton",
+    "rene-descartes",
+    "gottfried-wilhelm-leibniz",
+    "jeremy-bentham",
+    "john-locke",
+    "bertrand-russell",
+    "albert-einstein"
+  ],
+  "disagreements": [
+    {
+      "with": "anaxagoras",
+      "about": "Atomism (atoms and the void)"
+    },
+    {
+      "with": "parmenides",
+      "about": "Atomism (atoms and the void)"
+    },
+    {
+      "with": "rene-descartes",
+      "about": "The void as a response to Parmenides"
+    },
+    {
+      "with": "gottfried-wilhelm-leibniz",
+      "about": "The void as a response to Parmenides"
+    },
+    {
+      "with": "isaac-newton",
+      "about": "The void as a response to Parmenides"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "The void as a response to Parmenides"
+    },
+    {
+      "with": "socrates",
+      "about": "Mechanistic versus teleological explanation"
+    },
+    {
+      "with": "plato",
+      "about": "Mechanistic versus teleological explanation"
+    },
+    {
+      "with": "aristotle",
+      "about": "Mechanistic versus teleological explanation"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Mechanistic versus teleological explanation"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell treats Leucippus and Democritus together as the founders of a single system, crediting Leucippus with its fundamental ideas and Democritus with their detailed elaboration. He reconstructs their theory of atoms and the void as an attempt to reconcile Parmenides's logic (that there can be no real coming-to-be, passing-away, or void) with the observed facts of motion and plurality, conceding that the atomists never logically refuted Parmenides's argument against the void but simply insisted on it as required by experience. Russell defends them against the standard ancient charge of leaving atomic motion unaccounted for, arguing any causal or theistic account faces the identical problem of an unexplained starting point. He uses the atomists' void/space problem to launch an extended historical survey (Aristotle, Newton, Descartes, Leibniz, Einstein) concluding that Einstein's physics vindicates Leibniz's relational view of space over Newton's absolute space, even though Russell judges the Newtonian view to be the strict logical descendant of the atomists' own position. Russell praises the atomists' commitment to mechanistic over teleological explanation as scientifically fruitful and contrasts it favorably with the purpose-driven thought of Socrates, Plato, and Aristotle, which he says 'led science up a blind alley' until the Renaissance. He details Democritus's materialist cosmology (many worlds, atomic vortices), his likening of warmth/taste/colour to sense-dependent qualities (compared to Locke) as against 'really' objective qualities like weight and hardness, and his ethics of cheerfulness, moderation, friendship, and preference for democracy, which Russell compares to Jeremy Bentham. Russell closes the chapter (and the pre-Socratic sequence) by calling Democritus 'the last of the Greek philosophers to be free from a certain fault which vitiated all later ancient and medieval thought': an undue emphasis on man relative to the universe, a decline he traces through the Sophists' scepticism, Socrates's turn to ethics, Plato's rejection of the sensory world, and Aristotle's belief in purpose as fundamental to science.",
+  "why_this_matters": "Leucippus and Democritus founded atomism, holding that everything consists of indestructible, physically indivisible atoms moving through an empty void, differing only in shape and size. Atomism was devised to reconcile Parmenides's logical arguments against change and the void with the observed fact of motion; the atomists conceded they had no logical refutation of Parmenides and simply insisted on the void as an empirical necessity.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-ix",
+      "role": "Co-founder of atomism, credited by Russell with the fundamental ideas of the system; from Miletus, influenced by Parmenides and Zeno; sought to reconcile Parmenidean monism with the reality of motion and plurality by positing atoms and the void."
+    },
+    {
+      "chapter_id": "book-1-ch-xxiii",
+      "role": "Their doctrine of the void is explicitly rejected by Aristotle in the Physics."
+    }
+  ],
+  "extraction_confidence": "high"
+}

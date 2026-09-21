@@ -1,0 +1,94 @@
+{
+  "slug": "heraclitus",
+  "name": "Heraclitus",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Ionian philosophy (as background, though Russell stresses Heraclitus is not in the Milesian scientific tradition)",
+  "major_ideas": [
+    "Universal flux",
+    "The unity/harmony of opposites",
+    "Strife as 'father of all' and cosmic justice",
+    "Fire as the primordial element and the 'ever-living Fire'",
+    "Heraclitus's proud, ascetic ethic",
+    "Universal flux (Heraclitean doctrine applied to sense-objects)"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Primary subject: held that fire is the fundamental substance, that everything is a perpetual exchange of opposites ('all things flow'), that unity is a 'harmony' or 'attunement' produced by the tension of opposites, and that an impersonal cosmic justice ('the Erinys') keeps this tension in balance. Credited as the source of the negative doctrine that nothing in the sensible world is permanent, which, combined with Parmenides's view, led Plato to conclude that knowledge must come from intellect, not the senses. Quoted ('We step and do not step into the same rivers; we are and are not') as a source, alongside Parmenides, for Plato's claim that sensible particulars combine contradictory characters. His doctrine that everything is always changing is imported into the argument to explain perception as an unstable interaction between a changing object and a changing sense-organ; pushed to an extreme by his 'disciples at Ephesus,' the doctrine is shown to make coherent speech about perception impossible. Paired with Bergson as holding the 'dynamic' extreme (there are changes but no things, a flight but no arrow) opposite to the Eleatic 'static' extreme (things but no changes), within Russell's account of two perennial philosophical over-simplifications.",
+  "central_doctrines": "Universal flux: The doctrine, attributed to Heraclitus by Plato ('nothing ever is, everything is becoming') and Aristotle ('nothing steadfastly is'), that all things are in perpetual process rather than possessing fixed, unchanging being. The unity/harmony of opposites: The doctrine that 'what is at variance agrees with itself... an attunement of opposite tensions, like that of the bow and the lyre,' such that unity ('the one') is composed of, and depends upon, the very opposites ('the many') that appear to divide it. Strife as 'father of all' and cosmic justice: Heraclitus's doctrine that 'war is the father of all and king of all' and that 'strife is justice' -- conflict between opposites is both the source of all coming-to-be and passing-away and itself subject to an impersonal, quasi-legal cosmic order that prevents any one side from permanently winning. Universal flux (Heraclitean doctrine applied to sense-objects): The doctrine, pushed to an extreme by 'the bright youths of Ephesus,' that everything is always changing both by locomotion and by change of every quality at once, so that no percept can be called 'seeing' rather than 'not-seeing,' nor any statement true rather than false.",
+  "key_arguments": [
+    "The argument from the bow and lyre for unity-through-opposition"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "anaximander",
+    "pythagoras",
+    "xenophanes",
+    "gerbert-pope-sylvester-ii"
+  ],
+  "successors": [
+    "parmenides",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell",
+    "albert-einstein"
+  ],
+  "disagreements": [
+    {
+      "with": "parmenides",
+      "about": "Universal flux"
+    },
+    {
+      "with": "parmenides",
+      "about": "The unity/harmony of opposites"
+    },
+    {
+      "with": "thales",
+      "about": "Fire as the primordial element and the 'ever-living Fire'"
+    },
+    {
+      "with": "anaximenes",
+      "about": "Fire as the primordial element and the 'ever-living Fire'"
+    },
+    {
+      "with": "empedocles",
+      "about": "Fire as the primordial element and the 'ever-living Fire'"
+    },
+    {
+      "with": "parmenides",
+      "about": "Universal flux (Heraclitean doctrine applied to sense-objects)"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell opens with a methodological argument against both blind reverence for and dismissive contempt of ancient philosophers, urging 'hypothetical sympathy' followed by critical assessment -- a principle he applies throughout the book. He then presents Heraclitus as more original and important than his fame for 'flux' alone suggests: the deeper doctrine, in Russell's reading, is that unity is constituted by, not opposed to, the tension of opposites, a 'harmony' analogous to a strung bow or lyre. Russell is candid about Heraclitus's unattractive personal qualities -- his contempt for nearly everyone, including named predecessors, and his glorification of war and self-mastery -- comparing his ethic to Nietzsche's. He treats the doctrine of flux as permanently important and returns to it via an extended survey of how science (chemistry, atomic theory, relativity) has repeatedly sought, and repeatedly lost, a permanent substratum behind changing appearances, concluding that modern physics is 'on the side of Heraclitus as against Parmenides' only since Einstein and quantum theory -- before that, it favored Parmenides.",
+  "why_this_matters": "Heraclitus is best known for universal flux ('you cannot step twice into the same river'), but Russell argues his more original doctrine is that unity is a 'harmony' produced by tension between opposites, like a strung bow or lyre. Heraclitus held fire, not water or air, to be the primordial substance.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-iv",
+      "role": "Primary subject: held that fire is the fundamental substance, that everything is a perpetual exchange of opposites ('all things flow'), that unity is a 'harmony' or 'attunement' produced by the tension of opposites, and that an impersonal cosmic justice ('the Erinys') keeps this tension in balance."
+    },
+    {
+      "chapter_id": "book-1-ch-xiii",
+      "role": "Credited as the source of the negative doctrine that nothing in the sensible world is permanent, which, combined with Parmenides's view, led Plato to conclude that knowledge must come from intellect, not the senses."
+    },
+    {
+      "chapter_id": "book-1-ch-xv",
+      "role": "Quoted ('We step and do not step into the same rivers; we are and are not') as a source, alongside Parmenides, for Plato's claim that sensible particulars combine contradictory characters."
+    },
+    {
+      "chapter_id": "book-1-ch-xviii",
+      "role": "His doctrine that everything is always changing is imported into the argument to explain perception as an unstable interaction between a changing object and a changing sense-organ; pushed to an extreme by his 'disciples at Ephesus,' the doctrine is shown to make coherent speech about perception impossible."
+    },
+    {
+      "chapter_id": "book-3-ch-xxviii",
+      "role": "Paired with Bergson as holding the 'dynamic' extreme (there are changes but no things, a flight but no arrow) opposite to the Eleatic 'static' extreme (things but no changes), within Russell's account of two perennial philosophical over-simplifications."
+    }
+  ],
+  "extraction_confidence": "high"
+}

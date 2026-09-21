@@ -1,0 +1,24 @@
+{
+  "slug": "cynicism",
+  "name": "Cynicism",
+  "period": "Ancient",
+  "doctrines": [
+    "Cynic self-sufficiency through rejection of convention",
+    "Pyrrhonist Scepticism as 'dogmatic doubt'",
+    "Timon's regress argument against certain knowledge"
+  ],
+  "philosophers": [
+    "antisthenes",
+    "pyrrho",
+    "carneades",
+    "timon",
+    "diogenes-of-sinope"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-xi",
+    "book-1-ch-xxvi",
+    "book-1-ch-xxviii"
+  ]
+}

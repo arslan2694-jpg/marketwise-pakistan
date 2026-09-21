@@ -1,0 +1,29 @@
+{
+  "slug": "the-thing-in-itself-noumenon-and-phenomena",
+  "name": "The thing-in-itself (noumenon) and phenomena",
+  "plain_explanation": "What actually exists, causing our sensations, is unknowable ('the thing-in-itself'); what we actually perceive ('the phenomenon') is a joint product of that unknown cause plus our own mind's built-in ordering apparatus (space, time, the categories).",
+  "precise_definition": "Noumena or 'things-in-themselves' are the unknowable causes of sensation, not in space or time and not describable by any of the twelve categories; phenomena are what appears in perception, consisting of a sensory component contributed by the object and a formal component (space, time, category-structure) contributed by the perceiving subject.",
+  "why_it_mattered": "It is the load-bearing but, per Russell, deeply inconsistent element of Kant's system: things-in-themselves are treated as causes of sensations even though causality is supposed to be merely a category applicable only to phenomena -- an inconsistency Russell calls 'not an accidental oversight' but 'an essential part of his system.'",
+  "historical_origin": "Critique of Pure Reason.",
+  "associated_philosopher": "Immanuel Kant",
+  "examples": [
+    "Free volitions treated by Kant as causes of occurrences in space and time, despite causality supposedly being confined to phenomena"
+  ],
+  "objections": [
+    "The application of the category of causation to things-in-themselves (as causes of sensation, or as the ground of free will) directly contradicts the doctrine that categories apply only to phenomena."
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Fichte and the successors abandoned the thing-in-itself altogether, moving German philosophy toward near-solipsism until Hegel sought a new, non-subjectivist escape route.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Immanuel Kant",
+      "treatment": "What actually exists, causing our sensations, is unknowable ('the thing-in-itself'); what we actually perceive ('the phenomenon') is a joint product of that unknown cause plus our own mind's built-in ordering apparatus (space, time, the categories)."
+    }
+  ]
+}

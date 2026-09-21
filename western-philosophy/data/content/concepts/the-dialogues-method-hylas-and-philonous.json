@@ -1,0 +1,29 @@
+{
+  "slug": "the-dialogues-method-hylas-and-philonous",
+  "name": "The Dialogues' method: Hylas and Philonous",
+  "plain_explanation": "Berkeley presents his argument as a conversation between two characters: Hylas, who represents ordinary scientific common sense (belief in material substance), and Philonous, who is Berkeley's own mouthpiece, gradually arguing Hylas out of his belief in matter step by step, quality by quality.",
+  "precise_definition": "In the Dialogues of Hylas and Philonous, Philonous leads Hylas through a sequence of arguments -- first about secondary qualities (heat/cold, taste, smell, sound, colour), then about primary qualities (extension, figure, motion) -- each time showing that what Hylas thought was an objective property of matter is in fact relative to, and dependent on, the perceiver.",
+  "why_it_mattered": "Russell treats this dialectical structure as pedagogically powerful and 'most persuasively set forth,' but focuses his analysis specifically on 'the first [dialogue] and the very beginning of the second,' judging the remainder 'of minor importance.'",
+  "historical_origin": "The Dialogues of Hylas and Philonous, 1713.",
+  "associated_philosopher": "George Berkeley",
+  "examples": [
+    "The lukewarm water argument: one hand hot, one cold, both placed in the same lukewarm water, which feels hot to one hand and cold to the other -- proving, Berkeley argues, that heat/cold cannot be objectively 'in' the water",
+    "The sunset-clouds argument: clouds are red and gold from a distance but colourless up close, showing colour is not simply 'in' the object",
+    "The near/far argument: things look larger when close and smaller when far, showing size (a primary quality) is also perceiver-relative"
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "George Berkeley",
+      "treatment": "Berkeley presents his argument as a conversation between two characters: Hylas, who represents ordinary scientific common sense (belief in material substance), and Philonous, who is Berkeley's own mouthpiece, gradually arguing Hylas out of his belief in matter step by step, quality by quality."
+    }
+  ]
+}

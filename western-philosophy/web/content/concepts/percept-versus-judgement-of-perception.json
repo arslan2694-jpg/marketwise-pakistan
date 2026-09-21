@@ -1,0 +1,29 @@
+{
+  "slug": "percept-versus-judgement-of-perception",
+  "name": "Percept versus judgement of perception",
+  "plain_explanation": "A raw sensation (a patch of colour, a sound) is not yet a belief and cannot be true or false; only once it is 'filled out' with words, memories, and comparisons does it become a judgement capable of truth or falsehood.",
+  "precise_definition": "Russell's own distinction: a 'percept' is a mere occurrence, belonging equally to physics and psychology, neither true nor false; a 'judgement of perception' is the percept filled out with words and memory, and is the proper referent when we say 'knowledge is perception' -- more accurately, 'knowledge is judgements of perception.'",
+  "why_it_mattered": "It allows Russell to rescue part of what is right in the perception theory of knowledge while showing exactly why bare percepts cannot themselves constitute knowledge.",
+  "historical_origin": "Introduced by Russell in this chapter as his own analytical tool for assessing Plato's argument.",
+  "associated_philosopher": "Bertrand Russell",
+  "examples": [
+    "Seeing two shades of colour and judging 'A is like B,' where the likeness is part of what is given, not something added purely by the mind"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Plato's assumption that we perceive through, rather than merely with, our sense-organs, and that comparison and existence require a wholly separate mental faculty"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell",
+      "treatment": "A raw sensation (a patch of colour, a sound) is not yet a belief and cannot be true or false; only once it is 'filled out' with words, memories, and comparisons does it become a judgement capable of truth or falsehood."
+    }
+  ]
+}

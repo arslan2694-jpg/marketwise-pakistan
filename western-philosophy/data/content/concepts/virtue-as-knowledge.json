@@ -1,0 +1,29 @@
+{
+  "slug": "virtue-as-knowledge",
+  "name": "Virtue as knowledge",
+  "plain_explanation": "Socrates held that if people truly understood what was good, they would automatically do it; wrongdoing is therefore always a kind of ignorance or mistake, not a deliberate choice of evil.",
+  "precise_definition": "The doctrine, attributed by Russell to Socrates and Plato, that no man sins wittingly, so that knowledge of the good is both necessary and sufficient for virtuous action.",
+  "why_it_mattered": "It makes moral education essentially an intellectual project (removing ignorance) rather than a matter of training character or will, a view Russell contrasts with Christian ethics.",
+  "historical_origin": "Presented as characteristic of Socrates and, through him, of Plato.",
+  "associated_philosopher": "Socrates",
+  "examples": [
+    "Socrates's claim in the Apology that he cannot be corrupting people intentionally, since good men are better to live among than bad, so any corruption must be unintentional and correctable by instruction, not punishment."
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Christian ethics, in which 'a pure heart is the essential' and is at least as likely to be found among the ignorant as the learned."
+  ],
+  "influence_on_later_thinkers": "Persisted broadly in Greek ethical thought and marks, in Russell's view, a lasting difference between Greek and Christian moral outlooks.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Socrates",
+      "treatment": "Socrates held that if people truly understood what was good, they would automatically do it; wrongdoing is therefore always a kind of ignorance or mistake, not a deliberate choice of evil."
+    }
+  ]
+}

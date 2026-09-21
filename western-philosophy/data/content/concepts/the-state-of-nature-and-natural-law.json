@@ -1,0 +1,33 @@
+{
+  "slug": "the-state-of-nature-and-natural-law",
+  "name": "The state of nature and natural law",
+  "plain_explanation": "Locke imagines a condition before government existed, in which people lived under a 'law of nature' -- basically divine moral commands like 'do not harm others' life, health, liberty, or possessions' -- without any earthly ruler to enforce it. People in this state are free and equal, but because everyone must judge and enforce the law for themselves, conflicts are hard to resolve fairly.",
+  "precise_definition": "Locke's 'state of nature' is 'men living together according to reason, without a common superior on earth, with authority to judge between them'; it is governed by a 'law of nature' consisting of divine commands (not human legislation), under which all individuals possess natural equality, natural freedom (bounded by the law of nature, not licence), and a natural right to self-defense and even to punish transgressors such as thieves or murderers.",
+  "why_it_mattered": "This becomes the foundation for Locke's entire positive political theory: government exists specifically to remedy the great defect of the state of nature -- that in it, 'every man is the judge in his own cause.' Russell stresses that international relations between sovereign states remain, in Locke's own terms, in a state of nature to this day.",
+  "historical_origin": "Second Treatise of Government; Russell notes it is 'in the main, not original,' echoing medieval scholastic natural law doctrine (e.g., Aquinas) more than it innovates.",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "The natural right to kill a thief caught in the act of stealing",
+    "The Declaration of Independence's echo of Locke's 'life, health, liberty, or possessions'",
+    "The observation that independent states remain, toward each other, in a Lockean state of nature"
+  ],
+  "objections": [
+    "Russell notes an apparent inconsistency: Locke sometimes portrays the state of nature as populated by uniformly virtuous people, and at other times discusses how to deal with thieves and murderers within it"
+  ],
+  "competing_positions": [
+    "Hobbes's state of nature as a war of all against all, in which life is 'nasty, brutish, and short'"
+  ],
+  "influence_on_later_thinkers": "Directly echoed in the American Declaration of Independence; Russell also reframes the doctrine in secular, untheological terms as a way of asking what retaliatory acts would be justified in the total absence of law and government.",
+  "connection_to_politics_or_religion": "For Locke the law of nature is explicitly of divine origin, found ultimately in the Bible; Russell notes this theological basis is what modern secular liberalism has quietly dropped, leaving natural-rights talk 'destitute of clear logical foundation.'",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Locke imagines a condition before government existed, in which people lived under a 'law of nature' -- basically divine moral commands like 'do not harm others' life, health, liberty, or possessions' -- without any earthly ruler to enforce it. People in this state are free and equal, but because everyone must judge and enforce the law for themselves, conflicts are hard to resolve fairly."
+    }
+  ]
+}

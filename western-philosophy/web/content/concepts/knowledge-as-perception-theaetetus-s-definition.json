@@ -1,0 +1,33 @@
+{
+  "slug": "knowledge-as-perception-theaetetus-s-definition",
+  "name": "Knowledge as perception (Theaetetus's definition)",
+  "plain_explanation": "The idea that to know something just is to perceive it -- so that whatever seems true to me, through my senses, simply is true for me.",
+  "precise_definition": "Theaetetus's proposed definition: 'one who knows something is perceiving the thing that he knows, and... knowledge is nothing but perception,' which Socrates identifies with Protagoras's doctrine that 'man is the measure of all things.'",
+  "why_it_mattered": "It is the first of several definitions of knowledge tested and rejected in the dialogue, and it forces Plato to work out, by contrast, what more than perception knowledge must involve.",
+  "historical_origin": "Proposed by Theaetetus at the start of Plato's dialogue of that name.",
+  "associated_philosopher": "Theaetetus / Protagoras",
+  "examples": [
+    "Socrates finding wine sweet when well but sour when ill, illustrating perception as relative to the state of the percipient"
+  ],
+  "objections": [
+    "It collapses into Protagorean relativism, making one man's judgement as good as another's",
+    "It cannot account for knowledge of existence, likeness, or number, none of which is given through any single sense",
+    "Memory must be added to perception even to make the definition plausible"
+  ],
+  "competing_positions": [
+    "Plato's own (largely implicit) view that real knowledge concerns unchanging concepts, not the shifting deliverances of sense"
+  ],
+  "influence_on_later_thinkers": "Sets the template for the empiricist-versus-rationalist dispute over whether all knowledge derives from sense-experience.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Theaetetus / Protagoras",
+      "treatment": "The idea that to know something just is to perceive it -- so that whatever seems true to me, through my senses, simply is true for me."
+    }
+  ]
+}

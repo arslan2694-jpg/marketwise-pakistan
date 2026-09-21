@@ -1,0 +1,18 @@
+{
+  "slug": "nestorianism",
+  "name": "Nestorianism",
+  "period": "Medieval",
+  "doctrines": [
+    "The privative theory of evil",
+    "Blessedness identified with divinity (Boethius's pantheistic strand)",
+    "Boethius's philosophic calm amid an age of superstition"
+  ],
+  "philosophers": [
+    "boethius"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-2-ch-v"
+  ]
+}

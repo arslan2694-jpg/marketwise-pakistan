@@ -1,0 +1,64 @@
+{
+  "slug": "anaxagoras",
+  "name": "Anaxagoras",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Ionian rationalist/scientific tradition",
+  "major_ideas": [
+    "Nous (Mind) as cosmic cause",
+    "Universal mixture / infinite divisibility of matter",
+    "Argument against the void",
+    "Mind as uniform across living things"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Named as the Ionian thinker Pericles imported to Athens; Russell reserves his fuller treatment for the next chapter but flags him here as the bridge bringing philosophy into Athens. The chapter's subject: an Ionian rationalist who introduced philosophy to Athens, proposed 'mind' (nous) as the cause of cosmic motion and of the difference between living and dead matter, held that everything contains a portion of everything (except mind), and made genuine scientific contributions (correct theory of eclipses, moon shining by reflected light).",
+  "central_doctrines": "Nous (Mind) as cosmic cause: Anaxagoras's doctrine that mind (nous) is a substance distinct from and unmixed with all other matter, infinite and self-ruled, which enters into living things and is the source of all motion, originating a rotation that gradually spreads through the world, sending light things to the circumference and heavy things toward the center. Universal mixture / infinite divisibility of matter: The doctrine that matter is infinitely divisible and that every portion of matter, however small, contains some portion of every element; a thing is called by the name of whichever element preponderates within it (e.g., something is called 'fire' because fire predominates, though it also contains portions of everything else, including, Anaxagoras held, some blackness even in snow).",
+  "key_arguments": [
+    "Argument against the void from the clepsydra/inflated skin"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "anaximenes",
+    "pythagoras",
+    "parmenides",
+    "empedocles",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "socrates",
+    "plato",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "bertrand-russell",
+      "about": "Nous (Mind) as cosmic cause"
+    },
+    {
+      "with": "empedocles",
+      "about": "Universal mixture / infinite divisibility of matter"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Anaxagoras as a figure of real but secondary historical importance: not the equal of Pythagoras, Heraclitus, or Parmenides, but significant as the Ionian who first brought philosophy to Athens and first proposed mind as the primary cause of physical change. Russell narrates his biography (birth at Clazomenae, decades in Athens under Pericles's patronage, prosecution for impiety, exile back to Ionia) and his doctrines: infinite divisibility of matter with each portion containing something of every element except mind; denial of the void via the clepsydra argument; and mind as a pure, unmixed substance that both distinguishes living things from dead matter and causes the cosmic rotation separating light from heavy matter. Russell reports, without fully endorsing, Aristotle's and the Platonic Socrates's shared complaint that Anaxagoras underuses his own concept of mind, preferring mechanical explanations wherever available and invoking mind only as a last resort. Russell credits him with genuine scientific merit, above all the correct explanations of moonlight and eclipses, and closes by noting that, unlike his philosophical successors from the Pythagoreans through Socrates to Plato, Anaxagoras lacked their ethical and religious preoccupations, which Russell elsewhere treats as having introduced an 'obscurantist bias' into Greek philosophy.",
+  "why_this_matters": "Anaxagoras was the first philosopher to bring philosophy to Athens and the first to propose mind (nous) as the primary cause of physical change. He held that matter is infinitely divisible and that everything contains a portion of every element except mind; a thing is named for whichever element predominates in it.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-vii",
+      "role": "Named as the Ionian thinker Pericles imported to Athens; Russell reserves his fuller treatment for the next chapter but flags him here as the bridge bringing philosophy into Athens."
+    },
+    {
+      "chapter_id": "book-1-ch-viii",
+      "role": "The chapter's subject: an Ionian rationalist who introduced philosophy to Athens, proposed 'mind' (nous) as the cause of cosmic motion and of the difference between living and dead matter, held that everything contains a portion of everything (except mind), and made genuine scientific contributions (correct theory of eclipses, moon shining by reflected light)."
+    }
+  ],
+  "extraction_confidence": "high"
+}

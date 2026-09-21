@@ -1,0 +1,44 @@
+{
+  "slug": "the-social-contract",
+  "name": "The social contract",
+  "plain_explanation": "Locke argues that legitimate government arises when free, equal individuals in the state of nature agree ('contract') to join together into one political community, giving up their private right to judge and punish wrongs in exchange for impartial, common laws and courts -- crucially, the government itself is also bound by this agreement and can be resisted if it breaks its side of the bargain.",
+  "precise_definition": "Civil government originates when individuals consent to leave the state of nature by 'making one body politic'; unlike Hobbes's version, in which the sovereign is not a party to the contract and so gains unlimited power, in Locke's version government is itself a party to the contract, bound by it, and can be justly resisted if it fails to fulfil its part.",
+  "why_it_mattered": "This is the doctrinal core of Locke's 'more or less democratic' political theory -- though Russell stresses its democratic element was limited in practice, since Locke implicitly excluded women and the propertyless from full citizenship, and since the theory of legislative supremacy assumed government exists only 'for the public good' without ever specifying who judges what that good is.",
+  "historical_origin": "Second Treatise of Government; Russell traces a hint of the doctrine back to Aquinas, with its 'first serious development' in Grotius.",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "The requirement that 'the son must consent afresh to a compact made by his father,' which Russell notes is 'not very realistic'",
+    "The United States Constitution as a real historical attempt at a social contract, though many living under it never consented to it",
+    "'The Sovereign, merely by virtue of what it is, is always what it should be.'"
+  ],
+  "objections": [
+    "Russell: the social contract is 'mythical even when, at some former period, there actually was a contract,' since later generations never actually consent",
+    "Russell: Locke never explains why the consent of a bare majority (rather than every individual) should bind dissenters, e.g., pacifists taxed to fund war",
+    "If individuals retained any rights, there would be no common superior to judge disputes, so the theory demands total, reserve-less alienation -- which in Russell's reading amounts to 'a complete abrogation of liberty and a complete rejection of the doctrine of the rights of man.'",
+    "Rousseau's later softening (that the sovereign cannot impose useless fetters) is undercut because the sovereign alone judges what is useless, leaving 'only a very feeble obstacle... opposed to collective tyranny.'"
+  ],
+  "competing_positions": [
+    "Hobbes's contract, in which the sovereign stands outside the agreement and acquires unlimited authority",
+    "Filmer's non-contractual, hereditary divine-right theory",
+    "Locke's social contract, which preserves individual rights (especially property) against the state and includes division of powers",
+    "Hobbes's absolutist contract, to which Russell says Rousseau's version is, on inspection, more akin"
+  ],
+  "influence_on_later_thinkers": "Foundational to the American Constitution's structure of limited, resistible government and to the entire liberal-constitutionalist tradition.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xiv",
+    "book-3-ch-xix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Locke argues that legitimate government arises when free, equal individuals in the state of nature agree ('contract') to join together into one political community, giving up their private right to judge and punish wrongs in exchange for impartial, common laws and courts -- crucially, the government itself is also bound by this agreement and can be resisted if it breaks its side of the bargain."
+    },
+    {
+      "philosopher": "Jean-Jacques Rousseau",
+      "treatment": "Rousseau's proposed solution to how people can unite into a society for mutual protection without losing their freedom: each person gives up all their rights completely and equally to the whole community, so that no one has power over anyone else specifically -- only the community as a whole, of which each person is an equal part, has authority."
+    }
+  ]
+}

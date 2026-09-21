@@ -1,0 +1,31 @@
+{
+  "slug": "the-four-arguments-for-god-s-existence",
+  "name": "The four arguments for God's existence",
+  "plain_explanation": "Leibniz gave the classic, most polished versions of four traditional proofs that God exists: the ontological argument (from the very definition of a perfect being), the cosmological argument (from the need for a 'sufficient reason' for the universe), the argument from eternal truths (truths like mathematics must exist in an eternal mind), and the argument from pre-established harmony/design.",
+  "precise_definition": "(1) Ontological: since existence is a 'perfection,' and God is defined as possessing all perfections, God's essence entails His existence. (2) Cosmological: every contingent thing, and the universe as a whole, needs a 'sufficient reason' outside itself, which must be God. (3) From eternal truths: necessary truths (like mathematics) must exist as thoughts in an eternal mind. (4) From pre-established harmony/design: the harmonious coordination of monads (or, more generally, apparent design in nature) points to a beneficent creator.",
+  "why_it_mattered": "Russell treats Leibniz as the philosopher who 'brought into their final form' these classical proofs, making him the ideal figure through which to examine and critique them, even though modern theologians no longer rely on them.",
+  "historical_origin": "The ontological argument originates with Saint Anselm and was revived by Descartes; the cosmological argument descends from Aristotle's argument of the unmoved mover; Leibniz restates and refines all four with unusual logical rigor.",
+  "associated_philosopher": "Gottfried Wilhelm Leibniz",
+  "examples": [
+    "Leibniz's written proof, shown to Spinoza, that the concept of God (as the subject of all compatible perfections) is possible, from which existence is then said to follow since existence is itself a perfection."
+  ],
+  "objections": [
+    "Kant countered the ontological argument by denying that 'existence' is a predicate; Russell adds that his own theory of descriptions supplies another refutation.",
+    "Kant showed the cosmological argument secretly depends on the ontological argument.",
+    "The argument from eternal truths is open to the objection that a truth can hardly be said to 'exist' in a mind that merely apprehends it."
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Russell notes that, despite Kant's supposed demolition of these arguments, metaphysical proofs of God persisted in Hegel, Lotze, and Bradley.",
+  "connection_to_politics_or_religion": "Leibniz's theological optimism, based partly on these proofs, was set out in the Theodicee, written for Queen Charlotte of Prussia.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Gottfried Wilhelm Leibniz",
+      "treatment": "Leibniz gave the classic, most polished versions of four traditional proofs that God exists: the ontological argument (from the very definition of a perfect being), the cosmological argument (from the need for a 'sufficient reason' for the universe), the argument from eternal truths (truths like mathematics must exist in an eternal mind), and the argument from pre-established harmony/design."
+    }
+  ]
+}

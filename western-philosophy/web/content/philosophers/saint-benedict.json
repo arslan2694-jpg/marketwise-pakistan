@@ -1,0 +1,44 @@
+{
+  "slug": "saint-benedict",
+  "name": "Saint Benedict",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Christian monasticism (eremitic and cenobitic)",
+  "major_ideas": [
+    "The Benedictine Rule"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Founder of the Benedictine Order and author of the 'Benedictine Rule' (c. 520, at Monte Cassino), which moderated the extreme austerities of earlier Egyptian and Syrian monasticism and became the model for nearly all Western monasteries; Russell recounts his life chiefly through Pope Gregory's largely legendary Dialogues.",
+  "central_doctrines": "The Benedictine Rule: The rule of monastic life drawn up by Saint Benedict around 520 at Monte Cassino, moderating the austerities common among Egyptian and Syrian monks, ending competitive ascetic extremism by requiring the abbot's permission for austerities beyond the rule, granting the abbot near-despotic lifelong authority, and ending monks' previous freedom to move between monasteries at will.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "saint-augustine",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "alexander-the-great",
+    "gregory-the-great",
+    "gerbert-pope-sylvester-ii",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell credits the Church, imperfectly, with preserving whatever survived of Roman culture through the general civilizational collapse of the sixth and seventh centuries, while stressing that fanaticism, superstition, and hostility to secular learning were widespread even among its greatest figures. He treats Gregory's Dialogues with open skepticism, recounting their miracle stories in a dry, often ironic tone, and draws an explicit contrast between Gregory as he appears in the Dialogues ('childish and credulous') and Gregory as a political actor ('astute, masterful, and very well aware of what can be achieved'), remarking that 'the most effective men of action are often intellectually second-rate.' He is notably critical of Gregory's fulsome, deferential letters to the usurper Phocas after Phocas's murder of the Emperor Maurice and his sons, noting drily that Gregory 'certainly knew the customary behaviour of Byzantine usurpers' and did not wait to learn the details before flattering the new regime.",
+  "why_this_matters": "Monasticism began in Egypt and Syria in the early fourth century in two forms -- the solitary hermit life of Saint Anthony and the communal life founded by Pachomius -- with the communal (cenobitic) form ultimately prevailing in the West. Saint Benedict's Rule (c. 520, Monte Cassino) moderated earlier ascetic extremism, centralized authority in a lifelong abbot, and became the model for nearly all Western monasteries outside Ireland.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-vi",
+      "role": "Founder of the Benedictine Order and author of the 'Benedictine Rule' (c. 520, at Monte Cassino), which moderated the extreme austerities of earlier Egyptian and Syrian monasticism and became the model for nearly all Western monasteries; Russell recounts his life chiefly through Pope Gregory's largely legendary Dialogues."
+    }
+  ],
+  "extraction_confidence": "high"
+}

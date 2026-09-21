@@ -1,0 +1,31 @@
+{
+  "slug": "the-proper-limited-scope-of-scientific-philosophy",
+  "name": "The proper, limited scope of scientific philosophy",
+  "plain_explanation": "Russell argues that philosophy, done properly by the methods of logical analysis, can make real, science-like progress on many old puzzles -- but there remains a whole domain, of ultimate values and ethics, where no amount of logical or scientific method can settle the question, and philosophers have historically done harm by pretending otherwise.",
+  "precise_definition": "Russell's concluding methodological claim that philosophy has historically consisted of two 'inharmoniously blended' parts -- a theory of the nature of the world, and an ethical or political doctrine of the best way of living -- and that philosophers from Plato to James have let the desire for edification distort their theories of the world, inventing sophistical arguments to prove convenient beliefs true; logical analysis, by contrast, pursues 'scientific truthfulness' and renounces claims to a 'higher' way of knowing, while still conceding that a 'vast field' of value-questions (e.g., that cruelty is bad) lies outside the reach of science and hence, in Russell's view, outside anything philosophy can prove or disprove.",
+  "why_it_mattered": "This is Russell's own summary self-assessment of his school's 'chief merits': insisting on scientific truthfulness in philosophy, and inventing a powerful method (logical analysis) to make it fruitful, extending a spirit of veracity that Russell hopes can reduce fanaticism generally.",
+  "historical_origin": "Stated as Russell's closing reflection in the book's final chapter.",
+  "associated_philosopher": "Bertrand Russell",
+  "examples": [
+    "Philosophers since Plato have tried to 'prove' immortality and the existence of God, each rejecting earlier proofs (Aquinas rejecting Anselm's, Kant rejecting Descartes') while supplying new ones, in the process 'falsifying logic' and 'making mathematics mystical.'"
+  ],
+  "objections": [
+    "Russell: a philosopher who allows edifying desires to bias a disinterested search for truth is 'guilty of a kind of treachery,' both morally and intellectually, and risks preparing 'the ground... for a government censorship punishing those who utter \"dangerous thoughts.\"'"
+  ],
+  "competing_positions": [
+    "Traditional philosophy's attempt to derive ethical comfort (proofs of God, immortality) from metaphysical argument"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "Explicitly ties intellectual honesty in philosophy to a broader political concern about censorship and fanaticism.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxxi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell",
+      "treatment": "Russell argues that philosophy, done properly by the methods of logical analysis, can make real, science-like progress on many old puzzles -- but there remains a whole domain, of ultimate values and ethics, where no amount of logical or scientific method can settle the question, and philosophers have historically done harm by pretending otherwise."
+    }
+  ]
+}

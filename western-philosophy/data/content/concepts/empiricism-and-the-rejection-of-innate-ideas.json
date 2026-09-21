@@ -1,0 +1,31 @@
+{
+  "slug": "empiricism-and-the-rejection-of-innate-ideas",
+  "name": "Empiricism and the rejection of innate ideas",
+  "plain_explanation": "Locke argued the mind starts as 'white paper, void of all characters' and that everything we know comes from experience -- either from the senses (sensation) or from noticing our own mental operations (reflection, or 'internal sense'). Nothing is built in beforehand.",
+  "precise_definition": "The doctrine that all our knowledge (with the possible exception of logic and mathematics) is derived from experience; Book I of the Essay argues against Plato, Descartes, and the scholastics that there are no innate ideas or principles, and Book II shows in detail how experience generates our various ideas.",
+  "why_it_mattered": "Russell calls this Locke's 'bold innovation': in Locke's day the mind was widely supposed to know things a priori, so the complete dependence of knowledge on perception was revolutionary, even though it later became part of educated common sense in English-speaking countries.",
+  "historical_origin": "Developed across Books I and II of An Essay Concerning Human Understanding (1690), directly opposing the rationalism of Descartes and Leibniz and the scholastic tradition Locke encountered at Oxford.",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "The 'white paper' (tabula rasa) image for the mind before experience",
+    "Locke's two sources of ideas: sensation and reflection on 'the operation of our own mind'"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Descartes' and Leibniz's belief in innate ideas and a priori metaphysical knowledge",
+    "Plato's Theaetetus, which had argued against identifying knowledge with perception"
+  ],
+  "influence_on_later_thinkers": "Became the foundation stone of the British empiricist tradition running through Berkeley and Hume to J. S. Mill.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Locke argued the mind starts as 'white paper, void of all characters' and that everything we know comes from experience -- either from the senses (sensation) or from noticing our own mental operations (reflection, or 'internal sense'). Nothing is built in beforehand."
+    }
+  ]
+}

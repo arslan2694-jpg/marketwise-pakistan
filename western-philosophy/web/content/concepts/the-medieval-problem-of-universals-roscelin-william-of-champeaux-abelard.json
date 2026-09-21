@@ -1,0 +1,35 @@
+{
+  "slug": "the-medieval-problem-of-universals-roscelin-william-of-champeaux-abelard",
+  "name": "The medieval problem of universals (Roscelin, William of Champeaux, Abelard)",
+  "plain_explanation": "When we call several different cats 'cats,' what, if anything, corresponds to the general word 'cat' itself? Roscelin said a universal like 'cat' is just a word, a puff of breath, with no reality beyond the individual cats. William of Champeaux, a realist, held universals have their own independent reality. Abelard, Roscelin's pupil, argued for a middle position: we do not predicate a bare physical word-sound of things, but a word as meaning; things genuinely resemble one another, and this resemblance gives rise to universals, but the resemblance itself is not a 'thing.' He also allowed that universals exist as patterns in God's mind prior to creation.",
+  "precise_definition": "The scholastic debate over the ontological status of general terms (genera and species): whether they denote real, independently existing entities (realism), are mere names/vocal sounds with no corresponding reality (nominalism), or occupy some intermediate status as concepts grounded in real resemblances among particulars (Abelard's conceptualist-leaning position).",
+  "why_it_mattered": "It is the central metaphysical/logical dispute of early scholasticism, made newly urgent by the twelfth-century discovery that Plato and Aristotle disagree about it, and it recurs, in more developed form, throughout the following two centuries of scholastic philosophy (Aquinas, Duns Scotus, Occam).",
+  "historical_origin": "Sharpened in the late eleventh and early twelfth centuries by Roscelin's controversial nominalism and Anselm's and Abelard's responses to it.",
+  "associated_philosopher": "Abelard",
+  "examples": [
+    "Roscelin's charge that a universal is mere 'flatus vocis,' a physical event of speech",
+    "Abelard's reply that a 'flatus vocis' is itself a thing, so what is predicated must be the word as meaning, not the word as physical sound",
+    "Abelard's view that Platonic ideas exist as God's own concepts, patterns for creation, even though universals as such are not independently existing things"
+  ],
+  "objections": [
+    "Anselm's charge (against Roscelin) that if a universal is only a vocal event, then 'man' would not be a real unity but only a common name, an unacceptably extreme atomistic consequence",
+    "John of Salisbury 'laughed at' both Abelard's and Roscelin's theories of universals, suggesting contemporaries found neither fully satisfying"
+  ],
+  "competing_positions": [
+    "William of Champeaux's realism (universals have independent reality)",
+    "Roscelin's nominalism (universals are mere words/vocal sounds)"
+  ],
+  "influence_on_later_thinkers": "Russell judges Abelard's treatment 'certainly very able,' remarking that 'the most modern discussions of the problem of universals have not got much further'; the debate directly anticipates Aquinas's, Duns Scotus's, and Occam's later treatments.",
+  "connection_to_politics_or_religion": "Roscelin's nominalist leanings got him into theological trouble over the Trinity, since treating the Three Persons as three distinct substances risked tritheism.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Abelard",
+      "treatment": "When we call several different cats 'cats,' what, if anything, corresponds to the general word 'cat' itself? Roscelin said a universal like 'cat' is just a word, a puff of breath, with no reality beyond the individual cats. William of Champeaux, a realist, held universals have their own independent reality. Abelard, Roscelin's pupil, argued for a middle position: we do not predicate a bare physical word-sound of things, but a word as meaning; things genuinely resemble one another, and this resemblance gives rise to universals, but the resemblance itself is not a 'thing.' He also allowed that universals exist as patterns in God's mind prior to creation."
+    }
+  ]
+}

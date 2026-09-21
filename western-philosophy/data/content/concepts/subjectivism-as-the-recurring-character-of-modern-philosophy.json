@@ -1,0 +1,33 @@
+{
+  "slug": "subjectivism-as-the-recurring-character-of-modern-philosophy",
+  "name": "Subjectivism as the recurring character of modern philosophy",
+  "plain_explanation": "Since Descartes, most modern philosophers have started from the certainty of their own mind or experience rather than from the external world, and this same individualistic, inward-looking tendency spread from theories of knowledge into ethics and politics, eventually reaching the extreme of philosophical anarchism.",
+  "precise_definition": "Russell's diagnosis that 'modern philosophy... has retained, for the most part, an individualistic and subjective character,' traceable from Descartes's cogito through the British empiricists' difficulties with matter to Kant, Fichte, and finally Rousseau's extension of subjectivity to ethics and politics, 'ended, logically, in complete anarchism such as that of Bakunin.'",
+  "why_it_mattered": "Russell treats this trajectory as one of two 'forms of madness' afflicting modern thought, and frames the whole of Book Three partly as a history of this tendency and its consequences.",
+  "historical_origin": "Begins with Descartes building 'all knowledge from the certainty of his own existence.'",
+  "associated_philosopher": "Descartes",
+  "examples": [
+    "Leibniz's 'windowless monads'",
+    "Locke's reluctant admission that knowledge is of the agreement or disagreement of ideas",
+    "Berkeley's abolition of matter, saved from subjectivism only by God",
+    "Hume's scepticism, 'which none could refute and none could accept'",
+    "Rousseau and Romanticism extending subjectivism to ethics and politics"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Locke's and Hegel's partial resistance to pure subjectivism (Locke by temperament, Hegel via Spinoza's influence)"
+  ],
+  "influence_on_later_thinkers": "Traced by Russell all the way to Bakunin's anarchism, which he calls 'a form of madness.'",
+  "connection_to_politics_or_religion": "Extends, via Rousseau, directly into political theory and the critique of authority.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-i"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Descartes",
+      "treatment": "Since Descartes, most modern philosophers have started from the certainty of their own mind or experience rather than from the external world, and this same individualistic, inward-looking tendency spread from theories of knowledge into ethics and politics, eventually reaching the extreme of philosophical anarchism."
+    }
+  ]
+}

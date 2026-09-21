@@ -1,0 +1,33 @@
+{
+  "slug": "the-general-will",
+  "name": "The General Will",
+  "plain_explanation": "Not simply what most people happen to want (the 'will of all'), but the underlying common interest that would emerge if everyone's purely selfish, conflicting preferences cancelled each other out -- like how, in Russell's illustration, countless individual gravitational pulls in different directions cancel out to leave a single net pull toward the Earth's center.",
+  "precise_definition": "The will belonging to the body politic as such, always right and always tending to the public advantage, distinct from both the will of the majority and the sum of individual wills (the 'will of all'); Rousseau holds it is best revealed when citizens deliberate without communicating or forming factions, so that 'the grand total of the small differences would always give the general will.'",
+  "why_it_mattered": "It is, in Russell's words, 'both important and obscure,' and its vagueness is politically consequential: it allows whoever refuses to obey it to be 'forced to be free,' and it made possible, through its doctrine, 'the mystic identification of a leader with his people,' bypassing the need for confirmation by 'so mundane an apparatus as the ballot-box.'",
+  "historical_origin": "Central concept of The Social Contract (1762).",
+  "associated_philosopher": "Jean-Jacques Rousseau",
+  "examples": [
+    "Russell's gravitational analogy: countless individual 'selfish' attractions among particles cancel out except for a net resultant pull toward Earth's center, fancifully conceivable as the Earth's 'general will'",
+    "Rousseau's claim that subordinate associations (churches, parties, trade unions) corrupt the general will by creating group interests, so the ideal (per Lycurgus, endorsed via Machiavelli) is a State with no partial societies at all"
+  ],
+  "objections": [
+    "Russell asks how, in practice, the general will's 'visible manifestations' are ever to be identified, since Rousseau 'leaves us in the dark.'",
+    "Applied to historical cases the concept becomes absurd or sinister: was Galileo 'forced to be free' when the Inquisition compelled his recantation because the 'general will' of the time was anti-Copernican? Is a criminal 'forced to be free' by imprisonment?"
+  ],
+  "competing_positions": [
+    "The 'will of all', i.e., the mere sum of individual, divergent self-interests, which Rousseau explicitly denies is the same as the general will"
+  ],
+  "influence_on_later_thinkers": "Russell notes Hegel adopted Rousseau's paradoxical use of 'freedom' as essentially the right to obey the law/police, and credits Hegel with singling out the general-will/will-of-all distinction for praise.",
+  "connection_to_politics_or_religion": "Its logical consequence, if the state must eliminate 'partial societies,' is what Russell calls 'the Corporate or Totalitarian State, in which the individual citizen is powerless' -- churches, parties, and unions all being prohibited except a state church.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Jean-Jacques Rousseau",
+      "treatment": "Not simply what most people happen to want (the 'will of all'), but the underlying common interest that would emerge if everyone's purely selfish, conflicting preferences cancelled each other out -- like how, in Russell's illustration, countless individual gravitational pulls in different directions cancel out to leave a single net pull toward the Earth's center."
+    }
+  ]
+}

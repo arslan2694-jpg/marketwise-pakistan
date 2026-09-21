@@ -1,0 +1,334 @@
+{
+  "chapter_id": "book-3-ch-xviii",
+  "book_id": "book-3",
+  "part_id": "book-3-part-2",
+  "roman": "XVIII",
+  "title": "The Romantic Movement",
+  "start_page": 669,
+  "end_page": 677,
+
+  "orientation": "This chapter opens Part II of Book Three by describing the romantic movement not as a philosophical system but as a 'way of feeling' that forms the cultural background to most philosophy from the late eighteenth century onward. Russell traces its origin in the eighteenth-century cult of 'sensibility', its expression in taste (Gothic ruins, wild scenery, the exotic) and in fiction (Frankenstein), and argues that beneath its aesthetic surface lies a revolt of solitary instinct against social bonds -- a revolt he holds responsible for much of the anarchic and tyrannical politics of the following century and a half.",
+
+  "historical_background": "Russell frames the movement against the background of the period 1660-1789, when memories of the wars of religion and civil wars made prudence, restraint, and orderly government (symbolized by Newton's law-governed cosmos) the dominant values. The French Revolution and Napoleon gave the tired, safety-craving public the excitement it had begun to crave, and the stifling reaction of the 1815 Holy Alliance settlement provoked two distinct nineteenth-century revolts: an industrial/rationalist revolt (free trade, philosophical radicalism, Marxism) largely untouched by romanticism, and a romantic revolt that was anti-industrial, aesthetic, and increasingly channelled into nationalism.",
+
+  "philosophical_problems": [
+    "What is the relationship between an era's dominant 'way of feeling' and its explicit philosophy?",
+    "Why did a cultural movement grounded in aesthetics and sensibility come to have such large political consequences (nationalism, dictatorship)?",
+    "Is the substitution of aesthetic for utilitarian/moral standards of judgement defensible, and what are its social costs?",
+    "Can solitary instinct be reconciled with the demands of social cooperation, or must one give way to the other?"
+  ],
+
+  "philosophers_discussed": [
+    {
+      "name": "Jean-Jacques Rousseau",
+      "role_in_chapter": "Presented as the first great figure of the movement, who gave the pre-existing cult of 'sensibility' breadth and scope through his own vagabond life and his contempt for the conventions of Parisian society; treated in depth in the next chapter.",
+      "is_primary_subject": false
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "role_in_chapter": "Cited as an example of the romantic tendency to treat blood-relations as an extension of the self, quoted writing to his sister about their shared 'stock'; also linked to the anarchic-rebel psychology Russell describes.",
+      "is_primary_subject": false
+    },
+    {
+      "name": "Lord Byron",
+      "role_in_chapter": "Cited as the exemplar of the 'Byronic' type encouraged by romanticism -- violent, anti-social, an anarchic rebel or conquering tyrant -- and as a protagonist of the principle of nationality; quoted on Jewish financiers.",
+      "is_primary_subject": false
+    },
+    {
+      "name": "Giuseppe Mazzini",
+      "role_in_chapter": "Mentioned as conceiving nations as possessing a mystical, quasi-racial individuality and treating national liberty as absolute, extending romantic hero-worship of individuals to whole nations.",
+      "is_primary_subject": false
+    }
+  ],
+
+  "schools_discussed": ["The Romantic Movement", "German idealism (mentioned as later philosophical outlet)", "Philosophical radicalism / free-trade movement (contrasted, non-romantic revolt)", "Marxian socialism (contrasted, non-romantic revolt)"],
+
+  "core_concepts": [
+    {
+      "name": "Sensibilité (the cult of sensibility)",
+      "plain_explanation": "An eighteenth-century French fashion for direct, violent, unreasoned emotion, especially sympathy -- being moved to tears by a single destitute peasant family while remaining cold to systematic schemes to help peasants as a class.",
+      "precise_definition": "A cultivated proneness to emotion, valued for its intensity and spontaneity rather than for being informed by thought or directed toward effective action.",
+      "why_it_mattered": "It is the direct precursor and raw material of the romantic movement proper, which Rousseau inherited and gave wider scope.",
+      "historical_origin": "Fashionable among cultivated people in eighteenth-century France before Rousseau.",
+      "associated_philosopher": "Jean-Jacques Rousseau",
+      "examples": ["Weeping over a single poor family while ignoring structural poverty", "The idealized 'poor' of romantic imagination who always have 'a few paternal acres' and lose them pathetically"],
+      "objections": [],
+      "competing_positions": ["Prudence and restraint as the supreme virtues, dominant from 1660 to Rousseau"],
+      "influence_on_later_thinkers": "Feeds directly into Rousseau's ethics and into the wider romantic revolt against convention.",
+      "connection_to_politics_or_religion": "Associated with sympathy for the rural poor as a class, later displaced by the nineteenth-century idea of the urban/industrial proletariat.",
+      "is_major": true
+    },
+    {
+      "name": "Substitution of aesthetic for utilitarian standards",
+      "plain_explanation": "Romantics judged things by whether they were beautiful, strange, or grand rather than by whether they were useful or good for people -- as Russell puts it, the earthworm is useful but not beautiful, the tiger beautiful but not useful, and the romantics praised the tiger.",
+      "precise_definition": "A moral and critical orientation in which aesthetic value (beauty, grandeur, strangeness, terror) displaces utilitarian or moral value as the primary standard of judgement.",
+      "why_it_mattered": "It explains the romantics' taste for Gothic ruins, wild scenery, and violent or destructive nature, and underlies their moral admiration for strong passions regardless of social consequence.",
+      "historical_origin": "Emerges as the movement develops after Rousseau, especially in its German and English phases.",
+      "associated_philosopher": "William Blake (contrasted with Darwin)",
+      "examples": ["Preference for the Alps, Niagara, and the Grand Canyon over lush pastures", "Preference for Gothic over classical architecture", "Fiction favoring ghosts, ruined castles, pirates, and tyrants over Fielding- and Smollett-style realism"],
+      "objections": [],
+      "competing_positions": ["Dr. Johnson's preference for Fleet Street and civilized urban life over rural or wild scenery"],
+      "influence_on_later_thinkers": "Shapes nineteenth-century taste broadly, including modern tourist preferences that Russell notes persist to his own day.",
+      "connection_to_politics_or_religion": "",
+      "is_major": true
+    },
+    {
+      "name": "Revolt of solitary instinct against social bonds",
+      "plain_explanation": "Russell's central diagnosis: human beings are gregarious by self-interest but solitary by instinct, and romanticism is what happens when people throw off the 'prudent restraints of social behaviour' that keep the solitary instinct in check, producing an exhilarating but ultimately anti-social 'ecstasy of independence'.",
+      "precise_definition": "The tendency, intensified by the romantic movement, to elevate the unfettered individual Ego and its passions above the compromises required for social cooperation, expressed philosophically as solipsism, ethically as self-development as the supreme principle, and politically as anarchism or despotism.",
+      "why_it_mattered": "Russell uses it to explain both the psychological appeal of romanticism (a 'godlike exaltation' available otherwise only to mystics) and its dangerous political trajectory toward dictatorship, since 'if we could all live solitary... we could all enjoy this ecstasy of independence; since we cannot, its delights are only available to madmen and dictators.'",
+      "historical_origin": "Traced by Russell to a permanent tension in human nature, newly given free rein by the romantic revolt against Christian and social restraint.",
+      "associated_philosopher": "Jean-Jacques Rousseau",
+      "examples": ["Frankenstein's monster turning from a longing for love to systematic murder after rejection", "D. H. Lawrence's 'The Man Who Loved Islands', whose hero dies of hunger and cold in pursuit of total isolation", "The romantic conception of passionate love as a battle between egos (Strindberg, D. H. Lawrence)"],
+      "objections": ["Man is not in fact a solitary animal, so self-realization cannot serve as the supreme principle of ethics so long as social life survives (Russell's own concluding objection)"],
+      "competing_positions": ["Christianity's earlier (partial) taming of the Ego through religion and morality"],
+      "influence_on_later_thinkers": "Russell connects it to German idealist solipsism, to nationalism (the nation as a corporate soul/ego), and ultimately to the anti-Semitic and anti-capitalist rhetoric found in Byron and later movements.",
+      "connection_to_politics_or_religion": "Directly tied by Russell to the rise of nationalism and to the anarchy-or-despotism dilemma he sees as romanticism's political legacy.",
+      "is_major": true
+    },
+    {
+      "name": "Nationalism as extended egoism",
+      "plain_explanation": "The romantic idea that a nation is like a large family or extended self -- a race descended from common ancestors sharing 'blood-consciousness' -- so that loving one's nation is really a projection of loving oneself.",
+      "precise_definition": "The doctrine, exemplified by Mazzini, that nations possess a mystical corporate individuality and an absolute right to liberty, extending the romantic emphasis on blood-relation and self-projection from the family to the nation.",
+      "why_it_mattered": "Russell presents it as the channel through which the essentially unpolitical romantic revolt against convention entered practical politics after the Revolution, becoming 'the most vigorous of revolutionary principles' in the earlier nineteenth century.",
+      "historical_origin": "Develops out of the romantic emphasis on blood-relation (illustrated by Byron and Nietzsche) and reaches full political expression in Mazzini.",
+      "associated_philosopher": "Giuseppe Mazzini",
+      "examples": ["Byron's advocacy of the principle of nationality", "Association of belief in blood and race with anti-Semitism, illustrated by Byron's verse on 'Jew Rothschild'"],
+      "objections": [],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "Russell treats this strand as feeding into twentieth-century nationalism and, implicitly, fascism.",
+      "connection_to_politics_or_religion": "Central political legacy of the chapter.",
+      "is_major": false
+    }
+  ],
+
+  "arguments": [
+    {
+      "title": "From gregariousness-by-interest but solitude-by-instinct to the romantic 'ecstasy of independence'",
+      "philosopher": "Bertrand Russell (as interpreter of the romantics)",
+      "premises": [
+        "By self-interest, human beings have become gregarious, but in instinct they remain largely solitary.",
+        "Religion and morality exist to reinforce self-interest against this solitary instinct, requiring the habit of forgoing present satisfaction for future advantage.",
+        "This habit is irksome, and when passions are roused, prudent social restraints become hard to endure.",
+        "Those who throw off these restraints gain a new sense of energy and power from the cessation of inner conflict."
+      ],
+      "conclusion": "The romantic type -- the anarchic rebel who feels himself not merely one with God but God -- experiences an exhilarating sense of independence that is available in ordinary social life only to madmen and dictators.",
+      "explanation": "Russell is offering a psychological and near-sociological explanation for why romanticism has such broad appeal despite its anti-social consequences: it answers a real, permanent tension in human nature, at the cost of making sustained social cooperation impossible for those who fully embrace it.",
+      "objections": ["Russell's own closing rejoinder: since man is not in fact a solitary animal, and social life must survive, self-realization cannot be adopted as the supreme principle of ethics."],
+      "implications": ["Romanticism's political end-state is either anarchy or despotism, since a lawless Ego cannot sustain social cooperation."]
+    }
+  ],
+
+  "key_distinctions": [
+    "The pre-romantic ideal of prudence/restraint versus the romantic ideal of passionate individual life",
+    "The industrial/rationalist revolt against the Holy Alliance versus the romantic revolt against it",
+    "Aesthetic standards of judgement versus utilitarian standards",
+    "The romantics' idealized rural 'poor' versus the nineteenth-century urban/industrial proletariat"
+  ],
+
+  "connections_to_earlier_philosophers": "Russell contrasts the romantic outlook with the eighteenth-century Enlightenment emphasis on reason, order, and Newtonian law-governed nature, and notes that a stray romantic mood can be found even earlier, e.g. in the exiled Duke in As You Like It and in Pope.",
+  "connections_to_later_philosophers": "Russell explicitly connects the romantic 'revolt of solitary instincts against social bonds' to German idealism's solipsism, and previews its role in the philosophies of Rousseau, Byron, Nietzsche, and Wagner, treated in the chapters that follow.",
+  "political_social_context": "The chapter is framed by the post-1815 Holy Alliance settlement, the rise of nationalism as the chief revolutionary principle of the earlier nineteenth century, and the romantic movement's hostility to industrialism and capitalist 'money-grubbing'.",
+  "religion_science_culture_context": "Russell notes the association between romanticism and a tendency toward Catholicism among Protestant-born romantics (since conversion combined with revolt), while observing that its lasting institutional successes were largely confined to Protestant countries; he also notes the change in taste toward Gothic architecture and wild scenery as a lasting cultural legacy.",
+
+  "russell_presentation": "Russell presents romanticism as, at bottom, not a set of doctrines but a 'way of feeling' rooted in the cult of sensibility, which Rousseau inherited and amplified. He traces its expression through changed tastes in scenery and architecture, through Gothic and exotic fiction (using Mary Shelley's Frankenstein as an extended allegory of the movement's psychological trajectory from wounded longing for love to violent rebellion), and through its eventual channeling into nationalist politics. His tone is critical rather than purely descriptive: he argues explicitly that 'it is not the psychology of the romantics that is at fault: it is their standard of values,' since they admire strong passions 'of no matter what kind,' most of which are destructive. He treats the movement as ultimately responsible for a philosophically and politically dangerous elevation of the unfettered Ego, concluding flatly that 'Man is not a solitary animal, and so long as social life survives, self-realization cannot be the supreme principle of ethics.'",
+  "critical_context": "Common scholarly caveat: Russell's account compresses a century and a half of literature and thought (from Rousseau to Melville and Thoreau) into a single 'way of feeling' and treats the movement mainly through its excesses (Byron, Frankenstein, D. H. Lawrence) rather than through its full range, including romantic figures more oriented toward nature, democracy, or religious reconciliation; readers of literary history generally treat romanticism as a much more internally varied phenomenon than this chapter's unifying psychological thesis suggests.",
+
+  "key_takeaways": [
+    "Romanticism began as a revolt against received ethical and aesthetic standards, rooted in the eighteenth-century cult of 'sensibility'.",
+    "It substituted aesthetic standards (beauty, grandeur, strangeness) for utilitarian/moral ones, reshaping taste in scenery, architecture, and fiction.",
+    "Russell's central thesis is psychological: romanticism represents a revolt of solitary human instinct against the social bonds that self-interest requires.",
+    "This revolt, taken to its logical end, produces either anarchic individualism or, when a leader embodies collective ego, despotism.",
+    "The movement's political legacy, via nationalism, runs through Byron and Mazzini toward twentieth-century developments Russell alludes to but treats fully in later chapters.",
+    "Russell judges the fault of the romantics to lie not in their psychology but in their values: admiring strong passion regardless of its destructive social consequences."
+  ],
+  "study_notes": "Approach this chapter as Russell's attempt to explain a mood, not a doctrine -- he is deliberately writing about 'matters not definitely philosophical' because he thinks this cultural mood is the necessary background for understanding the philosophy that follows (Rousseau, German idealism, Nietzsche). A useful way to organize the material is around three movements: (1) origin -- the cult of 'sensibility' as an emotional fashion that predates and feeds into Rousseau; (2) expression -- how that mood reshaped aesthetic taste (scenery, architecture, fiction) away from order and utility and toward the strange, the grand, and the violent; (3) consequence -- how an apparently private, aesthetic revolt against convention became, through the elevation of the unfettered Ego and its extension to the nation, a political force feeding nationalism and (in Russell's view) eventually dictatorship.\n\nPay close attention to Russell's use of Frankenstein: he treats Mary Shelley's novel not as incidental illustration but as a compressed psychological history of romanticism itself -- an initially gentle being turned to hatred and murder by rejection, which Russell insists is realistic psychology attached to a mistaken standard of values. This sets up his recurring argument (developed further with Byron and Nietzsche) that the danger of romanticism lies not in irrational feeling as such, but in indiscriminately prizing intensity of passion over its social effects.\n\nFinally, note the chapter's closing move: Russell converts a discussion of taste and sentiment into a general ethical claim -- that self-realization cannot be the supreme principle of ethics for a species that is not, in fact, solitary. This claim previews his critical strategy for the following chapters on Rousseau, Byron, and Nietzsche, all of whom he will judge partly by whether their doctrines can be reconciled with the demands of social cooperation.",
+
+  "glossary_terms": [
+    {
+      "term": "Sensibility (sensibilité)",
+      "beginner_explanation": "An eighteenth-century fashion for showing strong, immediate emotion, especially sympathy for the suffering of others -- prized for being spontaneous rather than reasoned.",
+      "academic_explanation": "A cultivated eighteenth-century French disposition toward direct, uninformed emotional response, particularly sympathy, later given wider cultural and ethical significance by Rousseau as the basis of both his ethics and his theology.",
+      "related_concepts": ["Romantic movement", "Rousseau's theology of the heart"]
+    },
+    {
+      "term": "The Byronic hero/type",
+      "beginner_explanation": "A romantic character type -- proud, rebellious, and often violent or self-destructive -- who defies social convention and morality.",
+      "academic_explanation": "The type of man Russell says is 'encouraged by romanticism, especially of the Byronic variety': violent and anti-social, appearing either as an anarchic rebel or as a conquering tyrant.",
+      "related_concepts": ["Revolt of solitary instinct", "Nationalism as extended egoism"]
+    },
+    {
+      "term": "Forced to be free (preview)",
+      "beginner_explanation": "A paradoxical phrase associated with romantic-era political thought suggesting that compelling someone to obey a collective will is really making them free.",
+      "academic_explanation": "Though fully developed in the Rousseau chapter, the concept has roots in the romantic elevation of a collective Ego (e.g. the nation) whose will can override the individual's while still being described as freedom.",
+      "related_concepts": ["General will", "Nationalism as extended egoism"]
+    }
+  ],
+
+  "questions": [
+    {
+      "type": "short_answer",
+      "prompt": "According to Russell, what was the eighteenth-century cult of 'sensibility', and how did it differ from genuine concern for the welfare of the poor?",
+      "answer": "Sensibility was a fashion for direct, violent, unreasoned emotion (especially sympathy) that responded to individual, vivid instances of suffering (a single destitute peasant family) while remaining cold to systematic, well-thought-out schemes for improving the condition of the poor as a class.",
+      "explanation": "Russell uses this distinction to show that the romantic movement's moral sensibility was aesthetic and emotional rather than practical or reformist from the start.",
+      "source_page": 669
+    },
+    {
+      "type": "short_answer",
+      "prompt": "How does Russell use Mary Shelley's Frankenstein to illustrate the psychological development of romanticism?",
+      "answer": "He reads the monster's trajectory -- from a gentle being longing for human affection, to hatred and violence after being rejected for his ugliness -- as an allegorical, prophetic history of the romantic movement's development from wounded longing to destructive rebellion.",
+      "explanation": "Russell insists the psychology involved is realistic, not fantastic; the fault lies in the values the romantics attach to strong passion, not in the psychology itself.",
+      "source_page": 671
+    },
+    {
+      "type": "compare_contrast",
+      "prompt": "Compare the industrial/rationalist revolt against the post-1815 Holy Alliance with the romantic revolt, as Russell distinguishes them.",
+      "answer": "The industrial revolt (capitalist and proletarian) opposed monarchy and aristocracy, was largely untouched by romanticism, and reverted in many ways to eighteenth-century ideas (free trade, Marxian socialism). The romantic revolt sought vigorous, passionate individual life rather than peace and quiet, opposed industrialism as ugly and soul-deadening, and was gradually drawn into politics chiefly through nationalism.",
+      "explanation": "This distinction sets up the two broad currents -- rationalist and romantic -- that Russell will use to organize nineteenth-century thought in Chapter XXI.",
+      "source_page": 670
+    },
+    {
+      "type": "identify_philosopher",
+      "prompt": "Which figure does Russell quote writing to his sister, 'How strongly I feel... that we belong to the same stock,' as an example of the romantic tendency to treat blood-relations as an extension of the self?",
+      "answer": "Friedrich Nietzsche.",
+      "explanation": "Russell uses this quotation, alongside Byron's relationship with his half-sister Augusta, to illustrate how romantic emphasis on 'projection of one's own Self' onto others works best with blood-relations, which Russell connects to endogamy and eventually to nationalism.",
+      "source_page": 674
+    },
+    {
+      "type": "short_answer",
+      "prompt": "What does Russell mean by describing romanticism as 'the substitution of aesthetic for utilitarian standards,' and what example does he give?",
+      "answer": "He means the romantics judged things by beauty rather than usefulness, giving the example that the earthworm is useful but not beautiful while the tiger is beautiful but not useful, and noting that Darwin (not a romantic) praised the earthworm while Blake praised the tiger.",
+      "explanation": "This standard explains many surface features of romantic taste discussed in the chapter, from scenery to fiction.",
+      "source_page": 672
+    },
+    {
+      "type": "argument_reconstruction",
+      "prompt": "Reconstruct Russell's psychological argument for why the romantic 'ecstasy of independence' is appealing but ultimately unavailable to ordinary people.",
+      "answer": "Premise 1: humans are gregarious by self-interest but solitary by instinct. Premise 2: religion and morality reinforce self-interest against this instinct, requiring restraint of passion. Premise 3: restraint is irksome, and throwing it off in moments of passion brings a new sense of power. Conclusion: this exhilarating independence, if generalized (as the romantic ideal implies), would require everyone to live solitary and without labour, which is impossible; therefore it is available in practice only to 'madmen and dictators.'",
+      "explanation": "This is the chapter's central diagnostic argument, tying private psychology to Russell's broader political warning about romanticism's trajectory toward despotism.",
+      "source_page": 675
+    },
+    {
+      "type": "short_answer",
+      "prompt": "How, according to Russell, did the essentially unpolitical romantic movement come to have major political effects?",
+      "answer": "Gradually, in the post-revolutionary period, romantics were led into politics through nationalism: each nation was felt to have a corporate soul that could not be free unless state boundaries matched national boundaries, making nationalism the most vigorous revolutionary principle of the earlier nineteenth century.",
+      "explanation": "This connects the chapter's aesthetic/psychological analysis to the political history Russell will develop further with Byron, Mazzini, Hegel, and Nietzsche.",
+      "source_page": 676
+    }
+  ],
+
+  "flashcards": [
+    { "front": "What is 'sensibilité' as Russell describes it?", "back": "An eighteenth-century French cult of direct, violent, unreasoned emotion, especially sympathy, prized more for intensity than for practical effect.", "category": "concept" },
+    { "front": "Who does Russell credit as the first great figure of the romantic movement?", "back": "Jean-Jacques Rousseau, though he only expressed already-existing tendencies of sensibility.", "category": "person" },
+    { "front": "What does Russell mean by the romantics' 'substitution of aesthetic for utilitarian standards'?", "back": "Judging things by beauty (the tiger) rather than usefulness (the earthworm), reshaping romantic taste in nature, architecture, and fiction.", "category": "concept" },
+    { "front": "How does Russell use Frankenstein's monster?", "back": "As an allegorical, prophetic history of romanticism: a gentle being turned to hatred and murder by society's rejection of him.", "category": "concept" },
+    { "front": "What two forms did nineteenth-century revolt against the Holy Alliance take, per Russell?", "back": "An industrial/rationalist revolt (free trade, Marxism) and a romantic revolt (anti-industrial, aesthetic, channeled into nationalism).", "category": "concept" },
+    { "front": "What is Russell's core psychological thesis about romanticism?", "back": "It is a revolt of solitary human instinct against the social bonds required by self-interest and cooperation.", "category": "argument" },
+    { "front": "What does Russell say happens when the romantic Ego's demand for tenderness is disappointed?", "back": "It turns to hatred and violence upon discovering that others also have their own Ego.", "category": "argument" },
+    { "front": "According to Russell, to whom alone is the romantic 'ecstasy of independence' available in practice?", "back": "Madmen and dictators.", "category": "argument" },
+    { "front": "Which changed tastes does Russell cite as lasting legacies of romanticism?", "back": "Preference for Gothic over classical architecture and for wild/sublime scenery (Alps, Niagara, Grand Canyon) over cultivated pastures.", "category": "fact" },
+    { "front": "What did Nietzsche write to his sister that Russell quotes?", "back": "That he feels strongly they 'belong to the same stock' and that she understands him better because they share the same parentage.", "category": "quote" },
+    { "front": "How does Russell connect romanticism to anti-Semitism?", "back": "Through the romantic emphasis on blood and race, combined with aristocratic contempt for commerce, which Russell illustrates with Byron's verse about 'Jew Rothschild.'", "category": "argument" },
+    { "front": "What is Russell's final verdict on self-realization as an ethical principle?", "back": "It cannot be the supreme principle of ethics, because man is not in fact a solitary animal and social life must survive.", "category": "argument" },
+    { "front": "Where, according to Russell, was romanticism 'at first mainly German,' despite owing its origin to Rousseau?", "back": "Among the young German romantics of the late eighteenth century, who influenced Coleridge and Shelley in England.", "category": "fact" },
+    { "front": "What English literary works does Russell cite as satirizing early romanticism?", "back": "Sheridan's The Rivals and Jane Austen's Northanger Abbey and Sense and Sensibility.", "category": "fact" }
+  ],
+
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "According to Russell, what is the romantic movement, in its most essential form?",
+      "options": ["A school of formal logic", "A revolt against received ethical and aesthetic standards", "A branch of empiricist epistemology", "A strictly political party program"],
+      "correct_index": 1,
+      "explanation": "Russell opens the chapter by describing romanticism as, in its most essential form, a revolt against received ethical and aesthetic standards.",
+      "related_concept": "Sensibilité (the cult of sensibility)",
+      "source_page": 669
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "Who does Russell identify as the first great figure of the romantic movement?",
+      "options": ["Immanuel Kant", "Lord Byron", "Jean-Jacques Rousseau", "Friedrich Nietzsche"],
+      "correct_index": 2,
+      "explanation": "Russell names Rousseau as the first great figure, though he notes Rousseau mainly expressed already-existing tendencies of sensibility.",
+      "related_concept": "Sensibilité (the cult of sensibility)",
+      "source_page": 669
+    },
+    {
+      "type": "true_false",
+      "prompt": "Russell claims that Darwin, who praised the earthworm, was himself a romantic.",
+      "options": ["True", "False"],
+      "correct_index": 1,
+      "explanation": "Russell explicitly notes 'Darwin (who was not a romantic) praised the earth-worm' in contrast to Blake, who praised the tiger.",
+      "related_concept": "Substitution of aesthetic for utilitarian standards",
+      "source_page": 672,
+      "difficulty": "beginner"
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "Which novel does Russell treat as an allegorical, prophetic history of the development of romanticism?",
+      "options": ["Wuthering Heights", "Frankenstein", "The Sorrows of Young Werther", "Northanger Abbey"],
+      "correct_index": 1,
+      "explanation": "Russell discusses Mary Shelley's Frankenstein at length as capturing the romantic movement's psychological trajectory from a longing for love to violent revolt.",
+      "related_concept": "Revolt of solitary instinct against social bonds",
+      "source_page": 671
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "Per Russell, through what channel did the essentially unpolitical romantic movement mainly enter practical politics after the Revolution?",
+      "options": ["Free-trade economics", "Nationalism", "Parliamentary reform movements", "Utilitarian legislation"],
+      "correct_index": 1,
+      "explanation": "Russell states romantics were 'led into politics, gradually... through nationalism,' since each nation was felt to have a corporate soul.",
+      "related_concept": "Nationalism as extended egoism",
+      "source_page": 676
+    },
+    {
+      "type": "fill_in_blank",
+      "difficulty": "intermediate",
+      "prompt": "Russell writes that man is not a solitary animal, and so long as social life survives, ________ cannot be the supreme principle of ethics.",
+      "options": ["self-realization", "utilitarianism", "obedience", "sensibility"],
+      "correct_index": 0,
+      "explanation": "This is the chapter's closing sentence, summarizing Russell's ultimate objection to the romantic elevation of the unfettered Ego.",
+      "related_concept": "Revolt of solitary instinct against social bonds",
+      "source_page": 677
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "prompt": "Which pair of authors does Russell cite as depicting passionate love as a battle in which each partner tries to destroy the other's ego?",
+      "options": ["Voltaire and Rousseau", "Strindberg and D. H. Lawrence", "Goethe and Schiller", "Byron and Shelley"],
+      "correct_index": 1,
+      "explanation": "Russell attributes this view of love-as-battle to the writing of Strindberg and, still more, D. H. Lawrence.",
+      "related_concept": "Revolt of solitary instinct against social bonds",
+      "source_page": 677
+    },
+    {
+      "type": "true_false",
+      "prompt": "Russell argues that romanticism's lasting institutional successes in moulding customs, opinions, and institutions were confined almost wholly to Catholic countries.",
+      "options": ["True", "False"],
+      "correct_index": 1,
+      "explanation": "Russell states the opposite: despite a tendency toward Catholicism, romanticism's permanent successes were 'almost wholly confined to Protestant countries,' owing to its ineradicably Protestant individualism.",
+      "related_concept": "Sensibilité (the cult of sensibility)",
+      "source_page": 674,
+      "difficulty": "advanced"
+    }
+  ],
+
+  "essay_prompts": [
+    {
+      "task_type": "Analyze",
+      "prompt": "Analyze Russell's claim that romanticism is best understood not as a set of doctrines but as a psychological 'revolt of solitary instincts against social bonds.' Is this diagnosis adequate to explain both the aesthetic and the political dimensions of the movement he describes?",
+      "rubric": ["Accurate summary of Russell's psychological thesis", "Use of specific textual evidence (Frankenstein, Byron, Nietzsche)", "Evaluation of whether aesthetic taste and political nationalism are adequately unified by this thesis", "Awareness of Russell's own explicit tone/evaluation"]
+    },
+    {
+      "task_type": "Compare",
+      "prompt": "Compare the industrial/rationalist revolt and the romantic revolt against the post-1815 political order, as Russell distinguishes them, and assess how well this two-track picture anticipates the divide he will draw in Chapter XXI between 'romantic' and 'rationalistic' currents of nineteenth-century thought.",
+      "rubric": ["Correct characterization of both revolts", "Connection to the chapter's discussion of industrialism and nationalism", "Forward-looking connection to later chapters", "Clarity of comparative structure"]
+    }
+  ],
+
+  "extraction_confidence": "high"
+}

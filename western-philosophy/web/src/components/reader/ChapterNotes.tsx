@@ -1,20 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { addNote, deleteNote, loadProgress, type Note } from "@/lib/progress";
+import { useState } from "react";
+import { addNote, deleteNote, useProgress } from "@/lib/progress";
 
 export default function ChapterNotes({ chapterId }: { chapterId: string }) {
-  const [notes, setNotes] = useState<Note[]>([]);
+  const progress = useProgress();
+  const notes = progress.notes.filter((n) => n.chapterId === chapterId);
   const [text, setText] = useState("");
-
-  useEffect(() => {
-    setNotes(loadProgress().notes.filter((n) => n.chapterId === chapterId));
-  }, [chapterId]);
 
   function submit() {
     if (!text.trim()) return;
-    const s = addNote(chapterId, text.trim());
-    setNotes(s.notes.filter((n) => n.chapterId === chapterId));
+    addNote(chapterId, text.trim());
     setText("");
   }
 
@@ -46,10 +42,7 @@ export default function ChapterNotes({ chapterId }: { chapterId: string }) {
             >
               <span className="text-ink">{n.text}</span>
               <button
-                onClick={() => {
-                  const s = deleteNote(n.id);
-                  setNotes(s.notes.filter((x) => x.chapterId === chapterId));
-                }}
+                onClick={() => deleteNote(n.id)}
                 className="shrink-0 text-[12px] text-ink-3 hover:text-bad"
               >
                 remove

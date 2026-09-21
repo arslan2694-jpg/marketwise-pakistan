@@ -1,0 +1,35 @@
+{
+  "slug": "pragmatist-theory-of-truth",
+  "name": "Pragmatist theory of truth",
+  "plain_explanation": "James claims an idea is 'true' not because it matches some fact, but because believing it is useful -- it helps us get along well with the rest of our experience. So truth is a kind of practical payoff rather than a copy of reality.",
+  "precise_definition": "Set out in Pragmatism, a New Name for Some Old Ways of Thinking (1907), James's doctrine that 'an idea is \"true\" so long as to believe it is profitable to our lives,' that truth is 'made' by events rather than discovered, that 'to agree' with reality means being guided usefully toward it rather than 'copying' it, and that 'the \"true\" is only the expedient in the way of our thinking... in the long run and on the whole.'",
+  "why_it_mattered": "It is James's central, most distinctive philosophical contribution and the doctrine, in Russell's judgment, on which James's reputation as a serious epistemologist most depends -- and also the doctrine Russell finds most objectionable, especially in its application to religion ('if the hypothesis of God works satisfactorily... it is true').",
+  "historical_origin": "Pragmatism, a New Name for Some Old Ways of Thinking (1907), building on the principle first enunciated by C. S. Peirce.",
+  "associated_philosopher": "William James",
+  "examples": [
+    "\"We cannot reject any hypothesis if consequences useful to life flow from it.\"",
+    "\"If the hypothesis of God works satisfactorily in the widest sense of the word, it is true.\""
+  ],
+  "objections": [
+    "Russell's regress objection: judging a belief's consequences to be good is itself only 'true' if that judgement has good consequences, and so on ad infinitum -- 'obviously this won't do.'",
+    "Russell's Columbus example: to know whether Columbus crossed the Atlantic in 1492 we would, on James's theory, have to weigh the ethical and practical effects of believing 1492 versus 1491 or 1493, rather than simply consulting historical causes -- an 'incredible complication.'",
+    "Russell's causes-versus-effects objection: a statement like 'there was such a person as Columbus' is true because of a real man who lived 450 years ago (its causes), not because of the effects of believing it.",
+    "Russell's Santa Claus reductio: since belief in Santa Claus 'works satisfactorily in the widest sense of the word,' James's definition would make 'Santa Claus exists' true although Santa Claus does not exist."
+  ],
+  "competing_positions": [
+    "Russell's own causal theory of truth: a belief about a past occurrence is true, or as near true as possible, in virtue of a certain relation to its causes, not its future effects"
+  ],
+  "influence_on_later_thinkers": "Contrasted by Russell with John Dewey's related but distinct 'instrumentalism,' examined in the following chapter.",
+  "connection_to_politics_or_religion": "Applied by James directly to religious belief; Russell notes the Pope condemned this 'pragmatic defence of religion,' and argues it reduces God to a useful hypothesis rather than an actual being.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "William James",
+      "treatment": "James claims an idea is 'true' not because it matches some fact, but because believing it is useful -- it helps us get along well with the rest of our experience. So truth is a kind of practical payoff rather than a copy of reality."
+    }
+  ]
+}

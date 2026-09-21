@@ -1,0 +1,29 @@
+{
+  "slug": "over-estimation-of-deduction-relative-to-induction",
+  "name": "Over-estimation of deduction relative to induction",
+  "plain_explanation": "Greek philosophers in general, and to a lesser extent Aristotle himself, treated logical deduction as the main road to knowledge, but Russell argues most of what we actually know -- including 'Mr. Smith is mortal' -- really rests on induction (generalizing from many observed cases) rather than on deducing it from a supposedly certain universal premise like 'all men are mortal.'",
+  "precise_definition": "Russell's claim that, apart from logic and pure mathematics, virtually all substantive inference outside law and theology (which derive their first principles from an unquestionable text) is inductive rather than deductive, contrary to the excessive prominence Greek philosophy, including Aristotle's own theory of knowledge, gives to deduction from general premises.",
+  "why_it_mattered": "It corrects a foundational error about the nature of empirical knowledge: 'all men are mortal' is not itself known with certainty (no living man has yet falsified it), so any inference from it to a particular case is, at bottom, inductive and only probable, not the certain deduction Aristotelian theory of knowledge suggests.",
+  "historical_origin": "Russell credits Aristotle with being 'less at fault than Plato' here, since Aristotle 'repeatedly admitted the importance of induction' and asked how first premises are known -- but still judges him guilty of 'undue prominence' to deduction overall.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "What we really know is closer to 'all men born more than one hundred and fifty years ago are mortal, and so are almost all men born more than one hundred years ago' -- an inductive generalization from observed cases, not a certain universal premise."
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Law and theology, which Russell notes are genuine exceptions, since they derive first principles deductively from an 'unquestionable text' (statute books or scripture) rather than from induction over experience."
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Greek philosophers in general, and to a lesser extent Aristotle himself, treated logical deduction as the main road to knowledge, but Russell argues most of what we actually know -- including 'Mr. Smith is mortal' -- really rests on induction (generalizing from many observed cases) rather than on deducing it from a supposedly certain universal premise like 'all men are mortal.'"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "gottfried-wilhelm-leibniz",
+  "name": "Gottfried Wilhelm Leibniz",
+  "era": "Ancient",
+  "dates": "1646-1716",
+  "geography": "",
+  "school": "Rationalism",
+  "major_ideas": [
+    "Monads",
+    "Windowless monads and pre-established harmony",
+    "The four arguments for God's existence",
+    "Best of all possible worlds / theodicy",
+    "The esoteric doctrine: subject-predicate logic and the complete concept of substance",
+    "Characteristica Universalis"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Believed, against Newton, that space is merely a system of relations, not a substance; his controversy with Newton (via Clarke) is said by Russell to be settled decisively in Leibniz's favor by Einstein. Cited as an instance of the subjective tendency reappearing in his doctrine of 'windowless monads.' Mentioned as having owed much to Spinoza while concealing the debt and denying the extent of their personal acquaintance. Primary subject; his life, his popular and esoteric philosophies, his monadology, his proofs of God, his theodicy, and his logic-based metaphysics are all examined. Mentioned as a contemporary rationalist metaphysician whose speculations Locke dismissively called 'this kind of fiddling,' illustrating Locke's impatience with grand metaphysical systems. Used as Russell's example of the deductive, pyramid-building Continental method, illustrated by his monadology argument that, since matter is extended and therefore complex, and the simple cannot be extended, the ultimate constituents of things must be non-material, hence mental. Cited as having believed in actual infinitesimals for reasons suited to his metaphysics but without sound mathematical basis, and as having wrongly concluded from the paradox of infinite collections that there can be no infinite numbers -- a conclusion Cantor overturned.",
+  "central_doctrines": "Monads: Simple, unextended substances, each essentially a soul with perceptions of varying clarity, that make up all of reality; Leibniz denied that extension could be an attribute of a true substance because extension implies plurality, so genuine substances must be unextended and therefore mental. Windowless monads and pre-established harmony: The doctrine that no monad can have any causal relation to any other; each simply unfolds according to its own nature, and the appearance of interaction across monads is explained by a harmony pre-established by God at creation. The four arguments for God's existence: (1) Ontological: since existence is a 'perfection,' and God is defined as possessing all perfections, God's essence entails His existence. (2) Cosmological: every contingent thing, and the universe as a whole, needs a 'sufficient reason' outside itself, which must be God. (3) From eternal truths: necessary truths (like mathematics) must exist as thoughts in an eternal mind. (4) From pre-established harmony/design: the harmonious coordination of monads (or, more generally, apparent design in nature) points to a beneficent creator. Best of all possible worlds / theodicy: The doctrine that a possible world is one not contradicting the laws of logic; God, being good, necessarily creates the possible world with the greatest surplus of good over evil, so the evils that exist are logically necessary for a greater compensating good and provide no argument against God's goodness. The esoteric doctrine: subject-predicate logic and the complete concept of substance: The doctrine that in every true proposition the predicate is contained in the subject; applied to individual substances, this means the complete 'notion' of an individual (e.g., Alexander the Great, or Adam) already logically contains every predicate that will ever truly be asserted of him, including all future events, though only God's infinite understanding can actually analyze this out.",
+  "key_arguments": [
+    "The ontological argument (Leibniz's version)",
+    "The cosmological argument",
+    "The argument from the eternal truths",
+    "The argument from pre-established harmony (generalizable to the argument from design)",
+    "The best-of-all-possible-worlds argument (theodicy)"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "parmenides",
+    "plato",
+    "aristotle",
+    "rene-descartes",
+    "saint-anselm",
+    "baruch-spinoza",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "immanuel-kant",
+    "georg-wilhelm-friedrich-hegel"
+  ],
+  "disagreements": [
+    {
+      "with": "rene-descartes",
+      "about": "Monads"
+    },
+    {
+      "with": "baruch-spinoza",
+      "about": "Monads"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Best of all possible worlds / theodicy"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell portrays Leibniz as a towering intellect but a morally unimpressive figure, contrasting him sharply and repeatedly with Spinoza's integrity. He divides Leibniz's philosophy into a shallow, published system designed to please patrons - centered on monads, the best of all possible worlds, and metaphysical proofs of God - and a profound, unpublished, largely Spinozistic system that Leibniz suppressed after Arnauld's horrified reaction convinced him it was too shocking to publish. Russell walks through the classic proofs of God's existence in their most rigorous, Leibnizian form (ontological, cosmological, from eternal truths, and from design), presenting careful, largely Kantian objections to each. He treats the doctrine of the best of all possible worlds as clever but unconvincing, mocking it with a deliberately parallel 'worst of all possible worlds' argument. Finally, Russell gives real credit to the 'esoteric' Leibniz, presenting the subject-predicate logic underlying the complete-concept theory of substance as intellectually serious even though ultimately mistaken, and faults Leibniz for inconsistently combining a logic that implies monism with a metaphysics of plural, independent monads. Russell closes by praising Leibniz's genuine achievements: his invention of the calculus, his pioneering (if unpublished) work in mathematical logic, and the continuing usefulness of his distinction between subjective and objective space.",
+  "why_this_matters": "Russell distinguishes a 'popular' Leibniz, who wrote to please royal patrons, from a more profound 'esoteric' Leibniz whose deterministic, Spinozistic views were kept hidden and only published from manuscript nearly two centuries after his death. Leibniz's monads are simple, unextended, mind-like substances that make up all reality; they are 'windowless' and never causally interact, appearing to correspond only through God's pre-established harmony.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-ix",
+      "role": "Believed, against Newton, that space is merely a system of relations, not a substance; his controversy with Newton (via Clarke) is said by Russell to be settled decisively in Leibniz's favor by Einstein."
+    },
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Cited as an instance of the subjective tendency reappearing in his doctrine of 'windowless monads.'"
+    },
+    {
+      "chapter_id": "book-3-ch-x",
+      "role": "Mentioned as having owed much to Spinoza while concealing the debt and denying the extent of their personal acquaintance."
+    },
+    {
+      "chapter_id": "book-3-ch-xi",
+      "role": "Primary subject; his life, his popular and esoteric philosophies, his monadology, his proofs of God, his theodicy, and his logic-based metaphysics are all examined."
+    },
+    {
+      "chapter_id": "book-3-ch-xiii",
+      "role": "Mentioned as a contemporary rationalist metaphysician whose speculations Locke dismissively called 'this kind of fiddling,' illustrating Locke's impatience with grand metaphysical systems."
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Used as Russell's example of the deductive, pyramid-building Continental method, illustrated by his monadology argument that, since matter is extended and therefore complex, and the simple cannot be extended, the ultimate constituents of things must be non-material, hence mental."
+    },
+    {
+      "chapter_id": "book-3-ch-xxxi",
+      "role": "Cited as having believed in actual infinitesimals for reasons suited to his metaphysics but without sound mathematical basis, and as having wrongly concluded from the paradox of infinite collections that there can be no infinite numbers -- a conclusion Cantor overturned."
+    }
+  ],
+  "extraction_confidence": "high"
+}

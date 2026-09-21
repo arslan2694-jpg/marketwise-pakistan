@@ -1,0 +1,36 @@
+{
+  "slug": "nestorius",
+  "name": "Nestorius",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [
+    "The Nestorian controversy (two Persons vs. one)"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Patriarch of Constantinople who held that Christ's human and divine natures constituted two distinct Persons, and objected on this ground to calling the Virgin 'Mother of God'; condemned as a heretic at the Council of Ephesus (431), founding the Nestorian sect that spread through Syria, Persia, India, and eventually China.",
+  "central_doctrines": "The Nestorian controversy (two Persons vs. one): The Christological dispute, chiefly between Nestorius and Cyril, over whether Christ's divinity and humanity constitute two distinct Persons (Nestorius's view) or are united in a single Person, and, if united, whether in one nature or two.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-v",
+      "role": "Patriarch of Constantinople who held that Christ's human and divine natures constituted two distinct Persons, and objected on this ground to calling the Virgin 'Mother of God'; condemned as a heretic at the Council of Ephesus (431), founding the Nestorian sect that spread through Syria, Persia, India, and eventually China."
+    }
+  ],
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "plotinus",
+  "name": "Plotinus",
+  "era": "Ancient",
+  "dates": "A.D. 204-270",
+  "geography": "",
+  "school": "Neoplatonism",
+  "major_ideas": [
+    "The Neoplatonic Trinity: the One, Spirit (nous), and Soul",
+    "Mystical ecstasy and union with the One",
+    "The visible world as beautiful, not evil (Plotinus's anti-Gnostic argument)",
+    "The soul as Essence, not as the form of the body",
+    "Diminishing memory and the loss of personal identity in the afterlife"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Founder of Neoplatonism; develops a systematic mystical metaphysics of three hypostases (the One, nous/Spirit, and Soul), argues at length against Gnostic contempt for the visible world and against Stoic materialism, defends the soul's immortality as Essence rather than as the form of a body, and records his own repeated mystical experiences of ecstatic union with the Divine. Named by Augustine, following a common view, as the interpreter who 'understood Plato the best of any'; Russell notes the Neoplatonist background to Augustine's discussion of angels and demons.",
+  "central_doctrines": "The Neoplatonic Trinity: the One, Spirit (nous), and Soul: Plotinus's metaphysical hierarchy of three unequal hypostases: the One (transcending Being itself, indefinable, sometimes called God or the Good), nous or Spirit (the 'image' of the One, engendered by the One's self-directed vision, containing the world of Forms/ideas), and Soul (the offspring of nous, which creates the visible sensory world, Nature, as its 'downward' image). Mystical ecstasy and union with the One: The direct, non-discursive apprehension of the One (or of nous) that Plotinus reports experiencing repeatedly in his own life, described as a state in which 'there is no power whatever to make any affirmation' and reasoning about the vision is possible only 'afterwards,' once ordinary consciousness resumes. The visible world as beautiful, not evil (Plotinus's anti-Gnostic argument): Plotinus's sustained polemic (chiefly in the Second Ennead's 'Tractate on the Gnostics') against the Gnostic doctrine that the created cosmos and its maker are evil; Plotinus argues instead that the world of sense, though inevitably an imperfect copy of the intellectual realm, is 'as good as a sensible world can be,' and that the heavenly bodies in particular are the bodies of god-like beings far superior to human souls, not products of an evil demiurge. The soul as Essence, not as the form of the body: Plotinus's argument, developed in the Fourth Ennead (Seventh Tractate), that the soul cannot be identical either to matter (as the Stoics held) or to the form of a material body (as Aristotle, unnamed, held), because the soul's unity and its capacity for intellectual activity would then be impossible; instead the soul belongs to the eternal order of Essence, and is therefore immortal.",
+  "key_arguments": [
+    "Argument against the soul being either matter or the form of a material body",
+    "Argument that the visible cosmos is a beautiful, necessary image of the divine, against the Gnostics"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "parmenides",
+    "plato",
+    "aristotle",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "plato",
+    "aristotle",
+    "origen",
+    "philo",
+    "saint-augustine",
+    "thomas-aquinas",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "bertrand-russell",
+      "about": "The Neoplatonic Trinity: the One, Spirit (nous), and Soul"
+    },
+    {
+      "with": "aristotle",
+      "about": "The soul as Essence, not as the form of the body"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell treats Plotinus with unusually warm personal and aesthetic admiration, ranking him as historically important on at least three separate grounds: as the decisive channel through which Platonism entered and shaped Christian theology (via Dean Inge's scholarship, extensively quoted); as an example of genuine philosophical clarification of Plato's own doctrines, particularly on the relation of soul and body; and as an author of real literary and imaginative beauty, whose descriptions of the eternal world Russell compares to the later cantos of Dante's Paradiso. Russell is careful to distinguish these different grounds for a philosophy's importance from the separate question of whether it is true, noting frankly that few modern readers (Dean Inge being a rare exception) would consider Plotinus's system straightforwardly correct. He is especially struck by the combination, in Plotinus, of rigorous metaphysical system-building with genuine, repeatedly reported personal mystical experience, and by Plotinus's world-affirming aesthetic sensibility (his defense of the visible world's beauty against Gnostic contempt), which Russell contrasts favorably with the later, more world-denying asceticism of both Christians and pagans. He closes by describing Plotinus as simultaneously 'an end' (of the pagan Greek philosophical tradition, exhausted by centuries of disappointment) and 'a beginning' (for Christendom, since what could survive of his philosophy proved beneficial to the cruder, energetic barbarian world that needed restraint rather than stimulation) -- a framing that directly sets up the transition to Book Two.",
+  "why_this_matters": "Plotinus (A.D. 204-270), founder of Neoplatonism, is presented by Russell as the last great philosopher of pagan antiquity and, simultaneously, as a decisive shaping influence on Christian theology. His metaphysics describes an unequal hierarchy of three realities: the wholly transcendent, indescribable One; nous/Spirit, the divine Mind containing the eternal Forms; and Soul, which creates and animates the visible physical universe.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxx",
+      "role": "Founder of Neoplatonism; develops a systematic mystical metaphysics of three hypostases (the One, nous/Spirit, and Soul), argues at length against Gnostic contempt for the visible world and against Stoic materialism, defends the soul's immortality as Essence rather than as the form of a body, and records his own repeated mystical experiences of ecstatic union with the Divine."
+    },
+    {
+      "chapter_id": "book-2-ch-iv",
+      "role": "Named by Augustine, following a common view, as the interpreter who 'understood Plato the best of any'; Russell notes the Neoplatonist background to Augustine's discussion of angels and demons."
+    }
+  ],
+  "extraction_confidence": "high"
+}

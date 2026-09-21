@@ -1,0 +1,34 @@
+{
+  "slug": "theology-of-the-heart-natural-religion",
+  "name": "Theology of the heart (natural religion)",
+  "plain_explanation": "Rousseau's innovation of basing belief in God not on logical proofs but on feelings -- the sense of awe at nature, the conviction that one simply cannot help believing. As he tells an aristocratic lady, doubt vanishes when he watches the sunrise.",
+  "precise_definition": "A mode of religious justification, invented by Rousseau and later adopted by the majority of Protestant theologians, which grounds belief in God's existence in an aspect of human nature (emotion, conscience, aspiration) rather than in intellectual demonstration such as the ontological, cosmological, or design arguments.",
+  "why_it_mattered": "Russell calls it a genuine historical innovation: before Rousseau, every philosopher who believed in God, from Plato onward, offered intellectual arguments for that belief; Rousseau is the first to substitute feeling for argument, a move that became so familiar its originality is easily missed.",
+  "historical_origin": "Set out most formally in 'The Confession of Faith of a Savoyard Vicar', an interlude in Book IV of Emile (1762).",
+  "associated_philosopher": "Jean-Jacques Rousseau",
+  "examples": [
+    "'I believe in God as strongly as I believe any other truth, because believing and not believing are the last things in the world that depend on me.'",
+    "The Savoyard Vicar finding moral rules 'in the depths of my heart, written by Nature in ineffaceable characters' rather than deducing them from philosophy"
+  ],
+  "objections": [
+    "The fact that Rousseau cannot help believing something gives another person no ground to believe the same thing, since it is a private argument.",
+    "There is no reason to think heart-based beliefs will be true, and the heart says different, even contradictory, things to different people (Russell's example: some savages' 'natural light' tells them it is their duty to eat people).",
+    "Even if the heart said the same thing to everyone, that would still be no evidence for the existence of anything beyond our own emotions -- desiring something, however intensely, is no ground for supposing it exists."
+  ],
+  "competing_positions": [
+    "Traditional intellectual proofs of God's existence (ontological, cosmological, design arguments) offered by philosophers from Plato to Descartes and Leibniz, which Russell says at least could be refuted if invalid, unlike theology of the heart, which 'cannot be refuted, because it does not profess to prove its points.'"
+  ],
+  "influence_on_later_thinkers": "Accepted, in Russell's account, by the great majority of subsequent Protestant theologians as the standard mode of defending religious belief.",
+  "connection_to_politics_or_religion": "Shocked both Catholic and Protestant orthodoxy chiefly through its rejection of revelation and of eternal hell, and its claim that salvation is not confined to any one Church.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Jean-Jacques Rousseau",
+      "treatment": "Rousseau's innovation of basing belief in God not on logical proofs but on feelings -- the sense of awe at nature, the conviction that one simply cannot help believing. As he tells an aristocratic lady, doubt vanishes when he watches the sunrise."
+    }
+  ]
+}

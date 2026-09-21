@@ -1,0 +1,18 @@
+{
+  "slug": "the-eleatic-school",
+  "name": "The Eleatic school",
+  "period": "Spans multiple eras",
+  "doctrines": [
+    "The One (Parmenidean Being)",
+    "The argument from thought and language to the existence of their objects"
+  ],
+  "philosophers": [
+    "parmenides"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-v",
+    "book-3-ch-xxviii"
+  ]
+}

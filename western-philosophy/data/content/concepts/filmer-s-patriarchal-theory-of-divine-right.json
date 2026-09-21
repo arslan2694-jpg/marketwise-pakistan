@@ -1,0 +1,35 @@
+{
+  "slug": "filmer-s-patriarchal-theory-of-divine-right",
+  "name": "Filmer's patriarchal theory of divine right",
+  "plain_explanation": "Sir Robert Filmer argued that kings rule because God originally gave Adam authority over the whole earth, which passed down through inheritance to modern monarchs -- so a king's power over subjects is really just an extension of a father's natural power over his children.",
+  "precise_definition": "The doctrine, from Filmer's Patriarcha, that political power derives entirely from paternal authority: 'the source of regal authority is subjection of children to parents; ... the patriarchs in Genesis were monarchs; ... kings are the heirs of Adam, or at least are to be regarded as such; ... the natural rights of a king are the same as those of a father.'",
+  "why_it_mattered": "Russell treats this theory as historically important precisely because of how thoroughly and easily Locke demolished it, marking the effective end of hereditary divine right as a serious basis for European political legitimacy -- though Russell notes the same style of reasoning persisted, formally, in imperial Japan.",
+  "historical_origin": "Patriarcha, published 1680 but written under Charles I, replying to 'subversive doctrines' already current before the Civil War.",
+  "associated_philosopher": "Sir Robert Filmer",
+  "examples": [
+    "Filmer's claim that Noah allotted Africa, Asia, and Europe to Ham, Shem, and Japheth",
+    "The claim that 'the desire of liberty was the first cause of the fall of Adam'",
+    "Comparison to the pre-war Japanese imperial doctrine of descent from the Sun Goddess"
+  ],
+  "objections": [
+    "Locke: if parental power is the model, the mother's power should equal the father's",
+    "Locke: primogeniture is unjust as a principle, and paternal power is temporary and does not extend to life or property",
+    "Locke: Adam can have only one true heir, and no one knows who that is, so almost all monarchs would be usurpers on Filmer's own logic"
+  ],
+  "competing_positions": [
+    "Locke's social-contract theory of government"
+  ],
+  "influence_on_later_thinkers": "Russell notes the hereditary principle in politics had almost vanished by his own day (citing the fall of the Brazilian, Chinese, Russian, German, and Austrian monarchies), even as hereditary economic power (inherited wealth) survives largely unexamined.",
+  "connection_to_politics_or_religion": "Rooted in biblical genealogy (Adam, Noah, the patriarchs) and in the broader medieval battle between Church and State over the limits of kingly power.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Sir Robert Filmer",
+      "treatment": "Sir Robert Filmer argued that kings rule because God originally gave Adam authority over the whole earth, which passed down through inheritance to modern monarchs -- so a king's power over subjects is really just an extension of a father's natural power over his children."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "rationalism",
+  "name": "Rationalism",
+  "period": "Modern",
+  "doctrines": [
+    "Substance monism (\"God or Nature\")",
+    "Determinism and the denial of free will",
+    "Bondage versus freedom / passions versus adequate ideas",
+    "The intellectual love of God (amor intellectualis Dei)",
+    "Monads",
+    "Windowless monads and pre-established harmony",
+    "The four arguments for God's existence",
+    "Best of all possible worlds / theodicy",
+    "The esoteric doctrine: subject-predicate logic and the complete concept of substance"
+  ],
+  "philosophers": [
+    "baruch-spinoza",
+    "gottfried-wilhelm-leibniz"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-x",
+    "book-3-ch-xi"
+  ]
+}

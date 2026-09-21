@@ -1,0 +1,33 @@
+{
+  "slug": "universal-flux",
+  "name": "Universal flux",
+  "plain_explanation": "Heraclitus's most famous idea: everything is constantly changing, so that, as he put it, you cannot step twice into the same river, because fresh waters are always flowing in.",
+  "precise_definition": "The doctrine, attributed to Heraclitus by Plato ('nothing ever is, everything is becoming') and Aristotle ('nothing steadfastly is'), that all things are in perpetual process rather than possessing fixed, unchanging being.",
+  "why_it_mattered": "Sets up the central metaphysical opposition of early Greek philosophy (change versus permanence), which Parmenides will directly answer in the next chapter by denying that change is even possible, and which Russell traces forward into the physics of atoms, energy, and Einstein.",
+  "historical_origin": "Attributed to Heraclitus, flourishing c. 500 B.C.; the phrase 'panta rhei' ('all things flow') attributed to him is probably apocryphal, though the doctrine itself is well attested in surviving fragments.",
+  "associated_philosopher": "Heraclitus",
+  "examples": [
+    "'You cannot step twice into the same river; for fresh waters are ever flowing in upon you.'",
+    "'The sun is new every day.'"
+  ],
+  "objections": [
+    "Parmenides' subsequent argument (Chapter V) that change is logically impossible",
+    "Modern physics initially sought permanent substrata (atoms, then electrons/protons, then energy) to escape the doctrine of flux, though Russell notes even 'energy' is a process, not a persisting thing"
+  ],
+  "competing_positions": [
+    "Parmenides' denial of change and belief in a single unchanging 'One'"
+  ],
+  "influence_on_later_thinkers": "Directly answered by Parmenides; discussed extensively by Plato (Theaetetus) and Aristotle; Russell connects it to modern physics' eventual abandonment of a permanent 'substance' in favor of processes/events.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-iv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Heraclitus",
+      "treatment": "Heraclitus's most famous idea: everything is constantly changing, so that, as he put it, you cannot step twice into the same river, because fresh waters are always flowing in."
+    }
+  ]
+}

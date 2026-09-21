@@ -1,0 +1,36 @@
+{
+  "slug": "archimedes",
+  "name": "Archimedes",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Applied Eudoxus's method of exhaustion to calculate areas (squaring the parabola exactly) and to bound the value of pi; also the chief surviving witness, via a letter to King Gelon, to Aristarchus's heliocentric hypothesis; killed when Rome captured Syracuse in 212 BC.",
+  "central_doctrines": "",
+  "key_arguments": [
+    "Archimedes's exhaustion-method proof bounding pi"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxiv",
+      "role": "Applied Eudoxus's method of exhaustion to calculate areas (squaring the parabola exactly) and to bound the value of pi; also the chief surviving witness, via a letter to King Gelon, to Aristarchus's heliocentric hypothesis; killed when Rome captured Syracuse in 212 BC."
+    }
+  ],
+  "extraction_confidence": "high"
+}

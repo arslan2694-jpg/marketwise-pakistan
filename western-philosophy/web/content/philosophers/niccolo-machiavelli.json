@@ -1,0 +1,63 @@
+{
+  "slug": "niccolo-machiavelli",
+  "name": "Niccolò Machiavelli",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Renaissance political realism",
+  "major_ideas": [
+    "Machiavelli's separation of means from ends (the 'science of success')",
+    "The doctrine of The Prince: the ruler's necessary use of deception and force",
+    "The republican doctrine of the Discourses: checks and balances and the value of liberty",
+    "Politics as fundamentally a question of power, not of abstract right"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Referenced as the thinker whose doctrines arose from the moral and political anarchy of fifteenth-century Italy, previewing Chapter III. The chapter's sole primary subject: his life, The Prince, and the Discourses are examined in detail as the first genuinely modern, empirical treatment of politics, distinguishing questions of political ends from the separate, quasi-scientific question of effective means. Praised by Hegel in connection with the German Reformation period, noted by Russell as an odd object of praise given the atrocities of the era Hegel otherwise passes over in silence. Compared at length to Nietzsche: both hold an ethic that aims at power and is deliberately anti-Christian, though Machiavelli was a practical man of affairs while Nietzsche was 'an essentially bookish man' consciously opposed to the dominant trends of his time; what Caesar Borgia was to Machiavelli, Napoleon was to Nietzsche.",
+  "central_doctrines": "Machiavelli's separation of means from ends (the 'science of success'): Russell's reconstruction: 'His political philosophy is scientific and empirical, based upon his own experience of affairs, concerned to set forth the means to assigned ends, regardless of the question whether the ends are to be considered good or bad'; 'Success' means the achievement of your purpose, whatever it may be... the science, once established, will be just as useful to the saint as to the sinner.' The doctrine of The Prince: the ruler's necessary use of deception and force: Machiavelli's explicit repudiation of received morality for rulers, illustrated in Chapter XVIII ('In What Way Princes Must Keep Faith'): rulers 'should keep faith when it pays to do so, but not otherwise,' must 'disguise this character well, and... be a great feigner and dissembler,' with Alexander VI cited approvingly as a supreme practitioner of successful deception. The republican doctrine of the Discourses: checks and balances and the value of liberty: Russell's account of the Discourses' 'doctrine of checks and balances... set forth explicitly': 'Princes, nobles, and people should all have a part in the Constitution... then these three powers will keep each other reciprocally in check,' with a stated preference for popular government grounded not in natural rights but in the empirical observation that popular governments are 'less cruel, unscrupulous, and inconstant than tyrannies.'",
+  "key_arguments": [
+    "Machiavelli's case for Caesar Borgia as a model 'to be imitated'"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "aristotle",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "gerbert-pope-sylvester-ii",
+    "john-locke",
+    "thomas-hobbes",
+    "montesquieu",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell defends Machiavelli against what he considers largely hypocritical moral outrage, arguing that 'much of the conventional obloquy that attaches to his name is due to the indignation of hypocrites who hate the frank avowal of evil-doing,' while still conceding that 'a good deal... genuinely demands criticism.' He characterizes Machiavelli's political philosophy as 'scientific and empirical,' concerned with means rather than ends, and constructs his own explicit synthesis of the 'immoral' Prince and the more republican, liberal Discourses, arguing readers who skip the latter get 'a very one-sided view of his doctrine.' Russell is notably contemporary and pointed in his evaluation, suggesting 'our age... can better appreciate Machiavelli' because 'some of the most notable successes of our time have been achieved by methods as base as any employed in Renaissance Italy,' explicitly citing Hitler's Reichstag fire, 1934 purge, and betrayal after Munich as actions Machiavelli 'would have applauded... as an artistic connoisseur in statecraft.' He also identifies a genuine limitation in Machiavelli's thought: an outdated, ancient-style conception of political communities as things a lawgiver can create outright (like the mythical Lycurgus), rather than as organic growths -- a conception Russell says has been undermined by evolutionary theory, yet has become disturbingly relevant again given the deliberate, 'mechanistic' creation of new societies in Russia and Germany in his own time.",
+  "why_this_matters": "Russell defends Machiavelli's realism as largely misunderstood: his 'shocking' reputation partly reflects hypocrisy on the part of critics unwilling to admit political conduct they themselves tolerate. The Prince treats politics as a value-neutral science of effective means, separate from the question of whether the ends pursued are good; a ruler must combine the fox's cunning with the lion's ferocity and, above all, appear virtuous.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Referenced as the thinker whose doctrines arose from the moral and political anarchy of fifteenth-century Italy, previewing Chapter III."
+    },
+    {
+      "chapter_id": "book-3-ch-iii",
+      "role": "The chapter's sole primary subject: his life, The Prince, and the Discourses are examined in detail as the first genuinely modern, empirical treatment of politics, distinguishing questions of political ends from the separate, quasi-scientific question of effective means."
+    },
+    {
+      "chapter_id": "book-3-ch-xxii",
+      "role": "Praised by Hegel in connection with the German Reformation period, noted by Russell as an odd object of praise given the atrocities of the era Hegel otherwise passes over in silence."
+    },
+    {
+      "chapter_id": "book-3-ch-xxv",
+      "role": "Compared at length to Nietzsche: both hold an ethic that aims at power and is deliberately anti-Christian, though Machiavelli was a practical man of affairs while Nietzsche was 'an essentially bookish man' consciously opposed to the dominant trends of his time; what Caesar Borgia was to Machiavelli, Napoleon was to Nietzsche."
+    }
+  ],
+  "extraction_confidence": "high"
+}

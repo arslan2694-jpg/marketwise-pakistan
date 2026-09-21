@@ -1,0 +1,29 @@
+{
+  "slug": "man-is-the-measure-of-all-things-protagorean-relativism",
+  "name": "'Man is the measure of all things' (Protagorean relativism)",
+  "plain_explanation": "Protagoras's most famous claim is that truth is relative to each individual: things are, for you, as they appear to you, and things are, for me, as they appear to me, with no independent fact that could show one of us wrong.",
+  "precise_definition": "Protagoras's doctrine, 'Man is the measure of all things, of things that are that they are, and of things that are not that they are not,' interpreted by Russell as meaning each individual man is the measure of all things, so that when men differ in their judgments there is no objective truth by which one can be shown right and the other wrong; the doctrine is essentially sceptical and rests on the 'deceitfulness' of the senses.",
+  "why_it_mattered": "It is the founding statement of philosophical relativism in the Western tradition and, via the Theaetetus's jaundice example, an ancestor of pragmatist ideas about the practical grounds for preferring one belief over another even without a fact of the matter about which is 'truer.'",
+  "historical_origin": "Formulated by Protagoras and discussed by Plato in the Theaetetus.",
+  "associated_philosopher": "Protagoras",
+  "examples": [
+    "Plato's jaundice example: everything looks yellow to a man with jaundice; we cannot say things are really not yellow, only that the healthy man's perception is 'better' because health is better than sickness"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Objective theories of truth assumed by most earlier pre-Socratic philosophers, who sought a single correct metaphysical account of reality"
+  ],
+  "influence_on_later_thinkers": "F.C.S. Schiller, one of the founders of modern pragmatism, called himself a disciple of Protagoras on the basis of this doctrine's pragmatist-friendly reading in the Theaetetus.",
+  "connection_to_politics_or_religion": "Led Protagoras, despite his professed uncertainty about the gods, to defend traditional worship and morality on the practical ground that the majority's beliefs and conventions should be followed.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-x"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Protagoras",
+      "treatment": "Protagoras's most famous claim is that truth is relative to each individual: things are, for you, as they appear to you, and things are, for me, as they appear to me, with no independent fact that could show one of us wrong."
+    }
+  ]
+}

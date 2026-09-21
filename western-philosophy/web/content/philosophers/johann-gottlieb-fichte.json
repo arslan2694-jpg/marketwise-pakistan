@@ -1,0 +1,46 @@
+{
+  "slug": "johann-gottlieb-fichte",
+  "name": "Johann Gottlieb Fichte",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Cited, with Hegel, as an example of a German philosophical outlook 'totally unconnected with commerce,' and as subjective in temperament and doctrine. Introduced as Kant's immediate successor, who abandoned the 'thing-in-itself' and carried subjectivism to what Russell calls 'almost a kind of insanity,' becoming the theoretical founder of German nationalism via his Addresses to the German Nation. Mentioned as a lecturer Schopenhauer heard at Berlin and 'despised'; contrasted with Schopenhauer as one of the philosophers who discarded the thing-in-itself and thereby made knowledge, rather than will, metaphysically fundamental. Named as the philosopher with whom the 'intoxication of power' first invaded philosophy, a danger Russell fears modern instrumentalism risks reviving.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Cited, with Hegel, as an example of a German philosophical outlook 'totally unconnected with commerce,' and as subjective in temperament and doctrine."
+    },
+    {
+      "chapter_id": "book-3-ch-xx",
+      "role": "Introduced as Kant's immediate successor, who abandoned the 'thing-in-itself' and carried subjectivism to what Russell calls 'almost a kind of insanity,' becoming the theoretical founder of German nationalism via his Addresses to the German Nation."
+    },
+    {
+      "chapter_id": "book-3-ch-xxiv",
+      "role": "Mentioned as a lecturer Schopenhauer heard at Berlin and 'despised'; contrasted with Schopenhauer as one of the philosophers who discarded the thing-in-itself and thereby made knowledge, rather than will, metaphysically fundamental."
+    },
+    {
+      "chapter_id": "book-3-ch-xxx",
+      "role": "Named as the philosopher with whom the 'intoxication of power' first invaded philosophy, a danger Russell fears modern instrumentalism risks reviving."
+    }
+  ],
+  "extraction_confidence": "high"
+}

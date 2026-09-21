@@ -1,0 +1,57 @@
+{
+  "slug": "galileo-galilei",
+  "name": "Galileo Galilei",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Early modern empirical/mathematical science",
+  "major_ideas": [
+    "The law of inertia and the abandonment of 'natural' places and motions"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Presented as 'the greatest of the founders of modern science, with the possible exception of Newton,' credited with discovering the importance of acceleration and the law of inertia, the law of falling bodies, the parabolic path of projectiles and the parallelogram law of forces, and with using the telescope to discover the phases of Venus and the moons of Jupiter, which he defended against traditionalist ridicule; his 1616 and 1633 condemnations by the Inquisition are recounted as ending Italian science for centuries while failing to stop the heliocentric theory's spread.",
+  "central_doctrines": "The law of inertia and the abandonment of 'natural' places and motions: Galileo's principle, later codified by Newton as the first law of motion: 'every body, if let alone, will continue to move in a straight line with uniform velocity; any change, either in the rapidity or the direction of motion, requires to be explained as due to the action of some \"force.\"' Acceleration -- change of velocity in magnitude or direction -- becomes the central concept of dynamics, replacing Aristotle's distinction between 'natural' circular celestial motion and 'natural' rectilinear terrestrial motion that ceases without continued impulse.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "aristotle",
+    "democritus",
+    "isaac-newton",
+    "aristarchus-of-samos",
+    "thomas-aquinas",
+    "martin-luther",
+    "nicolaus-copernicus",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "isaac-newton",
+    "rene-descartes",
+    "gerbert-pope-sylvester-ii",
+    "thomas-hobbes",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "aristotle",
+      "about": "The law of inertia and the abandonment of 'natural' places and motions"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents the rise of science as the true dividing line of modernity, crediting Copernicus, Kepler, Galileo, and Newton (in ascending order of achievement, with Galileo and Newton as the two greatest) with combining, for the first time together in a sustained way, patient empirical observation and bold, revisable hypothesis-making. He defends the scientific attitude explicitly against E. A. Burtt's charge that early modern science's success was merely lucky, arguing that what matters is method (tentative, evidence-based belief) rather than the immediate provability of any particular early theory. He is admiring but not uncritical: he notes Copernicus's residual Pythagorean aesthetic bias, Kepler's quasi-mystical motivations, and the danger that Newton's overwhelming authority threatened, like Aristotle's before him, to freeze rather than advance further inquiry. He closes the chapter by drawing out the era's deepest philosophical consequences -- the removal of animism and purpose from physical explanation, the destabilizing effect on orthodox theology, and the paradoxical way in which a cosmologically humbling discovery (earth's insignificance) produced not humility but a new, scientifically-fueled human self-confidence.",
+  "why_this_matters": "Russell identifies the seventeenth century, not the Italian Renaissance or the Reformation, as the true beginning of the modern mental outlook, because of the transformative achievement of Copernicus, Kepler, Galileo, and Newton. Galileo's law of inertia (and Newton's codification of it as the first law of motion) unified terrestrial and celestial dynamics under a single principle: uniform motion is 'natural' unless changed by an external force.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-vi",
+      "role": "Presented as 'the greatest of the founders of modern science, with the possible exception of Newton,' credited with discovering the importance of acceleration and the law of inertia, the law of falling bodies, the parabolic path of projectiles and the parallelogram law of forces, and with using the telescope to discover the phases of Venus and the moons of Jupiter, which he defended against traditionalist ridicule; his 1616 and 1633 condemnations by the Inquisition are recounted as ending Italian science for centuries while failing to stop the heliocentric theory's spread."
+    }
+  ],
+  "extraction_confidence": "high"
+}

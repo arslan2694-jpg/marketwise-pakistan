@@ -1,0 +1,32 @@
+{
+  "slug": "the-limits-of-the-dialectic-method",
+  "name": "The limits of the dialectic method",
+  "plain_explanation": "Question-and-answer discussion is a good way to expose inconsistencies in what we already believe, but it cannot, by itself, discover brand-new facts about the world, the way a microscope or an experiment can.",
+  "precise_definition": "Russell's analytical distinction between matters that are 'logical rather than factual,' where dialectic can profitably clarify usage and expose inconsistency, and matters of empirical discovery, where it is 'quite unavailing.'",
+  "why_it_mattered": "It explains, for Russell, both the genuine value of the Socratic method (for questions like 'what is justice?') and its historical cost: it helped confine 'philosophy' to the kinds of inquiry Plato's method could handle.",
+  "historical_origin": "Russell's own critical commentary on the method as practised in the Apology, Phaedo, and Meno.",
+  "associated_philosopher": "Socrates",
+  "examples": [
+    "Socrates's geometry demonstration with a slave boy in the Meno relies on leading questions 'which any judge would disallow.'",
+    "Discovering that democracy is inconsistent with disenfranchising certain voters is a logical, dialectic-friendly point; discovering that bacteria spread disease is not."
+  ],
+  "objections": [
+    "The doctrine of reminiscence, which the method presupposes, cannot explain how we could ever 'remember' genuinely empirical knowledge we never experienced."
+  ],
+  "competing_positions": [
+    "Empirical science, exemplified by Galileo, who used dialogue only to overcome prejudice, not to establish positive discoveries."
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Socrates",
+      "treatment": "Question-and-answer discussion is a good way to expose inconsistencies in what we already believe, but it cannot, by itself, discover brand-new facts about the world, the way a microscope or an experiment can."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "aristotelianism",
+  "name": "Aristotelianism",
+  "period": "Ancient",
+  "doctrines": [
+    "The Third Man argument against Plato's theory of Ideas",
+    "Universals and substances ('this' versus 'such')",
+    "Matter and Form",
+    "The Unmoved Mover and Aristotle's theology",
+    "The soul as form of the body, and the immortality of mind alone",
+    "Happiness as activity of the soul in accordance with virtue",
+    "The doctrine of the golden mean",
+    "The magnanimous (great-souled) man",
+    "Justice as proportion rather than equality",
+    "Contemplation as the highest happiness",
+    "The State as natural and prior to the individual",
+    "Natural slavery",
+    "Critique of trade and usury",
+    "Sixfold classification of constitutions",
+    "The anatomy of tyranny",
+    "The syllogism",
+    "Formal defects: existential import and the particular/universal confusion",
+    "Over-estimation of deduction relative to induction",
+    "Essence",
+    "Substance",
+    "The imaginative background of physics: Will as the source of motion",
+    "Nature (phusis) as teleological",
+    "Motion as the actualization of potential",
+    "Sublunary versus supralunary cosmology (the fifth element)"
+  ],
+  "philosophers": [
+    "aristotle"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-xix"
+  ]
+}

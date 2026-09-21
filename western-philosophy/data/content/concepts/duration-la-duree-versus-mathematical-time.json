@@ -1,0 +1,33 @@
+{
+  "slug": "duration-la-duree-versus-mathematical-time",
+  "name": "Duration (la duree) versus mathematical time",
+  "plain_explanation": "Bergson claims that real, lived time -- 'duration' -- is nothing like the evenly-spaced, measurable time of clocks and mathematics; in true duration the past and present interpenetrate and melt into each other rather than sitting side by side like beads on a string.",
+  "precise_definition": "Bergson's doctrine that 'pure duration' is 'the form which our conscious states assume when our ego lets itself live,' involving mutual penetration and succession without distinction, radically unlike mathematical time, which Bergson holds is really only a disguised form of space.",
+  "why_it_mattered": "Duration is, in Russell's judgment, one of the 'two foundations' (with the theory of space) on which Bergson's whole system depends, underlying his doctrines of freedom, memory, and the critique of a 'block universe.'",
+  "historical_origin": "First appears in Bergson's earliest book, Time and Free Will.",
+  "associated_philosopher": "Henri Bergson",
+  "examples": [
+    "'Wherever anything lives, there is, open somewhere, a register in which time is being inscribed.'",
+    "Bergson's claim that within the ego there is 'succession without mutual externality,' while in pure space there is 'mutual externality without succession'"
+  ],
+  "objections": [
+    "Russell: Bergson's definitions of 'past' and 'present' ('that which acts no longer' / 'that which is acting') are circular, since they silently presuppose the very ordinary notion of time they are meant to define",
+    "Russell: the theory confuses the present act of remembering with the past event remembered, so what Bergson actually describes is the difference between perception and recollection (both present facts), not between present and past"
+  ],
+  "competing_positions": [
+    "The 'cinematographic,' mathematical view of change as a (possibly infinite) series of states, which Russell defends as adequate to represent continuous motion without contradiction"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Henri Bergson",
+      "treatment": "Bergson claims that real, lived time -- 'duration' -- is nothing like the evenly-spaced, measurable time of clocks and mathematics; in true duration the past and present interpenetrate and melt into each other rather than sitting side by side like beads on a string."
+    }
+  ]
+}

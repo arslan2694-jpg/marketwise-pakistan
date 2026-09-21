@@ -1,0 +1,32 @@
+{
+  "slug": "substance",
+  "name": "Substance",
+  "plain_explanation": "Aristotle (and much later philosophy) treats things like 'Socrates' or 'France' as persisting 'substances' underlying their changing properties -- something solid the properties belong to -- but Russell argues this is just a convenient way of bundling many separate events under one name, not a discovery of some further, more 'real' thing beneath them.",
+  "precise_definition": "The Aristotelian notion (Categories) of substance in its primary sense as an individual thing that is neither predicable of, nor present in, any other subject, later extended (in a 'secondary' sense Russell finds indefensible) to species and genera; Russell argues on independent grounds that substance, taken seriously as something distinct from all its properties, is 'a metaphysical mistake, due to transference to the world-structure of the structure of sentences composed of a subject and a predicate.'",
+  "why_it_mattered": "It is Russell's culminating critique in the chapter: once essence and substance are both dissolved into facts about language, the entire apparatus of Aristotelian metaphysics built on unchanging 'essences' possessed by underlying 'substances' loses its supposed foundation in reality.",
+  "historical_origin": "Set out in Aristotle's Categories; the 'secondary' sense (species/genus as substance) especially influenced later scholastic metaphysics via Porphyry's commentary.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "'What is Mr. Smith apart from all these occurrences [that we perceive]? A mere imaginary hook, from which the occurrences are supposed to hang.'",
+    "Comparison to 'France': just as there is no single thing called 'France' over and above its various parts, so 'Mr. Smith' is only a collective name for a number of occurrences."
+  ],
+  "objections": [
+    "Russell's regress argument: if substance is 'the subject of properties, distinct from all its properties,' then removing the properties to imagine the bare substance leaves nothing at all; and two substances cannot even be distinguished, since difference of properties (the only available criterion) presupposes, rather than explains, their being numerically two."
+  ],
+  "competing_positions": [
+    "Russell's own alternative: treating apparent 'substances' as convenient bundles of events/occurrences collected under a common name, with no further underlying entity required."
+  ],
+  "influence_on_later_thinkers": "The 'secondary' sense of substance, per Russell, 'opened the door, in later writers, to much bad metaphysics.'",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Aristotle (and much later philosophy) treats things like 'Socrates' or 'France' as persisting 'substances' underlying their changing properties -- something solid the properties belong to -- but Russell argues this is just a convenient way of bundling many separate events under one name, not a discovery of some further, more 'real' thing beneath them."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "bergson-s-theory-of-space-and-number-and-its-refutation",
+  "name": "Bergson's theory of space and number, and its refutation",
+  "plain_explanation": "Bergson claims that any idea of number or plurality secretly requires picturing things spread out in space -- but Russell argues this confuses a particular collection of things (like twelve apples) with the abstract number twelve itself, which cannot be pictured at all.",
+  "precise_definition": "Bergson's claim, from Time and Free Will, that 'every clear idea of number implies a visual image in space,' and that number is 'a collection of units, or... the synthesis of the one and the many' -- a claim Russell argues conflates three distinct things: number in general, a particular number, and a particular collection exemplifying that number.",
+  "why_it_mattered": "This theory of space is, with the theory of duration, one of the two pillars Bergson's whole system rests on; if it fails, Russell argues, so does Bergson's condemnation of the intellect as inherently 'spatial.'",
+  "historical_origin": "Set out in Time and Free Will.",
+  "associated_philosopher": "Henri Bergson",
+  "examples": [
+    "Russell's analogy: confusing a particular young man with 'youth,' and 'youth' with the general concept 'period of human life,' then absurdly concluding that the concept 'period of human life' must have two legs"
+  ],
+  "objections": [
+    "Russell: the confusion of a collection with the number of its terms, and that in turn with number in general, invalidates Bergson's claim that abstract ideas and logic are derived from space"
+  ],
+  "competing_positions": [
+    "Modern mathematical logic (Frege's and Russell's own definition of number), discussed more fully in the following chapter on logical analysis"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Henri Bergson",
+      "treatment": "Bergson claims that any idea of number or plurality secretly requires picturing things spread out in space -- but Russell argues this confuses a particular collection of things (like twelve apples) with the abstract number twelve itself, which cannot be pictured at all."
+    }
+  ]
+}

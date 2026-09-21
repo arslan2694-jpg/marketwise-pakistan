@@ -1,0 +1,29 @@
+{
+  "slug": "the-dissolution-of-the-self-into-a-bundle-of-perceptions",
+  "name": "The dissolution of the Self into a 'bundle of perceptions'",
+  "plain_explanation": "Hume looked inward for some core 'self' beneath all his thoughts and feelings, and found nothing: only a constantly changing stream of particular perceptions (a sight, a sound, a feeling of pain) with no separate 'self' holding them together. He concluded the mind is really just a bundle of these perceptions, not a distinct thing that has them.",
+  "precise_definition": "Hume denies any impression, and therefore any idea, of the self: 'when I enter most intimately into what I call myself, I always stumble on some particular perception or other ... I never catch myself at any time without a perception'; he concludes we are 'nothing but a bundle or collection of different perceptions, which succeed each other with inconceivable rapidity, and are in a perpetual flux and movement.'",
+  "why_it_mattered": "Russell regards this as 'of great importance' and largely correct: it eliminates the last surviving philosophical use of 'substance' from psychology (as Berkeley had eliminated it from physics), undermines theological claims to knowledge of an immortal 'soul,' and shows the subject/object distinction is not epistemologically fundamental.",
+  "historical_origin": "Book I, Part IV, Section VI of the Treatise ('Of Personal Identity').",
+  "associated_philosopher": "David Hume",
+  "examples": [
+    "Hume's introspective search, finding only 'heat or cold, light or shade, love or hatred, pain or pleasure' but never a bare 'self' apart from these"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The traditional (Cartesian/scholastic) doctrine of the self as a persisting mental substance"
+  ],
+  "influence_on_later_thinkers": "Russell endorses the core logical point -- that ideas of unperceived things (like the self, or one's own brain) can be defined in terms of perceived things, so nothing need be added beyond the bundle of perceptions -- as something 'any thoroughgoing empiricist must agree with.'",
+  "connection_to_politics_or_religion": "Directly undermines theological claims to 'supposed knowledge of the soul.'",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xvii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "David Hume",
+      "treatment": "Hume looked inward for some core 'self' beneath all his thoughts and feelings, and found nothing: only a constantly changing stream of particular perceptions (a sight, a sound, a feeling of pain) with no separate 'self' holding them together. He concluded the mind is really just a bundle of these perceptions, not a distinct thing that has them."
+    }
+  ]
+}

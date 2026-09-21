@@ -1,0 +1,46 @@
+{
+  "slug": "john-stuart-mill",
+  "name": "John Stuart Mill",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [
+    "The desired/desirable fallacy in J. S. Mill's proof of utilitarianism"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Presented as the last representative of the philosophical radicals, who gradually softened his father's stern doctrines and grew more sympathetic to socialism, a change he attributed in his autobiography to reading the romantic poets. Singled out by Nietzsche for special contempt as 'that blockhead,' representative of an 'ignoble' ethic of reciprocity ('what is right for one man is right for another') that Nietzsche rejects as assuming a false equivalence of value between persons. Described as carrying a 'softened' Benthamite doctrine to his death in 1873; Russell singles out and refutes his argument in Utilitarianism that because pleasure is the only thing desired, pleasure must be the only thing desirable.",
+  "central_doctrines": "The desired/desirable fallacy in J. S. Mill's proof of utilitarianism: Russell's logical critique of Mill's inference from 'pleasure is the only thing desired' to 'pleasure is the only thing desirable,' turning on the equivocation between a purely descriptive capacity-suffix ('-ible' as 'can be') and a normative one ('-ible' as 'ought to be').",
+  "key_arguments": [
+    "J. S. Mill's 'proof' that pleasure is the only thing desirable"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xxi",
+      "role": "Presented as the last representative of the philosophical radicals, who gradually softened his father's stern doctrines and grew more sympathetic to socialism, a change he attributed in his autobiography to reading the romantic poets."
+    },
+    {
+      "chapter_id": "book-3-ch-xxv",
+      "role": "Singled out by Nietzsche for special contempt as 'that blockhead,' representative of an 'ignoble' ethic of reciprocity ('what is right for one man is right for another') that Nietzsche rejects as assuming a false equivalence of value between persons."
+    },
+    {
+      "chapter_id": "book-3-ch-xxvi",
+      "role": "Described as carrying a 'softened' Benthamite doctrine to his death in 1873; Russell singles out and refutes his argument in Utilitarianism that because pleasure is the only thing desired, pleasure must be the only thing desirable."
+    }
+  ],
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "universals-and-substances-this-versus-such",
+  "name": "Universals and substances ('this' versus 'such')",
+  "plain_explanation": "A proper name like 'Napoleon' picks out one particular, unrepeatable thing; a word like 'man' or 'white' can apply to many different things. Aristotle calls what a proper name signifies a 'substance,' and what a general word signifies a 'universal.'",
+  "precise_definition": "Aristotle's definition: 'By the term universal I mean that which is of such a nature as to be predicated of many subjects, by individual that which is not thus predicated.' A substance is a 'this'; a universal is a 'such,' indicating a sort of thing rather than a particular thing, and (Aristotle holds) cannot itself be a substance, since substance is 'peculiar' to one thing while a universal is common to many.",
+  "why_it_mattered": "It is Aristotle's proposed replacement for Plato's Ideas: what is common to many red things ('redness') depends for its being on there being red things, but not vice versa -- yet, as Russell shows, this common-sense-seeming asymmetry does not survive careful analysis.",
+  "historical_origin": "Set out in Aristotle's On Interpretation and Categories.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "Football (a universal-like activity) could not exist without football-players, though it could exist without this or that particular player",
+    "Redness cannot exist without some subject, but can exist without this or that particular subject"
+  ],
+  "objections": [
+    "Russell argues the supposed asymmetry is illusory: just as a quality cannot exist without some subject, a subject cannot exist without some quality either -- so the 'true ground of the distinction is, in fact, linguistic; it is derived from syntax,' not metaphysics"
+  ],
+  "competing_positions": [
+    "Plato's theory that universals (Ideas) are themselves substantial, independently existing things"
+  ],
+  "influence_on_later_thinkers": "Directly generated the medieval dispute between nominalists (who deny universals any extra-linguistic reality) and realists (who affirm it), since Aristotle's own position was left unclear.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "A proper name like 'Napoleon' picks out one particular, unrepeatable thing; a word like 'man' or 'white' can apply to many different things. Aristotle calls what a proper name signifies a 'substance,' and what a general word signifies a 'universal.'"
+    }
+  ]
+}

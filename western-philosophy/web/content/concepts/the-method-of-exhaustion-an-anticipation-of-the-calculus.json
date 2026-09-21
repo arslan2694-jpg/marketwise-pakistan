@@ -1,0 +1,28 @@
+{
+  "slug": "the-method-of-exhaustion-an-anticipation-of-the-calculus",
+  "name": "The method of exhaustion (an anticipation of the calculus)",
+  "plain_explanation": "To find the area of a circle, you can inscribe a regular polygon with more and more sides -- a hexagon, then a shape with a thousand sides, then a million -- and the polygon's area gets closer and closer to the circle's true area; the 'method of exhaustion,' invented or perfected by Eudoxus, made this idea mathematically rigorous, and Archimedes used it to get remarkably accurate results.",
+  "precise_definition": "A technique, developed by Eudoxus and extensively used by Archimedes, for rigorously establishing the area or other measure of a curved figure by showing that inscribed (or circumscribed) polygonal approximations can be made to differ from the true figure by less than any previously assigned quantity, using the 'axiom of Archimedes' (that repeated halving of a quantity eventually produces a value smaller than any given quantity) -- an early anticipation of the integral calculus.",
+  "why_it_mattered": "It allowed the Greeks to obtain exact results for some curved figures (Archimedes exactly 'squared' the parabola) and rigorously bounded approximations for others (Archimedes proved pi lies strictly between 3 1/7 and 3 10/71), anticipating methods not formalized again until the calculus of the seventeenth century.",
+  "historical_origin": "Invented or perfected by Eudoxus (ca. 408-ca. 355 BC), building on his new, more general theory of proportion.",
+  "associated_philosopher": "Eudoxus of Cnidus",
+  "examples": [
+    "Archimedes used a regular polygon of ninety-six sides, inscribed and circumscribed about a circle, to prove pi is less than 3 1/7 and greater than 3 10/71.",
+    "The use of inscribed and circumscribed polygons for approximating pi traces back to Antiphon, a contemporary of Socrates."
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "A genuine anticipation of the integral calculus, not matched in rigor again until the seventeenth century.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Eudoxus of Cnidus",
+      "treatment": "To find the area of a circle, you can inscribe a regular polygon with more and more sides -- a hexagon, then a shape with a thousand sides, then a million -- and the polygon's area gets closer and closer to the circle's true area; the 'method of exhaustion,' invented or perfected by Eudoxus, made this idea mathematically rigorous, and Archimedes used it to get remarkably accurate results."
+    }
+  ]
+}

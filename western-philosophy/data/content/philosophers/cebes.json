@@ -1,0 +1,34 @@
+{
+  "slug": "cebes",
+  "name": "Cebes",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "A companion of Socrates in the Phaedo who voices doubt about the soul's survival after death and prompts Socrates's arguments; later observes that only half the case (pre-existence) has been proven, prompting the argument from simplicity.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xvi",
+      "role": "A companion of Socrates in the Phaedo who voices doubt about the soul's survival after death and prompts Socrates's arguments; later observes that only half the case (pre-existence) has been proven, prompting the argument from simplicity."
+    }
+  ],
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "eighteenth-century-french-philosophie",
+  "name": "Eighteenth-century French philosophie",
+  "period": "Modern",
+  "doctrines": [
+    "Sensibilité (the cult of sensibility)",
+    "Revolt of solitary instinct against social bonds",
+    "Theology of the heart (natural religion)",
+    "The Social Contract",
+    "The General Will"
+  ],
+  "philosophers": [
+    "jean-jacques-rousseau"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-xix"
+  ]
+}

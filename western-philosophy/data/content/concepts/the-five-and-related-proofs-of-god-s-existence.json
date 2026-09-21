@@ -1,0 +1,32 @@
+{
+  "slug": "the-five-and-related-proofs-of-god-s-existence",
+  "name": "The five (and related) proofs of God's existence",
+  "plain_explanation": "Aquinas offers several arguments that God exists, most turning on the idea that an endless backward chain of causes or changes is impossible, so there must be a first, uncaused cause or unmoved mover. The unmoved mover argument says: things that move are moved by something else; since this chain can't go back forever, there must be something that moves everything else without itself being moved -- this is God. Related arguments run the same way for causes generally, for the source of necessity, and add arguments from degrees of perfection in the world (there must be something maximally perfect as their source) and from the apparent purposiveness even of lifeless things (which must be directed by something outside themselves, since only living things have internal purposes).",
+  "precise_definition": "Aquinas's cosmological-style arguments (the unmoved mover, the first cause, the ultimate source of necessity, the argument from degrees of perfection, and the argument from design/purposiveness in lifeless things) for God's existence, presented in the Summa contra Gentiles and, in a fuller five-fold form, the Summa Theologiae; contrasted with, and explicitly preferred by Aquinas over, the ontological argument.",
+  "why_it_mattered": "These arguments are the foundational rational case for theism within the Thomistic system, and remain influential and widely taught within Catholic philosophy to the present day per Church teaching following Leo XIII's 1879 rescript.",
+  "historical_origin": "Developed by Aquinas, adapting and Christianizing Aristotle's own argument for an unmoved mover, in the Summa contra Gentiles (1259-64) and Summa Theologiae.",
+  "associated_philosopher": "Thomas Aquinas",
+  "examples": [
+    "Russell's footnote that in Aristotle's own version, the unmoved-mover argument actually leads to 47 or 55 Gods, not one",
+    "The argument that lifeless things serving a purpose must be directed by something outside themselves, since only living things can have an internal purpose"
+  ],
+  "objections": [
+    "Russell's central objection: all of the arguments except the design argument depend on the supposed impossibility of a series having no first term, but 'every mathematician knows there is no such impossibility' -- the series of negative integers ending in minus one is a counterexample"
+  ],
+  "competing_positions": [
+    "The ontological argument (rejected by Aquinas himself, on the grounds that we do not know God's essence well enough to deduce His existence from it)"
+  ],
+  "influence_on_later_thinkers": "Remains, per Russell, unshakeable in practice among believers regardless of the arguments' logical soundness, since 'no Catholic is likely to abandon belief in God even if he becomes convinced that Saint Thomas's arguments are bad; he will invent other arguments, or take refuge in revelation.'",
+  "connection_to_politics_or_religion": "Central to Catholic doctrine and, since 1879, mandatory teaching in Catholic educational institutions.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-xiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Thomas Aquinas",
+      "treatment": "Aquinas offers several arguments that God exists, most turning on the idea that an endless backward chain of causes or changes is impossible, so there must be a first, uncaused cause or unmoved mover. The unmoved mover argument says: things that move are moved by something else; since this chain can't go back forever, there must be something that moves everything else without itself being moved -- this is God. Related arguments run the same way for causes generally, for the source of necessity, and add arguments from degrees of perfection in the world (there must be something maximally perfect as their source) and from the apparent purposiveness even of lifeless things (which must be directed by something outside themselves, since only living things have internal purposes)."
+    }
+  ]
+}

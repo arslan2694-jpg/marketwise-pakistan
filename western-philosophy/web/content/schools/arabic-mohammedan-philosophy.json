@@ -1,0 +1,15 @@
+{
+  "slug": "arabic-mohammedan-philosophy",
+  "name": "Arabic/Mohammedan philosophy",
+  "period": "Medieval",
+  "doctrines": [],
+  "philosophers": [
+    "averroes-ibn-rushd",
+    "avicenna-ibn-sina"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-2-ch-x"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "voluntarism",
+  "name": "Voluntarism",
+  "period": "Modern",
+  "doctrines": [
+    "Will to power",
+    "The 'noble' man versus 'slave morality'",
+    "Nietzsche's critique of Christianity"
+  ],
+  "philosophers": [
+    "friedrich-nietzsche"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxiv",
+    "book-3-ch-xxv"
+  ]
+}

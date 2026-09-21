@@ -1,0 +1,62 @@
+{
+  "slug": "bertrand-russell",
+  "name": "Bertrand Russell",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "The philosophy of logical analysis (modern analytical empiricism)",
+  "major_ideas": [
+    "The theory of descriptions",
+    "Events, not particles, as the 'stuff' of physics; neutral monism extended",
+    "The proper, limited scope of scientific philosophy"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Presents an extended personal critique of Nietzsche's ethics, staging an imagined debate between Nietzsche and the Buddha and concluding, in his own voice, that he 'dislikes' Nietzsche's philosophy and 'agree[s] with Buddha' as he has imagined him. The chapter's primary subject, presenting -- in his own voice, as narrator and participant -- the philosophy of logical analysis: his theory of descriptions, his and Whitehead's reduction of mathematics to logic in Principia Mathematica, his account of neutral monism and events as the 'stuff' of physics and mind, and his closing statement of the proper scope and modesty of philosophy.",
+  "central_doctrines": "The theory of descriptions: Russell's method for analysing sentences containing a 'description' (a phrase of the form 'the so-and-so' designating something by a property rather than by name): on correct analysis, the descriptive phrase disappears, and 'Scott was the author of Waverley' becomes 'There is an entity c such that \"x wrote Waverley\" is true if x is c and false otherwise; moreover c is Scott.' On this analysis, 'existence' can be asserted only of descriptions ('the author of Waverley exists' is meaningful), never of names directly ('Scott exists' is bad syntax). Events, not particles, as the 'stuff' of physics; neutral monism extended: Russell's extension, via relativity and quantum theory, of the doctrine anticipated by James's radical empiricism: Einstein substituted events for particles, each event related to every other by an 'interval' divisible into space- and time-components only by an arbitrary convention (so that whether two distant events are simultaneous, or which precedes the other, has no fact of the matter beyond convention); a 'particle' becomes merely a certain useful series of events. Quantum theory reinforces this by suggesting physical states may change discontinuously. Since both physics (making matter 'less material') and psychology (making mind 'less mental,' e.g. via the conditioned reflex) converge from opposite ends, Russell concludes both mind and matter 'are merely convenient ways of grouping events,' some events belonging only to material groups, others to both mental and material groups at once. The proper, limited scope of scientific philosophy: Russell's concluding methodological claim that philosophy has historically consisted of two 'inharmoniously blended' parts -- a theory of the nature of the world, and an ethical or political doctrine of the best way of living -- and that philosophers from Plato to James have let the desire for edification distort their theories of the world, inventing sophistical arguments to prove convenient beliefs true; logical analysis, by contrast, pursues 'scientific truthfulness' and renounces claims to a 'higher' way of knowing, while still conceding that a 'vast field' of value-questions (e.g., that cruelty is bad) lies outside the reach of science and hence, in Russell's view, outside anything philosophy can prove or disprove.",
+  "key_arguments": [
+    "The argument that mathematics is 'merely verbal' knowledge, refuting Kant",
+    "The theory of descriptions applied to 'the golden mountain does not exist'",
+    "Russell's argument for separating factual philosophy from ethical edification"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "pythagoras",
+    "plato",
+    "aristotle",
+    "democritus",
+    "theaetetus",
+    "immanuel-kant",
+    "thomas-aquinas",
+    "baruch-spinoza",
+    "john-locke",
+    "georg-wilhelm-friedrich-hegel",
+    "william-james",
+    "gottlob-frege",
+    "georg-cantor"
+  ],
+  "successors": [
+    "rudolf-carnap"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "This chapter is Russell's own account of the philosophical school he founded and belonged to, presented candidly in the first person throughout. He narrates the technical lineage (Weierstrass, Cantor, Frege, himself and Whitehead) that grounds mathematics in logic, walks through his own theory of descriptions as a showcase example of the method's power, and extends the outlook into physics and psychology via relativity, quantum theory, and neutral monism. He is careful to qualify his own school's ambitions: agreeing that Carnap's claim that all philosophy reduces to syntax is an overstatement, that quantum theory's philosophy remains undeveloped, and -- most emphatically -- that a 'vast field' of ultimate value-questions lies permanently outside the reach of science and hence of logical analysis. His closing self-assessment names the school's 'chief merit' as having insisted on 'scientific truthfulness' in philosophy and invented a powerful method to make that virtue fruitful, ending the book on the claim that renouncing dogmatic pretensions does not stop philosophy from 'suggesting and inspiring a way of life.'",
+  "why_this_matters": "Russell traces logical analysis to the nineteenth-century rigorization of mathematics (Weierstrass on the calculus, Cantor on continuity and infinite number, Frege on the definition of number), culminating in his and Whitehead's Principia Mathematica. Logicism holds mathematics is a prolongation of logic and that mathematical knowledge is 'merely verbal,' refuting Kant's claim that arithmetic is synthetic a priori.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xxv",
+      "role": "Presents an extended personal critique of Nietzsche's ethics, staging an imagined debate between Nietzsche and the Buddha and concluding, in his own voice, that he 'dislikes' Nietzsche's philosophy and 'agree[s] with Buddha' as he has imagined him."
+    },
+    {
+      "chapter_id": "book-3-ch-xxxi",
+      "role": "The chapter's primary subject, presenting -- in his own voice, as narrator and participant -- the philosophy of logical analysis: his theory of descriptions, his and Whitehead's reduction of mathematics to logic in Principia Mathematica, his account of neutral monism and events as the 'stuff' of physics and mind, and his closing statement of the proper scope and modesty of philosophy."
+    }
+  ],
+  "extraction_confidence": "high"
+}

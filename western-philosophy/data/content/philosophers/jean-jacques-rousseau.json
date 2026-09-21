@@ -1,0 +1,118 @@
+{
+  "slug": "jean-jacques-rousseau",
+  "name": "Jean-Jacques Rousseau",
+  "era": "Modern",
+  "dates": "1712-1778",
+  "geography": "",
+  "school": "Eighteenth-century French philosophie",
+  "major_ideas": [
+    "Sensibilité (the cult of sensibility)",
+    "Revolt of solitary instinct against social bonds",
+    "Theology of the heart (natural religion)",
+    "The Social Contract",
+    "The General Will",
+    "The state of nature and natural man"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Credited, with the romantic movement, for extending subjectivity from theory of knowledge into ethics and politics, a line Russell traces forward to the complete anarchism of Bakunin. Identified as the starting point of a rival, later movement (extending individualism to the passions) that becomes the antithesis of liberalism, feeding into the romantic movement and nationalism. Contrasted with Locke's moderate reformist followers as the inspiration for the 'extreme revolutionaries' among the French philosophes, and as founder of a rival, 'soft-hearted' line of thought that Russell schematically traces (via Fichte, Byron, Carlyle, Nietzsche) toward Hitler. Discussed in connection with his quarrel with Hume, and, more importantly, as symbolizing (alongside Hume) the 'great outburst of irrational faith' that followed the collapse of eighteenth-century rationalism into Humian scepticism -- Rousseau agreed no belief is based on reason but elevated 'the heart' over reason instead. Presented as the first great figure of the movement, who gave the pre-existing cult of 'sensibility' breadth and scope through his own vagabond life and his contempt for the conventions of Parisian society; treated in depth in the next chapter. The chapter's sole primary subject: his biography, his theology of the heart (the 'Confession of Faith of a Savoyard Vicar'), and his political theory in The Social Contract (the social contract, the sovereign, the general will) are all examined in detail. Credited with a profound moral influence on Kant, comparable to the intellectual influence of Hume; Kant's Savoyard-Vicar-like appeal to the heart against theoretical reason, and his principle of treating every man as an end in himself, are traced to Rousseau's influence. Praised by Hegel for distinguishing the 'general will' from the 'will of all,' a distinction Hegel uses to justify treating the monarch's will as the true embodiment of a people's general will against any mere parliamentary majority. Compared and contrasted with Byron via Byron's own verse about him: both are figures of the revolt of 'unsocial instincts,' but Russell (via Byron) distinguishes Rousseau's pathetic, timid admiration of simple virtue from Byron's fierce, concealed-timidity admiration of elemental sin.",
+  "central_doctrines": "Sensibilité (the cult of sensibility): A cultivated proneness to emotion, valued for its intensity and spontaneity rather than for being informed by thought or directed toward effective action. Revolt of solitary instinct against social bonds: The tendency, intensified by the romantic movement, to elevate the unfettered individual Ego and its passions above the compromises required for social cooperation, expressed philosophically as solipsism, ethically as self-development as the supreme principle, and politically as anarchism or despotism. Theology of the heart (natural religion): A mode of religious justification, invented by Rousseau and later adopted by the majority of Protestant theologians, which grounds belief in God's existence in an aspect of human nature (emotion, conscience, aspiration) rather than in intellectual demonstration such as the ontological, cosmological, or design arguments. The Social Contract: 'The total alienation of each associate, together with all his rights, to the whole community,' forming 'a form of association which will defend and protect with the whole common force the person and goods of each associate, and in which each, while uniting himself with all, may still obey himself alone, and remain as free as before.' The General Will: The will belonging to the body politic as such, always right and always tending to the public advantage, distinct from both the will of the majority and the sum of individual wills (the 'will of all'); Rousseau holds it is best revealed when citizens deliberate without communicating or forming factions, so that 'the grand total of the small differences would always give the general will.'",
+  "key_arguments": [
+    "Rousseau's essay against the arts and sciences (Discourse of 1750)",
+    "The fundamental problem of the Social Contract",
+    "Deriving the general will from cancelling self-interests"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "rene-descartes",
+    "gottfried-wilhelm-leibniz",
+    "john-locke",
+    "thomas-hobbes",
+    "montesquieu",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "john-locke",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "plato",
+      "about": "Theology of the heart (natural religion)"
+    },
+    {
+      "with": "rene-descartes",
+      "about": "Theology of the heart (natural religion)"
+    },
+    {
+      "with": "gottfried-wilhelm-leibniz",
+      "about": "Theology of the heart (natural religion)"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Theology of the heart (natural religion)"
+    },
+    {
+      "with": "john-locke",
+      "about": "The Social Contract"
+    },
+    {
+      "with": "thomas-hobbes",
+      "about": "The Social Contract"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "The Social Contract"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell's presentation of Rousseau is pointedly two-sided and often openly hostile in tone toward the man while treating certain of his ideas as historically momentous. He opens by denying Rousseau was 'what would now be called a philosopher' at all, attributing his importance instead to his appeal to the heart and to sensibility, and spends roughly half the chapter on biographical material -- the Confessions, the theft blamed on an innocent maid, the abandonment of five children at the Foundling Hospital, the quarrels with Voltaire and the breach with Hume -- explicitly to explain his thought and influence rather than as mere gossip. Russell credits Rousseau with a genuine philosophical innovation (grounding religious belief in feeling rather than argument) while judging it, in his own voice, 'not... an advance,' and stating he would 'unhesitatingly choose' Aquinas over Rousseau if forced to pick. On the Social Contract, Russell reads a text that 'pays lip-service to democracy' as tending 'to the justification of the totalitarian State,' emphasizing that liberty is only Rousseau's nominal goal while equality is what he truly values, and tracing a direct line from Rousseau's doctrines to Robespierre, to Hegel's philosophy, and to the twentieth-century dictatorships of Russia and (especially) Germany.",
+  "why_this_matters": "Russell treats Rousseau primarily as a historically decisive 'social force' rather than as a rigorous philosopher, tracing his importance to his appeal to sensibility. Rousseau invented the now-common Protestant strategy of grounding belief in God in feeling ('the heart') rather than in intellectual proof -- a move Russell considers historically original but philosophically indefensible.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Credited, with the romantic movement, for extending subjectivity from theory of knowledge into ethics and politics, a line Russell traces forward to the complete anarchism of Bakunin."
+    },
+    {
+      "chapter_id": "book-3-ch-xii",
+      "role": "Identified as the starting point of a rival, later movement (extending individualism to the passions) that becomes the antithesis of liberalism, feeding into the romantic movement and nationalism."
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Contrasted with Locke's moderate reformist followers as the inspiration for the 'extreme revolutionaries' among the French philosophes, and as founder of a rival, 'soft-hearted' line of thought that Russell schematically traces (via Fichte, Byron, Carlyle, Nietzsche) toward Hitler."
+    },
+    {
+      "chapter_id": "book-3-ch-xvii",
+      "role": "Discussed in connection with his quarrel with Hume, and, more importantly, as symbolizing (alongside Hume) the 'great outburst of irrational faith' that followed the collapse of eighteenth-century rationalism into Humian scepticism -- Rousseau agreed no belief is based on reason but elevated 'the heart' over reason instead."
+    },
+    {
+      "chapter_id": "book-3-ch-xviii",
+      "role": "Presented as the first great figure of the movement, who gave the pre-existing cult of 'sensibility' breadth and scope through his own vagabond life and his contempt for the conventions of Parisian society; treated in depth in the next chapter."
+    },
+    {
+      "chapter_id": "book-3-ch-xix",
+      "role": "The chapter's sole primary subject: his biography, his theology of the heart (the 'Confession of Faith of a Savoyard Vicar'), and his political theory in The Social Contract (the social contract, the sovereign, the general will) are all examined in detail."
+    },
+    {
+      "chapter_id": "book-3-ch-xx",
+      "role": "Credited with a profound moral influence on Kant, comparable to the intellectual influence of Hume; Kant's Savoyard-Vicar-like appeal to the heart against theoretical reason, and his principle of treating every man as an end in himself, are traced to Rousseau's influence."
+    },
+    {
+      "chapter_id": "book-3-ch-xxii",
+      "role": "Praised by Hegel for distinguishing the 'general will' from the 'will of all,' a distinction Hegel uses to justify treating the monarch's will as the true embodiment of a people's general will against any mere parliamentary majority."
+    },
+    {
+      "chapter_id": "book-3-ch-xxiii",
+      "role": "Compared and contrasted with Byron via Byron's own verse about him: both are figures of the revolt of 'unsocial instincts,' but Russell (via Byron) distinguishes Rousseau's pathetic, timid admiration of simple virtue from Byron's fierce, concealed-timidity admiration of elemental sin."
+    }
+  ],
+  "extraction_confidence": "high"
+}

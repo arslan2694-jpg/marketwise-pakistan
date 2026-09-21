@@ -1,0 +1,53 @@
+{
+  "slug": "martin-luther",
+  "name": "Martin Luther",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Protestantism (Lutheranism and Calvinism)",
+  "major_ideas": [
+    "The state's authority over the national Church (Erastian tendency)"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Referenced as the figure whose 1517 revolt ended the moderate, pre-revolutionary moment Erasmus and More represented, and whose 1524 controversy with Erasmus over free will versus predestination drove Erasmus decisively into the Catholic camp. Presented as reverting to Saint Augustine's theology of the soul's relation to God (but not Augustine's view of the Church), abolishing purgatory and indulgences, teaching predestination, and -- despite intending only to weaken the Church -- accelerating the growth of princely power by recognizing Protestant rulers as heads of their national Churches. Russell quotes his outraged reaction to Copernicus in the following chapter, but here treats him chiefly as a theological and political figure. Quoted denouncing Copernicus as 'an upstart astrologer' who contradicts Scripture (the story of Joshua commanding the sun to stand still), illustrating that Protestant clergy were, per Russell, 'at least as bigoted as Catholic ecclesiastics' toward the new astronomy.",
+  "central_doctrines": "The state's authority over the national Church (Erastian tendency): Russell describes Luther as 'willing, wherever the prince was Protestant, to recognize him as head of the Church in his own country,' citing Henry VIII and Elizabeth in England and the Protestant princes of Germany, Scandinavia, and Holland as examples; this 'accelerated the already existing tendency to increase in the power of kings.'",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "saint-augustine",
+    "erasmus",
+    "sir-thomas-more",
+    "john-calvin"
+  ],
+  "successors": [
+    "rene-descartes",
+    "gerbert-pope-sylvester-ii",
+    "thomas-hobbes"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell treats the Reformation and Counter-Reformation as historically important but philosophically barren: Luther, Calvin, and Loyola are 'medieval in philosophy' compared to the Italians or to Erasmus and More. He is notably even-handed in blaming bigotry on both sides ('Protestant divines were... just as bigoted as Catholic theologians') while offering a structural explanation for why Protestant countries nonetheless ended up with more intellectual liberty: not superior tolerance of temperament, but doctrines (rejection of purgatory and indulgences, predestination) that happened to weaken clerical institutional power. He credits the Jesuits with real organizational and educational excellence despite deploring their support for persecution and the Inquisition. His overall verdict is that the immediate intellectual results of this era were 'wholly bad, but ultimately beneficial,' since exhaustion from the wars of religion forced the abandonment of the medieval dream of doctrinal unity and redirected able minds toward science -- the pivot to Chapter VI.",
+  "why_this_matters": "Russell treats the Reformation (German, anti-papal) and Counter-Reformation (Spanish, pro-papal but anti-laxity) as two different revolts against Renaissance Italy's intellectual and moral authority. Luther, Calvin, and Loyola are all judged 'medieval in philosophy'; the century the Reformation opens is philosophically barren.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-iv",
+      "role": "Referenced as the figure whose 1517 revolt ended the moderate, pre-revolutionary moment Erasmus and More represented, and whose 1524 controversy with Erasmus over free will versus predestination drove Erasmus decisively into the Catholic camp."
+    },
+    {
+      "chapter_id": "book-3-ch-v",
+      "role": "Presented as reverting to Saint Augustine's theology of the soul's relation to God (but not Augustine's view of the Church), abolishing purgatory and indulgences, teaching predestination, and -- despite intending only to weaken the Church -- accelerating the growth of princely power by recognizing Protestant rulers as heads of their national Churches. Russell quotes his outraged reaction to Copernicus in the following chapter, but here treats him chiefly as a theological and political figure."
+    },
+    {
+      "chapter_id": "book-3-ch-vi",
+      "role": "Quoted denouncing Copernicus as 'an upstart astrologer' who contradicts Scripture (the story of Joshua commanding the sun to stand still), illustrating that Protestant clergy were, per Russell, 'at least as bigoted as Catholic ecclesiastics' toward the new astronomy."
+    }
+  ],
+  "extraction_confidence": "high"
+}

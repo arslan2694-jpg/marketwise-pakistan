@@ -1,0 +1,29 @@
+{
+  "slug": "the-divided-line-reason-versus-understanding",
+  "name": "The divided line: Reason versus Understanding",
+  "plain_explanation": "Plato distinguishes two kinds of intellectual activity: 'understanding,' used in mathematics, which relies on unquestioned starting assumptions (like 'let ABC be a triangle'), and 'reason,' the higher kind, which grasps the Ideas themselves directly through dialectic, without needing any hypotheses.",
+  "precise_definition": "Plato's division of the intellect (as opposed to sense-perception) into 'understanding' (dianoia), which reasons hypothetically from unproved assumptions as in geometry, and 'reason' (nous), which proceeds dialectically to unconditioned knowledge of the Ideas, especially the Idea of the Good.",
+  "why_it_mattered": "It explains why Plato regards mathematics, for all its rigor, as inferior to dialectic: mathematics can never tell us what truly is, only what would be true if its hypotheses held.",
+  "historical_origin": "Developed as part of the sixth and seventh books of the Republic's account of philosophical education.",
+  "associated_philosopher": "Plato",
+  "examples": [
+    "Geometry says 'let ABC be a rectilinear triangle,' but no drawn figure is truly rectilinear, so geometry only yields hypothetical truth about an unseen, super-sensible triangle."
+  ],
+  "objections": [
+    "Russell notes an unresolved difficulty Plato seems to have missed: if God made only one bed, he must, on the same logic, have made many straight lines (for a triangle needs three), which threatens to demote geometry itself to the status of mere appearance."
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Plato",
+      "treatment": "Plato distinguishes two kinds of intellectual activity: 'understanding,' used in mathematics, which relies on unquestioned starting assumptions (like 'let ABC be a triangle'), and 'reason,' the higher kind, which grasps the Ideas themselves directly through dialectic, without needing any hypotheses."
+    }
+  ]
+}

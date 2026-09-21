@@ -1,0 +1,18 @@
+{
+  "slug": "gnosticism",
+  "name": "Gnosticism",
+  "period": "Spans multiple eras",
+  "doctrines": [
+    "Origen's Platonized theology",
+    "Church and State: the 'divine nation'"
+  ],
+  "philosophers": [
+    "origen"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxx",
+    "book-2-ch-ii"
+  ]
+}

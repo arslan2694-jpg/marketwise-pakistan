@@ -1,0 +1,46 @@
+{
+  "slug": "ignatius-of-loyola",
+  "name": "Ignatius of Loyola",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Protestantism (Lutheranism and Calvinism)",
+  "major_ideas": [
+    "The Jesuit method: discipline, education, and missionary zeal"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Founder of the Jesuit order, credited by Russell with checking the 'amazingly rapid' early success of Protestantism through the Jesuits' military-style discipline, missionary zeal, skill as confessors, and especially their dominance of education (the same Jesuit education, Russell notes, that would later teach Descartes more mathematics than he could have learned elsewhere). Doctrinally, Loyola and the Jesuits opposed predestination, affirmed free will, and held that salvation requires both faith and works.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "saint-augustine",
+    "erasmus",
+    "sir-thomas-more",
+    "martin-luther",
+    "john-calvin"
+  ],
+  "successors": [
+    "rene-descartes",
+    "gerbert-pope-sylvester-ii",
+    "thomas-hobbes"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell treats the Reformation and Counter-Reformation as historically important but philosophically barren: Luther, Calvin, and Loyola are 'medieval in philosophy' compared to the Italians or to Erasmus and More. He is notably even-handed in blaming bigotry on both sides ('Protestant divines were... just as bigoted as Catholic theologians') while offering a structural explanation for why Protestant countries nonetheless ended up with more intellectual liberty: not superior tolerance of temperament, but doctrines (rejection of purgatory and indulgences, predestination) that happened to weaken clerical institutional power. He credits the Jesuits with real organizational and educational excellence despite deploring their support for persecution and the Inquisition. His overall verdict is that the immediate intellectual results of this era were 'wholly bad, but ultimately beneficial,' since exhaustion from the wars of religion forced the abandonment of the medieval dream of doctrinal unity and redirected able minds toward science -- the pivot to Chapter VI.",
+  "why_this_matters": "Russell treats the Reformation (German, anti-papal) and Counter-Reformation (Spanish, pro-papal but anti-laxity) as two different revolts against Renaissance Italy's intellectual and moral authority. Luther, Calvin, and Loyola are all judged 'medieval in philosophy'; the century the Reformation opens is philosophically barren.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-v",
+      "role": "Founder of the Jesuit order, credited by Russell with checking the 'amazingly rapid' early success of Protestantism through the Jesuits' military-style discipline, missionary zeal, skill as confessors, and especially their dominance of education (the same Jesuit education, Russell notes, that would later teach Descartes more mathematics than he could have learned elsewhere). Doctrinally, Loyola and the Jesuits opposed predestination, affirmed free will, and held that salvation requires both faith and works."
+    }
+  ],
+  "extraction_confidence": "high"
+}

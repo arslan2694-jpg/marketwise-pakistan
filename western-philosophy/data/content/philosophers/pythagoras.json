@@ -1,0 +1,82 @@
+{
+  "slug": "pythagoras",
+  "name": "Pythagoras",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "The Pythagorean order/school",
+  "major_ideas": [
+    "'All things are numbers' and the mathematization of reality",
+    "Transmigration of souls and the Pythagorean religious order",
+    "The contemplative ideal and the origin of 'theory'",
+    "The Pythagorean 'central fire' cosmology"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Central figure: founder of a religious order teaching transmigration of souls and ascetic taboos, and, more importantly for later philosophy, founder of demonstrative mathematics and the doctrine that 'all things are numbers', fusing intellectual contemplation with religious salvation. Credited as the source of the Orphic elements in Plato's thought: the religious tone, belief in immortality, other-worldliness, the simile of the cave, and Plato's reverence for mathematics. Credited with the religious, mathematical, and musical elements fused into Plato's doctrine, including the quadrivium (arithmetic, geometry, astronomy, harmony) prescribed for guardians. Their doctrines, including that 'number is the explanation of the world,' are adopted wholesale by the dialogue's speaker Timaeus; the pentagram symbol they called 'Health' is linked to the dodecahedron discussed near the chapter's end. Credited with first proposing a spherical earth (on aesthetic grounds later given scientific support), with the doctrine that the earth is one of the planets, and with the elaborate 'central fire' cosmology attributed to Philolaus, which Russell treats as a crucial imaginative step toward the Copernican hypothesis despite its fancifulness.",
+  "central_doctrines": "'All things are numbers' and the mathematization of reality: The Pythagorean doctrine that the fundamental nature of things is number: numbers were conceived as shapes built from units ('pebbles'), musical intervals were shown to correspond to simple numerical ratios, and the world was pictured as atomic bodies built from units arranged in geometric patterns. Transmigration of souls and the Pythagorean religious order: The Pythagorean doctrine, inherited and reformed from Orphism, that the soul is immortal and is reincarnated in a cycle of rebirths ('nothing being absolutely new'), and that all living things, being kindred, should be treated accordingly; embodied in an ascetic religious community governed by numerous ritual taboos. The contemplative ideal and the origin of 'theory': An ethical and metaphysical doctrine, summarized by Russell via Burnet's account of the 'three kinds of men' at the Olympic Games, holding that disinterested intellectual contemplation ('theoria') is the greatest purification and the truest philosophy, releasing the soul from the 'wheel of birth'. The Pythagorean 'central fire' cosmology: The cosmological system attributed to Philolaus (late fifth century BC), in which the earth, sun, moon, five known planets, a hypothetical counter-earth, and a central fire ('the house of Zeus') together made up ten heavenly bodies (matching the mystically significant Pythagorean number ten), all orbiting the central fire, with the earth rotating so as to keep its inhabited face perpetually turned away from it, and the sun shining by light reflected from the central fire.",
+  "key_arguments": [
+    "The Pythagorean argument for a spherical earth from lunar eclipse shadows"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "anaximenes",
+    "parmenides",
+    "gerbert-pope-sylvester-ii",
+    "anaximander",
+    "plato",
+    "aristotle",
+    "theaetetus",
+    "euclid",
+    "philo",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "plato",
+    "rene-descartes",
+    "immanuel-kant",
+    "saint-augustine",
+    "thomas-aquinas",
+    "baruch-spinoza",
+    "bertrand-russell",
+    "isaac-newton",
+    "euclid",
+    "saint-cyril-of-alexandria",
+    "nicolaus-copernicus",
+    "karl-weierstrass",
+    "albert-einstein"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Pythagoras as one of the most historically influential and psychologically strange figures in the book, memorably described as 'a combination of Einstein and Mrs. Eddy'. He treats the religious/ascetic side (transmigration, taboo rules, semi-divine self-conception) and the mathematical side (the theorem, figurate numbers, the discovery of incommensurables) as genuinely fused rather than coincidentally combined, arguing that Pythagoras's ethic of disinterested contemplation is precisely what connects mysticism to mathematics. Russell credits Pythagoras with founding the entire subsequent tradition, culminating in Plato and running to Kant, in which mathematical certainty is taken to reveal a superior, eternal, intelligible world behind the deceptive world of the senses -- a tradition he regards as 'both profound and unfortunate' in its influence on philosophy. He closes by asserting Platonism is 'in essence Pythagoreanism' and crediting Pythagoras with making possible later Christian and philosophical arguments for God and immortality.",
+  "why_this_matters": "Pythagoras founded both an ascetic religious order teaching transmigration of souls and the tradition of demonstrative, deductive mathematics -- and, for Russell, these two sides were genuinely fused, not merely coincidental. The Pythagorean order held property in common, admitted women equally, and briefly gained direct political power at Croton before being overthrown.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-iii",
+      "role": "Central figure: founder of a religious order teaching transmigration of souls and ascetic taboos, and, more importantly for later philosophy, founder of demonstrative mathematics and the doctrine that 'all things are numbers', fusing intellectual contemplation with religious salvation."
+    },
+    {
+      "chapter_id": "book-1-ch-xiii",
+      "role": "Credited as the source of the Orphic elements in Plato's thought: the religious tone, belief in immortality, other-worldliness, the simile of the cave, and Plato's reverence for mathematics."
+    },
+    {
+      "chapter_id": "book-1-ch-xv",
+      "role": "Credited with the religious, mathematical, and musical elements fused into Plato's doctrine, including the quadrivium (arithmetic, geometry, astronomy, harmony) prescribed for guardians."
+    },
+    {
+      "chapter_id": "book-1-ch-xvii",
+      "role": "Their doctrines, including that 'number is the explanation of the world,' are adopted wholesale by the dialogue's speaker Timaeus; the pentagram symbol they called 'Health' is linked to the dodecahedron discussed near the chapter's end."
+    },
+    {
+      "chapter_id": "book-1-ch-xxiv",
+      "role": "Credited with first proposing a spherical earth (on aesthetic grounds later given scientific support), with the doctrine that the earth is one of the planets, and with the elaborate 'central fire' cosmology attributed to Philolaus, which Russell treats as a crucial imaginative step toward the Copernican hypothesis despite its fancifulness."
+    }
+  ],
+  "extraction_confidence": "high"
+}

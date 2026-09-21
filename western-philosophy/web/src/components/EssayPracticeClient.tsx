@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 interface EssayItem {
   chapterId: string;
@@ -33,12 +33,11 @@ function saveDraft(id: string, text: string) {
 
 export default function EssayPracticeClient({ items }: { items: EssayItem[] }) {
   const [openId, setOpenId] = useState<string | null>(null);
-  const [drafts, setDrafts] = useState<Record<string, string>>({});
+  // Lazy initializer: safe because the textarea that reads `drafts` only
+  // renders once an item is opened (a client-only interaction), so there's
+  // no SSR/client markup to mismatch.
+  const [drafts, setDrafts] = useState<Record<string, string>>(() => loadDrafts());
   const [checked, setChecked] = useState<Record<string, boolean>>({});
-
-  useEffect(() => {
-    setDrafts(loadDrafts());
-  }, []);
 
   return (
     <div className="space-y-3">

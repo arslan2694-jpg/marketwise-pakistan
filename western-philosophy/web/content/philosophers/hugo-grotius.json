@@ -1,0 +1,34 @@
+{
+  "slug": "hugo-grotius",
+  "name": "Hugo Grotius",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Named as the source of the first serious development of social contract theory, building on the hint already present in Aquinas.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xiv",
+      "role": "Named as the source of the first serious development of social contract theory, building on the hint already present in Aquinas."
+    }
+  ],
+  "extraction_confidence": "high"
+}

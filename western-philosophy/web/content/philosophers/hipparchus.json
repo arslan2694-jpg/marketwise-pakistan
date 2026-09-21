@@ -1,0 +1,45 @@
+{
+  "slug": "hipparchus",
+  "name": "Hipparchus",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [
+    "'Saving the phenomena': Greek astronomy as geometrical, not dynamic"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Described by Heath as 'the greatest astronomer of antiquity'; rejected Aristarchus's heliocentric hypothesis in favor of an improved geocentric theory of epicycles, which became, via Ptolemy, the dominant astronomical system for over a millennium.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [
+    {
+      "with": "isaac-newton",
+      "about": "'Saving the phenomena': Greek astronomy as geometrical, not dynamic"
+    },
+    {
+      "with": "albert-einstein",
+      "about": "'Saving the phenomena': Greek astronomy as geometrical, not dynamic"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxiv",
+      "role": "Described by Heath as 'the greatest astronomer of antiquity'; rejected Aristarchus's heliocentric hypothesis in favor of an improved geocentric theory of epicycles, which became, via Ptolemy, the dominant astronomical system for over a millennium."
+    }
+  ],
+  "extraction_confidence": "high"
+}

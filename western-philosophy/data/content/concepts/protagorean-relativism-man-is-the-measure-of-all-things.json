@@ -1,0 +1,33 @@
+{
+  "slug": "protagorean-relativism-man-is-the-measure-of-all-things",
+  "name": "Protagorean relativism ('man is the measure of all things')",
+  "plain_explanation": "The claim that a thing simply is, for each person, however it appears to that person -- so there is no independent fact of the matter beyond individual appearance.",
+  "precise_definition": "The doctrine that any given thing 'is to me such as it appears to me, and is to you such as it appears to you,' making individual perception (and, on the extended interpretation, individual judgement) the final standard of truth.",
+  "why_it_mattered": "It threatens to make all inference, and not merely perception, purely personal, which Plato treats as leading to an intolerable intellectual anarchy.",
+  "historical_origin": "Attributed to the sophist Protagoras and examined in Plato's Theaetetus.",
+  "associated_philosopher": "Protagoras",
+  "examples": [
+    "The objection that pigs and baboons, being percipients, would equally be 'measures of all things' on Protagoras's principle",
+    "The suggestion, on Protagoras's behalf, that one judgement cannot be truer than another but can be 'better,' in having better consequences -- which Russell notes anticipates pragmatism"
+  ],
+  "objections": [
+    "If each man is equally wise, Protagoras is no wiser than a fool, and those who think Protagoras wrong have as much right to be believed as he does",
+    "A doctor's forecast of the course of an illness shows he genuinely knows more about a patient's future than the patient does, so not all judgements are equally good measures"
+  ],
+  "competing_positions": [
+    "Plato's insistence that inference (as opposed to bare percepts) requires an impersonal standard of correctness"
+  ],
+  "influence_on_later_thinkers": "Russell notes it foreshadows pragmatism, particularly the idea (which he attributes to F. C. S. Schiller's admiration of Protagoras) that a belief's value lies in its consequences rather than in a fixed truth.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Protagoras",
+      "treatment": "The claim that a thing simply is, for each person, however it appears to that person -- so there is no independent fact of the matter beyond individual appearance."
+    }
+  ]
+}

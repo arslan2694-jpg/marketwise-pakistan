@@ -1,0 +1,32 @@
+{
+  "slug": "absolute-sovereignty-and-the-rejection-of-divided-or-limited-government",
+  "name": "Absolute sovereignty and the rejection of divided or limited government",
+  "plain_explanation": "Hobbes argued the sovereign (ideally a monarch, though the argument applies to any single supreme authority) must hold unlimited power -- over property, censorship, religion, and law -- because any division of power (as between King, Lords, and Commons) risks civil war, which Hobbes considered the worst possible outcome, worse even than despotism.",
+  "precise_definition": "Russell's summary: 'The powers of the sovereign, in Hobbes's system, are unlimited. He has the right of censorship over all expression of opinion... The laws of property are to be entirely subject to the sovereign; for in a state of nature there is no property, and therefore property is created by government, which may control its creation as it pleases... It is admitted that the sovereign may be despotic, but even the worst despotism is better than anarchy.'",
+  "why_it_mattered": "This is the core, most historically consequential claim of Leviathan, and Russell devotes his longest evaluative discussion in the chapter to assessing whether Hobbes was right that the risk of anarchy always outweighs the risk of tyranny.",
+  "historical_origin": "Developed across Parts I and II of Leviathan, with Hobbes's preference for monarchy over an assembly defended on several practical grounds (fewer total favorites, secrecy of advice, stability against factional absences).",
+  "associated_philosopher": "Thomas Hobbes",
+  "examples": [
+    "Hobbes's explanation of the English Civil War as caused by power being divided between King, Lords, and Commons",
+    "His rejection of the Aristotelian distinction between tyranny and monarchy, since 'a \"tyranny,\" according to Hobbes, is merely a monarchy that the speaker happens to dislike'"
+  ],
+  "objections": [
+    "Russell's own objection: a state may be so bad that temporary anarchy is preferable to its continuance (citing France 1789 and Russia 1917), and unchecked sovereign power tends toward political, economic, and intellectual abuse unless governments have some fear of rebellion"
+  ],
+  "competing_positions": [
+    "Locke's and Montesquieu's doctrine of division of powers and checks and balances, developed explicitly against Hobbes's position"
+  ],
+  "influence_on_later_thinkers": "Russell traces this dispute forward through Locke's checks and balances to the constitutional structures of England, America, and, more darkly, to twentieth-century states (Germany, Italy, Russia, Japan) where government power exceeded even what Hobbes thought desirable.",
+  "connection_to_politics_or_religion": "Extends explicitly to religion: the sovereign has censorship power and determines what counts as religion versus superstition.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-viii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Thomas Hobbes",
+      "treatment": "Hobbes argued the sovereign (ideally a monarch, though the argument applies to any single supreme authority) must hold unlimited power -- over property, censorship, religion, and law -- because any division of power (as between King, Lords, and Commons) risks civil war, which Hobbes considered the worst possible outcome, worse even than despotism."
+    }
+  ]
+}

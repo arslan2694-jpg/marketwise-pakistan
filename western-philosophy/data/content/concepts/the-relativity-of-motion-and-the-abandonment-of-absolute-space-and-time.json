@@ -1,0 +1,30 @@
+{
+  "slug": "the-relativity-of-motion-and-the-abandonment-of-absolute-space-and-time",
+  "name": "The relativity of motion and the abandonment of absolute space and time",
+  "plain_explanation": "Newton believed space and time existed independently of the objects and events in them, and thought absolute rotation (as opposed to relative motion) could be empirically detected, for example by the way water climbs the sides of a rotating bucket. Later physics increasingly treated all motion, including rotation, as purely relative, and merged space and time into a single space-time -- a change Russell flags as one of the most important since Newton, though one he declines to pursue in depth in this book.",
+  "precise_definition": "Russell notes the empirical puzzle: 'If all motion is relative, the difference between the hypothesis that the earth rotates and the hypothesis that the heavens revolve is purely verbal... But if the heavens revolve, the stars move faster than light, which is considered impossible' -- a difficulty he says is not fully resolved but is 'sufficiently satisfying to cause almost all physicists to accept the view that motion and space are purely relative.'",
+  "why_it_mattered": "It marks a genuine change from the Newtonian picture that would matter greatly for twentieth-century philosophy of physics, even though Russell treats it here only briefly as a signpost toward material he sets aside for this book.",
+  "historical_origin": "Traced back to Newton's own bucket-of-water argument for absolute rotation, later challenged and revised by relativity theory and the amalgamation of space and time into space-time.",
+  "associated_philosopher": "Isaac Newton",
+  "examples": [
+    "Newton's rotating-bucket experiment",
+    "Foucault's pendulum, taken as a demonstration of the earth's rotation"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Newton's own belief in absolute space and time, independent of bodies and events"
+  ],
+  "influence_on_later_thinkers": "Connects back to the earlier discussion of Democritus's views on space (noted explicitly by Russell) and forward to unnamed but implied twentieth-century relativity physics.",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-vi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Isaac Newton",
+      "treatment": "Newton believed space and time existed independently of the objects and events in them, and thought absolute rotation (as opposed to relative motion) could be empirically detected, for example by the way water climbs the sides of a rotating bucket. Later physics increasingly treated all motion, including rotation, as purely relative, and merged space and time into a single space-time -- a change Russell flags as one of the most important since Newton, though one he declines to pursue in depth in this book."
+    }
+  ]
+}

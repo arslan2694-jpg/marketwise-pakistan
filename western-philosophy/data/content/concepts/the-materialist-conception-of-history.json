@@ -1,0 +1,36 @@
+{
+  "slug": "the-materialist-conception-of-history",
+  "name": "The materialist conception of history",
+  "plain_explanation": "The idea that a society's politics, religion, philosophy, and art are, in their broad outlines, products of how that society produces and distributes goods -- so that to understand a period's ideas you must first understand its economic structure.",
+  "precise_definition": "Marx's doctrine that the politics, religion, philosophy, and art of any historical epoch are, in their broad outlines (though not in every technical detail), an outcome of its methods of production and, to a lesser extent, distribution.",
+  "why_it_mattered": "Russell calls this 'a very important thesis,' says it concerns the historian of philosophy directly, and admits it has influenced his own view of philosophical development as presented throughout this book, even though he does not accept it as it stands.",
+  "historical_origin": "Marx's synthesis of Hegelian dialectic with British classical economics, substituting matter (in practice, economics) for Hegel's Spirit as history's motive force.",
+  "associated_philosopher": "Karl Marx",
+  "examples": [
+    "Greek philosophy to Aristotle expressing the mentality of the City State",
+    "Stoicism as appropriate to cosmopolitan despotism",
+    "Scholastic philosophy as the intellectual expression of the Church as an organization",
+    "Philosophy since Locke embodying the prejudices of the commercial middle class",
+    "Marxism and Fascism as philosophies appropriate to the modern industrial State"
+  ],
+  "objections": [
+    "Russell's first objection: social causation is as much political (a matter of power) as economic (a matter of wealth); wealth is only one form of power.",
+    "Russell's second objection: social causation largely ceases to apply once a philosophical problem becomes sufficiently detailed and technical (e.g., the classical debate over universals, or the fate of the ontological argument)."
+  ],
+  "competing_positions": [
+    "Russell's own view that 'philosophy' in the strict, technical sense (logic, mathematics, precise conceptual analysis) is largely insulated from social causation, while 'philosophy' as an 'organic whole of extra-rational decisions' is where Marx's thesis is largely true"
+  ],
+  "influence_on_later_thinkers": "Russell states outright that it has influenced his own account of philosophical development throughout A History of Western Philosophy.",
+  "connection_to_politics_or_religion": "Central to Marx's whole account of the relation between economics, politics, and ideas.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxvii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Karl Marx",
+      "treatment": "The idea that a society's politics, religion, philosophy, and art are, in their broad outlines, products of how that society produces and distributes goods -- so that to understand a period's ideas you must first understand its economic structure."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "socratic-dialectic-elenchus",
+  "name": "Socratic dialectic (elenchus)",
+  "plain_explanation": "Socrates's method of asking a series of probing questions until the person answering is forced to see that their own beliefs contradict each other.",
+  "precise_definition": "A method of inquiry by question and answer aimed at testing the consistency of an interlocutor's beliefs and, ideally, arriving inductively at a definition that fits how a term is actually used.",
+  "why_it_mattered": "It became, through Plato, the template for what 'doing philosophy' meant in the Western tradition, and it explains both Socrates's popularity with young men and the hatred it earned him from those exposed as ignorant.",
+  "historical_origin": "Russell suggests it was first practised systematically by Zeno of Elea, but that Socrates developed and popularized it as his characteristic activity in Athens.",
+  "associated_philosopher": "Socrates",
+  "examples": [
+    "The shoemaker/carpenter/coppersmith questions leading to 'who should mend the Ship of State?'",
+    "The cross-examination of the politician, the poets, and the artisans in the Apology, in each case exposing pretended wisdom."
+  ],
+  "objections": [
+    "Russell argues dialectic is useless for discovering new empirical facts (e.g. the spread of disease by bacteria could never be 'recollected' by question and answer)."
+  ],
+  "competing_positions": [
+    "Empirical/scientific observation, which Russell contrasts as the appropriate method for factual as opposed to logical questions."
+  ],
+  "influence_on_later_thinkers": "Shaped Plato's own dialogues and, through Plato, bounded the kinds of questions much of subsequent Western philosophy considered its proper business.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Socrates",
+      "treatment": "Socrates's method of asking a series of probing questions until the person answering is forced to see that their own beliefs contradict each other."
+    }
+  ]
+}

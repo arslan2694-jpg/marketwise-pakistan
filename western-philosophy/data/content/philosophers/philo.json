@@ -1,0 +1,42 @@
+{
+  "slug": "philo",
+  "name": "Philo",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Prophetic monotheism",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Introduced as a contemporary of Christ and the best illustration of Greek influence on Jewish thought: an orthodox Jew in religion but a Platonist in philosophy, whose synthesis of Greek philosophy with Hebrew scripture the later Christian Fathers would follow.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "empedocles",
+    "plato",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "plato",
+    "karl-marx",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell treats Jewish religious history as a historically explicable, evolving human phenomenon rather than as a continuous revealed truth: he explicitly argues that exclusive monotheism, hostility to other religions, and belief in personal immortality were historical innovations forged by specific prophets and specific crises (exile, persecution), not eternal or original Israelite doctrine, and he criticizes the Old Testament's historical books for retrospectively projecting later strictness onto earlier periods. His overall tone toward the Jews of this period is admiring of their 'stubborn national pride' and heroism under persecution (the Maccabean martyrs), while being frankly critical of aspects he finds unattractive -- the harsh treatment of slaves and women in Ecclesiasticus, the vengeful tone of apocalyptic writers such as the author of Enoch, and the narrow exclusivism produced by rigid devotion to the Law. He credits the Jews with contributing sacred history, the doctrine of election, an emphasis on almsgiving/practical philanthropy, and (via prophets such as Deutero-Isaiah) messianic texts central to Christian apologetics, while distinguishing these from elements he traces to Greek philosophy or to Near Eastern mystery cults. He also singles out, approvingly, the comparatively humane treatment of Jews under medieval Islamic rule as against Christian persecution.",
+  "why_this_matters": "Russell identifies six specifically Jewish elements absorbed into Christianity: sacred history, the doctrine of a chosen/elect people, an emphasis on almsgiving and practical righteousness, an attitude to law/creed paralleling the Jewish Law, the doctrine of the Messiah, and a concrete this-worldly conception of the Kingdom of Heaven. Exclusive monotheism ('no other gods') was, in Russell's reading, a historical innovation of the prophets shortly before the Babylonian exile, not the original religion of the Israelites.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-i",
+      "role": "Introduced as a contemporary of Christ and the best illustration of Greek influence on Jewish thought: an orthodox Jew in religion but a Platonist in philosophy, whose synthesis of Greek philosophy with Hebrew scripture the later Christian Fathers would follow."
+    }
+  ],
+  "extraction_confidence": "high"
+}

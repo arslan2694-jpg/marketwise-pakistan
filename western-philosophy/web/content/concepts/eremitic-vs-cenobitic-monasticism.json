@@ -1,0 +1,30 @@
+{
+  "slug": "eremitic-vs-cenobitic-monasticism",
+  "name": "Eremitic vs. cenobitic monasticism",
+  "plain_explanation": "Two early forms of the monastic life: living alone as a solitary hermit (eremitic), or living together with other monks under a shared rule (cenobitic).",
+  "precise_definition": "The distinction between solitary hermit asceticism, pioneered by Saint Anthony in Egypt from about 270, and communal monastic life without private property, founded by Pachomius around 315-320, in which monks shared meals, labor (chiefly agricultural), and religious observance.",
+  "why_it_mattered": "The cenobitic form, not the eremitic, ultimately became dominant in Western Christendom, and it was this communal model, refined by Saint Benedict, that produced institutions capable of preserving learning and culture over centuries.",
+  "historical_origin": "Both forms arose in Egypt and Syria near the start of the fourth century; Syrian and Mesopotamian asceticism (e.g., Saint Simeon Stylites) carried austerity even further than in Egypt.",
+  "associated_philosopher": "Saint Anthony",
+  "examples": [
+    "Saint Anthony's fifteen years alone in a hut and twenty years in the desert",
+    "Pachomius's first monastery, with communal meals and shared labor"
+  ],
+  "objections": [
+    "Early, unregulated monasticism produced disorder: no way to distinguish genuine ascetics from the merely destitute, and monks who gave turbulent partisan support to favorite bishops, at times pushing synods toward heresy"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Saint Benedict's Rule, adapting the cenobitic model to Western climates and demanding less austerity, became the template for nearly all Western monasteries except those of Ireland or founded by Irishmen.",
+  "connection_to_politics_or_religion": "Directly religious in origin, but monastic factionalism had real ecclesiastical-political consequences, as in the monkish pressure behind the Monophysite synod of Ephesus (449).",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-vi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Saint Anthony",
+      "treatment": "Two early forms of the monastic life: living alone as a solitary hermit (eremitic), or living together with other monks under a shared rule (cenobitic)."
+    }
+  ]
+}

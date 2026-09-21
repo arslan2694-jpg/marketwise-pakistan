@@ -1,0 +1,32 @@
+{
+  "slug": "the-analysis-of-causation-constant-conjunction-not-necessary-connection",
+  "name": "The analysis of causation: constant conjunction, not necessary connection",
+  "plain_explanation": "Hume argued we never actually perceive one event 'making' another happen -- we only ever observe that events of one kind (A) are regularly followed by events of another kind (B). We never see the hidden 'power' or 'necessity' supposedly connecting them; that feeling of necessity is really just a habit our minds form after repeatedly observing the two events together.",
+  "precise_definition": "Hume's objective claim: 'we have no other notion of cause and effect, but that of certain objects, which have been always conjoined together ... we cannot penetrate into the reason of the conjunction'; causation reduces to constant, observed conjunction (or immediate succession) between event-types, not any further, perceivable 'necessary connection.' His subjective claim: this felt sense of necessity arises because 'custom operating upon the imagination' -- the frequent past conjunction of A and B causes the impression of A to produce a vivid, belief-constituting idea of B.",
+  "why_it_mattered": "Russell calls this 'the first really serious challenge' to the traditional (Cartesian/scholastic) assimilation of causal connection to logical, necessary connection, and says 'the modern philosophy of causation begins' with Hume; Russell judges the objective half of the doctrine essentially correct, especially regarding physics, where simple 'A causes B' laws never actually survive in well-developed science.",
+  "historical_origin": "Book I, Part III of the Treatise, especially the sections 'Of Knowledge and Probability' and the discussion of the idea of necessary connection.",
+  "associated_philosopher": "David Hume",
+  "examples": [
+    "Hume's example of two perfectly accurate chronometers striking the hours one after another invariably, without either causing the other's striking, used by Hume's opponents to argue constant conjunction alone cannot be all there is to causation"
+  ],
+  "objections": [
+    "Russell's opponents-of-Hume argument: some relations (e.g., between a volition and the resulting bodily movement) might be directly perceived as more than mere sequence -- though Russell notes physiology (nerve and muscle processes between will and movement) makes this doubtful",
+    "Russell notes it is 'rash to suppose that we perceive causal relations when we think we do,' tilting the balance, on this narrower point, toward Hume"
+  ],
+  "competing_positions": [
+    "The traditional Cartesian/scholastic view that causal connections are logically necessary, akin to relations of ground and consequent"
+  ],
+  "influence_on_later_thinkers": "Russell notes 'almost all philosophers down to and including Bergson' inherited Hume's simplified 'A causes B' model of causal laws, a model Russell says does not actually match how mature sciences formulate causal laws.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xvii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "David Hume",
+      "treatment": "Hume argued we never actually perceive one event 'making' another happen -- we only ever observe that events of one kind (A) are regularly followed by events of another kind (B). We never see the hidden 'power' or 'necessity' supposedly connecting them; that feeling of necessity is really just a habit our minds form after repeatedly observing the two events together."
+    }
+  ]
+}

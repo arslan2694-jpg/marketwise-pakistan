@@ -1,0 +1,33 @@
+{
+  "slug": "the-dialectic-thesis-antithesis-synthesis",
+  "name": "The dialectic (thesis, antithesis, synthesis)",
+  "plain_explanation": "Hegel's method for showing that any single idea about reality, followed through carefully, turns out to be incomplete or self-contradictory (the 'thesis'), forcing us to an opposite idea (the 'antithesis') that is equally incomplete, until both are combined and corrected in a fuller idea (the 'synthesis') -- a process Hegel thought could be repeated until we reach the fullest possible conception of reality, the 'Absolute Idea.'",
+  "precise_definition": "Hegel's triadic logical-metaphysical method, by which any predicate taken to characterize Reality as a whole is shown to be self-contradictory (thesis), driving thought to an opposite predicate that is equally self-contradictory (antithesis), and thence to a synthesis that incorporates and corrects both, with each synthesis becoming the thesis of a new triad, until the process culminates in the Absolute Idea.",
+  "why_it_mattered": "It is Hegel's proposed method for deducing the nature of reality by pure logic alone, and it structures both his Logic (Being -> Nothing -> Becoming, etc.) and his Philosophy of History, where Russell argues (without full justification from Hegel's own metaphysics) that world history is claimed to literally repeat the transitions of the dialectic.",
+  "historical_origin": "Hegel's Science of Logic and Encyclopaedia Logic.",
+  "associated_philosopher": "Georg Wilhelm Friedrich Hegel",
+  "examples": [
+    "Russell's 'uncle' illustration: 'Reality is an uncle' (thesis) implies a nephew, so 'The Absolute is a nephew' (antithesis), synthesized into the whole composed of uncle-and-nephew, which itself proves incomplete and must be further enlarged",
+    "Hegel's own opening move: 'The Absolute is Pure Being' (thesis) -> 'The Absolute is Nothing' (antithesis) -> 'The Absolute is Becoming' (synthesis)"
+  ],
+  "objections": [
+    "Russell argues the underlying logical assumption -- that relations cannot be real because traditional subject-predicate logic can only handle a single thing having a single quality -- is simply mistaken, and that this mistake, not genuine insight, generates the 'imposing edifice' of Hegel's system.",
+    "Russell notes there is no justification, even within Hegel's own metaphysic, for supposing that the time-process of world history must repeat the purely logical transitions of the dialectic, since on Hegel's view time itself is not fully real."
+  ],
+  "competing_positions": [
+    "Modern relational/analytic logic, which allows genuine relations between distinct things without requiring reduction to statements about a single Whole"
+  ],
+  "influence_on_later_thinkers": "Directly inherited (with a materialist inversion) by Marx as dialectical materialism.",
+  "connection_to_politics_or_religion": "Applied by Hegel to world history, where it becomes the engine of his account of nations and Spirit's progress toward freedom.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Georg Wilhelm Friedrich Hegel",
+      "treatment": "Hegel's method for showing that any single idea about reality, followed through carefully, turns out to be incomplete or self-contradictory (the 'thesis'), forcing us to an opposite idea (the 'antithesis') that is equally incomplete, until both are combined and corrected in a fuller idea (the 'synthesis') -- a process Hegel thought could be repeated until we reach the fullest possible conception of reality, the 'Absolute Idea.'"
+    }
+  ]
+}

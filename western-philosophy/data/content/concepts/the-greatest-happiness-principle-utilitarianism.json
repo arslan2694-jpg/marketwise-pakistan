@@ -1,0 +1,32 @@
+{
+  "slug": "the-greatest-happiness-principle-utilitarianism",
+  "name": "The greatest-happiness principle (Utilitarianism)",
+  "plain_explanation": "The idea that pleasure or happiness is the only good, pain the only evil, and that the best state of affairs is whichever one contains the greatest balance of pleasure over pain for everyone affected.",
+  "precise_definition": "Bentham's ethical doctrine, dating in substance to Hutcheson (1725) and already implicit in Locke, that goodness and badness of states of affairs are functions solely of the balance of pleasure over pain they contain, and that this balance, summed over all affected persons, is the sole criterion of morals and legislation.",
+  "why_it_mattered": "It gave Bentham's Philosophical Radicals a single, apparently objective criterion for reforming law and government, and became the official creed of a highly influential mid-nineteenth-century British political movement.",
+  "historical_origin": "Advocated by Hutcheson from 1725; Bentham (mistakenly, Russell notes) attributed it to Priestley, though it is 'virtually contained in Locke.'",
+  "associated_philosopher": "Jeremy Bentham",
+  "examples": [
+    "Bentham's argument that criminal punishment is justified only to prevent crime, not to satisfy hatred of the criminal",
+    "His view that certainty of punishment matters more than severity, used to argue against the death penalty for minor offences"
+  ],
+  "objections": [
+    "Russell's logical objection (developed via J. S. Mill) that 'desired' does not entail 'desirable,' so the fact that people pursue pleasure does not show pleasure is what they ought to pursue"
+  ],
+  "competing_positions": [
+    "Nietzsche's ethic, which Russell notes explicitly restricts ethical importance to a minority and ignores the happiness of the rest"
+  ],
+  "influence_on_later_thinkers": "Carried on in softened form by John Stuart Mill; criticized by Russell as logically incomplete regarding the transition from individual to general happiness.",
+  "connection_to_politics_or_religion": "Directly political: became the philosophical charter of British Radical legislative reform in the nineteenth century.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Jeremy Bentham",
+      "treatment": "The idea that pleasure or happiness is the only good, pain the only evil, and that the best state of affairs is whichever one contains the greatest balance of pleasure over pain for everyone affected."
+    }
+  ]
+}

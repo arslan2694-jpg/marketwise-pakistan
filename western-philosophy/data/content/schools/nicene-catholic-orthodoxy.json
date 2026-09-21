@@ -1,0 +1,26 @@
+{
+  "slug": "nicene-catholic-orthodoxy",
+  "name": "Nicene (Catholic) orthodoxy",
+  "period": "Medieval",
+  "doctrines": [
+    "Independence of the Church from the State",
+    "The Vulgate and the Hebrew-vs-Septuagint controversy",
+    "Augustine's early psychology of sin",
+    "Creation ex nihilo",
+    "Augustine's relativistic (subjective) theory of time",
+    "The City of God and the earthly city (the two cities)",
+    "Original sin and predestination (the anti-Pelagian doctrine of salvation)",
+    "The unresolved problem of social order: Rome versus the City of God"
+  ],
+  "philosophers": [
+    "saint-augustine",
+    "saint-jerome",
+    "saint-ambrose"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-2-ch-ii",
+    "book-2-ch-iii"
+  ]
+}

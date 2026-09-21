@@ -1,0 +1,33 @@
+{
+  "slug": "virtue-as-the-sole-good",
+  "name": "Virtue as the sole good",
+  "plain_explanation": "The Stoics held that the only thing that is truly and always good is a virtuous will; everything else people usually call 'good' -- health, wealth, reputation, even the safety of your own family -- is 'indifferent,' because it lies outside your own control and can be taken away by fortune.",
+  "precise_definition": "The Stoic ethical doctrine that virtue -- a will in agreement with Nature/Reason -- is the sole true good, and that all so-called external goods (health, wealth, pleasure, reputation, even the survival of loved ones) are morally indifferent, since a person retains the capacity for virtue regardless of what happens to them externally.",
+  "why_it_mattered": "This doctrine is what makes the Stoic sage supposedly invulnerable: since virtue is entirely 'up to him' and cannot be taken by any external power, he can be enslaved, imprisoned, or bereaved and still possess the one thing that truly matters.",
+  "historical_origin": "Constant across the whole history of Stoicism from Zeno onward, even as other Stoic doctrines (materialism, views on the soul's survival) changed considerably.",
+  "associated_philosopher": "Zeno of Citium (established); Epictetus and Marcus Aurelius (most fully articulated in surviving texts)",
+  "examples": [
+    "Epictetus: 'My leg you will chain -- yes, but my will -- no, not even Zeus can conquer that'",
+    "The Stoic sage who dies nobly, like Socrates, remaining virtuous even under a death sentence"
+  ],
+  "objections": [
+    "Russell: if virtue is the sole good, there is no coherent reason to oppose cruelty or injustice, since suffering gives the sufferer the best opportunity to exercise virtue",
+    "Russell: a modern reader cannot feel enthusiasm for risking one's life (e.g. a doctor in a plague) if illness itself is not considered an evil"
+  ],
+  "competing_positions": [
+    "Epicurean hedonism (Ch. XXVII), which makes pleasure, not virtue, the sole good"
+  ],
+  "influence_on_later_thinkers": "Directly echoed by Kant's insistence that only a good will is unconditionally good; Russell explicitly compares the Stoics to Kant on this point.",
+  "connection_to_politics_or_religion": "Underwrites Stoic advice to accept, without complaint, poverty, imprisonment, or political powerlessness, since none of these affect what alone matters.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Zeno of Citium (established); Epictetus and Marcus Aurelius (most fully articulated in surviving texts)",
+      "treatment": "The Stoics held that the only thing that is truly and always good is a virtuous will; everything else people usually call 'good' -- health, wealth, reputation, even the safety of your own family -- is 'indifferent,' because it lies outside your own control and can be taken away by fortune."
+    }
+  ]
+}

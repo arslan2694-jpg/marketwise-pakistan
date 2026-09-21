@@ -1,0 +1,59 @@
+{
+  "slug": "thomas-aquinas",
+  "name": "Thomas Aquinas",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Thomism (the philosophical/theological system of Aquinas)",
+  "major_ideas": [
+    "The five (and related) proofs of God's existence",
+    "The rejection of the ontological argument",
+    "God's knowledge of particulars",
+    "The individual human soul, intellect, and the rejection of Averroism"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The chapter's central subject: a Dominican friar and the greatest scholastic philosopher, whose Summa contra Gentiles and Summa Theologiae synthesize Aristotelian philosophy with Christian doctrine; Russell gives an extended abstract of the Summa contra Gentiles' four books before offering a sustained critical assessment. Cited as an early source for both the concept of natural law ('every law framed by man bears the character of a law exactly to that extent to which it is derived from the law of nature') and a hint of social contract theory, and, via Tawney, as ancestor of the labour theory of value.",
+  "central_doctrines": "The five (and related) proofs of God's existence: Aquinas's cosmological-style arguments (the unmoved mover, the first cause, the ultimate source of necessity, the argument from degrees of perfection, and the argument from design/purposiveness in lifeless things) for God's existence, presented in the Summa contra Gentiles and, in a fuller five-fold form, the Summa Theologiae; contrasted with, and explicitly preferred by Aquinas over, the ontological argument. God's knowledge of particulars: Aquinas's resolution, in Book I of the Summa contra Gentiles, of seven objections to the claim that God has knowledge of individual, contingent, and even seemingly trivial or evil particulars, arguing that God's causal, atemporal mode of knowing avoids all seven difficulties. The individual human soul, intellect, and the rejection of Averroism: Aquinas's doctrine, contra Averroes, that the intellectual part of each human soul is numerically distinct for each individual, immaterial and incorruptible, created directly by God (not transmitted through generation), and hence capable of grounding genuine personal immortality.",
+  "key_arguments": [
+    "The argument of the unmoved mover",
+    "The five ways of the Summa Theologiae",
+    "Aquinas's resolution of the seven objections to God's knowledge of particulars"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "aristotle",
+    "kindi"
+  ],
+  "successors": [
+    "plato",
+    "aristotle",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "saint-anselm",
+      "about": "The rejection of the ontological argument"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell credits Aquinas with genuine intellectual virtues: unusually competent, direct knowledge of Aristotle; sharp and admirable clarity in distinguishing arguments from reason and arguments from revelation; systematic power sufficient to make the Summa 'an imposing intellectual edifice' even if every individual doctrine in it were mistaken; and real fairness in stating opposing views before refuting them. But Russell's overall verdict, stated with unusual directness at the chapter's close, is severely critical: he denies Aquinas 'the true philosophic spirit,' arguing that because Aquinas already knows the truth in advance (it is given by Catholic faith) and merely seeks supporting arguments -- falling back on revelation if reason fails -- his method is 'not philosophy, but special pleading,' and he 'does not deserve to be put on a level with the best philosophers either of Greece or of modern times.' Russell illustrates the alleged insincerity of Aquinas's 'rational' arguments with the marriage-indissolubility case and with the cosmological arguments' shared, mathematically unsound premise about infinite regress.",
+  "why_this_matters": "Since Leo XIII's 1879 rescript, Aquinas's philosophy is mandatory teaching in Catholic educational institutions, making him a 'living influence' rather than merely a historical figure. Aquinas's Summa contra Gentiles divides religious truths into those provable by natural reason (God's existence, soul's immortality) and those knowable only by revelation (Trinity, Incarnation, Last Judgement), confining rational argument to the first three of its four books.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-xiii",
+      "role": "The chapter's central subject: a Dominican friar and the greatest scholastic philosopher, whose Summa contra Gentiles and Summa Theologiae synthesize Aristotelian philosophy with Christian doctrine; Russell gives an extended abstract of the Summa contra Gentiles' four books before offering a sustained critical assessment."
+    },
+    {
+      "chapter_id": "book-3-ch-xiv",
+      "role": "Cited as an early source for both the concept of natural law ('every law framed by man bears the character of a law exactly to that extent to which it is derived from the law of nature') and a hint of social contract theory, and, via Tawney, as ancestor of the labour theory of value."
+    }
+  ],
+  "extraction_confidence": "high"
+}

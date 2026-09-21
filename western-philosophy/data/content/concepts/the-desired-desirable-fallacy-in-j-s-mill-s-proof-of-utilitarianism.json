@@ -1,0 +1,27 @@
+{
+  "slug": "the-desired-desirable-fallacy-in-j-s-mill-s-proof-of-utilitarianism",
+  "name": "The desired/desirable fallacy in J. S. Mill's proof of utilitarianism",
+  "plain_explanation": "Mill argued that just as the only things visible are things people see, the only things desirable are things people desire -- but Russell points out 'visible' means 'able to be seen' while 'desirable' means 'ought to be desired,' so the analogy fails and the argument proves nothing.",
+  "precise_definition": "Russell's logical critique of Mill's inference from 'pleasure is the only thing desired' to 'pleasure is the only thing desirable,' turning on the equivocation between a purely descriptive capacity-suffix ('-ible' as 'can be') and a normative one ('-ible' as 'ought to be').",
+  "why_it_mattered": "It shows that Utilitarianism's central ethical claim cannot be derived from psychological facts about desire alone, a version of what is later called the naturalistic fallacy.",
+  "historical_origin": "Occurs in Mill's Utilitarianism.",
+  "associated_philosopher": "John Stuart Mill",
+  "examples": [],
+  "objections": [
+    "Russell further argues that if each man must always pursue his own pleasure, saying he 'ought' to do otherwise is pointless, reducing ethics to mere prudence and politics to 'log-rolling'"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Stuart Mill",
+      "treatment": "Mill argued that just as the only things visible are things people see, the only things desirable are things people desire -- but Russell points out 'visible' means 'able to be seen' while 'desirable' means 'ought to be desired,' so the analogy fails and the argument proves nothing."
+    }
+  ]
+}

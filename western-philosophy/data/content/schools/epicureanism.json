@@ -1,0 +1,21 @@
+{
+  "slug": "epicureanism",
+  "name": "Epicureanism",
+  "period": "Ancient",
+  "doctrines": [
+    "Pleasure as the sole good (Epicurean hedonism)",
+    "Dynamic versus static pleasure",
+    "Materialist physics with the atomic 'swerve'",
+    "Freedom from fear of the gods and of death"
+  ],
+  "philosophers": [
+    "lucretius",
+    "epicurus"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxvii",
+    "book-1-ch-xxx"
+  ]
+}

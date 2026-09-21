@@ -1,0 +1,33 @@
+{
+  "slug": "plato-s-definition-of-justice",
+  "name": "Plato's definition of justice",
+  "plain_explanation": "Plato concludes that a society is 'just' when everyone does their own proper job and does not meddle in others' work -- traders trade, soldiers fight, guardians rule, and no one interferes with anyone else's role.",
+  "precise_definition": "The Republic's culminating definition (reached in Book IV): justice consists in each class, and each individual, doing its own proper work without interference in the work of others, an idea Russell connects to an older Greek notion (traceable to Anaximander) of each thing having its 'appointed place and function,' violation of which constitutes hubris to be cosmically punished.",
+  "why_it_mattered": "This definition permits, rather than forbids, inequalities of power and privilege, since inequality is only unjust, on Plato's view, if some non-guardian is actually wiser than some guardian -- a definition sharply at odds with modern, egalitarian conceptions of justice.",
+  "historical_origin": "Traced by Russell to a pre-philosophical Greek religious/ethical intuition about cosmic order, evident already in Anaximander's fragment on things making 'reparation and satisfaction to one another for their injustice according to the appointed time.'",
+  "associated_philosopher": "Plato",
+  "examples": [
+    "Russell's analogy: no one thinks it unjust to put the best players on a football team, even though they gain thereby a great advantage."
+  ],
+  "objections": [
+    "The definition presupposes a settled, traditional or ideologically fixed social order in which 'a man's job' can be determined; in Plato's own Republic, where no one has a legal father, this determination falls entirely to the state's judgment of aptitude, giving the state's purposes decisive power over what counts as legitimate work (e.g. Plato's condemnation of poetry as a 'job').",
+    "It is compatible with rule by an entrenched elite so long as no formal promotion/demotion rule is violated, regardless of whether that elite actually governs well or in the public interest."
+  ],
+  "competing_positions": [
+    "The modern/democratic association of justice with equality, which Russell notes is quite foreign to Plato's usage.",
+    "Thrasymachus's view that 'justice is nothing else than the interest of the stronger.'"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "Connects to a pre-philosophical religious sense of cosmic order and hubris found also in Heraclitus, Empedocles, and Parmenides.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Plato",
+      "treatment": "Plato concludes that a society is 'just' when everyone does their own proper job and does not meddle in others' work -- traders trade, soldiers fight, guardians rule, and no one interferes with anyone else's role."
+    }
+  ]
+}

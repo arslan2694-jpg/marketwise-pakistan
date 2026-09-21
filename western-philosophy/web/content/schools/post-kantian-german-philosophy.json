@@ -1,0 +1,19 @@
+{
+  "slug": "post-kantian-german-philosophy",
+  "name": "Post-Kantian German philosophy",
+  "period": "Modern",
+  "doctrines": [
+    "The world as Will",
+    "Cosmic pessimism: Will as evil",
+    "The veil of Maya and ascetic salvation (Nirvana)",
+    "The primacy of Will over Knowledge"
+  ],
+  "philosophers": [
+    "arthur-schopenhauer"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxiv"
+  ]
+}

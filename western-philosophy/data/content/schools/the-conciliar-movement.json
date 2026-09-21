@@ -1,0 +1,17 @@
+{
+  "slug": "the-conciliar-movement",
+  "name": "The conciliar movement",
+  "period": "Medieval",
+  "doctrines": [
+    "Wycliffe's doctrine of civil dominion and its escalation into heresy"
+  ],
+  "philosophers": [
+    "john-wycliffe"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-2-ch-xiv",
+    "book-2-ch-xv"
+  ]
+}

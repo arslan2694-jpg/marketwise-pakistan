@@ -1,0 +1,92 @@
+{
+  "slug": "georg-wilhelm-friedrich-hegel",
+  "name": "Georg Wilhelm Friedrich Hegel",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "German idealism",
+  "major_ideas": [
+    "The Absolute",
+    "The dialectic (thesis, antithesis, synthesis)",
+    "Spirit's historical progress through nations toward freedom",
+    "Hegel's glorification of the State"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Noted as an exception to the commerce-linked 'liberal' culture of the age, and as 'saved' from pure subjectivism by the influence of Spinoza. Named, alongside Berkeley, as holding (on different grounds) that there are logical reasons proving only minds and mental events can exist -- a view Russell calls 'a complete mistake.' The chapter's sole primary subject: his metaphysics of the Absolute, his logic and dialectical method, his philosophy of history (Spirit's progress through Orientals, Greeks/Romans, and Germans), and his political philosophy of the State are reconstructed in detail and then subjected to sustained criticism. The philosopher whose dialectical logic and belief in a rational formula summing up the evolution of mankind Marx inherits and inverts, substituting matter/classes for Hegel's mystical 'Spirit'/nations as the moving force of history. Cited as an early influence on Dewey's conception of knowledge as an organic, evolving whole; Russell argues Dewey's notion of inquiry producing 'unified wholes' still carries an unacknowledged Hegelian metaphysic of organism, even though Dewey rejects Hegel's Absolute and eternal world.",
+  "central_doctrines": "The Absolute: Hegel's term for ultimate reality: a single, complex, organically unified spiritual Whole (not a simple substance, unlike Parmenides' One or Spinoza's God) of which apparently separate finite things are partial, interdependent aspects, fully real and fully understood only in relation to the whole. The dialectic (thesis, antithesis, synthesis): Hegel's triadic logical-metaphysical method, by which any predicate taken to characterize Reality as a whole is shown to be self-contradictory (thesis), driving thought to an opposite predicate that is equally self-contradictory (antithesis), and thence to a synthesis that incorporates and corrects both, with each synthesis becoming the thesis of a new triad, until the process culminates in the Absolute Idea. Spirit's historical progress through nations toward freedom: Hegel's thesis, developed in The Philosophy of History, that history is 'the discipline of the uncontrolled natural will, bringing it into obedience to a universal principle and conferring subjective freedom,' unfolding through three phases (Oriental despotism: one is free; Greco-Roman: some are free; German: all are free), with each historical epoch led by a single 'world-historical' nation carrying the mission of that stage of the dialectic, embodied at times in 'world-historical individuals' (heroes) such as Alexander, Caesar, and Napoleon who may justifiably violate ordinary moral rules. Hegel's glorification of the State: Hegel's political doctrine, developed in The Philosophy of History and The Philosophy of Law, that the State is 'the reality of the moral idea,' possesses intrinsic value as an end in itself (not merely as a means to citizens' welfare), that individuals possess objectivity, truth, and morality only as members of the State, and that in their external relations States exist in a Hobbesian state of nature toward one another, not bound by ordinary morality, such that war is not an absolute evil but has positive moral value in preserving 'the moral health of peoples.'",
+  "key_arguments": [
+    "Hegel's argument that the State is the reality of the moral idea"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "parmenides",
+    "immanuel-kant",
+    "baruch-spinoza",
+    "johann-gottlieb-fichte",
+    "martin-luther",
+    "thomas-hobbes",
+    "friedrich-schelling"
+  ],
+  "successors": [
+    "karl-marx"
+  ],
+  "disagreements": [
+    {
+      "with": "parmenides",
+      "about": "The Absolute"
+    },
+    {
+      "with": "baruch-spinoza",
+      "about": "The Absolute"
+    },
+    {
+      "with": "karl-marx",
+      "about": "Spirit's historical progress through nations toward freedom"
+    },
+    {
+      "with": "john-locke",
+      "about": "Hegel's glorification of the State"
+    },
+    {
+      "with": "saint-augustine",
+      "about": "Hegel's glorification of the State"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Hegel's glorification of the State"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell reconstructs Hegel's system in careful, largely sympathetic exposition before turning sharply critical. He presents the Absolute as Hegel's central metaphysical claim (only the organically unified Whole is fully real), explains the dialectical method by which Hegel claims to deduce the Absolute Idea from pure logic, and traces how this metaphysic is applied to world history as the progressive self-realization of Spirit through Oriental, Greco-Roman, and German epochs, culminating (though not quite finally, since Hegel names America 'the land of the future') in something close to the Prussian State. Russell then argues at length that Hegel's political philosophy -- his claim that the State is an end in itself to which citizens are subordinate, and his justification of war as morally healthy -- is not merely mistaken but actively dangerous, and, crucially, is not even consistently derived from Hegel's own metaphysics; Russell traces the root error to a defective 'subject-predicate' logic that cannot handle genuine relations. Russell states his own view bluntly: 'even if (as I myself believe) almost all Hegel's doctrines are false, he still retains an importance which is not merely historical.' The chapter is one of Russell's most extensively argued critical set-pieces in the book, mixing exposition, satire (the 'uncle' illustration, calling the Absolute Idea 'truly a Professor's God'), and rigorous logical counter-argument.",
+  "why_this_matters": "Hegel holds that only the Absolute -- the entire interconnected universe, conceived as an organic whole -- is fully real; separate things and even time and space have only partial reality. The dialectic (thesis-antithesis-synthesis) is Hegel's method for deducing the structure of reality from pure logic, culminating in the 'Absolute Idea,' which Russell summarizes as 'pure thought thinking about pure thought.'",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Noted as an exception to the commerce-linked 'liberal' culture of the age, and as 'saved' from pure subjectivism by the influence of Spinoza."
+    },
+    {
+      "chapter_id": "book-3-ch-xvi",
+      "role": "Named, alongside Berkeley, as holding (on different grounds) that there are logical reasons proving only minds and mental events can exist -- a view Russell calls 'a complete mistake.'"
+    },
+    {
+      "chapter_id": "book-3-ch-xxii",
+      "role": "The chapter's sole primary subject: his metaphysics of the Absolute, his logic and dialectical method, his philosophy of history (Spirit's progress through Orientals, Greeks/Romans, and Germans), and his political philosophy of the State are reconstructed in detail and then subjected to sustained criticism."
+    },
+    {
+      "chapter_id": "book-3-ch-xxvii",
+      "role": "The philosopher whose dialectical logic and belief in a rational formula summing up the evolution of mankind Marx inherits and inverts, substituting matter/classes for Hegel's mystical 'Spirit'/nations as the moving force of history."
+    },
+    {
+      "chapter_id": "book-3-ch-xxx",
+      "role": "Cited as an early influence on Dewey's conception of knowledge as an organic, evolving whole; Russell argues Dewey's notion of inquiry producing 'unified wholes' still carries an unacknowledged Hegelian metaphysic of organism, even though Dewey rejects Hegel's Absolute and eternal world."
+    }
+  ],
+  "extraction_confidence": "high"
+}

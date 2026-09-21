@@ -1,0 +1,28 @@
+{
+  "slug": "empedocles-scientific-discoveries",
+  "name": "Empedocles' scientific discoveries",
+  "plain_explanation": "Empedocles proved experimentally that air is a real, distinct substance (using a water-clock/bucket experiment), observed a form of centrifugal force, understood that the moon shines by reflected light and (probably) that the sun does too, and knew that solar eclipses are caused by the moon passing in front of the sun.",
+  "precise_definition": "A set of empirical discoveries credited to Empedocles: air as a separate corporeal substance (demonstrated via the clepsydra/water-clock experiment), centrifugal force (a whirled cup of water does not spill), sex in plants, the reflected light of the moon (and probably the sun), the finite (though imperceptibly fast) speed of light, and the lunar cause of solar eclipses (learned, Russell suggests, from Anaxagoras).",
+  "why_it_mattered": "Illustrates, for Russell, the genuine 'scientific vigour' of the pre-Socratic period, later matched by his own foundation of the influential Italian school of medicine, which affected the whole subsequent tendency of Greek scientific and philosophical thought.",
+  "historical_origin": "Empedocles' own reported experiments and writings.",
+  "associated_philosopher": "Empedocles",
+  "examples": [
+    "The clepsydra (water-clock) experiment showing air resists water's entry into an inverted vessel",
+    "A whirled cup of water not spilling, demonstrating centrifugal force"
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "The medical school he founded influenced both Plato and Aristotle, according to Burnet.",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-vi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Empedocles",
+      "treatment": "Empedocles proved experimentally that air is a real, distinct substance (using a water-clock/bucket experiment), observed a form of centrifugal force, understood that the moon shines by reflected light and (probably) that the sun does too, and knew that solar eclipses are caused by the moon passing in front of the sun."
+    }
+  ]
+}

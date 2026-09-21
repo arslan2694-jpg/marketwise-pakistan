@@ -1,0 +1,33 @@
+{
+  "slug": "the-will-to-believe",
+  "name": "The Will to Believe",
+  "plain_explanation": "James argues that in matters (especially religious ones) where the evidence is not conclusive either way, but where a decision cannot be avoided even by doing nothing, we have a right to choose to believe -- because avoiding error is not more important than believing truth, and refusing to decide risks missing out on truths a bolder person would have believed.",
+  "precise_definition": "Published in 1896, James's doctrine that the duty of veracity consists of two coequal precepts, 'believe truth' and 'shun error,' and that since the sceptic wrongly privileges only the second, a person facing a forced, momentous, and evidentially undecidable option (paradigmatically religious belief) is entitled to adopt a believing attitude even though 'our merely logical intellect may not have been coerced.'",
+  "why_it_mattered": "It was, in Russell's account, a transitional doctrine leading naturally to pragmatism's redefinition of truth, and functioned as James's defence of the right to religious belief in an age of scientific scepticism.",
+  "historical_origin": "The Will to Believe (1896); Russell compares its underlying attitude to that of Rousseau's Savoyard vicar.",
+  "associated_philosopher": "William James",
+  "examples": [
+    "The stranger-on-the-train example: not knowing a stranger's name, positive veracity might seem to license believing he is called 'Ebenezer Wilkes Smith' rather than merely suspending judgement."
+  ],
+  "objections": [
+    "Russell: James never once mentions probability, yet almost every real question admits of some assessment of relative probability, which collapses the 'equal right to believe' argument (illustrated with a Chinese observer choosing among Confucianism, Buddhism, and Christianity, which cannot all be true).",
+    "Russell: James wrongly treats belief and disbelief as the only alternatives, ignoring the intermediate, common and rational state of acting on a working hypothesis while remaining open to further evidence.",
+    "Russell's own precept of veracity: give any hypothesis worth considering exactly the degree of credence the evidence warrants, and seek further evidence when the question is important -- 'plain common sense,' and 'quite different' from James's procedure."
+  ],
+  "competing_positions": [
+    "Russell's evidentialist account of veracity (proportion belief to evidence)"
+  ],
+  "influence_on_later_thinkers": "Develops, in Russell's account, into James's full pragmatist theory of truth published in 1907.",
+  "connection_to_politics_or_religion": "Chiefly a defence of the right to religious belief in the absence of conclusive theoretical grounds.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "William James",
+      "treatment": "James argues that in matters (especially religious ones) where the evidence is not conclusive either way, but where a decision cannot be avoided even by doing nothing, we have a right to choose to believe -- because avoiding error is not more important than believing truth, and refusing to decide risks missing out on truths a bolder person would have believed."
+    }
+  ]
+}

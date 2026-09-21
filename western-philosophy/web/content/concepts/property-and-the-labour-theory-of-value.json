@@ -1,0 +1,35 @@
+{
+  "slug": "property-and-the-labour-theory-of-value",
+  "name": "Property and the labour theory of value",
+  "plain_explanation": "Locke argued each person owns the product of their own labour, and that this is the main reason people form governments -- to protect their property. He also thought the value of most goods comes overwhelmingly from the labour put into them, and that people may fairly accumulate unlimited durable wealth (like gold), even though they may not hoard perishable goods (like plums) beyond what they can use.",
+  "precise_definition": "Locke holds 'the great and chief end of men uniting into commonwealths ... is the preservation of their property,' that a man may own as much land as he can till (but no more), and that labour accounts for 'nine tenths' of the value of goods -- an early statement of the labour theory of value later associated with Ricardo and Marx, traceable, via Tawney, back through Locke to Aquinas and the scholastics' hostility to usury.",
+  "why_it_mattered": "Russell treats Locke's property doctrine as deeply double-edged: it foreshadows developed capitalism's justification of accumulation (via imperishable metals and money) while also containing genuinely proto-socialist elements (labour as the true source of value, limits on landholding) that Locke never noticed were in tension with the England of his own day, where most agricultural land belonged to aristocrats, not labouring peasant-owners.",
+  "historical_origin": "Second Treatise of Government, Section D ('Property'), as discussed by Russell; the labour theory's deeper roots lie in scholastic (Aquinas-derived) hostility to 'usury' and to speculative middlemen.",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "Locke's rule that a man may own as much land as he can till, but no more",
+    "The 'plums' example: a man may not hoard more plums than his family can eat before they spoil, but may hoard unlimited gold and diamonds, since these do not perish",
+    "Locke's claim that uncultivated Indian land in America has almost no value, since value comes from labour"
+  ],
+  "objections": [
+    "Russell: Locke fails to notice that land can acquire value (e.g., from oil later found on it) without any labour being expended on it",
+    "Russell: the principle of a right to one's own produce becomes meaningless in an industrial system with complex divided labour (e.g., an assembly-line or railway worker's 'share' of output cannot be isolated)",
+    "Russell: Locke shows no awareness that the England of his own day, dominated by aristocratic landownership, was nothing like the peasant-proprietor system his principles implied"
+  ],
+  "competing_positions": [
+    "Later, more explicitly class-conscious versions of the labour theory of value in Ricardo (against landowners) and Marx (against capitalists)"
+  ],
+  "influence_on_later_thinkers": "Traced forward by Russell (via Tawney) to Ricardo and ultimately Marx, whom Tawney calls 'the last of the schoolmen.'",
+  "connection_to_politics_or_religion": "Rooted historically in scholastic condemnation of usury, later reversed as Protestant (especially Calvinist) merchant classes became lenders rather than borrowers.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Locke argued each person owns the product of their own labour, and that this is the main reason people form governments -- to protect their property. He also thought the value of most goods comes overwhelmingly from the labour put into them, and that people may fairly accumulate unlimited durable wealth (like gold), even though they may not hoard perishable goods (like plums) beyond what they can use."
+    }
+  ]
+}

@@ -115,9 +115,9 @@ def main():
             conn.execute(
                 "INSERT INTO quiz_question (chapter_id, type, difficulty, prompt, options, correct_index, correct_answer, explanation, source_page) VALUES (?,?,?,?,?,?,?,?,?)",
                 (
-                    ch["chapter_id"], q["type"], q["difficulty"], q["prompt"],
+                    ch["chapter_id"], q.get("type"), q.get("difficulty"), q.get("prompt"),
                     json.dumps(q.get("options")), q.get("correct_index"), q.get("correct_answer"),
-                    q["explanation"], q.get("source_page"),
+                    q.get("explanation"), q.get("source_page"),
                 ),
             )
         for fc in ch.get("flashcards", []):

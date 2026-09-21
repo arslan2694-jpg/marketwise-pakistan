@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import type { SearchDoc } from "@/lib/content";
@@ -16,11 +16,18 @@ const TYPE_LABEL: Record<string, string> = {
 
 export default function SearchClient({ docs }: { docs: SearchDoc[] }) {
   const params = useSearchParams();
-  const [query, setQuery] = useState(params.get("q") ?? "");
+  const paramQuery = params.get("q") ?? "";
+  const [query, setQuery] = useState(paramQuery);
 
-  useEffect(() => {
-    setQuery(params.get("q") ?? "");
-  }, [params]);
+  // Pick up a new ?q= from external navigation (e.g. the topbar search box
+  // on another page) without mirroring it via an effect: adjust state
+  // during render when the URL param actually changed, React's
+  // recommended pattern for this.
+  const [lastParamQuery, setLastParamQuery] = useState(paramQuery);
+  if (paramQuery !== lastParamQuery) {
+    setLastParamQuery(paramQuery);
+    setQuery(paramQuery);
+  }
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();

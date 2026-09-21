@@ -1,0 +1,32 @@
+{
+  "slug": "the-problem-of-induction",
+  "name": "The problem of induction",
+  "plain_explanation": "Even if we've seen event A followed by event B a thousand times before, Hume argues, nothing guarantees it will happen the same way next time. We can't prove this using logic (since we can at least imagine nature changing), and we can't prove it using past experience either, because that would be circular -- using the very kind of reasoning (induction) that's in question to justify induction itself.",
+  "precise_definition": "Hume's sceptical argument: any rational justification for expecting future conjunctions to resemble past ones would require the principle 'that instances of which we have had no experience resemble those of which we have had experience'; this principle is not logically necessary (a change in nature's course is conceivable) and cannot be established by any 'probable' (i.e., empirical) argument either, since all such arguments already presuppose it -- so 'the supposition that the future resembles the past is ... derived entirely from habit,' not reason.",
+  "why_it_mattered": "Russell regards this as Hume's single most important and, in a precise sense, unanswerable result: 'What these arguments prove -- and I do not think the proof can be controverted -- is that induction is an independent logical principle, incapable of being inferred either from experience or from other logical principles, and that without this principle science is impossible.' This makes empiricism alone insufficient as a foundation for science.",
+  "historical_origin": "Book I, Part III, Sections IV, VI, and VIII of the Treatise.",
+  "associated_philosopher": "David Hume",
+  "examples": [
+    "The apple example: past experience leads me to expect an apple will taste like an apple, not like roast beef, but Hume argues this expectation has, strictly, 'not a shadow of a reason' behind it beyond habit",
+    "The expectation that the sun will rise tomorrow, which Russell notes has, on Hume's principles, no more rational grounding than any other habitual expectation"
+  ],
+  "objections": [
+    "Russell's internal-consistency objection: if the objective half of Hume's causal doctrine is right, then even psychological habit-formation (which is itself a causal process) gives no genuine reason to expect habits to continue forming the same way in future, so Hume's own appeal to 'the law of habit' as an explanation is not obviously available to him on his own terms"
+  ],
+  "competing_positions": [
+    "Empiricists who accept Hume's rejection of necessary connection but reject his rejection of induction by simple enumeration, holding that sufficiently numerous past conjunctions do raise the probability of future ones"
+  ],
+  "influence_on_later_thinkers": "Russell states this 'challenge to philosophers ... has still not been adequately met,' framing the problem of induction as one of the central unsolved problems of subsequent philosophy of science.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xvii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "David Hume",
+      "treatment": "Even if we've seen event A followed by event B a thousand times before, Hume argues, nothing guarantees it will happen the same way next time. We can't prove this using logic (since we can at least imagine nature changing), and we can't prove it using past experience either, because that would be circular -- using the very kind of reasoning (induction) that's in question to justify induction itself."
+    }
+  ]
+}

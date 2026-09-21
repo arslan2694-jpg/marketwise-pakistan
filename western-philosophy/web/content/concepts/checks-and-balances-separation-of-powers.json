@@ -1,0 +1,34 @@
+{
+  "slug": "checks-and-balances-separation-of-powers",
+  "name": "Checks and balances (separation of powers)",
+  "plain_explanation": "Locke argued that legislative power (making laws) and executive power (enforcing them) should be kept separate, so that no single authority can both write self-serving laws and then enforce them without restraint. This idea later evolved, especially in the United States, into a full three-way division among legislature, executive, and judiciary.",
+  "precise_definition": "Locke holds that 'the legislative and executive must be separate ... to prevent abuse of power,' with the legislative supreme but removable by the community; when executive and legislative conflict irreconcilably, Locke concedes there is, in a sense, 'no judge under Heaven,' meaning the dispute can ultimately only be settled by force.",
+  "why_it_mattered": "This doctrine became a cornerstone of Anglo-American constitutionalism, most fully realized (per Russell) in the United States, where President, Congress, and Supreme Court are constitutionally independent of one another -- though Russell notes the doctrine largely broke down in Britain itself as the executive became, in practice, a parliamentary committee.",
+  "historical_origin": "Second Treatise of Government, Section E; arose from English resistance to Stuart absolutism, especially Charles I's 1628-40 attempt to govern without summoning Parliament.",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "Charles I's personal rule without Parliament (1628-40) as Locke's implicit target",
+    "The U.S. Supreme Court's power to nullify legislation, which Russell notes effectively makes it 'a branch of the legislature'",
+    "The American Civil War as a case where only military victory, not legal reasoning, settled a constitutional dispute (states' right to secede)"
+  ],
+  "objections": [
+    "Russell: Locke's principle that only 'unjust and unlawful' force may be resisted is useless without an agreed authority to judge what counts as unjust or unlawful",
+    "Russell: Locke says nothing about the judiciary as a separate branch, despite its being 'a burning question in his day'"
+  ],
+  "competing_positions": [
+    "The post-Locke British system, in which legislative and executive power became fused via cabinet government and party discipline"
+  ],
+  "influence_on_later_thinkers": "Developed further by Montesquieu and embedded in the American Constitution and, at various points, in French constitutional arrangements (1871).",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Locke argued that legislative power (making laws) and executive power (enforcing them) should be kept separate, so that no single authority can both write self-serving laws and then enforce them without restraint. This idea later evolved, especially in the United States, into a full three-way division among legislature, executive, and judiciary."
+    }
+  ]
+}

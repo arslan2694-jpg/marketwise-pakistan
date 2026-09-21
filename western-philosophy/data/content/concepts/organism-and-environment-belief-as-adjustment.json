@@ -1,0 +1,28 @@
+{
+  "slug": "organism-and-environment-belief-as-adjustment",
+  "name": "Organism and environment: belief as adjustment",
+  "plain_explanation": "Rather than starting from 'minds' knowing 'objects,' Dewey (and, to an extent, Russell in his own sympathetic reconstruction) thinks of a living 'organism' interacting with its 'environment'; error is simply a failure of adjustment between the two, revealed for instance by the shock of surprise.",
+  "precise_definition": "The framework, partly shared by Russell, that treats belief and error in terms of an organism's adjustment to its environment rather than a disembodied mind's grasp of facts; a false belief is (when testable) one that, in suitable circumstances, causes the believer surprise, while a true belief does not -- though Russell notes this test of surprise, while often useful, does not give the meaning of 'true' and 'false' and is not always applicable (e.g., one struck dead by lightning experiences no surprise despite having been mistaken).",
+  "why_it_mattered": "It is the common ground from which Russell's and Dewey's accounts diverge, and shows how far Russell is willing to go toward Dewey's naturalistic, biological framing before parting ways over the definition of inquiry and truth.",
+  "historical_origin": "Introduced by Russell via his own staircase example (misjudging when one has reached the bottom of a flight of stairs) before applying it to Dewey's theory.",
+  "associated_philosopher": "Bertrand Russell (in dialogue with John Dewey)",
+  "examples": [
+    "Misjudging the bottom step of a staircase and being jolted by the resulting shock of surprise.",
+    "The lion-escaped-at-the-zoo example: a sentence 'means' an event if it promotes the same behaviour the event itself would promote."
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell (in dialogue with John Dewey)",
+      "treatment": "Rather than starting from 'minds' knowing 'objects,' Dewey (and, to an extent, Russell in his own sympathetic reconstruction) thinks of a living 'organism' interacting with its 'environment'; error is simply a failure of adjustment between the two, revealed for instance by the shock of surprise."
+    }
+  ]
+}

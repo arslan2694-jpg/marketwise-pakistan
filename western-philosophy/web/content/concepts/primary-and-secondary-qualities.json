@@ -1,0 +1,31 @@
+{
+  "slug": "primary-and-secondary-qualities",
+  "name": "Primary and secondary qualities",
+  "plain_explanation": "Locke distinguished qualities that he thought really belong to physical bodies themselves (like shape, solidity, and motion) from qualities that only exist inside the perceiver (like colour, sound, and taste). Without eyes there would be no colours; without ears, no sounds.",
+  "precise_definition": "Primary qualities -- solidity, extension, figure, motion or rest, and number -- are 'inseparable from body' and actually in bodies; secondary qualities -- colour, sound, smell, and the rest -- exist 'only in the percipient.'",
+  "why_it_mattered": "Russell treats this as a case where a philosophically mistaken doctrine was nonetheless immensely practically fruitful: it dominated physics (matter-in-motion theories of sound, heat, light, and electricity) until the rise of quantum theory, illustrating that pragmatic usefulness and theoretical truth can come apart.",
+  "historical_origin": "Developed in Book II of the Essay; grounded in observations such as the effects of jaundice or blue spectacles on colour perception.",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "Jaundice making things look yellow",
+    "Blue spectacles altering perceived colour",
+    "Solidity and extension as supposedly objective properties of bodies"
+  ],
+  "objections": [
+    "Berkeley's demonstration that the same arguments Locke uses against secondary qualities apply equally to primary qualities, since size and shape also vary with the observer's perspective"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Assumed, explicitly or tacitly, by physicists for centuries; refuted in principle by Berkeley but pragmatically useful until modern physics.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Locke distinguished qualities that he thought really belong to physical bodies themselves (like shape, solidity, and motion) from qualities that only exist inside the perceiver (like colour, sound, and taste). Without eyes there would be no colours; without ears, no sounds."
+    }
+  ]
+}

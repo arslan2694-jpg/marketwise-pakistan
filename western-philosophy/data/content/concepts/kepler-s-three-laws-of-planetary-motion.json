@@ -1,0 +1,29 @@
+{
+  "slug": "kepler-s-three-laws-of-planetary-motion",
+  "name": "Kepler's three laws of planetary motion",
+  "plain_explanation": "Kepler discovered that planets do not move in perfect circles (as every astronomer before him had assumed) but in ellipses with the sun at one focus; that a planet speeds up when near the sun and slows down when far from it, sweeping out equal areas in equal times; and that there is a precise mathematical relationship between a planet's orbital period and its average distance from the sun.",
+  "precise_definition": "First law: the planets describe elliptic orbits, of which the sun occupies one focus. Second law: the line joining a planet to the sun sweeps out equal areas in equal times. Third law: the square of a planet's orbital period is proportional to the cube of its average distance from the sun.",
+  "why_it_mattered": "The first law required abandoning the millennia-old aesthetic assumption that celestial motion must be circular (since circles were considered the 'perfect' figure proper to divine or semi-divine heavenly bodies); the third law later provided, as Russell notes, 'the proof (as far as the solar system is concerned) of Newton's law of the inverse square for gravitation.'",
+  "historical_origin": "The first two laws published in 1609, the third in 1619, based substantially on Tycho Brahe's observational data, especially of Mars.",
+  "associated_philosopher": "Johannes Kepler",
+  "examples": [
+    "The precise fit of elliptical orbits to Tycho Brahe's recorded positions of Mars, where circular models (including Copernicus's) failed"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Ptolemaic and Copernican systems relying on circles and epicycles"
+  ],
+  "influence_on_later_thinkers": "Directly used by Newton to derive the inverse-square law of gravitation.",
+  "connection_to_politics_or_religion": "Kepler's Pythagorean, sun-worshipping inclinations (despite being 'a good Protestant') illustrate the mixture of mystical and rigorously empirical motives in early modern science.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-vi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Johannes Kepler",
+      "treatment": "Kepler discovered that planets do not move in perfect circles (as every astronomer before him had assumed) but in ellipses with the sun at one focus; that a planet speeds up when near the sun and slows down when far from it, sweeping out equal areas in equal times; and that there is a precise mathematical relationship between a planet's orbital period and its average distance from the sun."
+    }
+  ]
+}

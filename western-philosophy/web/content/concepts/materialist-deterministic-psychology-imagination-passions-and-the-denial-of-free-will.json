@@ -1,0 +1,33 @@
+{
+  "slug": "materialist-deterministic-psychology-imagination-passions-and-the-denial-of-free-will",
+  "name": "Materialist, deterministic psychology (imagination, passions, and the denial of free will)",
+  "plain_explanation": "Hobbes treated all mental phenomena as motions: sensations are caused by pressure from objects, imagination is a 'decaying sense,' dreaming is imagination during sleep, and will is nothing but the last, strongest desire or aversion remaining after deliberation -- not a separate faculty of free choice. Passions like desire, aversion, love, hate, and even laughter are defined mechanically and largely in competitive terms.",
+  "precise_definition": "Russell's summary: 'imagination is a decaying sense, both being motions... Will is nothing but the last appetite or aversion remaining in deliberation. That is to say, will is not something different from desire and aversion, but merely the strongest in a case of conflict.' Hobbes defines 'good' as an object of desire and 'bad' as an object of aversion, giving these terms no independent objectivity.",
+  "why_it_mattered": "This grounds Hobbes's rigid determinism (he held a public controversy with Bishop Bramhall over free will) and his relativistic account of moral vocabulary, both distinctive and controversial positions for his era.",
+  "historical_origin": "Set out in Part I of Leviathan as the general philosophical foundation preceding the political theory.",
+  "associated_philosopher": "Thomas Hobbes",
+  "examples": [
+    "Laughter defined as 'sudden glory'",
+    "Fear of invisible power, 'if publicly allowed, is religion; if not allowed, superstition' -- making the legislator the arbiter of the distinction"
+  ],
+  "objections": [
+    "Russell's implicit note: since good and bad are merely relative to individual desire on this view, 'if men differ in their desires, there is no theoretical method of adjusting their differences'"
+  ],
+  "competing_positions": [
+    "Bishop Bramhall's defense of free will against Hobbes's determinism",
+    "Plato's view (which Hobbes explicitly rejects) that reason is innate rather than developed by industry"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "The definition of religion versus superstition as resting on public permission directly ties psychology to political authority.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-viii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Thomas Hobbes",
+      "treatment": "Hobbes treated all mental phenomena as motions: sensations are caused by pressure from objects, imagination is a 'decaying sense,' dreaming is imagination during sleep, and will is nothing but the last, strongest desire or aversion remaining after deliberation -- not a separate faculty of free choice. Passions like desire, aversion, love, hate, and even laughter are defined mechanically and largely in competitive terms."
+    }
+  ]
+}

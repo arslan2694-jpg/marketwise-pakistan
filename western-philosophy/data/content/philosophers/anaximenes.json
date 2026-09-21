@@ -1,0 +1,40 @@
+{
+  "slug": "anaximenes",
+  "name": "Anaximenes",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "The Milesian school",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The last of the Milesian triad, who held air to be the fundamental substance, with fire, water, earth, and stone differing only by degree of rarefaction or condensation of air; more admired in antiquity than Anaximander, and an influence on Pythagoras.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "thales"
+  ],
+  "successors": [
+    "anaximander",
+    "pythagoras",
+    "heraclitus"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell insists the Milesian school 'is important, not for what it achieved, but for what it attempted': the specific doctrines (water, the boundless, air) are scientifically crude and mostly wrong, but the underlying project -- explaining the entire natural world by a single, testable, non-mythological hypothesis -- was itself revolutionary. He ranks Anaximander above Thales in interest, crediting him with cosmic justice, primitive evolutionary theory, and the first map, while noting Anaximenes was, oddly, more admired in antiquity than Anaximander despite being 'not quite so interesting' to modern readers. Russell explicitly credits the school's origin to Miletus's commercial contact with Babylonia and Egypt, and frames the whole chapter as a bridge to the more religious, Pythagorean current of philosophy that follows in southern Italy.",
+  "why_this_matters": "The Milesian school (Thales, Anaximander, Anaximenes) is important for its method -- seeking a single, natural, non-mythological explanation of the world -- rather than for the correctness of its specific answers. Thales held everything is made of water; Anaximander held the primal substance is an indefinite, infinite 'boundless' distinct from any known element; Anaximenes held it is air, differentiated by condensation and rarefaction.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-ii",
+      "role": "The last of the Milesian triad, who held air to be the fundamental substance, with fire, water, earth, and stone differing only by degree of rarefaction or condensation of air; more admired in antiquity than Anaximander, and an influence on Pythagoras."
+    }
+  ],
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "sixfold-classification-of-constitutions",
+  "name": "Sixfold classification of constitutions",
+  "plain_explanation": "Aristotle sorts governments into three good forms -- rule by one (monarchy), by the few best (aristocracy), or by the many for the common good (polity) -- and three corrupted counterparts -- tyranny, oligarchy, and democracy -- where rulers serve only their own interest; since 'the corruption of the best is worst,' tyranny is actually the worst of all six, making democracy, among bad governments, comparatively the best.",
+  "precise_definition": "Aristotle's taxonomy distinguishing governments by whether rulers pursue the common good (monarchy, aristocracy, polity) or their own narrow interest (tyranny, oligarchy, democracy respectively), further cross-cut by an economic criterion distinguishing oligarchy (rule by the rich, disregarding the poor) from democracy (rule by the poor/many, disregarding the rich).",
+  "why_it_mattered": "It gives Aristotle grounds for a qualified defense of democracy: because 'most actual governments are bad,' and the corruption of the best form (monarchy, corrupting into tyranny) is worse than the corruption of lesser forms, democracies, among the governments actually found in practice, tend to be the least bad.",
+  "historical_origin": "Original systematization by Aristotle, drawing on his comparative survey of many actual Greek constitutions.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "Aristotle notes that in extreme Greek democracy, appointing magistrates by lot was considered democratic while electing them was considered oligarchic -- a use of 'democracy' more extreme than in modern usage."
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "The good/corrupt pairing of constitutional forms became a standard framework in later Western political theory.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Aristotle sorts governments into three good forms -- rule by one (monarchy), by the few best (aristocracy), or by the many for the common good (polity) -- and three corrupted counterparts -- tyranny, oligarchy, and democracy -- where rulers serve only their own interest; since 'the corruption of the best is worst,' tyranny is actually the worst of all six, making democracy, among bad governments, comparatively the best."
+    }
+  ]
+}

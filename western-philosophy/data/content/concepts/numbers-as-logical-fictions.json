@@ -1,0 +1,30 @@
+{
+  "slug": "numbers-as-logical-fictions",
+  "name": "Numbers as logical fictions",
+  "plain_explanation": "Words like 'two' or 'ten' do not name any real thing that percepts contain; when a statement using them is properly spelled out, the number-word disappears, replaced by patterns of 'there is an a... there is a b... a is not b.'",
+  "precise_definition": "Russell's claim that number-words are 'formal': what verifies 'there are two so-and-sos' is a common logical form shared by many different facts, not a common constituent (unlike, e.g., a proper name that always refers to the same particular thing); properly analysed, a sentence like 'I have two hands' contains no constituent corresponding to the word 'two.'",
+  "why_it_mattered": "It lets Russell agree with Plato that pure mathematics is not derived from perception (since it consists of tautologies about symbols) while denying that number designates a Platonic Idea perceived by a special faculty of mind.",
+  "historical_origin": "Developed by Russell in this chapter, drawing on his broader logical analysis of number (referred to elsewhere in his work).",
+  "associated_philosopher": "Bertrand Russell",
+  "examples": [
+    "'I have two hands' analysed as: there is an a and a b, a is not identical with b, and 'x is a hand of mine' is true only when x is a or x is b",
+    "The fallacy of arguing 'the earth has one satellite, namely the moon, therefore the moon is one,' compared to 'the Apostles were twelve; Peter was an apostle; therefore Peter was twelve'"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Plato's suggestion that 'ten' or 'one,' like 'existence,' names something the mind grasps directly and which is common to sound and colour alike"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell",
+      "treatment": "Words like 'two' or 'ten' do not name any real thing that percepts contain; when a statement using them is properly spelled out, the number-word disappears, replaced by patterns of 'there is an a... there is a b... a is not b.'"
+    }
+  ]
+}

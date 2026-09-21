@@ -1,0 +1,33 @@
+{
+  "slug": "the-void-as-a-response-to-parmenides",
+  "name": "The void as a response to Parmenides",
+  "plain_explanation": "Parmenides argued nothingness (empty space) cannot exist, because saying it 'is' contradicts calling it 'nothing.' The atomists admitted this logical problem but insisted on the void anyway, because motion is an observed fact and, they held, motion is impossible without empty space to move into.",
+  "precise_definition": "The atomists' response to the Parmenidean argument that not-being cannot be said to exist: they conceded no logical refutation of Parmenides's position but asserted the void as a necessary postulate on empirical grounds, since a plenum (a universe completely full of matter, as Parmenides held) was believed by all parties in this debate to make motion impossible.",
+  "why_it_mattered": "This is the central logical/metaphysical move of the chapter, and Russell uses it to launch a long historical excursus tracing the concept of space through Aristotle, Newton, Descartes, Leibniz, and Einstein.",
+  "historical_origin": "A direct response to Parmenides's arguments against not-being, reinforced (paradoxically) by the discovery that ostensibly empty containers actually hold air.",
+  "associated_philosopher": "Leucippus",
+  "examples": [
+    "Leucippus's own formula: 'The void is a not-being, and no part of what is is a not-being...'"
+  ],
+  "objections": [
+    "The Parmenidean position, as Russell restates it: 'You say there is the void; therefore the void is not nothing; therefore it is not the void.' Russell says the atomists never really answered this, but simply proclaimed they would ignore it because motion is a fact of experience."
+  ],
+  "competing_positions": [
+    "Descartes's plenum theory (extension is the essence of matter, so there is matter everywhere)",
+    "Leibniz's relational theory of space (no substantial space or void, only a system of relations)",
+    "Newton's absolute space, which Russell calls the 'logical development' of the atomists' implicit view"
+  ],
+  "influence_on_later_thinkers": "Traced by Russell all the way to the Newton-Leibniz-Clarke controversy over absolute versus relative space, which he says Einstein's theory decisively settled in Leibniz's favor, and to modern physics, where empty space is replaced by fields such as light-waves.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Leucippus",
+      "treatment": "Parmenides argued nothingness (empty space) cannot exist, because saying it 'is' contradicts calling it 'nothing.' The atomists admitted this logical problem but insisted on the void anyway, because motion is an observed fact and, they held, motion is impossible without empty space to move into."
+    }
+  ]
+}

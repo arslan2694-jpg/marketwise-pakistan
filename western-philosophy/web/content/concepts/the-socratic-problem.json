@@ -1,0 +1,30 @@
+{
+  "slug": "the-socratic-problem",
+  "name": "The Socratic Problem",
+  "plain_explanation": "Because Socrates wrote nothing himself, everything we know about him comes from other people's accounts, chiefly Xenophon and Plato, and these accounts disagree; so historians face real uncertainty about what the 'real' Socrates actually thought and did.",
+  "precise_definition": "The historiographical difficulty of recovering the views and character of the historical Socrates given that our sources (Xenophon's Memorabilia and Plato's dialogues) are not neutral records but works shaped by their authors' own literary and philosophical purposes.",
+  "why_it_mattered": "It determines how much weight later philosophy can put on 'what Socrates believed' as opposed to 'what Plato believed and attributed to Socrates.'",
+  "historical_origin": "Arises from the simple fact that Socrates left no writings and is known only through others, compounded by Aristophanes' comic caricature in The Clouds.",
+  "associated_philosopher": "Socrates",
+  "examples": [
+    "Xenophon's Socrates is pious and conventional; Plato's Socrates is a subtle dialectician who claims total ignorance yet drives every interlocutor into contradiction.",
+    "Burnet's remark that 'Xenophon's defence of Socrates is too successful. He would never have been put to death if he had been like that.'"
+  ],
+  "objections": [
+    "A clever man reported by a less clever admirer (Xenophon) is likely to be flattened into something more conventional than he was, so Xenophon's simplicity is not proof of accuracy."
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Every subsequent attempt to reconstruct 'the historical Socrates' (as opposed to the literary or Platonic Socrates) inherits this same evidentiary problem.",
+  "connection_to_politics_or_religion": "The amnesty after the fall of the Thirty Tyrants meant the real political grounds for hostility to Socrates could not be stated in court, distorting even the official record of the trial.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Socrates",
+      "treatment": "Because Socrates wrote nothing himself, everything we know about him comes from other people's accounts, chiefly Xenophon and Plato, and these accounts disagree; so historians face real uncertainty about what the 'real' Socrates actually thought and did."
+    }
+  ]
+}

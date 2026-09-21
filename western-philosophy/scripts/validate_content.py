@@ -36,6 +36,17 @@ REQUIRED_FIELDS = [
 
 MOJIBAKE_MARKERS = ["â€", "Ã©", "Ã¨", "Ã¯", "â€™", "â€œ", "â€\x9d"]
 
+SUBFIELD_REQUIREMENTS = {
+    "quiz": ["type", "difficulty", "prompt", "explanation"],
+    "questions": ["type", "prompt", "answer", "explanation"],
+    "flashcards": ["front", "back", "category"],
+    "core_concepts": ["name", "plain_explanation", "precise_definition", "associated_philosopher", "is_major"],
+    "arguments": ["title", "philosopher", "premises", "conclusion", "explanation"],
+    "glossary_terms": ["term", "beginner_explanation", "academic_explanation"],
+    "philosophers_discussed": ["name", "role_in_chapter", "is_primary_subject"],
+    "essay_prompts": ["task_type", "prompt", "rubric"],
+}
+
 
 def check_chapter(path: Path, expected: dict) -> list[str]:
     problems = []
@@ -47,6 +58,14 @@ def check_chapter(path: Path, expected: dict) -> list[str]:
     for field in REQUIRED_FIELDS:
         if field not in data:
             problems.append(f"missing field '{field}'")
+
+    for field, reqs in SUBFIELD_REQUIREMENTS.items():
+        for i, item in enumerate(data.get(field, [])):
+            if not isinstance(item, dict):
+                continue
+            for r in reqs:
+                if r not in item:
+                    problems.append(f"{field}[{i}] missing subfield '{r}'")
 
     if data.get("chapter_id") != expected["chapter_id"]:
         problems.append(

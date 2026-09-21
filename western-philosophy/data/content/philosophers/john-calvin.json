@@ -1,0 +1,47 @@
+{
+  "slug": "john-calvin",
+  "name": "John Calvin",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Protestantism (Lutheranism and Calvinism)",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Grouped with Luther as reverting to an Augustinian emphasis on the soul's direct relation to God and on predestination, while rejecting purgatory, indulgences, and papal authority; his followers are cited (in the chapter's political discussion) as an example of the individualist wing of Protestantism resistant to any external authority, whether Pope or king. Quoted rejecting Copernicus by citing Psalm XCIII ('The world also is stablished, that it cannot be moved') and asking who would place Copernicus's authority above the Holy Spirit's.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "saint-augustine",
+    "erasmus",
+    "sir-thomas-more",
+    "martin-luther"
+  ],
+  "successors": [
+    "rene-descartes",
+    "gerbert-pope-sylvester-ii",
+    "thomas-hobbes"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell treats the Reformation and Counter-Reformation as historically important but philosophically barren: Luther, Calvin, and Loyola are 'medieval in philosophy' compared to the Italians or to Erasmus and More. He is notably even-handed in blaming bigotry on both sides ('Protestant divines were... just as bigoted as Catholic theologians') while offering a structural explanation for why Protestant countries nonetheless ended up with more intellectual liberty: not superior tolerance of temperament, but doctrines (rejection of purgatory and indulgences, predestination) that happened to weaken clerical institutional power. He credits the Jesuits with real organizational and educational excellence despite deploring their support for persecution and the Inquisition. His overall verdict is that the immediate intellectual results of this era were 'wholly bad, but ultimately beneficial,' since exhaustion from the wars of religion forced the abandonment of the medieval dream of doctrinal unity and redirected able minds toward science -- the pivot to Chapter VI.",
+  "why_this_matters": "Russell treats the Reformation (German, anti-papal) and Counter-Reformation (Spanish, pro-papal but anti-laxity) as two different revolts against Renaissance Italy's intellectual and moral authority. Luther, Calvin, and Loyola are all judged 'medieval in philosophy'; the century the Reformation opens is philosophically barren.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-v",
+      "role": "Grouped with Luther as reverting to an Augustinian emphasis on the soul's direct relation to God and on predestination, while rejecting purgatory, indulgences, and papal authority; his followers are cited (in the chapter's political discussion) as an example of the individualist wing of Protestantism resistant to any external authority, whether Pope or king."
+    },
+    {
+      "chapter_id": "book-3-ch-vi",
+      "role": "Quoted rejecting Copernicus by citing Psalm XCIII ('The world also is stablished, that it cannot be moved') and asking who would place Copernicus's authority above the Holy Spirit's."
+    }
+  ],
+  "extraction_confidence": "high"
+}

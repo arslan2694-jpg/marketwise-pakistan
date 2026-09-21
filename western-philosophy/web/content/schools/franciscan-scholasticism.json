@@ -1,0 +1,21 @@
+{
+  "slug": "franciscan-scholasticism",
+  "name": "Franciscan scholasticism",
+  "period": "Medieval",
+  "doctrines": [
+    "The principle of individuation (Duns Scotus vs. Aquinas)",
+    "Occam's razor",
+    "Occam's separation of logic from metaphysics and theology",
+    "Marsiglio's and Occam's theory of popular and conciliar sovereignty"
+  ],
+  "philosophers": [
+    "duns-scotus",
+    "roger-bacon",
+    "william-of-occam"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-2-ch-xiv"
+  ]
+}

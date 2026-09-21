@@ -1,0 +1,27 @@
+{
+  "slug": "the-antinomies-of-pure-reason",
+  "name": "The Antinomies of Pure Reason",
+  "plain_explanation": "Kant claims that if we try to apply space, time, or the categories to the world as a whole (rather than to objects of possible experience), we get pairs of contradictory conclusions that both seem provable -- for example, that the world both does and does not have a beginning in time and a limit in space.",
+  "precise_definition": "Four pairs of thesis-and-antithesis arguments, each apparently demonstrable, that arise from illegitimately extending space, time, or the categories beyond possible experience to 'things in general': (1) the world has/has not a beginning in time and limits in space; (2) every composite substance is/is not made of simple parts; (3) there is/is not a causality of freedom in addition to natural causality; (4) there is/is not an absolutely necessary Being.",
+  "why_it_mattered": "Russell notes this part of the Critique 'greatly influenced Hegel, whose dialectic proceeds wholly by way of antinomies.'",
+  "historical_origin": "Critique of Pure Reason, Transcendental Dialectic.",
+  "associated_philosopher": "Immanuel Kant",
+  "examples": [
+    "First antinomy: the world has a beginning in time and is limited in space (thesis) vs. the world has no beginning and is infinite in time and space (antithesis)"
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Directly shaped Hegel's dialectical method of thesis-antithesis-synthesis.",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Immanuel Kant",
+      "treatment": "Kant claims that if we try to apply space, time, or the categories to the world as a whole (rather than to objects of possible experience), we get pairs of contradictory conclusions that both seem provable -- for example, that the world both does and does not have a beginning in time and a limit in space."
+    }
+  ]
+}

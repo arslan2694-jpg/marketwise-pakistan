@@ -1,0 +1,31 @@
+{
+  "slug": "occam-s-separation-of-logic-from-metaphysics-and-theology",
+  "name": "Occam's separation of logic from metaphysics and theology",
+  "plain_explanation": "Occam argued logic should be treated as an independent tool for studying the natural world, not something that has to rest on metaphysical or theological commitments. Logic deals with 'terms' or concepts as meaningful, not with things themselves (which is the job of science) and not with psychological states. He distinguished 'terms of first intention' (which point at things, used in science) from 'terms of second intention' (which point at other terms, used in logic), with only six genuinely metaphysical terms (being, thing, something, one, true, good) that straddle both. On universals specifically, Occam agreed with Aquinas against Averroes, Avicenna, and the Augustinians that only individual things, minds, and acts of understanding really exist; universals are signs of many things, not things themselves.",
+  "precise_definition": "Occam's methodological program, per the interpretation of Ernest Moody that Russell endorses, of restoring a purified Aristotelian logic as an independent instrument of natural philosophy, freed from the Augustinian and Arabic metaphysical/theological accretions that (via Porphyry's questions about genera and species) had entangled logic with metaphysics since late antiquity.",
+  "why_it_mattered": "By treating logic and empirical inquiry as autonomous from theology, Occam's approach, in Russell's (and Moody's) reading, encouraged scientific research rather than anticipating modern philosophy wholesale, correcting a common historiographical tendency to over-modernize him.",
+  "historical_origin": "Developed by Occam at Oxford and Paris, drawing on Ernest E. Moody's interpretation in The Logic of William of Occam, which Russell explicitly follows and endorses over the more common view of Occam as a precursor of Descartes or Kant.",
+  "associated_philosopher": "William of Occam",
+  "examples": [
+    "Occam's fallacy warning: 'Man is a species, Socrates is a man, therefore Socrates is a species' -- confusing the word as thing with the word as meaning",
+    "The six purely metaphysical terms Occam allows (being, thing, something, one, true, good), predicable of each other but not required for logic proper",
+    "Occam's example that Socrates is similar to Plato, but not in virtue of a further 'thing' called similarity -- similarity is a term of second intention, existing in the mind"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The Scotist/Augustinian tradition, which (following Porphyry's questions about the reality of genera and species) had made logic dependent on metaphysics and theology"
+  ],
+  "influence_on_later_thinkers": "Occam's immediate follower Nicholas of Oresme applied this independent, non-dogmatic spirit to planetary theory, anticipating Copernicus by showing that both geocentric and heliocentric theories equally explain the facts known in his day, with no way then available to decide between them.",
+  "connection_to_politics_or_religion": "Occam holds that universals exist ante rem only in God's mind for the purpose of creation, a theological role Aquinas also accepts, but insists universals play no such role in explaining ordinary human knowledge (universale post rem only).",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-xiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "William of Occam",
+      "treatment": "Occam argued logic should be treated as an independent tool for studying the natural world, not something that has to rest on metaphysical or theological commitments. Logic deals with 'terms' or concepts as meaningful, not with things themselves (which is the job of science) and not with psychological states. He distinguished 'terms of first intention' (which point at things, used in science) from 'terms of second intention' (which point at other terms, used in logic), with only six genuinely metaphysical terms (being, thing, something, one, true, good) that straddle both. On universals specifically, Occam agreed with Aquinas against Averroes, Avicenna, and the Augustinians that only individual things, minds, and acts of understanding really exist; universals are signs of many things, not things themselves."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "the-discovery-of-incommensurable-magnitudes",
+  "name": "The discovery of incommensurable magnitudes",
+  "plain_explanation": "Pythagoras's own theorem about right-angled triangles led to the discovery that the diagonal of a square cannot be measured exactly by any whole-number ratio relative to its side -- a result that seemed to undermine Pythagoras's belief that everything could be understood through (whole) numbers.",
+  "precise_definition": "The proof, using the Pythagorean theorem, that for a right isosceles triangle with legs of length 1, the hypotenuse's length cannot be expressed as a ratio m/n of integers, since assuming so leads to a contradiction (m and n would each have to be both odd and even).",
+  "why_it_mattered": "This discovery forced Greek mathematicians (culminating in Euclid) to develop geometry independently of arithmetic, shaping the entire subsequent Euclidean tradition and, through it, later philosophy's model of self-evident axioms and deduction (e.g. the U.S. Declaration of Independence's 'self-evident' truths, modeled on Euclid).",
+  "historical_origin": "A consequence of the Pythagorean theorem, discovered by Pythagoras or his immediate disciples.",
+  "associated_philosopher": "Pythagoras (theorem); later formalized in Euclid, Book X",
+  "examples": [
+    "The proof that no fraction m/n measures the hypotenuse of a unit right isosceles triangle",
+    "Euclid's geometric (rather than algebraic) proofs of results like (a+b)^2 = a^2 + 2ab + b^2, necessitated by the problem of incommensurables"
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Shaped the axiomatic-deductive form of Euclid's Elements, which in turn influenced Plato, Kant, Newton's Principia, and even the rhetoric of the Declaration of Independence and Enlightenment natural-rights theory.",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-iii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Pythagoras (theorem); later formalized in Euclid, Book X",
+      "treatment": "Pythagoras's own theorem about right-angled triangles led to the discovery that the diagonal of a square cannot be measured exactly by any whole-number ratio relative to its side -- a result that seemed to undermine Pythagoras's belief that everything could be understood through (whole) numbers."
+    }
+  ]
+}

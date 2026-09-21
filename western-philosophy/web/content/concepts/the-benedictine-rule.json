@@ -1,0 +1,30 @@
+{
+  "slug": "the-benedictine-rule",
+  "name": "The Benedictine Rule",
+  "plain_explanation": "Saint Benedict's set of rules for monastic life, written for his monastery at Monte Cassino, which reduced the extreme austerity of earlier monks and gave the abbot strong, lifelong authority over an orderly community.",
+  "precise_definition": "The rule of monastic life drawn up by Saint Benedict around 520 at Monte Cassino, moderating the austerities common among Egyptian and Syrian monks, ending competitive ascetic extremism by requiring the abbot's permission for austerities beyond the rule, granting the abbot near-despotic lifelong authority, and ending monks' previous freedom to move between monasteries at will.",
+  "why_it_mattered": "It became the governing model for nearly all Western monasticism outside Ireland, and later Benedictine houses -- despite the founder's original emphasis on devotional rather than secular reading -- became major centers of learning, exemplified by the library of Monte Cassino.",
+  "historical_origin": "Composed around 520 at the monastery of Monte Cassino, founded by Benedict after an earlier period as a hermit near Spoleto.",
+  "associated_philosopher": "Saint Benedict",
+  "examples": [
+    "The abbot's power to permit or forbid austerities beyond the Rule",
+    "The vow of poverty, obedience, and chastity taken by Benedictine monks"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The earlier, unregulated eremitic and cenobitic practices it replaced"
+  ],
+  "influence_on_later_thinkers": "Monte Cassino was sacked by the Lombards and later rebuilt; its library became famous, and 'in various ways the world is much indebted to the scholarly tastes of later Benedictines,' in Russell's words.",
+  "connection_to_politics_or_religion": "A specifically religious institution whose organizational form nonetheless shaped medieval intellectual and economic life.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-vi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Saint Benedict",
+      "treatment": "Saint Benedict's set of rules for monastic life, written for his monastery at Monte Cassino, which reduced the extreme austerity of earlier monks and gave the abbot strong, lifelong authority over an orderly community."
+    }
+  ]
+}

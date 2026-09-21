@@ -1,0 +1,30 @@
+{
+  "slug": "hipparchus-and-the-epicycle-theory-toward-the-ptolemaic-system",
+  "name": "Hipparchus and the epicycle theory (toward the Ptolemaic system)",
+  "plain_explanation": "Hipparchus, called by the historian Heath 'the greatest astronomer of antiquity,' rejected Aristarchus's sun-centered theory and instead refined an alternative geocentric model using 'epicycles' -- circles moving on circles -- which later astronomers developed into the complex, earth-centered Ptolemaic system that dominated astronomy for over a thousand years.",
+  "precise_definition": "Hipparchus's (fl. 161-126 BC) adoption and improvement of the epicycle theory (originally invented by Apollonius, fl. ca. 220 BC) as a geocentric alternative to Aristarchus's heliocentric hypothesis, combined with genuinely major achievements -- the first systematic trigonometry, discovery of the precession of the equinoxes, a highly accurate lunar month estimate, improved sun/moon distance estimates, and a catalogue of 850 fixed stars -- whose cumulative authority caused the heliocentric hypothesis to be set aside until Copernicus.",
+  "why_it_mattered": "Hipparchus's work, later systematized by Ptolemy (fl. mid-second century AD) into what became known as the Ptolemaic system, was largely responsible for the 'general rejection' of Aristarchus's correct heliocentric hypothesis for roughly seventeen centuries.",
+  "historical_origin": "Developed by Hipparchus, building on Apollonius's earlier invention of epicycles.",
+  "associated_philosopher": "Aristarchus of Samos",
+  "examples": [
+    "Hipparchus estimated the length of the lunar month with an error of less than one second.",
+    "He catalogued eight hundred and fifty fixed stars, giving their latitude and longitude."
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Aristarchus's and Seleucus's heliocentric hypothesis, which the epicycle tradition displaced for the remainder of antiquity."
+  ],
+  "influence_on_later_thinkers": "Developed by Ptolemy into the 'Ptolemaic system,' the dominant astronomical model in the West and the Islamic world until Copernicus.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristarchus of Samos",
+      "treatment": "Hipparchus, called by the historian Heath 'the greatest astronomer of antiquity,' rejected Aristarchus's sun-centered theory and instead refined an alternative geocentric model using 'epicycles' -- circles moving on circles -- which later astronomers developed into the complex, earth-centered Ptolemaic system that dominated astronomy for over a thousand years."
+    }
+  ]
+}

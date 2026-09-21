@@ -1,0 +1,60 @@
+{
+  "slug": "carneades",
+  "name": "Carneades",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Cynicism",
+  "major_ideas": [
+    "Academic probabilism (Carneades and Clitomachus)"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Head of the sceptical Academy who, on a diplomatic mission to Rome in 156 B.C., scandalously gave one lecture praising Plato and Aristotle's view of justice and a second lecture demolishing it, arguing that great states are built on successful injustice; provoked the elder Cato's hostility to Greek philosophy. Also developed, with Clitomachus, a constructive doctrine of degrees of probability as a practical guide to action.",
+  "central_doctrines": "",
+  "key_arguments": [
+    "Carneades's argument that justice is not always advantageous to its practitioner"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "parmenides",
+    "socrates",
+    "plato",
+    "protagoras",
+    "gorgias",
+    "antisthenes",
+    "arcesilaus"
+  ],
+  "successors": [
+    "timon",
+    "gerbert-pope-sylvester-ii",
+    "david-hume",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "pyrrho",
+      "about": "Academic probabilism (Carneades and Clitomachus)"
+    },
+    {
+      "with": "aenesidemus",
+      "about": "Academic probabilism (Carneades and Clitomachus)"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell treats Cynicism and Scepticism as two Hellenistic strategies for coping with the same underlying condition described in Chapter XXV: the individual's loss of power over public affairs. He is sympathetic to Diogenes's personal sincerity and vigour but views the doctrine, once popularized (Teles), as degenerating into a self-serving excuse for accepting others' generosity without gratitude. On Scepticism, Russell's central analytical move is to distinguish it sharply from scientific open-mindedness, calling it 'dogmatic doubt' -- itself a confident claim that knowledge is impossible -- and he credits Timon's regress argument as a genuinely strong challenge to Greek deductive logic. He gives real weight to the Carneades-Clitomachus doctrine of probability as anticipating a view modern philosophers largely accept, while treating the vivid Carneades-versus-Cato episode as illustrating both the seductive cleverness and the moral hollowness that sceptical rhetoric could produce when detached from sincere conviction. He closes by noting that Scepticism, though intellectually formidable, offered nothing positive to replace the popular religion it discredited, leaving 'the way... left clear for an invasion of oriental religions' -- his direct bridge into the Epicurean and Stoic material and, eventually, Christianity.",
+  "why_this_matters": "Cynicism (Antisthenes, Diogenes) sought virtue and freedom through radical indifference to external goods and rejection of civilized convention; its popularized version (Teles) degenerated into self-serving excuse-making. Pyrrhonist Scepticism held that no rational grounds exist for preferring any belief or action over another, but Russell calls this 'dogmatic doubt' because it confidently asserts the impossibility of knowledge.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxvi",
+      "role": "Head of the sceptical Academy who, on a diplomatic mission to Rome in 156 B.C., scandalously gave one lecture praising Plato and Aristotle's view of justice and a second lecture demolishing it, arguing that great states are built on successful injustice; provoked the elder Cato's hostility to Greek philosophy. Also developed, with Clitomachus, a constructive doctrine of degrees of probability as a practical guide to action."
+    }
+  ],
+  "extraction_confidence": "high"
+}

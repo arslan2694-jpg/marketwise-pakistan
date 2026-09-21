@@ -1,0 +1,116 @@
+{
+  "slug": "rene-descartes",
+  "name": "Rene Descartes",
+  "era": "Ancient",
+  "dates": "1596-1650",
+  "geography": "",
+  "school": "Cartesianism / Continental rationalism (as founded in this chapter)",
+  "major_ideas": [
+    "Subjectivism as the recurring character of modern philosophy",
+    "Cartesian doubt (methodical, universal doubt)",
+    "The cogito ('I think, therefore I am')",
+    "The criterion of clear and distinct ideas",
+    "The wax argument and the mind's superiority to the senses",
+    "Mind-body dualism and the pineal gland",
+    "Geulincx's 'two clocks' theory (occasionalism)",
+    "Mechanistic physics and the vortex theory of the solar system"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Represents the alternative to Newton and Leucippus: that extension is the essence of matter, so there is matter everywhere and empty space is impossible. Invoked by Russell to show that Augustine, in the Soliloquia, anticipated both the cogito ('I know that I think') and Descartes's reply to Gassendi's ambulo ergo sum. Cited as the modern philosopher in whom the individualistic and subjective character of modern philosophy is 'very marked,' since he builds all knowledge from the certainty of his own existence and treats clearness and distinctness (both subjective) as criteria of truth. The chapter's central subject throughout: his biography, his mathematical achievement (coordinate geometry), his mechanistic physics and physiology (the pineal gland theory of mind-body interaction, animals as automata, vortex cosmology), and above all his epistemology -- Cartesian doubt, the cogito, the criterion of clear and distinct ideas, the wax argument, the theory of ideas (innate, adventitious, invented), and the reconstruction of knowledge of God and the external world -- are all presented and then critically assessed. Presented as the source of Spinoza's metaphysical starting point; Spinoza is shown reducing Descartes's three substances (God, mind, matter) to a single substance. Presented as sharing with Leibniz a philosophy grounded in the notion of substance, though Leibniz differs radically on the number of substances and the nature of matter; Leibniz was influenced by Cartesianism in Paris. His 'I think, therefore I am' is presented as an early, decisive instance of intellectual individualism penetrating philosophy, since it makes each person's own existence, not the community's, the basis of certainty. Cited as a major influence on the young Locke and as a representative of the rationalist tradition (belief in innate ideas and a priori knowledge) that Locke's empiricism was written against. Presented as the fountainhead of the rival, Continental philosophical tradition (running through Spinoza and Leibniz to Kant and Hegel); his authority as a philosopher was diminished, Russell notes, when Newton's law of gravitation proved superior to his theory of vortices.",
+  "central_doctrines": "Subjectivism as the recurring character of modern philosophy: Russell's diagnosis that 'modern philosophy... has retained, for the most part, an individualistic and subjective character,' traceable from Descartes's cogito through the British empiricists' difficulties with matter to Kant, Fichte, and finally Rousseau's extension of subjectivity to ethics and politics, 'ended, logically, in complete anarchism such as that of Bakunin.' Cartesian doubt (methodical, universal doubt): Russell's summary: 'In order to have a firm basis for his philosophy, he resolves to make himself doubt everything that he can manage to doubt... He begins with scepticism in regard to the senses... Even in regard to arithmetic and geometry... doubt is possible... there might be an evil demon, no less cunning and deceitful than powerful employing all his industry in misleading me.' The cogito ('I think, therefore I am'): Descartes's own words, quoted by Russell: '\"While I wanted to think everything false, it must necessarily be that I who thought was something; and remarking that this truth, I think, therefore I am, was so solid and so certain that all the most extravagant suppositions of the sceptics were incapable of upsetting it, I judged that I could receive it without scruple as the first principle of the philosophy that I sought.\"' Descartes generalizes 'thinking' broadly to include doubting, understanding, conceiving, affirming, denying, willing, imagining, and feeling. The criterion of clear and distinct ideas: Russell's summary: 'Descartes next asks himself: why is the cogito so evident? He concludes that it is only because it is clear and distinct. He therefore adopts as a general rule the principle: All things that we conceive very clearly and very distinctly are true. He admits, however, that there is sometimes difficulty in knowing which these things are.' Mind-body dualism and the pineal gland: Russell's summary: 'Men are different [from animals]: they have a soul, which resides in the pineal gland. There the soul comes in contact with the \"vital spirits,\" and through this contact there is interaction between soul and body. The total quantity of motion in the universe is constant, and therefore the soul cannot affect it; but it can alter the direction of motion of the animal spirits, and hence, indirectly, of other parts of the body.'",
+  "key_arguments": [
+    "The cogito argument",
+    "The wax argument for the mind's superiority to the senses",
+    "The proof of the external world via God's non-deceptiveness"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "aristotle",
+    "theaetetus",
+    "saint-augustine",
+    "thomas-aquinas",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "gottfried-wilhelm-leibniz",
+    "baruch-spinoza",
+    "arnold-geulincx",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "baruch-spinoza",
+      "about": "Subjectivism as the recurring character of modern philosophy"
+    },
+    {
+      "with": "john-locke",
+      "about": "Subjectivism as the recurring character of modern philosophy"
+    },
+    {
+      "with": "georg-wilhelm-friedrich-hegel",
+      "about": "Subjectivism as the recurring character of modern philosophy"
+    },
+    {
+      "with": "baruch-spinoza",
+      "about": "Mind-body dualism and the pineal gland"
+    },
+    {
+      "with": "arnold-geulincx",
+      "about": "Mind-body dualism and the pineal gland"
+    },
+    {
+      "with": "isaac-newton",
+      "about": "Mechanistic physics and the vortex theory of the solar system"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell treats Descartes with marked admiration for his freshness, independence, and literary style -- 'there is a freshness about his work that is not to be found in any eminent previous philosopher since Plato,' writing 'not as a teacher, but as a discoverer and explorer.' He gives real weight to Descartes's mathematical and scientific contributions (coordinate geometry chief among them) while judging his science, though 'creditable,' inferior to that of some contemporaries. His central philosophical assessment is double-edged: he calls the passage containing the cogito 'the kernel of Descartes's theory of knowledge, and contains what is most important in his philosophy,' crediting Descartes with launching the entire modern tradition of epistemology-first philosophy and identifying the enduring subjectivist tendency this produced in both Continental and British philosophy -- yet he judges the 'destructive,' doubt-driven opening of the Meditations far more successful and interesting than its 'constructive' rebuilding, criticizes the illegitimate move from 'there are thoughts' to 'I am a thing which thinks,' and dismisses Descartes's proofs of God and reliance on unexamined scholastic maxims as comparatively weak and insufficiently scrutinized by Descartes's own standard of doubt. He closes by crediting Descartes with two further lasting achievements: bringing mind-matter dualism 'very nearly to completion,' and establishing thoughts (not external objects) as the primary empirical certainties for all subsequent philosophy, 'the decision... which was very important, and had a profound effect on all subsequent philosophy.'",
+  "why_this_matters": "Russell credits Descartes as, rightly, the founder of modern philosophy: the first major philosopher since Aristotle to build a complete system from scratch rather than on inherited foundations, and the first whose thought is thoroughly shaped by the new science. Cartesian doubt -- systematically doubting the senses, one's body, and even mathematics via the hypothesis of a deceiving demon -- is Descartes's method for finding an absolutely indubitable starting point for knowledge.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-ix",
+      "role": "Represents the alternative to Newton and Leucippus: that extension is the essence of matter, so there is matter everywhere and empty space is impossible."
+    },
+    {
+      "chapter_id": "book-2-ch-iv",
+      "role": "Invoked by Russell to show that Augustine, in the Soliloquia, anticipated both the cogito ('I know that I think') and Descartes's reply to Gassendi's ambulo ergo sum."
+    },
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Cited as the modern philosopher in whom the individualistic and subjective character of modern philosophy is 'very marked,' since he builds all knowledge from the certainty of his own existence and treats clearness and distinctness (both subjective) as criteria of truth."
+    },
+    {
+      "chapter_id": "book-3-ch-ix",
+      "role": "The chapter's central subject throughout: his biography, his mathematical achievement (coordinate geometry), his mechanistic physics and physiology (the pineal gland theory of mind-body interaction, animals as automata, vortex cosmology), and above all his epistemology -- Cartesian doubt, the cogito, the criterion of clear and distinct ideas, the wax argument, the theory of ideas (innate, adventitious, invented), and the reconstruction of knowledge of God and the external world -- are all presented and then critically assessed."
+    },
+    {
+      "chapter_id": "book-3-ch-x",
+      "role": "Presented as the source of Spinoza's metaphysical starting point; Spinoza is shown reducing Descartes's three substances (God, mind, matter) to a single substance."
+    },
+    {
+      "chapter_id": "book-3-ch-xi",
+      "role": "Presented as sharing with Leibniz a philosophy grounded in the notion of substance, though Leibniz differs radically on the number of substances and the nature of matter; Leibniz was influenced by Cartesianism in Paris."
+    },
+    {
+      "chapter_id": "book-3-ch-xii",
+      "role": "His 'I think, therefore I am' is presented as an early, decisive instance of intellectual individualism penetrating philosophy, since it makes each person's own existence, not the community's, the basis of certainty."
+    },
+    {
+      "chapter_id": "book-3-ch-xiii",
+      "role": "Cited as a major influence on the young Locke and as a representative of the rationalist tradition (belief in innate ideas and a priori knowledge) that Locke's empiricism was written against."
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Presented as the fountainhead of the rival, Continental philosophical tradition (running through Spinoza and Leibniz to Kant and Hegel); his authority as a philosopher was diminished, Russell notes, when Newton's law of gravitation proved superior to his theory of vortices."
+    }
+  ],
+  "extraction_confidence": "high"
+}

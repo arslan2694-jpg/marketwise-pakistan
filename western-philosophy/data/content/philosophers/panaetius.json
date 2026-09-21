@@ -1,0 +1,38 @@
+{
+  "slug": "panaetius",
+  "name": "Panaetius",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Introduced a substantial element of Platonism into Stoicism and abandoned strict materialism; friend of the younger Scipio and a major influence, via Cicero, in transmitting Stoicism to Rome; taught that the soul perishes with the body. Stoic philosopher (already introduced in Ch. XXVIII) revisited here as a friend of Polybius and of the younger Scipio; his more political, less Cynic-influenced version of Stoicism appealed strongly to serious Romans, who still had genuine opportunities for political action that Greeks under Macedonian rule had lost.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxviii",
+      "role": "Introduced a substantial element of Platonism into Stoicism and abandoned strict materialism; friend of the younger Scipio and a major influence, via Cicero, in transmitting Stoicism to Rome; taught that the soul perishes with the body."
+    },
+    {
+      "chapter_id": "book-1-ch-xxix",
+      "role": "Stoic philosopher (already introduced in Ch. XXVIII) revisited here as a friend of Polybius and of the younger Scipio; his more political, less Cynic-influenced version of Stoicism appealed strongly to serious Romans, who still had genuine opportunities for political action that Greeks under Macedonian rule had lost."
+    }
+  ],
+  "extraction_confidence": "high"
+}

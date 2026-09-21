@@ -1,0 +1,25 @@
+{
+  "slug": "occam-s-razor",
+  "name": "Occam's razor",
+  "plain_explanation": "Occam is famous for a principle -- though not, Russell notes, in the exact wording usually attributed to him -- that we should not multiply entities beyond what is strictly necessary to explain the facts. If a phenomenon can be fully explained without assuming some extra hypothetical entity, there is no ground for assuming that entity exists.",
+  "precise_definition": "The methodological principle, associated with (though not verbatim from) William of Occam, that explanations should not posit more entities than are necessary; often rendered 'Entities are not to be multiplied without necessity,' closer to Occam's actual formulation 'It is vain to do with more what can be done with fewer.'",
+  "why_it_mattered": "Russell states he has 'himself found this a most fruitful principle in logical analysis,' directly linking Occam's medieval logical practice to Russell's own twentieth-century philosophical method.",
+  "historical_origin": "Attributed to William of Occam (ca. 1290-1349/50), though the exact phrase 'Entities are not to be multiplied without necessity' does not appear in his surviving works.",
+  "associated_philosopher": "William of Occam",
+  "examples": [],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Explicitly endorsed and used by Russell in his own logical analysis; became a general methodological touchstone across later philosophy and science.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-xiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "William of Occam",
+      "treatment": "Occam is famous for a principle -- though not, Russell notes, in the exact wording usually attributed to him -- that we should not multiply entities beyond what is strictly necessary to explain the facts. If a phenomenon can be fully explained without assuming some extra hypothetical entity, there is no ground for assuming that entity exists."
+    }
+  ]
+}

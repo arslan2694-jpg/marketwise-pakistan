@@ -1,0 +1,19 @@
+{
+  "slug": "christian-monasticism",
+  "name": "Christian monasticism",
+  "period": "Medieval",
+  "doctrines": [
+    "The Benedictine Rule",
+    "Papal political authority under Gregory the Great",
+    "Hostility to secular learning"
+  ],
+  "philosophers": [
+    "gregory-the-great",
+    "saint-benedict"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-2-ch-vi"
+  ]
+}

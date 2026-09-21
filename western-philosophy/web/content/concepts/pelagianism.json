@@ -1,0 +1,29 @@
+{
+  "slug": "pelagianism",
+  "name": "Pelagianism",
+  "plain_explanation": "The rival view, held by the British monk Pelagius, that human beings have genuine free will, that there is no inherited 'original sin,' and that people earn heaven through their own virtuous moral effort.",
+  "precise_definition": "The heresy, condemned largely through Augustine's efforts, holding that Adam's sin did not corrupt human nature, that individuals retain full free will, and that virtuous conduct is rewarded with heaven on its own merits rather than through unearned grace.",
+  "why_it_mattered": "It framed the central theological battle of Augustine's later career and, though condemned, persisted in weakened ('semi-Pelagian') form for another century.",
+  "historical_origin": "Taught by Pelagius (born Morgan), a cultivated Welsh ecclesiastic, in the early fifth century.",
+  "associated_philosopher": "Pelagius",
+  "examples": [],
+  "objections": [
+    "Augustine's argument that if salvation could be earned by unaided moral effort, grace would be unnecessary and Scripture's teaching on universal sinfulness would be false"
+  ],
+  "competing_positions": [
+    "Augustine's doctrine of original sin, grace, and unmerited predestination"
+  ],
+  "influence_on_later_thinkers": "Formally defeated at the Council of Orange in 529, though never entirely extinguished as a recurring theological temptation.",
+  "connection_to_politics_or_religion": "Directly theological/doctrinal.",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-iv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Pelagius",
+      "treatment": "The rival view, held by the British monk Pelagius, that human beings have genuine free will, that there is no inherited 'original sin,' and that people earn heaven through their own virtuous moral effort."
+    }
+  ]
+}

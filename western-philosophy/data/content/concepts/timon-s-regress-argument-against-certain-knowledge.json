@@ -1,0 +1,29 @@
+{
+  "slug": "timon-s-regress-argument-against-certain-knowledge",
+  "name": "Timon's regress argument against certain knowledge",
+  "plain_explanation": "All Greek logical proof works by deducing conclusions from general starting principles. But if you can never be sure those starting principles are true, then any 'proof' either goes in a circle or hangs from nothing -- so nothing is really proved.",
+  "precise_definition": "Timon's argument that, since Greek deductive logic requires self-evident general first premises, and no such premises can be shown to be self-evident, all deductive argument is either circular or an infinite, unsupported chain, and hence no genuine proof of anything is possible.",
+  "why_it_mattered": "Russell singles this out as intellectually 'very hard to answer' from within the framework of Greek logic, and notes it strikes directly at the foundations of the Aristotelian system that dominated medieval philosophy.",
+  "historical_origin": "Advanced by Timon, Pyrrho's disciple, in the third century B.C.",
+  "associated_philosopher": "Timon",
+  "examples": [
+    "Two surviving fragments distinguishing what 'appears' (valid) from what one asserts as objectively true, e.g. 'That honey is sweet I refuse to assert; that it appears sweet, I fully grant.'"
+  ],
+  "objections": [
+    "A modern Sceptic, Russell notes, would go further and say that even 'honey appears sweet' is only highly probable, since any statement about a phenomenon is distinct from the phenomenon itself and so can, in principle, be false"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Russell compares Timon's doctrine -- valid inference from repeated observed conjunction, invalid inference to unobserved entities like atoms -- to the epistemology of David Hume.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Timon",
+      "treatment": "All Greek logical proof works by deducing conclusions from general starting principles. But if you can never be sure those starting principles are true, then any 'proof' either goes in a circle or hangs from nothing -- so nothing is really proved."
+    }
+  ]
+}

@@ -1,24 +1,17 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import {
   exportProgress,
   importProgress,
-  loadProgress,
   resetProgress,
-  type ProgressState,
+  useProgress,
 } from "@/lib/progress";
 import type { FlatChapterRef } from "@/lib/content";
 
 export default function ProgressPageClient({ chapters }: { chapters: FlatChapterRef[] }) {
-  const [progress, setProgress] = useState<ProgressState | null>(null);
+  const progress = useProgress();
   const fileRef = useRef<HTMLInputElement>(null);
-
-  useEffect(() => {
-    setProgress(loadProgress());
-  }, []);
-
-  if (!progress) return <div className="h-40 animate-pulse rounded-lg bg-surface-2" />;
 
   const byPart = new Map<string, { total: number; done: number; title: string }>();
   for (const c of chapters) {
@@ -51,7 +44,6 @@ export default function ProgressPageClient({ chapters }: { chapters: FlatChapter
     file.text().then((text) => {
       try {
         importProgress(text);
-        setProgress(loadProgress());
       } catch {
         alert("That file doesn't look like a valid progress export.");
       }
@@ -106,7 +98,6 @@ export default function ProgressPageClient({ chapters }: { chapters: FlatChapter
             onClick={() => {
               if (confirm("Reset all local progress? This cannot be undone.")) {
                 resetProgress();
-                setProgress(loadProgress());
               }
             }}
             className="rounded-md border border-bad px-3 py-1.5 text-[12.5px] text-bad hover:bg-bad/10"

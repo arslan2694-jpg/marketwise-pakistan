@@ -1,0 +1,33 @@
+{
+  "slug": "the-unmoved-mover-and-aristotle-s-theology",
+  "name": "The Unmoved Mover and Aristotle's theology",
+  "plain_explanation": "Since anything that moves must be caused to move by something else, and that chain cannot regress forever, there must be an ultimate source of motion that is itself unmoved -- and Aristotle argues this Unmoved Mover causes motion not by pushing things (like one billiard ball hitting another) but by being loved and desired, the way a beautiful object of thought moves us without itself moving.",
+  "precise_definition": "Aristotle's argument for God as an eternal, unmoved, immaterial substance -- 'pure form and pure actuality' -- that causes motion as a final cause (the object of desire and of thought) rather than as an efficient cause; God's activity is pure self-directed thought, 'a thinking on thinking,' with no knowledge of or love for the world.",
+  "why_it_mattered": "It supplies Aristotle's answer to the question of what starts the whole causal order of change moving, and it frames the universe as continually 'evolving' toward greater form and likeness to God -- an optimistic, teleological picture of nature.",
+  "historical_origin": "Set out at the end of Aristotle's Physics and in Metaphysics Book Lambda (Theta), which Aristotle himself called 'theology.'",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "The claim that there are 'either forty-seven or fifty-five' unmoved movers tied to the motions of the heavenly spheres, whose relation to a single God is left unclear",
+    "Aristotle's four kinds of cause -- material, formal, efficient, and final -- illustrated by a sculptor making a statue"
+  ],
+  "objections": [
+    "Russell notes God, on this view, cannot love or care for the world (since attending to anything less than perfect would derogate from divine perfection), so -- unlike the Christian God -- 'it is impossible that God should love men,' though men must love God",
+    "To a modern mind, Russell notes, a cause of change is naturally thought to be a previous change, making the very idea of an eternally unmoved first cause of motion difficult to accept"
+  ],
+  "competing_positions": [
+    "The Christian conception of a providential God who loves and knows His creation, which later theologians had to reconcile uneasily with the inherited Aristotelian God"
+  ],
+  "influence_on_later_thinkers": "Became, through Scholasticism, one of the chief classical arguments for God's existence (the 'unmoved mover' or 'first cause' argument) adopted and adapted by medieval Christian philosophers such as Aquinas.",
+  "connection_to_politics_or_religion": "Directly theological: Aristotle's own term for this branch of his philosophy was 'theology.'",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Since anything that moves must be caused to move by something else, and that chain cannot regress forever, there must be an ultimate source of motion that is itself unmoved -- and Aristotle argues this Unmoved Mover causes motion not by pushing things (like one billiard ball hitting another) but by being loved and desired, the way a beautiful object of thought moves us without itself moving."
+    }
+  ]
+}

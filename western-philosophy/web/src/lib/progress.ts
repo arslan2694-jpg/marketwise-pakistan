@@ -1,5 +1,7 @@
 "use client";
 
+import { useSyncExternalStore } from "react";
+
 // Local-first learner profile. Everything lives in localStorage under one
 // key so it's trivial to export/import/reset. No network calls, no accounts.
 
@@ -75,6 +77,51 @@ export function saveProgress(state: ProgressState) {
   } catch {
     // storage full or unavailable; fail silently, it's non-critical
   }
+  emitProgressChange();
+}
+
+// --- useSyncExternalStore plumbing, so components can read progress
+// reactively without the effect+setState hydration anti-pattern. ---
+
+type Listener = () => void;
+let listeners: Listener[] = [];
+
+function emitProgressChange() {
+  for (const l of listeners) l();
+}
+
+function subscribeToProgress(listener: Listener) {
+  listeners.push(listener);
+  return () => {
+    listeners = listeners.filter((l) => l !== listener);
+  };
+}
+
+let cachedSnapshot: ProgressState = emptyState();
+let cachedRaw = "";
+
+function getProgressSnapshot(): ProgressState {
+  if (typeof window === "undefined") return cachedSnapshot;
+  let raw = "";
+  try {
+    raw = localStorage.getItem(STORAGE_KEY) ?? "";
+  } catch {
+    raw = "";
+  }
+  if (raw !== cachedRaw) {
+    cachedRaw = raw;
+    cachedSnapshot = loadProgress();
+  }
+  return cachedSnapshot;
+}
+
+function getProgressServerSnapshot(): ProgressState {
+  return emptyState();
+}
+
+/** Reactive read of the full progress state; re-renders on any saveProgress() call (including from other components) and is SSR/hydration-safe. */
+export function useProgress(): ProgressState {
+  return useSyncExternalStore(subscribeToProgress, getProgressSnapshot, getProgressServerSnapshot);
 }
 
 export function recordVisit(chapterId: string) {

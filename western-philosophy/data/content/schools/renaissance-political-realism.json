@@ -1,0 +1,18 @@
+{
+  "slug": "renaissance-political-realism",
+  "name": "Renaissance political realism",
+  "period": "Modern",
+  "doctrines": [
+    "Machiavelli's separation of means from ends (the 'science of success')",
+    "The doctrine of The Prince: the ruler's necessary use of deception and force",
+    "The republican doctrine of the Discourses: checks and balances and the value of liberty"
+  ],
+  "philosophers": [
+    "niccolo-machiavelli"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-iii"
+  ]
+}

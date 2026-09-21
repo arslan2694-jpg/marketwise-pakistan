@@ -1,0 +1,29 @@
+{
+  "slug": "nominalism-and-the-primacy-of-geometry-as-a-model-science",
+  "name": "Nominalism and the primacy of geometry as a model science",
+  "plain_explanation": "Hobbes held that only individual things are real; general or universal ideas exist only as names (words), and without language there could be no truth or falsehood at all, since these are properties of statements, not of things. He considered geometry the only genuine science yet created, and thought reasoning should proceed like calculation, starting from careful, non-self-contradictory definitions.",
+  "precise_definition": "Russell's summary: 'Hobbes... is an out-and-out nominalist. There is, he says, nothing universal but names, and without words we could not conceive any general ideas... He considers geometry the one genuine science so far created. Reasoning is of the nature of reckoning, and should start from definitions.'",
+  "why_it_mattered": "It explains both Hobbes's methodological admiration for mathematics (unusual among English empiricists, per Russell) and his hostility to concepts he judged self-contradictory, such as 'incorporeal substance.'",
+  "historical_origin": "Set out in Part I of Leviathan.",
+  "associated_philosopher": "Thomas Hobbes",
+  "examples": [
+    "Hobbes's judgment that 'incorporeal substance' is nonsense, and his two responses to the objection that God is called an incorporeal substance: that God is not an object of philosophy, and that many philosophers have thought God corporeal"
+  ],
+  "objections": [
+    "Russell's own objection: Hobbes failed to appreciate the use of induction for arriving at general laws (e.g., Kepler's proposition that planets move in ellipses is a general proposition whose rivals, like Ptolemy's, are not logically absurd, merely false), despite his admiration for Kepler and Galileo"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Anticipates, in its combination of nominalism with mathematical rigor, a philosophical combination Russell says did not recur among empiricists until 'our own day.'",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-viii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Thomas Hobbes",
+      "treatment": "Hobbes held that only individual things are real; general or universal ideas exist only as names (words), and without language there could be no truth or falsehood at all, since these are properties of statements, not of things. He considered geometry the only genuine science yet created, and thought reasoning should proceed like calculation, starting from careful, non-self-contradictory definitions."
+    }
+  ]
+}

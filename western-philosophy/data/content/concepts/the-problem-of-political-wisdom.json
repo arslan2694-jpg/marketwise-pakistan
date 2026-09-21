@@ -1,0 +1,32 @@
+{
+  "slug": "the-problem-of-political-wisdom",
+  "name": "The problem of political 'wisdom'",
+  "plain_explanation": "Even if we grant that some people are wiser than others about how to govern, it is very hard to say what that 'wisdom' actually consists of, and even harder to design a system of government that reliably puts wise people in charge.",
+  "precise_definition": "Russell's two-part critical question: first, whether there is a generalized political 'wisdom' (distinct from specialized skills like shoemaking or medicine) consisting in knowledge of the good; second, whether any constitutional arrangement (aristocracy, monarchy, educational credentialing) can reliably select for and empower such wisdom.",
+  "why_it_mattered": "Russell uses this problem to reject Plato's rule-of-philosophers model and to argue, by elimination, for democracy: 'the problem of finding a collection of \"wise\" men and leaving the government to them is thus an insoluble one. That is the ultimate reason for democracy.'",
+  "historical_origin": "Russell's own critical response to Plato's project, informed by the Socratic doctrine that no man sins wittingly.",
+  "associated_philosopher": "Plato",
+  "examples": [
+    "Aristocracies are not always wise; kings are often foolish; even Popes, despite infallibility, have erred.",
+    "There is no reason to think university graduates, doctors of divinity, or self-made wealthy men would govern more wisely than the whole citizen body."
+  ],
+  "objections": [
+    "The very question of what 'suitable training' for rulers would be 'would turn out to be a party question' -- i.e., politically contested rather than neutrally answerable."
+  ],
+  "competing_positions": [
+    "Plato's own answer: wisdom is knowledge of the Good, acquired through a demanding combination of intellectual and moral discipline (mathematics included), and only those who complete it should rule."
+  ],
+  "influence_on_later_thinkers": "Frames Russell's recurring argument, across the History, for democracy as a practical response to the impossibility of reliably identifying rulers who are wiser than the governed.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Plato",
+      "treatment": "Even if we grant that some people are wiser than others about how to govern, it is very hard to say what that 'wisdom' actually consists of, and even harder to design a system of government that reliably puts wise people in charge."
+    }
+  ]
+}

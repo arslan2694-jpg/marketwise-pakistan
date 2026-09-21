@@ -1,0 +1,113 @@
+{
+  "slug": "immanuel-kant",
+  "name": "Immanuel Kant",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "British empiricism",
+  "major_ideas": [
+    "The hard-headed and soft-hearted lines of post-Kantian liberalism",
+    "Analytic vs. synthetic and a priori vs. empirical propositions",
+    "Space and time as a priori forms of intuition",
+    "The thing-in-itself (noumenon) and phenomena",
+    "The Antinomies of Pure Reason",
+    "The Categorical Imperative"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Cited for the view that every human being is an end in himself, taken by Russell as an expression of the Christian-derived alternative to Aristotle's and Plato's acceptance of inequality; Russell notes a logical difficulty in Kant's view when two people's interests as 'ends in themselves' clash. Cited as an example of a later philosopher misled by Aristotle's over-estimation of the syllogism: having correctly noticed that mathematics is not syllogistic, Kant wrongly inferred it must rest on special extra-logical principles of equal certainty to logic itself. Invoked by Russell as a later parallel: Augustine's subjective theory of time is judged 'a better and clearer statement than Kant's' of a subjectivist view of time that became widely accepted after Kant. Grouped with Fichte as subjective 'in temperament as well as in doctrine.' Mentioned as the philosopher who countered the ontological argument (existence is not a predicate) and who pointed out that the cosmological argument secretly depends on the ontological argument. Presented as the pivotal figure who revived the Continental, Cartesian-derived rationalist tradition after 1781, mistakenly believing he had synthesized it with Locke's empiricism; Russell also contrasts Kant's anti-utilitarian, 'noble' ethics with the Lockean/utilitarian line. Named as the philosopher whom Hume's Enquiry (not, apparently, the Treatise) 'awakened ... from his dogmatic slumbers'; Russell nonetheless argues Kant and his followers remained, in substance, pre-Humian rationalists who can themselves be refuted by Humian arguments. The chapter's primary subject: his life, his theory of a priori synthetic knowledge, his account of space, time, and the categories, his antinomies, his critique of the proofs of God, his ethics of the categorical imperative, and his essay on Perpetual Peace are all examined; Russell also mounts a detailed critical examination of his theory of space and time. Presented as the primary source of Schopenhauer's system: Schopenhauer retains Kant's 'thing-in-itself' (which Fichte and Hegel had abandoned) and, building on Kant's linkage of the moral law to the will, identifies the thing-in-itself with Will itself. Placed in the 'mathematical party' of philosophers; his theory that arithmetical propositions are 'synthetic' and involve reference to time is said to be disproved by Frege's derivation of arithmetic from logic.",
+  "central_doctrines": "Analytic vs. synthetic and a priori vs. empirical propositions: Kant separates two distinctions that Leibniz had run together: analytic (predicate contained in the subject, governed by the law of contradiction) versus synthetic (predicate not so contained), and a priori (known independently of, though perhaps occasioned by, experience) versus empirical (knowable only via sense-perception or testimony). Space and time as a priori forms of intuition: Space and time are pure forms of sensibility ('intuition', Anschauung) contributed by the perceiving subject rather than derived from experience of external things; they apply necessarily to all phenomena (appearances) but not to the noumenal 'things-in-themselves' that cause our sensations. The thing-in-itself (noumenon) and phenomena: Noumena or 'things-in-themselves' are the unknowable causes of sensation, not in space or time and not describable by any of the twelve categories; phenomena are what appears in perception, consisting of a sensory component contributed by the object and a formal component (space, time, category-structure) contributed by the perceiving subject. The Categorical Imperative: A synthetic a priori command of reason, unconditional and independent of any particular end (unlike the 'hypothetical imperative', which is conditional on a desired goal): 'Act only according to a maxim by which you can at the same time will that it shall become a general law.' Moral worth requires acting from a sense of duty, not merely in accordance with duty.",
+  "key_arguments": [
+    "Kant's demolition of the ontological argument",
+    "The moral argument for God, freedom, and immortality (Critique of Practical Reason)"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "rene-descartes",
+    "gottfried-wilhelm-leibniz",
+    "baruch-spinoza",
+    "john-locke",
+    "george-berkeley",
+    "david-hume",
+    "jean-jacques-rousseau",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "jeremy-bentham",
+    "friedrich-nietzsche",
+    "john-locke",
+    "george-berkeley",
+    "david-hume",
+    "johann-gottlieb-fichte",
+    "georg-wilhelm-friedrich-hegel",
+    "jean-jacques-rousseau",
+    "thomas-carlyle",
+    "karl-marx",
+    "david-ricardo",
+    "lord-byron",
+    "bertrand-russell",
+    "friedrich-schelling"
+  ],
+  "disagreements": [
+    {
+      "with": "gottfried-wilhelm-leibniz",
+      "about": "Analytic vs. synthetic and a priori vs. empirical propositions"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Space and time as a priori forms of intuition"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell uses this short chapter as a hinge, closing the discussion of Locke by mapping the whole subsequent development of European philosophy onto the opposition between Locke's empirical, piecemeal 'British' method and the deductive, systematic 'Continental' method descending from Descartes. He credits historical accident as much as logical necessity for Locke's initial European triumph (Newton's defeat of Descartes' physics; French intellectuals' admiration for English liberty), and treats Kant's claimed synthesis of the two traditions as a historical illusion, since Kant's own followers remained Cartesian in spirit. Russell then extends the contrast into ethics, favoring the pleasure/happiness-based line associated with Locke over 'noble,' anti-utilitarian rivals, and offers his provocative, explicitly schematic 'hard-headed'/'soft-hearted' map linking Kantian and Rousseauian liberalism, through very different logical developments, to Stalin and Hitler respectively -- a claim he immediately flags as too simple to be strictly true. The chapter ends by arguing that Locke's individualist political philosophy, though 'adequate and useful until the industrial revolution,' has been outstripped by an age of corporations, nation-states, and organized conflict, and can only be fully restored by an eventual international social contract.",
+  "why_this_matters": "Russell divides post-Locke European philosophy into two enduring traditions: the empirical, piecemeal 'British' line (Locke, Berkeley, Hume, Mill) and the deductive, systematic 'Continental' line (Descartes, Spinoza, Leibniz, Kant, Hegel). Locke's early triumph in England and France owed as much to Newton's defeat of Cartesian physics and to French admiration for English liberty as to purely philosophical argument.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xx",
+      "role": "Cited for the view that every human being is an end in himself, taken by Russell as an expression of the Christian-derived alternative to Aristotle's and Plato's acceptance of inequality; Russell notes a logical difficulty in Kant's view when two people's interests as 'ends in themselves' clash."
+    },
+    {
+      "chapter_id": "book-1-ch-xxii",
+      "role": "Cited as an example of a later philosopher misled by Aristotle's over-estimation of the syllogism: having correctly noticed that mathematics is not syllogistic, Kant wrongly inferred it must rest on special extra-logical principles of equal certainty to logic itself."
+    },
+    {
+      "chapter_id": "book-2-ch-iv",
+      "role": "Invoked by Russell as a later parallel: Augustine's subjective theory of time is judged 'a better and clearer statement than Kant's' of a subjectivist view of time that became widely accepted after Kant."
+    },
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Grouped with Fichte as subjective 'in temperament as well as in doctrine.'"
+    },
+    {
+      "chapter_id": "book-3-ch-xi",
+      "role": "Mentioned as the philosopher who countered the ontological argument (existence is not a predicate) and who pointed out that the cosmological argument secretly depends on the ontological argument."
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Presented as the pivotal figure who revived the Continental, Cartesian-derived rationalist tradition after 1781, mistakenly believing he had synthesized it with Locke's empiricism; Russell also contrasts Kant's anti-utilitarian, 'noble' ethics with the Lockean/utilitarian line."
+    },
+    {
+      "chapter_id": "book-3-ch-xvii",
+      "role": "Named as the philosopher whom Hume's Enquiry (not, apparently, the Treatise) 'awakened ... from his dogmatic slumbers'; Russell nonetheless argues Kant and his followers remained, in substance, pre-Humian rationalists who can themselves be refuted by Humian arguments."
+    },
+    {
+      "chapter_id": "book-3-ch-xx",
+      "role": "The chapter's primary subject: his life, his theory of a priori synthetic knowledge, his account of space, time, and the categories, his antinomies, his critique of the proofs of God, his ethics of the categorical imperative, and his essay on Perpetual Peace are all examined; Russell also mounts a detailed critical examination of his theory of space and time."
+    },
+    {
+      "chapter_id": "book-3-ch-xxiv",
+      "role": "Presented as the primary source of Schopenhauer's system: Schopenhauer retains Kant's 'thing-in-itself' (which Fichte and Hegel had abandoned) and, building on Kant's linkage of the moral law to the will, identifies the thing-in-itself with Will itself."
+    },
+    {
+      "chapter_id": "book-3-ch-xxxi",
+      "role": "Placed in the 'mathematical party' of philosophers; his theory that arithmetical propositions are 'synthetic' and involve reference to time is said to be disproved by Frege's derivation of arithmetic from logic."
+    }
+  ],
+  "extraction_confidence": "high"
+}

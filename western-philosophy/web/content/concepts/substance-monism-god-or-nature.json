@@ -1,0 +1,33 @@
+{
+  "slug": "substance-monism-god-or-nature",
+  "name": "Substance monism (\"God or Nature\")",
+  "plain_explanation": "Instead of Descartes's three separate substances (God, mind, matter), Spinoza holds there is only one substance in the whole universe, which he calls indifferently 'God' or 'Nature.' Everything else - every mind, every physical object - is not an independent thing but merely an aspect or 'mode' of this single infinite being.",
+  "precise_definition": "The doctrine that reality consists of a single, infinite, self-caused substance possessing infinitely many attributes (of which thought and extension are the only two known to us), and that all finite things are merely modes or adjectival aspects of that one substance.",
+  "why_it_mattered": "It dissolves the mind-body dualism Descartes had left unresolved, but at the cost of denying that individual minds and bodies are truly separate, self-subsistent things.",
+  "historical_origin": "Russell traces its lineage to Parmenides' doctrine that only one unchanging Being truly exists, and notes Spinoza inherited from Descartes the concepts of substance and attribute.",
+  "associated_philosopher": "Baruch Spinoza",
+  "examples": [
+    "An individual human soul is, for Spinoza, not a separate thing but an aspect of the one divine Being.",
+    "A piece of matter is likewise only an adjectival aspect of God/Nature, not an independent substance."
+  ],
+  "objections": [
+    "Modern logic and scientific method reject the underlying theory that every proposition has a single subject and predicate, from which Spinoza's monism is derived, according to Russell.",
+    "It is incompatible with treating relations and plurality as ultimately real."
+  ],
+  "competing_positions": [
+    "Descartes's dualism of three substances (God, mind, matter)"
+  ],
+  "influence_on_later_thinkers": "Russell calls Spinoza's system 'the best example' of logical monism, a type of philosophy that also runs through Parmenides, Plato's use of the theory of ideas, and later Hegel.",
+  "connection_to_politics_or_religion": "The doctrine that all things are aspects of God led directly to charges of atheism from Christians, even though Spinoza's entire philosophy is 'dominated by the idea of God.'",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-x"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Baruch Spinoza",
+      "treatment": "Instead of Descartes's three separate substances (God, mind, matter), Spinoza holds there is only one substance in the whole universe, which he calls indifferently 'God' or 'Nature.' Everything else - every mind, every physical object - is not an independent thing but merely an aspect or 'mode' of this single infinite being."
+    }
+  ]
+}

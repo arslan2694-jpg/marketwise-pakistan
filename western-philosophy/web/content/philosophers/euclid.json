@@ -1,0 +1,51 @@
+{
+  "slug": "euclid",
+  "name": "Euclid",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Pythagoreanism",
+  "major_ideas": [
+    "Euclid's axiomatic-deductive method"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Working at Alexandria around 300 BC, he organized geometry into the axiomatic-deductive system of the Elements; Russell credits him less with original content than with the 'order of propositions, and the logical structure,' calling the result 'one of the greatest books ever written.'",
+  "central_doctrines": "Euclid's axiomatic-deductive method: The method, organized by Euclid around 300 BC, of deriving the whole body of geometrical and (in Book X) proto-algebraic knowledge from an explicit, minimal set of definitions and postulates through rigorous deductive proof, culminating in the construction of the five regular solids; Russell praises both 'rigour in deduction' and Euclid's honesty in 'not concealing the dubiousness of the initial assumption' in the parallel postulate specifically.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "anaximander",
+    "pythagoras",
+    "plato",
+    "aristotle",
+    "theaetetus",
+    "philo",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "isaac-newton",
+    "saint-cyril-of-alexandria",
+    "nicolaus-copernicus",
+    "bertrand-russell",
+    "karl-weierstrass",
+    "albert-einstein"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell frames the whole chapter as concerned with mathematics and astronomy specifically 'as related to Greek philosophy,' not as independent technical history. He opens with anecdotes illustrating practical stimuli to mathematics (Thales and the pyramid's shadow, the distance of a ship at sea, the oracle's demand to double a cube-shaped offering, which occupied Plato's Academy for generations) before turning to the serious mathematical content: the discovery of irrational magnitudes and Eudoxus's resulting geometrical theory of proportion and method of exhaustion, exemplified by Archimedes's bounding of pi; Euclid's organization of geometry into a rigorous axiomatic system, its later historical transmission via the Arabic-speaking world into the Latin West, and Russell's own assessment of its strengths (rigor) and limitations (no internal test of its own assumptions); and finally an extended astronomical narrative moving from Babylonian and Egyptian observational groundwork, through Anaximander, Pythagoras, and the Pythagorean central-fire cosmology of Philolaus, to Heraclides's discovery that Venus and Mercury orbit the sun, to Aristarchus's full heliocentric hypothesis and its rejection in favor of Hipparchus's and Ptolemy's geocentric epicycle theory, closing with a comparative table of ancient estimates of the sun's distance and Russell's own reflection on the geometrical, force-free character of ancient astronomy as a whole.",
+  "why_this_matters": "The Greeks' distinctive mathematical achievement was not calculation itself (borrowed in part from Egypt and Babylon) but the invention of rigorous deductive demonstration from explicit axioms. Eudoxus's geometrical theory of proportion and 'method of exhaustion' resolved the crisis caused by the discovery of irrational magnitudes and anticipated the integral calculus, later used by Archimedes to bound the value of pi exactly.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxiv",
+      "role": "Working at Alexandria around 300 BC, he organized geometry into the axiomatic-deductive system of the Elements; Russell credits him less with original content than with the 'order of propositions, and the logical structure,' calling the result 'one of the greatest books ever written.'"
+    }
+  ],
+  "extraction_confidence": "high"
+}

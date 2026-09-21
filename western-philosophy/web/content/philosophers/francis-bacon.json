@@ -1,0 +1,59 @@
+{
+  "slug": "francis-bacon",
+  "name": "Francis Bacon",
+  "era": "Modern",
+  "dates": "1561-1626",
+  "geography": "",
+  "school": "Early modern inductive/empiricist method",
+  "major_ideas": [
+    "Induction as opposed to deduction and the syllogism",
+    "Induction by simple enumeration and its unreliability",
+    "Bacon's improved inductive method: lists and 'prerogative instances'",
+    "The doctrine of the 'idols' (bad habits of mind)",
+    "The doctrine of 'double truth': separating philosophy from theology",
+    "Bacon's blindness to the leading science of his own day"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The chapter's sole primary subject: his political career and the 1621 bribery scandal are recounted, followed by an extended account of his philosophy -- his practical, power-oriented conception of knowledge ('Knowledge is power'), his separation of philosophy from theology (the doctrine of 'double truth'), his advocacy of induction over deduction and the syllogism, his proposed improved inductive method (lists of hot, cold, and variously-heated bodies; 'prerogative instances'), his doctrine of the four 'idols' (of the tribe, the cave, the market-place, and the theatre, plus 'idols of the schools'), and his substantial blind spots regarding the actual science of his own day.",
+  "central_doctrines": "Induction as opposed to deduction and the syllogism: Bacon was 'the first of the long line of scientifically minded philosophers who have emphasized the importance of induction as opposed to deduction,' seeking, like most of his successors, 'some better kind of induction than what is called \"induction by simple enumeration.\"' Induction by simple enumeration and its unreliability: Russell's illustrative parable: after questioning many householders named William Williams in succession, the census officer concludes 'evidently they are all called William Williams,' but is wrong, since 'there was just one whose name was John Jones... This shows that we may go astray if we trust too implicitly in induction by simple enumeration.' Bacon's improved inductive method: lists and 'prerogative instances': Bacon's method: compile lists of instances (hot bodies, cold bodies, bodies of varying degrees of heat) to find a characteristic 'always present in hot bodies and absent in cold bodies, and present in varying degrees in bodies of different degrees of heat,' proceeding from laws of low generality to laws of higher generality, with a proposed law tested by application to new circumstances; 'prerogative' instances are those that decide between two theories both compatible with prior observations. The doctrine of the 'idols' (bad habits of mind): Bacon's five 'idols,' as summarized by Russell: idols of the tribe are inherent in human nature (notably the habit of expecting more order in phenomena than actually exists); idols of the cave are personal prejudices of the individual investigator; idols of the market-place concern the tyranny of words and the difficulty of escaping their influence over thought; idols of the theatre concern uncritical acceptance of received systems of thought (chiefly Aristotle and the scholastics); idols of the schools consist in letting a blind rule (such as the syllogism) substitute for judgement in investigation.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "aristotle",
+    "democritus",
+    "roger-bacon"
+  ],
+  "successors": [
+    "roger-bacon",
+    "james-mill",
+    "john-stuart-mill",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "james-mill",
+      "about": "Induction as opposed to deduction and the syllogism"
+    },
+    {
+      "with": "john-stuart-mill",
+      "about": "Induction as opposed to deduction and the syllogism"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell credits Bacon with 'permanent importance as the founder of modern inductive method and the pioneer in the attempt at logical systematization of scientific procedure,' and with a practical, power-oriented conception of philosophy summed up in 'Knowledge is power.' He defends Bacon's personal conduct toward Essex against Strachey's harsher judgment, characterizing him overall as morally 'an average man, no better and no worse than the bulk of his contemporaries.' He praises specific elements of Bacon's thought -- notably the doctrine of the 'idols,' and Bacon's broadly correct (if lucky) intuition that heat consists of rapid, irregular particle motion -- while offering a sustained critique: Bacon 'despised the syllogism' and 'undervalued mathematics,' his inductive method suffers from 'insufficient emphasis on hypothesis,' and he was strikingly out of touch with the best science of his own era, including that of his own physician, Harvey. Russell's overall verdict situates Bacon as historically foundational to the tradition of empirical, inductive science but philosophically incomplete, since the deepest problem he raised (justifying induction by simple enumeration) 'remains unsolved to this day.'",
+  "why_this_matters": "Russell credits Bacon as the founder of modern inductive method and a pioneer of systematic scientific procedure, despite calling his philosophy 'in many ways unsatisfactory.' Bacon's Welsh-village parable illustrates the unreliability of 'induction by simple enumeration,' the core problem his more elaborate inductive method (lists of instances, 'prerogative instances') was meant to solve.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-vii",
+      "role": "The chapter's sole primary subject: his political career and the 1621 bribery scandal are recounted, followed by an extended account of his philosophy -- his practical, power-oriented conception of knowledge ('Knowledge is power'), his separation of philosophy from theology (the doctrine of 'double truth'), his advocacy of induction over deduction and the syllogism, his proposed improved inductive method (lists of hot, cold, and variously-heated bodies; 'prerogative instances'), his doctrine of the four 'idols' (of the tribe, the cave, the market-place, and the theatre, plus 'idols of the schools'), and his substantial blind spots regarding the actual science of his own day."
+    }
+  ],
+  "extraction_confidence": "high"
+}

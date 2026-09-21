@@ -1,0 +1,31 @@
+{
+  "slug": "the-vulgate-and-the-hebrew-vs-septuagint-controversy",
+  "name": "The Vulgate and the Hebrew-vs-Septuagint controversy",
+  "plain_explanation": "Jerome translated the Old Testament directly from Hebrew (with help from rabbis) rather than relying on the older Greek Septuagint translation that the Western Church had used, and this was controversial because some Christians believed the Jews had deliberately corrupted the Hebrew text to remove references to Christ.",
+  "precise_definition": "Jerome's Latin translation of the Bible (the Vulgate), based on direct translation from the Hebrew original rather than the Septuagint, produced despite considerable initial hostile reception (including the accusation that Jews had deliberately falsified the Hebrew prophetic texts), which Jerome rejected as unsound scholarship; the Vulgate eventually won acceptance, partly through Augustine's support, and remains authoritative in the Catholic Church.",
+  "why_it_mattered": "It represents a major textual-critical achievement and establishes, for the West, the version of Scripture that would underlie a millennium of theology.",
+  "historical_origin": "Undertaken by Jerome with the encouragement of Pope Damasus, drawing on secret help from rabbis, and completed over Jerome's later years in Bethlehem (386-420).",
+  "associated_philosopher": "Saint Jerome",
+  "examples": [
+    "Jerome's defense: 'Let him who would challenge aught in this translation ask the Jews'"
+  ],
+  "objections": [
+    "Initial hostile Christian reception, partly because it relied on Jewish scholarly help and implicitly favored the Hebrew text over the traditionally used Septuagint"
+  ],
+  "competing_positions": [
+    "The view (later addressed at length by Augustine in Chapter IV) that the Septuagint's seventy independent, miraculously identical translations proved its own divine inspiration equal to or greater than the Hebrew original"
+  ],
+  "influence_on_later_thinkers": "Became, and remains, the official Catholic biblical text.",
+  "connection_to_politics_or_religion": "Intersects with Christian-Jewish relations, since it required Christian scholars to rely on Jewish textual authority.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-iii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Saint Jerome",
+      "treatment": "Jerome translated the Old Testament directly from Hebrew (with help from rabbis) rather than relying on the older Greek Septuagint translation that the Western Church had used, and this was controversial because some Christians believed the Jews had deliberately corrupted the Hebrew text to remove references to Christ."
+    }
+  ]
+}

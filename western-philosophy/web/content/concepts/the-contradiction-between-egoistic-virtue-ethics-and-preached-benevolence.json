@@ -1,0 +1,30 @@
+{
+  "slug": "the-contradiction-between-egoistic-virtue-ethics-and-preached-benevolence",
+  "name": "The contradiction between egoistic virtue-ethics and preached benevolence",
+  "plain_explanation": "The Stoics said that only your own virtuous will is good, and that nothing anyone else does to you (or for you) can really help or harm you, since your virtue is entirely up to you. But the Stoics also constantly urged people to help others, to love mankind, and to serve the common good -- which only makes sense if what happens to other people (their health, happiness, safety) actually matters, contradicting the claim that only one's own virtue counts.",
+  "precise_definition": "Russell's second central objection: Stoic theory (only the virtuous will is good; the virtuous will is autonomous; therefore no one can benefit or harm another's true good) is logically incompatible with the Stoics' equally sincere and constant preaching of universal benevolence, philanthropy, and duty toward others (e.g. an emperor's duty to feed and defend his people).",
+  "why_it_mattered": "Reveals, in Russell's reading, that the Stoics operated with two systems of ethics at once -- 'a superfine one for themselves, and an inferior one for the lesser breeds' -- softened in practice only because Stoic adherents were, personally, better and more humane than strict consistency with their own theory would require.",
+  "historical_origin": "Present from early Stoicism but most visible in the Roman Stoics, especially Marcus Aurelius, who had to combine private Stoic philosophy with the practical duties of governing an empire.",
+  "associated_philosopher": "Marcus Aurelius",
+  "examples": [
+    "Marcus Aurelius's genuine concern, as Emperor, for grain shipments, plague relief, and frontier defense -- all treated as 'goods' in ordinary terms even though his official philosophy denies these are true goods",
+    "Seneca's and successors' doctrine of universal love/philanthropy, alongside the official claim that another's misfortune cannot really harm the sage"
+  ],
+  "objections": [
+    "A possible Kantian-style defense Russell entertains: the sage's own will is what is good, and that good will happens to be one directed toward securing 'indifferent' worldly benefits (happiness, health) for others -- avoiding outright contradiction but, Russell argues, losing all plausibility, since if those benefits are truly worthless there is no reason to direct the will toward them rather than elsewhere"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Russell draws a direct parallel to Kant's ethics, which he says faces essentially the same difficulty.",
+  "connection_to_politics_or_religion": "Directly relevant to Marcus Aurelius's imperial administration and to the later Stoic-derived Christian and Roman doctrines of charity and natural law.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Marcus Aurelius",
+      "treatment": "The Stoics said that only your own virtuous will is good, and that nothing anyone else does to you (or for you) can really help or harm you, since your virtue is entirely up to you. But the Stoics also constantly urged people to help others, to love mankind, and to serve the common good -- which only makes sense if what happens to other people (their health, happiness, safety) actually matters, contradicting the claim that only one's own virtue counts."
+    }
+  ]
+}

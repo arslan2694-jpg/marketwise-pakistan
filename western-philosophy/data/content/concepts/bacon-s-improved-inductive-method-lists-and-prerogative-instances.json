@@ -1,0 +1,30 @@
+{
+  "slug": "bacon-s-improved-inductive-method-lists-and-prerogative-instances",
+  "name": "Bacon's improved inductive method: lists and 'prerogative instances'",
+  "plain_explanation": "To investigate the nature of heat, Bacon proposed making lists of hot bodies, cold bodies, and bodies of intermediate temperature, hoping to find some feature present in all and only the hot ones. Some observations, called 'prerogative instances,' are especially valuable because they let you decide between two otherwise equally possible theories.",
+  "precise_definition": "Bacon's method: compile lists of instances (hot bodies, cold bodies, bodies of varying degrees of heat) to find a characteristic 'always present in hot bodies and absent in cold bodies, and present in varying degrees in bodies of different degrees of heat,' proceeding from laws of low generality to laws of higher generality, with a proposed law tested by application to new circumstances; 'prerogative' instances are those that decide between two theories both compatible with prior observations.",
+  "why_it_mattered": "Bacon applied this method to correctly (per Russell) intuit that heat consists of 'rapid irregular motions of the small parts of bodies,' an early anticipation of the kinetic theory of heat, even though his general method for arriving at hypotheses was flawed.",
+  "historical_origin": "Set out in Bacon's account of scientific method, most famously in the Novum Organum (referenced implicitly through Russell's description, though not named in this excerpt).",
+  "associated_philosopher": "Francis Bacon",
+  "examples": [
+    "Bacon's (correct) hypothesis that heat consists of rapid irregular motions of small parts of bodies"
+  ],
+  "objections": [
+    "Russell's chief objection: 'Bacon's inductive method is faulty through insufficient emphasis on hypothesis. He hoped that mere orderly arrangement of data would make the right hypothesis obvious, but this is seldom the case.'",
+    "The framing of hypotheses, Russell argues, 'is the most difficult part of scientific work,' and no rule-governed method for inventing them has been found"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-vii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Francis Bacon",
+      "treatment": "To investigate the nature of heat, Bacon proposed making lists of hot bodies, cold bodies, and bodies of intermediate temperature, hoping to find some feature present in all and only the hot ones. Some observations, called 'prerogative instances,' are especially valuable because they let you decide between two otherwise equally possible theories."
+    }
+  ]
+}

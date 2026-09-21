@@ -1,0 +1,51 @@
+{
+  "slug": "saint-jerome",
+  "name": "Saint Jerome",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Nicene/Catholic orthodoxy",
+  "major_ideas": [
+    "The Vulgate and the Hebrew-vs-Septuagint controversy",
+    "Christian asceticism and monastic promotion"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Translator of the Vulgate (the Latin Bible, translated from the Hebrew rather than the Septuagint), promoter of monasticism and female asceticism, a man of many quarrels (with Augustine over Saint Peter, with Rufinus over Origen, with Pelagius); his letters vividly record the psychological shock of Rome's decline and fall.",
+  "central_doctrines": "The Vulgate and the Hebrew-vs-Septuagint controversy: Jerome's Latin translation of the Bible (the Vulgate), based on direct translation from the Hebrew original rather than the Septuagint, produced despite considerable initial hostile reception (including the accusation that Jews had deliberately falsified the Hebrew prophetic texts), which Jerome rejected as unsound scholarship; the Vulgate eventually won acceptance, partly through Augustine's support, and remains authoritative in the Catholic Church.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "saint-augustine",
+    "boethius",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "saint-ambrose",
+    "saint-augustine",
+    "thomas-hobbes"
+  ],
+  "disagreements": [
+    {
+      "with": "saint-augustine",
+      "about": "The Vulgate and the Hebrew-vs-Septuagint controversy"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell ranks the three men explicitly by strength: Ambrose the greatest statesman, Jerome the greatest scholar, Augustine the greatest philosopher, while noting all three shared the era's superstition and credulity (miracle stories, relic discoveries) and its otherworldly indifference to practical statesmanship even as Rome collapsed around them -- a point he makes pointedly of Jerome, whose vivid letters lament the sack of Rome yet turn immediately to advice on preserving virginity. He treats Augustine's Confessions with genuine admiration as psychologically penetrating literature (comparing him favorably in intellect to Tolstoy and Rousseau, his most famous imitators) while finding the extended self-castigation over the pear theft 'morbid' by modern standards and explaining it through the lens of Jewish theodicy discussed in Chapter I. He is skeptical of and lightly ironic toward the miracle stories and credulity of the age (e.g., the timely discovery of martyrs' skeletons) without denying the genuine political and scholarly achievements of Ambrose and Jerome respectively.",
+  "why_this_matters": "Ambrose established, through concrete political confrontations (the Altar of Victory, the Milan basilica, the Thessalonica massacre), the enduring principle that the State must yield to the Church in religious matters -- a doctrine surviving until the Reformation and later opposed directly by Hobbes. Jerome's Vulgate, translated from the Hebrew rather than the Septuagint (with secret rabbinical help), overcame initial hostile reception to become the official Catholic Bible.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-iii",
+      "role": "Translator of the Vulgate (the Latin Bible, translated from the Hebrew rather than the Septuagint), promoter of monasticism and female asceticism, a man of many quarrels (with Augustine over Saint Peter, with Rufinus over Origen, with Pelagius); his letters vividly record the psychological shock of Rome's decline and fall."
+    }
+  ],
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "saving-the-phenomena-greek-astronomy-as-geometrical-not-dynamic",
+  "name": "'Saving the phenomena': Greek astronomy as geometrical, not dynamic",
+  "plain_explanation": "Ancient Greek astronomers did not think in terms of physical forces pushing and pulling the planets, as Newton later would; instead, they tried to find the simplest possible geometrical arrangement (circles, and circles upon circles) that would correctly predict the observed positions of the heavenly bodies -- a method Russell says was, in a real sense, scientifically correct even though it lacked the concept of force.",
+  "precise_definition": "Russell's characterization of the ancient astronomical problem as essentially geometrical: given only the apparent two-dimensional motions of heavenly bodies on the celestial sphere, hypothesize a third coordinate (depth) so as to make the resulting description as simple as possible, without appeal to physical force, a method Russell says the Greeks pursued 'in effect, though not altogether in intention... in the scientifically correct way,' and which he notes curiously resurfaces, with force again 'banished,' in Einstein's General Theory of Relativity.",
+  "why_it_mattered": "It reframes the merit of the Copernican hypothesis itself: Russell argues its merit 'is not truth, but simplicity,' since, given the relativity of motion, no absolute question of truth is strictly at issue in choosing a reference frame.",
+  "historical_origin": "A pattern Russell identifies across the whole tradition from the Pythagoreans through Hipparchus and Ptolemy.",
+  "associated_philosopher": "Hipparchus",
+  "examples": [
+    "The Ptolemaic and Copernican systems alike used only uniform circular motions or compounds of circular motions, with 'spheres' carrying the heavenly bodies, lacking any concept of force."
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Newton's dynamic, force-based astronomy ('a new point of view, less geometrical'), later echoed, in a partial reversal, by Einstein's geometrical General Theory of Relativity."
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Hipparchus",
+      "treatment": "Ancient Greek astronomers did not think in terms of physical forces pushing and pulling the planets, as Newton later would; instead, they tried to find the simplest possible geometrical arrangement (circles, and circles upon circles) that would correctly predict the observed positions of the heavenly bodies -- a method Russell says was, in a real sense, scientifically correct even though it lacked the concept of force."
+    }
+  ]
+}

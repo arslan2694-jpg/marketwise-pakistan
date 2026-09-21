@@ -1,0 +1,31 @@
+{
+  "slug": "mechanistic-versus-teleological-explanation",
+  "name": "Mechanistic versus teleological explanation",
+  "plain_explanation": "There are two different questions we can ask about why something happens: 'What earlier event caused it?' (mechanistic) and 'What purpose does it serve?' (teleological). The atomists asked only the first question, which Russell says is the one that actually leads to scientific knowledge.",
+  "precise_definition": "Russell's distinction between mechanistic explanation, which answers 'what earlier circumstances caused this event,' and teleological (final-cause) explanation, which answers 'what purpose did this event serve'; the atomists, unlike Socrates, Plato, and Aristotle after them, sought to explain the world without invoking purpose or final causes.",
+  "why_it_mattered": "Russell treats this as one of the most consequential methodological choices in the history of science: the atomists' mechanistic approach anticipates the method that 'experience has shown' leads to scientific knowledge, while the teleological approach dominant from Socrates through Aristotle 'led science up a blind alley' until the Renaissance.",
+  "historical_origin": "Framed by Russell as the atomists' distinctive contribution, in contrast to the purpose-driven explanations later associated with Socrates, Plato, and especially Aristotle.",
+  "associated_philosopher": "Leucippus and Democritus",
+  "examples": [
+    "Why does the baker make bread? Because people will be hungry (teleological). What earlier circumstances caused this event? (mechanistic)"
+  ],
+  "objections": [
+    "Neither kind of question, Russell argues, can be intelligibly asked about reality as a whole (including God); teleological explanation, pushed far enough, either reaches an unexplained Creator or becomes an impious/unmeaning question, and mechanistic explanation, pushed far enough, likewise reaches an uncaused first cause."
+  ],
+  "competing_positions": [
+    "Teleological explanation, associated by Russell with Socrates, Plato, and Aristotle"
+  ],
+  "influence_on_later_thinkers": "Russell says the mechanistic question is the one that leads to scientific knowledge, implicitly connecting the atomists to the method of modern science, while the teleological question dominated European thought until the Renaissance.",
+  "connection_to_politics_or_religion": "Russell notes teleological explanation, pressed to its limit, usually terminates in a Creator or Artificer, and that asking what purpose the Creator serves is both impious and unmeaning.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Leucippus and Democritus",
+      "treatment": "There are two different questions we can ask about why something happens: 'What earlier event caused it?' (mechanistic) and 'What purpose does it serve?' (teleological). The atomists asked only the first question, which Russell says is the one that actually leads to scientific knowledge."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "existence-as-bad-syntax-the-critique-of-predicating-existence-of-things",
+  "name": "'Existence' as bad syntax (the critique of predicating existence of things)",
+  "plain_explanation": "It is nonsense to say of a particular thing, pointed to directly, that 'this exists'; we can only sensibly say that a description ('the largest lion in the Zoo') applies to something, i.e. that there is an x satisfying it.",
+  "precise_definition": "Russell's argument that 'exists' is a predicate applicable only to descriptions (incomplete or complete), not to names or to bare percepts; 'lions exist' means 'there are lions,' i.e. \"'x is a lion' is true for a suitable x,\" and one cannot coherently add, of a perceived particular, 'and that exists.'",
+  "why_it_mattered": "It dismantles Plato's claim that the mind directly apprehends 'existence' as a special object alongside sound and colour, and it also undercuts the ontological argument for the existence of God, which trades on the same confusion.",
+  "historical_origin": "Russell's own logical analysis, developed in this chapter as a response to Plato's argument in the Theaetetus.",
+  "associated_philosopher": "Bertrand Russell",
+  "examples": [
+    "Taking a child to the zoo and saying 'look, that's a lion' proves lions exist without needing to add 'and you can see that that exists'"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Plato's view that 'existence,' like likeness and number, is among the things the mind apprehends by itself, without any sense-organ"
+  ],
+  "influence_on_later_thinkers": "Directly relevant, Russell notes, 'to other matters such as the ontological argument for the existence of the Deity.'",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xviii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell",
+      "treatment": "It is nonsense to say of a particular thing, pointed to directly, that 'this exists'; we can only sensibly say that a description ('the largest lion in the Zoo') applies to something, i.e. that there is an x satisfying it."
+    }
+  ]
+}

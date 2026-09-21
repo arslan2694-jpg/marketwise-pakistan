@@ -1,0 +1,76 @@
+{
+  "slug": "protagoras",
+  "name": "Protagoras",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "The Sophists",
+  "major_ideas": [
+    "The Sophists as a social and professional class",
+    "'Man is the measure of all things' (Protagorean relativism)",
+    "Protagoras's practical defense of convention despite scepticism",
+    "Protagorean relativism ('man is the measure of all things')"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Chief of the Sophists and the chapter's central figure; famous for the doctrine that 'man is the measure of all things,' interpreted as denying objective truth where men differ; despite his theoretical scepticism about the gods, he defended law, convention, and traditional morality and worship on practical grounds. His doctrine 'man is the measure of all things' is identified by Socrates with the view that knowledge is perception; the dialogue tests and largely refutes it, though Socrates (on Protagoras's behalf) offers a proto-pragmatist defense that judgements can be 'better' though not 'truer.'",
+  "central_doctrines": "The Sophists as a social and professional class: A class of professional itinerant teachers in fifth-century Greece who, in the absence of public education, taught for a fee the sons of those with private means, chiefly the arts of argument and oratory useful in the law-courts and political life, without founding schools, brotherhoods, or esoteric doctrines as other philosophical traditions did. 'Man is the measure of all things' (Protagorean relativism): Protagoras's doctrine, 'Man is the measure of all things, of things that are that they are, and of things that are not that they are not,' interpreted by Russell as meaning each individual man is the measure of all things, so that when men differ in their judgments there is no objective truth by which one can be shown right and the other wrong; the doctrine is essentially sceptical and rests on the 'deceitfulness' of the senses. Protagoras's practical defense of convention despite scepticism: Protagoras's position that, since there is no objective truth to appeal to, the majority becomes for practical purposes the arbiter of belief, which led him to defend law, convention, and traditional morality, including worship of gods whose existence he professed himself unable to affirm or deny. Protagorean relativism ('man is the measure of all things'): The doctrine that any given thing 'is to me such as it appears to me, and is to you such as it appears to you,' making individual perception (and, on the extended interpretation, individual judgement) the final standard of truth.",
+  "key_arguments": [
+    "Protagoras's relativist argument from 'man is the measure'"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "democritus",
+    "heraclitus",
+    "parmenides",
+    "plato",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "plato",
+    "gorgias",
+    "thrasymachus",
+    "callicles",
+    "f-c-s-schiller",
+    "theaetetus",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "thrasymachus",
+      "about": "Protagoras's practical defense of convention despite scepticism"
+    },
+    {
+      "with": "callicles",
+      "about": "Protagoras's practical defense of convention despite scepticism"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Protagoras's practical defense of convention despite scepticism"
+    },
+    {
+      "with": "plato",
+      "about": "Protagorean relativism ('man is the measure of all things')"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Protagoras as chief of a sceptical movement, the Sophists, that confronted the confident metaphysical systems of the earlier pre-Socratics in the later fifth century B.C. He situates the Sophists socially as paid professional teachers of the rich, supplying oratorical and argumentative skills needed in Athenian law-courts and politics, and explains the class-based hostility they attracted, comparing their social role to that of modern corporation lawyers. Turning to Protagoras's doctrines, Russell explains 'man is the measure of all things' as a thoroughgoing relativism grounded in distrust of the senses, denying objective truth wherever men differ, while noting Plato's Theaetetus suggests a pragmatist-friendly refinement (one opinion can be 'better,' if not 'truer,' than another), which the modern pragmatist F.C.S. Schiller drew on directly. Russell stresses that Protagoras's theoretical scepticism about objective truth and about the gods coexisted with a practical defense of law, convention, and traditional worship, a combination Russell calls the logically correct stance for a consistent sceptic. He defends the Sophists generally against what he considers Plato's unfair and often intellectually dishonest vilification, arguing Plato allowed himself to judge doctrines by their edifying social consequences rather than following arguments wherever they led, a vice Russell says entered philosophy through Plato and persisted afterward. Russell distinguishes Protagoras's moderate position from more radical Sophistic or Sophist-adjacent doctrines, Gorgias's extreme scepticism, and Thrasymachus's and Callicles's 'might makes right' theories of justice, explicitly noting the latter are not typical of the Sophists as a class, though they have found much wider modern acceptance than they did in antiquity. The chapter closes with an extended historical narrative of Athens from the Persian Wars through Pericles's death, the Peloponnesian War, wartime atrocities (Melos), military defeat (Aegospotami), the oligarchic Thirty Tyrants, the restoration of democracy, and finally the trial and execution of Socrates in 399 B.C., which Russell presents as the culmination of the embittered political climate this chapter describes.",
+  "why_this_matters": "The Sophists, led by Protagoras, were paid professional teachers who taught the Athenian rich practical skills, especially oratory and argument useful in law-courts and politics, in a period of Athenian democracy that left aristocratic wealth intact. Protagoras's central doctrine, 'man is the measure of all things,' is a form of relativism denying objective truth where individuals' judgments differ, grounded in distrust of the senses.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-x",
+      "role": "Chief of the Sophists and the chapter's central figure; famous for the doctrine that 'man is the measure of all things,' interpreted as denying objective truth where men differ; despite his theoretical scepticism about the gods, he defended law, convention, and traditional morality and worship on practical grounds."
+    },
+    {
+      "chapter_id": "book-1-ch-xviii",
+      "role": "His doctrine 'man is the measure of all things' is identified by Socrates with the view that knowledge is perception; the dialogue tests and largely refutes it, though Socrates (on Protagoras's behalf) offers a proto-pragmatist defense that judgements can be 'better' though not 'truer.'"
+    }
+  ],
+  "extraction_confidence": "high"
+}

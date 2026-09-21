@@ -1,0 +1,47 @@
+{
+  "slug": "thales",
+  "name": "Thales",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "The Milesian school",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Mentioned only as the conventional starting point of philosophy, datable because he predicted an eclipse that occurred in 585 B.C.; his own doctrines are reserved for the next chapter. Founder of the Milesian school, credited with predicting the eclipse of 585 B.C. (probably using borrowed Babylonian cycle-knowledge), with bringing geometry from Egypt in rule-of-thumb form, and with the doctrine that everything is made of water and that 'all things are full of gods'. Cited in an anecdote: taunted for his poverty, he cornered the olive-press market to prove that philosophers could make money if they chose, though they think other things more important.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [
+    "anaximander",
+    "anaximenes",
+    "pythagoras",
+    "heraclitus"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell insists the Milesian school 'is important, not for what it achieved, but for what it attempted': the specific doctrines (water, the boundless, air) are scientifically crude and mostly wrong, but the underlying project -- explaining the entire natural world by a single, testable, non-mythological hypothesis -- was itself revolutionary. He ranks Anaximander above Thales in interest, crediting him with cosmic justice, primitive evolutionary theory, and the first map, while noting Anaximenes was, oddly, more admired in antiquity than Anaximander despite being 'not quite so interesting' to modern readers. Russell explicitly credits the school's origin to Miletus's commercial contact with Babylonia and Egypt, and frames the whole chapter as a bridge to the more religious, Pythagorean current of philosophy that follows in southern Italy.",
+  "why_this_matters": "The Milesian school (Thales, Anaximander, Anaximenes) is important for its method -- seeking a single, natural, non-mythological explanation of the world -- rather than for the correctness of its specific answers. Thales held everything is made of water; Anaximander held the primal substance is an indefinite, infinite 'boundless' distinct from any known element; Anaximenes held it is air, differentiated by condensation and rarefaction.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-i",
+      "role": "Mentioned only as the conventional starting point of philosophy, datable because he predicted an eclipse that occurred in 585 B.C.; his own doctrines are reserved for the next chapter."
+    },
+    {
+      "chapter_id": "book-1-ch-ii",
+      "role": "Founder of the Milesian school, credited with predicting the eclipse of 585 B.C. (probably using borrowed Babylonian cycle-knowledge), with bringing geometry from Egypt in rule-of-thumb form, and with the doctrine that everything is made of water and that 'all things are full of gods'."
+    },
+    {
+      "chapter_id": "book-1-ch-xxi",
+      "role": "Cited in an anecdote: taunted for his poverty, he cornered the olive-press market to prove that philosophers could make money if they chose, though they think other things more important."
+    }
+  ],
+  "extraction_confidence": "high"
+}

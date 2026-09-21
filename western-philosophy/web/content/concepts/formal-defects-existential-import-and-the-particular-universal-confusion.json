@@ -1,0 +1,30 @@
+{
+  "slug": "formal-defects-existential-import-and-the-particular-universal-confusion",
+  "name": "Formal defects: existential import and the particular/universal confusion",
+  "plain_explanation": "Aristotle treats 'Socrates is a man' and 'all Greeks are men' as the same basic kind of statement, but they are not: 'all Greeks are men' really packs together two separate claims -- 'there are Greeks' and 'if anything is a Greek, it is a man' -- and Aristotle's failure to separate these leads him, and much of later philosophy, into serious confusion about what a general term like 'man' actually refers to.",
+  "precise_definition": "Russell's critique that Aristotelian universal statements ('all S is P') are ambiguous between a purely hypothetical reading (which does not imply that any S exists) and a reading that presupposes S is non-empty, and that several of Aristotle's syllogisms are valid only under the latter, existentially-loaded reading -- a distinction Aristotle's system never makes explicit.",
+  "why_it_mattered": "Russell traces significant later metaphysical errors to this single formal oversight: treating 'all Greeks' as though it were a kind of subject analogous to 'Socrates' led Aristotle (and, with less caution, Porphyry) to say that a species is, in some sense, a substance, and to conflate predicates of predicates with predicates of the original subject.",
+  "historical_origin": "A gap in Aristotle's Prior Analytics that Russell diagnoses using the tools of modern logic.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "'All Greeks are men, all Greeks are white, therefore some men are white' is valid only if Greeks actually exist.",
+    "Russell's counterexample: 'All golden mountains are mountains, all golden mountains are golden, therefore some mountains are golden' -- valid in form but with a false conclusion, since no golden mountains exist."
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The correct, explicit logical treatment (implicit in Russell's own later work) that splits 'all Greeks are men' into an existence claim and a purely hypothetical universal conditional."
+  ],
+  "influence_on_later_thinkers": "Led to what Russell calls a 'source of errors in metaphysics and theory of knowledge' running through much of the philosophical tradition dependent on Aristotelian logic.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Aristotle treats 'Socrates is a man' and 'all Greeks are men' as the same basic kind of statement, but they are not: 'all Greeks are men' really packs together two separate claims -- 'there are Greeks' and 'if anything is a Greek, it is a man' -- and Aristotle's failure to separate these leads him, and much of later philosophy, into serious confusion about what a general term like 'man' actually refers to."
+    }
+  ]
+}

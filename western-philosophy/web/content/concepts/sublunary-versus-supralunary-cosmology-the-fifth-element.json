@@ -1,0 +1,31 @@
+{
+  "slug": "sublunary-versus-supralunary-cosmology-the-fifth-element",
+  "name": "Sublunary versus supralunary cosmology (the fifth element)",
+  "plain_explanation": "Everything below the moon (the sublunary sphere) is made of the four familiar elements -- earth, water, air, fire -- and is subject to generation and decay; everything from the moon outward is made of a fifth, perfect element ('quintessence') that never comes into being or passes away, and whose natural motion is circular rather than the up-and-down motion of the terrestrial elements.",
+  "precise_definition": "The cosmology of On the Heavens, dividing the universe into a corruptible sublunary region composed of the four terrestrial elements (whose natural motions are rectilinear: fire and air upward, earth and water downward, in proportion to relative 'lightness' and 'heaviness') and an eternal, incorruptible supralunary region composed of a fifth element, whose only natural motion is perfect circular rotation, carrying the stars and planets on attached spheres.",
+  "why_it_mattered": "This cosmology dominated Western astronomy and physics until Galileo, and directly generated the later terms 'quintessence' and 'sublunary'; Russell notes its poetic afterlife in Dante's Paradiso.",
+  "historical_origin": "Set out in On the Heavens as the direct continuation of the Physics's argument for an unmoved mover causing circular motion.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "Comets were classified as sublunary (destructible) phenomena on this theory, since they appear and disappear -- a classification later overturned when seventeenth-century astronomers showed comets orbit the sun and are rarely as near as the moon."
+  ],
+  "objections": [
+    "Russell: 'nothing in the visible world is exempt from change and decay'; stars and the sun are born from nebulae and eventually explode or die of cold, so the doctrine of eternal, incorruptible heavenly bodies has had to be abandoned entirely, a view Russell calls 'a product of the pagan worship of sun and moon and planets.'"
+  ],
+  "competing_positions": [
+    "Modern astrophysics, in which all matter, terrestrial and celestial, is subject to the same physical laws and processes of change."
+  ],
+  "influence_on_later_thinkers": "Directly shaped medieval astronomy and cosmology, and the associated vocabulary ('quintessence,' 'sublunary') long outlived the theory itself.",
+  "connection_to_politics_or_religion": "Russell traces the belief in eternal, incorruptible heavenly bodies to the pagan worship of the sun, moon, and planets as gods.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Everything below the moon (the sublunary sphere) is made of the four familiar elements -- earth, water, air, fire -- and is subject to generation and decay; everything from the moon outward is made of a fifth, perfect element ('quintessence') that never comes into being or passes away, and whose natural motion is circular rather than the up-and-down motion of the terrestrial elements."
+    }
+  ]
+}

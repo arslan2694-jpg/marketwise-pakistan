@@ -1,0 +1,31 @@
+{
+  "slug": "the-doctrine-of-double-truth-separating-philosophy-from-theology",
+  "name": "The doctrine of 'double truth': separating philosophy from theology",
+  "plain_explanation": "Bacon held that philosophy should rely only on reason, while accepting orthodox theology as a matter of revelation, not argument -- and even suggested that faith is most praiseworthy precisely when it believes what reason finds most absurd.",
+  "precise_definition": "Russell's account: Bacon 'held that philosophy should be kept separate from theology, not intimately blended with it as in scholasticism... while he thought that reason could show the existence of God, he regarded everything else in theology as known only by revelation... he held that the triumph of faith is greatest when to the unaided reason a dogma appears most absurd... He was thus an advocate of the doctrine of \"double truth,\" that of reason and that of revelation.'",
+  "why_it_mattered": "It shows Bacon straddling an older scholastic-adjacent tradition (the 'double truth' doctrine traces to thirteenth-century Averroists condemned by the Church) even while pioneering a modern, empirical conception of philosophy proper.",
+  "historical_origin": "Traced by Russell to 'certain Averroists in the thirteenth century,' whose version had been condemned by the Church; later used ironically by Bayle in the late seventeenth century.",
+  "associated_philosopher": "Francis Bacon",
+  "examples": [
+    "Bayle's ironic later use of the doctrine: setting out at length everything reason could say against an orthodox belief and then concluding 'so much the greater is the triumph of faith in nevertheless believing'"
+  ],
+  "objections": [
+    "Russell notes: 'How far Bacon's orthodoxy was sincere it is impossible to know'"
+  ],
+  "competing_positions": [
+    "Scholasticism's intimate blending of philosophy and theology"
+  ],
+  "influence_on_later_thinkers": "Anticipates Bayle's ironic deployment of the same 'triumph of faith' logic in the late seventeenth century.",
+  "connection_to_politics_or_religion": "Directly concerns the proper boundary between reasoned philosophy and revealed religion.",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-vii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Francis Bacon",
+      "treatment": "Bacon held that philosophy should rely only on reason, while accepting orthodox theology as a matter of revelation, not argument -- and even suggested that faith is most praiseworthy precisely when it believes what reason finds most absurd."
+    }
+  ]
+}

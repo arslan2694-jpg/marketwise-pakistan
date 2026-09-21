@@ -1,0 +1,29 @@
+{
+  "slug": "induction-by-simple-enumeration-and-its-unreliability",
+  "name": "Induction by simple enumeration and its unreliability",
+  "plain_explanation": "Simple enumeration means concluding a general rule just because every example you have checked so far fits it -- which can go badly wrong, as in Bacon's parable of a Welsh census officer who assumes every villager must be named William Williams after questioning many in a row, only to find one is named John Jones.",
+  "precise_definition": "Russell's illustrative parable: after questioning many householders named William Williams in succession, the census officer concludes 'evidently they are all called William Williams,' but is wrong, since 'there was just one whose name was John Jones... This shows that we may go astray if we trust too implicitly in induction by simple enumeration.'",
+  "why_it_mattered": "It is the central weakness Bacon sought (but failed) to overcome with his more elaborate inductive method, and Russell insists the underlying problem remains genuinely unsolved even in modern science.",
+  "historical_origin": "Bacon's own critique of unsophisticated induction, illustrated by Russell's Welsh-village parable.",
+  "associated_philosopher": "Francis Bacon",
+  "examples": [
+    "The Welsh census-taker parable"
+  ],
+  "objections": [
+    "Bacon's own proposed remedy (lists of instances, 'prerogative instances') does not, in Russell's judgment, fully solve the underlying problem"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "John Stuart Mill's four canons of induction are presented as a later, still only partial, attempt to move beyond simple enumeration.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-vii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Francis Bacon",
+      "treatment": "Simple enumeration means concluding a general rule just because every example you have checked so far fits it -- which can go badly wrong, as in Bacon's parable of a Welsh census officer who assumes every villager must be named William Williams after questioning many in a row, only to find one is named John Jones."
+    }
+  ]
+}

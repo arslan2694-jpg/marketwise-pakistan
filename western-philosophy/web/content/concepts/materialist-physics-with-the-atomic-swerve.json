@@ -1,0 +1,30 @@
+{
+  "slug": "materialist-physics-with-the-atomic-swerve",
+  "name": "Materialist physics with the atomic 'swerve'",
+  "plain_explanation": "Like Democritus, Epicurus thought everything is made of tiny indivisible atoms moving through empty space. But unlike Democritus, who thought atomic motion was strictly determined by natural law, Epicurus proposed that atoms occasionally swerve slightly and unpredictably, which lets new combinations of atoms form and, crucially, preserves room for free will.",
+  "precise_definition": "Epicurus's physical theory that the world consists of falling atoms and void; atoms, which fall downward in an absolute (not merely earth-directed) sense, occasionally undergo a slight, uncaused 'swerve' from their straight path, producing collisions and (Epicurus hoped) making room for undetermined human choice within an otherwise mechanistic universe.",
+  "why_it_mattered": "It lets Epicurus be a thoroughgoing materialist about the physical world while still denying strict determinism, which he needed in order to attack the religious/astrological doctrine of Necessity as forcefully as he attacked belief in providential gods.",
+  "historical_origin": "A modification of Democritus's atomism, motivated by Epicurus's wish to deny both religious Providence and rigid cosmic Necessity.",
+  "associated_philosopher": "Epicurus",
+  "examples": [
+    "Russell's comparison of the atomic swerve to Eddington's interpretation of the principle of quantum indeterminacy"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Democritus's fully deterministic atomism",
+    "Stoic cosmic determinism (Ch. XXVIII)"
+  ],
+  "influence_on_later_thinkers": "Adopted with fidelity by Lucretius two centuries later; noted by Russell as anticipating, in spirit, modern physical indeterminacy.",
+  "connection_to_politics_or_religion": "Designed specifically to undercut the religious conception of Necessity, which Russell notes was, in Greece, religious in origin.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxvii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Epicurus",
+      "treatment": "Like Democritus, Epicurus thought everything is made of tiny indivisible atoms moving through empty space. But unlike Democritus, who thought atomic motion was strictly determined by natural law, Epicurus proposed that atoms occasionally swerve slightly and unpredictably, which lets new combinations of atoms form and, crucially, preserves room for free will."
+    }
+  ]
+}

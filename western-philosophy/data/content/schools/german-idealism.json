@@ -1,0 +1,21 @@
+{
+  "slug": "german-idealism",
+  "name": "German idealism",
+  "period": "Modern",
+  "doctrines": [
+    "The Absolute",
+    "The dialectic (thesis, antithesis, synthesis)",
+    "Spirit's historical progress through nations toward freedom",
+    "Hegel's glorification of the State"
+  ],
+  "philosophers": [
+    "georg-wilhelm-friedrich-hegel"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-xviii",
+    "book-3-ch-xx",
+    "book-3-ch-xxii"
+  ]
+}

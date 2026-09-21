@@ -1,0 +1,29 @@
+{
+  "slug": "the-unmoved-mover-and-circular-motion",
+  "name": "The unmoved mover and circular motion",
+  "plain_explanation": "The Physics ends by arguing that there must be a single unmoved mover, without parts or size, located at the outer edge of the universe, that directly causes the perfect, continuous, circular motion of the outermost heavenly sphere -- circular motion being, for Aristotle, the one kind of motion capable of continuing forever.",
+  "precise_definition": "Aristotle's conclusion (cross-referenced by Russell to the parallel argument in the Metaphysics) that there exists exactly one unmoved mover, lacking parts or magnitude and situated at the world's circumference, which directly causes the primary and only continuous, infinite kind of motion: uniform circular motion.",
+  "why_it_mattered": "This argument forms the hinge between the Physics and On the Heavens, and supplied medieval theology with philosophical grounds for identifying the unmoved mover with God as the ultimate cause of cosmic motion.",
+  "historical_origin": "Developed at the close of the Physics; treated by Russell as continuous with the parallel argument already discussed in connection with the Metaphysics.",
+  "associated_philosopher": "Aristotle",
+  "examples": [],
+  "objections": [
+    "Russell later notes this whole framework is incompatible with Newton's First Law of Motion, since circular motion, involving continual change of direction, in fact requires a continually applied force (as in gravitation), rather than being 'natural' and self-sustaining as Aristotle assumed."
+  ],
+  "competing_positions": [
+    "Newton's law of inertia and law of gravitation, which explain circular motion as requiring a centripetal force rather than being an uncaused 'natural' motion."
+  ],
+  "influence_on_later_thinkers": "Provided a key philosophical resource for medieval natural theology's arguments for God's existence as the first cause of motion.",
+  "connection_to_politics_or_religion": "Later identified by Christian philosophers with God as the ultimate cause of cosmic motion.",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "The Physics ends by arguing that there must be a single unmoved mover, without parts or size, located at the outer edge of the universe, that directly causes the perfect, continuous, circular motion of the outermost heavenly sphere -- circular motion being, for Aristotle, the one kind of motion capable of continuing forever."
+    }
+  ]
+}

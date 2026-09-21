@@ -1,0 +1,20 @@
+{
+  "slug": "sophists",
+  "name": "Sophists",
+  "period": "Ancient",
+  "doctrines": [
+    "The Socratic Problem",
+    "Socratic dialectic (elenchus)",
+    "Socratic ignorance ('I know that I know nothing')",
+    "Virtue as knowledge",
+    "The limits of the dialectic method"
+  ],
+  "philosophers": [
+    "socrates"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-xi"
+  ]
+}

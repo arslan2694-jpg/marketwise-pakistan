@@ -1,0 +1,30 @@
+{
+  "slug": "the-argument-from-thought-and-language-to-the-existence-of-their-objects",
+  "name": "The argument from thought and language to the existence of their objects",
+  "plain_explanation": "Parmenides argued that since you cannot think or speak about nothing, whatever you think or speak about must in some sense exist -- and since you can think or speak of the same thing at different times, it must exist at all those times, which rules out anything ever really coming into being or ceasing to be.",
+  "precise_definition": "Parmenides' inference that 'the thing that can be thought and that for the sake of which the thought exists is the same', so that thought and language necessarily have objects existing independently of the act of thinking or speaking, and since such objects can be referred to at any time, they must persist unchangingly through all time.",
+  "why_it_mattered": "Russell calls this 'the first example in philosophy of an argument from thought and language to the world at large', a pattern of reasoning he says recurs throughout the history of metaphysics, and he devotes much of the chapter to showing exactly where and why it fails (the false assumption that words have fixed, constant meanings).",
+  "historical_origin": "Stated in the surviving fragments of Parmenides' 'way of truth'.",
+  "associated_philosopher": "Parmenides",
+  "examples": [
+    "'Thou canst not know what is not... for it is the same thing that can be thought and that can be.'",
+    "Russell's own worked example: what it means to talk about 'George Washington' long after his death, versus talking about a fictional figure like 'Hamlet' or an imagined species like 'unicorns'"
+  ],
+  "objections": [
+    "Russell's rebuttal: words do not have a wholly fixed meaning across speakers or times (what 'George Washington' means to Washington himself, to his contemporaries, and to us today all differ), so the fact that we can still meaningfully use his name today does not show he still exists"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Russell notes this style of argument 'is to be found in most subsequent metaphysicians down to and including Hegel'.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-v"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Parmenides",
+      "treatment": "Parmenides argued that since you cannot think or speak about nothing, whatever you think or speak about must in some sense exist -- and since you can think or speak of the same thing at different times, it must exist at all those times, which rules out anything ever really coming into being or ceasing to be."
+    }
+  ]
+}

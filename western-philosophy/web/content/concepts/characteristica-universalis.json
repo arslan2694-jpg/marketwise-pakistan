@@ -1,0 +1,29 @@
+{
+  "slug": "characteristica-universalis",
+  "name": "Characteristica Universalis",
+  "plain_explanation": "Leibniz dreamed of inventing a kind of universal symbolic logic that would let people resolve any dispute, even in philosophy or morals, simply by calculating - 'Let us calculate' instead of arguing.",
+  "precise_definition": "A hoped-for generalized symbolic calculus that would reduce reasoning in metaphysics and morals to the same kind of rigor as geometry and algebra, allowing disputes to be settled by calculation rather than disputation.",
+  "why_it_mattered": "It reflects Leibniz's foundational belief in the power of logic, and anticipates, however imperfectly, the later development of mathematical logic.",
+  "historical_origin": "Leibniz's own aspiration, described in his unpublished logical writings.",
+  "associated_philosopher": "Gottfried Wilhelm Leibniz",
+  "examples": [
+    "Leibniz's quoted wish that philosophers with disputes might simply 'take their pencils in their hands, sit down to their slates,' and calculate."
+  ],
+  "objections": [
+    "Leibniz abstained from publishing his mathematical logic because he kept finding what he believed must be errors in Aristotle's theory of the syllogism, which out of respect for Aristotle he assumed must be his own mistakes."
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Russell says that had Leibniz published this work, he would have been the founder of mathematical logic a century and a half before it actually emerged.",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Gottfried Wilhelm Leibniz",
+      "treatment": "Leibniz dreamed of inventing a kind of universal symbolic logic that would let people resolve any dispute, even in philosophy or morals, simply by calculating - 'Let us calculate' instead of arguing."
+    }
+  ]
+}

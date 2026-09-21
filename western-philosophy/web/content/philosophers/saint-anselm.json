@@ -1,0 +1,62 @@
+{
+  "slug": "saint-anselm",
+  "name": "Saint Anselm",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Early scholasticism (its eleventh-century beginnings)",
+  "major_ideas": [
+    "Anselm's ontological argument"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Italian monk at Bec (like Lanfranc) and later archbishop of Canterbury (1093-1109); inventor of the 'ontological argument' for God's existence, and otherwise a Platonist and Augustinian who held reason subordinate to faith ('I believe in order to understand'). Credited as the inventor of the ontological argument for God's existence, later revived by Descartes and restated more rigorously by Leibniz.",
+  "central_doctrines": "Anselm's ontological argument: An a priori proof of God's existence purporting to derive existence from the very concept or definition of God as the greatest conceivable being, without appeal to observation or revelation.",
+  "key_arguments": [
+    "The ontological argument for God's existence"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "plotinus",
+    "saint-augustine",
+    "berengar-of-tours",
+    "gerbert-pope-sylvester-ii"
+  ],
+  "successors": [
+    "rene-descartes",
+    "gottfried-wilhelm-leibniz",
+    "immanuel-kant",
+    "gerbert-pope-sylvester-ii",
+    "roscelin",
+    "thomas-aquinas",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "thomas-aquinas",
+      "about": "Anselm's ontological argument"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell gives the reform movement a double reading: he takes seriously its genuine moral motivation (disgust at simony and clerical immorality) while insisting, just as strongly, on an underlying, initially unconscious but increasingly open power motive -- the separation and elevation of clergy as a caste, which made an eventual, structurally inevitable conflict with the Emperor. He treats the campaign against clerical marriage with a certain dry skepticism, noting that reformers habitually called married priests' wives 'concubines' when 'marriage' would have been more accurate, and stressing the property-related, non-doctrinal motives behind enforced celibacy. On Gregory VII, Russell is respectful of the sincerity of his self-conception (as the mouthpiece of Saint Peter, entitled to depose an immoral Emperor) while noting drily that 'on a mundane calculation' this self-confidence 'was not justified,' and that Gregory's apparent triumph at Canossa was in fact 'illusory' -- he had, in Russell's phrase, been 'caught out by the rules of his own theology.' On Anselm's ontological argument, Russell is notably even-handed and philosophically engaged for a work of history, treating it as a serious and historically influential piece of reasoning worth respect 'whether valid or not,' rather than dismissing it as a medieval curiosity.",
+  "why_this_matters": "Eleventh-century Church reform combined genuine moral concern (over simony and clerical immorality) with an increasingly explicit political goal: separating the clergy from lay control and increasing clerical power, which made conflict with the Emperor structurally inevitable. Simony (the sale of ecclesiastical office) and clerical marriage ('concubinage') were the two chief targets of reform, both attacked on moral grounds but also because they tied the Church to secular and hereditary interests.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-ix",
+      "role": "Italian monk at Bec (like Lanfranc) and later archbishop of Canterbury (1093-1109); inventor of the 'ontological argument' for God's existence, and otherwise a Platonist and Augustinian who held reason subordinate to faith ('I believe in order to understand')."
+    },
+    {
+      "chapter_id": "book-3-ch-xi",
+      "role": "Credited as the inventor of the ontological argument for God's existence, later revived by Descartes and restated more rigorously by Leibniz."
+    }
+  ],
+  "extraction_confidence": "high"
+}

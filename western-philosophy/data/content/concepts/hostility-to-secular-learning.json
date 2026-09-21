@@ -1,0 +1,30 @@
+{
+  "slug": "hostility-to-secular-learning",
+  "name": "Hostility to secular learning",
+  "plain_explanation": "Many early monks and even Pope Gregory himself regarded pagan or secular learning as spiritually dangerous, preferring devotional reading to grammar, literature, or philosophy.",
+  "precise_definition": "The attitude, exemplified by Gregory's rebuke of the bishop of Vienne for teaching grammar ('the praises of Christ cannot find room in one mouth with the praises of Jupiter'), that pagan secular learning is incompatible with, or dangerous to, Christian devotion.",
+  "why_it_mattered": "This hostility, Russell notes, persisted in the Church for at least four centuries after Gregory, until the time of Gerbert (Pope Sylvester II), and only gave way to a friendlier attitude toward learning from the eleventh century onward.",
+  "historical_origin": "Present already in early monasticism (most monks 'never read anything except what religion prescribed'), and voiced explicitly by Gregory in his letter to Desiderius, bishop of Vienne.",
+  "associated_philosopher": "Gregory the Great",
+  "examples": [
+    "Saint Jerome's regret at having brought his library with him into the desert, which he came to consider a sin",
+    "Gregory's letter rebuking Desiderius for expounding grammar"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Later Benedictine scholarly culture, which came to preserve and revive learning despite the Order's originally devotional emphasis"
+  ],
+  "influence_on_later_thinkers": "Contributed, in Russell's account, to the intellectual poverty of the period, only reversed from the eleventh century onward.",
+  "connection_to_politics_or_religion": "Directly religious, reflecting a broader ascetic suspicion of worldly, non-devotional pursuits.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-vi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Gregory the Great",
+      "treatment": "Many early monks and even Pope Gregory himself regarded pagan or secular learning as spiritually dangerous, preferring devotional reading to grammar, literature, or philosophy."
+    }
+  ]
+}

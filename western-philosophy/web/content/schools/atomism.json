@@ -1,0 +1,19 @@
+{
+  "slug": "atomism",
+  "name": "Atomism",
+  "period": "Ancient",
+  "doctrines": [
+    "The void as a response to Parmenides",
+    "Perception and the primary/secondary quality distinction"
+  ],
+  "philosophers": [
+    "democritus",
+    "leucippus"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-ix",
+    "book-1-ch-xxvii"
+  ]
+}

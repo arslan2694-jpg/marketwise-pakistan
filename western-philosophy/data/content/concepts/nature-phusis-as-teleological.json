@@ -1,0 +1,31 @@
+{
+  "slug": "nature-phusis-as-teleological",
+  "name": "Nature (phusis) as teleological",
+  "plain_explanation": "For Aristotle, the 'nature' of a thing is its end or purpose -- what it is 'for,' the way it is the nature of an acorn to grow into an oak -- and things that have an internal source of their own motion or growth (animals, plants, the elements) are said to exist 'by nature.'",
+  "precise_definition": "Aristotle's technical concept of phusis as a thing's end (that for the sake of which it exists), applied to whatever possesses an internal principle of motion or rest (broadly construed to include qualitative and quantitative change, not just locomotion), with a thing being 'more what it is' the closer it approaches its fulfilled, actualized form.",
+  "why_it_mattered": "Russell judges this teleological conception, though well suited to explaining biological growth, to have become 'a great obstacle to the progress of science, and a source of much that was bad in ethics,' since it encourages treating 'natural' as automatically good and 'unnatural' as automatically blameworthy.",
+  "historical_origin": "Suggested, Russell notes, by biological observation -- the acorn is 'potentially' an oak.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "'The \"nature\" of a thing, Aristotle says, is its end, that for the sake of which it exists.'"
+  ],
+  "objections": [
+    "Russell notes this teleological framing directly gave rise to a moralized use of 'unnatural' to express blame, a usage he treats as still philosophically and ethically harmful in his own time."
+  ],
+  "competing_positions": [
+    "Empedocles's view (rejected by Aristotle) that nature works of necessity, without purpose."
+  ],
+  "influence_on_later_thinkers": "Persisted in ethical argument (appeals to what is 'natural' or 'unnatural') long after being abandoned in physics.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "For Aristotle, the 'nature' of a thing is its end or purpose -- what it is 'for,' the way it is the nature of an acorn to grow into an oak -- and things that have an internal source of their own motion or growth (animals, plants, the elements) are said to exist 'by nature.'"
+    }
+  ]
+}

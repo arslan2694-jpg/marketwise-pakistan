@@ -18,6 +18,16 @@ export async function generateMetadata({
   return { title: p?.name ?? "Philosopher" };
 }
 
+function Field({ label, value }: { label: string; value?: string }) {
+  if (!value) return null;
+  return (
+    <div className="mb-3">
+      <h3 className="mb-1 text-[12.5px] font-semibold text-ink-2">{label}</h3>
+      <p className="text-[14px] text-ink-2">{value}</p>
+    </div>
+  );
+}
+
 export default async function PhilosopherPage({
   params,
 }: {
@@ -26,14 +36,6 @@ export default async function PhilosopherPage({
   const { slug } = await params;
   const p = getPhilosopher(slug);
   if (!p) notFound();
-
-  const Field = ({ label, value }: { label: string; value?: string }) =>
-    value ? (
-      <div className="mb-3">
-        <h3 className="mb-1 text-[12.5px] font-semibold text-ink-2">{label}</h3>
-        <p className="text-[14px] text-ink-2">{value}</p>
-      </div>
-    ) : null;
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-8">

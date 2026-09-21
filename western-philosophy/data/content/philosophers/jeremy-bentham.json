@@ -1,0 +1,85 @@
+{
+  "slug": "jeremy-bentham",
+  "name": "Jeremy Bentham",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Philosophical Radicalism (Benthamite Utilitarianism)",
+  "major_ideas": [
+    "Utilitarianism and the philosophical radicals",
+    "The greatest-happiness principle (Utilitarianism)",
+    "Bentham's rejection of natural rights and of liberty as a legislative aim",
+    "The lacuna between individual self-interest and the general happiness"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Cited, with 'the utilitarians,' as interpreting justice as equality: when interests clash, the right course maximizes total happiness regardless of who enjoys it, in contrast to Aristotle's proportional conception of justice. Mentioned as Locke's ethical heir, who replaced Locke's theological sanction (heaven and hell) for virtue with the secular mechanism of laws harmonizing private and public interest. Named as a direct heir of Locke's tradition, part of the 'hard-headed' line of liberalism that Russell schematically traces (via Ricardo and Marx) toward Stalin. Described as the recognized chief of the English philosophical radicals, who brought the French revolutionary doctrines to England in a less enthusiastic, more precise form, championing 'the greatest happiness of the greatest number' while dismissing the doctrine of the rights of man as 'nonsense.' Presented as the shy, prolific founder of Philosophical Radicalism, who built his system on the association principle (psychological determinism) and the greatest-happiness principle, applied it vigorously to law and politics, rejected natural rights as 'nonsense on stilts,' and left an unexamined gap between individual self-interest and the general happiness.",
+  "central_doctrines": "Utilitarianism and the philosophical radicals: The ethical and political doctrine, developed by Bentham and the English philosophical radicals (including James and John Stuart Mill and, more loosely, Malthus), that the rightness of actions and institutions is to be judged by their tendency to promote the greatest happiness of the greatest number, combined with a rejection of the doctrine of natural or inalienable rights. The greatest-happiness principle (Utilitarianism): Bentham's ethical doctrine, dating in substance to Hutcheson (1725) and already implicit in Locke, that goodness and badness of states of affairs are functions solely of the balance of pleasure over pain they contain, and that this balance, summed over all affected persons, is the sole criterion of morals and legislation. The lacuna between individual self-interest and the general happiness: The unresolved tension in Bentham's system between his psychological claim (each individual always pursues his own perceived happiness) and his ethical claim (the legislator's task is to secure the general happiness), which Bentham's own instinctive benevolence concealed from him rather than resolved.",
+  "key_arguments": [
+    "Bentham's argument for the greatest-happiness principle as the summum bonum"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "epicurus",
+    "john-locke",
+    "bertrand-russell",
+    "david-hartley"
+  ],
+  "successors": [
+    "friedrich-nietzsche",
+    "philo",
+    "karl-marx",
+    "david-ricardo",
+    "thomas-malthus",
+    "charles-darwin",
+    "bertrand-russell",
+    "thomas-hodgskin",
+    "robert-owen"
+  ],
+  "disagreements": [
+    {
+      "with": "condorcet",
+      "about": "Utilitarianism and the philosophical radicals"
+    },
+    {
+      "with": "friedrich-nietzsche",
+      "about": "The greatest-happiness principle (Utilitarianism)"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "The greatest-happiness principle (Utilitarianism)"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell treats the Philosophical Radicals as more politically than philosophically important, crediting Bentham's personal shyness, his fusion of the association principle with the greatest-happiness principle, and his vigorous practical application of an old doctrine (utilitarianism, already found in Hutcheson and Locke) to law reform. He is respectful of Bentham's rationalism, egalitarianism, and opposition to imperialism and tradition-for-its-own-sake, but identifies a serious 'lacuna' in his psychological egoism, and is sharply critical of John Stuart Mill's attempted logical proof of utilitarianism, which he calls 'so fallacious that it is hard to understand how he can have thought it valid.' He closes by tracing how the same Radical soil produced both Darwinism and Socialism, and frames the ethical disagreement between utilitarian democrats and Nietzschean elitists as ultimately political rather than resolvable by theoretical argument alone.",
+  "why_this_matters": "Bentham built his philosophy on two principles: the association of ideas (a deterministic psychology) and the greatest-happiness principle (an ethical criterion). Bentham rejected natural rights as 'nonsense on stilts' and listed civil law's aims as subsistence, abundance, security, and equality -- pointedly omitting liberty.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xx",
+      "role": "Cited, with 'the utilitarians,' as interpreting justice as equality: when interests clash, the right course maximizes total happiness regardless of who enjoys it, in contrast to Aristotle's proportional conception of justice."
+    },
+    {
+      "chapter_id": "book-3-ch-xiii",
+      "role": "Mentioned as Locke's ethical heir, who replaced Locke's theological sanction (heaven and hell) for virtue with the secular mechanism of laws harmonizing private and public interest."
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Named as a direct heir of Locke's tradition, part of the 'hard-headed' line of liberalism that Russell schematically traces (via Ricardo and Marx) toward Stalin."
+    },
+    {
+      "chapter_id": "book-3-ch-xxi",
+      "role": "Described as the recognized chief of the English philosophical radicals, who brought the French revolutionary doctrines to England in a less enthusiastic, more precise form, championing 'the greatest happiness of the greatest number' while dismissing the doctrine of the rights of man as 'nonsense.'"
+    },
+    {
+      "chapter_id": "book-3-ch-xxvi",
+      "role": "Presented as the shy, prolific founder of Philosophical Radicalism, who built his system on the association principle (psychological determinism) and the greatest-happiness principle, applied it vigorously to law and politics, rejected natural rights as 'nonsense on stilts,' and left an unexamined gap between individual self-interest and the general happiness."
+    }
+  ],
+  "extraction_confidence": "high"
+}

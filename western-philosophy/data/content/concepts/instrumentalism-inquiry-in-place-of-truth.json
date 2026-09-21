@@ -1,0 +1,32 @@
+{
+  "slug": "instrumentalism-inquiry-in-place-of-truth",
+  "name": "Instrumentalism: 'inquiry' in place of 'truth'",
+  "plain_explanation": "Dewey doesn't think of truth as a fixed, final thing waiting to be discovered, like an eternal fact. Instead he focuses on 'inquiry' -- the active process by which an organism (a person, a scientist) works to turn a confusing, unsettled situation into an orderly, resolved one.",
+  "precise_definition": "Dewey's substitution of 'inquiry' for 'truth' as logic's fundamental concept; he defines inquiry as 'the controlled or directed transformation of an indeterminate situation into one that is so determinate in its constituent distinctions and relations as to convert the elements of the original situation into a unified whole,' concerned with 'objective transformations of objective subject-matter.'",
+  "why_it_mattered": "It is, in Russell's words, 'his most distinctive philosophical doctrine,' rejecting the traditional view of truth as static, final, perfect and eternal (on the model of the multiplication table) in favor of a biological, evolutionary conception of thought.",
+  "historical_origin": "Developed across Dewey's philosophical career; contrasted by Russell with the mathematics-linked notion of truth descending from Pythagoras and Plato.",
+  "associated_philosopher": "John Dewey",
+  "examples": [
+    "Reconnaissance before a battle, where a general adjusts his own forces to the enemy's dispositions, exemplifies 'inquiry' as mainly organism-side adjustment."
+  ],
+  "objections": [
+    "Russell: Dewey's definition, taken literally, would also cover a drill-sergeant organizing recruits or a bricklayer arranging bricks, which Dewey would not call 'inquiry' -- so an unstated element is missing from the definition.",
+    "Russell: arranging a shuffled pack of cards into order and then treating that as 'the order resulting from inquiry' (rather than discovering the original order) only seems legitimate on an unacknowledged Hegelian assumption that reality is inherently orderly beneath a confused appearance."
+  ],
+  "competing_positions": [
+    "The traditional view that inquiry is distinguished by its purpose of ascertaining truth -- a view unavailable to Dewey, who defines truth in terms of inquiry rather than the reverse"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "Russell links the doctrine's flavor of active reshaping of the world to the industrial, technological confidence of the modern age.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Dewey",
+      "treatment": "Dewey doesn't think of truth as a fixed, final thing waiting to be discovered, like an eternal fact. Instead he focuses on 'inquiry' -- the active process by which an organism (a person, a scientist) works to turn a confusing, unsettled situation into an orderly, resolved one."
+    }
+  ]
+}

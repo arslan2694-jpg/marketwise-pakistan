@@ -1,0 +1,34 @@
+{
+  "slug": "monads",
+  "name": "Monads",
+  "plain_explanation": "Leibniz believed the universe is made up of an infinite number of simple, non-physical, soul-like units called monads, rather than physical matter; even what looks like solid matter is really a colony of these mind-like units.",
+  "precise_definition": "Simple, unextended substances, each essentially a soul with perceptions of varying clarity, that make up all of reality; Leibniz denied that extension could be an attribute of a true substance because extension implies plurality, so genuine substances must be unextended and therefore mental.",
+  "why_it_mattered": "It is Leibniz's solution to the problem of substance: rather than three substances (Descartes) or one (Spinoza), he posits infinitely many, each a distinct point of view on the universe.",
+  "historical_origin": "Developed in the Monadology and the Principles of Nature and of Grace, written for royal patrons.",
+  "associated_philosopher": "Gottfried Wilhelm Leibniz",
+  "examples": [
+    "A human body is composed entirely of monads, each a soul, with one 'dominant monad' constituting what we call the person's mind.",
+    "No two monads are exactly alike (the principle of the identity of indiscernibles)."
+  ],
+  "objections": [
+    "Russell says the doctrine that monads are 'windowless' creates the puzzle of how any monad could know there are others at all - what looks like mirroring the universe could simply be a private dream.",
+    "Leibniz is 'guilty of a special inconsistency' in combining subject-predicate logic (which implies monism) with a pluralism of many monads."
+  ],
+  "competing_positions": [
+    "Descartes's three substances",
+    "Spinoza's single substance"
+  ],
+  "influence_on_later_thinkers": "Russell says Leibniz's two kinds of space - subjective (within each monad's perception) and objective (the arrangement of viewpoints) - remain useful for relating perception to physics.",
+  "connection_to_politics_or_religion": "The 'dominant monad' explains, for Leibniz, what common sense calls the will's control over the body.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Gottfried Wilhelm Leibniz",
+      "treatment": "Leibniz believed the universe is made up of an infinite number of simple, non-physical, soul-like units called monads, rather than physical matter; even what looks like solid matter is really a colony of these mind-like units."
+    }
+  ]
+}

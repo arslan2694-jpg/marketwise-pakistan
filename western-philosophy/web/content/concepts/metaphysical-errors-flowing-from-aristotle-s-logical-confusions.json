@@ -1,0 +1,27 @@
+{
+  "slug": "metaphysical-errors-flowing-from-aristotle-s-logical-confusions",
+  "name": "Metaphysical errors flowing from Aristotle's logical confusions",
+  "plain_explanation": "Because Aristotle treats 'all men' as though it names a single subject, the way 'Socrates' names one, he ends up thinking a whole species like 'man' can itself be a kind of substance, and this same confusion between particulars and universals later produces the mistaken idea that a class with exactly one member is identical to that member.",
+  "precise_definition": "Russell's diagnosis that Aristotle's failure to distinguish particulars from universals produced (a) the claim, in the Categories, that a species or genus can be called a 'substance' in a 'secondary' sense, and (b) the invalid inference-pattern that a predicate of a predicate (e.g., 'human' predicated of 'Greek,' which is predicated of 'Socrates') can simply be transferred to the original subject, blurring the particular/universal distinction with, Russell says, 'disastrous consequences to philosophy.'",
+  "why_it_mattered": "This is Russell's central thesis for why Aristotelian logic is not merely technically flawed but philosophically damaging: formal imprecision about subjects and predicates directly generated centuries of confused metaphysics about universals, unity, and number.",
+  "historical_origin": "Traced by Russell to Aristotle's own Categories, worsened by Porphyry's less cautious commentary.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "'If I say \"Socrates is Greek, all Greeks are human,\" Aristotle thinks that \"human\" is a predicate of \"Greek\"... and obviously \"human\" is a predicate of \"Socrates\"' -- but, Russell argues, 'human' is not really a predicate of 'Greek' at all in the same sense."
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Russell says this 'made it impossible to have a correct theory of the number one, and led to endless bad metaphysics about unity' (via the confusion of a one-member class with its sole member).",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Because Aristotle treats 'all men' as though it names a single subject, the way 'Socrates' names one, he ends up thinking a whole species like 'man' can itself be a kind of substance, and this same confusion between particulars and universals later produces the mistaken idea that a class with exactly one member is identical to that member."
+    }
+  ]
+}

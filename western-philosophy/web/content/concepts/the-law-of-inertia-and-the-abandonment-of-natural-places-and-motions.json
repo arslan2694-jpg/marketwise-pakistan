@@ -1,0 +1,30 @@
+{
+  "slug": "the-law-of-inertia-and-the-abandonment-of-natural-places-and-motions",
+  "name": "The law of inertia and the abandonment of 'natural' places and motions",
+  "plain_explanation": "Before Galileo, people thought heavenly bodies naturally moved in circles and earthly objects naturally moved in straight lines but would gradually stop unless kept moving. Galileo showed instead that any moving body, left alone, keeps moving in a straight line at constant speed forever; any change in speed or direction needs a 'force' to explain it. This is the same principle on earth and in the heavens.",
+  "precise_definition": "Galileo's principle, later codified by Newton as the first law of motion: 'every body, if let alone, will continue to move in a straight line with uniform velocity; any change, either in the rapidity or the direction of motion, requires to be explained as due to the action of some \"force.\"' Acceleration -- change of velocity in magnitude or direction -- becomes the central concept of dynamics, replacing Aristotle's distinction between 'natural' circular celestial motion and 'natural' rectilinear terrestrial motion that ceases without continued impulse.",
+  "why_it_mattered": "It unified terrestrial and celestial physics under one law, explained puzzles the Copernican system could not (such as why a dropped stone falls at the foot of a tower rather than to its west, despite the earth's rotation), and became the foundation of Newton's synthesis.",
+  "historical_origin": "First established by Galileo; enunciated formally by Newton as the first law of motion.",
+  "associated_philosopher": "Galileo Galilei",
+  "examples": [
+    "A dropped stone retains the rotational velocity of the tower it falls from, so it lands at the tower's foot, not to the west",
+    "The law of falling bodies: acceleration is constant (about 32 feet per second per second) and the same for heavy and light bodies alike"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Aristotle's view that circular motion is 'natural' to heavenly bodies and rectilinear motion 'natural' but self-exhausting for terrestrial bodies"
+  ],
+  "influence_on_later_thinkers": "Directly incorporated by Newton as the first law of motion, and foundational to Descartes's mechanistic physics (Chapter IX), which likewise assumes uniform rectilinear motion absent external impact.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-vi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Galileo Galilei",
+      "treatment": "Before Galileo, people thought heavenly bodies naturally moved in circles and earthly objects naturally moved in straight lines but would gradually stop unless kept moving. Galileo showed instead that any moving body, left alone, keeps moving in a straight line at constant speed forever; any change in speed or direction needs a 'force' to explain it. This is the same principle on earth and in the heavens."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "aristarchus-s-heliocentric-hypothesis",
+  "name": "Aristarchus's heliocentric hypothesis",
+  "plain_explanation": "Around the early third century BC, Aristarchus of Samos proposed that the sun stands still at the center while the earth and all the other planets revolve around it, and that the earth also spins on its own axis once a day -- essentially the full Copernican theory, roughly eighteen hundred years before Copernicus, though it was rejected by nearly all other ancient astronomers.",
+  "precise_definition": "The hypothesis, attested chiefly by Archimedes's letter to King Gelon and by Plutarch, Aëtius, and Sextus Empiricus, that the fixed stars and the sun remain unmoved while the earth revolves about the sun in a circular orbit and simultaneously rotates on its own axis; adopted only tentatively, or perhaps only as a calculating device, by Aristarchus himself in his sole surviving work, but adopted as definite fact by his successor Seleucus around 150 BC.",
+  "why_it_mattered": "It shows that the essential Copernican insight was available to ancient science far earlier than commonly assumed, and its near-total rejection by later antiquity (mainly due to Hipparchus) illustrates how observational sophistication and theoretical correctness do not automatically go together.",
+  "historical_origin": "Advanced by Aristarchus of Samos (ca. 310-230 BC), roughly twenty-five years older than Archimedes.",
+  "associated_philosopher": "Aristarchus of Samos",
+  "examples": [
+    "Archimedes reports Aristarchus's hypotheses directly: 'the fixed stars and the sun remain unmoved, that the earth revolves about the sun in the circumference of a circle, the sun lying in the middle of the orbit.'",
+    "Cleanthes reportedly thought Aristarchus should be indicted for impiety for 'putting in motion the Hearth of the Universe' (the earth) -- evidence, Russell notes, of the religious pressure that may have made Aristarchus cautious about stating the hypothesis as more than tentative."
+  ],
+  "objections": [
+    "Aristarchus's only surviving work, On the Sizes and Distances of the Sun and the Moon, uses geocentric assumptions throughout; Sir Thomas Heath, whom Russell follows, suggests this may reflect either calculational convenience (the choice of frame makes no difference to that book's specific problems) or that Aristarchus arrived at the heliocentric view only after writing it."
+  ],
+  "competing_positions": [
+    "Hipparchus's later, more influential geocentric epicycle theory, which prevailed over Aristarchus's hypothesis for the remainder of antiquity and the Middle Ages."
+  ],
+  "influence_on_later_thinkers": "Copernicus knew of Aristarchus's hypothesis and 'was encouraged by finding ancient authority for his innovation,' though Russell notes its effect on the intervening centuries of astronomy was 'practically nil.'",
+  "connection_to_politics_or_religion": "Cleanthes's threatened charge of impiety against Aristarchus shows heliocentrism could be seen as religiously transgressive in antiquity, just as it would be again for Galileo.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristarchus of Samos",
+      "treatment": "Around the early third century BC, Aristarchus of Samos proposed that the sun stands still at the center while the earth and all the other planets revolve around it, and that the earth also spins on its own axis once a day -- essentially the full Copernican theory, roughly eighteen hundred years before Copernicus, though it was rejected by nearly all other ancient astronomers."
+    }
+  ]
+}

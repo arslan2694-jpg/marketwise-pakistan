@@ -140,3 +140,5 @@ are discussed), use an empty array/string rather than inventing content.
 - `essay_prompts`: 1-3.
 
 Quiz `correct_index` must be a valid index into `options`. Every `source_page` must fall within `[start_page, end_page]` for this chapter (or be omitted if not attributable to one page).
+
+**Page numbering warning**: `start_page`/`end_page` are the PDF's own page indices, given to you explicitly in the task for each chapter. The raw chapter `.txt` file may ALSO contain a different printed page number as a footer marker somewhere in the text (e.g. a lone `-259-` on its own line) — this is the original 1945 book's print pagination, which is NOT the same numbering and is typically offset from the PDF index by anywhere from 0 to +20 depending which part of the book you're in. Never use a footer marker found inside the raw text as a `source_page` value. Always use a page number of your own choosing that is directly inside the given `[start_page, end_page]` range (the range *is* correct for the PDF; you do not need to and should not try to locate a more "precise" page via any number printed inside the text).

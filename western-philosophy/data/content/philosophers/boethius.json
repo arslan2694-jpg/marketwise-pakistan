@@ -1,0 +1,54 @@
+{
+  "slug": "boethius",
+  "name": "Boethius",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Nestorianism",
+  "major_ideas": [
+    "The privative theory of evil",
+    "Blessedness identified with divinity (Boethius's pantheistic strand)",
+    "Boethius's philosophic calm amid an age of superstition"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The chapter's primary philosophical subject: a Roman senator executed by Theodoric in 524, whose Consolation of Philosophy, written in prison, Russell treats as purely Platonic in content though later read throughout the Middle Ages as an orthodox Christian work, and praises as a singular achievement of calm, rational philosophy unmatched, in Russell's judgment, until after Newton.",
+  "central_doctrines": "The privative theory of evil: The doctrine that evil has no positive existence but is merely a privation (deficiency) of good; since God, who is the chiefest good, can do everything, and God cannot do evil, evil must be nothing, i.e., not a positive reality God fails or refuses to produce. Blessedness identified with divinity (Boethius's pantheistic strand): The doctrine, in the Consolation, that blessedness and God are both the 'chiefest good' and are therefore identical, so that 'men are made happy by the obtaining of divinity' and 'every one that is happy is a god,' though by nature there is only one God and others are gods only 'by participation.' Boethius's philosophic calm amid an age of superstition: The distinctive tone Russell identifies in the Consolation: 'perfect philosophic calm,' free of the superstition, sin-obsession, and 'excessive straining after the unattainable' typical of the age, more reminiscent of Plato than of Plotinus.",
+  "key_arguments": [
+    "The privation argument: evil as nothing",
+    "Virtue as strength, wickedness as weakness"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "socrates",
+    "plato",
+    "aristotle",
+    "seneca",
+    "saint-cyril-of-alexandria",
+    "hypatia",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "plato",
+    "isaac-newton",
+    "dante",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell treats the fifth century as philosophically barren -- 'there was little philosophy' after Augustine's death -- but historically consequential, and narrates the Nestorian and Monophysite controversies with open irony, describing the Council of Ephesus's 'episcopal tumult' as retrospectively acquiring 'the venerable aspect of the Third Œcumenical Council,' and drawing heavily and explicitly on Gibbon for the lynching of Hypatia. His tone shifts sharply for Boethius, whom he singles out as an extraordinary and admirable exception: a man of 'perfect philosophic calm' writing 'as admirable as the last moments of the Platonic Socrates' while awaiting execution, whose freedom from superstition and fanaticism Russell judges unmatched for twelve centuries either side of his life.",
+  "why_this_matters": "The fifth century, following Augustine's death, produced almost no original philosophy, being dominated instead by barbarian invasions and the collapse of the Western Empire. The Nestorian controversy (two Persons vs. one) and the Monophysite controversy (one nature vs. two) convulsed the Church; Nestorius was condemned at Ephesus (431) and Monophysitism at Chalcedon (451), with both resulting schisms later weakening Byzantine control over Syria and Egypt.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-v",
+      "role": "The chapter's primary philosophical subject: a Roman senator executed by Theodoric in 524, whose Consolation of Philosophy, written in prison, Russell treats as purely Platonic in content though later read throughout the Middle Ages as an orthodox Christian work, and praises as a singular achievement of calm, rational philosophy unmatched, in Russell's judgment, until after Newton."
+    }
+  ],
+  "extraction_confidence": "high"
+}

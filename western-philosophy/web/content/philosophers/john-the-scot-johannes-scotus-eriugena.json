@@ -1,0 +1,42 @@
+{
+  "slug": "john-the-scot-johannes-scotus-eriugena",
+  "name": "John the Scot (Johannes Scotus Eriugena)",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "Neoplatonism",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The chapter's subject: an Irish Neoplatonist, Pelagian-leaning pantheist at the court of Charles the Bald, who wrote on predestination, translated the pseudo-Dionysius, and authored the systematic pantheistic treatise On the Division of Nature.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "aristotle",
+    "plotinus",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "baruch-spinoza",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell presents John the Scot with evident personal delight and admiration, calling him 'the most astonishing person of the ninth century' and stressing the sheer improbability of his freedom of thought -- an Irish Neoplatonist, Pelagian, and pantheist who 'set reason above faith' and yet escaped persecution through royal protection. Russell traces this partly to Irish Christianity's relative isolation from Roman administrative and doctrinal control, which may have preserved a Pelagian and philosophically freer strand of thought. He gives a careful, largely descriptive account of the Division of Nature's fourfold scheme and its heretical implications (pantheism, allegorical reading of Genesis, denial of a stable sexual distinction before the Fall, universal salvation including of devils), consistently distinguishing John's own doctrines from later, more securely orthodox scholasticism. Russell's tone throughout is admiring of John's intellectual independence and originality rather than critical of his heresies as such; he treats the condemnation of the book and Honorius III's 1225 burning order (only partially carried out) as historically remarkable rather than as deserved.",
+  "why_this_matters": "John the Scot (Johannes Scotus Eriugena) was an Irish Neoplatonist and pantheist at the court of Charles the Bald who set reason above ecclesiastical authority, summarized in his maxim that true religion is true philosophy. He was condemned by councils in 855 and 859 for his treatise on predestination -- not primarily for his conclusion (support of free will) but for claiming philosophy's independent, even superior, authority relative to revelation.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-viii",
+      "role": "The chapter's subject: an Irish Neoplatonist, Pelagian-leaning pantheist at the court of Charles the Bald, who wrote on predestination, translated the pseudo-Dionysius, and authored the systematic pantheistic treatise On the Division of Nature."
+    }
+  ],
+  "extraction_confidence": "high"
+}

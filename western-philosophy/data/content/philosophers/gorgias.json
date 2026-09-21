@@ -1,0 +1,41 @@
+{
+  "slug": "gorgias",
+  "name": "Gorgias",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [
+    "Sceptical extremes among the Sophists: Gorgias's nihilism"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "A Sophist noted for the extreme sceptical thesis that nothing exists, that if anything exists it is unknowable, and that even if knowable it could not be communicated to others.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [
+    {
+      "with": "protagoras",
+      "about": "Sceptical extremes among the Sophists: Gorgias's nihilism"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-x",
+      "role": "A Sophist noted for the extreme sceptical thesis that nothing exists, that if anything exists it is unknowable, and that even if knowable it could not be communicated to others."
+    }
+  ],
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "john-wycliffe",
+  "name": "John Wycliffe",
+  "era": "Medieval / Catholic",
+  "dates": "",
+  "geography": "",
+  "school": "The conciliar movement (culminating at the Council of Constance, 1414-18)",
+  "major_ideas": [
+    "Wycliffe's doctrine of civil dominion and its escalation into heresy"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "English secular priest and Oxford theologian (ca. 1320-84), last important Oxford scholastic; a realist and Platonist who held the actual world is the only possible world since God must choose the best; developed increasingly radical anti-papal doctrines (civil dominion depends on righteousness, papal supremacy rests on the forged Donation of Constantine, denial of transubstantiation), translated the Vulgate into English, and founded the 'poor priests'; his English followers were the Lollards, and his doctrines reached Bohemia via Huss.",
+  "central_doctrines": "Wycliffe's doctrine of civil dominion and its escalation into heresy: Wycliffe's progressively radicalizing theological-political doctrine, beginning from the claim that righteousness (not mere possession) grounds legitimate dominion and property, and ending in outright denial of transubstantiation and denunciation of the papacy as apostate.",
+  "key_arguments": [
+    "Wycliffe's argument from righteousness to legitimate dominion"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "marsiglio-of-padua"
+  ],
+  "successors": [
+    "plato",
+    "philo"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell frames the entire chapter as an account of moral and institutional decline: Innocent III's political triumph already contained the seeds of decay, since, in Russell's words, 'the manner of its subsequent decline might already have been foreseen.' He is unsparing about the corruption underlying specific episodes -- the Jubilee indulgence system as a money-making scheme, the Templars' persecution as a naked financial conspiracy between Clement V and Philip IV (citing Henry C. Lea's judgment that the charges against the Templars were 'wholly without foundation'), and the general worldliness of the Avignon papacy. He is personally sympathetic to Wycliffe's moral motivations even while noting the theological confusions or the political convenience underlying his protection, and closes on an unusually lyrical, celebratory note about the birth of the modern world through Renaissance 'liberty of the spirit,' explicitly naming this as the point 'from which the decline began' for the medieval synthesis he has spent the whole of Book Two describing.",
+  "why_this_matters": "Russell synthesizes the medieval Catholic worldview as a fusion of Greek philosophy, Near Eastern mystery-religion and dualist elements, Jewish scripture, and Roman administrative method. Russell judges the thirteenth-century scholastic elevation of Aristotle over Plato/Augustine a mistake from Christianity's own religious standpoint, though it unintentionally encouraged later scientific observation.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-xv",
+      "role": "English secular priest and Oxford theologian (ca. 1320-84), last important Oxford scholastic; a realist and Platonist who held the actual world is the only possible world since God must choose the best; developed increasingly radical anti-papal doctrines (civil dominion depends on righteousness, papal supremacy rests on the forged Donation of Constantine, denial of transubstantiation), translated the Vulgate into English, and founded the 'poor priests'; his English followers were the Lollards, and his doctrines reached Bohemia via Huss."
+    }
+  ],
+  "extraction_confidence": "high"
+}

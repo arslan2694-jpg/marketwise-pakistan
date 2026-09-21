@@ -1,0 +1,97 @@
+{
+  "slug": "thomas-hobbes",
+  "name": "Thomas Hobbes",
+  "era": "Modern",
+  "dates": "1588-1679",
+  "geography": "",
+  "school": "English empiricism (Hobbes as an atypical, mathematically-informed forerunner of Locke, Berkeley, and Hume)",
+  "major_ideas": [
+    "Materialism and the state of nature as a 'war of all against all'",
+    "The social contract and the creation of 'Leviathan'",
+    "Absolute sovereignty and the rejection of divided or limited government",
+    "Materialist, deterministic psychology (imagination, passions, and the denial of free will)",
+    "Nominalism and the primacy of geometry as a model science",
+    "The right of self-preservation as the sole limit on obedience to the sovereign"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The chapter's sole primary subject: his materialist metaphysics and psychology (sensation as motion, imagination as decaying sense, will as the last appetite remaining in deliberation), his nominalism, his admiration for geometry as a model science, his account of the state of nature as a 'war of all against all,' his social-contract theory of the commonwealth ('Leviathan') as an artificial man created by covenant, his defense of absolute (preferably monarchical) sovereignty, his account of the limited liberty of subjects (bounded chiefly by an inalienable right of self-defense), and his uncompromising Erastianism (subordination of Church to State) are all reconstructed and then critically assessed. Russell notes that Spinoza's political theory in the Tractatus Politicus is derived mainly from Hobbes, though Spinoza departs from him on democracy and on subjects retaining some rights. Contrasted with Locke on the state of nature (Hobbes's is a war of all against all) and on the social contract (in Hobbes, the sovereign is not a party to the contract and so acquires unlimited power, unlike in Locke's more limited, resistible government). Named as the source of the 'power' strand of ethics opposed to the pleasure-based ethics of the empiricists, with Spinoza partly agreeing with him. Rousseau's conception of the social contract, on inspection, is said to be more akin to Hobbes's than to Locke's, given its demand for total alienation of individual rights to the community.",
+  "central_doctrines": "Materialism and the state of nature as a 'war of all against all': Russell's summary: 'Life, he says, is nothing but a motion of the limbs... In a state of nature, before there is any government, every man desires to preserve his own liberty, but to acquire dominion over others; both these desires are dictated by the impulse to self-preservation. From their conflict arises a war of all against all, which makes life \"nasty, brutish, and short.\" In a state of nature, there is no property, no justice or injustice; there is only war, and \"force and fraud are, in war, the two cardinal virtues.\"' The social contract and the creation of 'Leviathan': Russell's account: 'It is supposed that a number of people come together and agree to choose a sovereign... which shall exercise authority over them and put an end to the universal war... The covenant is not, as afterwards in Locke and Rousseau, between the citizens and the ruling power; it is a covenant made by the citizens with each other to obey such ruling power as the majority shall choose. When they have chosen, their political power is at an end.' Russell stresses this 'covenant' is 'an explanatory myth,' not a claimed historical event. Absolute sovereignty and the rejection of divided or limited government: Russell's summary: 'The powers of the sovereign, in Hobbes's system, are unlimited. He has the right of censorship over all expression of opinion... The laws of property are to be entirely subject to the sovereign; for in a state of nature there is no property, and therefore property is created by government, which may control its creation as it pleases... It is admitted that the sovereign may be despotic, but even the worst despotism is better than anarchy.' Materialist, deterministic psychology (imagination, passions, and the denial of free will): Russell's summary: 'imagination is a decaying sense, both being motions... Will is nothing but the last appetite or aversion remaining in deliberation. That is to say, will is not something different from desire and aversion, but merely the strongest in a case of conflict.' Hobbes defines 'good' as an object of desire and 'bad' as an object of aversion, giving these terms no independent objectivity.",
+  "key_arguments": [
+    "From the state of nature to the necessity of absolute sovereignty",
+    "Why monarchy is preferable to government by an assembly"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "galileo",
+    "roger-bacon",
+    "francis-bacon",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "rene-descartes",
+    "john-locke",
+    "jean-jacques-rousseau",
+    "karl-marx",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "aristotle",
+      "about": "Materialism and the state of nature as a 'war of all against all'"
+    },
+    {
+      "with": "john-locke",
+      "about": "The social contract and the creation of 'Leviathan'"
+    },
+    {
+      "with": "jean-jacques-rousseau",
+      "about": "The social contract and the creation of 'Leviathan'"
+    },
+    {
+      "with": "john-locke",
+      "about": "Absolute sovereignty and the rejection of divided or limited government"
+    },
+    {
+      "with": "montesquieu",
+      "about": "Absolute sovereignty and the rejection of divided or limited government"
+    },
+    {
+      "with": "plato",
+      "about": "Materialist, deterministic psychology (imagination, passions, and the denial of free will)"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Hobbes as historically important and distinctively modern -- 'more modern than any previous theory, even that of Machiavelli' -- while noting real intellectual limitations: he is 'impatient of subtleties,' inclined 'to cut the Gordian knot,' reaching logical but fact-omitting solutions; 'he wields the battle-axe better than the rapier.' Russell reconstructs Hobbes's psychology, nominalism, and political theory largely sympathetically and in detail before offering an explicit two-part critical balance sheet: Hobbes's great merit is being 'completely free from superstition,' clear, logical, and intelligible in a way earlier political theorists (arguing from Adam and Eve) were not, making him 'still worth refuting' rather than simply dismissible; but his theory suffers from (1) neglecting class conflict by assuming a unified national interest, and (2) saying nothing constructive about relations between states, leaving international anarchy as an unaddressed extension of the very 'war of all against all' his domestic theory is designed to escape. Russell also offers a broader historical verdict: that 'on the whole... the world has gone as Hobbes wished' regarding the growth of state power, 'after a long liberal period during which... it was moving in the opposite direction' -- a judgment he frames as descriptively accurate rather than as endorsement, since he goes on to warn of the dangers of unchecked government power.",
+  "why_this_matters": "Hobbes is unusual among English empiricists for combining empiricism with genuine admiration for mathematics, a combination Russell says did not recur until his own day. Hobbes's state of nature -- a 'war of all against all' arising from naturally equal individuals' conflicting desires for liberty and dominion -- grounds his argument that rational self-interest requires submission to an absolute sovereign.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-viii",
+      "role": "The chapter's sole primary subject: his materialist metaphysics and psychology (sensation as motion, imagination as decaying sense, will as the last appetite remaining in deliberation), his nominalism, his admiration for geometry as a model science, his account of the state of nature as a 'war of all against all,' his social-contract theory of the commonwealth ('Leviathan') as an artificial man created by covenant, his defense of absolute (preferably monarchical) sovereignty, his account of the limited liberty of subjects (bounded chiefly by an inalienable right of self-defense), and his uncompromising Erastianism (subordination of Church to State) are all reconstructed and then critically assessed."
+    },
+    {
+      "chapter_id": "book-3-ch-x",
+      "role": "Russell notes that Spinoza's political theory in the Tractatus Politicus is derived mainly from Hobbes, though Spinoza departs from him on democracy and on subjects retaining some rights."
+    },
+    {
+      "chapter_id": "book-3-ch-xiv",
+      "role": "Contrasted with Locke on the state of nature (Hobbes's is a war of all against all) and on the social contract (in Hobbes, the sovereign is not a party to the contract and so acquires unlimited power, unlike in Locke's more limited, resistible government)."
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Named as the source of the 'power' strand of ethics opposed to the pleasure-based ethics of the empiricists, with Spinoza partly agreeing with him."
+    },
+    {
+      "chapter_id": "book-3-ch-xix",
+      "role": "Rousseau's conception of the social contract, on inspection, is said to be more akin to Hobbes's than to Locke's, given its demand for total alienation of individual rights to the community."
+    }
+  ],
+  "extraction_confidence": "high"
+}

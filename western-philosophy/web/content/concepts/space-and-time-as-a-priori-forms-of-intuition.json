@@ -1,0 +1,37 @@
+{
+  "slug": "space-and-time-as-a-priori-forms-of-intuition",
+  "name": "Space and time as a priori forms of intuition",
+  "plain_explanation": "Kant argues space and time are not features of things themselves but are, so to speak, the tinted spectacles built into our own minds through which all experience must be filtered -- which is precisely why we can be certain in advance (a priori) that everything we ever experience will be spatial and temporal, even though we can know nothing about 'things in themselves.'",
+  "precise_definition": "Space and time are pure forms of sensibility ('intuition', Anschauung) contributed by the perceiving subject rather than derived from experience of external things; they apply necessarily to all phenomena (appearances) but not to the noumenal 'things-in-themselves' that cause our sensations.",
+  "why_it_mattered": "This doctrine is, in Russell's judgment, 'the most important part of The Critique of Pure Reason,' since it is meant to explain how geometry and arithmetic can be both synthetic and known a priori -- objects of sense must obey geometry because geometry concerns our very manner of perceiving.",
+  "historical_origin": "Critique of Pure Reason, Transcendental Aesthetic; more accessibly stated in the Prolegomena.",
+  "associated_philosopher": "Immanuel Kant",
+  "examples": [
+    "Kant's own illustration-adjacent point (per Russell) that space is not an empirical concept because referring sensations to something 'outside me' already presupposes a spatial framework",
+    "The claim that we can imagine empty space with nothing in it, but not the absence of space itself"
+  ],
+  "objections": [
+    "Kant never explains why the mind orders sensations the way it does (e.g. why eyes are always perceived above mouths) if there is no spatial counterpart among the 'things-in-themselves' that cause sensations.",
+    "The claim that we can imagine space with nothing in it is doubtful -- imagining looking at a dark sky still places the imaginer in space.",
+    "The claim that there is only 'one space' of which parts are not instances becomes unstatable once one adopts a relational (rather than absolute) view of space, as virtually all moderns do.",
+    "Kant's argument that space is 'given' as an infinite magnitude reflects the parochial view of someone from flat Königsberg, and in any case modern astronomy holds space may not be infinite at all.",
+    "The transcendental argument from geometry fails once one distinguishes pure geometry (a priori but not synthetic, since it follows from axioms by logic alone) from physical geometry (synthetic but not a priori, as in general relativity, where axioms are empirically inferred and differ from Euclid's).",
+    "For time specifically, Kant's view creates a paradox with causality: if 'things-in-themselves' are outside time, there is no principled reason why one timeless cause should produce its effect (in perception) earlier than another (Russell's lightning-and-thunder example)."
+  ],
+  "competing_positions": [
+    "The physicist's ordinary assumption of a real, structurally correlated 'objective' space and time behind percepts, which Russell argues is no more or less warranted than treating colour or sound as similarly correlated with, but distinct from, their physical causes"
+  ],
+  "influence_on_later_thinkers": "Abandoned, along with the 'thing-in-itself', by Kant's immediate successors (Fichte and the absolutist tradition), who pushed subjectivism to near-solipsism.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Immanuel Kant",
+      "treatment": "Kant argues space and time are not features of things themselves but are, so to speak, the tinted spectacles built into our own minds through which all experience must be filtered -- which is precisely why we can be certain in advance (a priori) that everything we ever experience will be spatial and temporal, even though we can know nothing about 'things in themselves.'"
+    }
+  ]
+}

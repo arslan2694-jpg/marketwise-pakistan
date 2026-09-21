@@ -1,0 +1,28 @@
+{
+  "slug": "perception-and-the-primary-secondary-quality-distinction",
+  "name": "Perception and the primary/secondary quality distinction",
+  "plain_explanation": "Democritus thought some qualities we perceive, like warmth, taste, and colour, are not really properties of objects themselves but are produced by our sense organs, while other qualities, like weight, density, and hardness, really do belong to the object.",
+  "precise_definition": "Democritus's distinction between perception of the senses (dependent partly on the perceiver's sense-organs and therefore potentially deceptive) and perception of the understanding (dependent only on the object perceived); qualities like warmth, taste, and colour belong to the former and are not truly in the object, while qualities like weight, density, and hardness are truly in the object.",
+  "why_it_mattered": "Russell explicitly compares this to Locke's later primary/secondary quality distinction, making Democritus an ancient anticipation of an idea central to early modern epistemology.",
+  "historical_origin": "Part of Democritus's broader materialist account of perception and thought as physical processes.",
+  "associated_philosopher": "Democritus",
+  "examples": [
+    "Warmth, taste, and colour as sense-dependent, not really in the object",
+    "Weight, density, and hardness as really in the object"
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Explicitly likened by Russell to John Locke's similar distinction.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Democritus",
+      "treatment": "Democritus thought some qualities we perceive, like warmth, taste, and colour, are not really properties of objects themselves but are produced by our sense organs, while other qualities, like weight, density, and hardness, really do belong to the object."
+    }
+  ]
+}

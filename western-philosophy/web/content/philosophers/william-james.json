@@ -1,0 +1,79 @@
+{
+  "slug": "william-james",
+  "name": "William James",
+  "era": "Modern",
+  "dates": "1842-1910",
+  "geography": "",
+  "school": "Radical empiricism",
+  "major_ideas": [
+    "Radical empiricism and 'pure experience'",
+    "The Will to Believe",
+    "Pragmatist theory of truth"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "The chapter's sole primary subject. Russell expounds and largely endorses James's doctrine of radical empiricism and 'pure experience,' then expounds and sharply criticizes James's 'will to believe' and his pragmatist redefinition of truth. Named as sharing Dewey's New England background and pragmatist orientation, but contrasted with him: James's pragmatism is 'concerned primarily with religion and morals,' while Dewey's is 'scientific,' derived from an examination of scientific method. His criticism of 'consciousness' and doctrine of neutral monism (from the earlier chapter) is invoked as anticipating the convergence of physics and psychology that modern analytical philosophy, in Russell's account, makes fully possible.",
+  "central_doctrines": "Radical empiricism and 'pure experience': First published in the 1904 essay 'Does \"Consciousness\" Exist?', James's doctrine that the subject-object relation is not fundamental: consciousness 'is the name of a nonentity' with 'no aboriginal stuff or quality of being' distinct from that of material objects; there is instead 'only one primal stuff or material,' called 'pure experience' and defined as 'the immediate flux of life which furnishes the material to our later reflection,' out of which knowing arises as a derivative relation between two portions of that stuff. The Will to Believe: Published in 1896, James's doctrine that the duty of veracity consists of two coequal precepts, 'believe truth' and 'shun error,' and that since the sceptic wrongly privileges only the second, a person facing a forced, momentous, and evidentially undecidable option (paradigmatically religious belief) is entitled to adopt a believing attitude even though 'our merely logical intellect may not have been coerced.' Pragmatist theory of truth: Set out in Pragmatism, a New Name for Some Old Ways of Thinking (1907), James's doctrine that 'an idea is \"true\" so long as to believe it is profitable to our lives,' that truth is 'made' by events rather than discovered, that 'to agree' with reality means being guided usefully toward it rather than 'copying' it, and that 'the \"true\" is only the expedient in the way of our thinking... in the long run and on the whole.'",
+  "key_arguments": [
+    "James's argument against the subject-object dualism",
+    "The Will to Believe argument",
+    "The pragmatist argument for truth as beneficial effect"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "jean-jacques-rousseau",
+    "bertrand-russell",
+    "george-santayana",
+    "c-s-peirce"
+  ],
+  "successors": [
+    "bertrand-russell",
+    "john-dewey"
+  ],
+  "disagreements": [
+    {
+      "with": "george-berkeley",
+      "about": "Radical empiricism and 'pure experience'"
+    },
+    {
+      "with": "georg-wilhelm-friedrich-hegel",
+      "about": "Radical empiricism and 'pure experience'"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Radical empiricism and 'pure experience'"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "The Will to Believe"
+    },
+    {
+      "with": "bertrand-russell",
+      "about": "Pragmatist theory of truth"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell divides his treatment sharply in two. He first expounds James's radical empiricism at length and states plainly that he has come to agree with it: the subject-object relation is not fundamental, and 'pure experience' (though Russell disputes James's use of that particular word) underlies both knower and known. He then turns to the Will to Believe and pragmatism, which he treats as intellectually indefensible despite acknowledging their psychological and religious appeal. Using the examples of a stranger's name, Columbus's voyage, and belief in Santa Claus or God, Russell argues that James's definition of truth as beneficial effect leads to absurdities, ignores probability, and, applied to religion, substitutes belief in God for God himself -- 'only a form of the subjectivistic madness which is characteristic of most modern philosophy,' in Russell's closing judgment.",
+  "why_this_matters": "William James was central to American philosophy on two fronts: radical empiricism (rejecting subject-object dualism) and pragmatism (redefining truth as beneficial effect). Russell endorses James's radical empiricism -- that pure experience, not a subject-object dualism, is fundamental -- while disputing only James's identification of 'experience' with the whole stuff of the world.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xxix",
+      "role": "The chapter's sole primary subject. Russell expounds and largely endorses James's doctrine of radical empiricism and 'pure experience,' then expounds and sharply criticizes James's 'will to believe' and his pragmatist redefinition of truth."
+    },
+    {
+      "chapter_id": "book-3-ch-xxx",
+      "role": "Named as sharing Dewey's New England background and pragmatist orientation, but contrasted with him: James's pragmatism is 'concerned primarily with religion and morals,' while Dewey's is 'scientific,' derived from an examination of scientific method."
+    },
+    {
+      "chapter_id": "book-3-ch-xxxi",
+      "role": "His criticism of 'consciousness' and doctrine of neutral monism (from the earlier chapter) is invoked as anticipating the convergence of physics and psychology that modern analytical philosophy, in Russell's account, makes fully possible."
+    }
+  ],
+  "extraction_confidence": "high"
+}

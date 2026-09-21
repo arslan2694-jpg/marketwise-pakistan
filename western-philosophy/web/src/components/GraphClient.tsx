@@ -66,6 +66,12 @@ export default function GraphClient({ relationships }: { relationships: GraphRel
       vy: 0,
     }));
     nodesRef.current = initial;
+    // Force-directed layout is an imperative physics simulation driven by
+    // requestAnimationFrame, not a value synchronized from an external
+    // store -- setState here (and in the tick loop below) is the correct
+    // tool, not the "hydrate from external source" pattern the
+    // set-state-in-effect lint rule is meant to steer away from.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setNodes(initial);
 
     let frame = 0;

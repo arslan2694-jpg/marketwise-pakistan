@@ -1,0 +1,44 @@
+{
+  "slug": "alexander-the-great",
+  "name": "Alexander the Great",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Epicureanism and Stoicism (their founding placed in this period, treated fully in later chapters)",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Discussed as Aristotle's pupil (from age thirteen); Russell argues, against common assumption, that Aristotle's influence on Alexander was probably negligible, and that Aristotle's political theorizing was oblivious to the world-transforming empire Alexander was building. Not a philosopher himself, but the central historical actor: his conquests and his policy of deliberately fusing Greeks and 'barbarians' (including intermarriage) planted, in practice, the cosmopolitan idea of a single human community that Stoic philosophy later formulated in theory.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "aristotle",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "gerbert-pope-sylvester-ii"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell narrates the Hellenistic period as the pivotal hinge between the classical Greek world and Rome/Christianity. He credits Alexander, largely for reasons of practical necessity rather than idealism, with founding in practice the cosmopolitan idea of mankind that the Stoics would later formalize. He judges Hellenistic philosophy in general to represent a 'retreat' from the confident, civically engaged temper of Plato and Aristotle into private, individualist concerns, caused by ordinary Greeks' total loss of political power under Macedonian rule. He treats Alexandrian science as genuinely excellent but narrowly specialized, contrasts this favourably with the intellectual and moral 'chaos' of Hellenistic politics, and is notably harsher on the spread of Babylonian astrology and magic than on other Eastern religious influences, which he suggests could have been philosophically fruitful. He closes by quoting an assessment that Hellenistic philosophy became 'an ambulance following in the wake of the struggle for existence,' a line he clearly endorses as summarizing the age's mood.",
+  "why_this_matters": "Russell divides Greek antiquity into three phases: free-and-disorderly city-states, subjected-and-disorderly Macedonian rule (the Hellenistic age proper), and subjected-but-orderly Roman rule. Alexander's conquests (334-324 B.C.) and his policy of fusing Greek and non-Greek populations planted, in practice, the cosmopolitan idea of a single humanity that Stoicism later made explicit.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xix",
+      "role": "Discussed as Aristotle's pupil (from age thirteen); Russell argues, against common assumption, that Aristotle's influence on Alexander was probably negligible, and that Aristotle's political theorizing was oblivious to the world-transforming empire Alexander was building."
+    },
+    {
+      "chapter_id": "book-1-ch-xxv",
+      "role": "Not a philosopher himself, but the central historical actor: his conquests and his policy of deliberately fusing Greeks and 'barbarians' (including intermarriage) planted, in practice, the cosmopolitan idea of a single human community that Stoic philosophy later formulated in theory."
+    }
+  ],
+  "extraction_confidence": "high"
+}

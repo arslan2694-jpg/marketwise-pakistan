@@ -1,0 +1,30 @@
+{
+  "slug": "the-syllogism",
+  "name": "The syllogism",
+  "plain_explanation": "A syllogism is a three-step argument with a major premise, a minor premise, and a conclusion -- the classic example being 'All men are mortal; Socrates is a man; therefore Socrates is mortal' -- and Aristotle's logic classifies and names many valid patterns of this kind.",
+  "precise_definition": "Aristotle's central logical form, an argument of exactly three parts (major premiss, minor premiss, conclusion) sorted by the scholastics into named figures and moods (e.g. 'Barbara,' 'Celarent,' 'Darii,' 'Ferio' in the first figure), with a second and third figure reducible to the first, and a fourth figure later added by medieval logicians.",
+  "why_it_mattered": "It was, for over two thousand years, treated as the complete and exhaustive form of valid deductive reasoning, making it the foundation of formal logic as taught from antiquity through the Middle Ages.",
+  "historical_origin": "Set out primarily in Aristotle's Prior Analytics.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "Barbara: 'All men are mortal; Socrates is a man; therefore Socrates is mortal.'",
+    "Celarent: 'No fishes are rational; all sharks are fishes; therefore no sharks are rational.'"
+  ],
+  "objections": [
+    "Russell: Aristotle 'does not distinguish' between 'Socrates is a man' (a statement about a named individual) and 'all Greeks are men' (a universal statement of quite different logical form), which is itself 'a mistake' with serious downstream consequences."
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "Remained the accepted foundation of formal logic until the rise of modern mathematical logic, which Russell himself helped develop.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "A syllogism is a three-step argument with a major premise, a minor premise, and a conclusion -- the classic example being 'All men are mortal; Socrates is a man; therefore Socrates is mortal' -- and Aristotle's logic classifies and names many valid patterns of this kind."
+    }
+  ]
+}

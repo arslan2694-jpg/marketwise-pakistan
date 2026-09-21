@@ -1,0 +1,37 @@
+{
+  "slug": "british-empiricism",
+  "name": "British empiricism",
+  "period": "Modern",
+  "doctrines": [
+    "Empiricism and the rejection of innate ideas",
+    "Primary and secondary qualities",
+    "The paradox of ideas: knowledge confined to our own ideas",
+    "The state of nature and natural law",
+    "The social contract",
+    "Property and the labour theory of value",
+    "The two European philosophical traditions: British and Continental",
+    "Pleasure-based vs. 'noble' (anti-utilitarian) ethics",
+    "Impressions and ideas",
+    "The dissolution of the Self into a 'bundle of perceptions'",
+    "The analysis of causation: constant conjunction, not necessary connection",
+    "The problem of induction",
+    "Analytic vs. synthetic and a priori vs. empirical propositions",
+    "Space and time as a priori forms of intuition",
+    "The thing-in-itself (noumenon) and phenomena",
+    "The Categorical Imperative"
+  ],
+  "philosophers": [
+    "david-hume",
+    "immanuel-kant",
+    "john-locke"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-3-ch-i",
+    "book-3-ch-xiii",
+    "book-3-ch-xv",
+    "book-3-ch-xvii",
+    "book-3-ch-xx"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "pyrrho",
+  "name": "Pyrrho",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Cynicism",
+  "major_ideas": [
+    "Pyrrhonist Scepticism as 'dogmatic doubt'"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Founder of formal Scepticism as a school doctrine; accompanied Alexander's army to India, then retired to Elis; systematized older doubts about sense-perception into a general scepticism about ethics and logic as well, holding there could never be rational grounds for preferring one course of action over another.",
+  "central_doctrines": "Pyrrhonist Scepticism as 'dogmatic doubt': The Sceptic position, distinguished by Russell from both scientific caution ('I think it is so, but am not sure') and open inquiry ('I don't know, but hope to find out'), which asserts as a settled conclusion that 'nobody knows, and nobody ever can know' -- a dogmatic claim about the impossibility of knowledge.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "parmenides",
+    "socrates",
+    "plato",
+    "protagoras",
+    "gorgias",
+    "antisthenes",
+    "arcesilaus"
+  ],
+  "successors": [
+    "timon",
+    "gerbert-pope-sylvester-ii",
+    "david-hume",
+    "bertrand-russell"
+  ],
+  "disagreements": [
+    {
+      "with": "parmenides",
+      "about": "Pyrrhonist Scepticism as 'dogmatic doubt'"
+    },
+    {
+      "with": "plato",
+      "about": "Pyrrhonist Scepticism as 'dogmatic doubt'"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell treats Cynicism and Scepticism as two Hellenistic strategies for coping with the same underlying condition described in Chapter XXV: the individual's loss of power over public affairs. He is sympathetic to Diogenes's personal sincerity and vigour but views the doctrine, once popularized (Teles), as degenerating into a self-serving excuse for accepting others' generosity without gratitude. On Scepticism, Russell's central analytical move is to distinguish it sharply from scientific open-mindedness, calling it 'dogmatic doubt' -- itself a confident claim that knowledge is impossible -- and he credits Timon's regress argument as a genuinely strong challenge to Greek deductive logic. He gives real weight to the Carneades-Clitomachus doctrine of probability as anticipating a view modern philosophers largely accept, while treating the vivid Carneades-versus-Cato episode as illustrating both the seductive cleverness and the moral hollowness that sceptical rhetoric could produce when detached from sincere conviction. He closes by noting that Scepticism, though intellectually formidable, offered nothing positive to replace the popular religion it discredited, leaving 'the way... left clear for an invasion of oriental religions' -- his direct bridge into the Epicurean and Stoic material and, eventually, Christianity.",
+  "why_this_matters": "Cynicism (Antisthenes, Diogenes) sought virtue and freedom through radical indifference to external goods and rejection of civilized convention; its popularized version (Teles) degenerated into self-serving excuse-making. Pyrrhonist Scepticism held that no rational grounds exist for preferring any belief or action over another, but Russell calls this 'dogmatic doubt' because it confidently asserts the impossibility of knowledge.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxvi",
+      "role": "Founder of formal Scepticism as a school doctrine; accompanied Alexander's army to India, then retired to Elis; systematized older doubts about sense-perception into a general scepticism about ethics and logic as well, holding there could never be rational grounds for preferring one course of action over another."
+    }
+  ],
+  "extraction_confidence": "high"
+}

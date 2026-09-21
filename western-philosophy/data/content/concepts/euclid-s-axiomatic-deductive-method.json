@@ -1,0 +1,31 @@
+{
+  "slug": "euclid-s-axiomatic-deductive-method",
+  "name": "Euclid's axiomatic-deductive method",
+  "plain_explanation": "Euclid's Elements did not invent most of the individual facts of geometry, but it organized them, for the first time, into a single rigorous system: starting from a small set of explicit definitions and assumptions (including the famous, controversial postulate of parallels), every later result is proved step by step by strict logical deduction.",
+  "precise_definition": "The method, organized by Euclid around 300 BC, of deriving the whole body of geometrical and (in Book X) proto-algebraic knowledge from an explicit, minimal set of definitions and postulates through rigorous deductive proof, culminating in the construction of the five regular solids; Russell praises both 'rigour in deduction' and Euclid's honesty in 'not concealing the dubiousness of the initial assumption' in the parallel postulate specifically.",
+  "why_it_mattered": "It became, in Russell's words, 'one of the greatest books ever written, and one of the most perfect monuments of the Greek intellect,' and remained, into Russell's own lifetime ('when I was young'), the standard schoolboy textbook of geometry.",
+  "historical_origin": "Compiled by Euclid at Alexandria, shortly after the deaths of Alexander and Aristotle, drawing on and systematizing earlier work including Eudoxus's theory of proportion and Theaetetus's theory of the regular solids.",
+  "associated_philosopher": "Euclid",
+  "examples": [
+    "The theory of proportion in Euclid, following Eudoxus, avoids all the difficulties connected with irrationals 'by methods essentially similar to those introduced by Weierstrass into nineteenth-century analysis.'"
+  ],
+  "objections": [
+    "Russell: the method is 'purely deductive,' with 'no way, within it, of testing the initial assumptions'; nineteenth-century non-Euclidean geometry showed these assumptions (especially the parallel postulate) 'might be in part mistaken,' decidable ultimately only by observation, not pure reason."
+  ],
+  "competing_positions": [
+    "Non-Euclidean geometries, developed in the nineteenth century, which showed alternatives to Euclid's parallel postulate are logically consistent."
+  ],
+  "influence_on_later_thinkers": "Served as the model of rigorous deductive science for over two thousand years; Russell notes it was slow to reach the Latin West, arriving via Arabic translation and Athelhard of Bath's 1120 Latin translation, with important further advances only in the late Renaissance.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Euclid",
+      "treatment": "Euclid's Elements did not invent most of the individual facts of geometry, but it organized them, for the first time, into a single rigorous system: starting from a small set of explicit definitions and assumptions (including the famous, controversial postulate of parallels), every later result is proved step by step by strict logical deduction."
+    }
+  ]
+}

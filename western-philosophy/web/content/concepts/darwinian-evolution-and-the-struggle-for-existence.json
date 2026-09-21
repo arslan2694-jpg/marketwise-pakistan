@@ -1,0 +1,34 @@
+{
+  "slug": "darwinian-evolution-and-the-struggle-for-existence",
+  "name": "Darwinian evolution and the struggle for existence",
+  "plain_explanation": "Darwin argued that living things change gradually over generations because those individuals whose chance variations happen to suit their environment are more likely to survive and reproduce -- an idea Russell traces directly to Malthus's grim economics of population applied to the whole of nature.",
+  "precise_definition": "Darwin's two-part theory: (1) the doctrine of evolution, that present forms of life descended gradually from common ancestors (not original to Darwin, but newly evidenced by him), and (2) the mechanism of natural selection -- since organisms multiply faster than resources allow, and offspring vary from their parents, those variations best suited to the environment preponderate among survivors in each generation, producing cumulative change over long periods.",
+  "why_it_mattered": "Russell treats Darwin as 'what Galileo and Newton were to the seventeenth century,' and uses the theory to explore its unsettled and sometimes troubling implications for liberal doctrines of equality, for theology, and for politics (nationalism's appeal to 'survival of the fittest' among nations).",
+  "historical_origin": "On the Origin of Species and later works; Russell notes precursors including Lamarck, Erasmus Darwin, and even Anaximander for the doctrine of evolution itself.",
+  "associated_philosopher": "Charles Darwin",
+  "examples": [
+    "Deer running more swiftly, cats stalking more silently, giraffes' necks lengthening across generations",
+    "Malthus's population theory, applied to the whole of nature, as the direct source of Darwin's 'struggle for existence'"
+  ],
+  "objections": [
+    "Russell notes the natural-selection mechanism 'has been much disputed, and is regarded by most biologists as subject to many important qualifications,' though this is not, for him, the historically important point.",
+    "If only congenital (not acquired) characteristics are inherited, then congenital differences between individuals -- and, by extension, between groups -- acquire an importance that sits uneasily with doctrines of natural equality."
+  ],
+  "competing_positions": [
+    "Lamarckian inheritance of acquired characteristics, which Darwin partly conceded but which later biology mostly rejected",
+    "The Enlightenment doctrine (Helvétius, Condorcet) that differences between individuals are wholly due to education"
+  ],
+  "influence_on_later_thinkers": "Reinforced liberal belief in progress for a time, but also supplied nationalist and anti-egalitarian thought with a biological vocabulary ('survival of the fittest' applied to nations), and shifted intellectual fashion from atomistic/mechanistic to organic categories of explanation.",
+  "connection_to_politics_or_religion": "Provided new arguments against orthodox theology, new grounds for belief in progress, and (via 'social Darwinism') a biological rhetoric later used to justify nationalist competition between states.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Charles Darwin",
+      "treatment": "Darwin argued that living things change gradually over generations because those individuals whose chance variations happen to suit their environment are more likely to survive and reproduce -- an idea Russell traces directly to Malthus's grim economics of population applied to the whole of nature."
+    }
+  ]
+}

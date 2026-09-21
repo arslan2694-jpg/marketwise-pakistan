@@ -1,0 +1,41 @@
+{
+  "slug": "avicenna-ibn-sina",
+  "name": "Avicenna (Ibn Sina)",
+  "era": "Medieval / Catholic",
+  "dates": "980-1037",
+  "geography": "",
+  "school": "Arabic/Mohammedan philosophy (Syrian, Persian, and Spanish branches)",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Persian philosopher and physician (980-1037), more famous among Mohammedans than Averroes; his philosophy is nearer to Aristotle and less Neoplatonic than his predecessors', and he developed an influential solution to the problem of universals ('before things, in things, and after things'); also hugely influential in medicine into the seventeenth century, though not a saintly character.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "aristotle",
+    "plotinus",
+    "boethius",
+    "kindi"
+  ],
+  "successors": [
+    "thomas-aquinas"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Mohammedan civilization as historically important chiefly as a transmitter rather than an originator: it preserved and passed on Greek philosophy (heavily Neoplatonized), Indian mathematics and astronomy, and Galenic medicine, while itself producing, in his judgment, no philosopher of true originality apart from perhaps Kindi's role as first translator. He treats Avicenna and Averroes as essentially able commentators on Aristotle rather than independent thinkers, and frames Averroes's chief historical importance as lying in his effect on Christian rather than Mohammedan philosophy. Russell's tone toward Islamic philosophy is respectful of its historical function but consistently deflationary about its originality, a judgment he states explicitly and without much qualification.",
+  "why_this_matters": "The rapid Arab conquests (632-732) succeeded partly through the exhaustion of Persia/Byzantium, the welcome of persecuted religious minorities, and Arab religious tolerance of 'the peoples of the Book.' The Umayyad and Abbasid caliphates gave way, over time, to fragmentation into Spain, Persia, Egypt, and North Africa as separate power centers.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-2-ch-x",
+      "role": "Persian philosopher and physician (980-1037), more famous among Mohammedans than Averroes; his philosophy is nearer to Aristotle and less Neoplatonic than his predecessors', and he developed an influential solution to the problem of universals ('before things, in things, and after things'); also hugely influential in medicine into the seventeenth century, though not a saintly character."
+    }
+  ],
+  "extraction_confidence": "high"
+}

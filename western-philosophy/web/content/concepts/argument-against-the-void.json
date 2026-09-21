@@ -1,0 +1,30 @@
+{
+  "slug": "argument-against-the-void",
+  "name": "Argument against the void",
+  "plain_explanation": "Anaxagoras argued there is no truly empty space; apparently empty containers, like an inflated skin or a water-clock, actually contain air.",
+  "precise_definition": "Like Empedocles, Anaxagoras denied the existence of a void, appealing to the observation that devices such as the clepsydra (water-clock) or an inflated skin demonstrate the presence of air where nothing visible seems to be present.",
+  "why_it_mattered": "This is part of the broader fifth-century debate (continued in the next chapter on the Atomists) over whether motion requires empty space, and it shows the era's characteristic mixture of empirical observation and metaphysical argument.",
+  "historical_origin": "",
+  "associated_philosopher": "Anaxagoras",
+  "examples": [
+    "The clepsydra (water-clock)",
+    "An inflated skin"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The Atomists' insistence, discussed in the following chapter, that a void must exist for motion to be possible"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-viii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Anaxagoras",
+      "treatment": "Anaxagoras argued there is no truly empty space; apparently empty containers, like an inflated skin or a water-clock, actually contain air."
+    }
+  ]
+}

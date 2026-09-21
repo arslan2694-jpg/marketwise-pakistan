@@ -1,0 +1,23 @@
+{
+  "slug": "neoplatonism",
+  "name": "Neoplatonism",
+  "period": "Spans multiple eras",
+  "doctrines": [
+    "The Neoplatonic Trinity: the One, Spirit (nous), and Soul",
+    "Mystical ecstasy and union with the One",
+    "The visible world as beautiful, not evil (Plotinus's anti-Gnostic argument)",
+    "The soul as Essence, not as the form of the body"
+  ],
+  "philosophers": [
+    "john-the-scot-johannes-scotus-eriugena",
+    "plotinus"
+  ],
+  "predecessor_schools": [],
+  "successor_influence": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxx",
+    "book-2-ch-iii",
+    "book-2-ch-v",
+    "book-2-ch-viii"
+  ]
+}

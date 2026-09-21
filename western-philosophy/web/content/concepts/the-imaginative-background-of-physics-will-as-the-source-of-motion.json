@@ -1,0 +1,30 @@
+{
+  "slug": "the-imaginative-background-of-physics-will-as-the-source-of-motion",
+  "name": "The imaginative background of physics: Will as the source of motion",
+  "plain_explanation": "Every philosopher, beneath their formal theory, has a simpler picture of how the world 'basically' works; for Aristotle and most Greeks, since the two most obviously self-moving things were animals and the heavenly bodies, the natural assumption was that all motion ultimately traces back to some kind of Will -- the capricious will of animals and humans on earth, the perfect, orderly will of a Divine Being in the heavens.",
+  "precise_definition": "Russell's own interpretive thesis (borrowing Santayana's phrase 'animal faith') that beneath Aristotle's explicit physical doctrines lies an unstated, pre-theoretical picture in which motion is modeled on animal self-movement and the willed regularity of divinized heavenly bodies, rather than on the strictly mechanical picture of later physics.",
+  "why_it_mattered": "It explains, for Russell, why Aristotle's physics assimilates inanimate motion to purposive, quasi-biological behavior, and why this made his physics an obstacle rather than an aid to the eventual mechanical, mathematical physics of Galileo and Newton.",
+  "historical_origin": "Russell's own diagnostic framework, applied to Aristotle but stated as a general claim about all philosophers' unstated 'crude' systems.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "A modern child distinguishes live animals from other things by their capacity for self-movement; Russell suggests this same childhood intuition, generalized by Aristotle into an adult theory, became the basis of his physics.",
+    "Anaxagoras was prosecuted for impiety for denying the sun and moon were alive -- showing how deeply the divinity of heavenly bodies was assumed in Greek culture."
+  ],
+  "objections": [],
+  "competing_positions": [
+    "The modern, mechanical imaginative background (motor-cars, aeroplanes, machines) in which 'animals have lost their importance' as models for lifeless motion."
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "Rooted in the widespread Greek religious assumption, instilled in childhood, that the sun and moon are gods.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xxiii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "Every philosopher, beneath their formal theory, has a simpler picture of how the world 'basically' works; for Aristotle and most Greeks, since the two most obviously self-moving things were animals and the heavenly bodies, the natural assumption was that all motion ultimately traces back to some kind of Will -- the capricious will of animals and humans on earth, the perfect, orderly will of a Divine Being in the heavens."
+    }
+  ]
+}

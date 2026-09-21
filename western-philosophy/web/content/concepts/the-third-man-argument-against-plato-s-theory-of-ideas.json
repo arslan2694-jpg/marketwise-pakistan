@@ -1,0 +1,29 @@
+{
+  "slug": "the-third-man-argument-against-plato-s-theory-of-ideas",
+  "name": "The Third Man argument against Plato's theory of Ideas",
+  "plain_explanation": "If a particular man is a man because he resembles the ideal Man, then that resemblance itself needs explaining -- which requires a still more ideal 'third man' that both the particular man and the ideal Man resemble, and so on without end.",
+  "precise_definition": "Aristotle's argument, already foreshadowed in Plato's own Parmenides, that when several individuals share a predicate, this sharing cannot be explained by their all resembling a further individual of the same kind (however 'ideal'), since that would require a yet more ideal exemplar to explain the new resemblance, generating an infinite regress.",
+  "why_it_mattered": "It shows decisively, in Russell's judgement, that shared predicates cannot be explained by resemblance to a super-particular 'Idea' of the same logical type as ordinary things.",
+  "historical_origin": "Already present in Plato's own self-criticism in the Parmenides; developed as a formal argument by Aristotle against the theory of Ideas.",
+  "associated_philosopher": "Aristotle",
+  "examples": [
+    "Socrates is both a man and an animal, raising the question whether the Ideal Man is also an Ideal Animal, and if so, whether there must be as many ideal animals as species"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Plato's theory of Ideas, which the argument is directed against"
+  ],
+  "influence_on_later_thinkers": "Left the problem of universals unresolved rather than solved, since Aristotle's own alternative doctrine was, in Russell's view, far from clear -- 'it was this lack of clarity that made possible the medieval controversy between nominalists and realists.'",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Aristotle",
+      "treatment": "If a particular man is a man because he resembles the ideal Man, then that resemblance itself needs explaining -- which requires a still more ideal 'third man' that both the particular man and the ideal Man resemble, and so on without end."
+    }
+  ]
+}

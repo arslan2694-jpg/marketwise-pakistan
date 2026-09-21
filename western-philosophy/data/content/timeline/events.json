@@ -1,0 +1,396 @@
+[
+  {
+    "id": "origen-active",
+    "name": "Origen (A.D. 185-254)",
+    "date": "A.D. 185-254",
+    "date_sort": 185,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Paul's decision to admit gentiles without requiring circumcision or the full Mosaic Law was, for Russell, the single change that let Christianity become a universal rather than an ethnic religion. Gnosticism and Manichaeism served as intermediate 'half-way houses' between paganism and orthodox Christianity for hellenized converts uncomfortable with Jewish particularism; a Gnostic doctrine about Christ's crucifixion later passed into orthodox Islamic teaching.",
+    "related_philosophers": [
+      "origen"
+    ],
+    "related_chapters": [
+      "book-1-ch-xxx",
+      "book-2-ch-ii",
+      "book-2-ch-iv",
+      "book-2-ch-viii"
+    ]
+  },
+  {
+    "id": "plotinus-active",
+    "name": "Plotinus (A.D. 204-270)",
+    "date": "A.D. 204-270",
+    "date_sort": 204,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Plotinus (A.D. 204-270), founder of Neoplatonism, is presented by Russell as the last great philosopher of pagan antiquity and, simultaneously, as a decisive shaping influence on Christian theology. His metaphysics describes an unequal hierarchy of three realities: the wholly transcendent, indescribable One; nous/Spirit, the divine Mind containing the eternal Forms; and Soul, which creates and animates the visible physical universe.",
+    "related_philosophers": [
+      "plotinus"
+    ],
+    "related_chapters": [
+      "book-1-ch-xxx",
+      "book-2-ch-iv"
+    ]
+  },
+  {
+    "id": "saint-athanasius-active",
+    "name": "Saint Athanasius (ca. 297-373)",
+    "date": "ca. 297-373",
+    "date_sort": 297,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Described as 'the hero of this period,' the lifelong champion of Nicene orthodoxy against Arianism, Bishop of Alexandria from 328, repeatedly exiled for his zeal but immensely popular in Egypt. Reconciled ecclesiastics to the monastic movement, helped establish the rule that monk",
+    "related_philosophers": [
+      "saint-athanasius"
+    ],
+    "related_chapters": [
+      "book-2-ch-ii",
+      "book-2-ch-vi"
+    ]
+  },
+  {
+    "id": "avicenna-ibn-sina-active",
+    "name": "Avicenna (Ibn Sina) (980-1037)",
+    "date": "980-1037",
+    "date_sort": 980,
+    "category": [
+      "philosophy"
+    ],
+    "description": "The rapid Arab conquests (632-732) succeeded partly through the exhaustion of Persia/Byzantium, the welcome of persecuted religious minorities, and Arab religious tolerance of 'the peoples of the Book.' The Umayyad and Abbasid caliphates gave way, over time, to fragmentation into Spain, Persia, Egypt, and North Africa as separate power centers.",
+    "related_philosophers": [
+      "avicenna-ibn-sina"
+    ],
+    "related_chapters": [
+      "book-2-ch-x"
+    ]
+  },
+  {
+    "id": "averroes-ibn-rushd-active",
+    "name": "Averroes (Ibn Rushd) (1126-1198)",
+    "date": "1126-1198",
+    "date_sort": 1126,
+    "category": [
+      "philosophy"
+    ],
+    "description": "The rapid Arab conquests (632-732) succeeded partly through the exhaustion of Persia/Byzantium, the welcome of persecuted religious minorities, and Arab religious tolerance of 'the peoples of the Book.' The Umayyad and Abbasid caliphates gave way, over time, to fragmentation into Spain, Persia, Egypt, and North Africa as separate power centers.",
+    "related_philosophers": [
+      "averroes-ibn-rushd"
+    ],
+    "related_chapters": [
+      "book-2-ch-x",
+      "book-2-ch-xiii"
+    ]
+  },
+  {
+    "id": "matthew-of-aquasparta-active",
+    "name": "Matthew of Aquasparta (ca. 1214-ca.1294)",
+    "date": "ca. 1214-ca.1294",
+    "date_sort": 1214,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Follower of Bonaventura, more touched by the new Aristotelianism than his teacher; opposed Aquinas from an Augustinian standpoint while treating Aristotle as 'The Philosopher'; sought a middle way between Plato (wisdom without knowledge) and Aristotle (knowledge without wisdom).",
+    "related_philosophers": [
+      "matthew-of-aquasparta"
+    ],
+    "related_chapters": [
+      "book-2-ch-xiv"
+    ]
+  },
+  {
+    "id": "saint-bonaventura-active",
+    "name": "Saint Bonaventura (ca. 1214-ca.1294)",
+    "date": "ca. 1214-ca.1294",
+    "date_sort": 1214,
+    "category": [
+      "philosophy"
+    ],
+    "description": "General of the Franciscan order who forbade Bacon to publish; a follower of Anselm who upheld the ontological argument, saw Aristotelianism as fundamentally opposed to Christianity, and believed in Platonic ideas known perfectly only by God.",
+    "related_philosophers": [
+      "saint-bonaventura"
+    ],
+    "related_chapters": [
+      "book-2-ch-xiv"
+    ]
+  },
+  {
+    "id": "dante-active",
+    "name": "Dante (1265-1321)",
+    "date": "1265-1321",
+    "date_sort": 1265,
+    "category": [
+      "philosophy"
+    ],
+    "description": "A great poetic innovator but, as a political thinker, dated: his 'De Monarchia' argues Emperor and Pope are both independent and divinely appointed, a Ghibelline position Russell judges 'hopelessly out of date' by the time he wrote.",
+    "related_philosophers": [
+      "dante"
+    ],
+    "related_chapters": [
+      "book-2-ch-xiv"
+    ]
+  },
+  {
+    "id": "lorenzo-valla-active",
+    "name": "Lorenzo Valla (ca. 1406-57)",
+    "date": "ca. 1406-57",
+    "date_sort": 1406,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Renaissance humanist (ca. 1406-57) mentioned as the first to expose the Donation of Constantine as a forgery (1439), on philological grounds -- its Latin could not be eighth-century usage claiming to be fourth-century; Russell notes the irony that he was later made apostolic secr",
+    "related_philosophers": [
+      "lorenzo-valla"
+    ],
+    "related_chapters": [
+      "book-2-ch-vii",
+      "book-3-ch-ii"
+    ]
+  },
+  {
+    "id": "tycho-brahe-active",
+    "name": "Tycho Brahe (1546-1601)",
+    "date": "1546-1601",
+    "date_sort": 1546,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Discussed as an important observer rather than theorist, who proposed an intermediate geo-heliocentric system but whose real importance was his patient, decades-long accumulation of precise planetary and stellar observations (including evidence against Aristotle's doctrine of an ",
+    "related_philosophers": [
+      "tycho-brahe"
+    ],
+    "related_chapters": [
+      "book-3-ch-vi"
+    ]
+  },
+  {
+    "id": "francis-bacon-active",
+    "name": "Francis Bacon (1561-1626)",
+    "date": "1561-1626",
+    "date_sort": 1561,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Russell credits Bacon as the founder of modern inductive method and a pioneer of systematic scientific procedure, despite calling his philosophy 'in many ways unsatisfactory.' Bacon's Welsh-village parable illustrates the unreliability of 'induction by simple enumeration,' the core problem his more elaborate inductive method (lists of instances, 'prerogative instances') was meant to solve.",
+    "related_philosophers": [
+      "francis-bacon"
+    ],
+    "related_chapters": [
+      "book-3-ch-vii"
+    ]
+  },
+  {
+    "id": "thomas-hobbes-active",
+    "name": "Thomas Hobbes (1588-1679)",
+    "date": "1588-1679",
+    "date_sort": 1588,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Hobbes is unusual among English empiricists for combining empiricism with genuine admiration for mathematics, a combination Russell says did not recur until his own day. Hobbes's state of nature -- a 'war of all against all' arising from naturally equal individuals' conflicting desires for liberty and dominion -- grounds his argument that rational self-interest requires submission to an absolute sovereign.",
+    "related_philosophers": [
+      "thomas-hobbes"
+    ],
+    "related_chapters": [
+      "book-3-ch-viii",
+      "book-3-ch-x",
+      "book-3-ch-xiv",
+      "book-3-ch-xv",
+      "book-3-ch-xix"
+    ]
+  },
+  {
+    "id": "rene-descartes-active",
+    "name": "Rene Descartes (1596-1650)",
+    "date": "1596-1650",
+    "date_sort": 1596,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Russell credits Descartes as, rightly, the founder of modern philosophy: the first major philosopher since Aristotle to build a complete system from scratch rather than on inherited foundations, and the first whose thought is thoroughly shaped by the new science. Cartesian doubt -- systematically doubting the senses, one's body, and even mathematics via the hypothesis of a deceiving demon -- is Descartes's method for finding an absolutely indubitable starting point for knowledge.",
+    "related_philosophers": [
+      "rene-descartes"
+    ],
+    "related_chapters": [
+      "book-1-ch-ix",
+      "book-2-ch-iv",
+      "book-3-ch-i",
+      "book-3-ch-ix",
+      "book-3-ch-x",
+      "book-3-ch-xi",
+      "book-3-ch-xii",
+      "book-3-ch-xiii",
+      "book-3-ch-xv"
+    ]
+  },
+  {
+    "id": "baruch-spinoza-active",
+    "name": "Baruch Spinoza (1634-77)",
+    "date": "1634-77",
+    "date_sort": 1634,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Spinoza reduces Descartes's three substances (God, mind, matter) to a single infinite substance, 'God or Nature,' of which minds and bodies are merely aspects. His system is rigidly deterministic: there is no free will or chance, and everything follows with logical necessity from God's nature.",
+    "related_philosophers": [
+      "baruch-spinoza"
+    ],
+    "related_chapters": [
+      "book-3-ch-i",
+      "book-3-ch-x",
+      "book-3-ch-xi",
+      "book-3-ch-xv",
+      "book-3-ch-xxii"
+    ]
+  },
+  {
+    "id": "john-locke-active",
+    "name": "John Locke (1637-1704)",
+    "date": "1637-1704",
+    "date_sort": 1637,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Locke founded both empiricism (all knowledge derives from experience) and philosophical liberalism, and his theoretical work and the political victory of 1688 reinforced each other historically. Locke's rejection of innate ideas made perception 'the first step and degree towards knowledge,' a revolutionary claim in his time.",
+    "related_philosophers": [
+      "john-locke"
+    ],
+    "related_chapters": [
+      "book-3-ch-i",
+      "book-3-ch-xii",
+      "book-3-ch-xiii",
+      "book-3-ch-xiv",
+      "book-3-ch-xv",
+      "book-3-ch-xvi",
+      "book-3-ch-xvii",
+      "book-3-ch-xix",
+      "book-3-ch-xx"
+    ]
+  },
+  {
+    "id": "gottfried-wilhelm-leibniz-active",
+    "name": "Gottfried Wilhelm Leibniz (1646-1716)",
+    "date": "1646-1716",
+    "date_sort": 1646,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Russell distinguishes a 'popular' Leibniz, who wrote to please royal patrons, from a more profound 'esoteric' Leibniz whose deterministic, Spinozistic views were kept hidden and only published from manuscript nearly two centuries after his death. Leibniz's monads are simple, unextended, mind-like substances that make up all reality; they are 'windowless' and never causally interact, appearing to correspond only through God's pre-established harmony.",
+    "related_philosophers": [
+      "gottfried-wilhelm-leibniz"
+    ],
+    "related_chapters": [
+      "book-1-ch-ix",
+      "book-3-ch-i",
+      "book-3-ch-x",
+      "book-3-ch-xi",
+      "book-3-ch-xiii",
+      "book-3-ch-xv",
+      "book-3-ch-xxxi"
+    ]
+  },
+  {
+    "id": "george-berkeley-active",
+    "name": "George Berkeley (1685-1753)",
+    "date": "1685-1753",
+    "date_sort": 1685,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Berkeley denied the existence of matter, holding that material objects exist only through being perceived, with God's constant perception securing their continuous existence. Berkeley's Dialogues of Hylas and Philonous dramatize his argument as a debate between common-sense realism (Hylas) and Berkeley's own idealism (Philonous).",
+    "related_philosophers": [
+      "george-berkeley"
+    ],
+    "related_chapters": [
+      "book-3-ch-i",
+      "book-3-ch-xiii",
+      "book-3-ch-xv",
+      "book-3-ch-xvi",
+      "book-3-ch-xvii",
+      "book-3-ch-xx"
+    ]
+  },
+  {
+    "id": "david-hume-active",
+    "name": "David Hume (1711-76)",
+    "date": "1711-76",
+    "date_sort": 1711,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Hume distinguishes vivid 'impressions' from fainter, derivative 'ideas,' holding that every simple idea must trace back to a corresponding simple impression. Hume dissolves the self into 'a bundle or collection of different perceptions,' finding no impression, and therefore no idea, of a persisting mental substance.",
+    "related_philosophers": [
+      "david-hume"
+    ],
+    "related_chapters": [
+      "book-3-ch-i",
+      "book-3-ch-xiii",
+      "book-3-ch-xv",
+      "book-3-ch-xvii",
+      "book-3-ch-xix",
+      "book-3-ch-xx"
+    ]
+  },
+  {
+    "id": "jean-jacques-rousseau-active",
+    "name": "Jean-Jacques Rousseau (1712-1778)",
+    "date": "1712-1778",
+    "date_sort": 1712,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Russell treats Rousseau primarily as a historically decisive 'social force' rather than as a rigorous philosopher, tracing his importance to his appeal to sensibility. Rousseau invented the now-common Protestant strategy of grounding belief in God in feeling ('the heart') rather than in intellectual proof -- a move Russell considers historically original but philosophically indefensible.",
+    "related_philosophers": [
+      "jean-jacques-rousseau"
+    ],
+    "related_chapters": [
+      "book-3-ch-i",
+      "book-3-ch-xii",
+      "book-3-ch-xv",
+      "book-3-ch-xvii",
+      "book-3-ch-xviii",
+      "book-3-ch-xix",
+      "book-3-ch-xx",
+      "book-3-ch-xxii",
+      "book-3-ch-xxiii"
+    ]
+  },
+  {
+    "id": "arthur-schopenhauer-active",
+    "name": "Arthur Schopenhauer (1788-1860)",
+    "date": "1788-1860",
+    "date_sort": 1788,
+    "category": [
+      "philosophy"
+    ],
+    "description": "Schopenhauer is unusual among philosophers for combining metaphysical seriousness with unrelenting pessimism, in a tradition (Western philosophy) that Russell says has generally leaned optimistic. Unlike Fichte and Hegel, Schopenhauer retains Kant's 'thing-in-itself' and identifies it with Will, arguing that what appears to perception as the body is, in reality, will.",
+    "related_philosophers": [
+      "arthur-schopenhauer"
+    ],
+    "related_chapters": [
+      "book-3-ch-xxiv",
+      "book-3-ch-xxv"
+    ]
+  },
+  {
+    "id": "william-james-active",
+    "name": "William James (1842-1910)",
+    "date": "1842-1910",
+    "date_sort": 1842,
+    "category": [
+      "philosophy"
+    ],
+    "description": "William James was central to American philosophy on two fronts: radical empiricism (rejecting subject-object dualism) and pragmatism (redefining truth as beneficial effect). Russell endorses James's radical empiricism -- that pure experience, not a subject-object dualism, is fundamental -- while disputing only James's identification of 'experience' with the whole stuff of the world.",
+    "related_philosophers": [
+      "william-james"
+    ],
+    "related_chapters": [
+      "book-3-ch-xxix",
+      "book-3-ch-xxx",
+      "book-3-ch-xxxi"
+    ]
+  }
+]

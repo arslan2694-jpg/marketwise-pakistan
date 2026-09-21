@@ -1,0 +1,34 @@
+{
+  "slug": "the-categorical-imperative",
+  "name": "The Categorical Imperative",
+  "plain_explanation": "Kant's rule for right action: act only in the way you could will everyone else to act, as if your personal rule of action were a universal law of nature -- not because of what results it produces, but simply because it is the rational, dutiful thing to do.",
+  "precise_definition": "A synthetic a priori command of reason, unconditional and independent of any particular end (unlike the 'hypothetical imperative', which is conditional on a desired goal): 'Act only according to a maxim by which you can at the same time will that it shall become a general law.' Moral worth requires acting from a sense of duty, not merely in accordance with duty.",
+  "why_it_mattered": "It grounds Kant's rejection of utilitarianism and of any ethics that derives morality from an external purpose, making duty (not consequences or inclination) the sole basis of moral worth; it also underlies Kant's principle that every man should be treated as an end in himself.",
+  "historical_origin": "Metaphysic of Morals (1785).",
+  "associated_philosopher": "Immanuel Kant",
+  "examples": [
+    "Borrowing money is wrong because if everyone did so there would be no money left to lend",
+    "Theft and murder similarly fail the test of universalizability"
+  ],
+  "objections": [
+    "It gives, at best, a necessary but not sufficient criterion of virtue: some acts Kant would clearly judge wrong (e.g. suicide) cannot obviously be shown wrong by the maxim, since a melancholic could consistently will universal suicide.",
+    "Treating every man as an absolute end in himself makes it impossible, if taken literally, to resolve conflicts of interest between people -- a problem especially acute in political philosophy, which requires some principle for deciding whose interests yield.",
+    "It can be salvaged by reinterpreting the 'end in himself' principle as meaning all men should count equally in decisions affecting many, which gives it an ethical basis compatible with democracy."
+  ],
+  "competing_positions": [
+    "Utilitarianism, which Kant explicitly rejects, judging actions by consequences rather than by the universalizability of their governing maxim"
+  ],
+  "influence_on_later_thinkers": "Remains, per Russell, familiar 'outside the circle of professional philosophers' as a phrase, and has considerable historical importance in ethics.",
+  "connection_to_politics_or_religion": "Can be read as an abstract form of the doctrine of the rights of man, and, reinterpreted, as an ethical basis for democracy.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Immanuel Kant",
+      "treatment": "Kant's rule for right action: act only in the way you could will everyone else to act, as if your personal rule of action were a universal law of nature -- not because of what results it produces, but simply because it is the rational, dutiful thing to do."
+    }
+  ]
+}

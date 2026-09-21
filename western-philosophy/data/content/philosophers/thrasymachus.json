@@ -1,0 +1,41 @@
+{
+  "slug": "thrasymachus",
+  "name": "Thrasymachus",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "A figure in Plato's Republic (Book I) who argues that justice is nothing but the interest of the stronger, that laws serve the advantage of governments, and that there is no impersonal standard of justice. A Sophist from Chalcedon who appears in Book I of the Republic and bluntly asserts that 'justice is nothing else than the interest of the stronger'; Russell argues Socrates never fairly answers this challenge, which raises the deep question of whether ethical claims can be objectively true.",
+  "central_doctrines": "",
+  "key_arguments": [
+    "Thrasymachus's 'justice is the interest of the stronger' argument",
+    "Thrasymachus's claim that justice is the interest of the stronger"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-x",
+      "role": "A figure in Plato's Republic (Book I) who argues that justice is nothing but the interest of the stronger, that laws serve the advantage of governments, and that there is no impersonal standard of justice."
+    },
+    {
+      "chapter_id": "book-1-ch-xiv",
+      "role": "A Sophist from Chalcedon who appears in Book I of the Republic and bluntly asserts that 'justice is nothing else than the interest of the stronger'; Russell argues Socrates never fairly answers this challenge, which raises the deep question of whether ethical claims can be objectively true."
+    }
+  ],
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "charles-darwin",
+  "name": "Charles Darwin",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [
+    "Darwinian evolution and the struggle for existence"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Treated as the Newton of the nineteenth century, whose theory of evolution by natural selection -- itself, Russell argues, an extension of Malthusian and Benthamite 'biological economics' to the whole of life -- reshaped philosophical and political thought, sometimes in ways that cut against traditional liberal doctrines of human equality. Discussed as influenced by Malthus and in general sympathy with the Philosophical Radicals, though Russell argues that the unrestricted 'struggle for existence' Darwin proclaimed was, contrary to Darwin's own Liberal sympathies, closer in spirit to Nietzsche's philosophy than to Bentham's rule-bound 'free competition.'",
+  "central_doctrines": "Darwinian evolution and the struggle for existence: Darwin's two-part theory: (1) the doctrine of evolution, that present forms of life descended gradually from common ancestors (not original to Darwin, but newly evidenced by him), and (2) the mechanism of natural selection -- since organisms multiply faster than resources allow, and offspring vary from their parents, those variations best suited to the environment preponderate among survivors in each generation, producing cumulative change over long periods.",
+  "key_arguments": [
+    "Darwin's argument for natural selection"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [
+    {
+      "with": "helvetius",
+      "about": "Darwinian evolution and the struggle for existence"
+    },
+    {
+      "with": "condorcet",
+      "about": "Darwinian evolution and the struggle for existence"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xxi",
+      "role": "Treated as the Newton of the nineteenth century, whose theory of evolution by natural selection -- itself, Russell argues, an extension of Malthusian and Benthamite 'biological economics' to the whole of life -- reshaped philosophical and political thought, sometimes in ways that cut against traditional liberal doctrines of human equality."
+    },
+    {
+      "chapter_id": "book-3-ch-xxvi",
+      "role": "Discussed as influenced by Malthus and in general sympathy with the Philosophical Radicals, though Russell argues that the unrestricted 'struggle for existence' Darwin proclaimed was, contrary to Darwin's own Liberal sympathies, closer in spirit to Nietzsche's philosophy than to Bentham's rule-bound 'free competition.'"
+    }
+  ],
+  "extraction_confidence": "high"
+}

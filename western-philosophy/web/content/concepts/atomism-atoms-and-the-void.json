@@ -1,0 +1,35 @@
+{
+  "slug": "atomism-atoms-and-the-void",
+  "name": "Atomism (atoms and the void)",
+  "plain_explanation": "Leucippus and Democritus held that everything in the universe is made of tiny, indestructible, physically unsplittable particles called atoms, moving in empty space (the void), differing only in shape, size, and arrangement.",
+  "precise_definition": "The theory that all things are composed of an infinite number of atoms, physically (though not geometrically) indivisible, indestructible, always in motion, differing in shape and size, moving through empty space (the void) between them, with observable qualities arising from the arrangement, motion, and collision of atoms rather than from any inherent purpose.",
+  "why_it_mattered": "Russell repeatedly calls it 'the theory of the atomists' the ancient system 'more nearly that of modern science than any other theory propounded in antiquity,' making it a pivotal moment where Greek philosophy anticipates, without the empirical grounding of, later physics and chemistry.",
+  "historical_origin": "Devised by Leucippus, developed in detail by Democritus, as an attempt to reconcile Parmenides's monism with Empedocles's pluralism and with the observed fact of change.",
+  "associated_philosopher": "Leucippus and Democritus",
+  "examples": [
+    "Fire composed of small spherical atoms",
+    "The soul composed of atoms similar to those of fire",
+    "Vortices of colliding atoms forming worlds"
+  ],
+  "objections": [
+    "Aristotle and others reproached the atomists for not accounting for the atoms' original motion.",
+    "It was common in antiquity to accuse the atomists of attributing everything to chance (a charge Russell says is mistaken, since they were strict determinists)."
+  ],
+  "competing_positions": [
+    "Anaxagoras's explanation of vortex-formation via mind, which the atomists replace with a purely mechanical account",
+    "Parmenides's denial that not-being (the void) can exist at all"
+  ],
+  "influence_on_later_thinkers": "Revived by Epicurus in antiquity and, Russell notes, revived again in modern times to explain the facts of chemistry, more than two thousand years after Leucippus and Democritus first proposed it without that empirical support.",
+  "connection_to_politics_or_religion": "Underpins Democritus's disbelief in popular religion and his rejection of purpose (Providence) in the universe.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-ix"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Leucippus and Democritus",
+      "treatment": "Leucippus and Democritus held that everything in the universe is made of tiny, indestructible, physically unsplittable particles called atoms, moving in empty space (the void), differing only in shape, size, and arrangement."
+    }
+  ]
+}

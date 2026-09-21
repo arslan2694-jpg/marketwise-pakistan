@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import Sidebar from "./Sidebar";
@@ -13,9 +13,15 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
 
-  useEffect(() => {
+  // Close the mobile nav drawer on navigation. Adjusting state during
+  // render (React's recommended pattern for "reset state when a prop
+  // changes") rather than in an effect, so this doesn't cost an extra
+  // commit+repaint after every navigation.
+  const [prevPathname, setPrevPathname] = useState(pathname);
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
     setMobileOpen(false);
-  }, [pathname]);
+  }
 
   const current = NAV_GROUPS.flatMap((g) => g.items).find(
     (i) => pathname === i.href || pathname.startsWith(i.href + "/")

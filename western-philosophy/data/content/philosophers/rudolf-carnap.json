@@ -1,0 +1,34 @@
+{
+  "slug": "rudolf-carnap",
+  "name": "Rudolf Carnap",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Named as advancing the theory that all philosophical problems are really syntactical and are thereby either solved or shown insoluble once syntactic errors are avoided; Russell regards this as an overstatement while granting the great utility of philosophical syntax.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [],
+  "successors": [],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "",
+  "why_this_matters": "",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xxxi",
+      "role": "Named as advancing the theory that all philosophical problems are really syntactical and are thereby either solved or shown insoluble once syntactic errors are avoided; Russell regards this as an overstatement while granting the great utility of philosophical syntax."
+    }
+  ],
+  "extraction_confidence": "high"
+}

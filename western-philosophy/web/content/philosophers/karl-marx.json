@@ -1,0 +1,78 @@
+{
+  "slug": "karl-marx",
+  "name": "Karl Marx",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Dialectical materialism",
+  "major_ideas": [
+    "Dialectical materialism (activist theory of knowledge)",
+    "The materialist conception of history",
+    "The dialectic of feudalism, capitalism, and Socialism (classes replacing nations)",
+    "Marx's uncritical nineteenth-century belief in inevitable progress"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Briefly flagged as 'in the main, an offshoot of liberalism,' to be treated later in the book. Mentioned as (along with Ricardo) sometimes credited with the labour theory of value, which Russell traces back through Locke to Aquinas and the scholastics; quoted via Tawney as 'the last of the schoolmen.' Named as one of Locke's ultimate philosophical heirs (via Bentham and the Radicals), though Russell flags his system as too 'eclectic' for simple characterization and defers detailed treatment to a later chapter. Introduced briefly as the figure in whom the rationalistic revolt 'acquires a deeper form' and issues in Soviet Russia; noted as wishing to dedicate a book to Darwin despite his own doctrines being, in some respects, pre-Darwinian. Presented in three intertwined aspects: heir to the Philosophical Radicals' rationalism and anti-romanticism; a 'dialectical materialist' who reinterprets sensation as an active, practical process rather than passive contemplation; and the last great Hegelian system-builder, who replaces Hegel's Spirit with matter (in practice, economics) as history's driving force via the materialist conception of history.",
+  "central_doctrines": "Dialectical materialism (activist theory of knowledge): Marx's 'dialectical' materialism, distinct from eighteenth-century materialism, holds that sensation or perception is an interaction between subject and object in which the object, apart from the activity of the percipient, is mere raw material transformed in the process of being known; truth is therefore demonstrated in practice, not established by isolated contemplation. The materialist conception of history: Marx's doctrine that the politics, religion, philosophy, and art of any historical epoch are, in their broad outlines (though not in every technical detail), an outcome of its methods of production and, to a lesser extent, distribution. The dialectic of feudalism, capitalism, and Socialism (classes replacing nations): Marx's substitution of a single historical triad -- feudalism (the landowner), capitalism (the industrial employer), and Socialism (the wage-earner) -- and of classes for Hegel's nations, as the vehicles of an inevitable, deterministic dialectical movement.",
+  "key_arguments": [
+    "Marx's argument for the materialist conception of history"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "philo",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell",
+    "thomas-hodgskin"
+  ],
+  "successors": [
+    "friedrich-nietzsche",
+    "johann-gottlieb-fichte",
+    "jean-jacques-rousseau",
+    "bertrand-russell",
+    "william-james",
+    "john-dewey"
+  ],
+  "disagreements": [
+    {
+      "with": "bertrand-russell",
+      "about": "The materialist conception of history"
+    },
+    {
+      "with": "georg-wilhelm-friedrich-hegel",
+      "about": "The dialectic of feudalism, capitalism, and Socialism (classes replacing nations)"
+    }
+  ],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Marx as a genuinely three-sided figure -- rationalist heir of the Philosophical Radicals, innovator of an 'activist' materialism anticipating instrumentalism, and last great Hegelian system-builder -- who is hard to reduce to any single label. He credits Marx's materialist conception of history with real, partly-accepted insight (acknowledging its influence on his own historiographical method in this book), while offering two explicit objections: social causation is as much political as economic, and it largely ceases to apply to technical philosophical questions once they become sufficiently detailed (illustrated via the problem of universals and the ontological argument). Russell's overall philosophical verdict is critical: Marx is 'too practical, too much wrapped up in the problems of his time,' fails to assimilate the post-Copernican demotion of Man's cosmic importance, and smuggles in an unscientific, quasi-religious belief in inevitable progress that lets him dispense with ethical argument for Socialism. Russell suggests the substantive, non-Hegelian core of Marx's views on industrial cruelty and the tendency of capitalism toward monopoly could be stated, and perhaps better defended, without the Hegelian dialectical apparatus.",
+  "why_this_matters": "Russell examines Marx purely as a philosopher, deliberately excluding his economics and most of his practical politics from evaluation. Marx's 'dialectical' materialism treats knowing as an active, practical interaction between subject and object, not passive contemplation -- Russell links this to later instrumentalism.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-xii",
+      "role": "Briefly flagged as 'in the main, an offshoot of liberalism,' to be treated later in the book."
+    },
+    {
+      "chapter_id": "book-3-ch-xiv",
+      "role": "Mentioned as (along with Ricardo) sometimes credited with the labour theory of value, which Russell traces back through Locke to Aquinas and the scholastics; quoted via Tawney as 'the last of the schoolmen.'"
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Named as one of Locke's ultimate philosophical heirs (via Bentham and the Radicals), though Russell flags his system as too 'eclectic' for simple characterization and defers detailed treatment to a later chapter."
+    },
+    {
+      "chapter_id": "book-3-ch-xxi",
+      "role": "Introduced briefly as the figure in whom the rationalistic revolt 'acquires a deeper form' and issues in Soviet Russia; noted as wishing to dedicate a book to Darwin despite his own doctrines being, in some respects, pre-Darwinian."
+    },
+    {
+      "chapter_id": "book-3-ch-xxvii",
+      "role": "Presented in three intertwined aspects: heir to the Philosophical Radicals' rationalism and anti-romanticism; a 'dialectical materialist' who reinterprets sensation as an active, practical process rather than passive contemplation; and the last great Hegelian system-builder, who replaces Hegel's Spirit with matter (in practice, economics) as history's driving force via the materialist conception of history."
+    }
+  ],
+  "extraction_confidence": "high"
+}

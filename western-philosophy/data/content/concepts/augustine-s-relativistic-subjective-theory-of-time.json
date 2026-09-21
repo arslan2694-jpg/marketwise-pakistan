@@ -1,0 +1,32 @@
+{
+  "slug": "augustine-s-relativistic-subjective-theory-of-time",
+  "name": "Augustine's relativistic (subjective) theory of time",
+  "plain_explanation": "Augustine argues that only the present moment truly exists; the past exists only as present memory, and the future only as present expectation. Time, on this view, is something the mind does, not an independent framework the world sits inside.",
+  "precise_definition": "The doctrine that there are properly speaking three 'presents' -- a present of things past (memory), a present of things present (sight), and a present of things future (expectation) -- and that time is therefore subjective, existing in the created, remembering, expecting mind rather than as an objective container that could have existed 'before' Creation.",
+  "why_it_mattered": "It lets Augustine answer the Manichaean taunt 'why did God not create the world sooner?' by dissolving the question: since time itself began with creation, there was no 'sooner' for the world to have been created in.",
+  "historical_origin": "Developed in Book XI of the Confessions, in response to a hypothetical objector demanding why the Creation did not occur earlier.",
+  "associated_philosopher": "Saint Augustine",
+  "examples": [
+    "'What, then, is time? If no one asks of me, I know; if I wish to explain to him who asks, I know not.'",
+    "The identification of the 'three times' with memory, sight, and expectation"
+  ],
+  "objections": [
+    "Russell himself disagrees with the theory insofar as it makes time purely mental"
+  ],
+  "competing_positions": [
+    "The Greek/Platonic-Aristotelian assumption of an objective, presupposed time within which creation occurs"
+  ],
+  "influence_on_later_thinkers": "Russell judges it a clearer anticipation of Kant's subjectivist theory of time than anything in Greek philosophy, and situates it within a broader current of subjectivism running from Protagoras and Socrates through to Descartes's cogito, which Augustine's Soliloquia also anticipates.",
+  "connection_to_politics_or_religion": "Underwrites the theological claim that God is timelessly eternal and that time itself is a created, not an eternal, feature of reality.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-2-ch-iv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Saint Augustine",
+      "treatment": "Augustine argues that only the present moment truly exists; the past exists only as present memory, and the future only as present expectation. Time, on this view, is something the mind does, not an independent framework the world sits inside."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "environmental-determinism-and-the-omnipotence-of-education",
+  "name": "Environmental determinism and the omnipotence of education",
+  "plain_explanation": "Helvétius held that people are not born with fixed talents or characters; whatever a person becomes -- genius or fool, virtuous or vicious -- is entirely the product of their upbringing and the laws and customs under which they live.",
+  "precise_definition": "The doctrine, following Locke's tabula rasa, that all differences between individuals in talent and virtue are effects of differing education (broadly construed to include the form of government and prevailing manners and customs), such that a sufficiently good education could, in principle, produce human perfection.",
+  "why_it_mattered": "It underlies the extreme optimism of Helvétius and Condorcet and explains why later Darwinian evidence for congenital differences struck at a load-bearing pillar of Enlightenment egalitarianism.",
+  "historical_origin": "Helvétius's De l'Esprit (1758).",
+  "associated_philosopher": "Helvétius",
+  "examples": [
+    "Helvétius's claim that if Shakespeare had not been caught poaching he would have been a wool merchant",
+    "'Men are born ignorant, not stupid; they are made stupid by education.'"
+  ],
+  "objections": [
+    "Darwinian evolution, by emphasizing congenital variation as the material on which natural selection works, cuts against the doctrine that all human differences are due to education."
+  ],
+  "competing_positions": [
+    "Darwin's emphasis on congenital (inherited) variation between individuals of the same species"
+  ],
+  "influence_on_later_thinkers": "Shaped James Mill's educational program for John Stuart Mill.",
+  "connection_to_politics_or_religion": "Fed directly into Helvétius's anti-clericalism: he suggests a perfect education would be easy to achieve 'if the priests were got out of the way.'",
+  "is_major": false,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Helvétius",
+      "treatment": "Helvétius held that people are not born with fixed talents or characters; whatever a person becomes -- genius or fool, virtuous or vicious -- is entirely the product of their upbringing and the laws and customs under which they live."
+    }
+  ]
+}

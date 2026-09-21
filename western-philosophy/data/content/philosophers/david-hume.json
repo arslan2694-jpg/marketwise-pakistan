@@ -1,0 +1,72 @@
+{
+  "slug": "david-hume",
+  "name": "David Hume",
+  "era": "Modern",
+  "dates": "1711-76",
+  "geography": "",
+  "school": "British empiricism",
+  "major_ideas": [
+    "Impressions and ideas",
+    "The dissolution of the Self into a 'bundle of perceptions'",
+    "The analysis of causation: constant conjunction, not necessary connection",
+    "The problem of induction",
+    "Hume's total scepticism and his retreat into 'natural credulity'"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Cited as the culmination of empiricist subjectivism in a scepticism 'which none could refute and none could accept.' Referenced as the philosopher who inherited Locke's maxim 'no idea without an antecedent impression' and who tried, more consistently than Locke, to resolve (by dropping external causes of sensation) the very inconsistency Russell diagnoses in Locke. Named as Locke's other chief philosophical heir; noted as a Tory whose reactionary political views (expressed in his History of England) show little direct connection between his empiricism and his politics, and whose personal residence in France helped transmit English influence there. The chapter's sole primary subject: Russell reconstructs his theory of impressions and ideas, his critique of the self, his revolutionary and sceptical analysis of causation and induction, and his ultimate retreat into 'natural credulity' and 'carelessness and inattention' as the only practical antidotes to total scepticism. Offered Rousseau refuge in England in 1762 and remained loyal longest, but was eventually suspected by Rousseau's persecution mania of plotting against him; Russell quotes Hume's sympathetic but damning final assessment of Rousseau's character. Presented as the empiricist who pursued theoretical consistency furthest, denying the Self and throwing doubt on induction and causation, thereby exposing that consistent empiricism leads to conclusions 'which few human beings could bring themselves to accept'; his critique of causality is what awakened Kant.",
+  "central_doctrines": "Impressions and ideas: Hume's foundational distinction: impressions 'have more force and violence,' while 'by ideas I mean the faint images of these in thinking and reasoning'; his key principle is that 'every simple idea has a simple impression, which resembles it; and every simple impression a correspondent idea,' with complex ideas (which need not resemble any single impression) built out of simple ones. The dissolution of the Self into a 'bundle of perceptions': Hume denies any impression, and therefore any idea, of the self: 'when I enter most intimately into what I call myself, I always stumble on some particular perception or other ... I never catch myself at any time without a perception'; he concludes we are 'nothing but a bundle or collection of different perceptions, which succeed each other with inconceivable rapidity, and are in a perpetual flux and movement.' The analysis of causation: constant conjunction, not necessary connection: Hume's objective claim: 'we have no other notion of cause and effect, but that of certain objects, which have been always conjoined together ... we cannot penetrate into the reason of the conjunction'; causation reduces to constant, observed conjunction (or immediate succession) between event-types, not any further, perceivable 'necessary connection.' His subjective claim: this felt sense of necessity arises because 'custom operating upon the imagination' -- the frequent past conjunction of A and B causes the impression of A to produce a vivid, belief-constituting idea of B. The problem of induction: Hume's sceptical argument: any rational justification for expecting future conjunctions to resemble past ones would require the principle 'that instances of which we have had no experience resemble those of which we have had experience'; this principle is not logically necessary (a change in nature's course is conceivable) and cannot be established by any 'probable' (i.e., empirical) argument either, since all such arguments already presuppose it -- so 'the supposition that the future resembles the past is ... derived entirely from habit,' not reason.",
+  "key_arguments": [
+    "The argument for the bundle theory of the self",
+    "The argument that causation is nothing but constant conjunction",
+    "The problem of induction (the argument from the impossibility of justifying the uniformity of nature)"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "john-locke",
+    "george-berkeley",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "immanuel-kant",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell treats Hume with unusual respect combined with real alarm: Hume is 'one of the most important among philosophers' precisely because, by reasoning more rigorously and consistently than Locke or Berkeley, he pushed empiricism to conclusions that are 'equally difficult to refute and to accept.' Russell reconstructs Hume's system in stages -- the impressions/ideas distinction, the bundle theory of the self, and finally the analysis of causation and induction -- reserving his most sustained engagement for the latter, which he calls 'the most important part of the whole Treatise.' Russell endorses much of Hume's 'objective' doctrine of causation (that causal laws, properly stated, involve nothing beyond conjunction) while pressing Hume on an internal inconsistency: Hume's own psychological explanation of belief (the 'law of habit') is itself a causal claim that his scepticism about induction should, if taken seriously, equally undermine. Russell treats the problem of induction as Hume's deepest and still-unanswered achievement -- 'a challenge to philosophers, which, in my opinion, has still not been adequately met' -- and closes by arguing that Hume's own retreat into 'natural credulity' and 'carelessness and inattention' is a practical, not a philosophical, solution: sincere as psychology, but an admission of intellectual defeat. Russell's own tentative way forward is to isolate the principle of induction as an independent, non-empirical logical principle that any workable science must simply assume, since it 'cannot, without circularity, be inferred from observed uniformities.'",
+  "why_this_matters": "Hume distinguishes vivid 'impressions' from fainter, derivative 'ideas,' holding that every simple idea must trace back to a corresponding simple impression. Hume dissolves the self into 'a bundle or collection of different perceptions,' finding no impression, and therefore no idea, of a persisting mental substance.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Cited as the culmination of empiricist subjectivism in a scepticism 'which none could refute and none could accept.'"
+    },
+    {
+      "chapter_id": "book-3-ch-xiii",
+      "role": "Referenced as the philosopher who inherited Locke's maxim 'no idea without an antecedent impression' and who tried, more consistently than Locke, to resolve (by dropping external causes of sensation) the very inconsistency Russell diagnoses in Locke."
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Named as Locke's other chief philosophical heir; noted as a Tory whose reactionary political views (expressed in his History of England) show little direct connection between his empiricism and his politics, and whose personal residence in France helped transmit English influence there."
+    },
+    {
+      "chapter_id": "book-3-ch-xvii",
+      "role": "The chapter's sole primary subject: Russell reconstructs his theory of impressions and ideas, his critique of the self, his revolutionary and sceptical analysis of causation and induction, and his ultimate retreat into 'natural credulity' and 'carelessness and inattention' as the only practical antidotes to total scepticism."
+    },
+    {
+      "chapter_id": "book-3-ch-xix",
+      "role": "Offered Rousseau refuge in England in 1762 and remained loyal longest, but was eventually suspected by Rousseau's persecution mania of plotting against him; Russell quotes Hume's sympathetic but damning final assessment of Rousseau's character."
+    },
+    {
+      "chapter_id": "book-3-ch-xx",
+      "role": "Presented as the empiricist who pursued theoretical consistency furthest, denying the Self and throwing doubt on induction and causation, thereby exposing that consistent empiricism leads to conclusions 'which few human beings could bring themselves to accept'; his critique of causality is what awakened Kant."
+    }
+  ],
+  "extraction_confidence": "high"
+}

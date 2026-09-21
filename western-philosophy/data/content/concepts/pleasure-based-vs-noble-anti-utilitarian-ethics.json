@@ -1,0 +1,32 @@
+{
+  "slug": "pleasure-based-vs-noble-anti-utilitarian-ethics",
+  "name": "Pleasure-based vs. 'noble' (anti-utilitarian) ethics",
+  "plain_explanation": "Locke and the empiricist tradition held that pleasure or happiness is the good, and that ethics should aim at increasing it; their rationalist and idealist opponents (culminating in Kant) instead despised pleasure as an ignoble motive and prized things like duty, power, or heroic self-sacrifice as higher ends.",
+  "precise_definition": "For Locke and his empiricist successors, pleasure was 'the good' throughout the eighteenth and nineteenth centuries; their opponents -- Hobbes (power), Spinoza (partly power, partly mystic union with God), Kant (duty performed for the moral law's own sake, with an afterlife needed to reconcile virtue and happiness) -- held ethics to a standard explicitly opposed to, or higher than, the pursuit of pleasure.",
+  "why_it_mattered": "Russell argues, provocatively, that the men who thought happiness the end of life tended in practice to be the more benevolent and to do more to actually improve the world, while those who despised happiness as ignoble more often found, in 'noble' ideals like heroism, 'unconscious outlets for the impulse to power' and 'excuses for cruelty.'",
+  "historical_origin": "Traced through the whole post-Lockean tradition, culminating in Kant's explicitly anti-utilitarian ethics (Critique of Practical Reason).",
+  "associated_philosopher": "John Locke",
+  "examples": [
+    "Kant's claim that helping your brother out of affection for him has no moral merit -- only acting because the moral law commands it does",
+    "Byron's heroes, prized for strong emotion (including hatred and revenge) rather than exemplary conduct"
+  ],
+  "objections": [
+    "Russell's own counter-argument: contempt for happiness is 'easier when the happiness is other people's than when it is our own'"
+  ],
+  "competing_positions": [
+    "Kant's ethics of duty, in which moral worth attaches only to acting from respect for the moral law, not from inclination or desire for pleasure"
+  ],
+  "influence_on_later_thinkers": "Russell links the romantic, anti-utilitarian strand forward to Byron, Carlyle, and (in his schematic map) eventually to Nietzsche.",
+  "connection_to_politics_or_religion": "Kant's ethics requires postulating an afterlife and God to secure ultimate justice between virtue and happiness, since the virtuous often suffer in this world.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Locke",
+      "treatment": "Locke and the empiricist tradition held that pleasure or happiness is the good, and that ethics should aim at increasing it; their rationalist and idealist opponents (culminating in Kant) instead despised pleasure as an ignoble motive and prized things like duty, power, or heroic self-sacrifice as higher ends."
+    }
+  ]
+}

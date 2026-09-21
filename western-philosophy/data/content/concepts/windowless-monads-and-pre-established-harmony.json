@@ -1,0 +1,31 @@
+{
+  "slug": "windowless-monads-and-pre-established-harmony",
+  "name": "Windowless monads and pre-established harmony",
+  "plain_explanation": "Monads cannot causally affect one another at all - they are 'windowless.' What looks like interaction (for example, my will moving my arm) is really the result of God having set up all monads in advance, like an infinite number of perfectly synchronized clocks, so their changes match up without any real causal connection.",
+  "precise_definition": "The doctrine that no monad can have any causal relation to any other; each simply unfolds according to its own nature, and the appearance of interaction across monads is explained by a harmony pre-established by God at creation.",
+  "why_it_mattered": "It resolves the problem, inherited from Cartesian occasionalism, of how substances that cannot interact can nonetheless appear to affect one another (as in perception or in physical impact).",
+  "historical_origin": "An extension of the Cartesian 'two clocks' analogy for mind-body correspondence, generalized by Leibniz to an infinite number of monads.",
+  "associated_philosopher": "Gottfried Wilhelm Leibniz",
+  "examples": [
+    "Leibniz compared monads to an infinite number of clocks all arranged by the Creator to strike at the same instant, not because they affect each other but because each is a perfectly accurate mechanism."
+  ],
+  "objections": [
+    "If monads never interact, Russell asks how one could know that any others exist at all; the appearance of mirroring the universe might simply be a shared, coincidental 'dream.'"
+  ],
+  "competing_positions": [
+    "Cartesian occasionalism, in which God intervenes on each occasion rather than pre-arranging everything in advance"
+  ],
+  "influence_on_later_thinkers": "Leibniz argued the pre-established harmony itself was evidence for God's existence, forming his fourth argument for God, generalizable into the argument from design.",
+  "connection_to_politics_or_religion": "Used by Leibniz as a proof of God's existence and providence.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Gottfried Wilhelm Leibniz",
+      "treatment": "Monads cannot causally affect one another at all - they are 'windowless.' What looks like interaction (for example, my will moving my arm) is really the result of God having set up all monads in advance, like an infinite number of perfectly synchronized clocks, so their changes match up without any real causal connection."
+    }
+  ]
+}

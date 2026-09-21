@@ -1,0 +1,52 @@
+{
+  "slug": "johannes-kepler",
+  "name": "Johannes Kepler",
+  "era": "Modern",
+  "dates": "",
+  "geography": "",
+  "school": "Early modern empirical/mathematical science",
+  "major_ideas": [
+    "Kepler's three laws of planetary motion"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Discussed as 'one of the most notable examples of what can be achieved by patience without much in the way of genius,' whose three laws of planetary motion (elliptical orbits, equal areas in equal times, and the relation between orbital period and distance) gave the heliocentric theory its 'full simplicity,' discarding the ancient aesthetic prejudice in favor of circular motion despite being partly motivated by his own Pythagorean, quasi-mystical inclinations.",
+  "central_doctrines": "Kepler's three laws of planetary motion: First law: the planets describe elliptic orbits, of which the sun occupies one focus. Second law: the line joining a planet to the sun sweeps out equal areas in equal times. Third law: the square of a planet's orbital period is proportional to the cube of its average distance from the sun.",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "aristotle",
+    "democritus",
+    "isaac-newton",
+    "aristarchus-of-samos",
+    "thomas-aquinas",
+    "martin-luther",
+    "nicolaus-copernicus",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "isaac-newton",
+    "rene-descartes",
+    "gerbert-pope-sylvester-ii",
+    "thomas-hobbes",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell presents the rise of science as the true dividing line of modernity, crediting Copernicus, Kepler, Galileo, and Newton (in ascending order of achievement, with Galileo and Newton as the two greatest) with combining, for the first time together in a sustained way, patient empirical observation and bold, revisable hypothesis-making. He defends the scientific attitude explicitly against E. A. Burtt's charge that early modern science's success was merely lucky, arguing that what matters is method (tentative, evidence-based belief) rather than the immediate provability of any particular early theory. He is admiring but not uncritical: he notes Copernicus's residual Pythagorean aesthetic bias, Kepler's quasi-mystical motivations, and the danger that Newton's overwhelming authority threatened, like Aristotle's before him, to freeze rather than advance further inquiry. He closes the chapter by drawing out the era's deepest philosophical consequences -- the removal of animism and purpose from physical explanation, the destabilizing effect on orthodox theology, and the paradoxical way in which a cosmologically humbling discovery (earth's insignificance) produced not humility but a new, scientifically-fueled human self-confidence.",
+  "why_this_matters": "Russell identifies the seventeenth century, not the Italian Renaissance or the Reformation, as the true beginning of the modern mental outlook, because of the transformative achievement of Copernicus, Kepler, Galileo, and Newton. Galileo's law of inertia (and Newton's codification of it as the first law of motion) unified terrestrial and celestial dynamics under a single principle: uniform motion is 'natural' unless changed by an external force.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-vi",
+      "role": "Discussed as 'one of the most notable examples of what can be achieved by patience without much in the way of genius,' whose three laws of planetary motion (elliptical orbits, equal areas in equal times, and the relation between orbital period and distance) gave the heliocentric theory its 'full simplicity,' discarding the ancient aesthetic prejudice in favor of circular motion despite being partly motivated by his own Pythagorean, quasi-mystical inclinations."
+    }
+  ],
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "george-berkeley",
+  "name": "George Berkeley",
+  "era": "Modern",
+  "dates": "1685-1753",
+  "geography": "",
+  "school": "Idealism",
+  "major_ideas": [
+    "The denial of the existence of matter",
+    "God as guarantor of the continuity of unperceived objects",
+    "The Dialogues' method: Hylas and Philonous"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Cited as saved from complete subjectivism, after abolishing matter, only by an appeal to God that most subsequent philosophers regarded as illegitimate. Noted, proleptically, as the philosopher who showed that Locke's arguments for the subjectivity of secondary qualities apply equally to primary qualities, making Locke's dualism 'philosophically out of date.' Named as one of the two chief philosophical heirs of Locke, though (unlike Hume) 'politically unimportant' as a bishop uninterested in politics. The chapter's sole primary subject, referred to in his own Dialogues under the character 'Philonous': Russell reconstructs his arguments against the existence of matter, his use of God to secure the continuity of unperceived objects, and subjects both his logical and empirical arguments to sustained critical analysis. Cited as the source of the nominalist doctrine of abstract ideas that Hume explicitly and emphatically endorses at the opening of his own discussion of abstraction. Credited with an important step toward consistency by abolishing the physical external world, but criticized for not following his own principles to their solipsistic conclusion, restrained by his role as a clergyman.",
+  "central_doctrines": "The denial of the existence of matter: Berkeley 'maintained that material objects only exist through being perceived' (esse est percipi); the reality of sensible things 'consists in being perceived,' against the common-sense view (voiced by the character Hylas) that 'to exist is one thing, and to be perceived is another.'",
+  "key_arguments": [
+    "The lukewarm water argument against the objectivity of heat and cold",
+    "Extension of the relativity argument from secondary to primary qualities",
+    "The logical argument: 'whatever is immediately perceived is an idea'"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "gerbert-pope-sylvester-ii",
+    "john-locke"
+  ],
+  "successors": [
+    "david-hume",
+    "georg-wilhelm-friedrich-hegel",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Berkeley as a brilliant, charming stylist whose central and most famous argument -- that material objects exist only through being perceived, with God's constant perception securing their continuity -- rests on a mixture of genuinely valid and seriously flawed reasoning. Working closely through the first Dialogue and the opening of the second, Russell credits Berkeley with a real philosophical advance: showing that we perceive only sensible qualities, relative to the perceiver, not some further 'thing' or 'substance' behind them. But Russell sharply distinguishes this valid conclusion from Berkeley's stronger, and in Russell's view unjustified, further claim that these relative qualities are therefore 'mental' -- a claim Russell traces to an unexamined assumption that everything must be either wholly material or wholly mental, and to a specific logical fallacy (illustrated by the nephew/uncle analogy) in Berkeley's core argument that 'whatever is immediately perceived is an idea.' Russell separately assesses Berkeley's empirical arguments (the pain-argument for heat/cold, the lukewarm-water argument, the near/far argument for size) as mostly valid for proving perceptual relativity, but not for proving mentality, since 'this subjectivity is physical: it is equally true of a camera.' The chapter closes with Russell's own constructive proposal: define 'mind' and 'matter' not as competing metaphysical substances but as different kinds of groupings of events -- mind via memory-chains, matter via satisfaction of physical equations -- a redefinition meant to dissolve rather than answer Berkeley's dichotomy.",
+  "why_this_matters": "Berkeley denied the existence of matter, holding that material objects exist only through being perceived, with God's constant perception securing their continuous existence. Berkeley's Dialogues of Hylas and Philonous dramatize his argument as a debate between common-sense realism (Hylas) and Berkeley's own idealism (Philonous).",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-3-ch-i",
+      "role": "Cited as saved from complete subjectivism, after abolishing matter, only by an appeal to God that most subsequent philosophers regarded as illegitimate."
+    },
+    {
+      "chapter_id": "book-3-ch-xiii",
+      "role": "Noted, proleptically, as the philosopher who showed that Locke's arguments for the subjectivity of secondary qualities apply equally to primary qualities, making Locke's dualism 'philosophically out of date.'"
+    },
+    {
+      "chapter_id": "book-3-ch-xv",
+      "role": "Named as one of the two chief philosophical heirs of Locke, though (unlike Hume) 'politically unimportant' as a bishop uninterested in politics."
+    },
+    {
+      "chapter_id": "book-3-ch-xvi",
+      "role": "The chapter's sole primary subject, referred to in his own Dialogues under the character 'Philonous': Russell reconstructs his arguments against the existence of matter, his use of God to secure the continuity of unperceived objects, and subjects both his logical and empirical arguments to sustained critical analysis."
+    },
+    {
+      "chapter_id": "book-3-ch-xvii",
+      "role": "Cited as the source of the nominalist doctrine of abstract ideas that Hume explicitly and emphatically endorses at the opening of his own discussion of abstraction."
+    },
+    {
+      "chapter_id": "book-3-ch-xx",
+      "role": "Credited with an important step toward consistency by abolishing the physical external world, but criticized for not following his own principles to their solipsistic conclusion, restrained by his role as a clergyman."
+    }
+  ],
+  "extraction_confidence": "high"
+}

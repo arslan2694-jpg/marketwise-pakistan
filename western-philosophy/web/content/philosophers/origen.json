@@ -1,0 +1,58 @@
+{
+  "slug": "origen",
+  "name": "Origen",
+  "era": "Ancient",
+  "dates": "A.D. 185-254",
+  "geography": "",
+  "school": "Gnosticism",
+  "major_ideas": [
+    "Origen's Platonized theology",
+    "The twofold argument for Christian belief",
+    "Church and State: the 'divine nation'"
+  ],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Studied under the same teacher (Ammonius Saccas) as Plotinus and shared his hierarchical ordering of the divine Persons (First superior to Second, Second to Third); his version of this doctrine was later declared heretical by the Church, unlike the broadly compatible version absorbed from Plotinus. The central figure of the chapter's philosophical content: an Alexandrian Christian philosopher (A.D. 185-254), fellow-pupil (with Plotinus) of Ammonius Saccas, whose De Principiis blends Platonic/Neoplatonic doctrine (pre-existence of souls, the stars as rational beings, eventual universal salvation) with Christianity, and whose apologetic work Against Celsus articulates the classic twofold argument for Christian belief (reason plus scriptural/prophetic proof). Contrasted with Augustine as an earlier Christian philosopher in whom Christianity and Platonism 'lie side by side' without interpenetrating; also criticized by Augustine for holding that souls were given bodies as a punishment, and for denying that hell is eternal. Cited as a precedent for John the Scot's view that even the devils will eventually be saved, though later than other people.",
+  "central_doctrines": "Origen's Platonized theology: Origen's synthesis, as set out in De Principiis, holding that nothing is wholly incorporeal except the Trinity; that stars are living, rational (and even sinning) beings; that souls pre-exist their bodies (per Plato) and cycle between soul and Nous; and that ultimately all spirits, even the devil, will be reconciled to Christ and become bodiless -- later condemned as heretical on four counts (pre-existence of souls, pre-existence of Christ's human nature, ethereal resurrection bodies, universal salvation). Church and State: the 'divine nation': Origen's doctrine that Christians should not participate in the government of the (pagan) State but only of the 'divine nation,' i.e., the Church -- a doctrine later modified after Constantine but never wholly abandoned, and, Russell argues, implicit in Saint Augustine's later City of God.",
+  "key_arguments": [
+    "Origen's answer to Celsus on the credibility of Jewish/Christian sacred history"
+  ],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "plato",
+    "plotinus",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "saint-augustine"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell offers an explicitly non-miraculous, sociological and psychological account of Christianity's rise, treating it as one competitor among several similar Near Eastern salvation religions that succeeded due to identifiable, worldly causes: Paul's strategic admission of gentiles, superior organizational discipline functioning as a political pressure group, genuinely superior pre-Constantinian moral conduct, and the persuasive power of a continuous sacred history combined with claimed miracles and fulfilled prophecy. He is notably skeptical toward supernatural claims throughout (e.g., treating Origen's magical theories about the efficacy of divine names as 'curious,' and quietly noting that early Christian miracle claims were credible mainly because ancients already accepted comparable pagan legends). He is also frank about Christianity's less admirable early features in his account, especially its inheritance and intensification of Jewish exclusivist intolerance and its quick turn, once empowered, to persecuting internal heretics and inflaming anti-Semitism. His treatment of Origen is admiring of his intellectual seriousness and philosophical ability while treating some of his doctrines (e.g., the efficacy of god-names in magic) as curiosities rather than defensible philosophy.",
+  "why_this_matters": "Paul's decision to admit gentiles without requiring circumcision or the full Mosaic Law was, for Russell, the single change that let Christianity become a universal rather than an ethnic religion. Gnosticism and Manichaeism served as intermediate 'half-way houses' between paganism and orthodox Christianity for hellenized converts uncomfortable with Jewish particularism; a Gnostic doctrine about Christ's crucifixion later passed into orthodox Islamic teaching.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxx",
+      "role": "Studied under the same teacher (Ammonius Saccas) as Plotinus and shared his hierarchical ordering of the divine Persons (First superior to Second, Second to Third); his version of this doctrine was later declared heretical by the Church, unlike the broadly compatible version absorbed from Plotinus."
+    },
+    {
+      "chapter_id": "book-2-ch-ii",
+      "role": "The central figure of the chapter's philosophical content: an Alexandrian Christian philosopher (A.D. 185-254), fellow-pupil (with Plotinus) of Ammonius Saccas, whose De Principiis blends Platonic/Neoplatonic doctrine (pre-existence of souls, the stars as rational beings, eventual universal salvation) with Christianity, and whose apologetic work Against Celsus articulates the classic twofold argument for Christian belief (reason plus scriptural/prophetic proof)."
+    },
+    {
+      "chapter_id": "book-2-ch-iv",
+      "role": "Contrasted with Augustine as an earlier Christian philosopher in whom Christianity and Platonism 'lie side by side' without interpenetrating; also criticized by Augustine for holding that souls were given bodies as a punishment, and for denying that hell is eternal."
+    },
+    {
+      "chapter_id": "book-2-ch-viii",
+      "role": "Cited as a precedent for John the Scot's view that even the devils will eventually be saved, though later than other people."
+    }
+  ],
+  "extraction_confidence": "high"
+}

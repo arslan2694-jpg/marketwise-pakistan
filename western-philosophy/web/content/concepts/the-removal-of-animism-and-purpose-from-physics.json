@@ -1,0 +1,30 @@
+{
+  "slug": "the-removal-of-animism-and-purpose-from-physics",
+  "name": "The removal of animism and purpose from physics",
+  "plain_explanation": "Ancient and medieval thinkers assumed that only living things move themselves, and that the heavens must be kept moving by souls or spirits (or, in Aristotle, by divine 'unmoved movers'). Once the law of inertia showed that lifeless matter, once set moving, keeps moving forever without continued animating cause, there was no longer any scientific need for souls, spirits, or ongoing divine intervention to explain the physical universe's motion.",
+  "precise_definition": "Russell's account: 'Lifeless matter, once set moving, will continue to move for ever unless stopped by some external cause... The solar system... was kept going by its own momentum and its own laws; no outside interference was needed.' God might still be needed to set the mechanism working initially, but 'when He had done this... everything went on by itself without further need of divine intervention,' and even the necessity of an initial Creator became doubtful once Laplace suggested the planets might have formed naturally from the sun.",
+  "why_it_mattered": "It represents the single largest philosophical consequence of the scientific revolution for the concept of God and of natural explanation, and Russell notes it was 'disturbing to orthodoxy,' even though most scientists of the era remained personally pious.",
+  "historical_origin": "A direct consequence of Galileo's and Newton's laws of motion, later extended by Laplace's nebular hypothesis.",
+  "associated_philosopher": "Isaac Newton",
+  "examples": [
+    "Aristotle's forty-seven or fifty-five 'unmoved movers,' the ancient Greek habit of regarding the sun and planets as gods or moved by gods",
+    "Laplace's suggestion that the planets grew naturally out of the sun, pushing back the need for a Creator further still"
+  ],
+  "objections": [],
+  "competing_positions": [
+    "Aristotle's animistic cosmology, in which soul must continuously act on matter to sustain motion"
+  ],
+  "influence_on_later_thinkers": "Anticipates the mechanistic worldview fully developed by Descartes (Chapter IX), who treats animal bodies as automata governed entirely by physical law.",
+  "connection_to_politics_or_religion": "Directly concerns the diminishing scientific need to invoke God's continuous action, a central tension for seventeenth-century natural theology.",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-vi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Isaac Newton",
+      "treatment": "Ancient and medieval thinkers assumed that only living things move themselves, and that the heavens must be kept moving by souls or spirits (or, in Aristotle, by divine 'unmoved movers'). Once the law of inertia showed that lifeless matter, once set moving, keeps moving forever without continued animating cause, there was no longer any scientific need for souls, spirits, or ongoing divine intervention to explain the physical universe's motion."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "truth-as-caused-by-the-past-vs-warranted-assertability-as-determined-by-future-effects",
+  "name": "Truth as caused by the past vs. 'warranted assertability' as determined by future effects",
+  "plain_explanation": "Russell thinks a belief about something that already happened is true or false because of what actually happened -- fixed, unchangeable facts. Dewey instead judges beliefs 'good' or 'bad' (he avoids calling them simply true or false) by whether the actions they inspire turn out well in the future.",
+  "precise_definition": "Russell's view: a belief about a past occurrence is 'true,' or as nearly true as we can make it, in virtue of a certain relation to its causes, and since the past cannot be affected by present action, such truth is independent of present or future volition. Dewey's contrasting notion of 'warranted assertability' substitutes for 'truth' and depends on a belief's kind of effects, so that, in principle, altering the future could alter what is 'warrantedly assertable' about the past.",
+  "why_it_mattered": "This is presented by Russell as the fundamental divergence between his own outlook and Dewey's, with large implications for how much power human beings are thought to have over what counts as true.",
+  "historical_origin": "Developed through Russell's own staircase and reconnaissance examples in direct engagement with Dewey's instrumentalism.",
+  "associated_philosopher": "John Dewey (contrasted with Bertrand Russell)",
+  "examples": [
+    "A general's scouting reports are 'true,' on the common-sense/Russellian view, if the enemy really made the reported moves, regardless of whether the general later wins or loses the battle; Dewey's view instead classifies the reports 'satisfactory' or 'unsatisfactory' depending on the battle's outcome.",
+    "Whether one had coffee for breakfast: on Dewey's view, Russell argues, one would need to test the consequences of believing 'yes' against the consequences of believing 'no' before answering -- rather than simply trying to remember.",
+    "'Did Caesar cross the Rubicon?': Russell holds this unalterably fixed by the past event; on Dewey's account, in principle, a sufficiently skillful reshaping of the social environment could make the negative answer 'warrantedly assertable.'"
+  ],
+  "objections": [
+    "Russell finds this 'absurd': to know whether an ordinary claim is 'good' one would already need to know its consequences are 'good,' which in turn needs testing, and so on -- and different consequences may be judged good on different, competing grounds with no way to decide between them."
+  ],
+  "competing_positions": [
+    "Dewey's 'warranted assertability,' judged by whether the activities a belief inspires have satisfactory or unsatisfactory consequences for the organism"
+  ],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "Russell connects the appeal of Dewey's view to 'the hopefulness engendered by machine production and the scientific manipulation of our physical environment.'",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xxx"
+  ],
+  "evolution": [
+    {
+      "philosopher": "John Dewey (contrasted with Bertrand Russell)",
+      "treatment": "Russell thinks a belief about something that already happened is true or false because of what actually happened -- fixed, unchangeable facts. Dewey instead judges beliefs 'good' or 'bad' (he avoids calling them simply true or false) by whether the actions they inspire turn out well in the future."
+    }
+  ]
+}

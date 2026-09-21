@@ -1,0 +1,30 @@
+{
+  "slug": "the-four-elements-and-geometric-atomism",
+  "name": "The four elements and geometric atomism",
+  "plain_explanation": "Earth, air, fire, and water are not truly basic; underneath them are two kinds of right-angled triangle, which combine to build the faces of geometric solids -- and each element is really a tiny regular solid: earth is cubes, fire is tetrahedra, air is octahedra, and water is icosahedra.",
+  "precise_definition": "Timaeus's theory that the four sensible elements are composed, at a deeper level, of two types of right triangle (half-square and half-equilateral), which combine into the faces of four of the five regular (Platonic) solids, with each element identified with a particular solid; the fifth solid, the dodecahedron, cannot be built from these triangles and is instead associated by Plato with the universe as a whole.",
+  "why_it_mattered": "It is an early, if fanciful, attempt at mathematical atomism -- explaining physical qualities through underlying geometric structure -- and Russell treats the proportional relations among the elements as among the parts of the dialogue 'to be taken quite seriously.'",
+  "historical_origin": "Draws on the theory of the five regular solids, recently completed in Plato's own day by Theaetetus (also set out in Euclid Book XIII).",
+  "associated_philosopher": "Plato",
+  "examples": [
+    "Atoms of earth are cubes; of fire, tetrahedra; of air, octahedra; of water, icosahedra.",
+    "Fire is to air as air is to water as water is to earth (continued proportion)."
+  ],
+  "objections": [
+    "The dodecahedron, having pentagonal rather than triangular faces, cannot be constructed from Plato's two basic triangles, so it is left out of the four-element scheme; Plato says only, obscurely, that God 'used' it 'in the delineation of the universe.'"
+  ],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "The Pythagorean pentagram, linked here to the dodecahedron's pentagonal faces, was used by the Pythagoreans as a symbol of recognition, called 'Health.'",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xvii"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Plato",
+      "treatment": "Earth, air, fire, and water are not truly basic; underneath them are two kinds of right-angled triangle, which combine to build the faces of geometric solids -- and each element is really a tiny regular solid: earth is cubes, fire is tetrahedra, air is octahedra, and water is icosahedra."
+    }
+  ]
+}

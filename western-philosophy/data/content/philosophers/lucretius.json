@@ -1,0 +1,44 @@
+{
+  "slug": "lucretius",
+  "name": "Lucretius",
+  "era": "Ancient",
+  "dates": "",
+  "geography": "",
+  "school": "Epicureanism",
+  "major_ideas": [],
+  "works": [],
+  "philosophical_domains": [],
+  "biography": "Roman poet (99-55 B.C.) whose poem 'On the Nature of Things' versified Epicurus's philosophy two centuries later without adding theoretical innovation; presents Epicurus in language of religious veneration as the hero who defeated the tyranny of Religion, and, unlike Epicurus, allows that sexual intercourse is harmless if divorced from passion.",
+  "central_doctrines": "",
+  "key_arguments": [],
+  "terminology": [],
+  "ethics": "",
+  "politics": "",
+  "metaphysics": "",
+  "epistemology": "",
+  "philosophy_of_science": "",
+  "religion_theology": "",
+  "predecessors": [
+    "leucippus",
+    "democritus",
+    "epicurus",
+    "nausiphanes",
+    "bertrand-russell"
+  ],
+  "successors": [
+    "epicurus",
+    "jeremy-bentham",
+    "bertrand-russell"
+  ],
+  "disagreements": [],
+  "notable_quotations": [],
+  "russell_view": "Russell presents Epicurus with considerable personal sympathy, taking pains to defend him against Stoic-originated scandal (e.g. about his mother, or about debauchery in the Garden) as unreliable, malicious gossip. He stresses the coherence and sincerity of Epicurus's system: it is a genuinely therapeutic philosophy, aimed entirely at securing tranquility by removing the two great sources of Hellenistic fear (the gods and death), and Russell credits Epicurus with real intellectual consistency in following hedonism to its most austere conclusions rather than its most self-indulgent ones. At the same time, Russell is critical of Epicurus's intellectual narrowness: contempt for predecessors, dogmatic insistence that followers not deviate from his teaching, indifference to mathematics and logic, and a lack of genuine curiosity about which of several possible naturalistic explanations of a phenomenon (e.g. lunar phases) is actually true, since for Epicurus any non-religious explanation serves the therapeutic purpose equally well. Russell judges this incuriosity to be why the Epicureans 'contributed practically nothing to natural knowledge' despite their materialism. He treats Lucretius's poem as the vehicle through which Epicureanism became known to the modern world, emphasizes the striking historical irony that professedly anti-religious, materialist doctrines are presented by Lucretius with quasi-religious fervor, and closes by tracing Epicureanism's decline (in favor of Stoicism, then Neoplatonism among philosophers, and Christianity among the masses) and its distant revival by Bentham and the French philosophes.",
+  "why_this_matters": "Epicurus held that pleasure is the sole good, but distinguished 'dynamic' (active) from 'static' (equilibrium) pleasure and concluded the wise life aims at static pleasure -- freedom from pain and disturbance -- rather than intense gratification. Epicurus adopted Democritus's atomism but added the unpredictable atomic 'swerve' so that his fully materialist physics would still leave room for human free will.",
+  "appears_in_chapters": [
+    {
+      "chapter_id": "book-1-ch-xxvii",
+      "role": "Roman poet (99-55 B.C.) whose poem 'On the Nature of Things' versified Epicurus's philosophy two centuries later without adding theoretical innovation; presents Epicurus in language of religious veneration as the hero who defeated the tyranny of Religion, and, unlike Epicurus, allows that sexual intercourse is harmless if divorced from passion."
+    }
+  ],
+  "extraction_confidence": "high"
+}

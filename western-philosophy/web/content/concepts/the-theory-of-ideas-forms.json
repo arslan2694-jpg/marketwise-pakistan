@@ -1,0 +1,33 @@
+{
+  "slug": "the-theory-of-ideas-forms",
+  "name": "The Theory of Ideas (Forms)",
+  "plain_explanation": "Behind every group of things that share a common name (all cats, all beds, all beautiful things), there is, Plato argues, a single, eternal, perfect 'Idea' or 'Form' -- the real cat, the real bed -- of which the many particular examples are only imperfect copies.",
+  "precise_definition": "Plato's doctrine, partly logical and partly metaphysical, that general words signify not particular things but a single, timeless, non-spatial universal nature ('cattyness,' the Idea of Beauty, the Idea of Bed) in which particulars 'participate' imperfectly; the metaphysical elaboration adds that each Idea is a single perfect object created by God.",
+  "why_it_mattered": "Russell treats it as 'the first theory to emphasise the problem of universals,' the question of what, if anything, general words refer to -- a problem that 'has persisted to the present day.'",
+  "historical_origin": "The logical part responds to the plain fact that language needs general words; the metaphysical part is Plato's own addition, not traceable to Parmenides or the Pythagoreans.",
+  "associated_philosopher": "Plato",
+  "examples": [
+    "The 'ideal cat' created by God, of which all particular cats are imperfect copies.",
+    "The one real bed made by God, as opposed to the many beds made by carpenters, illustrated by the last book of the Republic's discussion of painters and mirrors."
+  ],
+  "objections": [
+    "Russell: Plato does not understand philosophical syntax -- he treats 'beauty is beautiful' as sensible, when in fact a universal like 'human' cannot sensibly be predicated of itself; Plato's Ideas end up being just superior particulars, not genuine universals.",
+    "The problem of the 'third man': if a particular resembles its Idea, a further Idea is needed to explain that resemblance, and so on ad infinitum (raised by Parmenides against Socrates in the dialogue Parmenides)."
+  ],
+  "competing_positions": [
+    "The minimal, purely logical claim -- that general and relational words are meaningful and cannot be reduced to proper names -- which Russell says he is willing to accept, while rejecting the full metaphysical doctrine."
+  ],
+  "influence_on_later_thinkers": "Influenced 'most of the great philosophers, down to and including Hegel'; later medieval disputes over universals (realism vs. nominalism) descend from it.",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-1-ch-xv"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Plato",
+      "treatment": "Behind every group of things that share a common name (all cats, all beds, all beautiful things), there is, Plato argues, a single, eternal, perfect 'Idea' or 'Form' -- the real cat, the real bed -- of which the many particular examples are only imperfect copies."
+    }
+  ]
+}

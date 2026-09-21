@@ -1,0 +1,28 @@
+{
+  "slug": "four-positions-on-inference-from-percepts-to-unperceived-events",
+  "name": "Four positions on inference from percepts to unperceived events",
+  "plain_explanation": "Once we accept that all we directly know are our own perceptions ('percepts'), there is a further question: can we validly infer that anything exists beyond those percepts -- other people's experiences, or even events that no one perceives at all (like furniture in a dark, empty room)? Russell lays out four increasingly generous answers to this question.",
+  "precise_definition": "Russell's four positions: (1) total denial of any inference beyond my own present percepts and memories (strict deductive scepticism); (2) solipsism, allowing inference only to other events in my own biography (e.g., unnoticed sense-data); (3) the view (attributed to Eddington) allowing inference, by analogy, to events in other minds, but not to events experienced by no one; (4) common sense and traditional physics, which infers to events that no one experiences at all (e.g., unobserved furniture), typically via causal laws.",
+  "why_it_mattered": "Russell uses this taxonomy to reframe the Berkeley/idealism debate as fundamentally a question about the scope and validity of non-demonstrative (inductive/analogical) inference, rather than a question that can be settled by logic alone -- deferring final judgment to a later, fuller treatment of probability and induction.",
+  "historical_origin": "Russell's own systematic analysis, developed in response to and building on Berkeley's arguments.",
+  "associated_philosopher": "Bertrand Russell",
+  "examples": [
+    "G. E. Moore's jab at idealists supposedly believing 'trains only have wheels while they are in stations'",
+    "The dark bedroom example: does the furniture exist, unperceived, while I sleep?"
+  ],
+  "objections": [],
+  "competing_positions": [],
+  "influence_on_later_thinkers": "",
+  "connection_to_politics_or_religion": "",
+  "is_major": true,
+  "related_concepts": [],
+  "appears_in_chapters": [
+    "book-3-ch-xvi"
+  ],
+  "evolution": [
+    {
+      "philosopher": "Bertrand Russell",
+      "treatment": "Once we accept that all we directly know are our own perceptions ('percepts'), there is a further question: can we validly infer that anything exists beyond those percepts -- other people's experiences, or even events that no one perceives at all (like furniture in a dark, empty room)? Russell lays out four increasingly generous answers to this question."
+    }
+  ]
+}
