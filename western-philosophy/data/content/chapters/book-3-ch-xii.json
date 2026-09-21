@@ -1,0 +1,170 @@
+{
+  "chapter_id": "book-3-ch-xii",
+  "book_id": "book-3",
+  "part_id": "book-3-part-1",
+  "roman": "XII",
+  "title": "Philosophical Liberalism",
+  "start_page": 592,
+  "end_page": 599,
+
+  "orientation": "This transitional chapter steps back from individual philosophers to ask a general question: how do political and social circumstances shape philosophical thought, and how does philosophical thought shape political events in turn? Russell uses this question to trace the rise of 'early liberalism' in England and Holland from the seventeenth century onward, setting up Locke - covered in the next three chapters - as its first comprehensive philosophical spokesman.",
+  "historical_background": "Russell surveys the English Civil War and its aftermath as the crucible of liberal ideas: the conflict between king and Parliament, the rise and fall of Cromwell's Protectorate, the constitutional moderation of Charles II's Restoration, and finally the bloodless Revolution of 1688, which replaced divine-right monarchy with a monarchy dependent on parliamentary and legislative sanction.",
+  "philosophical_problems": [
+    "What is the relationship between ideas and material/social circumstances - does philosophy drive historical change, or merely reflect it?",
+    "What does 'individualism' mean across different domains (intellectual, economic, ethical/emotional), and how did it develop from antiquity through the Reformation?",
+    "How can intellectual and ethical individualism be reconciled with the need for ordered social life?"
+  ],
+
+  "philosophers_discussed": [
+    { "name": "John Locke", "role_in_chapter": "Introduced at the chapter's close as 'the first comprehensive statement of the liberal philosophy,' the most influential though not the most profound modern philosopher, whose views shaped English constitutional practice and, via the American Constitution, later revolutions.", "is_primary_subject": false },
+    { "name": "Rene Descartes", "role_in_chapter": "His 'I think, therefore I am' is presented as an early, decisive instance of intellectual individualism penetrating philosophy, since it makes each person's own existence, not the community's, the basis of certainty.", "is_primary_subject": false },
+    { "name": "Jean-Jacques Rousseau", "role_in_chapter": "Identified as the starting point of a rival, later movement (extending individualism to the passions) that becomes the antithesis of liberalism, feeding into the romantic movement and nationalism.", "is_primary_subject": false },
+    { "name": "Thomas Carlyle", "role_in_chapter": "Named, with Fichte and Nietzsche, as a philosopher of the 'cult of the hero,' representative of the anti-liberal, self-assertive strand descending from Rousseau.", "is_primary_subject": false },
+    { "name": "Friedrich Nietzsche", "role_in_chapter": "Grouped with Fichte and Carlyle as philosophers of heroic self-assertion, whose philosophy Russell argues is self-refuting because it leads in practice to despotism.", "is_primary_subject": false },
+    { "name": "Karl Marx", "role_in_chapter": "Briefly flagged as 'in the main, an offshoot of liberalism,' to be treated later in the book.", "is_primary_subject": false },
+    { "name": "Plato", "role_in_chapter": "Cited as an example of pre-individualist Greek thought: his Republic is concerned with defining the good community, not the good individual.", "is_primary_subject": false }
+  ],
+
+  "schools_discussed": ["Early (classical) liberalism", "Romanticism/nationalism (as liberalism's antithesis)", "Cynicism and Stoicism (early individualism)", "Protestantism (as source of intellectual individualism)"],
+
+  "core_concepts": [
+    {
+      "name": "Reciprocal interaction of ideas and circumstances",
+      "plain_explanation": "Neither the view that great thinkers single-handedly change history, nor the view that ideas are mere passive 'froth' produced by material forces, is correct; ideas and practical life shape each other back and forth, like the chicken and the egg.",
+      "precise_definition": "Russell's methodological thesis that between ideas and practical/social life there is reciprocal interaction, such that asking which is cause and which effect is as unanswerable in the abstract as the problem of the hen and the egg.",
+      "why_it_mattered": "It frames Russell's entire historical method in this chapter and justifies studying liberalism concretely, through its actual seventeenth-to-twentieth-century development, rather than abstractly.",
+      "historical_origin": "Presented by Russell as a corrective to two 'opposite errors, both common': overestimating philosophers' influence, and treating theorists as passive products of circumstance.",
+      "associated_philosopher": "Bertrand Russell (methodological remark, not attributed to a historical philosopher)",
+      "examples": ["A political party claiming inspiration from a philosopher may really have acted as it would have anyway, with the philosopher only 'acclaimed' after the fact."],
+      "objections": [],
+      "competing_positions": ["Pure idealism (ideas alone drive history)", "Pure materialism (ideas are epiphenomenal 'froth' on material/technical causes)"],
+      "influence_on_later_thinkers": "",
+      "connection_to_politics_or_religion": "",
+      "is_major": false
+    },
+    {
+      "name": "Early liberalism",
+      "plain_explanation": "The first, optimistic wave of liberal thought and politics, centered in England and Holland, which favored religious toleration, commerce, the rising middle class, property rights, and government based on consent rather than the divine right of kings.",
+      "precise_definition": "A political-philosophical outlook, dominant from the late seventeenth to roughly the late eighteenth century, characterized by Protestant (latitudinarian, not fanatical) religious toleration, respect for property earned by individual labor, restriction (though not rejection) of the hereditary principle, belief in government by consent, and confidence that education rather than birth explains most human inequality.",
+      "why_it_mattered": "It is the political-philosophical soil out of which Locke's systematic philosophy grows, and the ancestor of the American Constitution and much of British and French constitutional development.",
+      "historical_origin": "Emerged from England's and Holland's commercial prosperity and their conflicts with feudal, absolutist, and religiously fanatical rivals.",
+      "associated_philosopher": "John Locke (as its first comprehensive philosophical spokesman)",
+      "examples": ["The East India Company and the Bank of England as institutional expressions of liberalism's commercial energy.", "The theory of gravitation and the discovery of the circulation of the blood as scientific expressions of the same liberated energies."],
+      "objections": [],
+      "competing_positions": ["Medieval theories sanctioning the powers of Church and king", "The 'then modern fanaticisms of Calvinists and Anabaptists'"],
+      "influence_on_later_thinkers": "Its greatest and most enduring success, Russell says, has been in America, where (unhampered by feudalism and a State Church) it remained dominant from 1776 至 at least 1933.",
+      "connection_to_politics_or_religion": "Generated, after a century of unbroken success, the very optimism that produced the French Revolution, Napoleon, and the reactionary Holy Alliance.",
+      "is_major": true
+    },
+    {
+      "name": "Individualism (intellectual, economic, and emotional forms)",
+      "plain_explanation": "The idea that truth, value, and worth are ultimately grounded in the individual person rather than in the community as a whole; Russell traces its growth from Greek collectivism through Stoic and early Christian inward individualism, medieval ecclesiastical collectivism, and finally Protestant-driven intellectual individualism.",
+      "precise_definition": "Russell's central organizing concept, distinguished into (a) intellectual individualism, in which truth is determined by private judgment rather than collective authority; (b) economic individualism, expressed in property rights and free enterprise; and (c) emotional/ethical self-assertive individualism, later associated with Rousseau, romanticism, and the 'cult of the hero.'",
+      "why_it_mattered": "Different combinations of these three forms of individualism produce very different political outcomes - early liberalism combined intellectual and economic individualism while remaining ethically restrained, while its later romantic rival extended individualism into the passions with far more dangerous consequences.",
+      "historical_origin": "Russell traces its earliest appearance to the Cynics and Stoics after Alexander destroyed Greek political liberty, and its decisive breach into mainstream Western thought to Protestantism's assertion that General Councils may err.",
+      "associated_philosopher": "Rene Descartes (as the philosopher who brought individualism fully into modern epistemology)",
+      "examples": ["The Stoic view that a person can live a good life 'in no matter what social circumstances.'", "Descartes's cogito, which grounds knowledge in each person's own existence rather than the community's."],
+      "objections": [],
+      "competing_positions": ["The medieval Catholic synthesis, in which truth and goodness were determined collectively by the Church's Councils, not by 'solitary thought'"],
+      "influence_on_later_thinkers": "Splits, after Rousseau and Kant, into what Russell calls the 'hard-headed' and 'soft-hearted' schools of liberalism (discussed further in the following chapter on Locke's influence).",
+      "connection_to_politics_or_religion": "Protestantism's assertion that Councils may err turned the determination of truth 'no longer a social but an individual enterprise,' producing religious strife that early liberalism sought to resolve.",
+      "is_major": true
+    },
+    {
+      "name": "The romantic/heroic antithesis of liberalism",
+      "plain_explanation": "A rival movement, beginning with Rousseau, that extends individualism from calm intellectual judgment into the realm of passion and self-assertion, glorifying strong emotion, the heroic individual, and rebellion - which Russell argues collapses in practice into dictatorship.",
+      "precise_definition": "A tradition combining dislike of early industrialism, nostalgia for an idealized Middle Ages, championing of fading aristocratic and Church privilege alongside defense of wage-earners, and vehement assertion of the right of rebellion and the splendor of war, represented philosophically by Fichte, Carlyle, and Nietzsche and poetically by Byron.",
+      "why_it_mattered": "Russell argues it is self-refuting: since not everyone can be a heroic leader whose individual will prevails, the philosophy in practice produces the despotic rule of the single most successful 'hero,' who then suppresses the very self-assertive ethic by which he rose.",
+      "historical_origin": "Begins with Rousseau and gains strength from the romantic movement and the principle of nationality.",
+      "associated_philosopher": "Jean-Jacques Rousseau (originator); Thomas Carlyle, Friedrich Nietzsche, J. G. Fichte (philosophers); Lord Byron (poet)",
+      "examples": ["The 'cult of the hero' as developed by Carlyle and Nietzsche."],
+      "objections": ["Russell's central objection: the theory is 'self-refuting,' since its adoption in practice produces exactly what it claims to oppose - a dictatorial State in which the individual is severely repressed."],
+      "competing_positions": ["Early liberalism's restrained, non-self-assertive individualism"],
+      "influence_on_later_thinkers": "Russell explicitly (if schematically) traces this line 'through Fichte, Byron, Carlyle, and Nietzsche, into Hitler,' contrasted with the 'hard-headed' liberal line running 'through Bentham, Ricardo, and Marx... into Stalin.'",
+      "connection_to_politics_or_religion": "",
+      "is_major": true
+    }
+  ],
+
+  "arguments": [
+    {
+      "title": "Argument that heroic self-assertive philosophy is self-refuting",
+      "philosopher": "Bertrand Russell (critiquing Carlyle, Nietzsche, and the romantic/heroic tradition)",
+      "premises": ["The heroic philosophy holds that each individual should assert his will and become a heroic leader.", "Not everyone can succeed in this; only the most successful 'hero' can actually prevail.", "Once established, the successful hero will suppress in others the very self-assertive ethic that brought him to power."],
+      "conclusion": "This whole theory of life is self-refuting: adopting it in practice leads to the realization of its opposite - a dictatorial State in which the individual is severely repressed.",
+      "explanation": "Russell argues that a philosophy of universal self-assertion cannot be universally realized, and that its actual social outcome (concentrated tyranny) directly contradicts its stated aim (individual liberty and heroism for all).",
+      "objections": [],
+      "implications": ["Provides Russell's rationale for treating the Fichte-Carlyle-Nietzsche tradition as a dangerous dead end rather than a viable alternative to Lockean liberalism."]
+    }
+  ],
+
+  "key_distinctions": [
+    "Intellectual and economic individualism (of early liberalism) vs. emotional/ethical self-assertive individualism (of the romantic/heroic tradition)",
+    "'Hard-headed' liberalism (Bentham, Ricardo, Marx) vs. 'soft-hearted' liberalism (Fichte, Byron, Carlyle, Nietzsche)",
+    "Advanced countries, where a philosophy clarifies existing practice, vs. less advanced countries, where the same philosophy can inspire actual revolution",
+    "Societies whose truth is determined collectively (medieval Church councils) vs. societies whose truth is determined by individual judgment (post-Reformation)"
+  ],
+
+  "connections_to_earlier_philosophers": "Russell traces individualism back through the Cynics and Stoics (after the loss of Greek political liberty under Alexander) and through early Christianity, contrasting this with the collectivist political philosophy of Plato and Aristotle, for whom the individual was defined chiefly as a member of a community.",
+  "connections_to_later_philosophers": "The chapter sets up the next three chapters on Locke as 'the first comprehensive statement of the liberal philosophy,' and previews the later treatment of Marx as an eclectic offshoot of liberalism to be examined in detail elsewhere in the book.",
+  "political_social_context": "Russell narrates the English Civil War, the Presbyterian-Independent split, Cromwell's Protectorate ('not a dog barked' when he dismissed Parliament), the constitutional moderation of Charles II, the failure of James II's Catholicizing absolutism, and the bloodless Revolution of 1688 as the concrete historical sequence that produced English constitutional liberalism.",
+  "religion_science_culture_context": "Protestantism's rejection of the infallibility of General Councils is presented as the decisive religious event making the pursuit of truth an individual rather than a collective enterprise, feeding directly into the intellectual individualism later formalized by Descartes and the liberal philosophers.",
+
+  "russell_presentation": "Russell opens by rejecting two extreme views of the relationship between philosophy and history - that great thinkers unilaterally cause social change, and that ideas are mere passive byproducts of material forces - proposing instead a reciprocal interaction between the two. He then traces 'individualism,' in its intellectual, economic, and (later) emotional senses, from its absence in classical Greek political thought, through its first stirrings in the Cynics and Stoics, its survival in medieval mysticism despite ecclesiastical collectivism, its decisive Protestant-driven breakthrough, and its philosophical culmination in Descartes's cogito. He characterizes early liberalism (English and Dutch, seventeenth to eighteenth century) as optimistic, tolerant, commercially minded, and only mildly democratic (tempered by respect for property), and narrates its specific English constitutional history from the Civil War through the 1688 Revolution as the crucible that produced this outlook. Russell then identifies a rival, later tradition - beginning with Rousseau, extending individualism into passion and heroism (Fichte, Byron, Carlyle, Nietzsche) - which he judges self-refuting, since it collapses in practice into dictatorship. He closes by naming Locke as liberalism's first comprehensive philosophical spokesman, setting up the chapters that follow.",
+  "critical_context": "",
+
+  "key_takeaways": [
+    "Russell rejects both the view that philosophers unilaterally drive history and the view that ideas are passive byproducts of material forces, favoring a model of reciprocal interaction.",
+    "Early (classical) liberalism combined religious toleration, respect for commerce and property, and government by consent, while remaining only cautiously democratic, tempered by property rights.",
+    "Individualism developed through several distinct stages: absent in classical Greek political philosophy, emergent in Stoicism, suppressed under medieval Church collectivism, and decisively unleashed by Protestantism and then by Descartes's philosophy.",
+    "A rival tradition beginning with Rousseau extended individualism into the emotional and heroic sphere (Fichte, Byron, Carlyle, Nietzsche); Russell judges this tradition self-refuting because it leads in practice to dictatorship.",
+    "The chapter identifies Locke as the first comprehensive philosophical spokesman of liberalism, setting up the following three chapters devoted entirely to him."
+  ],
+  "study_notes": "This chapter functions as a hinge in Russell's book: after the metaphysical systems of Descartes, Spinoza, and Leibniz, he pauses to ask what political and social forces are about to shape the next major philosophical development (Locke and British empiricism). The most useful way to read it is as setting up a contrast that will recur repeatedly for the rest of the book: 'hard-headed' liberalism (piecemeal, empirical, favoring gradual reform, eventually tracing through Bentham and Ricardo) versus 'soft-hearted' romantic individualism (favoring grand, unified schemes and heroic self-assertion, tracing through Fichte and Nietzsche). Russell's schematic (and admittedly oversimplified) suggestion that one line leads toward Stalin and the other toward Hitler is a striking rhetorical device meant to underline how much is philosophically at stake in these seemingly abstract debates about individualism.\n\nPay close attention to Russell's treatment of English constitutional history (Civil War, Cromwell, Restoration, 1688 Revolution) as a case study proving his opening methodological point: at every stage, ideas about legitimate authority both shaped and were shaped by the concrete struggle for power between king, Parliament, and rival religious factions. Notice too his observation that liberal ideas, being 'in their birthplace little more than a clarification of prevalent opinion,' could become far more revolutionary when exported to a less advanced country (as English ideas did in pre-revolutionary France) - a general pattern about the transmission of political ideas worth remembering when Locke's French influence is discussed in the coming chapters.",
+
+  "glossary_terms": [
+    { "term": "Liberalism (early/classical)", "beginner_explanation": "The first wave of political thought favoring religious tolerance, free commerce, and government based on the people's consent rather than a king's supposed divine right.", "academic_explanation": "A seventeenth-to-eighteenth-century English and Dutch political-philosophical outlook combining latitudinarian Protestantism, respect for property and commerce, restriction of hereditary privilege, and government legitimated by consent, later given systematic philosophical form by Locke.", "related_concepts": ["Individualism", "Divine right of kings", "Social contract"] },
+    { "term": "Individualism", "beginner_explanation": "The idea that the individual person, not the group, is the basic unit whose judgment, rights, or value matter most.", "academic_explanation": "Russell's umbrella term covering intellectual individualism (private judgment as the arbiter of truth), economic individualism (property and free enterprise), and emotional/ethical individualism (self-assertion and heroism), each with distinct historical origins and political consequences.", "related_concepts": ["Early liberalism", "Romantic/heroic tradition", "Descartes's cogito"] },
+    { "term": "Divine right of kings", "beginner_explanation": "The claim that a king's authority to rule comes directly from God, not from the people's consent.", "academic_explanation": "The doctrine, rejected by early liberalism, that monarchical authority derives from a God-given hereditary right rather than from popular consent or contract.", "related_concepts": ["Early liberalism", "Social contract"] },
+    { "term": "Cult of the hero", "beginner_explanation": "The glorification of the exceptional, self-assertive individual who imposes his will on history.", "academic_explanation": "The romantic doctrine, developed by Carlyle and Nietzsche, that extends individualism into the passions and celebrates heroic self-assertion; Russell argues it is self-refuting because its general adoption leads to despotism.", "related_concepts": ["Individualism", "Romantic/heroic tradition"] }
+  ],
+
+  "questions": [
+    { "type": "short_answer", "prompt": "What two 'opposite errors' does Russell warn against when assessing the influence of philosophers on politics?", "answer": "One error, common among bookish people, is to overestimate philosophers' influence, crediting them for political actions parties would have taken anyway. The opposite, newer error treats theorists as almost passive products of material and technical circumstances, with ideas as mere 'froth' on deeper social currents. Russell holds the truth lies between the two: ideas and practical life interact reciprocally.", "explanation": "This methodological point opens the chapter and frames Russell's entire historical treatment of liberalism.", "source_page": 592 },
+    { "type": "short_answer", "prompt": "According to Russell, why were the ancient Greek philosophers down to Aristotle not 'individualists' in his intended sense?", "answer": "They thought of a person as essentially a member of a community; Plato's Republic, for example, is concerned with defining the good community, not the good individual - individualism only develops later, with the Cynics and Stoics, after Alexander's conquests destroyed Greek political liberty.", "explanation": "This traces the deep history behind Russell's key concept of individualism.", "source_page": 597 },
+    { "type": "compare_contrast", "prompt": "Compare 'early liberalism' with the later romantic/heroic tradition beginning with Rousseau, as Russell characterizes them.", "answer": "Early liberalism was intellectually and economically individualist but not emotionally or ethically self-assertive - tentative, tolerant, and gradualist. The later romantic tradition (Rousseau, Fichte, Byron, Carlyle, Nietzsche) extends individualism into the passions, glorifying heroic self-assertion and rebellion; Russell judges it self-refuting because, in practice, it produces despotic rule by the most successful 'hero,' who then suppresses others' self-assertion.", "explanation": "This is the chapter's central political-philosophical contrast, setting up later discussions of Locke's influence.", "source_page": 599 },
+    { "type": "identify_philosopher", "prompt": "Which philosopher's dictum 'I think, therefore I am' does Russell cite as an early, decisive instance of intellectual individualism entering modern philosophy?", "answer": "Rene Descartes.", "explanation": "Russell explains that this makes the basis of knowledge different for each person, since the certain starting point is one's own existence, not that of the community.", "source_page": 598 },
+    { "type": "short_answer", "prompt": "What role does Russell assign to Protestantism in the historical development of individualism?", "answer": "Protestantism made the first important breach in the medieval collective determination of truth by asserting that General Councils may err; determining truth thereby became 'no longer a social but an individual enterprise,' which, since different individuals reached different conclusions, led to religious strife that early liberalism later sought to resolve.", "explanation": "This is presented as the crucial historical hinge between medieval collectivism and modern intellectual individualism.", "source_page": 598 }
+  ],
+
+  "flashcards": [
+    { "front": "What is Russell's own view on whether ideas or material circumstances drive historical change?", "back": "Neither alone: there is reciprocal interaction between ideas and practical life, much like the unanswerable question of the hen and the egg.", "category": "concept" },
+    { "front": "List four characteristics of early (classical) liberalism.", "back": "Religious toleration (latitudinarian Protestantism), respect for commerce and property, restriction (not rejection) of the hereditary principle, and belief that a community has the right to choose its own government.", "category": "concept" },
+    { "front": "Why, according to Russell, were classical Greek philosophers like Plato and Aristotle not 'individualists'?", "back": "They regarded a person as essentially a member of a community; Plato's Republic defines the good community, not the good individual.", "category": "context" },
+    { "front": "Which early philosophical schools, following the loss of Greek political liberty, developed genuine individualism?", "back": "The Cynics and the Stoics.", "category": "context" },
+    { "front": "What historical event does Russell identify as the first major breach in medieval collective determination of truth?", "back": "Protestantism's assertion that General Councils may err, making the pursuit of truth an individual rather than a social enterprise.", "category": "context" },
+    { "front": "Which Cartesian doctrine does Russell cite as bringing individualism fully into modern philosophy?", "back": "'I think, therefore I am' - grounding certainty in each person's own existence rather than the community's.", "category": "concept" },
+    { "front": "Name the philosophers Russell associates with the 'cult of the hero.'", "back": "Thomas Carlyle and Friedrich Nietzsche (with J. G. Fichte as a philosophical forerunner and Lord Byron as its poet).", "category": "context" },
+    { "front": "Why does Russell call the heroic/romantic philosophy 'self-refuting'?", "back": "Because not everyone can succeed as the heroic leader; in practice, only the most successful 'hero' prevails and then suppresses the self-assertive ethic in others, producing exactly the despotic repression the philosophy claimed to oppose.", "category": "argument" },
+    { "front": "According to Russell's schematic mapping, where do the 'hard-headed' and 'soft-hearted' post-Rousseau/Kant schools of liberalism respectively lead?", "back": "The hard-headed line (Bentham, Ricardo, Marx) leads, in Russell's deliberately schematic mapping, to Stalin; the soft-hearted line (Fichte, Byron, Carlyle, Nietzsche) leads to Hitler.", "category": "critical" },
+    { "front": "Which country does Russell single out as where liberal ideas remained most stable and dominant, without the later split into rival schools?", "back": "America, where liberal ideas have (as of Russell's writing) undergone no part of that later split, remaining much as they were in Locke.", "category": "context" },
+    { "front": "Which philosopher does the chapter identify as liberalism's first comprehensive philosophical spokesman?", "back": "John Locke.", "category": "context" }
+  ],
+
+  "quiz": [
+    { "type": "multiple_choice", "difficulty": "beginner", "prompt": "What general question does Russell use liberalism to investigate at the start of this chapter?", "options": ["Whether God exists", "The reciprocal influence between political/social circumstances and the thought of philosophers", "The origin of the calculus", "The nature of substance"], "correct_index": 1, "explanation": "Russell opens by asking what influence political/social circumstances have on philosophers' thought, and vice versa, using the rise of liberalism as his test case.", "related_concept": "Reciprocal interaction of ideas and circumstances", "source_page": 592 },
+    { "type": "multiple_choice", "difficulty": "beginner", "prompt": "Which two countries does Russell identify as the birthplace of early liberalism?", "options": ["France and Spain", "England and Holland", "Germany and Austria", "Italy and Switzerland"], "correct_index": 1, "explanation": "Russell states early liberalism 'was a product of England and Holland.'", "related_concept": "Early liberalism", "source_page": 592 },
+    { "type": "multiple_choice", "difficulty": "intermediate", "prompt": "According to Russell, which classical Greek philosophical schools first developed genuine individualism, after the loss of Greek political liberty under Alexander?", "options": ["The Sophists and the Skeptics", "The Cynics and the Stoics", "The Epicureans and the Peripatetics", "The Pythagoreans and the Eleatics"], "correct_index": 1, "explanation": "Russell states that with the loss of political liberty from Alexander onward, individualism developed and was represented by the Cynics and Stoics.", "related_concept": "Individualism", "source_page": 597 },
+    { "type": "multiple_choice", "difficulty": "intermediate", "prompt": "What event does Russell identify as the first important breach in the medieval system of collectively determined truth?", "options": ["The invention of the printing press", "Protestantism's assertion that General Councils may err", "The discovery of the New World", "The founding of the Royal Society"], "correct_index": 1, "explanation": "Russell states plainly that Protestantism made truth 'no longer a social but an individual enterprise' by denying the infallibility of General Councils.", "related_concept": "Individualism", "source_page": 598 },
+    { "type": "true_false", "prompt": "Russell argues that the romantic/heroic philosophy of Fichte, Carlyle, and Nietzsche is internally consistent and, if adopted, would produce a society of many equally free heroic individuals.", "options": ["True", "False"], "correct_index": 1, "explanation": "Russell argues the opposite: the theory is self-refuting, since in practice it produces despotic rule by a single successful 'hero' who represses the self-assertion of others.", "related_concept": "Romantic/heroic tradition", "source_page": 599 },
+    { "type": "multiple_choice", "difficulty": "advanced", "prompt": "In Russell's deliberately schematic historical mapping, which two later dictators does he associate with the 'hard-headed' and 'soft-hearted' post-Rousseau/Kant schools of liberal thought, respectively?", "options": ["Napoleon and Bismarck", "Stalin and Hitler", "Mussolini and Franco", "Lenin and Mao"], "correct_index": 1, "explanation": "Russell traces the hard-headed line (Bentham, Ricardo, Marx) to Stalin and the soft-hearted line (Fichte, Byron, Carlyle, Nietzsche) to Hitler, while cautioning that this is 'too schematic to be quite true.'", "related_concept": "Hard-headed vs. soft-hearted liberalism", "source_page": 599 },
+    { "type": "fill_in_blank", "prompt": "Russell identifies ________ as the philosopher who gave 'the first comprehensive statement of the liberal philosophy,' though not the most profound of modern philosophers.", "options": ["Thomas Hobbes", "John Locke", "David Hume", "Immanuel Kant"], "correct_index": 1, "explanation": "The chapter closes by naming Locke as liberalism's first comprehensive philosophical spokesman, setting up the following chapters.", "related_concept": "Early liberalism", "source_page": 599 }
+  ],
+
+  "essay_prompts": [
+    { "task_type": "Evaluate", "prompt": "Russell claims the relationship between philosophical ideas and social/political circumstances is one of 'reciprocal interaction,' rejecting both pure idealist and pure materialist accounts of historical change. Using his account of English constitutional history (Civil War through the 1688 Revolution) as a case study, evaluate whether his own narrative actually supports this reciprocal-interaction thesis, or leans more toward one side than he admits.", "rubric": ["Accurately states Russell's methodological thesis", "Uses specific historical details from the chapter as evidence", "Provides an original, well-supported evaluation", "Considers counter-evidence or complicating cases"] },
+    { "task_type": "Compare", "prompt": "Compare early (classical) liberalism with the later romantic/heroic tradition beginning with Rousseau. Explain why Russell considers the romantic tradition 'self-refuting' and assess whether this criticism could also be leveled, in some form, against early liberalism itself.", "rubric": ["Accurately characterizes both traditions", "Correctly reconstructs Russell's self-refutation argument", "Original critical engagement with the argument's scope", "Clear organization and use of evidence from the text"] }
+  ],
+
+  "extraction_confidence": "high"
+}

@@ -1,0 +1,438 @@
+{
+  "chapter_id": "book-3-ch-iv",
+  "book_id": "book-3",
+  "part_id": "book-3-part-1",
+  "roman": "IV",
+  "title": "Erasmus and More",
+  "start_page": 511,
+  "end_page": 520,
+  "orientation": "Russell turns from the anarchic, amoral Italian Renaissance to its very different northern counterpart, embodied in two close friends, Erasmus and Sir Thomas More, who combined humanist learning with genuine piety and public virtue. Neither was a philosopher in the strict sense, but Russell treats them as exemplars of a brief, moderate, pre-revolutionary moment -- before Luther's revolt polarized Europe -- and uses More's Utopia to examine an early and surprisingly liberal vision of a planned, communist society.",
+  "historical_background": "The northern Renaissance began later than the Italian one and quickly became entangled with the Reformation, but for a brief period at the start of the sixteenth century new learning spread through France, England, and Germany without theological controversy. Erasmus (1466-1536), born in Rotterdam, became a monk reluctantly, mastered Latin and then Greek, and produced a Greek New Testament and edition of Jerome (1516). Thomas More (1478-1535) rose through law and royal service under Henry VIII, becoming Lord Chancellor, but was executed for refusing to accept the Act of Supremacy (1534) making the king head of the Church of England. After Luther's 1517 revolt, both men -- moderates suited to reform, not revolution -- were overtaken by events: More was martyred, and Erasmus, having sided with the Catholic Church against Luther in the free-will controversy, declined into ineffectiveness.",
+  "philosophical_problems": [
+    "Can moderate, humanist reform survive once a religious controversy polarizes into open revolt and reaction?",
+    "Is 'true religion' fundamentally a matter of simple, heartfelt faith (a form of 'holy folly') rather than of elaborate theological system-building?",
+    "Can a rationally planned, egalitarian society (as in Utopia) deliver genuine human happiness, given the apparent necessity of diversity to that happiness?",
+    "What is the proper relationship between communism/common property and the possibility of justice and equality in a political community?"
+  ],
+  "philosophers_discussed": [
+    {
+      "name": "Erasmus",
+      "role_in_chapter": "The chapter's co-primary subject: his life, his mastery of classical scholarship, his satirical masterpiece The Praise of Folly, and his ultimately anti-Lutheran, pro-Catholic stance (including his 1524 defense of free will against Luther) are treated at length as exemplifying learned, moderate, but ultimately ineffectual reform.",
+      "is_primary_subject": true
+    },
+    {
+      "name": "Sir Thomas More",
+      "role_in_chapter": "The chapter's co-primary subject: his political career, his principled opposition to Henry VIII's divorce and to the Act of Supremacy, his execution, and above all his Utopia (1518) are examined as the era's most notable statement of humanist social idealism.",
+      "is_primary_subject": true
+    },
+    {
+      "name": "Martin Luther",
+      "role_in_chapter": "Referenced as the figure whose 1517 revolt ended the moderate, pre-revolutionary moment Erasmus and More represented, and whose 1524 controversy with Erasmus over free will versus predestination drove Erasmus decisively into the Catholic camp.",
+      "is_primary_subject": false
+    }
+  ],
+  "schools_discussed": [
+    "Northern (Christian) humanism",
+    "Utopian/communist social theory (in the tradition of Plato's Republic)"
+  ],
+  "core_concepts": [
+    {
+      "name": "The northern Renaissance's piety and public virtue",
+      "plain_explanation": "Unlike the amoral, anarchic Italian Renaissance, the northern Renaissance combined enthusiasm for classical learning with genuine religious devotion and concern for public good, focusing especially on producing more accurate, scholarly texts of the Bible rather than on personal display of erudition.",
+      "precise_definition": "Russell's characterization: the northern Renaissance 'was not anarchic or amoral; on the contrary, it was associated with piety and public virtue. It was much interested in applying standards of scholarship to the Bible... It was less brilliant and more solid than its Italian progenitor... more anxious to spread learning as widely as possible.'",
+      "why_it_mattered": "Explains why Erasmus and More could combine deep classical learning with sincere Catholic piety and a reformist, rather than revolutionary, temperament -- and why they were poorly suited to the polarized world Luther's revolt created.",
+      "historical_origin": "Emerged at the start of the sixteenth century in France, England, and Germany, before becoming entangled with the Reformation.",
+      "associated_philosopher": "",
+      "examples": [
+        "Erasmus and Jerome's Greek New Testament (1516), used to correct inaccuracies in the Vulgate",
+        "Colet's Bible lectures in England"
+      ],
+      "objections": [],
+      "competing_positions": [
+        "The Italian Renaissance's amoral, anarchic character (Chapter II)"
+      ],
+      "influence_on_later_thinkers": "Shaped English public-school education (Greek and Latin grounding) 'almost exactly what he would have wished,' per Russell, into the modern era.",
+      "connection_to_politics_or_religion": "Deeply intertwined with ecclesiastical reform ambitions that stopped short of schism.",
+      "is_major": true
+    },
+    {
+      "name": "True religion as 'holy folly': the rejection of theological system-building",
+      "plain_explanation": "In The Praise of Folly, Erasmus suggests -- half-jokingly, half-seriously -- that genuine religion is a kind of foolishness: it comes from simple, heartfelt Christian devotion rather than from the elaborate, hair-splitting arguments of scholastic theologians about the Trinity, transubstantiation, or the minutiae of monastic rule.",
+      "precise_definition": "Russell's identification of the book's underlying thesis: 'true religion is a form of Folly... the kind praised seriously is that which is displayed in Christian simplicity... the first appearance in literature... of the view... according to which true religion comes from the heart, not the head, and all elaborate theology is superfluous... essentially, a rejection of Hellenic intellectualism by the sentimentalism of the North.'",
+      "why_it_mattered": "Russell credits this as an early anticipation of a view (traced forward to Rousseau's Savoyard Vicar) that becomes 'pretty generally accepted among Protestants,' making Erasmus an unlikely precursor of a broadly Protestant sentimentalist strand in religious thought, despite his ultimate opposition to the Reformation itself.",
+      "historical_origin": "First articulated, so far as Russell knows, in The Praise of Folly (conceived 1509, published soon after).",
+      "associated_philosopher": "Erasmus",
+      "examples": [
+        "Folly's mock praise of pardons, indulgences, saint-worship, Trinitarian and Incarnational disputes, transubstantiation, and monastic punctilio",
+        "The imagined scene of Christ interrupting monks' self-congratulation over minor devotions to remind them of the one commandment to love one another"
+      ],
+      "objections": [],
+      "competing_positions": [
+        "Scholastic theology's systematic, intellectualized approach to doctrine"
+      ],
+      "influence_on_later_thinkers": "Russell links it forward to Rousseau's Savoyard Vicar and to the general Protestant tendency to prioritize heartfelt faith over dogma.",
+      "connection_to_politics_or_religion": "Central to Erasmus's critique of ecclesiastical abuses (popes, cardinals, bishops, monastic orders), even though he ultimately rejected Luther's schism.",
+      "is_major": true
+    },
+    {
+      "name": "More's Utopia: communism, equality, and rational social planning",
+      "plain_explanation": "Utopia depicts an island society, reported by the fictional traveler Raphael Hythloday, in which all property is held in common, all citizens work only six hours a day, all live in identical houses and dress alike, and religious toleration and mild criminal law prevail -- but Russell notes that such rigid uniformity, however just, would likely be intolerably dull, since diversity seems essential to happiness.",
+      "precise_definition": "Russell's description of Utopia as a Republic-like communist society in which 'the public good cannot flourish where there is private property, and without communism there can be no equality,' organized around identical towns, communal dining, universal (short) working hours, elected officials drawn from a learned class, and tolerant but compulsory theism, while noting Russell's own reservation: 'life in More's Utopia, as in most others, would be intolerably dull. Diversity is essential to happiness... This is a defect of all planned social systems, actual as well as imaginary.'",
+      "why_it_mattered": "Represents an early modern articulation of a communist, egalitarian social ideal directly indebted to Plato's Republic, notable for genuinely liberal elements (opposition to the death penalty for theft, religious toleration, opposition to war for glory, kindness to animals) mixed with features modern readers would find illiberal (compulsory dress and housing rotation, harsh punishment of premarital sex).",
+      "historical_origin": "Published in 1518, modeled explicitly on Plato's Republic.",
+      "associated_philosopher": "Sir Thomas More",
+      "examples": [
+        "Six-hour workdays, with surplus labor rewarded by even shorter hours",
+        "Contempt for gold, used only for chamberpots and bondmen's chains",
+        "Opposition to the death penalty for theft, opening the book's argument",
+        "A eloquent passage against hunting and the wanton killing of animals"
+      ],
+      "objections": [
+        "Russell's own objection: uniformity and lack of private property would make life 'intolerably dull,' since diversity is essential to happiness -- 'a defect of all planned social systems'",
+        "The character 'More' in the dialogue itself objects that communism would make men idle and destroy respect for magistrates"
+      ],
+      "competing_positions": [
+        "Plato's Republic, on which Utopia is explicitly modeled"
+      ],
+      "influence_on_later_thinkers": "Named the entire literary and political genre of 'utopian' thought.",
+      "connection_to_politics_or_religion": "Utopians are converted to Christianity partly because they learn Christ opposed private property; multiple religions are tolerated, but atheists are excluded from citizenship.",
+      "is_major": true
+    },
+    {
+      "name": "The limits of humanist reform in the face of religious polarization",
+      "plain_explanation": "Erasmus and More were suited to a moderate, reform-minded age that still allowed criticism of Church abuses without demanding a complete break from Rome; once Luther's revolt forced everyone to choose a side, their kind of moderate, humane, skeptical-but-pious temperament became untenable, and each was destroyed or neutralized by the more extreme age that followed.",
+      "precise_definition": "Russell's diagnosis: 'Before Luther's revolt, they were leaders of thought, but after it the world was too violent, on both sides, for men of their type. More suffered martyrdom, and Erasmus sank into ineffectiveness... For honest men, the only honourable alternatives were martyrdom or victory... [Erasmus] lived too long, into an age of new virtues and new vices -- heroism and intolerance -- neither of which he could acquire.'",
+      "why_it_mattered": "Explains the tragic arc of both men's later lives and offers a general pattern (moderate reformers overtaken by polarizing revolution) that Russell implicitly generalizes beyond the Reformation itself.",
+      "historical_origin": "Precipitated specifically by Luther's 1517 revolt and, for Erasmus, by the 1524 free-will controversy.",
+      "associated_philosopher": "",
+      "examples": [
+        "Erasmus's comment on More's martyrdom: 'Would More had never meddled with that dangerous business, and left the theological cause to the theologians'",
+        "More's execution in 1535 for refusing the Oath of Supremacy"
+      ],
+      "objections": [],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "",
+      "connection_to_politics_or_religion": "Directly tied to the Reformation's forced choice between Catholic and Protestant allegiance.",
+      "is_major": false
+    }
+  ],
+  "arguments": [
+    {
+      "title": "Why Erasmus could not welcome the Reformation despite his own attacks on ecclesiastical corruption",
+      "philosopher": "Bertrand Russell",
+      "premises": [
+        "Erasmus fiercely satirized ecclesiastical abuses -- indulgences, saint-worship, monastic hypocrisy, papal wickedness -- in The Praise of Folly and elsewhere.",
+        "Yet Erasmus and most humanists saw 'no half-way house between orthodoxy and free-thought'; a Lutheran-style position (denying specific doctrines like purgatory while retaining the bulk of Catholic faith) required a medieval-style feeling for theological subtlety that the humanists no longer possessed.",
+        "Erasmus hated war and violence, and Luther's revolt provoked exactly the violent, uncompromising conflict Erasmus wished to avoid."
+      ],
+      "conclusion": "Despite his criticisms of the Church, Erasmus ultimately sided with Catholic orthodoxy against Luther, writing a 1524 defense of free will that Luther rejected and answered savagely, driving Erasmus further into reaction.",
+      "explanation": "Russell illustrates this with the contrast between Erasmus's satirist persona and his actual conduct, and with the parallel case of the writer Masuccio, who mocked clerical greed but never thought, as Luther did, to deny the doctrine (of purgatory) underlying it.",
+      "objections": [],
+      "implications": [
+        "Shows why humanist critique of the Church, however sharp, could not by itself produce a Reformation."
+      ]
+    }
+  ],
+  "key_distinctions": [
+    "The pious, publicly-minded northern Renaissance vs. the amoral, anarchic Italian Renaissance",
+    "Ironic ('foolish') praise of vice and error in The Praise of Folly vs. the book's sincere praise of 'holy folly' (simple Christian faith)",
+    "Erasmus's and More's moderate reformism vs. Luther's schismatic revolt",
+    "Communal/egalitarian social planning (Utopia) vs. the diversity Russell argues is essential to genuine happiness"
+  ],
+  "connections_to_earlier_philosophers": "More's Utopia is presented as directly modeled on Plato's Republic, particularly its communism of property; Erasmus is shown drawing on and admiring Lorenzo Valla and citing Augustine and Jerome as models of Latin devotion, while the chapter also notes an anticipation, in Erasmus's Praise of Folly, of Saint Augustine's earlier near-discovery of the cogito-type argument (treated in the Descartes chapter), though this connection concerns religious sentiment rather than epistemology here.",
+  "connections_to_later_philosophers": "Russell explicitly links Erasmus's 'true religion comes from the heart, not the head' to Rousseau's Savoyard Vicar and to the broader Protestant sentimentalist tradition. The chapter's account of the Renaissance's shift 'from having been literary' to 'gradually... scientific' curiosity anticipates the seventeenth-century scientific revolution treated in Chapter VI, and the account of Utopian communism anticipates later utopian and socialist political theory.",
+  "political_social_context": "The chapter traces More's political career in detail -- Member of Parliament opposing Henry VII's taxation, knighthood and royal favor under Henry VIII, appointment as Lord Chancellor after Wolsey's fall, resignation over the king's divorce from Catherine of Aragon, and execution in 1535 under the Act of Supremacy -- and situates Erasmus amid the shifting confessional allegiances of Louvain (Catholic) and Basel (Protestant).",
+  "religion_science_culture_context": "Central religious content includes Erasmus's editorial work correcting the Vulgate via Greek scholarship, his satire of ecclesiastical abuses in The Praise of Folly, his final alignment with Catholic orthodoxy against Luther over free will, and More's own profound personal piety (including his early attraction to the Carthusian order). The chapter also traces the era's shift from literary/bookish to empirical/scientific curiosity, exemplified by growing interest in real travelers' accounts of the New World over classical marvels.",
+  "russell_presentation": "Russell presents Erasmus and More primarily as illustrative figures of temperament rather than as systematic philosophers ('Neither Erasmus nor More was a philosopher in the strict sense of the word'), valuable for showing 'the temper of a pre-revolutionary age' when moderate reform still seemed possible. He treats The Praise of Folly with evident appreciation, both as satire and for its serious closing suggestion that true religion is a form of simple-hearted 'folly' opposed to intellectualized theology -- a view he calls, historically, an early instance of Northern religious sentimentalism. He is notably admiring of More's personal integrity (incorruptibility as Chancellor, courage in refusing the Oath of Supremacy) while treating Utopia with qualified praise: genuinely liberal on war, religious toleration, cruelty to animals, and criminal law, yet flawed by a rigid uniformity that Russell judges incompatible with real human happiness, generalizing this into a criticism of 'all planned social systems, actual as well as imaginary.' He treats both men's later lives -- More's martyrdom, Erasmus's decline into ineffectiveness -- as a study in how a violently polarized age destroys or marginalizes moderate temperaments.",
+  "critical_context": "Russell explicitly draws on Huizinga's biography of Erasmus as his main source ('As regards the life of Erasmus, I have mainly followed the excellent biography by Huizinga'); later Erasmus and More scholarship has debated how ironic or sincere various passages of The Praise of Folly and Utopia are intended to be -- for instance, whether More's Utopia should be read as a genuine ideal, a satire of contemporary England, or a deliberately ambiguous thought-experiment -- a question Russell's relatively straightforward summary treatment does not dwell on.",
+  "key_takeaways": [
+    "Erasmus and More exemplify a brief, moderate northern Renaissance moment that combined humanist learning with genuine piety and public virtue, distinct from the amoral Italian Renaissance.",
+    "Erasmus's Praise of Folly satirizes ecclesiastical abuses but ultimately argues that true religion is a form of simple-hearted 'holy folly,' rejecting elaborate theology -- an idea Russell links forward to Rousseau.",
+    "Despite his criticism of Church corruption, Erasmus sided against Luther in the 1524 free-will controversy and declined into political and intellectual ineffectiveness as Europe polarized.",
+    "More's political career combined real integrity (incorruptibility, courageous opposition to Henry VIII) with eventual martyrdom for refusing the Act of Supremacy (1535).",
+    "More's Utopia, modeled on Plato's Republic, depicts a communist, egalitarian society with genuinely liberal features (religious toleration, opposition to capital punishment for theft, kindness to animals) alongside a rigid uniformity Russell judges incompatible with real happiness.",
+    "Russell generalizes his critique of Utopia's dullness into a broader claim that all planned social systems -- real or imagined -- tend to hamper the diversity essential to happiness."
+  ],
+  "study_notes": "The organizing contrast in this chapter is between the Italian and northern Renaissances: where Chapter II showed intellectual freedom purchased at the price of moral anarchy, this chapter shows intellectual freedom combined with sincere piety and public-spiritedness -- but at the cost, ultimately, of political effectiveness once the Reformation forced a binary choice that moderate temperaments like Erasmus's and More's could not survive intact. Read The Praise of Folly's structure carefully: it operates on two registers simultaneously, ironic praise of human vanity and error, and a sincere, closing suggestion that genuine Christian faith is itself a kind of holy foolishness, opposed to the 'head'-centered elaborateness of scholastic theology. This second, sincere layer is what Russell links forward to a whole later tradition (via Rousseau) of prioritizing religious feeling over doctrine.\n\nWhen studying Utopia, resist collapsing it into either simple praise or simple satire. Notice which features Russell singles out as genuinely 'astonishingly liberal' (opposition to the death penalty for theft, religious toleration, opposition to wars of glory, concern for animal welfare) versus which he treats as flaws (rigid uniformity of dress and housing, compulsory religious belief for citizenship, harsh sexual morality). His closing verdict -- that diversity is essential to happiness and that this is 'a defect of all planned social systems, actual as well as imaginary' -- is a general philosophical claim about social engineering that reaches well beyond More's specific book, and is worth testing against other utopian or planned societies you may already know.",
+  "glossary_terms": [
+    {
+      "term": "The Praise of Folly",
+      "beginner_explanation": "Erasmus's most famous book, a satire spoken in the voice of 'Folly' herself, mocking human vanity, professional conceit, and especially the corruption and hypocrisy of the Church, before ending with a serious suggestion that true religious faith is itself a kind of holy foolishness.",
+      "academic_explanation": "Erasmus's 1509 satirical work (Encomium Moriae), delivered as an oration by the personification of Folly, combining ironic praise of human self-deception and vanity with fierce criticism of ecclesiastical abuses, and concluding with the serious argument that genuine Christian devotion is a form of 'folly' opposed to scholastic intellectualism.",
+      "related_concepts": [
+        "True religion as 'holy folly': the rejection of theological system-building"
+      ]
+    },
+    {
+      "term": "Utopia",
+      "beginner_explanation": "Thomas More's 1518 book describing an imaginary island society with communal property, equality, and rational planning of daily life -- the origin of the word 'utopian.'",
+      "academic_explanation": "More's 1518 work, modeled on Plato's Republic, presenting (through the fictional traveler Raphael Hythloday) a communist island society without private property, characterized by egalitarian labor, religious toleration, opposition to capital punishment for theft, and rigid social uniformity, which Russell judges genuinely liberal in intent but ultimately incompatible with human happiness due to its lack of diversity.",
+      "related_concepts": [
+        "More's Utopia: communism, equality, and rational social planning"
+      ]
+    },
+    {
+      "term": "Act of Supremacy",
+      "beginner_explanation": "A 1534 English law declaring King Henry VIII, rather than the Pope, the head of the Church of England.",
+      "academic_explanation": "The 1534 Act of the English Parliament establishing Henry VIII as Supreme Head of the Church of England; Thomas More's refusal to swear the accompanying Oath of Supremacy led to his conviction for treason (on disputed testimony) and execution in 1535.",
+      "related_concepts": [
+        "The limits of humanist reform in the face of religious polarization"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "type": "short_answer",
+      "prompt": "How does Russell characterize the difference between the northern Renaissance (Erasmus and More's context) and the Italian Renaissance?",
+      "answer": "The northern Renaissance was not anarchic or amoral like the Italian one; it was associated with genuine piety and public virtue, focused on applying scholarly standards to biblical texts, and was less concerned with personal display of learning and more anxious to spread learning widely.",
+      "explanation": "This sets up why Erasmus and More could combine classical learning with sincere Christian devotion.",
+      "source_page": 511
+    },
+    {
+      "type": "short_answer",
+      "prompt": "What is the serious argument underlying The Praise of Folly, according to Russell?",
+      "answer": "That true religion is itself a form of Folly -- specifically, the 'holy folly' of simple Christian faith, as opposed to the intellectualized, elaborate theology of the scholastics; true religion comes 'from the heart, not the head.'",
+      "explanation": "Russell calls this 'the first appearance in literature' of a view later found in Rousseau's Savoyard Vicar.",
+      "source_page": 515
+    },
+    {
+      "type": "short_answer",
+      "prompt": "Why, despite his sharp satire of ecclesiastical corruption, did Erasmus ultimately oppose Luther and the Reformation?",
+      "answer": "Erasmus hated war and violence, and most humanists (including Erasmus) saw no middle ground between orthodoxy and complete free-thought, lacking the medieval feel for theological subtlety that would allow denying one doctrine (like purgatory) while retaining most of the faith, as Luther did.",
+      "explanation": "This came to a head in 1524, when Erasmus wrote in defense of free will, which Luther, following an exaggerated Augustine, rejected and answered savagely.",
+      "source_page": 516
+    },
+    {
+      "type": "identify_philosopher",
+      "prompt": "Which humanist was executed in 1535 for refusing to swear the Oath of Supremacy required by Henry VIII's Act of Supremacy?",
+      "answer": "Sir Thomas More.",
+      "explanation": "More's incorruptibility and principled opposition to the king's divorce and to the Act of Supremacy led directly to his execution.",
+      "source_page": 517
+    },
+    {
+      "type": "short_answer",
+      "prompt": "What genuinely liberal features does Russell identify in More's Utopia?",
+      "answer": "Its treatment of war (Utopians think nothing of martial glory and fight only for defense, to free allies, or to liberate oppressed peoples), its religious toleration, its eloquent argument against the wanton killing of animals, and its favor of mild criminal law (the book opens by arguing against the death penalty for theft).",
+      "explanation": "Russell notes these features as 'astonishingly liberal' for their time.",
+      "source_page": 520
+    },
+    {
+      "type": "compare_contrast",
+      "prompt": "Contrast Russell's praise of Utopia's liberal features with his central criticism of the society it depicts.",
+      "answer": "Russell praises Utopia's toleration, mild criminal law, opposition to wars of glory, and concern for animal welfare, but criticizes its rigid uniformity -- identical houses, identical clothing, compulsory house-rotation -- arguing that 'diversity is essential to happiness' and that life there 'would be intolerably dull,' a defect he generalizes to 'all planned social systems, actual as well as imaginary.'",
+      "explanation": "This is Russell's key evaluative judgment on utopian/communist social planning as such.",
+      "source_page": null
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "What years did Erasmus live, and where was he born?",
+      "back": "1466-1536; born in Rotterdam.",
+      "category": "date"
+    },
+    {
+      "front": "What years did Sir Thomas More live?",
+      "back": "1478-1535.",
+      "category": "date"
+    },
+    {
+      "front": "What major scholarly work did Erasmus produce in 1516?",
+      "back": "A Greek New Testament with a new Latin translation, alongside an edition of Saint Jerome.",
+      "category": "fact"
+    },
+    {
+      "front": "What is Erasmus's most famous surviving book?",
+      "back": "The Praise of Folly.",
+      "category": "fact"
+    },
+    {
+      "front": "What serious thesis does The Praise of Folly conclude with, according to Russell?",
+      "back": "That true religion is a form of 'holy folly' -- simple, heartfelt Christian faith -- as opposed to elaborate scholastic theology.",
+      "category": "concept"
+    },
+    {
+      "front": "Why did Erasmus ultimately oppose Luther despite criticizing Church corruption himself?",
+      "back": "He hated violence and saw no half-way house between orthodoxy and free-thought; in 1524 he defended free will against Luther's doctrine of predestination, and Luther's savage reply pushed him further into the Catholic camp.",
+      "category": "concept"
+    },
+    {
+      "front": "What position did More hold under Henry VIII before his fall from favor?",
+      "back": "Lord Chancellor (appointed after Wolsey's fall).",
+      "category": "fact"
+    },
+    {
+      "front": "Why was Thomas More executed in 1535?",
+      "back": "For refusing to swear the Oath of Supremacy declaring Henry VIII, not the Pope, head of the Church of England.",
+      "category": "fact"
+    },
+    {
+      "front": "What is More's most famous work, and in what year was it published?",
+      "back": "Utopia, published in 1518.",
+      "category": "fact"
+    },
+    {
+      "front": "What classical work is Utopia explicitly modeled on?",
+      "back": "Plato's Republic (particularly its communism of property).",
+      "category": "concept"
+    },
+    {
+      "front": "Name two genuinely liberal features of Utopia that Russell praises.",
+      "back": "Any two of: opposition to the death penalty for theft, religious toleration, opposition to wars of glory, kindness to animals.",
+      "category": "fact"
+    },
+    {
+      "front": "What is Russell's main criticism of the society depicted in Utopia?",
+      "back": "Its rigid uniformity would make life 'intolerably dull,' since diversity is essential to happiness -- a defect Russell says applies to all planned social systems.",
+      "category": "concept"
+    },
+    {
+      "front": "What later philosopher's 'Savoyard Vicar' does Russell link to Erasmus's idea that true religion 'comes from the heart, not the head'?",
+      "back": "Rousseau.",
+      "category": "concept"
+    },
+    {
+      "front": "What biography did Russell rely on mainly for Erasmus's life?",
+      "back": "Huizinga's biography of Erasmus.",
+      "category": "fact"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "How does Russell characterize the northern Renaissance in contrast to the Italian Renaissance?",
+      "options": [
+        "As even more anarchic and amoral",
+        "As associated with piety and public virtue rather than anarchy",
+        "As entirely indifferent to classical learning",
+        "As focused exclusively on science rather than literature"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell states the northern Renaissance 'was not anarchic or amoral; on the contrary, it was associated with piety and public virtue.'",
+      "related_concept": "The northern Renaissance's piety and public virtue",
+      "source_page": 511
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "beginner",
+      "prompt": "What is the title of Erasmus's most famous surviving book?",
+      "options": [
+        "Utopia",
+        "The Praise of Folly",
+        "Enchiridion militis christiani",
+        "The Colloquies"
+      ],
+      "correct_index": 1,
+      "explanation": "The Praise of Folly is the only book by Erasmus that Russell says is 'still read.'",
+      "related_concept": "True religion as 'holy folly': the rejection of theological system-building",
+      "source_page": 514
+    },
+    {
+      "type": "true_false",
+      "prompt": "According to Russell, Erasmus ultimately supported Luther's Reformation because of his own sharp criticisms of Church corruption.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_index": 1,
+      "explanation": "Despite his satire of ecclesiastical abuses, Erasmus ultimately opposed Luther, defending free will in 1524 and being driven further into the Catholic camp by Luther's savage response.",
+      "related_concept": "The limits of humanist reform in the face of religious polarization",
+      "source_page": 516
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "For what specific act of defiance was Sir Thomas More executed in 1535?",
+      "options": [
+        "Publishing Utopia without royal permission",
+        "Refusing to swear the Oath of Supremacy",
+        "Supporting Luther's Reformation",
+        "Opposing the execution of Anne Boleyn"
+      ],
+      "correct_index": 1,
+      "explanation": "More refused the Oath of Supremacy required under the 1534 Act of Supremacy, leading to his conviction for treason and execution.",
+      "related_concept": "The limits of humanist reform in the face of religious polarization",
+      "source_page": 517
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "intermediate",
+      "prompt": "What classical work is Thomas More's Utopia explicitly modeled on?",
+      "options": [
+        "Aristotle's Politics",
+        "Plato's Republic",
+        "Cicero's De Re Publica",
+        "Augustine's City of God"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell notes that, 'as in Plato's Republic, all things are held in common' in Utopia.",
+      "related_concept": "More's Utopia: communism, equality, and rational social planning",
+      "source_page": 518
+    },
+    {
+      "type": "fill_in_blank",
+      "difficulty": "beginner",
+      "prompt": "Russell criticizes Utopia's rigid uniformity by arguing that ____ is essential to happiness.",
+      "options": [
+        "wealth",
+        "diversity",
+        "religion",
+        "solitude"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell writes: 'Diversity is essential to happiness, and in Utopia there is hardly any. This is a defect of all planned social systems.'",
+      "related_concept": "More's Utopia: communism, equality, and rational social planning",
+      "source_page": null
+    },
+    {
+      "type": "multiple_choice",
+      "difficulty": "advanced",
+      "prompt": "According to Russell, what later thinker's view does Erasmus's claim that 'true religion comes from the heart, not the head' anticipate?",
+      "options": [
+        "Kant's categorical imperative",
+        "Rousseau's Savoyard Vicar",
+        "Hegel's Absolute Spirit",
+        "Spinoza's pantheism"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell explicitly connects Erasmus's view to 'the view set forth in Rousseau[‘s] Savoyard Vicar.'",
+      "related_concept": "True religion as 'holy folly': the rejection of theological system-building",
+      "source_page": 515
+    },
+    {
+      "type": "true_false",
+      "prompt": "Russell judges Utopia to be entirely without merit, dismissing its liberal features as insincere.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct_index": 1,
+      "explanation": "Russell explicitly calls Utopia 'astonishingly liberal' in several respects (war, religious toleration, kindness to animals, mild criminal law), even while criticizing its lack of diversity.",
+      "related_concept": "More's Utopia: communism, equality, and rational social planning",
+      "source_page": 520
+    }
+  ],
+  "essay_prompts": [
+    {
+      "task_type": "Compare",
+      "prompt": "Compare Erasmus and More as exemplars of the northern Renaissance, focusing on how each combined humanist learning with religious and civic commitment, and how each fared once the Reformation forced a polarized choice.",
+      "rubric": [
+        "Accurately describes both figures' backgrounds and characteristic combination of learning and piety",
+        "Explains why moderate reformism became untenable after Luther's revolt",
+        "Uses specific biographical and textual details (Praise of Folly, Utopia, More's execution)",
+        "Clear, well-organized comparison"
+      ]
+    },
+    {
+      "task_type": "Evaluate",
+      "prompt": "Evaluate Russell's claim that 'diversity is essential to happiness' and that this is 'a defect of all planned social systems, actual as well as imaginary,' using Utopia as his case study. Do you find this a fair criticism of planned or communist social orders in general?",
+      "rubric": [
+        "States Russell's claim and its basis in Utopia accurately",
+        "Considers Utopia's genuinely liberal features as potential counterweight",
+        "Reaches a reasoned, well-supported judgment about the general claim",
+        "Engages with the critical_context point about ambiguity/irony in reading Utopia where relevant"
+      ]
+    }
+  ],
+  "extraction_confidence": "high"
+}

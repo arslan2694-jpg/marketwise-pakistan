@@ -143,19 +143,28 @@
       "term": "Orphism",
       "beginner_explanation": "A mystical reform of the worship of Dionysus that taught the soul could be reborn many times and could ultimately be purified and freed from an endless cycle of birth and death.",
       "academic_explanation": "A Greek religious movement, traditionally traced to the figure of Orpheus, that organized itself into voluntary communities open to initiates regardless of race or sex, taught the transmigration of souls and their potential ascent to divine status through ritual and ascetic purification, and substantially shaped the religious dimension of Pythagorean and Platonic philosophy.",
-      "related_concepts": ["Transmigration of souls", "Bacchic religion", "Pythagoras"]
+      "related_concepts": [
+        "Transmigration of souls",
+        "Bacchic religion",
+        "Pythagoras"
+      ]
     },
     {
       "term": "Enthusiasm (Bacchic)",
       "beginner_explanation": "The original meaning of 'enthusiasm': having the god enter into you and feeling yourself become one with the god during ecstatic Dionysiac ritual.",
       "academic_explanation": "The state of ritual possession sought in Dionysiac (and, in refined form, Orphic) worship, in which the worshipper's ordinary consciousness is displaced by identification with the god; etymologically 'en-theos', having the god within.",
-      "related_concepts": ["Orphism", "Prudence versus passion"]
+      "related_concepts": [
+        "Orphism",
+        "Prudence versus passion"
+      ]
     },
     {
       "term": "Minoan civilization",
       "beginner_explanation": "The advanced, art-loving seafaring civilization of ancient Crete, roughly 2500 to 1400 B.C., discovered mainly through the excavations of Sir Arthur Evans.",
       "academic_explanation": "A Bronze Age maritime civilization centered on Crete, characterized by unwalled, sea-defended cities, close commercial contact with Egypt, and a still-undeciphered linear script, which spread to the Greek mainland as the Mycenaean civilization before its own destruction around the end of the fourteenth century B.C.",
-      "related_concepts": ["Mycenaean civilization"]
+      "related_concepts": [
+        "Mycenaean civilization"
+      ]
     }
   ],
   "questions": [
@@ -203,25 +212,78 @@
     }
   ],
   "flashcards": [
-    { "front": "What eclipse date allows Thales, and thus the birth of philosophy, to be dated?", "back": "585 B.C.", "category": "date" },
-    { "front": "What two rivers made early Mesopotamian agriculture, and thus civilization, easy and productive?", "back": "The Tigris and the Euphrates (alongside Egypt's Nile).", "category": "fact" },
-    { "front": "What innovation did the Greeks add to the Phoenician alphabet?", "back": "Vowels -- the Phoenician script recorded only consonants.", "category": "fact" },
-    { "front": "What maritime civilization flourished in Crete from about 2500 to 1400 B.C.?", "back": "The Minoan civilization, centered on the palace of Knossos.", "category": "fact" },
-    { "front": "In what order did the three waves of Greek-speaking invaders arrive in Greece, according to Russell?", "back": "First the Ionians, then the Achaeans, and last the Dorians.", "category": "fact" },
-    { "front": "What god's cult, imported from Thrace, gave rise to Orphism?", "back": "Dionysus (Bacchus).", "category": "concept" },
-    { "front": "What core doctrine did the Orphics hold about the soul?", "back": "The transmigration of souls: the soul is reborn repeatedly and can, through purification, achieve eternal bliss or suffer eternal/temporary torment.", "category": "concept" },
-    { "front": "Through which philosopher does Russell say Orphic elements entered Greek philosophy, and from him into Plato?", "back": "Pythagoras.", "category": "concept" },
-    { "front": "How does Gilbert Murray characterize the Olympian gods, as quoted by Russell?", "back": "As 'conquering chieftains, royal buccaneers' who claim only to have conquered the world, not created it, and who do no useful work.", "category": "quote" },
-    { "front": "What word did Russell trace back to an originally Orphic term meaning 'passionate sympathetic contemplation'?", "back": "'Theory' -- later given an intellectual, mathematical sense by Pythagoras.", "category": "concept" },
-    { "front": "What tension does Russell say runs through all of subsequent history, first illustrated by the reaction of Bacchic worship against everyday prudence?", "back": "'Prudence versus passion' -- a conflict Russell says we should not resolve by siding wholly with either party.", "category": "concept" },
-    { "front": "Which historical figure brought the Homeric poems to Athens and made them central to Athenian education?", "back": "Peisistratus (reigned, with intermissions, 560-527 B.C.).", "category": "fact" }
+    {
+      "front": "What eclipse date allows Thales, and thus the birth of philosophy, to be dated?",
+      "back": "585 B.C.",
+      "category": "date"
+    },
+    {
+      "front": "What two rivers made early Mesopotamian agriculture, and thus civilization, easy and productive?",
+      "back": "The Tigris and the Euphrates (alongside Egypt's Nile).",
+      "category": "fact"
+    },
+    {
+      "front": "What innovation did the Greeks add to the Phoenician alphabet?",
+      "back": "Vowels -- the Phoenician script recorded only consonants.",
+      "category": "fact"
+    },
+    {
+      "front": "What maritime civilization flourished in Crete from about 2500 to 1400 B.C.?",
+      "back": "The Minoan civilization, centered on the palace of Knossos.",
+      "category": "fact"
+    },
+    {
+      "front": "In what order did the three waves of Greek-speaking invaders arrive in Greece, according to Russell?",
+      "back": "First the Ionians, then the Achaeans, and last the Dorians.",
+      "category": "fact"
+    },
+    {
+      "front": "What god's cult, imported from Thrace, gave rise to Orphism?",
+      "back": "Dionysus (Bacchus).",
+      "category": "concept"
+    },
+    {
+      "front": "What core doctrine did the Orphics hold about the soul?",
+      "back": "The transmigration of souls: the soul is reborn repeatedly and can, through purification, achieve eternal bliss or suffer eternal/temporary torment.",
+      "category": "concept"
+    },
+    {
+      "front": "Through which philosopher does Russell say Orphic elements entered Greek philosophy, and from him into Plato?",
+      "back": "Pythagoras.",
+      "category": "concept"
+    },
+    {
+      "front": "How does Gilbert Murray characterize the Olympian gods, as quoted by Russell?",
+      "back": "As 'conquering chieftains, royal buccaneers' who claim only to have conquered the world, not created it, and who do no useful work.",
+      "category": "quote"
+    },
+    {
+      "front": "What word did Russell trace back to an originally Orphic term meaning 'passionate sympathetic contemplation'?",
+      "back": "'Theory' -- later given an intellectual, mathematical sense by Pythagoras.",
+      "category": "concept"
+    },
+    {
+      "front": "What tension does Russell say runs through all of subsequent history, first illustrated by the reaction of Bacchic worship against everyday prudence?",
+      "back": "'Prudence versus passion' -- a conflict Russell says we should not resolve by siding wholly with either party.",
+      "category": "concept"
+    },
+    {
+      "front": "Which historical figure brought the Homeric poems to Athens and made them central to Athenian education?",
+      "back": "Peisistratus (reigned, with intermissions, 560-527 B.C.).",
+      "category": "fact"
+    }
   ],
   "quiz": [
     {
       "type": "multiple_choice",
       "difficulty": "beginner",
       "prompt": "According to Russell, in what year did the eclipse occur that allows Thales, and the birth of philosophy, to be dated?",
-      "options": ["585 B.C.", "500 B.C.", "700 B.C.", "440 B.C."],
+      "options": [
+        "585 B.C.",
+        "500 B.C.",
+        "700 B.C.",
+        "440 B.C."
+      ],
       "correct_index": 0,
       "explanation": "Russell states philosophy begins with Thales, datable by his prediction of an eclipse that astronomers confirm occurred in 585 B.C.",
       "related_concept": "The Bacchic/Orphic religious current and its influence on philosophy",
@@ -231,7 +293,12 @@
       "type": "multiple_choice",
       "difficulty": "beginner",
       "prompt": "From which people did the Greeks borrow the alphabet, subsequently adding vowels?",
-      "options": ["The Egyptians", "The Babylonians", "The Phoenicians", "The Persians"],
+      "options": [
+        "The Egyptians",
+        "The Babylonians",
+        "The Phoenicians",
+        "The Persians"
+      ],
       "correct_index": 2,
       "explanation": "The Greeks borrowed their alphabet from the Phoenicians and innovated by adding vowels instead of using only consonants.",
       "related_concept": "The Minoan-Mycenaean background of Greek civilization",
@@ -241,7 +308,12 @@
       "type": "multiple_choice",
       "difficulty": "intermediate",
       "prompt": "What god's worship, imported from Thrace, gave rise, through reform, to Orphism?",
-      "options": ["Zeus", "Apollo", "Dionysus (Bacchus)", "Poseidon"],
+      "options": [
+        "Zeus",
+        "Apollo",
+        "Dionysus (Bacchus)",
+        "Poseidon"
+      ],
       "correct_index": 2,
       "explanation": "Dionysus/Bacchus was originally a Thracian fertility god; his cult, reformed in a more ascetic and mystical direction, became Orphism.",
       "related_concept": "The Bacchic/Orphic religious current and its influence on philosophy",
@@ -251,7 +323,12 @@
       "type": "multiple_choice",
       "difficulty": "intermediate",
       "prompt": "Through which philosopher does Russell say Orphic religious elements entered Greek philosophy and, from him, passed into Plato?",
-      "options": ["Thales", "Pythagoras", "Anaxagoras", "Heraclitus"],
+      "options": [
+        "Thales",
+        "Pythagoras",
+        "Anaxagoras",
+        "Heraclitus"
+      ],
       "correct_index": 1,
       "explanation": "Russell describes Pythagoras as 'a reformer of Orphism' and the channel through which Orphic mysticism entered philosophy and reached Plato.",
       "related_concept": "The Bacchic/Orphic religious current and its influence on philosophy",
@@ -260,7 +337,10 @@
     {
       "type": "true_false",
       "prompt": "Russell argues that classical Greek culture was uniformly calm and 'serene', with no significant passionate or mystical religious element.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct_index": 1,
       "explanation": "Russell explicitly rejects the 'serenity' stereotype, insisting on a persistent mystical, passionate Bacchic/Orphic current alongside the rational Olympian one.",
       "related_concept": "Prudence (forethought) versus Bacchic passion",
@@ -271,7 +351,12 @@
       "type": "multiple_choice",
       "difficulty": "advanced",
       "prompt": "What does Russell identify as the original meaning of the word 'theory', later given a mathematical sense by Pythagoras?",
-      "options": ["A logical proof", "A geometric diagram", "Passionate sympathetic contemplation (an Orphic term)", "A civic debate"],
+      "options": [
+        "A logical proof",
+        "A geometric diagram",
+        "Passionate sympathetic contemplation (an Orphic term)",
+        "A civic debate"
+      ],
       "correct_index": 2,
       "explanation": "Russell, following Cornford, traces 'theory' to an Orphic term for ecstatic, sympathetic contemplation, which Pythagoras redirected toward intellectual, mathematical contemplation.",
       "related_concept": "The Bacchic/Orphic religious current and its influence on philosophy",
@@ -281,21 +366,31 @@
       "type": "fill_in_blank",
       "difficulty": "intermediate",
       "prompt": "Russell says the Ionians, though conquerors, ____ the Cretan civilization pretty completely, much as the Romans later adopted Greek civilization.",
-      "options": ["destroyed", "adopted", "ignored", "exported"],
+      "options": [
+        "destroyed",
+        "adopted",
+        "ignored",
+        "exported"
+      ],
       "correct_index": 1,
       "explanation": "Russell draws a direct analogy between the Ionians adopting Cretan civilization and the Romans later adopting Greek civilization.",
       "related_concept": "The Minoan-Mycenaean background of Greek civilization",
-      "source_page": 11
+      "source_page": null
     },
     {
       "type": "multiple_choice",
       "difficulty": "beginner",
       "prompt": "In what order does Russell say the three waves of Greek-speaking invaders reached Greece?",
-      "options": ["Dorians, Achaeans, Ionians", "Ionians, Achaeans, Dorians", "Achaeans, Ionians, Dorians", "Ionians, Dorians, Achaeans"],
+      "options": [
+        "Dorians, Achaeans, Ionians",
+        "Ionians, Achaeans, Dorians",
+        "Achaeans, Ionians, Dorians",
+        "Ionians, Dorians, Achaeans"
+      ],
       "correct_index": 1,
       "explanation": "Russell states the Greeks came in three successive waves: first the Ionians, then the Achaeans, and last the Dorians.",
       "related_concept": "The Minoan-Mycenaean background of Greek civilization",
-      "source_page": 12
+      "source_page": null
     }
   ],
   "essay_prompts": [

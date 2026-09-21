@@ -296,14 +296,14 @@
       "prompt": "Reconstruct the reasoning Russell attributes to Jews under the persecution of Antiochus IV that led to a widespread belief in personal immortality.",
       "answer": "It had been believed that virtue would be rewarded on earth; but persecution fell precisely on the most virtuous and law-observant; therefore, to preserve the justice of an all-powerful God, rewards and punishments must be reserved for a life after death.",
       "explanation": "Russell treats this as a distinct, later theodicy from the earlier exile-era one (which blamed the sufferers themselves); here the martyrs are innocent, so justice is deferred to the afterlife rather than earned through repentance.",
-      "source_page": 315
+      "source_page": 324
     },
     {
       "type": "short_answer",
       "prompt": "What historical event does Russell credit with possibly saving Judaism (and, with it, the historical possibility of Christianity and Islam) from extinction?",
       "answer": "The heroic resistance of the Hasidim and the Maccabean martyrs against Antiochus IV's persecution and forced Hellenization.",
       "explanation": "Russell quotes Townsend's remark that 'the blood of the Maccabean martyrs... ultimately became the seed of the Church,' underscoring how contingent later monotheistic religious history was on this 2nd-century B.C. resistance.",
-      "source_page": 316
+      "source_page": 324
     },
     {
       "type": "short_answer",
@@ -380,7 +380,7 @@
       "correct_index": 2,
       "explanation": "Antiochus IV established a gymnasium in Jerusalem, banned circumcision and Jewish dietary law, and placed an image of a god in the Temple, provoking rebellion.",
       "related_concept": "Political and social context",
-      "source_page": 314
+      "source_page": 323
     },
     {
       "type": "multiple_choice",
@@ -390,7 +390,7 @@
       "correct_index": 1,
       "explanation": "Since virtue was not rewarded in this life for the martyrs, divine justice required belief in rewards and punishments after death.",
       "related_concept": "Belief in reward and punishment after death",
-      "source_page": 315
+      "source_page": 324
     },
     {
       "type": "fill_in_blank",
@@ -409,7 +409,7 @@
       "correct_index": 1,
       "explanation": "The Sadducees continued to reject the belief in personal immortality even by the time of Christ, though by then they were a small party.",
       "related_concept": "Sadducees",
-      "source_page": 315
+      "source_page": 324
     },
     {
       "type": "multiple_choice",
@@ -428,7 +428,7 @@
       "correct_index": 0,
       "explanation": "Deutero-Isaiah (C), Philo (D), Judas Maccabaeus (A), Ezra and Nehemiah (B).",
       "related_concept": "Philosophers and figures discussed",
-      "source_page": 319
+      "source_page": 323
     }
   ],
 

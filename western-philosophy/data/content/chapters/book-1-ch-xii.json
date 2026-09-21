@@ -1,0 +1,176 @@
+{
+  "chapter_id": "book-1-ch-xii",
+  "book_id": "book-1",
+  "part_id": "book-1-part-2",
+  "roman": "XII",
+  "title": "The Influence of Sparta",
+  "start_page": 110,
+  "end_page": 119,
+
+  "orientation": "Before turning to Plato's political philosophy, Russell insists we understand Sparta -- not just as it actually was, but as it was mythologized by later writers, above all Plutarch. Sparta's double legacy, the historical military oligarchy and the idealized legend built on it, shaped Plato's Republic and, Russell argues, a long chain of authoritarian political thought running through Rousseau, Nietzsche, and National Socialism.",
+  "historical_background": "Sparta (capital of Laconia/Lacedaemon in the south-east Peloponnese) was ruled by a Spartan citizen class that had conquered the region during the Dorian invasion and reduced the native population to serfs called helots. During the eighth century B.C. Sparta conquered neighboring Messenia and enslaved much of its population as well. Spartan society was organized entirely around producing soldiers: rigid education from birth, communal messes, prohibitions on wealth and commerce, and a constitution combining two hereditary kings, a Council of Elders, a citizen Assembly, and five annually chosen ephors. Sparta was for centuries militarily dominant (as at Thermopylae in 480 B.C.) until its defeat by Thebes at Leuctra in 371 B.C.",
+  "philosophical_problems": [
+    "What is the relationship between a society's historical reality and the idealized 'myth' later ages construct from it, and which has greater influence on subsequent thought?",
+    "Can a society organized wholly around military efficiency and rigid discipline be called admirable, and by what standard?",
+    "Why did admiration for a state that Russell compares to a Nazi model persist among Greek philosophers and later liberal and romantic thinkers alike?"
+  ],
+
+  "philosophers_discussed": [
+    {
+      "name": "Plato",
+      "role_in_chapter": "Named as the philosopher most decisively shaped by the Spartan myth; the chapter closes by promising the next chapter will detail Sparta's effect on his Utopia (the Republic).",
+      "is_primary_subject": false
+    },
+    {
+      "name": "Aristotle",
+      "role_in_chapter": "Quoted at length giving a hostile, realistic critique of the Spartan constitution (its treatment of women, its inequality of property, the corruptibility and excessive power of the ephors), written after Sparta's decline.",
+      "is_primary_subject": false
+    },
+    {
+      "name": "Plutarch",
+      "role_in_chapter": "Author (in the Life of Lycurgus) of the idealized 'myth' of Sparta that Russell treats as historically more influential than the Spartan reality; his account of Lycurgus's laws (communism of land, iron currency, communal upbringing, mixed views on wives and children) is presented and critically assessed.",
+      "is_primary_subject": false
+    }
+  ],
+
+  "schools_discussed": [],
+
+  "core_concepts": [
+    {
+      "name": "The Spartan reality vs. the Spartan myth",
+      "plain_explanation": "There is a difference between what Sparta actually was as a historical state (a harsh, militaristic slave-society) and the idealized legend of Sparta that later writers, especially Plutarch, created and that inspired later political thinkers.",
+      "precise_definition": "Russell's distinction between Sparta's factual institutions and conduct (documented critically by Aristotle and others) and the romanticized 'myth,' chiefly transmitted by Plutarch's Life of Lycurgus, which most profoundly influenced political theory from Plato onward.",
+      "why_it_mattered": "Russell argues the myth, not the reality, is what mattered historically: it shaped Plato's Republic and, through Plutarch, later 'English and French liberals of the eighteenth century, the founders of the United States,' German romanticism, and ultimately Rousseau, Nietzsche, and National Socialism.",
+      "historical_origin": "The myth crystallized especially in Plutarch's Life of Lycurgus, written when Sparta's greatness was already centuries in the past.",
+      "associated_philosopher": "Plato",
+      "examples": ["Aristotle's hostile, dry account of Spartan avarice, weak ephors, and license among Spartan women, contrasted with Plutarch's admiring portrait of the same institutions."],
+      "objections": ["Aristotle's realistic account is hard to reconcile with the idealized picture, suggesting the myth diverged sharply from lived Spartan practice."],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "Rousseau, Nietzsche, National Socialism, and (via Plutarch) eighteenth-century liberal and revolutionary thought and German romanticism.",
+      "connection_to_politics_or_religion": "The myth of Sparta became a template for later authoritarian and totalitarian political ideals precisely because it combined a claim to 'idealism' with a love of power.",
+      "is_major": true
+    },
+    {
+      "name": "Spartan communism and the abolition of private wealth",
+      "plain_explanation": "Sparta forbade gold and silver money, gave every citizen an equal, non-saleable plot of land worked by helots, and required communal dining, in order to prevent both poverty and excessive riches.",
+      "precise_definition": "The Lycurgan economic arrangement, as reported by Plutarch: equal land allotments ('lots') assigned by the state and worked by helot serfs, an iron-only currency of negligible value, and compulsory communal messes, intended to abolish class division among citizens.",
+      "why_it_mattered": "It is the direct institutional model Russell says lies behind Plato's proposal, in the Republic, that the guardian class hold no private property.",
+      "historical_origin": "Attributed by legend to the (probably mythical) lawgiver Lycurgus.",
+      "associated_philosopher": "",
+      "examples": ["Iron coinage so bulky that ten minas' worth would fill a cellar.", "Every citizen dining in a common mess, contributing produce from his lot."],
+      "objections": ["Aristotle notes the system did not actually prevent inequality: two-fifths of all land belonged to women, and lots could be given or bequeathed, leading to a drastic decline in the number of citizens (from about ten thousand to under one thousand by the time of Leuctra)."],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "Prefigures the communism of property Plato proposes for the guardian class in the Republic.",
+      "connection_to_politics_or_religion": "",
+      "is_major": true
+    },
+    {
+      "name": "Spartan education and the subordination of the individual to the state",
+      "plain_explanation": "From birth, Spartans were shaped entirely to serve the state as soldiers: weak infants were exposed, boys were removed from home at seven for harsh communal training, and adult life remained highly regimented, with almost no personal liberty or private culture.",
+      "precise_definition": "The Spartan system of state-controlled upbringing (agoge), combining physical hardening, minimal formal 'learning' beyond obedience and endurance, and lifelong subordination of private life to military and civic duty, extending in modified form to the physical training of girls.",
+      "why_it_mattered": "This is the clearest institutional ancestor of the rigorous, state-directed education Plato prescribes for his guardians in the Republic, including the equal physical training of women.",
+      "historical_origin": "Legendarily instituted by Lycurgus; described at length by Plutarch and criticized by Aristotle.",
+      "associated_philosopher": "",
+      "examples": ["Boys trained from age seven in a single school, taught obedience, endurance of pain, and combat rather than 'cultural or scientific education.'", "Girls given the same physical (gymnastic) training as boys, including exercising naked alongside them.", "Deformed or sickly infants examined and, if judged unfit, exposed."],
+      "objections": ["Aristotle argues the system failed even on its own terms, since Spartan women, exempted from the same discipline, lived in 'intemperance and luxury' and gained excessive influence."],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "Directly anticipates Plato's Utopian education of the guardian class (covered in the next chapter), and was invoked approvingly by later admirers from Rousseau to the architects of Nazi ideology, per Russell.",
+      "connection_to_politics_or_religion": "",
+      "is_major": true
+    },
+    {
+      "name": "The helot system",
+      "plain_explanation": "The native population conquered by the Spartans was reduced to serfs (helots) bound permanently to the land, forced to hand over most of their produce, and periodically terrorized or killed to prevent rebellion.",
+      "precise_definition": "A hereditary, state-owned serf class attached to Spartan land-lots, unable to be bought or sold individually but not free, subject to an annual declaration of war permitting Spartan youths to kill suspected troublemakers without legal guilt.",
+      "why_it_mattered": "The entire leisure and 'equality' enjoyed by Spartan citizens rested on this system of forced labor and violence, a fact Russell insists on stating plainly against the romanticized myth.",
+      "historical_origin": "Established after the Dorian conquest of Laconia and expanded after the conquest of Messenia.",
+      "associated_philosopher": "",
+      "examples": ["The secret annual 'declaration of war' on the helots, allowing killing without legal penalty.", "Plutarch's own discomfort with this practice, which he refuses to attribute to the (in his view) gentle and just Lycurgus."],
+      "objections": ["Plutarch's attempt to exempt Lycurgus personally from responsibility for helot-killing is, in Russell's presentation, an example of the myth softening an otherwise brutal reality."],
+      "competing_positions": [],
+      "influence_on_later_thinkers": "",
+      "connection_to_politics_or_religion": "",
+      "is_major": false
+    }
+  ],
+
+  "arguments": [],
+
+  "key_distinctions": [
+    "Historical Sparta (documented critically, e.g. by Aristotle and Herodotus) vs. mythical Sparta (idealized, chiefly via Plutarch)",
+    "Spartan citizens (the ruling military class) vs. helots (enslaved serfs) vs. perioeci (free but politically powerless inhabitants)",
+    "'Music' (culture broadly) vs. 'gymnastics' (physical training) as the two halves of education -- a division Plato will adopt"
+  ],
+
+  "connections_to_earlier_philosophers": "The chapter mostly precedes and sets up Plato rather than looking backward, though it notes that the rule of philosophers Plato will later idealize had already been attempted by Pythagoras and, in Plato's own time, by Archytas the Pythagorean at Taras.",
+  "connections_to_later_philosophers": "Russell states directly that the Spartan myth 'influenced Plato's political theory, and that of countless subsequent writers,' and singles out Rousseau, Nietzsche, and National Socialism (and, in a footnote, Dr. Thomas Arnold and the English public schools) as heirs of the Spartan ideal transmitted mainly through Plutarch.",
+  "political_social_context": "Sparta's constitution combined two hereditary kings, an aristocratic Council of Elders, a non-initiating citizen Assembly, and five ephors who came to hold great power; Russell stresses that Sparta's vaunted 'democratic' elements applied only among a ruling citizen class that tyrannized over helots and denied all power to the perioeci. Sparta's stability (in contrast to the frequent revolutions of other Greek cities) and its long military dominance, ending at Leuctra in 371 B.C., fed both Greek admiration and the later myth.",
+  "religion_science_culture_context": "Sparta produced no lasting art, science, or philosophy after its constitution crystallized around the seventh century B.C.; Russell contrasts this sterility with the enormous indirect cultural influence of the Spartan legend on Western political imagination via Plutarch.",
+
+  "russell_presentation": "Russell presents Sparta's 'double effect on Greek thought: through the reality, and through the myth,' arguing the myth is historically the more important because it, not the facts, shaped Plato and countless later writers. He gives a detailed, unromantic account of Spartan institutions -- the helot system, land allotments, communal messes, rigid education of both sexes, the unusual legal position of Spartan women, and the complex four-part constitution (kings, Council of Elders, Assembly, ephors) -- drawing partly on Bury's History of Greece. He then sets Aristotle's dry, critical account of Spartan decline (avarice, corrupt ephors, unchecked women, drastic decline in citizen numbers) against Plutarch's far more admiring Life of Lycurgus, which Russell treats at length as the channel through which the Spartan ideal reached Rousseau, Nietzsche, and, in Russell's explicit and pointed comparison, National Socialism. Russell's own judgment is severe: he calls the Spartan state 'a model, in miniature, of the state that the Nazis would establish if victorious,' while noting that most Greeks, and later admirers, saw it instead as a structure of 'severe and simple beauty.' The chapter ends by pointing forward: this is the material out of which Plato will build his own Utopia.",
+  "critical_context": "",
+
+  "key_takeaways": [
+    "Russell distinguishes Sparta's historical reality (a harsh, slave-based military oligarchy) from the idealized 'myth' later transmitted mainly by Plutarch, arguing the myth had far greater historical influence.",
+    "Spartan citizens lived off the forced labor of helots, a conquered serf population periodically terrorized (and occasionally killed) to prevent rebellion.",
+    "Sparta forbade private wealth among citizens, using equal land-lots, an iron-only currency, and communal messes -- a model Russell links directly to Plato's proposed communism for the guardian class.",
+    "Spartan education, physically rigorous and identical in outline for boys and girls, subordinated the individual entirely to the state and neglected 'cultural or scientific education.'",
+    "Aristotle's contemporary-to-slightly-later critique of Sparta (corrupt ephors, unrestrained women, drastic decline in citizen numbers) contrasts sharply with Plutarch's idealizing legend.",
+    "Russell explicitly links the Spartan myth's later influence to Rousseau, Nietzsche, and National Socialism, comparing the historical Spartan state to a miniature Nazi model."
+  ],
+  "study_notes": "Read this chapter as background research for Plato, not as a self-contained topic: almost every institution Russell describes here -- the guardian-like citizen class living apart from productive labor, communal property, state-controlled education, equal training for men and women, rigid censorship of what counts as acceptable culture -- reappears, transformed, in Plato's Republic in the next chapter. Keeping a running list of these parallels as you read will make Chapter XIV far easier to follow.\n\nPay close attention to the reality/myth distinction, since it is the chapter's real philosophical payload. Russell is not simply reporting Spartan history; he is making an argument about how ideas move through history -- often not through what actually happened, but through later, simplified, idealized retellings (Plutarch's, in this case) that detach an institution from its uglier features (like helot-killing) while keeping its inspirational shape. This is a pattern worth watching for elsewhere in the History: an idea's political afterlife frequently outruns its historical accuracy.\n\nFinally, notice how Russell uses two contemporary-to-ancient critics, Herodotus and especially Aristotle, to puncture the myth from within Greek sources themselves -- Sparta was already being criticized by fellow Greeks for corruption, cowardice, and internal decay well before Plutarch's later idealization set in.",
+
+  "glossary_terms": [
+    {"term": "Helots", "beginner_explanation": "The enslaved native population of Laconia and Messenia who farmed the land for their Spartan masters.", "academic_explanation": "A hereditary serf class bound to Spartan land-lots, required to render fixed produce quotas to their landowners, and subject to periodic state-sanctioned killing to suppress rebellion.", "related_concepts": ["Spartan lots", "perioeci"]},
+    {"term": "Lycurgus", "beginner_explanation": "The legendary lawgiver credited with creating Sparta's constitution and way of life.", "academic_explanation": "A probably mythical (originally divine) figure to whom later tradition, especially Plutarch, attributed the entirety of the Spartan constitution and social system, though Russell notes the system in fact grew up gradually.", "related_concepts": ["Spartan myth", "Plutarch"]},
+    {"term": "Ephors", "beginner_explanation": "Five Spartan officials chosen yearly who checked the power of the kings.", "academic_explanation": "A board of five annually selected magistrates, chosen by a method Aristotle called 'too childish' (effectively by lot), who held supreme civil jurisdiction and criminal authority even over the kings.", "related_concepts": ["Spartan constitution", "Council of Elders"]},
+    {"term": "Perioeci", "beginner_explanation": "Free people living in Spartan territory who had no political power.", "academic_explanation": "Free inhabitants of Laconia outside the Spartan citizen class, permitted personal liberty and property but excluded entirely from political power.", "related_concepts": ["Helots", "Spartan citizens"]},
+    {"term": "The Spartan myth", "beginner_explanation": "The idealized, often inaccurate legend of Sparta that later writers admired and imitated.", "academic_explanation": "The romanticized account of Spartan institutions, chiefly transmitted by Plutarch's Life of Lycurgus, which Russell argues had greater historical influence on political thought (via Plato, Rousseau, Nietzsche, and National Socialism) than the documented Spartan reality.", "related_concepts": ["Plutarch", "Plato's Utopia"]}
+  ],
+
+  "questions": [
+    {"type": "short_answer", "prompt": "What two distinct effects does Russell say Sparta had on Greek thought, and which does he consider more historically important?", "answer": "The 'reality' (the actual Spartan institutions and military success) and the 'myth' (the idealized legend, chiefly via Plutarch); Russell considers the myth more important historically because of its far wider and longer-lasting influence.", "explanation": "This framing organizes the whole chapter and explains why Russell devotes so much space to Plutarch even though his account is historically unreliable.", "source_page": 110},
+    {"type": "short_answer", "prompt": "Who were the helots, and how did the Spartans attempt to prevent them from rebelling?", "answer": "Helots were the conquered native population reduced to serfdom, bound to the land; the Spartans maintained a secret police and also annually declared a formal 'war' on the helots, permitting young Spartans to kill suspected troublemakers without incurring legal guilt.", "explanation": "This illustrates how thoroughly Spartan 'stability' rested on organized violence against the majority of the population under its control.", "source_page": 111},
+    {"type": "compare_contrast", "prompt": "Contrast Aristotle's account of Sparta with Plutarch's.", "answer": "Aristotle, writing after Sparta's decline, gives a dry, critical account: Spartan women live in luxury and gain excessive influence, the ephors are poor and corrupt, and citizen numbers collapsed due to unequal property. Plutarch, writing centuries later of Sparta's romanticized past, offers an admiring account crediting Lycurgus with a wise, harmonious, and virtuous social order, and explicitly refuses to believe the uglier practices (like killing helots) could be his doing.", "explanation": "Russell uses this contrast to demonstrate the gap between Spartan reality and the later myth.", "source_page": 116},
+    {"type": "short_answer", "prompt": "What economic measures did the (legendary) Lycurgus institute to prevent inequality among Spartan citizens, according to Plutarch?", "answer": "An equal division of land into lots, a prohibition on gold and silver in favor of near-worthless iron coinage, and compulsory communal messes with shared food.", "explanation": "This is the institutional model Russell links to Plato's proposed communism of property for his guardian class.", "source_page": 114},
+    {"type": "identify_philosopher", "prompt": "Which later political thinkers and movements does Russell explicitly say were influenced by the myth of Sparta transmitted through Plutarch?", "answer": "Rousseau, Nietzsche, National Socialism, and, in a footnote, Dr. Thomas Arnold and the English public schools; more broadly, eighteenth-century English and French liberals, the founders of the United States, and the German romantic movement.", "explanation": "Russell's point is that Plutarch's influence was both wide (liberal and totalitarian thinkers alike drew on it) and morally mixed.", "source_page": 110},
+    {"type": "short_answer", "prompt": "How does Russell characterize the position of women in Sparta, and what is one contradiction he notes in the sources about them?", "answer": "Spartan women received the same physical (gymnastic) training as men and were unusually unsecluded for Greek women, yet were expected to suppress emotion in the state's interest; Russell notes the contradiction that, though reputed exceptionally chaste, several reputed royal heirs were set aside for not being their mother's husband's biological sons.", "explanation": "This shows the gap Russell repeatedly finds between Sparta's idealized reputation and messier documented reality.", "source_page": 112}
+  ],
+
+  "flashcards": [
+    {"front": "What were Spartan serfs called, and what was their status?", "back": "Helots; hereditary serfs bound permanently to the land, unable to be bought or sold individually, and subject to periodic state-sanctioned killing.", "category": "fact"},
+    {"front": "Who is credited (legendarily) with creating Sparta's constitution?", "back": "Lycurgus, a probably mythical lawgiver said to have promulgated his laws in 885 B.C.", "category": "fact"},
+    {"front": "What were the two hereditary offices at the top of the Spartan constitution?", "back": "Two kings, from two different families, who commanded the army in wartime but had limited powers in peacetime.", "category": "fact"},
+    {"front": "What were the five ephors, and what was their role?", "back": "Annually chosen magistrates who balanced the kings' power, held supreme civil jurisdiction, and even had criminal authority over the kings.", "category": "concept"},
+    {"front": "What currency did Sparta use, and why?", "back": "Iron coinage of negligible value, intended to discourage the accumulation of wealth and outside trade.", "category": "fact"},
+    {"front": "At what age did Spartan boys leave home for state-run schooling?", "back": "Age seven.", "category": "fact"},
+    {"front": "What happened to sickly or deformed Spartan infants?", "back": "They were examined by tribal elders and, if judged unfit, exposed (left to die).", "category": "fact"},
+    {"front": "What battle in 480 B.C. exemplified Spartan military valor despite being a technical defeat?", "back": "The Battle of Thermopylae, where three hundred Spartans held a mountain pass against the Persian army.", "category": "fact"},
+    {"front": "What battle in 371 B.C. ended Spartan military supremacy?", "back": "The Battle of Leuctra, where Sparta was defeated by Thebes.", "category": "fact"},
+    {"front": "According to Aristotle, what happened to the number of Spartan citizens over time, and why?", "back": "It fell from about ten thousand to under one thousand by the time of Leuctra, due to unequal land distribution (lots could be given or bequeathed, and much land ended up owned by women).", "category": "fact"},
+    {"front": "Which ancient work fixed the 'myth' of Sparta for medieval and modern readers?", "back": "Plutarch's Life of Lycurgus.", "category": "concept"},
+    {"front": "What three modern movements/thinkers does Russell say inherited the Spartan ideal via Plutarch?", "back": "Rousseau, Nietzsche, and National Socialism (with English public schools noted in a footnote).", "category": "concept"},
+    {"front": "How does Russell compare the historical Spartan state to a modern political model?", "back": "He calls it 'a model, in miniature, of the state that the Nazis would establish if victorious.'", "category": "concept"},
+    {"front": "What free but politically powerless group lived in Laconia besides Spartan citizens and helots?", "back": "The perioeci.", "category": "fact"}
+  ],
+
+  "quiz": [
+    {"type": "multiple_choice", "difficulty": "beginner", "prompt": "What were Spartan serfs called?", "options": ["Perioeci", "Helots", "Hoplites", "Ephors"], "correct_index": 1, "explanation": "Helots were the conquered population reduced to hereditary serfdom.", "related_concept": "The helot system", "source_page": 111},
+    {"type": "multiple_choice", "difficulty": "beginner", "prompt": "Which ancient author's Life of Lycurgus fixed the idealized 'myth' of Sparta for later ages?", "options": ["Herodotus", "Aristotle", "Plutarch", "Thucydides"], "correct_index": 2, "explanation": "Russell states the myth 'is to be found in Plutarch Life of Lycurgus' and traces its later influence to this source.", "related_concept": "The Spartan reality vs. the Spartan myth", "source_page": 110},
+    {"type": "true_false", "prompt": "According to Russell, Sparta's historical reality had greater long-term influence on political thought than the Spartan myth.", "options": ["True", "False"], "correct_index": 1, "explanation": "Russell states the opposite: 'The myth is of even more importance, historically, than the reality.'", "related_concept": "The Spartan reality vs. the Spartan myth", "source_page": 110},
+    {"type": "multiple_choice", "difficulty": "intermediate", "prompt": "What currency policy did Sparta adopt to discourage wealth accumulation?", "options": ["Gold coinage only", "No currency at all", "Iron coinage of negligible value", "Silver coinage controlled by the ephors"], "correct_index": 2, "explanation": "Iron money made accumulating meaningful wealth impractical, per Plutarch.", "related_concept": "Spartan communism and the abolition of private wealth", "source_page": 114},
+    {"type": "multiple_choice", "difficulty": "intermediate", "prompt": "Which battle in 371 B.C. ended Spartan military supremacy?", "options": ["Thermopylae", "Plataea", "Leuctra", "Marathon"], "correct_index": 2, "explanation": "Sparta's defeat by Thebes at Leuctra in 371 B.C. marked the end of its military greatness.", "related_concept": "The Spartan reality vs. the Spartan myth", "source_page": 112},
+    {"type": "fill_in_blank", "prompt": "Aristotle criticizes Sparta for allowing too much license and luxury among Spartan ___, which he says undermined the state's professed values.", "options": ["ephors", "women", "helots", "kings"], "correct_index": 1, "explanation": "Aristotle blames the influence and unrestrained lifestyle of Spartan women for weakening the constitution's intended severity.", "related_concept": "Spartan education and the subordination of the individual to the state", "source_page": 113},
+    {"type": "multiple_choice", "difficulty": "advanced", "prompt": "Which three later political thinkers/movements does Russell name as having been shaped by the Spartan myth, chiefly via Plutarch?", "options": ["Locke, Hume, Marx", "Rousseau, Nietzsche, National Socialism", "Aquinas, Luther, Calvin", "Machiavelli, Hobbes, Bentham"], "correct_index": 1, "explanation": "Russell states the myth's ideals 'have had a great part in framing the doctrines of Rousseau, Nietzsche, and National Socialism.'", "related_concept": "The Spartan reality vs. the Spartan myth", "source_page": 110},
+    {"type": "true_false", "prompt": "Plutarch attributes the Spartan practice of periodically killing helots directly to Lycurgus's own institution.", "options": ["True", "False"], "correct_index": 1, "explanation": "Plutarch refuses to believe 'so wicked and mischievous an act' could have been Lycurgus's doing, given what he takes to be Lycurgus's gentle nature.", "related_concept": "The helot system", "source_page": 118},
+    {"type": "multiple_choice", "difficulty": "advanced", "prompt": "What happened to the number of Spartan citizens between Sparta's height and its defeat at Leuctra, according to Aristotle as reported by Russell?", "options": ["It grew from one thousand to ten thousand", "It stayed roughly constant", "It fell from about ten thousand to under one thousand", "It doubled due to conquest of Messenia"], "correct_index": 2, "explanation": "Aristotle attributes this sharp decline to unequal accumulation of land, partly by women.", "related_concept": "Spartan communism and the abolition of private wealth", "source_page": 113},
+    {"type": "matching", "prompt": "Match each Spartan governmental body to its function: (1) Kings, (2) Council of Elders, (3) Assembly, (4) Ephors.", "options": ["Kings command the army and hold limited peacetime power; Council of Elders tries criminal cases and prepares proposals; Assembly votes yes/no on proposals; Ephors balance royal power and hold supreme civil/criminal jurisdiction", "All four bodies had identical powers", "Only the Assembly had any real power", "The Ephors were purely ceremonial"], "correct_index": 0, "explanation": "This summarizes the four-part Spartan constitution as Russell describes it.", "related_concept": "The Spartan reality vs. the Spartan myth", "source_page": 111}
+  ],
+
+  "essay_prompts": [
+    {"task_type": "Evaluate", "prompt": "Evaluate Russell's claim that the Spartan 'myth' (as transmitted by Plutarch) has been historically more influential than the Spartan 'reality' (as documented, e.g., by Aristotle). What evidence does Russell offer, and is his reasoning convincing?", "rubric": ["Accurately distinguishes Russell's 'reality' and 'myth' categories", "Cites specific evidence Russell offers for each", "Evaluates the strength of the argument", "Considers whether myth vs. reality is always so cleanly separable"]},
+    {"task_type": "Compare", "prompt": "Compare Spartan institutions described in this chapter (communal property, rigid state-controlled education, equal physical training for men and women, subordination of family to the state) with the corresponding institutions Plato proposes for his guardian class in the Republic (covered in the next chapter).", "rubric": ["Identifies at least three specific institutional parallels", "Notes any significant differences, not only similarities", "Uses accurate textual detail from this chapter", "Draws a reasoned conclusion about Sparta's influence on Plato"]}
+  ],
+
+  "extraction_confidence": "high"
+}
