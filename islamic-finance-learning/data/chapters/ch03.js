@@ -35,7 +35,7 @@ IFL_DATA.registerChapter({
       concepts: ["riba", "gharar", "maisir"],
       intuition: "Which prohibitions matter most when judging whether a transaction is valid?",
       simple: "Islamic law does not recognise transactions with an illegitimate factor or object. The prohibition of Riba, Gharar and gambling is the most strategic factor defining invalid and voidable contracts.",
-      academic: ["As a rule, Islamic law does not recognise transactions with a proven illegitimate factor and/or object. The prohibition of Riba, Gharar and gambling is the most strategic factor that defines invalid and voidable contracts and demarcates the limits that should not be crossed."],
+      academic: ["As a rule, Islamic law does not recognise transactions with a proven illegitimate factor and/or object. The ban on Riba, Gharar and gambling is the single most important test for telling valid contracts from void or voidable ones — it marks the boundary a transaction must not cross."],
       exam: "Riba, Gharar and gambling = most strategic prohibitions; they define invalid/voidable contracts.",
       keyPoints: ["Three basic prohibitions: Riba, Gharar, Maisir/Qimar."],
       related: ["t3.2.1", "t3.2.2", "t3.2.3", "t5.5"],
@@ -178,7 +178,7 @@ IFL_DATA.registerChapter({
       ],
       definitions: [
         { term: "Riba Al-Nasiah", meaning: "Benefit or excess arising from delay of a counter value in an exchange based on loans or sales; also called Riba Al-Qur’an." },
-        { term: "Riba (broad definition)", meaning: "Any increase over and above the principal amount payable in a contract obligation, not covered by a corresponding increase in labour, commodity, risk or expertise." }
+        { term: "Riba (broad definition)", meaning: "“Any increase over and above the principal amount payable in a contract obligation, not covered by a corresponding increase in labour, commodity, risk or expertise” (definition quoted in the textbook)." }
       ],
       distinctions: [{ a: "Riba Al-Nasiah", b: "Riba Al-Fadl", text: "Nasiah arises from delay (loans/debts, and delayed exchange); Fadl is excess in quantity/quality when exchanging the same genus." }],
       related: ["t3.2.1", "t3.2.1.d", "t17.3"],

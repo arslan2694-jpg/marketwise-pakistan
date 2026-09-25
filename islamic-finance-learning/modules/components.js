@@ -353,7 +353,19 @@
       opts.hideRules ? null : h('div.grid.grid-2',
         h('div.callout', h('div.t', 'Key Shari’ah rules'), h('ul', d.rules.map(function (r) { return h('li', r); }))),
         h('div.callout.bad', h('div.t', 'Pitfalls that invalidate or weaken the structure'), h('ul', d.pitfalls.map(function (r) { return h('li', r); })))));
-    setTimeout(function () { setStep(0); });
+    // Crop the canvas vertically to what was drawn, so single-row flows do not float in empty space.
+    function fit() {
+      if (!svgEl.isConnected) return;
+      try {
+        var lbls = svgEl.querySelectorAll('.lbl'); Array.prototype.forEach.call(lbls, function (l) { l.style.display = 'inline'; });
+        var bb = svgEl.getBBox();
+        Array.prototype.forEach.call(lbls, function (l) { l.style.display = ''; });
+        var top = Math.max(0, bb.y - 20), bottom = Math.min(H, bb.y + bb.height + 20);
+        if (bottom - top < 200) { var mid = (top + bottom) / 2; top = Math.max(0, mid - 100); bottom = Math.min(H, top + 200); }
+        svgEl.setAttribute('viewBox', '0 ' + Math.round(top) + ' ' + W + ' ' + Math.round(bottom - top));
+      } catch (e) { /* keep the default canvas */ }
+    }
+    setTimeout(function () { setStep(0); fit(); });
     return root;
   };
 })();

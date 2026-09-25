@@ -182,6 +182,8 @@ html.reduce-motion *, html.reduce-motion *::before, html.reduce-motion *::after 
 @media (max-width: 960px) { .grid-3, .grid-4 { grid-template-columns: repeat(2, minmax(0,1fr)); } }
 @media (max-width: 600px) { .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; } }
 .stack > * + * { margin-top: var(--sp-4); }
+/* Grid gaps already space items; cancel the stacked-card margins inside grids. */
+.grid > * + *, .grid > .card + .card { margin-top: 0; }
 .row { display: flex; align-items: center; gap: var(--sp-2); flex-wrap: wrap; }
 .row.between { justify-content: space-between; }
 .spacer { flex: 1; }
@@ -494,3 +496,11 @@ mark { background: var(--gold-soft); color: inherit; padding: 0 2px; border-radi
 @media (max-width: 960px) { .cmp-grid, .concept-grid { grid-template-columns: 1fr !important; } }
 .flash:focus-visible { box-shadow: none; }
 .flash:focus-visible .flash-face { box-shadow: var(--focus); }
+.grade-bar .btn { padding: 0 4px; min-width: 0; }
+@media (max-width: 600px) {
+  .stats-grid { grid-template-columns: repeat(2, minmax(0,1fr)) !important; gap: 10px; }
+  .stats-grid .card { padding: 12px; }
+  .stats-grid .stat .v { font-size: var(--fs-xl); }
+  .hero > div:last-child { display: flex; flex-direction: column; align-items: center; }
+  .grade-bar { gap: 6px; }
+}

@@ -29,7 +29,7 @@
           h('div.row', h('a.btn' + (i === 0 ? '.primary' : ''), { href: '#' + r.route }, r.action), r.extra ? h('a.btn', { href: '#' + r.extra.route }, r.extra.label) : null));
       }))) : null;
 
-    var stats = h('section.grid.grid-4', { 'aria-label': 'Study statistics' },
+    var stats = h('section.grid.grid-4.stats-grid', { 'aria-label': 'Study statistics' },
       statCard('Chapters completed', o.chaptersDone + ' / 18', o.chaptersVisited + ' visited'),
       statCard('Topics completed', o.done, o.visited + ' opened'),
       statCard('Quiz average', avg == null ? '—' : avg + '%', s.attempts.length + ' quiz' + (s.attempts.length === 1 ? '' : 'zes') + ' taken'),
