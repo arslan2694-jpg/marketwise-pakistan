@@ -140,5 +140,68 @@ window.IFL_DATA.comparisons = [
       { "dimension": "Loss pass-through on deposits", "itemA": "Mudarabah-based deposit pools can in principle absorb loss, and in practice a large, diversified pool of financings usually earns an overall profit even if some transactions lose money.", "itemB": "Depositors are guaranteed their principal plus a contracted interest rate regardless of the bank's portfolio performance." }
     ],
     "source": { "chapters": [17], "sections": ["17.4.3"], "pages": [447, 448, 449] }
+  },
+  {
+    "id": "musharakah-vs-debt-financing",
+    "title": "Musharakah (Equity/PLS) vs Debt-Creating Modes",
+    "itemALabel": "Musharakah (Equity/PLS)",
+    "itemBLabel": "Debt-Creating Modes (Murabaha, Ijarah, Salam)",
+    "summary": "Section 4.3 reframes the usual 'debt versus equity' question as one of balance: debt-creating modes remain legitimate tools, but the book (12.1, 17.4.3) treats genuine profit/loss-sharing as the more desirable ideal that practice has largely fallen short of.",
+    "dimensions": [
+      { "dimension": "Basis of the return", "itemA": "A variable profit share tied to the actual performance of the joint venture, agreed only as a ratio, never a fixed amount or a percentage of capital.", "itemB": "A price or rent fixed once and for all at the time of contract (Murabaha profit, Ijarah rental), or proceeds determined by the market at the time of sale (Salam)." },
+      { "dimension": "Loss-bearing and guarantees", "itemA": "Loss is borne by the partners strictly in proportion to their capital; the capital or profit of any partner can never be guaranteed by a co-partner, only security against a partner's own negligence or misconduct is permissible.", "itemB": "Once validly created, the debt/receivable is a fixed, guaranteed obligation of the client regardless of how the client's own business performs." },
+      { "dimension": "Suitability for risk-averse investors", "itemA": "Exposes the investor to genuine business risk, so it is not advisable for a depositor who cannot bear the risk of capital loss.", "itemB": "The book's own example: a widow who cannot bear Shirkah-type risk should have her funds invested by the bank in less risky, Shari'ah-compliant trade- and Ijarah-based activities instead." },
+      { "dimension": "Standing among jurists (theory)", "itemA": "Considered by the majority of jurists on Islamic finance to be the most desirable mode, since it embodies genuine risk-sharing and entrepreneurship.", "itemB": "Accepted as legitimate — debt itself is not prohibited, only interest on it — but regarded by the pioneers of the discipline as a fallback rather than the ideal." },
+      { "dimension": "Actual market share (practice)", "itemA": "The book notes that in practice the share of PLS (Musharakah/Mudarabah) business in Islamic banks is negligible.", "itemB": "The mainstream business of Islamic financial institutions is based on debt-creating modes earning fixed returns, a gap between theory and practice that critics highlight." },
+      { "dimension": "Management involvement", "itemA": "All partners have a right to participate in managing the joint business, though they may forgo this in favour of one specific partner.", "itemB": "The financier's involvement is limited to the sale/lease transaction itself; once the price or rent is fixed, it takes no further part in managing the client's business." }
+    ],
+    "source": { "chapters": [4,12,17], "sections": ["4.3","12.1","12.3.5","17.4.3"], "pages": [85,307,318,434,448] }
+  },
+  {
+    "id": "tawarruq-vs-bai-al-inah",
+    "title": "Tawarruq vs Bai' al-'Inah",
+    "itemALabel": "Tawarruq",
+    "itemBLabel": "Bai' al-'Inah",
+    "summary": "Section 13.3 (cross-referenced at 6.11) explains that classical Hanbali and Shafi'i jurists distinguish these two liquidity-generating sale structures mainly by who buys back the commodity, even though some later Hanafi scholars have equated the two.",
+    "dimensions": [
+      { "dimension": "Who the commodity is resold to", "itemA": "The Mutawarriq buys a commodity on credit and resells it to an unrelated third party for cash to obtain liquidity.", "itemB": "The buyer resells the commodity back to the very seller from whom it was originally purchased, at a different price." },
+      { "dimension": "Underlying economic substance", "itemA": "A genuine purchase and sale of a real commodity in the market, even though the buyer's real objective is liquidity rather than the commodity itself.", "itemB": "A circular buy-back between the same two parties whose net result is a loan with interest, which is why the book treats it as a ruse (Hilah) used to circumvent Riba." },
+      { "dimension": "Price relationship that triggers prohibition", "itemA": "The resale price to the third party is an independently determined, genuine spot-market price.", "itemB": "The classical objection (Ibn Qudama) targets exactly this: reselling to the same seller at a higher credit price than the cash price paid (or vice versa) within the same arrangement." },
+      { "dimension": "Position across the schools of Fiqh", "itemA": "The preferred view in all four Sunni schools is that Tawarruq is permissible, though some later Hanafi jurists held it to be the same as 'Inah and hence abominable.", "itemB": "Jurists in general have prohibited 'Inah; even the Shafi'i school, sometimes cited as tolerant of it, is found by the book's cited research to lack any significant Shari'ah justification for it." },
+      { "dimension": "AAOIFI's operative test", "itemA": "Acceptable where the commodity is sold to a third party, even indirectly through an agent.", "itemB": "Invalid where the commodity is sold back, directly or indirectly, to the original seller from whom it was purchased on a deferred-payment basis." },
+      { "dimension": "Modern institutional practice", "itemA": "Used by many Islamic banks for liquidity management and personal/credit-card financing, typically via organized or commodity Tawarruq, though the book cautions this needs care to remain a genuine trade.", "itemB": "Buy-back-based mark-up operations resembling 'Inah, such as Pakistan's NIB system in the 1980s, were declared non-Shari'ah-compliant by the Shari'ah Courts." }
+    ],
+    "source": { "chapters": [6,13], "sections": ["6.11","13.3"], "pages": [148,149,349,350] }
+  },
+  {
+    "id": "wakalah-vs-mudarabah",
+    "title": "Wakalah vs Mudarabah (Fund/Fee Management)",
+    "itemALabel": "Wakalah (Agency)",
+    "itemBLabel": "Mudarabah (Profit-Sharing)",
+    "summary": "Sections 13.2.2 and 16.4 show the same fee-versus-profit-share choice recurring in both investment-fund management and Takaful operator structures, each with its own Shari'ah trade-offs.",
+    "dimensions": [
+      { "dimension": "Basis of the manager's compensation", "itemA": "The Wakil earns a pre-agreed fixed fee (a lump sum, or a percentage of the investment/net asset value) irrespective of the fund's profit or loss.", "itemB": "The Mudarib earns a pre-agreed share of actual profit only; he gets nothing at all if the venture makes no profit or incurs a loss." },
+      { "dimension": "Who bears investment loss", "itemA": "The investor bears the entire investment loss alone, since the agent's fee is delinked from performance.", "itemB": "The capital provider (Rabbul-mal) bears the financial loss on the capital; the Mudarib's only 'loss' is his uncompensated time and effort." },
+      { "dimension": "Use as a Takaful operator model", "itemA": "In the pure Wakalah model (mainly Middle East), the operator takes an agreed percentage of participants' contributions as a fee to cover management expenses; the full underwriting surplus/loss belongs to the participants, which scholars have flagged as potentially inequitable since the operator bears no downside.", "itemB": "In the pure Mudarabah model (mainly Asia-Pacific), the operator and participants share investment profit and underwriting surplus on a pre-agreed ratio, but scholars object that the operator gets a share of the surplus without bearing the underwriting loss, and that Tabarru' donations cannot properly double as Mudarabah capital." },
+      { "dimension": "Charging management expenses from the fund", "itemA": "As agent, the operator can take its management fee directly out of the fund per the pre-agreed terms.", "itemB": "As Mudarib, the operator cannot separately charge management expenses from the fund apart from its agreed profit share — an issue the book notes even complicates a combined Wakalah-Mudarabah Takaful model." },
+      { "dimension": "Certainty of the manager's own return", "itemA": "The fee is certain in basis (a fixed sum or fixed percentage) even though the fund's own performance is uncertain.", "itemB": "The manager's own return is entirely contingent on profit — a genuinely variable entitlement, not a quasi-fixed one." },
+      { "dimension": "Pre-agreement and disclosure requirement", "itemA": "The fee basis must be fixed and disclosed (e.g. in the fund's prospectus) before the fund is launched, and is then treated as agreed by every subscriber.", "itemB": "The profit-sharing ratio must be a known proportion (never a fixed amount or a percentage of capital); any ambiguity about the capital or the ratio invalidates the Mudarabah contract." }
+    ],
+    "source": { "chapters": [12,13,16], "sections": ["12.4","13.2.2","16.4"], "pages": [321,349,424] }
+  },
+  {
+    "id": "bai-al-dayn-permitted-vs-restricted",
+    "title": "Bai' al-Dayn: Permitted vs Restricted Views",
+    "itemALabel": "Permissive View (Some Malaysian Scholars/Practice)",
+    "itemBLabel": "Restrictive View (Majority / Jumhoor Ulama)",
+    "summary": "Section 7.16 sets out an explicit scholarly divide over trading debt-based securities such as Sukuk in the secondary market, a divide the book (6.10) grounds in the wider prohibition on selling a Dayn at other than its face value.",
+    "dimensions": [
+      { "dimension": "Core position on discounted/premium sale of debt", "itemA": "Secondary-market trading of debt and debt-based securities, including Bai' al-Dayn-based Sukuk, is accepted and practised.", "itemB": "Traditional Muslim jurists and the overwhelming majority of contemporary Shari'ah scholars are unanimous that Bai' al-Dayn at a discount or premium is not allowed." },
+      { "dimension": "Claimed juristic basis", "itemA": "Usually justified by reference to a ruling of the Shafi'i school.", "itemB": "The book notes this reliance is mistaken: Shafi'i jurists permitted selling a debt only at its par (face) value, not at a discount or premium, so the school does not actually support the permissive practice." },
+      { "dimension": "Institutional consensus", "itemA": "Adopted in practice by some Malaysian experts and reflected in a variety of Malaysia-based Sukuk.", "itemB": "The OIC Islamic Fiqh Academy, whose membership includes Malaysia, has approved the prohibition of Bai' al-Dayn unanimously, without a single dissenting vote." },
+      { "dimension": "Effect of asset backing on the ruling", "itemA": "Treats Sukuk-embedded debt as tradable in the secondary market because it is supported by real underlying assets.", "itemB": "The Jumhoor Ulama do not accept this reasoning even where the debt represented by Sukuk is asset-backed, since it is the debt itself, not the asset, that is being priced at a discount or premium." },
+      { "dimension": "Geographic reach of the view", "itemA": "Confined mainly to Malaysia; the book notes the position of Malaysian Islamic bonds 'remains unacceptable among the Middle Eastern jurists.'", "itemB": "Represents the mainstream position across the Middle East and the broader international Shari'ah-scholarship community." }
+    ],
+    "source": { "chapters": [6,7], "sections": ["6.10","7.16"], "pages": [146,147,172] }
   }
 ];
