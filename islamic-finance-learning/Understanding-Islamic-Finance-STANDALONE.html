@@ -470,6 +470,23 @@ label { font-size: var(--fs-xs); font-weight: 600; color: var(--color-text-secon
 .process-step.open .process-step-detail { max-height: 300px; margin-top: var(--sp-2); }
 .process-step.open .process-step-num { background: var(--color-brand); color: #fff; }
 
+/* ---- Calculation walkthrough (formula / inputs / steps / result) ---- */
+.calc-block { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--sp-4); background: var(--color-bg-sunken); }
+.calc-formula {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: var(--fs-sm);
+  background: var(--color-bg-elevated); border: 1px dashed var(--color-border-strong); border-radius: var(--radius-sm);
+  padding: var(--sp-2) var(--sp-3); margin-bottom: var(--sp-3); color: var(--color-brand-strong);
+}
+.calc-inputs { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); }
+.calc-inputs td { padding: 4px var(--sp-2); border-bottom: 1px solid var(--color-border); }
+.calc-inputs td:last-child { text-align: right; }
+.calc-steps { font-size: var(--fs-sm); padding-left: var(--sp-5); }
+.calc-steps li { margin-bottom: 4px; }
+.calc-result {
+  background: var(--color-success-soft); color: var(--color-success); border-radius: var(--radius-sm);
+  padding: var(--sp-2) var(--sp-3); font-size: var(--fs-sm);
+}
+
 /* horizontal transaction flow for wider screens */
 .tx-flow { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: stretch; }
 .tx-node {
@@ -597,55 +614,64 @@ window.IFL_DATA.glossary = [
     "term": "Ahadith",
     "definition": "Plural of Hadith, traditions of the holy Prophet of Islam describing his utterances, actions, instructions and actions of others (Companions) tacitly approved by him.",
     "chapter": 1,
-    "pages": [14]
+    "pages": [14],
+    "relatedTerms": ["Sunnah", "Shari´ah"]
   },
   {
     "term": "‘Ahd",
     "definition": "Generally, a unilateral promise or an undertaking, although sometimes it also covers a bilateral obligation.",
     "chapter": 5,
-    "pages": [103, 104]
+    "pages": [103, 104],
+    "relatedTerms": ["W‘adah", "Mithaq"]
   },
   {
     "term": "‘Ain",
     "definition": "Determinate property; property that is not Dayn; generally the commodities of material value in themselves; plural ‘Aay an.",
     "chapter": 5,
-    "pages": [101, 102]
+    "pages": [101, 102],
+    "relatedTerms": ["Dayn", "Mal"]
   },
   {
     "term": "Ajr al-Mithl",
     "definition": "Rent or wage to be decided by a judge or arbitrator.",
     "chapter": 11,
-    "pages": [280]
+    "pages": [280],
+    "relatedTerms": ["Ajr al-Musammah", "Ujrah"]
   },
   {
     "term": "Ajr al-Musammah",
     "definition": "Agreed rent or wage in Ijarah or Ujrah contracts.",
     "chapter": 11,
-    "pages": [280]
+    "pages": [280],
+    "relatedTerms": ["Ajr al-Mithl", "Ujrah", "Al-Ajr"]
   },
   {
     "term": "Akhlaq",
     "definition": "Matters for disciplining one’s self regarding relationships with others.",
     "chapter": 2,
-    "pages": [21]
+    "pages": [21],
+    "relatedTerms": ["Aqaid", "Taqwa"]
   },
   {
     "term": "Al-Ajr",
     "definition": "Commission, fees or wages charged for services rendered or work done.",
     "chapter": 11,
-    "pages": [279]
+    "pages": [279],
+    "relatedTerms": ["Ujrah", "Ajr al-Musammah"]
   },
   {
     "term": "Al Ghunm bil Ghurm",
     "definition": "Earning profit is legitimized only by risk-sharing and engaging in an economic venture. This provides the rationale and the principle of profit-sharing in Shirkah arrangements. Al Kharaj bil Daman has similar meaning: one can claim profit only if one is ready to take liability – to bear the business risk, if any.",
     "chapter": 4,
-    "pages": [81]
+    "pages": [81],
+    "relatedTerms": ["Kharaj bi-al-Daman", "Shirkah"]
   },
   {
     "term": "Al-Hisbah",
     "definition": "The institution of ombudsman, a social regulatory body empowered to check imbalances in the market for the purpose of re-establishing a better semblance of market-driven exchanges in the light of the principles of justice.",
     "chapter": 2,
-    "pages": [31]
+    "pages": [31],
+    "relatedTerms": ["Ghaban-e-Fahish", "Najash"]
   },
   {
     "term": "Al K ali bil K ali",
@@ -657,15 +683,19 @@ window.IFL_DATA.glossary = [
     "term": "Al-Sarf",
     "definition": "Sale of monetary value for monetary value – currency exchange. In Islamic law such exchange is regarded as “sale of price for price”, and each price is a consideration of the other; has to be simultaneously paid.",
     "chapter": 3,
-    "pages": [52]
+    "pages": [52],
+    "relatedTerms": ["Bai‘ al Sarf", "Sarf"]
   },
   {
     "term": "Al-Wadi‘ah",
-    "definition": "A basis for safe-keeping of deposits (Am anah) on which no profit can be sought."
+    "definition": "A basis for safe-keeping of deposits (Am anah) on which no profit can be sought.",
+    "chapter": 5,
+    "pages": [119],
+    "relatedTerms": ["Wadi‘ah", "Amanah"]
   },
   {
     "term": "Amanah",
-    "definition": "Refers to deposit in trust. A person can hold a property in trust for another, sometimes by express contract and sometimes by implication of a contract. It entails the absence of liability for loss, except in breach of duty. Current accounts are regarded as Am abnah. If the bank gets authority to use current account funds in its business, Am anah transforms into a loan. As every loan has to be repaid, banks are liable to repay the full amounts of the current accounts, irrespective of their loss or profit. 486 Understanding Islamic Finance",
+    "definition": "Refers to deposit in trust. A person can hold a property in trust for another, sometimes by express contract and sometimes by implication of a contract. It entails the absence of liability for loss, except in breach of duty. Current accounts are regarded as Amanah. If the bank gets authority to use current account funds in its business, Amanah transforms into a loan. As every loan has to be repaid, banks are liable to repay the full amounts of the current accounts, irrespective of their loss or profit.",
     "chapter": 1,
     "pages": [16]
   },
@@ -673,149 +703,176 @@ window.IFL_DATA.glossary = [
     "term": "Ameen",
     "definition": "Trustworthy, trustee – safeguarding others’ entrusted property as if it was his own; not liable in case of any damage to the trust property without any negligence on his part.",
     "chapter": 11,
-    "pages": [280]
+    "pages": [280],
+    "relatedTerms": ["Amanah", "Wadi‘ah"]
   },
   {
     "term": "Aqaid",
     "definition": "Matters of belief and worship – rituals pertaining to the relationship between man and God.",
     "chapter": 2,
-    "pages": [21]
+    "pages": [21],
+    "relatedTerms": ["Iman", "Akhlaq"]
   },
   {
     "term": "‘Aqd",
     "definition": "Lexically, conjunction or to tie; legally, synonymous with the word “contract” in modern law. ´Aqd Batil : A void or invalid contract – one which does not fulfil the conditions relating to offer and acceptance, subject matter or the consideration and possession or delivery of the subject matter or involves some illegal external attributes like the involvement of Riba, Gharar or Qimar. ´Aqd Ghair L azim: A contract in which any of the parties has a right to revoke it without the consent of the other. ´Aqd L azim: A contract in which none of the parties has a unilateral right to revoke (without the consent of the other).",
     "chapter": 5,
-    "pages": [103, 104]
+    "pages": [103, 104],
+    "relatedTerms": ["Ijab", "Qabul", "Fasid", "Bai‘ Batil"]
   },
   {
     "term": "‘ Aqilah",
     "definition": "Kin or persons of relationship who share any responsibility.",
     "chapter": 3,
-    "pages": [68]
+    "pages": [68],
+    "relatedTerms": ["Dhaman Khatr al-Tariq", "Takaful"]
   },
   {
     "term": "‘Arb un",
     "definition": "Downpayment; an amount taken from the buyer as part of the price after execution of the sale agreement; the seller has the option to confiscate it if the buyer backs out and does not complete the purchase process.",
     "chapter": 3,
-    "pages": [59]
+    "pages": [59],
+    "relatedTerms": ["Bai‘al‘Arb un", "Hamish Jiddiyah"]
   },
   {
     "term": "‘ Ariyah",
-    "definition": "Gratuitous loan of objects. It means the loan of a particular piece of property, the sub- stance of which is not consumed by its use, without anything taken in exchange. In other words, it is the gift of usufruct of a commodity that is not consumed on use. It is different from Qard, which is the loan of fungible objects which are consumed on use and in which the sim- ilar and not the same commodity has to be returned. It is also a virtuous act like Qard. The borrowed commodity is treated as a liability of the borrower, who is bound to return it to its owner.",
+    "definition": "Gratuitous loan of objects. It means the loan of a particular piece of property, the substance of which is not consumed by its use, without anything taken in exchange. In other words, it is the gift of usufruct of a commodity that is not consumed on use. It is different from Qard, which is the loan of fungible objects which are consumed on use and in which the similar and not the same commodity has to be returned. It is also a virtuous act like Qard. The borrowed commodity is treated as a liability of the borrower, who is bound to return it to its owner.",
     "chapter": 5,
-    "pages": [119]
+    "pages": [119],
+    "relatedTerms": ["Qard", "Hibah"]
   },
   {
     "term": "Athman",
     "definition": "Plural of Thaman – monetary units – medium of exchange used for payment of prices and liabilities.",
     "chapter": 3,
-    "pages": [52]
+    "pages": [52],
+    "relatedTerms": ["Thaman", "Sarf"]
   },
   {
     "term": "Bai‘al‘Arb un",
     "definition": "A sale of downpayment with the condition that if the buyer takes the commodity, the downpayment will become part of the selling price and if he does not purchase the commodity, the advance money will be forfeited.",
     "chapter": 5,
-    "pages": [116, 117]
+    "pages": [116, 117],
+    "relatedTerms": ["‘Arb un"]
   },
   {
     "term": "Bai‘ al Dayn",
     "definition": "Sale of debt or debt instruments.",
     "chapter": 6,
-    "pages": [146, 147]
+    "pages": [146, 147],
+    "relatedTerms": ["Dayn", "Hawalah"]
   },
   {
     "term": "Bai‘ al-Gh aib",
     "definition": "Sale of absent or concealed goods (without knowing their features/specifications).",
     "chapter": 3,
-    "pages": [60]
+    "pages": [60],
+    "relatedTerms": ["Khiyar al Ro’yat", "Gharar"]
   },
   {
     "term": "Bai‘ al Hasat",
     "definition": "Sale where the subject matter depends on the fall of a stone or pebble; prohibited due to Gharar.",
     "chapter": 3,
-    "pages": [59]
+    "pages": [59],
+    "relatedTerms": ["Gharar", "Mulamasah", "Munabadhah"]
   },
   {
     "term": "Bai‘ al ‘Inah",
     "definition": "Double sale by which the borrower and the lender sell and then resell an object between them, once for cash and then for a higher price on credit, with the net result of a loan with interest – prohibited.",
     "chapter": 5,
-    "pages": [103]
+    "pages": [103],
+    "relatedTerms": ["Tawarruq", "Bai‘ bil Wafa", "Riba"]
   },
   {
     "term": "Bai‘ al Khiyar",
     "definition": "Sale with an option of one party to rescind the contract within a specified time.",
     "chapter": 5,
-    "pages": [124]
+    "pages": [124],
+    "relatedTerms": ["Khiyar", "Khiyar al-Shart"]
   },
   {
     "term": "Bai‘ al-Majh ul",
     "definition": "A sale in which the object of sale or its price or the time of payment remains unknown and unspecified – lacking any material information.",
     "chapter": 5,
-    "pages": [122]
+    "pages": [122],
+    "relatedTerms": ["Ma‘lum", "Gharar"]
   },
   {
     "term": "Bai‘ al Mu‘allaq",
-    "definition": "Suspended sal e – a sale transaction, the effectiveness of which is related to any future condition or action."
+    "definition": "Suspended sale – a sale transaction, the effectiveness of which is related to any future condition or action.",
+    "chapter": 3,
+    "pages": [60],
+    "relatedTerms": ["Mawquf", "T‘aliq"]
   },
   {
     "term": "Bai‘ al Sarf",
     "definition": "Sale of gold, silver or other monetary units on both sides.",
     "chapter": 3,
-    "pages": [52]
+    "pages": [52],
+    "relatedTerms": ["Sarf", "Al-Sarf"]
   },
   {
     "term": "Bai‘ Batil",
     "definition": "Invalid sale – having no effect in respect of rights and liabilities of the parties.",
     "chapter": 6,
-    "pages": [133]
+    "pages": [133],
+    "relatedTerms": ["Fasid", "‘Aqd"]
   },
   {
     "term": "Bai‘ bil Wafa",
     "definition": "Sale with a right of the seller to repurchase (redeem) the property by refunding the purchase price – basically a pledge; treats the sold asset as collateral until the amount is paid back by the other party to sale; not permissible if the resale of the property to the original seller is made a condition for the initial sale.",
     "chapter": 6,
-    "pages": [150]
+    "pages": [150],
+    "relatedTerms": ["Bai‘ al ‘Inah"]
   },
   {
     "term": "Bai‘ Mu´ajjal",
     "definition": "Literally, a credit sale. Technically, a financing technique adopted by Islamic banks; it is a contract in which the seller allows the buyer to pay the price of a commodity at a future date in a lump sum or in instalments. The price fixed for the commodity in such a transaction can be the same as the spot price or higher or lower than the spot price, but generally it is higher than the spot price.",
     "chapter": 5,
-    "pages": [124]
+    "pages": [124],
+    "relatedTerms": ["Murabaha", "Bai‘ Salam"]
   },
   {
     "term": "Bai‘ Murabaha",
     "definition": "Sale at cost price plus a mutually agreed profit – bargaining on profit margin on the cost price. (See Murabaha)",
     "chapter": 5,
-    "pages": [124]
+    "pages": [124],
+    "relatedTerms": ["Murabaha", "Bai‘ Musawamah", "Bai‘ Tawliyah", "Bai‘ Wadhi‘ah"]
   },
   {
     "term": "Bai‘ Musawamah",
     "definition": "Sale without any reference to the cost price to the seller – bargaining on price.",
     "chapter": 5,
-    "pages": [125]
+    "pages": [125],
+    "relatedTerms": ["Musawamah", "Bai‘ Murabaha"]
   },
   {
     "term": "Bai‘ Salam",
     "definition": "A contract in which advance payment is made for goods to be delivered later on. The seller undertakes to supply some specific goods to the buyer at a future date in exchange of an advance price fully paid at the time of the contract. According to normal rules of the Shar i´ah, no sale can be executed unless the goods are in existence at the time of the bargain, but Salam sale forms an exception given by the holy Prophet himself to the general rule, provided the goods and their prices are defined and the date of delivery is fixed. It is necessary that the quality of the commodity intended to be purchased is fully specified, leaving no ambiguity leading to dispute. The objects of this sale are goods and not media of exchange like gold, silver or currencies, because these are regarded as monetary values, the exchange of which is covered under the rules of Bai‘ al Sarf, i.e. hand to hand without delay. Barring this, Bai‘ Salam covers almost everything which is capable of being definitely described as to quantity, quality and workmanship, subject to the fulfilment of other conditions for valid Salam.",
     "chapter": 5,
-    "pages": [124]
+    "pages": [124],
+    "relatedTerms": ["Salaf", "Istisna‘a", "Bai‘ Mu´ajjal"]
   },
   {
     "term": "Bai‘ Tawliyah",
     "definition": "Sale at cost price – to facilitate or serve others.",
     "chapter": 5,
-    "pages": [124]
+    "pages": [124],
+    "relatedTerms": ["Bai‘ Murabaha", "Bai‘ Wadhi‘ah"]
   },
   {
     "term": "Bai‘ Wadhi‘ah",
     "definition": "Sale with loss – at a price less than the cost price.",
     "chapter": 5,
-    "pages": [125]
+    "pages": [125],
+    "relatedTerms": ["Bai‘ Tawliyah", "Bai‘ Murabaha"]
   },
   {
     "term": "Bai‘ wal Salaf",
     "definition": "A conditional contract combining selling and lending, like one man saying to another: “I purchase your goods for such and such if you lend me such and such” – invalid.",
     "chapter": 6,
-    "pages": [145]
+    "pages": [145],
+    "relatedTerms": ["Salaf", "Qard"]
   },
   {
     "term": "Barnamaj",
@@ -827,217 +884,253 @@ window.IFL_DATA.glossary = [
     "term": "Bayt al M al",
     "definition": "Public treasury of an Islamic State. Buyoo‘al Am anat: Fiduciary sales like Murabaha, Tawliyah and Wadhi‘ah.",
     "chapter": 12,
-    "pages": [321]
+    "pages": [321],
+    "relatedTerms": ["Waqf", "Zakah/Zakat"]
   },
   {
     "term": "Dayn",
     "definition": "Debt; goods of indeterminate category that can be used for payment of liabilities; a liability to pay which results from any credit transaction like purchase/sale on credit or due rentals in Ijarah (leasing). A Dayn comes into existence as a result of any other contract or credit transaction.",
     "chapter": 3,
-    "pages": [47]
+    "pages": [47],
+    "relatedTerms": ["Bai‘ al Dayn", "Qard", "‘Ain"]
   },
   {
     "term": "Dhaman",
     "definition": "Taking liability, responsibility – contract of guarantee; responsibility of entrepreneur/manager of a business.",
     "chapter": 2,
-    "pages": [34]
+    "pages": [34],
+    "relatedTerms": ["Kafalah", "Kharaj bi-al-Daman"]
   },
   {
     "term": "Dhaman Khatr al-Tariq",
     "definition": "An arrangement of mutual assistance in which losses suffered by traders during journeys due to hazards on trade routes were indemnified from jointly pooled funds.",
     "chapter": 3,
-    "pages": [68]
+    "pages": [68],
+    "relatedTerms": ["‘ Aqilah", "Takaful"]
   },
   {
     "term": "Dinar",
     "definition": "Currency in the form of gold coins that was prevalent in the past.",
     "chapter": 2,
-    "pages": [28]
+    "pages": [28],
+    "relatedTerms": ["Dirham", "Fulus"]
   },
   {
     "term": "Dirham",
     "definition": "Currency in the form of silver coins prevalent in the past.",
     "chapter": 3,
-    "pages": [46, 47]
+    "pages": [46, 47],
+    "relatedTerms": ["Dinar", "Fulus", "Qirsh"]
   },
   {
     "term": "Falah",
-    "definition": "Welfare in this world and the Hereafter; Falah means to thrive, to become happy or to have luck and success. Technically, it implies success both in this world and in the Akhirah (Hereafter). The Falah presumes belief in one God, the apostlehood of Prophet Muhammad (pbuh), Akhirah and conformity to the Shar i´ah in behaviour. 488 Understanding Islamic Finance",
+    "definition": "Welfare in this world and the Hereafter; Falah means to thrive, to become happy or to have luck and success. Technically, it implies success both in this world and in the Akhirah (Hereafter). The Falah presumes belief in one God, the apostlehood of Prophet Muhammad (pbuh), Akhirah and conformity to the Shari'ah in behaviour.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Taqwa", "Akhlaq"]
   },
   {
     "term": "Fasid",
     "definition": "A voidable or defective contract (according to division of contracts with respect to legality as per Hanafi Fiqh) due to nonfulfilment of any condition required for valid contracts.",
     "chapter": 4,
-    "pages": [80]
+    "pages": [80],
+    "relatedTerms": ["‘Aqd", "Bai‘ Batil"]
   },
   {
     "term": "Fatwah",
     "definition": "A religious decree or edict; plural Fat awa.",
     "chapter": 7,
-    "pages": [166]
+    "pages": [166],
+    "relatedTerms": ["Ijtihad", "Shari´ah"]
   },
   {
     "term": "Fiqh",
     "definition": "Islamic jurisprudence; the science of the Shar i´ah. It is an important source of Islamic tenets.",
     "chapter": 1,
-    "pages": [13]
+    "pages": [13],
+    "relatedTerms": ["Shari´ah", "Ijtihad", "Qiyas"]
   },
   {
     "term": "Fraidh",
     "definition": "Obligations – acts that are obligatory for Muslims.",
     "chapter": 2,
-    "pages": [21, 22]
+    "pages": [21, 22],
+    "relatedTerms": ["Nawahi"]
   },
   {
     "term": "Fuduli",
     "definition": "A person who is neither guardian nor agent, or if he is agent, he transgresses the limits prescribed by the principal in respect of a contract.",
     "chapter": 5,
-    "pages": [119]
+    "pages": [119],
+    "relatedTerms": ["Ghasib"]
   },
   {
     "term": "Fulus",
     "definition": "Coins of inferior metals.",
     "chapter": 4,
-    "pages": [89]
+    "pages": [89],
+    "relatedTerms": ["Dirham", "Dinar", "Qirsh"]
   },
   {
     "term": "Ghaban",
     "definition": "Misappropriation or defrauding others in respect of specifications of the goods and their prices.",
     "chapter": 3,
-    "pages": [65]
+    "pages": [65],
+    "relatedTerms": ["Ghaban-e-Fahish", "Khiyar-e-Ghaban"]
   },
   {
     "term": "Ghaban-e-Fahish",
-    "definition": "Excessive profiteering with deceptio n – a person sells a commodity stating explic- itly or giving the impression that he is charging the market price, but actually he is charging an exorbitant price taking benefit of the ignorance of the purchaser – in such cases the purchaser has the option to revoke the sale and get back the price paid (see Khiyar-e-Ghaban).",
+    "definition": "Excessive profiteering with deception – a person sells a commodity stating explicitly or giving the impression that he is charging the market price, but actually he is charging an exorbitant price taking benefit of the ignorance of the purchaser – in such cases the purchaser has the option to revoke the sale and get back the price paid (see Khiyar-e-Ghaban).",
     "chapter": 3,
-    "pages": [68]
+    "pages": [68],
+    "relatedTerms": ["Khiyar-e-Ghaban", "Ghaban"]
   },
   {
     "term": "Gharar",
     "definition": "Literally, uncertainty, hazard, risk relating to major elements of a contract; technically, sale of a thing which is not present at hand, or the sale of a thing whose consequence or outcome is not known, or a sale in which one does not know whether it will come to be or not, such as fish in water or a bird in the air. It refers to an element of absolute or excessive uncertainty in any business or a contract about the subject of contract or its price, or mere speculative risk. It leads to undue loss to a party and unjustified enrichment of another, which is prohibited. Gambling is a form of Gharar because the gambler is ignorant of the result of the gamble. Selling goods without allowing the buyer to properly examine the goods is also a kind of Gharar. Some examples of Gharar are: selling goods that the seller is unable to deliver; selling known or unknown goods against an unknown price, such as selling the contents of a sealed box without exact information about its contents; selling goods without proper description; selling goods without specifying the price, such as selling at the “going price”.",
     "chapter": 3,
-    "pages": [43]
+    "pages": [43],
+    "relatedTerms": ["Maisir", "Qimar", "Khatar"]
   },
   {
     "term": "Gharmeen",
     "definition": "One head of the Zakat beneficiaries – broadly, those who are obliged to pay others’ debts as sureties. An Islamic State can make up their loss by paying from Zakat proceeds.",
     "chapter": 7,
-    "pages": [169]
+    "pages": [169],
+    "relatedTerms": ["Zakah/Zakat"]
   },
   {
     "term": "Ghasib",
     "definition": "Usurper of property of others.",
     "chapter": 7,
-    "pages": [165]
+    "pages": [165],
+    "relatedTerms": ["Fuduli"]
   },
   {
     "term": "Habal-al-Hablah",
     "definition": "Sale of what is in the womb of an animal; a sale where its subject matter is not clearly known – prohibited due to Gharar.",
     "chapter": 3,
-    "pages": [59]
+    "pages": [59],
+    "relatedTerms": ["Gharar"]
   },
   {
     "term": "Halal",
     "definition": "Anything permitted by the Shar i´ah; permissible goods, valid earnings, etc.",
     "chapter": 2,
-    "pages": [23]
+    "pages": [23],
+    "relatedTerms": ["Haram", "Mubah"]
   },
   {
     "term": "Hamish Jiddiyah",
     "definition": "The margin reflecting firm intention of the promisee – earnest money taken from a person who intends to purchase a commodity from or enters into a contract with anyone to confirm his sincerity to actually purchase the commodity when offered. In the case of breach of promise, the promisee has the right to recover his actual loss incurred due to the breach.",
     "chapter": 5,
-    "pages": [114]
+    "pages": [114],
+    "relatedTerms": ["‘Arb un"]
   },
   {
     "term": "Haram",
     "definition": "Anything prohibited by the Shar i´ah.",
     "chapter": 3,
-    "pages": [58]
+    "pages": [58],
+    "relatedTerms": ["Halal"]
   },
   {
     "term": "Hawalah",
     "definition": "Literally, transfer; legally, an agreement by which a debtor is freed from a debt by another becoming responsible for it, or the transfer of a claim of a debt by shifting the responsibility from one person to another – contract of assignment of debt. It also refers to the document by which the transfer takes place, like a bill of exchange, promissory note, cheque or draft.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Bai‘ al Dayn", "Kafalah"]
   },
   {
     "term": "Hibah",
     "definition": "Gift – to give something in permanent ownership to another without any consideration in exchange.",
     "chapter": 3,
-    "pages": [48]
+    "pages": [48],
+    "relatedTerms": ["Tabarru‘"]
   },
   {
     "term": "Hilah, Hiyal (plural)",
     "definition": "Ruses, tricks used in transactions to circumvent the basic prohibitions.",
     "chapter": 6,
-    "pages": [147, 148]
+    "pages": [147, 148],
+    "relatedTerms": ["Sadd al-Zar ai‘", "Bai‘ al ‘Inah"]
   },
   {
     "term": "Hukmi (Qabza)",
     "definition": "Constructive possession; a situation in which the buyer has not taken the physical delivery of the commodity, yet the commodity has come into his risk and control and all the rights and liabilities are passed on to him, including the risk of its destruction.",
     "chapter": 5,
-    "pages": [110]
+    "pages": [110],
+    "relatedTerms": ["Mabi‘"]
   },
   {
     "term": "Husnal Qadha",
     "definition": "Gracious payment of loan/debt: repaying a loan in excess of the principal without a precondition; individuals’ discretion; not to be adopted as a system in which a creditor, lender or an investor has expectation of getting some reward on the debt. Ibadat: Plural of Ib adah, meaning worship or a ritual act.",
     "chapter": 7,
-    "pages": [162]
+    "pages": [162],
+    "relatedTerms": ["Tabarru‘", "Qard al Hasan"]
   },
   {
     "term": "Ibahatul Asliyah",
-    "definition": "General permissibility, which means that all economic activities that are not pro- hibited by the original sources of Shar i´ah, i.e. the Qur an and Sunnah, are valid/permissible.",
+    "definition": "General permissibility, which means that all economic activities that are not prohibited by the original sources of Shar i´ah, i.e. the Qur an and Sunnah, are valid/permissible.",
     "chapter": 2,
-    "pages": [22]
+    "pages": [22],
+    "relatedTerms": ["Mubah", "Halal"]
   },
   {
     "term": "Ijab",
     "definition": "Offer, in a contract (see also Qabul).",
     "chapter": 5,
-    "pages": [104]
+    "pages": [104],
+    "relatedTerms": ["Qabul", "‘Aqd"]
   },
   {
     "term": "Ijarah",
     "definition": "Letting on lease. Sale of defined usufruct of any asset for a defined period in exchange of definite rent; only those assets can be leased the corpus of which is not consumed with use or the form/shape of which is not entirely changed with use. For example, cotton, yarn, fuel, milk, money can be sold/bought, but not leased against rentals. This is because the lessor has to bear the risk related to the ownership of the asset, and this is possible only if the leased asset remains intact and the lessor gets reward in the form of rental against taking risk.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Ijarah Muntahia-bi-Tamleek", "Ijarah-wal-Iqtina‘", "Ijarah Mosufah bil Zimmah", "Istijar"]
   },
   {
     "term": "Ijarah Mosufah bil Zimmah",
     "definition": "A lease contract where the lessor undertakes to provide a well-defined service or benefit without identifying any particular units of asset rendering the related service. If a unit of the asset is destroyed, the contract is not terminated and the lessor provides another such unit.",
     "chapter": 5,
-    "pages": [121]
+    "pages": [121],
+    "relatedTerms": ["Ijarah", "Istisna‘a"]
   },
   {
     "term": "Ijarah Muntahia-bi-Tamleek",
     "definition": "Lease culminating in the transfer of ownership to the lessee in such a way that lease and sale are kept separate and independent transactions. Use of this term for Islamic leasing is better than Ijarah-wal-Iqtina‘, as the latter tends to give the impression that Ijarah and sale are working side by side, while actually they have to be two separate deals.",
     "chapter": 5,
-    "pages": [104]
+    "pages": [104],
+    "relatedTerms": ["Ijarah-wal-Iqtina‘", "Ijarah"]
   },
   {
     "term": "Ijarah-wal-Iqtina‘",
     "definition": "A mode of financing by way of hire–purchase, adopted by Islamic banks but different from conventional hire–purchase. It is a contract under which an Islamic bank purchases equipment, buildings, etc., giving them on lease against agreed rentals together with a unilateral undertaking that at the end of the lease period, the ownership in the asset will be transferred to the lessee. The underlying contract is Ijarah and all rules applicable to Ijarah have to be observed to make the deal Shar i´ah-compliant. The undertaking or the promise does not become an integral part of the lease contract to make it conditional. Ownership is transferred through a separate contract of sale or gift. Another term used for this is Ijarah Muntahia-bi-Tamleek.",
     "chapter": 5,
-    "pages": [116]
+    "pages": [116],
+    "relatedTerms": ["Ijarah Muntahia-bi-Tamleek", "Ijarah"]
   },
   {
     "term": "Ijma‘a",
     "definition": "Consensus – decision or resolution of generality of the Shar i´ah scholars of any time pertaining to any matters relating to Shar i´ah. Ijma‘a of the Companions of the holy Prophet is considered by the overwhelming majority of Muslims as part of the Sunnah and an important source for the derivation of laws in the subsequent periods.",
     "chapter": 2,
-    "pages": [22]
+    "pages": [22],
+    "relatedTerms": ["Ijtihad", "Sunnah"]
   },
   {
     "term": "Ijtihad",
     "definition": "An endeavor of a qualified jurist to derive or formulate a rule of law to determine the true ruling of the divine law in a matter on which the revelation is not explicit or certain, on the basis of Nass or evidence found in the Holy Qur’ an and the Sunnah. Express injunctions have no room for Ijtihad. Implied injunctions can be interpreted in different ways by way of inference from the accepted principles of the Shar i´ah.",
     "chapter": 2,
-    "pages": [22]
+    "pages": [22],
+    "relatedTerms": ["Qiyas", "Ijma‘a", "Nass"]
   },
   {
     "term": "‘Illah",
     "definition": "The attribute of an exchange or event that entails a particular Divine ruling for cases possessing that attribute – cause of prohibition of specific exchange contracts. ‘Illah is the basis for applying analogy for determining permissibility or otherwise of any transaction.",
     "chapter": 3,
-    "pages": [52]
+    "pages": [52],
+    "relatedTerms": ["Qiyas"]
   },
   {
     "term": "Imam",
@@ -1047,23 +1140,34 @@ window.IFL_DATA.glossary = [
   },
   {
     "term": "Iman",
-    "definition": "Faith, belief. 490 Understanding Islamic Finance ‘Inan (a type of Shirkah): A form of partnership in which each partner contributes capital and has a right to work for the business, not necessarily equally."
+    "definition": "Faith, belief."
+  },
+  {
+    "term": "‘Inan (a type of Shirkah)",
+    "definition": "A form of partnership in which each partner contributes capital and has a right to work for the business, not necessarily equally.",
+    "chapter": 12,
+    "pages": [309]
   },
   {
     "term": "Israf",
-    "definition": "Immoderateness, exaggeration in spending wealth and waste, covers spending on objects which are permissible otherwise, spending on superfluous objects, spending on objects which are not needed and are incompatible with the economic standard of the majority of the population (see also Tabzir)."
+    "definition": "Immoderateness, exaggeration in spending wealth and waste, covers spending on objects which are permissible otherwise, spending on superfluous objects, spending on objects which are not needed and are incompatible with the economic standard of the majority of the population (see also Tabzir).",
+    "chapter": 2,
+    "pages": [33],
+    "relatedTerms": ["Tabzir"]
   },
   {
     "term": "Istihsan",
-    "definition": "A doctrine of Islamic law that allows exception to strict legal reasoning in special circum- stances when considerations of human welfare so demand.",
+    "definition": "A doctrine of Islamic law that allows exception to strict legal reasoning in special circumstances when considerations of human welfare so demand.",
     "chapter": 10,
-    "pages": [263]
+    "pages": [263],
+    "relatedTerms": ["Ijtihad", "Maslaha-e-Mursalah"]
   },
   {
     "term": "Istijar",
     "definition": "Hiring, renting – another term less frequently used for Ijarah.",
     "chapter": 11,
-    "pages": [279]
+    "pages": [279],
+    "relatedTerms": ["Ijarah"]
   },
   {
     "term": "Istijrar",
@@ -1087,133 +1191,155 @@ window.IFL_DATA.glossary = [
     "term": "Kafalah",
     "definition": "Guarantee; literally, Kafalah means responsibility, amenability or suretyship, legally, in Kafalah, a third party becomes surety for the payment of debt. It is a covenant/pledge given to a creditor that the debtor will pay the debt or any other liability.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Hawalah", "Dhaman"]
   },
   {
     "term": "Khalabah",
     "definition": "Misleading marketing – pursuing unaware and simple clients by overprojecting the quality of a commodity.",
     "chapter": 3,
-    "pages": [66]
+    "pages": [66],
+    "relatedTerms": ["Najash", "Ghaban", "Mustarsal"]
   },
   {
     "term": "Kharaj bi-al-Daman",
     "definition": "Gain accompanies liability for loss; a Hadith forming a legal maxim and a basic principle of Islamic finance (see also Al-Ghunm bil Ghurm).",
     "chapter": 4,
-    "pages": [73]
+    "pages": [73],
+    "relatedTerms": ["Al Ghunm bil Ghurm", "Dhaman"]
   },
   {
     "term": "Khatar",
     "definition": "A kind of Gharar – Khatar will be involved if liability of any of the parties to a contract is uncertain or contingent, delivery of one of the exchange items is not in the control of any party or the payment from one side is uncertain.",
     "chapter": 3,
-    "pages": [58]
+    "pages": [58],
+    "relatedTerms": ["Gharar"]
   },
   {
     "term": "Khiyar",
     "definition": "Option or a power to annul or cancel a contract.",
     "chapter": 3,
-    "pages": [60]
+    "pages": [60],
+    "relatedTerms": ["Khiyar al ‘Aib", "Khiyar al-Majlis", "Khiyar al Ro’yat", "Khiyar al-Shart"]
   },
   {
     "term": "Khiyar al ‘Aib",
     "definition": "Option of defect – goods can be returned if found defective – option automatically available to the buyer.",
     "chapter": 6,
-    "pages": [151]
+    "pages": [151],
+    "relatedTerms": ["Khiyar al Wasf", "Khiyar"]
   },
   {
     "term": "Khiyar al-Majlis",
     "definition": "Option for the contracting session; the power to annul a contract possessed by both contracting parties as long as they do not separate.",
     "chapter": 6,
-    "pages": [150]
+    "pages": [150],
+    "relatedTerms": ["Khiyar al-Shart", "Khiyar"]
   },
   {
     "term": "Khiyar al Ro’yat",
     "definition": "Option to revoke a sale contract to be exercised on seeing the goods.",
     "chapter": 6,
-    "pages": [151, 152]
+    "pages": [151, 152],
+    "relatedTerms": ["Khiyar al ‘Aib", "Khiyar"]
   },
   {
     "term": "Khiyar al-Shart",
     "definition": "A right, stipulated by one or both of the parties to a contract, to cancel the contract for any reason within a fixed period of time.",
     "chapter": 5,
-    "pages": [107]
+    "pages": [107],
+    "relatedTerms": ["Khiyar al-Majlis", "Khiyar", "Bai‘ al Khiyar"]
   },
   {
     "term": "Khiyar al Wasf",
     "definition": "Option of quality – where goods are sold by specified quality, if that quality is absent, the goods can be returned.",
     "chapter": 6,
-    "pages": [151]
+    "pages": [151],
+    "relatedTerms": ["Khiyar al ‘Aib", "Khiyar"]
   },
   {
     "term": "Khiyar-e-Ghaban",
     "definition": "Option relating to price – where goods are sold at a price far higher than the market price, and the client is told or given the impression that he has been charged the market price.",
     "chapter": 6,
-    "pages": [151]
+    "pages": [151],
+    "relatedTerms": ["Ghaban-e-Fahish", "Ghaban", "Khiyar"]
   },
   {
     "term": "Khiyar-e-Naqad",
     "definition": "Option of payment – to agree that if payment is not made within (three) days, the contract will be annulled.",
     "chapter": 6,
-    "pages": [151]
+    "pages": [151],
+    "relatedTerms": ["Khiyar", "Khiyar al-Shart"]
   },
   {
     "term": "Ma‘lum",
     "definition": "Known – in the knowledge of the parties.",
     "chapter": 3,
-    "pages": [59]
+    "pages": [59],
+    "relatedTerms": ["Bai‘ al-Majh ul"]
   },
   {
     "term": "Mabi‘",
     "definition": "Subject of sale – the commodity that is being traded in a transaction.",
     "chapter": 5,
-    "pages": [102]
+    "pages": [102],
+    "relatedTerms": ["Hukmi (Qabza)", "Thaman"]
   },
   {
     "term": "Maisir",
     "definition": "An ancient Arabian game of chance played with arrows without heads and feathering, for stakes of slaughtered and quartered camels. It refers to all types of hazard and gambling – acquisition of wealth by chance/easily (without paying an equivalent compensation (‘Iwad) for it or without working for it, or without undertaking any liability against it).",
     "chapter": 3,
-    "pages": [43]
+    "pages": [43],
+    "relatedTerms": ["Qimar", "Gharar"]
   },
   {
     "term": "Mal",
     "definition": "Anything that can be possessed; includes money such as gold, silver and monetary units, commodities such as clothes and foodstuffs and immovable properties such as houses and factories.",
     "chapter": 12,
-    "pages": [309, 310]
+    "pages": [309, 310],
+    "relatedTerms": ["Mal-e-Mutaqawam", "Mithli"]
   },
   {
     "term": "Mal-e-Mutaqawam",
     "definition": "Things the use of which is lawful under the Shar i´ah, or wealth that has a commercial value. Legal tenders of the modern age that carry monetary value are included in M al-e- Mutaqawam. It is possible that certain wealth has no commercial value for Muslims (non-Mutaqawam) but is valuable for non-Muslims. Examples are wine and pork.",
     "chapter": 6,
-    "pages": [135]
+    "pages": [135],
+    "relatedTerms": ["Mal"]
   },
   {
     "term": "Maslaha-e-Mursalah",
     "definition": "The aspect of general welfare/benefit of mankind/society that is kept in mind by the scholars competent to undertake Ijtihad while resolving issues confronted from time to time. Catering to the well-being of people in the worldly life and also in the Hereafter or relieving them of hardships is the basic objective of the Shar i´ah. Mawalat: A contract in ancient Arabia in which one party agreed to bequeath his property to the other on the understanding that the benefactor would pay any blood money that may eventually be due by the former.",
     "chapter": 2,
-    "pages": [22]
+    "pages": [22],
+    "relatedTerms": ["Istihsan", "Ijtihad"]
   },
   {
     "term": "Mawquf",
     "definition": "A contract, the effectiveness of which is suspended until any happening.",
     "chapter": 5,
-    "pages": [118, 119]
+    "pages": [118, 119],
+    "relatedTerms": ["T‘aliq", "Bai‘ al Mu‘allaq"]
   },
   {
     "term": "Mithaq",
     "definition": "A covenant; refers to an earnest and firm determination on the part of the concerned parties to fulfil the contractual obligations; has more sanctity than the ordinary contracts.",
     "chapter": 5,
-    "pages": [103]
+    "pages": [103],
+    "relatedTerms": ["‘Ahd", "W‘adah"]
   },
   {
     "term": "Mithlam-bi-mithlin",
     "definition": "Like for like (in exchange transactions).",
     "chapter": 3,
-    "pages": [53]
+    "pages": [53],
+    "relatedTerms": ["Mithli", "Saw´am-bi-sawaa´"]
   },
   {
     "term": "Mithli",
     "definition": "Fungible goods; goods all units of which are the same and that can be returned in kind, i.e. gold, silver, wheat, all currencies, etc. Mu‘amalat: All kinds of economic activities related to exchange of goods and services.",
     "chapter": 3,
-    "pages": [53]
+    "pages": [53],
+    "relatedTerms": ["Mithlam-bi-mithlin", "Mal"]
   },
   {
     "term": "Mua‘awamah",
@@ -1225,97 +1351,113 @@ window.IFL_DATA.glossary = [
     "term": "Mubah",
     "definition": "Object that is lawful (i.e. something which is permissible to use or trade in).",
     "chapter": 6,
-    "pages": [135]
+    "pages": [135],
+    "relatedTerms": ["Halal", "Ibahatul Asliyah"]
   },
   {
     "term": "Mudarabah",
     "definition": "A form of partnership where one party provides the funds while the other provides expertise and management. The latter is referred to as the Mudarib. Any profits accrued are shared between the two parties on a pre-agreed basis, while any loss is borne by the provider of the capital.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Musharakah", "Mudarib", "Rabbul-mal", "Qirad"]
   },
   {
     "term": "Mudarib",
-    "definition": "In a Mudarabah contract, the person or party who acts as entrepreneur. 492 Understanding Islamic Finance",
+    "definition": "In a Mudarabah contract, the person or party who acts as entrepreneur.",
     "chapter": 4,
-    "pages": [85]
+    "pages": [85],
+    "relatedTerms": ["Mudarabah", "Rabbul-mal"]
   },
   {
     "term": "Muflis",
     "definition": "Destitute; insolvent/bankrupt debtors.",
     "chapter": 7,
-    "pages": [167]
+    "pages": [167],
+    "relatedTerms": ["Qard", "Dayn"]
   },
   {
     "term": "Mugharasah",
     "definition": "Joint venture projects involving plantation of gardens and sharing the produce.",
     "chapter": 15,
-    "pages": [396]
+    "pages": [396],
+    "relatedTerms": ["Muzara‘a", "Musaqah"]
   },
   {
     "term": "Mulamasah",
     "definition": "Sale by touching the subject matter or its carton without knowing its detail.",
     "chapter": 3,
-    "pages": [59]
+    "pages": [59],
+    "relatedTerms": ["Munabadhah", "Bai‘ al Hasat"]
   },
   {
     "term": "Munabadhah",
     "definition": "If a man throws to another a garment in exchange for a garment that the other throws to him without both of them examining them.",
     "chapter": 3,
-    "pages": [59]
+    "pages": [59],
+    "relatedTerms": ["Mulamasah", "Bai‘ al Hasat"]
   },
   {
     "term": "Murabaha",
     "definition": "Literally it means a sale on mutually agreed profit. Technically, it is a contract of sale in which the seller declares his cost and the profit. This has been adopted by Islamic banks as a mode of financing. As a financing technique, it can involve a request by the client to the bank to purchase a certain item for him. The bank does that for a definite profit over the cost. Murabaha lil ’amri bil Shira or Murabaha li Wa´da bi Shira : Murabaha to Purchase Orderer.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Musawamah", "Bai‘ Mu´ajjal", "Bai‘ Tawliyah", "Bai‘ Wadhi‘ah"]
   },
   {
     "term": "Musaqah",
     "definition": "A contract in which the owner of a garden shares its produce with another person in return for his services in irrigating the garden.",
     "chapter": 15,
-    "pages": [396]
+    "pages": [396],
+    "relatedTerms": ["Muzara‘a", "Mugharasah"]
   },
   {
     "term": "Musawamah",
     "definition": "A general kind of sale in which the price of the commodity to be traded is bargained between the seller and the purchaser without any reference to the price paid or cost incurred by the former.",
     "chapter": 4,
-    "pages": [77]
+    "pages": [77],
+    "relatedTerms": ["Murabaha", "Bai‘ Musawamah"]
   },
   {
     "term": "Musharakah",
     "definition": "Partnership between two parties, who both provide capital towards the financing of a project. Both parties share profits on a pre-agreed ratio, but losses are shared on the basis of equity participation. Management of the project is carried out by both parties. However, the partners also have a right to forego the right of management/work in favour of any specific partner or person. There are two main forms of Musharakah: Permanent Musharakah and Diminishing Musharakah.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Shirkah", "Mudarabah", "Shirkatulmilk"]
   },
   {
     "term": "Mustarsal",
     "definition": "An unknowing entrant into the market – not aware of the market.",
     "chapter": 3,
-    "pages": [67]
+    "pages": [67],
+    "relatedTerms": ["Khalabah", "Ghaban"]
   },
   {
     "term": "Muzara‘a",
     "definition": "Share cropping; a contract in which one person agrees to till the land of another person in return for a part of the produce of the land.",
     "chapter": 5,
-    "pages": [122]
+    "pages": [122],
+    "relatedTerms": ["Musaqah", "Mugharasah"]
   },
   {
     "term": "Najash",
     "definition": "Bidding up the price without an intention to purchase and take delivery of the commodity.",
     "chapter": 3,
-    "pages": [66, 67]
+    "pages": [66, 67],
+    "relatedTerms": ["Ghaban", "Khalabah"]
   },
   {
     "term": "Nass",
     "definition": "Clear texts of the Shar i´ah, i.e. the Qur´ an and Sunnah.",
     "chapter": 4,
-    "pages": [89]
+    "pages": [89],
+    "relatedTerms": ["Shari´ah", "Ijtihad"]
   },
   {
     "term": "Nawahi",
     "definition": "Prohibitions – acts prohibited by Islam.",
     "chapter": 2,
-    "pages": [21]
+    "pages": [21],
+    "relatedTerms": ["Fraidh"]
   },
   {
     "term": "Niyyah",
@@ -1327,61 +1469,71 @@ window.IFL_DATA.glossary = [
     "term": "Qabul",
     "definition": "Acceptance, in a contract (see also Ijab).",
     "chapter": 5,
-    "pages": [104]
+    "pages": [104],
+    "relatedTerms": ["Ijab", "‘Aqd"]
   },
   {
     "term": "Qard",
     "definition": "Literally “to cut”. It is so called because the property is cut off – transferred to the borrower. Legally, Qard means to give anything having value in the ownership of the other by way of virtue so that the latter may avail himself of the same for his benefit with the condition that the same or similar amount of that thing will be paid back on demand or at the settled time. The repayment of loan is obligatory. Loans under Islamic law can be classified into Salaf and Qard, the former being a loan for a fixed time and the latter payable on demand. Qard is, in fact, a particular kind of Salaf (see Salaf).",
     "chapter": 3,
-    "pages": [47]
+    "pages": [47],
+    "relatedTerms": ["Qard al Hasan", "Salaf", "Dayn"]
   },
   {
     "term": "Qard al Hasan",
     "definition": "A virtuous loan. A loan with the stipulation to return the principal sum in the future without any increase; in Islamic law, all loans have to be virtuous, as seeking any benefit from loaning amounts to Riba.",
     "chapter": 4,
-    "pages": [77]
+    "pages": [77],
+    "relatedTerms": ["Qard", "Tabarru‘"]
   },
   {
     "term": "Qimar",
     "definition": "Games of chance – gambling. Technically, it is an arrangement in which possession of a property is contingent upon the happening of an uncertain event. By implication, this applies to a situation in which there is a loss for one party and a gain for the other without specifying which party will lose and which will gain.",
     "chapter": 3,
-    "pages": [43]
+    "pages": [43],
+    "relatedTerms": ["Maisir", "Gharar"]
   },
   {
     "term": "Qirad",
     "definition": "Another name for Mudarabah – partnership in which a person or a group of people provides funds while another provides entrepreneurship for conducting the business.",
     "chapter": 4,
-    "pages": [80]
+    "pages": [80],
+    "relatedTerms": ["Mudarabah", "Qirad mithl"]
   },
   {
     "term": "Qirad mithl",
     "definition": "Matching rate in Qirad/Mudarabah, which has to be paid to the Mudarib if the Mudarabah/Muqaradah contract becomes voidable due to any technical reason.",
     "chapter": 4,
-    "pages": [80]
+    "pages": [80],
+    "relatedTerms": ["Qirad", "Ribh-al-mithl"]
   },
   {
     "term": "Qirsh",
     "definition": "A coin of inferior metals used in ancient Iraq for making payment.",
     "chapter": 7,
-    "pages": [174]
+    "pages": [174],
+    "relatedTerms": ["Dirham", "Fulus"]
   },
   {
     "term": "Qisas",
     "definition": "A provision of Islamic law to punish those who cause any harm to human lif e – a murderer is executed to death in exchange. Qiyami or Qimi : Nonfungible goods; the value of each unit of which is different.",
     "chapter": 2,
-    "pages": [23]
+    "pages": [23],
+    "relatedTerms": ["Zulm"]
   },
   {
     "term": "Qiyas",
     "definition": "Analogy – literally it means to measure or compare for analogy. Technically, it means a derivation of the law on the analogy of an existing law if the basis (‘Illah) of the two is the same. It is one of the sources of Islamic law.",
     "chapter": 2,
-    "pages": [22]
+    "pages": [22],
+    "relatedTerms": ["Ijtihad", "‘Illah"]
   },
   {
     "term": "Ra’asul-mal",
     "definition": "Principal amount of a loan or a debt or money invested in a business.",
     "chapter": 3,
-    "pages": [47]
+    "pages": [47],
+    "relatedTerms": ["Rabbul-mal", "Mudarabah"]
   },
   {
     "term": "Ra‘iee",
@@ -1393,55 +1545,64 @@ window.IFL_DATA.glossary = [
     "term": "Rabbul-mal",
     "definition": "The person who invests the capital in a Shirkah/Mudarabah contract.",
     "chapter": 8,
-    "pages": [189, 190]
+    "pages": [189, 190],
+    "relatedTerms": ["Mudarib", "Mudarabah"]
   },
   {
     "term": "Riba",
     "definition": "Literally, an excess or increase. Technically, it means an increase over the principal in a loan transaction, over a debt or in exchange transactions, accrued to the lender/creditor or a party to exchange without giving an equivalent counter value or recompense (‘iwad) in return to the other party.",
     "chapter": 1,
-    "pages": [12, 13]
+    "pages": [12, 13],
+    "relatedTerms": ["Riba Al-Fadl", "Riba Al-Nasiah", "Ribawi", "Gharar"]
   },
   {
     "term": "Riba Al-Fadl",
     "definition": "The quality premium in exchange of low quality with better quality goods, e.g. dates for dates, wheat for wheat, etc. – an excess in the exchange of Ribawi goods in the case of a single genus on both sides. The concept of Riba Al-Fadl refers to exchange/sale transactions.",
     "chapter": 3,
-    "pages": [52, 53]
+    "pages": [52, 53],
+    "relatedTerms": ["Riba Al-Nasiah", "Ribawi", "Mithlam-bi-mithlin"]
   },
   {
     "term": "Riba Al-Nasiah",
     "definition": "Riba of delay, due to exchange not being immediate with or without excess in one of the counter values. It is an increment on the principal of a loan or debt payable. It refers to loan/credit transactions or lending money on the understanding that the borrower will return to the lender at the end of the period the amount originally lent together with an increase on it, in consideration of the lender having granted him time to pay. Interest, in all modern banking transactions, falls under the purview of Riba Al-Nasiah.",
     "chapter": 3,
-    "pages": [50]
+    "pages": [50],
+    "relatedTerms": ["Riba Al-Fadl", "Riba", "Qard"]
   },
   {
     "term": "Ribawi",
     "definition": "Goods subject to Fiqh rules on Riba in sales – monetary units and items sold by weight and/or by measure, including gold, silver, paper currencies, edible goods like wheat, rice, barley, dates, salt, etc.",
     "chapter": 7,
-    "pages": [164]
+    "pages": [164],
+    "relatedTerms": ["Riba Al-Fadl", "Riba Al-Nasiah", "Sarf"]
   },
   {
     "term": "Ribh-al-mithl",
     "definition": "Matching rate of profit. Rihn or Rahn : Pledge, collateral; legally, Rihn means to pledge or lodge a real or corporeal property of material value as security for a debt or pecuniary obligation, so as to make it possible for the creditor to recover the debt, in the case of nonpayment, by selling the pledged property.",
     "chapter": 4,
-    "pages": [80]
+    "pages": [80],
+    "relatedTerms": ["Qirad mithl", "Thaman-e-mithl"]
   },
   {
     "term": "Rukban",
     "definition": "Grain dealers coming from the tribal/rural areas to the town to sell goods.",
     "chapter": 3,
-    "pages": [67]
+    "pages": [67],
+    "relatedTerms": ["Najash"]
   },
   {
     "term": "Sa‘a",
     "definition": "A measure that was used for exchanging/trading grains.",
     "chapter": 3,
-    "pages": [46]
+    "pages": [46],
+    "relatedTerms": ["Mithli"]
   },
   {
     "term": "Sadd al-Zar ai‘",
     "definition": "To prohibit a transaction on the grounds of blocking the means to an illicit end.",
     "chapter": 6,
-    "pages": [149]
+    "pages": [149],
+    "relatedTerms": ["Hilah, Hiyal (plural)"]
   },
   {
     "term": "Sahabah",
@@ -1449,57 +1610,66 @@ window.IFL_DATA.glossary = [
   },
   {
     "term": "Salaf",
-    "definition": "Used in two senses: (i) literally, payment in advance; a loan which draws forth no profit for the creditor; it includes loans for specified periods, i.e. short, intermediate and long-term loans; slightly different from Qard – an amount given as Salaf cannot be called back, unlike Qard, before it is due. 494 Understanding Islamic Finance Also, another name of Salam – forward sale; (ii) Forebears – jurists and scholars of early periods of Islam.",
+    "definition": "Used in two senses: (i) literally, payment in advance; a loan which draws forth no profit for the creditor; it includes loans for specified periods, i.e. short, intermediate and long-term loans; slightly different from Qard – an amount given as Salaf cannot be called back, unlike Qard, before it is due. Also, another name of Salam – forward sale; (ii) Forebears – jurists and scholars of early periods of Islam.",
     "chapter": 5,
-    "pages": [111]
+    "pages": [111],
+    "relatedTerms": ["Bai‘ Salam", "Qard"]
   },
   {
     "term": "Sanadat",
     "definition": "Certificates of investment – another name for Sukuk.",
     "chapter": 15,
-    "pages": [392]
+    "pages": [392],
+    "relatedTerms": ["Sukuk"]
   },
   {
     "term": "Sarf",
     "definition": "Contract in which both exchange items are gold, silver or any monetary units.",
     "chapter": 3,
-    "pages": [52]
+    "pages": [52],
+    "relatedTerms": ["Bai‘ al Sarf", "Al-Sarf"]
   },
   {
     "term": "Saw´am-bi-sawaa´",
     "definition": "Equal for equal (in exchange transactions).",
     "chapter": 3,
-    "pages": [53]
+    "pages": [53],
+    "relatedTerms": ["Mithlam-bi-mithlin", "Yadam-bi-yadin"]
   },
   {
     "term": "Shari´ah",
     "definition": "Divine guidance as given by the Holy Qur’ an and the Sunnah of the Prophet Muhammad (pbuh); embodies all aspects of the Islamic faith, including beliefs and practice.",
     "chapter": 2,
-    "pages": [21]
+    "pages": [21],
+    "relatedTerms": ["Fiqh", "Sunnah", "Nass"]
   },
   {
     "term": "Shart-e-Jazai",
     "definition": "A clause that a purchaser can put into an Istisna‘a agreement whereby the price of the item being manufactured would decrease in the case of a delay in delivery by the seller/manufacturer whereby the delay benefits the purchaser – unlike all other modes in which any penalty imposed due to default or delay in payment of liabilities goes to the charity account and not to the banks’P&L accounts.",
     "chapter": 4,
-    "pages": [85]
+    "pages": [85],
+    "relatedTerms": ["Istisna‘a"]
   },
   {
     "term": "Shirkah",
     "definition": "Commingling by two or more people of their money or work or obligations to earn a profit or a yield or appreciation in value and to share the loss, if any, according to their proportionate ownership. In the present Islamic banking terminology, it may include both Musharakah and Mudarabah and various kinds of Musharakah like business/commercial partnership, partnership by ownership and permanent or redeemable partnership.",
     "chapter": 1,
-    "pages": [14]
+    "pages": [14],
+    "relatedTerms": ["Musharakah", "Mudarabah", "Shirkatul‘aqd", "Shirkatulmilk"]
   },
   {
     "term": "Shirkatul‘aqd",
     "definition": "Commercial/business partnershi p – a contract between two or more people who launch a business or an enterprise to make profits.",
     "chapter": 12,
-    "pages": [307, 308]
+    "pages": [307, 308],
+    "relatedTerms": ["Shirkatulmilk", "Musharakah"]
   },
   {
     "term": "Shirkatulmilk",
     "definition": "Partnership by ownership or in the right of ownership; not for business.",
     "chapter": 4,
-    "pages": [80]
+    "pages": [80],
+    "relatedTerms": ["Shirkatul‘aqd", "Musharakah"]
   },
   {
     "term": "Shuf‘ah",
@@ -1511,19 +1681,22 @@ window.IFL_DATA.glossary = [
     "term": "Suftajah",
     "definition": "An instrument in traditional Islamic finance used for cash transfer/payment which involved the act of depositing a certain amount of money with someone for settlement or to the benefit of the depositor or his representative at another place or in another country. A type of instrument used for the delegation of credit during the Muslim period, especially the Abbasides period. It was used to collect taxes, disburse government dues and transfer funds by merchants.",
     "chapter": 7,
-    "pages": [168]
+    "pages": [168],
+    "relatedTerms": ["Hawalah"]
   },
   {
     "term": "Sukuk",
     "definition": "Certificates of equal value representing undivided share in ownership of tangible assets of particular projects or specific investment activity, usufruct and services.",
     "chapter": 1,
-    "pages": [18, 19]
+    "pages": [18, 19],
+    "relatedTerms": ["Sanadat", "Ijarah Muntahia-bi-Tamleek"]
   },
   {
     "term": "Sunnah",
     "definition": "Literally, custom, habit or way of life. Technically, it refers to actions, sayings and utterances of the holy Prophet Muhammad (pbuh), or actions of others tacitly approved by him, as reported in the books of Hadith.",
     "chapter": 1,
-    "pages": [11]
+    "pages": [11],
+    "relatedTerms": ["Ahadith", "Shari´ah"]
   },
   {
     "term": "T‘azir",
@@ -1535,131 +1708,146 @@ window.IFL_DATA.glossary = [
     "term": "T‘aliq",
     "definition": "Conditions which suspend a contract to any future event.",
     "chapter": 5,
-    "pages": [126]
+    "pages": [126],
+    "relatedTerms": ["Mawquf", "Bai‘ al Mu‘allaq"]
   },
   {
     "term": "Ta’mein",
     "definition": "Arabic word used for insurance.",
     "chapter": 16,
-    "pages": [420]
+    "pages": [420],
+    "relatedTerms": ["Takaful"]
   },
   {
     "term": "Tabarru‘",
     "definition": "Benefits given by a person to another without getting anything in exchange. For example, gracious repayment of debt, absolutely at the lender’s own discretion and without any prior condition or inducement for reward is covered under Tabarru‘. Repaying a loan in excess of the principal and without a precondition is commendable and compatible with the Sunnah of the holy Prophet (pbuh). But it is matter of individual discretion and cannot be adopted as a system, because this would mean that a loan would necessarily yield a profit, making it usurious.",
     "chapter": 4,
-    "pages": [79]
+    "pages": [79],
+    "relatedTerms": ["Husnal Qadha", "Hibah", "Qard al Hasan"]
   },
   {
     "term": "Tabzir",
-    "definition": "Spending wastefully on objects which have been explicitly prohibited by the Shar i´ah, irre- spective of the amount of expenditure (see also Isr af)."
+    "definition": "Spending wastefully on objects which have been explicitly prohibited by the Shar i´ah, irrespective of the amount of expenditure (see also Isr af).",
+    "relatedTerms": ["Israf"]
   },
   {
     "term": "Takaful",
     "definition": "A form of Islamic insurance based on the principle of Ta’awon or mutual assistance. It provides for mutual assistance in cases of loss to life, assets and property and offers joint risk-sharing in the event of a loss incurred by one of the pool members.",
     "chapter": 1,
-    "pages": [19]
+    "pages": [19],
+    "relatedTerms": ["Ta’mein", "‘ Aqilah"]
   },
   {
     "term": "Taqwa",
     "definition": "Piety, virtue and righteousness with a sense of accountability to Allah (SWT). It encompasses not only obedience to Allah, but also the love of fellow human beings, who should be treated as part of an extended human family.",
     "chapter": 2,
-    "pages": [26]
+    "pages": [26],
+    "relatedTerms": ["Akhlaq", "Falah"]
   },
   {
     "term": "Tawarruq",
     "definition": "Acquiring cash through trade activities – to buy on credit and sell at spot value with the objective of getting cash, meaning that the trade transaction was not needed by the buyer; he simply wanted liquidity, which he got by purchasing a commodity on credit and selling the same to a third party on cash.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Bai‘ al ‘Inah", "Murabaha"]
   },
   {
     "term": "Thaman",
     "definition": "Price, monetary value of a commodity in an exchange.",
     "chapter": 2,
-    "pages": [28]
+    "pages": [28],
+    "relatedTerms": ["Athman", "Thaman-e-mithl"]
   },
   {
     "term": "Thaman-e-mithl",
     "definition": "Normal/market price that has to be paid in case any issue arises in deciding the actual price in any transaction.",
     "chapter": 2,
-    "pages": [28]
+    "pages": [28],
+    "relatedTerms": ["Thaman", "Ribh-al-mithl"]
   },
   {
     "term": "Ujrah",
     "definition": "Wages/service fees against work done for others; Ijarah of services; different from Ju‘alah which means giving a reward for accomplishment of a defined task. While in Ujrah, acceptance of “offer” by a specified person is necessary, in Ju‘alah, anyone who hears the offer can undertake the work and becomes entitled to reward only upon completion of the job.",
     "chapter": 3,
-    "pages": [52, 53]
+    "pages": [52, 53],
+    "relatedTerms": ["Ijarah", "Ajr al-Musammah", "Ajr al-Mithl"]
   },
   {
     "term": "Ujratul-mithl",
     "definition": "A remuneration or compensation which has to be given as per normal market rate if the underlying contract(s) become voidable.",
     "chapter": 4,
-    "pages": [80]
+    "pages": [80],
+    "relatedTerms": ["Ujrah", "Ribh-al-mithl"]
   },
   {
     "term": "Uqood-e-Mu‘awadha",
     "definition": "Commutative contracts in which one can genuinely take any return, like contracts of Bai‘, Ijarah and Wakalah.",
     "chapter": 1,
-    "pages": [12]
+    "pages": [12],
+    "relatedTerms": ["Uqood Ghair Mu‘awadha"]
   },
   {
     "term": "Uqood Ghair Mu‘awadha",
-    "definition": "Noncommutative contracts wherein one cannot get any return or com- pensation, like contracts of loan (Qard), gift (Tabarru‘/Hibah), Guarantee (Kafalah) and assignment of debt (Hawalah).",
+    "definition": "Noncommutative contracts wherein one cannot get any return or compensation, like contracts of loan (Qard), gift (Tabarru‘/Hibah), Guarantee (Kafalah) and assignment of debt (Hawalah).",
     "chapter": 1,
-    "pages": [12]
+    "pages": [12],
+    "relatedTerms": ["Uqood-e-Mu‘awadha"]
   },
   {
     "term": "W‘adah",
     "definition": "Promise – does not create contractual rights and obligations; may be binding or unbinding.",
     "chapter": 5,
-    "pages": [103, 104]
+    "pages": [103, 104],
+    "relatedTerms": ["‘Ahd", "Mithaq"]
   },
   {
     "term": "Wadi‘ah",
     "definition": "A m anah or deposit; the trustee is not responsible for loss except in the case of negligence on his part. If, however, the Am anah amount is used in business, with the permission of the owner, the amount becomes the trustee’s liability.",
     "chapter": 5,
-    "pages": [119]
+    "pages": [119],
+    "relatedTerms": ["Amanah", "Al-Wadi‘ah"]
   },
   {
     "term": "Wakalah",
     "definition": "Contract of agency, can be commutative or noncommutative.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Wakalatul Istism ar", "Kafalah"]
   },
   {
     "term": "Wakalatul Istism ar",
     "definition": "Investment agency – fund management in which the investor gets all the profit or loss while the fund manager gets a pre-agreed service fee or commission that could be a lump sum amount or a certain percentage of the invested capital.",
     "chapter": 4,
-    "pages": [83]
+    "pages": [83],
+    "relatedTerms": ["Wakalah", "Mudarabah"]
   },
   {
     "term": "Waqf",
-    "definition": "Retention of a property for the benefit of a charitable or humanitarian objective, or for a specified group of people such as members of the donor’s family. There are three kinds of Waqf in",
+    "definition": "Retention of a property for the benefit of a charitable or humanitarian objective, or for a specified group of people such as members of the donor’s family. There are three kinds of Waqf in Islamic jurisprudence: religious Waqf, philanthropic Waqf and family Waqf. The Waqf property can neither be sold nor inherited or donated to anyone.",
     "chapter": 5,
-    "pages": [104]
-  },
-  {
-    "term": "Islamic jurisprudence",
-    "definition": "religious Waqf, philanthropic Waqf and family Waqf. The Waqf property can neither be sold nor inherited or donated to anyone.",
-    "chapter": 1,
-    "pages": [12]
+    "pages": [104],
+    "relatedTerms": ["Bayt al M al", "Zakah/Zakat"]
   },
   {
     "term": "Yadam-bi-yadin",
     "definition": "Hand to hand or on the spot (in exchange transactions).",
     "chapter": 3,
-    "pages": [53]
+    "pages": [53],
+    "relatedTerms": ["Saw´am-bi-sawaa´", "Mithlam-bi-mithlin"]
   },
   {
     "term": "Zakah/Zakat",
-    "definition": "Zakah is the third out of five pillars of Islam. A religious tax on Muslims having wealth over and above an exemption limit (Nisab) at a rate fixed by the Shar i´ah. As such, it is not a tax on income, but on the assets held by a Muslim at a prescribed date (a Zakat day has to be determined for calculation of Zakat money to be paid annually) over and above the amount of Nisab after fulfilment of the normal needs of the owner. The objective is to take away a part of the wealth of the well-to-do and to distribute it among the poor and the needy. It is levied on cash, cattle, agricultural produce, 496 Understanding Islamic Finance minerals, capital invested in industry and business, etc. The rates are different for different natures of assets. The recipients of Zakah funds have been identified in the Holy Qur’ an (9: 60) and are the poor, the needy, Zakah collectors, new converts to Islam, travellers in difficulty, captives and debtors and for the cause of the Almighty.",
+    "definition": "Zakah is the third out of five pillars of Islam. A religious tax on Muslims having wealth over and above an exemption limit (Nisab) at a rate fixed by the Shar i´ah. As such, it is not a tax on income, but on the assets held by a Muslim at a prescribed date (a Zakat day has to be determined for calculation of Zakat money to be paid annually) over and above the amount of Nisab after fulfilment of the normal needs of the owner. The objective is to take away a part of the wealth of the well-to-do and to distribute it among the poor and the needy. It is levied on cash, cattle, agricultural produce, minerals, capital invested in industry and business, etc. The rates are different for different natures of assets. The recipients of Zakah funds have been identified in the Holy Qur’ an (9: 60) and are the poor, the needy, Zakah collectors, new converts to Islam, travellers in difficulty, captives and debtors and for the cause of the Almighty.",
     "chapter": 1,
-    "pages": [12]
+    "pages": [12],
+    "relatedTerms": ["Waqf", "Gharmeen"]
   },
   {
     "term": "Zulm",
     "definition": "Injustice, usurping others’ rights, not giving proper recompense in an exchange by way of any illegal act or coercion.",
     "chapter": 3,
-    "pages": [55]
+    "pages": [55],
+    "relatedTerms": ["Qisas"]
   }
 ];
 
@@ -2635,6 +2823,146 @@ window.IFL_DATA.caseStudies = [
     "examTakeaway": "Ju'alah's defining feature — a reward contingent on realizing an uncertain result rather than on performing specified work — is exactly why it, not Ijarah, is the correct mode for open-ended tasks like debt recovery.",
     "source": { "chapter": 13, "section": "13.4.6", "pages": [354, 355] },
     "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-riba-1",
+    "title": "A 'Free' Loan With a Favor Attached",
+    "chapter": 3,
+    "concept": "Riba: Any Stipulated Benefit on a Loan",
+    "scenario": "A wholesaler agrees to lend a struggling retailer Rs. 500,000 with no interest charged. As a condition of the loan, however, the retailer must let the wholesaler store his own excess inventory in the retailer's warehouse, rent-free, for as long as the loan is outstanding — something the two had never done before this loan.",
+    "problemPrompt": "Is this loan free of Riba simply because no interest rate is charged, or is something else going on that makes it problematic?",
+    "analysisPrompts": ["Does Riba require an explicit interest rate, or can it take the form of any stipulated benefit to the lender?", "Would the answer differ if the two parties had always swapped this kind of favor with each other, loan or no loan?"],
+    "textbookAnswer": "This loan is not free of Riba. The free warehouse space is a benefit flowing to the lender (wholesaler) as a precondition of the loan, over and above the principal — that is Riba, regardless of the fact that no interest rate was named.",
+    "whyExplanation": "The book reports the Prophet's (pbuh) instruction that a lender should not even accept a gift or a ride offered by the borrower unless such an exchange of favors was already customary between them before the loan (Hadith from Anas ibn Malik, 3.2.1), and gives the broader rule that Riba means any increase over and above the principal of a loan or debt, in quantity or in kind, not corresponding to a genuine trade, labour, risk or expertise on the lender's part.",
+    "examTakeaway": "Riba is not limited to a named interest rate — any benefit a lender stipulates for himself as a condition of the loan, however small or non-monetary, is Riba unless that exchange of favors already existed independently of the loan.",
+    "source": { "chapter": 3, "section": "3.2.1", "pages": [46, 48] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-maisir-1",
+    "title": "A Savings Scheme With a Monthly Prize Draw",
+    "chapter": 3,
+    "concept": "Maisir/Qimar in Prize-Linked Savings Schemes",
+    "scenario": "A savings institution advertises a scheme in which depositors' principal is fully safe and guaranteed. Each month, the institution takes the interest income earned on the pooled deposits and uses it to fund a lottery-style drawing: a handful of randomly selected depositors win large cash prizes, while everyone else gets nothing beyond their untouched principal.",
+    "problemPrompt": "Does this scheme raise a Shari'ah concern, and if so, under which prohibition, given that no depositor's principal is ever at risk?",
+    "analysisPrompts": ["Where does the prize money in this scheme actually come from?", "What distinguishes a prohibited prize-draw scheme from a permissible sales promotion where a known, fixed incentive is given to every purchaser?"],
+    "textbookAnswer": "This scheme is repugnant to the Shari'ah on account of Maisir/Qimar (and, in the underlying interest income, Riba): even though the depositors' capital is intact, the prizes are distributed by chance from interest generated on the pooled capital, meaning some depositors gain at the expense of others through a game of chance rather than any real return on their own funds.",
+    "whyExplanation": "The book specifically addresses this pattern: a scheme wherein the investors' money is safe and intact, but the prizes given are related to interest generated from the capital accumulated through it, is repugnant to the tenets of the Shari'ah due to the involvement of Qimar — distinguishing it from a valid promotional incentive, where the price and the extra item given to every purchaser are both known in advance with no element of chance (3.2.3).",
+    "examTakeaway": "A prize scheme is not saved from Maisir just because depositors' principal is guaranteed — if the prize pool itself is distributed by chance rather than known to and shared by all participants, it is still gambling, and worse here because the pool is funded by Riba.",
+    "source": { "chapter": 3, "section": "3.2.3", "pages": [62, 63] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-bai-inah-1",
+    "title": "Quick Cash Through a Sell-and-Buy-Back Deal",
+    "chapter": 6,
+    "concept": "Bai' al-'Inah (Sale and Buy-Back)",
+    "scenario": "A trading company needs cash urgently. A financier proposes: it will buy the company's machine today for $95,000 cash, and the company will simultaneously agree to buy the same machine back from the financier in six months for $100,000, payable then. No one else is involved, and the machine never actually changes hands or location.",
+    "problemPrompt": "Does this arrangement amount to legitimate Islamic trade financing, or does it fall foul of a specific prohibited structure?",
+    "analysisPrompts": ["What is the real economic substance of buying an asset for less cash today and selling it back for more, later, to the same party?", "Why does it matter that the asset never actually moves or changes possession?"],
+    "textbookAnswer": "This is Bai' al-'Inah, a prohibited double sale involving buy-back, in which the same commodity is sold and resold between the same two parties — once for cash at a lower price, once on credit at a higher price — with the net economic effect of a cash loan repaid with an increase, i.e. Riba in the form of trade.",
+    "whyExplanation": "The book gives essentially this exact structure as unlawful: a Hilah in which a commodity is sold for $1000 payable after a year and then bought back for $950 cash was declared unlawful due to the involvement of Riba, and describes Bai' al-'Inah as a double sale by which the borrower and lender sell and resell a commodity between them, once for cash and once for a higher credit price, with the net result of a loan carrying interest — a structure the majority of jurists (and Shari'ah boards such as Al Baraka's) have prohibited (6.11).",
+    "examTakeaway": "The test for Bai' al-'Inah is substance over form: if a 'sale' and its 'buy-back' between the same two parties simply recreate a cash loan repaid with an increase, it is Riba dressed as trade, regardless of the sale-contract paperwork used.",
+    "source": { "chapter": 6, "section": "6.11", "pages": [148, 149] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-khiyar-1",
+    "title": "Defective Printing Equipment Delivered Under MPO",
+    "chapter": 6,
+    "concept": "Khiyar al-'Aib (Option of Defect) in Murabaha to Purchase Orderer",
+    "scenario": "A publishing company ordered specialized printing equipment through its Islamic bank's Murabaha to Purchase Orderer facility, promising to buy it from the bank once delivered. When the equipment arrives and the Murabaha sale to the client is executed, the client discovers a material defect that was not disclosed and does not match the specifications originally agreed.",
+    "problemPrompt": "Is the client bound to complete the purchase and simply live with the defect, or does the client have any recourse under the sale contract?",
+    "analysisPrompts": ["What general option does a buyer have when goods are found to be defective or not as specified, even without a special clause in the contract?", "Does the client's earlier promise to purchase remove this option once the actual Murabaha sale has been executed?"],
+    "textbookAnswer": "The client is not bound to accept defective or non-conforming equipment. In an MPO transaction the client retains the options of defect and specification/quality: if the goods are not per the stipulated specification or have a material defect, the client may refuse to purchase them under the promise, and if the Murabaha sale has already been executed, the client has the right to rescind it — unless the bank obtained a certificate of fitness at the time of sale after giving the client a real opportunity to examine the asset.",
+    "whyExplanation": "The book states this general rule as Khiyar al-'Aib: goods can be returned if found defective, and this option is available even without an explicit contractual stipulation as long as the defect was not disclosed to the buyer and caused a visible decrease in value; it then applies this directly to MPO, giving the client options of defect and specification/quality over the delivered asset (6.12).",
+    "examTakeaway": "Khiyar al-'Aib is not something a buyer must remember to write into the contract — it exists by default whenever an undisclosed defect materially reduces the value of what was sold, including in a Murabaha to Purchase Orderer sale.",
+    "source": { "chapter": 6, "section": "6.12", "pages": [150, 152] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-hawalah-1",
+    "title": "Raising Cash by Offloading a Receivable",
+    "chapter": 7,
+    "concept": "Hawalah vs the Prohibited Sale of Debt",
+    "scenario": "A construction company is owed $100,000 by a government agency, due in 90 days. Needing cash now, it wants to transfer this receivable to an investor for $90,000 upfront, with the investor bearing the full loss if the government agency ultimately fails to pay — the company would have no further obligation either way.",
+    "problemPrompt": "Can the company structure this transfer in a Shari'ah-compliant way, and if so, what would have to change?",
+    "analysisPrompts": ["What is the key difference between an outright 'sale of debt' and a valid Hawalah (assignment of debt)?", "At what value can a debt validly be assigned under Hawalah, and what happens if the new debtor fails to pay?"],
+    "textbookAnswer": "Selling the receivable at a discount with no recourse to the company is a prohibited sale of debt (it involves Gharar and Riba). A Shari'ah-compliant alternative is Hawalah: the company can assign the debt to the investor, but only at its full nominal (face) value, not at a discount, and the assignor (the company) remains liable if the assignee/new debtor ultimately fails to collect from the government agency.",
+    "whyExplanation": "The book draws exactly this distinction: the difference between a prohibited 'sale of debt' and a permissible 'assignment of debt' (Hawalah) is that in Hawalah there is recourse to the assignor/original debtor if the assignee does not pay, whereas in a sale of debt the purchaser has no such recourse; consequently, Hawalah is allowed only at the nominal value of the debt, with recourse to the assignor if the assignee defaults (7.14).",
+    "examTakeaway": "A discounted, no-recourse transfer of a receivable is a prohibited sale of debt; a Shari'ah-compliant Hawalah instead requires transfer at full face value with recourse back to the original creditor's debtor if the new party doesn't pay.",
+    "source": { "chapter": 7, "section": "7.14", "pages": [167, 168] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-default-penalty-1",
+    "title": "Can the Bank Keep the Late-Payment Fine?",
+    "chapter": 7,
+    "concept": "Penalty on Wilful Default — Charity, Not Bank Income",
+    "scenario": "A Murabaha client who is clearly able to pay keeps deliberately delaying his instalments. The Islamic bank wants to impose a late-payment penalty clause, and its finance department proposes booking the collected penalty as extra income to help offset the bank's own losses from such defaults.",
+    "problemPrompt": "Can the bank charge this penalty, and can it keep the proceeds as its own income?",
+    "analysisPrompts": ["Under what conditions have Shari'ah scholars allowed a penalty clause for default at all?", "What must happen to the money actually collected as a penalty, and why can't the bank simply keep it?"],
+    "textbookAnswer": "The bank may impose a penalty clause on this wilful defaulter, since this is a debt (Dayn) arising from a sale (Murabaha), not a pure interest-free loan (Qard). However, the bank cannot keep the penalty as its own income — the proceeds must be given to charity, since a penalty on default cannot become a source of income for the creditor.",
+    "whyExplanation": "The book explains that contemporary Shari'ah scholars and bodies (AAOIFI, the OIC Fiqh Council, the Shariat Appellate Bench) permit penalty clauses on financial debt contracts other than pure Qard al-Hasan, specifically to deter wilful default, but is explicit that 'the penalty thus received has to be given to charity' because it cannot become a source of income for the creditor, and that the penalty becomes void if the client proves the default was beyond his control or that the bank suffered no actual loss (7.13).",
+    "examTakeaway": "A default penalty on a debt-creating mode is permitted as a deterrent against wilful default, but it must always be routed to charity — never booked as bank profit — which is exactly what keeps it from becoming Riba in another guise.",
+    "source": { "chapter": 7, "section": "7.13", "pages": [165, 166] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-working-capital-1",
+    "title": "Financing More Than Just the Raw Cotton",
+    "chapter": 14,
+    "concept": "Mode Selection for Working Capital Financing",
+    "scenario": "A textile exporter needs financing not only to buy raw cotton, but also to cover the labour and overhead costs of actually manufacturing that cotton into finished, exportable cloth before shipment. The bank's standard Murabaha facility only covers purchasing the raw material.",
+    "problemPrompt": "Why is a plain Murabaha facility insufficient here, and what combination of modes should the bank structure instead?",
+    "analysisPrompts": ["What kind of cost does Murabaha alone fail to finance in a manufacturing/export business?", "Which mode is designed for financing something that still needs to be manufactured, and how can an agency arrangement complete the picture?"],
+    "textbookAnswer": "Murabaha alone cannot fulfil all of the exporter's requirements, since it only finances the purchase of the raw material, not the processing, labour and overhead needed to turn it into finished goods. The bank should combine Murabaha (for the raw cotton purchase), Istisna'a (to finance manufacture of the finished cloth and pay overhead expenses), and Wakalah (appointing the exporter as its agent to export the goods, with proceeds remitted to the bank, which deducts its Istisna'a cost and profit before the client pays the Murabaha price on schedule).",
+    "whyExplanation": "The book states directly that 'Murabaha alone cannot fulfil all the requirements of business and industry' for customers like exporters who also need financing for processing raw material and meeting labour and overhead expenses, and lays out the combined Murabaha + Istisna'a + Wakalah procedure as the bank's product-development solution for working capital in this situation (14.4.1).",
+    "examTakeaway": "When a working-capital need spans both buying an input and manufacturing it into a finished product, a single mode like Murabaha is not enough — the bank's own product-development framework combines Murabaha, Istisna'a and Wakalah to cover the whole cycle.",
+    "source": { "chapter": 14, "section": "14.4.1", "pages": [369, 370] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-project-financing-1",
+    "title": "Why a Lease Won't Build the Cement Plant",
+    "chapter": 14,
+    "concept": "Mode Selection for Project Financing",
+    "scenario": "An industrial group wants its Islamic bank to finance the construction of a brand-new cement plant from the ground up. It initially asks for an Ijarah (leasing) facility, since the bank has used Ijarah for other equipment financing before. The bank's Shari'ah advisor says Ijarah will not work for this particular request.",
+    "problemPrompt": "Why can't Ijarah finance the construction of a plant that does not yet exist, and what combination of modes should the bank use instead?",
+    "analysisPrompts": ["What does Ijarah require to already exist before it can be used at all?", "Which mode is specifically designed to finance something being built or manufactured to order, and how can it be paired with a partnership structure for a large project like this?"],
+    "textbookAnswer": "Ijarah presupposes an existing asset whose usufruct can be leased — it cannot itself finance the construction of a plant that has not yet been built. Instead, the bank can finance this through a Musharakah with the client to jointly own the completed plant, combined with an Istisna'a contract for its construction/erection (with the client appointed as the bank's agent to supervise the erection); once operational, the bank earns a periodic profit/rental on its ownership share, and recovers its principal as the client progressively purchases the bank's ownership units.",
+    "whyExplanation": "The book notes that although Ijarah is currently a popular mode for project finance, 'if the project needs to be installed or constructed, Ijarah cannot be used effectively,' and gives exactly this Musharakah-plus-Istisna'a structure — with the client as supervising agent and unit purchases redeeming the bank's investment — as the alternative for a project like a cement plant's construction/erection (14.4.3).",
+    "examTakeaway": "Ijarah requires an already-existing asset; financing something that must first be built calls for Istisna'a (construction) typically paired with Musharakah (joint ownership and profit-sharing) rather than a straight lease.",
+    "source": { "chapter": 14, "section": "14.4.3", "pages": [373, 374] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-appraisal-benchmark-1",
+    "title": "'Your Profit Rate Is Just Interest by Another Name'",
+    "chapter": 17,
+    "concept": "Appraisal: Use of Interest-Based Benchmarks",
+    "scenario": "A financial journalist writes an op-ed arguing that Islamic bank Murabaha financing is 'interest in disguise,' pointing out that the bank's profit rate is pegged to KIBOR, an interbank interest-rate benchmark, and ends up numerically identical to what a conventional bank would charge on a comparable loan.",
+    "problemPrompt": "Using the book's own reasoning, how should a knowledgeable MBA respond to this specific objection?",
+    "analysisPrompts": ["Why does the book say Islamic banks currently have little choice but to reference a conventional interest-based benchmark?", "Does using that benchmark as a pricing tool mean the underlying transaction is the same as a conventional interest-bearing loan?"],
+    "textbookAnswer": "Referencing a conventional interest-based benchmark for pricing is not itself Riba: it is used only as a market reference tool for setting the price of goods or usufruct in what remains a trade or lease contract, not as a charge for the time value of money on a debt. The book acknowledges Islamic banks are currently obliged to use conventional benchmarks (because their own market share and dedicated benchmarks are still limited), but stresses this does not make the transaction equivalent to interest — since once the Murabaha price is fixed, it cannot be increased for delay in payment, unlike compounding interest.",
+    "whyExplanation": "The book directly rebuts this objection, explaining that IFIs need reference rates like any business needs benchmarks, that they are 'obliged to use the benchmark of the formal conventional market in which they are operating' for now pending development of their own, and that 'the use of a conventional benchmark does not mean that Islamic and conventional banking are similar,' since the underlying subject matter (goods, not money) and the fixity/non-increase of the agreed price make the substance different (17.4.3).",
+    "examTakeaway": "Using an interest-rate benchmark for pricing is a pragmatic, temporary market-reference tool for trade/lease contracts, not proof that the transaction itself is interest-based — the test is whether money or debt itself is being priced, not which number is used as a reference point.",
+    "source": { "chapter": 17, "section": "17.4.3", "pages": [447, 448] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-appraisal-real-sector-1",
+    "title": "'You Don't Even Keep an Inventory of Steel'",
+    "chapter": 17,
+    "concept": "Appraisal: Actual Involvement in Real Sector Business",
+    "scenario": "A skeptical corporate client tells his Islamic bank's relationship manager: 'You don't even keep a warehouse of steel — you just do paperwork to facilitate my purchase, exactly like my conventional bank does. There's no real difference between you.'",
+    "problemPrompt": "Using the book's own rebuttal, what is the substantive difference the bank should point to, given that it agrees it does not maintain inventory?",
+    "analysisPrompts": ["Does the book say holding physical inventory is a Shari'ah requirement for a valid trade transaction?", "What does the bank actually have to take on, even briefly, that a conventional bank facilitating the same purchase never takes on?"],
+    "textbookAnswer": "Not holding inventory does not make the transaction non-compliant — the book explicitly says Islamic banks 'are not grocery stores' and that placing wares on a counter is not a Shari'ah requirement. The substantive difference is that the Islamic bank must take actual ownership and possession of the goods (even via an agent) and bear the ownership/market risk, however briefly, before reselling — whereas in conventional finance, both counter-values can be deferred and rights can be sold onward without the financier ever taking ownership or risk of the underlying asset.",
+    "whyExplanation": "The book states that Islamic banks 'have to be involved in real business, with all its implications,' because in Islamic finance 'only one of the items of an exchange contract can be delayed while delivery/possession of the item of exchange has to be given and taken... along with transfer of the risk to the buyer' — unlike conventional finance, where both items can be deferred and even resold without ownership ever transferring — and it explicitly rejects inventory-holding as the relevant test (17.4.3).",
+    "examTakeaway": "The book's line between Islamic and conventional financing is not whether the bank stocks physical goods, but whether it genuinely takes on ownership and risk of the asset, even momentarily, before earning a return from reselling or leasing it.",
+    "source": { "chapter": 17, "section": "17.4.3", "pages": [450, 451] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
   }
 ];
 
@@ -3223,6 +3551,86 @@ window.IFL_DATA.examPrep = {
       "essentialPoints": ["The book balances a promising-potential assessment of Islamic banking with a candid discussion of issues and challenges still facing the industry.", "These include gaps between theory and practice, the industry's continued reliance on debt-creating modes rather than genuine risk-sharing, and the need to develop dedicated (non-interest) benchmarks.", "The concluding agenda calls for coordinated action from policymakers, regulators, and Shari'ah scholars to close these gaps and realize Islamic finance's socio-economic objectives."],
       "commonMistakes": ["Presenting the book's tone as purely promotional — Chapter 18 explicitly discusses real, unresolved issues and challenges, not just potential.", "Omitting the policy-agenda dimension (the role of states/regulators), which the book treats as central to the way forward."],
       "source": { "chapter": 18, "section": "18.3.3", "pages": [474] }
+    },
+    {
+      "id": "et-19",
+      "chapter": 1,
+      "question": "Explain the book's core critique of the conventional interest-based financial system and why Islamic finance is proposed as an alternative.",
+      "expectedStructure": ["State how the interest-based system creates exploitation and unrepayable debt", "Explain the 'no risk, no gain' principle as the Shari'ah alternative's rationale", "Note the case for replacing risk-free capital with risk-related capital", "Conclude with what Islamic finance principles are meant to correct"],
+      "keyConcepts": ["Interest-based system", "Risk-related capital", "No risk, no gain", "Distributive justice"],
+      "essentialPoints": ["The interest-based system is described as creating unrepayable debt, making one class of people richer while leaving others poorer and oppressed, since yesterday's debt is often repaid only by taking on more debt today.", "The institution of interest, by which governments and corporations borrow, 'creates parasites in society' and widens the gap between rich and poor, echoed in Yusuf Ali's translation of verse 2:275 describing usury as breeding 'idlers' and 'cruel bloodsuckers'.", "The prohibition of interest across revealed religions implies 'no gain without risk-sharing' — a party seeking a return must also bear liability for loss — which the book calls the basic juristic principle of Shari'ah and a normative rule of justice.", "The proposed solution is to replace risk-free, interest-based capital allocation with risk-related placement under partnership, trading and leasing contracts, so that fund owners share both the risk and the return with the users of funds."],
+      "commonMistakes": ["Reducing the critique to 'interest is simply forbidden by religion' without capturing the book's economic argument about excessive debt, exploitation and distributive injustice.", "Missing that the proposed alternative is not merely 'no interest' but a structural shift to risk-and-liability-based entitlement to profit."],
+      "source": { "chapter": 1, "section": "1.5", "pages": [8, 9] }
+    },
+    {
+      "id": "et-20",
+      "chapter": 2,
+      "question": "Explain the Maqasid al-Shari'ah (objectives of Shari'ah) and how they shape Islamic economics.",
+      "expectedStructure": ["Define Maqasid al-Shari'ah and its role in guiding permissibility/prohibition via Ijtihad and Qiyas", "List the primary objectives (protection of religion, life, progeny, property, intellect, honour)", "Note the secondary objectives (justice, social security, peace, cooperation in goodness)", "Explain how these objectives translate into economic principles, e.g. protection of property underlying the law of Mu'amalat"],
+      "keyConcepts": ["Maqasid al-Shari'ah", "Primary objectives", "Secondary objectives", "Mu'amalat"],
+      "essentialPoints": ["Maqasid al-Shari'ah are the objectives Shari'ah tends to realize, identified by jurists such as Ghazali, Shatbi and Tahir ibne Ashoor through an inductive survey of the Qur'an and Sunnah, and they help jurists determine prohibition or permissibility of matters via Ijtihad and Qiyas.", "The primary objectives are protection and preservation of religion, life, progeny (the family unit), property, intellect, and honour; protection of property specifically underlies Islam's comprehensive law of Mu'amalat (transactions among members of society).", "Secondary objectives include establishing justice and equity in society, promoting social security and mutual help for the poor and needy, maintaining peace and security, and promoting cooperation in matters of goodness.", "The overall objective of Shari'ah behind these injunctions is the well-being (Falah) of human beings in this world and the Hereafter, distinct from positive economics' pleasure-maximization goal, and this is what orients Islamic economics towards socio-economic and distributive justice rather than growth for its own sake."],
+      "commonMistakes": ["Treating Maqasid as an abstract list disconnected from actual rules — the book ties protection of property directly to the law of Mu'amalat and protection of progeny to marriage/family rules.", "Confusing primary and secondary objectives, or omitting that jurists derive contract validity/prohibition judgments by reference to these objectives."],
+      "source": { "chapter": 2, "section": "2.2.2", "pages": [22, 23, 24] }
+    },
+    {
+      "id": "et-21",
+      "chapter": 5,
+      "question": "List the essential elements of a valid contract (Aqd) and explain the broad rules governing the validity of Mu'amalat (transactions) in Islamic law.",
+      "expectedStructure": ["State the three essential elements: form (offer and acceptance/Sighah), contracting parties (Aqidain), subject matter (Ma'qud 'alayh)", "Note the conditions on offer and acceptance (clear, unconditional, same session/Majlis)", "Note the conditions on subject matter (existing, valuable, deliverable, specified, owned)", "Cover the broad Mu'amalat validity rules: free mutual consent, absence of Gharar, avoidance of Riba, avoidance of Qimar/Maisir, no two mutually contingent contracts, conformity with Maqasid al-Shari'ah, profit with liability, and permissibility as a general rule"],
+      "keyConcepts": ["Aqd", "Ijab and Qabul", "Gharar", "Mu'amalat", "Majlis"],
+      "essentialPoints": ["A valid contract requires three essential elements: the form (offer/Ijab and acceptance/Qabul, i.e. Sighah), the contracting parties (Aqidain) who must be mature and sane, and the subject matter (Ma'qud 'alayh); Sanhuri's expanded list also requires unity of session, plurality of parties, sanity, deliverability of the subject matter, a defined object, and its beneficial/lawful nature.", "The subject matter must exist (or be existable, as in Salam), have value, be usable and lawful, capable of ownership and delivery, and specifically identified; the price must be certain and fixed once and for all at the time of contract.", "The broad rules for validity of Mu'amalat are: free mutual consent (free of oppression, fraud, Najash, Ghaban-e-Fahish); prohibition of Gharar (excessive uncertainty); avoiding Riba; avoiding Qimar and Maisir; prohibition of combining two mutually contingent/inconsistent contracts in one bargain; conformity with the Maqasid of Shari'ah; entitlement to profit only with liability for loss; and permissibility as the general default rule (whatever is not expressly prohibited is permitted).", "Some contract combinations remain permissible under conditions (e.g. Shirkah combined with Ijarah, or Wakalah/Kafalah combined with a sale or lease), as long as each contract's own rights and liabilities are respected and the contracts are not made interdependent."],
+      "commonMistakes": ["Listing only the three structural elements and forgetting the separate, cross-cutting Mu'amalat validity rules (Gharar, Riba, Maisir, contingent contracts, Maqasid conformity, profit-with-liability, permissibility).", "Assuming any combination of contracts is prohibited outright — the book allows specific combinations (e.g. Diminishing Musharakah's Shirkah plus Ijarah) as long as their respective conditions are met."],
+      "source": { "chapter": 5, "section": "5.4", "pages": [106, 110, 111, 112] }
+    },
+    {
+      "id": "et-22",
+      "chapter": 6,
+      "question": "Explain the requirements of a valid sale (Bai') contract as set out for Islamic banks, covering the contracting parties, form, subject matter and price.",
+      "expectedStructure": ["State the requirement of proper offer and acceptance with free mutual consent", "Explain that the sale must be prompt/absolute — a sale attributed to a future date or contingent event is void/voidable", "Cover the conditions on the object of sale (Ma'qud 'alayh): lawful, pure, existent, owned, valuable, deliverable, specifically known/identified", "Cover the condition on price (Thaman): certain and known"],
+      "keyConcepts": ["Bai'", "Free mutual consent", "Ma'qud 'alayh (subject matter)", "Thaman (price)"],
+      "essentialPoints": ["A valid sale requires proper offer and acceptance and free consent of both seller and buyer, along with legality of the goods and of the medium of exchange; a sale attributed to a future date or made contingent on a future event is void or voidable and must be executed afresh when that date or event actually arrives.", "The object of sale (Ma'qud 'alayh) must be pure, lawful (Mubah), of commercial value (Mal-e-Mutaqawam), clean and marketable — commodities such as wine, pork or idols cannot be the valid subject of a sale.", "The object must exist at the time of the contract and be owned by the seller (what is not owned cannot be sold), and it must be in the seller's actual or constructive possession, carrying the seller's ownership risk.", "The price (Thaman) must be certain (Muta'ayyan) and known (Malum) to both parties at the time of contract; the underlying principles reflected are mutual consent, justice (fulfilment of promise, correct weights/measures, a clear and definite price) and good manners (honesty, leniency, removal of hardship)."],
+      "commonMistakes": ["Overlooking that a sale contingent on a future event is void/voidable, not merely unusual — the requirement that a sale be prompt and absolute is a hard condition.", "Forgetting that constructive possession (risk and control transferred, even without physical delivery) is sufficient to satisfy the seller's possession requirement."],
+      "source": { "chapter": 6, "section": "6.5", "pages": [133, 134, 135] }
+    },
+    {
+      "id": "et-23",
+      "chapter": 7,
+      "question": "Explain the Shari'ah treatment of loans (Qard): why no increment over the principal is allowed, and how this differs from a legitimate practice of voluntarily paying back more than the principal.",
+      "expectedStructure": ["State the basic rule: only the principal is repayable; any stipulated excess is Riba", "Explain that this applies regardless of who the parties are (Muslim/non-Muslim, employer/employee, State/individual)", "Describe Husnal Qadha (gracious repayment) as a legitimate but strictly voluntary, non-systematic practice", "Explain why turning gracious repayment into a system (explicit or implicit) would itself amount to Riba"],
+      "keyConcepts": ["Qard", "Riba", "Husnal Qadha", "Time value of money (loans vs trade)"],
+      "essentialPoints": ["A loan (Qard) must be repaid in the same amount only; any loan whereby something in excess of the principal is exacted, stipulated or expected becomes unlawful as Riba, with no exemption based on who the parties are.", "Unlike in trade, where a credit price can legitimately differ from a cash price, no value can be assigned to the time given for payment of a loan or debt (Dayn) once its amount is fixed, because Qard and Dayn are treated as virtuous/benevolent acts from which the lender may not benefit.", "Husnal Qadha — voluntarily repaying more than the principal without any precondition, as the Prophet (pbuh) himself did — is commendable and Sunnah-compatible, but remains a matter of individual discretion rather than a system.", "If gracious repayment were adopted systematically by banks or the State (explicit, as a customary rate, or implicit, as an expected return), it would effectively convert the loan into an interest-bearing instrument, which the book rejects; this is why current account deposits (treated as Qard to the bank) are guaranteed only at face value and carry no contractual return."],
+      "commonMistakes": ["Assuming Husnal Qadha legitimizes banks routinely paying a 'bonus' on deposits — the book explicitly states that making this a system implies a stipulated addition, which is Riba.", "Conflating the permissible time-value pricing of goods/usufruct in trade with the prohibited claim to the time value of a loan or debt itself."],
+      "source": { "chapter": 7, "section": "7.11", "pages": [159, 162, 163] }
+    },
+    {
+      "id": "et-24",
+      "chapter": 8,
+      "question": "Explain the structural differences between conventional and Islamic banking on both the deposits side and the assets side.",
+      "expectedStructure": ["State the core structural difference: interest replaced by profit/loss-sharing and trade/lease-based instruments, with risk tied to ownership", "Describe the deposits side (current accounts as Qard/loans vs PLS-based investment deposits with a weightage system)", "Describe the assets side (Shirkah-based, trade-based, and lease-based instruments replacing interest-bearing loans)", "Note how the risk-appetite of a bank's deposit base shapes its choice of financing mode"],
+      "keyConcepts": ["Profit-and-loss sharing", "Current deposits (Qard)", "Weightage system", "Mudarabah pools"],
+      "essentialPoints": ["The striking difference is that risk in Islamic banking stays with ownership: IFIs share profit or loss on Musharakah/Mudarabah-based investments and earn return on trading and leasing by bearing risk and liability and adding value in real business activities, rather than by charging interest on a loan.", "On the deposits side, current accounts are treated as interest-free loans (Qard) from depositors to the bank, guaranteed at face value with no return; savings, investment and term deposits are accepted on a profit-and-loss-sharing (PLS) basis, pooled and allocated a return via an agreed weightage system (longer tenor gets higher weightage) under a Mudarabah or Wakalah structure, with losses shared strictly by capital ratio.", "On the assets side, IFIs deploy funds through Musharakah/Mudarabah (equity participation and profit/loss-sharing), Ijarah (purchase and lease of assets, with the bank bearing ownership risk), and trade-based sale contracts with deferred payment or delivery (Murabaha, Bai' Mu'ajjal, Salam, Istisna'a), in that order of priority, rather than lending money at interest.", "The volume and risk-appetite of a bank's deposit base determines its asset-side strategy: funds from risk-averse depositors are channelled into lower-risk, debt-creating/fixed-return modes like Murabaha, while risk-tolerant funds can go into Shirkah-based (equity-type) financing."],
+      "commonMistakes": ["Describing Islamic banks as simply 'interest-free versions' of conventional banks without capturing that ownership-related risk-bearing, not just the absence of a fixed rate, is the structural difference.", "Assuming all Islamic bank deposits earn a PLS return — current accounts specifically do not, since they are treated as guaranteed Qard (loans) to the bank."],
+      "source": { "chapter": 8, "section": "8.5.1", "pages": [186, 187, 188, 189] }
+    },
+    {
+      "id": "et-25",
+      "chapter": 13,
+      "question": "Explain the structure of Tawarruq, the Shari'ah condition distinguishing it from Bai' al-'Inah, and why its use is controversial.",
+      "expectedStructure": ["Define Tawarruq (buy on credit, sell at spot for cash; the need is liquidity, not the commodity)", "Distinguish it from Bai' al-'Inah (resale to a third party vs resale to the same seller)", "State the majority permissibility view across the four schools, subject to conditions", "Explain the practical/Shari'ah controversy: agency structures that collapse the two legs, exchange-based Tawarruq, and scholarly warnings against extensive/individual use"],
+      "keyConcepts": ["Tawarruq", "Bai' al-'Inah", "Mutawarriq", "Liquidity management"],
+      "essentialPoints": ["Tawarruq means buying a commodity on credit and immediately selling it (to a third party) for cash, purely to obtain liquidity — the commodity itself is not the buyer's real need.", "The key distinction from Bai' al-'Inah is who buys back the commodity: in Tawarruq it is resold to a third party, while in 'Inah it is resold back to the original seller at a different price; the latter is far more widely regarded as a Riba-avoidance ruse.", "The preferred view across all four schools of Fiqh is that Tawarruq is permissible (Hanbali and Shafi'i jurists generally allow it; the majority Hanafi and Maliki positions allow it when resale is genuinely to the market), and AAOIFI holds that resale to the original seller, directly or via an agent, is invalid while resale to a third party is acceptable.", "The transaction becomes invalid or problematic where the bank appoints the Mutawarriq as its own agent to both purchase and then sell back to himself (collapsing the two legs into one interdependent transaction without genuine possession or risk transfer), or where it is conducted via commodity exchanges where the goods never actually move; scholars such as Monzer Kahf and Nejatullah Siddiqi have warned that widespread individual/consumer use of Tawarruq (e.g. personal financing, credit cards) is little more than a device to obtain cash against collateral, and should be restricted to unavoidable corporate liquidity needs."],
+      "commonMistakes": ["Treating Tawarruq and Bai' al-'Inah as identical — the book is explicit that the third-party resale is what separates the (mostly permitted) Tawarruq from the (mostly prohibited) 'Inah.", "Assuming Tawarruq is problem-free simply because it is technically permissible — the book stresses that extensive or careless (especially agency-based or exchange-based) use undermines its Shari'ah basis and creates systemic risk."],
+      "source": { "chapter": 13, "section": "13.3", "pages": [349, 350, 351] }
+    },
+    {
+      "id": "et-26",
+      "chapter": 14,
+      "question": "Explain how an Islamic bank should approach selecting a financing mode for a given customer need, and summarize the basic business features that drive that choice.",
+      "expectedStructure": ["State that a single mode (e.g. Murabaha or Ijarah) cannot fit every need — mode selection must match the customer's actual requirement", "Give examples of mode-need mismatches the book flags (Murabaha unsuitable for sugar cane or high-inflation housing; Ijarah unsuitable for high asset/market/counterparty-risk projects)", "Summarize the risk/tenor/return profile of the major modes (Murabaha, Ijarah, Salam, Istisna'a, Musharakah/Mudarabah, Diminishing Musharakah)", "Conclude that diversification across modes serves both customer service and the bank's own risk management and profitability"],
+      "keyConcepts": ["Mode selection", "Diversification", "Murabaha", "Ijarah", "Salam and Istisna'a", "Musharakah/Mudarabah"],
+      "essentialPoints": ["Islamic banks must evaluate each customer's actual requirement and offer the mode that genuinely fits it — using Murabaha or Ijarah for every kind of need is neither feasible nor advisable; for example, Murabaha is not the right mode for financing sugar cane or for housing/long-term investment in high-inflation economies, and Ijarah may not suit projects with significant asset, market or counterparty risk.", "Murabaha carries less risk and offers a fixed return, mainly suited to short-term financing, with ownership risk on the bank until execution of the sale; Ijarah suits fixed-asset formation and medium/long-term investment, with asset-related risk staying with the bank (lessor) until the Ijarah terminates.", "Salam (full prepayment, deferred delivery) suits short- and, in selected cases, medium-term financing, especially agriculture; Istisna'a (an order to manufacture) offers flexible payment timing (immediate, deferred or instalment) and suits financing of assets still to be manufactured or constructed.", "Musharakah/Mudarabah suit project financing, import/export financing, and working capital across short, medium and long terms, sharing risk jointly between bank and client; Diminishing Musharakah is used to finance fixed assets like houses, vehicles and machinery, including sale-and-leaseback arrangements where the customer already owns the asset."],
+      "commonMistakes": ["Assuming any Shari'ah-compliant mode can substitute for another interchangeably — the book stresses fit-for-purpose selection based on the nature of the underlying need, tenor and risk.", "Forgetting that mode choice also affects the bank's own risk/return position (e.g. Murabaha's fixed but lower return vs Musharakah's variable but potentially higher return), not just the client's preference."],
+      "source": { "chapter": 14, "section": "14.3.2", "pages": [360, 361, 362] }
     }
   ]
 };
@@ -9477,6 +9885,32 @@ window.IFL_DATA.chapters[8] = {
       examples: [
         { title: "Box 8.1 - Deposit Pool Profit Distribution", body: "A bank pools deposits by tenor: $3,000 at 3 months (weightage 0.60), $4,000 at 6 months (weightage 0.70), $3,000 at 1 year (weightage 1.00) - total $10,000, weighted total 7,600. The bank deploys $10,000 of the pool for one month, earning $1,000 profit, split 50:50 between bank and pool ($500 each). The pool's $500 is distributed by weighted average: 3-month depositors get roughly $119 (3.96% rate), 6-month depositors about $184 (4.60% rate), 1-year depositors about $197 (6.56% rate) - longer-tenor deposits earn a higher effective rate due to their higher weightage. If instead the pool suffered a $500 loss, it would be split strictly by capital ratio: $150, $200, $150 respectively (not by weightage).", generated: false }
       ],
+      calculations: [
+        {
+          title: "Box 8.1: Weighted Profit Distribution Across a Deposit Pool",
+          formula: "Depositor's profit share = (their Weighted Units ÷ Total Weighted Units) × Distributable Pool Profit",
+          inputs: [
+            { label: "3-month deposit", value: "$3,000 × weightage 0.60" },
+            { label: "6-month deposit", value: "$4,000 × weightage 0.70" },
+            { label: "1-year deposit", value: "$3,000 × weightage 1.00" },
+            { label: "Pool's profit share (50% of $1,000 earned by the bank)", value: "$500" }
+          ],
+          steps: [
+            "Convert each tenor's deposit into weighted units: amount × weightage factor.",
+            "3-month: 3,000 × 0.60 = 1,800 weighted units.",
+            "6-month: 4,000 × 0.70 = 2,800 weighted units.",
+            "1-year: 3,000 × 1.00 = 3,000 weighted units.",
+            "Total weighted units = 1,800 + 2,800 + 3,000 = 7,600.",
+            "Each depositor's share of the $500 pool profit = (their weighted units ÷ 7,600) × $500.",
+            "3-month: (1,800 ÷ 7,600) × 500 ≈ $118.4 → an effective rate of about 3.95% on their $3,000.",
+            "6-month: (2,800 ÷ 7,600) × 500 ≈ $184.2 → an effective rate of about 4.61% on their $4,000.",
+            "1-year: (3,000 ÷ 7,600) × 500 ≈ $197.4 → an effective rate of about 6.58% on their $3,000."
+          ],
+          result: "3-month depositors earn ≈$118 (3.95%), 6-month ≈$184 (4.61%), 1-year ≈$197 (6.58%) — despite an identical 50:50 bank/pool profit-sharing ratio for everyone.",
+          interpretation: "Longer-tenor deposits earn a higher effective rate purely because of their higher weightage, not a different profit ratio. If the pool loses money instead, this whole weightage calculation is discarded — losses are split strictly by each depositor's capital ratio (3,000:4,000:3,000), a Musharakah rule that cannot be varied by agreement.",
+          source: { chapter: 8, section: "8.5.2", pages: [188, 189] }
+        }
+      ],
       commonConfusions: [
         "Students often assume weightage governs both profit AND loss distribution - it does not. Weightage governs profit distribution only; losses must follow the strict capital-investment ratio (a Musharakah rule), regardless of weightage."
       ],
@@ -10517,6 +10951,25 @@ window.IFL_DATA.chapters[9] = {
       processSteps: [],
       examples: [
         { title: "Aircraft Purchase via Musawamah", body: "An airline needs credit purchase of an aeroplane costing about $500 million. An Islamic bank may purchase the aircraft for $450 million and sell it to the airline after adding a $50 million profit (factoring in the credit period and payment schedule), without needing to disclose the $450 million cost basis - the airline is interested only in the final agreed price.", generated: false }
+      ],
+      calculations: [
+        {
+          title: "Aircraft Financing via Musawamah — Cost-Plus Economics (Undisclosed)",
+          formula: "Sale Price = Acquisition Cost + Negotiated Profit — but unlike Murabaha, neither figure need be disclosed to the buyer, only the final price",
+          inputs: [
+            { label: "Bank's acquisition cost", value: "$450,000,000" },
+            { label: "Profit added (reflecting credit period and payment schedule)", value: "$50,000,000" }
+          ],
+          steps: [
+            "Bank purchases the aircraft from the seller for $450 million, taking ownership and risk before any resale.",
+            "Bank and airline bargain a final Musawamah sale price: $450M + $50M = $500 million.",
+            "Implied profit = Sale Price − Cost = $500M − $450M = $50 million.",
+            "Effective markup on cost = $50M ÷ $450M ≈ 11.1%."
+          ],
+          result: "$500 million final sale price; $50 million profit to the bank, an effective markup of about 11.1% on its cost.",
+          interpretation: "Because this is Musawamah, not Murabaha, the bank is under no obligation to reveal its $450 million cost basis — only the bargained $500 million price is disclosed to the airline. In a Murabaha for the same aircraft, the $450M cost and $50M profit margin would both have to be disclosed.",
+          source: { chapter: 9, section: "9.11-9.11.1", pages: [234, 238] }
+        }
       ],
       commonConfusions: [
         "Students sometimes think Musawamah is a 'lesser' or informal version of Murabaha. It is an equally valid, independent sale contract with identical ownership/risk requirements - the only difference is the absence of a cost-disclosure obligation."
@@ -12099,6 +12552,27 @@ window.IFL_DATA.chapters[12] = {
       processSteps: [],
       examples: [
         { title: "Unequal Work, Higher Profit Share", body: "A partner with a 40% capital investment may be agreed to receive 50% of the profit, provided he has not declared himself a sleeping partner - reflecting his greater work contribution to the joint business, while his loss exposure remains strictly capped at his 40% capital ratio.", generated: false }
+      ],
+      calculations: [
+        {
+          title: "Practice Example — generated for learning: Musharakah Profit vs Loss Split",
+          formula: "Profit: split per the AGREED ratio (can differ from capital ratio). Loss: split strictly per the CAPITAL ratio, always — this can never be varied by agreement.",
+          inputs: [
+            { label: "Partner A capital", value: "$40,000 (40% of $100,000 total)" },
+            { label: "Partner B capital", value: "$60,000 (60% of $100,000 total)" },
+            { label: "Agreed profit ratio (A works the business; B is a sleeping partner)", value: "50% A / 50% B" }
+          ],
+          steps: [
+            "Capital ratio: A = 40%, B = 60% — this governs LOSS sharing only, never profit sharing.",
+            "Profit ratio is separately agreed at 50:50, compensating A for running the business.",
+            "Scenario 1 — venture earns $20,000 profit: A's share = 50% × $20,000 = $10,000; B's share = 50% × $20,000 = $10,000.",
+            "Scenario 2 — venture instead loses $20,000: loss must follow the capital ratio, not the profit ratio. A bears 40% × $20,000 = $8,000; B bears 60% × $20,000 = $12,000."
+          ],
+          result: "Profit is split evenly ($10,000 / $10,000) but a loss on the same venture is split 40/60 ($8,000 / $12,000) — the two ratios are independent by design.",
+          interpretation: "This is the single most tested Musharakah rule (12.3.4): a partner's profit share may exceed their capital ratio to reward work or skill, but no partner's loss share can ever exceed their capital ratio — loss-sharing cannot be varied by agreement under any school of thought.",
+          generated: true,
+          source: { chapter: 12, section: "12.3.4", pages: [316, 317, 318, 319, 320] }
+        }
       ],
       commonConfusions: [
         "Students very commonly confuse the profit and loss rules, assuming both must track capital investment, or both are freely negotiable. The correct rule is asymmetric: profit ratio is flexible (by agreement, reflecting work); loss ratio is always fixed to capital investment, with no exceptions."
@@ -17947,6 +18421,54 @@ window.IFL_DATA.flashcards.push(
     front: "Why do Islamic banks predominantly prefer Murabaha over Musawamah for routine financing?",
     back: "A benchmark-tied, cost-disclosed profit margin is administratively easier to manage, more transparent for regulators, and carries lower corruption risk than a purely bargained Musawamah price.",
     source: { chapter: 9, section: "9.11.1", pages: [238] }
+  },
+  {
+    id: "fc-ch9-28",
+    chapter: 9,
+    category: "Contract rules",
+    front: "Why is a sale contract attributed to a future date (e.g. 'I sell you my car on 1st February') void under the general conditions of Bai'?",
+    back: "Sale must be instant and absolute - it cannot be contingent on a future date or event. The parties may exchange an understanding or promise instead, but rights and liabilities only emerge once the sale is actually executed on that future date.",
+    source: { chapter: 9, section: "9.2", pages: [214] }
+  },
+  {
+    id: "fc-ch9-29",
+    chapter: 9,
+    category: "Contract rules",
+    front: "What is the difference between an 'agreement to sell' and a 'sale agreement' at the MPO promise stage?",
+    back: "A 'sale agreement' transfers ownership rights to the buyer upon signing. An 'agreement to sell' (used at the MPO promise/MoU stage) is merely a promise to sell a commodity in the future and does not convey ownership rights at all.",
+    source: { chapter: 9, section: "9.8.3", pages: [226] }
+  },
+  {
+    id: "fc-ch9-30",
+    chapter: 9,
+    category: "Contract rules",
+    front: "Can a bank enter into a Musharakah with a client on the promise that one partner will buy out the other's share through Murabaha?",
+    back: "No - AAOIFI prohibits combining a Musharakah with a promise that one party will buy the other's share through Murabaha (spot or deferred). A partner may instead promise, via a separate contract, to buy the other's share at market price or a mutually agreed price at the time of sale.",
+    source: { chapter: 9, section: "9.8", pages: [223] }
+  },
+  {
+    id: "fc-ch9-31",
+    chapter: 9,
+    category: "Risk",
+    front: "What kinds of security can a bank take against the deferred Murabaha price, and what caution applies to interest-bearing instruments as collateral?",
+    back: "Hypothecation charges, pledges of goods/marketable securities, liens on deposits, mortgages, bank/personal guarantees, or the sold commodity itself. If interest-bearing securities (TDRs/FDRs) are taken, the bank's recourse is limited to the principal only - it is preferable the customer encash them for Shari'ah-compliant securities instead.",
+    source: { chapter: 9, section: "9.8.3", pages: [229] }
+  },
+  {
+    id: "fc-ch9-32",
+    chapter: 9,
+    category: "Financing modes",
+    front: "What local-currency and foreign-currency variants of Murabaha does the chapter list for trade financing?",
+    back: "Local currency: simple Murabaha, advance payment Murabaha, suppliers' credit Murabaha. Foreign currency: sight L/C spot Murabaha, sight L/C deferred Murabaha, usance L/C Murabaha.",
+    source: { chapter: 9, section: "9.10", pages: [236] }
+  },
+  {
+    id: "fc-ch9-33",
+    chapter: 9,
+    category: "Exam facts",
+    front: "Why might a bank charge a higher profit margin when it makes advance payment to the supplier in an MPO transaction?",
+    back: "Advance payment to the supplier (rather than post-supply payment) ties up the bank's funds earlier and increases its exposure, so it is advisable for the bank to charge a higher profit margin than in the case of post-supply payment.",
+    source: { chapter: 9, section: "9.8.3", pages: [227] }
   }
 );
 
@@ -18170,6 +18692,54 @@ window.IFL_DATA.flashcards.push(
     front: "How does risk transfer differ between Istisna'a and Ijarah?",
     back: "In Istisna'a, asset risk transfers to the purchaser upon delivery, and the price must be paid regardless of what later happens to the asset. In Ijarah, asset risk remains with the lessor throughout, and rental is owed only if the asset remains usable per normal market practice.",
     source: { chapter: 10, section: "10.11.11", pages: [271] }
+  },
+  {
+    id: "fc-ch10-28",
+    chapter: 10,
+    category: "Exam facts",
+    front: "How does Salam's prohibition on reselling goods before delivery help stabilize commodity prices, per the chapter?",
+    back: "Since Salam goods generally cannot be resold before actual transfer, speculative resale of not-yet-delivered goods is curbed, protecting prices from speculative rises and helping stabilize them at a moderate level during periods of seasonal demand fall - unlike interest-financed inventory building, whose costs are further inflated by speculative transactions.",
+    source: { chapter: 10, section: "10.3", pages: [243] }
+  },
+  {
+    id: "fc-ch10-29",
+    chapter: 10,
+    category: "Contract rules",
+    front: "Must a bank pay hard cash to satisfy Salam's advance-payment requirement?",
+    back: "No - crediting the agreed amount to the seller's account (or issuing a cashable pay order) is sufficient. In letter this resembles a debt for a debt, but in spirit it is not, because the money is placed at the seller's disposal.",
+    source: { chapter: 10, section: "10.4.2", pages: [247] }
+  },
+  {
+    id: "fc-ch10-30",
+    chapter: 10,
+    category: "Contract rules",
+    front: "If a Salam bank sells a defaulting seller's pledge and recovers cash instead of goods, how much can it keep?",
+    back: "No more than the price it paid in advance - the advance price is treated as a debt outstanding on the seller, so recovery is capped at that amount, with any balance returned to the seller.",
+    source: { chapter: 10, section: "10.5", pages: [249] }
+  },
+  {
+    id: "fc-ch10-31",
+    chapter: 10,
+    category: "Definitions",
+    front: "In what forms can the price be paid in an Istisna'a contract, and what does 'usufruct as price' commonly enable?",
+    back: "Cash, tangible goods, or usufruct of identified assets. Usufruct-as-price is relevant to 'build, operate and transfer' (BOT) arrangements, where a government offers usufruct of the asset being built for an agreed period as consideration.",
+    source: { chapter: 10, section: "10.11.3", pages: [265] }
+  },
+  {
+    id: "fc-ch10-32",
+    chapter: 10,
+    category: "Contract rules",
+    front: "Can the price in an Istisna'a contract ever be changed after it is settled?",
+    back: "It cannot be unilaterally increased or decreased, but it CAN be readjusted by mutual consent - e.g. due to material modifications to the item being manufactured, or due to unforeseen contingencies or changes in input prices.",
+    source: { chapter: 10, section: "10.11.3", pages: [265] }
+  },
+  {
+    id: "fc-ch10-33",
+    chapter: 10,
+    category: "Capital markets",
+    front: "Give a real-world example of Salam-based securitization (Salam Sukuk) described in the chapter.",
+    back: "Bahrain designated aluminium as the underlying asset: the Bahrain government sells aluminium forward, Bahrain Islamic Bank purchases it (representing other participating banks), and the government issues Salam certificates undertaking to supply a specified amount of aluminium on a specified future date.",
+    source: { chapter: 10, section: "10.8", pages: [255] }
   }
 );
 
@@ -18393,6 +18963,54 @@ window.IFL_DATA.flashcards.push(
     front: "Under Islamic Ijarah, what happens to rent if a leased car is stolen or destroyed?",
     back: "Rent becomes void immediately, since rent is consideration for usage which no longer exists - unlike conventional leasing, which continues charging rent until the insurance claim is settled.",
     source: { chapter: 11, section: "11.6", pages: [300, 301] }
+  },
+  {
+    id: "fc-ch11-28",
+    chapter: 11,
+    category: "Contract rules",
+    front: "Can severely salinity-damaged land, incapable of any production, be leased under Ijarah?",
+    back: "No - Ijarah requires that usufruct genuinely be obtainable from the asset; land whose usufruct is almost impossible to realize (e.g. destroyed by salinity) cannot become the subject of a valid lease.",
+    source: { chapter: 11, section: "11.3", pages: [281] }
+  },
+  {
+    id: "fc-ch11-29",
+    chapter: 11,
+    category: "Contract rules",
+    front: "Is sub-leasing at a rent EQUAL TO OR LOWER THAN the rent paid to the original lessor permissible?",
+    back: "Yes - all recognized schools of Islamic jurisprudence unanimously permit sub-leasing (with the lessor's consent) when the sub-lease rent is equal to or less than the rent payable to the original owner/lessor; disagreement arises only when the sub-lease rent is HIGHER.",
+    source: { chapter: 11, section: "11.3.3", pages: [284] }
+  },
+  {
+    id: "fc-ch11-30",
+    chapter: 11,
+    category: "Risk",
+    front: "If an Ijarah lessee defaults on rental or damages the asset, what can the lessor recover from the security taken, and what is excluded?",
+    back: "The lessor can recover only the actual loss - excluding the cost of funds or 'opportunity cost' in modern terminology. Any amount taken as income over and above the due rent would be Riba.",
+    source: { chapter: 11, section: "11.3.4", pages: [285] }
+  },
+  {
+    id: "fc-ch11-31",
+    chapter: 11,
+    category: "Exam facts",
+    front: "Does the death of the lessor or lessee automatically terminate an Ijarah contract?",
+    back: "No - contemporary jurists hold that Ijarah is not terminated by the death of either party, though the heirs of a deceased lessee can terminate the lease if they feel it has become too onerous for their resources to continue paying rental.",
+    source: { chapter: 11, section: "11.3.6", pages: [286] }
+  },
+  {
+    id: "fc-ch11-32",
+    chapter: 11,
+    category: "Financing modes",
+    front: "Besides a promise to sell or gift, what structural alternative lets ownership transfer gradually during an Ijarah Muntahia-bi-Tamleek lease?",
+    back: "Diminishing Musharakah: the bank and client jointly own the asset (Shirkatulmilk); the bank leases out its share, and as the client periodically buys portions of the bank's share, both the bank's ownership share and the corresponding rental decrease accordingly.",
+    source: { chapter: 11, section: "11.5", pages: [292, 294] }
+  },
+  {
+    id: "fc-ch11-33",
+    chapter: 11,
+    category: "Contract rules",
+    front: "Why must there be a 'reasonable period' (commonly suggested as around one year) between an Ijarah Muntahia-bi-Tamleek sale-and-leaseback purchase and any transfer of ownership back to the original client?",
+    back: "To avoid the transaction becoming prohibited Bai' al 'Inah - the gap must be long enough that the leased property or its value might genuinely have changed, distinguishing it from a disguised buy-back loan.",
+    source: { chapter: 11, section: "11.5.1", pages: [293] }
   }
 );
 
@@ -20034,6 +20652,54 @@ window.IFL_DATA.flashcards.push(
     front: "How does Zubair Hasan frame Islamic banking in the quote the author closes with?",
     back: "As 'an on-going process in a social milieu characterized with mass poverty and gross inequalities in the wealth, income and opportunities' - a continuing developmental process, not a finished achievement.",
     source: { chapter: 18, section: "18.4", pages: [480] }
+  },
+  {
+    id: "fc-ch18-24",
+    chapter: 18,
+    category: "Principles",
+    front: "What are the five international-level policy measures the author proposes to reform the global financial system?",
+    back: "(1) Diversifying reserve currencies, with the OIC developing a regional Muslim-world reserve currency; (2) tying money/credit creation to real sector development (Sukuk principles as a model); (3) replacing loan-based finance with direct investment, project financing, portfolio investment and return-free calamity assistance; (4) controlling corruption in foreign aid so it tangibly benefits recipients; (5) marketing Islamic finance as universal religious/ethical banking to mobilize untapped savings.",
+    source: { chapter: 18, section: "18.2", pages: [458, 459] }
+  },
+  {
+    id: "fc-ch18-25",
+    chapter: 18,
+    category: "Banking",
+    front: "Do Islamic banks hold inventories of goods like ordinary trading businesses, per the chapter's discussion of bank 'structure'?",
+    back: "No - although Islamic banks must deal in goods (unlike conventional banks, which deal in money), they normally don't hold inventory; they purchase goods/assets on client requisition for onward letting or sale. There is no Shari'ah objection to this, and it is reflected in AAOIFI's Murabaha Standard being titled 'Murabaha to Purchase Orderer'.",
+    source: { chapter: 18, section: "18.3.2", pages: [469] }
+  },
+  {
+    id: "fc-ch18-26",
+    chapter: 18,
+    category: "Banking",
+    front: "What five reasons does the chapter give for why Islamic financial institutions need regulation, just like conventional ones?",
+    back: "(1) Making needed information available to investors; (2) protecting savers' interests; (3) ensuring Shari'ah compliance and financial system soundness; (4) making the legal framework workable where 'cost of funds' cannot be recovered on default; (5) making monetary policy and management effective.",
+    source: { chapter: 18, section: "18.3.2", pages: [469, 470] }
+  },
+  {
+    id: "fc-ch18-27",
+    chapter: 18,
+    category: "Banking",
+    front: "How can Islamic banks cover short-term mismatches between client demand for funds and their supply, per the chapter's liquidity management discussion?",
+    back: "Through an inter-bank Islamic money market conducted on the Mudarabah principle. Establishing such a market in each jurisdiction with a significant number of IFIs is identified as a key element for short-term liquidity and monetary management.",
+    source: { chapter: 18, section: "18.3.3", pages: [478] }
+  },
+  {
+    id: "fc-ch18-28",
+    chapter: 18,
+    category: "Exam facts",
+    front: "What early effort does the chapter cite toward developing Shari'ah-compliant benchmarks for pricing and profit-sharing ratios?",
+    back: "A 1998 study by Abbas Mirakhor and Nadeem ul Haque, focused on developing indices for calculating rates of return on National Participation Papers (NPP).",
+    source: { chapter: 18, section: "18.3.3", pages: [477] }
+  },
+  {
+    id: "fc-ch18-29",
+    chapter: 18,
+    category: "Banking",
+    front: "What alternative to a conventional credit card has National Commercial Bank of Saudi Arabia introduced, and who is it especially attractive to?",
+    back: "An 'advance card' - a prepaid line rather than a credit line, with added benefits like purchase protection and travel accident insurance without interest or extra fees. It is especially attractive to women, the young, the self-employed, and small-establishment employees who may not meet strict conventional credit card requirements.",
+    source: { chapter: 18, section: "18.3", pages: [461] }
   }
 );
 
@@ -25132,6 +25798,91 @@ window.IFL_DATA.questions.push(
     explanation: "The chapter explains that direct use of a benchmark is relatively easier in Murabaha, making it easier for management and regulators to manage the return rate structure, and reducing corruption risk since profit is always tied to a disclosed cost.",
     learningObjective: "Explain how Musawamah differs from Murabaha and when banks prefer to use it.",
     source: { chapter: 9, section: "9.11.1", pages: [238] }
+  },
+  {
+    id: "q-ch9-31",
+    chapter: 9,
+    section: "9.2",
+    topic: "Conditions of a Valid Bai' (Recap)",
+    type: "mcq",
+    difficulty: "easy",
+    cognitiveLevel: "recall",
+    prompt: "Which condition of a valid Bai' does the following violate? 'A says to B on 1st January: I sell my car to you on 1st February.'",
+    options: [
+      "Certainty of price",
+      "Sale must be instant and absolute - not contingent on a future date",
+      "Constructive possession",
+      "Khiyar al-Shart"
+    ],
+    correctAnswer: 1,
+    explanation: "The sale must be instant and absolute; a sale attributed to a future date is void, though the parties may exchange a mere promise or understanding instead, with rights and liabilities emerging only once actually executed.",
+    learningObjective: "State the general conditions of a valid Bai'.",
+    source: { chapter: 9, section: "9.2", pages: [214] }
+  },
+  {
+    id: "q-ch9-32",
+    chapter: 9,
+    section: "9.8",
+    topic: "Murabaha to Purchase Orderer (MPO)",
+    type: "scenario",
+    difficulty: "medium",
+    cognitiveLevel: "application",
+    prompt: "A bank enters into a Musharakah with a client, with an upfront agreement that the client will buy out the bank's share through Murabaha at the end. Is this permissible per AAOIFI?",
+    options: [
+      "Yes, this is standard practice",
+      "No - AAOIFI prohibits combining a Musharakah with a promise that a partner will buy the other's share through Murabaha; a separate promise to buy at market/agreed price at the time of sale is permissible instead",
+      "Yes, provided profit-sharing is disclosed",
+      "Yes, if the client is also the bank's agent"
+    ],
+    correctAnswer: 1,
+    explanation: "The chapter explicitly states the bank is not allowed to enter into a Musharakah arrangement with the client with the promise that one party will buy the other's share through Murabaha; instead, a partner can promise via a separate contract to buy the other's share at market price or a mutually agreed price at the time of sale.",
+    learningObjective: "Identify Shari'ah risks in combining MPO with other contracts.",
+    source: { chapter: 9, section: "9.8", pages: [223] }
+  },
+  {
+    id: "q-ch9-33",
+    chapter: 9,
+    section: "9.8.3",
+    topic: "MPO Full Procedure",
+    type: "truefalse",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "If an Islamic bank takes an interest-bearing security (e.g. an FDR) as collateral against a Murabaha receivable, some Shari'ah boards allow it, but the bank's recourse is limited to the principal amount only.",
+    options: ["True", "False"],
+    correctAnswer: 0,
+    explanation: "True - some Shari'ah boards allow taking interest-bearing securities as collateral, but in such a case the bank will have recourse to the extent of principal only; it is preferable the customer encash such instruments for Shari'ah-compliant securities.",
+    learningObjective: "Explain security/collateral rules in Murabaha.",
+    source: { chapter: 9, section: "9.8.3", pages: [229] }
+  },
+  {
+    id: "q-ch9-34",
+    chapter: 9,
+    section: "9.10",
+    topic: "Precautions and Risk Management in Murabaha",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "recall",
+    prompt: "Which of the following is a FOREIGN CURRENCY variant of Murabaha used by Islamic banks for trade financing, per the chapter?",
+    options: ["Simple Murabaha", "Suppliers' credit Murabaha", "Sight L/C deferred Murabaha", "Advance payment Murabaha"],
+    correctAnswer: 2,
+    explanation: "Foreign-currency variants include sight L/C spot Murabaha, sight L/C deferred Murabaha, and usance L/C Murabaha. Simple Murabaha, advance payment Murabaha and suppliers' credit Murabaha are local-currency variants.",
+    learningObjective: "Identify the different structures of Murabaha used for trade financing.",
+    source: { chapter: 9, section: "9.10", pages: [236] }
+  },
+  {
+    id: "q-ch9-35",
+    chapter: 9,
+    section: "9.10",
+    topic: "Precautions and Risk Management in Murabaha",
+    type: "short",
+    difficulty: "hard",
+    cognitiveLevel: "application",
+    prompt: "Per AAOIFI's accounting treatment (Box 9.3), how is a Murabaha asset measured after acquisition, and what happens if there's an indication its cost may not be recovered?",
+    options: [],
+    correctAnswer: "After acquisition, the asset is measured at historical cost, with any decline in value reflected at the end of the financial period. If there is an indication of nonrecovery of the cost of goods, the asset shall instead be measured at cash equivalent value (net realizable value), by creating a provision for the decline in value reflecting the difference between acquisition cost and cash equivalent value.",
+    explanation: "This matches the accounting treatment for asset measurement in Box 9.3.",
+    learningObjective: "Apply the accounting treatment principles for Murabaha.",
+    source: { chapter: 9, section: "9.10", pages: [236] }
   }
 );
 
@@ -25679,6 +26430,96 @@ window.IFL_DATA.questions.push(
     explanation: "This reflects the 'Arbun rules described in section 10.11.6.",
     learningObjective: "Explain guarantee mechanisms in Istisna'a.",
     source: { chapter: 10, section: "10.11.6", pages: [267] }
+  },
+  {
+    id: "q-ch10-31",
+    chapter: 10,
+    section: "10.3",
+    topic: "Benefits and Economic Role of Salam",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Per S.M. Hasanuz Zaman's account, why might Bai' Salam have been preferable to an interest-based loan for farmers historically?",
+    options: [
+      "Salam required no advance planning",
+      "Salam did not increase the farmer's cost the way interest did, and it saved farmers the hardships and risk of marketing their produce",
+      "Salam guaranteed the farmer a higher sale price than the market",
+      "Salam allowed the farmer to keep the crop"
+    ],
+    correctAnswer: 1,
+    explanation: "From the farmers' viewpoint, Bai' Salam did not make an increase in cost as interest did, and it saved them from the hardships and risk involved in marketing their produce.",
+    learningObjective: "Explain the economic role and benefits of Salam.",
+    source: { chapter: 10, section: "10.3", pages: [243] }
+  },
+  {
+    id: "q-ch10-32",
+    chapter: 10,
+    section: "10.4.2",
+    topic: "Salam Capital",
+    type: "scenario",
+    difficulty: "medium",
+    cognitiveLevel: "application",
+    prompt: "Instead of paying hard cash, an Islamic bank credits the agreed Salam price to the seller's account with the bank, where it remains at the seller's disposal. Does this satisfy Salam's advance-payment requirement?",
+    options: [
+      "No - only physical cash satisfies Salam",
+      "Yes - crediting the account is sufficient; in spirit this is not a prohibited debt-for-debt exchange since the money is at the seller's disposal",
+      "No - this always constitutes debt for debt, which is prohibited",
+      "Yes, but only if the seller is a corporate entity"
+    ],
+    correctAnswer: 1,
+    explanation: "Cash payment is not necessary in Salam; the price can be credited to the seller's account or paid via a cashable pay order. In letter this resembles debt for debt, but not in spirit, since the money remains at the seller's disposal.",
+    learningObjective: "State the conditions of a valid Salam contract.",
+    source: { chapter: 10, section: "10.4.2", pages: [247] }
+  },
+  {
+    id: "q-ch10-33",
+    chapter: 10,
+    section: "10.11.3",
+    topic: "Price, Penalty Clause, and Binding Nature of Istisna'a",
+    type: "truefalse",
+    difficulty: "easy",
+    cognitiveLevel: "recall",
+    prompt: "Unlike Salam, the price in Istisna'a can be paid in cash, tangible goods, or usufruct, and may be linked to construction/completion stages rather than paid fully in advance.",
+    options: ["True", "False"],
+    correctAnswer: 0,
+    explanation: "True - Istisna'a's price can take the form of cash, tangible goods, or usufruct of identified assets, and can be paid in instalments linked to completion stages, unlike Salam's requirement of full advance cash payment.",
+    learningObjective: "Explain Istisna'a's price rules.",
+    source: { chapter: 10, section: "10.11.3", pages: [265] }
+  },
+  {
+    id: "q-ch10-34",
+    chapter: 10,
+    section: "10.11.8",
+    topic: "Guarantees, Parallel Istisna'a, Agency, and Post-Execution Rules",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "In an Istisna'a arrangement, a bank appoints the client/manufacturer as its agent to sell the finished asset. What condition must this agency arrangement satisfy?",
+    options: [
+      "It can be merged into the Istisna'a agreement for simplicity",
+      "It must be separate and independent from the Istisna'a agreement",
+      "It is not permitted under any circumstances",
+      "It can only be used by the bank as manufacturer, never as buyer"
+    ],
+    correctAnswer: 1,
+    explanation: "The agency agreement for supervising manufacturing or selling the asset should be separate and independent from the Istisna'a agreement.",
+    learningObjective: "Explain agency arrangements in Istisna'a.",
+    source: { chapter: 10, section: "10.11.8", pages: [267] }
+  },
+  {
+    id: "q-ch10-35",
+    chapter: 10,
+    section: "10.8",
+    topic: "Salam-Based Securitization: Salam Certificates/Sukuk",
+    type: "short",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Describe how the Bahrain government's aluminium Salam Sukuk structure works, per the chapter.",
+    options: [],
+    correctAnswer: "Aluminium is designated as the underlying asset. The Bahrain government sells aluminium forward under a Salam arrangement. Bahrain Islamic Bank (BIB) purchases the aluminium, acting as representative for other banks wishing to participate in the transaction. In exchange for the advance payment, the Bahrain government issues Salam certificates and undertakes to supply a specified amount of aluminium on a specified future date.",
+    explanation: "This reflects the Bahrain aluminium Salam Sukuk example given in section 10.8.",
+    learningObjective: "Explain how Salam-based securitization works.",
+    source: { chapter: 10, section: "10.8", pages: [255] }
   }
 );
 
@@ -26231,6 +27072,96 @@ window.IFL_DATA.questions.push(
     explanation: "Per Box 11.2, Islamic banks normally take only a refundable security deposit, while conventional leasing typically requires substantial non-refundable upfront payments.",
     learningObjective: "Contrast Islamic Ijarah with conventional auto leasing.",
     source: { chapter: 11, section: "11.6", pages: [301] }
+  },
+  {
+    id: "q-ch11-31",
+    chapter: 11,
+    section: "11.3",
+    topic: "General Juristic Rules of Ijarah",
+    type: "multiselect",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Which of the following CANNOT validly be the subject of an Ijarah lease, per the chapter?",
+    options: [
+      "Money, edibles, or fuel (usufruct not possible without consuming the corpus)",
+      "Land so damaged by salinity that it cannot produce any usufruct",
+      "A liveable, existing house",
+      "An asset owned jointly by several people"
+    ],
+    correctAnswer: [0, 1],
+    explanation: "Money/edibles/fuel (their use requires consuming them) and land incapable of any usufruct (e.g. through salinity) cannot be leased. An existing house and jointly-owned property CAN be validly leased.",
+    learningObjective: "State which assets can be leased and why.",
+    source: { chapter: 11, section: "11.3", pages: [281] }
+  },
+  {
+    id: "q-ch11-32",
+    chapter: 11,
+    section: "11.3.3",
+    topic: "Sub-leasing, Security, and Liability Allocation",
+    type: "scenario",
+    difficulty: "medium",
+    cognitiveLevel: "application",
+    prompt: "A lessee sub-leases a shop at exactly the same rent he pays the original lessor. Is this permissible, and does the school of thought matter here?",
+    options: [
+      "Yes - this is unanimously permitted by all recognized schools since sub-lease rent does not exceed the rent paid to the owner",
+      "No - sub-leasing is never permitted",
+      "Yes, but only Hanafis permit it",
+      "No, unless the lessor charges a fee for consent"
+    ],
+    correctAnswer: 0,
+    explanation: "All recognized schools of Islamic jurisprudence are unanimous on the permissibility of sub-lease if the rent from the sub-lease is equal to or less than the rent payable to the original owner/lessor; disagreement arises only when sub-lease rent is higher.",
+    learningObjective: "Analyze the rules governing sub-leasing.",
+    source: { chapter: 11, section: "11.3.3", pages: [284] }
+  },
+  {
+    id: "q-ch11-33",
+    chapter: 11,
+    section: "11.3.6",
+    topic: "Termination, Amendment, and Rent Default Rules",
+    type: "truefalse",
+    difficulty: "easy",
+    cognitiveLevel: "recall",
+    prompt: "The death of either the lessor or the lessee automatically terminates an Ijarah contract, per contemporary jurists.",
+    options: ["True", "False"],
+    correctAnswer: 1,
+    explanation: "False - contemporary jurists hold Ijarah is not terminated by the death of either party, though a deceased lessee's heirs may terminate it if the lease has become too onerous for them.",
+    learningObjective: "Explain the rules on termination and amendment.",
+    source: { chapter: 11, section: "11.3.6", pages: [286] }
+  },
+  {
+    id: "q-ch11-34",
+    chapter: 11,
+    section: "11.5.1",
+    topic: "Islamic Banks' Ijarah Muntahia-bi-Tamleek: Full Procedure",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Why must a 'sale and lease-back' Ijarah Muntahia-bi-Tamleek arrangement leave a reasonable period (commonly around one year) before any transfer of ownership back to the original client?",
+    options: [
+      "To allow time for Takaful registration only",
+      "To avoid the transaction becoming prohibited Bai' al 'Inah, since the gap must be long enough that the property's value might genuinely have changed",
+      "Because tax law requires a one-year holding period everywhere",
+      "There is no such requirement"
+    ],
+    correctAnswer: 1,
+    explanation: "The gap between the sale-and-leaseback purchase and any transfer back to the customer must be long enough that the leased property or its value might have changed, to avoid the arrangement becoming Bai' al 'Inah.",
+    learningObjective: "Explain the sale-and-leaseback structure and its Shari'ah safeguards.",
+    source: { chapter: 11, section: "11.5.1", pages: [293] }
+  },
+  {
+    id: "q-ch11-35",
+    chapter: 11,
+    section: "11.5",
+    topic: "Islamic Banks' Ijarah Muntahia-bi-Tamleek: Full Procedure",
+    type: "short",
+    difficulty: "hard",
+    cognitiveLevel: "understanding",
+    prompt: "Describe how Diminishing Musharakah can be used as an alternative to a unilateral promise to sell/gift for transferring ownership in Ijarah Muntahia-bi-Tamleek.",
+    options: [],
+    correctAnswer: "The bank and client jointly purchase the asset, creating a partnership by ownership (Shirkatulmilk). The bank leases out its own share to the client on the Diminishing Musharakah principle. As the client periodically purchases portions of the bank's share, the bank's ownership share - and the rental it receives, which must be proportional to its remaining share - decreases accordingly, until full ownership passes to the client.",
+    explanation: "This reflects the Diminishing Musharakah alternative described in section 11.5.",
+    learningObjective: "Explain the alternative methods for transferring ownership at lease end.",
+    source: { chapter: 11, section: "11.5", pages: [292, 294] }
   }
 );
 
@@ -30001,6 +30932,101 @@ window.IFL_DATA.questions.push(
     explanation: "The author states IFIs should look beyond the formal abolition of interest and practically involve themselves in real business activities to achieve positive socio-economic implications through real sector development and just, equitable pricing policies.",
     learningObjective: "Synthesize the book's overall conclusions and recommendations for Islamic banking and finance's sustainable growth",
     source: { chapter: 18, section: "18.4", pages: [479, 480] }
+  },
+  {
+    id: "q-ch18-26",
+    chapter: 18,
+    section: "18.3.2",
+    topic: "Structure of Financial Institutions",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Per the chapter's discussion of Islamic banks' 'structure,' why does the AAOIFI's Murabaha Standard carry the title 'Murabaha to Purchase Orderer'?",
+    options: [
+      "Because Islamic banks are legally required to maintain large inventories of goods",
+      "Because it reflects that Islamic banks purchase goods on client requisition for onward sale/lease rather than holding inventory like ordinary traders",
+      "Because it is simply an arbitrary naming convention with no substantive meaning",
+      "Because it refers exclusively to export financing"
+    ],
+    correctAnswer: 1,
+    explanation: "Islamic banks' modus operandi differs from the general trading business: they normally do not hold inventories, but purchase goods/assets on client requisition for onward letting or sale - reflected directly in the Murabaha Standard's title.",
+    learningObjective: "Analyse the key structural, regulatory and credibility issues facing Islamic finance's continued development",
+    source: { chapter: 18, section: "18.3.2", pages: [469] }
+  },
+  {
+    id: "q-ch18-27",
+    chapter: 18,
+    section: "18.3.2",
+    topic: "Regulatory and Tax Issues",
+    type: "multiselect",
+    difficulty: "medium",
+    cognitiveLevel: "recall",
+    prompt: "Which of the following are among the reasons the chapter gives for why Islamic financial institutions need regulation?",
+    options: [
+      "Making needed information available to investors",
+      "Ensuring Shari'ah compliance and soundness of the financial system",
+      "Making the legal framework workable in a system where 'cost of funds' cannot be recovered on default",
+      "Guaranteeing IFIs a higher profit margin than conventional banks"
+    ],
+    correctAnswer: [0, 1, 2],
+    explanation: "The chapter lists five reasons for regulation: investor information, protecting savers, Shari'ah compliance/soundness, a workable legal framework given the 'no cost of funds recovery' rule, and effective monetary policy/management - not guaranteeing higher IFI profits.",
+    learningObjective: "Analyse the key structural, regulatory and credibility issues facing Islamic finance's continued development",
+    source: { chapter: 18, section: "18.3.2", pages: [469, 470] }
+  },
+  {
+    id: "q-ch18-28",
+    chapter: 18,
+    section: "18.3.2",
+    topic: "Shari'ah Interpretation and Integrity/Credibility",
+    type: "short",
+    difficulty: "hard",
+    cognitiveLevel: "understanding",
+    prompt: "Describe the two practice-related (not purely Shari'ah-interpretation) unresolved issues the chapter identifies.",
+    options: [],
+    correctAnswer: "(1) On what basis courts should award liquidated damages to a bank for a defaulting client's receivables - conventional opportunity cost per se should not be the basis, though some Shari'ah boards allow charging a rate based on the bank's income from a similar portfolio, with courts weighing the client's financial position/behaviour and litigation costs/time. (2) The liability of a bank's shareholders towards investment account holders when losses occur due to overexposure, lack of diversification, imprudent banking practices, or actual business losses - requiring a firm regulatory framework safeguarding depositors' interests.",
+    explanation: "These are the two 'unresolved issues' the chapter attributes to practical difficulties and ground realities rather than pure Shari'ah interpretation.",
+    learningObjective: "Analyse the key structural, regulatory and credibility issues facing Islamic finance's continued development",
+    source: { chapter: 18, section: "18.3.2", pages: [466] }
+  },
+  {
+    id: "q-ch18-29",
+    chapter: 18,
+    section: "18.3.3",
+    topic: "Benchmarks, Product Development, Liquidity and Human Resources",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "How does the chapter suggest Islamic banks cover short-term mismatches between client demand for funds and their supply?",
+    options: [
+      "Through conventional interbank lending at LIBOR",
+      "Through an inter-bank Islamic money market conducted on the Mudarabah principle",
+      "Islamic banks cannot address such mismatches at all",
+      "By suspending withdrawals until funds are available"
+    ],
+    correctAnswer: 1,
+    explanation: "Any mismatch between clients' demand for funds and their supply is normally covered through inter-bank transactions, conducted on the Mudarabah principle; establishing such a market in each jurisdiction is a key element for short-term liquidity management.",
+    learningObjective: "Evaluate the options for a Shari'ah compliance framework and the major challenges facing the industry's future",
+    source: { chapter: 18, section: "18.3.3", pages: [478] }
+  },
+  {
+    id: "q-ch18-30",
+    chapter: 18,
+    section: "18.3.3",
+    topic: "Benchmarks, Product Development, Liquidity and Human Resources",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "What does the chapter identify as one of the major bottlenecks for the Islamic finance industry's development at its current stage?",
+    options: [
+      "Excess of trained human resources",
+      "Scarcity of trained human resources with the right mindset and orientation, technically competent and well aware of Islamic finance principles",
+      "Too many universities offering Islamic finance courses",
+      "Lack of demand from Muslim investors"
+    ],
+    correctAnswer: 1,
+    explanation: "The chapter identifies scarcity of trained human resources as a major bottleneck; incumbents of IFIs need a significantly different mindset, special orientation, technical competence, and awareness of Islamic finance principles.",
+    learningObjective: "Evaluate the options for a Shari'ah compliance framework and the major challenges facing the industry's future",
+    source: { chapter: 18, section: "18.3.3", pages: [479] }
   }
 );
 
@@ -31298,6 +32324,25 @@ window.IFL_DATA.questions.push(
             '<p class="mb-0">' + fmt(ex.body) + '</p></div>';
         }).join("") + '</div>' : "") +
 
+      (topic.calculations && topic.calculations.length ?
+        '<div class="card mb-4"><h3>Calculation Walkthrough</h3>' + topic.calculations.map(function (calc) {
+          return '<div class="calc-block mb-3">' +
+            '<div class="flex items-center justify-between mb-2">' +
+              '<strong>' + esc(calc.title) + '</strong>' +
+              (calc.generated ? '<span class="pill pill-brand">Practice — generated for learning</span>' : "") +
+            '</div>' +
+            (calc.formula ? '<div class="calc-formula">' + esc(calc.formula) + '</div>' : "") +
+            (calc.inputs && calc.inputs.length ?
+              '<table class="calc-inputs mb-2"><tbody>' + calc.inputs.map(function (i) {
+                return '<tr><td class="text-muted">' + esc(i.label) + '</td><td><strong>' + esc(i.value) + '</strong></td></tr>';
+              }).join("") + '</tbody></table>' : "") +
+            (calc.steps && calc.steps.length ?
+              '<ol class="calc-steps mb-2">' + calc.steps.map(function (s) { return "<li>" + fmt(s) + "</li>"; }).join("") + '</ol>' : "") +
+            (calc.result ? '<div class="calc-result"><strong>Result:</strong> ' + fmt(calc.result) + '</div>' : "") +
+            (calc.interpretation ? '<p class="text-sm text-secondary mt-2 mb-0">' + fmt(calc.interpretation) + '</p>' : "") +
+          '</div>';
+        }).join("") + '</div>' : "") +
+
       (topic.importantDistinctions && topic.importantDistinctions.length ?
         '<div class="card mb-4"><h3>Important Distinctions</h3><ul class="mb-0">' + topic.importantDistinctions.map(function (c) { return "<li>" + fmt(c) + "</li>"; }).join("") + '</ul></div>' : "") +
 
@@ -31599,7 +32644,7 @@ window.IFL_DATA.questions.push(
 
   function mergedGlossary() {
     var bookTerms = IFLData.glossaryTerms().map(function (g) {
-      return { term: g.term, definition: g.definition, source: null };
+      return { term: g.term, definition: g.definition, source: (g.chapter ? { chapter: g.chapter, pages: g.pages } : null), relatedTerms: g.relatedTerms || [] };
     });
     var chapterDefs = [];
     IFLData.allChapters().forEach(function (c) {
@@ -31669,6 +32714,10 @@ window.IFL_DATA.questions.push(
           '<p class="text-sm mb-1">' + esc(t.definition) + '</p>' +
           (t.source ? '<small class="text-muted">Ch ' + t.source.chapter + (t.source.section ? " · §" + esc(t.source.section) : "") + (t.source.pages && t.source.pages.length ? " · p." + t.source.pages.join(",") : "") +
             (t.source.chapter ? ' · <a data-nav="#/chapter/' + t.source.chapter + '">View lesson →</a>' : "") + '</small>' : '<small class="text-muted">From the book\'s glossary</small>') +
+          (t.relatedTerms && t.relatedTerms.length ?
+            '<div class="badge-row mt-2">' + t.relatedTerms.map(function (rt) {
+              return '<button class="pill text-xs" data-jump-term="' + esc(rt) + '" style="cursor:pointer;">' + esc(rt) + '</button>';
+            }).join("") + '</div>' : "") +
         '</div>';
       }).join("");
       IFLDom.qsa("[data-bm]", list).forEach(function (btn) {
@@ -31681,6 +32730,11 @@ window.IFL_DATA.questions.push(
             else st.bookmarks.push({ id: "bm-" + Date.now(), type: "glossary", refId: term, label: term, createdAt: Date.now() });
           });
           paint();
+        });
+      });
+      IFLDom.qsa("[data-jump-term]", list).forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          IFLRouter.navigate("#/glossary" + IFLRouter.buildQuery({ q: btn.getAttribute("data-jump-term"), letter: undefined }));
         });
       });
     }

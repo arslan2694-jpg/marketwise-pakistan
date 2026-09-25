@@ -126,7 +126,7 @@ window.IFL_DATA.glossary = [
   },
   {
     "term": "‘ Ariyah",
-    "definition": "Gratuitous loan of objects. It means the loan of a particular piece of property, the sub- stance of which is not consumed by its use, without anything taken in exchange. In other words, it is the gift of usufruct of a commodity that is not consumed on use. It is different from Qard, which is the loan of fungible objects which are consumed on use and in which the sim- ilar and not the same commodity has to be returned. It is also a virtuous act like Qard. The borrowed commodity is treated as a liability of the borrower, who is bound to return it to its owner.",
+    "definition": "Gratuitous loan of objects. It means the loan of a particular piece of property, the substance of which is not consumed by its use, without anything taken in exchange. In other words, it is the gift of usufruct of a commodity that is not consumed on use. It is different from Qard, which is the loan of fungible objects which are consumed on use and in which the similar and not the same commodity has to be returned. It is also a virtuous act like Qard. The borrowed commodity is treated as a liability of the borrower, who is bound to return it to its owner.",
     "chapter": 5,
     "pages": [119],
     "relatedTerms": ["Qard", "Hibah"]
@@ -189,7 +189,7 @@ window.IFL_DATA.glossary = [
   },
   {
     "term": "Bai‘ al Mu‘allaq",
-    "definition": "Suspended sal e – a sale transaction, the effectiveness of which is related to any future condition or action.",
+    "definition": "Suspended sale – a sale transaction, the effectiveness of which is related to any future condition or action.",
     "chapter": 3,
     "pages": [60],
     "relatedTerms": ["Mawquf", "T‘aliq"]
@@ -336,6 +336,8 @@ window.IFL_DATA.glossary = [
   {
     "term": "Fiqh",
     "definition": "Islamic jurisprudence; the science of the Shar i´ah. It is an important source of Islamic tenets.",
+    "chapter": 1,
+    "pages": [13],
     "relatedTerms": ["Shari´ah", "Ijtihad", "Qiyas"]
   },
   {
@@ -368,7 +370,7 @@ window.IFL_DATA.glossary = [
   },
   {
     "term": "Ghaban-e-Fahish",
-    "definition": "Excessive profiteering with deceptio n – a person sells a commodity stating explic- itly or giving the impression that he is charging the market price, but actually he is charging an exorbitant price taking benefit of the ignorance of the purchaser – in such cases the purchaser has the option to revoke the sale and get back the price paid (see Khiyar-e-Ghaban).",
+    "definition": "Excessive profiteering with deception – a person sells a commodity stating explicitly or giving the impression that he is charging the market price, but actually he is charging an exorbitant price taking benefit of the ignorance of the purchaser – in such cases the purchaser has the option to revoke the sale and get back the price paid (see Khiyar-e-Ghaban).",
     "chapter": 3,
     "pages": [68],
     "relatedTerms": ["Khiyar-e-Ghaban", "Ghaban"]
@@ -459,7 +461,7 @@ window.IFL_DATA.glossary = [
   },
   {
     "term": "Ibahatul Asliyah",
-    "definition": "General permissibility, which means that all economic activities that are not pro- hibited by the original sources of Shar i´ah, i.e. the Qur an and Sunnah, are valid/permissible.",
+    "definition": "General permissibility, which means that all economic activities that are not prohibited by the original sources of Shar i´ah, i.e. the Qur an and Sunnah, are valid/permissible.",
     "chapter": 2,
     "pages": [22],
     "relatedTerms": ["Mubah", "Halal"]
@@ -545,7 +547,7 @@ window.IFL_DATA.glossary = [
   },
   {
     "term": "Istihsan",
-    "definition": "A doctrine of Islamic law that allows exception to strict legal reasoning in special circum- stances when considerations of human welfare so demand.",
+    "definition": "A doctrine of Islamic law that allows exception to strict legal reasoning in special circumstances when considerations of human welfare so demand.",
     "chapter": 10,
     "pages": [263],
     "relatedTerms": ["Ijtihad", "Maslaha-e-Mursalah"]
@@ -920,7 +922,8 @@ window.IFL_DATA.glossary = [
     "term": "Ra’asul-mal",
     "definition": "Principal amount of a loan or a debt or money invested in a business.",
     "chapter": 3,
-    "pages": [47]
+    "pages": [47],
+    "relatedTerms": ["Rabbul-mal", "Mudarabah"]
   },
   {
     "term": "Ra‘iee",
@@ -932,55 +935,64 @@ window.IFL_DATA.glossary = [
     "term": "Rabbul-mal",
     "definition": "The person who invests the capital in a Shirkah/Mudarabah contract.",
     "chapter": 8,
-    "pages": [189, 190]
+    "pages": [189, 190],
+    "relatedTerms": ["Mudarib", "Mudarabah"]
   },
   {
     "term": "Riba",
     "definition": "Literally, an excess or increase. Technically, it means an increase over the principal in a loan transaction, over a debt or in exchange transactions, accrued to the lender/creditor or a party to exchange without giving an equivalent counter value or recompense (‘iwad) in return to the other party.",
     "chapter": 1,
-    "pages": [12, 13]
+    "pages": [12, 13],
+    "relatedTerms": ["Riba Al-Fadl", "Riba Al-Nasiah", "Ribawi", "Gharar"]
   },
   {
     "term": "Riba Al-Fadl",
     "definition": "The quality premium in exchange of low quality with better quality goods, e.g. dates for dates, wheat for wheat, etc. – an excess in the exchange of Ribawi goods in the case of a single genus on both sides. The concept of Riba Al-Fadl refers to exchange/sale transactions.",
     "chapter": 3,
-    "pages": [52, 53]
+    "pages": [52, 53],
+    "relatedTerms": ["Riba Al-Nasiah", "Ribawi", "Mithlam-bi-mithlin"]
   },
   {
     "term": "Riba Al-Nasiah",
     "definition": "Riba of delay, due to exchange not being immediate with or without excess in one of the counter values. It is an increment on the principal of a loan or debt payable. It refers to loan/credit transactions or lending money on the understanding that the borrower will return to the lender at the end of the period the amount originally lent together with an increase on it, in consideration of the lender having granted him time to pay. Interest, in all modern banking transactions, falls under the purview of Riba Al-Nasiah.",
     "chapter": 3,
-    "pages": [50]
+    "pages": [50],
+    "relatedTerms": ["Riba Al-Fadl", "Riba", "Qard"]
   },
   {
     "term": "Ribawi",
     "definition": "Goods subject to Fiqh rules on Riba in sales – monetary units and items sold by weight and/or by measure, including gold, silver, paper currencies, edible goods like wheat, rice, barley, dates, salt, etc.",
     "chapter": 7,
-    "pages": [164]
+    "pages": [164],
+    "relatedTerms": ["Riba Al-Fadl", "Riba Al-Nasiah", "Sarf"]
   },
   {
     "term": "Ribh-al-mithl",
     "definition": "Matching rate of profit. Rihn or Rahn : Pledge, collateral; legally, Rihn means to pledge or lodge a real or corporeal property of material value as security for a debt or pecuniary obligation, so as to make it possible for the creditor to recover the debt, in the case of nonpayment, by selling the pledged property.",
     "chapter": 4,
-    "pages": [80]
+    "pages": [80],
+    "relatedTerms": ["Qirad mithl", "Thaman-e-mithl"]
   },
   {
     "term": "Rukban",
     "definition": "Grain dealers coming from the tribal/rural areas to the town to sell goods.",
     "chapter": 3,
-    "pages": [67]
+    "pages": [67],
+    "relatedTerms": ["Najash"]
   },
   {
     "term": "Sa‘a",
     "definition": "A measure that was used for exchanging/trading grains.",
     "chapter": 3,
-    "pages": [46]
+    "pages": [46],
+    "relatedTerms": ["Mithli"]
   },
   {
     "term": "Sadd al-Zar ai‘",
     "definition": "To prohibit a transaction on the grounds of blocking the means to an illicit end.",
     "chapter": 6,
-    "pages": [149]
+    "pages": [149],
+    "relatedTerms": ["Hilah, Hiyal (plural)"]
   },
   {
     "term": "Sahabah",
@@ -990,55 +1002,64 @@ window.IFL_DATA.glossary = [
     "term": "Salaf",
     "definition": "Used in two senses: (i) literally, payment in advance; a loan which draws forth no profit for the creditor; it includes loans for specified periods, i.e. short, intermediate and long-term loans; slightly different from Qard – an amount given as Salaf cannot be called back, unlike Qard, before it is due. Also, another name of Salam – forward sale; (ii) Forebears – jurists and scholars of early periods of Islam.",
     "chapter": 5,
-    "pages": [111]
+    "pages": [111],
+    "relatedTerms": ["Bai‘ Salam", "Qard"]
   },
   {
     "term": "Sanadat",
     "definition": "Certificates of investment – another name for Sukuk.",
     "chapter": 15,
-    "pages": [392]
+    "pages": [392],
+    "relatedTerms": ["Sukuk"]
   },
   {
     "term": "Sarf",
     "definition": "Contract in which both exchange items are gold, silver or any monetary units.",
     "chapter": 3,
-    "pages": [52]
+    "pages": [52],
+    "relatedTerms": ["Bai‘ al Sarf", "Al-Sarf"]
   },
   {
     "term": "Saw´am-bi-sawaa´",
     "definition": "Equal for equal (in exchange transactions).",
     "chapter": 3,
-    "pages": [53]
+    "pages": [53],
+    "relatedTerms": ["Mithlam-bi-mithlin", "Yadam-bi-yadin"]
   },
   {
     "term": "Shari´ah",
     "definition": "Divine guidance as given by the Holy Qur’ an and the Sunnah of the Prophet Muhammad (pbuh); embodies all aspects of the Islamic faith, including beliefs and practice.",
     "chapter": 2,
-    "pages": [21]
+    "pages": [21],
+    "relatedTerms": ["Fiqh", "Sunnah", "Nass"]
   },
   {
     "term": "Shart-e-Jazai",
     "definition": "A clause that a purchaser can put into an Istisna‘a agreement whereby the price of the item being manufactured would decrease in the case of a delay in delivery by the seller/manufacturer whereby the delay benefits the purchaser – unlike all other modes in which any penalty imposed due to default or delay in payment of liabilities goes to the charity account and not to the banks’P&L accounts.",
     "chapter": 4,
-    "pages": [85]
+    "pages": [85],
+    "relatedTerms": ["Istisna‘a"]
   },
   {
     "term": "Shirkah",
     "definition": "Commingling by two or more people of their money or work or obligations to earn a profit or a yield or appreciation in value and to share the loss, if any, according to their proportionate ownership. In the present Islamic banking terminology, it may include both Musharakah and Mudarabah and various kinds of Musharakah like business/commercial partnership, partnership by ownership and permanent or redeemable partnership.",
     "chapter": 1,
-    "pages": [14]
+    "pages": [14],
+    "relatedTerms": ["Musharakah", "Mudarabah", "Shirkatul‘aqd", "Shirkatulmilk"]
   },
   {
     "term": "Shirkatul‘aqd",
     "definition": "Commercial/business partnershi p – a contract between two or more people who launch a business or an enterprise to make profits.",
     "chapter": 12,
-    "pages": [307, 308]
+    "pages": [307, 308],
+    "relatedTerms": ["Shirkatulmilk", "Musharakah"]
   },
   {
     "term": "Shirkatulmilk",
     "definition": "Partnership by ownership or in the right of ownership; not for business.",
     "chapter": 4,
-    "pages": [80]
+    "pages": [80],
+    "relatedTerms": ["Shirkatul‘aqd", "Musharakah"]
   },
   {
     "term": "Shuf‘ah",
@@ -1050,19 +1071,22 @@ window.IFL_DATA.glossary = [
     "term": "Suftajah",
     "definition": "An instrument in traditional Islamic finance used for cash transfer/payment which involved the act of depositing a certain amount of money with someone for settlement or to the benefit of the depositor or his representative at another place or in another country. A type of instrument used for the delegation of credit during the Muslim period, especially the Abbasides period. It was used to collect taxes, disburse government dues and transfer funds by merchants.",
     "chapter": 7,
-    "pages": [168]
+    "pages": [168],
+    "relatedTerms": ["Hawalah"]
   },
   {
     "term": "Sukuk",
     "definition": "Certificates of equal value representing undivided share in ownership of tangible assets of particular projects or specific investment activity, usufruct and services.",
     "chapter": 1,
-    "pages": [18, 19]
+    "pages": [18, 19],
+    "relatedTerms": ["Sanadat", "Ijarah Muntahia-bi-Tamleek"]
   },
   {
     "term": "Sunnah",
     "definition": "Literally, custom, habit or way of life. Technically, it refers to actions, sayings and utterances of the holy Prophet Muhammad (pbuh), or actions of others tacitly approved by him, as reported in the books of Hadith.",
     "chapter": 1,
-    "pages": [11]
+    "pages": [11],
+    "relatedTerms": ["Ahadith", "Shari´ah"]
   },
   {
     "term": "T‘azir",
@@ -1074,125 +1098,146 @@ window.IFL_DATA.glossary = [
     "term": "T‘aliq",
     "definition": "Conditions which suspend a contract to any future event.",
     "chapter": 5,
-    "pages": [126]
+    "pages": [126],
+    "relatedTerms": ["Mawquf", "Bai‘ al Mu‘allaq"]
   },
   {
     "term": "Ta’mein",
     "definition": "Arabic word used for insurance.",
     "chapter": 16,
-    "pages": [420]
+    "pages": [420],
+    "relatedTerms": ["Takaful"]
   },
   {
     "term": "Tabarru‘",
     "definition": "Benefits given by a person to another without getting anything in exchange. For example, gracious repayment of debt, absolutely at the lender’s own discretion and without any prior condition or inducement for reward is covered under Tabarru‘. Repaying a loan in excess of the principal and without a precondition is commendable and compatible with the Sunnah of the holy Prophet (pbuh). But it is matter of individual discretion and cannot be adopted as a system, because this would mean that a loan would necessarily yield a profit, making it usurious.",
     "chapter": 4,
-    "pages": [79]
+    "pages": [79],
+    "relatedTerms": ["Husnal Qadha", "Hibah", "Qard al Hasan"]
   },
   {
     "term": "Tabzir",
-    "definition": "Spending wastefully on objects which have been explicitly prohibited by the Shar i´ah, irre- spective of the amount of expenditure (see also Isr af)."
+    "definition": "Spending wastefully on objects which have been explicitly prohibited by the Shar i´ah, irrespective of the amount of expenditure (see also Isr af).",
+    "relatedTerms": ["Israf"]
   },
   {
     "term": "Takaful",
     "definition": "A form of Islamic insurance based on the principle of Ta’awon or mutual assistance. It provides for mutual assistance in cases of loss to life, assets and property and offers joint risk-sharing in the event of a loss incurred by one of the pool members.",
     "chapter": 1,
-    "pages": [19]
+    "pages": [19],
+    "relatedTerms": ["Ta’mein", "‘ Aqilah"]
   },
   {
     "term": "Taqwa",
     "definition": "Piety, virtue and righteousness with a sense of accountability to Allah (SWT). It encompasses not only obedience to Allah, but also the love of fellow human beings, who should be treated as part of an extended human family.",
     "chapter": 2,
-    "pages": [26]
+    "pages": [26],
+    "relatedTerms": ["Akhlaq", "Falah"]
   },
   {
     "term": "Tawarruq",
     "definition": "Acquiring cash through trade activities – to buy on credit and sell at spot value with the objective of getting cash, meaning that the trade transaction was not needed by the buyer; he simply wanted liquidity, which he got by purchasing a commodity on credit and selling the same to a third party on cash.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Bai‘ al ‘Inah", "Murabaha"]
   },
   {
     "term": "Thaman",
     "definition": "Price, monetary value of a commodity in an exchange.",
     "chapter": 2,
-    "pages": [28]
+    "pages": [28],
+    "relatedTerms": ["Athman", "Thaman-e-mithl"]
   },
   {
     "term": "Thaman-e-mithl",
     "definition": "Normal/market price that has to be paid in case any issue arises in deciding the actual price in any transaction.",
     "chapter": 2,
-    "pages": [28]
+    "pages": [28],
+    "relatedTerms": ["Thaman", "Ribh-al-mithl"]
   },
   {
     "term": "Ujrah",
     "definition": "Wages/service fees against work done for others; Ijarah of services; different from Ju‘alah which means giving a reward for accomplishment of a defined task. While in Ujrah, acceptance of “offer” by a specified person is necessary, in Ju‘alah, anyone who hears the offer can undertake the work and becomes entitled to reward only upon completion of the job.",
     "chapter": 3,
-    "pages": [52, 53]
+    "pages": [52, 53],
+    "relatedTerms": ["Ijarah", "Ajr al-Musammah", "Ajr al-Mithl"]
   },
   {
     "term": "Ujratul-mithl",
     "definition": "A remuneration or compensation which has to be given as per normal market rate if the underlying contract(s) become voidable.",
     "chapter": 4,
-    "pages": [80]
+    "pages": [80],
+    "relatedTerms": ["Ujrah", "Ribh-al-mithl"]
   },
   {
     "term": "Uqood-e-Mu‘awadha",
     "definition": "Commutative contracts in which one can genuinely take any return, like contracts of Bai‘, Ijarah and Wakalah.",
     "chapter": 1,
-    "pages": [12]
+    "pages": [12],
+    "relatedTerms": ["Uqood Ghair Mu‘awadha"]
   },
   {
     "term": "Uqood Ghair Mu‘awadha",
-    "definition": "Noncommutative contracts wherein one cannot get any return or com- pensation, like contracts of loan (Qard), gift (Tabarru‘/Hibah), Guarantee (Kafalah) and assignment of debt (Hawalah).",
+    "definition": "Noncommutative contracts wherein one cannot get any return or compensation, like contracts of loan (Qard), gift (Tabarru‘/Hibah), Guarantee (Kafalah) and assignment of debt (Hawalah).",
     "chapter": 1,
-    "pages": [12]
+    "pages": [12],
+    "relatedTerms": ["Uqood-e-Mu‘awadha"]
   },
   {
     "term": "W‘adah",
     "definition": "Promise – does not create contractual rights and obligations; may be binding or unbinding.",
     "chapter": 5,
-    "pages": [103, 104]
+    "pages": [103, 104],
+    "relatedTerms": ["‘Ahd", "Mithaq"]
   },
   {
     "term": "Wadi‘ah",
     "definition": "A m anah or deposit; the trustee is not responsible for loss except in the case of negligence on his part. If, however, the Am anah amount is used in business, with the permission of the owner, the amount becomes the trustee’s liability.",
     "chapter": 5,
-    "pages": [119]
+    "pages": [119],
+    "relatedTerms": ["Amanah", "Al-Wadi‘ah"]
   },
   {
     "term": "Wakalah",
     "definition": "Contract of agency, can be commutative or noncommutative.",
     "chapter": 1,
-    "pages": [18]
+    "pages": [18],
+    "relatedTerms": ["Wakalatul Istism ar", "Kafalah"]
   },
   {
     "term": "Wakalatul Istism ar",
     "definition": "Investment agency – fund management in which the investor gets all the profit or loss while the fund manager gets a pre-agreed service fee or commission that could be a lump sum amount or a certain percentage of the invested capital.",
     "chapter": 4,
-    "pages": [83]
+    "pages": [83],
+    "relatedTerms": ["Wakalah", "Mudarabah"]
   },
   {
     "term": "Waqf",
     "definition": "Retention of a property for the benefit of a charitable or humanitarian objective, or for a specified group of people such as members of the donor’s family. There are three kinds of Waqf in Islamic jurisprudence: religious Waqf, philanthropic Waqf and family Waqf. The Waqf property can neither be sold nor inherited or donated to anyone.",
     "chapter": 5,
-    "pages": [104]
+    "pages": [104],
+    "relatedTerms": ["Bayt al M al", "Zakah/Zakat"]
   },
   {
     "term": "Yadam-bi-yadin",
     "definition": "Hand to hand or on the spot (in exchange transactions).",
     "chapter": 3,
-    "pages": [53]
+    "pages": [53],
+    "relatedTerms": ["Saw´am-bi-sawaa´", "Mithlam-bi-mithlin"]
   },
   {
     "term": "Zakah/Zakat",
     "definition": "Zakah is the third out of five pillars of Islam. A religious tax on Muslims having wealth over and above an exemption limit (Nisab) at a rate fixed by the Shar i´ah. As such, it is not a tax on income, but on the assets held by a Muslim at a prescribed date (a Zakat day has to be determined for calculation of Zakat money to be paid annually) over and above the amount of Nisab after fulfilment of the normal needs of the owner. The objective is to take away a part of the wealth of the well-to-do and to distribute it among the poor and the needy. It is levied on cash, cattle, agricultural produce, minerals, capital invested in industry and business, etc. The rates are different for different natures of assets. The recipients of Zakah funds have been identified in the Holy Qur’ an (9: 60) and are the poor, the needy, Zakah collectors, new converts to Islam, travellers in difficulty, captives and debtors and for the cause of the Almighty.",
     "chapter": 1,
-    "pages": [12]
+    "pages": [12],
+    "relatedTerms": ["Waqf", "Gharmeen"]
   },
   {
     "term": "Zulm",
     "definition": "Injustice, usurping others’ rights, not giving proper recompense in an exchange by way of any illegal act or coercion.",
     "chapter": 3,
-    "pages": [55]
+    "pages": [55],
+    "relatedTerms": ["Qisas"]
   }
 ];
 
