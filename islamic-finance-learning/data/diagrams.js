@@ -163,5 +163,93 @@ IFL_DATA.register('diagrams', [
       { from: "fund", to: "participants", kind: "cash", label: "Underwriting surplus", detail: "Belongs to participants; deficits covered by Qard al Hasan from shareholders." }
     ],
     rules: ["Operator should not take UWS as a risk-taker.", "Only Shari’ah-compliant investments."],
-    pitfalls: ["Operator sharing surplus but not deficit"] }
+    pitfalls: ["Operator sharing surplus but not deficit"] },
+  { id: "tawarruq", title: "Tawarruq (acceptable form)", topic: "t13.3", concept: "tawarruq",
+    summary: "A person needing cash buys a commodity from the bank on credit, takes possession and sells it to an unrelated third party for spot cash. Selling it back to the bank would be ‘Inah.",
+    parties: [{ id: "market", label: "Commodity market", x: 12, y: 10 }, { id: "bank", label: "Islamic bank", x: 60, y: 10 }, { id: "client", label: "Mutawarriq (client)", x: 30, y: 52 }, { id: "buyer", label: "Unrelated third-party buyer", x: 85, y: 52 }],
+    steps: [
+      { from: "bank", to: "market", kind: "cash", label: "Bank buys commodity for cash", detail: "A liquid commodity with a brisk market; the bank takes ownership and risk (pp. 350–351)." },
+      { from: "market", to: "bank", kind: "goods", label: "Ownership and possession to bank", detail: "The bank must not appoint the client as agent to buy and then sell to himself (p. 350)." },
+      { from: "bank", to: "client", kind: "contract", label: "Credit sale (Murabaha)", detail: "A separate contract with proper offer and acceptance." },
+      { from: "bank", to: "client", kind: "ownership", label: "Client takes delivery", detail: "Asset risk passes to the client." },
+      { from: "client", to: "buyer", kind: "goods", label: "Spot sale to a third party", detail: "Not to the original seller, directly or through an agent (AAOIFI)." },
+      { from: "buyer", to: "client", kind: "cash", label: "Cash to client", detail: "The client gets liquidity." },
+      { from: "client", to: "bank", kind: "cash", label: "Deferred price paid", detail: "Fixed price; no increase for delay." }
+    ],
+    rules: ["Sale back to the bank is ‘Inah, which is invalid.", "An agency to sell, stipulated in the sale, is invalid; if made after an unconditional sale it is valid but not advisable.", "Limit to unavoidable liquidity needs, under Shari’ah-board supervision (p. 351)."],
+    pitfalls: ["Paper-only commodity trades where goods never move", "Using Tawarruq for consumer finance at scale"] },
+  { id: "jualah", title: "Ju‘alah with Parallel Ju‘alah (Figure 13.1)", topic: "t13.4.5", concept: "jualah",
+    summary: "The bank undertakes uncertain work for a customer for an agreed reward, and has it done by a specialist under a separate, independent Parallel Ju‘alah.",
+    parties: [{ id: "customer", label: "Customer (offeror)", x: 12, y: 30 }, { id: "bank", label: "Islamic bank", x: 50, y: 30 }, { id: "worker", label: "Specialist worker", x: 88, y: 30 }],
+    steps: [
+      { from: "customer", to: "bank", kind: "contract", label: "1 · Negotiates uncertain work, time, reward", detail: "E.g. recovery of a debt or a lost asset (p. 353)." },
+      { from: "bank", to: "customer", kind: "contract", label: "2 · Ju‘alah contract", detail: "After a cost–benefit analysis." },
+      { from: "bank", to: "worker", kind: "contract", label: "3 · Parallel Ju‘alah", detail: "Allowed only if the first contract does not require the bank to do the work itself." },
+      { from: "bank", to: "worker", kind: "cash", label: "4 · Reward paid on completion", detail: "No result, no reward; revocation after work starts means a market wage." },
+      { from: "customer", to: "bank", kind: "cash", label: "5 · Bank collects its reward", detail: "The bank’s margin is the difference between the two rewards." }
+    ],
+    rules: ["Reward known and deliverable; it may be a share of the result.", "The two contracts are independent.", "The task must not already be the worker’s legal duty."],
+    pitfalls: ["Paying the full reward before the result as if earned", "Making one contract conditional on the other"] },
+  { id: "securitisation", title: "Securitisation through an SPV (Figure 15.1)", topic: "t15.3.1", concept: "sukuk",
+    summary: "The originator sells assets to a bankruptcy-remote SPV, which funds the purchase by issuing Sukuk. Holders own the assets pro rata and receive the cash flows they generate.",
+    parties: [{ id: "originator", label: "Originator", x: 12, y: 15 }, { id: "spv", label: "SPV (trustee/issuer)", x: 50, y: 15 }, { id: "investors", label: "Sukuk holders", x: 88, y: 15 }, { id: "obligors", label: "Obligors / lessees", x: 50, y: 50 }],
+    steps: [
+      { from: "originator", to: "spv", kind: "ownership", label: "True sale of assets", detail: "Proper segregation; irreversible even on the originator’s insolvency (p. 395)." },
+      { from: "spv", to: "investors", kind: "contract", label: "Issues Sukuk", detail: "Certificates of undivided ownership in the assets." },
+      { from: "investors", to: "spv", kind: "cash", label: "Subscription proceeds", detail: "Used to pay the purchase price." },
+      { from: "spv", to: "originator", kind: "cash", label: "Purchase price", detail: "The originator turns illiquid assets into cash (accumulator becomes distributor)." },
+      { from: "obligors", to: "spv", kind: "rent", label: "Rentals / collections", detail: "Collected by a servicer and paid to the SPV." },
+      { from: "spv", to: "investors", kind: "cash", label: "Pass-through or pay-through distributions", detail: "Returns come from the assets’ cash flows." }
+    ],
+    rules: ["Ownership must pass to holders; rent receivables alone are debt.", "Pools of receivables trade only under Hawalah rules unless tangible assets exceed the threshold.", "No issuer guarantee of capital or fixed profit (AAOIFI)."],
+    pitfalls: ["Securitising credit-card receivables as tradable paper", "Guaranteed fixed returns"] },
+  { id: "deposit-pool", title: "Two-tier Mudarabah deposit pool", topic: "t12.7.1", concept: "mudarabah",
+    summary: "Depositors are Rabbul-mal and the bank is Mudarib. Pooled funds are invested with fund users; net pool income is shared by the agreed ratio and then among depositors by weightages and daily products.",
+    parties: [{ id: "depositors", label: "Depositors (Rabbul-mal)", x: 12, y: 30 }, { id: "bank", label: "Bank (Mudarib)", x: 50, y: 30 }, { id: "users", label: "Fund users (Murabaha, Ijarah, Musharakah…)", x: 88, y: 30 }],
+    steps: [
+      { from: "depositors", to: "bank", kind: "cash", label: "Deposits pooled", detail: "Weightages by tenor and disclosed; changed only at the start of a period (p. 331)." },
+      { from: "bank", to: "users", kind: "cash", label: "Funds invested", detail: "Through trade, lease and partnership modes." },
+      { from: "users", to: "bank", kind: "cash", label: "Returns to the pool", detail: "Direct expenses charged to the pool; head-office costs borne by the bank." },
+      { from: "bank", to: "depositors", kind: "contract", label: "Profit shared: pool vs Mudarib", detail: "By the agreed ratio after constructive liquidation." },
+      { from: "bank", to: "depositors", kind: "cash", label: "Pool share distributed", detail: "By daily products and weightages. A loss is borne by the pool by investment ratio, and the bank then earns nothing." }
+    ],
+    rules: ["No fixed return may be promised.", "Bank equity: Musharakah if added at the pool’s creation, Mudarabah if added later.", "Donations from the bank’s own profit are allowed if not pre-agreed."],
+    pitfalls: ["Charging head-office costs to the pool", "Secret profit smoothing without disclosure"] },
+  { id: "salam-murabaha", title: "Salam + Murabaha for cotton (Box 14.2)", topic: "t14.3.2", concept: "salam",
+    summary: "The bank buys cotton from growers by Salam, takes a textile mill’s promise to buy, appoints the mill its agent to take delivery, and then sells the cotton to the mill by Murabaha.",
+    parties: [{ id: "grower", label: "Cotton grower", x: 12, y: 30 }, { id: "bank", label: "Islamic bank", x: 50, y: 30 }, { id: "mill", label: "Textile mill", x: 88, y: 30 }],
+    steps: [
+      { from: "bank", to: "grower", kind: "cash", label: "Salam price paid in full", detail: "The grower gets cash for future produce." },
+      { from: "mill", to: "bank", kind: "promise", label: "Promise to buy at an agreed price", detail: "Hedges the mill against price rises." },
+      { from: "grower", to: "mill", kind: "goods", label: "Delivery to the mill as the bank’s agent", detail: "The mill takes delivery on the bank’s behalf; the goods are at the bank’s risk." },
+      { from: "bank", to: "mill", kind: "contract", label: "Murabaha sale", detail: "Offer and acceptance after the mill reports possession." },
+      { from: "mill", to: "bank", kind: "cash", label: "Deferred Murabaha price", detail: "The bank avoids holding inventory." }
+    ],
+    rules: ["The two contracts are separate.", "Salam goods cannot be sold before possession; hence the promise and the later Murabaha."],
+    pitfalls: ["Selling to the mill before the bank takes (constructive) delivery"] },
+  { id: "salam-sugar", title: "Salam with agency for working capital (sugar mill)", topic: "t14.4.1", concept: "salam",
+    summary: "The bank prepays a sugar mill under Salam. At delivery it takes possession and appoints the mill its agent to sell the sugar at an agreed price; the bank bears the price risk.",
+    parties: [{ id: "bank", label: "Islamic bank", x: 15, y: 30 }, { id: "mill", label: "Sugar mill (seller and agent)", x: 50, y: 30 }, { id: "market", label: "Market buyers", x: 85, y: 30 }],
+    steps: [
+      { from: "bank", to: "mill", kind: "cash", label: "Full Salam price in advance", detail: "The bank may take a charge on the mill’s assets (p. 370)." },
+      { from: "bank", to: "mill", kind: "agency", label: "Agency agreement to sell", detail: "At an agreed price; an excess may be kept by the mill as a bonus if agreed." },
+      { from: "mill", to: "bank", kind: "goods", label: "Delivery from the godowns", detail: "The bank takes delivery before authorising the sale." },
+      { from: "mill", to: "market", kind: "goods", label: "Mill sells as agent", detail: "On the bank’s behalf." },
+      { from: "mill", to: "bank", kind: "cash", label: "Sale proceeds to bank", detail: "If the market price falls below the agreed price, the bank bears the loss." }
+    ],
+    rules: ["Salam capital paid in full at contract.", "The bank must take delivery before the agent sells."],
+    pitfalls: ["Guaranteeing the bank’s return through the mill"] },
+  { id: "iers", title: "SBP Islamic Export Refinance Scheme", topic: "t14.4.6", concept: "musharakah",
+    summary: "The State Bank shares in the actual profit of an Islamic bank’s Musharakah pool of export financings. Profit above the conventional EFS rate goes to a Takaful fund held by SBP.",
+    parties: [{ id: "sbp", label: "State Bank of Pakistan", x: 12, y: 10 }, { id: "bank", label: "Islamic bank’s Musharakah pool", x: 50, y: 42 }, { id: "exporters", label: "Blue-chip exporters (≥10)", x: 88, y: 10 }, { id: "fund", label: "Takaful fund at SBP", x: 12, y: 55 }],
+    steps: [
+      { from: "sbp", to: "bank", kind: "cash", label: "Refinance into the pool", detail: "Only against underlying transactions approved by the bank’s Shari’ah board." },
+      { from: "bank", to: "exporters", kind: "cash", label: "Export finance by Islamic modes", detail: "Pool of at least ten blue-chip companies." },
+      { from: "exporters", to: "bank", kind: "cash", label: "Pool income", detail: "Shared on a daily-product basis." },
+      { from: "bank", to: "sbp", kind: "cash", label: "SBP’s profit share (quarterly, provisional)", detail: "Settled against audited accounts." },
+      { from: "bank", to: "fund", kind: "cash", label: "Excess profit to Takaful fund", detail: "Within seven days of determination." },
+      { from: "fund", to: "sbp", kind: "risk", label: "Absorbs SBP’s loss share first", detail: "Losses are shared by investment ratio." }
+    ],
+    rules: ["Profit and loss are actual, not fixed.", "SBP’s loss share is met first from the Takaful fund."],
+    pitfalls: ["Treating refinance as a fixed-rate loan"] }
 ]);

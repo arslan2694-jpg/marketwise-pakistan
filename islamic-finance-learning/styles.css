@@ -412,9 +412,9 @@ html.reduce-motion .flash.flipped .front, html.reduce-motion .flash:not(.flipped
 .diagram-svg .party.active rect { stroke: var(--accent); stroke-width: 2.5; }
 .diagram-svg .edge path { stroke: var(--border-strong); stroke-width: 1.6; fill: none; }
 .diagram-svg .edge text { fill: var(--text-3); font-size: 11px; font-family: var(--font-sans); }
-.diagram-svg .edge .lbl { display: none; paint-order: stroke; stroke: var(--bg-sunk); stroke-width: 5px; stroke-linejoin: round; font-size: 12.5px; }
-.diagram-svg .edge.active .lbl { display: inline; }
-.diagram-svg .edge:hover .lbl, .diagram-svg .edge:focus .lbl { display: inline; }
+.diagram-svg .dlbl { display: none; paint-order: stroke; stroke: var(--bg-sunk); stroke-width: 6px; stroke-linejoin: round; font-size: 12.5px; font-family: var(--font-sans); fill: var(--text-2); pointer-events: none; }
+.diagram-svg .dlbl.active { display: inline; fill: var(--accent); font-weight: 700; }
+.diagram-svg .dlbl.hover { display: inline; }
 .diagram-svg .edge .num { fill: var(--bg-elev); stroke: var(--border-strong); }
 .diagram-svg .edge .numt { fill: var(--text-2); font-size: 10px; font-weight: 700; }
 .diagram-svg .edge.done path { stroke: var(--text-3); }
@@ -527,3 +527,4 @@ mark { background: var(--gold-soft); color: inherit; padding: 0 2px; border-radi
   .hero > div:last-child { display: flex; flex-direction: column; align-items: center; }
   .grade-bar { gap: 6px; }
 }
+tr.current td { background: var(--accent-soft); }

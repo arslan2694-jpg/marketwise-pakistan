@@ -460,6 +460,28 @@ test('printable chapter revision sheet', async (page) => {
   await page.emulateMedia({ media: 'screen' });
 });
 
+test('exam planner: set a date, plan covers every unfinished topic, adapts to progress', async (page) => {
+  await go(page, '/planner');
+  assert(/No exam date set/.test(await page.locator('#view').innerText()), 'empty state');
+  const date = await page.evaluate(() => { const d = new Date(Date.now() + 10 * 864e5); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); });
+  await page.fill('#exam-date', date);
+  await page.getByRole('button', { name: 'Save exam date' }).click();
+  await page.waitForSelector('#view table');
+  const plan = await page.evaluate(() => window.IFL.buildPlan());
+  const planned = plan.days.reduce((a, d) => a + d.topics.length, 0);
+  assert(plan.daysLeft === 10 && planned === 311 && plan.remaining === 311, 'all topics planned');
+  assert(plan.days.some((d) => d.kind === 'mock') && plan.revision >= 1, 'revision and mock days reserved');
+  assert(plan.days.every((d, i) => i === 0 || d.date >= plan.days[i - 1].date), 'days in order');
+  const first = plan.days[0].topics[0].id;
+  assert(first === 't1.1', 'book order');
+  await page.evaluate((id) => window.IFL.progress.setComplete(id, true), first);
+  const plan2 = await page.evaluate(() => window.IFL.buildPlan());
+  assert(plan2.remaining === 310, 'completed topic drops out');
+  await go(page, '/');
+  assert(/Exam in 10 days/.test(await page.locator('#view').innerText()), 'dashboard countdown');
+  assert((await saved(page)).settings.examDate === date, 'date persisted');
+});
+
 test('standalone: the whole app runs from one file (no other file is requested)', async (page) => {
   if (!STANDALONE) return;
   const files = [];

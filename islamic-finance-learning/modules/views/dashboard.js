@@ -76,7 +76,12 @@
         ['#/mock', 'flame', 'Timed mock exam'], ['#/mistakes', 'refresh', 'My mistakes' + (function () { var n = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false; }).length; return n ? ' (' + n + ')' : ''; })()]
       ].map(function (x) { return h('a.btn', { href: x[0], style: { justifyContent: 'flex-start' } }, u.svg(x[1]), x[2]); })));
 
-    return h('div.stack', hero, nextCard, stats,
+    var plan = IFL.buildPlan ? IFL.buildPlan() : null;
+    var planCard = plan && !plan.past ? h('section.card', h('div.card-title', h('h2', 'Exam in ' + plan.daysLeft + ' day' + (plan.daysLeft === 1 ? '' : 's')), h('a.btn.sm', { href: '#/planner' }, 'Planner')),
+      plan.days[0] && plan.days[0].kind === 'learn' ? h('p.small', 'Today: ' + plan.days[0].topics.length + ' topic' + (plan.days[0].topics.length > 1 ? 's' : '') + ' (~' + plan.days[0].minutes + ' min), starting with ', h('a', { href: '#/topic/' + plan.days[0].topics[0].id }, '§' + plan.days[0].topics[0].section + ' ' + trunc(plan.days[0].topics[0].title, 40)), '.')
+        : h('p.small', plan.remaining ? 'Revision period: rapid revision, mistakes and a mock exam.' : 'All topics complete — revise and take mock exams.'))
+      : h('section.card', h('div.card-title', h('h2', 'Exam date'), h('a.btn.sm', { href: '#/planner' }, 'Set date')), h('p.small.muted', 'Set your exam date to get a day-by-day plan built from your progress.'));
+    return h('div.stack', hero, nextCard, planCard, stats,
       h('div.grid.grid-2', partsCard, weakCard),
       h('div.grid.grid-2', readyCard, actCard),
       h('div.grid.grid-2', bmCard, quick));

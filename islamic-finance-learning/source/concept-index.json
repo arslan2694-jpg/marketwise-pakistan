@@ -1,6 +1,6 @@
 {
  "generated": "tools/build-indexes.cjs",
- "count": 37,
+ "count": 45,
  "concepts": [
   {
    "id": "riba",
@@ -6858,6 +6858,900 @@
     {
      "to": "debt-equity",
      "label": "debate"
+    }
+   ]
+  },
+  {
+   "id": "qabd",
+   "name": "Qabd (possession)",
+   "group": "Principles",
+   "primaryTopics": [
+    {
+     "topic": "t5.4.2",
+     "chapter": 5,
+     "section": "5.4.2",
+     "title": "Elements of the Subject Matter",
+     "pages": [
+      108,
+      110
+     ]
+    },
+    {
+     "topic": "t6.5.1",
+     "chapter": 6,
+     "section": "6.5.1",
+     "title": "The Object of the Sale Contract",
+     "pages": [
+      135,
+      138
+     ]
+    },
+    {
+     "topic": "t9.2",
+     "chapter": 9,
+     "section": "9.2",
+     "title": "Conditions of Valid Bai‘ (Recap for Murabaha)",
+     "pages": [
+      214,
+      215
+     ]
+    },
+    {
+     "topic": "t9.8.3",
+     "chapter": 9,
+     "section": "9.8.3",
+     "title": "MPO with the Customer as the Bank’s Agent — Stages",
+     "pages": [
+      225,
+      229
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t5.4.2",
+     "chapter": 5,
+     "section": "5.4.2",
+     "title": "Elements of the Subject Matter",
+     "pages": [
+      108,
+      110
+     ]
+    },
+    {
+     "topic": "t6.5.1",
+     "chapter": 6,
+     "section": "6.5.1",
+     "title": "The Object of the Sale Contract",
+     "pages": [
+      135,
+      138
+     ]
+    },
+    {
+     "topic": "t9.2",
+     "chapter": 9,
+     "section": "9.2",
+     "title": "Conditions of Valid Bai‘ (Recap for Murabaha)",
+     "pages": [
+      214,
+      215
+     ]
+    },
+    {
+     "topic": "t9.8.3",
+     "chapter": 9,
+     "section": "9.8.3",
+     "title": "MPO with the Customer as the Bank’s Agent — Stages",
+     "pages": [
+      225,
+      229
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "bai",
+     "label": "condition of a valid sale"
+    },
+    {
+     "to": "murabaha",
+     "label": "bank must possess before selling"
+    },
+    {
+     "to": "salam",
+     "label": "Salam goods cannot be resold before possession"
+    }
+   ]
+  },
+  {
+   "id": "arbun",
+   "name": "Hamish Jiddiyah and ‘Arbun",
+   "group": "Principles",
+   "primaryTopics": [
+    {
+     "topic": "t5.6.1",
+     "chapter": 5,
+     "section": "5.6.1",
+     "title": "Token Money (Hamish Jiddiyah) and ‘Arbun",
+     "pages": [
+      116,
+      117
+     ]
+    },
+    {
+     "topic": "t6.9",
+     "chapter": 6,
+     "section": "6.9",
+     "title": "Bai‘ al ‘Arbun (Downpayment Sale)",
+     "pages": [
+      145,
+      146
+     ]
+    },
+    {
+     "topic": "t10.11.3",
+     "chapter": 10,
+     "section": "10.11.3",
+     "title": "Price in Istisna‘a",
+     "pages": [
+      265,
+      266
+     ]
+    },
+    {
+     "topic": "t8.8.8",
+     "chapter": 8,
+     "section": "8.8.8",
+     "title": "Derivatives and Islamic Finance",
+     "pages": [
+      209,
+      211
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t5.6.1",
+     "chapter": 5,
+     "section": "5.6.1",
+     "title": "Token Money (Hamish Jiddiyah) and ‘Arbun",
+     "pages": [
+      116,
+      117
+     ]
+    },
+    {
+     "topic": "t6.9",
+     "chapter": 6,
+     "section": "6.9",
+     "title": "Bai‘ al ‘Arbun (Downpayment Sale)",
+     "pages": [
+      145,
+      146
+     ]
+    },
+    {
+     "topic": "t8.8.8",
+     "chapter": 8,
+     "section": "8.8.8",
+     "title": "Derivatives and Islamic Finance",
+     "pages": [
+      209,
+      211
+     ]
+    },
+    {
+     "topic": "t10.11.3",
+     "chapter": 10,
+     "section": "10.11.3",
+     "title": "Price in Istisna‘a",
+     "pages": [
+      265,
+      266
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "wad",
+     "label": "secures a promise"
+    },
+    {
+     "to": "murabaha",
+     "label": "used in MPO"
+    },
+    {
+     "to": "derivatives",
+     "label": "call-option analogy"
+    }
+   ]
+  },
+  {
+   "id": "security",
+   "name": "Kafalah and Rahn (security)",
+   "group": "Accessory contracts",
+   "primaryTopics": [
+    {
+     "topic": "t7.15",
+     "chapter": 7,
+     "section": "7.15",
+     "title": "Security/Guarantee (Kafalah) and Pledge (Rihn)",
+     "pages": [
+      168,
+      172
+     ]
+    },
+    {
+     "topic": "t10.5",
+     "chapter": 10,
+     "section": "10.5",
+     "title": "Security, Pledge and Liability of the Sureties",
+     "pages": [
+      249,
+      250
+     ]
+    },
+    {
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    },
+    {
+     "topic": "t14.6",
+     "chapter": 14,
+     "section": "14.6",
+     "title": "Fee-based Islamic Banking Services: Underwriting, L/G, L/C",
+     "pages": [
+      384,
+      386
+     ]
+    },
+    {
+     "topic": "t17.4.3",
+     "chapter": 17,
+     "section": "17.4.3",
+     "title": "Difference between Islamic and Conventional Banking",
+     "pages": [
+      447,
+      454
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    },
+    {
+     "topic": "t7.15",
+     "chapter": 7,
+     "section": "7.15",
+     "title": "Security/Guarantee (Kafalah) and Pledge (Rihn)",
+     "pages": [
+      168,
+      172
+     ]
+    },
+    {
+     "topic": "t10.5",
+     "chapter": 10,
+     "section": "10.5",
+     "title": "Security, Pledge and Liability of the Sureties",
+     "pages": [
+      249,
+      250
+     ]
+    },
+    {
+     "topic": "t11.3.4",
+     "chapter": 11,
+     "section": "11.3.4",
+     "title": "Security/Guarantee in Ijarah",
+     "pages": [
+      285,
+      285
+     ]
+    },
+    {
+     "topic": "t14.6",
+     "chapter": 14,
+     "section": "14.6",
+     "title": "Fee-based Islamic Banking Services: Underwriting, L/G, L/C",
+     "pages": [
+      384,
+      386
+     ]
+    },
+    {
+     "topic": "t17.4.3",
+     "chapter": 17,
+     "section": "17.4.3",
+     "title": "Difference between Islamic and Conventional Banking",
+     "pages": [
+      447,
+      454
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "qard",
+     "label": "secures loans and debts"
+    },
+    {
+     "to": "salam",
+     "label": "security in Salam"
+    },
+    {
+     "to": "musharakah",
+     "label": "only for negligence in PLS"
+    }
+   ]
+  },
+  {
+   "id": "ijtihad",
+   "name": "Sources and Ijtihad",
+   "group": "Foundations",
+   "primaryTopics": [
+    {
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    },
+    {
+     "topic": "t17.3.6",
+     "chapter": 17,
+     "section": "17.3.6",
+     "title": "Different Shari’ah Interpretations",
+     "pages": [
+      441,
+      442
+     ]
+    },
+    {
+     "topic": "t18.3.2",
+     "chapter": 18,
+     "section": "18.3.2",
+     "title": "Issues: Shari’ah Interpretation and Integrity/Credibility",
+     "pages": [
+      465,
+      469
+     ]
+    },
+    {
+     "topic": "t17.3.3",
+     "chapter": 17,
+     "section": "17.3.3",
+     "title": "Inflation and Interest",
+     "pages": [
+      438,
+      439
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    },
+    {
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    },
+    {
+     "topic": "t17.3.6",
+     "chapter": 17,
+     "section": "17.3.6",
+     "title": "Different Shari’ah Interpretations",
+     "pages": [
+      441,
+      442
+     ]
+    },
+    {
+     "topic": "t18.3.2",
+     "chapter": 18,
+     "section": "18.3.2",
+     "title": "Issues: Shari’ah Interpretation and Integrity/Credibility",
+     "pages": [
+      465,
+      469
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "riba",
+     "label": "no Ijtihad against the text on Riba"
+    },
+    {
+     "to": "shariah-governance",
+     "label": "Shari’ah boards apply it"
+    },
+    {
+     "to": "wad",
+     "label": "binding promise via Ibahatul Asliyah"
+    }
+   ]
+  },
+  {
+   "id": "mal",
+   "name": "Mal, ‘Ain and Dayn (property)",
+   "group": "Principles",
+   "primaryTopics": [
+    {
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    },
+    {
+     "topic": "t10.4.1",
+     "chapter": 10,
+     "section": "10.4.1",
+     "title": "Subject Matter of Salam (and Salam in Currencies)",
+     "pages": [
+      244,
+      246
+     ]
+    },
+    {
+     "topic": "t10.11.2",
+     "chapter": 10,
+     "section": "10.11.2",
+     "title": "Subject Matter of Istisna‘a",
+     "pages": [
+      264,
+      265
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    },
+    {
+     "topic": "t10.4.1",
+     "chapter": 10,
+     "section": "10.4.1",
+     "title": "Subject Matter of Salam (and Salam in Currencies)",
+     "pages": [
+      244,
+      246
+     ]
+    },
+    {
+     "topic": "t10.11.2",
+     "chapter": 10,
+     "section": "10.11.2",
+     "title": "Subject Matter of Istisna‘a",
+     "pages": [
+      264,
+      265
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "bai-dayn",
+     "label": "debt cannot be sold at a discount"
+    },
+    {
+     "to": "salam",
+     "label": "Mithli goods"
+    },
+    {
+     "to": "istisna",
+     "label": "Qimi goods"
+    }
+   ]
+  },
+  {
+   "id": "ib-risks",
+   "name": "Risks specific to Islamic banks",
+   "group": "Banking & markets",
+   "primaryTopics": [
+    {
+     "topic": "t4.2.9",
+     "chapter": 4,
+     "section": "4.2.9",
+     "title": "Additional Risks Faced by Islamic Banks",
+     "pages": [
+      84,
+      85
+     ]
+    },
+    {
+     "topic": "t10.10.1",
+     "chapter": 10,
+     "section": "10.10.1",
+     "title": "Risks in Salam and their Management (Box 10.3)",
+     "pages": [
+      258,
+      259
+     ]
+    },
+    {
+     "topic": "t11.5.2",
+     "chapter": 11,
+     "section": "11.5.2",
+     "title": "Issues Concerning Modern Use of Ijarah",
+     "pages": [
+      295,
+      296
+     ]
+    },
+    {
+     "topic": "t15.3.3",
+     "chapter": 15,
+     "section": "15.3.3",
+     "title": "Risk, Contract and Cash Flow Analysis (Box 15.2)",
+     "pages": [
+      395,
+      395
+     ]
+    },
+    {
+     "topic": "t17.4.3",
+     "chapter": 17,
+     "section": "17.4.3",
+     "title": "Difference between Islamic and Conventional Banking",
+     "pages": [
+      447,
+      454
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t4.2.9",
+     "chapter": 4,
+     "section": "4.2.9",
+     "title": "Additional Risks Faced by Islamic Banks",
+     "pages": [
+      84,
+      85
+     ]
+    },
+    {
+     "topic": "t9.10",
+     "chapter": 9,
+     "section": "9.10",
+     "title": "Precautions in Murabaha Operations (Boxes 9.1–9.4)",
+     "pages": [
+      233,
+      237
+     ]
+    },
+    {
+     "topic": "t10.10.1",
+     "chapter": 10,
+     "section": "10.10.1",
+     "title": "Risks in Salam and their Management (Box 10.3)",
+     "pages": [
+      258,
+      259
+     ]
+    },
+    {
+     "topic": "t10.11.11",
+     "chapter": 10,
+     "section": "10.11.11",
+     "title": "Risk Management in Istisna‘a and Comparisons (Boxes 10.9–10.12)",
+     "pages": [
+      269,
+      274
+     ]
+    },
+    {
+     "topic": "t11.5.2",
+     "chapter": 11,
+     "section": "11.5.2",
+     "title": "Issues Concerning Modern Use of Ijarah",
+     "pages": [
+      295,
+      296
+     ]
+    },
+    {
+     "topic": "t11.6",
+     "chapter": 11,
+     "section": "11.6",
+     "title": "Summary of Guidelines for Islamic Bankers on Ijarah (Boxes 11.1–11.4)",
+     "pages": [
+      298,
+      305
+     ]
+    },
+    {
+     "topic": "t14.3.3",
+     "chapter": 14,
+     "section": "14.3.3",
+     "title": "Tenor of Financing",
+     "pages": [
+      362,
+      363
+     ]
+    },
+    {
+     "topic": "t14.3.5",
+     "chapter": 14,
+     "section": "14.3.5",
+     "title": "Operational Controls, Structural, Moral Hazard, Documentation and Legal Issues",
+     "pages": [
+      367,
+      369
+     ]
+    },
+    {
+     "topic": "t15.3.3",
+     "chapter": 15,
+     "section": "15.3.3",
+     "title": "Risk, Contract and Cash Flow Analysis (Box 15.2)",
+     "pages": [
+      395,
+      395
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "kharaj-daman",
+     "label": "reward follows risk"
+    },
+    {
+     "to": "ijarah",
+     "label": "lessor bears asset risk"
+    },
+    {
+     "to": "sukuk",
+     "label": "securitisation risks"
+    }
+   ]
+  },
+  {
+   "id": "derivatives",
+   "name": "Derivatives",
+   "group": "Banking & markets",
+   "primaryTopics": [
+    {
+     "topic": "t8.8.8",
+     "chapter": 8,
+     "section": "8.8.8",
+     "title": "Derivatives and Islamic Finance",
+     "pages": [
+      209,
+      211
+     ]
+    },
+    {
+     "topic": "t4.2.2",
+     "chapter": 4,
+     "section": "4.2.2",
+     "title": "Avoiding Gharar",
+     "pages": [
+      75,
+      75
+     ]
+    },
+    {
+     "topic": "t14.4.5",
+     "chapter": 14,
+     "section": "14.4.5",
+     "title": "Forward Contracts and Foreign Exchange Dealings",
+     "pages": [
+      375,
+      377
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t4.2.2",
+     "chapter": 4,
+     "section": "4.2.2",
+     "title": "Avoiding Gharar",
+     "pages": [
+      75,
+      75
+     ]
+    },
+    {
+     "topic": "t8.8.8",
+     "chapter": 8,
+     "section": "8.8.8",
+     "title": "Derivatives and Islamic Finance",
+     "pages": [
+      209,
+      211
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "gharar",
+     "label": "excessive uncertainty"
+    },
+    {
+     "to": "maisir",
+     "label": "speculation"
+    },
+    {
+     "to": "arbun",
+     "label": "‘Arbun analogy"
+    }
+   ]
+  },
+  {
+   "id": "business-ethics",
+   "name": "Business ethics",
+   "group": "Foundations",
+   "primaryTopics": [
+    {
+     "topic": "t3.3",
+     "chapter": 3,
+     "section": "3.3",
+     "title": "Business Ethics and Norms",
+     "pages": [
+      64,
+      64
+     ]
+    },
+    {
+     "topic": "t3.3.1",
+     "chapter": 3,
+     "section": "3.3.1",
+     "title": "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)",
+     "pages": [
+      64,
+      67
+     ]
+    },
+    {
+     "topic": "t3.3.5",
+     "chapter": 3,
+     "section": "3.3.5",
+     "title": "Freedom from Dharar (Detriment)",
+     "pages": [
+      69,
+      70
+     ]
+    },
+    {
+     "topic": "t18.3.2",
+     "chapter": 18,
+     "section": "18.3.2",
+     "title": "Issues: Shari’ah Interpretation and Integrity/Credibility",
+     "pages": [
+      465,
+      469
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t3.3",
+     "chapter": 3,
+     "section": "3.3",
+     "title": "Business Ethics and Norms",
+     "pages": [
+      64,
+      64
+     ]
+    },
+    {
+     "topic": "t3.3.1",
+     "chapter": 3,
+     "section": "3.3.1",
+     "title": "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)",
+     "pages": [
+      64,
+      67
+     ]
+    },
+    {
+     "topic": "t3.3.4",
+     "chapter": 3,
+     "section": "3.3.4",
+     "title": "Free Marketing and Fair Pricing",
+     "pages": [
+      68,
+      69
+     ]
+    },
+    {
+     "topic": "t3.3.5",
+     "chapter": 3,
+     "section": "3.3.5",
+     "title": "Freedom from Dharar (Detriment)",
+     "pages": [
+      69,
+      70
+     ]
+    },
+    {
+     "topic": "t4.2.8",
+     "chapter": 4,
+     "section": "4.2.8",
+     "title": "Transparency and Documentation",
+     "pages": [
+      83,
+      84
+     ]
+    },
+    {
+     "topic": "t6.5.2",
+     "chapter": 6,
+     "section": "6.5.2",
+     "title": "Prices and the Profit Margin",
+     "pages": [
+      138,
+      139
+     ]
+    },
+    {
+     "topic": "t18.3.2",
+     "chapter": 18,
+     "section": "18.3.2",
+     "title": "Issues: Shari’ah Interpretation and Integrity/Credibility",
+     "pages": [
+      465,
+      469
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "islamic-economics",
+     "label": "moral basis"
+    },
+    {
+     "to": "shariah-governance",
+     "label": "codes of conduct"
+    },
+    {
+     "to": "late-payment-penalty",
+     "label": "fines on wilful defaulters go to charity"
     }
    ]
   }

@@ -423,9 +423,9 @@ html.reduce-motion .flash.flipped .front, html.reduce-motion .flash:not(.flipped
 .diagram-svg .party.active rect { stroke: var(--accent); stroke-width: 2.5; }
 .diagram-svg .edge path { stroke: var(--border-strong); stroke-width: 1.6; fill: none; }
 .diagram-svg .edge text { fill: var(--text-3); font-size: 11px; font-family: var(--font-sans); }
-.diagram-svg .edge .lbl { display: none; paint-order: stroke; stroke: var(--bg-sunk); stroke-width: 5px; stroke-linejoin: round; font-size: 12.5px; }
-.diagram-svg .edge.active .lbl { display: inline; }
-.diagram-svg .edge:hover .lbl, .diagram-svg .edge:focus .lbl { display: inline; }
+.diagram-svg .dlbl { display: none; paint-order: stroke; stroke: var(--bg-sunk); stroke-width: 6px; stroke-linejoin: round; font-size: 12.5px; font-family: var(--font-sans); fill: var(--text-2); pointer-events: none; }
+.diagram-svg .dlbl.active { display: inline; fill: var(--accent); font-weight: 700; }
+.diagram-svg .dlbl.hover { display: inline; }
 .diagram-svg .edge .num { fill: var(--bg-elev); stroke: var(--border-strong); }
 .diagram-svg .edge .numt { fill: var(--text-2); font-size: 10px; font-weight: 700; }
 .diagram-svg .edge.done path { stroke: var(--text-3); }
@@ -538,6 +538,7 @@ mark { background: var(--gold-soft); color: inherit; padding: 0 2px; border-radi
   .hero > div:last-child { display: flex; flex-direction: column; align-items: center; }
   .grade-bar { gap: 6px; }
 }
+tr.current td { background: var(--accent-soft); }
 
 </style>
   <script>
@@ -2448,7 +2449,63 @@ IFL_DATA.register('concepts', [
     distinction: "Distinguish the criticism, the author's response and open issues.",
     trigger: "‘Critically evaluate’ questions.",
     topics: ["t17.2", "t17.3.7", "t17.4.1", "t17.4.3", "t17.4.6"],
-    links: [{ to: "islamic-banking", label: "evaluates" }, { to: "debt-equity", label: "debate" }] }
+    links: [{ to: "islamic-banking", label: "evaluates" }, { to: "debt-equity", label: "debate" }] },
+  { id: "qabd", name: "Qabd (possession)", group: "Principles", tags: ["qabd"],
+    oneLine: "A seller must own and possess the goods, physically or constructively, before selling them; possession means their risk and control have passed to him.",
+    points: ["Constructive (Hukmi) possession suffices: the goods are at the possessor’s risk and he can take delivery at will.", "Sale before ownership is void; before that, only a promise to sell is allowed.", "Short-selling and resale before possession are invalid."],
+    distinction: "Ownership (title) and possession (risk and control) are separate tests; Murabaha needs both before the sale to the client.",
+    trigger: "Murabaha, MPO and resale questions; “can the bank sell goods it has ordered but not received?”",
+    topics: ["t5.4.2", "t6.5.1", "t9.2", "t9.8.3"],
+    links: [{ to: "bai", label: "condition of a valid sale" }, { to: "murabaha", label: "bank must possess before selling" }, { to: "salam", label: "Salam goods cannot be resold before possession" }] },
+  { id: "arbun", name: "Hamish Jiddiyah and ‘Arbun", group: "Principles", tags: ["arbun"],
+    oneLine: "Hamish Jiddiyah is security money taken before a sale to show seriousness; ‘Arbun is earnest money paid at execution as part of the price.",
+    points: ["Hamish Jiddiyah is held in trust: adjusted in the price, or only the actual loss is deducted if the promise is broken.", "‘Arbun: the Hanbalis allow it; the OIC Fiqh Council and AAOIFI accept it with a specified time limit; AAOIFI prefers refunding the excess over actual loss.", "Cost of funds is not part of actual loss."],
+    distinction: "Timing: Hamish Jiddiyah comes before the sale is executed; ‘Arbun at or after execution, as part of the price.",
+    trigger: "Promise to purchase broken; downpayments in Murabaha, Istisna‘a or Ijarah; ‘Arbun-based options.",
+    topics: ["t5.6.1", "t6.9", "t10.11.3", "t8.8.8"],
+    links: [{ to: "wad", label: "secures a promise" }, { to: "murabaha", label: "used in MPO" }, { to: "derivatives", label: "call-option analogy" }] },
+  { id: "security", name: "Kafalah and Rahn (security)", group: "Accessory contracts", tags: ["kafalah", "rihn", "collateral"],
+    oneLine: "Kafalah is suretyship by a third party for a debt; Rahn (Rihn) is a pledge of the debtor’s asset held by the creditor in trust.",
+    points: ["A pledged asset stays the pledger’s: its gains and losses are his, and it cannot be appropriated in lieu of the debt.", "On default it may be sold through the court or an irrevocable power of attorney, with any excess returned.", "Guarantees are gratuitous: fees may cover expenses only, amount-based not time-based; a called guarantee recovers principal only."],
+    distinction: "Security protects recovery of what is owed; it never justifies taking more than the debt, and in PLS it covers only negligence or breach.",
+    trigger: "Collateral questions; Salam security; L/G fees; “Islamic banks take collateral like conventional banks”.",
+    topics: ["t7.15", "t10.5", "t5.8", "t14.6", "t17.4.3"],
+    links: [{ to: "qard", label: "secures loans and debts" }, { to: "salam", label: "security in Salam" }, { to: "musharakah", label: "only for negligence in PLS" }] },
+  { id: "ijtihad", name: "Sources and Ijtihad", group: "Foundations", tags: ["ijtihad", "shariah"],
+    oneLine: "The Qur’an and Sunnah are primary sources; Ijma‘a and Qiyas are secondary, reached by Ijtihad — scholarly effort to solve new problems in their light.",
+    points: ["Juristic tools include Maslaha-e-Mursalah (general welfare) and ‘Urf (custom).", "Ibahatul Asliyah: in dealings, whatever is not expressly prohibited is permissible.", "Ijtihad cannot override a clear text (Nass) and must serve the Maqasid."],
+    distinction: "Ijtihad provides flexibility within the Shari’ah; it does not turn divine law into man-made law or license a Fatwa for every conventional product.",
+    trigger: "Different interpretations, standardisation, indexation, “why can’t scholars just allow it?”",
+    topics: ["t2.2.1", "t17.3.6", "t18.3.2", "t17.3.3"],
+    links: [{ to: "riba", label: "no Ijtihad against the text on Riba" }, { to: "shariah-governance", label: "Shari’ah boards apply it" }, { to: "wad", label: "binding promise via Ibahatul Asliyah" }] },
+  { id: "mal", name: "Mal, ‘Ain and Dayn (property)", group: "Principles", tags: ["mal", "ain-dayn", "mithli-qimi"],
+    oneLine: "Mal is anything of value that can be possessed and lawfully used; property is either specific (‘Ain) or an obligation (Dayn), and fungible (Mithli) or non-fungible (Qimi).",
+    points: ["Money is Thaman (price), not Mabi‘ (subject of sale).", "Owning an asset includes its usufruct, but owning usufruct does not include the asset (as in Ijarah).", "Mithli goods suit Salam; Qimi goods suit Istisna‘a."],
+    distinction: "‘Ain can be sold at any agreed price; Dayn (a debt) can be transferred only at face value.",
+    trigger: "What may be sold, leased or used in Salam; sale of debt; intangible rights.",
+    topics: ["t5.2", "t10.4.1", "t10.11.2"],
+    links: [{ to: "bai-dayn", label: "debt cannot be sold at a discount" }, { to: "salam", label: "Mithli goods" }, { to: "istisna", label: "Qimi goods" }] },
+  { id: "ib-risks", name: "Risks specific to Islamic banks", group: "Banking & markets", tags: ["risk-management", "risk"],
+    oneLine: "Beyond normal banking risks, Islamic banks face asset, market and Shari’ah non-compliance risk, and greater rate-of-return, fiduciary, legal and withdrawal risk.",
+    points: ["A Murabaha receivable cannot rise when market rates rise (rate-of-return risk).", "Non-compliance sends income to charity and brings reputational and withdrawal risk.", "Risks may be mitigated (promises, Parallel Salam, Takaful, security) but not shifted where the Shari’ah assigns them to the bank."],
+    distinction: "Risk management is allowed; transferring risk to another party without transferring the related reward is not.",
+    trigger: "“Islamic banks take no risk”, securitisation risk analysis, Ijarah asset loss.",
+    topics: ["t4.2.9", "t10.10.1", "t11.5.2", "t15.3.3", "t17.4.3"],
+    links: [{ to: "kharaj-daman", label: "reward follows risk" }, { to: "ijarah", label: "lessor bears asset risk" }, { to: "sukuk", label: "securitisation risks" }] },
+  { id: "derivatives", name: "Derivatives", group: "Banking & markets", tags: ["derivatives"],
+    oneLine: "Conventional derivatives rest on debts and rights rather than delivery; options give a right without obligation and have no direct Islamic equivalent.",
+    points: ["Some suggest ‘Arbun-based call options; reverse ‘Arbun puts are rejected by Al-Dharir.", "Options on currencies, interest rates and indices have no place in Islamic finance.", "Salam, Istisna‘a and Parallel Salam are only imperfect hedging substitutes."],
+    distinction: "Islamic hedging uses real contracts with delivery; speculative instruments priced on chance are Gharar and Maisir.",
+    trigger: "Hedging, forward FX cover, “why is there no Islamic option?”",
+    topics: ["t8.8.8", "t4.2.2", "t14.4.5"],
+    links: [{ to: "gharar", label: "excessive uncertainty" }, { to: "maisir", label: "speculation" }, { to: "arbun", label: "‘Arbun analogy" }] },
+  { id: "business-ethics", name: "Business ethics", group: "Foundations", tags: ["business-ethics", "najash", "dharar", "shufah", "fair-pricing", "transparency", "ethics"],
+    oneLine: "Giving everyone their due is the cardinal principle: justice, honesty, disclosure of defects and freedom from harm (Dharar) in all dealings.",
+    points: ["Prohibited: Najash (bidding up without intent to buy), Khalabah (misleading marketing), Ghaban (defrauding on specifications or price).", "Deceiving an unknowing market entrant (Mustarsal) is described as Riba.", "Contracts must not harm third parties; Shuf‘ah (a partner’s pre-emptive right) is an example."],
+    distinction: "Legal validity is not enough; a transaction must also be fair, transparent and free of exploitation.",
+    trigger: "Fair pricing, disclosure, market manipulation, Islamic bank codes of conduct.",
+    topics: ["t3.3", "t3.3.1", "t3.3.5", "t18.3.2"],
+    links: [{ to: "islamic-economics", label: "moral basis" }, { to: "shariah-governance", label: "codes of conduct" }, { to: "late-payment-penalty", label: "fines on wilful defaulters go to charity" }] }
 ]);
 
 </script>
@@ -2618,7 +2675,95 @@ IFL_DATA.register('diagrams', [
       { from: "fund", to: "participants", kind: "cash", label: "Underwriting surplus", detail: "Belongs to participants; deficits covered by Qard al Hasan from shareholders." }
     ],
     rules: ["Operator should not take UWS as a risk-taker.", "Only Shari’ah-compliant investments."],
-    pitfalls: ["Operator sharing surplus but not deficit"] }
+    pitfalls: ["Operator sharing surplus but not deficit"] },
+  { id: "tawarruq", title: "Tawarruq (acceptable form)", topic: "t13.3", concept: "tawarruq",
+    summary: "A person needing cash buys a commodity from the bank on credit, takes possession and sells it to an unrelated third party for spot cash. Selling it back to the bank would be ‘Inah.",
+    parties: [{ id: "market", label: "Commodity market", x: 12, y: 10 }, { id: "bank", label: "Islamic bank", x: 60, y: 10 }, { id: "client", label: "Mutawarriq (client)", x: 30, y: 52 }, { id: "buyer", label: "Unrelated third-party buyer", x: 85, y: 52 }],
+    steps: [
+      { from: "bank", to: "market", kind: "cash", label: "Bank buys commodity for cash", detail: "A liquid commodity with a brisk market; the bank takes ownership and risk (pp. 350–351)." },
+      { from: "market", to: "bank", kind: "goods", label: "Ownership and possession to bank", detail: "The bank must not appoint the client as agent to buy and then sell to himself (p. 350)." },
+      { from: "bank", to: "client", kind: "contract", label: "Credit sale (Murabaha)", detail: "A separate contract with proper offer and acceptance." },
+      { from: "bank", to: "client", kind: "ownership", label: "Client takes delivery", detail: "Asset risk passes to the client." },
+      { from: "client", to: "buyer", kind: "goods", label: "Spot sale to a third party", detail: "Not to the original seller, directly or through an agent (AAOIFI)." },
+      { from: "buyer", to: "client", kind: "cash", label: "Cash to client", detail: "The client gets liquidity." },
+      { from: "client", to: "bank", kind: "cash", label: "Deferred price paid", detail: "Fixed price; no increase for delay." }
+    ],
+    rules: ["Sale back to the bank is ‘Inah, which is invalid.", "An agency to sell, stipulated in the sale, is invalid; if made after an unconditional sale it is valid but not advisable.", "Limit to unavoidable liquidity needs, under Shari’ah-board supervision (p. 351)."],
+    pitfalls: ["Paper-only commodity trades where goods never move", "Using Tawarruq for consumer finance at scale"] },
+  { id: "jualah", title: "Ju‘alah with Parallel Ju‘alah (Figure 13.1)", topic: "t13.4.5", concept: "jualah",
+    summary: "The bank undertakes uncertain work for a customer for an agreed reward, and has it done by a specialist under a separate, independent Parallel Ju‘alah.",
+    parties: [{ id: "customer", label: "Customer (offeror)", x: 12, y: 30 }, { id: "bank", label: "Islamic bank", x: 50, y: 30 }, { id: "worker", label: "Specialist worker", x: 88, y: 30 }],
+    steps: [
+      { from: "customer", to: "bank", kind: "contract", label: "1 · Negotiates uncertain work, time, reward", detail: "E.g. recovery of a debt or a lost asset (p. 353)." },
+      { from: "bank", to: "customer", kind: "contract", label: "2 · Ju‘alah contract", detail: "After a cost–benefit analysis." },
+      { from: "bank", to: "worker", kind: "contract", label: "3 · Parallel Ju‘alah", detail: "Allowed only if the first contract does not require the bank to do the work itself." },
+      { from: "bank", to: "worker", kind: "cash", label: "4 · Reward paid on completion", detail: "No result, no reward; revocation after work starts means a market wage." },
+      { from: "customer", to: "bank", kind: "cash", label: "5 · Bank collects its reward", detail: "The bank’s margin is the difference between the two rewards." }
+    ],
+    rules: ["Reward known and deliverable; it may be a share of the result.", "The two contracts are independent.", "The task must not already be the worker’s legal duty."],
+    pitfalls: ["Paying the full reward before the result as if earned", "Making one contract conditional on the other"] },
+  { id: "securitisation", title: "Securitisation through an SPV (Figure 15.1)", topic: "t15.3.1", concept: "sukuk",
+    summary: "The originator sells assets to a bankruptcy-remote SPV, which funds the purchase by issuing Sukuk. Holders own the assets pro rata and receive the cash flows they generate.",
+    parties: [{ id: "originator", label: "Originator", x: 12, y: 15 }, { id: "spv", label: "SPV (trustee/issuer)", x: 50, y: 15 }, { id: "investors", label: "Sukuk holders", x: 88, y: 15 }, { id: "obligors", label: "Obligors / lessees", x: 50, y: 50 }],
+    steps: [
+      { from: "originator", to: "spv", kind: "ownership", label: "True sale of assets", detail: "Proper segregation; irreversible even on the originator’s insolvency (p. 395)." },
+      { from: "spv", to: "investors", kind: "contract", label: "Issues Sukuk", detail: "Certificates of undivided ownership in the assets." },
+      { from: "investors", to: "spv", kind: "cash", label: "Subscription proceeds", detail: "Used to pay the purchase price." },
+      { from: "spv", to: "originator", kind: "cash", label: "Purchase price", detail: "The originator turns illiquid assets into cash (accumulator becomes distributor)." },
+      { from: "obligors", to: "spv", kind: "rent", label: "Rentals / collections", detail: "Collected by a servicer and paid to the SPV." },
+      { from: "spv", to: "investors", kind: "cash", label: "Pass-through or pay-through distributions", detail: "Returns come from the assets’ cash flows." }
+    ],
+    rules: ["Ownership must pass to holders; rent receivables alone are debt.", "Pools of receivables trade only under Hawalah rules unless tangible assets exceed the threshold.", "No issuer guarantee of capital or fixed profit (AAOIFI)."],
+    pitfalls: ["Securitising credit-card receivables as tradable paper", "Guaranteed fixed returns"] },
+  { id: "deposit-pool", title: "Two-tier Mudarabah deposit pool", topic: "t12.7.1", concept: "mudarabah",
+    summary: "Depositors are Rabbul-mal and the bank is Mudarib. Pooled funds are invested with fund users; net pool income is shared by the agreed ratio and then among depositors by weightages and daily products.",
+    parties: [{ id: "depositors", label: "Depositors (Rabbul-mal)", x: 12, y: 30 }, { id: "bank", label: "Bank (Mudarib)", x: 50, y: 30 }, { id: "users", label: "Fund users (Murabaha, Ijarah, Musharakah…)", x: 88, y: 30 }],
+    steps: [
+      { from: "depositors", to: "bank", kind: "cash", label: "Deposits pooled", detail: "Weightages by tenor and disclosed; changed only at the start of a period (p. 331)." },
+      { from: "bank", to: "users", kind: "cash", label: "Funds invested", detail: "Through trade, lease and partnership modes." },
+      { from: "users", to: "bank", kind: "cash", label: "Returns to the pool", detail: "Direct expenses charged to the pool; head-office costs borne by the bank." },
+      { from: "bank", to: "depositors", kind: "contract", label: "Profit shared: pool vs Mudarib", detail: "By the agreed ratio after constructive liquidation." },
+      { from: "bank", to: "depositors", kind: "cash", label: "Pool share distributed", detail: "By daily products and weightages. A loss is borne by the pool by investment ratio, and the bank then earns nothing." }
+    ],
+    rules: ["No fixed return may be promised.", "Bank equity: Musharakah if added at the pool’s creation, Mudarabah if added later.", "Donations from the bank’s own profit are allowed if not pre-agreed."],
+    pitfalls: ["Charging head-office costs to the pool", "Secret profit smoothing without disclosure"] },
+  { id: "salam-murabaha", title: "Salam + Murabaha for cotton (Box 14.2)", topic: "t14.3.2", concept: "salam",
+    summary: "The bank buys cotton from growers by Salam, takes a textile mill’s promise to buy, appoints the mill its agent to take delivery, and then sells the cotton to the mill by Murabaha.",
+    parties: [{ id: "grower", label: "Cotton grower", x: 12, y: 30 }, { id: "bank", label: "Islamic bank", x: 50, y: 30 }, { id: "mill", label: "Textile mill", x: 88, y: 30 }],
+    steps: [
+      { from: "bank", to: "grower", kind: "cash", label: "Salam price paid in full", detail: "The grower gets cash for future produce." },
+      { from: "mill", to: "bank", kind: "promise", label: "Promise to buy at an agreed price", detail: "Hedges the mill against price rises." },
+      { from: "grower", to: "mill", kind: "goods", label: "Delivery to the mill as the bank’s agent", detail: "The mill takes delivery on the bank’s behalf; the goods are at the bank’s risk." },
+      { from: "bank", to: "mill", kind: "contract", label: "Murabaha sale", detail: "Offer and acceptance after the mill reports possession." },
+      { from: "mill", to: "bank", kind: "cash", label: "Deferred Murabaha price", detail: "The bank avoids holding inventory." }
+    ],
+    rules: ["The two contracts are separate.", "Salam goods cannot be sold before possession; hence the promise and the later Murabaha."],
+    pitfalls: ["Selling to the mill before the bank takes (constructive) delivery"] },
+  { id: "salam-sugar", title: "Salam with agency for working capital (sugar mill)", topic: "t14.4.1", concept: "salam",
+    summary: "The bank prepays a sugar mill under Salam. At delivery it takes possession and appoints the mill its agent to sell the sugar at an agreed price; the bank bears the price risk.",
+    parties: [{ id: "bank", label: "Islamic bank", x: 15, y: 30 }, { id: "mill", label: "Sugar mill (seller and agent)", x: 50, y: 30 }, { id: "market", label: "Market buyers", x: 85, y: 30 }],
+    steps: [
+      { from: "bank", to: "mill", kind: "cash", label: "Full Salam price in advance", detail: "The bank may take a charge on the mill’s assets (p. 370)." },
+      { from: "bank", to: "mill", kind: "agency", label: "Agency agreement to sell", detail: "At an agreed price; an excess may be kept by the mill as a bonus if agreed." },
+      { from: "mill", to: "bank", kind: "goods", label: "Delivery from the godowns", detail: "The bank takes delivery before authorising the sale." },
+      { from: "mill", to: "market", kind: "goods", label: "Mill sells as agent", detail: "On the bank’s behalf." },
+      { from: "mill", to: "bank", kind: "cash", label: "Sale proceeds to bank", detail: "If the market price falls below the agreed price, the bank bears the loss." }
+    ],
+    rules: ["Salam capital paid in full at contract.", "The bank must take delivery before the agent sells."],
+    pitfalls: ["Guaranteeing the bank’s return through the mill"] },
+  { id: "iers", title: "SBP Islamic Export Refinance Scheme", topic: "t14.4.6", concept: "musharakah",
+    summary: "The State Bank shares in the actual profit of an Islamic bank’s Musharakah pool of export financings. Profit above the conventional EFS rate goes to a Takaful fund held by SBP.",
+    parties: [{ id: "sbp", label: "State Bank of Pakistan", x: 12, y: 10 }, { id: "bank", label: "Islamic bank’s Musharakah pool", x: 50, y: 42 }, { id: "exporters", label: "Blue-chip exporters (≥10)", x: 88, y: 10 }, { id: "fund", label: "Takaful fund at SBP", x: 12, y: 55 }],
+    steps: [
+      { from: "sbp", to: "bank", kind: "cash", label: "Refinance into the pool", detail: "Only against underlying transactions approved by the bank’s Shari’ah board." },
+      { from: "bank", to: "exporters", kind: "cash", label: "Export finance by Islamic modes", detail: "Pool of at least ten blue-chip companies." },
+      { from: "exporters", to: "bank", kind: "cash", label: "Pool income", detail: "Shared on a daily-product basis." },
+      { from: "bank", to: "sbp", kind: "cash", label: "SBP’s profit share (quarterly, provisional)", detail: "Settled against audited accounts." },
+      { from: "bank", to: "fund", kind: "cash", label: "Excess profit to Takaful fund", detail: "Within seven days of determination." },
+      { from: "fund", to: "sbp", kind: "risk", label: "Absorbs SBP’s loss share first", detail: "Losses are shared by investment ratio." }
+    ],
+    rules: ["Profit and loss are actual, not fixed.", "SBP’s loss share is met first from the Takaful fund."],
+    pitfalls: ["Treating refinance as a fixed-rate loan"] }
 ]);
 
 </script>
@@ -2689,7 +2834,21 @@ IFL_DATA.register('comparisons', {
     { id: "ju-alah-ijarah", title: "Ju‘alah vs Ijarah of services (Ujrah)", topic: "t13.4.3", cols: ["Ju‘alah", "Ijarah / Ujrah"],
       rows: [["Worker", "May be unspecified (public offer)", "Specified"], ["Work", "Result specified; effort uncertain", "Work and wage specified"], ["Entitlement", "Only on result", "For time worked"], ["Acceptance", "Not needed for public offer", "Required"]] },
     { id: "contracts-validity", title: "Valid, voidable and void contracts", topic: "t5.7", cols: ["Sahih (valid)", "Fasid (voidable — Hanafi category)", "Batil (void)"],
-      rows: [["Essence (Asl) and attributes (Wasf)", "Both correct", "Essence lawful, an attribute defective", "Major condition missing or illegal attribute"], ["Causes", "—", "Coercion (Hanafi), missing information, invalid conditions", "Defects in form, capacity, subject matter or delivery; Riba, Gharar, Qimar"], ["Effect", "Full legal effect", "Ownership passes on consented possession; market value applies", "No effect; goods must be returned"], ["Cure", "—", "Remove the defect and it becomes valid", "Cannot be cured"]] }
+      rows: [["Essence (Asl) and attributes (Wasf)", "Both correct", "Essence lawful, an attribute defective", "Major condition missing or illegal attribute"], ["Causes", "—", "Coercion (Hanafi), missing information, invalid conditions", "Defects in form, capacity, subject matter or delivery; Riba, Gharar, Qimar"], ["Effect", "Full legal effect", "Ownership passes on consented possession; market value applies", "No effect; goods must be returned"], ["Cure", "—", "Remove the defect and it becomes valid", "Cannot be cured"]] },
+    { id: "shirkah-kinds", title: "Kinds of contractual Shirkah (Section 12.2.2)", topic: "t12.2.2", cols: ["Shirkah al ‘Inan", "Mufawadah", "Shirkatula‘mal", "Shirkatul Wujooh", "Mudarabah"],
+      rows: [["Subject", "Joint capital", "Everything equal: property, privileges, persuasion", "Joint labour or crafts", "Joint purchases on personal credit", "Capital from one side, labour from the other"], ["Status", "Consensus of all jurists", "Hanafi only; practically non-existent", "Not recognised by Shafi‘i, Jafari and Zahiri schools, which accept only ‘Inan and Mudarabah", "Shafi‘i: unlawful; Malikis: only with obligations specified; Hanafi/Hanbali: valid", "Consensus of all jurists"], ["Partner relation", "Agent, not surety", "Equal in all respects", "Share earnings from work", "Liability as agreed at the start", "Mudarib is an agent until profit arises"], ["Example", "Modern business partnership", "—", "Doctors, teachers, transporters", "Joint credit purchase for resale", "Investor funds a trader"]] },
+    { id: "hj-arbun", title: "Hamish Jiddiyah vs ‘Arbun (Section 5.6.1)", topic: "t5.6.1", cols: ["Hamish Jiddiyah", "‘Arbun"],
+      rows: [["When paid", "Before the sale, with a promise", "At or after execution of the sale"], ["Nature", "Security held in trust", "Part of the price"], ["If buyer backs out", "Only actual loss deducted; rest refunded", "Seller may keep it (AAOIFI prefers refunding excess over actual loss)"], ["If sale proceeds", "Adjusted against the price", "Counts towards the price"], ["Juristic basis", "Securing a promise", "Hanbali view; OIC Fiqh Council and AAOIFI with a time limit"]] },
+    { id: "kafalah-rahn", title: "Kafalah vs Rahn (Section 7.15)", topic: "t7.15", cols: ["Kafalah (suretyship)", "Rahn / Rihn (pledge)"],
+      rows: [["Security given by", "A third-party surety", "The debtor, pledging an asset"], ["What the creditor holds", "A claim against the surety", "The asset, in trust"], ["Gains and losses", "—", "Belong to the pledger"], ["On default", "Surety pays; may receive Zakat as Gharim", "Sold via court or power of attorney; excess returned; no appropriation in lieu of debt"], ["Fee", "Gratuitous; only expenses may be charged", "No benefit to the pledgee in a loan"]] },
+    { id: "qard-dayn-default", title: "Qard vs Dayn on default (Sections 7.12, 17.4.4)", topic: "t17.4.4", cols: ["Qard (loan)", "Dayn from sale or Ijarah"],
+      rows: [["Origin", "Gratuitous lending", "Business transaction"], ["Debtor in genuine hardship", "Give more time or forgive", "Give more time; no charge"], ["Wilful, solvent defaulter", "Give more time (penalties are approved for Dayn only)", "Fine for charity plus actual loss may be claimed"], ["Remission for early payment", "Allowed for debts already due", "Contractual rebate not allowed; bank discretion (AAOIFI)"], ["Increase over principal", "Riba", "Riba — the price cannot be raised"]] },
+    { id: "takaful-models", title: "Takaful models (Section 16.4.1)", topic: "t16.4.1", cols: ["Wakalah", "Mudarabah", "Wakalah–Mudarabah", "Waqf / Wakalah–Waqf"],
+      rows: [["Operator income", "Fixed % fee (e.g. 30 %)", "Share of investment profit and UWS", "Fee plus shares", "Fee plus Mudarib share of investment profit"], ["Underwriting surplus", "Participants (sometimes a performance share to the operator)", "Shared with operator", "Shared with operator", "Belongs to the Waqf fund and its beneficiaries"], ["Deficit", "Participants; Qard from operator", "Operator bears none", "Operator bears none", "Reserves, then Qard from shareholders"], ["Main objection", "Not equitable", "A donation cannot be Mudarabah capital; takes UWS not UWL", "Mudarib cannot also charge fees", "Recommended by 40+ scholars"]] },
+    { id: "cards", title: "Debit vs charge vs credit card (Section 14.4.7)", topic: "t14.4.7", cols: ["Debit card", "Charge card", "Credit card"],
+      rows: [["Funds", "Holder’s own balance", "Credit up to a ceiling, paid in full on statement", "Revolving credit up to a limit"], ["Conventional cost", "Fees for cash or FX use", "Interest after the free period", "Interest on the rolled-over balance"], ["Islamic form", "Permissible within the balance", "Permissible without interest; fixed fees", "Only interest-free (e.g. EIB, KFH); ‘Inah-based cards questionable"], ["Permitted income", "Fees; merchant commission", "Membership/renewal fees; merchant commission", "Fixed fees; flat cash-withdrawal fee; merchant commission"]] },
+    { id: "inah-saleleaseback", title: "Bai‘ al ‘Inah vs sale and lease-back (Sections 6.11, 15.3.4)", topic: "t15.3.4", cols: ["Bai‘ al ‘Inah", "Sale and lease-back"],
+      rows: [["Structure", "Sell on credit, buy back cheaper for cash (or vice versa)", "Buy an asset from a party, then lease it to that party"], ["Net effect", "A loan with interest", "Owner bears ownership risk and earns rent"], ["Juristic view", "Prohibited by the jurists in general", "Allowed if the sale is complete before the Ijarah"], ["Safeguard", "—", "Repurchase at least a year later (scholars’ recommendation)"], ["Use", "Some Malaysian bonds and cards (criticised)", "Most sovereign Ijarah Sukuk; not desirable for consumer durables"]] }
   ]
 });
 
@@ -2799,7 +2958,93 @@ IFL_DATA.register('cases', [
       { q: "What about goods consumed before the offer?", options: ["Fine", "Murabaha cannot be executed on goods that no longer exist", "Increase the price", "Treat as Ijarah"], answer: 1, explanation: "Goods must exist at offer and acceptance (Section 14.3.4)." }
     ],
     analysis: "Sequencing and existence of goods decide compliance; income from such transactions should go to charity per Shari’ah board rulings.",
-    takeaways: ["Agency before purchase", "Goods must exist at sale"] }
+    takeaways: ["Agency before purchase", "Goods must exist at sale"] },
+  { id: "c-wapda", kind: "textbook", title: "WAPDA’s local-currency Ijarah Sukuk (Box 15.7)", topic: "t15.4.cases", mode: "sukuk",
+    scenario: "WAPDA needed funds to expand power generation. An SPV, WAPDA First Sukuk Co (WFS), bought ten generation units at the Mangla Hydel Power Station from WAPDA and leased them back to WAPDA for seven years. The issue raised PKR 8,000 million. Rent is 6-month KIBOR + 35 bps, paid semi-annually. At maturity WAPDA buys the turbines back under a unilateral undertaking, and the government of Pakistan guarantees WAPDA’s payment obligation.",
+    facts: ["PKR 8,000m, privately placed floating-rate notes", "Asset: ten Mangla turbines; 7-year lease-back", "Rent: 6-m KIBOR + 35 bps, semi-annual", "Government guarantee; eligible for banks’ SLR"],
+    questions: [
+      { q: "What do the Sukuk holders own?", options: ["A loan to WAPDA", "Through WFS, the turbines, with the related ownership risk", "WAPDA shares", "A claim on KIBOR"], answer: 1, explanation: "Ijarah Sukuk must represent ownership of the leased assets, not only the right to rent (pp. 402, 414)." },
+      { q: "Rent is tied to KIBOR. Does that make the Sukuk interest-based?", options: ["Yes", "No — mainstream scholars allow an interest benchmark to price rent, though not ideal; the lessor still bears ownership risk", "Only if KIBOR rises", "Only for banks"], answer: 1, explanation: "p. 401; Chapter 11 on benchmarks." },
+      { q: "How does WAPDA’s repurchase avoid being ‘Inah?", options: ["It does not", "It is a unilateral undertaking to buy after a seven-year lease, not a condition-linked immediate buy-back", "Because the government guarantees it", "Because the rent is floating"], answer: 1, explanation: "Sale and lease-back is allowed if the sale is complete first; scholars recommend at least a year before repurchase (p. 397)." },
+      { q: "Why could Islamic banks hold these Sukuk for their statutory liquidity requirement?", options: ["Because they pay interest", "Because the government guaranteed WAPDA’s payment obligation", "Because they are shares", "Because they are Salam"], answer: 1, explanation: "Box 15.7." }
+    ],
+    analysis: "A standard sovereign-type sale and lease-back. The Shari’ah questions are whether ownership genuinely passed to WFS and whether the contracts are independent. The book’s wider concern (Section 15.3.7) is that returns presented as fixed sit uneasily with the lessor’s ownership risks.",
+    takeaways: ["Ownership, not just rent, must pass", "Benchmark is a pricing tool", "Repurchase by separate undertaking", "Guarantee made it SLR-eligible"] },
+  { id: "c-nakheel", kind: "textbook", title: "Nakheel’s US$3.52 billion Sukuk (Box 15.5)", topic: "t15.4.cases", mode: "sukuk",
+    scenario: "Nakheel, the property arm of Dubai’s DP World group, launched a three-year Sukuk structured as a convertible sale and lease-back. The initial offer of US$2.5 billion was raised to US$3.52 billion, priced at LIBOR + 120 bps and listed on the Dubai International Financial Exchange. Barclays Capital and Dubai Islamic Bank were joint lead managers. Security included a mortgage on land, a pledge of shares in the operating company and a guarantee from Dubai World.",
+    facts: ["US$3.52bn (up from 2.5bn), 3 years, LIBOR + 120 bps", "About 100 accounts: 38 % Middle East, 40 % Europe, 22 % rest of world", "55 % banks, 35 % fixed-income and convertible funds", "Mortgage, share pledge, Dubai World guarantee"],
+    questions: [
+      { q: "If LIBOR is 5.25 %, what periodic rate do holders receive?", options: ["5.25 %", "6.45 %", "1.20 %", "6.25 %"], answer: 1, explanation: "5.25 + 1.20 = 6.45 % (Box 15.5)." },
+      { q: "What does the investor profile suggest, according to the chapter?", options: ["Sukuk appeal only to Gulf investors", "Strong demand beyond the Muslim world — 40 % European", "Sukuk are illiquid", "Only individuals buy Sukuk"], answer: 1, explanation: "p. 411." },
+      { q: "Which feature raises the Section 15.3.7 concern most directly?", options: ["Listing on an exchange", "A return presented as conclusively fixed, backed by a group guarantee", "The use of a lead manager", "The three-year tenor"], answer: 1, explanation: "The book questions pre-fixed returns and issuer-side guarantees (pp. 409–410)." }
+    ],
+    analysis: "The book presents Nakheel as evidence of the market’s depth and liquidity: active secondary trading followed the December 2006 issue. Read against Section 15.3.7, it also shows how strongly Sukuk are structured to look like fixed-income bonds.",
+    takeaways: ["Global investor base", "LIBOR-based pricing", "Heavy security package", "Fixed-return concern"] },
+  { id: "c-dm-construction", kind: "textbook", title: "Building a house on the client’s land by DM (Box 12.4)", topic: "t12.9.2", mode: "dm",
+    scenario: "A client owns a plot worth 1,000,000 dirhams and needs 800,000 to build a house. The bank buys 8 of 10 units of the land (800,000) to create joint ownership and pays the proceeds in four equal instalments. The client builds with the money. When the house is habitable the bank leases its share to the client, who has undertaken to buy the bank’s units on a pre-agreed price schedule.",
+    facts: ["Land 1,000,000; bank buys 8 units of 100,000", "Disbursement in four instalments of 200,000", "Shirkatulmilk with a pre-agreed unit price schedule", "Rent on the bank’s share once habitable"],
+    questions: [
+      { q: "How much is each disbursement instalment?", options: ["100,000", "200,000", "800,000", "250,000"], answer: 1, explanation: "800,000 ÷ 4 (Box 12.4)." },
+      { q: "When does the bank begin selling its units to the client?", options: ["Immediately", "One year after the last instalment", "When construction starts", "After ten years"], answer: 1, explanation: "The one-year gap is suggested to avoid Bai‘ al ‘Inah (p. 341)." },
+      { q: "During the first year after the house is ready, what happens to the rent?", options: ["It decreases monthly", "It stays constant — only rent is paid, since no units are sold yet", "It is waived", "It doubles"], answer: 1, explanation: "Box 12.4." },
+      { q: "In a renovation case (client already lives in the house), when does rent start?", options: ["After a year", "From the first month after the first tranche", "Never", "At completion only"], answer: 1, explanation: "Box 12.4." }
+    ],
+    analysis: "The structure is a purchase and lease-back of undivided shares in Shirkatulmilk, so a pre-agreed unit price is allowed. The one-year gap before unit sales keeps the purchase and resale from collapsing into ‘Inah.",
+    takeaways: ["Sale and lease-back of land units", "Rent from habitation", "One-year gap before buy-back", "Pre-agreed price allowed in Shirkatulmilk"] },
+  { id: "c-wujooh-lc", kind: "textbook", title: "Import finance by Shirkatul Wujooh (Box 12.2)", topic: "t12.7.2", mode: "musharakah",
+    scenario: "A utility awards ABC & Co a contract to supply imported equipment. ABC and an Islamic bank form a partnership in creditworthiness (Shirkatul Wujooh), with no capital from either side. The bank issues a Rs.10 million usance L/C in favour of XYZ Machines, Italy, on 180 days’ credit. The equipment is flown in, cleared in about 30 days and installed in about 50. After the utility’s acceptance test, payment arrives within 150 days of shipment. Profit is shared at the agreed ratio and the bank settles the L/C on the due date.",
+    facts: ["Usance L/C Rs.10m, 180 days’ credit", "Customs ~30 days; installation ~50 days", "Payment within 150 days of shipment", "No capital contributed: purchase on credit, sale at spot"],
+    questions: [
+      { q: "What makes this Shirkatul Wujooh rather than Shirkah al ‘Inan?", options: ["The bank lends money", "The partners buy on their credit without investing capital, and share the resale profit", "It is a Mudarabah", "The supplier is foreign"], answer: 1, explanation: "Section 12.2.2 and Box 12.2." },
+      { q: "Which school holds this form unlawful?", options: ["Hanafi", "Shafi‘i", "Hanbali", "All schools"], answer: 1, explanation: "Hanafis and Hanbalis accept it; Malikis require obligations to be specified first (pp. 310–311)." },
+      { q: "Why is the 180-day credit period important?", options: ["It earns interest", "Customer payment (within 150 days) arrives before the L/C falls due, so no funding gap arises", "It is required by law", "It lets the bank charge a time fee"], answer: 1, explanation: "Box 12.2 timeline." },
+      { q: "If the equipment fails acceptance without ABC’s negligence and the sale yields a loss, who bears it?", options: ["ABC only", "The partners in proportion to the liability they agreed", "The bank only", "The supplier"], answer: 1, explanation: "In Wujooh, loss is borne as per the liability taken at the beginning (p. 311); security covers only negligence (p. 335)." }
+    ],
+    analysis: "Box 12.2 is the book’s argument that Shirkah can work in trade finance for single transactions. Profit comes from real trade, and the bank shares the risk of the deal.",
+    takeaways: ["Partnership in creditworthiness", "Credit period matches cash cycle", "Loss by agreed liability", "Security only against negligence"] },
+  { id: "c-mudarib-capital", kind: "textbook", title: "Bank investing its own funds in a Mudarabah (Section 12.4.1)", topic: "t12.4.1", mode: "mudarabah",
+    scenario: "Depositors provide $2,000 to a Mudarabah and the bank, as Mudarib, adds $1,000 of its own. The agreed Mudarabah ratio is 50:50. The business earns a profit of $300.",
+    facts: ["Depositors $2,000; bank $1,000", "Mudarabah ratio 50:50", "Profit $300"],
+    questions: [
+      { q: "How much does the bank get as profit on its own capital first?", options: ["$150", "$100", "$200", "$300"], answer: 1, explanation: "Its capital is one-third of the total: 300 × 1/3 = $100 (p. 323)." },
+      { q: "What is the bank’s total profit?", options: ["$100", "$200", "$150", "$250"], answer: 1, explanation: "$100 on its capital + half of the remaining $200 as Mudarib = $200." },
+      { q: "What do depositors receive?", options: ["$200", "$100", "$150", "$300"], answer: 1, explanation: "Half of $200 = $100." },
+      { q: "If instead there were a loss of $300, who would bear it?", options: ["Depositors only", "Depositors and bank in proportion to capital — $200 and $100", "The bank only, as Mudarib", "Nobody"], answer: 1, explanation: "A Mudarib who contributes capital bears loss pro rata (p. 326)." }
+    ],
+    analysis: "When the Mudarib invests too, profit is first allocated to capital by proportion, and the rest is shared by the Mudarabah ratio. The bank wears two hats: investor and manager.",
+    takeaways: ["Profit on own capital first", "Remainder by Mudarabah ratio", "Loss by capital"] },
+  { id: "c-jualah-recovery", kind: "practice", title: "Debt recovery by Ju‘alah (practice — generated for learning)", topic: "t13.4.6", mode: "jualah",
+    scenario: "An Islamic bank has Rs.20 million of overdue receivables. It signs a Ju‘alah with Recovery Co.: a reward of 4 % of amounts actually collected within 12 months, with Rs.200,000 paid in advance on account. After 5 months the bank cancels the contract. By then Recovery Co. has collected Rs.3 million and done substantial work on the rest.",
+    facts: ["Receivables Rs.20m; reward 4 % of collections", "Advance Rs.200,000 on account", "Cancelled by the bank after 5 months; Rs.3m collected"],
+    questions: [
+      { q: "Is a reward stated as a percentage of collections valid?", options: ["No, it must be a fixed sum", "Yes — the reward may be a portion of the realised result", "Only if under 1 %", "Only for banks"], answer: 1, explanation: "p. 352." },
+      { q: "What is Recovery Co. entitled to for the Rs.3m collected?", options: ["Nothing", "Rs.120,000 (4 % of 3m)", "Rs.800,000", "Rs.200,000"], answer: 1, explanation: "4 % × 3,000,000 (applying p. 352)." },
+      { q: "The bank cancelled after work had begun. What does the book say about the remaining work?", options: ["Nothing is payable", "The offeror must pay the common market remuneration for work done", "Full reward on all Rs.20m", "Only the advance"], answer: 1, explanation: "p. 353." },
+      { q: "What is the status of the Rs.200,000 advance?", options: ["Earned outright", "An on-account payment, adjusted against what the worker is entitled to", "A penalty", "A gift"], answer: 1, explanation: "p. 355." }
+    ],
+    analysis: "Ju‘alah fits recovery work because the effort needed is uncertain but the result, cash collected, is measurable. Cancellation after work has begun triggers a market wage; the advance is only on account.",
+    takeaways: ["Reward as % of result", "Market wage after revocation", "Advances on account"] },
+  { id: "c-tawarruq-check", kind: "practice", title: "Reviewing three Tawarruq proposals (practice — generated for learning)", topic: "t13.3", mode: "tawarruq",
+    scenario: "A bank’s product committee brings three structures to the Shari’ah board. (A) The bank buys copper, sells it to the client on credit, and the client sells it in the market himself. (B) The client is appointed the bank’s agent to buy copper and then sells it to himself on credit. (C) The credit-sale contract states that the bank will act as the client’s agent to sell the copper in the market.",
+    facts: ["Three alternative structures", "Commodity: copper with an active market", "Client needs cash"],
+    questions: [
+      { q: "What is the ruling on structure A?", options: ["Invalid", "No Shari’ah problem, if genuine ownership and possession occur", "Riba", "‘Inah"], answer: 1, explanation: "p. 350." },
+      { q: "What is the ruling on structure B?", options: ["Valid", "Invalid — purchase and sale are interdependent and the bank has not taken possession or risk", "Valid but not advisable", "Makruh only"], answer: 1, explanation: "p. 350." },
+      { q: "What is the ruling on structure C?", options: ["Valid", "Invalid, because the agency is stipulated in the sale; it would be valid but not advisable if arranged after an unconditional sale", "Always recommended", "Valid if disclosed"], answer: 1, explanation: "p. 350." },
+      { q: "Even for structure A, what policy do the scholars cited recommend?", options: ["Unlimited use", "Limited use for unavoidable corporate liquidity needs; Kahf would exclude consumers", "Use only for credit cards", "Replace Musharakah with it"], answer: 1, explanation: "p. 350." }
+    ],
+    analysis: "Validity depends on the sequence of ownership, possession and independent contracts. Even a valid Tawarruq raises a policy question: its extensive use could create systemic risk.",
+    takeaways: ["Third-party sale only", "No self-dealing agency", "No stipulated resale agency", "Use sparingly"] },
+  { id: "c-mudarabah-sukuk-trade", kind: "practice", title: "When may Mudarabah Sukuk trade above par? (practice — generated for learning)", topic: "t15.3.5", mode: "sukuk",
+    scenario: "A Mudarabah Sukuk fund raises Rs.500 million. In month 1 all of it is still cash in the bank. By month 6 it holds Rs.100m cash, Rs.150m receivables and Rs.250m of machinery and inventory. By month 18 it holds Rs.50m cash, Rs.200m receivables and Rs.300m real assets. A holder wants to sell his Sukuk above face value.",
+    facts: ["Month 1: 100 % cash", "Month 6: 50 % real assets", "Month 18: about 55 % real assets"],
+    questions: [
+      { q: "At month 1, how may the Sukuk be traded?", options: ["At any price", "Only at face value, under Bai‘ al Sarf rules, as money for money", "Not at all", "At a discount only"], answer: 1, explanation: "OIC Fiqh Council (1988) rules (pp. 398–399)." },
+      { q: "At month 18 the fund holds a mix of cash, receivables and real assets. What pricing rule applies under the OIC resolution?", options: ["Face value only", "Market price by mutual consent", "Debt rules only", "Trading banned"], answer: 1, explanation: "p. 399." },
+      { q: "Under the more-than-50 % non-liquid test used elsewhere in the book, is month 6 enough?", options: ["Yes, 50 % is enough", "No — real assets must exceed 50 %; month 18 (about 55 %) passes", "Yes, receivables count as real assets", "The test does not apply to Sukuk"], answer: 1, explanation: "Receivables are treated as liquid, like money (pp. 330, 400)." }
+    ],
+    analysis: "The same certificate moves from money, to a mix, to mainly assets, and its permissible pricing changes with it. The book also shows scholars differ on the threshold: above 50 %, some say 33 %, and the Hanafis attach no fixed proportion.",
+    takeaways: ["Cash stage: par only", "Mixed stage: market price", "Receivables count as liquid"] }
 ]);
 
 </script>
@@ -12997,6 +13242,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
     refresh: '<path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/>',
     calc: '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11v6M8 15h2M12 15h2M8 18h6"/>',
     scales: '<path d="M12 3v18M6 21h12M5 7h14M5 7l-3 7h6zM19 7l-3 7h6z"/>',
+    calendar: '<rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
     flame: '<path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-3 2-4 2-7 1.5 1 2 2 3 3 0-2 0-4 0-6z"/>'
   };
 
@@ -13105,7 +13351,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
     return {
       version: VERSION,
       created: Date.now(),
-      settings: { theme: 'system', level: 'mba', fontScale: 1, reduceMotion: false, dailyGoal: 30, name: '' },
+      settings: { theme: 'system', level: 'mba', fontScale: 1, reduceMotion: false, dailyGoal: 30, name: '', examDate: '' },
       topics: {},          // topicId -> {visited, completed, time, views}
       chapters: {},        // n -> {visited}
       answers: {},         // questionId -> {n, correct, last, lastCorrect, topic}
@@ -13885,7 +14131,8 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
     function el(tag, attrs, text) { var e = document.createElementNS(NS, tag); Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); }); if (text != null) e.textContent = text; return e; }
     var svgEl = el('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'diagram-svg', role: 'img', 'aria-label': d.title + ' — transaction diagram' });
     var defs = el('defs'); var mk = el('marker', { id: 'arr-' + d.id, viewBox: '0 0 10 10', refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: 'auto-start-reverse' }); mk.appendChild(el('path', { d: 'M0,0 L10,5 L0,10 z', fill: 'currentColor' })); defs.appendChild(mk); svgEl.appendChild(defs);
-    var edgesG = el('g'), partiesG = el('g'); svgEl.appendChild(edgesG); svgEl.appendChild(partiesG);
+    var edgesG = el('g'), partiesG = el('g'), labelsG = el('g', { class: 'labels', 'aria-hidden': 'true' }); svgEl.appendChild(edgesG); svgEl.appendChild(partiesG); svgEl.appendChild(labelsG);
+    var labelEls = [];
     var BW = 150, BH = 44;
     // Edge geometry: parallel edges between the same pair are offset.
     var pairCount = {};
@@ -13914,7 +14161,10 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
       g.appendChild(el('circle', { cx: lx - 0, cy: ly - 12, r: 9, class: 'num' }));
       g.appendChild(el('text', { x: lx, y: ly - 8.5, 'text-anchor': 'middle', class: 'numt' }, String(e.i + 1)));
       var label = e.s.label.length > 34 ? e.s.label.slice(0, 32) + '…' : e.s.label;
-      g.appendChild(el('text', { x: lx, y: ly + 10, 'text-anchor': 'middle', class: 'lbl' }, label));
+      /* Labels sit on a top layer (with a halo) so party boxes never hide them. */
+      var lt = el('text', { x: lx, y: ly + 10, 'text-anchor': 'middle', class: 'dlbl' }, label); labelsG.appendChild(lt); labelEls.push(lt);
+      g.addEventListener('mouseenter', function () { lt.classList.add('hover'); }); g.addEventListener('mouseleave', function () { lt.classList.remove('hover'); });
+      g.addEventListener('focus', function () { lt.classList.add('hover'); }); g.addEventListener('blur', function () { lt.classList.remove('hover'); });
       g.appendChild(el('title', {}, (e.i + 1) + '. ' + e.s.label));
       g.addEventListener('click', function () { setStep(e.i); });
       g.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); setStep(e.i); } });
@@ -13940,6 +14190,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
     function setStep(i) {
       cur = Math.max(0, Math.min(d.steps.length - 1, i));
       edgeEls.forEach(function (g, j) { g.setAttribute('class', 'edge kind-' + d.steps[j].kind + (j === cur ? ' active' : j < cur ? ' done' : ' future')); });
+      labelEls.forEach(function (t, j) { t.classList.toggle('active', j === cur); });
       Object.keys(partyEls).forEach(function (k) { partyEls[k].setAttribute('class', 'party' + (k === d.steps[cur].from || k === d.steps[cur].to ? ' active' : '')); });
       stepBtns.forEach(function (b, j) { if (j === cur) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current'); });
       var s = d.steps[cur];
@@ -13961,7 +14212,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
     function fit() {
       if (!svgEl.isConnected) return;
       try {
-        var lbls = svgEl.querySelectorAll('.lbl'); Array.prototype.forEach.call(lbls, function (l) { l.style.display = 'inline'; });
+        var lbls = svgEl.querySelectorAll('.dlbl'); Array.prototype.forEach.call(lbls, function (l) { l.style.display = 'inline'; });
         var bb = svgEl.getBBox();
         Array.prototype.forEach.call(lbls, function (l) { l.style.display = ''; });
         var top = Math.max(0, bb.y - 20), bottom = Math.min(H, bb.y + bb.height + 20);
@@ -14275,7 +14526,12 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
         ['#/mock', 'flame', 'Timed mock exam'], ['#/mistakes', 'refresh', 'My mistakes' + (function () { var n = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false; }).length; return n ? ' (' + n + ')' : ''; })()]
       ].map(function (x) { return h('a.btn', { href: x[0], style: { justifyContent: 'flex-start' } }, u.svg(x[1]), x[2]); })));
 
-    return h('div.stack', hero, nextCard, stats,
+    var plan = IFL.buildPlan ? IFL.buildPlan() : null;
+    var planCard = plan && !plan.past ? h('section.card', h('div.card-title', h('h2', 'Exam in ' + plan.daysLeft + ' day' + (plan.daysLeft === 1 ? '' : 's')), h('a.btn.sm', { href: '#/planner' }, 'Planner')),
+      plan.days[0] && plan.days[0].kind === 'learn' ? h('p.small', 'Today: ' + plan.days[0].topics.length + ' topic' + (plan.days[0].topics.length > 1 ? 's' : '') + ' (~' + plan.days[0].minutes + ' min), starting with ', h('a', { href: '#/topic/' + plan.days[0].topics[0].id }, '§' + plan.days[0].topics[0].section + ' ' + trunc(plan.days[0].topics[0].title, 40)), '.')
+        : h('p.small', plan.remaining ? 'Revision period: rapid revision, mistakes and a mock exam.' : 'All topics complete — revise and take mock exams.'))
+      : h('section.card', h('div.card-title', h('h2', 'Exam date'), h('a.btn.sm', { href: '#/planner' }, 'Set date')), h('p.small.muted', 'Set your exam date to get a day-by-day plan built from your progress.'));
+    return h('div.stack', hero, nextCard, planCard, stats,
       h('div.grid.grid-2', partsCard, weakCard),
       h('div.grid.grid-2', readyCard, actCard),
       h('div.grid.grid-2', bmCard, quick));
@@ -15748,6 +16004,100 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
 })();
 
 </script>
+<script data-src="modules/views/planner.js">
+/* Exam-date planner: spreads the unfinished topics over the days left before the exam and
+   keeps the final days for revision. It is recomputed from real progress every time, so it
+   adapts when you get ahead or fall behind. Stored locally: settings.examDate only. */
+(function () {
+  var IFL = window.IFL, u = IFL.u, h = u.h, C = IFL.c;
+  var H2 = { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' };
+  var DAY = 864e5;
+
+  function parseDate(s) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || ''); return m ? new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3])) : null; }
+  function today() { var d = new Date(); d.setHours(0, 0, 0, 0); return d; }
+  function fmt(d) { return d.toLocaleDateString(undefined, { weekday: 'short', day: 'numeric', month: 'short' }); }
+
+  /* Build the plan. Returns null when no valid future exam date is set. */
+  function buildPlan() {
+    var exam = parseDate(IFL.store.state.settings.examDate);
+    if (!exam) return null;
+    var t0 = today(), daysLeft = Math.round((exam - t0) / DAY);
+    if (daysLeft < 0) return { past: true, exam: exam };
+    var remaining = [];
+    IFL.course.chapters.forEach(function (c) {
+      var per = c.minutes / c.topics.length;
+      c.topics.forEach(function (t) { if (!IFL.progress.isComplete(t[0])) remaining.push({ id: t[0], section: t[1], title: t[2], chapter: c.n, minutes: per }); });
+    });
+    var total = remaining.reduce(function (a, r) { return a + r.minutes; }, 0);
+    // Study days are today … the day before the exam; keep about a fifth (1–3 days) for revision.
+    var studyDays = daysLeft, revision = daysLeft >= 5 ? Math.min(3, Math.max(1, Math.round(daysLeft * 0.2))) : daysLeft >= 2 ? 1 : 0;
+    var learnDays = Math.max(1, studyDays - revision);
+    var perDay = total / learnDays, days = [], cum = 0;
+    for (var d = 0; d < learnDays; d++) days.push({ date: new Date(t0.getTime() + d * DAY), kind: 'learn', topics: [], minutes: 0 });
+    remaining.forEach(function (r) { // assign by the cumulative midpoint, so each day gets about perDay minutes in book order
+      var idx = Math.min(learnDays - 1, Math.floor((cum + r.minutes / 2) / perDay)); cum += r.minutes;
+      days[idx].topics.push(r); days[idx].minutes += r.minutes;
+    });
+    days = days.filter(function (x) { return x.topics.length; });
+    days.forEach(function (x) { x.minutes = Math.round(x.minutes); });
+    var firstRev = Math.max(days.length, studyDays - revision);
+    for (var r = 0; r < revision; r++) days.push({ date: new Date(t0.getTime() + (firstRev + r) * DAY), kind: r === revision - 1 ? 'mock' : 'revise', topics: [], minutes: 0 });
+    return { exam: exam, daysLeft: daysLeft, remaining: remaining.length, totalMinutes: Math.round(total), perDay: Math.round(perDay), days: days, revision: revision };
+  }
+  IFL.buildPlan = buildPlan;
+
+  function chaptersOf(topics) {
+    var m = {}; topics.forEach(function (t) { (m[t.chapter] = m[t.chapter] || []).push(t); });
+    return Object.keys(m).map(function (k) { var ts = m[k]; return 'Ch ' + k + ' §' + ts[0].section + (ts.length > 1 ? '–' + ts[ts.length - 1].section : ''); }).join(', ');
+  }
+
+  function todayCard(plan) {
+    var s = IFL.store.state, due = IFL.srs.dueCount();
+    var mistakes = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false; }).length;
+    var d = plan.days[0];
+    var items = [];
+    if (d && d.kind === 'learn') d.topics.forEach(function (t) { items.push(h('li', h('a', { href: '#/topic/' + t.id }, 'Ch ' + t.chapter + ' §' + t.section + ' ' + IFL.trunc(t.title, 60)), h('span.muted.small', ' · ~' + Math.round(t.minutes) + ' min'))); });
+    if (d && d.kind === 'revise') items.push(h('li', h('a', { href: '#/revision-cards' }, 'Rapid revision cards'), ' and ', h('a', { href: '#/exam' }, 'exam centre'), h('span.muted.small', ' · revision day')));
+    if (d && d.kind === 'mock') items.push(h('li', h('a', { href: '#/mock/run?n=50&min=60&label=Full%20mock' }, 'Full timed mock exam'), h('span.muted.small', ' · last day before the exam')));
+    if (due) items.push(h('li', h('a', { href: '#/flashcards/review' }, due + ' flashcard' + (due > 1 ? 's' : '') + ' due')));
+    if (mistakes) items.push(h('li', h('a', { href: '#/mistakes' }, mistakes + ' open mistake' + (mistakes > 1 ? 's' : '') + ' to retry')));
+    return h('section.card', h('h2', { style: H2 }, 'Today'), items.length ? h('ul.list', items) : h('p.muted', 'Nothing left for today. Everything is complete, so use the time for a mock exam.'));
+  }
+
+  IFL.route('/planner', function () {
+    var st = IFL.store.state.settings;
+    var input = h('input.input', { id: 'exam-date', type: 'date', value: st.examDate || '', min: u.dayKey(), style: { maxWidth: '200px' } });
+    var save = h('button.btn.primary', { type: 'button', onclick: function () {
+      if (input.value && !parseDate(input.value)) { u.toast('Choose a valid date'); return; }
+      IFL.store.update(function (s) { s.settings.examDate = input.value || ''; });
+      u.toast(input.value ? 'Exam date saved' : 'Exam date cleared'); IFL.refresh();
+    } }, 'Save exam date');
+    var clear = st.examDate ? h('button.btn', { type: 'button', onclick: function () { IFL.store.update(function (s) { s.settings.examDate = ''; }); IFL.refresh(); } }, 'Clear') : null;
+    var head = C.pageHead({ eyebrow: 'Guided study', title: 'Exam planner', desc: 'Set your exam date. The planner spreads the topics you have not yet completed over the days left, in book order, and keeps the final days for revision and a mock exam. It recalculates from your real progress each time you open it.' });
+    var form = h('section.card', h('div.row', h('label.small', { for: 'exam-date' }, 'Exam date'), input, save, clear));
+    var plan = buildPlan();
+    if (!plan) return h('div', head, form, C.empty('No exam date set', 'Choose the date of your exam above to get a day-by-day plan.'));
+    if (plan.past) return h('div', head, form, C.empty('That date has passed', 'Set the date of your next exam.'));
+    var goal = st.dailyGoal || 30, heavy = plan.perDay > goal * 1.5;
+    var summary = h('div.grid.grid-4.stats-grid',
+      h('div.card', C.stat(plan.daysLeft, plan.daysLeft === 1 ? 'day left' : 'days left')),
+      h('div.card', C.stat(plan.remaining, 'topics to complete')),
+      h('div.card', C.stat(u.fmtDuration(plan.totalMinutes * 60), 'estimated study')),
+      h('div.card', C.stat(plan.remaining ? '~' + plan.perDay + ' min' : '—', 'per learning day')));
+    var warn = !plan.remaining ? h('div.callout.info', h('div.t', 'All topics complete'), h('p', 'Every topic is marked complete. Spend the remaining days on revision cards, your mistakes and timed mocks.'))
+      : heavy ? h('div.callout.bad', h('div.t', 'Tight schedule'), h('p', 'The plan needs about ' + plan.perDay + ' minutes a day, well above your daily goal of ' + goal + ' minutes. Consider the 45-minute crash course and rapid revision cards to prioritise core topics.')) : null;
+    var table = h('div.table-wrap', h('table', h('thead', h('tr', h('th', 'Day'), h('th', 'Plan'), h('th', 'Time'))),
+      h('tbody', plan.days.map(function (d, i) {
+        var what = d.kind === 'learn' ? chaptersOf(d.topics) + ' (' + d.topics.length + ' topic' + (d.topics.length > 1 ? 's' : '') + ')' : d.kind === 'mock' ? 'Full timed mock exam, then review mistakes' : 'Revision: rapid revision cards, flashcards due, my mistakes';
+        return h('tr' + (i === 0 ? '.current' : ''), h('td', i === 0 ? h('strong', 'Today') : fmt(d.date)), h('td', what), h('td.tabular', d.kind === 'learn' ? '~' + d.minutes + ' min' : '—'));
+      }))));
+    return h('div', head, form, summary, warn, h('div.grid.grid-2', todayCard(plan), h('section.card', h('h2', { style: H2 }, 'How the plan works'),
+      h('ul.small', h('li', 'Minutes per topic are the chapter’s estimated study time divided by its topics.'), h('li', 'Topics you mark complete drop out, and the rest is spread again.'), h('li', 'The last ' + (plan.revision || 0) + ' day' + (plan.revision === 1 ? '' : 's') + ' are kept for revision and a mock exam.'), h('li', 'Nothing is sent anywhere; only the exam date is saved on this device.')))),
+      h('section.card', h('h2', { style: H2 }, 'Day-by-day schedule'), table));
+  });
+})();
+
+</script>
 <script data-src="modules/views/guided.js">
 /* Guided study modes: 45-minute crash course, 90-minute revision, 3-hour deep study.
    Countdown, current section, completion track, previous / next / skip, pause / resume — saved locally. */
@@ -16198,7 +16548,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
     { label: 'Explore', items: [{ r: '/concepts', t: 'Concept map', i: 'map' }, { r: '/glossary', t: 'Glossary', i: 'glossary' }, { r: '/diagrams', t: 'Transaction diagrams', i: 'flow' }, { r: '/compare', t: 'Comparisons', i: 'compare' }, { r: '/finder', t: 'Which mode applies?', i: 'compass' }] },
     { label: 'Practise', items: [{ r: '/flashcards', t: 'Flashcards', i: 'cards' }, { r: '/quiz', t: 'Quiz', i: 'quiz' }, { r: '/practice', t: 'Adaptive practice', i: 'target' }, { r: '/mistakes', t: 'My mistakes', i: 'refresh' }, { r: '/cases', t: 'Case studies', i: 'case' }] },
     { label: 'Exam', items: [{ r: '/exam', t: 'Exam preparation', i: 'exam' }, { r: '/mock', t: 'Timed mock exam', i: 'flame' }, { r: '/exam/trainer', t: 'Answer trainer', i: 'edit' }, { r: '/revision-cards', t: 'Rapid revision cards', i: 'layers' }] },
-    { label: 'Guided study', items: [{ r: '/guided/crash45', t: '45-minute crash course', i: 'bolt' }, { r: '/guided/revision90', t: '90-minute revision', i: 'clock' }, { r: '/guided/deep180', t: '3-hour deep study', i: 'teach' }] },
+    { label: 'Guided study', items: [{ r: '/planner', t: 'Exam planner', i: 'calendar' }, { r: '/guided/crash45', t: '45-minute crash course', i: 'bolt' }, { r: '/guided/revision90', t: '90-minute revision', i: 'clock' }, { r: '/guided/deep180', t: '3-hour deep study', i: 'teach' }] },
     { label: 'Personal', items: [{ r: '/bookmarks', t: 'Bookmarks', i: 'bookmark' }, { r: '/notes', t: 'My notes', i: 'note' }, { r: '/progress', t: 'My progress', i: 'chart' }, { r: '/timer', t: 'Study timer', i: 'clock' }, { r: '/settings', t: 'Settings', i: 'settings' }] }
   ];
   var nav = document.getElementById('nav');

@@ -10,7 +10,7 @@
     return {
       version: VERSION,
       created: Date.now(),
-      settings: { theme: 'system', level: 'mba', fontScale: 1, reduceMotion: false, dailyGoal: 30, name: '' },
+      settings: { theme: 'system', level: 'mba', fontScale: 1, reduceMotion: false, dailyGoal: 30, name: '', examDate: '' },
       topics: {},          // topicId -> {visited, completed, time, views}
       chapters: {},        // n -> {visited}
       answers: {},         // questionId -> {n, correct, last, lastCorrect, topic}

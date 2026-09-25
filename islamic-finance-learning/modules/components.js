@@ -292,7 +292,8 @@
     function el(tag, attrs, text) { var e = document.createElementNS(NS, tag); Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); }); if (text != null) e.textContent = text; return e; }
     var svgEl = el('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'diagram-svg', role: 'img', 'aria-label': d.title + ' — transaction diagram' });
     var defs = el('defs'); var mk = el('marker', { id: 'arr-' + d.id, viewBox: '0 0 10 10', refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: 'auto-start-reverse' }); mk.appendChild(el('path', { d: 'M0,0 L10,5 L0,10 z', fill: 'currentColor' })); defs.appendChild(mk); svgEl.appendChild(defs);
-    var edgesG = el('g'), partiesG = el('g'); svgEl.appendChild(edgesG); svgEl.appendChild(partiesG);
+    var edgesG = el('g'), partiesG = el('g'), labelsG = el('g', { class: 'labels', 'aria-hidden': 'true' }); svgEl.appendChild(edgesG); svgEl.appendChild(partiesG); svgEl.appendChild(labelsG);
+    var labelEls = [];
     var BW = 150, BH = 44;
     // Edge geometry: parallel edges between the same pair are offset.
     var pairCount = {};
@@ -321,7 +322,10 @@
       g.appendChild(el('circle', { cx: lx - 0, cy: ly - 12, r: 9, class: 'num' }));
       g.appendChild(el('text', { x: lx, y: ly - 8.5, 'text-anchor': 'middle', class: 'numt' }, String(e.i + 1)));
       var label = e.s.label.length > 34 ? e.s.label.slice(0, 32) + '…' : e.s.label;
-      g.appendChild(el('text', { x: lx, y: ly + 10, 'text-anchor': 'middle', class: 'lbl' }, label));
+      /* Labels sit on a top layer (with a halo) so party boxes never hide them. */
+      var lt = el('text', { x: lx, y: ly + 10, 'text-anchor': 'middle', class: 'dlbl' }, label); labelsG.appendChild(lt); labelEls.push(lt);
+      g.addEventListener('mouseenter', function () { lt.classList.add('hover'); }); g.addEventListener('mouseleave', function () { lt.classList.remove('hover'); });
+      g.addEventListener('focus', function () { lt.classList.add('hover'); }); g.addEventListener('blur', function () { lt.classList.remove('hover'); });
       g.appendChild(el('title', {}, (e.i + 1) + '. ' + e.s.label));
       g.addEventListener('click', function () { setStep(e.i); });
       g.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); setStep(e.i); } });
@@ -347,6 +351,7 @@
     function setStep(i) {
       cur = Math.max(0, Math.min(d.steps.length - 1, i));
       edgeEls.forEach(function (g, j) { g.setAttribute('class', 'edge kind-' + d.steps[j].kind + (j === cur ? ' active' : j < cur ? ' done' : ' future')); });
+      labelEls.forEach(function (t, j) { t.classList.toggle('active', j === cur); });
       Object.keys(partyEls).forEach(function (k) { partyEls[k].setAttribute('class', 'party' + (k === d.steps[cur].from || k === d.steps[cur].to ? ' active' : '')); });
       stepBtns.forEach(function (b, j) { if (j === cur) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current'); });
       var s = d.steps[cur];
@@ -368,7 +373,7 @@
     function fit() {
       if (!svgEl.isConnected) return;
       try {
-        var lbls = svgEl.querySelectorAll('.lbl'); Array.prototype.forEach.call(lbls, function (l) { l.style.display = 'inline'; });
+        var lbls = svgEl.querySelectorAll('.dlbl'); Array.prototype.forEach.call(lbls, function (l) { l.style.display = 'inline'; });
         var bb = svgEl.getBBox();
         Array.prototype.forEach.call(lbls, function (l) { l.style.display = ''; });
         var top = Math.max(0, bb.y - 20), bottom = Math.min(H, bb.y + bb.height + 20);
