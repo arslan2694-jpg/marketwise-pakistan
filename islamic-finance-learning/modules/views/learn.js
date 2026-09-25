@@ -147,7 +147,7 @@
           cb.addEventListener('change', function () { IFL.store.update(function (s) { s.exam[key] = s.exam[key] || {}; s.exam[key][i] = cb.checked; }); });
           return h('label.check', { for: key + '-' + i }, cb, c);
         }))),
-      h('div.row', h('a.btn.primary', { href: '#/quiz/run?chapter=' + ch.number }, 'Take the chapter quiz'), ch.number < 18 ? h('a.btn', { href: '#/chapter/' + (ch.number + 1) }, 'Next chapter', u.svg('right')) : null));
+      h('div.row', h('a.btn.primary', { href: '#/quiz/run?chapter=' + ch.number }, 'Take the chapter quiz'), h('a.btn', { href: '#/chapter/' + ch.number + '/print' }, u.svg('download'), 'Printable revision sheet'), ch.number < 18 ? h('a.btn', { href: '#/chapter/' + (ch.number + 1) }, 'Next chapter', u.svg('right')) : null));
   }
 
   /* Concept chips: known concepts link to concept pages, others to search. */

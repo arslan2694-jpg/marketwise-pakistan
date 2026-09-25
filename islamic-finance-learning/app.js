@@ -26,8 +26,8 @@
     { label: null, items: [{ r: '/', t: 'Dashboard', i: 'home' }] },
     { label: 'Learn', items: [{ r: '/learn', t: 'All chapters', i: 'book', sub: 'learn' }] },
     { label: 'Explore', items: [{ r: '/concepts', t: 'Concept map', i: 'map' }, { r: '/glossary', t: 'Glossary', i: 'glossary' }, { r: '/diagrams', t: 'Transaction diagrams', i: 'flow' }, { r: '/compare', t: 'Comparisons', i: 'compare' }, { r: '/finder', t: 'Which mode applies?', i: 'compass' }] },
-    { label: 'Practise', items: [{ r: '/flashcards', t: 'Flashcards', i: 'cards' }, { r: '/quiz', t: 'Quiz', i: 'quiz' }, { r: '/practice', t: 'Adaptive practice', i: 'target' }, { r: '/cases', t: 'Case studies', i: 'case' }] },
-    { label: 'Exam', items: [{ r: '/exam', t: 'Exam preparation', i: 'exam' }, { r: '/exam/trainer', t: 'Answer trainer', i: 'edit' }, { r: '/revision-cards', t: 'Rapid revision cards', i: 'layers' }] },
+    { label: 'Practise', items: [{ r: '/flashcards', t: 'Flashcards', i: 'cards' }, { r: '/quiz', t: 'Quiz', i: 'quiz' }, { r: '/practice', t: 'Adaptive practice', i: 'target' }, { r: '/mistakes', t: 'My mistakes', i: 'refresh' }, { r: '/cases', t: 'Case studies', i: 'case' }] },
+    { label: 'Exam', items: [{ r: '/exam', t: 'Exam preparation', i: 'exam' }, { r: '/mock', t: 'Timed mock exam', i: 'flame' }, { r: '/exam/trainer', t: 'Answer trainer', i: 'edit' }, { r: '/revision-cards', t: 'Rapid revision cards', i: 'layers' }] },
     { label: 'Guided study', items: [{ r: '/guided/crash45', t: '45-minute crash course', i: 'bolt' }, { r: '/guided/revision90', t: '90-minute revision', i: 'clock' }, { r: '/guided/deep180', t: '3-hour deep study', i: 'teach' }] },
     { label: 'Personal', items: [{ r: '/bookmarks', t: 'Bookmarks', i: 'bookmark' }, { r: '/notes', t: 'My notes', i: 'note' }, { r: '/progress', t: 'My progress', i: 'chart' }, { r: '/timer', t: 'Study timer', i: 'clock' }, { r: '/settings', t: 'Settings', i: 'settings' }] }
   ];

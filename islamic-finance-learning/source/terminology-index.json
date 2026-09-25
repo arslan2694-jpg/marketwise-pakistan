@@ -1,6 +1,6 @@
 {
  "generated": "tools/build-indexes.cjs",
- "count": 266,
+ "count": 277,
  "terms": [
   {
    "term": "‘Ahd",
@@ -403,6 +403,22 @@
    ]
   },
   {
+   "term": "Accumulator vs distributor (Ijarah)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t14.3.2",
+     "chapter": 14,
+     "section": "14.3.2",
+     "title": "Selection of the Mode for Financing (Boxes 14.1–14.2)",
+     "pages": [
+      360,
+      362
+     ]
+    }
+   ]
+  },
+  {
    "term": "Ahadith",
    "occurrences": [
     {
@@ -451,6 +467,17 @@
       280,
       280
      ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t11.2",
+     "chapter": 11,
+     "section": "11.2",
+     "title": "Essentials of Ijarah Contracts",
+     "pages": [
+      280,
+      280
+     ]
     }
    ]
   },
@@ -461,6 +488,17 @@
      "source": "glossary",
      "category": "Leasing & services",
      "page": 485,
+     "topic": "t11.2",
+     "chapter": 11,
+     "section": "11.2",
+     "title": "Essentials of Ijarah Contracts",
+     "pages": [
+      280,
+      280
+     ]
+    },
+    {
+     "source": "chapter",
      "topic": "t11.2",
      "chapter": 11,
      "section": "11.2",
@@ -851,6 +889,17 @@
     },
     {
      "source": "chapter",
+     "topic": "t9.9.1",
+     "chapter": 9,
+     "section": "9.9.1",
+     "title": "Avoiding Buy-back",
+     "pages": [
+      230,
+      230
+     ]
+    },
+    {
+     "source": "chapter",
      "topic": "t13.3",
      "chapter": 13,
      "section": "13.3",
@@ -1098,6 +1147,17 @@
      "pages": [
       219,
       220
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t9.1",
+     "chapter": 9,
+     "section": "9.1",
+     "title": "Introduction: Credit Sale Forms and MPO",
+     "pages": [
+      213,
+      214
      ]
     }
    ]
@@ -2603,6 +2663,22 @@
    ]
   },
   {
+   "term": "Ja‘il",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t13.4",
+     "chapter": 13,
+     "section": "13.4",
+     "title": "Ju‘alah",
+     "pages": [
+      351,
+      351
+     ]
+    }
+   ]
+  },
+  {
    "term": "Jahl",
    "occurrences": [
     {
@@ -2652,6 +2728,22 @@
       351
      ]
     },
+    {
+     "source": "chapter",
+     "topic": "t13.4",
+     "chapter": 13,
+     "section": "13.4",
+     "title": "Ju‘alah",
+     "pages": [
+      351,
+      351
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ju‘l",
+   "occurrences": [
     {
      "source": "chapter",
      "topic": "t13.4",
@@ -3177,6 +3269,17 @@
       420,
       421
      ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
     }
    ]
   },
@@ -3558,6 +3661,22 @@
    ]
   },
   {
+   "term": "Murabaha to Purchase Orderer (MPO)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t9.1",
+     "chapter": 9,
+     "section": "9.1",
+     "title": "Introduction: Credit Sale Forms and MPO",
+     "pages": [
+      213,
+      214
+     ]
+    }
+   ]
+  },
+  {
    "term": "Musaqah",
    "occurrences": [
     {
@@ -3589,6 +3708,17 @@
      "pages": [
       234,
       234
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t9.3",
+     "chapter": 9,
+     "section": "9.3",
+     "title": "Murabaha — a Bai‘ al Amanah (Trust Sale)",
+     "pages": [
+      215,
+      215
      ]
     }
    ]
@@ -3670,6 +3800,17 @@
   {
    "term": "Mutawarriq",
    "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t13.3",
+     "chapter": 13,
+     "section": "13.3",
+     "title": "Tawarruq",
+     "pages": [
+      349,
+      351
+     ]
+    },
     {
      "source": "chapter",
      "topic": "t13.3",
@@ -3957,6 +4098,22 @@
    ]
   },
   {
+   "term": "Qasamah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    }
+   ]
+  },
+  {
    "term": "Qimar",
    "occurrences": [
     {
@@ -4003,6 +4160,22 @@
      "source": "glossary",
      "category": "Partnership",
      "page": 493,
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qirad / Muqaradah",
+   "occurrences": [
+    {
+     "source": "chapter",
      "topic": "t12.4",
      "chapter": 12,
      "section": "12.4",
@@ -4333,6 +4506,22 @@
      "pages": [
       51,
       52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ribh",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t9.4",
+     "chapter": 9,
+     "section": "9.4",
+     "title": "Bai‘ Murabaha in Classical Literature",
+     "pages": [
+      215,
+      216
      ]
     }
    ]
@@ -4849,6 +5038,17 @@
       167,
       168
      ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t14.6",
+     "chapter": 14,
+     "section": "14.6",
+     "title": "Fee-based Islamic Banking Services: Underwriting, L/G, L/C",
+     "pages": [
+      384,
+      386
+     ]
     }
    ]
   },
@@ -4956,6 +5156,17 @@
      "source": "glossary",
      "category": "Takaful & social",
      "page": 494,
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    },
+    {
+     "source": "chapter",
      "topic": "t16.3",
      "chapter": 16,
      "section": "16.3",
@@ -5112,6 +5323,38 @@
      "pages": [
       349,
       351
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Tawkeel",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t13.2",
+     "chapter": 13,
+     "section": "13.2",
+     "title": "Wakalah (Agency)",
+     "pages": [
+      347,
+      349
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Tawliyah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t9.3",
+     "chapter": 9,
+     "section": "9.3",
+     "title": "Murabaha — a Bai‘ al Amanah (Trust Sale)",
+     "pages": [
+      215,
+      215
      ]
     }
    ]
@@ -5354,6 +5597,22 @@
    ]
   },
   {
+   "term": "Wadhi‘ah / Mohatah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t9.3",
+     "chapter": 9,
+     "section": "9.3",
+     "title": "Murabaha — a Bai‘ al Amanah (Trust Sale)",
+     "pages": [
+      215,
+      215
+     ]
+    }
+   ]
+  },
+  {
    "term": "Wadi‘ah",
    "occurrences": [
     {
@@ -5425,6 +5684,22 @@
      "pages": [
       349,
       349
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Wakil, not Kafil",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.3.3",
+     "chapter": 12,
+     "section": "12.3.3",
+     "title": "Mutual Relationship Among Partners and Management Rules",
+     "pages": [
+      314,
+      316
      ]
     }
    ]

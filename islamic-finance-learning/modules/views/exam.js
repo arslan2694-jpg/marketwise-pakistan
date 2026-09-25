@@ -1,7 +1,7 @@
 /* Exam Preparation Center, Exam Answer Trainer and Rapid Revision Cards. */
 (function () {
   var IFL = window.IFL, u = IFL.u, h = u.h, C = IFL.c;
-  var KIND = { long: 'Long question', short: 'Short question', conceptual: 'Conceptual question', scenario: 'Scenario question', viva: 'Viva question' };
+  var KIND = { long: 'Long question', short: 'Short question', conceptual: 'Conceptual question', scenario: 'Scenario question', viva: 'Viva question', difference: 'Difference question' };
 
   function allExam() {
     return window.IFL_DATA.loadAllChapters().then(function (chs) {
@@ -35,7 +35,7 @@
       if (sec === 'overview') {
         var counts = {}; A.exam.forEach(function (e) { counts[e.kind] = (counts[e.kind] || 0) + 1; });
         body = h('div.stack',
-          h('div.grid.grid-4', [['definitions', A.defs.length, 'Definitions'], ['short', counts.short || 0, 'Short questions'], ['long', counts.long || 0, 'Long questions'], ['conceptual', counts.conceptual || 0, 'Conceptual'], ['difference', A.diffs.length + R.comparisons.pairs.length, 'Difference questions'], ['scenario', counts.scenario || 0, 'Scenario questions'], ['mcq', A.mcq.length, 'MCQs'], ['viva', counts.viva || 0, 'Viva questions']].map(function (x) {
+          h('div.grid.grid-4', [['definitions', A.defs.length, 'Definitions'], ['short', counts.short || 0, 'Short questions'], ['long', counts.long || 0, 'Long questions'], ['conceptual', counts.conceptual || 0, 'Conceptual'], ['difference', A.diffs.length + R.comparisons.pairs.length + (counts.difference || 0), 'Difference questions'], ['scenario', counts.scenario || 0, 'Scenario questions'], ['mcq', A.mcq.length, 'MCQs'], ['viva', counts.viva || 0, 'Viva questions']].map(function (x) {
             return h('a.card.card-link', { href: '#/exam?s=' + x[0] }, C.stat(x[1], x[2]));
           })),
           h('div.grid.grid-3',
@@ -49,7 +49,8 @@
       } else if (sec === 'difference') {
         var dd = A.diffs.filter(function (d) { return inCh(d.topic); });
         var pp = R.comparisons.pairs.filter(function (p) { return inCh(p.topic); });
-        body = h('div.stack', h('div.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'Difference questions — ask yourself “distinguish A from B”'),
+        var dx = A.exam.filter(function (e) { return e.kind === 'difference' && (!chF || e.chapter === chF); });
+        body = h('div.stack', dx.length ? examList('difference') : null, h('div.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'Difference questions — ask yourself “distinguish A from B”'),
           h('ul.list', dd.map(function (d) { return h('li', h('details', h('summary', h('strong', 'Distinguish ' + d.a + ' from ' + d.b)), h('p.small', { style: { marginTop: '6px' } }, d.text, ' ', h('a', { href: '#/topic/' + d.topic }, IFL.course.sourceLabel(d.topic))))); }))),
           pp.length ? h('div.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'Comparison tables'), h('div.row', pp.map(function (p) { return h('a.chip', { href: '#/compare?id=' + p.id }, p.title); }))) : null);
       } else if (sec === 'mcq') {

@@ -410,6 +410,56 @@ test('UX flow (Phase 52): dashboard → chapter 1 → topic → complete → Ch 
   assert(s.attempts.length === 1 && s.notes.length === 1 && s.bookmarks.length === 1 && s.reviews.length === 1, 'quiz, note, bookmark and flashcard review all recorded');
 });
 
+test('timed mock exam: silent answers, skip and second pass, submit, full review', async (page) => {
+  await go(page, '/mock');
+  assert(/Timed mock exam/.test(await heading(page)), 'mock setup page');
+  await go(page, '/mock/run?n=5&min=10&label=Test%20mock');
+  assert(await page.locator('#view [role="timer"]').count() === 1, 'countdown shown');
+  // Skip the first question, answer the other four.
+  await page.getByRole('button', { name: /Skip for now/ }).click();
+  for (let i = 0; i < 4; i++) {
+    await answerCurrent(page);
+    assert(await page.locator('#view .feedback').count() === 0, 'no feedback during the exam');
+    assert(await page.locator('#view .q-card.defer').count() === 1, 'exam mode question');
+    await page.getByRole('button', { name: /^Next/ }).click();
+  }
+  // Second pass returns to the skipped question.
+  assert(/Skipped question 1 of 1/.test(await page.locator('#view').innerText()), 'second pass for skipped question');
+  await page.getByRole('button', { name: 'Submit exam' }).click();
+  await page.locator('.modal').getByRole('button', { name: 'Submit' }).click();
+  await page.waitForSelector('.score-big');
+  const txt = await page.locator('#view').innerText();
+  assert(/1 not answered/.test(txt), 'unanswered counted');
+  assert(/By chapter/.test(txt) && /Answer review/.test(txt) && /Correct answer:/.test(txt), 'review with answers');
+  const s = await state(page);
+  assert(s.attempts[0].mode === 'mock' && s.attempts[0].total === 5 && typeof s.attempts[0].seconds === 'number', 'mock attempt recorded');
+});
+
+test('mistakes review lists last-wrong questions and clears when answered correctly', async (page) => {
+  await go(page, '/mistakes');
+  assert(/No open mistakes/.test(await page.locator('#view').innerText()), 'empty state');
+  await page.evaluate(() => window.IFL.questionPool().then((all) => { const q = all.find((x) => x.id === 'q3.1'); window.IFL.progress.recordAnswer(q, false); }));
+  await go(page, '/'); await go(page, '/mistakes');
+  let txt = await page.locator('#view').innerText();
+  assert(/Chapter 3/.test(txt) && /Retry 1 mistake/.test(txt), 'mistake listed');
+  await page.evaluate(() => window.IFL.questionPool().then((all) => { const q = all.find((x) => x.id === 'q3.1'); window.IFL.progress.recordAnswer(q, true); }));
+  await go(page, '/'); await go(page, '/mistakes');
+  assert(/No open mistakes/.test(await page.locator('#view').innerText()), 'mistake cleared');
+});
+
+test('printable chapter revision sheet', async (page) => {
+  await go(page, '/chapter/5?tab=summary');
+  await page.getByRole('link', { name: /Printable revision sheet/ }).click();
+  await page.waitForSelector('.print-sheet');
+  const n = await page.evaluate(() => window.IFL_DATA.loadChapter(5).then((c) => c.topics.length));
+  assert(await page.locator('.print-topic').count() === n, 'every topic on the sheet');
+  assert(/Key takeaways/.test(await page.locator('#view').innerText()), 'takeaways');
+  await page.emulateMedia({ media: 'print' });
+  assert(!(await page.locator('.no-print').first().isVisible()), 'toolbar hidden in print');
+  assert(!(await page.locator('.sidebar').isVisible()), 'sidebar hidden in print');
+  await page.emulateMedia({ media: 'screen' });
+});
+
 test('standalone: the whole app runs from one file (no other file is requested)', async (page) => {
   if (!STANDALONE) return;
   const files = [];

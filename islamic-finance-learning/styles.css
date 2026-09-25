@@ -486,11 +486,34 @@ mark { background: var(--gold-soft); color: inherit; padding: 0 2px; border-radi
 .timer-face { font-size: 64px; font-weight: 800; font-variant-numeric: tabular-nums; text-align: center; letter-spacing: -0.02em; }
 
 /* ---------- Print ---------- */
+/* Exam mode (mock exam): answers are recorded without revealing correctness. */
+.q-card.defer .opt.correct, .q-card.defer .opt.incorrect,
+.q-card.defer .order-list li.correct, .q-card.defer .order-list li.incorrect { border-color: var(--border-strong); background: var(--bg-elev); }
+.q-card.defer .opt.chosen, .q-card.defer .opt[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.mock-bar { position: sticky; top: var(--topbar-h); z-index: 5; background: var(--bg); padding: 6px 0; margin-bottom: 8px; }
+.review-item p { margin: 6px 0; }
+
+/* Printable revision sheet */
+.print-sheet header h1 { margin: 4px 0 8px; }
+.print-sheet section { margin-top: 22px; }
+.print-sheet h2 { font-family: var(--font-sans); font-size: var(--fs-lg); border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+.print-topic { margin: 14px 0; break-inside: avoid; }
+.print-topic h3 { font-size: var(--fs-md); margin: 0 0 4px; }
+.print-topic dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 6px 0; font-size: var(--fs-sm); }
+.print-topic dt { font-weight: 600; }
+.print-topic dd { margin: 0; }
+.print-check { list-style: none; padding-left: 0; }
+@media (max-width: 600px) { .print-topic dl { grid-template-columns: 1fr; } .print-topic dd { margin-bottom: 6px; } }
+
 @media print {
-  .topbar, .sidebar, .bottom-nav, .lesson-aside, .level-switch, .btn { display: none !important; }
+  .topbar, .sidebar, .bottom-nav, .lesson-aside, .level-switch, .btn, .no-print, .toast { display: none !important; }
   .app { display: block; }
   .view { max-width: none; padding: 0; }
   .card { box-shadow: none; border-color: #ccc; }
+  body { background: #fff !important; color: #000 !important; font-size: 11pt; }
+  a { color: inherit; text-decoration: none; }
+  .print-sheet h2 { break-after: avoid; }
+  .print-topic, .card { break-inside: avoid; }
 }
 
 @media (max-width: 960px) { .cmp-grid, .concept-grid { grid-template-columns: 1fr !important; } }

@@ -67,6 +67,10 @@ D.chapters.forEach(c => {
     if (Q[q.id]) err('Duplicate question ' + q.id); Q[q.id] = q;
     if (!QTYPES.includes(q.type)) err(q.id + ' bad type ' + q.type);
     ['q', 'explanation', 'topic', 'diff', 'level', 'obj'].forEach(k => { if (!q[k]) err(q.id + ' missing ' + k); });
+    if (q.diff && !['E', 'M', 'H'].includes(q.diff)) err(q.id + ' bad difficulty ' + q.diff);
+    if (q.level && !['recall', 'understanding', 'application', 'analysis'].includes(q.level)) err(q.id + ' bad level ' + q.level);
+    if (SINGLE.includes(q.type) && q.options && new Set(q.options).size !== q.options.length) err(q.id + ' duplicate options');
+    if (q.type === 'order' && q.items && new Set(q.items).size !== q.items.length) err(q.id + ' duplicate order items');
     if (SINGLE.includes(q.type) && (typeof q.answer !== 'number' || !q.options || q.answer >= q.options.length)) err(q.id + ' answer out of range');
     if (q.type === 'tf' && typeof q.answer !== 'boolean') err(q.id + ' tf answer not boolean');
     if (q.type === 'multi' && (!Array.isArray(q.answer) || q.answer.some(i => i >= q.options.length))) err(q.id + ' multi answer invalid');
@@ -74,6 +78,7 @@ D.chapters.forEach(c => {
     if (q.type === 'order' && (!q.items || q.items.length < 3)) err(q.id + ' order items missing');
     if (q.type === 'short' && (!q.answer || !Array.isArray(q.keywords))) err(q.id + ' short answer/keywords missing');
   });
+  c.exam.forEach(e => { if (!['long', 'short', 'conceptual', 'viva', 'difference', 'scenario'].includes(e.kind)) err(e.id + ' bad exam kind ' + e.kind); });
   c.exam.forEach(e => ['q', 'structure', 'keyConcepts', 'points', 'mistakes', 'topic'].forEach(k => { if (!e[k] || (Array.isArray(e[k]) && !e[k].length)) err(e.id + ' missing ' + k); }));
 });
 const has = id => !!T[id];

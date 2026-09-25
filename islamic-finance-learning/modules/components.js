@@ -143,7 +143,7 @@
   C.typeLabel = function (t) { return TYPE_LABEL[t] || t; };
   C.question = function (q, opts) {
     opts = opts || {};
-    var wrap = h('div.q-card');
+    var wrap = h('div.q-card' + (opts.defer ? '.defer' : ''));
     var answered = false;
     if (opts.showMeta !== false) wrap.appendChild(h('div.q-meta',
       h('span.badge.accent', TYPE_LABEL[q.type] || q.type), q.diff ? h('span.badge', DIFF[q.diff]) : null, q.level ? h('span.badge', q.level.charAt(0).toUpperCase() + q.level.slice(1)) : null,
@@ -154,6 +154,14 @@
 
     function finish(correct, userShort) {
       if (answered) return; answered = true;
+      if (opts.defer) {  /* exam mode: record silently, reveal nothing until the review */
+        wrap.classList.add('answered');
+        Array.prototype.forEach.call(area.querySelectorAll('select'), function (s) { s.style.borderColor = ''; });
+        fb.appendChild(h('p.small.muted', 'Answer recorded.'));
+        P().recordAnswer(q, correct);
+        if (opts.onAnswer) opts.onAnswer(correct, q);
+        return;
+      }
       var t = IFL.course.topic(q.topic);
       fb.appendChild(h('div.feedback.' + (correct ? 'ok' : 'bad'),
         h('div.t', correct ? '✓ Correct' : '✗ Not quite'),
@@ -169,6 +177,7 @@
       var btns = q.options.map(function (o, i) {
         return h('button.opt', { type: 'button', 'data-i': i, onclick: function () {
           if (answered) return;
+          btns[i].classList.add('chosen');
           btns.forEach(function (b, j) { b.disabled = true; if (j === q.answer) b.classList.add('correct'); });
           if (i !== q.answer) btns[i].classList.add('incorrect');
           finish(i === q.answer);
@@ -180,6 +189,7 @@
       var tb = [true, false].map(function (v) {
         return h('button.opt', { type: 'button', onclick: function () {
           if (answered) return;
+          this.classList.add('chosen');
           tb.forEach(function (b, j) { b.disabled = true; if ((j === 0) === q.answer) b.classList.add('correct'); });
           if (v !== q.answer) this.classList.add('incorrect');
           finish(v === q.answer);
@@ -202,7 +212,7 @@
         this.disabled = true; finish(ok);
       } }, 'Check answer'), h('span.small.muted', 'Select all that apply')));
     } else if (q.type === 'match') {
-      var rights = u.shuffle(q.pairs.map(function (p) { return p[1]; }), q.id.length * 7 + 3);
+      var rights = u.shuffle(q.pairs.map(function (p) { return p[1]; }).filter(function (v, i, a) { return a.indexOf(v) === i; }), q.id.length * 7 + 3);
       var selects = q.pairs.map(function (p, i) {
         var s = h('select.input', { 'aria-label': 'Match for ' + p[0] }, h('option', { value: '' }, 'Choose…'), rights.map(function (r) { return h('option', { value: r }, r); }));
         return s;
@@ -258,6 +268,7 @@
     }
     return wrap;
   };
+  C.correctText = function (q) { return correctText(q); };
   function correctText(q) {
     if (SINGLE[q.type]) return q.options[q.answer];
     if (q.type === 'tf') return q.answer ? 'True' : 'False';

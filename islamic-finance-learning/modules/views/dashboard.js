@@ -45,7 +45,7 @@
         return h('div', h('div.row.between.small', h('a', { href: '#/learn/' + p.id }, p.title), h('span.tabular.muted', pp.done + '/' + pp.total)), C.bar(pp.pct));
       })));
 
-    var weakCard = h('section.card', h('div.card-title', h('h2', 'Weak topics'), h('a.btn.sm', { href: '#/practice' }, 'Adaptive practice')),
+    var weakCard = h('section.card', h('div.card-title', h('h2', 'Weak topics'), h('div.row', h('a.btn.sm', { href: '#/mistakes' }, 'Mistakes'), h('a.btn.sm', { href: '#/practice' }, 'Adaptive practice'))),
       weak.length ? h('div', weak.map(function (w) {
         return h('div.weak-row', h('a', { href: '#/topic/' + w.id }, '§' + w.topic.section + ' ' + trunc(w.topic.title, 44)), C.bar(w.pct, w.pct < 50 ? 'gold' : null), h('span.small.tabular', w.pct + '%'));
       })) : h('p.muted.small', s.attempts.length || Object.keys(s.answers).length ? 'No weak topics yet — accuracy is at least 70% wherever you have answered twice or more.' : 'Answer quiz questions and weak areas will appear here, based on your accuracy.'));
@@ -72,7 +72,8 @@
     var quick = h('section.card', h('div.card-title', h('h2', 'Study tools')),
       h('div.grid.grid-2', [
         ['#/revision-cards', 'layers', 'Rapid revision cards'], ['#/compare', 'compare', 'Comparison lab'], ['#/diagrams', 'flow', 'Transaction diagrams'], ['#/concepts', 'map', 'Concept map'],
-        ['#/exam/trainer', 'exam', 'Exam answer trainer'], ['#/finder', 'compass', 'Which mode applies?'], ['#/cases', 'case', 'Case studies'], ['#/timer', 'clock', 'Study timer']
+        ['#/exam/trainer', 'exam', 'Exam answer trainer'], ['#/finder', 'compass', 'Which mode applies?'], ['#/cases', 'case', 'Case studies'], ['#/timer', 'clock', 'Study timer'],
+        ['#/mock', 'flame', 'Timed mock exam'], ['#/mistakes', 'refresh', 'My mistakes' + (function () { var n = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false; }).length; return n ? ' (' + n + ')' : ''; })()]
       ].map(function (x) { return h('a.btn', { href: x[0], style: { justifyContent: 'flex-start' } }, u.svg(x[1]), x[2]); })));
 
     return h('div.stack', hero, nextCard, stats,

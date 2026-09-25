@@ -15,8 +15,8 @@ The whole book is covered, all 18 chapters across its three parts: foundations, 
 | **Dashboard** | Course completion, chapters and topics done, quiz average, flashcards reviewed and due, streak, study time, weak topics, exam readiness per Part, recent activity, bookmarks, and "Recommended next". Every figure comes from your own activity; nothing is estimated or pre-filled. |
 | **Learn** | 18 chapter pages (overview, objectives, why it matters, sections, definitions, summary, quiz, flashcards) and 311 topic lessons. Each lesson has Beginner / MBA / Exam levels, four "Explain again" modes, conditions, principles, steps, examples, distinctions, common confusions, and the author's discussion of criticisms. There is a quick check, a source footer with "View source context", and **Teach me**, a guided walk through the topic. |
 | **Explore** | Concept map (37 concepts along the book's spine, from the Islamic economic system through to Takaful). Glossary (191 book terms plus chapter definitions, with search, A–Z, categories, related terms and bookmarks). 13 step-through transaction diagrams. Comparison lab (12 modes × 12 aspects, plus 18 paired comparisons). **Which mode applies?**, a decision tree with the disclaimer above. |
-| **Practise** | Flashcards: 284 cards in chapter and category decks, with a deterministic spaced-review schedule (Again / Hard / Good / Easy). Quiz builder and 236 questions in 11 types, plus 311 quick checks. Every question has an answer, explanation, source, learning objective and a "Review topic" link. Adaptive practice driven by your answer history. 11 case studies. |
-| **Exam** | Exam centre with priority tiers, an answer trainer (88 questions with expected structure, key concepts, essential points and common mistakes), and rapid revision cards. |
+| **Practise** | Flashcards: 498 cards in chapter and category decks, with a deterministic spaced-review schedule (Again / Hard / Good / Easy). Quiz builder and 771 questions in 11 types, plus 311 quick checks. Every question has an answer, explanation, source, learning objective and a "Review topic" link. Adaptive practice driven by your answer history. **My mistakes** lists every question whose latest answer was wrong, grouped by chapter, with one-click retry; a question leaves the list once you answer it correctly. 11 case studies. |
+| **Exam** | Exam centre with priority tiers, an answer trainer (110 questions with expected structure, key concepts, essential points and common mistakes), and rapid revision cards. A **timed mock exam** (short, full, hard, per-Part or custom) records answers silently under a countdown, lets you skip and return, and then gives a full review with correct answers, explanations, sources and a breakdown by chapter and cognitive level. Each chapter's Summary tab links to a **printable revision sheet** (print or save as PDF). |
 | **Guided study** | 45-minute crash course, 90-minute revision and 3-hour deep study. Each has a countdown, the current section, a completion track, and previous / next / skip / pause / resume. Your position is saved. |
 | **Tools** | Global search, notes (with timestamps and search), bookmarks by type, a study timer (Pomodoro, 45, 60 or custom minutes, running across pages), a progress page with achievements, and 14 calculators. Calculators with invented numbers are labelled "Practice Example — generated for learning". |
 | **Settings** | Light / dark / system theme, text size, reduced motion, default explanation level, daily goal, and export / import / reset of your data. |
@@ -27,7 +27,7 @@ Keyboard: `/` focuses search. In quizzes, `A`–`D` or `1`–`4` answer and `Ent
 
 ## How to run it
 
-**Easiest: the single-file version.** `Islamic-Finance-Learning.html` is the complete app in one self-contained file (about 1.5 MB). All 18 chapters, the glossary, flashcards, questions, diagrams, cases, study plans, styles and code are embedded. Double-click it, or copy, email or USB it anywhere; it needs no other files and no internet. It has every feature of the folder version. The only exception is the "Open textbook PDF at page" button, which works only if the file sits next to a `textbook/` folder containing the PDF. It is generated from the sources by `node tools/build-standalone.cjs` (part of `npm run build`), so edit the source files, not this one. Progress is saved in the browser. Chrome and Edge share it between the single file and `index.html`. Firefox and Safari may keep it separate for each file location. Export and Import move it either way.
+**Easiest: the single-file version.** `Islamic-Finance-Learning.html` is the complete app in one self-contained file (about 2 MB). All 18 chapters, the glossary, flashcards, questions, diagrams, cases, study plans, styles and code are embedded. Double-click it, or copy, email or USB it anywhere; it needs no other files and no internet. It has every feature of the folder version. The only exception is the "Open textbook PDF at page" button, which works only if the file sits next to a `textbook/` folder containing the PDF. It is generated from the sources by `node tools/build-standalone.cjs` (part of `npm run build`), so edit the source files, not this one. Progress is saved in the browser. Chrome and Edge share it between the single file and `index.html`. Firefox and Safari may keep it separate for each file location. Export and Import move it either way.
 
 **Option 1: open the folder version.** Double-click `index.html` or open it in a browser (`file://`). Everything works this way, including progress saving. The app is plain HTML, CSS and JavaScript loaded as classic scripts, with no build step and no dependencies.
 
@@ -140,7 +140,7 @@ The code is split into four layers that do not mix:
                 examples, distinctions, confusions, debate, table, calc, related, concepts, quickCheck }],
      flashcards: [...], questions: [...], exam: [...] });
    ```
-   Every question carries `type`, `diff` (E/M/H), `level` (recall … evaluate), `answer`, `explanation`, `obj` and `topic`. The `topic` field is what source labels and "Review topic" links are built from.
+   Every question carries `type`, `diff` (E/M/H), `level` (recall, understanding, application or analysis), `answer`, `explanation`, `obj` and `topic`. The `topic` field is what source labels and "Review topic" links are built from.
 2. **Index.** `data/course-index.js` is the only content loaded at startup, about 40 KB. Chapters and the other datasets load on demand through `IFL_DATA.load([...])` / `loadChapter(n)`. Search and the glossary load all chapters the first time they are used.
 3. **Logic** (`modules/*.js`) covers progress, scheduling, routing and calculators, all under `window.IFL`.
 4. **User state** lives in a single JSON object in `localStorage["ifl.v1"]`:
@@ -194,11 +194,13 @@ Use export and import to move your progress to another browser or device, or to 
 1. Edit the relevant file in `data/`. For a chapter that is `data/chapters/chNN.js`; keep the topic `id`s stable, since progress is keyed by them. Regenerate the glossary with `python3 tools/build_glossary.py`, which needs the extracted text.
 2. Rebuild the generated files: `npm run build`, which runs `build-course-index.cjs`, `build-indexes.cjs` and `build-sw.cjs`.
 3. Validate: `npm run validate`. This runs:
-   - **schema:** every question type, every cross-reference, study-plan continuity;
+   - **schema:** every question type, allowed difficulty/level/exam-kind values, duplicate options, every cross-reference, study-plan continuity;
    - **coverage:** every source-map section and subsection is covered;
    - **placeholder scan** and **index freshness**;
    - **content-depth audit** and **copyright overlap audit**.
 4. Test: `npm test`, which runs the validator and then the browser tests.
+
+To add content in bulk, write a supplement file and run `node tools/merge-content.cjs path/to/supplement.cjs` (the file header documents the format; ids are assigned automatically, duplicates skipped). `node tools/chapter-brief.cjs N` lists what a chapter already contains.
 
 To re-derive the source map from the PDF: `tools/fetch-textbook.sh`, then `pip install pymupdf && python3 tools/extract_source.py`.
 
@@ -212,7 +214,7 @@ To re-derive the source map from the PDF: `tools/fetch-textbook.sh`, then `pip i
   - dashboard, navigation to every section, all 18 chapters, and topic levels and completion;
   - glossary, search, flashcard grading, quizzes, adaptive practice, cases, comparisons, diagrams, concept map and mode finder;
   - notes, bookmarks, timer, and the crash course, revision and deep-study modes;
-  - exam trainer, calculators, and persistence of progress, notes, bookmarks and settings after reload;
+  - exam trainer, timed mock exam (silent answers, skip and second pass, review), mistakes review, printable revision sheets, calculators, and persistence of progress, notes, bookmarks and settings after reload;
   - export, reset and import;
   - keyboard shortcuts and error handling;
   - **no external network requests**;
