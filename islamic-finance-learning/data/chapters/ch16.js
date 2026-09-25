@@ -34,16 +34,14 @@ IFL_DATA.registerChapter({
       concepts: ["takaful", "tawakkul"],
       intuition: "Does buying cover contradict trust in Allah?",
       simple: "Muslim societies avoided commercial insurance for two reasons: a belief that mutual help and trust in destiny make it unnecessary, and the prohibitions of Riba, Gharar and gambling (plus insurers' investment in forbidden businesses). The author regards the second as genuine and the first as a myth: Islam requires reasonable precautions — ‘Tie your camel first, then put your trust in Allah’ — and Shari’ah intends ease (Qur’an 2:185; 4:28). Islamic insurance began only in 1979, largely in response to IFIs' needs.",
-      academic: ["Insurance is mostly conducted by NBFIs; banks are generally not allowed to do insurance but need it as a regulatory and business requirement. Takaful also benefits individuals who avoided insurance on religious grounds. The rule of necessity supports developing a compliant scheme."],
+      academic: [
+        "Insurance is mostly conducted by NBFIs; banks are generally not allowed to do insurance but need it as a regulatory and business requirement. Takaful also benefits individuals who avoided insurance on religious grounds. The rule of necessity supports developing a compliant scheme."
+      ],
       exam: "Two reasons for avoiding insurance — belief (myth, per author) and prohibitions (genuine). Hadith: tie your camel. Qur’an 2:185, 4:28. Takaful from 1979.",
       keyPoints: ["Author's view: seeking cover is not against Tawakkul."],
-      debate: [{
-        issue: "Is seeking insurance cover contrary to trust in Allah and destiny?",
-        criticism: "Many believe true faith and mutual help make cover unnecessary and that insuring questions Allah's decree.",
-        response: "The author calls this a myth: Islam directs believers to avoid catastrophe where possible and to lighten burdens; the Prophet said ‘Tie your camel first, then put your trust in Allah’; Shari’ah intends ease.",
-        alternative: "Seek cover through a scheme free of Riba, Gharar and gambling — Takaful.",
-        takeaway: "The objection lies in insurance's contract elements, not in seeking protection itself."
-      }],
+      debate: [
+        { issue: "Is seeking insurance cover contrary to trust in Allah and destiny?", criticism: "Many believe true faith and mutual help make cover unnecessary and that insuring questions Allah's decree.", response: "The author calls this a myth: Islam directs believers to avoid catastrophe where possible and to lighten burdens; the Prophet said ‘Tie your camel first, then put your trust in Allah’; Shari’ah intends ease.", alternative: "Seek cover through a scheme free of Riba, Gharar and gambling — Takaful.", takeaway: "The objection lies in insurance's contract elements, not in seeking protection itself." }
+      ],
       related: ["t16.2.1", "t3.3.3"],
       quickCheck: { q: "Which hadith does the author cite to show that precaution is consistent with Tawakkul?", options: ["‘Leave your offspring wealthy’", "‘Tie your camel first, then put your trust in Allah’", "‘Muslims are bound by their conditions’", "‘Earnings are concomitant with risk’"], answer: 1, explanation: "p. 418." }
     },
@@ -94,7 +92,9 @@ IFL_DATA.registerChapter({
       concepts: ["takaful"],
       intuition: "Is family Takaful the same as ‘insuring your life’?",
       simple: "From the participants' view the objective is mutual help, not profit or windfall gains. Operators may earn fees or profit shares as a business, and participants share realised profit after covering members' losses. Family Takaful is not against piety — it provides for dependants, in line with the Hadith ‘It is better to leave your offspring wealthy than poor’ and the Prophet's praise of those who look after widows and the poor.",
-      academic: ["Common pools of Muslim traders to compensate robbery or misfortune on journeys illustrate mutual protection; Takaful may be conducted as a business with compliance, transparency and fairness."],
+      academic: [
+        "Common pools of Muslim traders to compensate robbery or misfortune on journeys illustrate mutual protection; Takaful may be conducted as a business with compliance, transparency and fairness."
+      ],
       exam: "Objective: mutual help (Tabarru‘) not profit; family Takaful supports dependants (Hadith on leaving offspring wealthy).",
       keyPoints: ["Business operation is acceptable if compliant and fair."],
       related: ["t16.3"],
@@ -127,16 +127,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Models: Wakalah (fee; UWS/UWL to participants; operator performance share questioned), Mudarabah (UWS shared, operator not bearing UWL — objectionable), Wakalah–Mudarabah (structural issues), Waqf/Wakalah–Waqf (preferred; Usmani-led research). Box 16.1: 25–30% fee; 70–75% invested; Mudarabah 40:60.",
       keyPoints: ["Operator should not be a risk-taker.", "Qard al Hasan covers fund deficits."],
-      table: {
-        caption: "Takaful models compared (Section 16.4.1)",
-        head: ["Model", "Operator's income", "UWS/UWL", "Main Shari’ah concern"],
-        rows: [
-          ["Wakalah", "Fixed % fee (+ performance share of UWS)", "Participants", "Operator shares surplus but not deficit — inequitable"],
-          ["Mudarabah", "Share of investment profit and UWS", "Shared surplus; operator bears no UWL", "Tabarru‘ cannot be Mudarabah capital; operator a risk-taker"],
-          ["Wakalah–Mudarabah", "Fee + share of UWS and investment profit", "Shared surplus", "Mudarib cannot also charge expenses; no UWL borne"],
-          ["Waqf / Wakalah–Waqf", "Management fee + Mudarib share of investment profit", "Belongs to the Waqf fund/participants", "Preferred — conforms to Tabarru‘"]
-        ]
-      },
+      table: { caption: "Takaful models compared (Section 16.4.1)", head: ["Model", "Operator's income", "UWS/UWL", "Main Shari’ah concern"], rows: [["Wakalah", "Fixed % fee (+ performance share of UWS)", "Participants", "Operator shares surplus but not deficit — inequitable"], ["Mudarabah", "Share of investment profit and UWS", "Shared surplus; operator bears no UWL", "Tabarru‘ cannot be Mudarabah capital; operator a risk-taker"], ["Wakalah–Mudarabah", "Fee + share of UWS and investment profit", "Shared surplus", "Mudarib cannot also charge expenses; no UWL borne"], ["Waqf / Wakalah–Waqf", "Management fee + Mudarib share of investment profit", "Belongs to the Waqf fund/participants", "Preferred — conforms to Tabarru‘"]] },
       calc: { type: "takaful-waqf", note: "Reproduces Box 16.1's illustrative split: enter total donations, claims and investment return; shows the 25–30% operator fee, the invested portion, the fund's underwriting result and the 60:40 Mudarabah profit split. Other ratios are practice inputs." },
       related: ["t16.4.2", "t16.4.3", "t13.2.2"],
       quickCheck: { q: "Which model did research by over forty scholars under Mufti Taqi Usmani favour?", options: ["Pure Mudarabah", "Waqf or Wakalah–Waqf", "Conventional mutual", "Wakalah–Mudarabah"], answer: 1, explanation: "p. 423." }
@@ -174,20 +165,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Compare: risk transfer vs mutual sharing; premium profit-driven vs adequacy; UWS to company vs participants; life: nominee/interest vs heirs/Waqf-Mudarabah; investments: any vs compliant only.",
       keyPoints: ["Built-in check against overpricing."],
-      table: {
-        caption: "Takaful vs conventional insurance (Section 16.5)",
-        head: ["Aspect", "Conventional insurance", "Takaful"],
-        rows: [
-          ["Basis", "Commutative sale of cover; risk transferred to insurer", "Tabarru‘/Waqf; mutual risk-sharing among participants"],
-          ["Prohibited elements", "Riba, Gharar, gambling", "Avoided"],
-          ["Underwriting surplus/loss", "Belongs to insurer", "Belongs to participants/fund"],
-          ["Premium setting", "Profit maximisation", "Adequacy, equity and ethics"],
-          ["Deficits", "Insurer's loss", "Reserves → shareholder Qard al Hasan → pricing"],
-          ["Life policies", "Riba-based; nominee receives sum assured", "Waqf, Tabarru‘, Mudarabah; heirs per inheritance rules"],
-          ["Agents", "Paid from premiums", "Paid by the company"],
-          ["Investments", "Including interest-based avenues", "Shari’ah-compliant only"]
-        ]
-      },
+      table: { caption: "Takaful vs conventional insurance (Section 16.5)", head: ["Aspect", "Conventional insurance", "Takaful"], rows: [["Basis", "Commutative sale of cover; risk transferred to insurer", "Tabarru‘/Waqf; mutual risk-sharing among participants"], ["Prohibited elements", "Riba, Gharar, gambling", "Avoided"], ["Underwriting surplus/loss", "Belongs to insurer", "Belongs to participants/fund"], ["Premium setting", "Profit maximisation", "Adequacy, equity and ethics"], ["Deficits", "Insurer's loss", "Reserves → shareholder Qard al Hasan → pricing"], ["Life policies", "Riba-based; nominee receives sum assured", "Waqf, Tabarru‘, Mudarabah; heirs per inheritance rules"], ["Agents", "Paid from premiums", "Paid by the company"], ["Investments", "Including interest-based avenues", "Shari’ah-compliant only"]] },
       related: ["t16.2.1", "t16.4"],
       quickCheck: { q: "In family Takaful, the insurable interest on death vests in:", options: ["A nominee of choice irrespective of Shari’ah", "The assured's heirs according to inheritance and wills", "The company", "The agent"], answer: 1, explanation: "p. 427." }
     },
@@ -196,7 +174,9 @@ IFL_DATA.registerChapter({
       concepts: ["takaful"],
       intuition: "Why has Takaful lagged behind Islamic banking?",
       simple: "First company: Islamic Insurance Company of Sudan (1979); Malaysia from 1984. Growth 10–20% p.a. vs about 5% for global insurance; over 60 companies in 24 countries; re-Takaful in Malaysia, Bahrain, Saudi Arabia and UAE. It has lagged banking because of the huge investment needed and required regulatory changes. Potential: low insurance density and penetration in Muslim countries, growth of Ijarah and home finance, motor, health and family needs. Islamic banks might jointly establish well-capitalised Takaful companies.",
-      academic: ["Only a few companies offer comprehensive family Takaful (e.g. Bank Aljazira's Takaful Ta‘awani); awareness, particularly of family Takaful, is key."],
+      academic: [
+        "Only a few companies offer comprehensive family Takaful (e.g. Bank Aljazira's Takaful Ta‘awani); awareness, particularly of family Takaful, is key."
+      ],
       exam: "1979 Sudan; 1984 Malaysia; growth 10–20%; >60 companies, 24 countries; lag reasons: investment, regulation; potential: low density/penetration, Ijarah and housing.",
       keyPoints: ["Insurance density = premiums per capita; penetration = premiums/GDP."],
       related: ["t16.7", "t18.3.1"],
@@ -207,7 +187,9 @@ IFL_DATA.registerChapter({
       concepts: ["takaful"],
       intuition: "What must change for Takaful to reach its potential?",
       simple: "Challenges: incorporating Waqf; adequate capitalisation (family Takaful absorbs cash in early years); human resources and training; re-Takaful availability (few providers, mostly Mudarabah-based, which is objectionable); compliant investment avenues; standardisation and harmonisation (AAOIFI, IFSB) with convergence on the Wakalah–Waqf model; legal and regulatory frameworks; competitiveness; and above all public awareness. Every company needs a Shari’ah board/advisor and periodic Shari’ah audit.",
-      academic: ["Composite (general) business offers early cash flow; family Takaful's real potential needs a strong capital base. Regulators should allow flexibility while applying benchmarks such as CAMELS."],
+      academic: [
+        "Composite (general) business offers early cash flow; family Takaful's real potential needs a strong capital base. Regulators should allow flexibility while applying benchmarks such as CAMELS."
+      ],
       exam: "Challenges: awareness (biggest), Waqf adoption, capital, HR/training, re-Takaful, investments, standardisation (Wakalah–Waqf convergence), regulation, competition, Shari’ah governance.",
       keyPoints: ["Most important challenge: awareness."],
       related: ["t16.4.1", "t18.3.3"],

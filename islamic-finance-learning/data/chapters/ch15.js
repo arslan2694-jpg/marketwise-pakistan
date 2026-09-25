@@ -49,7 +49,9 @@ IFL_DATA.registerChapter({
       ],
       exam: "Islamic capital market = compliant stocks + funds + Sukuk (+ IDRs); no conventional debt market; debt transfer only by Hawalah at par with recourse. IDR parties and advantages.",
       keyPoints: ["Hawalah: transfer with recourse; sale: without recourse."],
-      definitions: [{ term: "Islamic depository receipt (IDR)", meaning: "A depository receipt allowing Shari’ah-compliant stocks of one country to be traded in another; parties are originator, investor and custodian bank." }],
+      definitions: [
+        { term: "Islamic depository receipt (IDR)", meaning: "A depository receipt allowing Shari’ah-compliant stocks of one country to be traded in another; parties are originator, investor and custodian bank." }
+      ],
       related: ["t8.8.2", "t15.3"],
       quickCheck: { q: "How can a debt be transferred under Shari’ah rules?", options: ["Sold at a discount", "Assigned at par with recourse (Hawalah)", "Securitised at market price", "Not at all"], answer: 1, explanation: "p. 390." }
     },
@@ -81,7 +83,9 @@ IFL_DATA.registerChapter({
       concepts: ["sukuk", "spv"],
       intuition: "Who does what in a Sukuk deal?",
       simple: "Key players: the originator (sells assets to the SPV and uses funds — usually governments or large corporations), the SPV (buys assets, issues Sukuk; sometimes called issuer), investment banks (underwriting, lead managing, book-building for fees) and subscribers. Others: obligor, lead manager/arranger, servicer, cash administrator (paying agent), credit-enhancement provider, rating agency, legal and tax counsel, auditor, custodian/registrar. Classes: asset-backed; pool-based (mortgage-backed; CDO/CLO — not compliant unless under Hawalah rules; lease rentals — ownership must pass); future-flow (road tolls — pro rata ownership needed; telecom; credit-card receivables — not compliant unless Hawalah).",
-      academic: ["Figure 15.1 shows originator → SPV (sale of receivables) → senior and subordinate investors via PTCs, with a servicer and T&R account handling pool collections."],
+      academic: [
+        "Figure 15.1 shows originator → SPV (sale of receivables) → senior and subordinate investors via PTCs, with a servicer and T&R account handling pool collections."
+      ],
       exam: "Parties: originator, SPV, investment banks, subscribers + obligor, lead manager, servicer, cash administrator, credit enhancer, rating agency, counsel, auditor, custodian. Non-compliant classes unless Hawalah: CDO/CLO, credit-card receivables.",
       keyPoints: ["Lease-rental and toll securitisation require ownership transfer."],
       related: ["t15.3.2"],
@@ -95,7 +99,9 @@ IFL_DATA.registerChapter({
       academic: ["Its legal form depends on the regulatory and legal environment."],
       exam: "SPV: separate, bankruptcy-remote, thin capital, true sale; pass-through vs pay-through; conduits.",
       keyPoints: ["True sale is essential."],
-      definitions: [{ term: "Special purpose vehicle (SPV)", meaning: "A bankruptcy-remote entity created to buy the securitised assets, issue Sukuk and manage them for holders." }],
+      definitions: [
+        { term: "Special purpose vehicle (SPV)", meaning: "A bankruptcy-remote entity created to buy the securitised assets, issue Sukuk and manage them for holders." }
+      ],
       related: ["t15.3.1"],
       quickCheck: { q: "In a pass-through structure, the SPV:", options: ["Reinvests collections until a schedule date", "Remits collections completely and immediately to investors", "Keeps collections", "Pays a fixed coupon from its capital"], answer: 1, explanation: "p. 395." }
     },
@@ -124,22 +130,11 @@ IFL_DATA.registerChapter({
         "Sudanese, Bahraini and other Middle Eastern Sukuk based on Shirkah, Ijarah, Salam, Istisna‘a or mixed pools are acceptable to almost all scholars, subject to underlying contract essentials."
       ],
       exam: "AAOIFI eight types. Structure: Shirkah + second-leg mode → variable or quasi-fixed. Criticised: ‘Inah + Tabarru‘ issue, Bai‘ al Dayn trading (Malaysia) — rejected by majority and OIC Fiqh Council. Sale and lease-back allowed with complete sale and ~1-year gap.",
-      keyPoints: [
-        "Rosly and Sanusi's critique of Malaysian Islamic bonds.",
-        "Absolutely fixed returns = systemic non-compliance risk (author)."
+      keyPoints: ["Rosly and Sanusi's critique of Malaysian Islamic bonds.", "Absolutely fixed returns = systemic non-compliance risk (author)."],
+      table: { caption: "AAOIFI types of investment Sukuk (Section 15.3.4)", head: ["#", "Sukuk type"], rows: [["1", "Ownership in leased assets; usufruct of existing/future assets; services of a specified party; future services"], ["2", "Salam Sukuk"], ["3", "Istisna‘a Sukuk"], ["4", "Murabaha Sukuk"], ["5", "Musharakah Sukuk: participation, Mudarabah, investment agency"], ["6", "Muzara‘ah (share-cropping)"], ["7", "Musaqah (irrigation of fruit trees)"], ["8", "Mugharasah (plantation)"]] },
+      debate: [
+        { issue: "Are Sukuk structured on Bai‘ al ‘Inah and traded by Bai‘ al Dayn Shari’ah-compliant?", criticism: "‘Inah is a double sale producing a loan with interest; discounted debt sale is Riba. Rosly and Sanusi say such bonds' legitimacy is suspect because Niyyah is undermined.", response: "Some Malaysian scholars allow them, citing the Shafi‘i school.", alternative: "Shafi‘is allowed debt sale only at par; the OIC Fiqh Council unanimously prohibits Bai‘ al Dayn; use genuine Ijarah (including properly executed sale and lease-back), Shirkah, Salam or Istisna‘a structures.", takeaway: "The majority and the author regard ‘Inah- and Bai‘ al Dayn-based Sukuk as unacceptable; Malaysia's later Ijarah Sukuk are described as a healthy development." }
       ],
-      table: {
-        caption: "AAOIFI types of investment Sukuk (Section 15.3.4)",
-        head: ["#", "Sukuk type"],
-        rows: [["1", "Ownership in leased assets; usufruct of existing/future assets; services of a specified party; future services"], ["2", "Salam Sukuk"], ["3", "Istisna‘a Sukuk"], ["4", "Murabaha Sukuk"], ["5", "Musharakah Sukuk: participation, Mudarabah, investment agency"], ["6", "Muzara‘ah (share-cropping)"], ["7", "Musaqah (irrigation of fruit trees)"], ["8", "Mugharasah (plantation)"]]
-      },
-      debate: [{
-        issue: "Are Sukuk structured on Bai‘ al ‘Inah and traded by Bai‘ al Dayn Shari’ah-compliant?",
-        criticism: "‘Inah is a double sale producing a loan with interest; discounted debt sale is Riba. Rosly and Sanusi say such bonds' legitimacy is suspect because Niyyah is undermined.",
-        response: "Some Malaysian scholars allow them, citing the Shafi‘i school.",
-        alternative: "Shafi‘is allowed debt sale only at par; the OIC Fiqh Council unanimously prohibits Bai‘ al Dayn; use genuine Ijarah (including properly executed sale and lease-back), Shirkah, Salam or Istisna‘a structures.",
-        takeaway: "The majority and the author regard ‘Inah- and Bai‘ al Dayn-based Sukuk as unacceptable; Malaysia's later Ijarah Sukuk are described as a healthy development."
-      }],
       related: ["t15.3.5", "t6.11", "t11.5.1"],
       quickCheck: { q: "Trading Sukuk representing debt at a discount through Bai‘ al Dayn is:", options: ["Accepted by the majority", "Rejected by the majority and unanimously by the OIC Fiqh Council", "Allowed by all Shafi‘is at any price", "Required by AAOIFI"], answer: 1, explanation: "p. 397." }
     },
@@ -195,10 +190,18 @@ IFL_DATA.registerChapter({
       concepts: ["sukuk", "mixed-portfolio"],
       intuition: "How can Murabaha and Istisna‘a receivables be included in tradable Sukuk?",
       simple: "Banks may securitise a pool of Musharakah, Ijarah and some Murabaha, Salam, Istisna‘a and Ju‘alah; risk/return depends on the mix. IDB's US$400 million Solidarity Trust Sukuk (2003): Solidarity Trust Services as trustee bought Ijarah, Murabaha and Istisna‘a assets originated by IDB (via ICD as intermediary/Wakil); Ijarah always over 50%; if Ijarah fell below 25%, a dissolution event triggers IDB's purchase undertaking; redemption at 100% of principal; IDB guarantees scheduled payments of underlying obligors, meets shortfalls and provides an interest-free liquidity facility; holders have no recourse if trust assets are exhausted.",
-      academic: ["IDB's guarantee covers amounts payable by obligors of the underlying assets, not the certificates as such; the trust's ability to pay ultimately depends on IDB. Principal is reinvested in Ijarah and Musharakah. The structure suits investment banks and DFIs converting illiquid assets into negotiable instruments."],
+      academic: [
+        "IDB's guarantee covers amounts payable by obligors of the underlying assets, not the certificates as such; the trust's ability to pay ultimately depends on IDB. Principal is reinvested in Ijarah and Musharakah. The structure suits investment banks and DFIs converting illiquid assets into negotiable instruments."
+      ],
       exam: "IDB 2003 $400m: Ijarah >50%; <25% → dissolution and IDB purchase; 100% principal redemption; IDB guarantee of obligor payments + shortfall + interest-free liquidity; no recourse beyond trust assets.",
       keyPoints: ["Guarantee is of underlying obligors' payments, not of the certificates per se."],
-      steps: ["IDB originates Ijarah, Murabaha and Istisna‘a assets", "ICD buys trust assets from IDB and sells to the SPV/trustee", "Solidarity Trust Services issues trust certificates to investors", "ICD acts as Wakil managing the assets", "Distributions from trust assets to holders; IDB guarantees and buys back at maturity/dissolution"],
+      steps: [
+        "IDB originates Ijarah, Murabaha and Istisna‘a assets",
+        "ICD buys trust assets from IDB and sells to the SPV/trustee",
+        "Solidarity Trust Services issues trust certificates to investors",
+        "ICD acts as Wakil managing the assets",
+        "Distributions from trust assets to holders; IDB guarantees and buys back at maturity/dissolution"
+      ],
       related: ["t15.3.6", "t15.3.7"],
       quickCheck: { q: "In IDB's Solidarity Trust Sukuk, a dissolution event occurs if Ijarah assets fall below:", options: ["50%", "25%", "10%", "75%"], answer: 1, explanation: "p. 406." }
     },
@@ -210,21 +213,7 @@ IFL_DATA.registerChapter({
       academic: ["Tradability depends on the quality, risk and profitability of securitised assets."],
       exam: "Box 15.3: Mudarabah/Musharakah — market price after commencement; Ijarah freehold — market; Ijarah under head lease — market or agreed rate; future assets — after asset ascertained and leased; specified services — before sub-lease; future services — after source ascertained; Salam — face value only; Istisna‘a — if funds converted into assets, before sale to orderer; Murabaha — before sale or if receivables <50%, otherwise face value with recourse.",
       keyPoints: ["Debt → par only; ownership → market price."],
-      table: {
-        caption: "Box 15.3 — Tradability of Sukuk in the secondary market (AAOIFI)",
-        head: ["Sukuk", "Tradability"],
-        rows: [
-          ["Mudarabah/Musharakah", "Market price after commencement of the activity"],
-          ["Ijarah — freehold existing assets", "Market price"],
-          ["Ijarah — existing assets subject to head lease", "Market price or rate agreed at redemption"],
-          ["Ijarah — future tangible assets", "Market price only after asset ascertained and leased"],
-          ["Existing specified services", "Tradable prior to sub-leasing"],
-          ["Described future services", "Market price after source of service ascertained"],
-          ["Salam Sukuk", "Not tradable except at face value"],
-          ["Istisna‘a Sukuk", "Tradable if funds converted into assets and before sale to orderer"],
-          ["Murabaha Sukuk (Mudarabah for Murabaha sales)", "Before sale of goods or if receivables <50%; otherwise face value with recourse"]
-        ]
-      },
+      table: { caption: "Box 15.3 — Tradability of Sukuk in the secondary market (AAOIFI)", head: ["Sukuk", "Tradability"], rows: [["Mudarabah/Musharakah", "Market price after commencement of the activity"], ["Ijarah — freehold existing assets", "Market price"], ["Ijarah — existing assets subject to head lease", "Market price or rate agreed at redemption"], ["Ijarah — future tangible assets", "Market price only after asset ascertained and leased"], ["Existing specified services", "Tradable prior to sub-leasing"], ["Described future services", "Market price after source of service ascertained"], ["Salam Sukuk", "Not tradable except at face value"], ["Istisna‘a Sukuk", "Tradable if funds converted into assets and before sale to orderer"], ["Murabaha Sukuk (Mudarabah for Murabaha sales)", "Before sale of goods or if receivables <50%; otherwise face value with recourse"]] },
       related: ["t12.6", "t15.3.5"],
       quickCheck: { q: "Per Box 15.3, Salam Sukuk are:", options: ["Tradable at market price", "Not tradable except at face value", "Tradable after delivery at discount", "Tradable only by central banks"], answer: 1, explanation: "p. 408." }
     },
@@ -241,13 +230,9 @@ IFL_DATA.registerChapter({
       ],
       exam: "Four issues: fixed returns/guarantees; interdependent contracts (~6 agreements); transparency; over-reliance on Ijarah. AAOIFI: no issuer guarantee of nominal value or fixed profit; independent third-party free guarantee allowed.",
       keyPoints: ["The author's concerns are presented as his analysis of structures."],
-      debate: [{
-        issue: "Can Sukuk legitimately promise a fixed, guaranteed return?",
-        criticism: "Most Sukuk are marketed as fixed-income like bonds, often with issuer or sovereign guarantees, though Ijarah and Murabaha returns are exposed to default and ownership costs.",
-        response: "Rentals are contractual obligations of the lessee; an independent third party may guarantee without charge; lessors may assure lessee performance.",
-        alternative: "Educate the public on each mode's limits; ensure holders bear ownership risk; greater transparency; wider use of Shirkah-based and mixed Sukuk; Shari’ah board monitoring.",
-        takeaway: "Returns should be quasi-fixed and asset-linked; issuer guarantees of capital or profit conflict with AAOIFI standards."
-      }],
+      debate: [
+        { issue: "Can Sukuk legitimately promise a fixed, guaranteed return?", criticism: "Most Sukuk are marketed as fixed-income like bonds, often with issuer or sovereign guarantees, though Ijarah and Murabaha returns are exposed to default and ownership costs.", response: "Rentals are contractual obligations of the lessee; an independent third party may guarantee without charge; lessors may assure lessee performance.", alternative: "Educate the public on each mode's limits; ensure holders bear ownership risk; greater transparency; wider use of Shirkah-based and mixed Sukuk; Shari’ah board monitoring.", takeaway: "Returns should be quasi-fixed and asset-linked; issuer guarantees of capital or profit conflict with AAOIFI standards." }
+      ],
       related: ["t15.3.4", "t17.4.3"],
       quickCheck: { q: "According to AAOIFI's Sukuk Standard, who may guarantee Sukuk returns?", options: ["The issuer", "The Mudarib", "An independent third party, free of charge", "Nobody under any circumstances"], answer: 2, explanation: "pp. 409–410." }
     },
@@ -270,7 +255,13 @@ IFL_DATA.registerChapter({
       academic: ["These are sale-and-lease-back Ijarah structures in which the originator repurchases the asset at maturity to redeem the Sukuk."],
       exam: "Nakheel LIBOR+120, $3.52bn; Pakistan $600m LIBOR+220 (M-2 motorway); WAPDA PKR 8bn KIBOR+35 (Mangla turbines); Hanco $27.2m 6% (fleet).",
       keyPoints: ["Common pattern: SPV buys asset → leases back → rent → repurchase at maturity."],
-      steps: ["SPV buys asset from originator (e.g. M-2 motorway land)", "SPV issues trust certificates to investors", "SPV leases asset to originator/government", "Rent distributed to Sukuk holders", "Originator repurchases asset at maturity; Sukuk redeemed"],
+      steps: [
+        "SPV buys asset from originator (e.g. M-2 motorway land)",
+        "SPV issues trust certificates to investors",
+        "SPV leases asset to originator/government",
+        "Rent distributed to Sukuk holders",
+        "Originator repurchases asset at maturity; Sukuk redeemed"
+      ],
       related: ["t11.5.3", "t15.3.7"],
       quickCheck: { q: "What was the underlying asset in Pakistan's 2005 US$600m sovereign Ijarah Sukuk?", options: ["Mangla turbines", "M-2 motorway land", "A motor fleet", "Airport buildings"], answer: 1, explanation: "p. 413." }
     }

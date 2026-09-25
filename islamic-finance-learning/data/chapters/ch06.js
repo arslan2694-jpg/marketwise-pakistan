@@ -24,9 +24,15 @@ IFL_DATA.registerChapter({
       concepts: ["bai"],
       intuition: "If Islamic banks cannot lend at interest, how do they earn? Mainly by trading, leasing and PLS.",
       simple: "Islam encourages growth of wealth through trade and does not limit profits or fix prices. Islamic banks earn through trading, leasing and PLS. Trade-based modes create debt which the client must repay.",
-      academic: ["Growth of wealth is approved; Islamic law does not limit profits or fix prices but requires avoiding Riba and Gharar so that wealth does not circulate only among the rich (59:7). Islamic banks earn profit through trading, leasing and PLS. Trade-based modes (Murabaha, Mu‘ajjal, Salam, Istisna‘a) create debt, so the finance user must pay back the entire amount (or equivalent in Salam). Any increase termed Riba must be clearly distinguished from growth by trading."],
+      academic: [
+        "Growth of wealth is approved; Islamic law does not limit profits or fix prices but requires avoiding Riba and Gharar so that wealth does not circulate only among the rich (59:7). Islamic banks earn profit through trading, leasing and PLS. Trade-based modes (Murabaha, Mu‘ajjal, Salam, Istisna‘a) create debt, so the finance user must pay back the entire amount (or equivalent in Salam). Any increase termed Riba must be clearly distinguished from growth by trading."
+      ],
       exam: "Islamic banks earn via trading, leasing, PLS. Trade modes are debt-creating. Distinguish trade profit from Riba.",
-      keyPoints: ["Trade-based modes are debt-creating modes of financing."],
+      keyPoints: [
+        "Trade-based modes are debt-creating modes of financing.",
+        "Trade-based modes (Murabaha, Mu‘ajjal, Salam, Istisna) are debt-creating: the finance user must pay the whole price (or deliver the goods in Salam) like a debt.",
+        "Islamic law does not limit profits or fix prices; it removes Riba and Gharar so wealth does not circulate only among the rich (59:7)."
+      ],
       related: ["t6.3.1", "t9.1"],
       quickCheck: { q: "Through which three areas does the author say Islamic banks earn profit?", options: ["Lending, deposits, FX", "Trading, leasing and PLS contracts", "Insurance, bonds, loans", "Charity, Zakat, Waqf"], answer: 1, explanation: "p. 129." }
     },
@@ -46,20 +52,37 @@ IFL_DATA.registerChapter({
         "Risk and reward are inherent in trade.",
         "Contemporary scholars exclude loaning from the meaning of Bai‘."
       ],
-      definitions: [{ term: "Bai‘", meaning: "Exchange of property for property with mutual consent, completed by offer and acceptance; gives the buyer permanent ownership against the price." }],
+      definitions: [
+        { term: "Bai‘", meaning: "Exchange of property for property with mutual consent, completed by offer and acceptance; gives the buyer permanent ownership against the price." }
+      ],
       related: ["t3.2.1.b", "t6.3.1"],
-      quickCheck: { q: "Why does the author say conventional banking is not Bai‘ in the strict sense?", options: ["Banks are regulated", "Banks deal in money, and loan transactions must be repaid equally; unequal exchange is Riba", "Banks do not use contracts", "Banks deal in goods"], answer: 1, explanation: "p. 131." }
+      quickCheck: { q: "Why does the author say conventional banking is not Bai‘ in the strict sense?", options: ["Banks are regulated", "Banks deal in money, and loan transactions must be repaid equally; unequal exchange is Riba", "Banks do not use contracts", "Banks deal in goods"], answer: 1, explanation: "p. 131." },
+      examples: [
+        { title: "$1,000 lent vs sold", kind: "textbook", text: "If A gives B $1,000 and B returns $1,000, it is a loan; if B must return $1,050 it becomes usurious. In a sale, ownership passes permanently and the buyer owes the agreed price whatever he does with the goods (p. 131)." }
+      ],
+      confusions: [
+        { wrong: "Because 2:275 uses Bai‘ in a wide sense, conventional banking business counts as Bai‘.", right: "The verse sets the principle that all exchanges are permitted except those involving Riba; banks dealing in money on unequal terms are not engaged in Bai‘ (p. 130)." }
+      ]
     },
     {
       id: "t6.3", section: "6.3", title: "Legality of Trading", pages: [131, 132], tier: "supporting",
       concepts: ["bai"],
       intuition: "How strongly does Islam endorse trade?",
       simple: "Trade is a commendable profession. The Qur’an permits trade by mutual consent (4:29) and the Prophet, his Companions and jurists traded. The truthful merchant is praised.",
-      academic: ["Trade is among the commendable lawful sources of earning: “Allah hath allowed trading and prohibited Riba” (2:275); “do not devour your property … except that it be trading by mutual consent” (4:29). The Prophet (pbuh), Companions and Imams traded. Hadiths: carrying firewood to sell is better than begging; the truthful merchant ranks with the Prophets; the best earnings are those of the businessman who does not lie, misappropriate trust, break promises, cavil, boast or delay repayment."],
+      academic: [
+        "Trade is among the commendable lawful sources of earning: “Allah hath allowed trading and prohibited Riba” (2:275); “do not devour your property … except that it be trading by mutual consent” (4:29). The Prophet (pbuh), Companions and Imams traded. Hadiths: carrying firewood to sell is better than begging; the truthful merchant ranks with the Prophets; the best earnings are those of the businessman who does not lie, misappropriate trust, break promises, cavil, boast or delay repayment."
+      ],
       exam: "Trade permitted and encouraged (2:275; 4:29); honest trader praised.",
-      keyPoints: ["“The best type of earning is Bai‘ based on truth and earnings of one by his own hands.”"],
+      keyPoints: [
+        "“The best type of earning is Bai‘ based on truth and earnings of one by his own hands.”",
+        "The Prophet (pbuh), the Companions and the Imams themselves traded.",
+        "“The best type of earning is a sale based on truth and one’s own labour.”"
+      ],
       related: ["t6.3.1"],
-      quickCheck: { q: "Which verse is cited for ‘trading by your mutual consent’?", options: ["2:275", "4:29", "3:130", "59:7"], answer: 1, explanation: "p. 131." }
+      quickCheck: { q: "Which verse is cited for ‘trading by your mutual consent’?", options: ["2:275", "4:29", "3:130", "59:7"], answer: 1, explanation: "p. 131." },
+      examples: [
+        { title: "Selling firewood rather than begging", kind: "textbook", text: "The Prophet (pbuh) said that carrying a load of wood and selling it is better than begging from people — an encouragement to earn through trade (p. 132)." }
+      ]
     },
     {
       id: "t6.3.1", section: "6.3.1", title: "Trade (Profit) versus Interest: Permissibility versus Prohibition", pages: [132, 133], tier: "core",
@@ -72,19 +95,32 @@ IFL_DATA.registerChapter({
       ],
       exam: "Trade profit: real activity, shared risk, service + risk-bearing justify margin; price fixed once agreed. Interest: guaranteed reward, violates Al-Kharaj bi-al-Daman, creates rentier class. Criticisms (banks shouldn’t trade; credit price = interest) rejected.",
       keyPoints: ["Trade precedes Riba in 2:275 — trade is the alternative.", "Two justifications for trader’s margin: service and risk."],
-      debate: [{ issue: "Should Islamic banks be traders, and is a higher credit price interest?", criticism: "Banks are intermediaries and should not get involved in trade; charging more than the cash price equals interest-based financing.", response: "Banking has never been restricted to one structure; with proper risk management Islamic banks can adopt any compliant modus operandi (conventional banks also do real business, e.g. German merchant banking). Trade profit is earned by providing a service and bearing risk; the price once agreed is never increased.", takeaway: "Trading that meets all conditions of Islamic commercial law should not be equated with interest." }],
+      debate: [
+        { issue: "Should Islamic banks be traders, and is a higher credit price interest?", criticism: "Banks are intermediaries and should not get involved in trade; charging more than the cash price equals interest-based financing.", response: "Banking has never been restricted to one structure; with proper risk management Islamic banks can adopt any compliant modus operandi (conventional banks also do real business, e.g. German merchant banking). Trade profit is earned by providing a service and bearing risk; the price once agreed is never increased.", takeaway: "Trading that meets all conditions of Islamic commercial law should not be equated with interest." }
+      ],
       related: ["t6.5.3", "t17.3.8", "t4.6"],
-      quickCheck: { q: "Which two things justify a trader’s profit margin according to Section 6.3.1?", options: ["Time and inflation", "A service (locating/purchasing goods) and bearing business risk", "Collateral and guarantees", "Government approval"], answer: 1, explanation: "pp. 132–133." }
+      quickCheck: { q: "Which two things justify a trader’s profit margin according to Section 6.3.1?", options: ["Time and inflation", "A service (locating/purchasing goods) and bearing business risk", "Collateral and guarantees", "Government approval"], answer: 1, explanation: "pp. 132–133." },
+      confusions: [
+        { wrong: "Banks are intermediaries, so Islamic banks should not trade in goods.", right: "Banking has never been confined to one structure; even conventional banks engage in real business (German merchant banking). With proper risk management Islamic banks may trade (p. 132)." }
+      ],
+      distinctions: [
+        { a: "Trade profit", b: "Riba", text: "Trade profit comes from real investment with business risk shared among parties; Riba guarantees one party’s reward while the other bears all risk, violating Al-Kharaj bi-al-Daman (p. 132)." }
+      ]
     },
     {
       id: "t6.4", section: "6.4", title: "Types of Bai‘", pages: [133, 134], tier: "core",
       concepts: ["bai"],
       intuition: "How can sales be classified — by legality and by the counter values exchanged?",
       simple: "By legality: valid (Nafiz/Sahih), void (Batil), voidable (Fasid) and suspended (Mawquf). By counter values: absolute sale (Bai‘ al Mutlaq), Sarf (money for money), barter (Muqayaza), credit sale (Mu’ajjal), Salam and Istisna‘a. Figure 6.1 maps these forms.",
-      academic: ["Hanafis categorise sale into Bai‘ Nafiz/Sahih, Batil (no transfer of title, unenforceable) and Fasid (a non-severe violation, enforceable after modification); a sale with title transfer subject to conditions is Mawquf. The most important valid form is exchanging a commodity for money spot or on credit (Bai‘ al Mutlaq). Money-for-money is Bai‘ al Sarf; goods for goods is barter (Bai‘ al Muqayaza). Mu’ajjal defers the price to a definite future time; Salam is immediate payment for future delivery. Figure 6.1 shows forms with respect to counter values: spot/cash, deferred payment (Bai‘ al-Nasia, instalment sale Bai‘ al-Taqseet), trust sales (Tauliyyah at cost, Murabaha — direct, via third-party agent, client as agent, or promise-based three-party — Muhatah at a discount on cost), Musawamah, Salam, Istisna‘a (periodic payment) and barter."],
+      academic: [
+        "Hanafis categorise sale into Bai‘ Nafiz/Sahih, Batil (no transfer of title, unenforceable) and Fasid (a non-severe violation, enforceable after modification); a sale with title transfer subject to conditions is Mawquf. The most important valid form is exchanging a commodity for money spot or on credit (Bai‘ al Mutlaq). Money-for-money is Bai‘ al Sarf; goods for goods is barter (Bai‘ al Muqayaza). Mu’ajjal defers the price to a definite future time; Salam is immediate payment for future delivery. Figure 6.1 shows forms with respect to counter values: spot/cash, deferred payment (Bai‘ al-Nasia, instalment sale Bai‘ al-Taqseet), trust sales (Tauliyyah at cost, Murabaha — direct, via third-party agent, client as agent, or promise-based three-party — Muhatah at a discount on cost), Musawamah, Salam, Istisna‘a (periodic payment) and barter."
+      ],
       exam: "Legality: Sahih/Nafiz, Batil, Fasid, Mawquf. Counter values: Mutlaq, Sarf, Muqayaza, Mu’ajjal, Salam, Istisna‘a; trust sales Tauliyyah, Murabaha, Muhatah; Musawamah.",
-      keyPoints: ["Bai‘ al Mutlaq is the most important valid type.", "Murabaha structures: direct, third-party agent, client as agent, promise-based (3 parties)."],
-      table: { caption: "Figure 6.1 — Forms of Bai‘ with respect to counter values (reconstructed)", head: ["Form", "Description"], rows: [["Cash/Spot, Absolute sale (Bai‘ Mutlaq)", "Commodity for money, simultaneous"], ["Bai‘ al Sarf", "Money for money"], ["Deferred payment (Bai‘ al-Nasia) / Instalment (Bai‘ al-Taqseet)", "Credit sale, price deferred"], ["Tauliyyah", "Selling at cost"], ["Murabaha", "Bargain on profit margin — direct (2 parties), third-party agent, client as agent, or promise/agreement to sell (3 parties)"], ["Muhatah", "At a discount on cost"], ["Musawamah", "Bargain on price"], ["Bai‘ Salam", "Prepayment, deferred delivery"], ["Bai‘ Istisna‘a", "Order to manufacture, periodic payment"], ["Bai‘ al Muqayaza", "Barter"]] },
+      keyPoints: [
+        "Bai‘ al Mutlaq is the most important valid type.",
+        "Murabaha structures: direct, third-party agent, client as agent, promise-based (3 parties)."
+      ],
+      table: { caption: "Main forms of Bai‘ (p. 133)", head: ["Form", "Meaning"], rows: [["Bai‘ al Mutlaq", "Goods for money, spot or credit"], ["Bai‘ al Sarf", "Money for money (gold, silver, currencies)"], ["Bai‘ al Muqayaza", "Barter — goods for goods"], ["Bai‘ Mu’ajjal", "Price deferred to a definite time"], ["Bai‘ Salam", "Price now, goods later"]] },
       related: ["t5.7", "t5.8", "t9.7"],
       quickCheck: { q: "Exchange of goods for goods is called:", options: ["Bai‘ al Sarf", "Bai‘ al Muqayaza", "Bai‘ Salam", "Bai‘ Mu’ajjal"], answer: 1, explanation: "p. 133." }
     },
@@ -93,9 +129,15 @@ IFL_DATA.registerChapter({
       concepts: ["bai"],
       intuition: "What does a valid sale look like in one picture? Figure 6.2 summarises it.",
       simple: "A valid sale needs proper offer and acceptance, free consent, lawful goods and medium of exchange, record-keeping, security, full discharge of dues and fulfilment of promises. It must be prompt and absolute — not future-dated or contingent. Figure 6.2: the subject matter must be existent, valuable, usable, owned by the seller with risk, and delivered physically or constructively; the price must be certain and known.",
-      academic: ["The rules pertain to offer and acceptance, free consent, legality of wares and medium of exchange, record-keeping, security, discharging dues in full and fulfilling promises. A sale attributed to a future date or contingent on a future event is void/voidable and must be executed afresh. Approved forms reflect mutual consent and justice with good manners, leniency and honesty; justice includes fulfilling promises and contracts, correct weights and measures, and clear price. The parties must have understanding and discretion; the commodity and price must be known; the commodity must have legal value and exist or be deliverable immediately or later (the latter specific to Salam)."],
+      academic: [
+        "The rules pertain to offer and acceptance, free consent, legality of wares and medium of exchange, record-keeping, security, discharging dues in full and fulfilling promises. A sale attributed to a future date or contingent on a future event is void/voidable and must be executed afresh. Approved forms reflect mutual consent and justice with good manners, leniency and honesty; justice includes fulfilling promises and contracts, correct weights and measures, and clear price. The parties must have understanding and discretion; the commodity and price must be known; the commodity must have legal value and exist or be deliverable immediately or later (the latter specific to Salam)."
+      ],
       exam: "Valid Bai‘ (Fig. 6.2): subject matter existent/existable, valuable, usable, seller’s ownership and risk, delivery (physical Haqiqi or constructive Hukmi); price certain (Muta’ayyan) and known (Malum). Sale must be prompt and absolute.",
-      keyPoints: ["Future-dated or contingent sale must be executed afresh."],
+      keyPoints: [
+        "Future-dated or contingent sale must be executed afresh.",
+        "A sale must be prompt and absolute; a sale attributed to a future date or contingent on a future event is void/voidable and must be executed afresh.",
+        "Mutual consent requires volition and truthfulness; justice requires correct weights, clear price and honesty."
+      ],
       table: { caption: "Figure 6.2 — Elements of valid Bai‘ (reconstructed)", head: ["Element", "Requirements"], rows: [["Subject matter (Mabi‘)", "Existent/existable; valuable; usable (not prohibited); in seller’s ownership and risk"], ["Price (Thaman)", "Certain (Muta’ayyan); known (Malum)"], ["Delivery/conveyance (Qabza)", "Physical (Haqiqi) or constructive (Hukmi)"]] },
       related: ["t6.5.1", "t5.4.2"],
       quickCheck: { q: "According to Figure 6.2, delivery (Qabza) may be:", options: ["Only physical", "Physical (Haqiqi) or constructive (Hukmi)", "Only by documents", "Not required"], answer: 1, explanation: "p. 135." }
@@ -119,9 +161,12 @@ IFL_DATA.registerChapter({
       ],
       examples: [
         { title: "Fertiliser in Lahore, bank in Karachi", kind: "textbook", text: "A Karachi-based bank buys 100,000 bags of fertiliser from a Lahore factory. Once the factory sets them aside and gives constructive possession, the bank owns them, can sell them to a third party, and bears asset, market and price risk until it sells." },
-        { title: "Car still at the factory", kind: "textbook", text: "If a bank sells client C a car still owned by factory F, hoping to buy it later, the sale is void; the bank can only promise to sell." }
+        { title: "Car still at the factory", kind: "textbook", text: "If a bank sells client C a car still owned by factory F, hoping to buy it later, the sale is void; the bank can only promise to sell." },
+        { title: "Fertiliser in Lahore, bank in Karachi", kind: "textbook", text: "A Karachi bank buys 100,000 bags from a Lahore factory that sets them aside and gives constructive possession. The bank owns them, bears their risk and may sell them on (p. 138)." }
       ],
-      confusions: [{ wrong: "Physical delivery is always required before resale.", right: "Constructive possession — the goods are at the buyer’s risk and he has free access to take delivery — suffices (Hanafi and Majallah view)." }],
+      confusions: [
+        { wrong: "Physical delivery is always required before resale.", right: "Constructive possession — the goods are at the buyer’s risk and he has free access to take delivery — suffices (Hanafi and Majallah view)." }
+      ],
       related: ["t5.4.2", "t9.6", "t10.6"],
       quickCheck: { q: "A has bought a car from B, who has parked it in a garage where A has free access and may take delivery whenever he wishes. A sells it to C. The sale is:", options: ["Void — no physical possession", "Valid — A has constructive possession", "Voidable", "Riba"], answer: 1, explanation: "p. 138." }
     },
@@ -130,11 +175,19 @@ IFL_DATA.registerChapter({
       concepts: ["fair-pricing"],
       intuition: "Is there a maximum profit rate in Islamic trade?",
       simple: "Islam leaves prices and margins to demand and supply, with transparency and honesty. The OIC Fiqh Council sets no limit on profit percentage (subject to ethics). Ghaban-e-Fahish (hidden overcharging) gives the buyer the right to rescind. Some texts mention guideline maxima (5% wares, 10% animals, 20% real estate).",
-      academic: ["Islam does not fix prices or profit margins, leaving them to demand and supply; the Prophet allowed the competitive price mechanism. The State may intervene only for moral, religious or cultural norms (footnote: prices may be fixed in consultation with experts if suppliers act injudiciously). ‘Urwah’s purchase of two goats for one dinar and resale of one for a dinar — the Prophet praised his honesty and expertise. OIC Fiqh Council (5th session): freedom to buy and sell; no restriction on profit percentage, with ethics of moderation and leniency; avoid fraud, deceit and monopoly; government fixes prices only when artificial factors distort the market. Ghaban-e-Fahish — charging an exorbitant price while implying market price — gives the buyer the option to rescind. Some books infer maximum profit rates of 5% for wares, 10% for animals and 20% for real estate (Majallah, Art. 165)."],
+      academic: [
+        "Islam does not fix prices or profit margins, leaving them to demand and supply; the Prophet allowed the competitive price mechanism. The State may intervene only for moral, religious or cultural norms (footnote: prices may be fixed in consultation with experts if suppliers act injudiciously). ‘Urwah’s purchase of two goats for one dinar and resale of one for a dinar — the Prophet praised his honesty and expertise. OIC Fiqh Council (5th session): freedom to buy and sell; no restriction on profit percentage, with ethics of moderation and leniency; avoid fraud, deceit and monopoly; government fixes prices only when artificial factors distort the market. Ghaban-e-Fahish — charging an exorbitant price while implying market price — gives the buyer the option to rescind. Some books infer maximum profit rates of 5% for wares, 10% for animals and 20% for real estate (Majallah, Art. 165)."
+      ],
       exam: "No cap on profit % (OIC Fiqh Council); market-determined with ethics. Ghaban-e-Fahish → buyer may rescind. Inferred guideline maxima: 5% wares, 10% animals, 20% real estate.",
       keyPoints: ["‘Urwah’s two goats illustrate honest, skilled trading.", "Inferred maxima are not generally recommended rates."],
       related: ["t3.3.4", "t4.2.5"],
-      quickCheck: { q: "If a buyer later learns he was charged an exorbitant price presented as the market price, he:", options: ["Has no remedy", "Has the option to rescind and take back his money", "Must pay a penalty", "Must accept a partial refund only"], answer: 1, explanation: "p. 139." }
+      quickCheck: { q: "If a buyer later learns he was charged an exorbitant price presented as the market price, he:", options: ["Has no remedy", "Has the option to rescind and take back his money", "Must pay a penalty", "Must accept a partial refund only"], answer: 1, explanation: "p. 139." },
+      examples: [
+        { title: "‘Urwah and the goats", kind: "textbook", text: "Sent with one dinar to buy a goat, ‘Urwah bought two, sold one for a dinar and returned with a goat and the dinar. The Prophet (pbuh) prayed for his trade — honest profit is praised (p. 138)." }
+      ],
+      confusions: [
+        { wrong: "Islamic law fixes a maximum profit rate.", right: "The OIC Fiqh Council says there is no restriction; only inferences in the Majallah (5% wares, 10% animals, 20% real estate) exist, and Ghaban-e-Fahish gives the buyer an option to rescind (p. 139)." }
+      ]
     },
     {
       id: "t6.5.3", section: "6.5.3", title: "Cash and Credit Prices", pages: [139, 142], tier: "core",
@@ -152,28 +205,44 @@ IFL_DATA.registerChapter({
         "Difference in price is in lieu of the item, not time per se.",
         "Credit buyer may resell before full payment."
       ],
-      debate: [{ issue: "Is the cash–credit price difference just interest in disguise?", criticism: "Udovitch: the difference does not formally constitute interest but fulfils the same economic role — a return for risk and absence of capital.", response: "The author: this overstates the case. Islam values money only through assets; the price difference arises from selling a commodity whose value may change, it creates no rent on capital and, once fixed, cannot grow with time.", alternative: "Some jurists disapprove of a single higher credit price if the buyer perceives an excess for delay.", takeaway: "A fixed credit price agreed at the bargain is trade; any later increase for delay is Riba." }],
+      debate: [
+        { issue: "Is the cash–credit price difference just interest in disguise?", criticism: "Udovitch: the difference does not formally constitute interest but fulfils the same economic role — a return for risk and absence of capital.", response: "The author: this overstates the case. Islam values money only through assets; the price difference arises from selling a commodity whose value may change, it creates no rent on capital and, once fixed, cannot grow with time.", alternative: "Some jurists disapprove of a single higher credit price if the buyer perceives an excess for delay.", takeaway: "A fixed credit price agreed at the bargain is trade; any later increase for delay is Riba." },
+        { issue: "Is a credit mark-up the same as interest?", criticism: "Udovitch argues the cash–credit price difference fulfils the same economic role as interest — a return for risk and for the absence of capital.", response: "The author says Udovitch overstates the case: Islamic finance converts money into an asset and values the asset; it concedes time value in pricing credit sales but does not make capital earn rent, so no rentier class results. Once fixed, the price becomes a debt that cannot grow.", alternative: "Jurists (Shukani, Shah Waliullah, Ibn Baz) allow a higher credit price if one price is settled before the parties separate.", takeaway: "A credit price is permissible; increasing it after the sale is Riba." }
+      ],
       calc: { type: "credit-price", note: "Practice calculator: cash price, agreed mark-up and instalments; shows that late payment cannot change the debt." },
       related: ["t4.6", "t9.6.1", "t3.2.1.b"],
-      quickCheck: { q: "A client bought a car on five-year Murabaha. After one year he sells it to Y, who takes over the instalments. This is:", options: ["Sale of what he does not own — void", "Valid — he owns the car from day one", "Bai‘ al ‘Inah", "Riba"], answer: 1, explanation: "p. 142." }
+      quickCheck: { q: "A client bought a car on five-year Murabaha. After one year he sells it to Y, who takes over the instalments. This is:", options: ["Sale of what he does not own — void", "Valid — he owns the car from day one", "Bai‘ al ‘Inah", "Riba"], answer: 1, explanation: "p. 142." },
+      examples: [
+        { title: "Reselling a Murabaha car", kind: "textbook", text: "Client C buys a car on five-year Murabaha. After a year he sells it to Y, who takes over the instalments — valid, because C has owned the car from day one (p. 142)." }
+      ]
     },
     {
       id: "t6.6", section: "6.6", title: "Riba Involvement in Sales", pages: [142, 143], tier: "supporting",
       concepts: ["riba-fadl", "bai-sarf"],
       intuition: "Where can Riba creep into a sale? In exchanges of monetary items and same-genus goods.",
       simple: "Exchanging Athman (monetary items) of the same kind requires mutual spot delivery and equality. Currency sales must be instant; a normal settlement period is allowed if not made a condition. A Shari’ah-compliant credit card may be used to buy gold, since an unintentional delay of up to 72 hours is not a problem (OIC Fiqh Academy, Al Baraka).",
-      academic: ["Mutual exchange of ‘Ayan (commodities of intrinsic value) follows different rules from exchange of Athman. When an article of the Thaman kind is exchanged for the same kind, mutual delivery and equal weight are required (six-commodities Hadith). Currency sales must be instant, not deferred; a normal settlement time is allowed if it is not a condition of exchange. The OIC Fiqh Academy and Al Baraka’s Shari’ah committee allow an otherwise compliant credit card to buy gold and silver, as an unintentional delay of up to 72 hours does not create a problem."],
+      academic: [
+        "Mutual exchange of ‘Ayan (commodities of intrinsic value) follows different rules from exchange of Athman. When an article of the Thaman kind is exchanged for the same kind, mutual delivery and equal weight are required (six-commodities Hadith). Currency sales must be instant, not deferred; a normal settlement time is allowed if it is not a condition of exchange. The OIC Fiqh Academy and Al Baraka’s Shari’ah committee allow an otherwise compliant credit card to buy gold and silver, as an unintentional delay of up to 72 hours does not create a problem."
+      ],
       exam: "Athman of same kind: equal + spot. Currency sales instant; normal settlement time allowed if not a condition; credit card for gold OK (≤72-hour unintentional delay).",
-      keyPoints: ["Normal settlement time must not be a condition of the exchange."],
+      keyPoints: [
+        "Normal settlement time must not be a condition of the exchange.",
+        "Normal settlement time in currency deals is allowed provided the delay is not made a condition of the exchange."
+      ],
       related: ["t3.2.1.d", "t4.5"],
-      quickCheck: { q: "Why is using a compliant credit card to buy gold considered acceptable by the bodies cited?", options: ["Gold is not Thaman", "An unintentional delay of up to 72 hours in payment does not create a problem", "Credit cards charge interest", "It is Salam"], answer: 1, explanation: "p. 143." }
+      quickCheck: { q: "Why is using a compliant credit card to buy gold considered acceptable by the bodies cited?", options: ["Gold is not Thaman", "An unintentional delay of up to 72 hours in payment does not create a problem", "Credit cards charge interest", "It is Salam"], answer: 1, explanation: "p. 143." },
+      examples: [
+        { title: "Credit cards for gold", kind: "textbook", text: "The OIC Fiqh Academy and Al Baraka’s Shari’ah committee allow an otherwise compliant credit card to buy gold and silver, since an unintentional settlement delay of up to 72 hours is tolerated (p. 143)." }
+      ]
     },
     {
       id: "t6.7", section: "6.7", title: "Gharar — A Cause of Prohibition of Sales", pages: [143, 144], tier: "core",
       concepts: ["gharar"],
       intuition: "Which specific sales are prohibited because of Gharar — and which modern ones?",
       simple: "The Prophet prohibited sales like Bai‘ al-Ma‘dum (nonexistent), Mulamasah (by touching), Munabadhah (throwing garments without examining) and Bai‘ al-Hasat (pebble). Imam Malik allowed selling bales by catalogue (Barnamaj). Today, trademarked or precisely specified goods may involve no Gharar. Book-out contracts — buying and selling without possession, settling only differences — are prohibited.",
-      academic: ["Business risk is not Gharar; the requirement is that goods be defined, determined, deliverable and known, with quality and quantity stipulated and no Jahl. Prohibited: Bai‘ al-Ma‘dum, Mulamasah (touching a garment without unfolding it), Munabadhah (throwing garments to each other without examination), Bai‘ al-Hasat. Imam Malik disallowed selling a Persian shawl in its cover, but allowed wholesale bales sold by an accompanying catalogue (Barnamaj), since that is established practice and not intended as a risk. Today goods under trademarks or with minute specifications may involve no Gharar; many jurists soften conditions for nonedibles, and religious boards allow banks to agree to provide nonedible goods after buying them from the market. A common modern Gharar-based transaction is the book-out contract — buying and selling without possession, settling the price difference — in commodities, stocks and FX; Shari’ah boards prohibit it."],
+      academic: [
+        "Business risk is not Gharar; the requirement is that goods be defined, determined, deliverable and known, with quality and quantity stipulated and no Jahl. Prohibited: Bai‘ al-Ma‘dum, Mulamasah (touching a garment without unfolding it), Munabadhah (throwing garments to each other without examination), Bai‘ al-Hasat. Imam Malik disallowed selling a Persian shawl in its cover, but allowed wholesale bales sold by an accompanying catalogue (Barnamaj), since that is established practice and not intended as a risk. Today goods under trademarks or with minute specifications may involve no Gharar; many jurists soften conditions for nonedibles, and religious boards allow banks to agree to provide nonedible goods after buying them from the market. A common modern Gharar-based transaction is the book-out contract — buying and selling without possession, settling the price difference — in commodities, stocks and FX; Shari’ah boards prohibit it."
+      ],
       exam: "Gharar sales: Ma‘dum, Mulamasah, Munabadhah, Hasat. Malik allowed Barnamaj (catalogue) sales. Trademarks/specifications reduce Gharar. Book-out contracts (difference settlement) prohibited.",
       keyPoints: ["Barnamaj: bale sale by catalogue is allowed.", "Book-out contracts are prohibited."],
       definitions: [
@@ -183,30 +252,58 @@ IFL_DATA.registerChapter({
         { term: "Book-out contract", meaning: "Buying an asset and selling it without taking possession, settling only the price difference." }
       ],
       related: ["t3.2.2", "t8.8.6"],
-      quickCheck: { q: "Which sale did Imam Malik permit despite goods not being unfolded?", options: ["A Persian shawl in its cover", "Wholesale bales sold by catalogue (Barnamaj)", "Mulamasah", "Munabadhah"], answer: 1, explanation: "p. 144." }
+      quickCheck: { q: "Which sale did Imam Malik permit despite goods not being unfolded?", options: ["A Persian shawl in its cover", "Wholesale bales sold by catalogue (Barnamaj)", "Mulamasah", "Munabadhah"], answer: 1, explanation: "p. 144." },
+      examples: [
+        { title: "Folded shawl vs catalogued bales", kind: "textbook", text: "Imam Malik forbade selling a Persian shawl in its cover unseen, but allowed selling bales by a catalogue (Barnamaj), since wholesale trade would otherwise be impossible and the practice involves no intended risk (pp. 143–144)." }
+      ],
+      confusions: [
+        { wrong: "All business risk is Gharar.", right: "Business risk is a valid requirement for return; Gharar is uncertainty about the subject matter, price or rights (p. 143)." }
+      ]
     },
     {
       id: "t6.8", section: "6.8", title: "Conditional Sales and “Two Bargains in One Sale”", pages: [144, 145], tier: "core",
       concepts: ["two-contracts", "tawarruq"],
       intuition: "Why is ‘I’ll buy your goods if you lend me money’ prohibited?",
       simple: "Sales conditional on uncertain events, or bundled with gifts, marriage, loans or Shirkah, are prohibited. Bai‘ wal Salaf (sale combined with a loan) is unlawful because it can hide compensation for the loan. Ibn Taymiyah objects mainly to combining onerous and gratuitous contracts. Contracts can be combined informally, without conditioning one on another — e.g. Tawarruq.",
-      academic: ["Shari’ah disapproves of sales conditional on matters that may or may not happen. Fiqh prohibits Shartaan fi Ba‘ien and Bai‘ wal Shart involving lack of clarity and unjustifiable benefit (e.g. “I will sell you this house if a third person sells me his”). Conditions of gift, marriage, Qard or Shirkah within a sale render it prohibited. Hanafis consider conditional sales a type of gambling (Ibn Abideen); Ibn Taymiyah and Ibnul Qayyim allow certain suspended sales without Gharar or Riba, rejecting only conditions contradicting clear texts or consensus or the contract’s object. Ibn Hazm lists seven enforceable conditions, including Rihn and a stipulated credit period. The Prophet: “unlawful are a sale and a loan (Bai‘ wal Salaf), or two stipulations in a sale, or a sale of what you do not have.” Malik: “I’ll buy your goods for such if you lend me such” is not permitted unless the loan condition is abandoned; Imam Ahmad: giving a loan then selling something at above market. Combining conditional contracts confuses rights and opens the door to Riba and Gharar. Ibn Taymiyah (followed by modern scholars) objects only to combining onerous and gratuitous contracts. Contracts may be combined informally, e.g. Tawarruq (buy on credit, sell separately for cash to another party), declared permissible by most scholars. A price must not be bundled with a gift — reduce the price instead."],
+      academic: [
+        "Shari’ah disapproves of sales conditional on matters that may or may not happen. Fiqh prohibits Shartaan fi Ba‘ien and Bai‘ wal Shart involving lack of clarity and unjustifiable benefit (e.g. “I will sell you this house if a third person sells me his”). Conditions of gift, marriage, Qard or Shirkah within a sale render it prohibited. Hanafis consider conditional sales a type of gambling (Ibn Abideen); Ibn Taymiyah and Ibnul Qayyim allow certain suspended sales without Gharar or Riba, rejecting only conditions contradicting clear texts or consensus or the contract’s object. Ibn Hazm lists seven enforceable conditions, including Rihn and a stipulated credit period. The Prophet: “unlawful are a sale and a loan (Bai‘ wal Salaf), or two stipulations in a sale, or a sale of what you do not have.” Malik: “I’ll buy your goods for such if you lend me such” is not permitted unless the loan condition is abandoned; Imam Ahmad: giving a loan then selling something at above market. Combining conditional contracts confuses rights and opens the door to Riba and Gharar. Ibn Taymiyah (followed by modern scholars) objects only to combining onerous and gratuitous contracts. Contracts may be combined informally, e.g. Tawarruq (buy on credit, sell separately for cash to another party), declared permissible by most scholars. A price must not be bundled with a gift — reduce the price instead."
+      ],
       exam: "Prohibited: sale conditional on uncertain event; sale bundled with gift/marriage/Qard/Shirkah; Bai‘ wal Salaf; two stipulations in a sale. Ibn Taymiyah: only onerous + gratuitous combination objectionable. Informal combination (Tawarruq) permitted by most.",
-      keyPoints: ["Bai‘ wal Salaf can conceal compensation for a loan.", "Offer a price reduction instead of a ‘gift’ with the price."],
-      definitions: [{ term: "Bai‘ wal Salaf", meaning: "Combining a sale and a loan in one transaction (e.g. “I will buy your goods if you lend me money”) — unlawful." }],
+      keyPoints: [
+        "Bai‘ wal Salaf can conceal compensation for a loan.",
+        "Offer a price reduction instead of a ‘gift’ with the price.",
+        "Ibn Hazm lists seven enforceable conditions, including a pledge (Rihn) and a stipulated credit period."
+      ],
+      definitions: [
+        { term: "Bai‘ wal Salaf", meaning: "Combining a sale and a loan in one transaction (e.g. “I will buy your goods if you lend me money”) — unlawful." }
+      ],
       related: ["t5.5.5", "t13.3", "t5.9"],
-      quickCheck: { q: "Why does Ibn Taymiyah object to combining a sale with a loan?", options: ["Because loans are haram", "Because parties can hide an illegal compensation for the loan", "Because sales need witnesses", "He does not object"], answer: 1, explanation: "p. 145." }
+      quickCheck: { q: "Why does Ibn Taymiyah object to combining a sale with a loan?", options: ["Because loans are haram", "Because parties can hide an illegal compensation for the loan", "Because sales need witnesses", "He does not object"], answer: 1, explanation: "p. 145." },
+      examples: [
+        { title: "Gift bundled with price", kind: "textbook", text: "“Sell me this and I will give you a gift in addition to the price” involves Gharar and Jahl; the seller should instead reduce the price so the counter value is exact (p. 145)." }
+      ],
+      distinctions: [
+        { a: "Formally combined contracts", b: "Informally combined contracts", text: "Contracts legally conditioned on each other confuse rights and open the door to Riba; separate transactions not conditioned on each other — like Tawarruq — are accepted by most scholars (p. 145)." }
+      ]
     },
     {
       id: "t6.9", section: "6.9", title: "Bai‘ al ‘Arbun (Downpayment Sale)", pages: [145, 146], tier: "supporting",
       concepts: ["arbun"],
       intuition: "Can a seller keep a buyer’s downpayment if the buyer walks away?",
       simple: "‘Arbun: a downpayment that becomes part of the price if the buyer proceeds and is forfeited if not. Most traditional jurists prohibited it (Gharar); Hanbalis allow it. The author concludes forfeiture may not be permissible where unforeseen events cause injustice, but customary ‘Arbun with a specified time limit is allowed (OIC Fiqh Council, AAOIFI).",
-      academic: ["Two traditions: one forbidding ‘Arbun (Malik), one permitting it (Zaid ibn Aslam). Prohibited by Hanafis, Malikis, Shafi‘is, Zaidis and Abul Khattab (Hanbali); approved by Imam Ahmad on the authority of Umar and some Tabi‘een. Ibn Rushd: the majority forbid it for Gharar, risk-taking and taking money without consideration. Ibn Qudama compares it to paying a seller to rescind, or paying a seller not to sell to others and later deducting that payment from the price — hinting that if the final sale is not concluded, the advance would be unearned and returnable. The author: where absolute Gharar or injustice to a buyer who cannot complete due to unforeseen events exists, confiscation may not be permissible; as customary practice with free consent, it is permissible on the basis of ‘Urf. The OIC Islamic Fiqh Council and AAOIFI allow customary downpayment sale with a specified time limit."],
+      academic: [
+        "Two traditions: one forbidding ‘Arbun (Malik), one permitting it (Zaid ibn Aslam). Prohibited by Hanafis, Malikis, Shafi‘is, Zaidis and Abul Khattab (Hanbali); approved by Imam Ahmad on the authority of Umar and some Tabi‘een. Ibn Rushd: the majority forbid it for Gharar, risk-taking and taking money without consideration. Ibn Qudama compares it to paying a seller to rescind, or paying a seller not to sell to others and later deducting that payment from the price — hinting that if the final sale is not concluded, the advance would be unearned and returnable. The author: where absolute Gharar or injustice to a buyer who cannot complete due to unforeseen events exists, confiscation may not be permissible; as customary practice with free consent, it is permissible on the basis of ‘Urf. The OIC Islamic Fiqh Council and AAOIFI allow customary downpayment sale with a specified time limit."
+      ],
       exam: "‘Arbun: downpayment, part of price or forfeited. Majority (Hanafi, Maliki, Shafi‘i) prohibit; Hanbalis allow. OIC Fiqh Council and AAOIFI allow with a specified time limit; author: not where unforeseen events make forfeiture unjust.",
       keyPoints: ["Time limit must be specified."],
       related: ["t5.6.1"],
-      quickCheck: { q: "On what condition do the OIC Fiqh Council and AAOIFI allow downpayment (‘Arbun) sale?", options: ["No condition", "That a time limit is specified", "Only for real estate", "Only if refunded"], answer: 1, explanation: "p. 146." }
+      quickCheck: { q: "On what condition do the OIC Fiqh Council and AAOIFI allow downpayment (‘Arbun) sale?", options: ["No condition", "That a time limit is specified", "Only for real estate", "Only if refunded"], answer: 1, explanation: "p. 146." },
+      distinctions: [
+        { a: "Majority of classical jurists", b: "Hanbalis (and modern bodies)", text: "Hanafis, Malikis and Shafi‘is prohibit ‘Arbun for Gharar and taking money without consideration; Imam Ahmad allowed it. The OIC Fiqh Council and AAOIFI allow customary ‘Arbun with a specified time limit (pp. 145–146)." }
+      ],
+      examples: [
+        { title: "Ibn Qudama’s analogy", kind: "textbook", text: "He likens ‘Arbun to paying a seller to rescind a sale, or to paying a seller not to sell to anyone else and later deducting that sum from the price (p. 146)." }
+      ]
     },
     {
       id: "t6.10", section: "6.10", title: "Bai‘ al Dayn (Sale of Debt)", pages: [146, 147], tier: "core",
@@ -222,12 +319,21 @@ IFL_DATA.registerChapter({
       keyPoints: [
         "Bank alternative to bill discounting: trade the goods itself.",
         "Murabaha rollover = modern Al Kali bil Kali.",
-        "Asset-backed certificates are tradable."
+        "Asset-backed certificates are tradable.",
+        "Trade bills bought as “Murabaha” in Pakistan in the early 1980s were rejected by the CII and Shari’ah courts.",
+        "Asset-backed Sukuk and lease-based instruments can be traded, because they represent assets."
       ],
-      definitions: [{ term: "Al Kali bil Kali / Bai‘ al-Dayn bid-Dayn", meaning: "Exchange of a delayed counter value for another delayed counter value (debt for debt) — prohibited by consensus." }],
-      distinctions: [{ a: "Sale of debt", b: "Assignment of debt (Hawalah)", text: "Sale of debt is prohibited; in Hawalah there is recourse to the assignor/original debtor if the assignee does not pay." }],
+      definitions: [
+        { term: "Al Kali bil Kali / Bai‘ al-Dayn bid-Dayn", meaning: "Exchange of a delayed counter value for another delayed counter value (debt for debt) — prohibited by consensus." }
+      ],
+      distinctions: [
+        { a: "Sale of debt", b: "Assignment of debt (Hawalah)", text: "Sale of debt is prohibited; in Hawalah there is recourse to the assignor/original debtor if the assignee does not pay." }
+      ],
       related: ["t7.16", "t7.14", "t9.9.6", "t15.3.6"],
-      quickCheck: { q: "What is the modern example of Al Kali bil Kali given in Section 6.10?", options: ["Ijarah Sukuk", "Rollover in Murabaha after default", "Musharakah", "Spot FX"], answer: 1, explanation: "p. 147." }
+      quickCheck: { q: "What is the modern example of Al Kali bil Kali given in Section 6.10?", options: ["Ijarah Sukuk", "Rollover in Murabaha after default", "Musharakah", "Spot FX"], answer: 1, explanation: "p. 147." },
+      examples: [
+        { title: "Murabaha rollover", kind: "textbook", text: "Entering a new Murabaha to give a defaulting client more time for extra charge is the modern form of Bai‘ al-Kali bil Kali; all Shari’ah boards prohibit it (p. 147)." }
+      ]
     },
     {
       id: "t6.11", section: "6.11", title: "Al ‘Inah Sale and the Use of Ruses (Hiyal)", pages: [147, 150], tier: "core",
@@ -253,10 +359,20 @@ IFL_DATA.registerChapter({
         { term: "Bai‘ bil Wafa", meaning: "Sale with a separate promise by the buyer to resell to the seller when the price is returned (Hanafi); the asset acts as collateral." },
         { term: "Sadd al-Zarai‘", meaning: "Blocking the means to an illicit end." }
       ],
-      steps: ["Seller sells commodity to buyer on credit (e.g. $1000 in one year)", "Seller immediately buys it back for cash at a lower price (e.g. $950)", "Commodity returns to the seller; buyer holds $950 now and owes $1000 later", "Net result: a loan with interest — therefore prohibited"],
-      distinctions: [{ a: "Bai‘ al ‘Inah", b: "Tawarruq", text: "In ‘Inah the commodity is bought back by the original seller; in Tawarruq the buyer sells it to a third party in a separate transaction." }],
+      steps: [
+        "Seller sells commodity to buyer on credit (e.g. $1000 in one year)",
+        "Seller immediately buys it back for cash at a lower price (e.g. $950)",
+        "Commodity returns to the seller; buyer holds $950 now and owes $1000 later",
+        "Net result: a loan with interest — therefore prohibited"
+      ],
+      distinctions: [
+        { a: "Bai‘ al ‘Inah", b: "Tawarruq", text: "In ‘Inah the commodity is bought back by the original seller; in Tawarruq the buyer sells it to a third party in a separate transaction." }
+      ],
       related: ["t13.3", "t12.9.2", "t9.9.1"],
-      quickCheck: { q: "A company buys a commodity on credit for $20 and sells it for $15 cash to its wholly owned sister company (the original seller). Al Baraka’s committee regarded this as:", options: ["Tawarruq", "Bai‘ al ‘Inah", "Salam", "Permissible Murabaha"], answer: 1, explanation: "p. 149." }
+      quickCheck: { q: "A company buys a commodity on credit for $20 and sells it for $15 cash to its wholly owned sister company (the original seller). Al Baraka’s committee regarded this as:", options: ["Tawarruq", "Bai‘ al ‘Inah", "Salam", "Permissible Murabaha"], answer: 1, explanation: "p. 149." },
+      examples: [
+        { title: "Sister company buy-back", kind: "textbook", text: "Al Baraka refused a company buying on credit for $20 and selling for $15 cash to its wholly owned holding company — it is ‘Inah. If the other company is not wholly owned and there is no manipulation, it would not be ‘Inah (p. 149)." }
+      ]
     },
     {
       id: "t6.12", section: "6.12", title: "Options in Sales (Khiyar)", pages: [150, 152], tier: "core",
@@ -274,10 +390,20 @@ IFL_DATA.registerChapter({
         "Hanafis accept a seller’s ‘no responsibility for defects’ declaration."
       ],
       table: { caption: "Types of Khiyar (Section 6.12)", head: ["Option", "Right"], rows: [["Khiyar al-Shart", "Rescind within a stipulated period"], ["Khiyar al-Majlis", "Cancel until the parties separate"], ["Khiyar al-Ro’yat", "Rescind on inspection if not per contract"], ["Khiyar al-‘Aib", "Return defective goods (even without stipulation)"], ["Khiyar al-Wasf", "Return if a specified quality is absent"], ["Khiyar-e-Ghaban", "Rescind if charged far above market price presented as market"], ["Khiyar-e-Naqad", "Sale annulled if payment not made within specified days"]] },
-      definitions: [{ term: "Khiyar", meaning: "Option — the right of a party to rescind or ratify a sale in specified circumstances." }],
-      distinctions: [{ a: "Khiyar in Islamic sales", b: "Conventional options", text: "Khiyar protects an informationally disadvantaged party within a genuine sale; conventional options are rights bought and sold for their own sake and do not meet valid-sale conditions." }],
+      definitions: [
+        { term: "Khiyar", meaning: "Option — the right of a party to rescind or ratify a sale in specified circumstances." }
+      ],
+      distinctions: [
+        { a: "Khiyar in Islamic sales", b: "Conventional options", text: "Khiyar protects an informationally disadvantaged party within a genuine sale; conventional options are rights bought and sold for their own sake and do not meet valid-sale conditions." }
+      ],
       related: ["t5.4.1", "t9.9.2", "t8.8.8"],
-      quickCheck: { q: "Which option is available to a buyer even if not stipulated in the contract?", options: ["Khiyar al-Shart", "Khiyar al-‘Aib (defect)", "Khiyar-e-Naqad", "None"], answer: 1, explanation: "p. 151." }
+      quickCheck: { q: "Which option is available to a buyer even if not stipulated in the contract?", options: ["Khiyar al-Shart", "Khiyar al-‘Aib (defect)", "Khiyar-e-Naqad", "None"], answer: 1, explanation: "p. 151." },
+      examples: [
+        { title: "Three-day option", kind: "textbook", text: "The Prophet (pbuh) advised a Companion to reserve a three-day option in all his purchases; jurists agree on three days and differ on longer periods (p. 151)." }
+      ],
+      confusions: [
+        { wrong: "Khiyar is the same as a conventional option.", right: "Khiyar is a right to rescind a real sale for the disadvantaged party; conventional options are rights sold separately and do not meet sale conditions (p. 151)." }
+      ]
     }
   ],
   summary: "A valid sale requires free consent, competent parties, a lawful valuable object owned by (or authorised to) the seller, the seller’s ability to deliver, cognisance of the object by examination or description, and a precisely determined price. Non-Thaman goods may be sold for currency on credit; the credit price may exceed the cash price but must be fixed at completion, and the seller cannot be compensated for late payment. Money cannot be traded as a commodity; finance must be supported by genuine trade. Gharar-based sales, Hiyal and Bai‘ al ‘Inah define the limits within which products can be developed, and Khiyar protects parties in sales.",
@@ -317,7 +443,17 @@ IFL_DATA.registerChapter({
     { id: "f6.13", cat: "Arabic terminology", front: "Bai‘ bil Wafa", back: "Sale with a separate promise to resell when the price is returned (Hanafi); asset serves as collateral. Resale must not be a condition of the sale.", topic: "t6.11" },
     { id: "f6.14", cat: "Principles", front: "Ibn Taymiyah’s classification of buyers in ‘Inah-type sales", back: "Buy to use — permitted; buy to trade — permitted; buy to get cash (Tawarruq) — Makrooh per eminent jurists.", topic: "t6.11" },
     { id: "f6.15", cat: "Contract rules", front: "Khiyar al-‘Aib", back: "Option to return defective goods — available even if not stipulated, where the defect was not disclosed and visibly reduces value.", topic: "t6.12" },
-    { id: "f6.16", cat: "Financing modes", front: "Client’s options in MPO", back: "Options of defect and specification — he may refuse to buy or rescind unless the bank gets a fitness certificate at sale after allowing examination.", topic: "t6.12" }
+    { id: "f6.16", cat: "Financing modes", front: "Client’s options in MPO", back: "Options of defect and specification — he may refuse to buy or rescind unless the bank gets a fitness certificate at sale after allowing examination.", topic: "t6.12" },
+    { id: "f6.17", cat: "Principles", front: "Order of 2:275 — trade before Riba", back: "Permission of trade is mentioned before the prohibition of Riba, signalling that trade is the alternative to Riba.", topic: "t6.3.1" },
+    { id: "f6.18", cat: "Contract rules", front: "When may one article be sold at two prices?", back: "Cash and credit prices may be quoted, but one must be settled before the parties separate; otherwise the sale is void.", topic: "t6.5.3" },
+    { id: "f6.19", cat: "Exam facts", front: "Udovitch’s claim and the author’s reply", back: "Udovitch: credit mark-up performs the role of interest. Author: it prices an asset, not money; no rent on capital and no increase after the sale.", topic: "t6.5.3" },
+    { id: "f6.20", cat: "Contract rules", front: "Can a Murabaha buyer resell before paying all instalments?", back: "Yes — he owns the asset from day one and remains liable for the debt.", topic: "t6.5.3" },
+    { id: "f6.21", cat: "Prohibitions", front: "Mulamasah and Munabadhah (Imam Malik)", back: "Touching a garment without unfolding it; throwing garments to each other without examining them — sales of risk.", topic: "t6.7" },
+    { id: "f6.22", cat: "Arabic terminology", front: "Barnamaj", back: "A catalogue/list of contents; selling bales by Barnamaj without unfolding was allowed by Imam Malik.", topic: "t6.7" },
+    { id: "f6.23", cat: "Contract rules", front: "Tawarruq (Ch. 6)", back: "Buying on credit and separately selling to another party for cash; permissible per most scholars as the contracts are not conditioned on each other; Ibn Taymiyah called it Makruh.", topic: "t6.8" },
+    { id: "f6.24", cat: "Arabic terminology", front: "Sadd al-Zarai‘", back: "Blocking the means to an illicit end — the Maliki basis for prohibiting some ‘Inah-type sales.", topic: "t6.11" },
+    { id: "f6.25", cat: "Contract rules", front: "Khiyar-e-Naqad", back: "Option of payment: the contract is annulled if payment is not made within a specified number of days.", topic: "t6.12" },
+    { id: "f6.26", cat: "Contract rules", front: "Five important options (Khiyar)", back: "Al-Shart (stipulated), al-Ro’yat (inspection), al-‘Aib (defect), al-Wasf (quality), Ghaban (price).", topic: "t6.12" }
   ],
   questions: [
     { id: "q6.1", type: "mcq", q: "Which statement best describes the difference between Bai‘ and a Riba-based loan?", options: ["Both give a definite right of return", "Bai‘ yields risk-based return; a Riba loan gives a definite right of return with excess", "Loans transfer ownership permanently", "Bai‘ requires equal exchange"], answer: 1, explanation: "p. 131.", topic: "t6.2", diff: "E", level: "understanding", obj: "Distinguish Bai‘ from loans" },
@@ -332,13 +468,43 @@ IFL_DATA.registerChapter({
     { id: "q6.10", type: "match", q: "Match each option (Khiyar) to its trigger.", pairs: [["Khiyar al-‘Aib", "Undisclosed defect"], ["Khiyar al-Ro’yat", "Goods not as expected on inspection"], ["Khiyar-e-Ghaban", "Price far above market presented as market"], ["Khiyar al-Shart", "Stipulated period to rescind"]], explanation: "p. 151.", topic: "t6.12", diff: "M", level: "recall", obj: "Distinguish Khiyar types" },
     { id: "q6.11", type: "mcq", q: "Why do scholars suggest roughly a one-year gap before a client repurchases the bank’s share in Diminishing Musharakah housing finance?", options: ["Tax reasons", "So that the market value changes and the transaction does not fall into Bai‘ al ‘Inah", "To earn more rent", "It is required by Salam"], answer: 1, explanation: "p. 150.", topic: "t6.11", diff: "H", level: "analysis", obj: "Apply ‘Inah avoidance" },
     { id: "q6.12", type: "short", q: "Explain the difference between Bai‘ al ‘Inah and Tawarruq.", answer: "In ‘Inah, the original seller buys back the commodity it sold on credit for a lower cash price, so the commodity returns and the net effect is a loan with interest — prohibited. In Tawarruq, the credit buyer sells the commodity for cash to a third party in a separate transaction; most scholars permit it (Ibn Taymiyah considered it Makrooh).", keywords: ["buy back", "third party", "loan", "separate"], explanation: "Sections 6.8 and 6.11.", topic: "t6.11", diff: "M", level: "understanding", obj: "Distinguish ‘Inah and Tawarruq" },
-    { id: "q6.13", type: "tf", q: "A credit buyer in Murabaha cannot sell the purchased asset until all instalments are paid.", answer: false, explanation: "He owns it from day one and may sell it (p. 142).", topic: "t6.5.3", diff: "M", level: "understanding", obj: "Apply ownership in credit sales" }
+    { id: "q6.13", type: "tf", q: "A credit buyer in Murabaha cannot sell the purchased asset until all instalments are paid.", answer: false, explanation: "He owns it from day one and may sell it (p. 142).", topic: "t6.5.3", diff: "M", level: "understanding", obj: "Apply ownership in credit sales" },
+    { id: "q6.14", type: "mcq", q: "According to the Majallah, a sale (Bai‘) is:", options: ["The exchange of money for time", "The exchange of property for property with mutual consent, completed by offer and acceptance", "The transfer of usufruct for rent", "A gratuitous transfer"], answer: 1, explanation: "p. 130.", topic: "t6.2", diff: "E", level: "recall", obj: "Define Bai‘" },
+    { id: "q6.15", type: "tf", q: "The author accepts the argument that 2:275 covers conventional banking business because Bai‘ has a wide meaning.", answer: false, explanation: "The verse permits all exchanges except those involving Riba (p. 130).", topic: "t6.2", diff: "M", level: "understanding", obj: "Evaluate the “banking is Bai‘” argument" },
+    { id: "q6.16", type: "identify", q: "Which Hanafi jurist said: “Trade is of two kinds: permitted, called Bai‘, and prohibited, called Riba”?", options: ["Kasani", "Sarakhsi", "Marghinani", "Ibn Abideen"], answer: 1, explanation: "p. 131.", topic: "t6.2", diff: "M", level: "recall", obj: "Recall Sarakhsi on trade and Riba" },
+    { id: "q6.17", type: "scenario", q: "Wheat is exchanged for barley, with barley to be delivered next month. What is the problem?", options: ["None", "Riba — they are species of the same genus (edibles), so delay is not allowed", "Gharar only", "It is a Salam"], answer: 1, explanation: "p. 131.", topic: "t6.2", diff: "M", level: "application", obj: "Apply exchange rules to commodities" },
+    { id: "q6.18", type: "multi", q: "Why does the author justify a trader’s profit margin, even on credit? (Select all.)", options: ["He provides a service in finding and buying goods", "He bears risks of storage, transit, market and price", "Money has an inherent right to earn", "The price, once agreed, is fixed and not increased for delay"], answer: [0, 1, 3], explanation: "pp. 132–133.", topic: "t6.3.1", diff: "M", level: "understanding", obj: "Justify trade profit" },
+    { id: "q6.19", type: "comparison", q: "How does earning money from money on interest affect the economy, according to Section 6.3.1?", options: ["It spreads wealth evenly", "It creates a rentier class receiving a growing share of output while real producers get less", "It has no effect", "It reduces risk for all"], answer: 1, explanation: "p. 133.", topic: "t6.3.1", diff: "M", level: "analysis", obj: "Analyse the rentier effect of interest" },
+    { id: "q6.20", type: "match", q: "Match each form of sale to its description.", pairs: [["Bai‘ al Muqayaza", "Barter"], ["Bai‘ al Mutlaq", "Goods for money"], ["Bai‘ Mu’ajjal", "Deferred price"], ["Bai‘ Salam", "Prepaid price, deferred delivery"]], explanation: "p. 133.", topic: "t6.4", diff: "E", level: "recall", obj: "Recall forms of sale" },
+    { id: "q6.21", type: "tf", q: "According to Hanafis and the Majallah, delivery is complete when the seller sets the goods aside for the buyer with nothing preventing him from taking them.", answer: true, explanation: "Constructive possession (pp. 136–137).", topic: "t6.5.1", diff: "M", level: "recall", obj: "Recall constructive delivery" },
+    { id: "q6.22", type: "application", q: "A buys a car from B but has not received actual or constructive delivery. He agrees to sell it to C. Is the sale valid?", options: ["Yes", "No — the sale before possession is void", "Yes if C pays cash", "Only with B’s signature"], answer: 1, explanation: "p. 136.", topic: "t6.5.1", diff: "E", level: "application", obj: "Apply the possession rule" },
+    { id: "q6.23", type: "comparison", q: "What is Ibn Taymiyah’s view on selling non-existent items?", options: ["All sales of non-existent items are void", "Non-existence is not itself the cause; a sale is prohibited when it involves Gharar", "All are allowed", "Only fruit may be sold before it exists"], answer: 1, explanation: "p. 137.", topic: "t6.5.1", diff: "H", level: "analysis", obj: "Analyse the cause of prohibition" },
+    { id: "q6.24", type: "identify", q: "Which Companion bought two goats for one dinar, sold one, and returned with a goat and the dinar?", options: ["Bilal", "‘Urwah", "Hakim ibn Hizam", "Zaid ibn Aslam"], answer: 1, explanation: "p. 138.", topic: "t6.5.2", diff: "M", level: "recall", obj: "Recall the ‘Urwah precedent" },
+    { id: "q6.25", type: "scenario", q: "A seller tells an unaware tourist that his carpet is “at the market price” while charging three times that. When the buyer finds out, what right does he have?", options: ["None", "To rescind and recover his money — Ghaban-e-Fahish", "Only to demand a discount", "To report Riba"], answer: 1, explanation: "p. 139.", topic: "t6.5.2", diff: "M", level: "application", obj: "Apply Khiyar-e-Ghaban" },
+    { id: "q6.26", type: "mcq", q: "According to Shukani, what is the effective cause (‘Illah) of the prohibition of “two sales in one”?", options: ["The credit period", "The non-fixity of the price", "The use of money", "The number of parties"], answer: 1, explanation: "p. 140.", topic: "t6.5.3", diff: "M", level: "recall", obj: "Identify the ‘Illah of two sales in one" },
+    { id: "q6.27", type: "order", q: "Order the stages by which a credit price becomes a debt that cannot grow.", items: ["Parties bargain, with cash and credit prices on offer", "One price is settled before they separate", "The sale is executed and ownership passes", "The price becomes a debt that cannot be increased for delay"], explanation: "pp. 139–142.", topic: "t6.5.3", diff: "M", level: "understanding", obj: "Sequence credit pricing" },
+    { id: "q6.28", type: "identify", q: "Which modern Grand Mufti of Saudi Arabia permitted instalment sales with a credit price above the cash price?", options: ["Shaikh Abdullah ibn Baz", "Shaikh Al-Dhareer", "Mufti Taqi Usmani", "Shaikh Qaradawi"], answer: 0, explanation: "p. 140.", topic: "t6.5.3", diff: "H", level: "recall", obj: "Recall contemporary rulings on credit price" },
+    { id: "q6.29", type: "tf", q: "An unintentional delay of up to 72 hours when paying for gold by credit card is tolerated by the OIC Fiqh Academy and Al Baraka’s committee.", answer: true, explanation: "p. 143.", topic: "t6.6", diff: "M", level: "recall", obj: "Recall settlement tolerances" },
+    { id: "q6.30", type: "definition", q: "“A person buys an asset and sells it without taking possession, only paying or receiving the difference in price” describes:", options: ["Tawarruq", "A book-out contract", "Salam", "Istijrar"], answer: 1, explanation: "p. 144.", topic: "t6.7", diff: "E", level: "recall", obj: "Define book-out contracts" },
+    { id: "q6.31", type: "application", q: "A wholesaler sells sealed bales of cloth described in a detailed catalogue, without opening them. How does Imam Malik treat this?", options: ["Prohibited like Mulamasah", "Permitted — established wholesale practice with known description and no intended risk", "Permitted only for cotton", "Makruh"], answer: 1, explanation: "p. 144.", topic: "t6.7", diff: "M", level: "application", obj: "Apply Gharar to catalogue sales" },
+    { id: "q6.32", type: "mcq", q: "How did Imam Malik define Bai‘ wal Salaf?", options: ["Selling on credit", "“I shall buy your goods for such if you lend me such”", "Selling gold for silver", "Selling fruit before it ripens"], answer: 1, explanation: "If the loan condition is dropped, the sale is permitted (p. 145).", topic: "t6.8", diff: "M", level: "recall", obj: "Define Bai‘ wal Salaf" },
+    { id: "q6.33", type: "identify", q: "Which scholar objects only to combining onerous and gratuitous contracts (such as sale and loan)?", options: ["Ibn Taymiyah", "Ibn Abideen", "Imam Shafi‘i", "Ibn Hazm"], answer: 0, explanation: "Modern scholars largely follow this view (p. 145).", topic: "t6.8", diff: "M", level: "recall", obj: "Recall Ibn Taymiyah on combined contracts" },
+    { id: "q6.34", type: "multi", q: "Which schools or scholars prohibited ‘Arbun sale, according to Al-Dhareer? (Select all.)", options: ["Hanafis", "Malikis", "Shafi‘is", "Imam Ahmad"], answer: [0, 1, 2], explanation: "Imam Ahmad approved it (p. 146).", topic: "t6.9", diff: "M", level: "recall", obj: "Recall views on ‘Arbun" },
+    { id: "q6.35", type: "tf", q: "The OIC Fiqh Council and AAOIFI allow customary down-payment sales on condition that a time limit is specified.", answer: true, explanation: "p. 146.", topic: "t6.9", diff: "E", level: "recall", obj: "Recall modern rulings on ‘Arbun" },
+    { id: "q6.36", type: "scenario", q: "A client defaults on a Murabaha instalment. The bank signs a new Murabaha for the same goods to give more time at a higher price. What is this?", options: ["Permissible restructuring", "Rollover — the modern Bai‘ al-Kali bil Kali, prohibited", "Tawarruq", "Ijarah"], answer: 1, explanation: "p. 147.", topic: "t6.10", diff: "M", level: "application", obj: "Identify prohibited rollover" },
+    { id: "q6.37", type: "comparison", q: "Why can Sukuk be traded while debt instruments cannot?", options: ["Sukuk pay interest", "Sukuk represent ownership in assets whose cash flow backs the return, so they are property of value", "Sukuk are government-guaranteed", "Debt is always long-term"], answer: 1, explanation: "p. 147.", topic: "t6.10", diff: "M", level: "analysis", obj: "Contrast Sukuk with debt instruments" },
+    { id: "q6.38", type: "scenario", q: "A ruser sells a commodity for $1,000 payable in a year and immediately buys it back for $950 cash. How does Fatawa Alamgiri classify this?", options: ["Lawful Tawarruq", "Bai‘ al ‘Inah — unlawful due to Riba", "Salam", "Bai‘ bil Wafa"], answer: 1, explanation: "p. 148.", topic: "t6.11", diff: "M", level: "application", obj: "Identify Bai‘ al ‘Inah" },
+    { id: "q6.39", type: "mcq", q: "Which schools declared the use of Hiyal (ruses) totally prohibited?", options: ["Only Hanafis", "Shafi‘is, Malikis and Hanbalis; Hanafis allow only those compatible with the spirit of Shari’ah", "All four allow them", "None"], answer: 1, explanation: "p. 148.", topic: "t6.11", diff: "M", level: "recall", obj: "Recall views on Hiyal" },
+    { id: "q6.40", type: "identify", q: "Which Khiyar is available even if not stipulated, when an undisclosed defect visibly reduces value?", options: ["Khiyar al-Shart", "Khiyar al ‘Aib", "Khiyar-e-Naqad", "Khiyar al-Majlis"], answer: 1, explanation: "p. 151.", topic: "t6.12", diff: "E", level: "recall", obj: "Identify the option for defects" },
+    { id: "q6.41", type: "tf", q: "In Salam and Istisna, the buyer has Khiyar al Ro’yat even when goods match the stipulated specifications.", answer: false, explanation: "Not available if the goods conform to specifications (p. 152).", topic: "t6.12", diff: "M", level: "understanding", obj: "Apply Khiyar al Ro’yat to Salam" },
+    { id: "q6.42", type: "short", q: "What options does a client have in Murabaha to Purchase Orderer, and how can the bank limit them?", answer: "The client has the options of defect and of specification/quality: if the goods do not match the specification or have a material defect, he may refuse to buy under his promise, or rescind if the Murabaha is already executed. The bank can obtain a certificate of fitness at the time of sale after giving the client full opportunity to examine the asset.", keywords: ["defect", "specification", "rescind", "certificate"], explanation: "p. 152.", topic: "t6.12", diff: "M", level: "application", obj: "Explain client options in MPO" }
   ],
   exam: [
     { id: "e6.1", kind: "long", q: "Explain the requirements of a valid sale in Islamic commercial law and their relevance to Islamic banks’ trade-based financing.", structure: ["Define Bai‘", "Parties and consent", "Object: lawful, existent, owned, possessed, deliverable", "Constructive possession and examples", "Price certainty; cash vs credit price", "Implications: promise before ownership; no rollover; no sale of debt"], keyConcepts: ["Mabi‘", "Thaman", "Qabza", "Hukmi possession"], points: ["Figure 6.2 elements", "Fertiliser example", "One price fixed"], mistakes: ["Requiring physical delivery in all cases", "Allowing price increase on default"], topic: "t6.5" },
     { id: "e6.2", kind: "difference", q: "Differentiate between Bai‘ al ‘Inah, Tawarruq and Bai‘ bil Wafa.", structure: ["Define each", "Parties and flow", "Juristic position", "Bank relevance (DM, liquidity)"], keyConcepts: ["buy-back", "Hiyal", "Sadd al-Zarai‘"], points: ["‘Inah prohibited", "Tawarruq permitted by most / Makrooh per Ibn Taymiyah", "Wafa: separate promise"], mistakes: ["Treating Tawarruq and ‘Inah as identical"], topic: "t6.11" },
     { id: "e6.3", kind: "conceptual", q: "Is the higher credit price in Murabaha the same as interest? Discuss.", structure: ["Juristic views on two prices", "Single credit price views", "Qur’anic basis (2:275)", "Udovitch vs author", "What is prohibited"], keyConcepts: ["time value", "Ghaban", "debt"], points: ["Settled before separation", "No increase after execution"], mistakes: ["Saying any mark-up is Riba"], topic: "t6.5.3" },
     { id: "e6.4", kind: "short", q: "Why is the sale of debt prohibited, and what alternative exists?", structure: ["Gharar/Riba rationale", "Al Kali bil Kali", "Rollover", "Hawalah", "Asset-backed Sukuk"], keyConcepts: ["Bai‘ al Dayn", "Hawalah"], points: ["Face value with recourse only"], mistakes: ["Allowing discounting"], topic: "t6.10" },
-    { id: "e6.5", kind: "viva", q: "What options (Khiyar) does a client have in a Murabaha to Purchase Orderer?", structure: ["Defect", "Specification/quality", "Fitness certificate"], keyConcepts: ["Khiyar al-‘Aib", "Khiyar al-Wasf"], points: ["May refuse or rescind"], mistakes: ["Forgetting the fitness certificate exception"], topic: "t6.12" }
+    { id: "e6.5", kind: "viva", q: "What options (Khiyar) does a client have in a Murabaha to Purchase Orderer?", structure: ["Defect", "Specification/quality", "Fitness certificate"], keyConcepts: ["Khiyar al-‘Aib", "Khiyar al-Wasf"], points: ["May refuse or rescind"], mistakes: ["Forgetting the fitness certificate exception"], topic: "t6.12" },
+    { id: "e6.6", kind: "long", q: "Critically examine the permissibility of a credit price higher than the cash price. How is it distinguished from Riba?", structure: ["Jurists on two prices: settle one before separation", "Hadith on two bargains in one; Shukani’s ‘Illah", "Qur’anic context of 2:275 (Ibn Abi Hatim, Mujahid, Qatadah)", "Udovitch’s argument and the author’s reply", "No increase after the price becomes debt; rollover prohibited", "Conclusion"], keyConcepts: ["Bai‘ Mu’ajjal", "two sales in one", "time value in pricing", "Riba", "rollover"], points: ["Credit price is for the goods, not time", "Seller cannot re-price sold goods", "Customary market practice approved by OIC and Shari’ah boards"], mistakes: ["Saying any mark-up is Riba", "Allowing late-payment increase", "Ignoring the one-price condition"], topic: "t6.5.3" }
   ]
 });

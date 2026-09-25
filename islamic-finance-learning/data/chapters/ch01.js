@@ -33,7 +33,8 @@ IFL_DATA.registerChapter({
         "Communism: centralised control, hypothetical ownership — collapsed in under a century.",
         "Capitalism: free hand to maximise profit with minimal consideration of ethics.",
         "Money created “out of nothing” strengthens exploitation and widens inequality.",
-        "Keynes: enlightened self-interest does not always operate in the public interest."
+        "Keynes: enlightened self-interest does not always operate in the public interest.",
+        "Keynes is quoted: enlightened self-interest does not automatically serve the public interest."
       ],
       subsections: [],
       definitions: [],
@@ -44,7 +45,10 @@ IFL_DATA.registerChapter({
         { wrong: "The author rejects markets and private enterprise.", right: "No — later in the chapter he states that market mechanisms, private property, self-interest and competition are integral to Islamic economics. His critique is of markets without ethical limits and of unchecked money creation." }
       ],
       related: ["t1.2", "t1.8"],
-      quickCheck: { q: "According to the author, what characterised the post-Bretton Woods system?", options: ["A strict gold standard", "Excessive creation of monies, particularly the US Dollar", "Centralised state ownership", "Zero debt accumulation"], answer: 1, explanation: "The author links the post-Bretton Woods system to excessive creation of money, especially the US Dollar (p. 3)." }
+      quickCheck: { q: "According to the author, what characterised the post-Bretton Woods system?", options: ["A strict gold standard", "Excessive creation of monies, particularly the US Dollar", "Centralised state ownership", "Zero debt accumulation"], answer: 1, explanation: "The author links the post-Bretton Woods system to excessive creation of money, especially the US Dollar (p. 3)." },
+      distinctions: [
+        { a: "Capitalism", b: "Communism", text: "Capitalism concentrates resources indirectly through many channels, backed by strong institutional support; communism centralised control while ownership was only nominal — the author sees both as unbalanced extremes (pp. 3–4)." }
+      ]
     },
     {
       id: "t1.2", section: "1.2", title: "Conventional Debt: A Recipe for Exploitation", pages: [4, 6], tier: "core",
@@ -62,11 +66,15 @@ IFL_DATA.registerChapter({
         "Debt servicing crowds out socio-economic amenities in developing countries.",
         "Risk-free capital grows relative to risk-based capital.",
         "Interest-based credit encourages unproductive and wasteful spending, reducing savings and real investment.",
-        "Combined with inflation, the system becomes a recipe for instability."
+        "Combined with inflation, the system becomes a recipe for instability.",
+        "Debt servicing is paid through taxes and charges on consumption, with no quid pro quo for citizens.",
+        "Easy credit encourages wasteful spending, lowering savings, real investment and employment."
       ],
       examples: [
         { title: "US debt figures cited", kind: "textbook", text: "The author cites a 2004 US deficit of $668 billion (5.7% of GDP), net external liabilities over $2.7 trillion, and US national debt exceeding $9 trillion, as evidence that even developed economies depend on debt." },
-        { title: "Rising inequality (Gini)", kind: "textbook", text: "US Gini coefficient cited as rising from 0.394 (1970) to 0.408 (1990) to 0.462 (2000)." }
+        { title: "Rising inequality (Gini)", kind: "textbook", text: "US Gini coefficient cited as rising from 0.394 (1970) to 0.408 (1990) to 0.462 (2000)." },
+        { title: "Debt relief offset by domestic borrowing", kind: "textbook", text: "External debt of developing countries fell from about 45% of GNI (1999) to about 40% (2003), but the fall was offset by rising domestic debt at higher interest rates — the overall burden did not go away (p. 5)." },
+        { title: "The United States as the largest debtor", kind: "textbook", text: "Repeated current-account deficits turned the US from a major investor in the 1970s into the world’s largest debtor; only the Dollar’s reserve-currency status shields it (p. 5)." }
       ],
       confusions: [
         { wrong: "Debt relief solves the problem the author describes.", right: "The author argues debt relief packages failed to resolve poverty and that declines in external debt were offset by rising domestic debt." }
@@ -89,12 +97,17 @@ IFL_DATA.registerChapter({
         "China is cited as a high-growth economy facing worsening rural poverty.",
         "Solution proposed: risk-related capital instead of borrowed, risk-free capital."
       ],
-      examples: [],
+      examples: [
+        { title: "Rising inequality in a rich economy", kind: "textbook", text: "The US Gini coefficient rose from 0.394 (1970) to 0.408 (1990) and 0.462 (2000) — a level resembling developing countries — showing growth alone does not deliver justice (p. 6)." }
+      ],
       confusions: [
         { wrong: "The author is against growth.", right: "He argues growth per se is not enough; distribution matters, and growth should come with distributive justice." }
       ],
       related: ["t1.7", "t2.5"],
-      quickCheck: { q: "What does the author propose instead of borrowed, risk-free funds?", options: ["More sovereign borrowing", "Risk-related capital, including direct and portfolio investment", "Printing more money", "Higher interest rates"], answer: 1, explanation: "He says the solution lies in replacing risk-free with risk-related capital and ensuring inflows as direct and portfolio investment (p. 8)." }
+      quickCheck: { q: "What does the author propose instead of borrowed, risk-free funds?", options: ["More sovereign borrowing", "Risk-related capital, including direct and portfolio investment", "Printing more money", "Higher interest rates"], answer: 1, explanation: "He says the solution lies in replacing risk-free with risk-related capital and ensuring inflows as direct and portfolio investment (p. 8)." },
+      distinctions: [
+        { a: "Growth", b: "Socio-economic development", text: "Growth measures output; development requires that its benefits reach the masses. Trickle-down growth can widen asset inequality, so the author calls for redistribution of assets and income before stabilisation (p. 7)." }
+      ]
     },
     {
       id: "t1.4", section: "1.4", title: "Social Welfare Activities of the States", pages: [8, 8], tier: "detailed",
@@ -108,10 +121,13 @@ IFL_DATA.registerChapter({
       keyPoints: [
         "Safety nets alone cannot cater to millions of poor.",
         "Change is needed at the level of the system, not just spending.",
-        "Charity on any scale cannot solve the problem (footnote on “Billanthropy”)."
+        "Charity on any scale cannot solve the problem (footnote on “Billanthropy”).",
+        "Conflict between the operative tools of conventional economics and its normative goals explains why even rich states miss their welfare aims."
       ],
       examples: [],
-      confusions: [],
+      confusions: [
+        { wrong: "Bigger social-security spending can by itself correct the injustice created by the financial system.", right: "The author argues selective state spending cannot offset system-wide imbalances and may create moral hazard; the system itself must change so weaker groups get their share at the stage of production and distribution (p. 8)." }
+      ],
       related: ["t1.3", "t1.5"],
       quickCheck: { q: "True or false: the author argues that increased government welfare spending is sufficient to correct the imbalances of the conventional system.", options: ["True", "False"], answer: 1, explanation: "False. He argues imbalances created by the system cannot be corrected only by selective government spending (p. 8)." }
     },
@@ -137,7 +153,10 @@ IFL_DATA.registerChapter({
         { wrong: "“No risk, no gain” means Islamic finance maximises risk.", right: "It means return must be linked to bearing risk/liability; later chapters show risk can be mitigated but not eliminated." }
       ],
       related: ["t4.2", "t1.9"],
-      quickCheck: { q: "Which principle does the author describe as the basic juristic principle of Shari’ah in this section?", options: ["Caveat emptor", "No risk, no gain", "Time value of money", "Too big to fail"], answer: 1, explanation: "“No risk, no gain” is described as the basic juristic principle of Shari’ah and a normative rule of justice (p. 9)." }
+      quickCheck: { q: "Which principle does the author describe as the basic juristic principle of Shari’ah in this section?", options: ["Caveat emptor", "No risk, no gain", "Time value of money", "Too big to fail"], answer: 1, explanation: "“No risk, no gain” is described as the basic juristic principle of Shari’ah and a normative rule of justice (p. 9)." },
+      distinctions: [
+        { a: "Risk-free capital (interest)", b: "Risk-related capital", text: "Interest gives a return without liability for loss; under “no risk, no gain” a return is legitimate only if the provider also bears possible loss, which makes investors more careful and removes moral hazard (p. 9)." }
+      ]
     },
     {
       id: "t1.6", section: "1.6", title: "The Need of the Hour", pages: [9, 10], tier: "supporting",
@@ -152,10 +171,14 @@ IFL_DATA.registerChapter({
       keyPoints: [
         "Justice is the raison d’être of any sustainable economic system.",
         "Interest is identified as the major element creating injustice.",
-        "Benefits of prohibition: moral dimension, equity, market discipline, stability."
+        "Benefits of prohibition: moral dimension, equity, market discipline, stability.",
+        "Justice/fair play is the raison d’être of any sustainable economic system and cannot be traded off in the Islamic worldview.",
+        "Benefits of prohibiting interest: a moral dimension, greater equity and market discipline, and a healthier, more stable system."
       ],
       examples: [],
-      confusions: [],
+      confusions: [
+        { wrong: "Islamic economists only need to design new financial products.", right: "The author asks them to build a whole model of balanced, equitable growth, with justice as the non-negotiable foundation (p. 9)." }
+      ],
       related: ["t1.5", "t4.2"],
       quickCheck: { q: "What does the author say justice/fair play is for an economic system?", options: ["An optional add-on", "Its raison d’être", "A cost to be minimised", "Relevant only to charities"], answer: 1, explanation: "He calls justice/fair play the raison d’être of any sustainable economic system (p. 9)." }
     },
@@ -181,7 +204,8 @@ IFL_DATA.registerChapter({
         { term: "Māl (property)", meaning: "Anything that can be possessed — money, commodities, immovable property, etc. (footnote on p. 10)." }
       ],
       examples: [
-        { title: "Malaysia’s New Economic Policy", kind: "textbook", text: "The book presents Malaysia’s move from trickle-down growth to a policy of eradicating poverty and restructuring society for justice with fairness as a macro-level example of distributive justice contributing to development." }
+        { title: "Malaysia’s New Economic Policy", kind: "textbook", text: "The book presents Malaysia’s move from trickle-down growth to a policy of eradicating poverty and restructuring society for justice with fairness as a macro-level example of distributive justice contributing to development." },
+        { title: "Malaysia’s New Economic Policy", kind: "textbook", text: "Trickle-down growth (1957–1970) ended in the 13 May 1969 riots; the New Economic Policy then pursued growth with distributive justice — eradicating poverty and restructuring society — and is credited with the country’s later success (p. 11)." }
       ],
       distinctions: [
         { a: "Economics as a science", b: "Economic system", text: "Science deals with creation of wealth; a system is ideology-based and manages ownership, disposal and distribution of wealth." }
@@ -256,7 +280,13 @@ IFL_DATA.registerChapter({
         { wrong: "Asset-backing means returning to the gold standard.", right: "The author says the gold standard cannot be adopted again; assets need not be gold or silver, but financial assets must be based on real assets." }
       ],
       related: ["t4.2", "t4.6", "t4.7"],
-      quickCheck: { q: "According to the author, in Islamic finance the time factor has value only through…", options: ["Interest rates on loans", "Pricing of goods and their usufructs", "Inflation indexation of loans", "Central bank policy rates"], answer: 1, explanation: "The time factor in business transactions has value only through the pricing of goods and their usufructs (p. 13)." }
+      quickCheck: { q: "According to the author, in Islamic finance the time factor has value only through…", options: ["Interest rates on loans", "Pricing of goods and their usufructs", "Inflation indexation of loans", "Central bank policy rates"], answer: 1, explanation: "The time factor in business transactions has value only through the pricing of goods and their usufructs (p. 13)." },
+      examples: [
+        { title: "Two criteria for money creation", kind: "textbook", text: "Instead of returning to gold, the author proposes that (1) all financial assets be based on real assets and (2) time be given value only through the pricing of goods and usufructs — not through lending money (pp. 13–14)." }
+      ],
+      distinctions: [
+        { a: "Government running businesses", b: "Government as active overseer", text: "The author wants an active state role, not to conduct business but to ensure markets function with accountability and transparency so vested interests cannot manipulate them (p. 13)." }
+      ]
     },
     {
       id: "t1.10", section: "1.10", title: "Islamic Finance Passing Significant Milestones", pages: [15, 16], tier: "supporting",
@@ -271,7 +301,10 @@ IFL_DATA.registerChapter({
       keyPoints: [
         "Islamic Bank of Britain cited as a full-fledged Islamic bank in the UK.",
         "In Malaysia about 40% of Islamic banks’ clients were non-Muslims (as cited).",
-        "Figures reflect the book’s time of writing (2007)."
+        "Figures reflect the book’s time of writing (2007).",
+        "About 550 Islamic financial institutions in over 75 countries at the time of writing.",
+        "Hubs: Bahrain, Malaysia, Saudi Arabia and Dubai; London and Singapore competing to join them.",
+        "In Malaysia about 40% of Islamic banks’ clients are non-Muslims."
       ],
       definitions: [
         { term: "AAOIFI", meaning: "Accounting and Auditing Organization for Islamic Financial Institutions — a standard-setting body." },
@@ -302,7 +335,9 @@ IFL_DATA.registerChapter({
       distinctions: [
         { a: "Formal/legal compliance", b: "Shari’ah-inspired compliance", text: "The first fits a product to legal forms; the second also considers the product’s basis and its impact on society." }
       ],
-      confusions: [],
+      confusions: [
+        { wrong: "If a product is legally Shari’ah compliant, Islamic finance has achieved its objectives.", right: "The author warns that copying conventional products and fitting them formally undermines the theory; compliance must be Shari’ah-inspired and consider the impact on society (pp. 16–17)." }
+      ],
       related: ["t17.4", "t18.3"],
       quickCheck: { q: "What does the author say about IFIs that adapt conventional products merely to fit Islamic legal forms?", options: ["They represent best practice", "They undermine the integrity of Islamic finance theory", "They are required by AAOIFI", "They eliminate all risk"], answer: 1, explanation: "He warns that such moulding without regard to impact undermines the integrity of the theory (p. 16)." }
     },
@@ -319,11 +354,15 @@ IFL_DATA.registerChapter({
       keyPoints: [
         "Prohibition of Riba is described as the least controversial issue.",
         "Conventional banks’ main function is loaning; Islamic banks’ activities pertain to trading, leasing and real-sector business.",
-        "Chapter 17 was added to appraise criticism."
+        "Chapter 17 was added to appraise criticism.",
+        "Part I: foundations and prohibitions; Part II: law of contracts; Part III: products and modes, plus Sukuk, Takaful, criticism and the way forward."
       ],
       confusions: [],
       related: ["t2.1", "t5.1", "t8.1"],
-      quickCheck: { q: "Which interpretive approach does the book follow?", options: ["Minority view only", "Mainstream view", "No Shari’ah view", "A new interpretation by the author"], answer: 1, explanation: "The book represents the mainstream view, which also underlies AAOIFI and IFSB standards (p. 17)." }
+      quickCheck: { q: "Which interpretive approach does the book follow?", options: ["Minority view only", "Mainstream view", "No Shari’ah view", "A new interpretation by the author"], answer: 1, explanation: "The book represents the mainstream view, which also underlies AAOIFI and IFSB standards (p. 17)." },
+      distinctions: [
+        { a: "Mainstream view", b: "Minority view", text: "The book follows the mainstream interpretation because it is widely recognised, underpins Middle-East practice and the AAOIFI/IFSB standards; minority-view practices are converging towards it (p. 17)." }
+      ]
     }
   ],
   summary: "Chapter 1 argues that the neoclassical, interest-based and debt-driven economic order has produced inequity and instability, that growth alone and welfare spending cannot correct these, and that money and finance — particularly interest — are the main culprits. Islamic principles offer checks: markets with ethics, prohibition of interest, gambling and excessive uncertainty, Zakat, returns linked to risk and value addition, and finance tied to real assets. Islamic finance had reached important milestones, but the author warns that it must be Shari’ah inspired, not merely formally compliant, to achieve its objectives.",
@@ -354,7 +393,15 @@ IFL_DATA.registerChapter({
     { id: "f1.7", cat: "Exam facts", front: "Zakat rates mentioned in Chapter 1", back: "Generally 2.5% of net wealth; 5 or 10% on agricultural produce above a minimum limit.", topic: "t1.8" },
     { id: "f1.8", cat: "Principles", front: "Formal vs Shari’ah-inspired compliance", back: "The author warns that moulding conventional products to fit Islamic legal forms without regard to impact undermines Islamic finance; compliance must be Shari’ah inspired.", topic: "t1.11" },
     { id: "f1.9", cat: "Exam facts", front: "Which interpretation does the book follow?", back: "The mainstream view — widely recognised and the basis of AAOIFI and IFSB standards; the minority view is noted in places.", topic: "t1.12" },
-    { id: "f1.10", cat: "Risk", front: "Why does the author favour risk-related capital over borrowed funds?", back: "Borrowed funds are mainly squandered; risk-related (direct and portfolio) investment links returns to real performance and reduces the debt burden.", topic: "t1.3" }
+    { id: "f1.10", cat: "Risk", front: "Why does the author favour risk-related capital over borrowed funds?", back: "Borrowed funds are mainly squandered; risk-related (direct and portfolio) investment links returns to real performance and reduces the debt burden.", topic: "t1.3" },
+    { id: "f1.11", cat: "Exam facts", front: "Bretton Woods and 1971", back: "Bretton Woods (1944) linked currencies to the Dollar at $35 per ounce of gold; in 1971 the gold link was abolished and gold became an ordinary commodity.", topic: "t1.1" },
+    { id: "f1.12", cat: "Exam facts", front: "US Gini coefficient trend cited in Chapter 1", back: "0.394 (1970) → 0.408 (1990) → 0.462 (2000): growth accompanied by rising inequality.", topic: "t1.3" },
+    { id: "f1.13", cat: "Principles", front: "Why is welfare spending not enough (Section 1.4)?", back: "Selective state spending cannot correct system-wide imbalances and may cause moral hazard; weaker groups must get their share at the production and distribution stage.", topic: "t1.4" },
+    { id: "f1.14", cat: "Principles", front: "Benefits of prohibiting interest (Section 1.6)", back: "A moral dimension in finance, greater equity and market discipline, and a healthier, more stable system.", topic: "t1.6" },
+    { id: "f1.15", cat: "Exam facts", front: "Malaysia’s New Economic Policy", back: "Adopted after trickle-down growth ended in the 1969 riots; twin aims — eradicate poverty and restructure society with justice — credited for later success.", topic: "t1.7" },
+    { id: "f1.16", cat: "Principles", front: "Two criteria for money creation (Section 1.9)", back: "(1) All financial assets must be based on real assets; (2) time has value only through the pricing of goods and usufructs.", topic: "t1.9" },
+    { id: "f1.17", cat: "Contract rules", front: "Can a guarantor charge a fee?", back: "No — guaranteeing a financial obligation for a price involves Riba; only out-of-pocket expenses may be recovered (Fiqh Academy).", topic: "t1.8" },
+    { id: "f1.18", cat: "Exam facts", front: "Scale of Islamic finance cited in Chapter 1", back: "Over 75 countries, about 550 institutions; about 40% of Malaysian Islamic bank clients are non-Muslims.", topic: "t1.10" }
   ],
   questions: [
     { id: "q1.1", type: "mcq", q: "According to Chapter 1, what is the “main culprit” behind the failure of the global economic system to ensure justice?", options: ["Technological change", "The functioning of money and finance, especially interest, along with poor economic management", "Excessive regulation of banks", "Religious belief"], answer: 1, explanation: "Section 1.5 names inefficient economic management and the functioning of money/finance — particularly the institution of interest.", topic: "t1.5", diff: "E", level: "recall", obj: "Identify the author's diagnosis of the global economy" },
@@ -368,12 +415,32 @@ IFL_DATA.registerChapter({
     { id: "q1.9", type: "order", q: "Put the three parts of the book in order.", items: ["Fundamentals", "Contractual Bases in Islamic Finance", "Islamic Finance – Products and Procedures"], explanation: "Part I Fundamentals (Ch 1–4), Part II Contractual Bases (Ch 5–7), Part III Products and Procedures (Ch 8–18).", topic: "t1.12", diff: "E", level: "recall", obj: "Outline the structure of the book" },
     { id: "q1.10", type: "short", q: "In two or three sentences, explain why the author warns against merely formal Shari’ah compliance.", answer: "Products moulded from conventional ones to fit Islamic legal forms, without regard to their impact on society, undermine the integrity of Islamic finance. The system must change its basis and stakeholders’ mindset; compliance should be Shari’ah inspired to realise the pioneers’ objectives.", keywords: ["formal", "impact", "integrity", "inspired", "conventional"], explanation: "See Section 1.11.", topic: "t1.11", diff: "M", level: "analysis", obj: "Evaluate formal versus substantive compliance" },
     { id: "q1.11", type: "tf", q: "The author states that the gold standard should be re-adopted as the basis of money creation.", answer: false, explanation: "He says the gold standard cannot be adopted again, but there must be foolproof criteria for money creation; assets need not be gold or silver.", topic: "t1.9", diff: "M", level: "understanding", obj: "Explain asset-backing" },
-    { id: "q1.12", type: "application", q: "A guarantor offers to guarantee a company’s bank financing in return for a fee of 1% of the amount guaranteed. According to the footnote in Section 1.8, this fee:", options: ["Is permissible as a commutative contract", "Involves Riba; only out-of-pocket expenses may be recovered", "Is permissible if agreed in writing", "Is Zakat"], answer: 1, explanation: "Guaranteeing a financial obligation for a price involves Riba; the guarantor may recover out-of-pocket expenses only (citing the Islamic Fiqh Academy).", topic: "t1.8", diff: "H", level: "application", obj: "Apply the rule on guarantees" }
+    { id: "q1.12", type: "application", q: "A guarantor offers to guarantee a company’s bank financing in return for a fee of 1% of the amount guaranteed. According to the footnote in Section 1.8, this fee:", options: ["Is permissible as a commutative contract", "Involves Riba; only out-of-pocket expenses may be recovered", "Is permissible if agreed in writing", "Is Zakat"], answer: 1, explanation: "Guaranteeing a financial obligation for a price involves Riba; the guarantor may recover out-of-pocket expenses only (citing the Islamic Fiqh Academy).", topic: "t1.8", diff: "H", level: "application", obj: "Apply the rule on guarantees" },
+    { id: "q1.13", type: "mcq", q: "According to the author, what happened to the gold–currency link in 1971?", options: ["It was strengthened at Bretton Woods", "It was abolished, and gold became an ordinary commodity", "It was replaced by a link to the Pound Sterling", "It was restored at $35 per ounce"], answer: 1, explanation: "Bretton Woods (1944) fixed $35 per ounce; in 1971 the link was abolished (p. 3, n. 1).", topic: "t1.1", diff: "M", level: "recall", obj: "Recall the history of the monetary system" },
+    { id: "q1.14", type: "tf", q: "The author quotes Keynes to support the view that enlightened self-interest always operates in the public interest.", answer: false, explanation: "Keynes is quoted for the opposite: private and social interests do not always coincide (p. 4).", topic: "t1.1", diff: "E", level: "understanding", obj: "Interpret the Keynes quotation" },
+    { id: "q1.15", type: "multi", q: "Which of these does the author list as consequences of the interest-based debt mechanism? (Select all.)", options: ["Governments raise taxes on consumption to service debt", "An increasing share of risk-free capital relative to risk-based capital", "Higher national savings", "Concentration of wealth in fewer hands", "Foreign-exchange earnings consumed by debt servicing"], answer: [0, 1, 3, 4], explanation: "Savings decline, not rise, because easy credit promotes wasteful spending (pp. 4–5).", topic: "t1.2", diff: "M", level: "understanding", obj: "Explain how interest-based debt harms economies" },
+    { id: "q1.16", type: "application", q: "A country’s GDP grows at 9% a year, yet rural poverty worsens and its Gini coefficient rises. Which argument from Chapter 1 best explains this?", options: ["Growth benefits trickle down automatically", "Growth per se does not lead to socio-economic justice when assets are concentrated", "Inflation always falls with growth", "Trade barriers are the only cause"], answer: 1, explanation: "Section 1.3: where wealth is concentrated, even high growth does not improve distribution — the China example (p. 7).", topic: "t1.3", diff: "M", level: "application", obj: "Apply the growth-versus-justice argument" },
+    { id: "q1.17", type: "mcq", q: "What remedy does the author propose for mobilising funds in place of borrowed money?", options: ["More concessional loans", "Replacing risk-free with risk-related capital, including direct and portfolio investment", "Printing more reserve currency", "Higher interest rates to attract savings"], answer: 1, explanation: "p. 8: borrowed funds are mostly squandered; replace them with asset- and risk-based investment.", topic: "t1.3", diff: "E", level: "recall", obj: "Recall the proposed funding solution" },
+    { id: "q1.18", type: "tf", q: "The author believes large charitable foundations and state welfare spending can, on their own, eliminate poverty created by the financial system.", answer: false, explanation: "Selective spending cannot correct system-wide imbalances; the system itself must change (p. 8, including n. 15 on “Billanthropy”).", topic: "t1.4", diff: "E", level: "understanding", obj: "Evaluate the role of welfare spending" },
+    { id: "q1.19", type: "identify", q: "Which two factors does the author name as the MAIN causes of the global system’s failure?", options: ["Population growth and wars", "Inefficient economic management unconcerned with poverty, and the functioning of money and financial markets", "Religion and culture", "Technology and automation"], answer: 1, explanation: "Section 1.5 (p. 8).", topic: "t1.5", diff: "M", level: "recall", obj: "Identify the main culprits" },
+    { id: "q1.20", type: "comparison", q: "How does loss liability change investor behaviour, according to Section 1.5?", options: ["It has no effect", "Bearing possible loss makes investors more careful and injects discipline, removing the moral hazard of risk-free gains", "It makes investors reckless", "It guarantees profits"], answer: 1, explanation: "p. 9.", topic: "t1.5", diff: "M", level: "analysis", obj: "Analyse the discipline effect of risk-sharing" },
+    { id: "q1.21", type: "mcq", q: "In the author’s view, what is the raison d’être of any economic system that is to be sustainable?", options: ["Maximum growth", "Justice / fair play", "Low inflation", "Free trade"], answer: 1, explanation: "p. 9: justice cannot be given up for any other consideration in the Islamic worldview.", topic: "t1.6", diff: "E", level: "recall", obj: "Recall the core objective of the system" },
+    { id: "q1.22", type: "order", q: "Order the stages of Malaysia’s experience described in Section 1.7.", items: ["Trickle-down growth policy (1957–1970)", "Race riots of 13 May 1969", "New Economic Policy: growth with distributive justice", "Significant achievement over the following three decades"], explanation: "p. 11.", topic: "t1.7", diff: "M", level: "recall", obj: "Sequence the Malaysian case" },
+    { id: "q1.23", type: "tf", q: "According to the author, market mechanisms, private property, self-interest and competition are integral parts of Islamic economics.", answer: true, explanation: "p. 12 — they operate within ethical limits and state oversight.", topic: "t1.8", diff: "E", level: "recall", obj: "Recall the role of markets in Islamic economics" },
+    { id: "q1.24", type: "scenario", q: "A farmer harvests wheat above the Zakat threshold. Under the rates mentioned in Chapter 1, which applies?", options: ["2.5% of net wealth", "5% or 10% of the produce", "No Zakat on produce", "20% of the harvest"], answer: 1, explanation: "Zakat: generally 2.5% of net wealth, or 5% or 10% for agricultural produce above a minimum (p. 12).", topic: "t1.8", diff: "M", level: "application", obj: "Apply Zakat rates" },
+    { id: "q1.25", type: "match", q: "Match each contract to whether a return may be charged.", pairs: [["Sale", "Profit permitted (commutative)"], ["Lease", "Rent permitted (commutative)"], ["Loan", "No return — gratuitous"], ["Guarantee", "No fee — only out-of-pocket expenses"]], explanation: "Uqood-e-Mu‘awadha vs Uqood Ghair Mu‘awadha (pp. 12–13, n. 20).", topic: "t1.8", diff: "M", level: "application", obj: "Classify contracts by permissibility of return" },
+    { id: "q1.26", type: "short", q: "What happens to a debtor’s liability if he becomes insolvent, according to Chapter 1?", answer: "The loan still has to be repaid one way or another until the creditor relaxes it or the debtor is declared insolvent; even then, accountability for the debt in the Hereafter remains until the creditor waives it.", keywords: ["repaid", "insolvent", "Hereafter", "waive"], explanation: "p. 13.", topic: "t1.8", diff: "M", level: "understanding", obj: "Explain the accountability of debt" },
+    { id: "q1.27", type: "mcq", q: "Which analogy does the author use for the financial system?", options: ["A machine", "The heart in the human body / blood circulation", "A marketplace", "A river"], answer: 1, explanation: "pp. 14 and 17: the heart, and money as circulating blood.", topic: "t1.9", diff: "E", level: "recall", obj: "Recall the author’s analogy" },
+    { id: "q1.28", type: "application", q: "A regulator wants to stop banks creating financial assets “out of nothing”. Which principle from Section 1.9 addresses this?", options: ["All financial assets must be based on real assets and business activities", "All money must be gold", "Interest must be capped at 5%", "Banks must hold 100% reserves in Dollars"], answer: 0, explanation: "pp. 13–14: creating assets out of nothing and shifting undefined risk is tantamount to cheating.", topic: "t1.9", diff: "M", level: "application", obj: "Apply the real-asset principle" },
+    { id: "q1.29", type: "identify", q: "Which of these is a standard-setting or facilitating body named in Chapter 1?", options: ["IFSB", "OPEC", "WTO", "SWIFT"], answer: 0, explanation: "AAOIFI, IFSB, IIFM and LMC (p. 15).", topic: "t1.10", diff: "E", level: "recall", obj: "Recall Islamic finance infrastructure bodies" },
+    { id: "q1.30", type: "tf", q: "The author claims that Islamic banking was already widely practised by the early 1970s.", answer: false, explanation: "Until the early 1970s it was an academic dream; it made headway in the 1980s (p. 15).", topic: "t1.10", diff: "E", level: "recall", obj: "Recall the growth timeline" },
+    { id: "q1.31", type: "mcq", q: "Why does the book follow the mainstream interpretation of Shari’ah?", options: ["It is the only valid view", "It is widely recognised, underlies Middle-East practice and the AAOIFI/IFSB standards", "It is the most lenient", "It was chosen by the publisher"], answer: 1, explanation: "p. 17.", topic: "t1.12", diff: "M", level: "understanding", obj: "Explain the book’s interpretive stance" }
   ],
   exam: [
     { id: "e1.1", kind: "long", q: "“Conventional debt is a recipe for exploitation.” Discuss this statement in the light of Chapter 1 and explain the alternative the author proposes.", structure: ["Introduce the author’s critique of the neoclassical/post-Bretton Woods order", "Explain how interest-based debt becomes self-perpetuating and who bears the cost", "Show effects: risk-free vs risk-based capital, inequality, instability", "Note that debt relief and welfare spending have not solved the problem", "Present the alternative: risk-sharing, asset-based finance, trading/leasing/partnership", "Conclude with the need for Shari’ah-inspired implementation"], keyConcepts: ["Riba/interest", "risk-sharing", "no risk, no gain", "asset-backing", "distributive justice"], points: ["Yesterday’s debt repaid with today’s debt", "Debt servicing through taxes and export earnings", "Share of risk-free capital rises", "Replace with risk-related capital and direct/portfolio investment", "Financial assets must be based on real assets"], mistakes: ["Presenting the argument as rejecting markets altogether", "Omitting the author’s proposed alternative", "Quoting statistics as current rather than as the author’s figures"], topic: "t1.2" },
     { id: "e1.2", kind: "short", q: "Distinguish between economics as a science and an economic system. What are the three elements of an economic system?", structure: ["Define economic science", "Define economic system", "List the three elements", "State how the Islamic system differs"], keyConcepts: ["wealth creation", "ideology", "ownership", "distribution"], points: ["Science: creation of wealth", "System: ideology-based management of wealth distribution", "Ownership; disposal of ownership; distribution", "Islamic system differs in ownership and distribution with a State role against injustice"], mistakes: ["Treating the two as the same", "Missing ‘disposal of ownership’"], topic: "t1.7" },
     { id: "e1.3", kind: "conceptual", q: "Explain the principle “no risk, no gain” and its significance for the financial system.", structure: ["State the principle", "Link to prohibition of interest", "Explain effects on investor behaviour and moral hazard", "Relate to later modes (trading, leasing, partnership)"], keyConcepts: ["risk-sharing", "liability for loss", "moral hazard", "discipline"], points: ["Return requires liability for loss", "Careful investment", "Removes moral hazard of risk-free gains", "Injects discipline"], mistakes: ["Claiming risk must be maximised rather than borne"], topic: "t1.5" },
-    { id: "e1.4", kind: "viva", q: "What is the difference between formal Shari’ah compliance and Shari’ah-inspired compliance?", structure: ["One-line definition of each", "Author’s warning", "Implication for product development"], keyConcepts: ["form vs substance", "integrity"], points: ["Formal: fits legal form", "Inspired: considers basis and social impact", "Mimicking conventional products undermines integrity"], mistakes: ["Suggesting formal compliance is invalid rather than insufficient"], topic: "t1.11" }
+    { id: "e1.4", kind: "viva", q: "What is the difference between formal Shari’ah compliance and Shari’ah-inspired compliance?", structure: ["One-line definition of each", "Author’s warning", "Implication for product development"], keyConcepts: ["form vs substance", "integrity"], points: ["Formal: fits legal form", "Inspired: considers basis and social impact", "Mimicking conventional products undermines integrity"], mistakes: ["Suggesting formal compliance is invalid rather than insufficient"], topic: "t1.11" },
+    { id: "e1.5", kind: "long", q: "Critically assess the author’s claim that growth alone cannot deliver socio-economic justice. What alternative framework does he propose?", structure: ["Growth versus development", "Evidence: US Gini trend, China, trickle-down failure", "Why welfare spending is insufficient", "Main culprits: economic management and money/finance", "Proposed framework: risk-related capital, real-asset basis, active state oversight", "Conclusion"], keyConcepts: ["trickle-down", "Gini coefficient", "risk-related capital", "no risk, no gain", "real assets"], points: ["Growth can widen asset inequality", "Redistribution needed before stabilisation", "Replace borrowed funds with direct/portfolio investment", "State as overseer, not business operator"], mistakes: ["Claiming Islam rejects growth or markets", "Ignoring the state’s role", "No evidence from the chapter"], topic: "t1.3" }
   ]
 });

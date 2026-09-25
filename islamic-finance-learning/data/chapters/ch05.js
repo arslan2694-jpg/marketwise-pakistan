@@ -24,9 +24,14 @@ IFL_DATA.registerChapter({
       concepts: ["aqd"],
       intuition: "Islamic banks trade, lease, partner, guarantee and assign debts. How do we know each deal is valid?",
       simple: "Property is sacred in Islam. Beyond the main prohibitions, each contract type has features that must conform to Shari’ah; non-conforming contracts are invalid. Since IFIs use sale, lease, partnership, suretyship, agency, assignment and mortgage, they need the framework of the Islamic law of contracts.",
-      academic: ["Islam forbids unlawful devouring of others’ property through theft, embezzlement, bribery, cheating and other unlawful means, in addition to Riba, Gharar and Qimar. Contracts not conforming to Shari’ah tenets, or involving prohibited elements, are invalid. The chapter covers general principles, elements, conditions of subject matter, capacity of parties, classification by validity, consideration and causes and effects of invalidity."],
+      academic: [
+        "Islam forbids unlawful devouring of others’ property through theft, embezzlement, bribery, cheating and other unlawful means, in addition to Riba, Gharar and Qimar. Contracts not conforming to Shari’ah tenets, or involving prohibited elements, are invalid. The chapter covers general principles, elements, conditions of subject matter, capacity of parties, classification by validity, consideration and causes and effects of invalidity."
+      ],
       exam: "IFIs deal through contracts (sale, lease, partnership, suretyship, agency, assignment, mortgage); validity per Islamic law of contracts is essential.",
-      keyPoints: ["Property is as sacred as life and honour."],
+      keyPoints: [
+        "Property is as sacred as life and honour.",
+        "Islam treats property as sacred as life and honour — theft, embezzlement, bribery and cheating are forbidden alongside Riba, Gharar and Qimar."
+      ],
       related: ["t5.2", "t5.4"],
       quickCheck: { q: "Which of these is NOT among the contracts the chapter lists as used by IFIs?", options: ["Sale", "Leasing", "Gambling", "Assignment of debt"], answer: 2, explanation: "p. 101." }
     },
@@ -61,7 +66,13 @@ IFL_DATA.registerChapter({
         { a: "Mithli goods", b: "Qimi goods", text: "Mithli (e.g. a wheat variety) can be the subject of Salam; Qimi (e.g. a building) is used in Istisna‘a." }
       ],
       related: ["t5.2.1", "t10.4.1", "t10.11.2", "t11.2"],
-      quickCheck: { q: "Which statement about ownership is correct?", options: ["Owning usufruct means owning the asset", "Owning an asset includes owning its usufruct, but not vice versa", "Usufruct ownership is not time-related", "Ijarah automatically transfers ownership"], answer: 1, explanation: "p. 102." }
+      quickCheck: { q: "Which statement about ownership is correct?", options: ["Owning usufruct means owning the asset", "Owning an asset includes owning its usufruct, but not vice versa", "Usufruct ownership is not time-related", "Ijarah automatically transfers ownership"], answer: 1, explanation: "p. 102." },
+      examples: [
+        { title: "‘Ain vs Dayn", kind: "textbook", text: "A specific house is ‘Ain (determinate). Gold, silver, currency, grain or oil owed generically are Dayn — any units of the kind may be delivered (pp. 101–102)." }
+      ],
+      confusions: [
+        { wrong: "Gaining the use of an asset gives ownership of it.", right: "Owning the asset (‘Ain) includes its usufruct, but owning usufruct does not include the asset — as in Ijarah, where the lessor remains owner (p. 102)." }
+      ]
     },
     {
       id: "t5.2.1", section: "5.2.1", title: "Defining Related Terms: Mithaq, ‘Ahd/Wa‘dah and ‘Aqd", pages: [103, 105], tier: "core",
@@ -74,35 +85,58 @@ IFL_DATA.registerChapter({
         "Promises used by IFIs: MPO (client promises to buy at cost plus profit); Ijarah Muntahia-bi-Tamleek and Ijarah Sukuk (promise to sell/buy/gift at the end); sale and lease-back; Diminishing Musharakah (promise to purchase units); disposal of Salam and Istisna‘a goods. Contracts: Amanah, Qard, Shirkah, Wakalah with depositors; Bai‘, Ijarah, Ujrah, Shirkah, Wakalah, Kafalah, Ju‘alah and Hawalah with fund users."
       ],
       exam: "Mithaq = solemn covenant; ‘Ahd/Wa‘dah = promise (unilateral); ‘Aqd = contract (Ijab + Qabul with legal effects). Promises in MPO, IMBT, sale-lease-back, DM, Salam/Istisna‘a disposal.",
-      keyPoints: ["‘Aqd has general and specific senses.", "Promise is a key tool alongside contracts."],
+      keyPoints: [
+        "‘Aqd has general and specific senses.",
+        "Promise is a key tool alongside contracts.",
+        "Promises (Wa‘dah) are used in MPO, Ijarah Muntahia-bi-Tamleek, sale and lease-back, Diminishing Musharakah and the disposal of Salam/Istisna goods."
+      ],
       definitions: [
         { term: "Mithaq", meaning: "Covenant — earnest, firm determination to fulfil obligations, more sacred than ordinary contracts." },
         { term: "‘Ahd / Wa‘dah", meaning: "A unilateral promise or undertaking (sometimes bilateral)." },
         { term: "‘Aqd", meaning: "Contract: conjunction of offer (Ijab) and acceptance (Qabul) creating legal consequences for the subject matter." }
       ],
       related: ["t5.6", "t9.8.2", "t11.5.1"],
-      quickCheck: { q: "Which term best matches ‘a unilateral promise or undertaking’?", options: ["Mithaq", "‘Ahd/Wa‘dah", "‘Aqd", "Qabul"], answer: 1, explanation: "p. 103." }
+      quickCheck: { q: "Which term best matches ‘a unilateral promise or undertaking’?", options: ["Mithaq", "‘Ahd/Wa‘dah", "‘Aqd", "Qabul"], answer: 1, explanation: "p. 103." },
+      examples: [
+        { title: "Two senses of ‘Aqd", kind: "textbook", text: "In the general sense ‘Aqd covers any earnest undertaking, even unilateral (Waqf, remission of debt); in the specific sense it is offer plus acceptance producing legal effects (p. 104)." }
+      ]
     },
     {
       id: "t5.3", section: "5.3", title: "General Framework of Contracts", pages: [105, 106], tier: "supporting",
       concepts: ["general-permissibility", "aqd"],
       intuition: "Why are jurists relatively free to design new contracts, but not new forms of worship?",
       simple: "Ibadat (worship) are fixed by express command; Mu‘amalat (transactions) are permissible unless prohibited. In transactions, the apparent wording of the contract governs, not hidden intent. Contracts with an immoral or harmful underlying purpose are void.",
-      academic: ["Ibadat are universal truths unaffected by time; Mu‘amalat may change with time and space. Ibn Taymiyah: devotional acts need express sanction, while transactions are governed by permissibility and absence of prohibition — giving jurists liberty to solve emerging issues. Businesses operate as sole proprietorship, Shirkah, Wakalah, Ujrah, or through sale and lease, subject to rules constituting the Islamic law of contracts. In Mu‘amalat the apparent wording or writing has legal effect; a party cannot plead a different intent (Niyyah) — whereas in Ibadat intent matters. The motivating cause must accord with Shari’ah: contracts promoting immorality, against public policy or harmful to third parties are void (e.g. selling a weapon to a known criminal)."],
+      academic: [
+        "Ibadat are universal truths unaffected by time; Mu‘amalat may change with time and space. Ibn Taymiyah: devotional acts need express sanction, while transactions are governed by permissibility and absence of prohibition — giving jurists liberty to solve emerging issues. Businesses operate as sole proprietorship, Shirkah, Wakalah, Ujrah, or through sale and lease, subject to rules constituting the Islamic law of contracts. In Mu‘amalat the apparent wording or writing has legal effect; a party cannot plead a different intent (Niyyah) — whereas in Ibadat intent matters. The motivating cause must accord with Shari’ah: contracts promoting immorality, against public policy or harmful to third parties are void (e.g. selling a weapon to a known criminal)."
+      ],
       exam: "Ibadat: express sanction needed. Mu‘amalat: permissible unless prohibited (Ibn Taymiyah). In transactions, apparent wording governs, not Niyyah. Immoral/harmful purpose → void.",
-      keyPoints: ["Apparent wording governs in Mu‘amalat.", "Selling a weapon to a known criminal is invalid."],
-      distinctions: [{ a: "Ibadat", b: "Mu‘amalat", text: "Ibadat require express sanction and intent matters; Mu‘amalat are permissible unless prohibited and the apparent wording governs." }],
+      keyPoints: [
+        "Apparent wording governs in Mu‘amalat.",
+        "Selling a weapon to a known criminal is invalid.",
+        "In Mu‘amalat, the apparent wording has legal effect — a party cannot later plead a different intention; in Ibadat the intention (Niyyah) matters."
+      ],
+      distinctions: [
+        { a: "Ibadat", b: "Mu‘amalat", text: "Ibadat require express sanction and intent matters; Mu‘amalat are permissible unless prohibited and the apparent wording governs." }
+      ],
       related: ["t2.2.1", "t5.5"],
-      quickCheck: { q: "In Mu‘amalat, which has legal consequence?", options: ["The hidden intention (Niyyah) only", "The apparent wording/format of the contract", "Neither", "Only verbal statements"], answer: 1, explanation: "p. 105." }
+      quickCheck: { q: "In Mu‘amalat, which has legal consequence?", options: ["The hidden intention (Niyyah) only", "The apparent wording/format of the contract", "Neither", "Only verbal statements"], answer: 1, explanation: "p. 105." },
+      examples: [
+        { title: "Selling a weapon to a known criminal", kind: "textbook", text: "Sale or hire of a weapon to someone the seller knows will kill innocents is invalid: the motivating cause of a contract must accord with Shari’ah (p. 106)." }
+      ]
     },
     {
       id: "t5.4", section: "5.4", title: "Elements of a Contract", pages: [106, 106], tier: "core",
       concepts: ["aqd"],
       intuition: "What must be present for any contract to exist?",
       simple: "Three essential elements: the form (offer and acceptance — Sighah), the contracting parties (‘Aqidain), and the subject matter (Ma‘qud ‘alayh). Sanhuri lists seven components.",
-      academic: ["A contract requires two capable (mature, sane) parties, offer and acceptance, a legal basis of union between the declarations and obligations, and freedom from prohibited factors. Jurists generally hold three essential elements — Sighah (form), ‘Aqidain (parties), Ma‘qud ‘alayh (subject matter); absent these the contract is invalid. Sanhuri’s seven: concurrence of offer and acceptance; unity of Majlis; plurality of parties; sanity/power of distinction; subject matter susceptible to delivery; defined object (Mahall); beneficial nature of the object (trade permitted)."],
+      academic: [
+        "A contract requires two capable (mature, sane) parties, offer and acceptance, a legal basis of union between the declarations and obligations, and freedom from prohibited factors. Jurists generally hold three essential elements — Sighah (form), ‘Aqidain (parties), Ma‘qud ‘alayh (subject matter); absent these the contract is invalid. Sanhuri’s seven: concurrence of offer and acceptance; unity of Majlis; plurality of parties; sanity/power of distinction; subject matter susceptible to delivery; defined object (Mahall); beneficial nature of the object (trade permitted)."
+      ],
       exam: "Three elements: Sighah (offer & acceptance), ‘Aqidain (parties), Ma‘qud ‘alayh (subject matter). Sanhuri’s seven components.",
-      keyPoints: ["Parties must be mature and sane."],
+      keyPoints: [
+        "Parties must be mature and sane.",
+        "Sanhuri lists seven components: concurrence of offer and acceptance, unity of Majlis, plurality of parties, sanity, deliverable subject matter, defined object, and permissible (beneficial) object."
+      ],
       definitions: [
         { term: "Sighah", meaning: "Form of the contract — offer and acceptance." },
         { term: "‘Aqidain", meaning: "The contracting parties." },
@@ -126,14 +160,25 @@ IFL_DATA.registerChapter({
         "Five causes of cancellation of an offer.",
         "FSC: flexible interpretation of Majlis for large transactions."
       ],
-      steps: ["Offer (Ijab) made clearly and unconditionally", "Acceptance (Qabul) conforming in all details", "Within the same session (or within time granted/Khiyar)", "Contract concluded — formal event (e.g. signature) marks transfer"],
+      steps: [
+        "Offer (Ijab) made clearly and unconditionally",
+        "Acceptance (Qabul) conforming in all details",
+        "Within the same session (or within time granted/Khiyar)",
+        "Contract concluded — formal event (e.g. signature) marks transfer"
+      ],
       definitions: [
         { term: "Ijab / Qabul", meaning: "Offer (firm proposal made first) / acceptance (subsequent declaration conforming to the offer)." },
         { term: "Majlis", meaning: "The session/meeting of the contract; offer and acceptance should occur in it." },
         { term: "Khiyar al-Shart", meaning: "Option of stipulation — makes a contract nonbinding for the holder during a specified period." }
       ],
       related: ["t6.12", "t5.4"],
-      quickCheck: { q: "Which of these does NOT cancel an offer?", options: ["Withdrawal by the offeror", "End of the session without acceptance", "Destruction of the subject matter", "The offeree asking a clarifying question within the session"], answer: 3, explanation: "p. 107." }
+      quickCheck: { q: "Which of these does NOT cancel an offer?", options: ["Withdrawal by the offeror", "End of the session without acceptance", "Destruction of the subject matter", "The offeree asking a clarifying question within the session"], answer: 3, explanation: "p. 107." },
+      examples: [
+        { title: "Selling a factory", kind: "textbook", text: "The Federal Shariat Court observed that a strict one-session Majlis would make large deals like buying a factory impossible, since title, machinery, liabilities and profitability must be examined; time given for acceptance keeps the offer alive (p. 107)." }
+      ],
+      confusions: [
+        { wrong: "Unity of session applies to every contract.", right: "It does not apply to agency, gift and appointing an executor for a minor’s property (p. 108)." }
+      ]
     },
     {
       id: "t5.4.2", section: "5.4.2", title: "Elements of the Subject Matter", pages: [108, 110], tier: "core",
@@ -153,14 +198,27 @@ IFL_DATA.registerChapter({
         "“One of the shops” is voidable unless identified.",
         "Formal event (signature) marks transfer of risk and reward."
       ],
-      conditions: ["Exists (or existable as in Salam)", "Lawful and of value", "Owned by the seller and free from legal charge", "In the seller’s physical or constructive possession", "Deliverable", "Precisely determined (seen or described)", "Price agreed and fixed in a known unit"],
+      conditions: [
+        "Exists (or existable as in Salam)",
+        "Lawful and of value",
+        "Owned by the seller and free from legal charge",
+        "In the seller’s physical or constructive possession",
+        "Deliverable",
+        "Precisely determined (seen or described)",
+        "Price agreed and fixed in a known unit"
+      ],
       definitions: [
         { term: "Qabza (possession)", meaning: "Physical or constructive possession of the subject matter by the seller before sale." },
         { term: "Constructive (Hukmi) possession", meaning: "The commodity has come into the possessor’s risk and control and all its rights and liabilities, including risk of destruction, have passed to him without physical delivery." }
       ],
-      confusions: [{ wrong: "A bank can sell goods it has ordered but not yet received or taken risk of.", right: "The seller must own and possess (physically or constructively) the goods — i.e. bear their risk — before selling." }],
+      confusions: [
+        { wrong: "A bank can sell goods it has ordered but not yet received or taken risk of.", right: "The seller must own and possess (physically or constructively) the goods — i.e. bear their risk — before selling." }
+      ],
       related: ["t6.5.1", "t9.6", "t7.16"],
-      quickCheck: { q: "Which describes constructive possession?", options: ["Holding the invoice only", "The commodity is in the possessor’s risk and control with rights and liabilities passed to him", "Having paid a deposit", "A promise to buy"], answer: 1, explanation: "p. 110." }
+      quickCheck: { q: "Which describes constructive possession?", options: ["Holding the invoice only", "The commodity is in the possessor’s risk and control with rights and liabilities passed to him", "Having paid a deposit", "A promise to buy"], answer: 1, explanation: "p. 110." },
+      examples: [
+        { title: "“I sell you one of the shops”", kind: "textbook", text: "A mall owner saying “I sell one of the shops to you” makes a voidable contract unless the shop is specifically identified (p. 109)." }
+      ]
     },
     {
       id: "t5.5", section: "5.5", title: "Broad Rules for the Validity of Mu‘amalat", pages: [110, 114], tier: "core",
@@ -177,7 +235,9 @@ IFL_DATA.registerChapter({
         "Talaqqi-al-Rukban: buying from Bedouins before they reach the market — prohibited.",
         "Salam and Istisna‘a are the only exceptions to existence/ownership/possession.",
         "Bill discounting not allowed; Hawalah with recourse is.",
-        "Speculation per se is not prohibited."
+        "Speculation per se is not prohibited.",
+        "Speculation per se (buying with an eye to future price changes) is not prohibited; only sales of non-existent/unowned goods and gambling are.",
+        "Discounting bills is not allowed; subjecting a debt to Hawalah (recourse to the original debtor) validates the transfer."
       ],
       subsections: [
         { number: "5.5.1", title: "Free Mutual Consent", page: 110, points: ["No coercion, fraud or misperception", "Knowledge of subject and obligations", "No Najash, Ghaban-e-Fahish, Talaqqi-al-Rukban, concealment"] },
@@ -187,8 +247,12 @@ IFL_DATA.registerChapter({
         { number: "5.5.6", title: "Conformity with the Maqasid", page: 113, points: ["No contract against public benefit"] },
         { number: "5.5.8", title: "Permissibility as a General Rule", page: 114, points: ["Conditions valid unless contradicting explicit text"] }
       ],
-      definitions: [{ term: "Talaqqi-al-Rukban", meaning: "A city dweller buying a Bedouin’s goods at a far lower price before the latter reaches the market — prohibited." }],
-      confusions: [{ wrong: "All speculation is prohibited in Islamic finance.", right: "Speculation per se — trading in view of possible price changes — is not prohibited; only sales involving nonexistent/not-owned goods or Maisir are." }],
+      definitions: [
+        { term: "Talaqqi-al-Rukban", meaning: "A city dweller buying a Bedouin’s goods at a far lower price before the latter reaches the market — prohibited." }
+      ],
+      confusions: [
+        { wrong: "All speculation is prohibited in Islamic finance.", right: "Speculation per se — trading in view of possible price changes — is not prohibited; only sales involving nonexistent/not-owned goods or Maisir are." }
+      ],
       related: ["t5.5.5", "t5.5.7", "t3.2", "t2.2.2"],
       quickCheck: { q: "According to Section 5.5.2, how can a sale of debt be validated?", options: ["By discounting it", "By subjecting it to the rules of Hawalah with recourse to the original debtor", "By adding a premium", "It can never be validated"], answer: 1, explanation: "p. 111." }
     },
@@ -207,22 +271,38 @@ IFL_DATA.registerChapter({
         "IMBT: transferring ownership risk to lessee during the lease voids it.",
         "Leasing one’s undivided share to a co-partner is unanimously allowed.",
         "Sleeping partner’s profit ratio ≤ its capital ratio.",
-        "Debt-for-debt exchange prohibited."
+        "Debt-for-debt exchange prohibited.",
+        "In Diminishing Musharakah, each sale of units needs its own offer and acceptance."
       ],
       table: { caption: "Permissible combinations (Section 5.5.5)", head: ["Combination", "Condition"], rows: [["Sale + Ijarah", "Separate agreements; bank bears ownership risk during lease; unilateral promise at end"], ["Shirkah + Ijarah", "Partner may lease undivided share; unit sales in DM need separate offer and acceptance"], ["Musharakah + Mudarabah", "Sleeping partner’s profit ratio cannot exceed capital ratio"], ["Wakalah/Kafalah + sale/lease", "Rights and liabilities per each contract’s rules"], ["Salam/Istisna‘a + Murabaha", "Each contract’s conditions fulfilled (e.g. preshipment export finance)"]] },
       related: ["t6.8", "t11.4.5", "t12.9.2"],
-      quickCheck: { q: "Why must the price in Salam be paid in full in advance?", options: ["Tradition only", "Delay on both sides would be exchange of debt for debt, which is prohibited", "To earn interest", "It is optional"], answer: 1, explanation: "p. 113." }
+      quickCheck: { q: "Why must the price in Salam be paid in full in advance?", options: ["Tradition only", "Delay on both sides would be exchange of debt for debt, which is prohibited", "To earn interest", "It is optional"], answer: 1, explanation: "p. 113." },
+      examples: [
+        { title: "Ibn Rushd’s nine kinds of exchange", kind: "textbook", text: "Exchanges of property for property, property for liability, or liability for liability can each be immediate for both, delayed for both or immediate for one. Delay on both sides is a debt-for-debt exchange and is prohibited — hence full prepayment in Salam (p. 113)." }
+      ],
+      confusions: [
+        { wrong: "Combining any two contracts is always prohibited.", right: "Sale with separate lease, Shirkah with Ijarah, Musharakah with Mudarabah, and Wakalah/Kafalah with sale are permissible if each contract keeps its own rights and liabilities (pp. 112–113)." }
+      ]
     },
     {
       id: "t5.5.7", section: "5.5.7", title: "Profits with Liability", pages: [113, 113], tier: "core",
       concepts: ["kharaj-daman"],
       intuition: "Why does a creditor get no profit but a seller or lessor does?",
       simple: "A person is entitled to profit only when bearing the risk of loss — in sale, hire and partnership. A creditor bears no business risk on the amount lent, so any excess is prohibited.",
-      academic: ["This principle operates in sale, hire and partnership contracts. Any excess paid to the creditor is prohibited because the creditor does not bear business risk on the amount lent. In sale and lease, parties bear risk as each contract requires."],
+      academic: [
+        "This principle operates in sale, hire and partnership contracts. Any excess paid to the creditor is prohibited because the creditor does not bear business risk on the amount lent. In sale and lease, parties bear risk as each contract requires.",
+        "A person is entitled to profit only when he bears the risk of loss. The principle operates in sale, hire and partnership. The creditor bears no business risk on the amount lent, so any excess paid by the debtor over the principal is prohibited. In sale and lease, each party bears the risk required by the respective contract — the seller until delivery, the lessor throughout the lease (p. 113)."
+      ],
       exam: "Profit only with liability for loss; creditor bears no business risk → no excess.",
       keyPoints: ["Applies to sale, hire and partnership."],
       related: ["t4.2.6"],
-      quickCheck: { q: "Why is a creditor not entitled to profit on a loan?", options: ["Loans are small", "The creditor bears no business risk on the amount lent", "It is customary", "Only for consumption loans"], answer: 1, explanation: "p. 113." }
+      quickCheck: { q: "Why is a creditor not entitled to profit on a loan?", options: ["Loans are small", "The creditor bears no business risk on the amount lent", "It is customary", "Only for consumption loans"], answer: 1, explanation: "p. 113." },
+      examples: [
+        { title: "Why a lender cannot share profit", kind: "textbook", text: "A lender gets back his full principal whatever the borrower does with it, so he has no risk and no claim to profit; a partner who wants a share of profit must stand to lose his capital (p. 113)." }
+      ],
+      distinctions: [
+        { a: "Creditor", b: "Partner / seller / lessor", text: "The creditor’s principal is guaranteed, so no return; the partner, seller and lessor bear the risks of their contracts and are entitled to profit, price or rent." }
+      ]
     },
     {
       id: "t5.6", section: "5.6", title: "Wa‘dah (Promise) and Related Matters", pages: [114, 116], tier: "core",
@@ -241,10 +321,22 @@ IFL_DATA.registerChapter({
         "Muwa‘adah not allowed where ‘Aqd is not allowed (majority).",
         "Author rejects Dylan Ray’s ‘conflict’ critique."
       ],
-      conditions: ["Unilateral promise", "Promisor caused promisee to incur liabilities/expenses", "Actual sale executed later by offer and acceptance", "On breach: specific performance or actual damages (no opportunity cost)"],
+      conditions: [
+        "Unilateral promise",
+        "Promisor caused promisee to incur liabilities/expenses",
+        "Actual sale executed later by offer and acceptance",
+        "On breach: specific performance or actual damages (no opportunity cost)"
+      ],
       calc: { type: "promise-breach", note: "Reproduces the textbook’s car example: purchase cost, promised price, resale value → recoverable loss." },
-      examples: [{ title: "Car purchase promise", kind: "textbook", text: "A promises to buy a car from bank B for $20,000. B buys it for $18,000; A backs out; B sells it for $17,000. A must bear the $1,000 actual loss, recoverable from security or Hamish Jiddiyah. B cannot claim its expected $2,000 profit." }],
-      debate: [{ issue: "Is a promise to purchase binding?", criticism: "Dylan Ray: medieval Fiqh sources indicate the promise to purchase should not be binding; modern practice creates conflict and objections to Murabaha as practised.", response: "Many traditional jurists (Malikis, Hanbalis, some Hanafis and Shafi‘is) and almost all contemporary jurists accept binding commercial promises; there is no contradiction of any Nass, so it is valid under Ibahatul Asliyah.", alternative: "A Maliki view: promises bind only where the promisee incurred expenses or liability on the basis of the promise.", takeaway: "In the mainstream view followed by the book, commercial promises are binding with actual-loss damages." }],
+      examples: [
+        { title: "Car purchase promise", kind: "textbook", text: "A promises to buy a car from bank B for $20,000. B buys it for $18,000; A backs out; B sells it for $17,000. A must bear the $1,000 actual loss, recoverable from security or Hamish Jiddiyah. B cannot claim its expected $2,000 profit." },
+        { title: "Promise to buy a car", kind: "textbook", text: "A asks bank B to buy a car and promises to buy it at $20,000. B buys it for $18,000; A backs out and B sells it for $17,000. A bears the $1,000 actual loss, recoverable from his security or token money (p. 114)." },
+        { title: "Promise to sell a house", kind: "textbook", text: "A promises to sell a house to a bank next month for $100,000 but sells it to C. A is liable for the bank’s actual costs incurred in reliance on the promise (p. 114)." }
+      ],
+      debate: [
+        { issue: "Is a promise to purchase binding?", criticism: "Dylan Ray: medieval Fiqh sources indicate the promise to purchase should not be binding; modern practice creates conflict and objections to Murabaha as practised.", response: "Many traditional jurists (Malikis, Hanbalis, some Hanafis and Shafi‘is) and almost all contemporary jurists accept binding commercial promises; there is no contradiction of any Nass, so it is valid under Ibahatul Asliyah.", alternative: "A Maliki view: promises bind only where the promisee incurred expenses or liability on the basis of the promise.", takeaway: "In the mainstream view followed by the book, commercial promises are binding with actual-loss damages." },
+        { issue: "Is a promise to purchase binding?", criticism: "Dylan Ray argues that by medieval Fiqh the promise to purchase ought not to be binding, and treating it as binding creates conflict among scholars.", response: "The author says there is no conflict: many Maliki, Hanbali and some Hanafi and Shafi‘i jurists and almost all contemporary scholars accept binding commercial promises; it violates no text and is allowed under general permissibility; the OIC Fiqh Academy made it binding with conditions.", alternative: "Some Malikis make the promise binding only if the promisee incurred expense or liability in reliance on it.", takeaway: "Binding unilateral promises are accepted, but only actual loss (not opportunity cost) is recoverable." }
+      ],
       related: ["t3.3.2", "t9.8.2", "t5.6.1"],
       quickCheck: { q: "Under the OIC Fiqh Academy conditions, what may a bank recover when a client breaks a promise to purchase?", options: ["Expected profit", "Actual monetary loss, excluding opportunity cost", "Interest on funds", "Nothing"], answer: 1, explanation: "p. 115." }
     },
@@ -258,14 +350,24 @@ IFL_DATA.registerChapter({
         "‘Arbun: earnest money paid at execution of the sale as part of the price. If the buyer fails to perform within the stipulated period, the seller may retain it; AAOIFI considers it preferable to refund what exceeds the loss actually sustained. Imam Malik defined ‘Arbun (a dinar given: counted in price if ratified, forfeited if cancelled) and considered it invalid; two Hadiths (for and against) are weak. Only the Hanbali school considers Bai‘ al ‘Arbun legal, relying on Naf‘i ibn al-Harith’s purchase of a prison house for Umar from Safwan. Contemporary majority: legal if the buyer freely stipulates finalising within set days or forfeiting the advance. But open options with no intention to buy, aimed at profit by risk transfer, contradict Islamic finance philosophy — conventional options are not accepted. ‘Arbun is acceptable as part payment after finalisation; its use to legitimise conventional options is generally not accepted."
       ],
       exam: "Hamish Jiddiyah: before sale; trust; adjust in price or deduct actual loss and refund rest. ‘Arbun: after sale, part of price; forfeitable on buyer’s non-performance (AAOIFI: refund excess over actual loss). Only Hanbalis accept Bai‘ al ‘Arbun; not a basis for conventional options.",
-      keyPoints: ["Timing difference: before (HJ) vs after (‘Arbun) execution.", "Cost of funds is not part of actual loss.", "Conventional options not accepted."],
-      distinctions: [{ a: "Hamish Jiddiyah", b: "‘Arbun", text: "HJ is taken before the sale as a trust against a promise; ‘Arbun is paid at execution of the sale as part of the price and may be forfeited on non-performance." }],
+      keyPoints: [
+        "Timing difference: before (HJ) vs after (‘Arbun) execution.",
+        "Cost of funds is not part of actual loss.",
+        "Conventional options not accepted."
+      ],
+      distinctions: [
+        { a: "Hamish Jiddiyah", b: "‘Arbun", text: "HJ is taken before the sale as a trust against a promise; ‘Arbun is paid at execution of the sale as part of the price and may be forfeited on non-performance." }
+      ],
       definitions: [
         { term: "Hamish Jiddiyah", meaning: "Token/security money taken before a sale to show the promisee’s firm intention; held in trust." },
         { term: "‘Arbun", meaning: "Earnest money paid at execution of a sale as part of the price, retainable by the seller if the buyer fails to perform." }
       ],
       related: ["t6.9", "t9.8.2", "t8.8.8"],
-      quickCheck: { q: "Which statement is correct?", options: ["‘Arbun is taken before the sale; HJ after", "HJ is taken before the sale as a trust; ‘Arbun is part of price after execution", "Both are interest", "Both are always forfeited"], answer: 1, explanation: "p. 116." }
+      quickCheck: { q: "Which statement is correct?", options: ["‘Arbun is taken before the sale; HJ after", "HJ is taken before the sale as a trust; ‘Arbun is part of price after execution", "Both are interest", "Both are always forfeited"], answer: 1, explanation: "p. 116." },
+      examples: [
+        { title: "Bid money in tenders", kind: "textbook", text: "Bidders deposit part of the price; if the bid is accepted it becomes part of the price, otherwise it is returned as a trust (less actual damage) (p. 116)." },
+        { title: "Naf‘i and the Makkah prison house", kind: "textbook", text: "Naf‘i ibn al-Harith bought a prison house from Safwan for 4,000 dirhams, with 400 to go to Safwan if Umar did not approve — the Hanbali basis for ‘Arbun (pp. 116–117)." }
+      ]
     },
     {
       id: "t5.7", section: "5.7", title: "Types of Contracts: Valid Contracts (Sahih)", pages: [117, 120], tier: "core",
@@ -285,7 +387,9 @@ IFL_DATA.registerChapter({
         "Mawquf contracts become effective on ratification (retroactively).",
         "Investment deposits can be locked by agreement even though Shirkah is revocable by nature."
       ],
-      subsections: [{ number: "5.7.1", title: "Valid Contracts", page: 118, points: ["Asl and Wasf", "Nafiz / Mawquf", "Future-effective contracts", "Lazim / Ghair Lazim"] }],
+      subsections: [
+        { number: "5.7.1", title: "Valid Contracts", page: 118, points: ["Asl and Wasf", "Nafiz / Mawquf", "Future-effective contracts", "Lazim / Ghair Lazim"] }
+      ],
       definitions: [
         { term: "Asl / Wasf", meaning: "The fundamental components/essence of a contract / its accessory circumstances or external attributes." },
         { term: "Nafiz / Mawquf", meaning: "Immediately effective / suspended pending ratification or a future event." },
@@ -294,7 +398,11 @@ IFL_DATA.registerChapter({
         { term: "‘Aqd Mudhaf", meaning: "A contract made effective from a future date." }
       ],
       related: ["t5.7.2", "t5.7.3", "t12.7.1"],
-      quickCheck: { q: "Which contract can NOT be made effective from a future date according to the majority?", options: ["Ijarah", "Istisna‘a", "Kafalah", "Sale"], answer: 3, explanation: "p. 118." }
+      quickCheck: { q: "Which contract can NOT be made effective from a future date according to the majority?", options: ["Ijarah", "Istisna‘a", "Kafalah", "Sale"], answer: 3, explanation: "p. 118." },
+      examples: [
+        { title: "Surety from a future date", kind: "textbook", text: "“If your debtor has not paid you by the beginning of next month, I will pay” is a valid Kafalah effective from a future date; “I sell you this house at the beginning of next year” is not a valid sale (p. 118)." }
+      ],
+      table: { caption: "Contracts that may start from a future date (p. 118)", head: ["May be effective from a future date", "Must be effective immediately"], rows: [["Ijarah, Istisna, Kafalah, Hawalah, agency, Waqf, bequest", "Sale (Bai‘) — majority view"], ["Reason: usufruct/obligation accrues over time", "Reason: postponement adds Gharar"]] }
     },
     {
       id: "t5.7.2", section: "5.7.2", title: "Voidable (Fasid) Contracts", pages: [120, 123], tier: "core",
@@ -321,19 +429,32 @@ IFL_DATA.registerChapter({
       ],
       table: { caption: "Valid vs voidable contract effects", head: ["Aspect", "Valid (Sahih)", "Voidable (Fasid)"], rows: [["Ownership passes by", "Offer and acceptance", "Possession taken with seller’s consent"], ["Price/rent", "Agreed price/rent", "Market value / market rent"], ["Partnership profit", "Agreed ratio", "In proportion to capital"], ["Cure", "—", "Remove the cause of irregularity"]] },
       related: ["t5.7.3", "t5.9", "t4.2.5"],
-      quickCheck: { q: "In a voidable (Fasid) partnership, how is profit allocated?", options: ["As agreed", "In proportion to each partner’s capital", "Equally", "All to the manager"], answer: 1, explanation: "p. 123." }
+      quickCheck: { q: "In a voidable (Fasid) partnership, how is profit allocated?", options: ["As agreed", "In proportion to each partner’s capital", "Equally", "All to the manager"], answer: 1, explanation: "p. 123." },
+      examples: [
+        { title: "Ijarah Mosufah bil Zimmah", kind: "textbook", text: "A bank hires air-conditioned vans of a defined type to carry staff; no particular van is identified, so destruction of one van does not end the lease — the lessor must supply another (p. 121, n. 37)." }
+      ]
     },
     {
       id: "t5.7.3", section: "5.7.3", title: "Void (Batil) Contracts", pages: [123, 124], tier: "core",
       concepts: ["contract-validity"],
       intuition: "What if a contract fails at its root — no valid offer, parties or deliverable subject?",
       simple: "A Batil contract fails major conditions (form, capacity, subject matter, possession/delivery) or has illegal attributes. It has no effect: no ownership passes, goods must be returned, and the original seller can reclaim goods even from a third party.",
-      academic: ["Contracts not fulfilling conditions of offer and acceptance, subject matter, consideration and possession/delivery, or with illegal external attributes, are Batil. Examples: milk in the udder; unknown consideration or period; a dirham for two dirhams; bidding over a bid after parties agree; contracts actuated by fraud. Permissible forms include Salam, auction bidding, Bai‘ al Khiyar, Musawamah and Murabaha. A Batil contract gives rise to no effect: no title to goods or price; delivered goods must be returned whether or not the illegality was known; if the buyer sells to a third party, the original seller can still claim the goods — unlike a Fasid contract."],
+      academic: [
+        "Contracts not fulfilling conditions of offer and acceptance, subject matter, consideration and possession/delivery, or with illegal external attributes, are Batil. Examples: milk in the udder; unknown consideration or period; a dirham for two dirhams; bidding over a bid after parties agree; contracts actuated by fraud. Permissible forms include Salam, auction bidding, Bai‘ al Khiyar, Musawamah and Murabaha. A Batil contract gives rise to no effect: no title to goods or price; delivered goods must be returned whether or not the illegality was known; if the buyer sells to a third party, the original seller can still claim the goods — unlike a Fasid contract."
+      ],
       exam: "Batil: fails major conditions → no effect; goods returned; original seller can reclaim even from third party (unlike Fasid).",
       keyPoints: ["Auction bidding is permitted; bidding over an agreed bid is not."],
-      distinctions: [{ a: "Fasid", b: "Batil", text: "Fasid can be cured and consensual possession transfers ownership (onward sale valid); Batil has no effect at all and goods can be reclaimed even from third parties." }],
+      distinctions: [
+        { a: "Fasid", b: "Batil", text: "Fasid can be cured and consensual possession transfers ownership (onward sale valid); Batil has no effect at all and goods can be reclaimed even from third parties." }
+      ],
       related: ["t5.7.2"],
-      quickCheck: { q: "In a Batil sale, the buyer has already resold the goods to a third party. The original seller:", options: ["Loses all rights", "Can still claim the goods, since ownership never passed", "Must accept market value", "Must pay the third party"], answer: 1, explanation: "p. 124." }
+      quickCheck: { q: "In a Batil sale, the buyer has already resold the goods to a third party. The original seller:", options: ["Loses all rights", "Can still claim the goods, since ownership never passed", "Must accept market value", "Must pay the third party"], answer: 1, explanation: "p. 124." },
+      examples: [
+        { title: "Void vs voidable on resale", kind: "textbook", text: "If goods delivered under a Batil contract are resold, the original seller can still reclaim them because ownership never passed; after a Fasid sale with consent, an onward sale is valid and cannot be undone (pp. 123–124)." }
+      ],
+      confusions: [
+        { wrong: "Bidding against other bidders is always prohibited.", right: "Bidding over another’s bid after two parties have agreed a price is prohibited; open competitive bidding at auction is permissible (Imam Malik, p. 124 n. 44)." }
+      ]
     },
     {
       id: "t5.8", section: "5.8", title: "Commutative and Noncommutative Contracts", pages: [124, 125], tier: "core",
@@ -363,21 +484,32 @@ IFL_DATA.registerChapter({
         { term: "‘Ariyah", meaning: "Loan of a usable item free of any charge." }
       ],
       related: ["t9.11", "t13.2", "t14.6", "t1.8"],
-      quickCheck: { q: "How may an Islamic bank charge for issuing a guarantee, according to Section 5.8.2?", options: ["A time-based percentage like interest", "Service charges based on expenses, amount-based but not time-based", "No charge at all ever", "A share of the client’s profit"], answer: 1, explanation: "p. 125." }
+      quickCheck: { q: "How may an Islamic bank charge for issuing a guarantee, according to Section 5.8.2?", options: ["A time-based percentage like interest", "Service charges based on expenses, amount-based but not time-based", "No charge at all ever", "A share of the client’s profit"], answer: 1, explanation: "p. 125." },
+      distinctions: [
+        { a: "Commutative contract with a void condition", b: "Gratuitous contract with a void condition", text: "A void condition voids a sale or lease; in a loan, gift or guarantee only the condition falls away — an interest clause is struck out and the loan stands (p. 125)." }
+      ]
     },
     {
       id: "t5.9", section: "5.9", title: "Conditional or Contingent Contracts", pages: [126, 127], tier: "supporting",
       concepts: ["contract-validity"],
       intuition: "Can you add conditions to a sale — warranties, free service, a pledge? Some conditions are fine, some void.",
       simple: "Conditions are of three kinds: suspending (T‘aliq), deferring (Idafa) and concomitant (Iqtiran). A condition that supports the contract’s purpose or is customary (warranty, free service, pledge) is valid. A condition against the purpose (never resell) or harmful is void. If an invalid condition is added to an otherwise valid contract, the condition drops and the contract stands (per the sources cited).",
-      academic: ["Conditional contracts are generally not valid, but some conditions are acceptable. Three types: T‘aliq (suspends to a future event), Idafa (delays the beginning), Iqtiran (concomitance varying terms). Hanafis and Hanbalis allow delayed beginning for lease or agency but not sale. All schools consider whether a condition agrees with the contract’s purpose: paying the price, transferring full title, paying in certain currency, or providing a pledge are valid; ‘never resell’ is not. Conditions giving one party extra benefit are disputed; Ibn Taymiyah rejects only those contradicting the Qur’an, Sunnah, Ijma‘a or the contract’s object. Hanbalis emphasise party discretion; Hanafis, Shafi‘is and Malikis classify conditions as valid, irregular and void. Valid conditions include Khiyar al-Shart and Khiyar al-Ru’yah, withholding goods until payment, a pledge for the price and customary conditions (Jaber’s camel ride). A Fasid condition in an otherwise valid contract is void while the contract is enforceable; a superfluous condition is unenforceable; a condition repugnant to the contract but benefiting one party, if inseparable, vitiates it. Market-standard conditions such as a five-year guarantee, free service, warranties and cancellation options are valid."],
+      academic: [
+        "Conditional contracts are generally not valid, but some conditions are acceptable. Three types: T‘aliq (suspends to a future event), Idafa (delays the beginning), Iqtiran (concomitance varying terms). Hanafis and Hanbalis allow delayed beginning for lease or agency but not sale. All schools consider whether a condition agrees with the contract’s purpose: paying the price, transferring full title, paying in certain currency, or providing a pledge are valid; ‘never resell’ is not. Conditions giving one party extra benefit are disputed; Ibn Taymiyah rejects only those contradicting the Qur’an, Sunnah, Ijma‘a or the contract’s object. Hanbalis emphasise party discretion; Hanafis, Shafi‘is and Malikis classify conditions as valid, irregular and void. Valid conditions include Khiyar al-Shart and Khiyar al-Ru’yah, withholding goods until payment, a pledge for the price and customary conditions (Jaber’s camel ride). A Fasid condition in an otherwise valid contract is void while the contract is enforceable; a superfluous condition is unenforceable; a condition repugnant to the contract but benefiting one party, if inseparable, vitiates it. Market-standard conditions such as a five-year guarantee, free service, warranties and cancellation options are valid."
+      ],
       exam: "T‘aliq, Idafa, Iqtiran. Valid: conditions consistent with contract purpose or customary (pledge, warranty, free service, Khiyar). Void: against purpose, contradict text, harmful. Ibn Taymiyah’s practical approach.",
       keyPoints: ["Warranty and after-sales service conditions are valid.", "“Buyer will never resell” is invalid."],
       definitions: [
         { term: "T‘aliq / Idafa / Iqtiran", meaning: "Suspension to a future event / deferral of the start / concomitant condition varying terms." }
       ],
       related: ["t5.7.2", "t6.8"],
-      quickCheck: { q: "Which condition in a sale is valid according to Section 5.9?", options: ["The buyer will never resell the item", "The seller provides a five-year guarantee and one year’s free service", "The buyer must lend the seller money", "The seller will live in the sold house for two months"], answer: 1, explanation: "p. 127." }
+      quickCheck: { q: "Which condition in a sale is valid according to Section 5.9?", options: ["The buyer will never resell the item", "The seller provides a five-year guarantee and one year’s free service", "The buyer must lend the seller money", "The seller will live in the sold house for two months"], answer: 1, explanation: "p. 127." },
+      examples: [
+        { title: "Valid customary conditions", kind: "textbook", text: "Conditions like a five-year guarantee, one year’s free service, a warranty, repair terms or a pledge for the price are valid because they support the contract or are customary (pp. 126–127)." }
+      ],
+      confusions: [
+        { wrong: "Any condition in a sale makes it invalid.", right: "Only conditions that contradict the texts, harm a party or defeat the contract’s purpose are void; Ibn Taymiyah rejects only those conflicting with the Qur’an, Sunnah, Ijma‘a or the object of the contract (p. 126)." }
+      ]
     }
   ],
   summary: "Islamic finance is in essence an ethical system: what is not prohibited is permissible, and contracts are valid unless they violate the Qur’an, Sunnah or the objectives of Shari’ah. Property is ‘Ain or Dayn; Murabaha applies to ‘Ain and merchandise, not debt documents. Only one counter-value may be postponed — credit sale (Mu’ajjal) or Salam — and debt for debt is prohibited. A valid contract needs form (conforming offer and acceptance), capable parties and a lawful, existing, deliverable, precisely determined subject matter; a sale must be immediate and noncontingent. Two contracts in one are not permissible (hire and purchase cannot be one contract; only a promise to purchase). Commercial promises can be binding, with actual-loss damages. Contracts with immoral or harmful causes are void; Islam blocks all channels leading to injustice.",
@@ -416,7 +548,19 @@ IFL_DATA.registerChapter({
     { id: "f5.13", cat: "Contract rules", front: "Effects of a Fasid sale where goods were delivered with consent", back: "Ownership passes by possession; buyer pays market value; revocable unless disposed of or altered; onward sale valid.", topic: "t5.7.2" },
     { id: "f5.14", cat: "Definitions", front: "Buyu’al Amanat (trust sales)", back: "Tawliyah (at cost), Murabaha (cost plus profit), Wadhi‘ah (at a loss).", topic: "t5.8" },
     { id: "f5.15", cat: "Banking", front: "How may banks charge for guarantees and L/Cs?", back: "No charge on Kafalah per se; fees for services via Wakalah/Ju‘alah based on expenses — amount-based (slabs possible), not time-based.", topic: "t5.8" },
-    { id: "f5.16", cat: "Contract rules", front: "Effect of a void condition: commutative vs gratuitous contract", back: "Commutative: the contract becomes void. Gratuitous: only the condition is ineffective (e.g. interest clause in a loan — loan stands, principal only).", topic: "t5.8" }
+    { id: "f5.16", cat: "Contract rules", front: "Effect of a void condition: commutative vs gratuitous contract", back: "Commutative: the contract becomes void. Gratuitous: only the condition is ineffective (e.g. interest clause in a loan — loan stands, principal only).", topic: "t5.8" },
+    { id: "f5.17", cat: "Definitions", front: "‘Ain vs Dayn property", back: "‘Ain: a specific, determinate asset. Dayn: indeterminate property owed generically (gold, currency, grain) — any units may be delivered.", topic: "t5.2" },
+    { id: "f5.18", cat: "Contract rules", front: "Bai‘ al ‘Inah vs sale and lease-back", back: "Sale and buy-back (‘Inah) is prohibited by the majority; sale and lease-back is allowed by almost all.", topic: "t5.2" },
+    { id: "f5.19", cat: "Principles", front: "Wording vs intention", back: "In Mu‘amalat, the apparent wording has legal effect; in Ibadat, the intention (Niyyah) is what matters.", topic: "t5.3" },
+    { id: "f5.20", cat: "Contract rules", front: "Sanhuri’s seven components of a contract", back: "Offer–acceptance concurrence; unity of Majlis; plural parties; sanity; deliverable subject matter; defined object; permitted (beneficial) object.", topic: "t5.4" },
+    { id: "f5.21", cat: "Contract rules", front: "Contracts exempt from unity of session", back: "Agency, gift, and appointment of an executor for a minor’s property.", topic: "t5.4.1" },
+    { id: "f5.22", cat: "Contract rules", front: "Ibn Rushd’s prohibited exchange", back: "Delay on both sides (liability for liability) = debt for debt — prohibited; hence full prepayment in Salam.", topic: "t5.5.5" },
+    { id: "f5.23", cat: "Contract rules", front: "Actual loss on breach of promise", back: "Recoverable: actual monetary loss. Not recoverable: opportunity cost / cost of funds.", topic: "t5.6" },
+    { id: "f5.24", cat: "Contract rules", front: "Mawquf contract — three causes", back: "Defective capacity (minor); lack of authority (Fuduli); right of a third party (e.g. mortgagee).", topic: "t5.7" },
+    { id: "f5.25", cat: "Contract rules", front: "Four types of invalid condition in sale", back: "Against the contract’s purpose; expressly prohibited (sale plus loan); against commercial usage; advantageous to one party at the other’s cost.", topic: "t5.7.2" },
+    { id: "f5.26", cat: "Arabic terminology", front: "Ijarah Mosufah bil Zimmah", back: "Lease of a described service/benefit without identifying specific units; loss of one unit does not end the lease.", topic: "t5.7.2" },
+    { id: "f5.27", cat: "Contract rules", front: "Batil vs Fasid: onward sale", back: "Batil: ownership never passes, so the original seller can reclaim even after resale. Fasid with consent and delivery: onward sale is valid.", topic: "t5.7.3" },
+    { id: "f5.28", cat: "Arabic terminology", front: "T‘aliq, Idafa, Iqtiran", back: "Suspension on a future event; delay of the start to a future time; concomitant condition varying the terms.", topic: "t5.9" }
   ],
   questions: [
     { id: "q5.1", type: "mcq", q: "Which type of goods is suitable for Salam according to Section 5.2?", options: ["Qimi (non-fungible) goods", "Mithli (fungible) goods", "Only real estate", "Currencies"], answer: 1, explanation: "p. 103.", topic: "t5.2", diff: "E", level: "recall", obj: "Classify goods" },
@@ -432,13 +576,44 @@ IFL_DATA.registerChapter({
     { id: "q5.11", type: "definition", q: "‘Resale at cost price plus profit — bargaining on profit margin’ is:", options: ["Bai‘ Tawliyah", "Bai‘ Wadhi‘ah", "Bai‘ Murabaha", "Bai‘ Musawamah"], answer: 2, explanation: "p. 124.", topic: "t5.8", diff: "E", level: "recall", obj: "Classify sales by price" },
     { id: "q5.12", type: "order", q: "Order the steps of forming a contract as described in Section 5.4.", items: ["Offer (Ijab) made clearly", "Acceptance (Qabul) conforming to the offer", "Both in the same session (or within granted time)", "Formal event concludes the contract; ownership and risk transfer"], explanation: "Sections 5.4.1–5.4.2.", topic: "t5.4.1", diff: "E", level: "understanding", obj: "Sequence contract formation" },
     { id: "q5.13", type: "scenario", q: "A homeowner whose house is mortgaged to a bank signs a contract to sell it without the bank’s involvement. The contract is:", options: ["Batil", "Mawquf (suspended) pending the mortgagee’s ratification", "Fully valid and effective", "Fasid due to Riba"], answer: 1, explanation: "p. 119.", topic: "t5.7", diff: "H", level: "application", obj: "Identify suspended contracts" },
-    { id: "q5.14", type: "short", q: "Why is a sale contract not allowed to take effect from a future date, while Ijarah can?", answer: "Usufruct is owned gradually over time, so Ijarah (and Istisna‘a) can start from a future date. A sale transfers ownership immediately; postponing it involves Gharar because a party’s interest may lapse or the market/object may change, leading to regret and disputes. Contemporary scholars suggest a unilateral promise instead (Ibn Taymiyah and Ibn al-Qayyim differ).", keywords: ["usufruct", "gradually", "Gharar", "promise"], explanation: "Section 5.7.1.", topic: "t5.7", diff: "H", level: "analysis", obj: "Explain future-effective contracts" }
+    { id: "q5.14", type: "short", q: "Why is a sale contract not allowed to take effect from a future date, while Ijarah can?", answer: "Usufruct is owned gradually over time, so Ijarah (and Istisna‘a) can start from a future date. A sale transfers ownership immediately; postponing it involves Gharar because a party’s interest may lapse or the market/object may change, leading to regret and disputes. Contemporary scholars suggest a unilateral promise instead (Ibn Taymiyah and Ibn al-Qayyim differ).", keywords: ["usufruct", "gradually", "Gharar", "promise"], explanation: "Section 5.7.1.", topic: "t5.7", diff: "H", level: "analysis", obj: "Explain future-effective contracts" },
+    { id: "q5.15", type: "tf", q: "Fiduciary money is a kind of Mal, but it cannot itself be the subject matter of sale.", answer: true, explanation: "It serves as medium of exchange and measure of value (p. 101).", topic: "t5.2", diff: "M", level: "recall", obj: "Recall the status of money as Mal" },
+    { id: "q5.16", type: "match", q: "Match each type of ownership to its Arabic term.", pairs: [["Ownership of the asset itself", "Milk ul‘Ain"], ["Ownership of a debt", "Milk ud Dayn"], ["Ownership of usufruct", "Milk ul Manf‘at"]], explanation: "p. 102.", topic: "t5.2", diff: "E", level: "recall", obj: "Recall categories of ownership" },
+    { id: "q5.17", type: "identify", q: "Which term refers to a covenant with more sanctity than an ordinary contract, used for treaties and marriage?", options: ["‘Aqd", "Mithaq", "Wa‘dah", "Ijab"], answer: 1, explanation: "p. 103.", topic: "t5.2.1", diff: "E", level: "recall", obj: "Distinguish contractual terms" },
+    { id: "q5.18", type: "mcq", q: "What is the governing principle for transactions (Mu‘amalat), according to Ibn Taymiyah as quoted in Chapter 5?", options: ["Everything is prohibited unless commanded", "Permissibility, unless prohibited by Allah and His Prophet", "Only what jurists approve", "Custom always prevails"], answer: 1, explanation: "p. 105.", topic: "t5.3", diff: "E", level: "recall", obj: "Recall general permissibility" },
+    { id: "q5.19", type: "tf", q: "In a commercial contract, a party can escape his obligation by proving that his intention (Niyyah) differed from the words he signed.", answer: false, explanation: "In Mu‘amalat the apparent wording has legal effect (p. 105).", topic: "t5.3", diff: "M", level: "understanding", obj: "Apply the form-over-intention rule" },
+    { id: "q5.20", type: "multi", q: "In which cases is an offer cancelled? (Select all.)", options: ["The maker withdraws it", "A party dies or loses capacity", "The session ends without a contract", "The subject matter is destroyed", "The buyer asks a question about quality"], answer: [0, 1, 2, 3], explanation: "Also lapse of time fixed for acceptance (p. 107).", topic: "t5.4.1", diff: "M", level: "recall", obj: "Recall when offers lapse" },
+    { id: "q5.21", type: "comparison", q: "How do the Council of Islamic Ideology and the Federal Shariat Court of Pakistan differ on Ijab?", options: ["They agree fully", "The CII says only an act (not abstention) forms Ijab; the FSC says a contract may be to do or to abstain from doing something", "The FSC rejects written contracts", "The CII allows only oral offers"], answer: 1, explanation: "p. 106.", topic: "t5.4.1", diff: "H", level: "recall", obj: "Compare views on the offer" },
+    { id: "q5.22", type: "scenario", q: "A house mortgaged to a bank is sold by its owner without the bank’s consent. What is the status of the sale?", options: ["Void", "Mawquf — suspended pending the mortgagee’s ratification", "Fully valid", "Fasid"], answer: 1, explanation: "Right of a third party suspends the contract (p. 119).", topic: "t5.7", diff: "M", level: "application", obj: "Identify a suspended contract" },
+    { id: "q5.23", type: "application", q: "A seller says: “Take this and I will tell you the price later.” The buyer agrees. The contract is:", options: ["Valid", "Not valid — the price must be agreed and fixed at execution", "Valid if the price is fair", "A Salam"], answer: 1, explanation: "p. 109.", topic: "t5.4.2", diff: "E", level: "application", obj: "Apply the certainty-of-price rule" },
+    { id: "q5.24", type: "mcq", q: "According to Section 5.4.2, what are the two ways of determining the subject matter?", options: ["By oath or witness", "By inspection at the contract, or by description (with specific identification if similar units exist)", "By price and weight", "By custom or court"], answer: 1, explanation: "p. 109.", topic: "t5.4.2", diff: "M", level: "recall", obj: "Recall determination of subject matter" },
+    { id: "q5.25", type: "identify", q: "Hakim ibn Hizam wanted to sell goods he had bought before taking possession. Which Caliph stopped him?", options: ["Abu Bakr", "Umar ibn al-Khattab", "Uthman", "Ali"], answer: 1, explanation: "p. 109.", topic: "t5.4.2", diff: "M", level: "recall", obj: "Recall the possession precedent" },
+    { id: "q5.26", type: "tf", q: "Speculation per se — buying with an eye to future price changes — is prohibited in Islamic law.", answer: false, explanation: "Only sales of non-existent/unowned goods and gambling are prohibited (p. 111).", topic: "t5.5", diff: "M", level: "understanding", obj: "Distinguish speculation from Gharar" },
+    { id: "q5.27", type: "application", q: "A trader wants to sell a bill receivable at a discount to a bank. What does Chapter 5 say?", options: ["Allowed at any discount", "Not allowed; transferring it under Hawalah at face value with recourse to the original debtor is valid", "Allowed only for exporters", "Allowed if the bank is Islamic"], answer: 1, explanation: "p. 111.", topic: "t5.5", diff: "M", level: "application", obj: "Apply the rule on sale of debt" },
+    { id: "q5.28", type: "order", q: "Order the four forms of prohibited mutually contingent contracts as listed in Section 5.5.5.", items: ["Sale of two articles where buying one obliges buying the other", "One article for two prices without finalising one", "Contingent sale", "Combining sale and lending"], explanation: "p. 112.", topic: "t5.5.5", diff: "M", level: "recall", obj: "Recall prohibited combinations" },
+    { id: "q5.29", type: "scenario", q: "In an Ijarah Muntahia-bi-Tamleek, the contract makes the lessee bear the risk of total destruction of the asset during the lease. What is the effect?", options: ["Valid — the lessee has use", "It renders the transaction void; ownership risk must stay with the lessor", "It converts it into a sale", "It is Makruh only"], answer: 1, explanation: "p. 112.", topic: "t5.5.5", diff: "H", level: "application", obj: "Apply risk allocation in Ijarah" },
+    { id: "q5.30", type: "short", q: "Why must the price in Salam be paid in full in advance?", answer: "Because an exchange with delay on both sides is an exchange of a debt for a debt (liability for liability), which is prohibited. In Salam the goods are deferred, so the price must be paid immediately.", keywords: ["debt for a debt", "delay", "both sides", "prepayment"], explanation: "Ibn Rushd’s nine kinds of exchange (p. 113).", topic: "t5.5.5", diff: "M", level: "understanding", obj: "Explain the prepayment requirement in Salam" },
+    { id: "q5.31", type: "mcq", q: "Why is a creditor not entitled to any excess over the principal, according to the principle of “profits with liability”?", options: ["Because loans are short-term", "Because he bears no business risk on the amount lent", "Because the State forbids it", "Because inflation is low"], answer: 1, explanation: "p. 113.", topic: "t5.5.7", diff: "E", level: "understanding", obj: "Explain profit with liability" },
+    { id: "q5.32", type: "multi", q: "Which conditions did the OIC Fiqh Academy set for a binding promise in commercial dealings? (Select all.)", options: ["The promise must be unilateral", "The promisor must have caused the promisee to incur liabilities or expenses", "The sale itself must later occur by offer and acceptance", "Damages include opportunity cost", "On breach, the court may compel purchase or actual damages"], answer: [0, 1, 2, 4], explanation: "Opportunity cost is excluded (p. 115).", topic: "t5.6", diff: "M", level: "recall", obj: "Recall conditions of binding promises" },
+    { id: "q5.33", type: "comparison", q: "What is the key difference between a bilateral promise (Muwa‘adah) and a contract (‘Aqd)?", options: ["There is no difference", "Ownership does not pass when a promise is signed; under ‘Aqd ownership passes and inheritance rules apply at once", "A promise is always oral", "A contract cannot be binding"], answer: 1, explanation: "Majority: bilateral promises are not allowed where the ‘Aqd itself is not allowed (pp. 115–116).", topic: "t5.6", diff: "H", level: "analysis", obj: "Distinguish promise from contract" },
+    { id: "q5.34", type: "application", q: "A client gave Hamish Jiddiyah of 2,000 and then refused to buy. The bank’s actual loss was 800. What happens?", options: ["The bank keeps all 2,000", "The bank recovers 800 and returns 1,200", "The bank keeps 2,000 plus cost of funds", "Nothing is returned"], answer: 1, explanation: "Actual loss only, excluding cost of funds; the excess is returned (p. 116).", topic: "t5.6.1", diff: "M", level: "application", obj: "Apply Hamish Jiddiyah rules" },
+    { id: "q5.35", type: "identify", q: "Which school of Fiqh regards Bai‘ al ‘Arbun as a legal contract?", options: ["Hanafi", "Maliki", "Shafi‘i", "Hanbali"], answer: 3, explanation: "Based on the report of Naf‘i ibn al-Harith (p. 116).", topic: "t5.6.1", diff: "M", level: "recall", obj: "Recall the Hanbali view on ‘Arbun" },
+    { id: "q5.36", type: "tf", q: "Conventional options are accepted in Islamic finance by analogy with ‘Arbun.", answer: false, explanation: "‘Arbun is accepted only as part payment in a finalised deal; open options for transferring risk are not (p. 117).", topic: "t5.6.1", diff: "M", level: "understanding", obj: "Evaluate options and ‘Arbun" },
+    { id: "q5.37", type: "multi", q: "Which contracts are Ghair Lazim (revocable) by nature? (Select all.)", options: ["Wakalah", "Kafalah", "Shirkah", "Wadi‘ah", "Sale"], answer: [0, 1, 2, 3], explanation: "Sale is binding (Lazim) once concluded (p. 119).", topic: "t5.7", diff: "M", level: "recall", obj: "Classify binding and non-binding contracts" },
+    { id: "q5.38", type: "scenario", q: "An Islamic bank’s investment deposit is based on Shirkah, which is revocable by nature. Can the bank stop early withdrawal?", options: ["No, never", "Yes — by an agreed clause in the account-opening form restricting withdrawal before the settled date", "Only by court order", "Only for large deposits"], answer: 1, explanation: "p. 120.", topic: "t5.7", diff: "M", level: "application", obj: "Apply mutual agreement on revocable contracts" },
+    { id: "q5.39", type: "identify", q: "Under Hanafi law, a contract made under coercion is:", options: ["Batil", "Fasid — capable of ratification", "Sahih", "Mawquf forever"], answer: 1, explanation: "The majority regard it as Batil (p. 120).", topic: "t5.7.2", diff: "H", level: "recall", obj: "Recall the status of coerced contracts" },
+    { id: "q5.40", type: "multi", q: "Which of these are invalid conditions in a sale? (Select all.)", options: ["The buyer shall never resell the asset", "The buyer of corn requires the seller to grind it", "The seller keeps living in the sold house for two months", "The buyer provides a pledge for the price"], answer: [0, 1, 2], explanation: "A pledge supports the contract and is valid (pp. 121, 126).", topic: "t5.7.2", diff: "H", level: "application", obj: "Identify invalid conditions" },
+    { id: "q5.41", type: "mcq", q: "In a Fasid partnership, how is profit divided?", options: ["As per the agreement", "In proportion to each partner’s capital", "Equally", "All to the managing partner"], answer: 1, explanation: "p. 123.", topic: "t5.7.2", diff: "M", level: "recall", obj: "Recall effects of Fasid partnership" },
+    { id: "q5.42", type: "tf", q: "Donating a stray animal or fruit before its benefit is evident is permissible, although selling it is not.", answer: true, explanation: "Gharar does not invalidate gratuitous contracts (p. 125).", topic: "t5.8", diff: "M", level: "understanding", obj: "Apply Gharar to gratuitous contracts" },
+    { id: "q5.43", type: "match", q: "Match each sale to its basis of classification.", pairs: [["Bai‘ Muqayadhah", "Barter"], ["Bai‘ al Sarf", "Exchange of money"], ["Bai‘ Tawliyah", "Resale at cost"], ["Bai‘ Wadhi‘ah", "Resale at a loss"]], explanation: "pp. 124–125.", topic: "t5.8", diff: "M", level: "recall", obj: "Classify sales by object and price" },
+    { id: "q5.44", type: "identify", q: "Which type of stipulation delays the beginning of a contract until a future time?", options: ["T‘aliq", "Idafa", "Iqtiran", "Khiyar"], answer: 1, explanation: "T‘aliq suspends on a future event; Iqtiran varies terms (p. 126).", topic: "t5.9", diff: "M", level: "recall", obj: "Distinguish types of stipulations" }
   ],
   exam: [
     { id: "e5.1", kind: "long", q: "Discuss the elements of a valid contract in Islamic law, with particular reference to the conditions of the subject matter.", structure: ["Three essential elements (and Sanhuri’s seven)", "Offer and acceptance rules; unity of session; Khiyar al-Shart", "Capacity of parties", "Subject matter conditions: existence, lawfulness, ownership, possession, deliverability, determination, price", "Constructive possession", "Exceptions: Salam, Istisna‘a; Hawalah for debts"], keyConcepts: ["Sighah", "Qabza", "Gharar", "Mabi‘/Thaman"], points: ["No short-selling", "Mortgaged asset cannot be sold", "Price must be fixed"], mistakes: ["Omitting possession", "Forgetting Salam exception"], topic: "t5.4.2" },
     { id: "e5.2", kind: "difference", q: "Differentiate between Sahih, Fasid and Batil contracts with examples and legal effects.", structure: ["Definitions (Asl/Wasf)", "Causes", "Examples", "Effects on ownership, price, onward sale", "Hanafi vs other schools"], keyConcepts: ["Asl", "Wasf", "market value"], points: ["Fasid curable", "Batil no effect"], mistakes: ["Treating Fasid and Batil as identical"], topic: "t5.7.2" },
     { id: "e5.3", kind: "short", q: "Is a promise binding in Islamic commercial law? Explain with the OIC Fiqh Academy conditions and an example.", structure: ["‘Ahd/Wa‘dah defined", "Juristic views", "OIC conditions", "Actual loss example", "Bilateral promise"], keyConcepts: ["Wa‘dah", "actual loss", "Muwa‘adah"], points: ["Opportunity cost excluded"], mistakes: ["Treating the promise as the sale"], topic: "t5.6" },
     { id: "e5.4", kind: "conceptual", q: "Why does Shari’ah prohibit ‘two contracts in one’, and how do Islamic banks combine contracts lawfully?", structure: ["Four prohibited forms", "Rationale: undefined rights/liabilities (Gharar)", "Permissible combinations with conditions", "Debt-for-debt prohibition"], keyConcepts: ["IMBT", "Diminishing Musharakah", "Wakalah"], points: ["Separate contracts", "Unilateral promise"], mistakes: ["Saying all combinations are prohibited"], topic: "t5.5.5" },
-    { id: "e5.5", kind: "viva", q: "What is the difference between commutative and gratuitous contracts? Give examples.", structure: ["Definition", "Lists", "Fees for guarantees"], keyConcepts: ["Mu‘awadha", "Tabarru‘"], points: ["Amount-based not time-based fees"], mistakes: ["Listing Wakalah as purely gratuitous"], topic: "t5.8" }
+    { id: "e5.5", kind: "viva", q: "What is the difference between commutative and gratuitous contracts? Give examples.", structure: ["Definition", "Lists", "Fees for guarantees"], keyConcepts: ["Mu‘awadha", "Tabarru‘"], points: ["Amount-based not time-based fees"], mistakes: ["Listing Wakalah as purely gratuitous"], topic: "t5.8" },
+    { id: "e5.6", kind: "scenario", q: "A client promises to buy machinery from the bank at cost plus 10%, pays token money, and then withdraws after the bank has bought the machine. Advise the bank on its rights.", structure: ["Nature of the promise (Wa‘dah)", "Binding promise: OIC conditions", "Hamish Jiddiyah vs ‘Arbun", "Measuring actual loss (no cost of funds)", "Refund of the excess", "Conclusion"], keyConcepts: ["Wa‘dah", "Hamish Jiddiyah", "‘Arbun", "actual loss", "OIC Fiqh Academy"], points: ["Promise was unilateral and caused the bank expense", "Bank sells the machine and claims the shortfall", "Token money held as trust"], mistakes: ["Keeping the full token money", "Charging cost of funds", "Treating the promise as a sale"], topic: "t5.6.1" }
   ]
 });

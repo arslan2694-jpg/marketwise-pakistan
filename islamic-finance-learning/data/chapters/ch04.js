@@ -24,10 +24,14 @@ IFL_DATA.registerChapter({
       concepts: ["islamic-banking"],
       intuition: "Is Islamic banking just conventional banking minus interest? No — the author calls that view too narrow.",
       simple: "“Interest-free banking” (a 1980s term) only means avoiding interest. Islamic banking also avoids Gharar and unethical practices and aims to achieve the goals of an Islamic economy.",
-      academic: ["Islamic banking is banking in consonance with the ethos and value system of Islam, governed by conventional good governance and risk management rules plus Shari’ah principles. “Interest-free banking” is a narrow concept denoting instruments that avoid interest; Islamic banking should also avoid Gharar and other unethical practices and participate in achieving the objectives of an Islamic economy."],
+      academic: [
+        "Islamic banking is banking in consonance with the ethos and value system of Islam, governed by conventional good governance and risk management rules plus Shari’ah principles. “Interest-free banking” is a narrow concept denoting instruments that avoid interest; Islamic banking should also avoid Gharar and other unethical practices and participate in achieving the objectives of an Islamic economy."
+      ],
       exam: "Interest-free banking = narrow (avoid interest). Islamic banking = avoid interest + Gharar + unethical practices + serve goals of Islamic economy.",
       keyPoints: ["Islamic banking is a more general term than interest-free banking."],
-      distinctions: [{ a: "Interest-free banking", b: "Islamic banking", text: "The former only avoids interest; the latter also avoids Gharar and unethical practices and pursues the objectives of an Islamic economy." }],
+      distinctions: [
+        { a: "Interest-free banking", b: "Islamic banking", text: "The former only avoids interest; the latter also avoids Gharar and unethical practices and pursues the objectives of an Islamic economy." }
+      ],
       related: ["t4.2", "t8.5"],
       quickCheck: { q: "Why does the author consider ‘interest-free banking’ a narrow concept?", options: ["It ignores deposits", "It only denotes avoiding interest, not Gharar, unethical practices and the goals of an Islamic economy", "It is a Western term", "It includes Takaful"], answer: 1, explanation: "p. 73." }
     },
@@ -45,42 +49,71 @@ IFL_DATA.registerChapter({
         "All financial transactions must represent real transactions.",
         "Loans are not investments.",
         "Bonds and conventional deposits are financial transactions, not investments.",
-        "Debt cannot be sold at a premium or discount."
+        "Debt cannot be sold at a premium or discount.",
+        "Currency exchange must be hand to hand, otherwise one party benefits from money it received before giving the counter value."
       ],
-      distinctions: [{ a: "Loan", b: "Investment", text: "Loan: funds change hands with guaranteed full repayment and no return. Investment: funds become part of real activity, and the return is permissible." }],
+      distinctions: [
+        { a: "Loan", b: "Investment", text: "Loan: funds change hands with guaranteed full repayment and no return. Investment: funds become part of real activity, and the return is permissible." }
+      ],
       related: ["t4.2.1", "t4.2.6", "t1.9"],
-      quickCheck: { q: "Which is an ‘investment’ in the Islamic sense described in Section 4.2?", options: ["Buying a government bond", "A deposit in a conventional bank", "Using funds to buy goods and sell them at a profit", "Buying a debt document at a discount"], answer: 2, explanation: "Investment must be part of real activity (p. 74)." }
+      quickCheck: { q: "Which is an ‘investment’ in the Islamic sense described in Section 4.2?", options: ["Buying a government bond", "A deposit in a conventional bank", "Using funds to buy goods and sell them at a profit", "Buying a debt document at a discount"], answer: 2, explanation: "Investment must be part of real activity (p. 74)." },
+      examples: [
+        { title: "What counts as investment?", kind: "textbook", text: "Buying a government bond or placing a conventional deposit is merely a financial transaction, not investment. Using funds to buy real goods and sell them at a profit is investment. Buying an asset with money borrowed on interest is not permissible (p. 74)." }
+      ]
     },
     {
       id: "t4.2.1", section: "4.2.1", title: "Avoiding Interest", pages: [74, 75], tier: "core",
       concepts: ["riba"],
       intuition: "What exactly may an Islamic bank not do with loans and debts?",
       simple: "Islamic banks will not give or take loans seeking any increase over the principal. They may buy and sell on cash or credit for profit, and price credit sales considering time — but once the debt is created, it cannot be increased. They cannot charge cost of funds on loans, overdrafts, guarantees or bills, nor sell debt instruments.",
-      academic: ["The most important feature of the Islamic theory of finance, based on 2:275 and 2:279, is avoiding interest or any ex ante return on a loan/debt. The lender gives the lent goods/money for the loan period without worldly compensation. Islamic banks will not take or give loans or enter contracts seeking any increase over the principal of loans or debts created by credit transactions. Pricing goods with regard to the credit period is acceptable provided there is no enhancement of the debt once created. It follows that an Islamic bank may not earn a time-based charge on money — whether called cost of funds or rent — on any loan, overdraft, guarantee or bill/receivable financing of any tenor, and it may not sell its debt instruments."],
+      academic: [
+        "The most important feature of the Islamic theory of finance, based on 2:275 and 2:279, is avoiding interest or any ex ante return on a loan/debt. The lender gives the lent goods/money for the loan period without worldly compensation. Islamic banks will not take or give loans or enter contracts seeking any increase over the principal of loans or debts created by credit transactions. Pricing goods with regard to the credit period is acceptable provided there is no enhancement of the debt once created. It follows that an Islamic bank may not earn a time-based charge on money — whether called cost of funds or rent — on any loan, overdraft, guarantee or bill/receivable financing of any tenor, and it may not sell its debt instruments."
+      ],
       exam: "No ex ante return on loans/debts. Credit-sale pricing may consider time, but debt once created cannot increase. No cost of funds on loans, overdrafts, guarantees, bills; no sale of debt instruments.",
       keyPoints: ["Once a debt is created the seller cannot demand more than the stipulated credit price.", "Lending on interest is alien to Islamic banks."],
       related: ["t3.2.1", "t4.6"],
-      quickCheck: { q: "Which charge is NOT permitted to an Islamic bank?", options: ["Profit in a credit sale priced before execution", "Rent on a leased building", "Cost of funds on an overdraft", "A service fee under Wakalah"], answer: 2, explanation: "Cost of funds on loans/overdrafts is prohibited (p. 75)." }
+      quickCheck: { q: "Which charge is NOT permitted to an Islamic bank?", options: ["Profit in a credit sale priced before execution", "Rent on a leased building", "Cost of funds on an overdraft", "A service fee under Wakalah"], answer: 2, explanation: "Cost of funds on loans/overdrafts is prohibited (p. 75)." },
+      confusions: [
+        { wrong: "Islamic banks may charge a “cost of funds” on overdrafts if it is called a fee.", right: "They may not charge cost of funds or rent on money in any loan, overdraft, guarantee, bill or receivable financing, nor sell debt instruments (p. 75)." }
+      ],
+      examples: [
+        { title: "Fungible vs non-fungible loans", kind: "textbook", text: "If one ton of wheat or 1,000 dollars is borrowed, exactly one ton or 1,000 dollars is repaid; any excess is usurious. Hanafis allow lending only fungibles; other schools allow lending any property, with its price paid if a like is unavailable (p. 74, n. 1)." }
+      ]
     },
     {
       id: "t4.2.2", section: "4.2.2", title: "Avoiding Gharar", pages: [75, 75], tier: "core",
       concepts: ["gharar", "derivatives"],
       intuition: "Which banking activities are ruled out because of Gharar?",
       simple: "Islamic banks must not enter bargains with hidden results. Speculative share trading, short-selling, discounting bills, trading unidentified items and most futures/options are ruled out. Derivatives are a grey area; IPOs need care because of information asymmetry.",
-      academic: ["Gharar is entering a contract in absolute risk or uncertainty about the result, subject matter or rights, including lack of value-relevant information (Jahl); deceit or withholding information amounts to Gharar. Futures and options practices are un-Islamic because of Gharar, interest and gambling; stock market transactions cleansed of these would be Islamic. Islamic banks should not engage in speculative trading in shares, short-selling, discounting bills and securities, or trading unidentified items. IPO involvement needs care due to information asymmetry between promoters and investors. Derivatives trading is a grey area."],
+      academic: [
+        "Gharar is entering a contract in absolute risk or uncertainty about the result, subject matter or rights, including lack of value-relevant information (Jahl); deceit or withholding information amounts to Gharar. Futures and options practices are un-Islamic because of Gharar, interest and gambling; stock market transactions cleansed of these would be Islamic. Islamic banks should not engage in speculative trading in shares, short-selling, discounting bills and securities, or trading unidentified items. IPO involvement needs care due to information asymmetry between promoters and investors. Derivatives trading is a grey area."
+      ],
       exam: "Avoid bargains with hidden results; no speculative share trading, short-selling, bill discounting, unidentified items; futures/options un-Islamic (Gharar, interest, gambling); derivatives grey area; IPOs need care.",
-      keyPoints: ["Cleansed stock markets would be Islamic.", "Short-selling and bill discounting are excluded."],
+      keyPoints: [
+        "Cleansed stock markets would be Islamic.",
+        "Short-selling and bill discounting are excluded.",
+        "Gharar rules out speculative share trading, short-selling, discounting bills, trading unidentified items, and requires care in IPOs because of information asymmetry.",
+        "Stock-market transactions cleansed of Riba, Gharar and gambling would be Islamic; derivatives remain a grey area."
+      ],
       related: ["t3.2.2", "t8.8.8"],
-      quickCheck: { q: "Which activity does the prohibition of Gharar rule out for Islamic banks?", options: ["Spot purchase of identified goods", "Short-selling", "Ijarah of a building", "Musharakah in a project"], answer: 1, explanation: "p. 75." }
+      quickCheck: { q: "Which activity does the prohibition of Gharar rule out for Islamic banks?", options: ["Spot purchase of identified goods", "Short-selling", "Ijarah of a building", "Musharakah in a project"], answer: 1, explanation: "p. 75." },
+      confusions: [
+        { wrong: "All stock-market activity is prohibited for Islamic banks.", right: "The author says stock-market transactions, if cleansed of Gharar, interest and gambling, would be Islamic; speculation and short-selling are what must be avoided (p. 75)." }
+      ]
     },
     {
       id: "t4.2.3", section: "4.2.3", title: "Avoiding Gambling and Games of Chance", pages: [76, 76], tier: "supporting",
       concepts: ["maisir"],
       intuition: "Which conventional products fall foul of the gambling prohibition?",
       simple: "Prize bonds, lotteries and draw-based schemes, conventional insurance (Riba and Maisir) and futures/options settled only by price differences involve gambling, which IFIs must avoid.",
-      academic: ["Instruments offering inducements based on uncertain events, disproportionate prizes by lots, or prizes funded by interest on safe capital are repugnant due to Riba and Qimar. Conventional insurance involves Riba and Maisir; public lotteries and draws are prohibited; futures and options settled by price difference are gambling; prize-carrying bonds give prizes to a few at others’ cost without liability or work."],
+      academic: [
+        "Instruments offering inducements based on uncertain events, disproportionate prizes by lots, or prizes funded by interest on safe capital are repugnant due to Riba and Qimar. Conventional insurance involves Riba and Maisir; public lotteries and draws are prohibited; futures and options settled by price difference are gambling; prize-carrying bonds give prizes to a few at others’ cost without liability or work."
+      ],
       exam: "Avoid prize bonds/lotteries (Riba + Qimar), conventional insurance (Riba + Maisir), price-difference futures/options.",
-      keyPoints: ["Prize schemes benefit a few at the cost of others without liability or work."],
+      keyPoints: [
+        "Prize schemes benefit a few at the cost of others without liability or work.",
+        "Prize bonds benefit a few participants at the cost of the rest, without work or liability — hence Maisir as well as Riba."
+      ],
       related: ["t3.2.3"],
       quickCheck: { q: "Conventional insurance is non-compliant due to which elements, according to the author?", options: ["Riba and Maisir", "Only Najash", "Only Khalabah", "None"], answer: 0, explanation: "p. 76." }
     },
@@ -102,10 +135,18 @@ IFL_DATA.registerChapter({
         "Debt-mode receivables are non-liquid; Ijarah and sharing assets are liquid."
       ],
       table: { caption: "Table 4.1 — Features of Islamic financing tools", head: ["Category", "Contract", "Liquidity", "Guarantee", "Rate of return"], rows: [["Debt-creating", "Qard al Hasan", "—", "Collateral", "Nil"], ["Debt-creating", "Credit sales", "Non-liquid", "Collateral", "Known"], ["Debt-creating", "Salam", "Non-liquid", "Collateral", "Unknown/known"], ["Debt-creating", "Istisna‘a", "Non-liquid", "Collateral", "Unknown/known"], ["Semi-debt", "Ijarah", "Liquid", "Collateral", "Known"], ["Sharing", "Musharakah", "Liquid", "Penalty for misconduct", "Unknown"], ["Sharing", "Restricted Mudarabah", "Liquid", "Penalty for misconduct", "Unknown"], ["Sharing", "General Mudarabah", "Liquid", "Penalty for misconduct", "Unknown"]] },
-      examples: [{ title: "Hind bint Utbah’s loan", kind: "textbook", text: "Hind took 4000 from the public exchequer to trade and lost; Umar held the loan could not be waived — a debt is payable irrespective of the debtor’s business loss." }],
-      confusions: [{ wrong: "In Musharakah the bank can seize collateral whenever the business makes a loss.", right: "Collateral in PLS modes is only against nonperformance; it cannot be enforced for loss without misconduct or negligence." }],
+      examples: [
+        { title: "Hind bint Utbah’s loan", kind: "textbook", text: "Hind took 4000 from the public exchequer to trade and lost; Umar held the loan could not be waived — a debt is payable irrespective of the debtor’s business loss." },
+        { title: "Hind bint Utbah’s loan", kind: "textbook", text: "Hind borrowed 4,000 from the public treasury to trade and suffered a loss; Umar held that the loan could not be waived. A debt must be repaid irrespective of business outcome — the logic that applies to Murabaha receivables (pp. 76–77)." }
+      ],
+      confusions: [
+        { wrong: "In Musharakah the bank can seize collateral whenever the business makes a loss.", right: "Collateral in PLS modes is only against nonperformance; it cannot be enforced for loss without misconduct or negligence." }
+      ],
       related: ["t8.5.3", "t14.3.2", "t9.1", "t11.1", "t12.1"],
-      quickCheck: { q: "According to Table 4.1, which contract is classified as ‘semi-debt’ with a known return and liquid assets?", options: ["Murabaha", "Ijarah", "Musharakah", "Salam"], answer: 1, explanation: "Ijarah (p. 77)." }
+      quickCheck: { q: "According to Table 4.1, which contract is classified as ‘semi-debt’ with a known return and liquid assets?", options: ["Murabaha", "Ijarah", "Musharakah", "Salam"], answer: 1, explanation: "Ijarah (p. 77)." },
+      distinctions: [
+        { a: "Collateral in debt modes", b: "Security in PLS modes", text: "In debt-creating modes the bank can enforce collateral on default; in PLS modes security covers only misconduct or negligence and cannot be enforced for an honest business loss (p. 78)." }
+      ]
     },
     {
       id: "t4.2.5", section: "4.2.5", title: "Valid Gains on Investment (Pre-fixed Returns and Benchmarks)", pages: [78, 81], tier: "core",
@@ -130,10 +171,17 @@ IFL_DATA.registerChapter({
         { term: "Ribh-al-mithl", meaning: "Matching rate of profit — customary compensation when a contract becomes voidable." },
         { term: "Qard al Hasan", meaning: "A benevolent, return-free loan (temporary transfer free of payment)." }
       ],
-      distinctions: [{ a: "Fixed rent in Ijarah", b: "Fixed interest on a loan", text: "Rent is paid for an uncertain usufruct of an asset whose ownership risk the lessor bears; interest is an increase over a loaned principal with no risk." }],
-      confusions: [{ wrong: "Using LIBOR/KIBOR to price a Murabaha makes it interest.", right: "Scholars say using an interest-based benchmark for pricing does not make trade/Ijarah un-Islamic as long as the other rules are applied." }],
+      distinctions: [
+        { a: "Fixed rent in Ijarah", b: "Fixed interest on a loan", text: "Rent is paid for an uncertain usufruct of an asset whose ownership risk the lessor bears; interest is an increase over a loaned principal with no risk." }
+      ],
+      confusions: [
+        { wrong: "Using LIBOR/KIBOR to price a Murabaha makes it interest.", right: "Scholars say using an interest-based benchmark for pricing does not make trade/Ijarah un-Islamic as long as the other rules are applied." }
+      ],
       related: ["t4.2.6", "t6.5.2", "t11.3.2", "t17.4.3"],
-      quickCheck: { q: "Why does the author reject the analogy between fixed Ijarah rent and fixed interest?", options: ["Rent is always variable", "Rent is based on an asset’s uncertain usufruct and the lessor bears ownership risk", "Interest is permitted in Ijarah", "There is no difference"], answer: 1, explanation: "p. 79." }
+      quickCheck: { q: "Why does the author reject the analogy between fixed Ijarah rent and fixed interest?", options: ["Rent is always variable", "Rent is based on an asset’s uncertain usufruct and the lessor bears ownership risk", "Interest is permitted in Ijarah", "There is no difference"], answer: 1, explanation: "p. 79." },
+      examples: [
+        { title: "Benchmark: Ujratul-mithl", kind: "textbook", text: "Classical Fiqh knows matching rates — Ujratul-mithl (wage), Ribh-al-mithl (profit), Qirad mithl and Musaqat mithl — used as customary compensation when a contract becomes Fasid. Banks may charge service charges on loans on the basis of Ujratul-mithl (pp. 80–81)." }
+      ]
     },
     {
       id: "t4.2.6", section: "4.2.6", title: "Entitlement to Profit — With Risk and Responsibility", pages: [81, 82], tier: "core",
@@ -150,12 +198,21 @@ IFL_DATA.registerChapter({
         "Maxim: Al Kharaj bi-al-Daman (Al Ghunm bil Ghurm).",
         "Risk can be mitigated but not eliminated.",
         "Credit buyer must pay even if the goods are destroyed after sale.",
-        "Lessor earns rent only while bearing ownership risks."
+        "Lessor earns rent only while bearing ownership risks.",
+        "Consensus: depositors should not bear losses caused by management negligence or fraud."
       ],
-      principles: ["Al Kharaj bi-al-Daman — entitlement to gain goes with liability for loss.", "Ownership cannot be separated from the risk of related loss."],
-      definitions: [{ term: "Al Kharaj bi-al-Daman / Al Ghunm bil Ghurm", meaning: "Maxim: one must bear loss, if any, to be entitled to profit on investment — the criterion of legality of any return on capital." }],
+      principles: [
+        "Al Kharaj bi-al-Daman — entitlement to gain goes with liability for loss.",
+        "Ownership cannot be separated from the risk of related loss."
+      ],
+      definitions: [
+        { term: "Al Kharaj bi-al-Daman / Al Ghunm bil Ghurm", meaning: "Maxim: one must bear loss, if any, to be entitled to profit on investment — the criterion of legality of any return on capital." }
+      ],
       related: ["t1.5", "t5.5.7", "t4.2.9"],
-      quickCheck: { q: "After a credit sale, the goods are destroyed in the buyer’s possession. The buyer:", options: ["Is released from paying", "Must still pay the price at the settled time", "Pays half", "Can return the goods"], answer: 1, explanation: "Risk transferred on sale; the price remains payable (p. 82)." }
+      quickCheck: { q: "After a credit sale, the goods are destroyed in the buyer’s possession. The buyer:", options: ["Is released from paying", "Must still pay the price at the settled time", "Pays half", "Can return the goods"], answer: 1, explanation: "Risk transferred on sale; the price remains payable (p. 82)." },
+      confusions: [
+        { wrong: "Taking Takaful on sold goods removes the buyer’s obligation to pay if the goods are destroyed.", right: "Takaful mitigates the buyer’s risk but has no link with his liability to pay the price at the settled time (p. 82)." }
+      ]
     },
     {
       id: "t4.2.7", section: "4.2.7", title: "Islamic Banks Dealing in Goods not in Money", pages: [82, 83], tier: "core",
@@ -172,22 +229,37 @@ IFL_DATA.registerChapter({
         "Money used only as a medium of exchange.",
         "Parallel Salam must not be conditional on the original.",
         "Forward FX with deferred payment not permitted; spot FX fine.",
-        "Wakalatul Istismar: fixed management fee; P&L belongs to clients."
+        "Wakalatul Istismar: fixed management fee; P&L belongs to clients.",
+        "Wakalatul Istismar: bank manages clients’ funds for a fixed fee; profit and loss belong to clients.",
+        "“Conventional banks deal in documents not goods”; Islamic banks deal in goods and documents, not money."
       ],
-      distinctions: [{ a: "Conventional banks", b: "Islamic banks", text: "Conventional: deal in money and documents, no responsibility for goods. Islamic: deal in goods/assets, owning them and bearing related risks." }],
+      distinctions: [
+        { a: "Conventional banks", b: "Islamic banks", text: "Conventional: deal in money and documents, no responsibility for goods. Islamic: deal in goods/assets, owning them and bearing related risks." }
+      ],
       related: ["t10.10", "t13.2.2", "t11.3.5"],
-      quickCheck: { q: "Under what condition is a Parallel Salam valid according to contemporary scholars cited here?", options: ["It must be conditional on the first Salam", "It must not be linked to or conditional on the original Salam", "It must have a different commodity", "It must be with the same party"], answer: 1, explanation: "p. 83." }
+      quickCheck: { q: "Under what condition is a Parallel Salam valid according to contemporary scholars cited here?", options: ["It must be conditional on the first Salam", "It must not be linked to or conditional on the original Salam", "It must have a different commodity", "It must be with the same party"], answer: 1, explanation: "p. 83." },
+      confusions: [
+        { wrong: "Parallel Salam must be linked to the first Salam so the bank is protected.", right: "The two contracts must not be linked or conditional; the parallel Salam must be honoured even if the first fails (p. 83)." }
+      ]
     },
     {
       id: "t4.2.8", section: "4.2.8", title: "Transparency and Documentation", pages: [83, 84], tier: "supporting",
       concepts: ["transparency", "murabaha"],
       intuition: "Why must Islamic banks disclose more than conventional banks?",
       simple: "Islamic banks must be more transparent. In Murabaha, cost and payment details must be disclosed or the transaction may become non-compliant. The Qur’an requires writing down credit transactions. As partners in trade, banks must know their clients’ business, making them less likely to be used for money laundering.",
-      academic: ["Islamic financial institutions must adopt transparency, disclosure and documentation to a greater extent than conventional banks. Lack of transparency in Murabaha (cost/price and payment mode) may render the transaction non-compliant. The Qur’an enjoins writing down and taking witnesses in credit transactions. Because Islamic finance funds specific physical assets, clients must have socially beneficial, value-adding business. As a partner in trade the bank must concern itself with the client’s business and profitability; the author believes Islamic banks are less likely to engage in money laundering and terrorism financing."],
+      academic: [
+        "Islamic financial institutions must adopt transparency, disclosure and documentation to a greater extent than conventional banks. Lack of transparency in Murabaha (cost/price and payment mode) may render the transaction non-compliant. The Qur’an enjoins writing down and taking witnesses in credit transactions. Because Islamic finance funds specific physical assets, clients must have socially beneficial, value-adding business. As a partner in trade the bank must concern itself with the client’s business and profitability; the author believes Islamic banks are less likely to engage in money laundering and terrorism financing."
+      ],
       exam: "Greater transparency/disclosure/documentation; Murabaha cost disclosure essential; Qur’an requires recording credit; bank as trade partner must know client — author: less prone to money laundering.",
-      keyPoints: ["Murabaha without cost disclosure may be non-compliant."],
+      keyPoints: [
+        "Murabaha without cost disclosure may be non-compliant.",
+        "The author believes Islamic banks are less likely to be used for money laundering and terrorist financing because they must know the client’s business."
+      ],
       related: ["t9.3", "t3.3.1"],
-      quickCheck: { q: "Why may lack of transparency invalidate a Murabaha?", options: ["Murabaha requires disclosure of cost/price and payment mode", "Murabaha is a loan", "It creates Maisir", "It is not a sale"], answer: 0, explanation: "p. 83." }
+      quickCheck: { q: "Why may lack of transparency invalidate a Murabaha?", options: ["Murabaha requires disclosure of cost/price and payment mode", "Murabaha is a loan", "It creates Maisir", "It is not a sale"], answer: 0, explanation: "p. 83." },
+      confusions: [
+        { wrong: "Disclosure requirements for Islamic banks are the same as for conventional banks.", right: "They are stricter: lack of transparency on Murabaha cost and payment terms can make the transaction non-compliant, and banks must examine the nature of the client’s business (pp. 83–84)." }
+      ]
     },
     {
       id: "t4.2.9", section: "4.2.9", title: "Additional Risks Faced by Islamic Banks", pages: [84, 85], tier: "core",
@@ -212,29 +284,46 @@ IFL_DATA.registerChapter({
       ],
       table: { caption: "Where asset risk sits (Section 4.2.9)", head: ["Mode", "When the bank bears asset risk"], rows: [["Murabaha", "From purchase until onward sale to client"], ["Salam", "After taking delivery from the Salam seller"], ["Ijarah", "Throughout the lease (unless lessee negligence)"], ["Shirkah", "In proportion to share in ownership"]] },
       related: ["t9.10", "t10.10.1", "t10.11.11", "t11.3.5"],
-      quickCheck: { q: "In which mode may a bank include a clause reducing the price for delayed delivery (Shart-e-Jazai)?", options: ["Murabaha", "Salam", "Istisna‘a", "Ijarah"], answer: 2, explanation: "p. 85." }
+      quickCheck: { q: "In which mode may a bank include a clause reducing the price for delayed delivery (Shart-e-Jazai)?", options: ["Murabaha", "Salam", "Istisna‘a", "Ijarah"], answer: 2, explanation: "p. 85." },
+      examples: [
+        { title: "Khan and Habib survey (2001)", kind: "textbook", text: "A survey of 17 IFIs found bankers view risks from profit-sharing deposits as more serious than conventional risks, fear withdrawals if returns lag, and see PLS modes and Salam/Istisna as riskier than Murabaha and Ijarah (p. 84)." }
+      ]
     },
     {
       id: "t4.3", section: "4.3", title: "Debt versus Equity", pages: [85, 86], tier: "core",
       concepts: ["mode-preference"],
       intuition: "Are Murabaha and Ijarah second-class substitutes for ‘true’ Islamic finance? The author says the issue is preference, not prohibition.",
       simple: "Debt will always be part of Islamic finance — the Prophet (pbuh) himself took debts. The rule is that debt must not carry interest. Equity-based modes are preferable, but trade and Ijarah suit risk-averse savers (e.g. a widow). The aim is a healthy balance.",
-      academic: ["Islamic institutions create genuine debt through trading. The issue is not debt versus equity, but greater reliance on equity and subjecting debt to the rule that once created it should not increase on the basis of opportunity cost. Shirkah modes are not always usable or advisable given investors’ risk profiles — a widow may need low-risk, compliant investment in trade and Ijarah. Contrary to writers who say only Shirkah can replace interest, debt has always existed and will remain important; the issue is preference for equity over debt-creating modes, not the permissibility of the latter. The aim is a healthy balance; heavy reliance on debt is risky (the US example)."],
+      academic: [
+        "Islamic institutions create genuine debt through trading. The issue is not debt versus equity, but greater reliance on equity and subjecting debt to the rule that once created it should not increase on the basis of opportunity cost. Shirkah modes are not always usable or advisable given investors’ risk profiles — a widow may need low-risk, compliant investment in trade and Ijarah. Contrary to writers who say only Shirkah can replace interest, debt has always existed and will remain important; the issue is preference for equity over debt-creating modes, not the permissibility of the latter. The aim is a healthy balance; heavy reliance on debt is risky (the US example)."
+      ],
       exam: "Not debt vs equity but preference for equity with interest-free debt. Debt modes (Murabaha, Salam, Ijarah) remain valid tools; balance needed; risk-averse investors need trade/Ijarah.",
       keyPoints: ["Debt is permissible if it carries no interest.", "Preference, not prohibition."],
-      debate: [{ issue: "Should Islamic banks use only Shirkah-based modes?", criticism: "Many writers, following the pioneers, say Shirkah/equity modes are the only true alternative to interest.", response: "Debt has always existed; the Prophet (pbuh) incurred debts; the only condition is that debt carries no interest. The issue is preference for equity, not prohibition of debt modes.", alternative: "The minority/pioneer view that Islamic banking in letter and spirit means Shirkah-based transactions (noted in the Preface).", takeaway: "Use all permitted modes with a preference and balance towards equity, considering savers’ risk profiles." }],
+      debate: [
+        { issue: "Should Islamic banks use only Shirkah-based modes?", criticism: "Many writers, following the pioneers, say Shirkah/equity modes are the only true alternative to interest.", response: "Debt has always existed; the Prophet (pbuh) incurred debts; the only condition is that debt carries no interest. The issue is preference for equity, not prohibition of debt modes.", alternative: "The minority/pioneer view that Islamic banking in letter and spirit means Shirkah-based transactions (noted in the Preface).", takeaway: "Use all permitted modes with a preference and balance towards equity, considering savers’ risk profiles." }
+      ],
       related: ["t8.6", "t17.3.7"],
-      quickCheck: { q: "What is the author’s position on debt-creating modes?", options: ["They are prohibited", "They are permissible; equity modes are preferable but debt modes remain valid tools", "They should replace equity", "Only for governments"], answer: 1, explanation: "p. 86." }
+      quickCheck: { q: "What is the author’s position on debt-creating modes?", options: ["They are prohibited", "They are permissible; equity modes are preferable but debt modes remain valid tools", "They should replace equity", "Only for governments"], answer: 1, explanation: "p. 86." },
+      examples: [
+        { title: "The risk-averse widow", kind: "textbook", text: "A widow who cannot bear loss asks the bank to invest her money safely; as trustee the bank should use trade and Ijarah, which create debt — hence debt remains part of Islamic finance (pp. 85–86)." }
+      ],
+      confusions: [
+        { wrong: "Only equity-based (Shirkah) modes are genuine alternatives to interest.", right: "The author rejects this; debt has always existed (the Prophet borrowed), and the issue is that debt must not carry interest, with a preference for equity (p. 86)." }
+      ]
     },
     {
       id: "t4.4", section: "4.4", title: "Islamic Banking: Business versus Benevolence", pages: [86, 86], tier: "core",
       concepts: ["qard-hasan"],
       intuition: "Should an Islamic bank give interest-free loans to everyone? No — it manages depositors’ money as a trust.",
       simple: "It is a myth that Islamic banks should be charities giving free loans. Business and benevolence are separate. Banks hold depositors’ money in trust and must earn Halal returns through trade, leasing and services. They may lend free from their own equity or charity fund, but not at the cost of depositors.",
-      academic: ["Islamic banks do business like conventional banks while observing Shari’ah. The myth that they should be social security centres providing only return-free loans must be removed. Individuals may spend on benevolence from their own income, but banks holding depositors’ money in trust cannot dole it out. Middle-class savers’ funds are used by generally richer business groups; banks share income with fund owners. Return-free loans from the bank’s own equity or Charity Fund (with Shari’ah advisor approval) are possible but must not affect fiduciary duties. Social/welfare activities are possible but are not the normal course of business."],
+      academic: [
+        "Islamic banks do business like conventional banks while observing Shari’ah. The myth that they should be social security centres providing only return-free loans must be removed. Individuals may spend on benevolence from their own income, but banks holding depositors’ money in trust cannot dole it out. Middle-class savers’ funds are used by generally richer business groups; banks share income with fund owners. Return-free loans from the bank’s own equity or Charity Fund (with Shari’ah advisor approval) are possible but must not affect fiduciary duties. Social/welfare activities are possible but are not the normal course of business."
+      ],
       exam: "Business ≠ benevolence. Banks hold deposits in trust → trade, Ijarah, services. Free loans only from own equity/charity fund without harming fiduciary duties.",
       keyPoints: ["Middle-class deposits often fund richer businesses — giving them away free would be unjust to depositors."],
-      confusions: [{ wrong: "Islamic banks should provide cost-free money.", right: "Islamic banking is a business using savers’ funds; it does not mean cost-free money." }],
+      confusions: [
+        { wrong: "Islamic banks should provide cost-free money.", right: "Islamic banking is a business using savers’ funds; it does not mean cost-free money." }
+      ],
       related: ["t17.3.9", "t7.4"],
       quickCheck: { q: "Out of which funds may an Islamic bank give return-free loans?", options: ["Depositors’ investment funds at its discretion", "Its own equity or accumulated Charity Fund, with Shari’ah approval", "Current account balances", "None at all"], answer: 1, explanation: "p. 86." }
     },
@@ -256,9 +345,14 @@ IFL_DATA.registerChapter({
         "Promise-based forward cover only for real needs."
       ],
       table: { caption: "Exchange rules by asset type (Section 4.5)", head: ["Asset", "Rule"], rows: [["Goods, durables, shares in asset pools", "Market pricing; at least one counter-value spot"], ["Gold, silver, currencies (Athman)", "Bai‘ al Sarf: equal and spot (same); spot (different)"], ["Usufruct and services", "Rent/wages in advance, spot or deferred"], ["Loans/debts", "No premium or discount; not sold except to original debtor at face value"]] },
-      confusions: [{ wrong: "A currency forward contract can be structured as Salam.", right: "Paper money can only be a price; currency exchange needs simultaneous payment, so Salam in currencies is invalid." }],
+      confusions: [
+        { wrong: "A currency forward contract can be structured as Salam.", right: "Paper money can only be a price; currency exchange needs simultaneous payment, so Salam in currencies is invalid." }
+      ],
       related: ["t3.2.1.d", "t8.8.7", "t14.4.5"],
-      quickCheck: { q: "How can an Islamic bank provide forward cover in currencies to an importer, per Section 4.5?", options: ["A forward contract with one side deferred", "A promise to exchange at an agreed rate, with simultaneous actual exchange later, for real needs", "Salam in currency", "An option contract"], answer: 1, explanation: "p. 89." }
+      quickCheck: { q: "How can an Islamic bank provide forward cover in currencies to an importer, per Section 4.5?", options: ["A forward contract with one side deferred", "A promise to exchange at an agreed rate, with simultaneous actual exchange later, for real needs", "Salam in currency", "An option contract"], answer: 1, explanation: "p. 89." },
+      examples: [
+        { title: "Bank transfer across currencies (OIC 1995)", kind: "textbook", text: "When a bank debits one currency and credits another, a short customary delay before funds are available is allowed, but the beneficiary cannot deal in the currency until it is fully credited (pp. 87–88)." }
+      ]
     },
     {
       id: "t4.6", section: "4.6", title: "Time Value of Money in Islamic Finance", pages: [89, 90], tier: "core",
@@ -276,42 +370,74 @@ IFL_DATA.registerChapter({
         "Salam price is lower than spot price.",
         "Positive, not zero, time preference."
       ],
-      distinctions: [{ a: "Time value in pricing goods", b: "Time value on money/debts", text: "The first is permitted (credit price, Salam price); the second is Riba (interest, increasing a debt)." }],
+      distinctions: [
+        { a: "Time value in pricing goods", b: "Time value on money/debts", text: "The first is permitted (credit price, Salam price); the second is Riba (interest, increasing a debt)." }
+      ],
       related: ["t6.5.3", "t17.3.4", "t1.9"],
-      quickCheck: { q: "Under what condition may a credit price be higher than the cash price?", options: ["Never", "If one price is settled before the parties separate", "If interest is disclosed", "Only for governments"], answer: 1, explanation: "p. 89." }
+      quickCheck: { q: "Under what condition may a credit price be higher than the cash price?", options: ["Never", "If one price is settled before the parties separate", "If interest is disclosed", "Only for governments"], answer: 1, explanation: "p. 89." },
+      examples: [
+        { title: "Place and time affect price", kind: "textbook", text: "A good sold for 100 in a posh area may cost 50 in a middle-class area, or 100 in the morning and 50 in the evening; genuine market factors may likewise make a credit price higher and a Salam price lower than the spot price (p. 89)." }
+      ],
+      confusions: [
+        { wrong: "Islamic economics assumes a zero rate of time preference.", right: "The author says agents have a positive time preference, reflected through pricing of goods; there is no justification for assuming zero (p. 90)." }
+      ]
     },
     {
       id: "t4.7", section: "4.7", title: "Money, Monetary Policy and Islamic Finance", pages: [90, 90], tier: "supporting",
       concepts: ["money"],
       intuition: "Why does the role of money differ between conventional and Islamic finance?",
       simple: "Conventional finance treats money as a commodity that can be bought, sold and rented. Islamic finance treats money as a medium of exchange; the Prophet (pbuh) favoured money over barter, and the prohibition of Riba Al-Fadl supports the move to a money economy.",
-      academic: ["In the conventional system money is a commodity that can be sold, bought and rented regardless of its use by the borrower. In Islamic finance its status, role and functions differ, so the principles and operations differ. The advantages of money as a medium of exchange are conceded; the Prophet (pbuh) favoured money over barter, and prohibiting Riba Al-Fadl is a step towards a money economy, making barter rational and free from injustice."],
+      academic: [
+        "In the conventional system money is a commodity that can be sold, bought and rented regardless of its use by the borrower. In Islamic finance its status, role and functions differ, so the principles and operations differ. The advantages of money as a medium of exchange are conceded; the Prophet (pbuh) favoured money over barter, and prohibiting Riba Al-Fadl is a step towards a money economy, making barter rational and free from injustice."
+      ],
       exam: "Conventional: money = commodity to rent/sell. Islamic: money = medium of exchange; Riba Al-Fadl prohibition supports transition to money economy.",
-      keyPoints: ["Money is not a commodity for rent in Islamic finance."],
+      keyPoints: [
+        "Money is not a commodity for rent in Islamic finance.",
+        "The prohibition of Riba Al-Fadl encouraged the move from barter to a money economy."
+      ],
       related: ["t4.7.1", "t4.7.2"],
-      quickCheck: { q: "How does conventional finance treat money, according to the author?", options: ["Only as a medium of exchange", "As a commodity that can be sold, bought and rented", "As gold", "As Zakat"], answer: 1, explanation: "p. 90." }
+      quickCheck: { q: "How does conventional finance treat money, according to the author?", options: ["Only as a medium of exchange", "As a commodity that can be sold, bought and rented", "As gold", "As Zakat"], answer: 1, explanation: "p. 90." },
+      distinctions: [
+        { a: "Money in conventional finance", b: "Money in Islamic finance", text: "Conventionally money is a commodity that can be sold and rented for a return; in Islamic finance it is a medium of exchange and measure of value only (p. 90)." }
+      ]
     },
     {
       id: "t4.7.1", section: "4.7.1", title: "Status of Paper Money", pages: [91, 91], tier: "core",
       concepts: ["money", "bai-sarf"],
       intuition: "Do Riba rules for gold and silver apply to paper notes? Yes.",
       simple: "Paper money is Thaman — like gold and silver in the past — with no intrinsic value. It is subject to all Shari’ah rules on Riba, debts and Zakat. A $10 bill cannot be sold for $11. Different countries’ currencies are different species: exchange at any rate, but hand to hand.",
-      academic: ["Present fiat money is Thaman (a unit of account serving as price), wanted only for exchange and payments, with unlimited legal tender status. Paper money is subject to all Shari’ah tenets on Riba, debts and Zakat. Notes of the same currency exchange equal for equal; currencies of different countries are different species — no equality condition but Bai‘ al Sarf (hand to hand) applies. The Shariat Appellate Bench and the OIC Fiqh Council (3rd session, 1986) held paper money to be real money subject to the rules governing gold and silver for Riba, Zakat, Salam and all transactions."],
+      academic: [
+        "Present fiat money is Thaman (a unit of account serving as price), wanted only for exchange and payments, with unlimited legal tender status. Paper money is subject to all Shari’ah tenets on Riba, debts and Zakat. Notes of the same currency exchange equal for equal; currencies of different countries are different species — no equality condition but Bai‘ al Sarf (hand to hand) applies. The Shariat Appellate Bench and the OIC Fiqh Council (3rd session, 1986) held paper money to be real money subject to the rules governing gold and silver for Riba, Zakat, Salam and all transactions."
+      ],
       exam: "Paper money = Thaman, real money (OIC Fiqh Council 1986; SAB). Subject to Riba, Zakat, Sarf rules. Same currency: equal + spot; different currencies: spot.",
       keyPoints: ["$10 bill cannot be sold for $11.", "OIC Fiqh Council 1986 resolution."],
       related: ["t4.5", "t4.7.2"],
-      quickCheck: { q: "According to the OIC Fiqh Council (1986), paper money is:", options: ["A commodity with intrinsic value", "Real money subject to the rules governing gold and silver", "Exempt from Zakat", "Not subject to Riba rules"], answer: 1, explanation: "p. 91." }
+      quickCheck: { q: "According to the OIC Fiqh Council (1986), paper money is:", options: ["A commodity with intrinsic value", "Real money subject to the rules governing gold and silver", "Exempt from Zakat", "Not subject to Riba rules"], answer: 1, explanation: "p. 91." },
+      examples: [
+        { title: "A 10-dollar bill for 11", kind: "textbook", text: "A 10-dollar note cannot be sold for 11 because it represents pure money with no intrinsic value; notes of different countries are different species and may be exchanged unequally, but hand to hand (p. 91)." }
+      ],
+      confusions: [
+        { wrong: "Paper money has no intrinsic value, so Riba and Zakat rules for gold and silver do not apply.", right: "The SAB and the OIC Fiqh Council (1986) hold paper money is real money subject to all rules on Riba, Zakat and Salam (p. 91)." }
+      ]
     },
     {
       id: "t4.7.2", section: "4.7.2", title: "Trading in Currencies", pages: [91, 92], tier: "supporting",
       concepts: ["money", "forex"],
       intuition: "Why can’t money be traded like goods?",
       simple: "Money has no quality except being a measure of value and medium of exchange; all units of the same denomination are identical. So money of the same kind is not a subject of trade, and money-for-money exchanges must be equal. Most FX trading is speculative and destabilising; Al-Ghazali warned that interest deters real economic activity.",
-      academic: ["Shari’ah treats money differently from commodities: money of the same denomination is not the subject matter of trade, being restricted to its role as medium of exchange and measure of value; if exchanged or borrowed, payment on both sides must be equal. Taqi Usmani (SAB): commodities have different qualities and are identified, while all money units of the same denomination are equal. John Gray (False Dawn): FX transactions of about $1.2 trillion a day, over fifty times world trade, about 95% speculative, can disrupt the real economy (Barings, 1995). Imam Al-Ghazali: interest is prohibited because it prevents people from real economic activities."],
+      academic: [
+        "Shari’ah treats money differently from commodities: money of the same denomination is not the subject matter of trade, being restricted to its role as medium of exchange and measure of value; if exchanged or borrowed, payment on both sides must be equal. Taqi Usmani (SAB): commodities have different qualities and are identified, while all money units of the same denomination are equal. John Gray (False Dawn): FX transactions of about $1.2 trillion a day, over fifty times world trade, about 95% speculative, can disrupt the real economy (Barings, 1995). Imam Al-Ghazali: interest is prohibited because it prevents people from real economic activities."
+      ],
       exam: "Money not subject of trade (same denomination); exchange/borrowing must be equal. FX speculation destabilises; Al-Ghazali: interest deters real activity.",
-      keyPoints: ["All units of money of the same denomination are equal."],
+      keyPoints: [
+        "All units of money of the same denomination are equal.",
+        "Al-Ghazali: interest keeps people from real economic activity — trade, industry and construction."
+      ],
       related: ["t4.7.1", "t8.8.7"],
-      quickCheck: { q: "Which classical scholar is quoted as saying interest prevents people from undertaking real economic activities?", options: ["Ibn Khaldun", "Imam Al-Ghazali", "Ibn Taymiyah", "Shah Waliullah"], answer: 1, explanation: "p. 92." }
+      quickCheck: { q: "Which classical scholar is quoted as saying interest prevents people from undertaking real economic activities?", options: ["Ibn Khaldun", "Imam Al-Ghazali", "Ibn Taymiyah", "Shah Waliullah"], answer: 1, explanation: "p. 92." },
+      examples: [
+        { title: "The size of FX speculation", kind: "textbook", text: "John Gray noted foreign-exchange turnover of about $1.2 trillion a day — over fifty times world trade — with around 95% speculative; he cites the 1995 collapse of Barings (p. 92)." }
+      ]
     },
     {
       id: "t4.7.3", section: "4.7.3", title: "Creation of Money from the Islamic Perspective", pages: [92, 94], tier: "detailed",
@@ -328,11 +454,18 @@ IFL_DATA.registerChapter({
         "Three sources of monetary expansion to monitor.",
         "Monetary growth neither inadequate nor excessive.",
         "Debate: 100% reserve system vs permitted credit creation.",
-        "Interest, not credit creation per se, drives trade cycles (in this view)."
+        "Interest, not credit creation per se, drives trade cycles (in this view).",
+        "Three sources of monetary expansion to monitor: central-bank financing of deficits (the major one), secondary credit creation by banks, and exogenous factors.",
+        "Money supply should be neither “inadequate” nor “excessive”."
       ],
-      debate: [{ issue: "Should Islamic banks create credit?", criticism: "Early Islamic economists: credit money is morally wrong, creates artificial purchasing power; adopt 100% reserves and let the central bank issue extra money.", response: "Others: in an interest-free system, credit will be created only to the extent genuine profitable opportunities exist; credit is not ‘the child of interest’.", alternative: "Both sides agree interest is the villain; measured credit without interest may not harm the payment system.", takeaway: "The key issue is interest in the credit system, not credit creation as such." }],
+      debate: [
+        { issue: "Should Islamic banks create credit?", criticism: "Early Islamic economists: credit money is morally wrong, creates artificial purchasing power; adopt 100% reserves and let the central bank issue extra money.", response: "Others: in an interest-free system, credit will be created only to the extent genuine profitable opportunities exist; credit is not ‘the child of interest’.", alternative: "Both sides agree interest is the villain; measured credit without interest may not harm the payment system.", takeaway: "The key issue is interest in the credit system, not credit creation as such." }
+      ],
       related: ["t2.5.5", "t15.3", "t18.2"],
-      quickCheck: { q: "What does the author identify as the major source of monetary expansion?", options: ["Exports", "Financing government budget deficits by borrowing from the central bank", "Zakat", "Islamic bank deposits"], answer: 1, explanation: "p. 92." }
+      quickCheck: { q: "What does the author identify as the major source of monetary expansion?", options: ["Exports", "Financing government budget deficits by borrowing from the central bank", "Zakat", "Islamic bank deposits"], answer: 1, explanation: "p. 92." },
+      distinctions: [
+        { a: "100% reserve advocates", b: "Credit-creation supporters", text: "Early writers saw credit money as morally wrong and wanted full reserves; others argue credit is harmful only through interest, and under PLS banks would create credit only as far as productive profit opportunities exist (pp. 93–94)." }
+      ]
     },
     {
       id: "t4.7.4", section: "4.7.4", title: "Currency Rate Fluctuation and Settlement of Debts", pages: [94, 96], tier: "core",
@@ -350,10 +483,16 @@ IFL_DATA.registerChapter({
         "Due-date exchange rate applies if the debt currency is unavailable.",
         "Ijtihad does not operate where a Nass exists."
       ],
-      examples: [{ title: "Saudi Riyal debt", kind: "textbook", text: "A credit sale on 1 July creates a debt of SR 10 payable on 31 December. The buyer owes SR 10 whatever the Riyal’s value; if payment must be in Rupees, the 31 December exchange rate applies." }],
+      examples: [
+        { title: "Saudi Riyal debt", kind: "textbook", text: "A credit sale on 1 July creates a debt of SR 10 payable on 31 December. The buyer owes SR 10 whatever the Riyal’s value; if payment must be in Rupees, the 31 December exchange rate applies." },
+        { title: "Debt in Saudi Riyals", kind: "textbook", text: "A credit sale on 1 July creates a debt of SR 10 due 31 December. The buyer owes SR 10 whatever its value; if he must pay in Rupees, the rate of 31 December applies (p. 95)." }
+      ],
       calc: { type: "fx-settlement" },
       related: ["t7.17", "t3.2.1.c", "t11.3.2"],
-      quickCheck: { q: "A debt of SR 10 falls due on 31 December but must be paid in Rupees. Which exchange rate applies?", options: ["The rate on the contract date", "The rate on the due date (31 December)", "An inflation-adjusted rate", "Any rate the creditor chooses"], answer: 1, explanation: "p. 95." }
+      quickCheck: { q: "A debt of SR 10 falls due on 31 December but must be paid in Rupees. Which exchange rate applies?", options: ["The rate on the contract date", "The rate on the due date (31 December)", "An inflation-adjusted rate", "Any rate the creditor chooses"], answer: 1, explanation: "p. 95." },
+      confusions: [
+        { wrong: "Indexation of debts is a practical substitute for interest.", right: "Latin American indexation failed to control inflation; Justice Usmani notes a bank indexing both deposits and financing would earn nothing, and 2:279 allows only the principal (pp. 95–96)." }
+      ]
     }
   ],
   summary: "Islamic finance requires institutions and clients to follow Islamic jurisprudence, avoiding Riba, Gharar and Qimar. Not all gains on capital are prohibited — only increases stipulated over the principal of loans or debts. Profit is the reward of capital, but capital bears the risk of loss; transactions must be associated with goods, services or benefits. Islamic banks deal in goods, share risk and handle physical assets, facing unique risks. Currency exchange must follow the Sarf rules. Time value is recognised only in the pricing of sale and lease contracts: a credit price can exceed the cash price if fixed before finalisation, but a created debt cannot increase. Lending is a virtuous act, not a business; Islamic banking is a business, and while Shirkah modes are preferable, trade and lease modes are also permissible.",
@@ -393,7 +532,18 @@ IFL_DATA.registerChapter({
     { id: "f4.13", cat: "Exam facts", front: "OIC Fiqh Council 1986 on paper money", back: "Paper money is real money, possessing all characteristics of value, subject to rules governing gold and silver (Riba, Zakat, Salam, etc.).", topic: "t4.7.1" },
     { id: "f4.14", cat: "Exam facts", front: "OIC Fiqh Council 1988 on currency fluctuation", back: "A fixed debt is repaid in its own currency; it is not permitted to attach fixed debts to currency fluctuation.", topic: "t4.7.4" },
     { id: "f4.15", cat: "Banking", front: "Business vs benevolence", back: "Banks hold deposits in trust; they must do business (trade, Ijarah, services). Free loans only from own equity/charity fund without harming depositors.", topic: "t4.4" },
-    { id: "f4.16", cat: "Principles", front: "Debt vs equity — the author’s view", back: "Not a prohibition of debt modes but a preference for equity; aim for a healthy balance; debt must not carry interest.", topic: "t4.3" }
+    { id: "f4.16", cat: "Principles", front: "Debt vs equity — the author’s view", back: "Not a prohibition of debt modes but a preference for equity; aim for a healthy balance; debt must not carry interest.", topic: "t4.3" },
+    { id: "f4.17", cat: "Principles", front: "Loan vs investment — the government bond test", back: "Buying a bond or placing a conventional deposit is a financial transaction, not investment; investment requires real activity such as buying goods to sell at a profit.", topic: "t4.2" },
+    { id: "f4.18", cat: "Contract rules", front: "Security in PLS modes", back: "Can be taken only against non-performance, misconduct or negligence — not enforced for honest business loss.", topic: "t4.2.4" },
+    { id: "f4.19", cat: "Exam facts", front: "Hind bint Utbah precedent", back: "Borrowed 4,000 from the treasury to trade, lost it; Umar refused to waive the loan — debts are repaid regardless of business outcome.", topic: "t4.2.4" },
+    { id: "f4.20", cat: "Banking", front: "Wakalatul Istismar", back: "Investment agency: bank manages clients’ funds for a fixed fee; all profit/loss belongs to the clients.", topic: "t4.2.7" },
+    { id: "f4.21", cat: "Contract rules", front: "Parallel Salam — independence rule", back: "Must not be linked to or conditional on the first Salam; it must be honoured even if the first fails.", topic: "t4.2.7" },
+    { id: "f4.22", cat: "Risk", front: "Khan and Habib (2001) survey", back: "17 IFIs: PLS deposit risks seen as more serious; fear of withdrawal if returns lag; PLS and Salam/Istisna seen as riskier than Murabaha/Ijarah.", topic: "t4.2.9" },
+    { id: "f4.23", cat: "Contract rules", front: "Currency transfers (OIC 1995)", back: "A customary delay in crediting another currency is allowed, but the beneficiary cannot deal in it until fully credited.", topic: "t4.5" },
+    { id: "f4.24", cat: "Contract rules", front: "Why currency Salam is invalid", back: "Paper money is price, not a commodity; deferring the “commodity” currency means a deferred currency exchange, which requires spot settlement on both sides.", topic: "t4.5" },
+    { id: "f4.25", cat: "Principles", front: "Time preference in an Islamic economy", back: "Positive, reflected in pricing of goods (credit and Salam prices); no basis for assuming zero time preference.", topic: "t4.6" },
+    { id: "f4.26", cat: "Banking", front: "Three sources of monetary expansion", back: "Central-bank financing of deficits (major); secondary credit creation by banks; exogenous factors (e.g. capital inflows).", topic: "t4.7.3" },
+    { id: "f4.27", cat: "Exam facts", front: "Debt in a currency that becomes unavailable", back: "Pay its counter value at the rate on the due date (e.g. SR 10 due 31 December paid in Rupees at that date’s rate).", topic: "t4.7.4" }
   ],
   questions: [
     { id: "q4.1", type: "mcq", q: "Which of the following would count as ‘investment’ in the Islamic sense?", options: ["Purchasing a corporate bond", "A conventional fixed deposit", "Buying goods and selling them on at a profit", "Buying a promissory note at a discount"], answer: 2, explanation: "Investment must involve real activity (p. 74).", topic: "t4.2", diff: "E", level: "understanding", obj: "Distinguish loan from investment" },
@@ -408,13 +558,38 @@ IFL_DATA.registerChapter({
     { id: "q4.10", type: "comparison", q: "How does the bank’s net return in Ijarah differ from that in a credit sale?", options: ["Ijarah return is quasi-fixed because the bank bears asset risk and ownership expenses", "Both are fully fixed and risk-free", "Ijarah has unknown return like Musharakah", "Credit sale return is variable"], answer: 0, explanation: "p. 77.", topic: "t4.2.4", diff: "H", level: "analysis", obj: "Compare risk–return profiles" },
     { id: "q4.11", type: "scenario", q: "A widow asks an Islamic bank to invest her savings with low risk. Which view does the author support?", options: ["Only Musharakah is allowed", "The bank as trustee may invest her funds in trade- and Ijarah-based activities", "She must accept Mudarabah risk", "Islamic banks cannot help risk-averse savers"], answer: 1, explanation: "Section 4.3.", topic: "t4.3", diff: "M", level: "application", obj: "Apply mode preference" },
     { id: "q4.12", type: "short", q: "Explain why Islamic banks cannot provide return-free loans from depositors’ funds at their discretion.", answer: "Banks hold depositors’ money as a trust; business and benevolence are separate. Doling out trust funds would breach fiduciary duty to (mainly middle-class) depositors. Free loans may be given only from the bank’s own equity or charity fund with Shari’ah approval without affecting depositors.", keywords: ["trust", "fiduciary", "depositors", "equity", "charity"], explanation: "Section 4.4.", topic: "t4.4", diff: "M", level: "understanding", obj: "Explain business vs benevolence" },
-    { id: "q4.13", type: "order", q: "Put the steps of a bank Murabaha (as described in Section 4.2.7) in order.", items: ["Bank purchases goods directly or through an agent", "Bank takes ownership and bears the related risk", "Bank sells the goods to the client at cost plus profit", "Risk passes to the client, who pays at the settled time"], explanation: "p. 83.", topic: "t4.2.7", diff: "E", level: "understanding", obj: "Sequence trade-based financing" }
+    { id: "q4.13", type: "order", q: "Put the steps of a bank Murabaha (as described in Section 4.2.7) in order.", items: ["Bank purchases goods directly or through an agent", "Bank takes ownership and bears the related risk", "Bank sells the goods to the client at cost plus profit", "Risk passes to the client, who pays at the settled time"], explanation: "p. 83.", topic: "t4.2.7", diff: "E", level: "understanding", obj: "Sequence trade-based financing" },
+    { id: "q4.14", type: "comparison", q: "How does the author distinguish “interest-free banking” from “Islamic banking”?", options: ["They are identical", "Interest-free banking only avoids interest; Islamic banking also avoids Gharar and unethical practices and serves the goals of an Islamic economy", "Islamic banking allows some interest", "Interest-free banking is broader"], answer: 1, explanation: "p. 73.", topic: "t4.1", diff: "E", level: "understanding", obj: "Distinguish the two terms" },
+    { id: "q4.15", type: "tf", q: "Buying a government bond counts as “investment” in the Islamic sense.", answer: false, explanation: "It is a merely financial transaction with no real activity (p. 74).", topic: "t4.2", diff: "E", level: "understanding", obj: "Define investment in the Islamic context" },
+    { id: "q4.16", type: "multi", q: "Which activities does the prohibition of Gharar rule out for Islamic banks? (Select all.)", options: ["Speculative share trading", "Short-selling", "Discounting of bills", "Spot purchase of identified goods", "Trading in unidentified items"], answer: [0, 1, 2, 4], explanation: "p. 75.", topic: "t4.2.2", diff: "M", level: "understanding", obj: "Apply Gharar to banking activities" },
+    { id: "q4.17", type: "mcq", q: "In Table 4.1, which modes are classified as “liquid”?", options: ["Credit sales and Salam", "Ijarah and the sharing modes", "Istisna and Qard al Hasan", "Only Murabaha"], answer: 1, explanation: "Ijarah and sharing-mode assets can be sold in a secondary market; Murabaha, Salam and Istisna receivables cannot (pp. 77–78).", topic: "t4.2.4", diff: "M", level: "recall", obj: "Recall liquidity of modes" },
+    { id: "q4.18", type: "scenario", q: "In a Musharakah the business loses money through market conditions, with no negligence by the client. Can the bank enforce the client’s security to recover its capital?", options: ["Yes, always", "No — security in PLS covers only misconduct or negligence", "Yes, but only half", "Only if the loss exceeds 10%"], answer: 1, explanation: "p. 78.", topic: "t4.2.4", diff: "M", level: "application", obj: "Apply collateral rules in PLS" },
+    { id: "q4.19", type: "identify", q: "Which Caliph refused to waive a loan from the public treasury that a woman lost in trade?", options: ["Abu Bakr", "Umar", "Uthman", "Ali"], answer: 1, explanation: "Hind bint Utbah’s loan of 4,000 (pp. 76–77).", topic: "t4.2.4", diff: "M", level: "recall", obj: "Recall the Hind bint Utbah precedent" },
+    { id: "q4.20", type: "order", q: "Order the categories in Table 4.1 as the author presents them.", items: ["Debt-creating modes (Qard, credit sales, Salam, Istisna)", "Semi-debt modes (Ijarah)", "Sharing modes (Musharakah, Mudarabah)"], explanation: "p. 77.", topic: "t4.2.4", diff: "E", level: "recall", obj: "Recall the classification of modes" },
+    { id: "q4.21", type: "match", q: "Match each Fiqh benchmark to its meaning.", pairs: [["Ujratul-mithl", "Matching wage"], ["Ribh-al-mithl", "Matching rate of profit"], ["Qirad mithl", "Matching rate in Mudarabah"], ["Musaqat mithl", "Matching rate in crop sharing"]], explanation: "p. 80.", topic: "t4.2.5", diff: "M", level: "recall", obj: "Recall classical benchmarks" },
+    { id: "q4.22", type: "application", q: "A lessor argues: “Rent includes time value, so a fixed time value on a loan should also be allowed by analogy.” Why does the author reject this?", options: ["Rent is also prohibited", "Rent depends on the asset’s uncertain capacity to yield usufruct and the lessor bears ownership risk; a loan bears no such risk", "Loans are always long-term", "Analogy is never allowed"], answer: 1, explanation: "p. 79.", topic: "t4.2.5", diff: "H", level: "analysis", obj: "Evaluate the rent–interest analogy" },
+    { id: "q4.23", type: "tf", q: "According to the author, Islamic finance needs only one benchmark, like conventional finance.", answer: false, explanation: "Two: a price (mark-up/rent) scale for debt/semi-debt contracts and a sharing-ratio scale for equity contracts (p. 81).", topic: "t4.2.5", diff: "M", level: "recall", obj: "Recall the dual benchmark idea" },
+    { id: "q4.24", type: "scenario", q: "After a credit sale, the goods are destroyed in the buyer’s warehouse. The buyer had Takaful cover. What is his obligation to the bank?", options: ["He is released", "He must still pay the price at the settled time; Takaful only mitigates his own risk", "The bank shares the loss", "The debt is halved"], answer: 1, explanation: "p. 82.", topic: "t4.2.6", diff: "M", level: "application", obj: "Apply risk transfer in sale" },
+    { id: "q4.25", type: "comparison", q: "Why is Shirkah riskier for banks than Murabaha or Ijarah?", options: ["It has higher fees", "All business loss falls on capital and clients could disguise profits, so even the principal may be lost", "It is not permitted", "It lasts longer"], answer: 1, explanation: "p. 82.", topic: "t4.2.6", diff: "M", level: "analysis", obj: "Compare risk across modes" },
+    { id: "q4.26", type: "identify", q: "Under which arrangement does a bank manage clients’ funds for a fixed fee while all profit and loss belong to the clients?", options: ["Mudarabah", "Wakalatul Istismar", "Salam", "Kafalah"], answer: 1, explanation: "p. 83.", topic: "t4.2.7", diff: "M", level: "recall", obj: "Identify fee-based fund management" },
+    { id: "q4.27", type: "mcq", q: "Why does the author think Islamic banks are less likely to be used for money laundering?", options: ["They are smaller", "As partners in trade they must know the nature of the client’s business and avoid reputational risk", "They do not accept cash", "They are exempt from regulation"], answer: 1, explanation: "p. 84.", topic: "t4.2.8", diff: "M", level: "understanding", obj: "Explain due-diligence effects" },
+    { id: "q4.28", type: "application", q: "An Istisna manufacturer is late. Which clause may the bank use, which is not available in Murabaha?", options: ["A penalty paid to charity", "Shart-e-Jazai — a reduction in price for delayed delivery", "An interest charge", "Automatic cancellation"], answer: 1, explanation: "Istisna depends on the maker’s effort; in Murabaha and Salam the deferred liability is already fixed (p. 85).", topic: "t4.2.9", diff: "M", level: "application", obj: "Apply Shart-e-Jazai" },
+    { id: "q4.29", type: "tf", q: "The author argues that debt-creating modes such as Murabaha and Ijarah should be abandoned in favour of equity only.", answer: false, explanation: "The issue is preference for equity, not abandoning debt; debt must simply carry no interest (p. 86).", topic: "t4.3", diff: "E", level: "understanding", obj: "Understand the debt versus equity view" },
+    { id: "q4.30", type: "scenario", q: "A customer wants the Islamic bank to give him a return-free loan from depositors’ money. What should the bank say?", options: ["Yes, Islamic banks are charities", "Depositors’ money is a trust; return-free loans may come only from the bank’s own equity or charity fund with Shari’ah approval", "Only if he pays a fee", "Only for large amounts"], answer: 1, explanation: "p. 86.", topic: "t4.4", diff: "M", level: "application", obj: "Apply business versus benevolence" },
+    { id: "q4.31", type: "mcq", q: "What did the OIC Fiqh Council (1998) resolve on currency sales?", options: ["Deferred sale of currencies is allowed", "It is not permissible to sell currencies by deferred sale or to fix a future date for exchanging them", "Only USD may be deferred", "Currency Salam is allowed"], answer: 1, explanation: "p. 87.", topic: "t4.5", diff: "M", level: "recall", obj: "Recall the ruling on currency sales" },
+    { id: "q4.32", type: "tf", q: "Forward sale of currencies through Salam is a valid way to hedge FX risk.", answer: false, explanation: "Paper money is price, not a Salam commodity; currency exchange needs simultaneous delivery (p. 89).", topic: "t4.5", diff: "M", level: "understanding", obj: "Evaluate Salam in currencies" },
+    { id: "q4.33", type: "short", q: "How can a trader obtain forward cover for a real import payment in Islamic finance?", answer: "Through a promise with the bank to buy or sell a certain amount of currency at an agreed rate on a future date, for genuine trade needs and not speculation; the actual exchange of both currencies takes place simultaneously on that date.", keywords: ["promise", "agreed rate", "simultaneous", "real need"], explanation: "p. 89.", topic: "t4.5", diff: "M", level: "application", obj: "Explain permissible forward cover" },
+    { id: "q4.34", type: "identify", q: "Which contract illustrates time value through pricing, with the future-delivery price lower than the spot price?", options: ["Salam", "Hibah", "Qard", "Wadiah"], answer: 0, explanation: "p. 90.", topic: "t4.6", diff: "E", level: "recall", obj: "Identify time value in Salam" },
+    { id: "q4.35", type: "mcq", q: "Which body resolved in 1986 that paper money is real money subject to the rules of gold and silver?", options: ["AAOIFI", "OIC Islamic Fiqh Council", "IFSB", "State Bank of Pakistan"], answer: 1, explanation: "Third session, October 1986 (p. 91).", topic: "t4.7.1", diff: "E", level: "recall", obj: "Recall the ruling on paper money" },
+    { id: "q4.36", type: "multi", q: "Which are the three sources of monetary expansion regulators must monitor? (Select all.)", options: ["Central-bank financing of government deficits", "Secondary credit creation by commercial banks", "Exogenous factors such as capital inflows", "Zakat collection"], answer: [0, 1, 2], explanation: "pp. 92–93.", topic: "t4.7.3", diff: "M", level: "recall", obj: "Recall sources of monetary expansion" },
+    { id: "q4.37", type: "application", q: "An Ijarah agreement provides for rental revision. Inflation rises sharply. What may the bank do?", options: ["Index rentals already accrued", "Apply a higher rental to the remaining period as provided in the agreement, but not to rentals already due", "Increase the principal", "Nothing at all"], answer: 1, explanation: "p. 94.", topic: "t4.7.4", diff: "M", level: "application", obj: "Apply floating rates without indexation" }
   ],
   exam: [
     { id: "e4.1", kind: "long", q: "“All pre-fixed returns are not Riba.” Discuss with reference to sale, Hibah, loan and Ijarah.", structure: ["Introduce the nature-of-transaction test", "Bai‘: ownership, risk transfer; credit price; no re-pricing", "Hibah: free permanent transfer", "Loan/Riba al-Nasiah vs Qard al Hasan", "Ijarah: rent with ownership risk; why the rent–interest analogy fails", "Conclusion: fixed profit in trade/leasing; nothing over principal in loans/debts"], keyConcepts: ["Bai‘", "Ijarah", "Qard", "time value", "ownership risk"], points: ["Credit price vs cash price", "No Murabaha rollover", "Money cannot be leased", "Usufruct uncertain"], mistakes: ["Saying Islamic finance requires all returns to be variable"], topic: "t4.2.5" },
     { id: "e4.2", kind: "short", q: "Explain the maxim Al Kharaj bi-al-Daman and its implications for loans, sale and Ijarah.", structure: ["State the maxim", "Loans: no profit", "Trade: risk transfer on sale", "Ijarah: lessor bears ownership risk", "Risk mitigation vs elimination"], keyConcepts: ["Al Ghunm bil Ghurm", "ownership risk"], points: ["Cannot transfer risk without reward"], mistakes: ["Suggesting risk can be fully eliminated"], topic: "t4.2.6" },
     { id: "e4.3", kind: "difference", q: "Differentiate between conventional banks and Islamic banks in terms of what they deal in and the risks they bear.", structure: ["Conventional: money and documents", "Islamic: goods and assets", "Mode-by-mode risk", "Additional risks"], keyConcepts: ["asset risk", "Parallel Salam", "Wakalatul Istismar"], points: ["Banks deal in documents not goods (conventional)", "Islamic banks take ownership"], mistakes: ["Ignoring fee-based income rules"], topic: "t4.2.7" },
     { id: "e4.4", kind: "conceptual", q: "Does Islamic finance recognise the time value of money? Explain.", structure: ["Credit vs cash price consensus", "Salam price", "Spot exchange of money", "No time value on loans/debts", "Positive time preference"], keyConcepts: ["time value", "mark-up", "opportunity cost"], points: ["One price fixed before separation", "No addition after debt created"], mistakes: ["Claiming Islam denies time value entirely"], topic: "t4.6" },
-    { id: "e4.5", kind: "viva", q: "Can an Islamic bank index a Murabaha receivable to inflation?", structure: ["No — Nass 2:279", "OIC 1988", "Floating only for future periods in Ijarah"], keyConcepts: ["indexation"], points: ["Due-date exchange rule"], mistakes: ["Confusing floating Ijarah rent for future periods with indexation of accrued debt"], topic: "t4.7.4" }
+    { id: "e4.5", kind: "viva", q: "Can an Islamic bank index a Murabaha receivable to inflation?", structure: ["No — Nass 2:279", "OIC 1988", "Floating only for future periods in Ijarah"], keyConcepts: ["indexation"], points: ["Due-date exchange rule"], mistakes: ["Confusing floating Ijarah rent for future periods with indexation of accrued debt"], topic: "t4.7.4" },
+    { id: "e4.6", kind: "long", q: "Explain the status of money in Islamic finance. How does it affect currency trading, money creation and the settlement of debts?", structure: ["Money as Thaman: medium of exchange and measure of value", "Paper money rulings (SAB; OIC 1986)", "Currency trading: Bai‘ al Sarf; OIC 1998; forward cover by promise", "Money creation: real-asset basis; sources of expansion; credit debate", "Debt settlement: no indexation; OIC 1988; unavailable currency rule"], keyConcepts: ["Thaman", "Bai‘ al Sarf", "derivative deposits", "indexation", "OIC Fiqh Council"], points: ["Same currency: equal and spot", "Different currencies: spot, any rate", "Money supply neither excessive nor inadequate", "Debts repaid in the same currency and amount"], mistakes: ["Treating currency as a Salam commodity", "Allowing indexation of accrued debt", "Confusing floating rentals with indexation"], topic: "t4.7.1" }
   ]
 });

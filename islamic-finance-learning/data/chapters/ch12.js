@@ -80,7 +80,9 @@ IFL_DATA.registerChapter({
       ],
       exam: "Shirkatulmilk: joint ownership (optional — purchase/gift/bequest; compulsive — inheritance/mixing). Not for profit; co-owners not agents; may sell own share; can charge rent to the co-owner using the property; revenue by ownership ratio.",
       keyPoints: ["Rent may be charged to the co-owner who uses the property.", "Revenue always follows ownership proportion."],
-      definitions: [{ term: "Shirkatulmilk", meaning: "Partnership in ownership — joint ownership of property arising by choice or compulsion, not basically for profit sharing." }],
+      definitions: [
+        { term: "Shirkatulmilk", meaning: "Partnership in ownership — joint ownership of property arising by choice or compulsion, not basically for profit sharing." }
+      ],
       related: ["t12.8", "t12.9.2"],
       quickCheck: { q: "In Shirkatulmilk, are the co-owners agents of each other?", options: ["Yes, always", "No — each is a stranger in respect of the other's share", "Only if they are relatives", "Only in inheritance cases"], answer: 1, explanation: "p. 309." }
     },
@@ -111,17 +113,7 @@ IFL_DATA.registerChapter({
         { term: "Shirkatul Wujooh", meaning: "Partnership in creditworthiness: joint purchase on credit and sale on joint account with agreed liability ratios." },
         { term: "Shirkah al-Mufawadah", meaning: "Universal partnership requiring equality in property, privileges and religious persuasion; supported only by Hanafi jurists." }
       ],
-      table: {
-        caption: "Kinds of contractual partnership (Section 12.2.2)",
-        head: ["Kind", "Subject matter", "Juristic status (as described)"],
-        rows: [
-          ["Shirkatulamwal / ‘Inan", "Capital of partners", "Consensus of all jurists"],
-          ["Shirkatula‘mal", "Labour, skill, services", "Recognised (examples: doctors, teachers)"],
-          ["Shirkatul Wujooh", "Creditworthiness", "Valid for Hanafi/Hanbali; Maliki conditional; Shafi‘i unlawful"],
-          ["Mufawadah", "Everything equally", "Hanafi only; practically nonexistent"],
-          ["Mudarabah", "Capital of one, labour of other", "Consensus of all jurists"]
-        ]
-      },
+      table: { caption: "Kinds of contractual partnership (Section 12.2.2)", head: ["Kind", "Subject matter", "Juristic status (as described)"], rows: [["Shirkatulamwal / ‘Inan", "Capital of partners", "Consensus of all jurists"], ["Shirkatula‘mal", "Labour, skill, services", "Recognised (examples: doctors, teachers)"], ["Shirkatul Wujooh", "Creditworthiness", "Valid for Hanafi/Hanbali; Maliki conditional; Shafi‘i unlawful"], ["Mufawadah", "Everything equally", "Hanafi only; practically nonexistent"], ["Mudarabah", "Capital of one, labour of other", "Consensus of all jurists"]] },
       related: ["t12.3", "t12.4"],
       quickCheck: { q: "In Shirkah al ‘Inan, a partner is:", options: ["Agent and surety of the others", "Agent but not surety (Wakil, not Kafil)", "Neither agent nor surety", "Surety only"], answer: 1, explanation: "p. 310 and p. 315." }
     },
@@ -130,7 +122,9 @@ IFL_DATA.registerChapter({
       concepts: ["musharakah"],
       intuition: "Which rules turn a joint venture into a valid Musharakah?",
       simple: "The chapter's rules concern a general partnership with joint capital (Shirkatulamwal-cum-‘Inan). All the conditions of any valid contract — free consent without deception, misrepresentation or duress — apply, plus specific rules on partners, capital, management, profit and loss, guarantees and termination.",
-      academic: ["Rules discussed relate mainly to Shirkatulamwal-cum-Shirkah al ‘Inan. General contract conditions (free consent, no deception, misrepresentation or duress) must be met, together with the specific conditions in Sections 12.3.1–12.3.6."],
+      academic: [
+        "Rules discussed relate mainly to Shirkatulamwal-cum-Shirkah al ‘Inan. General contract conditions (free consent, no deception, misrepresentation or duress) must be met, together with the specific conditions in Sections 12.3.1–12.3.6."
+      ],
       exam: "Musharakah rules: general valid-contract conditions + rules on partners, capital, management, P&L, guarantees, termination.",
       keyPoints: ["Six rule areas: partners, capital, management, profit/loss, guarantees, termination."],
       related: ["t12.3.1", "t12.3.2", "t12.3.3", "t12.3.4", "t12.3.5", "t12.3.6"],
@@ -206,33 +200,19 @@ IFL_DATA.registerChapter({
         "Drawings on account are adjusted against final profit or capital.",
         "Box 12.1: provisional profit allowed; reserves allowed; cap on one partner's share allowed; receivables valued at cash value without time value."
       ],
-      definitions: [{ term: "Sleeping partner", meaning: "A partner who expressly declares he will not work; under the Hanafi view his profit share cannot exceed his capital ratio." }],
+      definitions: [
+        { term: "Sleeping partner", meaning: "A partner who expressly declares he will not work; under the Hanafi view his profit share cannot exceed his capital ratio." }
+      ],
       principles: ["Profit is based on agreement of the parties, but loss is always subject to the ratio of investment."],
-      table: {
-        caption: "Box 12.1 — Rules on sharing profit and loss in Shirkah (condensed)",
-        head: ["#", "Rule"],
-        rows: [
-          ["P1", "Ratio or basis for sharing profit decided at the beginning"],
-          ["P2", "Profit as percentage of net earnings — not a sum of money or % of capital"],
-          ["P3", "Profit share need not be proportionate to capital"],
-          ["P4", "A sleeping partner cannot take more than his capital %; a non-sleeping partner may, even if he did not work"],
-          ["P5", "Ratio may be changed later; a partner may surrender part of his profit at distribution"],
-          ["P6", "A partner may cap his profit, giving the excess to others"],
-          ["P7", "Final allocation cannot rest on expected profit; provisional profit allowed subject to settlement"],
-          ["P8", "Rental distributed from a leased asset is on account, subject to final settlement"],
-          ["P9", "Part of profit may be retained for reserves"],
-          ["P10", "Different formulas for periods or profit levels allowed if no partner is excluded from profit"],
-          ["P11", "Allocation on actual or constructive liquidation; receivables at cash value, no time value or discount"],
-          ["L1", "Loss shared in proportion to investment"],
-          ["L2", "AAOIFI: a partner may take on a loss at the time of loss, without prior condition"]
-        ]
-      },
+      table: { caption: "Box 12.1 — Rules on sharing profit and loss in Shirkah (condensed)", head: ["#", "Rule"], rows: [["P1", "Ratio or basis for sharing profit decided at the beginning"], ["P2", "Profit as percentage of net earnings — not a sum of money or % of capital"], ["P3", "Profit share need not be proportionate to capital"], ["P4", "A sleeping partner cannot take more than his capital %; a non-sleeping partner may, even if he did not work"], ["P5", "Ratio may be changed later; a partner may surrender part of his profit at distribution"], ["P6", "A partner may cap his profit, giving the excess to others"], ["P7", "Final allocation cannot rest on expected profit; provisional profit allowed subject to settlement"], ["P8", "Rental distributed from a leased asset is on account, subject to final settlement"], ["P9", "Part of profit may be retained for reserves"], ["P10", "Different formulas for periods or profit levels allowed if no partner is excluded from profit"], ["P11", "Allocation on actual or constructive liquidation; receivables at cash value, no time value or discount"], ["L1", "Loss shared in proportion to investment"], ["L2", "AAOIFI: a partner may take on a loss at the time of loss, without prior condition"]] },
       calc: { type: "musharakah-pl", note: "Practice calculator: enter each partner's capital, agreed profit ratio and the venture's result; profit follows the agreed ratio while any loss follows capital. Generated for learning." },
       examples: [
         { title: "40% investor taking 50% of profit", kind: "textbook", text: "A partner contributing 40% of capital may be allotted 50% of profit, provided he has not declared himself a sleeping partner (p. 316)." },
         { title: "Loss split", kind: "practice", text: "A invests 600,000 and B 400,000; profit ratio 50:50. If the venture loses 100,000, A bears 60,000 and B 40,000 — the profit ratio is irrelevant to loss. (Practice example — generated for learning.)" }
       ],
-      confusions: [{ wrong: "Loss can be shared in the same ratio as profit if partners agree.", right: "Loss must follow the capital ratio; only profit follows agreement." }],
+      confusions: [
+        { wrong: "Loss can be shared in the same ratio as profit if partners agree.", right: "Loss must follow the capital ratio; only profit follows agreement." }
+      ],
       related: ["t12.4.4", "t8.5.2"],
       quickCheck: { q: "A and B invest 70:30 and agree to share profit 50:50. The venture makes a loss of 10,000. B bears:", options: ["5,000", "3,000", "7,000", "Nothing"], answer: 1, explanation: "Loss follows capital: 30% × 10,000 = 3,000 (p. 317)." }
     },
@@ -281,11 +261,7 @@ IFL_DATA.registerChapter({
         "Mudarabah is a contract of fidelity: the Mudarib is not liable for normal business loss, but is liable for breach of trust, misconduct and negligence; a guarantee may be taken but enforced only for negligence or breach of stipulated conditions."
       ],
       exam: "Mudarabah: capital from Rabbul-mal, work from Mudarib; profit by agreed ratio; loss on capital owner only (Mudarib loses effort). No fixed amount/% of capital. Void → Ujratul-mithl. Mudarib = trustee, agent, partner, liable for negligence/breach.",
-      keyPoints: [
-        "Qirad/Muqaradah = Mudarabah.",
-        "Sub-Mudarabah only with permission.",
-        "Guarantee from Mudarib enforceable only for negligence or breach."
-      ],
+      keyPoints: ["Qirad/Muqaradah = Mudarabah.", "Sub-Mudarabah only with permission.", "Guarantee from Mudarib enforceable only for negligence or breach."],
       definitions: [
         { term: "Mudarabah", meaning: "Partnership in which one party provides capital and the other manages; profit shared as agreed, loss borne by the capital provider." },
         { term: "Rabbul-mal", meaning: "The capital owner/financier in Mudarabah." },
@@ -347,13 +323,9 @@ IFL_DATA.registerChapter({
       ],
       exam: "Majority/AAOIFI: financier cannot work, only supervise. Hanbali (and some Hanafi): may work. Author: parties may agree an investor role in present circumstances.",
       keyPoints: ["Author's view is presented as his own reasoning."],
-      debate: [{
-        issue: "May the Rabbul-mal work in the Mudarabah business?",
-        criticism: "Majority classical view (and AAOIFI): no — it undermines the Mudarib's discretion.",
-        response: "Hanbali and some Hanafi jurists allow it; the author argues that where the financier has skill, the prohibition is not understandable and personal involvement can promote honesty and efficiency.",
-        alternative: "Leave it to the parties' agreement, while preserving the Mudarib's independence in normal conduct of business.",
-        takeaway: "Know both positions and attribute the permissive position to Hanbalis and the author's reasoning, not to consensus."
-      }],
+      debate: [
+        { issue: "May the Rabbul-mal work in the Mudarabah business?", criticism: "Majority classical view (and AAOIFI): no — it undermines the Mudarib's discretion.", response: "Hanbali and some Hanafi jurists allow it; the author argues that where the financier has skill, the prohibition is not understandable and personal involvement can promote honesty and efficiency.", alternative: "Leave it to the parties' agreement, while preserving the Mudarib's independence in normal conduct of business.", takeaway: "Know both positions and attribute the permissive position to Hanbalis and the author's reasoning, not to consensus." }
+      ],
       related: ["t12.5"],
       quickCheck: { q: "According to the majority of classical jurists, the Rabbul-mal:", options: ["Must work alongside the Mudarib", "May not work but may oversee the Mudarib's fiduciary duties", "Must manage the business", "Has no rights at all"], answer: 1, explanation: "p. 325." }
     },
@@ -374,7 +346,9 @@ IFL_DATA.registerChapter({
       ],
       exam: "Profit ratio agreed at contract, no lump sum; loss = capital erosion, borne by financier; profit only after capital intact; distribution on actual/constructive liquidation; reserves allowed; no salary for Mudarib (except limited expenses); separate fee agreement allowed.",
       keyPoints: ["Capital must be kept whole before profit exists.", "Profit ceiling arrangements allowed."],
-      confusions: [{ wrong: "A Mudarib earns a salary plus a share of profit.", right: "He earns only his agreed share; any extra-customary job needs a separate, independent agreement." }],
+      confusions: [
+        { wrong: "A Mudarib earns a salary plus a share of profit.", right: "He earns only his agreed share; any extra-customary job needs a separate, independent agreement." }
+      ],
       related: ["t12.3.4", "t8.5.2"],
       quickCheck: { q: "A Mudarabah earns 30,000 on one deal and loses 20,000 on another in the same period. What is distributable profit?", options: ["30,000", "10,000", "50,000", "None"], answer: 1, explanation: "Profits first offset losses; the remainder is shared (pp. 326–327)." }
     },
@@ -409,19 +383,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Seven differences: capital source; management; loss; liability (unlimited vs limited); distribution timing; ownership/appreciation; valuation on dissolution.",
       keyPoints: ["Most-asked comparison in the chapter."],
-      table: {
-        caption: "Musharakah vs Mudarabah (Section 12.5)",
-        head: ["Point", "Musharakah", "Mudarabah"],
-        rows: [
-          ["Capital", "All partners", "Rabbul-mal only (not the Mudarib)"],
-          ["Management", "All partners may work", "Mudarib manages; Rabbul-mal oversees"],
-          ["Loss", "By capital ratio", "Rabbul-mal only (Mudarib if negligent)"],
-          ["Liability", "Normally unlimited", "Rabbul-mal limited to investment"],
-          ["Profit distribution", "Periodic by valuation", "Final after liquidation; on-account allowed"],
-          ["Assets & appreciation", "Jointly owned; appreciation shared", "Owned by Rabbul-mal; Mudarib gains only on sale"],
-          ["Dissolution", "Money valuation not necessary", "Assets valued in money first"]
-        ]
-      },
+      table: { caption: "Musharakah vs Mudarabah (Section 12.5)", head: ["Point", "Musharakah", "Mudarabah"], rows: [["Capital", "All partners", "Rabbul-mal only (not the Mudarib)"], ["Management", "All partners may work", "Mudarib manages; Rabbul-mal oversees"], ["Loss", "By capital ratio", "Rabbul-mal only (Mudarib if negligent)"], ["Liability", "Normally unlimited", "Rabbul-mal limited to investment"], ["Profit distribution", "Periodic by valuation", "Final after liquidation; on-account allowed"], ["Assets & appreciation", "Jointly owned; appreciation shared", "Owned by Rabbul-mal; Mudarib gains only on sale"], ["Dissolution", "Money valuation not necessary", "Assets valued in money first"]] },
       related: ["t12.3", "t12.4"],
       quickCheck: { q: "In which contract is the financier's liability normally limited to his investment?", options: ["Musharakah", "Mudarabah", "Both", "Neither"], answer: 1, explanation: "p. 328." }
     },
@@ -442,11 +404,7 @@ IFL_DATA.registerChapter({
         "Liquidity rule: shares whose capital is still liquid trade only at face value (else money-for-money = Riba); once assets are nonliquid, any price. For mixed assets: Shafi‘i classical — separate sale; Hanafi — price must exceed liquid assets; most contemporary scholars require nonliquid assets above 50% (some 33%)."
       ],
       exam: "Company = ‘Inan/Musharakah–Mudarabah with limited liability; exit by sale; preference shares and profit-redeemed shares non-compliant; trade Halal shares with purification; liquid-capital shares at par only; mixed assets: >50% (or 33%) nonliquid; no short-selling; underwriting without fee (other services can be charged).",
-      keyPoints: [
-        "Preference shares: non-compliant.",
-        "Underwriting commitment itself is not a paid service.",
-        "Links to Chapter 8 screening rules."
-      ],
+      keyPoints: ["Preference shares: non-compliant.", "Underwriting commitment itself is not a paid service.", "Links to Chapter 8 screening rules."],
       related: ["t8.8.2", "t15.3.6"],
       quickCheck: { q: "A company's assets are still entirely cash just after its IPO. Its shares can be traded:", options: ["At any price", "Only at face value", "Not at all", "At a discount only"], answer: 1, explanation: "Trading liquid money at a different price would be Riba (p. 330)." }
     },
@@ -455,7 +413,9 @@ IFL_DATA.registerChapter({
       concepts: ["shirkah"],
       intuition: "Where does Shirkah appear in a modern financial system?",
       simple: "Musharakah and Mudarabah can be used on both the liabilities and assets sides: corporate firms, mutual funds, Mudarabah companies, fund-managed portfolios, participation certificates, Musharakah agreements, project finance, running Musharakah, investment certificates and Diminishing Musharakah. A combination of Shirkatulamwal and Shirkatula‘mal suits modern service firms in medicine, law, IT and architecture.",
-      academic: ["The principles allow a system that conforms to Shari’ah and meets business needs on both sides of the balance sheet (Sections 12.7.1–12.7.3)."],
+      academic: [
+        "The principles allow a system that conforms to Shari’ah and meets business needs on both sides of the balance sheet (Sections 12.7.1–12.7.3)."
+      ],
       exam: "Shirkah applications: deposits (Mudarabah pools), assets (trade, project, running Musharakah, DM), securitisation (TFCs, Sukuk), service firms (Amwal + A‘mal).",
       keyPoints: ["Service firms: combination of capital and labour partnership."],
       related: ["t12.7.1", "t12.7.2", "t12.7.3"],
@@ -547,15 +507,14 @@ IFL_DATA.registerChapter({
         "For trade DM the financier must sell at valuation at each sale (or let the client sell elsewhere with a fixed offer), which does not reduce equity well — so DM is feasible mainly for fixed/leasable assets."
       ],
       exam: "DM = partnership + (lease) + periodic sale of units; separate contracts; Musha‘a leased to co-owner. Shirkatul‘aqd DM: price at market/at-time value only. Shirkatulmilk DM: pre-agreed price schedule allowed. Feasible mainly for leasable fixed assets.",
-      keyPoints: [
-        "Crucial difference: pre-agreed price allowed only in Shirkatulmilk DM.",
-        "Lease/sale to co-partners avoids the third-party dispute."
-      ],
+      keyPoints: ["Crucial difference: pre-agreed price allowed only in Shirkatulmilk DM.", "Lease/sale to co-partners avoids the third-party dispute."],
       definitions: [
         { term: "Diminishing Musharakah", meaning: "Partnership in which one partner's share is gradually purchased by the other through periodic unit sales, often combined with lease of the financier's share." },
         { term: "Musha‘a", meaning: "Undivided joint ownership in which each co-owner owns every part of the property pro rata." }
       ],
-      distinctions: [{ a: "DM in Shirkatul‘aqd", b: "DM in Shirkatulmilk", text: "Contractual (trade) DM needs a profit ratio and forbids a pre-agreed unit price; ownership DM needs no profit ratio, uses rent on the financier's share, and allows a pre-agreed price schedule." }],
+      distinctions: [
+        { a: "DM in Shirkatul‘aqd", b: "DM in Shirkatulmilk", text: "Contractual (trade) DM needs a profit ratio and forbids a pre-agreed unit price; ownership DM needs no profit ratio, uses rent on the financier's share, and allows a pre-agreed price schedule." }
+      ],
       related: ["t12.9", "t12.2.1", "t5.5.5"],
       quickCheck: { q: "In which form of Diminishing Musharakah may the client promise to buy the bank's units at a pre-agreed price?", options: ["Shirkatul‘aqd (trade)", "Shirkatulmilk (joint ownership, e.g. housing)", "Neither", "Both"], answer: 1, explanation: "p. 338." }
     },
@@ -564,10 +523,16 @@ IFL_DATA.registerChapter({
       concepts: ["diminishing-musharakah"],
       intuition: "How does DM finance a house step by step?",
       simple: "DM can finance houses, autos, plant, machinery and buildings. For housing, joint ownership is created, the financier leases its undivided share to the client, and the client pays rent and periodically buys units, so rent falls. Three independent contracts in sequence: (1) joint ownership with the client's promise to purchase; (2) lease of the bank's units; (3) periodic purchase of units. Commercial assets may involve no lease.",
-      academic: ["The modus operandi approved by scholars requires each contract to be independent of the other two; the promise may be given before or after the lease agreement."],
+      academic: [
+        "The modus operandi approved by scholars requires each contract to be independent of the other two; the promise may be given before or after the lease agreement."
+      ],
       exam: "DM uses: house, auto, plant/machinery, building. Sequence: joint ownership + promise → lease of bank's share → periodic purchase; rent decreases.",
       keyPoints: ["Rent is charged only on the bank's outstanding units."],
-      steps: ["Create joint ownership (client promises to purchase bank's share)", "Bank leases its units to the client", "Client purchases units periodically; rent falls accordingly"],
+      steps: [
+        "Create joint ownership (client promises to purchase bank's share)",
+        "Bank leases its units to the client",
+        "Client purchases units periodically; rent falls accordingly"
+      ],
       related: ["t12.9.2", "t11.5"],
       quickCheck: { q: "As the client buys the bank's units in housing DM, the rent:", options: ["Increases", "Decreases", "Stays constant", "Is paid to the client"], answer: 1, explanation: "p. 339." }
     },
@@ -576,7 +541,9 @@ IFL_DATA.registerChapter({
       concepts: ["diminishing-musharakah"],
       intuition: "Why can't the entrepreneur be bound to buy the bank out?",
       simple: "Without a lease, two partners (e.g. 40:60) agree that one partner's units are sold periodically to the other. As this is for profit, the unit price cannot be fixed in the promise; it must be based on valuation (by experts agreed at the promise) at each purchase, with offer and acceptance at each sale. Per OIC Fiqh Academy Resolution No. 2 and IRTI research, the promise can be binding only on the financier, at market prices at the time of sale.",
-      academic: ["After joint ownership, the bank may give a one-sided binding promise to sell units periodically at prices determined at the time, and to reduce the rent of remaining units accordingly; the entrepreneur buys voluntarily at market price or a freely agreed price."],
+      academic: [
+        "After joint ownership, the bank may give a one-sided binding promise to sell units periodically at prices determined at the time, and to reduce the rent of remaining units accordingly; the entrepreneur buys voluntarily at market price or a freely agreed price."
+      ],
       exam: "Trade DM: no fixed unit price; valuation at each purchase; sale by offer/acceptance; binding promise only on the financier (OIC Fiqh Academy Res. 2, IRTI).",
       keyPoints: ["Client's purchase is voluntary in trade DM."],
       related: ["t12.8", "t12.3.6"],
@@ -601,7 +568,13 @@ IFL_DATA.registerChapter({
         "Valuation on bulk purchase, bank shares appreciation up to ~3–4%.",
         "Floating rent needs floor and cap."
       ],
-      steps: ["Musharakah agreement — joint ownership (sale and lease-back if client holds title)", "Rent agreement for the bank's undivided share (Ijarah rules)", "Unilateral undertaking to purchase units (price schedule in Shirkatulmilk) and security", "Monthly: rent on outstanding units + purchase of one unit", "Title transfers after final unit"],
+      steps: [
+        "Musharakah agreement — joint ownership (sale and lease-back if client holds title)",
+        "Rent agreement for the bank's undivided share (Ijarah rules)",
+        "Unilateral undertaking to purchase units (price schedule in Shirkatulmilk) and security",
+        "Monthly: rent on outstanding units + purchase of one unit",
+        "Title transfers after final unit"
+      ],
       calc: { type: "dm-schedule", note: "Reproduces Box 12.5: cost 1.0m, bank 80%, 120 months, 7% rent → first payment 11,333.33; change the inputs to generate a full schedule (variants are practice examples)." },
       examples: [
         { title: "Box 12.5 housing DM", kind: "textbook", text: "Bank share 800,000 in 120 units of 6,666.67; month 1 rent 800,000 × 7% / 12 = 4,666.67; total 11,333.33; month 120 rent 38.89; total 6,705.56 (pp. 341–342)." },

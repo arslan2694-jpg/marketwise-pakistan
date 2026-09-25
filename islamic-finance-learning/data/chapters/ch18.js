@@ -23,7 +23,9 @@ IFL_DATA.registerChapter({
       concepts: ["fictitious-assets", "money-creation"],
       intuition: "What does the author believe is the root cause of today's financial problems?",
       simple: "The author believes socio-economic problems stem from unbridled creation of fictitious assets (especially reserve currencies), unhindered market forces driven by individual ‘sovereignty’ and unfettered self-interest, and an interest-based financial system. The solution: discipline money creation, balance self-interest with social interest and ethics, and free finance from exploitation and chance. The chapter gives (1) macro policy measures to phase out fictitious asset creation and (2) ways to develop Islamic finance sustainably.",
-      academic: ["The author cites wars financed by deficit financing and reserve-money creation as an example of the harm of easy fictitious money (e.g. projected Iraq War costs)."],
+      academic: [
+        "The author cites wars financed by deficit financing and reserve-money creation as an example of the harm of easy fictitious money (e.g. projected Iraq War costs)."
+      ],
       exam: "Diagnosis: fictitious assets + self-interest + interest. Remedy: discipline money creation, ethics, exploitation-free finance. Two-part agenda.",
       keyPoints: ["Links back to the thesis of Chapter 1."],
       related: ["t1.1", "t4.7"],
@@ -41,7 +43,13 @@ IFL_DATA.registerChapter({
       ],
       exam: "Five international measures: multiple reserve currencies (OIC; new Bretton Woods); money creation matched to real assets (Sukuk principles); replace loan-based finance; honest aid; ethical/religious appeal.",
       keyPoints: ["The prohibition of Riba in all revealed religions enhances appeal."],
-      steps: ["Diversify reserve currencies (regional/OIC currency)", "Match money and credit creation to real-sector growth", "Replace loan-based finance with investment and project finance", "Make aid tangible and corruption-free", "Promote Islamic finance as ethical banking to all"],
+      steps: [
+        "Diversify reserve currencies (regional/OIC currency)",
+        "Match money and credit creation to real-sector growth",
+        "Replace loan-based finance with investment and project finance",
+        "Make aid tangible and corruption-free",
+        "Promote Islamic finance as ethical banking to all"
+      ],
       related: ["t18.2.1", "t4.7"],
       quickCheck: { q: "Which forum does the author suggest could develop a widely acceptable regional reserve currency?", options: ["The IMF", "The OIC", "The WTO", "The FSA"], answer: 1, explanation: "p. 458." }
     },
@@ -50,7 +58,10 @@ IFL_DATA.registerChapter({
       concepts: ["policy", "public-finance", "benchmark"],
       intuition: "Why does Islamic banking have little macro impact while governments borrow on interest?",
       simple: "Muslim countries, with one or two exceptions, do not promote Islamic finance as state policy and still borrow mainly on interest. The OIC or IDB could design packages obliging members to use Ijarah, Istisna‘a and Shirkah, which would also discipline fiscal behaviour and create real benchmarks. If Islamic finance remains limited to retail and corporate banking while governments borrow conventionally, it will have no visible macro impact. Transformation needs (i) identifying legal, regulatory and institutional requirements, (ii) a phased plan with implementation mechanisms, and (iii) continuous review. A few countries acting alone face exogenous money-supply pressures.",
-      academic: ["Obtaining a benchmark for Shari’ah-compliant securities is almost impossible at present, which is why IFIs use interest-based benchmarks, making their integrity vulnerable.", "The conventional system evolved over a long period from gold to electronic money; correcting it will take time and sacrifice."],
+      academic: [
+        "Obtaining a benchmark for Shari’ah-compliant securities is almost impossible at present, which is why IFIs use interest-based benchmarks, making their integrity vulnerable.",
+        "The conventional system evolved over a long period from gold to electronic money; correcting it will take time and sacrifice."
+      ],
       exam: "Muslim states: little policy role; still borrow on interest; OIC/IDB packages (Ijarah, Istisna‘a, Shirkah); real benchmarks; phased transformation (requirements → plan → review).",
       keyPoints: ["Public-sector adoption is key to macro impact."],
       related: ["t18.3.3", "t15.3.8"],
@@ -67,11 +78,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Ten drivers; support institutions (IDB, IFSB, IIFM, AAOIFI, IIRA, LMC, ARCIFI, GCIBAFI); innovations (cards, indices, Sukuk).",
       keyPoints: ["Standards (AAOIFI, IFSB) enhance credibility."],
-      table: {
-        caption: "Driving forces of Islamic finance (Section 18.3)",
-        head: ["#", "Driver"],
-        rows: [["1", "Demand for Riba-free investment"], ["2", "Resurgence of Muslim cultural values"], ["3", "Active involvement of Shari’ah scholars"], ["4", "Compliant products for excess liquidity"], ["5", "Standardisation (AAOIFI, IFSB)"], ["6", "Gulf surplus funds"], ["7", "Regulatory flexibility (US, UK)"], ["8", "Conversion of sound institutions"], ["9", "High net worth investors shifting"], ["10", "Real-asset and ethical nature"]]
-      },
+      table: { caption: "Driving forces of Islamic finance (Section 18.3)", head: ["#", "Driver"], rows: [["1", "Demand for Riba-free investment"], ["2", "Resurgence of Muslim cultural values"], ["3", "Active involvement of Shari’ah scholars"], ["4", "Compliant products for excess liquidity"], ["5", "Standardisation (AAOIFI, IFSB)"], ["6", "Gulf surplus funds"], ["7", "Regulatory flexibility (US, UK)"], ["8", "Conversion of sound institutions"], ["9", "High net worth investors shifting"], ["10", "Real-asset and ethical nature"]] },
       related: ["t18.3.1", "t8.5"],
       quickCheck: { q: "Which US legal change does the author link to growth of Islamic investment institutions in the USA?", options: ["Dodd–Frank", "Repeal of the Glass–Steagall Act in 1999", "Sarbanes–Oxley", "Basel II"], answer: 1, explanation: "p. 462." }
     },
@@ -80,7 +87,10 @@ IFL_DATA.registerChapter({
       concepts: ["fund-management", "sukuk", "microfinance"],
       intuition: "Where is the untapped growth for Islamic banks?",
       simple: "Potential should be judged against the pioneers' objectives. Fund management: low-risk funds from short-term Murabaha and leasing for risk-averse savers; high-return funds from Musharakah and long-term leasing; restricted investment accounts; equity funds; domestic and international trade funds for SMEs and trade (Grameen and Bangladesh Islamic Bank experience). Sukuk: liquidity, monetary policy, infrastructure — but reliance on Ijarah Sukuk alone is not enough; Shirkah-based Sukuk needed. Specific sectors: small business, cottage industry, agriculture; Islamic microfinance institutions with fewer default and moral-hazard problems, using Zakat and Waqf funds. High net worth portfolios with banks as Mudarib or agent.",
-      academic: ["Structural adjustments are needed to deal with real-sector trading, leasing and real-estate contracts.", "Habib Ahmed (IDB) has studied problems and prospects of Islamic microfinance institutions."],
+      academic: [
+        "Structural adjustments are needed to deal with real-sector trading, leasing and real-estate contracts.",
+        "Habib Ahmed (IDB) has studied problems and prospects of Islamic microfinance institutions."
+      ],
       exam: "Potential: fund management (low-risk vs high-return funds, trade funds), Sukuk (Shirkah-based needed), SMEs/agriculture/microfinance (Zakat, Waqf), HNWI portfolios.",
       keyPoints: ["IMFIs may have lower default and moral hazard."],
       related: ["t15.3.8", "t12.7.3"],
@@ -98,16 +108,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Interpretation largely resolved (OIC, AAOIFI); remaining practical issues (liquidated damages, shareholder liability). Integrity factors (4). Remedies: educate religious leaders, train staff, codes of ethics, disclosure of profit smoothing.",
       keyPoints: ["Stick to AAOIFI standards to avoid inconsistency.", "Profit equalisation allowed with disclosure; secret apportioning is not."],
-      table: {
-        caption: "Factors on which the integrity of IFIs depends (Section 18.3.2)",
-        head: ["#", "Factor", "Suggested action"],
-        rows: [
-          ["1", "Shari’ah compliance of products", "Educate religious leaders; introduce AAOIFI standards"],
-          ["2", "Impact on clients, society and economy", "Train bankers in philosophy; weigh socio-economic considerations"],
-          ["3", "Professional competence and care for stakeholders", "Best services at competitive rates; balance shareholders and depositors"],
-          ["4", "Ethical behaviour of incumbents", "Code of conduct (AAOIFI Code of Ethics); good governance"]
-        ]
-      },
+      table: { caption: "Factors on which the integrity of IFIs depends (Section 18.3.2)", head: ["#", "Factor", "Suggested action"], rows: [["1", "Shari’ah compliance of products", "Educate religious leaders; introduce AAOIFI standards"], ["2", "Impact on clients, society and economy", "Train bankers in philosophy; weigh socio-economic considerations"], ["3", "Professional competence and care for stakeholders", "Best services at competitive rates; balance shareholders and depositors"], ["4", "Ethical behaviour of incumbents", "Code of conduct (AAOIFI Code of Ethics); good governance"]] },
       related: ["t17.3.6", "t14.3.4"],
       quickCheck: { q: "For which products does the author say Shari’ah scholars have provided no alternatives?", options: ["Leasing and trade finance", "Interest-based derivatives, short-selling and speculative FX transactions", "Housing finance", "Deposits"], answer: 1, explanation: "p. 466." }
     },
@@ -138,16 +139,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Three framework options; author prefers central Shari’ah board + advisors' forum; boards must supervise; annual inspection; windows → branches; Box 18.1 SBP (2 scholars + 3 experts, 2003; advisor fit & proper; annual internal audit; SBP inspection manual); charity loss borne by shareholders.",
       keyPoints: ["Frequent majority Fatwas may harm integrity."],
-      table: {
-        caption: "Box 18.1 — SBP's Shari’ah compliance framework",
-        head: ["Element", "Provision"],
-        rows: [
-          ["Central Shari’ah board", "Established Dec 2003: two Shari’ah scholars and three experts (banking, accounting, law)"],
-          ["Bank-level", "Each IBI appoints a Shari’ah board or advisor under SBP fit-and-proper criteria"],
-          ["Internal audit", "Internal Shari’ah audit at least once a year"],
-          ["External inspection", "SBP inspection staff use a Shari’ah audit manual; first audit outsourced to build capacity"]
-        ]
-      },
+      table: { caption: "Box 18.1 — SBP's Shari’ah compliance framework", head: ["Element", "Provision"], rows: [["Central Shari’ah board", "Established Dec 2003: two Shari’ah scholars and three experts (banking, accounting, law)"], ["Bank-level", "Each IBI appoints a Shari’ah board or advisor under SBP fit-and-proper criteria"], ["Internal audit", "Internal Shari’ah audit at least once a year"], ["External inspection", "SBP inspection staff use a Shari’ah audit manual; first audit outsourced to build capacity"]] },
       related: ["t14.appx", "t8.5"],
       quickCheck: { q: "Which Shari’ah compliance option does the author consider best?", options: ["No boards at all", "A central Shari’ah board in the jurisdiction, with a forum of bank Shari’ah advisors", "Only external CA firms", "Only majority Fatwas"], answer: 1, explanation: "p. 472." }
     },
@@ -163,20 +155,11 @@ IFL_DATA.registerChapter({
         "Conventional banks' Islamic business may receive IFIs' funds if segregation is certified."
       ],
       exam: "Seven challenges: awareness (greatest), compliance/integrity (Siddiqi's Maqasid; Moore's 4 questions), competitiveness, benchmarks, product development, liquidity/monetary management (LOLR options), HR.",
-      keyPoints: ["Last revealed verse (2:281) on accountability cited for compliance.", "Any unacceptable minority interpretation damages the industry's image."],
-      table: {
-        caption: "Challenges and suggested responses (Section 18.3.3)",
-        head: ["Challenge", "Suggested response"],
-        rows: [
-          ["Education and awareness", "Campaigns; educate religious leaders; explain evolution of practice"],
-          ["Compliance and integrity", "Maqasid-based definition; real-sector involvement; Moore's four questions"],
-          ["Competitiveness", "Compliant, innovative products; quality service; mutual-fund structures"],
-          ["Benchmarks", "Research on real-economy benchmarks (Mirakhor & ul Haque)"],
-          ["Product development", "Joint work of economists, bankers, scholars, regulators; public finance via Sukuk"],
-          ["Liquidity and monetary management", "Interbank Mudarabah; securitisation (<50% cash/receivables); LOLR Mudarabah facility or common pool"],
-          ["Human resources", "Training, R&D, universities and business schools"]
-        ]
-      },
+      keyPoints: [
+        "Last revealed verse (2:281) on accountability cited for compliance.",
+        "Any unacceptable minority interpretation damages the industry's image."
+      ],
+      table: { caption: "Challenges and suggested responses (Section 18.3.3)", head: ["Challenge", "Suggested response"], rows: [["Education and awareness", "Campaigns; educate religious leaders; explain evolution of practice"], ["Compliance and integrity", "Maqasid-based definition; real-sector involvement; Moore's four questions"], ["Competitiveness", "Compliant, innovative products; quality service; mutual-fund structures"], ["Benchmarks", "Research on real-economy benchmarks (Mirakhor & ul Haque)"], ["Product development", "Joint work of economists, bankers, scholars, regulators; public finance via Sukuk"], ["Liquidity and monetary management", "Interbank Mudarabah; securitisation (<50% cash/receivables); LOLR Mudarabah facility or common pool"], ["Human resources", "Training, R&D, universities and business schools"]] },
       related: ["t17.4.3", "t14.4.4", "t16.7"],
       quickCheck: { q: "Which challenge does the author call the greatest?", options: ["Benchmarks", "Creating understanding and awareness of Islamic finance", "Taxation", "Cards"], answer: 1, explanation: "p. 475." }
     }

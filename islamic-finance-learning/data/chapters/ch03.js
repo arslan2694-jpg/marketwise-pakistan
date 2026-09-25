@@ -24,9 +24,15 @@ IFL_DATA.registerChapter({
       concepts: ["riba", "gharar", "maisir"],
       intuition: "Freedom of contract in Islam has boundaries. What are they?",
       simple: "Islam allows business freely but within limits: the major prohibitions (Riba, Maisir/Qimar, Gharar) and norms of ethics that prevent injustice and harm.",
-      academic: ["Islam constrains freedom in business and finance through prohibitions, ethics and norms to avoid inequitable gains and injustice. Shari’ah compliance is the raison d’être of the Islamic financial system and should dominate all other concerns of IFIs; only through compliance can the system develop sustainably and ensure fairness. Invalid contracts arising from contractual deficiencies are discussed in Chapter 5."],
+      academic: [
+        "Islam constrains freedom in business and finance through prohibitions, ethics and norms to avoid inequitable gains and injustice. Shari’ah compliance is the raison d’être of the Islamic financial system and should dominate all other concerns of IFIs; only through compliance can the system develop sustainably and ensure fairness. Invalid contracts arising from contractual deficiencies are discussed in Chapter 5."
+      ],
       exam: "Shari’ah compliance is the raison d’être of IFIs. Boundaries: Riba, Maisir/Qimar, Gharar + business ethics and norms.",
-      keyPoints: ["Shari’ah compliance should dominate all other concerns of IFIs."],
+      keyPoints: [
+        "Shari’ah compliance should dominate all other concerns of IFIs.",
+        "Shari’ah compliance is the raison d’être of Islamic finance; it must dominate every other concern of an IFI.",
+        "Invalid contracts (contractual defects) are treated separately in Chapter 5."
+      ],
       related: ["t3.2", "t3.3"],
       quickCheck: { q: "What does the author call the raison d’être of the Islamic financial system?", options: ["Profitability", "Shari’ah compliance", "Low cost of funds", "Government support"], answer: 1, explanation: "Shari’ah compliance (p. 43)." }
     },
@@ -35,11 +41,17 @@ IFL_DATA.registerChapter({
       concepts: ["riba", "gharar", "maisir"],
       intuition: "Which prohibitions matter most when judging whether a transaction is valid?",
       simple: "Islamic law does not recognise transactions with an illegitimate factor or object. The prohibition of Riba, Gharar and gambling is the most strategic factor defining invalid and voidable contracts.",
-      academic: ["As a rule, Islamic law does not recognise transactions with a proven illegitimate factor and/or object. The ban on Riba, Gharar and gambling is the single most important test for telling valid contracts from void or voidable ones — it marks the boundary a transaction must not cross."],
+      academic: [
+        "As a rule, Islamic law does not recognise transactions with a proven illegitimate factor and/or object. The ban on Riba, Gharar and gambling is the single most important test for telling valid contracts from void or voidable ones — it marks the boundary a transaction must not cross."
+      ],
       exam: "Riba, Gharar and gambling = most strategic prohibitions; they define invalid/voidable contracts.",
-      keyPoints: ["Three basic prohibitions: Riba, Gharar, Maisir/Qimar."],
+      keyPoints: [
+        "Three basic prohibitions: Riba, Gharar, Maisir/Qimar.",
+        "Riba, Gharar and gambling are the strategic factors that define invalid and voidable contracts."
+      ],
       related: ["t3.2.1", "t3.2.2", "t3.2.3", "t5.5"],
-      quickCheck: { q: "Which three prohibitions define the overall limits for transactions?", options: ["Riba, Gharar, gambling", "Zakat, Waqf, Hibah", "Murabaha, Salam, Ijarah", "Taxes, rent, wages"], answer: 0, explanation: "Riba, Gharar and gambling (p. 43)." }
+      quickCheck: { q: "Which three prohibitions define the overall limits for transactions?", options: ["Riba, Gharar, gambling", "Zakat, Waqf, Hibah", "Murabaha, Salam, Ijarah", "Taxes, rent, wages"], answer: 0, explanation: "Riba, Gharar and gambling (p. 43)." },
+      table: { caption: "The three basic prohibitions at a glance", head: ["Prohibition", "Core idea", "Tolerance"], rows: [["Riba", "Any addition over the principal of a loan/debt; unequal or deferred exchange of like monetary goods", "None — the slightest Riba vitiates"], ["Gharar", "Excessive uncertainty about the subject matter, price or delivery", "Minor (Qalil) Gharar tolerated"], ["Maisir / Qimar", "Gain by chance at another’s cost", "None"]] }
     },
     {
       id: "t3.2.1", section: "3.2.1", title: "Riba: Textual Prohibition and Riba in Loans/Debts", pages: [44, 49], tier: "core",
@@ -59,7 +71,9 @@ IFL_DATA.registerChapter({
         "All parties — receiver, payer, scribe, witnesses — share the guilt.",
         "Even a small benefit (a dish, a ride) from a borrower is to be refused unless customary.",
         "Creditor is entitled to the principal only in loans and in debts.",
-        "Limited permission may exist for a destitute compelled to borrow for basic food needs; not for luxury or business expansion."
+        "Limited permission may exist for a destitute compelled to borrow for basic food needs; not for luxury or business expansion.",
+        "Express prohibition came around the battle of Uhud (3 AH); the final, repeated prohibition in 10 AH.",
+        "A destitute person compelled to borrow for basic food may have limited permission; borrowing on interest for luxury or business expansion is culpable."
       ],
       definitions: [
         { term: "Riba", meaning: "Literally excess; in Shari’ah an addition, however slight, over and above the principal of a loan or debt." },
@@ -67,14 +81,24 @@ IFL_DATA.registerChapter({
         { term: "Dayn (debt)", meaning: "A liability to pay arising from a credit transaction (e.g. credit sale, due rentals), payable at a stipulated time." },
         { term: "Ra’as al-mal", meaning: "The principal amount of a loan or debt — all the creditor is entitled to." }
       ],
-      principles: ["In loans and debts, the creditor is entitled to the principal only; any excess is Riba.", "Profit with liability is permitted; return on cash without liability is prohibited."],
+      principles: [
+        "In loans and debts, the creditor is entitled to the principal only; any excess is Riba.",
+        "Profit with liability is permitted; return on cash without liability is prohibited."
+      ],
       table: { caption: "Qur’anic verses on Riba in order of revelation (as listed)", head: ["Verse", "Content (paraphrased)"], rows: [["30:39", "Riba does not increase with God; charity multiplies"], ["4:161", "Taking Riba, though forbidden, condemned"], ["3:130", "Do not take doubled and redoubled Riba — first express prohibition for Muslims"], ["2:275–281", "Trade permitted, Riba forbidden; give up remaining Riba; war from Allah and His Messenger; your principal is yours; respite for the debtor in difficulty"]] },
       confusions: [
         { wrong: "Only the lender commits a sin in an interest transaction.", right: "The Hadith of Jabir: the receiver, payer, recorder and witnesses are all alike in guilt." },
         { wrong: "Any predetermined profit in any transaction is Riba.", right: "The author calls this a myth: Riba concerns the excess over the principal of a loan/debt; profit in a valid sale is permitted." }
       ],
       related: ["t3.2.1.b", "t3.2.1.c", "t7.2", "t7.7"],
-      quickCheck: { q: "According to verses 2:278–279, what is a creditor entitled to?", options: ["Principal plus a fair rate", "Principal only", "Principal indexed to inflation", "Whatever the debtor agrees"], answer: 1, explanation: "“If you repent, yours is your principal” — any excess over principal is Riba (p. 47)." }
+      quickCheck: { q: "According to verses 2:278–279, what is a creditor entitled to?", options: ["Principal plus a fair rate", "Principal only", "Principal indexed to inflation", "Whatever the debtor agrees"], answer: 1, explanation: "“If you repent, yours is your principal” — any excess over principal is Riba (p. 47)." },
+      examples: [
+        { title: "Banu Thaqif and verses 2:278–279", kind: "textbook", text: "After embracing Islam, Banu Thaqif claimed outstanding interest from Banu Amr under a proposed treaty. The matter reached the Prophet (pbuh) through the Governor of Makkah, and verses 278–279 were revealed: give up the remaining Riba — “yours is your principal”. Banu Thaqif surrendered the claim (p. 45)." },
+        { title: "Bilal’s dates", kind: "textbook", text: "Bilal exchanged two measures of lower-quality dates for one of higher quality. The Prophet (pbuh) called it Riba and told him to sell the first dates for money and buy the better dates with the proceeds (p. 46)." }
+      ],
+      distinctions: [
+        { a: "Qard (loan)", b: "Dayn (debt)", text: "Qard is money or a fungible taken with the obligation to return its like on demand; Dayn is a liability from a credit transaction (credit sale, due rent) payable at an agreed time. In both, the creditor is entitled to the principal only (p. 47)." }
+      ]
     },
     {
       id: "t3.2.1.b", section: "3.2.1", title: "Riba: Distinguishing Sale, Loan and Lease", pages: [48, 49], tier: "core",
@@ -91,7 +115,8 @@ IFL_DATA.registerChapter({
         "Determine whether a transaction is a sale or a loan, and when a credit sale is executed.",
         "Once the credit price is fixed and the sale executed, no addition can be charged.",
         "Money cannot be leased since it is consumed in use.",
-        "Riba is a wider term than interest."
+        "Riba is a wider term than interest.",
+        "“Interest” (a charge for the use of money) is always Riba, but Riba is wider — it also covers non-monetary exchanges such as foreign exchange."
       ],
       table: { caption: "How contracts differ (Section 3.2.1, ‘How to Distinguish’)", head: ["Contract", "Ownership", "Return permitted?"], rows: [["Bai‘ (sale, cash or credit)", "Transfers permanently at execution", "Yes — profit margin in price"], ["Salam", "Obligation to deliver/take at stipulated time", "Yes — price agreed upfront"], ["Hibah (gift)", "Transfers permanently, free", "No payment"], ["Qard (loan)", "Temporary; same/similar to be returned", "No — any excess is Riba"], ["Ijarah (lease)", "Remains with lessor; usufruct transferred", "Yes — rent; lessor bears ownership risk"]] },
       distinctions: [
@@ -101,7 +126,10 @@ IFL_DATA.registerChapter({
       confusions: [
         { wrong: "Charging more for a credit sale than a cash sale is Riba.", right: "The price may be bargained keeping in mind the credit period; the prohibition applies to increasing the debt after the sale is executed." }
       ],
-      examples: [{ title: "Yarn cannot be leased", kind: "textbook", text: "Yarn, when used, becomes cloth; it can be bought and sold but not leased — just as money cannot be rented out." }],
+      examples: [
+        { title: "Yarn cannot be leased", kind: "textbook", text: "Yarn, when used, becomes cloth; it can be bought and sold but not leased — just as money cannot be rented out." },
+        { title: "Why yarn and money cannot be leased", kind: "textbook", text: "Things consumed or transformed in use — yarn, money, edibles, fuel — can be sold but not leased; houses and vehicles can be leased because their corpus remains (p. 48)." }
+      ],
       related: ["t6.3.1", "t6.5.3", "t11.2.1"],
       quickCheck: { q: "Why can a house be leased but money cannot?", options: ["Houses are more valuable", "Money is consumed/changes in use; a house’s corpus remains", "Money is haram", "Leasing is prohibited generally"], answer: 1, explanation: "Anything consumed in use or changing shape cannot be leased (p. 48)." }
     },
@@ -127,7 +155,11 @@ IFL_DATA.registerChapter({
         { wrong: "Islam prohibits usury but allows moderate interest.", right: "The author rejects the usury/interest distinction; any addition over the principal is Riba." }
       ],
       related: ["t17.3", "t3.2.1"],
-      quickCheck: { q: "How does the author answer the argument that indexation protects lenders against inflation?", options: ["He accepts it", "Indexation of financial obligations also leads to Riba", "Only for rich lenders", "Only for gold loans"], answer: 1, explanation: "A loan seeking benefit involves Riba; indexation therefore leads to Riba (p. 51)." }
+      quickCheck: { q: "How does the author answer the argument that indexation protects lenders against inflation?", options: ["He accepts it", "Indexation of financial obligations also leads to Riba", "Only for rich lenders", "Only for gold loans"], answer: 1, explanation: "A loan seeking benefit involves Riba; indexation therefore leads to Riba (p. 51)." },
+      keyPoints: [
+        "SAB: permissibility of interest cannot depend on the debtor’s financial position or the purpose of the loan.",
+        "Modern interest is worse than Riba al-jahiliyyah: it is charged at inception and on overdue amounts."
+      ]
     },
     {
       id: "t3.2.1.d", section: "3.2.1", title: "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)", pages: [51, 52], tier: "core",
@@ -152,10 +184,14 @@ IFL_DATA.registerChapter({
         { term: "Athman", meaning: "Monetary units / media of exchange such as gold, silver or currencies." }
       ],
       table: { caption: "Exchange rules (Imam Nawavi’s summary, p. 52)", head: ["Case", "Example", "Excess", "Delay"], rows: [["Different ‘Illah", "Gold for wheat; dollars for a car", "Allowed", "Allowed"], ["Same commodity", "Gold for gold; wheat for wheat; dollars for dollars", "Prohibited", "Prohibited"], ["Different commodity, same ‘Illah", "Gold for silver; USD for JPY; wheat for rice", "Allowed", "Prohibited"]] },
-      examples: [{ title: "Bilal’s dates", kind: "textbook", text: "Bilal exchanged two measures of lower-quality dates for one of high quality. The Prophet (pbuh) called it the forbidden Riba and advised selling the first dates for money and using the proceeds to buy the better ones." }],
+      examples: [
+        { title: "Bilal’s dates", kind: "textbook", text: "Bilal exchanged two measures of lower-quality dates for one of high quality. The Prophet (pbuh) called it the forbidden Riba and advised selling the first dates for money and using the proceeds to buy the better ones." },
+        { title: "Money as the modern ‘Illah", kind: "textbook", text: "There is consensus that Riba rules apply to anything serving the function of money — gold, silver, paper currency or IOUs (p. 52)." }
+      ],
       confusions: [
         { wrong: "Riba applies only to loans.", right: "Riba Al-Fadl arises in exchanges of the same genus, and delay in exchanging currencies involves Riba too." },
-        { wrong: "Two different currencies can be exchanged with delayed settlement.", right: "Currencies share the ‘Illah of money: excess (any rate) is allowed but delay is not." }
+        { wrong: "Two different currencies can be exchanged with delayed settlement.", right: "Currencies share the ‘Illah of money: excess (any rate) is allowed but delay is not." },
+        { wrong: "The equal-and-spot rule for like goods also applies to loans (Qard).", right: "The rule is for sale/exchange contracts; non-remunerative contracts like Qard and Dayn are exempt from it (p. 52, n. 21)." }
       ],
       related: ["t4.5", "t4.7.2", "t6.6"],
       quickCheck: { q: "US Dollars are exchanged for Japanese Yen. Which rule applies?", options: ["Excess and delay both allowed", "Excess allowed, delay not allowed", "Both prohibited", "Only equal amounts allowed"], answer: 1, explanation: "Different commodities with the same ‘Illah (medium of exchange): excess allowed but delay prohibited (p. 52)." },
@@ -174,15 +210,21 @@ IFL_DATA.registerChapter({
       keyPoints: [
         "Riba Al-Nasiah = Riba Al-Qur’an = loan Riba.",
         "Conventional interest-bearing loans involve both types.",
-        "Excluded from Riba: trading/Shirkah profit, Ujrah/Wakalah fees, Ijarah rentals."
+        "Excluded from Riba: trading/Shirkah profit, Ujrah/Wakalah fees, Ijarah rentals.",
+        "Justice Wajihuddin Ahmad’s definition covers returns purely for time on money lent and increases violating “equal for equal, like for like, hand to hand”."
       ],
       definitions: [
         { term: "Riba Al-Nasiah", meaning: "Benefit or excess arising from delay of a counter value in an exchange based on loans or sales; also called Riba Al-Qur’an." },
         { term: "Riba (broad definition)", meaning: "“Any increase over and above the principal amount payable in a contract obligation, not covered by a corresponding increase in labour, commodity, risk or expertise” (definition quoted in the textbook)." }
       ],
-      distinctions: [{ a: "Riba Al-Nasiah", b: "Riba Al-Fadl", text: "Nasiah arises from delay (loans/debts, and delayed exchange); Fadl is excess in quantity/quality when exchanging the same genus." }],
+      distinctions: [
+        { a: "Riba Al-Nasiah", b: "Riba Al-Fadl", text: "Nasiah arises from delay (loans/debts, and delayed exchange); Fadl is excess in quantity/quality when exchanging the same genus." }
+      ],
       related: ["t3.2.1", "t3.2.1.d", "t17.3"],
-      quickCheck: { q: "Which of these is NOT Riba under the broad definition?", options: ["An addition to a loan for extra time", "Rent charged in Ijarah", "An excess when exchanging gold for gold", "Indexing a loan to inflation"], answer: 1, explanation: "Rentals in Ijarah correspond to liability and risk of ownership and are excluded (p. 53)." }
+      quickCheck: { q: "Which of these is NOT Riba under the broad definition?", options: ["An addition to a loan for extra time", "Rent charged in Ijarah", "An excess when exchanging gold for gold", "Indexing a loan to inflation"], answer: 1, explanation: "Rentals in Ijarah correspond to liability and risk of ownership and are excluded (p. 53)." },
+      confusions: [
+        { wrong: "Conventional loan interest involves only Riba Al-Nasiah.", right: "The author says loan interest involves both Riba Al-Nasiah (benefit from delay) and Riba Al-Fadl (extra money paid when due) (p. 53)." }
+      ]
     },
     {
       id: "t3.2.1.f", section: "3.2.1", title: "Rationale for Prohibition, Other Religions and Factor Payments", pages: [53, 57], tier: "supporting",
@@ -203,9 +245,18 @@ IFL_DATA.registerChapter({
         "Money capital is on a par with enterprise, not with land/labour.",
         "Any rate above zero leads to exploitation in the long run."
       ],
-      distinctions: [{ a: "Capitalism’s view of money capital", b: "Islam’s view of money capital", text: "Capitalism treats it like land and labour, entitled to a return irrespective of outcome; Islam treats it like enterprise, entitled to profit only with risk of loss." }],
+      distinctions: [
+        { a: "Capitalism’s view of money capital", b: "Islam’s view of money capital", text: "Capitalism treats it like land and labour, entitled to a return irrespective of outcome; Islam treats it like enterprise, entitled to profit only with risk of loss." }
+      ],
       related: ["t2.5.3", "t1.5", "t4.2.1"],
-      quickCheck: { q: "Which rationale for the prohibition of Riba does the author find most convincing?", options: ["Ritual obedience only", "Distributive justice — preventing wealth accumulation in few hands", "Preventing luxury", "Ecological concerns"], answer: 1, explanation: "Distributive justice, based on 59:7 (pp. 54–55)." }
+      quickCheck: { q: "Which rationale for the prohibition of Riba does the author find most convincing?", options: ["Ritual obedience only", "Distributive justice — preventing wealth accumulation in few hands", "Preventing luxury", "Ecological concerns"], answer: 1, explanation: "Distributive justice, based on 59:7 (pp. 54–55)." },
+      examples: [
+        { title: "Why invest in a factory?", kind: "textbook", text: "Why would anyone build a factory and deal with labour problems when risk-free government paper pays a high return? Interest pulls capital towards risk-free returns, causing recession, unemployment and stagflation (p. 57)." },
+        { title: "The 1545 split of usury and interest", kind: "textbook", text: "The King (and Church) of England in 1545 divided Riba into a legal maximum called “interest” and the excess called usury; Calvin and Molinaeus later argued for interest in theory (p. 54)." }
+      ],
+      confusions: [
+        { wrong: "Interest is essential for savings and investment.", right: "Savings depend more on income level, distribution, inflation, stability and fiscal policy; empirical evidence shows equity, not debt, funds most business in the US and Japan (pp. 55–56)." }
+      ]
     },
     {
       id: "t3.2.2", section: "3.2.2", title: "Prohibition of Gharar", pages: [57, 61], tier: "core",
@@ -240,10 +291,18 @@ IFL_DATA.registerChapter({
         "Rights and obligations must not be doubtful.",
         "Buyer must be able to inspect."
       ],
-      table: { caption: "Al-Dhareer’s classification of Gharar (as cited)", head: ["Category", "Includes"], rows: [["Gharar in the terms/essence of the contract", "Two sales in one; ‘Arbun sale; pebble, touch and toss sales; suspended (Mu‘allaq) sale; future sale"], ["Gharar in the object", "Ignorance of genus, species, attributes, quantity, identity, time of payment; inability to deliver; nonexistent object; not seeing the object"]] },
-      examples: [{ title: "Two sales in one (Al-Darir)", kind: "textbook", text: "“I sell you my house at such a price if you sell me your car at such a price” — the first sale depends on the second. Also selling at 100 cash or 110 in a year without choosing — the price is not specified." }],
-      distinctions: [{ a: "Gharar", b: "Commercial risk", text: "Gharar relates more to uncertainty (existence, rights, consequences) than to the ordinary business risk that entitles one to profit." }],
-      confusions: [{ wrong: "Any uncertainty makes a contract void.", right: "Only excessive Gharar affecting principal aspects is prohibited; risk-taking is a condition for profit." }],
+      table: { caption: "Al-Dhareer’s classification of Gharar (pp. 59–60)", head: ["Category", "Examples"], rows: [["In the terms of the contract", "Two sales in one; ‘Arbun (down-payment) sale; pebble/touch/toss sales; suspended (Mu‘allaq) sale; future sale"], ["In the object of the contract", "Ignorance of genus, species, attributes, quantity or identity; unknown time of payment; inability to deliver; non-existent object; object not seen"]] },
+      examples: [
+        { title: "Two sales in one (Al-Darir)", kind: "textbook", text: "“I sell you my house at such a price if you sell me your car at such a price” — the first sale depends on the second. Also selling at 100 cash or 110 in a year without choosing — the price is not specified." },
+        { title: "Two sales in one", kind: "textbook", text: "“I sell you my house at this price if you sell me your car at that price” — neither party knows if the sale will complete, since each is conditional on the other (p. 61)." },
+        { title: "Sale of the unborn calf", kind: "textbook", text: "The offspring in a cow’s womb cannot be sold, but the pregnant cow may be sold at a higher price because of it (p. 58, n. 32)." }
+      ],
+      distinctions: [
+        { a: "Gharar", b: "Commercial risk", text: "Gharar relates more to uncertainty (existence, rights, consequences) than to the ordinary business risk that entitles one to profit." }
+      ],
+      confusions: [
+        { wrong: "Any uncertainty makes a contract void.", right: "Only excessive Gharar affecting principal aspects is prohibited; risk-taking is a condition for profit." }
+      ],
       related: ["t5.5", "t6.7", "t10.4.1", "t4.2.2"],
       quickCheck: { q: "Why is Gharar considered of less significance than Riba?", options: ["It is not mentioned in Hadith", "Some degree of uncertainty is acceptable while the slightest Riba invalidates", "It only applies to insurance", "It is a Western concept"], answer: 1, explanation: "Only excessive Gharar is prohibited; any Riba invalidates (p. 58)." }
     },
@@ -263,16 +322,25 @@ IFL_DATA.registerChapter({
         "Gambling is a form of Gharar.",
         "Prize bonds: capital safe but prizes from interest → Riba and Maisir.",
         "Drawing lots among equals is permissible.",
-        "Known free product with purchase is permissible."
+        "Known free product with purchase is permissible.",
+        "Futures and options settled only through price differences fall under gambling.",
+        "Conventional insurance involves both Riba and Maisir."
       ],
       definitions: [
         { term: "Maisir", meaning: "Wishing for something valuable with ease, without paying equivalent compensation, working or undertaking liability, by way of a game of chance." },
         { term: "Qimar", meaning: "Receipt of money, benefit or usufruct at the cost of others by resorting to chance — an important kind of Maisir." },
         { term: "‘Iwad", meaning: "Equivalent compensation/counter-value." }
       ],
-      distinctions: [{ a: "Permissible drawing of lots", b: "Prohibited lottery", text: "Lots may allocate among equals where nobody loses what they contributed; prohibited lotteries make some lose so others gain disproportionate prizes by chance." }],
-      examples: [{ title: "Prize bond scheme", kind: "textbook", text: "Investors’ money stays safe, but prizes are the interest generated on the pooled capital, distributed by draw — the winners take interest money by chance at the cost of other bondholders." }],
-      confusions: [{ wrong: "If the investor’s principal is safe, a prize scheme cannot be gambling.", right: "The FSC held such schemes repugnant because prizes come from interest and are distributed by chance (Riba and Qimar)." }],
+      distinctions: [
+        { a: "Permissible drawing of lots", b: "Prohibited lottery", text: "Lots may allocate among equals where nobody loses what they contributed; prohibited lotteries make some lose so others gain disproportionate prizes by chance." }
+      ],
+      examples: [
+        { title: "Prize bond scheme", kind: "textbook", text: "Investors’ money stays safe, but prizes are the interest generated on the pooled capital, distributed by draw — the winners take interest money by chance at the cost of other bondholders." },
+        { title: "Permissible draws and incentives", kind: "textbook", text: "Drawing lots is allowed where people of equal standing must be chosen for a right or burden and no one loses what they had (as with Prophet Younus). A free extra product given with a purchase, without any draw, is also permissible (pp. 62–63)." }
+      ],
+      confusions: [
+        { wrong: "If the investor’s principal is safe, a prize scheme cannot be gambling.", right: "The FSC held such schemes repugnant because prizes come from interest and are distributed by chance (Riba and Qimar)." }
+      ],
       related: ["t16.2.1", "t8.8.8", "t4.2.3"],
       quickCheck: { q: "A shop gives a known free item with every purchase, without any draw. Is this Maisir?", options: ["Yes, it is a game of chance", "No — the buyer knows what is purchased and there is no element of chance", "Only if the item is valuable", "Only for Muslims"], answer: 1, explanation: "Such incentives are permissible as there is no chance (p. 63)." }
     },
@@ -281,9 +349,15 @@ IFL_DATA.registerChapter({
       concepts: ["business-ethics"],
       intuition: "Beyond the three prohibitions, what behaviour does Shari’ah expect in business?",
       simple: "Shari’ah sets norms for business: justice, mutual help, free consent, honesty, avoiding fraud and misrepresentation. Because people are accountable to Allah, and harm to others is forgiven only by those harmed, giving everyone their due is the cardinal principle.",
-      academic: ["Principles of justice, mutual help, free consent and honesty, avoiding fraud, misrepresentation and misstatement, and negation of exploitation provide grounds for valid contracts. These norms relate to accountability before Allah and thus differ in implication from mainstream business ethics: Allah may pardon faults against His rights but not harm done to fellow beings. Encouragements include benevolence, purification of income, transparency and disclosure, documentation of rights and liabilities, and care for others."],
+      academic: [
+        "Principles of justice, mutual help, free consent and honesty, avoiding fraud, misrepresentation and misstatement, and negation of exploitation provide grounds for valid contracts. These norms relate to accountability before Allah and thus differ in implication from mainstream business ethics: Allah may pardon faults against His rights but not harm done to fellow beings. Encouragements include benevolence, purification of income, transparency and disclosure, documentation of rights and liabilities, and care for others."
+      ],
       exam: "Norms: justice, mutual help, free consent, honesty; no fraud/misrepresentation. Cardinal principle: give people their due (harm to others not pardoned unless they forgive). Encouragements: benevolence, purification, transparency, documentation.",
-      keyPoints: ["Giving people their due right is the cardinal principle of Islamic ethics."],
+      keyPoints: [
+        "Giving people their due right is the cardinal principle of Islamic ethics.",
+        "Encouraged practices: benevolence, purification of income, transparency and disclosure, and documenting transactions.",
+        "Allah may pardon faults against His rights but not harm done to fellow beings — giving people their due is the cardinal ethical principle."
+      ],
       related: ["t3.3.1", "t3.3.2", "t3.3.3", "t3.3.4", "t3.3.5"],
       quickCheck: { q: "What is the cardinal principle of the Islamic system of ethics according to the chapter?", options: ["Profit maximisation", "Giving people their due right", "Minimising taxes", "Avoiding contracts"], answer: 1, explanation: "p. 64." }
     },
@@ -312,27 +386,47 @@ IFL_DATA.registerChapter({
         { term: "Ghaban", meaning: "Misappropriation or defrauding others regarding specifications of goods or prices." },
         { term: "Mustarsal", meaning: "An unknowing entrant into the market; deceiving him is described as Riba." }
       ],
-      confusions: [{ wrong: "Because Islam encourages leniency with debtors, Islamic banks cannot take any action against defaulters.", right: "Banks manage public money as a trust; Shari’ah boards allow fines on wilful defaulters as a deterrent, with proceeds given to charity." }],
+      confusions: [
+        { wrong: "Because Islam encourages leniency with debtors, Islamic banks cannot take any action against defaulters.", right: "Banks manage public money as a trust; Shari’ah boards allow fines on wilful defaulters as a deterrent, with proceeds given to charity." }
+      ],
       related: ["t7.13", "t9.9.4", "t17.4.4"],
-      quickCheck: { q: "An agent bids in an auction only to push up the price, with no intention to buy. This is:", options: ["Khalabah", "Najash", "Ghaban", "Tawarruq"], answer: 1, explanation: "Najash (p. 66)." }
+      quickCheck: { q: "An agent bids in an auction only to push up the price, with no intention to buy. This is:", options: ["Khalabah", "Najash", "Ghaban", "Tawarruq"], answer: 1, explanation: "Najash (p. 66)." },
+      examples: [
+        { title: "The wet grain", kind: "textbook", text: "The Prophet (pbuh) put his hand in a heap of grain and found it wet inside: “He who deceives other people is not one of us” (p. 67)." },
+        { title: "Do not meet the caravans (Rukban)", kind: "textbook", text: "Buyers were told not to intercept traders before they reached the market, so prices would be set by demand and supply with full information (p. 67)." }
+      ],
+      distinctions: [
+        { a: "Individual creditor", b: "Bank as creditor", text: "An individual may waive a genuinely troubled debtor’s debt as a virtue; a bank managing public money as a trust may impose fines on wilful defaulters, with the fines going to charity (p. 66)." }
+      ]
     },
     {
       id: "t3.3.2", section: "3.3.2", title: "Fulfilling the Covenants and Paying Liabilities", pages: [67, 68], tier: "core",
       concepts: ["wad"],
       intuition: "Is a promise in business just a moral matter, or can it have financial consequences? In Islamic finance, promises are relied on — and breach can cost you.",
       simple: "Muslims must fulfil contracts and even promises. Contemporary scholars consider promises binding; they are used in Murabaha to Purchase Orderer, leasing and Diminishing Musharakah. If the promisor breaks the promise, the promisee can recover actual loss.",
-      academic: ["“And keep the covenant. Lo! Of the covenant it will be asked” (17:34). Contracts create rights and liabilities to be fulfilled; Shari’ah also emphasises fulfilling promises or unilateral undertakings — breaking promises is a sign of hypocrites. Contemporary scholars unanimously consider promises binding. The concept is invoked in Murabaha to Purchase Orderer, leasing and Diminishing Musharakah; if the promisor does not fulfil the promise, the promisee can recover the actual loss incurred."],
+      academic: [
+        "“And keep the covenant. Lo! Of the covenant it will be asked” (17:34). Contracts create rights and liabilities to be fulfilled; Shari’ah also emphasises fulfilling promises or unilateral undertakings — breaking promises is a sign of hypocrites. Contemporary scholars unanimously consider promises binding. The concept is invoked in Murabaha to Purchase Orderer, leasing and Diminishing Musharakah; if the promisor does not fulfil the promise, the promisee can recover the actual loss incurred."
+      ],
       exam: "Fulfil contracts and promises (17:34). Contemporary scholars: promises binding; used in MPO, Ijarah, Diminishing Musharakah; breach → recovery of actual loss.",
-      keyPoints: ["Promises (Wa‘d) binding per contemporary scholars.", "Remedy for breach: actual loss, not a penalty."],
+      keyPoints: [
+        "Promises (Wa‘d) binding per contemporary scholars.",
+        "Remedy for breach: actual loss, not a penalty.",
+        "Verse 17:34: “Keep the covenant — of the covenant it will be asked.”"
+      ],
       related: ["t5.6", "t9.8.2", "t12.9.2"],
-      quickCheck: { q: "If a customer breaches a binding promise to buy in a Murabaha to Purchase Orderer, what can the bank recover?", options: ["Any penalty it chooses", "The actual loss incurred", "Interest for the period", "Nothing"], answer: 1, explanation: "The promisee may recover the actual loss (p. 68)." }
+      quickCheck: { q: "If a customer breaches a binding promise to buy in a Murabaha to Purchase Orderer, what can the bank recover?", options: ["Any penalty it chooses", "The actual loss incurred", "Interest for the period", "Nothing"], answer: 1, explanation: "The promisee may recover the actual loss (p. 68)." },
+      confusions: [
+        { wrong: "A promise in Islamic finance is only morally binding and has no financial consequence.", right: "Contemporary scholars regard promises as binding; in MPO, leasing and Diminishing Musharakah the promisee may recover the actual loss caused by a breach (pp. 67–68)." }
+      ]
     },
     {
       id: "t3.3.3", section: "3.3.3", title: "Mutual Cooperation and Removal of Hardship", pages: [68, 68], tier: "supporting",
       concepts: ["takaful", "aqilah"],
       intuition: "Where does the idea behind Takaful come from? From pre-Islamic mutual-help schemes that Islam endorsed.",
       simple: "Islam encourages helping one another (5:2). Pre-Islamic mutual schemes — ‘Aqilah (tribe sharing blood money and calamities) and Dhaman Khatr al-Tariq (joint funds compensating traders’ losses on routes) — were validated. This principle of reciprocal compensation is the foundation of Takaful.",
-      academic: ["Mutual help, solidarity and joint indemnification are important norms, in contrast with cut-throat competition that encourages fraud. “Assist one another in goodness … not in sin” (5:2); believers are like one body. ‘Aqilah worked on shared responsibility — contributions in calamities and tribal payment of blood money. Under Dhaman Khatr al-Tariq, traders’ losses from route hazards were indemnified from jointly created funds. Islam accepted reciprocal compensation and joint responsibility — the foundation of Takaful."],
+      academic: [
+        "Mutual help, solidarity and joint indemnification are important norms, in contrast with cut-throat competition that encourages fraud. “Assist one another in goodness … not in sin” (5:2); believers are like one body. ‘Aqilah worked on shared responsibility — contributions in calamities and tribal payment of blood money. Under Dhaman Khatr al-Tariq, traders’ losses from route hazards were indemnified from jointly created funds. Islam accepted reciprocal compensation and joint responsibility — the foundation of Takaful."
+      ],
       exam: "Mutual cooperation (5:2). ‘Aqilah and Dhaman Khatr al-Tariq validated by Islam → principle of reciprocal compensation and joint responsibility → foundation of Takaful.",
       keyPoints: ["‘Aqilah: shared tribal responsibility.", "Dhaman Khatr al-Tariq: joint fund for route losses.", "Foundation of Takaful."],
       definitions: [
@@ -340,7 +434,10 @@ IFL_DATA.registerChapter({
         { term: "Dhaman Khatr al-Tariq", meaning: "Indemnifying traders’ losses from hazards on trade routes from jointly created funds." }
       ],
       related: ["t16.3", "t16.2"],
-      quickCheck: { q: "Which principle does the author identify as the foundation of Takaful?", options: ["Riba Al-Fadl", "Reciprocal compensation and joint responsibility", "Najash", "Hawalah"], answer: 1, explanation: "p. 68." }
+      quickCheck: { q: "Which principle does the author identify as the foundation of Takaful?", options: ["Riba Al-Fadl", "Reciprocal compensation and joint responsibility", "Najash", "Hawalah"], answer: 1, explanation: "p. 68." },
+      confusions: [
+        { wrong: "Islam rejects all pre-Islamic customs.", right: "Islam validated beneficial practices such as ‘Aqilah and Dhaman Khatr al-Tariq — the basis of Takaful (p. 68)." }
+      ]
     },
     {
       id: "t3.3.4", section: "3.3.4", title: "Free Marketing and Fair Pricing", pages: [68, 69], tier: "core",
@@ -352,23 +449,46 @@ IFL_DATA.registerChapter({
         "The OIC Islamic Fiqh Academy (5th session, 1988): (1) freedom to buy, sell and dispose of property within Shari’ah (trade by mutual consent); (2) no restriction on the percentage of profit, subject to ethics of moderation, contentment and leniency; (3) keep transactions away from fraud, cheating, deceit, forgery and concealment; (4) government should fix prices only when obvious pitfalls and artificial factors are noticed."
       ],
       exam: "Fair price = outcome of genuine market forces. No cap on profit % (Fiqh Academy 1988), but moderation. Ghaban-e-Fahish prohibited. State intervenes only to remove distortions (hoarding, manipulation).",
-      keyPoints: ["No restriction on percentage of profit (Fiqh Academy, 1988).", "Ghaban-e-Fahish prohibited.", "Price fixing only to correct artificial distortions."],
-      definitions: [{ term: "Ghaban-e-Fahish", meaning: "Selling at a higher price while giving the impression that the client is charged the market rate." }],
-      confusions: [{ wrong: "Islamic banks must limit their profit margin to a fixed percentage.", right: "The Fiqh Academy states there is no restriction on the percentage of profit; ethics of moderation apply." }],
+      keyPoints: [
+        "No restriction on percentage of profit (Fiqh Academy, 1988).",
+        "Ghaban-e-Fahish prohibited.",
+        "Price fixing only to correct artificial distortions."
+      ],
+      definitions: [
+        { term: "Ghaban-e-Fahish", meaning: "Selling at a higher price while giving the impression that the client is charged the market rate." }
+      ],
+      confusions: [
+        { wrong: "Islamic banks must limit their profit margin to a fixed percentage.", right: "The Fiqh Academy states there is no restriction on the percentage of profit; ethics of moderation apply." }
+      ],
       related: ["t2.4", "t6.5.2"],
-      quickCheck: { q: "What did the OIC Fiqh Academy (1988) say about the percentage of profit a trader may make?", options: ["Maximum 10%", "No restriction, subject to Shari’ah ethics like moderation", "Must equal the interest rate", "Must be approved by the State"], answer: 1, explanation: "p. 69." }
+      quickCheck: { q: "What did the OIC Fiqh Academy (1988) say about the percentage of profit a trader may make?", options: ["Maximum 10%", "No restriction, subject to Shari’ah ethics like moderation", "Must equal the interest rate", "Must be approved by the State"], answer: 1, explanation: "p. 69." },
+      examples: [
+        { title: "Umar and the under-pricing trader", kind: "textbook", text: "A trader selling below cost out of piety can disrupt supply for others, so Umar asked him to raise his price to the market level or leave the market (pp. 68–69)." }
+      ]
     },
     {
       id: "t3.3.5", section: "3.3.5", title: "Freedom from Dharar (Detriment)", pages: [69, 70], tier: "supporting",
       concepts: ["dharar", "shufah"],
       intuition: "Can a contract between two willing parties still be wrong? Yes, if it harms a third party.",
       simple: "Contracts must not harm others. Regulators may protect naïve investors and provide information. A third party harmed by a contract may have rights — e.g. a partner’s pre-emptive right (Shuf‘ah), which may be extended by analogy to minority shareholders.",
-      academic: ["Dharar refers to saving others from harm due to a contract between two parties. The informationally disadvantaged party has an option to reverse its position. The State must ensure fair play; if most investors are naïve or irrational, regulators may take a paternal approach and provide information. If a contract is detrimental to a third party, the latter may have rights — e.g. Shuf‘ah (pre-emptive right) of a partner in joint ownership, which may be extended by analogy to minority shareholders affected by controlling shareholders’ decisions (new issues, management change, mergers)."],
+      academic: [
+        "Dharar refers to saving others from harm due to a contract between two parties. The informationally disadvantaged party has an option to reverse its position. The State must ensure fair play; if most investors are naïve or irrational, regulators may take a paternal approach and provide information. If a contract is detrimental to a third party, the latter may have rights — e.g. Shuf‘ah (pre-emptive right) of a partner in joint ownership, which may be extended by analogy to minority shareholders affected by controlling shareholders’ decisions (new issues, management change, mergers)."
+      ],
       exam: "Dharar: contracts must not harm third parties. Disadvantaged party may rescind; regulators may protect naïve investors. Shuf‘ah (pre-emption) may extend by analogy to minority shareholders.",
-      keyPoints: ["Paternal regulatory approach may be justified.", "Shuf‘ah as an example of third-party rights."],
-      definitions: [{ term: "Dharar", meaning: "Detriment/harm — contracts should not harm others." }, { term: "Shuf‘ah", meaning: "Pre-emptive right of a partner in joint ownership." }],
+      keyPoints: [
+        "Paternal regulatory approach may be justified.",
+        "Shuf‘ah as an example of third-party rights.",
+        "Regulators may take a paternal approach to protect naïve investors and must provide the public with information."
+      ],
+      definitions: [
+        { term: "Dharar", meaning: "Detriment/harm — contracts should not harm others." },
+        { term: "Shuf‘ah", meaning: "Pre-emptive right of a partner in joint ownership." }
+      ],
       related: ["t3.3.1", "t12.2.1"],
-      quickCheck: { q: "Which right is cited as an example of protecting a third party from a contract’s detriment?", options: ["Shuf‘ah (pre-emption)", "Hawalah", "‘Arbun", "Ju‘alah"], answer: 0, explanation: "p. 70." }
+      quickCheck: { q: "Which right is cited as an example of protecting a third party from a contract’s detriment?", options: ["Shuf‘ah (pre-emption)", "Hawalah", "‘Arbun", "Ju‘alah"], answer: 0, explanation: "p. 70." },
+      examples: [
+        { title: "Shuf‘ah extended to minority shareholders", kind: "textbook", text: "The pre-emptive right of a co-owner may be extended by analogy to protect minority shareholders harmed by controlling shareholders’ decisions — new share issues, management change, mergers (p. 70)." }
+      ]
     }
   ],
   summary: "Riba, Gharar and games of chance are the main prohibitions. Any increase over the principal of a loan or debt against nothing but time is Riba, and Shari’ah prohibits all benefits accruing without labour, risk or expertise; indexation of loans is forbidden (OIC Fiqh Academy), though one may lend in terms of gold or another currency without the liability increasing. Gharar is excessive uncertainty about the subject matter, price or obligations; to be prohibited it must be major and affect principal aspects, and it can be avoided by meeting standards of certainty (as in Salam). Many conventional derivatives involve major Gharar, and gambling (a form of Gharar) covers lotteries and draw-based prize schemes. Business must follow ethical standards: honesty, fair dealing, free consent, disclosure and no misrepresentation.",
@@ -411,7 +531,20 @@ IFL_DATA.registerChapter({
     { id: "f3.17", cat: "Arabic terminology", front: "‘Aqilah and Dhaman Khatr al-Tariq", back: "Pre-Islamic mutual-help schemes (shared tribal liability; joint fund for route losses) validated by Islam — foundation of Takaful.", topic: "t3.3.3" },
     { id: "f3.18", cat: "Exam facts", front: "OIC Fiqh Academy (1988) on profit margin", back: "No restriction on the percentage of profit; ethics of moderation, contentment and leniency apply; price fixing only to remove artificial distortions.", topic: "t3.3.4" },
     { id: "f3.19", cat: "Exam facts", front: "Rationale for Riba prohibition preferred by the author", back: "Distributive justice — preventing accumulation of wealth in few hands (59:7).", topic: "t3.2.1.f" },
-    { id: "f3.20", cat: "Banking", front: "Fines on wilful defaulters in Islamic banks", back: "Allowed by Shari’ah boards as a deterrent; the amount is used for charity and not credited to the bank’s P&L.", topic: "t3.3.1" }
+    { id: "f3.20", cat: "Banking", front: "Fines on wilful defaulters in Islamic banks", back: "Allowed by Shari’ah boards as a deterrent; the amount is used for charity and not credited to the bank’s P&L.", topic: "t3.3.1" },
+    { id: "f3.21", cat: "Exam facts", front: "Order of revelation of the verses on Riba", back: "30:39 → 4:161 → 3:130 (first express prohibition, around Uhud) → 2:275–281 (final, 10 AH).", topic: "t3.2.1" },
+    { id: "f3.22", cat: "Definitions", front: "Qard vs Dayn", back: "Qard: money/fungible lent, returned in like on demand. Dayn: liability from a credit transaction payable at an agreed time. Creditor gets the principal only in both.", topic: "t3.2.1" },
+    { id: "f3.23", cat: "Principles", front: "Earnings: permitted vs prohibited (Qur’anic contrast)", back: "Profit from trade/business with liability — permitted. Return on cash (or its converted form) without liability — prohibited (Riba).", topic: "t3.2.1" },
+    { id: "f3.24", cat: "Contract rules", front: "What cannot be leased, and why?", back: "Things consumed or transformed in use — money, yarn, edibles, fuel. They may be sold, but only assets whose corpus remains can be leased.", topic: "t3.2.1.b" },
+    { id: "f3.25", cat: "Exam facts", front: "Justinian and commercial interest", back: "The Byzantine emperor Justinian (527–565) regulated interest rates on commercial loans — evidence that commercial lending was known to Makkan traders.", topic: "t3.2.1.c" },
+    { id: "f3.26", cat: "Principles", front: "The modern ‘Illah for Riba rules", back: "Being used as money: Riba rules apply to anything serving the function of money — gold, silver, paper currency, IOUs.", topic: "t3.2.1.d" },
+    { id: "f3.27", cat: "Exam facts", front: "England, 1545", back: "Riba was split into a legal maximum called “interest” and the excess (usury); later Calvin and Molinaeus justified interest in theory.", topic: "t3.2.1.f" },
+    { id: "f3.28", cat: "Prohibitions", front: "Gharar-e-Kathir vs Gharar Qalil", back: "Excessive vs nominal uncertainty. Only excessive uncertainty about the subject matter or price prohibits a contract.", topic: "t3.2.2" },
+    { id: "f3.29", cat: "Prohibitions", front: "Habal-al-Hablah, Mulamasah, Munabadhah", back: "Sale of the unborn animal; sale by touching; barter without inspection — Gharar-based sales named in Bukhari’s chapter.", topic: "t3.2.2" },
+    { id: "f3.30", cat: "Prohibitions", front: "Bai‘ al-Ghaib", back: "Sale of absent or concealed goods, brought within Gharar by Ibn Abbas; the buyer has an option to revoke on sight.", topic: "t3.2.2" },
+    { id: "f3.31", cat: "Contract rules", front: "When is drawing lots permissible?", back: "When people of equal standing must be chosen for a right or burden and no one loses what they contributed — not when some gain at others’ cost.", topic: "t3.2.3" },
+    { id: "f3.32", cat: "Prohibitions", front: "Ghaban and Ghaban-e-Fahish", back: "Misrepresenting goods or prices; charging a much higher price while implying it is the market rate.", topic: "t3.3.4" },
+    { id: "f3.33", cat: "Principles", front: "Dharar and Shuf‘ah", back: "Freedom from harm to third parties; pre-emption right of a co-owner, which may be extended to protect minority shareholders.", topic: "t3.3.5" }
   ],
   questions: [
     { id: "q3.1", type: "mcq", q: "Which verse is described as the first express prohibition of Riba for Muslims?", options: ["30:39", "4:161", "3:130", "2:275"], answer: 2, explanation: "3:130, around the battle of Uhad (p. 44).", topic: "t3.2.1", diff: "M", level: "recall", obj: "Recall the textual basis of Riba prohibition" },
@@ -429,7 +562,31 @@ IFL_DATA.registerChapter({
     { id: "q3.13", type: "order", q: "Order the Qur’anic verses on Riba by revelation as listed by the author.", items: ["30:39", "4:161", "3:130", "2:275–281"], explanation: "p. 44.", topic: "t3.2.1", diff: "H", level: "recall", obj: "Recall the sequence of revelation" },
     { id: "q3.14", type: "comparison", q: "How does the author contrast capitalism and Islam on money capital as a factor of production?", options: ["Both treat it like land", "Capitalism treats it on a par with land and labour (fixed return); Islam on a par with enterprise (return only with risk)", "Islam gives it rent", "Capitalism treats it as enterprise"], answer: 1, explanation: "p. 55.", topic: "t3.2.1.f", diff: "M", level: "analysis", obj: "Compare treatments of capital" },
     { id: "q3.15", type: "short", q: "Briefly explain why the author rejects the argument that interest is justified to compensate for inflation.", answer: "Depreciation affects money equally whether in the lender’s pocket or with the borrower; lending to gain from indexation is a loan seeking benefit, which involves Riba. Hence indexation of financial obligations also leads to Riba (the Fiqh Academy also forbids indexation).", keywords: ["depreciation", "benefit", "indexation", "Riba"], explanation: "Section 3.2.1 misconceptions and Summary.", topic: "t3.2.1.c", diff: "H", level: "analysis", obj: "Evaluate inflation-based arguments" },
-    { id: "q3.16", type: "mcq", q: "Which pre-Islamic practice does the author link to the foundation of Takaful?", options: ["Bai‘ al Hasat", "Dhaman Khatr al-Tariq", "Mulamasah", "Habal-al-Hablah"], answer: 1, explanation: "Joint funds to indemnify route losses (p. 68).", topic: "t3.3.3", diff: "M", level: "recall", obj: "Link mutual cooperation to Takaful" }
+    { id: "q3.16", type: "mcq", q: "Which pre-Islamic practice does the author link to the foundation of Takaful?", options: ["Bai‘ al Hasat", "Dhaman Khatr al-Tariq", "Mulamasah", "Habal-al-Hablah"], answer: 1, explanation: "Joint funds to indemnify route losses (p. 68).", topic: "t3.3.3", diff: "M", level: "recall", obj: "Link mutual cooperation to Takaful" },
+    { id: "q3.17", type: "mcq", q: "When did the final and repeated prohibition of Riba come, according to the author?", options: ["Before the Hijrah", "Around the battle of Uhud, 3 AH", "In 10 AH, about two weeks before the Prophet’s passing", "After the conquest of Taif"], answer: 2, explanation: "Express prohibition around 3 AH; final in 10 AH (p. 44).", topic: "t3.2.1", diff: "M", level: "recall", obj: "Recall the chronology of the prohibition" },
+    { id: "q3.18", type: "tf", q: "According to the Hadith of Anas, a lender should not accept even a meal or a ride offered by the borrower unless such favours were customary between them before the loan.", answer: true, explanation: "Even small benefits from a debtor are avoided (pp. 46, 49).", topic: "t3.2.1", diff: "M", level: "recall", obj: "Recall the rule on benefits from debtors" },
+    { id: "q3.19", type: "identify", q: "Which Hadith is the basis of the juristic rules on Riba in exchange of commodities?", options: ["The Hadith of Jabir on cursing all parties", "The Hadith of the six commodities: gold, silver, wheat, barley, dates and salt", "The Hadith on the wet grain", "The Hadith of the boat"], answer: 1, explanation: "Like for like, equal for equal, hand to hand (pp. 46, 51–52).", topic: "t3.2.1.d", diff: "E", level: "recall", obj: "Identify the source of Riba Al-Fadl rules" },
+    { id: "q3.20", type: "scenario", q: "A customer buys goods on credit at an agreed price of 1,100. At maturity he cannot pay, and the seller offers to extend the term for another 50. How does the author classify the 50?", options: ["Legitimate profit on a new sale", "Riba — once the price is fixed it becomes a debt that cannot increase", "A permissible late fee retained by the seller", "Musawamah"], answer: 1, explanation: "Verse 2:275 context: bargaining is allowed before the price is stipulated, not after (pp. 48–49).", topic: "t3.2.1.b", diff: "M", level: "application", obj: "Apply the rule against increasing a debt" },
+    { id: "q3.21", type: "comparison", q: "Which statement correctly contrasts Bai‘, Qard and Ijarah?", options: ["All three transfer ownership permanently", "Sale transfers ownership permanently; a loan transfers it temporarily with return of the like; a lease transfers only usufruct while ownership stays with the lessor", "A lease transfers ownership, a sale does not", "A loan may carry rent"], answer: 1, explanation: "p. 48.", topic: "t3.2.1.b", diff: "M", level: "understanding", obj: "Contrast sale, loan and lease" },
+    { id: "q3.22", type: "multi", q: "Which arguments for the permissibility of interest does the author reject? (Select all.)", options: ["Only Riba al-jahiliyyah is prohibited", "Only excessive rates are prohibited", "Interest compensates for inflation", "Commercial loans were unknown in Arabia", "Trade profit is permitted"], answer: [0, 1, 2, 3], explanation: "Trade profit being permitted is not an argument for interest; it is the Qur’anic contrast itself (pp. 49–51).", topic: "t3.2.1.c", diff: "M", level: "analysis", obj: "Evaluate arguments on interest" },
+    { id: "q3.23", type: "application", q: "Someone argues that interest on a loan to a large, rich company cannot be unjust. What is the author’s reply?", options: ["He agrees", "It strengthens the case against interest: the rich get cheap funds, pass the cost to consumers and grow richer", "Only if the rate is below 5%", "Only if the company is foreign"], answer: 1, explanation: "p. 51.", topic: "t3.2.1.c", diff: "M", level: "application", obj: "Apply the author’s rebuttal on rich debtors" },
+    { id: "q3.24", type: "match", q: "Match each exchange to the rule under Imam Nawavi’s summary.", pairs: [["Wheat for wheat", "Equal quantity and spot"], ["Wheat for rice", "Excess allowed, but spot"], ["Gold for wheat", "Excess and delay both allowed"], ["Dollars for dollars", "Equal and spot"]], explanation: "Edibility is the ‘Illah for wheat/rice (p. 52).", topic: "t3.2.1.d", diff: "M", level: "application", obj: "Apply exchange rules to new pairs" },
+    { id: "q3.25", type: "tf", q: "The equal-and-spot rule for exchanging like monetary goods also applies to a Qard where the borrower returns the same amount later.", answer: false, explanation: "The rule is for exchange/sale contracts; Qard and Dayn are exempt (p. 52, n. 21).", topic: "t3.2.1.d", diff: "H", level: "analysis", obj: "Distinguish exchange from loan rules" },
+    { id: "q3.26", type: "definition", q: "“The quality premium in the exchange of low-quality for better-quality goods of the same genus” defines:", options: ["Riba Al-Nasiah", "Riba Al-Fadl", "Gharar", "Ghaban"], answer: 1, explanation: "p. 53.", topic: "t3.2.1.e", diff: "E", level: "recall", obj: "Define Riba Al-Fadl" },
+    { id: "q3.27", type: "mcq", q: "Which rationale for the prohibition of interest does the author find most convincing?", options: ["Ritual obedience only", "Prevention of luxury", "Distributive justice — preventing wealth circulating only among the rich (59:7)", "Ecological protection"], answer: 2, explanation: "p. 54–55.", topic: "t3.2.1.f", diff: "M", level: "understanding", obj: "Identify the preferred rationale" },
+    { id: "q3.28", type: "order", q: "Order these historical steps in the Western acceptance of interest as described by the author.", items: ["Ancient philosophers and the Testaments forbid interest", "England (1545) splits a legal maximum “interest” from usury", "Calvin and Molinaeus argue for interest in theory", "The Industrial Revolution gives the movement momentum"], explanation: "pp. 53–54.", topic: "t3.2.1.f", diff: "H", level: "recall", obj: "Sequence the history of interest in the West" },
+    { id: "q3.29", type: "short", q: "Explain why Islam treats money capital on a par with enterprise rather than with land and labour.", answer: "Money is consumed in use and cannot be leased, so it cannot earn rent. The profit of a productive venture is unknown and a loss is possible; justice requires the capital provider to share the risk with the entrepreneur if he wants profit. Capitalism gives money capital a fixed return like land and labour; Islam gives it a share of profit only with liability for loss.", keywords: ["consumed", "risk", "profit", "loss", "enterprise"], explanation: "pp. 55, 57.", topic: "t3.2.1.f", diff: "H", level: "analysis", obj: "Explain the treatment of money capital" },
+    { id: "q3.30", type: "identify", q: "According to the Zahiri school (Ibn Hazm), Gharar in sales occurs when:", options: ["Anything is doubtful", "The buyer does not know what he bought and the seller does not know what he sold", "Payment is deferred", "Goods are imported"], answer: 1, explanation: "Zahiris apply Gharar to the unknown, excluding the doubtful; the majority include both (p. 59).", topic: "t3.2.2", diff: "H", level: "recall", obj: "Distinguish juristic views on Gharar" },
+    { id: "q3.31", type: "multi", q: "Which situations does Islamic law exclude from the power to sell in order to avoid Gharar? (Select all.)", options: ["Things that do not exist", "Things that exist but are not in the seller’s possession or whose availability is not expected", "Things exchanged with uncertain delivery and payment", "Goods sold at a disclosed profit"], answer: [0, 1, 2], explanation: "p. 60.", topic: "t3.2.2", diff: "M", level: "recall", obj: "Recall the three restricted situations" },
+    { id: "q3.32", type: "scenario", q: "A seller says: “I sell you whatever is in my pocket for 100.” What is the defect?", options: ["Riba Al-Fadl", "Gharar/Jahl — the subject matter is unknown", "Najash", "None"], answer: 1, explanation: "Selling unknown goods is an example of Gharar (p. 61).", topic: "t3.2.2", diff: "E", level: "application", obj: "Identify Gharar in a sale" },
+    { id: "q3.33", type: "application", q: "A trader agrees to sell goods “at whatever the market price will be” with no further specification. Is this valid?", options: ["Yes, market price is always fair", "No — selling without specifying the price is listed as Gharar", "Yes, if delivery is spot", "Only for gold"], answer: 1, explanation: "p. 61.", topic: "t3.2.2", diff: "M", level: "application", obj: "Apply the certainty-of-price rule" },
+    { id: "q3.34", type: "comparison", q: "How do the Qur’an and Hadith literature differ in the term they use for gambling?", options: ["Both use Qimar", "The Qur’an uses Maisir; Hadith literature generally uses Qimar", "The Qur’an uses Gharar", "Hadith uses Riba"], answer: 1, explanation: "Maisir in 2:219 and 5:90–91; Qimar in Hadith (p. 62).", topic: "t3.2.3", diff: "E", level: "recall", obj: "Distinguish Maisir and Qimar terminology" },
+    { id: "q3.35", type: "scenario", q: "A shop gives a free bottle of oil with every bag of rice, with no draw or prize. Is this gambling?", options: ["Yes, it is a lottery", "No — the buyer knows what he buys and the price; there is no element of chance", "Only if the oil is expensive", "Yes, it is Riba"], answer: 1, explanation: "p. 63.", topic: "t3.2.3", diff: "E", level: "application", obj: "Distinguish incentives from gambling" },
+    { id: "q3.36", type: "tf", q: "According to the author, futures and options contracts settled only through price differences are covered by the prohibition of gambling.", answer: true, explanation: "p. 62.", topic: "t3.2.3", diff: "M", level: "recall", obj: "Apply gambling to derivatives" },
+    { id: "q3.37", type: "mcq", q: "What does Ghaban-e-Fahish mean?", options: ["Bidding without intention to buy", "Selling at a much higher price while giving the impression it is the market rate", "Hoarding", "Misleading advertising"], answer: 1, explanation: "p. 68.", topic: "t3.3.4", diff: "M", level: "recall", obj: "Define Ghaban-e-Fahish" },
+    { id: "q3.38", type: "multi", q: "Which did the OIC Fiqh Academy (1988) state about markets? (Select all.)", options: ["Traders are free to buy and sell within Shari’ah", "There is no fixed limit on the percentage of profit", "The government should fix all prices", "Government may intervene when prices rise due to artificial factors"], answer: [0, 1, 3], explanation: "p. 69.", topic: "t3.3.4", diff: "M", level: "recall", obj: "Recall the Fiqh Academy market principles" },
+    { id: "q3.39", type: "identify", q: "“Deceiving a Mustarsal is Riba.” Who is a Mustarsal?", options: ["A broker", "An unknowing entrant into the market", "A money-changer", "A guarantor"], answer: 1, explanation: "p. 67.", topic: "t3.3.1", diff: "M", level: "recall", obj: "Recall disclosure norms" },
+    { id: "q3.40", type: "application", q: "Controlling shareholders plan a merger that harms minority shareholders. Which classical concept does the author suggest could be extended by analogy to protect them?", options: ["Hawalah", "Shuf‘ah (pre-emption)", "Kafalah", "Arbun"], answer: 1, explanation: "p. 70.", topic: "t3.3.5", diff: "H", level: "application", obj: "Apply freedom from Dharar" }
   ],
   exam: [
     { id: "e3.1", kind: "long", q: "What is Riba? Discuss its types, textual basis and why modern commercial interest falls within its scope.", structure: ["Literal and technical meaning", "Qur’anic verses (3:130, 2:275–281) and key Hadiths", "Principal-only rule for Qard and Dayn", "Riba Al-Nasiah vs Riba Al-Fadl", "Broad definition and exclusions", "Why commercial interest is Riba; rebut rate/purpose arguments", "Rationale: distributive justice"], keyConcepts: ["Ra’as al-mal", "Riba Al-Nasiah", "Riba Al-Fadl", "Bai‘ al Sarf", "‘Illah"], points: ["Any excess over principal", "Trade permitted, Riba forbidden", "Six commodities rule", "Currencies: spot exchange", "Any rate doubles over time"], mistakes: ["Equating Riba only with high rates", "Omitting Riba in exchange", "Calling credit-sale mark-up Riba"], topic: "t3.2.1" },
@@ -437,6 +594,8 @@ IFL_DATA.registerChapter({
     { id: "e3.3", kind: "short", q: "Define Gharar. What are its main forms and when does it render a contract invalid?", structure: ["Definition with examples", "Excessive vs minor", "Al-Dhareer’s classification", "Tests for prohibition", "Contrast with Riba"], keyConcepts: ["Gharar-e-Kathir", "Jahl", "deliverability"], points: ["Fish in water", "Major, principal aspects, not needed by Salam/Istisna‘a"], mistakes: ["Treating all risk as Gharar"], topic: "t3.2.2" },
     { id: "e3.4", kind: "scenario", q: "A bank launches a deposit scheme with a monthly lucky draw offering a car, funded from the scheme’s interest earnings. Analyse it using Chapter 3.", structure: ["Identify Riba element", "Identify Maisir/Qimar element", "Apply the lottery test", "Conclusion and permissible alternative (profit-based return)"], keyConcepts: ["Maisir", "Qimar", "Riba"], points: ["Prize = interest distributed by chance", "Loss to majority for gain of few", "Diverts resources from real sector"], mistakes: ["Concluding it is valid because principal is safe"], topic: "t3.2.3" },
     { id: "e3.5", kind: "viva", q: "Can US Dollars be exchanged for Pakistani Rupees with settlement after one week?", structure: ["Identify ‘Illah", "Apply rule"], keyConcepts: ["Bai‘ al Sarf", "‘Illah"], points: ["Different currencies, same ‘Illah → any rate, but spot; delay not allowed"], mistakes: ["Requiring equal amounts"], topic: "t3.2.1.d" },
-    { id: "e3.6", kind: "short", q: "Explain Najash, Khalabah and the importance of disclosure in Islamic business ethics.", structure: ["Define each", "Hadith references", "Link to Gharar and Jahl", "Implication for markets/investors"], keyConcepts: ["Najash", "Khalabah", "Mustarsal", "transparency"], points: ["Right to rescind for disadvantaged party", "Information equally accessible"], mistakes: ["Confusing Najash and Khalabah"], topic: "t3.3.1" }
+    { id: "e3.6", kind: "short", q: "Explain Najash, Khalabah and the importance of disclosure in Islamic business ethics.", structure: ["Define each", "Hadith references", "Link to Gharar and Jahl", "Implication for markets/investors"], keyConcepts: ["Najash", "Khalabah", "Mustarsal", "transparency"], points: ["Right to rescind for disadvantaged party", "Information equally accessible"], mistakes: ["Confusing Najash and Khalabah"], topic: "t3.3.1" },
+    { id: "e3.7", kind: "long", q: "Define Gharar and classify its forms. Why is some Gharar tolerated while no Riba is?", structure: ["Meaning: hazard, uncertainty (Khatar)", "Juristic definitions: Malik, Ibn Hazm, majority", "Al-Dhareer’s classification: in the contract terms / in the object", "Three situations where sale is denied", "Excessive vs nominal Gharar; Salam and Istisna as need-based exceptions", "Contrast with Riba’s zero tolerance"], keyConcepts: ["Gharar-e-Kathir", "Jahl", "Bai‘ al-Ghaib", "two sales in one", "Salam"], points: ["Uncertainty cannot be avoided entirely", "Prohibited Gharar is major, remunerative and affects principal aspects", "Salam conditions remove Gharar", "Derivatives involve major Gharar"], mistakes: ["Equating Gharar with ordinary business risk", "Forgetting Jahl", "Saying all uncertainty is prohibited"], topic: "t3.2.2" },
+    { id: "e3.8", kind: "viva", q: "A bank’s prize bond keeps the principal safe but pays prizes from pooled interest. What prohibitions are involved?", structure: ["Nature of the scheme", "Riba element", "Maisir element", "FSC view", "Conclusion"], keyConcepts: ["Riba", "Maisir", "Qimar", "FSC"], points: ["Prizes are precalculated interest", "A few gain at others’ cost by chance", "Diverts resources from the real sector"], mistakes: ["Thinking principal protection makes it lawful"], topic: "t3.2.3" }
   ]
 });

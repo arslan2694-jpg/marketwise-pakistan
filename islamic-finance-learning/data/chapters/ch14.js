@@ -24,7 +24,9 @@ IFL_DATA.registerChapter({
       concepts: ["intermediation", "product-development"],
       intuition: "What must an Islamic bank's investment side achieve that a conventional bank's need not?",
       simple: "‘Money earning money’ does not fit the Islamic structure: money must be invested in goods yielding profit through risk-taking and value addition. Islamic banks must run win–win business while avoiding interest, Gharar, gambling and unethical practices, designing diversified portfolios with profit and liquidity. The biggest challenge is products that are Shari’ah-compliant yet meet changing business needs; innovation requires joint effort of scholars and bankers.",
-      academic: ["Intermediation mobilises resources from surplus to deficit units; deposits were covered in Chapters 8 and 12. Prudent financing needs product development, risk management and Shari’ah compliance. Innovation is the most critical success factor and differs from conventional product development in its additional Shari’ah parameters."],
+      academic: [
+        "Intermediation mobilises resources from surplus to deficit units; deposits were covered in Chapters 8 and 12. Prudent financing needs product development, risk management and Shari’ah compliance. Innovation is the most critical success factor and differs from conventional product development in its additional Shari’ah parameters."
+      ],
       exam: "Principles: no money-for-money; profit via risk and value addition; avoid Riba, Gharar, gambling; balance profit, risk and liquidity; innovation by scholars + bankers.",
       keyPoints: ["Credibility depends on genuine compliance plus meeting business needs."],
       related: ["t14.2", "t4.1"],
@@ -35,10 +37,21 @@ IFL_DATA.registerChapter({
       concepts: ["product-development"],
       intuition: "What steps turn an idea into an approved Islamic product?",
       simple: "Product development creates and re-engineers products within Shari’ah, regulatory and legal limits. Procedure: assess need; generate ideas; discuss with Shari’ah advisor/board; develop procedures and an operational manual; final Shari’ah approval. Risk management, accounting, tax, legal and IT must be involved; staff trained; the product revised after launch using feedback. A product may combine several modes (e.g. DM housing uses Shirkah, Ijarah, Istisna‘a and Wakalah), and all their rules apply.",
-      academic: ["Deciding factors: market survey; Shari’ah compliance (mode, assets, process, documentation); depositors' risk profile; clients' cash flows; risk mitigation; legal matters; managing the liquidity–profitability mismatch. The manual is discussed with operations staff; marketing and operations staff must know product advantages."],
+      academic: [
+        "Deciding factors: market survey; Shari’ah compliance (mode, assets, process, documentation); depositors' risk profile; clients' cash flows; risk mitigation; legal matters; managing the liquidity–profitability mismatch. The manual is discussed with operations staff; marketing and operations staff must know product advantages."
+      ],
       exam: "Procedure: need → ideas → Shari’ah board → procedures/manual → Shari’ah approval; involve risk, accounting, tax, legal, IT; training; post-launch revision. Multi-mode products must satisfy each mode's rules.",
       keyPoints: ["Launch starts the revision cycle.", "DM housing = Shirkah + Ijarah + Istisna‘a + Wakalah."],
-      steps: ["Assess the need", "Generate ideas", "Discuss structure with the Shari’ah advisor/board", "Develop procedures and operational manual", "Risk, accounting, tax, legal and IT review", "Final Shari’ah approval", "Train staff and launch", "Revise using feedback"],
+      steps: [
+        "Assess the need",
+        "Generate ideas",
+        "Discuss structure with the Shari’ah advisor/board",
+        "Develop procedures and operational manual",
+        "Risk, accounting, tax, legal and IT review",
+        "Final Shari’ah approval",
+        "Train staff and launch",
+        "Revise using feedback"
+      ],
       related: ["t14.3.4"],
       quickCheck: { q: "Which modes may a DM-based housing product combine, per Section 14.2.1?", options: ["Only Shirkah", "Shirkah, Ijarah, Istisna‘a and Wakalah", "Murabaha and Salam", "Tawarruq and ‘Inah"], answer: 1, explanation: "p. 358." }
     },
@@ -83,19 +96,10 @@ IFL_DATA.registerChapter({
       ],
       exam: "Match mode to need; diversify. Box 14.1 key cells: Murabaha — fixed rate, prepayment not allowed as a system, late payment = loss to bank; DM/Ijarah — long-term, fixed/variable, prepayment allowed, late payment controllable; Salam — short-term, late payment loss to bank; Musharakah — variable, joint risk. Box 14.2 Salam + promise + agency + Murabaha.",
       keyPoints: ["Late payment in Murabaha and Salam is a loss to the bank; controllable in Ijarah/DM/Istisna‘a."],
-      table: {
-        caption: "Box 14.1 — Salient features of major modes of financing",
-        head: ["Feature", "Dim. Musharakah", "Ijarah", "Murabaha", "Salam", "Istisna‘a", "Musharakah/Mudarabah"],
-        rows: [
-          ["Period", "Long-term", "Long-term", "Short/long-term", "Short-term", "Short/long-term", "Short/long-term"],
-          ["Rate", "Fixed/variable", "Fixed/variable", "Fixed", "Fixed", "Fixed", "Variable"],
-          ["Prepayment allowed", "Yes", "Yes", "Not allowed as a system", "No", "May be structured", "Yes"],
-          ["Risk of the asset", "Joint", "Financier", "Financier/customer", "Financier/customer", "Customer/financier", "Joint"],
-          ["Uses", "Nonconsumable assets", "Nonconsumable assets", "Any Halal assets", "Salam compatible", "Assets to be manufactured", "Any Halal business"],
-          ["Late payments", "Controllable", "Controllable", "Loss to the bank", "Loss to the bank", "Controllable", "No issue"]
-        ]
-      },
-      examples: [{ title: "Box 14.2 — Salam and Murabaha combined", kind: "textbook", text: "The bank buys cotton from growers on Salam, obtains a textile mill's promise to buy, appoints the mill as agent to take delivery, then sells the cotton to the mill on Murabaha at the agreed price (p. 362)." }],
+      table: { caption: "Box 14.1 — Salient features of major modes of financing", head: ["Feature", "Dim. Musharakah", "Ijarah", "Murabaha", "Salam", "Istisna‘a", "Musharakah/Mudarabah"], rows: [["Period", "Long-term", "Long-term", "Short/long-term", "Short-term", "Short/long-term", "Short/long-term"], ["Rate", "Fixed/variable", "Fixed/variable", "Fixed", "Fixed", "Fixed", "Variable"], ["Prepayment allowed", "Yes", "Yes", "Not allowed as a system", "No", "May be structured", "Yes"], ["Risk of the asset", "Joint", "Financier", "Financier/customer", "Financier/customer", "Customer/financier", "Joint"], ["Uses", "Nonconsumable assets", "Nonconsumable assets", "Any Halal assets", "Salam compatible", "Assets to be manufactured", "Any Halal business"], ["Late payments", "Controllable", "Controllable", "Loss to the bank", "Loss to the bank", "Controllable", "No issue"]] },
+      examples: [
+        { title: "Box 14.2 — Salam and Murabaha combined", kind: "textbook", text: "The bank buys cotton from growers on Salam, obtains a textile mill's promise to buy, appoints the mill as agent to take delivery, then sells the cotton to the mill on Murabaha at the agreed price (p. 362)." }
+      ],
       related: ["t10.10", "t9.8", "t11.5", "t12.9"],
       quickCheck: { q: "According to Box 14.1, in which mode is late payment described as ‘controllable’?", options: ["Murabaha", "Salam", "Ijarah", "None"], answer: 2, explanation: "Ijarah (and DM, Istisna‘a) — p. 361–362." }
     },
@@ -104,7 +108,9 @@ IFL_DATA.registerChapter({
       concepts: ["risk"],
       intuition: "Why is mismatched tenor ‘suicidal’ for an Islamic bank?",
       simple: "Customer cash-flow analysis is vital. Conventional borrowers sometimes accept tenors that mismatch cash flows, relying on rollovers. In Islamic finance this is suicidal because an Islamic bank cannot claim liquidated damages for lost cost of funds on default. Tenor must be set carefully with the customer.",
-      academic: ["The conventional approach is imprudent even by conventional rules but may work individually; Islamic banks lack the rollover and penalty-interest safety valve."],
+      academic: [
+        "The conventional approach is imprudent even by conventional rules but may work individually; Islamic banks lack the rollover and penalty-interest safety valve."
+      ],
       exam: "Tenor must match customer cash flow because Islamic banks cannot charge liquidated damages/rollover mark-up on default.",
       keyPoints: ["No rollover of Murabaha."],
       related: ["t14.3.4", "t9.9.6"],
@@ -124,26 +130,8 @@ IFL_DATA.registerChapter({
         "Musharakah: projected rates subject to final adjustment; loss by capital. Investments screened; non-compliant income and placements to charity; charity funds used for the poor and social welfare."
       ],
       exam: "Controls: Murabaha nine (trade accounting, no rollover, timely purchase, goods exist, bank title/risk, documentation, mark-up from sale, no buy-back/sister concern, DP note after sale). Ijarah ten (title, own before lease, defined terms, floating rent rules, Takaful, separate transfer, lessor costs, operating-lease accounting, advance rent, penalties to charity). Screening: interest income ≤5%, leverage ≤10–33%, illiquid ≥10–33%.",
-      keyPoints: [
-        "Rollover returns → Charity Account.",
-        "DP note before sale: principal only.",
-        "Pre-stipulated DM revaluation → usurious."
-      ],
-      table: {
-        caption: "Murabaha internal Shari’ah controls (Section 14.3.4, condensed)",
-        head: ["#", "Control"],
-        rows: [
-          ["1", "Account for Murabaha as trade, not a financial transaction"],
-          ["2", "No rollover; extend credit only by a new genuine Murabaha on new goods"],
-          ["3", "Client-agent must buy within a set maximum time and declare; funds are Amanah or pay supplier directly"],
-          ["4", "Goods must exist (not consumed) at offer and acceptance"],
-          ["5", "Title and all ownership risks with the bank until sale"],
-          ["6", "Documentation followed; no change to master agreement without board approval"],
-          ["7", "Mark-up from date of sale to client, not from disbursement"],
-          ["8", "No buy-back; supplier not a sister concern (client share ≤50%)"],
-          ["9", "DP notes after sale; before sale only for principal"]
-        ]
-      },
+      keyPoints: ["Rollover returns → Charity Account.", "DP note before sale: principal only.", "Pre-stipulated DM revaluation → usurious."],
+      table: { caption: "Murabaha internal Shari’ah controls (Section 14.3.4, condensed)", head: ["#", "Control"], rows: [["1", "Account for Murabaha as trade, not a financial transaction"], ["2", "No rollover; extend credit only by a new genuine Murabaha on new goods"], ["3", "Client-agent must buy within a set maximum time and declare; funds are Amanah or pay supplier directly"], ["4", "Goods must exist (not consumed) at offer and acceptance"], ["5", "Title and all ownership risks with the bank until sale"], ["6", "Documentation followed; no change to master agreement without board approval"], ["7", "Mark-up from date of sale to client, not from disbursement"], ["8", "No buy-back; supplier not a sister concern (client share ≤50%)"], ["9", "DP notes after sale; before sale only for principal"]] },
       related: ["t14.appx", "t9.10", "t11.6", "t8.8.1"],
       quickCheck: { q: "From when should Murabaha mark-up be charged?", options: ["From disbursement to the supplier", "From the date the bank sells the goods to the client", "From signing the MoU", "From application date"], answer: 1, explanation: "p. 365, control 7." }
     },
@@ -177,7 +165,13 @@ IFL_DATA.registerChapter({
       ],
       exam: "Working capital: Murabaha (raw material); Murabaha + Istisna‘a + Wakalah (processing/overheads, export); running Musharakah (daily product; gross-profit sharing); Salam + agency (sugar, fertiliser, cement).",
       keyPoints: ["In Salam-agency, price risk stays with the bank."],
-      steps: ["Murabaha for raw material", "Istisna‘a for manufacture and overheads", "Goods become the bank's on manufacture", "Exporter acts as bank's agent to export", "Bank recovers Istisna‘a price and profit from proceeds; client pays Murabaha price"],
+      steps: [
+        "Murabaha for raw material",
+        "Istisna‘a for manufacture and overheads",
+        "Goods become the bank's on manufacture",
+        "Exporter acts as bank's agent to export",
+        "Bank recovers Istisna‘a price and profit from proceeds; client pays Murabaha price"
+      ],
       related: ["t10.10", "t12.7.2"],
       quickCheck: { q: "In the sugar-mill Salam with agency, if the market price falls below the agreed price, who bears the loss?", options: ["The mill", "The bank", "The government", "Shared equally"], answer: 1, explanation: "p. 370." }
     },
@@ -194,7 +188,9 @@ IFL_DATA.registerChapter({
       ],
       exam: "Alternatives to discounting: interest-free loan + collection fee; Musawamah on bill (Rs.57.60 example); outright purchase of export goods with L/C assignment. Import Murabaha variants: Musawamah, sub-Murabaha, PAD, TR, shipping guarantee (cost adjustable, profit not).",
       keyPoints: ["Service charges amount-related, not time-related.", "In shipping-guarantee Murabaha, only the cost portion may be adjusted later."],
-      examples: [{ title: "Musawamah alternative to bill discounting", kind: "textbook", text: "1 Jan 2007: exporter's US$100,000 bill due 25 Feb; spot Rs.57.75; bank quotes Rs.57.60 and funds Rs.5,760,000 as agent for raw materials; client declares possession and offers to buy the stock for US$100,000 payable 25 Feb; on receipt of the remittance, the bank debits US$100,000 (pp. 371)." }],
+      examples: [
+        { title: "Musawamah alternative to bill discounting", kind: "textbook", text: "1 Jan 2007: exporter's US$100,000 bill due 25 Feb; spot Rs.57.75; bank quotes Rs.57.60 and funds Rs.5,760,000 as agent for raw materials; client declares possession and offers to buy the stock for US$100,000 payable 25 Feb; on receipt of the remittance, the bank debits US$100,000 (pp. 371)." }
+      ],
       related: ["t12.7.2", "t9.8.3"],
       quickCheck: { q: "In the import Murabaha under a shipping guarantee, if the final cost differs from the estimate, what may be adjusted?", options: ["Both cost and profit", "Only the cost portion", "Only profit", "Nothing"], answer: 1, explanation: "p. 373." }
     },
@@ -214,7 +210,9 @@ IFL_DATA.registerChapter({
       concepts: ["liquidity", "tawarruq", "sukuk"],
       intuition: "Without an interest-based money market, how do Islamic banks manage surplus and shortage?",
       simple: "Options: interbank Mudarabah (deficit bank shares general profit at a negotiated ratio); buying government Sukuk at par and selling them outright in the secondary market or to the central bank (like repo, but two separate outright sales); pooling Murabaha and Ijarah assets for other banks to invest (Murabaha receivables below 50%); Parallel Salam; and Tawarruq/Commodity Murabaha — a grey area to be used only in extreme cases under board guidance. Malaysian cards combining Tawarruq with buy-back are considered non-compliant by most scholars.",
-      academic: ["Tawarruq on the asset side gives a fixed guaranteed return and can be done with conventional banks; it must not become a mere exchange of papers."],
+      academic: [
+        "Tawarruq on the asset side gives a fixed guaranteed return and can be done with conventional banks; it must not become a mere exchange of papers."
+      ],
       exam: "Liquidity tools: interbank Mudarabah; Sukuk buy/sell outright; asset pools (<50% receivables); Parallel Salam; Tawarruq (last resort).",
       keyPoints: ["Sukuk sale ≠ repo: two separate outright transactions."],
       related: ["t13.3.1", "t15.3.8"],
@@ -241,7 +239,9 @@ IFL_DATA.registerChapter({
       concepts: ["musharakah", "central-bank"],
       intuition: "Can a central bank support exporters without charging interest?",
       simple: "SBP's Islamic Export Refinance Scheme is Musharakah-based: SBP shares in actual profit of the Islamic bank's Musharakah pool used for export finance. Profit above the conventional EFS rate goes to a Takaful fund to absorb future losses. Pool: at least ten blue-chip companies (stock record, rating ≥B+, or ROE above EFS rates; no adverse credit reports). Profit on a daily-product basis; audited adjustments to or from the Takaful fund; losses shared by investment proportion, SBP's share first from the Takaful fund.",
-      academic: ["The pool profit = gross income less provisions plus recoveries and reversals; excess over quarterly provisional payments is deposited within seven days in the non-remunerative Takaful fund; shortfalls refunded from it; in loss, the Islamic bank may reclaim provisional profit paid plus SBP's share of principal loss."],
+      academic: [
+        "The pool profit = gross income less provisions plus recoveries and reversals; excess over quarterly provisional payments is deposited within seven days in the non-remunerative Takaful fund; shortfalls refunded from it; in loss, the Islamic bank may reclaim provisional profit paid plus SBP's share of principal loss."
+      ],
       exam: "IERS: Musharakah pool (≥10 blue chips); SBP shares profit on daily product; excess over EFS → Takaful fund; losses by investment share (SBP's from Takaful fund first).",
       keyPoints: ["Takaful fund = risk-mitigation reserve."],
       related: ["t14.3.1", "t12.7.1"],
@@ -263,17 +263,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "OIC Fiqh Council 2000: no interest-condition cards; fixed fees and merchant commission allowed. Charge card conditions. Flat cash fee. Structures: EIB (Ujrah), KFH Al Tayseer, Ijarah card; BIC/Al-Taslif (‘Inah — questionable). Murabaha/Musharakah card possibilities.",
       keyPoints: ["Service fee must not grow with credit or amount.", "‘Inah-based cards are rejected by most scholars."],
-      table: {
-        caption: "Islamic card structures described in Section 14.4.7",
-        head: ["Card", "Basis", "Assessment in the chapter"],
-        rows: [
-          ["Emirates Islamic Bank", "Ujrah — fixed quarterly fee; min. 10% repayment", "Interest-free; all fees disclosed"],
-          ["KFH Al Tayseer", "Annual fee; one-third monthly repayment, no interest", "Interest-free"],
-          ["KFH (Bahrain) Ijarah card", "Ijarah for durables up to 25 months", "Details not available"],
-          ["Bank Islam Malaysia (BIC)", "Bai‘ al ‘Inah + Wadi‘ah + Qard", "Questionable (‘Inah)"],
-          ["AmBank Al-Taslif", "Bai‘ al ‘Inah", "Buy-back — questionable"]
-        ]
-      },
+      table: { caption: "Islamic card structures described in Section 14.4.7", head: ["Card", "Basis", "Assessment in the chapter"], rows: [["Emirates Islamic Bank", "Ujrah — fixed quarterly fee; min. 10% repayment", "Interest-free; all fees disclosed"], ["KFH Al Tayseer", "Annual fee; one-third monthly repayment, no interest", "Interest-free"], ["KFH (Bahrain) Ijarah card", "Ijarah for durables up to 25 months", "Details not available"], ["Bank Islam Malaysia (BIC)", "Bai‘ al ‘Inah + Wadi‘ah + Qard", "Questionable (‘Inah)"], ["AmBank Al-Taslif", "Bai‘ al ‘Inah", "Buy-back — questionable"]] },
       related: ["t13.3", "t6.11"],
       quickCheck: { q: "Per the OIC Fiqh Council, a card with an interest condition is impermissible even if:", options: ["The fee is fixed", "The holder intends to pay within the free period", "The merchant pays commission", "It is a debit card"], answer: 1, explanation: "p. 380." }
     },

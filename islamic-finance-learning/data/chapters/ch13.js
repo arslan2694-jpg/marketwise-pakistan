@@ -22,7 +22,9 @@ IFL_DATA.registerChapter({
       concepts: ["wakalah", "tawarruq", "jualah"],
       intuition: "Which small contracts make the big modes work?",
       simple: "Besides major contracts (Shirkah, Bai‘, Ijarah), Islamic banks use ancillary contracts inside or alongside them: Wakalah (agency), Ju‘alah (service against reward), Tawarruq (generating cash through purchase and sale, rooted in Murabaha but now a separate mode) and Istijrar (repeat sale). Hawalah, Kafalah and Bai‘ al Dayn are covered in other chapters.",
-      academic: ["Wakalah and Ju‘alah are discussed as ancillary contracts; Tawarruq has become a separate mode used with other major modes; Istijrar is a repeat-sale arrangement under major modes."],
+      academic: [
+        "Wakalah and Ju‘alah are discussed as ancillary contracts; Tawarruq has become a separate mode used with other major modes; Istijrar is a repeat-sale arrangement under major modes."
+      ],
       exam: "Accessory contracts: Wakalah, Ju‘alah, Tawarruq, Istijrar (Hawalah, Kafalah, Bai‘ al Dayn elsewhere).",
       keyPoints: ["Ancillary contracts support the major modes."],
       related: ["t13.2", "t13.3", "t13.4", "t13.5"],
@@ -53,11 +55,7 @@ IFL_DATA.registerChapter({
         { term: "Wakalah", meaning: "Agency: appointing another to act on one's behalf; the agent (Wakil) acts as a trustee." },
         { term: "Fuduli", meaning: "A person who acts for another without authority; the contract is valid subject to the principal's ratification (preferred view)." }
       ],
-      table: {
-        caption: "Types of Wakalah (Section 13.2.1)",
-        head: ["Type", "Purpose"],
-        rows: [["Wakil-bil-Kusoomah", "Disputes/cases for the principal"], ["Wakil-bil-Taqazi al Dayn", "Receiving debt"], ["Wakil-bil-Qabaza al Dayn", "Possession of debt"], ["Wakil-bil-Bai‘", "Selling"], ["Wakil-bil-Shira", "Purchasing"]]
-      },
+      table: { caption: "Types of Wakalah (Section 13.2.1)", head: ["Type", "Purpose"], rows: [["Wakil-bil-Kusoomah", "Disputes/cases for the principal"], ["Wakil-bil-Taqazi al Dayn", "Receiving debt"], ["Wakil-bil-Qabaza al Dayn", "Possession of debt"], ["Wakil-bil-Bai‘", "Selling"], ["Wakil-bil-Shira", "Purchasing"]] },
       related: ["t13.2.1", "t13.2.2", "t9.8.3"],
       quickCheck: { q: "Under the preferred (Shafi‘i/Hanbali) view, goods bought by an agent for the principal:", options: ["Belong first to the agent", "Pass directly from the seller to the principal", "Remain with the seller", "Must be resold"], answer: 1, explanation: "p. 348." }
     },
@@ -66,7 +64,9 @@ IFL_DATA.registerChapter({
       concepts: ["wakalah"],
       intuition: "What should a bank write into an agency agreement with a client?",
       simple: "Banks appointing agents should define the job clearly (even in general agency), require good faith and due diligence, prohibit undisclosed self-dealing, and include a clause making the agent liable for negligence, because agency can create third-party liabilities.",
-      academic: ["The agent is responsible for payment and receipt of goods on the principal's behalf and may be sued for non-performance; he must exercise due care and skill and cannot entrust the work to another without consent."],
+      academic: [
+        "The agent is responsible for payment and receipt of goods on the principal's behalf and may be sued for non-performance; he must exercise due care and skill and cannot entrust the work to another without consent."
+      ],
       exam: "Bank practice: clear job definition; negligence clause; no delegation without consent; disclose conflicts.",
       keyPoints: ["Third-party liabilities can arise from agency."],
       related: ["t13.2"],
@@ -80,8 +80,12 @@ IFL_DATA.registerChapter({
       academic: ["The fee method must be determined before the fund launches; disclosure in the prospectus makes it agreed by all subscribers."],
       exam: "Wakalatul Istismar: fixed pre-agreed fee (lump sum or % of investment/NAV) regardless of results; P&L to investors; fee basis disclosed in prospectus before launch.",
       keyPoints: ["Fee is independent of performance, unlike a Mudarib's share."],
-      definitions: [{ term: "Wakalatul Istismar", meaning: "Investment agency: management of investors' funds for a pre-agreed fee, with profit and loss belonging to the investors." }],
-      distinctions: [{ a: "Wakalatul Istismar", b: "Mudarabah", text: "The Wakil earns a fixed fee regardless of results; the Mudarib earns only a share of actual profit and nothing if there is no profit." }],
+      definitions: [
+        { term: "Wakalatul Istismar", meaning: "Investment agency: management of investors' funds for a pre-agreed fee, with profit and loss belonging to the investors." }
+      ],
+      distinctions: [
+        { a: "Wakalatul Istismar", b: "Mudarabah", text: "The Wakil earns a fixed fee regardless of results; the Mudarib earns only a share of actual profit and nothing if there is no profit." }
+      ],
       related: ["t12.4.2", "t16.4.1"],
       quickCheck: { q: "In Wakalatul Istismar, the manager is paid:", options: ["A share of profit only", "A pre-agreed fee irrespective of profit or loss", "Interest on funds", "Nothing"], answer: 1, explanation: "p. 349." }
     },
@@ -109,14 +113,12 @@ IFL_DATA.registerChapter({
         { term: "Mutawarriq", meaning: "The person who obtains liquidity through Tawarruq." },
         { term: "Bai‘ al ‘Inah", meaning: "Sale and buy-back: the buyer resells the commodity to the original seller at a different price — a device for Riba." }
       ],
-      distinctions: [{ a: "Tawarruq", b: "‘Inah", text: "In Tawarruq the commodity is sold to a third party; in ‘Inah it returns to the original seller." }],
-      debate: [{
-        issue: "Should Islamic banks use Tawarruq widely?",
-        criticism: "Organised Tawarruq can become a paper exchange delivering cash for a fixed return — Siddiqi's ‘client wants cash and leaves with cash after signing papers’; Kahf says it should be wholly excluded for consumers.",
-        response: "The preferred view in the four schools and AAOIFI permits genuine Tawarruq with sale to a third party and proper sale conditions.",
-        alternative: "Use it only for unavoidable corporate liquidity needs, with strict Shari’ah board monitoring; prefer Qard al Hasan.",
-        takeaway: "Legal permissibility does not justify extensive use; structure and scale both matter."
-      }],
+      distinctions: [
+        { a: "Tawarruq", b: "‘Inah", text: "In Tawarruq the commodity is sold to a third party; in ‘Inah it returns to the original seller." }
+      ],
+      debate: [
+        { issue: "Should Islamic banks use Tawarruq widely?", criticism: "Organised Tawarruq can become a paper exchange delivering cash for a fixed return — Siddiqi's ‘client wants cash and leaves with cash after signing papers’; Kahf says it should be wholly excluded for consumers.", response: "The preferred view in the four schools and AAOIFI permits genuine Tawarruq with sale to a third party and proper sale conditions.", alternative: "Use it only for unavoidable corporate liquidity needs, with strict Shari’ah board monitoring; prefer Qard al Hasan.", takeaway: "Legal permissibility does not justify extensive use; structure and scale both matter." }
+      ],
       related: ["t13.3.1", "t6.11", "t9.9.1"],
       quickCheck: { q: "The bank appoints the customer as its agent to buy a commodity and then to sell it to himself. The Tawarruq is:", options: ["Valid and advisable", "Invalid — interdependent transactions without bank possession or risk", "Valid only for corporates", "Required by AAOIFI"], answer: 1, explanation: "p. 350." }
     },
@@ -128,7 +130,13 @@ IFL_DATA.registerChapter({
       academic: ["Widespread use is harmful to the industry in the long run."],
       exam: "Interbank Tawarruq: liquid asset chosen → surplus bank buys cash → deficit bank buys on Murabaha credit → takes delivery and sells spot. Safeguards: real transfer, last resort, Shari’ah board monitoring.",
       keyPoints: ["Known as Commodity Murabaha / Shares Murabaha."],
-      steps: ["Banks select a liquid commodity or blue-chip stocks", "Surplus bank buys it for cash in the market", "Deficit bank buys it from the surplus bank on deferred Murabaha", "Deficit bank takes delivery and sells at spot for cash", "Deficit bank pays the Murabaha price at maturity"],
+      steps: [
+        "Banks select a liquid commodity or blue-chip stocks",
+        "Surplus bank buys it for cash in the market",
+        "Deficit bank buys it from the surplus bank on deferred Murabaha",
+        "Deficit bank takes delivery and sells at spot for cash",
+        "Deficit bank pays the Murabaha price at maturity"
+      ],
       related: ["t14.4.4", "t13.3"],
       quickCheck: { q: "In interbank Tawarruq, who buys the commodity on deferred payment?", options: ["The surplus bank", "The deficit bank", "The broker", "The central bank"], answer: 1, explanation: "p. 351." }
     },
@@ -137,10 +145,14 @@ IFL_DATA.registerChapter({
       concepts: ["jualah"],
       intuition: "How do you contract for a result when you cannot specify the work?",
       simple: "Ju‘alah is a contract in which one party (Ja‘il) promises a specific reward (Ju‘l) to whoever achieves a specified result — e.g. finding a stolen car. It is permissible by Qur’an (the reward for the King's lost beaker in Surah Yusuf) and Sunnah (Companions' reward for curing a tribal chief). It suits tasks Ijarah cannot handle because Ijarah requires the work to be specified — such as recovering overdue debts.",
-      academic: ["Some jurists restrict Ju‘alah to the return of a runaway slave, but the majority allow many activities; determination of the required end result suffices."],
+      academic: [
+        "Some jurists restrict Ju‘alah to the return of a runaway slave, but the majority allow many activities; determination of the required end result suffices."
+      ],
       exam: "Ju‘alah: reward for achieving a specified result; Qur’an (Yusuf) and Sunnah; used where work cannot be specified (debt recovery).",
       keyPoints: ["Result specified, work may be uncertain."],
-      definitions: [{ term: "Ju‘alah", meaning: "A contract in which the offeror (Ja‘il) promises a known reward (Ju‘l) to whoever achieves a specified result." }],
+      definitions: [
+        { term: "Ju‘alah", meaning: "A contract in which the offeror (Ja‘il) promises a known reward (Ju‘l) to whoever achieves a specified result." }
+      ],
       related: ["t13.4.1", "t11.1"],
       quickCheck: { q: "Why is Ju‘alah used where Ijarah is unsuitable?", options: ["Ju‘alah is cheaper", "Ijarah requires the work to be specified; Ju‘alah needs only the result", "Ju‘alah has no reward", "Ijarah is prohibited"], answer: 1, explanation: "p. 351." }
     },
@@ -149,7 +161,10 @@ IFL_DATA.registerChapter({
       concepts: ["jualah"],
       intuition: "If the worker tries hard but fails, is anything owed?",
       simple: "The offeror promises compensation to the worker — a specified person or the public — for a result in a known or unknown period. No result, no reward. Ju‘alah is non-binding and either party may terminate, but once work starts, an offeror who revokes must pay reasonable wages; a worker who revokes after starting has no claim unless agreed. The worker is a trustee of the offeror's property.",
-      academic: ["If a specific worker is named, he must work himself or involve others with the offeror's express consent. Ju‘alah resembles agency in allowing help from others.", "Where parties undertake not to terminate within a period, the undertaking must be observed."],
+      academic: [
+        "If a specific worker is named, he must work himself or involve others with the offeror's express consent. Ju‘alah resembles agency in allowing help from others.",
+        "Where parties undertake not to terminate within a period, the undertaking must be observed."
+      ],
       exam: "Parties: offeror and worker (specific or public). No result → no reward. Non-binding; revocation by offeror after commencement → reasonable wage. Worker = trustee.",
       keyPoints: ["Different from Ijarah: the worker may be unspecified."],
       related: ["t13.4.3"],
@@ -174,7 +189,9 @@ IFL_DATA.registerChapter({
       academic: ["A specified worker must perform the work himself."],
       exam: "Open offer; no acceptance needed; reward on completion (two exceptions); termination rules.",
       keyPoints: ["Ujrah: time-based entitlement; Ju‘l: result-based."],
-      distinctions: [{ a: "Ju‘alah reward (Ju‘l)", b: "Ijarah wage (Ujrah)", text: "Ju‘l is due only on achieving the result; Ujrah is earned for the stipulated time worked even if the task is incomplete." }],
+      distinctions: [
+        { a: "Ju‘alah reward (Ju‘l)", b: "Ijarah wage (Ujrah)", text: "Ju‘l is due only on achieving the result; Ujrah is earned for the stipulated time worked even if the task is incomplete." }
+      ],
       related: ["t13.4.1"],
       quickCheck: { q: "Does a public Ju‘alah offer require counter-acceptance?", options: ["Yes, always", "No — except with a specified worker", "Only in writing", "Only by the government"], answer: 1, explanation: "p. 353." }
     },
@@ -197,7 +214,13 @@ IFL_DATA.registerChapter({
       academic: ["Figure 13.1 depicts the customer–bank–worker flow."],
       exam: "Figure 13.1 five steps: negotiate → Ju‘alah → Parallel Ju‘alah → work done, worker paid → bank collects reward.",
       keyPoints: ["Bank's margin = customer reward − worker reward."],
-      steps: ["Customer negotiates uncertain work, time and reward with bank", "Bank signs Ju‘alah after cost–benefit analysis", "Bank signs Parallel Ju‘alah with an expert worker", "Worker completes the work and receives agreed reward", "Bank collects its reward from the customer"],
+      steps: [
+        "Customer negotiates uncertain work, time and reward with bank",
+        "Bank signs Ju‘alah after cost–benefit analysis",
+        "Bank signs Parallel Ju‘alah with an expert worker",
+        "Worker completes the work and receives agreed reward",
+        "Bank collects its reward from the customer"
+      ],
       related: ["t13.4.4"],
       quickCheck: { q: "In Figure 13.1, when does the bank collect its reward?", options: ["Before any work", "After the work is completed", "When signing the parallel contract", "Never"], answer: 1, explanation: "p. 354." }
     },
@@ -220,7 +243,9 @@ IFL_DATA.registerChapter({
       academic: ["It works as a master agreement for ongoing financing under suitable normal modes, typical between wholesalers and retailers."],
       exam: "Istijrar: repeat supply sale under a master agreement; price in advance/per consignment/after deliveries; relaxation if no Gharar; Murabaha-based needs separate offer/acceptance per consignment.",
       keyPoints: ["Not a specific mode."],
-      definitions: [{ term: "Bai‘ al Istijrar", meaning: "A repeat supply arrangement in which a seller delivers a commodity from time to time on agreed price and payment terms." }],
+      definitions: [
+        { term: "Bai‘ al Istijrar", meaning: "A repeat supply arrangement in which a seller delivers a commodity from time to time on agreed price and payment terms." }
+      ],
       related: ["t9.7"],
       quickCheck: { q: "If an Istijrar arrangement is based on Murabaha, what is needed for each consignment?", options: ["Nothing extra", "Separate offer and acceptance", "A new master agreement", "Takaful"], answer: 1, explanation: "p. 355." }
     }
