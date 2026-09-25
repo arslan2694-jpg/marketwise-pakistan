@@ -391,5 +391,134 @@ window.IFL_DATA.questions.push(
     explanation: "The chapter recommends that Shari'ah scholars and practitioners collaborate for convergence on the basis of the Wakalah-Waqf model, which is nearest to the principles of the Shari'ah.",
     learningObjective: "Assess the status, potential and key challenges facing the global Takaful industry",
     source: { chapter: 16, section: "16.7", pages: [430] }
+  },
+  {
+    id: "q-ch16-24",
+    chapter: 16,
+    section: "16.2.1",
+    topic: "Why Conventional Insurance is Prohibited",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "recall",
+    prompt: "Which 19th-century Islamic jurist was the first to write in detail about modern commercial insurance, and what did he conclude?",
+    options: [
+      "Ibn Abidin, who disapproved of it from the Shari'ah point of view",
+      "Shaikh Abu Zahra, who fully approved of it",
+      "Ibn Taymiyah, who declared it entirely permissible",
+      "Nejatullah Siddiqi, who invented the term Takaful"
+    ],
+    correctAnswer: 0,
+    explanation: "Ibn Abidin, a widely respected 19th-century jurist, was the first scholar to write about modern commercial insurance (particularly marine insurance of his time) in detail, but did not approve it from the Shari'ah point of view.",
+    learningObjective: "Explain why conventional insurance is considered non-compliant with Shari'ah",
+    source: { chapter: 16, section: "16.2.1", pages: [418, 419] }
+  },
+  {
+    id: "q-ch16-25",
+    chapter: 16,
+    section: "16.3",
+    topic: "The Shari'ah Basis of Takaful",
+    type: "truefalse",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "True or False: 'Ta'mein', the approximate Arabic equivalent of 'insurance', denotes cooperative sharing of losses among a group in the same way Takaful does.",
+    options: ["True", "False"],
+    correctAnswer: 1,
+    explanation: "False - Ta'mein means to reassure, safeguard and guarantee through indemnity, and denotes fidelity, loyalty, confidence and trust; it refers more to a guarantee than to cooperative sharing of losses among a group, which is why Takaful (not Ta'mein) is the concept that gained wide Shari'ah acceptance.",
+    learningObjective: "Describe the Shari'ah basis of Takaful, including Tabarru' and Waqf",
+    source: { chapter: 16, section: "16.3", pages: [420] }
+  },
+  {
+    id: "q-ch16-26",
+    chapter: 16,
+    section: "16.3",
+    topic: "The Shari'ah Basis of Takaful",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "What did Shaikh Abu Zahra conclude about cooperative versus noncooperative insurance?",
+    options: [
+      "Both are equally unlawful",
+      "A cooperative/social insurance scheme is, in principle, legitimate; noncooperative insurance is unacceptable due to gambling, temptation and usury traits",
+      "Both are equally lawful without any Shari'ah distinction",
+      "Only life insurance is ever permissible"
+    ],
+    correctAnswer: 1,
+    explanation: "Shaikh Abu Zahra concluded a cooperative and social insurance scheme is, in principle, legitimate, while noncooperative insurance is unacceptable because it contains the traits of gambling, temptation and usury that invalidate the contract.",
+    learningObjective: "Describe the Shari'ah basis of Takaful, including Tabarru' and Waqf",
+    source: { chapter: 16, section: "16.3", pages: [420] }
+  },
+  {
+    id: "q-ch16-27",
+    chapter: 16,
+    section: "16.3",
+    topic: "The Shari'ah Basis of Takaful",
+    type: "short",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "What is Muwalat, and how does it relate to the historical Islamic roots of Takaful?",
+    correctAnswer: "Muwalat is a contract in which one party agreed to bequeath his property to another on the understanding that the benefactor would pay any blood money that might eventually be due by the former. Alongside 'Aqilah and Qasamah, it is cited as one of the early Islamic-era practices reflecting the shared-responsibility principle that contemporary jurists see as foundational to Takaful.",
+    explanation: "This is one of the historical precedents the chapter lists (alongside 'Aqilah and Qasamah) as evidence that Takaful is not a new concept for Islamic commercial law.",
+    learningObjective: "Describe the Shari'ah basis of Takaful, including Tabarru' and Waqf",
+    source: { chapter: 16, section: "16.3", pages: [420] }
+  },
+  {
+    id: "q-ch16-28",
+    chapter: 16,
+    section: "16.2",
+    topic: "The Need for Takaful Cover",
+    type: "multiselect",
+    difficulty: "easy",
+    cognitiveLevel: "recall",
+    prompt: "Per the chapter's footnote on insurance product categories, which of the following are correctly paired?",
+    options: [
+      "Life insurance includes whole life policies and endowment policies",
+      "General insurance's three main branches are marine, fire and accident",
+      "Endowment policies pay the face value whenever the insured dies, with no time limit",
+      "Whole life policies are confined to a limited period only"
+    ],
+    correctAnswer: [0, 1],
+    explanation: "Life insurance is broadly classified into whole life policies (promising the face value whenever the insured dies) and endowment policies (confined to limited periods) - the reverse of options 3 and 4. General insurance's three main branches are marine, fire and accident (e.g. motor vehicles, aeroplanes).",
+    learningObjective: "Explain why conventional insurance is considered non-compliant with Shari'ah",
+    source: { chapter: 16, section: "16.2", pages: [417] }
+  },
+  {
+    id: "q-ch16-29",
+    chapter: 16,
+    section: "16.4",
+    topic: "How the Takaful System Works",
+    type: "scenario",
+    difficulty: "medium",
+    cognitiveLevel: "application",
+    prompt: "A Takaful company wants to protect itself against very large claims by transferring some risk to another Takaful operator. On what bases can it structure this re-Takaful arrangement?",
+    options: [
+      "Only via a conventional reinsurance contract with an interest-based reinsurer",
+      "On the same bases as primary Takaful - Tabarru', Waqf and Mudarabah - paying an agreed contribution from the Takaful fund to the re-Takaful operator",
+      "Re-Takaful is not permitted under any Shari'ah-compliant structure",
+      "Only by fully merging with the re-Takaful operator"
+    ],
+    correctAnswer: 1,
+    explanation: "The chapter states that on the same bases of Tabarru', Waqf and Mudarabah, Takaful companies can arrange re-Takaful, paying an agreed-upon contribution from the Takaful fund to a re-Takaful operator, which in return helps the Takaful company in case of losses.",
+    learningObjective: "Explain how the Takaful system works, including the treatment of underwriting surplus/deficit",
+    source: { chapter: 16, section: "16.4", pages: [423] }
+  },
+  {
+    id: "q-ch16-30",
+    chapter: 16,
+    section: "16.7",
+    topic: "Takaful Challenges",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "recall",
+    prompt: "Which pair of historical Fatawa on insurance, cited in the chapter's appendix, illustrates the century-long scholarly disagreement that Takaful eventually settled?",
+    options: [
+      "Shaikh Mohammad Abduh's 1900-1901 Fatawa favoring insurance's validity, versus Shaikh al-Azhar's 1995 Fatwah against life insurance",
+      "Two identical Fatawa both issued in 1979 in Sudan",
+      "A single Fatwah with no recorded opposing view",
+      "Fatawa that only ever addressed marine insurance"
+    ],
+    correctAnswer: 0,
+    explanation: "The appendix lists Shaikh Mohammad Abduh's 1900-1901 Fatawa in favor of insurance's validity, contrasted with Shaikh al-Azhar Jad al-Haq Ali Jad al-Haq's 1995 Fatwah against life insurance - opposing views spanning nearly a century that reflect the scholarly discussion eventually converging on Takaful.",
+    learningObjective: "Assess the status, potential and key challenges facing the global Takaful industry",
+    source: { chapter: 16, section: "16.7", pages: [430, 431] }
   }
 );

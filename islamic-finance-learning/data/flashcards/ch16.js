@@ -160,5 +160,69 @@ window.IFL_DATA.flashcards.push(
     front: "What problem exists with the re-Takaful (reinsurance) facilities that are available in Malaysia, UAE, Bahrain and Saudi Arabia?",
     back: "They are mostly structured on a Mudarabah basis, which is itself Shari'ah-objectionable for the same reasons that apply to the Mudarabah model of primary Takaful.",
     source: { chapter: 16, section: "16.7", pages: [429, 430] }
+  },
+  {
+    id: "fc-ch16-21",
+    chapter: 16,
+    category: "Arabic terminology",
+    front: "What does 'Ta'mein' mean, and why did scholars ultimately favor 'Takaful' instead?",
+    back: "Ta'mein means to reassure, safeguard and guarantee through indemnity - closer to a guarantee than cooperative loss-sharing. Scholars instead favored Takaful because it converts the contract into a contributory, mutual-help arrangement rather than a guarantee-style indemnity.",
+    source: { chapter: 16, section: "16.3", pages: [420] }
+  },
+  {
+    id: "fc-ch16-22",
+    chapter: 16,
+    category: "Exam facts",
+    front: "Who was the first Islamic jurist to write in detail about modern commercial insurance, and what was his conclusion?",
+    back: "Ibn Abidin, a widely respected 19th-century jurist, wrote about modern commercial (particularly marine) insurance in detail but did not approve it from the Shari'ah point of view.",
+    source: { chapter: 16, section: "16.2.1", pages: [418, 419] }
+  },
+  {
+    id: "fc-ch16-23",
+    chapter: 16,
+    category: "Exam facts",
+    front: "When and how did marine insurance, the first form of commercial insurance, develop?",
+    back: "It probably began at the end of the 12th century and took a formal system in the 17th century, when the marine business developed on a massive scale.",
+    source: { chapter: 16, section: "16.2.1", pages: [418, 419] }
+  },
+  {
+    id: "fc-ch16-24",
+    chapter: 16,
+    category: "Comparisons",
+    front: "What did Shaikh Abu Zahra (20th-century jurist) conclude about cooperative versus noncooperative insurance?",
+    back: "A cooperative/social insurance scheme is, in principle, legitimate; noncooperative insurance is unacceptable because it contains the traits of gambling, temptation and usury that invalidate the contract.",
+    source: { chapter: 16, section: "16.3", pages: [420] }
+  },
+  {
+    id: "fc-ch16-25",
+    chapter: 16,
+    category: "Arabic terminology",
+    front: "What is Muwalat, and how does it relate to Takaful's historical roots?",
+    back: "A contract in which one party agreed to bequeath property to another on the understanding that the benefactor would pay any blood money eventually due by the former - cited, alongside 'Aqilah and Qasamah, as an early Islamic precedent for shared-risk/mutual-responsibility arrangements.",
+    source: { chapter: 16, section: "16.3", pages: [420] }
+  },
+  {
+    id: "fc-ch16-26",
+    chapter: 16,
+    category: "Definitions",
+    front: "How does the book classify insurance products by type?",
+    back: "Two main categories: life insurance (whole life policies, paying face value whenever the insured dies, versus endowment policies, confined to limited periods) and general insurance (marine, fire, and accident branches, e.g. motor vehicles, aeroplanes).",
+    source: { chapter: 16, section: "16.2", pages: [417] }
+  },
+  {
+    id: "fc-ch16-27",
+    chapter: 16,
+    category: "Banking",
+    front: "On what bases can a Takaful company arrange re-Takaful (reinsurance for Takaful operators)?",
+    back: "On the same bases as primary Takaful - Tabarru', Waqf and Mudarabah - paying an agreed contribution from the Takaful fund to a re-Takaful operator, who helps the Takaful company in case of losses.",
+    source: { chapter: 16, section: "16.4", pages: [423] }
+  },
+  {
+    id: "fc-ch16-28",
+    chapter: 16,
+    category: "Exam facts",
+    front: "Contrast two opposing historical Fatawa on insurance cited in the chapter's appendix.",
+    back: "Shaikh Mohammad Abduh (ex-Grand Mufti of Egypt) issued two Fatawa in 1900-1901 favoring the validity of insurance; nearly a century later, Shaikh al-Azhar Jad al-Haq Ali Jad al-Haq issued a 1995 Fatwah against life insurance specifically - illustrating the long, unresolved scholarly debate that Takaful eventually settled.",
+    source: { chapter: 16, section: "16.7", pages: [430, 431] }
   }
 );

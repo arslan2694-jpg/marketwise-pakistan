@@ -251,5 +251,33 @@ window.IFL_DATA.caseStudies = [
     "examTakeaway": "Unlike a conventional insurer, which keeps underwriting profit as shareholder profit, best-practice Takaful returns any underwriting surplus to participants in proportion to their contributions.",
     "source": { "chapter": 16, "section": "16.5", "pages": [427] },
     "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-wakalah-1",
+    "title": "A Fund Manager Wants a Bigger Cut Mid-Year",
+    "chapter": 13,
+    "concept": "Wakalatul Istismar (Investment Agency) Fee Structure",
+    "scenario": "An Islamic bank manages a pool of investors' funds under a Wakalatul Istismar arrangement, earning a pre-agreed 2% annual fee based on the fund's net asset value. Midway through the year, citing a strong quarter, the bank wants to additionally take a percentage of the profit earned, on top of its disclosed fee, without amending the prospectus or informing investors in advance.",
+    "problemPrompt": "Can the bank add this extra profit-based charge on its own initiative, and how should a Wakalah-based fund manager's compensation actually be structured and disclosed?",
+    "analysisPrompts": ["What must be determined about the manager's fee before the fund is even launched?", "Does a pure agency (Wakalah) fee depend on whether the fund makes a profit or a loss?"],
+    "textbookAnswer": "No — under Wakalatul Istismar the bank's compensation must be a pre-agreed fee (a lump sum, or a percentage of the investment amount/net asset value) that is fixed and disclosed in the fund's prospectus before its launch, and it is earned irrespective of whether the portfolio makes a profit or a loss. The bank cannot unilaterally add an undisclosed, profit-linked charge partway through the year; all profit or loss on the pooled funds otherwise passes through to the investors.",
+    "whyExplanation": "The book states that under Wakalatul Istismar, banks get a pre-agreed fee irrespective of the profit or loss on the relevant portfolio, fixed as a lump sum or as a percentage of the investment amount/net asset value, and that it is necessary to determine this method before the fund's launch and disclose it in the prospectus — subscribers are presumed to agree to whatever terms the prospectus discloses (13.2.2).",
+    "examTakeaway": "A Wakalah-based fund manager's compensation is a fixed, pre-disclosed fee unrelated to profit or loss — introducing a later, undisclosed profit-based charge breaks the Wakalah structure's basic requirement that the agency fee be settled and disclosed before the fund launches.",
+    "source": { "chapter": 13, "section": "13.2.2", "pages": [349] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-jualah-1",
+    "title": "Recovering a Portfolio of Defaulted Business Loans",
+    "chapter": 13,
+    "concept": "Ju'alah for Debt Recovery",
+    "scenario": "An Islamic bank holds a portfolio of overdue, hard-to-collect debts from small business clients and wants to engage a specialist recovery agent. Neither the bank nor the agent can specify in advance exactly how much work recovery will take, or whether any given debt will be recovered at all.",
+    "problemPrompt": "Why is an ordinary Ijarah (hiring) contract unworkable here, and what mode should the bank use instead to engage the recovery agent?",
+    "analysisPrompts": ["Why does a valid Ijarah contract require the work itself to be specified in advance?", "How is the recovery agent's entitlement to a reward determined under the correct mode, and when is it earned?"],
+    "textbookAnswer": "The bank should use Ju'alah rather than Ijarah: it offers the agent (the 'worker') a specified reward — for example, a percentage of the amount actually recovered — contingent on realizing the result (debt collected), not on hours worked or effort expended. Ju'alah is explicitly suited to activities like this that Ijarah cannot handle, because Ijarah requires the work itself to be minutely specified in advance.",
+    "whyExplanation": "The book explains that Ju'alah is relevant precisely for events that cannot be accomplished through Ijarah because the required work cannot be specified in advance, and gives 'recovery of overdue debts' as a named example, with the reward payable as a percentage of the amount collected and the worker not entitled to any reward for effort alone if the required result is not realized (13.4, 13.4.6).",
+    "examTakeaway": "Ju'alah's defining feature — a reward contingent on realizing an uncertain result rather than on performing specified work — is exactly why it, not Ijarah, is the correct mode for open-ended tasks like debt recovery.",
+    "source": { "chapter": 13, "section": "13.4.6", "pages": [354, 355] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
   }
 ];
