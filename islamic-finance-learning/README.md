@@ -26,17 +26,30 @@ tools, and guided study modes (45-minute crash course, 90-minute revision,
 
 No build step, no server required.
 
-- **Simplest**: open `index.html` directly in a browser.
-- **Recommended** (enables the offline service worker and PWA install):
-  serve the folder over HTTP, e.g.:
+- **Standalone, double-click** (simplest way to just use it or share it):
+  open **`Understanding-Islamic-Finance-STANDALONE.html`** at the repo
+  root — a single self-contained file with every stylesheet, data file and
+  module inlined (~2.8 MB). Double-click it, or drag it into a browser tab.
+  100% of the app's content and functionality is preserved; nothing is
+  fetched externally. Regenerate it after any change to the modular source
+  with:
+  ```bash
+  cd islamic-finance-learning
+  node tools/build-standalone.js
+  ```
+- **Modular source** (for development): open `index.html` directly, or —
+  to also enable the offline service worker and PWA install — serve the
+  folder over HTTP:
   ```bash
   cd islamic-finance-learning
   python3 -m http.server 8080
   # then open http://localhost:8080
   ```
-  Service workers require `http(s)://`, not `file://` — the app still
-  works fully under `file://`, it just won't cache itself for offline use
-  that way.
+  Service workers require `http(s)://`, not `file://`. The modular
+  `index.html` still works fully under `file://` (all its `<script src>`
+  tags load fine there); it just won't cache itself for offline use that
+  way — use the standalone build above for guaranteed offline-by-default
+  behavior with zero setup.
 
 ## How the source book was processed
 
@@ -75,10 +88,13 @@ against any updated source text.
 
 ```
 islamic-finance-learning/
-├── index.html            # single entry point
+├── Understanding-Islamic-Finance-STANDALONE.html   # generated, double-click, offline, self-contained
+├── index.html            # modular entry point (source of truth for development)
 ├── styles.css             # design system (spacing/type/color/dark-light)
 ├── app.js                 # bootstrap: sidebar, theme, search, router init
 ├── manifest.json, service-worker.js, icon.svg   # PWA / offline
+├── tools/
+│   └── build-standalone.js   # regenerates the STANDALONE.html bundle from the modular source
 ├── textbook/               # the source PDF
 ├── source/                 # extraction pipeline outputs + authoring guides
 │   ├── chapter-index.json, source-map.json
@@ -90,10 +106,18 @@ islamic-finance-learning/
 │   ├── glossary.js, comparisons.js, case-studies.js
 │   ├── concept-map.js, decision-tree.js, study-modes.js, exam-prep.js
 │   └── chapter-index.js
-└── modules/                 # application logic (plain scripts, window.IFL*)
-    ├── dom.js, store.js, data.js, router.js, progress.js, search.js
-    └── views/                # one file per route/screen
+├── modules/                 # application logic (plain scripts, window.IFL*)
+│   ├── dom.js, store.js, data.js, router.js, progress.js, search.js
+│   └── views/                # one file per route/screen
+└── tests/                   # content-integrity + Playwright browser checks
 ```
+
+**Two ways to run the same app**: `index.html` is the modular source of
+truth (edit this, and everything under `data/`, `modules/`, `styles.css`);
+`Understanding-Islamic-Finance-STANDALONE.html` is a generated,
+byte-for-byte-equivalent single file for distribution — after changing
+anything in the modular source, re-run `node tools/build-standalone.js`
+to refresh it.
 
 No bundler, no `npm install`, no transpilation — every file is a plain
 `<script>` tag loaded in dependency order from `index.html`, writing to a
