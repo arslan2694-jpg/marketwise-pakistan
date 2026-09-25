@@ -67,6 +67,18 @@ window.IFL_DATA.chapters[N] = {
       principles: [ "...", "..." ],     // [] if none
       processSteps: [ "...", "..." ],   // ordered steps if the topic describes a procedure/transaction, else []
       examples: [ { "title": "...", "body": "...", "generated": false } ],  // from text; generated:true only for your own practice examples
+      calculations: [   // OPTIONAL — only when the topic has a genuine numeric worked example (deposit weightage, profit/loss split, cost-plus pricing, rent/amortization schedules, etc.)
+        {
+          "title": "...",              // e.g. "Box 8.1: Weighted Profit Distribution Across a Deposit Pool"
+          "formula": "...",            // one-line formula in plain text
+          "inputs": [ { "label": "...", "value": "..." } ],
+          "steps": [ "...", "..." ],   // numbered arithmetic steps, showing the actual numbers
+          "result": "...",             // the final numeric answer, stated plainly
+          "interpretation": "...",     // what the result means / why it matters
+          "generated": false,          // true + a "Practice Example — generated for learning" title if you authored the numbers yourself
+          "source": { "chapter": N, "section": "...", "pages": [...] }
+        }
+      ],
       commonConfusions: [ "...", "..." ],       // [] if none identified
       importantDistinctions: [ "...", "..." ],  // e.g. vs a related concept, [] if none
       relatedConcepts: [ "Murabaha", "Musawamah" ],   // topic titles/terms, not ids

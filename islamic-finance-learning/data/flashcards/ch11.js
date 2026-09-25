@@ -216,5 +216,53 @@ window.IFL_DATA.flashcards.push(
     front: "Under Islamic Ijarah, what happens to rent if a leased car is stolen or destroyed?",
     back: "Rent becomes void immediately, since rent is consideration for usage which no longer exists - unlike conventional leasing, which continues charging rent until the insurance claim is settled.",
     source: { chapter: 11, section: "11.6", pages: [300, 301] }
+  },
+  {
+    id: "fc-ch11-28",
+    chapter: 11,
+    category: "Contract rules",
+    front: "Can severely salinity-damaged land, incapable of any production, be leased under Ijarah?",
+    back: "No - Ijarah requires that usufruct genuinely be obtainable from the asset; land whose usufruct is almost impossible to realize (e.g. destroyed by salinity) cannot become the subject of a valid lease.",
+    source: { chapter: 11, section: "11.3", pages: [281] }
+  },
+  {
+    id: "fc-ch11-29",
+    chapter: 11,
+    category: "Contract rules",
+    front: "Is sub-leasing at a rent EQUAL TO OR LOWER THAN the rent paid to the original lessor permissible?",
+    back: "Yes - all recognized schools of Islamic jurisprudence unanimously permit sub-leasing (with the lessor's consent) when the sub-lease rent is equal to or less than the rent payable to the original owner/lessor; disagreement arises only when the sub-lease rent is HIGHER.",
+    source: { chapter: 11, section: "11.3.3", pages: [284] }
+  },
+  {
+    id: "fc-ch11-30",
+    chapter: 11,
+    category: "Risk",
+    front: "If an Ijarah lessee defaults on rental or damages the asset, what can the lessor recover from the security taken, and what is excluded?",
+    back: "The lessor can recover only the actual loss - excluding the cost of funds or 'opportunity cost' in modern terminology. Any amount taken as income over and above the due rent would be Riba.",
+    source: { chapter: 11, section: "11.3.4", pages: [285] }
+  },
+  {
+    id: "fc-ch11-31",
+    chapter: 11,
+    category: "Exam facts",
+    front: "Does the death of the lessor or lessee automatically terminate an Ijarah contract?",
+    back: "No - contemporary jurists hold that Ijarah is not terminated by the death of either party, though the heirs of a deceased lessee can terminate the lease if they feel it has become too onerous for their resources to continue paying rental.",
+    source: { chapter: 11, section: "11.3.6", pages: [286] }
+  },
+  {
+    id: "fc-ch11-32",
+    chapter: 11,
+    category: "Financing modes",
+    front: "Besides a promise to sell or gift, what structural alternative lets ownership transfer gradually during an Ijarah Muntahia-bi-Tamleek lease?",
+    back: "Diminishing Musharakah: the bank and client jointly own the asset (Shirkatulmilk); the bank leases out its share, and as the client periodically buys portions of the bank's share, both the bank's ownership share and the corresponding rental decrease accordingly.",
+    source: { chapter: 11, section: "11.5", pages: [292, 294] }
+  },
+  {
+    id: "fc-ch11-33",
+    chapter: 11,
+    category: "Contract rules",
+    front: "Why must there be a 'reasonable period' (commonly suggested as around one year) between an Ijarah Muntahia-bi-Tamleek sale-and-leaseback purchase and any transfer of ownership back to the original client?",
+    back: "To avoid the transaction becoming prohibited Bai' al 'Inah - the gap must be long enough that the leased property or its value might genuinely have changed, distinguishing it from a disguised buy-back loan.",
+    source: { chapter: 11, section: "11.5.1", pages: [293] }
   }
 );

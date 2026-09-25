@@ -278,6 +278,27 @@ window.IFL_DATA.chapters[12] = {
       examples: [
         { title: "Unequal Work, Higher Profit Share", body: "A partner with a 40% capital investment may be agreed to receive 50% of the profit, provided he has not declared himself a sleeping partner - reflecting his greater work contribution to the joint business, while his loss exposure remains strictly capped at his 40% capital ratio.", generated: false }
       ],
+      calculations: [
+        {
+          title: "Practice Example — generated for learning: Musharakah Profit vs Loss Split",
+          formula: "Profit: split per the AGREED ratio (can differ from capital ratio). Loss: split strictly per the CAPITAL ratio, always — this can never be varied by agreement.",
+          inputs: [
+            { label: "Partner A capital", value: "$40,000 (40% of $100,000 total)" },
+            { label: "Partner B capital", value: "$60,000 (60% of $100,000 total)" },
+            { label: "Agreed profit ratio (A works the business; B is a sleeping partner)", value: "50% A / 50% B" }
+          ],
+          steps: [
+            "Capital ratio: A = 40%, B = 60% — this governs LOSS sharing only, never profit sharing.",
+            "Profit ratio is separately agreed at 50:50, compensating A for running the business.",
+            "Scenario 1 — venture earns $20,000 profit: A's share = 50% × $20,000 = $10,000; B's share = 50% × $20,000 = $10,000.",
+            "Scenario 2 — venture instead loses $20,000: loss must follow the capital ratio, not the profit ratio. A bears 40% × $20,000 = $8,000; B bears 60% × $20,000 = $12,000."
+          ],
+          result: "Profit is split evenly ($10,000 / $10,000) but a loss on the same venture is split 40/60 ($8,000 / $12,000) — the two ratios are independent by design.",
+          interpretation: "This is the single most tested Musharakah rule (12.3.4): a partner's profit share may exceed their capital ratio to reward work or skill, but no partner's loss share can ever exceed their capital ratio — loss-sharing cannot be varied by agreement under any school of thought.",
+          generated: true,
+          source: { chapter: 12, section: "12.3.4", pages: [316, 317, 318, 319, 320] }
+        }
+      ],
       commonConfusions: [
         "Students very commonly confuse the profit and loss rules, assuming both must track capital investment, or both are freely negotiable. The correct rule is asymmetric: profit ratio is flexible (by agreement, reflecting work); loss ratio is always fixed to capital investment, with no exceptions."
       ],

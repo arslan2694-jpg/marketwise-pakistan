@@ -545,5 +545,95 @@ window.IFL_DATA.questions.push(
     explanation: "Per Box 11.2, Islamic banks normally take only a refundable security deposit, while conventional leasing typically requires substantial non-refundable upfront payments.",
     learningObjective: "Contrast Islamic Ijarah with conventional auto leasing.",
     source: { chapter: 11, section: "11.6", pages: [301] }
+  },
+  {
+    id: "q-ch11-31",
+    chapter: 11,
+    section: "11.3",
+    topic: "General Juristic Rules of Ijarah",
+    type: "multiselect",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Which of the following CANNOT validly be the subject of an Ijarah lease, per the chapter?",
+    options: [
+      "Money, edibles, or fuel (usufruct not possible without consuming the corpus)",
+      "Land so damaged by salinity that it cannot produce any usufruct",
+      "A liveable, existing house",
+      "An asset owned jointly by several people"
+    ],
+    correctAnswer: [0, 1],
+    explanation: "Money/edibles/fuel (their use requires consuming them) and land incapable of any usufruct (e.g. through salinity) cannot be leased. An existing house and jointly-owned property CAN be validly leased.",
+    learningObjective: "State which assets can be leased and why.",
+    source: { chapter: 11, section: "11.3", pages: [281] }
+  },
+  {
+    id: "q-ch11-32",
+    chapter: 11,
+    section: "11.3.3",
+    topic: "Sub-leasing, Security, and Liability Allocation",
+    type: "scenario",
+    difficulty: "medium",
+    cognitiveLevel: "application",
+    prompt: "A lessee sub-leases a shop at exactly the same rent he pays the original lessor. Is this permissible, and does the school of thought matter here?",
+    options: [
+      "Yes - this is unanimously permitted by all recognized schools since sub-lease rent does not exceed the rent paid to the owner",
+      "No - sub-leasing is never permitted",
+      "Yes, but only Hanafis permit it",
+      "No, unless the lessor charges a fee for consent"
+    ],
+    correctAnswer: 0,
+    explanation: "All recognized schools of Islamic jurisprudence are unanimous on the permissibility of sub-lease if the rent from the sub-lease is equal to or less than the rent payable to the original owner/lessor; disagreement arises only when sub-lease rent is higher.",
+    learningObjective: "Analyze the rules governing sub-leasing.",
+    source: { chapter: 11, section: "11.3.3", pages: [284] }
+  },
+  {
+    id: "q-ch11-33",
+    chapter: 11,
+    section: "11.3.6",
+    topic: "Termination, Amendment, and Rent Default Rules",
+    type: "truefalse",
+    difficulty: "easy",
+    cognitiveLevel: "recall",
+    prompt: "The death of either the lessor or the lessee automatically terminates an Ijarah contract, per contemporary jurists.",
+    options: ["True", "False"],
+    correctAnswer: 1,
+    explanation: "False - contemporary jurists hold Ijarah is not terminated by the death of either party, though a deceased lessee's heirs may terminate it if the lease has become too onerous for them.",
+    learningObjective: "Explain the rules on termination and amendment.",
+    source: { chapter: 11, section: "11.3.6", pages: [286] }
+  },
+  {
+    id: "q-ch11-34",
+    chapter: 11,
+    section: "11.5.1",
+    topic: "Islamic Banks' Ijarah Muntahia-bi-Tamleek: Full Procedure",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Why must a 'sale and lease-back' Ijarah Muntahia-bi-Tamleek arrangement leave a reasonable period (commonly around one year) before any transfer of ownership back to the original client?",
+    options: [
+      "To allow time for Takaful registration only",
+      "To avoid the transaction becoming prohibited Bai' al 'Inah, since the gap must be long enough that the property's value might genuinely have changed",
+      "Because tax law requires a one-year holding period everywhere",
+      "There is no such requirement"
+    ],
+    correctAnswer: 1,
+    explanation: "The gap between the sale-and-leaseback purchase and any transfer back to the customer must be long enough that the leased property or its value might have changed, to avoid the arrangement becoming Bai' al 'Inah.",
+    learningObjective: "Explain the sale-and-leaseback structure and its Shari'ah safeguards.",
+    source: { chapter: 11, section: "11.5.1", pages: [293] }
+  },
+  {
+    id: "q-ch11-35",
+    chapter: 11,
+    section: "11.5",
+    topic: "Islamic Banks' Ijarah Muntahia-bi-Tamleek: Full Procedure",
+    type: "short",
+    difficulty: "hard",
+    cognitiveLevel: "understanding",
+    prompt: "Describe how Diminishing Musharakah can be used as an alternative to a unilateral promise to sell/gift for transferring ownership in Ijarah Muntahia-bi-Tamleek.",
+    options: [],
+    correctAnswer: "The bank and client jointly purchase the asset, creating a partnership by ownership (Shirkatulmilk). The bank leases out its own share to the client on the Diminishing Musharakah principle. As the client periodically purchases portions of the bank's share, the bank's ownership share - and the rental it receives, which must be proportional to its remaining share - decreases accordingly, until full ownership passes to the client.",
+    explanation: "This reflects the Diminishing Musharakah alternative described in section 11.5.",
+    learningObjective: "Explain the alternative methods for transferring ownership at lease end.",
+    source: { chapter: 11, section: "11.5", pages: [292, 294] }
   }
 );

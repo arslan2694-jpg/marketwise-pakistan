@@ -444,6 +444,23 @@ label { font-size: var(--fs-xs); font-weight: 600; color: var(--color-text-secon
 .process-step.open .process-step-detail { max-height: 300px; margin-top: var(--sp-2); }
 .process-step.open .process-step-num { background: var(--color-brand); color: #fff; }
 
+/* ---- Calculation walkthrough (formula / inputs / steps / result) ---- */
+.calc-block { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--sp-4); background: var(--color-bg-sunken); }
+.calc-formula {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: var(--fs-sm);
+  background: var(--color-bg-elevated); border: 1px dashed var(--color-border-strong); border-radius: var(--radius-sm);
+  padding: var(--sp-2) var(--sp-3); margin-bottom: var(--sp-3); color: var(--color-brand-strong);
+}
+.calc-inputs { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); }
+.calc-inputs td { padding: 4px var(--sp-2); border-bottom: 1px solid var(--color-border); }
+.calc-inputs td:last-child { text-align: right; }
+.calc-steps { font-size: var(--fs-sm); padding-left: var(--sp-5); }
+.calc-steps li { margin-bottom: 4px; }
+.calc-result {
+  background: var(--color-success-soft); color: var(--color-success); border-radius: var(--radius-sm);
+  padding: var(--sp-2) var(--sp-3); font-size: var(--fs-sm);
+}
+
 /* horizontal transaction flow for wider screens */
 .tx-flow { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: stretch; }
 .tx-node {

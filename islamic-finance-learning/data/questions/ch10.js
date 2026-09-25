@@ -540,5 +540,95 @@ window.IFL_DATA.questions.push(
     explanation: "This reflects the 'Arbun rules described in section 10.11.6.",
     learningObjective: "Explain guarantee mechanisms in Istisna'a.",
     source: { chapter: 10, section: "10.11.6", pages: [267] }
+  },
+  {
+    id: "q-ch10-31",
+    chapter: 10,
+    section: "10.3",
+    topic: "Benefits and Economic Role of Salam",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Per S.M. Hasanuz Zaman's account, why might Bai' Salam have been preferable to an interest-based loan for farmers historically?",
+    options: [
+      "Salam required no advance planning",
+      "Salam did not increase the farmer's cost the way interest did, and it saved farmers the hardships and risk of marketing their produce",
+      "Salam guaranteed the farmer a higher sale price than the market",
+      "Salam allowed the farmer to keep the crop"
+    ],
+    correctAnswer: 1,
+    explanation: "From the farmers' viewpoint, Bai' Salam did not make an increase in cost as interest did, and it saved them from the hardships and risk involved in marketing their produce.",
+    learningObjective: "Explain the economic role and benefits of Salam.",
+    source: { chapter: 10, section: "10.3", pages: [243] }
+  },
+  {
+    id: "q-ch10-32",
+    chapter: 10,
+    section: "10.4.2",
+    topic: "Salam Capital",
+    type: "scenario",
+    difficulty: "medium",
+    cognitiveLevel: "application",
+    prompt: "Instead of paying hard cash, an Islamic bank credits the agreed Salam price to the seller's account with the bank, where it remains at the seller's disposal. Does this satisfy Salam's advance-payment requirement?",
+    options: [
+      "No - only physical cash satisfies Salam",
+      "Yes - crediting the account is sufficient; in spirit this is not a prohibited debt-for-debt exchange since the money is at the seller's disposal",
+      "No - this always constitutes debt for debt, which is prohibited",
+      "Yes, but only if the seller is a corporate entity"
+    ],
+    correctAnswer: 1,
+    explanation: "Cash payment is not necessary in Salam; the price can be credited to the seller's account or paid via a cashable pay order. In letter this resembles debt for debt, but not in spirit, since the money remains at the seller's disposal.",
+    learningObjective: "State the conditions of a valid Salam contract.",
+    source: { chapter: 10, section: "10.4.2", pages: [247] }
+  },
+  {
+    id: "q-ch10-33",
+    chapter: 10,
+    section: "10.11.3",
+    topic: "Price, Penalty Clause, and Binding Nature of Istisna'a",
+    type: "truefalse",
+    difficulty: "easy",
+    cognitiveLevel: "recall",
+    prompt: "Unlike Salam, the price in Istisna'a can be paid in cash, tangible goods, or usufruct, and may be linked to construction/completion stages rather than paid fully in advance.",
+    options: ["True", "False"],
+    correctAnswer: 0,
+    explanation: "True - Istisna'a's price can take the form of cash, tangible goods, or usufruct of identified assets, and can be paid in instalments linked to completion stages, unlike Salam's requirement of full advance cash payment.",
+    learningObjective: "Explain Istisna'a's price rules.",
+    source: { chapter: 10, section: "10.11.3", pages: [265] }
+  },
+  {
+    id: "q-ch10-34",
+    chapter: 10,
+    section: "10.11.8",
+    topic: "Guarantees, Parallel Istisna'a, Agency, and Post-Execution Rules",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "In an Istisna'a arrangement, a bank appoints the client/manufacturer as its agent to sell the finished asset. What condition must this agency arrangement satisfy?",
+    options: [
+      "It can be merged into the Istisna'a agreement for simplicity",
+      "It must be separate and independent from the Istisna'a agreement",
+      "It is not permitted under any circumstances",
+      "It can only be used by the bank as manufacturer, never as buyer"
+    ],
+    correctAnswer: 1,
+    explanation: "The agency agreement for supervising manufacturing or selling the asset should be separate and independent from the Istisna'a agreement.",
+    learningObjective: "Explain agency arrangements in Istisna'a.",
+    source: { chapter: 10, section: "10.11.8", pages: [267] }
+  },
+  {
+    id: "q-ch10-35",
+    chapter: 10,
+    section: "10.8",
+    topic: "Salam-Based Securitization: Salam Certificates/Sukuk",
+    type: "short",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Describe how the Bahrain government's aluminium Salam Sukuk structure works, per the chapter.",
+    options: [],
+    correctAnswer: "Aluminium is designated as the underlying asset. The Bahrain government sells aluminium forward under a Salam arrangement. Bahrain Islamic Bank (BIB) purchases the aluminium, acting as representative for other banks wishing to participate in the transaction. In exchange for the advance payment, the Bahrain government issues Salam certificates and undertakes to supply a specified amount of aluminium on a specified future date.",
+    explanation: "This reflects the Bahrain aluminium Salam Sukuk example given in section 10.8.",
+    learningObjective: "Explain how Salam-based securitization works.",
+    source: { chapter: 10, section: "10.8", pages: [255] }
   }
 );

@@ -7,7 +7,7 @@
 
   function mergedGlossary() {
     var bookTerms = IFLData.glossaryTerms().map(function (g) {
-      return { term: g.term, definition: g.definition, source: null };
+      return { term: g.term, definition: g.definition, source: (g.chapter ? { chapter: g.chapter, pages: g.pages } : null), relatedTerms: g.relatedTerms || [] };
     });
     var chapterDefs = [];
     IFLData.allChapters().forEach(function (c) {
@@ -77,6 +77,10 @@
           '<p class="text-sm mb-1">' + esc(t.definition) + '</p>' +
           (t.source ? '<small class="text-muted">Ch ' + t.source.chapter + (t.source.section ? " · §" + esc(t.source.section) : "") + (t.source.pages && t.source.pages.length ? " · p." + t.source.pages.join(",") : "") +
             (t.source.chapter ? ' · <a data-nav="#/chapter/' + t.source.chapter + '">View lesson →</a>' : "") + '</small>' : '<small class="text-muted">From the book\'s glossary</small>') +
+          (t.relatedTerms && t.relatedTerms.length ?
+            '<div class="badge-row mt-2">' + t.relatedTerms.map(function (rt) {
+              return '<button class="pill text-xs" data-jump-term="' + esc(rt) + '" style="cursor:pointer;">' + esc(rt) + '</button>';
+            }).join("") + '</div>' : "") +
         '</div>';
       }).join("");
       IFLDom.qsa("[data-bm]", list).forEach(function (btn) {
@@ -89,6 +93,11 @@
             else st.bookmarks.push({ id: "bm-" + Date.now(), type: "glossary", refId: term, label: term, createdAt: Date.now() });
           });
           paint();
+        });
+      });
+      IFLDom.qsa("[data-jump-term]", list).forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          IFLRouter.navigate("#/glossary" + IFLRouter.buildQuery({ q: btn.getAttribute("data-jump-term"), letter: undefined }));
         });
       });
     }

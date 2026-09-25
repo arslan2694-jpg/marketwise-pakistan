@@ -183,6 +183,25 @@
             '<p class="mb-0">' + fmt(ex.body) + '</p></div>';
         }).join("") + '</div>' : "") +
 
+      (topic.calculations && topic.calculations.length ?
+        '<div class="card mb-4"><h3>Calculation Walkthrough</h3>' + topic.calculations.map(function (calc) {
+          return '<div class="calc-block mb-3">' +
+            '<div class="flex items-center justify-between mb-2">' +
+              '<strong>' + esc(calc.title) + '</strong>' +
+              (calc.generated ? '<span class="pill pill-brand">Practice — generated for learning</span>' : "") +
+            '</div>' +
+            (calc.formula ? '<div class="calc-formula">' + esc(calc.formula) + '</div>' : "") +
+            (calc.inputs && calc.inputs.length ?
+              '<table class="calc-inputs mb-2"><tbody>' + calc.inputs.map(function (i) {
+                return '<tr><td class="text-muted">' + esc(i.label) + '</td><td><strong>' + esc(i.value) + '</strong></td></tr>';
+              }).join("") + '</tbody></table>' : "") +
+            (calc.steps && calc.steps.length ?
+              '<ol class="calc-steps mb-2">' + calc.steps.map(function (s) { return "<li>" + fmt(s) + "</li>"; }).join("") + '</ol>' : "") +
+            (calc.result ? '<div class="calc-result"><strong>Result:</strong> ' + fmt(calc.result) + '</div>' : "") +
+            (calc.interpretation ? '<p class="text-sm text-secondary mt-2 mb-0">' + fmt(calc.interpretation) + '</p>' : "") +
+          '</div>';
+        }).join("") + '</div>' : "") +
+
       (topic.importantDistinctions && topic.importantDistinctions.length ?
         '<div class="card mb-4"><h3>Important Distinctions</h3><ul class="mb-0">' + topic.importantDistinctions.map(function (c) { return "<li>" + fmt(c) + "</li>"; }).join("") + '</ul></div>' : "") +
 

@@ -216,5 +216,53 @@ window.IFL_DATA.flashcards.push(
     front: "How does risk transfer differ between Istisna'a and Ijarah?",
     back: "In Istisna'a, asset risk transfers to the purchaser upon delivery, and the price must be paid regardless of what later happens to the asset. In Ijarah, asset risk remains with the lessor throughout, and rental is owed only if the asset remains usable per normal market practice.",
     source: { chapter: 10, section: "10.11.11", pages: [271] }
+  },
+  {
+    id: "fc-ch10-28",
+    chapter: 10,
+    category: "Exam facts",
+    front: "How does Salam's prohibition on reselling goods before delivery help stabilize commodity prices, per the chapter?",
+    back: "Since Salam goods generally cannot be resold before actual transfer, speculative resale of not-yet-delivered goods is curbed, protecting prices from speculative rises and helping stabilize them at a moderate level during periods of seasonal demand fall - unlike interest-financed inventory building, whose costs are further inflated by speculative transactions.",
+    source: { chapter: 10, section: "10.3", pages: [243] }
+  },
+  {
+    id: "fc-ch10-29",
+    chapter: 10,
+    category: "Contract rules",
+    front: "Must a bank pay hard cash to satisfy Salam's advance-payment requirement?",
+    back: "No - crediting the agreed amount to the seller's account (or issuing a cashable pay order) is sufficient. In letter this resembles a debt for a debt, but in spirit it is not, because the money is placed at the seller's disposal.",
+    source: { chapter: 10, section: "10.4.2", pages: [247] }
+  },
+  {
+    id: "fc-ch10-30",
+    chapter: 10,
+    category: "Contract rules",
+    front: "If a Salam bank sells a defaulting seller's pledge and recovers cash instead of goods, how much can it keep?",
+    back: "No more than the price it paid in advance - the advance price is treated as a debt outstanding on the seller, so recovery is capped at that amount, with any balance returned to the seller.",
+    source: { chapter: 10, section: "10.5", pages: [249] }
+  },
+  {
+    id: "fc-ch10-31",
+    chapter: 10,
+    category: "Definitions",
+    front: "In what forms can the price be paid in an Istisna'a contract, and what does 'usufruct as price' commonly enable?",
+    back: "Cash, tangible goods, or usufruct of identified assets. Usufruct-as-price is relevant to 'build, operate and transfer' (BOT) arrangements, where a government offers usufruct of the asset being built for an agreed period as consideration.",
+    source: { chapter: 10, section: "10.11.3", pages: [265] }
+  },
+  {
+    id: "fc-ch10-32",
+    chapter: 10,
+    category: "Contract rules",
+    front: "Can the price in an Istisna'a contract ever be changed after it is settled?",
+    back: "It cannot be unilaterally increased or decreased, but it CAN be readjusted by mutual consent - e.g. due to material modifications to the item being manufactured, or due to unforeseen contingencies or changes in input prices.",
+    source: { chapter: 10, section: "10.11.3", pages: [265] }
+  },
+  {
+    id: "fc-ch10-33",
+    chapter: 10,
+    category: "Capital markets",
+    front: "Give a real-world example of Salam-based securitization (Salam Sukuk) described in the chapter.",
+    back: "Bahrain designated aluminium as the underlying asset: the Bahrain government sells aluminium forward, Bahrain Islamic Bank purchases it (representing other participating banks), and the government issues Salam certificates undertaking to supply a specified amount of aluminium on a specified future date.",
+    source: { chapter: 10, section: "10.8", pages: [255] }
   }
 );

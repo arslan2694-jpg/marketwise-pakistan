@@ -171,6 +171,32 @@ window.IFL_DATA.chapters[8] = {
       examples: [
         { title: "Box 8.1 - Deposit Pool Profit Distribution", body: "A bank pools deposits by tenor: $3,000 at 3 months (weightage 0.60), $4,000 at 6 months (weightage 0.70), $3,000 at 1 year (weightage 1.00) - total $10,000, weighted total 7,600. The bank deploys $10,000 of the pool for one month, earning $1,000 profit, split 50:50 between bank and pool ($500 each). The pool's $500 is distributed by weighted average: 3-month depositors get roughly $119 (3.96% rate), 6-month depositors about $184 (4.60% rate), 1-year depositors about $197 (6.56% rate) - longer-tenor deposits earn a higher effective rate due to their higher weightage. If instead the pool suffered a $500 loss, it would be split strictly by capital ratio: $150, $200, $150 respectively (not by weightage).", generated: false }
       ],
+      calculations: [
+        {
+          title: "Box 8.1: Weighted Profit Distribution Across a Deposit Pool",
+          formula: "Depositor's profit share = (their Weighted Units ÷ Total Weighted Units) × Distributable Pool Profit",
+          inputs: [
+            { label: "3-month deposit", value: "$3,000 × weightage 0.60" },
+            { label: "6-month deposit", value: "$4,000 × weightage 0.70" },
+            { label: "1-year deposit", value: "$3,000 × weightage 1.00" },
+            { label: "Pool's profit share (50% of $1,000 earned by the bank)", value: "$500" }
+          ],
+          steps: [
+            "Convert each tenor's deposit into weighted units: amount × weightage factor.",
+            "3-month: 3,000 × 0.60 = 1,800 weighted units.",
+            "6-month: 4,000 × 0.70 = 2,800 weighted units.",
+            "1-year: 3,000 × 1.00 = 3,000 weighted units.",
+            "Total weighted units = 1,800 + 2,800 + 3,000 = 7,600.",
+            "Each depositor's share of the $500 pool profit = (their weighted units ÷ 7,600) × $500.",
+            "3-month: (1,800 ÷ 7,600) × 500 ≈ $118.4 → an effective rate of about 3.95% on their $3,000.",
+            "6-month: (2,800 ÷ 7,600) × 500 ≈ $184.2 → an effective rate of about 4.61% on their $4,000.",
+            "1-year: (3,000 ÷ 7,600) × 500 ≈ $197.4 → an effective rate of about 6.58% on their $3,000."
+          ],
+          result: "3-month depositors earn ≈$118 (3.95%), 6-month ≈$184 (4.61%), 1-year ≈$197 (6.58%) — despite an identical 50:50 bank/pool profit-sharing ratio for everyone.",
+          interpretation: "Longer-tenor deposits earn a higher effective rate purely because of their higher weightage, not a different profit ratio. If the pool loses money instead, this whole weightage calculation is discarded — losses are split strictly by each depositor's capital ratio (3,000:4,000:3,000), a Musharakah rule that cannot be varied by agreement.",
+          source: { chapter: 8, section: "8.5.2", pages: [188, 189] }
+        }
+      ],
       commonConfusions: [
         "Students often assume weightage governs both profit AND loss distribution - it does not. Weightage governs profit distribution only; losses must follow the strict capital-investment ratio (a Musharakah rule), regardless of weightage."
       ],

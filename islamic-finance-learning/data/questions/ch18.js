@@ -438,5 +438,100 @@ window.IFL_DATA.questions.push(
     explanation: "The author states IFIs should look beyond the formal abolition of interest and practically involve themselves in real business activities to achieve positive socio-economic implications through real sector development and just, equitable pricing policies.",
     learningObjective: "Synthesize the book's overall conclusions and recommendations for Islamic banking and finance's sustainable growth",
     source: { chapter: 18, section: "18.4", pages: [479, 480] }
+  },
+  {
+    id: "q-ch18-26",
+    chapter: 18,
+    section: "18.3.2",
+    topic: "Structure of Financial Institutions",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Per the chapter's discussion of Islamic banks' 'structure,' why does the AAOIFI's Murabaha Standard carry the title 'Murabaha to Purchase Orderer'?",
+    options: [
+      "Because Islamic banks are legally required to maintain large inventories of goods",
+      "Because it reflects that Islamic banks purchase goods on client requisition for onward sale/lease rather than holding inventory like ordinary traders",
+      "Because it is simply an arbitrary naming convention with no substantive meaning",
+      "Because it refers exclusively to export financing"
+    ],
+    correctAnswer: 1,
+    explanation: "Islamic banks' modus operandi differs from the general trading business: they normally do not hold inventories, but purchase goods/assets on client requisition for onward letting or sale - reflected directly in the Murabaha Standard's title.",
+    learningObjective: "Analyse the key structural, regulatory and credibility issues facing Islamic finance's continued development",
+    source: { chapter: 18, section: "18.3.2", pages: [469] }
+  },
+  {
+    id: "q-ch18-27",
+    chapter: 18,
+    section: "18.3.2",
+    topic: "Regulatory and Tax Issues",
+    type: "multiselect",
+    difficulty: "medium",
+    cognitiveLevel: "recall",
+    prompt: "Which of the following are among the reasons the chapter gives for why Islamic financial institutions need regulation?",
+    options: [
+      "Making needed information available to investors",
+      "Ensuring Shari'ah compliance and soundness of the financial system",
+      "Making the legal framework workable in a system where 'cost of funds' cannot be recovered on default",
+      "Guaranteeing IFIs a higher profit margin than conventional banks"
+    ],
+    correctAnswer: [0, 1, 2],
+    explanation: "The chapter lists five reasons for regulation: investor information, protecting savers, Shari'ah compliance/soundness, a workable legal framework given the 'no cost of funds recovery' rule, and effective monetary policy/management - not guaranteeing higher IFI profits.",
+    learningObjective: "Analyse the key structural, regulatory and credibility issues facing Islamic finance's continued development",
+    source: { chapter: 18, section: "18.3.2", pages: [469, 470] }
+  },
+  {
+    id: "q-ch18-28",
+    chapter: 18,
+    section: "18.3.2",
+    topic: "Shari'ah Interpretation and Integrity/Credibility",
+    type: "short",
+    difficulty: "hard",
+    cognitiveLevel: "understanding",
+    prompt: "Describe the two practice-related (not purely Shari'ah-interpretation) unresolved issues the chapter identifies.",
+    options: [],
+    correctAnswer: "(1) On what basis courts should award liquidated damages to a bank for a defaulting client's receivables - conventional opportunity cost per se should not be the basis, though some Shari'ah boards allow charging a rate based on the bank's income from a similar portfolio, with courts weighing the client's financial position/behaviour and litigation costs/time. (2) The liability of a bank's shareholders towards investment account holders when losses occur due to overexposure, lack of diversification, imprudent banking practices, or actual business losses - requiring a firm regulatory framework safeguarding depositors' interests.",
+    explanation: "These are the two 'unresolved issues' the chapter attributes to practical difficulties and ground realities rather than pure Shari'ah interpretation.",
+    learningObjective: "Analyse the key structural, regulatory and credibility issues facing Islamic finance's continued development",
+    source: { chapter: 18, section: "18.3.2", pages: [466] }
+  },
+  {
+    id: "q-ch18-29",
+    chapter: 18,
+    section: "18.3.3",
+    topic: "Benchmarks, Product Development, Liquidity and Human Resources",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "How does the chapter suggest Islamic banks cover short-term mismatches between client demand for funds and their supply?",
+    options: [
+      "Through conventional interbank lending at LIBOR",
+      "Through an inter-bank Islamic money market conducted on the Mudarabah principle",
+      "Islamic banks cannot address such mismatches at all",
+      "By suspending withdrawals until funds are available"
+    ],
+    correctAnswer: 1,
+    explanation: "Any mismatch between clients' demand for funds and their supply is normally covered through inter-bank transactions, conducted on the Mudarabah principle; establishing such a market in each jurisdiction is a key element for short-term liquidity management.",
+    learningObjective: "Evaluate the options for a Shari'ah compliance framework and the major challenges facing the industry's future",
+    source: { chapter: 18, section: "18.3.3", pages: [478] }
+  },
+  {
+    id: "q-ch18-30",
+    chapter: 18,
+    section: "18.3.3",
+    topic: "Benchmarks, Product Development, Liquidity and Human Resources",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "What does the chapter identify as one of the major bottlenecks for the Islamic finance industry's development at its current stage?",
+    options: [
+      "Excess of trained human resources",
+      "Scarcity of trained human resources with the right mindset and orientation, technically competent and well aware of Islamic finance principles",
+      "Too many universities offering Islamic finance courses",
+      "Lack of demand from Muslim investors"
+    ],
+    correctAnswer: 1,
+    explanation: "The chapter identifies scarcity of trained human resources as a major bottleneck; incumbents of IFIs need a significantly different mindset, special orientation, technical competence, and awareness of Islamic finance principles.",
+    learningObjective: "Evaluate the options for a Shari'ah compliance framework and the major challenges facing the industry's future",
+    source: { chapter: 18, section: "18.3.3", pages: [479] }
   }
 );

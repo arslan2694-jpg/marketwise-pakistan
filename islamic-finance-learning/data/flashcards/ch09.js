@@ -216,5 +216,53 @@ window.IFL_DATA.flashcards.push(
     front: "Why do Islamic banks predominantly prefer Murabaha over Musawamah for routine financing?",
     back: "A benchmark-tied, cost-disclosed profit margin is administratively easier to manage, more transparent for regulators, and carries lower corruption risk than a purely bargained Musawamah price.",
     source: { chapter: 9, section: "9.11.1", pages: [238] }
+  },
+  {
+    id: "fc-ch9-28",
+    chapter: 9,
+    category: "Contract rules",
+    front: "Why is a sale contract attributed to a future date (e.g. 'I sell you my car on 1st February') void under the general conditions of Bai'?",
+    back: "Sale must be instant and absolute - it cannot be contingent on a future date or event. The parties may exchange an understanding or promise instead, but rights and liabilities only emerge once the sale is actually executed on that future date.",
+    source: { chapter: 9, section: "9.2", pages: [214] }
+  },
+  {
+    id: "fc-ch9-29",
+    chapter: 9,
+    category: "Contract rules",
+    front: "What is the difference between an 'agreement to sell' and a 'sale agreement' at the MPO promise stage?",
+    back: "A 'sale agreement' transfers ownership rights to the buyer upon signing. An 'agreement to sell' (used at the MPO promise/MoU stage) is merely a promise to sell a commodity in the future and does not convey ownership rights at all.",
+    source: { chapter: 9, section: "9.8.3", pages: [226] }
+  },
+  {
+    id: "fc-ch9-30",
+    chapter: 9,
+    category: "Contract rules",
+    front: "Can a bank enter into a Musharakah with a client on the promise that one partner will buy out the other's share through Murabaha?",
+    back: "No - AAOIFI prohibits combining a Musharakah with a promise that one party will buy the other's share through Murabaha (spot or deferred). A partner may instead promise, via a separate contract, to buy the other's share at market price or a mutually agreed price at the time of sale.",
+    source: { chapter: 9, section: "9.8", pages: [223] }
+  },
+  {
+    id: "fc-ch9-31",
+    chapter: 9,
+    category: "Risk",
+    front: "What kinds of security can a bank take against the deferred Murabaha price, and what caution applies to interest-bearing instruments as collateral?",
+    back: "Hypothecation charges, pledges of goods/marketable securities, liens on deposits, mortgages, bank/personal guarantees, or the sold commodity itself. If interest-bearing securities (TDRs/FDRs) are taken, the bank's recourse is limited to the principal only - it is preferable the customer encash them for Shari'ah-compliant securities instead.",
+    source: { chapter: 9, section: "9.8.3", pages: [229] }
+  },
+  {
+    id: "fc-ch9-32",
+    chapter: 9,
+    category: "Financing modes",
+    front: "What local-currency and foreign-currency variants of Murabaha does the chapter list for trade financing?",
+    back: "Local currency: simple Murabaha, advance payment Murabaha, suppliers' credit Murabaha. Foreign currency: sight L/C spot Murabaha, sight L/C deferred Murabaha, usance L/C Murabaha.",
+    source: { chapter: 9, section: "9.10", pages: [236] }
+  },
+  {
+    id: "fc-ch9-33",
+    chapter: 9,
+    category: "Exam facts",
+    front: "Why might a bank charge a higher profit margin when it makes advance payment to the supplier in an MPO transaction?",
+    back: "Advance payment to the supplier (rather than post-supply payment) ties up the bank's funds earlier and increases its exposure, so it is advisable for the bank to charge a higher profit margin than in the case of post-supply payment.",
+    source: { chapter: 9, section: "9.8.3", pages: [227] }
   }
 );

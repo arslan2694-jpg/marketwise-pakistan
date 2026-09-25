@@ -184,5 +184,53 @@ window.IFL_DATA.flashcards.push(
     front: "How does Zubair Hasan frame Islamic banking in the quote the author closes with?",
     back: "As 'an on-going process in a social milieu characterized with mass poverty and gross inequalities in the wealth, income and opportunities' - a continuing developmental process, not a finished achievement.",
     source: { chapter: 18, section: "18.4", pages: [480] }
+  },
+  {
+    id: "fc-ch18-24",
+    chapter: 18,
+    category: "Principles",
+    front: "What are the five international-level policy measures the author proposes to reform the global financial system?",
+    back: "(1) Diversifying reserve currencies, with the OIC developing a regional Muslim-world reserve currency; (2) tying money/credit creation to real sector development (Sukuk principles as a model); (3) replacing loan-based finance with direct investment, project financing, portfolio investment and return-free calamity assistance; (4) controlling corruption in foreign aid so it tangibly benefits recipients; (5) marketing Islamic finance as universal religious/ethical banking to mobilize untapped savings.",
+    source: { chapter: 18, section: "18.2", pages: [458, 459] }
+  },
+  {
+    id: "fc-ch18-25",
+    chapter: 18,
+    category: "Banking",
+    front: "Do Islamic banks hold inventories of goods like ordinary trading businesses, per the chapter's discussion of bank 'structure'?",
+    back: "No - although Islamic banks must deal in goods (unlike conventional banks, which deal in money), they normally don't hold inventory; they purchase goods/assets on client requisition for onward letting or sale. There is no Shari'ah objection to this, and it is reflected in AAOIFI's Murabaha Standard being titled 'Murabaha to Purchase Orderer'.",
+    source: { chapter: 18, section: "18.3.2", pages: [469] }
+  },
+  {
+    id: "fc-ch18-26",
+    chapter: 18,
+    category: "Banking",
+    front: "What five reasons does the chapter give for why Islamic financial institutions need regulation, just like conventional ones?",
+    back: "(1) Making needed information available to investors; (2) protecting savers' interests; (3) ensuring Shari'ah compliance and financial system soundness; (4) making the legal framework workable where 'cost of funds' cannot be recovered on default; (5) making monetary policy and management effective.",
+    source: { chapter: 18, section: "18.3.2", pages: [469, 470] }
+  },
+  {
+    id: "fc-ch18-27",
+    chapter: 18,
+    category: "Banking",
+    front: "How can Islamic banks cover short-term mismatches between client demand for funds and their supply, per the chapter's liquidity management discussion?",
+    back: "Through an inter-bank Islamic money market conducted on the Mudarabah principle. Establishing such a market in each jurisdiction with a significant number of IFIs is identified as a key element for short-term liquidity and monetary management.",
+    source: { chapter: 18, section: "18.3.3", pages: [478] }
+  },
+  {
+    id: "fc-ch18-28",
+    chapter: 18,
+    category: "Exam facts",
+    front: "What early effort does the chapter cite toward developing Shari'ah-compliant benchmarks for pricing and profit-sharing ratios?",
+    back: "A 1998 study by Abbas Mirakhor and Nadeem ul Haque, focused on developing indices for calculating rates of return on National Participation Papers (NPP).",
+    source: { chapter: 18, section: "18.3.3", pages: [477] }
+  },
+  {
+    id: "fc-ch18-29",
+    chapter: 18,
+    category: "Banking",
+    front: "What alternative to a conventional credit card has National Commercial Bank of Saudi Arabia introduced, and who is it especially attractive to?",
+    back: "An 'advance card' - a prepaid line rather than a credit line, with added benefits like purchase protection and travel accident insurance without interest or extra fees. It is especially attractive to women, the young, the self-employed, and small-establishment employees who may not meet strict conventional credit card requirements.",
+    source: { chapter: 18, section: "18.3", pages: [461] }
   }
 );

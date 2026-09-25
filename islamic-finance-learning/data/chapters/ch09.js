@@ -578,6 +578,25 @@ window.IFL_DATA.chapters[9] = {
       examples: [
         { title: "Aircraft Purchase via Musawamah", body: "An airline needs credit purchase of an aeroplane costing about $500 million. An Islamic bank may purchase the aircraft for $450 million and sell it to the airline after adding a $50 million profit (factoring in the credit period and payment schedule), without needing to disclose the $450 million cost basis - the airline is interested only in the final agreed price.", generated: false }
       ],
+      calculations: [
+        {
+          title: "Aircraft Financing via Musawamah — Cost-Plus Economics (Undisclosed)",
+          formula: "Sale Price = Acquisition Cost + Negotiated Profit — but unlike Murabaha, neither figure need be disclosed to the buyer, only the final price",
+          inputs: [
+            { label: "Bank's acquisition cost", value: "$450,000,000" },
+            { label: "Profit added (reflecting credit period and payment schedule)", value: "$50,000,000" }
+          ],
+          steps: [
+            "Bank purchases the aircraft from the seller for $450 million, taking ownership and risk before any resale.",
+            "Bank and airline bargain a final Musawamah sale price: $450M + $50M = $500 million.",
+            "Implied profit = Sale Price − Cost = $500M − $450M = $50 million.",
+            "Effective markup on cost = $50M ÷ $450M ≈ 11.1%."
+          ],
+          result: "$500 million final sale price; $50 million profit to the bank, an effective markup of about 11.1% on its cost.",
+          interpretation: "Because this is Musawamah, not Murabaha, the bank is under no obligation to reveal its $450 million cost basis — only the bargained $500 million price is disclosed to the airline. In a Murabaha for the same aircraft, the $450M cost and $50M profit margin would both have to be disclosed.",
+          source: { chapter: 9, section: "9.11-9.11.1", pages: [234, 238] }
+        }
+      ],
       commonConfusions: [
         "Students sometimes think Musawamah is a 'lesser' or informal version of Murabaha. It is an equally valid, independent sale contract with identical ownership/risk requirements - the only difference is the absence of a cost-disclosure obligation."
       ],

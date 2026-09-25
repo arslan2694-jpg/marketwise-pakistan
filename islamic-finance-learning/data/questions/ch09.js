@@ -545,5 +545,90 @@ window.IFL_DATA.questions.push(
     explanation: "The chapter explains that direct use of a benchmark is relatively easier in Murabaha, making it easier for management and regulators to manage the return rate structure, and reducing corruption risk since profit is always tied to a disclosed cost.",
     learningObjective: "Explain how Musawamah differs from Murabaha and when banks prefer to use it.",
     source: { chapter: 9, section: "9.11.1", pages: [238] }
+  },
+  {
+    id: "q-ch9-31",
+    chapter: 9,
+    section: "9.2",
+    topic: "Conditions of a Valid Bai' (Recap)",
+    type: "mcq",
+    difficulty: "easy",
+    cognitiveLevel: "recall",
+    prompt: "Which condition of a valid Bai' does the following violate? 'A says to B on 1st January: I sell my car to you on 1st February.'",
+    options: [
+      "Certainty of price",
+      "Sale must be instant and absolute - not contingent on a future date",
+      "Constructive possession",
+      "Khiyar al-Shart"
+    ],
+    correctAnswer: 1,
+    explanation: "The sale must be instant and absolute; a sale attributed to a future date is void, though the parties may exchange a mere promise or understanding instead, with rights and liabilities emerging only once actually executed.",
+    learningObjective: "State the general conditions of a valid Bai'.",
+    source: { chapter: 9, section: "9.2", pages: [214] }
+  },
+  {
+    id: "q-ch9-32",
+    chapter: 9,
+    section: "9.8",
+    topic: "Murabaha to Purchase Orderer (MPO)",
+    type: "scenario",
+    difficulty: "medium",
+    cognitiveLevel: "application",
+    prompt: "A bank enters into a Musharakah with a client, with an upfront agreement that the client will buy out the bank's share through Murabaha at the end. Is this permissible per AAOIFI?",
+    options: [
+      "Yes, this is standard practice",
+      "No - AAOIFI prohibits combining a Musharakah with a promise that a partner will buy the other's share through Murabaha; a separate promise to buy at market/agreed price at the time of sale is permissible instead",
+      "Yes, provided profit-sharing is disclosed",
+      "Yes, if the client is also the bank's agent"
+    ],
+    correctAnswer: 1,
+    explanation: "The chapter explicitly states the bank is not allowed to enter into a Musharakah arrangement with the client with the promise that one party will buy the other's share through Murabaha; instead, a partner can promise via a separate contract to buy the other's share at market price or a mutually agreed price at the time of sale.",
+    learningObjective: "Identify Shari'ah risks in combining MPO with other contracts.",
+    source: { chapter: 9, section: "9.8", pages: [223] }
+  },
+  {
+    id: "q-ch9-33",
+    chapter: 9,
+    section: "9.8.3",
+    topic: "MPO Full Procedure",
+    type: "truefalse",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "If an Islamic bank takes an interest-bearing security (e.g. an FDR) as collateral against a Murabaha receivable, some Shari'ah boards allow it, but the bank's recourse is limited to the principal amount only.",
+    options: ["True", "False"],
+    correctAnswer: 0,
+    explanation: "True - some Shari'ah boards allow taking interest-bearing securities as collateral, but in such a case the bank will have recourse to the extent of principal only; it is preferable the customer encash such instruments for Shari'ah-compliant securities.",
+    learningObjective: "Explain security/collateral rules in Murabaha.",
+    source: { chapter: 9, section: "9.8.3", pages: [229] }
+  },
+  {
+    id: "q-ch9-34",
+    chapter: 9,
+    section: "9.10",
+    topic: "Precautions and Risk Management in Murabaha",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "recall",
+    prompt: "Which of the following is a FOREIGN CURRENCY variant of Murabaha used by Islamic banks for trade financing, per the chapter?",
+    options: ["Simple Murabaha", "Suppliers' credit Murabaha", "Sight L/C deferred Murabaha", "Advance payment Murabaha"],
+    correctAnswer: 2,
+    explanation: "Foreign-currency variants include sight L/C spot Murabaha, sight L/C deferred Murabaha, and usance L/C Murabaha. Simple Murabaha, advance payment Murabaha and suppliers' credit Murabaha are local-currency variants.",
+    learningObjective: "Identify the different structures of Murabaha used for trade financing.",
+    source: { chapter: 9, section: "9.10", pages: [236] }
+  },
+  {
+    id: "q-ch9-35",
+    chapter: 9,
+    section: "9.10",
+    topic: "Precautions and Risk Management in Murabaha",
+    type: "short",
+    difficulty: "hard",
+    cognitiveLevel: "application",
+    prompt: "Per AAOIFI's accounting treatment (Box 9.3), how is a Murabaha asset measured after acquisition, and what happens if there's an indication its cost may not be recovered?",
+    options: [],
+    correctAnswer: "After acquisition, the asset is measured at historical cost, with any decline in value reflected at the end of the financial period. If there is an indication of nonrecovery of the cost of goods, the asset shall instead be measured at cash equivalent value (net realizable value), by creating a provision for the decline in value reflecting the difference between acquisition cost and cash equivalent value.",
+    explanation: "This matches the accounting treatment for asset measurement in Box 9.3.",
+    learningObjective: "Apply the accounting treatment principles for Murabaha.",
+    source: { chapter: 9, section: "9.10", pages: [236] }
   }
 );
