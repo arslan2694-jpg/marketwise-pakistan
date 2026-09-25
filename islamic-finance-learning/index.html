@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Islamic Finance Learning — Understanding Islamic Finance (Ayub)</title>
+  <meta name="description" content="Offline study platform for Muhammad Ayub's Understanding Islamic Finance: chapters, flashcards, quizzes, diagrams, comparisons and exam preparation.">
+  <meta name="theme-color" content="#1f5f5b">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    /* Apply the saved theme before first paint to avoid a flash. */
+    (function () {
+      try {
+        var s = JSON.parse(localStorage.getItem('ifl.v1') || '{}').settings || {};
+        var t = s.theme || 'system';
+        if (t === 'system') t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+        if (s.fontScale) document.documentElement.style.setProperty('--font-scale', s.fontScale);
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="app" id="app">
+    <header class="topbar" role="banner">
+      <button class="icon-btn menu-btn" id="menu-btn" aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <a class="brand" href="#/" aria-label="Islamic Finance Learning — dashboard">
+        <img src="assets/icons/icon.svg" alt="" width="28" height="28">
+        <span class="brand-text"><strong>Islamic Finance</strong><small>Understanding Islamic Finance · Ayub</small></span>
+      </a>
+      <form class="search-form" id="search-form" role="search" action="#/search">
+        <label class="sr-only" for="search-input">Search the course</label>
+        <input id="search-input" type="search" placeholder="Search topics, terms, questions…" autocomplete="off">
+        <kbd class="search-kbd" aria-hidden="true">/</kbd>
+      </form>
+      <div class="topbar-actions">
+        <button class="icon-btn" id="timer-btn" aria-label="Study timer" title="Study timer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg>
+          <span class="timer-chip" id="timer-chip" hidden></span>
+        </button>
+        <button class="icon-btn" id="theme-btn" aria-label="Toggle dark mode" title="Theme">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <nav class="sidebar" id="sidebar" aria-label="Main navigation">
+      <div class="nav-scroll" id="nav"></div>
+    </nav>
+    <div class="scrim" id="scrim" hidden></div>
+
+    <main class="main" id="main" tabindex="-1">
+      <div class="view" id="view" aria-live="polite">
+        <div class="loading" role="status"><span class="spinner" aria-hidden="true"></span> Loading…</div>
+      </div>
+      <noscript><div class="notice">This study platform needs JavaScript enabled.</div></noscript>
+    </main>
+
+    <nav class="bottom-nav" aria-label="Quick navigation" id="bottom-nav">
+      <a href="#/" data-route="/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span>Home</span></a>
+      <a href="#/learn" data-route="/learn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 5v16"/></svg><span>Learn</span></a>
+      <a href="#/flashcards" data-route="/flashcards"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="14" height="12" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v10"/></svg><span>Cards</span></a>
+      <a href="#/quiz" data-route="/quiz"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17h.01"/></svg><span>Quiz</span></a>
+      <a href="#/exam" data-route="/exam"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4h6l1 2h3v15H5V6h3z"/><path d="M9 13l2 2 4-4"/></svg><span>Exam</span></a>
+    </nav>
+  </div>
+
+  <div class="modal-root" id="modal-root"></div>
+  <div class="toast-root" id="toast-root" role="status" aria-live="polite"></div>
+
+  <!-- Data registry and lightweight course index (full chapter content is lazy-loaded). -->
+  <script src="data/registry.js"></script>
+  <script src="data/course-index.js"></script>
+  <!-- Application modules -->
+  <script src="modules/util.js"></script>
+  <script src="modules/store.js"></script>
+  <script src="modules/progress.js"></script>
+  <script src="modules/srs.js"></script>
+  <script src="modules/router.js"></script>
+  <script src="modules/components.js"></script>
+  <script src="modules/calculators.js"></script>
+  <script src="modules/views/dashboard.js"></script>
+  <script src="modules/views/learn.js"></script>
+  <script src="modules/views/topic.js"></script>
+  <script src="modules/views/glossary.js"></script>
+  <script src="modules/views/flashcards.js"></script>
+  <script src="modules/views/quiz.js"></script>
+  <script src="modules/views/practice.js"></script>
+  <script src="modules/views/cases.js"></script>
+  <script src="modules/views/compare.js"></script>
+  <script src="modules/views/diagrams.js"></script>
+  <script src="modules/views/concept-map.js"></script>
+  <script src="modules/views/finder.js"></script>
+  <script src="modules/views/exam.js"></script>
+  <script src="modules/views/guided.js"></script>
+  <script src="modules/views/personal.js"></script>
+  <script src="modules/views/search.js"></script>
+  <script src="modules/views/settings.js"></script>
+  <script src="modules/timer.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
