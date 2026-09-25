@@ -1,0 +1,9 @@
+# Copyrighted textbook and full extracted text are not committed.
+# Run tools/fetch-textbook.sh then python3 tools/extract_source.py to regenerate locally.
+textbook/*.pdf
+source/extraction-notes/pages/
+source/extraction-notes/chapters/
+node_modules/
+test-results/
+playwright-report/
+tests/screenshots/

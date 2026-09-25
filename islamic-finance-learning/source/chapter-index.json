@@ -1,0 +1,210 @@
+{
+ "book": {
+  "title": "Understanding Islamic Finance",
+  "author": "Muhammad Ayub",
+  "publisher": "John Wiley & Sons",
+  "series": "Wiley Finance Series",
+  "year": 2007,
+  "pageNumbering": "Printed page numbers (PDF page minus 28)"
+ },
+ "chapters": [
+  {
+   "number": 1,
+   "title": "Introduction",
+   "part": "part-i",
+   "pages": [
+    3,
+    20
+   ],
+   "sections": 12,
+   "subsections": 0
+  },
+  {
+   "number": 2,
+   "title": "Distinguishing Features of the Islamic Economic System",
+   "part": "part-i",
+   "pages": [
+    21,
+    42
+   ],
+   "sections": 6,
+   "subsections": 9
+  },
+  {
+   "number": 3,
+   "title": "The Main Prohibitions and Business Ethics in Islamic Economics and Finance",
+   "part": "part-i",
+   "pages": [
+    43,
+    72
+   ],
+   "sections": 4,
+   "subsections": 8
+  },
+  {
+   "number": 4,
+   "title": "The Philosophy and Features of Islamic Finance",
+   "part": "part-i",
+   "pages": [
+    73,
+    98
+   ],
+   "sections": 8,
+   "subsections": 13
+  },
+  {
+   "number": 5,
+   "title": "Islamic Law of Contracts and Business Transactions",
+   "part": "part-ii",
+   "pages": [
+    101,
+    128
+   ],
+   "sections": 10,
+   "subsections": 18
+  },
+  {
+   "number": 6,
+   "title": "Trading in Islamic Commercial Law",
+   "part": "part-ii",
+   "pages": [
+    129,
+    154
+   ],
+   "sections": 13,
+   "subsections": 4
+  },
+  {
+   "number": 7,
+   "title": "Loan and Debt in Islamic Commercial Law",
+   "part": "part-ii",
+   "pages": [
+    155,
+    176
+   ],
+   "sections": 18,
+   "subsections": 3
+  },
+  {
+   "number": 8,
+   "title": "Overview of Financial Institutions and Products: Conventional and Islamic",
+   "part": "part-iii",
+   "pages": [
+    179,
+    212
+   ],
+   "sections": 9,
+   "subsections": 15
+  },
+  {
+   "number": 9,
+   "title": "Murabaha and Musawamah",
+   "part": "part-iii",
+   "pages": [
+    213,
+    240
+   ],
+   "sections": 12,
+   "subsections": 16
+  },
+  {
+   "number": 10,
+   "title": "Forward Sales: Salam and Istisna‘a",
+   "part": "part-iii",
+   "pages": [
+    241,
+    278
+   ],
+   "sections": 11,
+   "subsections": 22
+  },
+  {
+   "number": 11,
+   "title": "Ijarah – Leasing",
+   "part": "part-iii",
+   "pages": [
+    279,
+    306
+   ],
+   "sections": 6,
+   "subsections": 18
+  },
+  {
+   "number": 12,
+   "title": "Participatory Modes: Shirkah and its Variants",
+   "part": "part-iii",
+   "pages": [
+    307,
+    346
+   ],
+   "sections": 10,
+   "subsections": 18
+  },
+  {
+   "number": 13,
+   "title": "Some Accessory Contracts",
+   "part": "part-iii",
+   "pages": [
+    347,
+    356
+   ],
+   "sections": 5,
+   "subsections": 9
+  },
+  {
+   "number": 14,
+   "title": "Application of the System: Financing Principles and Practices",
+   "part": "part-iii",
+   "pages": [
+    357,
+    388
+   ],
+   "sections": 8,
+   "subsections": 16
+  },
+  {
+   "number": 15,
+   "title": "Sukuk and Securitization: Vital Issues in Islamic Capital Markets",
+   "part": "part-iii",
+   "pages": [
+    389,
+    416
+   ],
+   "sections": 4,
+   "subsections": 8
+  },
+  {
+   "number": 16,
+   "title": "Takaful: An Alternative to Conventional Insurance",
+   "part": "part-iii",
+   "pages": [
+    417,
+    432
+   ],
+   "sections": 8,
+   "subsections": 5
+  },
+  {
+   "number": 17,
+   "title": "An Appraisal of Common Criticism of Islamic Banking and Finance",
+   "part": "part-iii",
+   "pages": [
+    433,
+    456
+   ],
+   "sections": 5,
+   "subsections": 15
+  },
+  {
+   "number": 18,
+   "title": "The Way Forward",
+   "part": "part-iii",
+   "pages": [
+    457,
+    480
+   ],
+   "sections": 4,
+   "subsections": 4
+  }
+ ]
+}
