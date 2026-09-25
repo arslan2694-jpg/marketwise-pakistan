@@ -362,7 +362,7 @@ IFL_DATA.registerChapter({
         { term: "Bai‘ Musawamah", meaning: "Sale by bargaining without reference to the original cost price." },
         { term: "‘Ariyah", meaning: "Loan of a usable item free of any charge." }
       ],
-      related: ["t9.11", "t13.2", "t14.6.2", "t1.8"],
+      related: ["t9.11", "t13.2", "t14.6", "t1.8"],
       quickCheck: { q: "How may an Islamic bank charge for issuing a guarantee, according to Section 5.8.2?", options: ["A time-based percentage like interest", "Service charges based on expenses, amount-based but not time-based", "No charge at all ever", "A share of the client’s profit"], answer: 1, explanation: "p. 125." }
     },
     {

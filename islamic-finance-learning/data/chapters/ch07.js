@@ -137,7 +137,7 @@ IFL_DATA.registerChapter({
       academic: ["The Qur’an encourages respite or waiver for debtors in difficulty; the Prophet encouraged politeness and partial waiver (Ka‘ab ibn Malik waived half of Abu Hadrad’s debt). Malikis and Shafi‘is do not allow punishment or arrest of genuinely troubled debtors; Abu Hanifa: imprison a non-payer for two to three months, then enquire and release if genuinely unable. A debt with a settled due date cannot be demanded early unless the debtor transgresses. If the creditor will not give time, he cannot be compelled; even a destitute debtor is not entitled to more time as a right; earnings beyond food needs go to repayment."],
       exam: "Encourage respite/waiver; no punishment of genuinely troubled debtors (Maliki, Shafi‘i); no early demand for dated debt; respite not a debtor’s right.",
       keyPoints: ["Abu Hanifa: short imprisonment then enquiry."],
-      related: ["t7.9", "t7.13.1"],
+      related: ["t7.9", "t7.13"],
       quickCheck: { q: "Can a creditor demand early repayment of a debt with a settled due date?", options: ["Yes, any time", "No, so long as the debtor does not transgress the terms", "Only with interest", "Only for Qard al Hasan"], answer: 1, explanation: "p. 162." }
     },
     {
@@ -250,7 +250,7 @@ IFL_DATA.registerChapter({
         { term: "Possessory lien", meaning: "Right to retain another’s property until a debt due from him is paid." }
       ],
       distinctions: [{ a: "Kafalah", b: "Rihn", text: "Kafalah involves a third-party surety; Rihn involves the debtor’s own asset pledged as security." }],
-      related: ["t14.6.2", "t7.14", "t5.6.1"],
+      related: ["t14.6", "t7.14", "t5.6.1"],
       quickCheck: { q: "A pledged asset is destroyed without any negligence by the pledgee. Whose loss is it?", options: ["The pledgee’s", "The pledger’s (debtor’s)", "Shared equally", "The surety’s"], answer: 1, explanation: "p. 170." }
     },
     {

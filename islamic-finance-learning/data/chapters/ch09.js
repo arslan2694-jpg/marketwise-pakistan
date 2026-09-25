@@ -95,7 +95,7 @@ IFL_DATA.registerChapter({
         "Malikis call Murabaha Naqis (defective)."
       ],
       table: { caption: "Which expenses may be added to Murabaha cost (by school)", head: ["School", "Position"], rows: [["Hanafi", "All expenses modifying the object or incurred for its sake (tailoring, dyeing, transport, storage, commission)"], ["Maliki", "Direct expenses and outsourced services — yes; services the seller could provide himself (packing, sales commission) — no"], ["Shafi‘i", "Like Malikis — seller’s own services cannot be added"], ["Hanbali", "All expenses with mutual consent if the breakdown is disclosed"]] },
-      related: ["t9.3", "t4.2.8", "t9.9.7"],
+      related: ["t9.3", "t4.2.8", "t9.9"],
       quickCheck: { q: "Which of these can NOT be the subject of Murabaha?", options: ["Machinery", "Royalty rights", "US Dollars", "Raw materials"], answer: 2, explanation: "Currencies are subject to Sarf rules (p. 217)." }
     },
     {

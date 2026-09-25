@@ -189,7 +189,7 @@ IFL_DATA.registerChapter({
       academic: ["Islamic investment banks tailor products in a compliant manner, manage portfolios for institutions, corporates and HNWIs and pooled vehicles (unit trusts, mutual funds). Opportunities: open/closed-end funds, equity benchmarks, leasing companies. Venture capital for all projects except forbidden products (alcohol, pork, entertainment, interest-based finance). Asset management includes equity, real estate and Sukuk funds; treasury manages asset–liability mismatch. Corporate finance: IPOs, offers for sale, rights issues; private placements; strategic reviews; restructurings; acquisitions, divestments, mergers; joint ventures. Syndicate financing for large facilities lead-managed by a strong bank through Murabaha, Mudarabah, Musharakah, Ijarah."],
       exam: "Same services as conventional investment banks, but compliant: fund management, VC (no prohibited sectors), corporate finance, syndication via Islamic modes.",
       keyPoints: ["Excluded sectors: alcohol, pork, entertainment, interest-based finance."],
-      related: ["t8.8.1", "t14.6.1"],
+      related: ["t8.8.1", "t14.6"],
       quickCheck: { q: "Through which modes can an Islamic syndication facility be provided?", options: ["Interest-bearing loans", "Murabaha, Mudarabah, Musharakah, Ijarah", "Bai‘ al ‘Inah", "Options"], answer: 1, explanation: "p. 199." }
     },
     {
@@ -234,7 +234,7 @@ IFL_DATA.registerChapter({
       exam: "OIC 1992: lawful companies OK; main-purpose prohibited → no; mixed with lawful main activity → allowed. Underwriting at nominal value, no fee for commitment. Share = Musha‘a. No preference shares with guaranteed return/precedence. No margin loans on interest; no short-selling of pledged shares.",
       keyPoints: ["Underwriting fee only for other services (feasibility, marketing).", "Share certificate = undivided portion of assets."],
       definitions: [{ term: "Musha‘a", meaning: "An undivided/unidentified share in jointly owned assets — the object of sale of company shares." }],
-      related: ["t14.6.1", "t12.6"],
+      related: ["t14.6", "t12.6"],
       quickCheck: { q: "Under the OIC Fiqh Council (1992), preference shares are impermissible if they:", options: ["Carry procedural voting privileges", "Guarantee capital or a certain profit or precedence in liquidation/dividends", "Are listed on an exchange", "Are held by banks"], answer: 1, explanation: "p. 203." }
     },
     {

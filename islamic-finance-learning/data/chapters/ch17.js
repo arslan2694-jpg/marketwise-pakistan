@@ -1,0 +1,444 @@
+/* Chapter 17 — An Appraisal of Common Criticism of Islamic Banking and Finance. Source pp. 433–456.
+   Each debate item separates: the criticism, the author's response as presented in the textbook,
+   any alternative position noted, and an exam takeaway. */
+IFL_DATA.registerChapter({
+  number: 17,
+  title: "An Appraisal of Common Criticism of Islamic Banking and Finance",
+  part: "part-iii",
+  pages: [433, 456],
+  minutes: 70,
+  difficulty: "Advanced",
+  objectives: [
+    "List the common conceptual and practical criticisms of Islamic banking and finance.",
+    "Evaluate conceptual criticisms: meaning of Riba, rent on money, inflation, time value of money, rich debtors, differing interpretations, debt-creating modes, banks vs trade houses, and social welfare roles.",
+    "Evaluate practice criticisms: theory–practice divergence, interest income as seed capital, similarity with conventional banking (benchmarks, fixed returns, real trade, collateral, risk, end result, combined contracts, binding promises), penalties, cash needs and socio-economic impact.",
+    "Distinguish the criticism, the author's response and the remaining open issues in each case."
+  ],
+  why: "This is the chapter for ‘critically evaluate’ questions. Examiners expect you to state a criticism fairly, give the textbook's response with reasons, and note where the author himself concedes the concern is valid (e.g. Sukuk fixed returns, socio-economic impact, neglect of PLS modes).",
+  overview: "Starting from the low market share of Islamic banking even in Muslim countries, the chapter lists common myths and objections and then appraises them — first the conceptual criticisms (Riba, money, inflation, time value, interpretations, modes, nature of IFIs) and then the practice criticisms (divergence from theory, seed capital, ‘no difference’ claims, penalties, liquidity, socio-economic impact) — before concluding with recommendations.",
+  summarySection: "17.5",
+  topics: [
+    {
+      id: "t17.1", section: "17.1", title: "Introduction: Why Islamic Banking's Share Remains Small", pages: [433, 433], tier: "supporting",
+      concepts: ["criticism", "riba"],
+      intuition: "If almost all Muslims believe Riba is a grave sin, why do so few use Islamic banks?",
+      simple: "Despite three decades of growth, Islamic banking's share was about 1.5% in Indonesia, 2.2% in Pakistan, 12% in Malaysia and 24% in Bahrain (at the time of writing). The author attributes this to myths, confusion among the public and intelligentsia, and unanswered criticism of theory and practice — hence this chapter.",
+      academic: ["Almost all Muslims believe involvement in Riba — taking, giving, witnessing, documenting — is tantamount to war with Allah and His Prophet (pbuh). Bahrain has done much standard-setting and product and regulatory work, yet the system has not been transformed."],
+      exam: "Market shares cited: Indonesia 1.5%, Pakistan 2.2%, Malaysia 12%, Bahrain 24%. Causes: myths, confusion, unanswered criticism.",
+      keyPoints: ["Figures are as cited by the author at the time of writing."],
+      related: ["t17.2", "t18.1"],
+      quickCheck: { q: "Which country's Islamic banking share was cited as 24%?", options: ["Pakistan", "Malaysia", "Bahrain", "Indonesia"], answer: 2, explanation: "p. 433." }
+    },
+    {
+      id: "t17.2", section: "17.2", title: "The Common Myths and Objections", pages: [433, 436], tier: "core",
+      concepts: ["criticism"],
+      intuition: "What are the sixteen objections the chapter will answer?",
+      simple: "Conceptual objections: (1) Riba's meaning is unclear — interest is not Riba / or any return is Riba; money deserves rent; only increase on old debts or only usury is Riba; inflation justifies interest; debtors are rich; (2) rejecting interest means rejecting time value of money; (3) Islamic banking should be only two-tier Mudarabah/Musharakah; (4) banks should not trade; (5) differing interpretations prevent standardisation, and some products (debt sale, gifts, Tawarruq) mimic interest. Practice objections: divergence from PLS theory; fixed returns and fixed-return Sukuk; LIBOR benchmarks; no real difference; same net result; no real trading; windows using interest income as seed capital; collateral; many documents, agency and promises ‘two contracts in one’; cash for salaries and bills; penalties despite Qur’anic leniency.",
+      academic: ["The author notes that answering all FAQs is not the aim and refers readers to earlier chapters where issues are discussed in detail."],
+      exam: "Five conceptual and eleven practice criticisms (as listed in Section 17.2).",
+      keyPoints: ["Two extremes on Riba: ‘interest is not Riba’ vs ‘a bank cannot be Islamic’."],
+      table: {
+        caption: "Criticisms examined in Chapter 17 and where they are appraised",
+        head: ["Criticism", "Appraised in"],
+        rows: [
+          ["Riba undefined; only usury or late charges are Riba; no commercial interest in Arabia", "17.3.1"],
+          ["Money deserves rent like assets", "17.3.2"],
+          ["Inflation justifies interest/indexation", "17.3.3"],
+          ["No interest means no time value of money", "17.3.4"],
+          ["Charging rich debtors is not unjust", "17.3.5"],
+          ["Different interpretations prevent standardisation", "17.3.6"],
+          ["Only Musharakah/Mudarabah are legitimate", "17.3.7"],
+          ["Banks should not trade", "17.3.8"],
+          ["Banks should act as charities", "17.3.9"],
+          ["Theory–practice divergence (‘Murabaha syndrome’)", "17.4.1"],
+          ["Interest income as seed capital for windows", "17.4.2"],
+          ["No difference from conventional banking", "17.4.3"],
+          ["Penalties on defaulters", "17.4.4"],
+          ["Cash for overheads and deficits", "17.4.5"],
+          ["Weak socio-economic impact", "17.4.6"]
+        ]
+      },
+      related: ["t17.3", "t17.4"],
+      quickCheck: { q: "Which of these is listed as a criticism of Islamic banking practice?", options: ["The Qur’an defines Riba precisely", "Islamic banks use interest-related benchmarks like LIBOR", "Islamic banks never take collateral", "Islamic banks refuse to trade"], answer: 1, explanation: "p. 435." }
+    },
+    {
+      id: "t17.3", section: "17.3", title: "Appraisal of Conceptual Criticism (Overview)", pages: [436, 445], tier: "supporting",
+      concepts: ["criticism"],
+      intuition: "What single principle answers most conceptual objections?",
+      simple: "Most conceptual objections are answered by one principle: return is legitimate only when linked to real assets and the bearing of risk, labour or responsibility; any increase over the principal of a loan or debt is Riba, whatever the rate, purpose or debtor.",
+      academic: ["Subsections 17.3.1–17.3.9 take each objection in turn and refer to Chapters 3, 4, 6 and 7 for detail."],
+      exam: "Unifying principle: no return on loans/debts; profit through real exchange, leasing or partnership with risk.",
+      keyPoints: ["Time value allowed in pricing goods, not in debts."],
+      related: ["t17.3.1", "t17.3.4"],
+      quickCheck: { q: "According to the chapter, a lender may claim a return only if:", options: ["The borrower is rich", "He bears the risk of loss by converting money into business, sale or lease", "The rate is low", "Inflation is high"], answer: 1, explanation: "p. 438." }
+    },
+    {
+      id: "t17.3.1", section: "17.3.1", title: "The Connotation of the Word Riba", pages: [436, 437], tier: "core",
+      concepts: ["riba", "criticism"],
+      intuition: "Is a ‘reasonable’ bank interest rate outside the prohibition?",
+      simple: "Criticism: the Qur’an and Sunnah do not define Riba; commercial interest did not exist in Arabia; only usury or charges on overdue debts are Riba. Response: although no legal definition is given, Surah Al-Baqarah (2:274–281) sufficiently explains Riba as anything sought over the principal of a loan or debt, distinguishing trade from Riba; the Prophet (pbuh) prohibited any increase over principal. Commercial interest was common in pre-Islamic Arabia; no distinction exists between low and high rates, fixed or floating, consumption or production loans.",
+      academic: ["Riba al-Fadl rules (same ‘Illah goods exchanged hand to hand and equal for equal) ensure neither party benefits from the other's resources without giving the counter-value simultaneously.", "All loans embodying a precondition of benefit over the principal are void, whether a rate, quantity or quality gain."],
+      exam: "Response: Qur’an 2:274–281 + Sunnah → any increase over principal of loan/debt; commercial interest existed; rate irrelevant; consumption vs production irrelevant.",
+      keyPoints: ["See Chapter 3 (3.2.1) and Chapter 7 (7.3)."],
+      debate: [{
+        issue: "Is modern commercial interest outside the Qur’anic prohibition of Riba?",
+        criticism: "Riba is undefined; commercial interest did not exist in Arabia; only exorbitant usury or charges on overdue debt are prohibited.",
+        response: "The Qur’an sufficiently explains Riba as any increase sought over the principal of a loan or debt; the Sunnah prohibits any such increase; commercial interest was a major feature of Arabian business, created through loans and credit sales, charged periodically or with principal — all called Riba.",
+        alternative: "At the other extreme, some argue any return in banking is Riba; the author rejects both extremes.",
+        takeaway: "Rate, purpose and timing of the increase are irrelevant: any stipulated increase over principal is Riba."
+      }],
+      related: ["t3.2.1", "t7.3"],
+      quickCheck: { q: "According to the author, the Qur’anic prohibition of Riba applies to:", options: ["Only high-rate usury", "Only consumption loans", "Any increase over the principal, whatever the rate", "Only increases on overdue debt"], answer: 2, explanation: "p. 437." }
+    },
+    {
+      id: "t17.3.2", section: "17.3.2", title: "Rent on Money Capital", pages: [437, 438], tier: "core",
+      concepts: ["riba", "money", "ijarah"],
+      intuition: "If you can rent a car, why can't you rent money?",
+      simple: "Criticism: money is like any commodity; a lender, like a lessor, should charge rent. Response: money is a medium of exchange whose corpus is consumed in use and whose form changes, so it cannot be leased; a lessor retains ownership and its risks, which a lender does not. A lender is entitled to his principal regardless of the borrower's outcome, so he cannot claim a return. To earn, the financier must convert money into goods or assets through sale, lease or partnership and bear risk.",
+      academic: ["Real-sector transactions take three forms — sale (cash or credit), loan or lease — with different implications for ownership, risk and liability; risk always follows ownership.", "Human effort and economic activity rank above money capital in distribution of profit; Islamic finance links money to productive use."],
+      exam: "Money consumed in use → cannot be leased; lessor bears ownership risk, lender does not; profit requires risk; three transaction forms.",
+      keyPoints: ["Loan = no risk → no return."],
+      debate: [{
+        issue: "Should money earn rent like other assets?",
+        criticism: "Money is a commodity; borrowers should pay for its use just as lessees pay rent.",
+        response: "Money's corpus is consumed and its form changes on use, so it is not leasable; a lessor bears ownership risk and expenses while a lender is guaranteed his principal. Profit is permissible only where the financier bears risk via sale, lease or partnership.",
+        alternative: "Convert money into real assets: trade with mark-up, lease assets for rent, or share profit and loss.",
+        takeaway: "Rent requires retained ownership and risk; loans transfer ownership of money and so earn no return."
+      }],
+      related: ["t11.3", "t4.3"],
+      quickCheck: { q: "Why can money not be leased according to the chapter?", options: ["It is too liquid", "Its corpus is consumed in use and the lender does not retain ownership risk", "Governments forbid it", "Its value is fixed"], answer: 1, explanation: "pp. 437–438." }
+    },
+    {
+      id: "t17.3.3", section: "17.3.3", title: "Inflation and Interest", pages: [438, 439], tier: "core",
+      concepts: ["riba", "inflation", "indexation"],
+      intuition: "Isn't a lender who is repaid in devalued money being treated unjustly?",
+      simple: "Criticism: interest or indexation compensates lenders for inflation. Response: a loan is a non-commutative, virtuous act; repayment must be the same kind and quantity regardless of value changes (Qur’an 2:279; Al-Kasani, Ibn Qudama). Ijtihad cannot override a clear text. Inflation affects money whether lent or held, so indexing a loan gives the lender a benefit from the loan. Dirhams depreciated against dinars even in the early Caliphate, yet no jurist endorsed indexation. To protect value, convert money into real assets or business; floating rates may apply to future lease periods but not to accrued debts.",
+      academic: ["Money's intrinsic functions (medium of exchange, unit of account) remain intact in inflation; only its exchange value changes. Example: $100 borrowed and repayable as $105 after indexation falls within Riba."],
+      exam: "Loan non-commutative; repay same kind and quantity; Nass (2:279) excludes Ijtihad; indexation = benefit from loan = Riba; protect value by real-asset business; floating rent only for future periods.",
+      keyPoints: ["Credit-sale price, once agreed, stays fixed."],
+      debate: [{
+        issue: "Can loans be indexed to inflation?",
+        criticism: "Lenders lose purchasing power; Islamic finance unfairly refuses indexation to gold, baskets or stable currencies.",
+        response: "Loans are non-commutative and must be repaid in the same kind and quantity (Qur’an 2:279; Al-Kasani, Ibn Qudama); Ijtihad does not operate against Nass; inflation hits money held or lent, so indexation gives the lender a benefit from the loan; jurists never adopted indexation despite dirham depreciation.",
+        alternative: "Use sale, lease or partnership where returns can reflect expected conditions; floating rentals for future periods.",
+        takeaway: "Indexation of accrued loans or debts is Riba; value protection must come from real-asset investment."
+      }],
+      related: ["t7.17", "t3.3"],
+      quickCheck: { q: "A borrows $100 for one year and must repay $105 after indexation. The chapter classifies this as:", options: ["Permissible compensation", "Riba", "Profit sharing", "Hibah"], answer: 1, explanation: "p. 439." }
+    },
+    {
+      id: "t17.3.4", section: "17.3.4", title: "Time Value of Money and Islamic Banking", pages: [439, 440], tier: "core",
+      concepts: ["time-value", "credit-sale"],
+      intuition: "If a credit price is higher than the cash price, isn't that interest by another name?",
+      simple: "Two opposite criticisms: Islamic banks charge time value through pricing, so they are not Islamic; or rejecting interest means rejecting time value. Response: Shari’ah recognises time (and place) in pricing goods and usufruct in genuine exchange — a credit price may exceed the cash price if one price is fixed at contract, and Salam prices are lower than spot — but not as a predetermined return on Qard or Dayn. Once a debt is created, nothing can be added for delay. Hence there is no zero time preference in an Islamic economy.",
+      academic: ["Riba al-Fadl rules show time value: deferment in exchanging monetary items is banned because one party would benefit from money received before giving its counter-value.", "Mark-up in trade is permitted if sale rules are observed; interest is an increase over a loan or debt."],
+      exam: "Time value accepted in pricing goods/usufruct (credit price > cash price; Salam price < spot); rejected for loans/debts; no addition after debt creation.",
+      keyPoints: ["See Chapter 4 and Sections 6.5.3, 6.8."],
+      debate: [{
+        issue: "Does Islamic finance reject — or covertly charge — the time value of money?",
+        criticism: "Either credit prices above cash prices are disguised interest, or prohibition of interest implies zero time value.",
+        response: "Time is a legitimate factor in pricing goods and usufruct in genuine exchange (consensus that a credit price may exceed the cash price if fixed at contract); what is prohibited is a predetermined return on a loan or debt, or any increase after the debt is created.",
+        alternative: "Positive time preference exists and is reflected in market prices of goods.",
+        takeaway: "Time value: yes for goods, no for money and debts."
+      }],
+      related: ["t4.4", "t6.5.3", "t6.8"],
+      quickCheck: { q: "Where does the chapter say time value is acceptable?", options: ["In pricing loans", "In pricing goods and usufruct in genuine sale or lease", "In late-payment charges", "Nowhere"], answer: 1, explanation: "p. 440." }
+    },
+    {
+      id: "t17.3.5", section: "17.3.5", title: "Charging Interest from Rich Debtors", pages: [441, 441], tier: "supporting",
+      concepts: ["riba", "justice"],
+      intuition: "If the borrower is a wealthy firm, who is exploited by interest?",
+      simple: "Criticism: modern borrowers are rich businesses, so interest is not unjust. Response: the argument holds only if all borrowers earn well above the interest rate — but some earn less and some lose. It actually strengthens the case against interest: the rich obtain cheap funds, pass interest to consumers as costs and, when losing, may resort to unethical practices; the rich get richer and the poor poorer. Interest exploits whichever party is weaker; returns should come from labour, responsibility and business risk.",
+      academic: ["The conventional system, with interest and gambling on a massive scale, has become a means of exploiting savers and the general public."],
+      exam: "Response: variable business outcomes; interest shifts costs to consumers; concentrates wealth; exploitation either way.",
+      keyPoints: ["Prohibition applies irrespective of who is exploited."],
+      debate: [{
+        issue: "Is interest acceptable when charged to rich borrowers?",
+        criticism: "Borrowers today are wealthy businesses, so charging them interest is not unjust.",
+        response: "Business profits vary relative to interest; the rich borrow cheaply relative to profits, pass interest to consumers, and savers are exploited — wealth concentrates. Interest can exploit either party and is prohibited regardless.",
+        alternative: "Returns through labour, responsibility and business risk.",
+        takeaway: "The identity of the debtor does not change the prohibition."
+      }],
+      related: ["t3.2"],
+      quickCheck: { q: "According to the author, the ‘rich debtors’ argument actually:", options: ["Justifies interest", "Strengthens the case against interest", "Is irrelevant", "Supports indexation"], answer: 1, explanation: "p. 441." }
+    },
+    {
+      id: "t17.3.6", section: "17.3.6", title: "Different Shari’ah Interpretations", pages: [441, 442], tier: "core",
+      concepts: ["ijtihad", "standardisation"],
+      intuition: "Do differences of opinion make an Islamic financial system impossible?",
+      simple: "Criticism: differing interpretations prevent standardisation and some products mimic interest. Response: a general consensus on philosophy and mainstream products now exists; slight differences are no longer a concern; IDB, AAOIFI and IFSB are working towards standards. Ijtihad is essential but bounded by Nass and Maqasid. Products based on Bai‘ al Dayn and Bai‘ al ‘Inah are not genuine Islamic banking products. Scholars have already allowed relaxations: penalties for charity, unilateral-promise FX cover, sale and lease-back, third-party Sukuk guarantees and genuine Tawarruq — so one should not expect edicts for every conventional product.",
+      academic: ["Custom, general good, utility and necessity are considered in Ijtihad only when the principles of the texts are respected and the outcome conforms to Maqasid al-Shari’ah."],
+      exam: "Consensus on mainstream; standard-setters (IDB, AAOIFI, IFSB); Ijtihad bounded by Nass/Maqasid; ‘Inah and Bai‘ al Dayn not genuine; list of scholarly relaxations.",
+      keyPoints: ["Standardisation will take time."],
+      debate: [{
+        issue: "Do differences of Shari’ah opinion undermine Islamic finance?",
+        criticism: "Conflicting interpretations prevent standard products; some products (debt sale, gifts, Tawarruq) replicate interest.",
+        response: "Mainstream theory and products enjoy broad consensus; minor differences remain; standard-setters are converging practice; Ijtihad has been used responsibly to grant relaxations; ‘Inah and Bai‘ al Dayn products do not fit the philosophy.",
+        alternative: "Proceed with standardisation on settled principles rather than seeking Fatwas for every conventional product.",
+        takeaway: "Diversity of opinion exists but does not prevent a coherent system; some products are rightly rejected."
+      }],
+      related: ["t15.3.4", "t13.3", "t2.4"],
+      quickCheck: { q: "Which products does the author say do not fit Islamic banking's philosophy?", options: ["Ijarah and Salam", "Bai‘ al Dayn and Bai‘ al ‘Inah", "Musharakah", "Istisna‘a"], answer: 1, explanation: "p. 442." }
+    },
+    {
+      id: "t17.3.7", section: "17.3.7", title: "Islamic Banks Using Debt-creating Modes", pages: [442, 444], tier: "core",
+      concepts: ["murabaha", "musharakah", "pls"],
+      intuition: "Is Murabaha a second-best compromise or a legitimate mode?",
+      simple: "Criticism: only Musharakah/Mudarabah are true alternatives; debt modes should be avoided. Response: a myth — neither a Shari’ah requirement nor feasible. Trade, leasing and services are lawful; the requirement is value addition by labour, risk or responsibility. The Prophet (pbuh) himself incurred debt. The issue is preference, not permissibility: greater reliance on equity while ensuring debts never increase. Misapplication (e.g. Pakistan's 1980s buy-back Murabaha leading to the Federal Shariat Court's 1991 prohibition, later allowed by the Shariat Appellate Bench with conditions) is a compliance failure, not a flaw of the mode. Risk-averse depositors (pensioners, widows) and bridge-finance needs may require trade or Ijarah.",
+      academic: [
+        "Fixity of profit margin per se is not a problem; transactions must involve exchange of goods, services or labour with Shari’ah rules applied.",
+        "PLS modes are the best alternatives to interest — making capital risk-bearing and encouraging entrepreneurship — but should not negate non-PLS modes; experts increasingly accept all modes, properly used, contribute to development."
+      ],
+      exam: "Debt modes permissible (Prophet incurred debt); issue is preference not permissibility; Pakistan FSC 1991 and SAB decision; risk-averse depositors; PLS best alternative but not exclusive.",
+      keyPoints: ["‘Borderline’ labels reflect misapplication risk, which also exists in PLS."],
+      debate: [{
+        issue: "Should Islamic banks use only Musharakah and Mudarabah?",
+        criticism: "Debt-creating modes with fixed returns replicate interest; true Islamic banking is two-tier Mudarabah or free loans.",
+        response: "Trade and leasing with ownership and risk are lawful; the Prophet incurred debt; the issue is preference, not permissibility; misapplication (1980s Pakistan) is a compliance failure; risk-averse depositors need low-risk modes.",
+        alternative: "Greater reliance on equity where feasible (single trade transactions, good documentation), with debt never increasing once created.",
+        takeaway: "Debt modes are valid if Shari’ah essentials are met; PLS remains preferable."
+      }],
+      related: ["t4.2", "t7.1", "t12.7.2"],
+      quickCheck: { q: "In November 1991, which court prohibited Murabaha in Pakistan due to buy-back and rollover practices?", options: ["Supreme Court (SAB)", "Federal Shariat Court", "High Court of Sindh", "SBP"], answer: 1, explanation: "p. 443; the SAB later allowed it with conditions." }
+    },
+    {
+      id: "t17.3.8", section: "17.3.8", title: "Islamic Financial Institutions — Banks or Trade Houses?", pages: [444, 445], tier: "supporting",
+      concepts: ["intermediation", "universal-banking"],
+      intuition: "Is trading too risky for a bank?",
+      simple: "Criticism: banks intermediate and deal in documents; trading exposes investors to unnecessary risk. Response: the objection has no solid base — universal and merchant banks in Japan, Germany, Switzerland and the Netherlands engage in real business; investment banks and funds do too. As lending is not IFIs' main activity, universal and investment banking models suit them, reduce information asymmetry and may yield higher profits. Islamic banks may set up trading companies; risks can be mitigated and firewalls set by management or regulators.",
+      academic: ["Islamic finance provides tools to mitigate asset, market and return-related risks."],
+      exam: "Universal/merchant banking precedents; suits IFIs; trading companies; firewalls.",
+      keyPoints: ["Pure intermediation is not the only banking model."],
+      debate: [{
+        issue: "Should Islamic banks engage in trade?",
+        criticism: "Banks should intermediate and deal only in documents; trading adds risk.",
+        response: "Universal/merchant banking in Japan, Germany, Switzerland and the Netherlands shows banks can do real business; this model suits IFIs and reduces information asymmetry.",
+        alternative: "Separate trading subsidiaries and regulatory firewalls.",
+        takeaway: "IFIs are closer to universal/investment banks than to pure intermediaries."
+      }],
+      related: ["t4.5"],
+      quickCheck: { q: "Which banking model does the author consider more suitable for IFIs?", options: ["Pure commercial intermediation", "Universal and investment banking", "Central banking", "Microcredit only"], answer: 1, explanation: "pp. 444–445." }
+    },
+    {
+      id: "t17.3.9", section: "17.3.9", title: "Islamic Banks to Act as Social Welfare Institutions?", pages: [445, 445], tier: "supporting",
+      concepts: ["qard-al-hasan", "social-role"],
+      intuition: "Should an Islamic bank lend for free?",
+      simple: "Criticism: IFIs should charge nothing and act as charities. Response: no firm Shari’ah or economic basis — return-free lending is for individuals or states in special circumstances; banks hold depositors' money with a mandate and must earn returns. The issue is how profit is earned (real business, not interest). Banks may participate in welfare activities by board policy, but business and benevolence are separate.",
+      academic: ["Regulators must oversee IFIs to safeguard stakeholders; welfare is not their normal course of business."],
+      exam: "Banks = business institutions with depositors' mandate; profit via real business; benevolence optional, not core.",
+      keyPoints: ["Qard al Hasan for SMEs/microfinance can be funded from shareholders' profits or charity accounts (Chapter 14)."],
+      debate: [{
+        issue: "Should IFIs act as charities providing free finance?",
+        criticism: "Charging market-related returns is un-Islamic; banks should serve social security needs.",
+        response: "Return-free loans are for individuals or states in special cases; banks cannot dishonour depositors' mandate; the question is how profit is earned, not whether.",
+        alternative: "Some welfare activity by board policy, and Qard al Hasan from shareholders' funds or charity accounts.",
+        takeaway: "Islamic banks are business institutions bound by fiduciary duties."
+      }],
+      related: ["t14.3.4"],
+      quickCheck: { q: "Why can't Islamic banks simply give return-free finance to all?", options: ["It is prohibited", "They hold depositors' funds under a mandate to earn Halal returns", "Regulators forbid charity", "Customers refuse it"], answer: 1, explanation: "p. 445." }
+    },
+    {
+      id: "t17.4", section: "17.4", title: "Appraisal of Criticism on Islamic Banking Practice (Overview)", pages: [445, 445], tier: "supporting",
+      concepts: ["criticism"],
+      intuition: "Which criticisms concern what banks actually do, rather than the theory?",
+      simple: "Section 17.4 turns from concepts to practice: divergence from PLS theory, interest income as seed capital, the claim that Islamic and conventional banking do not differ (time value, benchmarks, fixed returns, real trade, collateral, risk, end results, combined contracts, binding promises), penalties on defaulters, cash for overheads and deficits, and socio-economic impact. The author answers most of them but concedes some concerns are valid.",
+      academic: ["Each practice criticism is evaluated in Sections 17.4.1–17.4.6."],
+      exam: "Practice criticisms: divergence, seed capital, ‘no difference’, penalties, cash needs, socio-economic impact.",
+      keyPoints: ["Concessions: Sukuk fixed returns, neglect of PLS, limited social impact."],
+      related: ["t17.4.1", "t17.4.3", "t17.4.6"],
+      quickCheck: { q: "Section 17.4 appraises criticism of:", options: ["Islamic banking practice", "Only the meaning of Riba", "Takaful models", "Sukuk pricing only"], answer: 0, explanation: "p. 445." }
+    },
+    {
+      id: "t17.4.1", section: "17.4.1", title: "Divergence between Theory and Practice (‘Murabaha Syndrome’)", pages: [445, 446], tier: "core",
+      concepts: ["pls", "murabaha", "criticism"],
+      intuition: "Why do Islamic banks mostly do Murabaha and Ijarah when the theory emphasised PLS?",
+      simple: "Criticism: early theory (Siddiqi's Banking without Interest, Uzair's Interest-free Banking, CII Pakistan 1980) envisaged PLS, and Usmani wrote that Murabaha and Ijarah should be allowed only where Musharakah cannot work — yet practice relies overwhelmingly on them, even where he supervises. Response: the author sees this more as evolution than divergence; trade is accepted and often the only option; many depositors are low-income (pensioners, widows) whose money should not bear high risk. However, for single trade transactions or where documentation is satisfactory, banks should use Musharakah for higher returns.",
+      academic: ["Excessive Murabaha has been dubbed ‘Murabaha Syndrome’ (Yousef, 2005); the author regards the label as conceptually untrue if Shari’ah rules and ethics are observed."],
+      exam: "Early PLS vision (Siddiqi, Uzair, CII 1980; Usmani's caution) vs Murabaha/Ijarah dominance; author: evolution not divergence; depositors' risk profile; use Musharakah where feasible.",
+      keyPoints: ["The author partly concedes by urging more Musharakah."],
+      debate: [{
+        issue: "Has Islamic banking practice diverged from its PLS-based theory?",
+        criticism: "Pioneers envisaged PLS; Usmani warned against making Murabaha/Ijarah the core; practice relies on fixed-return modes — ‘Murabaha syndrome’.",
+        response: "It reflects evolution of the concept; trade is lawful and often the only option; low-income depositors need low-risk investment.",
+        alternative: "Use Musharakah in single trade transactions and well-documented cases for higher returns.",
+        takeaway: "Concern is partly valid; the author defends debt modes while calling for greater PLS use."
+      }],
+      related: ["t17.3.7", "t12.7.2"],
+      quickCheck: { q: "How does the author characterise the gap between PLS theory and Murabaha-heavy practice?", options: ["As fraud", "More as evolution of the concept than divergence", "As a reason to abandon Islamic banking", "As irrelevant"], answer: 1, explanation: "p. 446." }
+    },
+    {
+      id: "t17.4.2", section: "17.4.2", title: "IFIs Using Interest Income as Seed/Base Capital", pages: [446, 447], tier: "supporting",
+      concepts: ["islamic-windows", "riba"],
+      intuition: "Can a conventional bank open an Islamic window with its own past earnings?",
+      simple: "Criticism: windows and Islamic branches of conventional banks use interest income as seed capital, befooling the public. Response: someone who wishes to stop wrongdoing must be encouraged and needs start-up time; Qur’an 2:275 (those who desist may keep past gains, their case with Allah) and 2:278–279 (if you repent you have your principal) support using such income as seed capital, provided operations are Shari’ah-compliant and fully segregated. Ideally whole institutions should convert within a defined period, but a large multinational cannot convert overnight and should be encouraged to start at any level.",
+      academic: ["Often the capital is not wholly interest income; original capital remains part of it."],
+      exam: "Response: Qur’an 2:275, 2:278; encourage transition; segregation and compliance; full conversion as policy target.",
+      keyPoints: ["Segregation is the key condition."],
+      debate: [{
+        issue: "Is it legitimate to use interest income as seed capital for Islamic windows or banks?",
+        criticism: "Income from prohibited sources should not fund Shari’ah-based business; windows befool pious depositors.",
+        response: "Qur’an 2:275 and 2:278 allow those who desist to keep past gains or principal; transition should be encouraged; operations must be compliant and segregated.",
+        alternative: "Policy target of full transformation of institutions within a defined period, especially in Muslim-majority countries.",
+        takeaway: "Seed capital from interest is acceptable for transition if the Islamic business is segregated and compliant."
+      }],
+      related: ["t9.10", "t18.2"],
+      quickCheck: { q: "Which condition does the author attach to using interest income as seed capital?", options: ["It must be donated first", "Operations must be Shari’ah-compliant and totally segregated from interest-based business", "It must be below 5%", "Only in non-Muslim countries"], answer: 1, explanation: "p. 447." }
+    },
+    {
+      id: "t17.4.3", section: "17.4.3", title: "Difference between Islamic and Conventional Banking", pages: [447, 454], tier: "core",
+      concepts: ["criticism", "benchmark", "collateral", "promise"],
+      intuition: "‘Same rates, same collateral, same result — so what's the difference?’",
+      simple: "The most common practical criticism is that there is no real difference. The author answers each strand: time value is charged only on goods, not debts; interest benchmarks are used only as pricing tools until Islamic benchmarks develop; fixed returns are valid in sale and lease (Ijarah net returns quasi-fixed), variable in Mudarabah; banks take real ownership and risk though they need not keep inventory; collateral and documentation are enjoined by the Qur’an, though not enforceable for PLS losses without negligence; IFIs bear additional risks; end results differ because goods, not money, are the subject matter; combining contracts is allowed if they are not interdependent; binding unilateral promises are accepted by contemporary consensus.",
+      academic: [
+        "Deposits: current accounts are loans (no return); Mudarabah deposits share profit or loss; Wakalah deposits pay a fixed fee. Losses rarely reach depositors because pools are diversified across many financings and reserves exist; any loss is charged to the pool.",
+        "Sukuk: conclusively fixed-income Sukuk are not possible; issuers cannot guarantee nominal value or fixed profit; an independent third party may guarantee without fee but holders cannot claim if it defaults; return is quasi-fixed at best (the author concedes this is a critical issue).",
+        "Additional risks for IFIs: asset, market, Shari’ah non-compliance, rate-of-return, fiduciary and legal risk; risk cannot be transferred without reward.",
+        "End result: conventional loans keep accruing interest; Islamic sale price stays fixed on default; in Ijarah banks bear ownership risk and Takaful shortfalls; in Salam no cost of funds on refund; Islamic banks cannot create money without real assets or finance deficits without assets.",
+        "Combinations: Shirkah + Ijarah (DM), Musharakah + Mudarabah, Wakalah/Kafalah with sale or lease, Salam/Istisna‘a + Murabaha — allowed when independently enforceable. Binding promise: enforceable except for force majeure; wilful breach → actual loss; justified by Ibahatul Asliyah."
+      ],
+      exam: "Answer strands: time value on goods only; benchmarks as tools; fixed vs quasi-fixed vs variable; real ownership/agency; collateral valid (not for PLS loss w/o negligence); extra risks; different end results; independent contracts; binding unilateral promise.",
+      keyPoints: [
+        "Author concedes Sukuk fixed returns are a genuine issue.",
+        "Islamic benchmarks remain a future agenda.",
+        "Microfinance on personal/group sureties recommended."
+      ],
+      subsections: [
+        { number: "17.4.3.a", title: "Charging time value like conventional banks", page: 447, points: ["Time factor only in pricing goods/usufruct", "Nothing added once receivable created"] },
+        { number: "17.4.3.b", title: "Use of interest rates as benchmarks", page: 448, points: ["Benchmarks needed by all markets", "Financial market rate used as pricing tool", "Own benchmarks: future agenda"] },
+        { number: "17.4.3.c", title: "Pre-fixed rates of return", page: 448, points: ["Depends on contract nature", "Diversified pools and reserves", "Sukuk only quasi-fixed"] },
+        { number: "17.4.3.d", title: "Actual involvement in real sector business", page: 450, points: ["Goods as subject matter", "Ownership and risk", "No inventory requirement; agency accepted"] },
+        { number: "17.4.3.e", title: "Taking security/collateral and documentation", page: 451, points: ["Qur’an enjoins documentation", "No enforcement for PLS loss without negligence", "Sureties for small clients"] },
+        { number: "17.4.3.f", title: "Risk profile of Islamic banks", page: 452, points: ["Asset, market, Shari’ah, return, fiduciary, legal risks"] },
+        { number: "17.4.3.g", title: "Identical end result", page: 452, points: ["Fixed price on default", "Lessor risk", "No money creation"] },
+        { number: "17.4.3.h", title: "Combined and complicated contracts", page: 453, points: ["Only interdependent agreements prohibited", "Permissible combinations"] },
+        { number: "17.4.3.i", title: "Taking binding promises", page: 454, points: ["Contemporary consensus", "Force majeure exception", "Ibahatul Asliyah"] }
+      ],
+      debate: [
+        { issue: "Do Islamic banks charge time value of money like conventional banks?", criticism: "They price by reference rates to earn the same income.", response: "Time is considered only in pricing goods and usufruct; once a receivable exists nothing is added; cost of funds is not a claim.", alternative: "—", takeaway: "Time value for goods yes; for debts no." },
+        { issue: "Is using LIBOR/KIBOR as a benchmark un-Islamic?", criticism: "Pricing on interest benchmarks makes Islamic banking interest-based.", response: "Benchmarks are a genuine need; with a small market share IFIs must use the financial market's rate as a tool for pricing goods and usufruct, which Shari’ah accepts.", alternative: "Develop Islamic benchmarks reflecting real assets — a future agenda.", takeaway: "Benchmark use is a pricing tool, not the substance of the contract; own benchmarks remain desirable." },
+        { issue: "Are pre-fixed rates of return interest?", criticism: "Fixed facility or deposit rates are interest; depositors never suffer losses.", response: "Return depends on contract: fixed price in sale is required; Ijarah rent fixed but net quasi-fixed; Mudarabah variable; losses absorbed by diversified pools and reserves.", alternative: "Sukuk cannot be conclusively fixed-income; only independent third-party guarantees without fee.", takeaway: "Fixity per se is not the test; contract nature is. The author concedes Sukuk fixed returns are problematic." },
+        { issue: "Do Islamic banks really trade?", criticism: "They hold no inventory and use clients as agents.", response: "They take ownership and risk; inventory is not a Shari’ah condition; agency is accepted without difference of opinion; AAOIFI's Murabaha to Purchase Orderer standard reflects this practice.", alternative: "Establish trading/asset management companies for common goods.", takeaway: "Ownership and risk, not shelves, make trade genuine." },
+        { issue: "Why do Islamic banks demand collateral?", criticism: "They should finance without security, even in Musharakah.", response: "The Qur’an and Sunnah emphasise documentation and security in credit; collateral in PLS can only cover negligence or breach.", alternative: "Schemes for small clients on personal/group sureties.", takeaway: "Collateral is valid; its enforcement in PLS is limited." },
+        { issue: "Is the end result the same as conventional banking?", criticism: "Same benchmarks and similar returns.", response: "Differences: price fixed on default; lessor bears ownership risk and Takaful shortfall; no cost of funds in Salam refunds; no money creation without assets; supply of risk-based capital.", alternative: "—", takeaway: "Rights and liabilities differ even when headline rates look similar." },
+        { issue: "Do combined contracts violate ‘two contracts in one’?", criticism: "Many agreements and promises for one transaction.", response: "Only interdependent agreements are prohibited; combinations with independent enforceability (DM, Musharakah–Mudarabah, Wakalah/Kafalah, Salam/Istisna‘a + Murabaha) are permissible.", alternative: "—", takeaway: "Independence and sequencing determine validity." },
+        { issue: "Can a promise to purchase be binding?", criticism: "Binding promises turn promises into contracts.", response: "Contemporary consensus: a unilateral promise in financial transactions is enforceable unless force majeure; wilful breach → actual loss; supported by Ibahatul Asliyah.", alternative: "Some scholars disagree.", takeaway: "Binding unilateral promise is mainstream; bilateral binding promises remain restricted." }
+      ],
+      related: ["t15.3.7", "t5.6", "t7.13"],
+      quickCheck: { q: "According to the author, which combination of contracts is prohibited?", options: ["Shirkah and Ijarah in DM", "Two interdependent agreements", "Wakalah with sale", "Salam with Murabaha"], answer: 1, explanation: "p. 453." }
+    },
+    {
+      id: "t17.4.4", section: "17.4.4", title: "Imposing Penalties on Defaulters", pages: [454, 455], tier: "core",
+      concepts: ["penalty", "default", "charity"],
+      intuition: "Doesn't the Qur’an ask creditors to give more time?",
+      simple: "Criticism: the Qur’an recommends respite or waiver for debtors, yet IFIs impose percentage penalties, making finance as costly as conventional. Response: scholars allow penalties to discipline defaulters, but the amount goes to charity, not bank income. Distinguish wilful defaulters (often resourceful clients with luxurious lifestyles — like usurpers) from genuine hardship, and Qard (give more time) from Dayn arising from sale or Ijarah (penalty for negligent delay, plus actual loss compensation per some). OIC Fiqh Council: penalty void if the client proves failure was beyond his control or that the bank suffered no loss.",
+      academic: ["Default hits IFIs more than conventional banks because they cannot claim cost of funds or liquidated damages; default harms depositors."],
+      exam: "Penalty → charity; wilful vs genuine default; Qard vs Dayn; OIC Fiqh Council conditions; IFIs cannot claim cost of funds.",
+      keyPoints: ["See Chapter 7, Section 7.13."],
+      debate: [{
+        issue: "Are late-payment penalties consistent with the Qur’anic call for leniency?",
+        criticism: "Penalties on a percentage basis make Islamic finance as costly as conventional and contradict respite for debtors.",
+        response: "Penalties go to charity, not income; leniency is for debtors in genuine difficulty and for Qard; wilful defaulters in Dayn may be fined; OIC Fiqh Council voids penalties where failure was beyond control or caused no loss.",
+        alternative: "Some scholars allow compensation for actual loss in negligent delay.",
+        takeaway: "Penalties are a disciplinary device, not a return; the distinction between wilful and genuine default is essential."
+      }],
+      related: ["t7.13", "t7.15"],
+      quickCheck: { q: "Where do late-payment penalties collected by Islamic banks go?", options: ["Bank profit", "Depositors' pool", "Charity", "Shareholders"], answer: 2, explanation: "p. 454." }
+    },
+    {
+      id: "t17.4.5", section: "17.4.5", title: "Availability of Cash for Overhead Expenses and Deficit Financing", pages: [455, 455], tier: "supporting",
+      concepts: ["salam", "sukuk", "liquidity"],
+      intuition: "How does a firm pay salaries if all finance must be tied to assets?",
+      simple: "Criticism: if money must be linked to real assets, how are salaries, utility bills and deficits financed? Response: forward sales (Salam/Salaf, Istisna‘a) let producers sell output in advance and use the cash for any purpose; governments and corporates can issue Shirkah- or Ijarah-based Sukuk. The criticism is no longer valid.",
+      academic: ["Homogeneous goods producers can genuinely sell production in advance."],
+      exam: "Salam/Istisna‘a advance cash; Shirkah/Ijarah Sukuk for governments and corporates.",
+      keyPoints: ["Salam cash can be used for overheads."],
+      debate: [{
+        issue: "Can Islamic finance meet pure cash needs?",
+        criticism: "Asset-linked finance cannot fund salaries, bills or budget deficits.",
+        response: "Salam and Istisna‘a provide advance cash usable for any purpose; Sukuk meet government and corporate needs.",
+        alternative: "—",
+        takeaway: "Cash needs are met through real-asset structures."
+      }],
+      related: ["t10.5", "t15.3.5.b"],
+      quickCheck: { q: "Which mode lets a producer obtain cash in advance for overheads?", options: ["Murabaha", "Salam", "Wadi‘ah", "Hibah"], answer: 1, explanation: "p. 455." }
+    },
+    {
+      id: "t17.4.6", section: "17.4.6", title: "Socio-economic Impact of the Present Islamic Banking System", pages: [455, 456], tier: "core",
+      concepts: ["maqasid", "pls", "criticism"],
+      intuition: "Is current Islamic banking achieving the goals of an Islamic economy?",
+      simple: "Criticism: debt-mode dominance means Islamic banking cannot achieve its socio-economic goals; some (Zaman, 2006) call it ‘an attempt to legitimise conventional Western banking by distorting the Shari’ah’. Response: the concern is justifiable if IFIs keep working without state, policymaker and regulatory support. But the harsher critique ignores the evolutionary challenges; Siddiqi notes ‘the tricky issues the present generation faces in following divine guidance’; Khurshid Ahmad says it would be a tragedy not to move toward equity, but ‘less than generous to condemn the whole effort’. Banking is only one part — public finance must also be just.",
+      academic: ["The scope for equity-based modes is taken up in Chapter 18."],
+      exam: "Concern partly valid (needs state support); Zaman's critique; responses of Siddiqi and Khurshid Ahmad; public finance matters too.",
+      keyPoints: ["The author concedes the concern is justified to an extent."],
+      debate: [{
+        issue: "Does present Islamic banking fail its socio-economic objectives?",
+        criticism: "Neglect of equity modes; some describe it as legitimising Western banking by distorting Shari’ah (Zaman, 2006).",
+        response: "Concern justified to the extent IFIs lack state and regulatory support; but condemnation ignores evolutionary challenges (Siddiqi) and is ‘less than generous’ (Khurshid Ahmad).",
+        alternative: "Move systematically toward equity-based finance and reform public finance (Chapter 18).",
+        takeaway: "Acknowledge the gap; reject wholesale condemnation; policy support is needed."
+      }],
+      related: ["t18.2", "t18.3.2"],
+      quickCheck: { q: "Who described condemning the whole Islamic banking effort as ‘less than generous’?", options: ["Asad Zaman", "Professor Khurshid Ahmad", "Ibn Taymiyah", "Monzer Kahf"], answer: 1, explanation: "p. 456." }
+    }
+  ],
+  summary: "Islamic finance faces myths and severe criticism both from those who reject the prohibition of interest and from ‘pious’ critics who expect an ideal system without allowing for evolutionary difficulties. The author argues that the concept rests on sound reasoning: Riba is any increase over the principal of a loan or debt, whatever the rate or the debtor; money cannot be rented because it is consumed in use and a lender bears no ownership risk; loans must be repaid in kind regardless of inflation; time value is legitimate in pricing goods but not debts; and debt-creating modes are permissible when their Shari’ah essentials are met, though PLS modes are preferable. On practice, he defends benchmarks as pricing tools, fixed prices in sales, agency-based trading, collateral, combined but independent contracts, binding unilateral promises, charity-directed penalties and interest-income seed capital for segregated windows — while conceding real concerns about conclusively fixed Sukuk returns, the neglect of equity modes and limited socio-economic impact. His recommendations: create awareness, apply stringent internal controls, train staff, find ways to use equity modes (consignment trade, micro-business, Shirkah securitisation, fund management), and finance capable clients without tangible collateral through personal or group sureties.",
+  takeaways: [
+    "Any stipulated increase over a loan or debt is Riba, whatever the rate.",
+    "Money cannot be leased; profit requires ownership risk.",
+    "No indexation of loans; value protection through real assets.",
+    "Time value: allowed in goods pricing, not in debts.",
+    "Debt modes permissible; PLS preferable (preference ≠ permissibility).",
+    "Benchmarks are pricing tools; Islamic benchmarks a future agenda.",
+    "Penalties go to charity; distinguish wilful and genuine default.",
+    "Author concedes: Sukuk fixed returns and socio-economic impact need attention."
+  ],
+  checklist: [
+    "Can you list the conceptual and practice criticisms?",
+    "Can you answer the ‘rent on money’ and inflation arguments?",
+    "Can you explain time value in Islamic pricing?",
+    "Can you defend (and qualify) the use of debt-creating modes?",
+    "Can you discuss LIBOR benchmarks and fixed returns?",
+    "Can you explain the seed-capital argument with Qur’anic verses?",
+    "Can you evaluate penalties on defaulters?",
+    "Can you present the socio-economic impact debate fairly?"
+  ],
+  flashcards: [
+    { id: "f17.1", cat: "Exam facts", front: "Islamic banking market shares cited in Ch 17", back: "Indonesia 1.5%, Pakistan 2.2%, Malaysia 12%, Bahrain 24% (at the time of writing).", topic: "t17.1" },
+    { id: "f17.2", cat: "Principles", front: "Response: ‘Riba is undefined’", back: "Qur’an 2:274–281 sufficiently explains Riba as any increase over the principal of a loan/debt; commercial interest existed in Arabia; rate irrelevant.", topic: "t17.3.1" },
+    { id: "f17.3", cat: "Principles", front: "Response: ‘money deserves rent’", back: "Money is consumed in use and changes form; the lender keeps no ownership risk; profit requires risk via sale, lease or partnership.", topic: "t17.3.2" },
+    { id: "f17.4", cat: "Principles", front: "Response: ‘index loans to inflation’", back: "Loan is non-commutative; repay same kind and quantity (2:279); indexation = benefit from loan = Riba; protect value through real business.", topic: "t17.3.3" },
+    { id: "f17.5", cat: "Principles", front: "Time value of money in Islamic finance", back: "Recognised in pricing goods and usufruct (credit price > cash price; Salam price < spot), not as a return on loans or debts.", topic: "t17.3.4" },
+    { id: "f17.6", cat: "Principles", front: "Preference vs permissibility", back: "Debt modes (Murabaha, Ijarah, Salam) are permissible; PLS modes are preferable. The Prophet (pbuh) himself incurred debt.", topic: "t17.3.7" },
+    { id: "f17.7", cat: "Exam facts", front: "Pakistan Murabaha judgments", back: "Federal Shariat Court prohibited Murabaha (Nov 1991) due to buy-back/rollover; Shariat Appellate Bench allowed it if all essentials met.", topic: "t17.3.7" },
+    { id: "f17.8", cat: "Banking", front: "Banks or trade houses?", back: "Universal/merchant banking (Japan, Germany, Switzerland, Netherlands) shows banks can do real business; suits IFIs; firewalls possible.", topic: "t17.3.8" },
+    { id: "f17.9", cat: "Principles", front: "‘Murabaha syndrome’ — author's view", back: "Seen as evolution rather than divergence; trade legitimate; depositors' low risk profile; use Musharakah where feasible.", topic: "t17.4.1" },
+    { id: "f17.10", cat: "Principles", front: "Interest income as seed capital", back: "Allowed for transition (Qur’an 2:275, 2:278) if operations compliant and fully segregated.", topic: "t17.4.2" },
+    { id: "f17.11", cat: "Banking", front: "Why interest benchmarks are used", back: "Benchmarks are needed for pricing; IFIs' small market share obliges use of financial market rates as tools; own benchmarks a future agenda.", topic: "t17.4.3" },
+    { id: "f17.12", cat: "Risk", front: "Additional risks faced by IFIs", back: "Asset, market, Shari’ah non-compliance, rate-of-return, fiduciary and legal risks.", topic: "t17.4.3" },
+    { id: "f17.13", cat: "Contract rules", front: "Combined contracts — rule", back: "Only interdependent agreements are prohibited; independent combinations (DM, Musharakah–Mudarabah, Wakalah with sale) allowed.", topic: "t17.4.3" },
+    { id: "f17.14", cat: "Contract rules", front: "Penalties on defaulters (Ch 17)", back: "To charity; wilful vs genuine; Qard (give time) vs Dayn (penalty); OIC: void if beyond control or no loss.", topic: "t17.4.4" },
+    { id: "f17.15", cat: "Principles", front: "Socio-economic impact debate", back: "Concern partly valid without state support; Zaman's critique; Siddiqi and Khurshid Ahmad: condemnation ‘less than generous’.", topic: "t17.4.6" }
+  ],
+  questions: [
+    { id: "q17.1", type: "mcq", q: "According to Chapter 17, what makes an interest-bearing loan Riba?", options: ["Only a high rate", "Any stipulated increase over the principal, whatever the rate", "Only if the borrower is poor", "Only if for consumption"], answer: 1, explanation: "p. 437.", topic: "t17.3.1", diff: "E", level: "recall", obj: "State the Riba principle" },
+    { id: "q17.2", type: "tf", q: "The author argues that indexing loans to inflation is permissible through Ijtihad.", answer: false, explanation: "Ijtihad does not operate against the clear text (2:279) (p. 438).", topic: "t17.3.3", diff: "E", level: "understanding", obj: "Evaluate indexation" },
+    { id: "q17.3", type: "scenario", q: "A critic says: ‘Murabaha's credit price exceeds the cash price, so it is interest.’ The best textbook response is:", options: ["Murabaha is interest and should be abandoned", "Time is a legitimate factor in pricing goods in genuine sale if one price is fixed at contract; what is prohibited is increase on a debt", "Credit prices must equal cash prices", "Only Salam may reflect time"], answer: 1, explanation: "pp. 439–440.", topic: "t17.3.4", diff: "M", level: "analysis", obj: "Rebut time-value criticism" },
+    { id: "q17.4", type: "multi", q: "Which responses does the author give to the claim that Islamic banks are no different from conventional banks? (Select all.)", options: ["Benchmarks are only pricing tools for goods and usufruct", "Islamic banks bear asset, market and Shari’ah non-compliance risks", "The sale price stays fixed on default", "Islamic banks may compound mark-up on overdue debts", "Only interdependent contracts are prohibited"], answer: [0, 1, 2, 4], explanation: "pp. 447–454.", topic: "t17.4.3", diff: "M", level: "analysis", obj: "Evaluate ‘no difference’ claim" },
+    { id: "q17.5", type: "match", q: "Match the criticism to the textbook's key response.", pairs: [["Rent on money", "Money consumed in use; lender bears no ownership risk"], ["Rich debtors", "Interest concentrates wealth and exploits either party"], ["Interest-income seed capital", "Qur’an 2:275, 2:278 — transition with segregation"], ["Penalties", "Go to charity; wilful default only"]], explanation: "Sections 17.3–17.4.", topic: "t17.2", diff: "M", level: "understanding", obj: "Match criticisms and responses" },
+    { id: "q17.6", type: "identify", q: "The phrase ‘Murabaha syndrome’ refers to:", options: ["A disease of bankers", "Excessive reliance on Murabaha giving fixed returns", "Prohibition of Murabaha", "A type of Sukuk"], answer: 1, explanation: "p. 446.", topic: "t17.4.1", diff: "E", level: "recall", obj: "Identify terms" },
+    { id: "q17.7", type: "comparison", q: "How do the rights of an Islamic bank on default differ from a conventional bank's?", options: ["Both keep charging interest", "The Islamic bank's sale price stays fixed and it cannot claim cost of funds; penalties go to charity", "The Islamic bank can double the price", "The conventional bank loses its claim"], answer: 1, explanation: "pp. 453–455.", topic: "t17.4.3", diff: "M", level: "analysis", obj: "Compare default rights" },
+    { id: "q17.8", type: "short", q: "Evaluate the criticism that Islamic banks should use only Musharakah and Mudarabah.", answer: "The author calls it a myth: Shari’ah permits trade, leasing and services where value is added through labour, risk or responsibility; the Prophet (pbuh) incurred debt; the issue is preference, not permissibility. Misuse (e.g. 1980s Pakistan buy-back Murabaha) is a compliance failure. Risk-averse depositors and bridge-finance needs require low-risk modes. PLS modes remain the best alternative and should be used where feasible (single trade transactions, good documentation), but non-PLS modes also support development.", keywords: ["permissibility", "preference", "risk-averse", "trade", "PLS"], explanation: "Section 17.3.7.", topic: "t17.3.7", diff: "H", level: "analysis", obj: "Critically evaluate" },
+    { id: "q17.9", type: "tf", q: "The author concedes that conclusively fixed returns on Sukuk are a critical issue.", answer: true, explanation: "p. 450 and Chapter 15.", topic: "t17.4.3", diff: "M", level: "understanding", obj: "Identify concessions" },
+    { id: "q17.10", type: "application", q: "A resourceful client with ample assets delays payment of a Murabaha price for six months. Per Chapter 17, the bank may:", options: ["Charge extra profit as income", "Impose a penalty to be given to charity (and, per some, recover actual loss), as he is a wilful defaulter", "Must waive the debt", "Reprice the goods"], answer: 1, explanation: "pp. 454–455.", topic: "t17.4.4", diff: "M", level: "application", obj: "Apply penalty rules" },
+    { id: "q17.11", type: "definition", q: "Ibahatul Asliyah, cited to justify binding promises, means:", options: ["All economic activities not prohibited are permissible", "All promises are sinful", "Original sin", "Prohibition by default"], answer: 0, explanation: "p. 454.", topic: "t17.4.3", diff: "M", level: "recall", obj: "Define principle" },
+    { id: "q17.12", type: "order", q: "Order the author's recommended starting points for using equity modes (Section 17.5) as listed.", items: ["Consignment-based trade", "Micro-business operations", "Shirkah-based securitisation", "Fund management"], explanation: "p. 456.", topic: "t17.4.6", diff: "E", level: "recall", obj: "Recall recommendations" },
+    { id: "q17.13", type: "mcq", q: "How does the author respond to the claim that Islamic banks should not trade because banks only intermediate?", options: ["He agrees", "He cites universal and merchant banking in Japan, Germany, Switzerland and the Netherlands", "He says trading is forbidden", "He proposes nationalisation"], answer: 1, explanation: "p. 444.", topic: "t17.3.8", diff: "E", level: "recall", obj: "Recall responses" }
+  ],
+  exam: [
+    { id: "e17.1", kind: "long", q: "‘There is no real difference between Islamic and conventional banking.’ Critically evaluate.", structure: ["State the criticism fairly", "Time value and benchmarks", "Fixed vs quasi-fixed vs variable returns", "Real ownership, agency and risk", "Collateral and documentation", "End result on default, Ijarah, Salam", "Combined contracts and promises", "Author's concessions (Sukuk, PLS neglect)", "Conclusion"], keyConcepts: ["benchmark", "ownership risk", "quasi-fixed", "interdependent contracts"], points: ["Differences in rights and liabilities matter more than headline rates"], mistakes: ["Presenting only one side", "Claiming Islamic banks never use benchmarks"], topic: "t17.4.3" },
+    { id: "e17.2", kind: "short", q: "Evaluate the arguments that interest is justified by inflation and by the time value of money.", structure: ["Inflation argument and response", "Nass vs Ijtihad", "Indexation as benefit from loan", "Time value in pricing goods", "No increase on debts"], keyConcepts: ["non-commutative loan", "time value"], points: ["Floating rent only for future periods"], mistakes: ["Confusing credit price with interest"], topic: "t17.3.3" },
+    { id: "e17.3", kind: "conceptual", q: "Has Islamic banking practice diverged from theory? Discuss with reference to PLS and debt modes.", structure: ["Early PLS vision", "Usmani's caution", "Current practice", "Author's evolution view", "Depositor risk profiles", "Recommendations"], keyConcepts: ["Murabaha syndrome", "PLS"], points: ["Preference vs permissibility"], mistakes: ["Saying debt modes are impermissible"], topic: "t17.4.1" },
+    { id: "e17.4", kind: "viva", q: "Can an Islamic bank impose penalties on late payment? Where does the money go?", structure: ["Criticism", "Charity rule", "Wilful vs genuine", "Qard vs Dayn", "OIC conditions"], keyConcepts: ["penalty", "charity"], points: ["Cannot be bank income"], mistakes: ["Treating penalty as profit"], topic: "t17.4.4" },
+    { id: "e17.5", kind: "scenario", q: "A conventional bank opens an Islamic window funded from its retained earnings. A depositor objects. Advise.", structure: ["Objection", "Qur’an 2:275, 2:278", "Transition principle", "Segregation and compliance", "Policy target of full conversion"], keyConcepts: ["seed capital", "segregation"], points: ["Encourage desisting from wrongdoing"], mistakes: ["Ignoring segregation"], topic: "t17.4.2" }
+  ]
+});
