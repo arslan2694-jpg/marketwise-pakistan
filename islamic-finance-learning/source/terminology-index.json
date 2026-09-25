@@ -1,0 +1,5532 @@
+{
+ "generated": "tools/build-indexes.cjs",
+ "count": 266,
+ "terms": [
+  {
+   "term": "‘Ahd",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 485,
+     "topic": "t5.2.1",
+     "chapter": 5,
+     "section": "5.2.1",
+     "title": "Defining Related Terms: Mithaq, ‘Ahd/Wa‘dah and ‘Aqd",
+     "pages": [
+      103,
+      105
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Ahd / Wa‘dah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.2.1",
+     "chapter": 5,
+     "section": "5.2.1",
+     "title": "Defining Related Terms: Mithaq, ‘Ahd/Wa‘dah and ‘Aqd",
+     "pages": [
+      103,
+      105
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Ain",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & property",
+     "page": 485,
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Ain / Dayn",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Aqd",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t5.2.1",
+     "chapter": 5,
+     "section": "5.2.1",
+     "title": "Defining Related Terms: Mithaq, ‘Ahd/Wa‘dah and ‘Aqd",
+     "pages": [
+      103,
+      105
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.2.1",
+     "chapter": 5,
+     "section": "5.2.1",
+     "title": "Defining Related Terms: Mithaq, ‘Ahd/Wa‘dah and ‘Aqd",
+     "pages": [
+      103,
+      105
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Aqd Batil",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t5.7.3",
+     "chapter": 5,
+     "section": "5.7.3",
+     "title": "Void (Batil) Contracts",
+     "pages": [
+      123,
+      124
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Aqd Ghair Lazim",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t5.7",
+     "chapter": 5,
+     "section": "5.7",
+     "title": "Types of Contracts: Valid Contracts (Sahih)",
+     "pages": [
+      117,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Aqd Lazim",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t5.7",
+     "chapter": 5,
+     "section": "5.7",
+     "title": "Types of Contracts: Valid Contracts (Sahih)",
+     "pages": [
+      117,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Aqd Mudhaf",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.7",
+     "chapter": 5,
+     "section": "5.7",
+     "title": "Types of Contracts: Valid Contracts (Sahih)",
+     "pages": [
+      117,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Aqidain",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.4",
+     "chapter": 5,
+     "section": "5.4",
+     "title": "Elements of a Contract",
+     "pages": [
+      106,
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Aqilah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 486,
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.3.3",
+     "chapter": 3,
+     "section": "3.3.3",
+     "title": "Mutual Cooperation and Removal of Hardship",
+     "pages": [
+      68,
+      68
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Arbun",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t6.9",
+     "chapter": 6,
+     "section": "6.9",
+     "title": "Bai‘ al ‘Arbun (Downpayment Sale)",
+     "pages": [
+      145,
+      146
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.6.1",
+     "chapter": 5,
+     "section": "5.6.1",
+     "title": "Token Money (Hamish Jiddiyah) and ‘Arbun",
+     "pages": [
+      116,
+      117
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Ariyah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t7.2",
+     "chapter": 7,
+     "section": "7.2",
+     "title": "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah",
+     "pages": [
+      155,
+      157
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.2",
+     "chapter": 7,
+     "section": "7.2",
+     "title": "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah",
+     "pages": [
+      155,
+      157
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Illah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 489,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Inan",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 490,
+     "topic": "t12.2.2",
+     "chapter": 12,
+     "section": "12.2.2",
+     "title": "Partnership by Contract (Shirkatul‘aqd) and its Kinds",
+     "pages": [
+      309,
+      312
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Iwad",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 490,
+     "topic": "t3.2.1.e",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Connotation of the Term Riba",
+     "pages": [
+      52,
+      53
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.2.3",
+     "chapter": 3,
+     "section": "3.2.3",
+     "title": "Prohibition of Maisir/Qimar (Games of Chance)",
+     "pages": [
+      61,
+      64
+     ]
+    }
+   ]
+  },
+  {
+   "term": "‘Urf",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "AAOIFI",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t1.10",
+     "chapter": 1,
+     "section": "1.10",
+     "title": "Islamic Finance Passing Significant Milestones",
+     "pages": [
+      15,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ahadith",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 485,
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ahkam",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ajr al-Mithl",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Leasing & services",
+     "page": 485,
+     "topic": "t11.2",
+     "chapter": 11,
+     "section": "11.2",
+     "title": "Essentials of Ijarah Contracts",
+     "pages": [
+      280,
+      280
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ajr al-Musammah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Leasing & services",
+     "page": 485,
+     "topic": "t11.2",
+     "chapter": 11,
+     "section": "11.2",
+     "title": "Essentials of Ijarah Contracts",
+     "pages": [
+      280,
+      280
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ajr al-Musammah / Ajr al-Mithl",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t11.2",
+     "chapter": 11,
+     "section": "11.2",
+     "title": "Essentials of Ijarah Contracts",
+     "pages": [
+      280,
+      280
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Akhlaq",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Ethics",
+     "page": 485,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Al Ghunm bil Ghurm",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 485,
+     "topic": "t4.2.6",
+     "chapter": 4,
+     "section": "4.2.6",
+     "title": "Entitlement to Profit — With Risk and Responsibility",
+     "pages": [
+      81,
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Al Kali bil Kali",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 485,
+     "topic": "t6.10",
+     "chapter": 6,
+     "section": "6.10",
+     "title": "Bai‘ al Dayn (Sale of Debt)",
+     "pages": [
+      146,
+      147
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Al Kali bil Kali / Bai‘ al-Dayn bid-Dayn",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t6.10",
+     "chapter": 6,
+     "section": "6.10",
+     "title": "Bai‘ al Dayn (Sale of Debt)",
+     "pages": [
+      146,
+      147
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Al Kharaj bi-al-Daman / Al Ghunm bil Ghurm",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t4.2.6",
+     "chapter": 4,
+     "section": "4.2.6",
+     "title": "Entitlement to Profit — With Risk and Responsibility",
+     "pages": [
+      81,
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Al Ujrah wal Dhaman La Tajtami‘an",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t4.2.9",
+     "chapter": 4,
+     "section": "4.2.9",
+     "title": "Additional Risks Faced by Islamic Banks",
+     "pages": [
+      84,
+      85
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Al-Ajr",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Leasing & services",
+     "page": 485,
+     "topic": "t11.1",
+     "chapter": 11,
+     "section": "11.1",
+     "title": "Introduction: Meaning and Legitimacy of Ijarah",
+     "pages": [
+      279,
+      279
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Al-Hisbah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Ethics",
+     "page": 485,
+     "topic": "t2.5.5",
+     "chapter": 2,
+     "section": "2.5.5",
+     "title": "Liberalism versus State Intervention",
+     "pages": [
+      38,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Al-Sarf",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 485,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Al-Wadi‘ah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Banking",
+     "page": 485,
+     "topic": "t8.5.1",
+     "chapter": 8,
+     "section": "8.5.1",
+     "title": "The Structure of Islamic Banking",
+     "pages": [
+      186,
+      188
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Amanah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Banking",
+     "page": 485,
+     "topic": "t7.11",
+     "chapter": 7,
+     "section": "7.11",
+     "title": "Husnal Qadha (Gracious Payment) and Current Accounts",
+     "pages": [
+      162,
+      163
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ameen",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t11.2",
+     "chapter": 11,
+     "section": "11.2",
+     "title": "Essentials of Ijarah Contracts",
+     "pages": [
+      280,
+      280
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t11.2",
+     "chapter": 11,
+     "section": "11.2",
+     "title": "Essentials of Ijarah Contracts",
+     "pages": [
+      280,
+      280
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Aqaid",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 486,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Asl / Wasf",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.7",
+     "chapter": 5,
+     "section": "5.7",
+     "title": "Types of Contracts: Valid Contracts (Sahih)",
+     "pages": [
+      117,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Asymmetric information",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t14.3.5",
+     "chapter": 14,
+     "section": "14.3.5",
+     "title": "Operational Controls, Structural, Moral Hazard, Documentation and Legal Issues",
+     "pages": [
+      367,
+      369
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Athman",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 486,
+     "topic": "t4.7.1",
+     "chapter": 4,
+     "section": "4.7.1",
+     "title": "Status of Paper Money",
+     "pages": [
+      91,
+      91
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t6.2",
+     "chapter": 6,
+     "section": "6.2",
+     "title": "Bai‘ — Exchange of Values",
+     "pages": [
+      130,
+      131
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al ‘Arbun",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t6.9",
+     "chapter": 6,
+     "section": "6.9",
+     "title": "Bai‘ al ‘Arbun (Downpayment Sale)",
+     "pages": [
+      145,
+      146
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al ‘Inah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 486,
+     "topic": "t6.11",
+     "chapter": 6,
+     "section": "6.11",
+     "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
+     "pages": [
+      147,
+      150
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t6.11",
+     "chapter": 6,
+     "section": "6.11",
+     "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
+     "pages": [
+      147,
+      150
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t13.3",
+     "chapter": 13,
+     "section": "13.3",
+     "title": "Tawarruq",
+     "pages": [
+      349,
+      351
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al Dayn",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 486,
+     "topic": "t7.16",
+     "chapter": 7,
+     "section": "7.16",
+     "title": "Bai‘ al Dayn (Sale of Debt/Debt Instruments)",
+     "pages": [
+      172,
+      172
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al Hasat",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 486,
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al Istijrar",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t13.5",
+     "chapter": 13,
+     "section": "13.5",
+     "title": "Bai‘ al Istijrar (Supply Contract)",
+     "pages": [
+      355,
+      355
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al Khiyar",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al Mu‘allaq",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t5.9",
+     "chapter": 5,
+     "section": "5.9",
+     "title": "Conditional or Contingent Contracts",
+     "pages": [
+      126,
+      127
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al Sarf",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 486,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al-Ghaib",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 486,
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.2.2",
+     "chapter": 3,
+     "section": "3.2.2",
+     "title": "Prohibition of Gharar",
+     "pages": [
+      57,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ al-Majhul",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 486,
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.7.2",
+     "chapter": 5,
+     "section": "5.7.2",
+     "title": "Voidable (Fasid) Contracts",
+     "pages": [
+      120,
+      123
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ Batil",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 486,
+     "topic": "t5.7.3",
+     "chapter": 5,
+     "section": "5.7.3",
+     "title": "Void (Batil) Contracts",
+     "pages": [
+      123,
+      124
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ bil Wafa",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 487,
+     "topic": "t6.8",
+     "chapter": 6,
+     "section": "6.8",
+     "title": "Conditional Sales and “Two Bargains in One Sale”",
+     "pages": [
+      144,
+      145
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t6.11",
+     "chapter": 6,
+     "section": "6.11",
+     "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
+     "pages": [
+      147,
+      150
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ Mu’ajjal",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 487,
+     "topic": "t9.6.1",
+     "chapter": 9,
+     "section": "9.6.1",
+     "title": "Bai‘ Murabaha and Credit Sale (Murabaha–Mu’ajjal)",
+     "pages": [
+      219,
+      220
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ Murabaha",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 487,
+     "topic": "t9.3",
+     "chapter": 9,
+     "section": "9.3",
+     "title": "Murabaha — a Bai‘ al Amanah (Trust Sale)",
+     "pages": [
+      215,
+      215
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ Musawamah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 487,
+     "topic": "t9.11",
+     "chapter": 9,
+     "section": "9.11",
+     "title": "Musawamah (Bargaining on Price)",
+     "pages": [
+      234,
+      234
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ Salam",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 487,
+     "topic": "t10.2",
+     "chapter": 10,
+     "section": "10.2",
+     "title": "Bai‘ Salam/Salaf: Definition and Legitimacy",
+     "pages": [
+      241,
+      242
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t10.2",
+     "chapter": 10,
+     "section": "10.2",
+     "title": "Bai‘ Salam/Salaf: Definition and Legitimacy",
+     "pages": [
+      241,
+      242
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ Tawliyah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 487,
+     "topic": "t9.1",
+     "chapter": 9,
+     "section": "9.1",
+     "title": "Introduction: Credit Sale Forms and MPO",
+     "pages": [
+      213,
+      214
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ Wadhi‘ah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 487,
+     "topic": "t9.1",
+     "chapter": 9,
+     "section": "9.1",
+     "title": "Introduction: Credit Sale Forms and MPO",
+     "pages": [
+      213,
+      214
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bai‘ wal Salaf",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 487,
+     "topic": "t5.5.5",
+     "chapter": 5,
+     "section": "5.5.5",
+     "title": "Prohibition of Two Mutually Contingent Contracts",
+     "pages": [
+      112,
+      113
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t6.8",
+     "chapter": 6,
+     "section": "6.8",
+     "title": "Conditional Sales and “Two Bargains in One Sale”",
+     "pages": [
+      144,
+      145
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Barnamaj",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 487,
+     "topic": "t6.5.1",
+     "chapter": 6,
+     "section": "6.5.1",
+     "title": "The Object of the Sale Contract",
+     "pages": [
+      135,
+      138
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Bayt al Mal",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 487,
+     "topic": "t2.5.1",
+     "chapter": 2,
+     "section": "2.5.1",
+     "title": "Ownership of Resources and Property Rights",
+     "pages": [
+      33,
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Book-out contract",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Buyoo‘ al Amanat",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 487,
+     "topic": "t9.3",
+     "chapter": 9,
+     "section": "9.3",
+     "title": "Murabaha — a Bai‘ al Amanah (Trust Sale)",
+     "pages": [
+      215,
+      215
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Buyu’al Amanat (trust sales)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Constructive (Hukmi) possession",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.4.2",
+     "chapter": 5,
+     "section": "5.4.2",
+     "title": "Elements of the Subject Matter",
+     "pages": [
+      108,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Dayn",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & property",
+     "page": 487,
+     "topic": "t7.2",
+     "chapter": 7,
+     "section": "7.2",
+     "title": "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah",
+     "pages": [
+      155,
+      157
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.2",
+     "chapter": 7,
+     "section": "7.2",
+     "title": "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah",
+     "pages": [
+      155,
+      157
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Dayn (debt)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t3.2.1",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba: Textual Prohibition and Riba in Loans/Debts",
+     "pages": [
+      44,
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Dha‘awoo wa Ta‘ajjloo",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t7.12",
+     "chapter": 7,
+     "section": "7.12",
+     "title": "Remitting a Part of a Loan and Prepayment Rebate",
+     "pages": [
+      163,
+      165
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Dhaman",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 487,
+     "topic": "t7.15",
+     "chapter": 7,
+     "section": "7.15",
+     "title": "Security/Guarantee (Kafalah) and Pledge (Rihn)",
+     "pages": [
+      168,
+      172
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.5.1",
+     "chapter": 2,
+     "section": "2.5.1",
+     "title": "Ownership of Resources and Property Rights",
+     "pages": [
+      33,
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Dhaman Khatr al-Tariq",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 487,
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.3.3",
+     "chapter": 3,
+     "section": "3.3.3",
+     "title": "Mutual Cooperation and Removal of Hardship",
+     "pages": [
+      68,
+      68
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Dharar",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t3.3.5",
+     "chapter": 3,
+     "section": "3.3.5",
+     "title": "Freedom from Dharar (Detriment)",
+     "pages": [
+      69,
+      70
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Diminishing Musharakah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.8",
+     "chapter": 12,
+     "section": "12.8",
+     "title": "Diminishing Musharakah (Concept)",
+     "pages": [
+      337,
+      339
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Dinar",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 487,
+     "topic": "t4.7.1",
+     "chapter": 4,
+     "section": "4.7.1",
+     "title": "Status of Paper Money",
+     "pages": [
+      91,
+      91
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Dirham",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 487,
+     "topic": "t4.7.1",
+     "chapter": 4,
+     "section": "4.7.1",
+     "title": "Status of Paper Money",
+     "pages": [
+      91,
+      91
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Duyun Halah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t7.12",
+     "chapter": 7,
+     "section": "7.12",
+     "title": "Remitting a Part of a Loan and Prepayment Rebate",
+     "pages": [
+      163,
+      165
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Duyun Mu’ajjalah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t7.12",
+     "chapter": 7,
+     "section": "7.12",
+     "title": "Remitting a Part of a Loan and Prepayment Rebate",
+     "pages": [
+      163,
+      165
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Economic system",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t1.7",
+     "chapter": 1,
+     "section": "1.7",
+     "title": "Economics and Religion",
+     "pages": [
+      10,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Falah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 487,
+     "topic": "t2.2.2",
+     "chapter": 2,
+     "section": "2.2.2",
+     "title": "Objectives (Maqasid) of Shari’ah",
+     "pages": [
+      22,
+      25
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.5.2",
+     "chapter": 2,
+     "section": "2.5.2",
+     "title": "Islamic Welfare Approach",
+     "pages": [
+      34,
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Fasid",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 488,
+     "topic": "t5.7.2",
+     "chapter": 5,
+     "section": "5.7.2",
+     "title": "Voidable (Fasid) Contracts",
+     "pages": [
+      120,
+      123
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.7.2",
+     "chapter": 5,
+     "section": "5.7.2",
+     "title": "Voidable (Fasid) Contracts",
+     "pages": [
+      120,
+      123
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Fatwah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 488,
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Fiqh",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 488,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Fixed-return Sukuk (FRS)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t15.1",
+     "chapter": 15,
+     "section": "15.1",
+     "title": "Introduction: Growth of Sukuk",
+     "pages": [
+      389,
+      390
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Fraidh",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 488,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Fuduli",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 488,
+     "topic": "t13.2",
+     "chapter": 13,
+     "section": "13.2",
+     "title": "Wakalah (Agency)",
+     "pages": [
+      347,
+      349
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.7",
+     "chapter": 5,
+     "section": "5.7",
+     "title": "Types of Contracts: Valid Contracts (Sahih)",
+     "pages": [
+      117,
+      120
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t13.2",
+     "chapter": 13,
+     "section": "13.2",
+     "title": "Wakalah (Agency)",
+     "pages": [
+      347,
+      349
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Fulus",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 488,
+     "topic": "t4.7.1",
+     "chapter": 4,
+     "section": "4.7.1",
+     "title": "Status of Paper Money",
+     "pages": [
+      91,
+      91
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ghaban",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 488,
+     "topic": "t3.3.1",
+     "chapter": 3,
+     "section": "3.3.1",
+     "title": "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)",
+     "pages": [
+      64,
+      67
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.3.1",
+     "chapter": 3,
+     "section": "3.3.1",
+     "title": "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)",
+     "pages": [
+      64,
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ghaban-e-Fahish",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 488,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.3.4",
+     "chapter": 3,
+     "section": "3.3.4",
+     "title": "Free Marketing and Fair Pricing",
+     "pages": [
+      68,
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Gharar",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 488,
+     "topic": "t3.2.2",
+     "chapter": 3,
+     "section": "3.2.2",
+     "title": "Prohibition of Gharar",
+     "pages": [
+      57,
+      61
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.2.2",
+     "chapter": 3,
+     "section": "3.2.2",
+     "title": "Prohibition of Gharar",
+     "pages": [
+      57,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Gharar-e-Kathir / Gharar Qalil",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t3.2.2",
+     "chapter": 3,
+     "section": "3.2.2",
+     "title": "Prohibition of Gharar",
+     "pages": [
+      57,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Gharmeen",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 488,
+     "topic": "t2.5.2",
+     "chapter": 2,
+     "section": "2.5.2",
+     "title": "Islamic Welfare Approach",
+     "pages": [
+      34,
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ghasib",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 488,
+     "topic": "t12.4.2",
+     "chapter": 12,
+     "section": "12.4.2",
+     "title": "Types of Mudarabah and Conditions Regarding Business",
+     "pages": [
+      324,
+      324
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.13",
+     "chapter": 7,
+     "section": "7.13",
+     "title": "Penalty on Default (and Insolvency of the Debtor)",
+     "pages": [
+      165,
+      167
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Habal-al-Hablah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 488,
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Halal",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 488,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Hamish Jiddiyah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 488,
+     "topic": "t5.6.1",
+     "chapter": 5,
+     "section": "5.6.1",
+     "title": "Token Money (Hamish Jiddiyah) and ‘Arbun",
+     "pages": [
+      116,
+      117
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.6.1",
+     "chapter": 5,
+     "section": "5.6.1",
+     "title": "Token Money (Hamish Jiddiyah) and ‘Arbun",
+     "pages": [
+      116,
+      117
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Haram",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 488,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Hawalah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 488,
+     "topic": "t7.14",
+     "chapter": 7,
+     "section": "7.14",
+     "title": "Hawalah (Assignment of Debt)",
+     "pages": [
+      167,
+      168
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.14",
+     "chapter": 7,
+     "section": "7.14",
+     "title": "Hawalah (Assignment of Debt)",
+     "pages": [
+      167,
+      168
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Hibah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 488,
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Hilah (Hiyal)",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 488,
+     "topic": "t6.11",
+     "chapter": 6,
+     "section": "6.11",
+     "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
+     "pages": [
+      147,
+      150
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Hisbah (Al-Hisbah)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t2.4",
+     "chapter": 2,
+     "section": "2.4",
+     "title": "Islamic Economics: What Should it be?",
+     "pages": [
+      30,
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Hiyal (sing. Hilah)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t6.11",
+     "chapter": 6,
+     "section": "6.11",
+     "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
+     "pages": [
+      147,
+      150
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Hukmi Qabza",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 489,
+     "topic": "t5.4.2",
+     "chapter": 5,
+     "section": "5.4.2",
+     "title": "Elements of the Subject Matter",
+     "pages": [
+      108,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Husnal Qadha",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 489,
+     "topic": "t7.11",
+     "chapter": 7,
+     "section": "7.11",
+     "title": "Husnal Qadha (Gracious Payment) and Current Accounts",
+     "pages": [
+      162,
+      163
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.11",
+     "chapter": 7,
+     "section": "7.11",
+     "title": "Husnal Qadha (Gracious Payment) and Current Accounts",
+     "pages": [
+      162,
+      163
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ibadat",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 489,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ibahatul Asliyah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 489,
+     "topic": "t5.5",
+     "chapter": 5,
+     "section": "5.5",
+     "title": "Broad Rules for the Validity of Mu‘amalat",
+     "pages": [
+      110,
+      114
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "IFSB",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t1.10",
+     "chapter": 1,
+     "section": "1.10",
+     "title": "Islamic Finance Passing Significant Milestones",
+     "pages": [
+      15,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ijab",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 489,
+     "topic": "t5.4.1",
+     "chapter": 5,
+     "section": "5.4.1",
+     "title": "Offer and Acceptance: Form of the Contract",
+     "pages": [
+      106,
+      108
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ijab / Qabul",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.4.1",
+     "chapter": 5,
+     "section": "5.4.1",
+     "title": "Offer and Acceptance: Form of the Contract",
+     "pages": [
+      106,
+      108
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ijarah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 489,
+     "topic": "t11.1",
+     "chapter": 11,
+     "section": "11.1",
+     "title": "Introduction: Meaning and Legitimacy of Ijarah",
+     "pages": [
+      279,
+      279
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t11.1",
+     "chapter": 11,
+     "section": "11.1",
+     "title": "Introduction: Meaning and Legitimacy of Ijarah",
+     "pages": [
+      279,
+      279
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ijarah Mosufah bil Zimmah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 489,
+     "topic": "t11.3.1",
+     "chapter": 11,
+     "section": "11.3.1",
+     "title": "Execution of an Ijarah Contract",
+     "pages": [
+      282,
+      283
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.7.2",
+     "chapter": 5,
+     "section": "5.7.2",
+     "title": "Voidable (Fasid) Contracts",
+     "pages": [
+      120,
+      123
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ijarah Muntahia-bi-Tamleek",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 489,
+     "topic": "t11.5",
+     "chapter": 11,
+     "section": "11.5",
+     "title": "Islamic Banks’ Ijarah Muntahia-bi-Tamleek (IMBT)",
+     "pages": [
+      291,
+      293
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ijarah-wal-Iqtina‘",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 489,
+     "topic": "t11.5",
+     "chapter": 11,
+     "section": "11.5",
+     "title": "Islamic Banks’ Ijarah Muntahia-bi-Tamleek (IMBT)",
+     "pages": [
+      291,
+      293
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ijma‘a",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 489,
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ijtihad",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 489,
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Imam",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 489
+    }
+   ]
+  },
+  {
+   "term": "Iman",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 489,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Investment Sukuk",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t8.8.3",
+     "chapter": 8,
+     "section": "8.8.3",
+     "title": "Investment Sukuk as Islamic Market Instruments",
+     "pages": [
+      204,
+      205
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Islamic depository receipt (IDR)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t15.2",
+     "chapter": 15,
+     "section": "15.2",
+     "title": "The Capital Market in an Islamic Framework (Box 15.1 IDRs)",
+     "pages": [
+      390,
+      391
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Islamic economics (Hasanuz Zaman)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t2.4.1",
+     "chapter": 2,
+     "section": "2.4.1",
+     "title": "Islamic Economics Defined",
+     "pages": [
+      31,
+      32
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Israf",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Ethics",
+     "page": 490,
+     "topic": "t2.5.4",
+     "chapter": 2,
+     "section": "2.5.4",
+     "title": "Restrained Individual Freedom",
+     "pages": [
+      37,
+      38
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.5",
+     "chapter": 2,
+     "section": "2.5",
+     "title": "Paraphernalia of Islamic Economics",
+     "pages": [
+      32,
+      33
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Istihsan",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 490,
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t10.11",
+     "chapter": 10,
+     "section": "10.11.1",
+     "title": "Istisna‘a (Order to Manufacture): Definition and Concept",
+     "pages": [
+      263,
+      264
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Istijar",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Leasing & services",
+     "page": 490,
+     "topic": "t11.1",
+     "chapter": 11,
+     "section": "11.1",
+     "title": "Introduction: Meaning and Legitimacy of Ijarah",
+     "pages": [
+      279,
+      279
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Istijrar",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 490,
+     "topic": "t13.5",
+     "chapter": 13,
+     "section": "13.5",
+     "title": "Bai‘ al Istijrar (Supply Contract)",
+     "pages": [
+      355,
+      355
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Istisna‘a",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 490,
+     "topic": "t10.11",
+     "chapter": 10,
+     "section": "10.11.1",
+     "title": "Istisna‘a (Order to Manufacture): Definition and Concept",
+     "pages": [
+      263,
+      264
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t10.11",
+     "chapter": 10,
+     "section": "10.11.1",
+     "title": "Istisna‘a (Order to Manufacture): Definition and Concept",
+     "pages": [
+      263,
+      264
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Jahl",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t3.2.2",
+     "chapter": 3,
+     "section": "3.2.2",
+     "title": "Prohibition of Gharar",
+     "pages": [
+      57,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Jahl / Jahala",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 490,
+     "topic": "t3.2.2",
+     "chapter": 3,
+     "section": "3.2.2",
+     "title": "Prohibition of Gharar",
+     "pages": [
+      57,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ju‘alah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 490,
+     "topic": "t13.4",
+     "chapter": 13,
+     "section": "13.4",
+     "title": "Ju‘alah",
+     "pages": [
+      351,
+      351
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t13.4",
+     "chapter": 13,
+     "section": "13.4",
+     "title": "Ju‘alah",
+     "pages": [
+      351,
+      351
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Kafalah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 490,
+     "topic": "t7.15",
+     "chapter": 7,
+     "section": "7.15",
+     "title": "Security/Guarantee (Kafalah) and Pledge (Rihn)",
+     "pages": [
+      168,
+      172
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.15",
+     "chapter": 7,
+     "section": "7.15",
+     "title": "Security/Guarantee (Kafalah) and Pledge (Rihn)",
+     "pages": [
+      168,
+      172
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khalabah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 490,
+     "topic": "t3.3.1",
+     "chapter": 3,
+     "section": "3.3.1",
+     "title": "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)",
+     "pages": [
+      64,
+      67
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.3.1",
+     "chapter": 3,
+     "section": "3.3.1",
+     "title": "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)",
+     "pages": [
+      64,
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Kharaj bil Daman",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 490,
+     "topic": "t4.2.6",
+     "chapter": 4,
+     "section": "4.2.6",
+     "title": "Entitlement to Profit — With Risk and Responsibility",
+     "pages": [
+      81,
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khatar",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 490,
+     "topic": "t16.2.1",
+     "chapter": 16,
+     "section": "16.2.1",
+     "title": "Why Conventional Insurance is Prohibited",
+     "pages": [
+      418,
+      420
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khiyar",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Options (Khiyar)",
+     "page": 490,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khiyar al ‘Aib",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Options (Khiyar)",
+     "page": 490,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khiyar al Ro’yat",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Options (Khiyar)",
+     "page": 490,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khiyar al Wasf",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Options (Khiyar)",
+     "page": 491,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khiyar al-Majlis",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Options (Khiyar)",
+     "page": 490,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khiyar al-Shart",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Options (Khiyar)",
+     "page": 491,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.4.1",
+     "chapter": 5,
+     "section": "5.4.1",
+     "title": "Offer and Acceptance: Form of the Contract",
+     "pages": [
+      106,
+      108
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khiyar-e-Ghaban",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Options (Khiyar)",
+     "page": 488,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Khiyar-e-Naqad",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Options (Khiyar)",
+     "page": 491,
+     "topic": "t6.12",
+     "chapter": 6,
+     "section": "6.12",
+     "title": "Options in Sales (Khiyar)",
+     "pages": [
+      150,
+      152
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Lazim / Ghair Lazim",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.7",
+     "chapter": 5,
+     "section": "5.7",
+     "title": "Types of Contracts: Valid Contracts (Sahih)",
+     "pages": [
+      117,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ma‘lum",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 491,
+     "topic": "t5.4.2",
+     "chapter": 5,
+     "section": "5.4.2",
+     "title": "Elements of the Subject Matter",
+     "pages": [
+      108,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ma‘qud ‘alayh",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.4",
+     "chapter": 5,
+     "section": "5.4",
+     "title": "Elements of a Contract",
+     "pages": [
+      106,
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mabi‘",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 491,
+     "topic": "t5.4.2",
+     "chapter": 5,
+     "section": "5.4.2",
+     "title": "Elements of the Subject Matter",
+     "pages": [
+      108,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mabi‘ / Thaman",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Maisir",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 491,
+     "topic": "t3.2.3",
+     "chapter": 3,
+     "section": "3.2.3",
+     "title": "Prohibition of Maisir/Qimar (Games of Chance)",
+     "pages": [
+      61,
+      64
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.2.3",
+     "chapter": 3,
+     "section": "3.2.3",
+     "title": "Prohibition of Maisir/Qimar (Games of Chance)",
+     "pages": [
+      61,
+      64
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Majlis",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.4.1",
+     "chapter": 5,
+     "section": "5.4.1",
+     "title": "Offer and Acceptance: Form of the Contract",
+     "pages": [
+      106,
+      108
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mal",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & property",
+     "page": 491,
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Māl (property)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t1.7",
+     "chapter": 1,
+     "section": "1.7",
+     "title": "Economics and Religion",
+     "pages": [
+      10,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mal-e-Mutaqawam",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & property",
+     "page": 491,
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Maqasid al-Shari’ah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t2.2.2",
+     "chapter": 2,
+     "section": "2.2.2",
+     "title": "Objectives (Maqasid) of Shari’ah",
+     "pages": [
+      22,
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Maslaha-e-Mursalah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 491,
+     "topic": "t2.2.2",
+     "chapter": 2,
+     "section": "2.2.2",
+     "title": "Objectives (Maqasid) of Shari’ah",
+     "pages": [
+      22,
+      25
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mawalat",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 491,
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mawquf",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 491,
+     "topic": "t5.7",
+     "chapter": 5,
+     "section": "5.7",
+     "title": "Types of Contracts: Valid Contracts (Sahih)",
+     "pages": [
+      117,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Milk ul‘Ain, Milk ud Dayn, Milk ul Manf‘at",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mithaq",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 491,
+     "topic": "t5.2.1",
+     "chapter": 5,
+     "section": "5.2.1",
+     "title": "Defining Related Terms: Mithaq, ‘Ahd/Wa‘dah and ‘Aqd",
+     "pages": [
+      103,
+      105
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t5.2.1",
+     "chapter": 5,
+     "section": "5.2.1",
+     "title": "Defining Related Terms: Mithaq, ‘Ahd/Wa‘dah and ‘Aqd",
+     "pages": [
+      103,
+      105
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mithlan bi-mithlin",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 491,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mithli",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & property",
+     "page": 491,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mithli / Qimi",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.2",
+     "chapter": 5,
+     "section": "5.2",
+     "title": "Mal (Wealth), Usufruct and Ownership",
+     "pages": [
+      101,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Moral hazard",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t14.3.5",
+     "chapter": 14,
+     "section": "14.3.5",
+     "title": "Operational Controls, Structural, Moral Hazard, Documentation and Legal Issues",
+     "pages": [
+      367,
+      369
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mu‘amalat",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 491,
+     "topic": "t5.5",
+     "chapter": 5,
+     "section": "5.5",
+     "title": "Broad Rules for the Validity of Mu‘amalat",
+     "pages": [
+      110,
+      114
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.2.2",
+     "chapter": 2,
+     "section": "2.2.2",
+     "title": "Objectives (Maqasid) of Shari’ah",
+     "pages": [
+      22,
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mua‘awamah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 491,
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mubah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 491,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mudarabah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 491,
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mudarib",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 491,
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Muflis",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 492,
+     "topic": "t7.13",
+     "chapter": 7,
+     "section": "7.13",
+     "title": "Penalty on Default (and Insolvency of the Debtor)",
+     "pages": [
+      165,
+      167
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.13",
+     "chapter": 7,
+     "section": "7.13",
+     "title": "Penalty on Default (and Insolvency of the Debtor)",
+     "pages": [
+      165,
+      167
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mugharasah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 492,
+     "topic": "t15.3.4",
+     "chapter": 15,
+     "section": "15.3.4",
+     "title": "Shari’ah Bases of Sukuk Issue and Disputed Structures",
+     "pages": [
+      396,
+      398
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mulamasah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 492,
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Munabadhah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 492,
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t6.7",
+     "chapter": 6,
+     "section": "6.7",
+     "title": "Gharar — A Cause of Prohibition of Sales",
+     "pages": [
+      143,
+      144
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Murabaha",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 492,
+     "topic": "t9.3",
+     "chapter": 9,
+     "section": "9.3",
+     "title": "Murabaha — a Bai‘ al Amanah (Trust Sale)",
+     "pages": [
+      215,
+      215
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Musaqah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 492,
+     "topic": "t15.3.4",
+     "chapter": 15,
+     "section": "15.3.4",
+     "title": "Shari’ah Bases of Sukuk Issue and Disputed Structures",
+     "pages": [
+      396,
+      398
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Musawamah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 492,
+     "topic": "t9.11",
+     "chapter": 9,
+     "section": "9.11",
+     "title": "Musawamah (Bargaining on Price)",
+     "pages": [
+      234,
+      234
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Musha‘a",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t8.8.2",
+     "chapter": 8,
+     "section": "8.8.2",
+     "title": "Principles Relating to Stocks (OIC Fiqh Council, 1992)",
+     "pages": [
+      203,
+      204
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t12.8",
+     "chapter": 12,
+     "section": "12.8",
+     "title": "Diminishing Musharakah (Concept)",
+     "pages": [
+      337,
+      339
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Musharakah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 492,
+     "topic": "t12.3",
+     "chapter": 12,
+     "section": "12.3",
+     "title": "Basic Rules of Musharakah",
+     "pages": [
+      312,
+      312
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mustarsal",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 492,
+     "topic": "t3.3.4",
+     "chapter": 3,
+     "section": "3.3.4",
+     "title": "Free Marketing and Fair Pricing",
+     "pages": [
+      68,
+      69
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.3.1",
+     "chapter": 3,
+     "section": "3.3.1",
+     "title": "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)",
+     "pages": [
+      64,
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Mutawarriq",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t13.3",
+     "chapter": 13,
+     "section": "13.3",
+     "title": "Tawarruq",
+     "pages": [
+      349,
+      351
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Muzara‘ah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 492,
+     "topic": "t15.3.4",
+     "chapter": 15,
+     "section": "15.3.4",
+     "title": "Shari’ah Bases of Sukuk Issue and Disputed Structures",
+     "pages": [
+      396,
+      398
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Nafiz / Mawquf",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.7",
+     "chapter": 5,
+     "section": "5.7",
+     "title": "Types of Contracts: Valid Contracts (Sahih)",
+     "pages": [
+      117,
+      120
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Najash",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 492,
+     "topic": "t3.3.1",
+     "chapter": 3,
+     "section": "3.3.1",
+     "title": "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)",
+     "pages": [
+      64,
+      67
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.3.1",
+     "chapter": 3,
+     "section": "3.3.1",
+     "title": "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)",
+     "pages": [
+      64,
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Nass",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 492,
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Nawahi",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 492,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Niyyah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Principles",
+     "page": 492,
+     "topic": "t15.3.4",
+     "chapter": 15,
+     "section": "15.3.4",
+     "title": "Shari’ah Bases of Sukuk Issue and Disputed Structures",
+     "pages": [
+      396,
+      398
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Participatory (PLS) modes",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.1",
+     "chapter": 12,
+     "section": "12.1",
+     "title": "Introduction: Participatory (PLS) Modes",
+     "pages": [
+      307,
+      308
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Positive economics",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t2.4",
+     "chapter": 2,
+     "section": "2.4",
+     "title": "Islamic Economics: What Should it be?",
+     "pages": [
+      30,
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Possessory lien",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t7.15",
+     "chapter": 7,
+     "section": "7.15",
+     "title": "Security/Guarantee (Kafalah) and Pledge (Rihn)",
+     "pages": [
+      168,
+      172
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qabul",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 492,
+     "topic": "t5.4.1",
+     "chapter": 5,
+     "section": "5.4.1",
+     "title": "Offer and Acceptance: Form of the Contract",
+     "pages": [
+      106,
+      108
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qabza (possession)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.4.2",
+     "chapter": 5,
+     "section": "5.4.2",
+     "title": "Elements of the Subject Matter",
+     "pages": [
+      108,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qard",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 492,
+     "topic": "t7.2",
+     "chapter": 7,
+     "section": "7.2",
+     "title": "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah",
+     "pages": [
+      155,
+      157
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.2",
+     "chapter": 7,
+     "section": "7.2",
+     "title": "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah",
+     "pages": [
+      155,
+      157
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qard (loan)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t3.2.1",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba: Textual Prohibition and Riba in Loans/Debts",
+     "pages": [
+      44,
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qard al Hasan",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 492,
+     "topic": "t7.2",
+     "chapter": 7,
+     "section": "7.2",
+     "title": "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah",
+     "pages": [
+      155,
+      157
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t4.2.5",
+     "chapter": 4,
+     "section": "4.2.5",
+     "title": "Valid Gains on Investment (Pre-fixed Returns and Benchmarks)",
+     "pages": [
+      78,
+      81
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qimar",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 492,
+     "topic": "t3.2.3",
+     "chapter": 3,
+     "section": "3.2.3",
+     "title": "Prohibition of Maisir/Qimar (Games of Chance)",
+     "pages": [
+      61,
+      64
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.2.3",
+     "chapter": 3,
+     "section": "3.2.3",
+     "title": "Prohibition of Maisir/Qimar (Games of Chance)",
+     "pages": [
+      61,
+      64
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t16.2.1",
+     "chapter": 16,
+     "section": "16.2.1",
+     "title": "Why Conventional Insurance is Prohibited",
+     "pages": [
+      418,
+      420
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qirad",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 493,
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qirad mithl",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 493,
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qirsh",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 493
+    }
+   ]
+  },
+  {
+   "term": "Qisas",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 493
+    }
+   ]
+  },
+  {
+   "term": "Qiyami / Qimi",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & property",
+     "page": 493,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Qiyas",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 493,
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ra’as al-mal",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t3.2.1",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba: Textual Prohibition and Riba in Loans/Debts",
+     "pages": [
+      44,
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ra’asul-mal",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & property",
+     "page": 493,
+     "topic": "t7.7",
+     "chapter": 7,
+     "section": "7.7",
+     "title": "Repayment of the Principal Only",
+     "pages": [
+      160,
+      160
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ra‘iee",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Ethics",
+     "page": 493
+    }
+   ]
+  },
+  {
+   "term": "Rabbul-mal",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 493,
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Rahn",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 493,
+     "topic": "t7.15",
+     "chapter": 7,
+     "section": "7.15",
+     "title": "Security/Guarantee (Kafalah) and Pledge (Rihn)",
+     "pages": [
+      168,
+      172
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Restricted Mudarabah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.4.2",
+     "chapter": 12,
+     "section": "12.4.2",
+     "title": "Types of Mudarabah and Conditions Regarding Business",
+     "pages": [
+      324,
+      324
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Riba",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 493,
+     "topic": "t3.2",
+     "chapter": 3,
+     "section": "3.2",
+     "title": "The Basic Prohibitions",
+     "pages": [
+      43,
+      43
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.2.1",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba: Textual Prohibition and Riba in Loans/Debts",
+     "pages": [
+      44,
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Riba (broad definition)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t3.2.1.e",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Connotation of the Term Riba",
+     "pages": [
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Riba al-Fadl",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 493,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Riba Al-Fadl",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Riba al-Nasiah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Prohibitions",
+     "page": 493,
+     "topic": "t3.2.1",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba: Textual Prohibition and Riba in Loans/Debts",
+     "pages": [
+      44,
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Riba Al-Nasiah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t3.2.1.e",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Connotation of the Term Riba",
+     "pages": [
+      52,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ribawi",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 493,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ribh al-mithl",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 493
+    }
+   ]
+  },
+  {
+   "term": "Ribh-al-mithl",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t4.2.5",
+     "chapter": 4,
+     "section": "4.2.5",
+     "title": "Valid Gains on Investment (Pre-fixed Returns and Benchmarks)",
+     "pages": [
+      78,
+      81
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Rihn",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t7.15",
+     "chapter": 7,
+     "section": "7.15",
+     "title": "Security/Guarantee (Kafalah) and Pledge (Rihn)",
+     "pages": [
+      168,
+      172
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Rukban",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Ethics",
+     "page": 493,
+     "topic": "t3.3.4",
+     "chapter": 3,
+     "section": "3.3.4",
+     "title": "Free Marketing and Fair Pricing",
+     "pages": [
+      68,
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Sa‘a",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 493
+    }
+   ]
+  },
+  {
+   "term": "Sadd al-Zarai‘",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 493,
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t6.11",
+     "chapter": 6,
+     "section": "6.11",
+     "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
+     "pages": [
+      147,
+      150
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Sahabah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 493
+    }
+   ]
+  },
+  {
+   "term": "Salaf",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 493,
+     "topic": "t7.2",
+     "chapter": 7,
+     "section": "7.2",
+     "title": "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah",
+     "pages": [
+      155,
+      157
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.2",
+     "chapter": 7,
+     "section": "7.2",
+     "title": "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah",
+     "pages": [
+      155,
+      157
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Sanadat",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Capital markets",
+     "page": 494,
+     "topic": "t15.3",
+     "chapter": 15,
+     "section": "15.3",
+     "title": "Securitisation and Sukuk: Definition and Benefits",
+     "pages": [
+      391,
+      393
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Sarf",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 494,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Sawa’an bi-sawa’in",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 493,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Securitisation",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t15.3",
+     "chapter": 15,
+     "section": "15.3",
+     "title": "Securitisation and Sukuk: Definition and Benefits",
+     "pages": [
+      391,
+      393
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shari’ah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 494,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shart-e-Jazai",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 494,
+     "topic": "t10.11.4",
+     "chapter": 10,
+     "section": "10.11.4",
+     "title": "Penalty Clause: Delay in Fulfilling Obligations (Shart-e-Jazai)",
+     "pages": [
+      266,
+      266
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t4.2.9",
+     "chapter": 4,
+     "section": "4.2.9",
+     "title": "Additional Risks Faced by Islamic Banks",
+     "pages": [
+      84,
+      85
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shirkah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 494,
+     "topic": "t12.2",
+     "chapter": 12,
+     "section": "12.2",
+     "title": "Legality, Forms and Definition of Partnership",
+     "pages": [
+      308,
+      312
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t12.2",
+     "chapter": 12,
+     "section": "12.2",
+     "title": "Legality, Forms and Definition of Partnership",
+     "pages": [
+      308,
+      312
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shirkah al ‘Inan",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.2.2",
+     "chapter": 12,
+     "section": "12.2.2",
+     "title": "Partnership by Contract (Shirkatul‘aqd) and its Kinds",
+     "pages": [
+      309,
+      312
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shirkah al-Mufawadah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.2.2",
+     "chapter": 12,
+     "section": "12.2.2",
+     "title": "Partnership by Contract (Shirkatul‘aqd) and its Kinds",
+     "pages": [
+      309,
+      312
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shirkatul Wujooh",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.2.2",
+     "chapter": 12,
+     "section": "12.2.2",
+     "title": "Partnership by Contract (Shirkatul‘aqd) and its Kinds",
+     "pages": [
+      309,
+      312
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shirkatul‘aqd",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 494,
+     "topic": "t12.2.2",
+     "chapter": 12,
+     "section": "12.2.2",
+     "title": "Partnership by Contract (Shirkatul‘aqd) and its Kinds",
+     "pages": [
+      309,
+      312
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t12.2.2",
+     "chapter": 12,
+     "section": "12.2.2",
+     "title": "Partnership by Contract (Shirkatul‘aqd) and its Kinds",
+     "pages": [
+      309,
+      312
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shirkatula‘mal",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.2.2",
+     "chapter": 12,
+     "section": "12.2.2",
+     "title": "Partnership by Contract (Shirkatul‘aqd) and its Kinds",
+     "pages": [
+      309,
+      312
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shirkatulmilk",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Partnership",
+     "page": 494,
+     "topic": "t12.2.1",
+     "chapter": 12,
+     "section": "12.2.1",
+     "title": "Partnership in Ownership (Shirkatulmilk)",
+     "pages": [
+      309,
+      309
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t12.2.1",
+     "chapter": 12,
+     "section": "12.2.1",
+     "title": "Partnership in Ownership (Shirkatulmilk)",
+     "pages": [
+      309,
+      309
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Shuf‘ah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 494
+    },
+    {
+     "source": "chapter",
+     "topic": "t3.3.5",
+     "chapter": 3,
+     "section": "3.3.5",
+     "title": "Freedom from Dharar (Detriment)",
+     "pages": [
+      69,
+      70
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Sighah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.4",
+     "chapter": 5,
+     "section": "5.4",
+     "title": "Elements of a Contract",
+     "pages": [
+      106,
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Sleeping partner",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.3.4",
+     "chapter": 12,
+     "section": "12.3.4",
+     "title": "Treatment of Profit and Loss",
+     "pages": [
+      316,
+      320
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Special purpose vehicle (SPV)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t15.3.2",
+     "chapter": 15,
+     "section": "15.3.2",
+     "title": "Special Purpose Vehicle (SPV)",
+     "pages": [
+      394,
+      395
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Suftajah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Banking",
+     "page": 494,
+     "topic": "t14.6",
+     "chapter": 14,
+     "section": "14.6",
+     "title": "Fee-based Islamic Banking Services: Underwriting, L/G, L/C",
+     "pages": [
+      384,
+      386
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t7.14",
+     "chapter": 7,
+     "section": "7.14",
+     "title": "Hawalah (Assignment of Debt)",
+     "pages": [
+      167,
+      168
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Sukuk",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Capital markets",
+     "page": 494,
+     "topic": "t15.3",
+     "chapter": 15,
+     "section": "15.3",
+     "title": "Securitisation and Sukuk: Definition and Benefits",
+     "pages": [
+      391,
+      393
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t15.3",
+     "chapter": 15,
+     "section": "15.3",
+     "title": "Securitisation and Sukuk: Definition and Benefits",
+     "pages": [
+      391,
+      393
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Sunnah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 494,
+     "topic": "t2.2.1",
+     "chapter": 2,
+     "section": "2.2.1",
+     "title": "Sources of Shari’ah Tenets",
+     "pages": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "term": "T‘aliq / Idafa / Iqtiran",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.9",
+     "chapter": 5,
+     "section": "5.9",
+     "title": "Conditional or Contingent Contracts",
+     "pages": [
+      126,
+      127
+     ]
+    }
+   ]
+  },
+  {
+   "term": "T‘azir",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t7.13",
+     "chapter": 7,
+     "section": "7.13",
+     "title": "Penalty on Default (and Insolvency of the Debtor)",
+     "pages": [
+      165,
+      167
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ta‘liq",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 494,
+     "topic": "t5.9",
+     "chapter": 5,
+     "section": "5.9",
+     "title": "Conditional or Contingent Contracts",
+     "pages": [
+      126,
+      127
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ta’mein",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 494,
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ta‘zir",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Sources & jurisprudence",
+     "page": 494
+    }
+   ]
+  },
+  {
+   "term": "Tabarru‘",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 494,
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Tabzir",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Ethics",
+     "page": 490,
+     "topic": "t2.5.4",
+     "chapter": 2,
+     "section": "2.5.4",
+     "title": "Restrained Individual Freedom",
+     "pages": [
+      37,
+      38
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Takaful",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 495,
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Talaqqi-al-Rukban",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t5.5",
+     "chapter": 5,
+     "section": "5.5",
+     "title": "Broad Rules for the Validity of Mu‘amalat",
+     "pages": [
+      110,
+      114
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Taqwa",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Ethics",
+     "page": 495,
+     "topic": "t2.2",
+     "chapter": 2,
+     "section": "2.2",
+     "title": "Islamic Shari’ah and its Branches",
+     "pages": [
+      21,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Tawarruq",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Financing modes",
+     "page": 495,
+     "topic": "t13.3",
+     "chapter": 13,
+     "section": "13.3",
+     "title": "Tawarruq",
+     "pages": [
+      349,
+      351
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t13.3",
+     "chapter": 13,
+     "section": "13.3",
+     "title": "Tawarruq",
+     "pages": [
+      349,
+      351
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Thaman",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 495,
+     "topic": "t6.5.2",
+     "chapter": 6,
+     "section": "6.5.2",
+     "title": "Prices and the Profit Margin",
+     "pages": [
+      138,
+      139
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Thaman-e-mithl",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 495
+    },
+    {
+     "source": "chapter",
+     "topic": "t2.3.1",
+     "chapter": 2,
+     "section": "2.3.1",
+     "title": "The Role of Islamic Economists",
+     "pages": [
+      27,
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ujrah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Leasing & services",
+     "page": 495,
+     "topic": "t13.4.3",
+     "chapter": 13,
+     "section": "13.4.3",
+     "title": "Execution of a Ju‘alah Contract",
+     "pages": [
+      353,
+      353
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Ujratul-mithl",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Leasing & services",
+     "page": 495,
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t4.2.5",
+     "chapter": 4,
+     "section": "4.2.5",
+     "title": "Valid Gains on Investment (Pre-fixed Returns and Benchmarks)",
+     "pages": [
+      78,
+      81
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t12.4",
+     "chapter": 12,
+     "section": "12.4",
+     "title": "The Concept and Rules of Mudarabah",
+     "pages": [
+      320,
+      323
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Underwriting loss (UWL)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t16.2.1",
+     "chapter": 16,
+     "section": "16.2.1",
+     "title": "Why Conventional Insurance is Prohibited",
+     "pages": [
+      418,
+      420
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Underwriting surplus (UWS)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t16.2.1",
+     "chapter": 16,
+     "section": "16.2.1",
+     "title": "Why Conventional Insurance is Prohibited",
+     "pages": [
+      418,
+      420
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Unrestricted Mudarabah",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t12.4.2",
+     "chapter": 12,
+     "section": "12.4.2",
+     "title": "Types of Mudarabah and Conditions Regarding Business",
+     "pages": [
+      324,
+      324
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Uqood Ghair Mu‘awadha",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 495,
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t1.8",
+     "chapter": 1,
+     "section": "1.8",
+     "title": "Islamic Principles Can Make the Difference",
+     "pages": [
+      11,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Uqood-e-Mu‘awadha",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 495,
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t1.8",
+     "chapter": 1,
+     "section": "1.8",
+     "title": "Islamic Principles Can Make the Difference",
+     "pages": [
+      11,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Variable-return Sukuk (VRS)",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t15.1",
+     "chapter": 15,
+     "section": "15.1",
+     "title": "Introduction: Growth of Sukuk",
+     "pages": [
+      389,
+      390
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Wa‘d",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 495,
+     "topic": "t5.6",
+     "chapter": 5,
+     "section": "5.6",
+     "title": "Wa‘dah (Promise) and Related Matters",
+     "pages": [
+      114,
+      116
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Wadi‘ah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Banking",
+     "page": 495,
+     "topic": "t8.5.1",
+     "chapter": 8,
+     "section": "8.5.1",
+     "title": "The Structure of Islamic Banking",
+     "pages": [
+      186,
+      188
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Wakalah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Contracts",
+     "page": 495,
+     "topic": "t13.2",
+     "chapter": 13,
+     "section": "13.2",
+     "title": "Wakalah (Agency)",
+     "pages": [
+      347,
+      349
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t13.2",
+     "chapter": 13,
+     "section": "13.2",
+     "title": "Wakalah (Agency)",
+     "pages": [
+      347,
+      349
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Wakalatul Istismar",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Banking",
+     "page": 495,
+     "topic": "t13.2.2",
+     "chapter": 13,
+     "section": "13.2.2",
+     "title": "Wakalatul Istismar (Investment Agency)",
+     "pages": [
+      349,
+      349
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t13.2.2",
+     "chapter": 13,
+     "section": "13.2.2",
+     "title": "Wakalatul Istismar (Investment Agency)",
+     "pages": [
+      349,
+      349
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Waqf",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 495,
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    },
+    {
+     "source": "chapter",
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Yadan bi-yadin",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Money & exchange",
+     "page": 495,
+     "topic": "t3.2.1.d",
+     "chapter": 3,
+     "section": "3.2.1",
+     "title": "Riba in Sale/Exchange Transactions (Riba Al-Fadl and Bai‘ al Sarf)",
+     "pages": [
+      51,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Zakah",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Takaful & social",
+     "page": 495,
+     "topic": "t2.5.2",
+     "chapter": 2,
+     "section": "2.5.2",
+     "title": "Islamic Welfare Approach",
+     "pages": [
+      34,
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Zakat",
+   "occurrences": [
+    {
+     "source": "chapter",
+     "topic": "t1.8",
+     "chapter": 1,
+     "section": "1.8",
+     "title": "Islamic Principles Can Make the Difference",
+     "pages": [
+      11,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "term": "Zulm",
+   "occurrences": [
+    {
+     "source": "glossary",
+     "category": "Ethics",
+     "page": 496,
+     "topic": "t3.3.5",
+     "chapter": 3,
+     "section": "3.3.5",
+     "title": "Freedom from Dharar (Detriment)",
+     "pages": [
+      69,
+      70
+     ]
+    }
+   ]
+  }
+ ]
+}

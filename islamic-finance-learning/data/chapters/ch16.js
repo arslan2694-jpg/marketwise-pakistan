@@ -44,7 +44,7 @@ IFL_DATA.registerChapter({
         alternative: "Seek cover through a scheme free of Riba, Gharar and gambling — Takaful.",
         takeaway: "The objection lies in insurance's contract elements, not in seeking protection itself."
       }],
-      related: ["t16.2.1", "t2.3"],
+      related: ["t16.2.1", "t3.3.3"],
       quickCheck: { q: "Which hadith does the author cite to show that precaution is consistent with Tawakkul?", options: ["‘Leave your offspring wealthy’", "‘Tie your camel first, then put your trust in Allah’", "‘Muslims are bound by their conditions’", "‘Earnings are concomitant with risk’"], answer: 1, explanation: "p. 418." }
     },
     {
@@ -65,7 +65,7 @@ IFL_DATA.registerChapter({
         { term: "Underwriting loss (UWL)", meaning: "Claims paid in excess of premiums received." },
         { term: "Qimar", meaning: "A deal in which one party's profit depends on the other's loss." }
       ],
-      related: ["t3.2", "t4.4", "t16.5"],
+      related: ["t3.2", "t4.2.3", "t16.5"],
       quickCheck: { q: "Indirect Riba in conventional insurance arises from:", options: ["Paying claims", "Investment of funds in interest-based businesses", "Agents' fees", "Policy documents"], answer: 1, explanation: "p. 419." }
     },
     {

@@ -72,7 +72,7 @@ IFL_DATA.registerChapter({
         head: ["#", "Driver"],
         rows: [["1", "Demand for Riba-free investment"], ["2", "Resurgence of Muslim cultural values"], ["3", "Active involvement of Shari’ah scholars"], ["4", "Compliant products for excess liquidity"], ["5", "Standardisation (AAOIFI, IFSB)"], ["6", "Gulf surplus funds"], ["7", "Regulatory flexibility (US, UK)"], ["8", "Conversion of sound institutions"], ["9", "High net worth investors shifting"], ["10", "Real-asset and ethical nature"]]
       },
-      related: ["t18.3.1", "t9.9"],
+      related: ["t18.3.1", "t8.5"],
       quickCheck: { q: "Which US legal change does the author link to growth of Islamic investment institutions in the USA?", options: ["Dodd–Frank", "Repeal of the Glass–Steagall Act in 1999", "Sarbanes–Oxley", "Basel II"], answer: 1, explanation: "p. 462." }
     },
     {
@@ -123,7 +123,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Structure: goods not money; diversify; subsidiaries. Regulation reasons (5) and steps (10). Tax neutrality (UK FSA). Default treatment. Charity fund rules.",
       keyPoints: ["Current-account risk should not pass to investment accounts."],
-      related: ["t17.3.8", "t9.9"],
+      related: ["t17.3.8", "t8.5.1"],
       quickCheck: { q: "Why does taxation on Islamic banks' purchases create an uneven playing field?", options: ["They pay less tax", "Their sale/lease structures incur taxes and fees on asset purchases that conventional loans avoid", "They are exempt", "Their deposits are taxed twice as interest"], answer: 1, explanation: "p. 470." }
     },
     {
@@ -148,7 +148,7 @@ IFL_DATA.registerChapter({
           ["External inspection", "SBP inspection staff use a Shari’ah audit manual; first audit outsourced to build capacity"]
         ]
       },
-      related: ["t14.appx", "t9.10"],
+      related: ["t14.appx", "t8.5"],
       quickCheck: { q: "Which Shari’ah compliance option does the author consider best?", options: ["No boards at all", "A central Shari’ah board in the jurisdiction, with a forum of bank Shari’ah advisors", "Only external CA firms", "Only majority Fatwas"], answer: 1, explanation: "p. 472." }
     },
     {

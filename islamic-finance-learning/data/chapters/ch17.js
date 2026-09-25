@@ -105,7 +105,7 @@ IFL_DATA.registerChapter({
         alternative: "Convert money into real assets: trade with mark-up, lease assets for rent, or share profit and loss.",
         takeaway: "Rent requires retained ownership and risk; loans transfer ownership of money and so earn no return."
       }],
-      related: ["t11.3", "t4.3"],
+      related: ["t11.3", "t4.2.6"],
       quickCheck: { q: "Why can money not be leased according to the chapter?", options: ["It is too liquid", "Its corpus is consumed in use and the lender does not retain ownership risk", "Governments forbid it", "Its value is fixed"], answer: 1, explanation: "pp. 437–438." }
     },
     {
@@ -123,7 +123,7 @@ IFL_DATA.registerChapter({
         alternative: "Use sale, lease or partnership where returns can reflect expected conditions; floating rentals for future periods.",
         takeaway: "Indexation of accrued loans or debts is Riba; value protection must come from real-asset investment."
       }],
-      related: ["t7.17", "t3.3"],
+      related: ["t7.17", "t4.7.4"],
       quickCheck: { q: "A borrows $100 for one year and must repay $105 after indexation. The chapter classifies this as:", options: ["Permissible compensation", "Riba", "Profit sharing", "Hibah"], answer: 1, explanation: "p. 439." }
     },
     {
@@ -141,7 +141,7 @@ IFL_DATA.registerChapter({
         alternative: "Positive time preference exists and is reflected in market prices of goods.",
         takeaway: "Time value: yes for goods, no for money and debts."
       }],
-      related: ["t4.4", "t6.5.3", "t6.8"],
+      related: ["t4.6", "t6.5.3", "t9.6.1"],
       quickCheck: { q: "Where does the chapter say time value is acceptable?", options: ["In pricing loans", "In pricing goods and usufruct in genuine sale or lease", "In late-payment charges", "Nowhere"], answer: 1, explanation: "p. 440." }
     },
     {
@@ -177,7 +177,7 @@ IFL_DATA.registerChapter({
         alternative: "Proceed with standardisation on settled principles rather than seeking Fatwas for every conventional product.",
         takeaway: "Diversity of opinion exists but does not prevent a coherent system; some products are rightly rejected."
       }],
-      related: ["t15.3.4", "t13.3", "t2.4"],
+      related: ["t15.3.4", "t13.3", "t2.2.1"],
       quickCheck: { q: "Which products does the author say do not fit Islamic banking's philosophy?", options: ["Ijarah and Salam", "Bai‘ al Dayn and Bai‘ al ‘Inah", "Musharakah", "Istisna‘a"], answer: 1, explanation: "p. 442." }
     },
     {
@@ -198,7 +198,7 @@ IFL_DATA.registerChapter({
         alternative: "Greater reliance on equity where feasible (single trade transactions, good documentation), with debt never increasing once created.",
         takeaway: "Debt modes are valid if Shari’ah essentials are met; PLS remains preferable."
       }],
-      related: ["t4.2", "t7.1", "t12.7.2"],
+      related: ["t4.3", "t9.5", "t12.7.2"],
       quickCheck: { q: "In November 1991, which court prohibited Murabaha in Pakistan due to buy-back and rollover practices?", options: ["Supreme Court (SAB)", "Federal Shariat Court", "High Court of Sindh", "SBP"], answer: 1, explanation: "p. 443; the SAB later allowed it with conditions." }
     },
     {
@@ -216,7 +216,7 @@ IFL_DATA.registerChapter({
         alternative: "Separate trading subsidiaries and regulatory firewalls.",
         takeaway: "IFIs are closer to universal/investment banks than to pure intermediaries."
       }],
-      related: ["t4.5"],
+      related: ["t4.2.7"],
       quickCheck: { q: "Which banking model does the author consider more suitable for IFIs?", options: ["Pure commercial intermediation", "Universal and investment banking", "Central banking", "Microcredit only"], answer: 1, explanation: "pp. 444–445." }
     },
     {
@@ -281,7 +281,7 @@ IFL_DATA.registerChapter({
         alternative: "Policy target of full transformation of institutions within a defined period, especially in Muslim-majority countries.",
         takeaway: "Seed capital from interest is acceptable for transition if the Islamic business is segregated and compliant."
       }],
-      related: ["t9.10", "t18.2"],
+      related: ["t8.5", "t18.2"],
       quickCheck: { q: "Which condition does the author attach to using interest income as seed capital?", options: ["It must be donated first", "Operations must be Shari’ah-compliant and totally segregated from interest-based business", "It must be below 5%", "Only in non-Muslim countries"], answer: 1, explanation: "p. 447." }
     },
     {
@@ -341,7 +341,7 @@ IFL_DATA.registerChapter({
         alternative: "Some scholars allow compensation for actual loss in negligent delay.",
         takeaway: "Penalties are a disciplinary device, not a return; the distinction between wilful and genuine default is essential."
       }],
-      related: ["t7.13", "t7.15"],
+      related: ["t7.13", "t9.9.4"],
       quickCheck: { q: "Where do late-payment penalties collected by Islamic banks go?", options: ["Bank profit", "Depositors' pool", "Charity", "Shareholders"], answer: 2, explanation: "p. 454." }
     },
     {
@@ -359,7 +359,7 @@ IFL_DATA.registerChapter({
         alternative: "—",
         takeaway: "Cash needs are met through real-asset structures."
       }],
-      related: ["t10.5", "t15.3.5.b"],
+      related: ["t10.3", "t15.3.5.b"],
       quickCheck: { q: "Which mode lets a producer obtain cash in advance for overheads?", options: ["Murabaha", "Salam", "Wadi‘ah", "Hibah"], answer: 1, explanation: "p. 455." }
     },
     {

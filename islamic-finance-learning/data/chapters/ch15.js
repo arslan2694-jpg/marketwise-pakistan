@@ -50,7 +50,7 @@ IFL_DATA.registerChapter({
       exam: "Islamic capital market = compliant stocks + funds + Sukuk (+ IDRs); no conventional debt market; debt transfer only by Hawalah at par with recourse. IDR parties and advantages.",
       keyPoints: ["Hawalah: transfer with recourse; sale: without recourse."],
       definitions: [{ term: "Islamic depository receipt (IDR)", meaning: "A depository receipt allowing Shari’ah-compliant stocks of one country to be traded in another; parties are originator, investor and custodian bank." }],
-      related: ["t8.8.5", "t15.3"],
+      related: ["t8.8.2", "t15.3"],
       quickCheck: { q: "How can a debt be transferred under Shari’ah rules?", options: ["Sold at a discount", "Assigned at par with recourse (Hawalah)", "Securitised at market price", "Not at all"], answer: 1, explanation: "p. 390." }
     },
     {
@@ -140,7 +140,7 @@ IFL_DATA.registerChapter({
         alternative: "Shafi‘is allowed debt sale only at par; the OIC Fiqh Council unanimously prohibits Bai‘ al Dayn; use genuine Ijarah (including properly executed sale and lease-back), Shirkah, Salam or Istisna‘a structures.",
         takeaway: "The majority and the author regard ‘Inah- and Bai‘ al Dayn-based Sukuk as unacceptable; Malaysia's later Ijarah Sukuk are described as a healthy development."
       }],
-      related: ["t15.3.5", "t5.5.5", "t11.5.1"],
+      related: ["t15.3.5", "t6.11", "t11.5.1"],
       quickCheck: { q: "Trading Sukuk representing debt at a discount through Bai‘ al Dayn is:", options: ["Accepted by the majority", "Rejected by the majority and unanimously by the OIC Fiqh Council", "Allowed by all Shafi‘is at any price", "Required by AAOIFI"], answer: 1, explanation: "p. 397." }
     },
     {
@@ -187,7 +187,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Salam Sukuk: not tradable (debt) except at face value; BMA aluminium example. Istisna‘a: tradable while assets; debt → par. Murabaha: receivables not negotiable; par with recourse; mixed pool >50% tangible (Hanafi 10%). Arcapita LIBOR+175.",
       keyPoints: ["Debt certificates cannot have a secondary market except at par."],
-      related: ["t10.5", "t10.10", "t15.3.6"],
+      related: ["t10.8", "t10.11", "t15.3.6"],
       quickCheck: { q: "Istisna‘a Sukuk become tradable only at face value when:", options: ["Funds are still being used to buy materials", "The item is delivered and the price is a monetary debt owed by the buyer", "They are issued", "The manufacturer is a government"], answer: 1, explanation: "pp. 404–405." }
     },
     {

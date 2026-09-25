@@ -58,7 +58,7 @@ IFL_DATA.registerChapter({
         head: ["Type", "Purpose"],
         rows: [["Wakil-bil-Kusoomah", "Disputes/cases for the principal"], ["Wakil-bil-Taqazi al Dayn", "Receiving debt"], ["Wakil-bil-Qabaza al Dayn", "Possession of debt"], ["Wakil-bil-Bai‘", "Selling"], ["Wakil-bil-Shira", "Purchasing"]]
       },
-      related: ["t13.2.1", "t13.2.2", "t7.13"],
+      related: ["t13.2.1", "t13.2.2", "t9.8.3"],
       quickCheck: { q: "Under the preferred (Shafi‘i/Hanbali) view, goods bought by an agent for the principal:", options: ["Belong first to the agent", "Pass directly from the seller to the principal", "Remain with the seller", "Must be resold"], answer: 1, explanation: "p. 348." }
     },
     {
@@ -117,7 +117,7 @@ IFL_DATA.registerChapter({
         alternative: "Use it only for unavoidable corporate liquidity needs, with strict Shari’ah board monitoring; prefer Qard al Hasan.",
         takeaway: "Legal permissibility does not justify extensive use; structure and scale both matter."
       }],
-      related: ["t13.3.1", "t7.15", "t5.5.5"],
+      related: ["t13.3.1", "t6.11", "t9.9.1"],
       quickCheck: { q: "The bank appoints the customer as its agent to buy a commodity and then to sell it to himself. The Tawarruq is:", options: ["Valid and advisable", "Invalid — interdependent transactions without bank possession or risk", "Valid only for corporates", "Required by AAOIFI"], answer: 1, explanation: "p. 350." }
     },
     {
@@ -186,7 +186,7 @@ IFL_DATA.registerChapter({
       academic: ["Independence of the two contracts is essential."],
       exam: "Parallel Ju‘alah: two independent contracts; bank as worker subcontracts unless personal performance required.",
       keyPoints: ["Like Parallel Salam/Istisna‘a: independence required."],
-      related: ["t13.4.5", "t10.4.4"],
+      related: ["t13.4.5", "t10.11.7"],
       quickCheck: { q: "When can a bank not use a Parallel Ju‘alah?", options: ["Never restricted", "When the first contract requires the bank to do the work itself", "When the reward is money", "When the customer is a corporate"], answer: 1, explanation: "p. 353." }
     },
     {
@@ -221,7 +221,7 @@ IFL_DATA.registerChapter({
       exam: "Istijrar: repeat supply sale under a master agreement; price in advance/per consignment/after deliveries; relaxation if no Gharar; Murabaha-based needs separate offer/acceptance per consignment.",
       keyPoints: ["Not a specific mode."],
       definitions: [{ term: "Bai‘ al Istijrar", meaning: "A repeat supply arrangement in which a seller delivers a commodity from time to time on agreed price and payment terms." }],
-      related: ["t7.13"],
+      related: ["t9.7"],
       quickCheck: { q: "If an Istijrar arrangement is based on Murabaha, what is needed for each consignment?", options: ["Nothing extra", "Separate offer and acceptance", "A new master agreement", "Takaful"], answer: 1, explanation: "p. 355." }
     }
   ],

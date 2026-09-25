@@ -1,0 +1,167 @@
+/* Interactive transaction diagrams. Each flow lists parties (placed on a 100×60 grid)
+   and ordered steps. Step kinds: contract, promise, cash, goods, ownership, agency, rent, risk.
+   Flows follow the procedures described in the cited topics. */
+IFL_DATA.register('diagrams', [
+  { id: "murabaha", title: "Murabaha (cost-plus sale)", topic: "t9.3", concept: "murabaha",
+    summary: "The bank buys goods, owns them and bears their risk, then sells them to the client at disclosed cost plus an agreed profit, usually on deferred payment.",
+    parties: [{ id: "client", label: "Client", x: 12, y: 30 }, { id: "bank", label: "Islamic bank", x: 50, y: 30 }, { id: "supplier", label: "Supplier", x: 88, y: 30 }],
+    steps: [
+      { from: "client", to: "bank", kind: "contract", label: "Requests goods", detail: "Client asks the bank to finance a specific lawful commodity." },
+      { from: "bank", to: "supplier", kind: "cash", label: "Bank pays cost", detail: "Bank buys the goods from a third-party supplier (not the client or its >50% affiliate)." },
+      { from: "supplier", to: "bank", kind: "goods", label: "Ownership & possession to bank", detail: "Bank acquires title and actual or constructive possession; goods are at the bank's risk." },
+      { from: "bank", to: "client", kind: "contract", label: "Murabaha sale: cost + profit", detail: "Bank discloses cost and sells at an agreed mark-up; one price fixed at contract." },
+      { from: "bank", to: "client", kind: "ownership", label: "Title and risk pass to client", detail: "Asset risk transfers to the client on execution of the sale." },
+      { from: "client", to: "bank", kind: "cash", label: "Deferred price paid", detail: "Price cannot be increased for delay; any late-payment penalty goes to charity." }
+    ],
+    rules: ["Bank must own and bear risk before selling.", "Mark-up runs from the date of sale, not disbursement.", "No rollover, no buy-back (‘Inah)."],
+    pitfalls: ["Selling goods the client already owns", "Charging from disbursement date", "Rolling over unpaid Murabaha"] },
+  { id: "mpo", title: "Murabaha to Purchase Orderer (client as agent)", topic: "t9.8.3", concept: "murabaha",
+    summary: "The client promises to buy, is appointed the bank's agent to purchase the goods, and then buys them from the bank by a separate offer and acceptance.",
+    parties: [{ id: "client", label: "Client (promisor/agent)", x: 15, y: 18 }, { id: "bank", label: "Islamic bank", x: 50, y: 45 }, { id: "supplier", label: "Supplier", x: 85, y: 18 }],
+    steps: [
+      { from: "client", to: "bank", kind: "promise", label: "Master agreement & promise to buy", detail: "MoU/master Murabaha facility; client's unilateral binding promise; Hamish Jiddiyah may be taken." },
+      { from: "bank", to: "client", kind: "agency", label: "Agency agreement", detail: "Separate agency appointing the client to buy the goods on the bank's behalf — signed before purchase." },
+      { from: "client", to: "supplier", kind: "contract", label: "Agent buys for the bank", detail: "Client, as agent, purchases goods per specifications in the bank's name." },
+      { from: "bank", to: "supplier", kind: "cash", label: "Bank pays supplier directly", detail: "Direct payment reduces the risk of misuse of funds." },
+      { from: "supplier", to: "client", kind: "goods", label: "Delivery to agent (bank's risk)", detail: "Goods held by the agent are at the bank's risk until sale." },
+      { from: "client", to: "bank", kind: "contract", label: "Offer to buy / bank accepts", detail: "Murabaha concluded by separate offer and acceptance; goods must still exist." },
+      { from: "client", to: "bank", kind: "cash", label: "Deferred instalments", detail: "Fixed price paid as scheduled; no rollover, discount by stipulation or rebate by condition." }
+    ],
+    rules: ["Agency must precede purchase.", "Goods must exist (not consumed) at offer.", "Invoice date not earlier than agency, not later than offer."],
+    pitfalls: ["Client already bought goods before agency", "Using goods in production before offer"] },
+  { id: "salam", title: "Salam (forward sale, full prepayment)", topic: "t10.10", concept: "salam",
+    summary: "The bank pays the full price in advance for specified goods to be delivered later, then disposes of them by market sale, promise, agency or Parallel Salam.",
+    parties: [{ id: "seller", label: "Producer (Salam seller)", x: 15, y: 30 }, { id: "bank", label: "Islamic bank (buyer)", x: 50, y: 30 }, { id: "buyer", label: "Final buyer", x: 85, y: 30 }],
+    steps: [
+      { from: "bank", to: "seller", kind: "contract", label: "Salam contract", detail: "Quantity, quality, delivery date and place fully specified." },
+      { from: "bank", to: "seller", kind: "cash", label: "Full price paid in advance", detail: "Salam capital must be paid at the contract session." },
+      { from: "buyer", to: "bank", kind: "promise", label: "Promise to buy (optional)", detail: "Third party promises to buy at an agreed price, possibly with Hamish Jiddiyah (Box 10.4)." },
+      { from: "seller", to: "bank", kind: "goods", label: "Delivery on due date", detail: "Bank takes delivery and bears the goods' risk." },
+      { from: "bank", to: "buyer", kind: "contract", label: "Bank sells the goods", detail: "Spot/credit sale, execution of promise, or sale through the seller as agent." }
+    ],
+    rules: ["Only fungible, specifiable goods; not currencies or gold/silver against money.", "Full prepayment.", "Goods cannot be resold before possession (except via Parallel Salam)."],
+    pitfalls: ["Deferring payment of the Salam price", "Salam in an identified field's produce"] },
+  { id: "parallel-salam", title: "Parallel Salam", topic: "t10.6", concept: "salam",
+    summary: "The bank sells goods of the same description forward to a third party in a separate Salam, independent of its first Salam purchase.",
+    parties: [{ id: "seller", label: "Producer", x: 12, y: 30 }, { id: "bank", label: "Islamic bank", x: 50, y: 30 }, { id: "buyer", label: "Third-party buyer", x: 88, y: 30 }],
+    steps: [
+      { from: "bank", to: "seller", kind: "contract", label: "Salam 1: bank buys", detail: "Bank pays the producer in advance for delivery on date D1." },
+      { from: "buyer", to: "bank", kind: "contract", label: "Salam 2: bank sells", detail: "Separate Salam: buyer prepays the bank for goods of the same description on date D2." },
+      { from: "buyer", to: "bank", kind: "cash", label: "Buyer prepays bank", detail: "Contracts are independent — Salam 2 cannot be conditional on Salam 1." },
+      { from: "seller", to: "bank", kind: "goods", label: "Producer delivers", detail: "If the producer fails, the bank must still deliver under Salam 2." },
+      { from: "bank", to: "buyer", kind: "goods", label: "Bank delivers", detail: "Bank's margin = Salam 2 price − Salam 1 price." }
+    ],
+    rules: ["Second contract must be independent and enforceable on its own.", "The bank remains liable to its buyer whatever happens to the first contract."],
+    pitfalls: ["Making Salam 2 conditional on Salam 1"] },
+  { id: "istisna", title: "Istisna‘a (order to manufacture)", topic: "t10.11", concept: "istisna",
+    summary: "A manufacturer undertakes to make an asset to specification for a fixed price that may be paid in advance, in instalments or on deferred terms.",
+    parties: [{ id: "buyer", label: "Buyer (Mustasni‘)", x: 20, y: 30 }, { id: "maker", label: "Manufacturer (Sani‘)", x: 80, y: 30 }],
+    steps: [
+      { from: "buyer", to: "maker", kind: "contract", label: "Istisna‘a order", detail: "Specifications, price and delivery time fixed." },
+      { from: "buyer", to: "maker", kind: "cash", label: "Price: advance, instalments or deferred", detail: "Flexible payment — unlike Salam." },
+      { from: "maker", to: "maker", kind: "risk", label: "Manufacture with own materials", detail: "Manufacturer bears risk until delivery; Shart-e-Jazai may reduce price for delay." },
+      { from: "maker", to: "buyer", kind: "goods", label: "Delivery; ownership passes", detail: "Buyer may reject non-conforming goods." }
+    ],
+    rules: ["Only for things that are manufactured or constructed.", "Price and specifications fixed.", "Revocable until work starts, binding thereafter (OIC, majority)."],
+    pitfalls: ["Using Istisna‘a for natural produce (use Salam)"] },
+  { id: "parallel-istisna", title: "Parallel Istisna‘a (bank as builder)", topic: "t10.11.7", concept: "istisna",
+    summary: "The bank contracts to deliver an asset to a customer and subcontracts manufacture to a contractor through an independent second Istisna‘a.",
+    parties: [{ id: "customer", label: "Customer", x: 12, y: 30 }, { id: "bank", label: "Islamic bank", x: 50, y: 30 }, { id: "contractor", label: "Contractor", x: 88, y: 30 }],
+    steps: [
+      { from: "customer", to: "bank", kind: "contract", label: "Istisna‘a 1: bank will deliver", detail: "Bank sells the asset to the customer at a price, often deferred in instalments." },
+      { from: "bank", to: "contractor", kind: "contract", label: "Istisna‘a 2: bank orders", detail: "Independent contract with the contractor at a lower price, paid as work progresses." },
+      { from: "bank", to: "contractor", kind: "cash", label: "Progress payments", detail: "Bank finances construction." },
+      { from: "contractor", to: "bank", kind: "goods", label: "Asset delivered to bank", detail: "Bank bears risk until handing over." },
+      { from: "bank", to: "customer", kind: "goods", label: "Asset delivered to customer", detail: "Bank remains liable to customer for specifications." },
+      { from: "customer", to: "bank", kind: "cash", label: "Customer pays instalments", detail: "Bank's margin = customer price − contractor price." }
+    ],
+    rules: ["Contracts independent.", "Bank liable to customer even if contractor fails."], pitfalls: ["Linking the two contracts' obligations"] },
+  { id: "ijarah", title: "Ijarah (operating lease)", topic: "t11.3", concept: "ijarah",
+    summary: "The bank owns an asset and leases its usufruct for rent; ownership risk and major costs stay with the bank.",
+    parties: [{ id: "supplier", label: "Supplier", x: 12, y: 30 }, { id: "bank", label: "Islamic bank (lessor)", x: 50, y: 30 }, { id: "lessee", label: "Client (lessee)", x: 88, y: 30 }],
+    steps: [
+      { from: "bank", to: "supplier", kind: "cash", label: "Bank buys asset", detail: "Bank acquires ownership (possibly through the client as agent)." },
+      { from: "supplier", to: "bank", kind: "ownership", label: "Ownership with bank", detail: "Title in the bank's name or a counter deed." },
+      { from: "bank", to: "lessee", kind: "contract", label: "Ijarah contract", detail: "Asset, period and rent defined; first-period rent fixed, later benchmarked with cap/floor." },
+      { from: "bank", to: "lessee", kind: "goods", label: "Usable asset delivered", detail: "Rent accrues only from usable delivery." },
+      { from: "lessee", to: "bank", kind: "rent", label: "Periodic rent", detail: "Late rent: charity undertaking, not extra rent." },
+      { from: "bank", to: "bank", kind: "risk", label: "Lessor bears ownership risk", detail: "Major repairs, Takaful, loss without lessee fault; lessee bears usage costs." }
+    ],
+    rules: ["Only non-consumable assets.", "No rent before delivery.", "On destruction without lessee fault, rent stops."],
+    pitfalls: ["Charging remaining-period rent on early termination", "Shifting all risk to the lessee"] },
+  { id: "imbt", title: "Ijarah Muntahia-bi-Tamleek", topic: "t11.5.1", concept: "imbt",
+    summary: "An Ijarah combined with a separate unilateral promise to transfer ownership at the end by sale or gift.",
+    parties: [{ id: "bank", label: "Islamic bank (lessor)", x: 25, y: 30 }, { id: "lessee", label: "Client (lessee)", x: 75, y: 30 }],
+    steps: [
+      { from: "lessee", to: "bank", kind: "promise", label: "Undertaking to lease + HJ", detail: "MoU and security deposit before the bank buys." },
+      { from: "bank", to: "lessee", kind: "contract", label: "Ijarah executed", detail: "Formal lease once the bank owns the usable asset." },
+      { from: "lessee", to: "bank", kind: "rent", label: "Rentals over the term", detail: "Rent can reflect cost; bank bears ownership risk and Takaful." },
+      { from: "bank", to: "lessee", kind: "promise", label: "Separate promise to sell/gift", detail: "Unilateral promise binding only on the promisor (AAOIFI methods: token price, remaining amount, market value, gift)." },
+      { from: "bank", to: "lessee", kind: "ownership", label: "Separate sale/gift deed", detail: "Ownership transfers by a separate contract at the end." }
+    ],
+    rules: ["Lease and transfer kept separate.", "Sale and lease-back only exceptionally, with a time gap (~1 year)."],
+    pitfalls: ["Automatic transfer written into the lease", "Rent continuing after theft/destruction"] },
+  { id: "musharakah", title: "Musharakah", topic: "t12.3.4", concept: "musharakah",
+    summary: "Bank and client pool capital in a venture; profit is shared as agreed, loss strictly by capital contribution.",
+    parties: [{ id: "bank", label: "Islamic bank (partner)", x: 20, y: 15 }, { id: "client", label: "Client (partner)", x: 80, y: 15 }, { id: "venture", label: "Joint venture", x: 50, y: 48 }],
+    steps: [
+      { from: "bank", to: "venture", kind: "cash", label: "Bank contributes capital", detail: "Capital commingled; appreciation belongs to all partners pro rata." },
+      { from: "client", to: "venture", kind: "cash", label: "Client contributes capital", detail: "Client usually manages; may get a larger profit share for work." },
+      { from: "venture", to: "venture", kind: "risk", label: "Business operates", detail: "Partners are mutual agents and trustees; no guarantee of capital or profit." },
+      { from: "venture", to: "bank", kind: "cash", label: "Profit by agreed ratio", detail: "Loss by capital ratio; drawings adjusted at final settlement." },
+      { from: "venture", to: "client", kind: "cash", label: "Profit by agreed ratio", detail: "A declared sleeping partner cannot exceed his capital ratio (Hanafi view)." }
+    ],
+    rules: ["Profit as agreed, loss by capital.", "No lump-sum or %-of-capital profit.", "Security only against negligence."],
+    pitfalls: ["Guaranteeing the bank's capital", "Buy-out at face value"] },
+  { id: "mudarabah", title: "Mudarabah", topic: "t12.4", concept: "mudarabah",
+    summary: "The Rabbul-mal provides capital, the Mudarib manages; profit shared as agreed, financial loss borne by the capital owner.",
+    parties: [{ id: "rabb", label: "Rabbul-mal (investor)", x: 18, y: 30 }, { id: "mudarib", label: "Mudarib (manager)", x: 55, y: 30 }, { id: "business", label: "Business", x: 88, y: 30 }],
+    steps: [
+      { from: "rabb", to: "mudarib", kind: "cash", label: "Capital provided", detail: "Money or assets valued in money — not a debt owed by the Mudarib." },
+      { from: "mudarib", to: "business", kind: "agency", label: "Mudarib manages", detail: "Restricted or unrestricted; Mudarib is a trustee liable only for negligence/breach." },
+      { from: "business", to: "mudarib", kind: "cash", label: "Profit realised", detail: "Profit exists only after capital is kept intact." },
+      { from: "mudarib", to: "rabb", kind: "cash", label: "Capital + agreed profit share", detail: "Loss (erosion of capital) is borne by the Rabbul-mal; the Mudarib loses his effort." }
+    ],
+    rules: ["No salary for the Mudarib beyond his share.", "Void Mudarabah → Ujratul-mithl only."],
+    pitfalls: ["Converting a debt into Mudarabah capital", "Guaranteeing the investor's capital"] },
+  { id: "dm", title: "Diminishing Musharakah (housing)", topic: "t12.9.2", concept: "diminishing-musharakah",
+    summary: "Bank and client co-own a house; the client rents the bank's share and buys its units over time, so rent falls.",
+    parties: [{ id: "bank", label: "Islamic bank", x: 20, y: 30 }, { id: "house", label: "House (joint ownership)", x: 50, y: 50 }, { id: "client", label: "Client", x: 80, y: 30 }],
+    steps: [
+      { from: "bank", to: "house", kind: "cash", label: "Bank funds its share (e.g. 80%)", detail: "Musharakah agreement creating joint ownership (Shirkatulmilk)." },
+      { from: "client", to: "house", kind: "cash", label: "Client funds its share (e.g. 20%)", detail: "Both parties bear ownership costs pro rata." },
+      { from: "bank", to: "client", kind: "contract", label: "Lease of bank's share", detail: "Rent agreement under Ijarah rules." },
+      { from: "client", to: "bank", kind: "promise", label: "Undertaking to buy units", detail: "Unilateral promise; pre-agreed price schedule allowed in Shirkatulmilk." },
+      { from: "client", to: "bank", kind: "rent", label: "Monthly: rent + one unit", detail: "Box 12.5: 6,666.67 unit + rent on outstanding units (4,666.67 in month 1)." },
+      { from: "bank", to: "client", kind: "ownership", label: "Title transfers after last unit", detail: "Each unit sold by separate offer and acceptance." }
+    ],
+    rules: ["Three separate, independently enforceable contracts.", "In Shirkatul‘aqd DM, units at market value only."],
+    pitfalls: ["Making the contracts conditional on each other", "Renting a non-leasable asset (open plot)"] },
+  { id: "sukuk", title: "Ijarah Sukuk (sale and lease-back)", topic: "t15.3.5.b", concept: "sukuk",
+    summary: "An SPV buys an asset from the originator, issues certificates to investors, leases the asset back and passes rent to holders; the originator repurchases at maturity.",
+    parties: [{ id: "originator", label: "Originator / government", x: 12, y: 30 }, { id: "spv", label: "SPV (issuer/trustee)", x: 50, y: 30 }, { id: "investors", label: "Sukuk holders", x: 88, y: 30 }],
+    steps: [
+      { from: "investors", to: "spv", kind: "cash", label: "Subscription proceeds", detail: "Investors buy certificates of undivided ownership." },
+      { from: "spv", to: "originator", kind: "cash", label: "SPV buys asset (true sale)", detail: "E.g. M-2 motorway land in Pakistan's 2005 Sukuk." },
+      { from: "originator", to: "spv", kind: "ownership", label: "Ownership to SPV", detail: "Segregated, bankruptcy-remote." },
+      { from: "spv", to: "originator", kind: "contract", label: "Lease back", detail: "Rent benchmarked (e.g. 6-month LIBOR + 220 bps)." },
+      { from: "originator", to: "spv", kind: "rent", label: "Periodic rent", detail: "Holders bear ownership risk; returns quasi-fixed." },
+      { from: "spv", to: "investors", kind: "cash", label: "Distributions", detail: "Tradable at market price because they represent assets." },
+      { from: "originator", to: "spv", kind: "cash", label: "Repurchase at maturity", detail: "Under a separate undertaking; proceeds redeem the Sukuk." }
+    ],
+    rules: ["Sukuk must represent real ownership, not only rent.", "Issuer may not guarantee capital or fixed profit."],
+    pitfalls: ["‘Inah-based structures", "Discounted trading of debt Sukuk"] },
+  { id: "takaful", title: "Takaful (Wakalah–Waqf model)", topic: "t16.4.1", concept: "takaful",
+    summary: "Participants donate to a Waqf fund managed by an operator for a fee; claims are paid from the fund and surplus belongs to participants.",
+    parties: [{ id: "participants", label: "Participants", x: 15, y: 30 }, { id: "fund", label: "Waqf / Takaful fund", x: 50, y: 30 }, { id: "operator", label: "Takaful operator", x: 85, y: 30 }],
+    steps: [
+      { from: "operator", to: "fund", kind: "cash", label: "Shareholders' initial Waqf donation", detail: "Creates the Waqf fund." },
+      { from: "participants", to: "fund", kind: "cash", label: "Contributions (Tabarru‘)", detail: "Donation to the fund for mutual help." },
+      { from: "fund", to: "operator", kind: "cash", label: "Wakalah fee (25–30%)", detail: "Operator bears management expenses from its fee (Box 16.1 example)." },
+      { from: "operator", to: "fund", kind: "agency", label: "Invests fund (Mudarabah 40:60)", detail: "Operator shares investment profit as Mudarib." },
+      { from: "fund", to: "participants", kind: "cash", label: "Claims paid", detail: "Losses of the few covered by the many." },
+      { from: "fund", to: "participants", kind: "cash", label: "Underwriting surplus", detail: "Belongs to participants; deficits covered by Qard al Hasan from shareholders." }
+    ],
+    rules: ["Operator should not take UWS as a risk-taker.", "Only Shari’ah-compliant investments."],
+    pitfalls: ["Operator sharing surplus but not deficit"] }
+]);

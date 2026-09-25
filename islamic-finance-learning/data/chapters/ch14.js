@@ -50,7 +50,7 @@ IFL_DATA.registerChapter({
       academic: ["Regulatory frameworks differ by country."],
       exam: "Funds: equity, deposits, interbank, central bank. Bases: Mudarabah, Wakalatul Istismar; current accounts = Qard (no return).",
       keyPoints: ["Current accounts are loans."],
-      related: ["t14.3.1", "t8.8.1"],
+      related: ["t14.3.1", "t8.5.2"],
       quickCheck: { q: "Current accounts in Islamic banks are normally treated as:", options: ["Mudarabah", "Loans with no return", "Musharakah", "Wakalah with fee"], answer: 1, explanation: "p. 359." }
     },
     {
@@ -64,7 +64,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Pools: general, refinance, treasury, equity, specific. Audit: ratios/weightages disclosed (tenor-based), daily product, no fixed return, approved documents, fiduciary role, bank-own funds allocation, donation not pre-agreed.",
       keyPoints: ["Size-based weightages: permissible with disclosure but discouraged."],
-      related: ["t12.7.1", "t8.8.2"],
+      related: ["t12.7.1", "t8.5.2"],
       quickCheck: { q: "An Islamic bank tells a corporate depositor it will receive a guaranteed 8%. A Shari’ah auditor should:", options: ["Approve it", "Object — no fixed return may be assured; projected rates must adjust to actual pool results", "Ignore it", "Require 9%"], answer: 1, explanation: "pp. 359–360." }
     },
     {
@@ -96,7 +96,7 @@ IFL_DATA.registerChapter({
         ]
       },
       examples: [{ title: "Box 14.2 — Salam and Murabaha combined", kind: "textbook", text: "The bank buys cotton from growers on Salam, obtains a textile mill's promise to buy, appoints the mill as agent to take delivery, then sells the cotton to the mill on Murabaha at the agreed price (p. 362)." }],
-      related: ["t10.5", "t7.1", "t11.5", "t12.9"],
+      related: ["t10.10", "t9.8", "t11.5", "t12.9"],
       quickCheck: { q: "According to Box 14.1, in which mode is late payment described as ‘controllable’?", options: ["Murabaha", "Salam", "Ijarah", "None"], answer: 2, explanation: "Ijarah (and DM, Istisna‘a) — p. 361–362." }
     },
     {
@@ -107,7 +107,7 @@ IFL_DATA.registerChapter({
       academic: ["The conventional approach is imprudent even by conventional rules but may work individually; Islamic banks lack the rollover and penalty-interest safety valve."],
       exam: "Tenor must match customer cash flow because Islamic banks cannot charge liquidated damages/rollover mark-up on default.",
       keyPoints: ["No rollover of Murabaha."],
-      related: ["t14.3.4", "t7.15"],
+      related: ["t14.3.4", "t9.9.6"],
       quickCheck: { q: "Why must Islamic banks align tenor with customers' cash flows?", options: ["Regulators demand it", "They cannot claim liquidated damages for cost of funds on default", "Customers prefer short tenors", "It lowers taxes"], answer: 1, explanation: "p. 363." }
     },
     {
@@ -144,7 +144,7 @@ IFL_DATA.registerChapter({
           ["9", "DP notes after sale; before sale only for principal"]
         ]
       },
-      related: ["t14.appx", "t7.13", "t11.6", "t8.8.5"],
+      related: ["t14.appx", "t9.10", "t11.6", "t8.8.1"],
       quickCheck: { q: "From when should Murabaha mark-up be charged?", options: ["From disbursement to the supplier", "From the date the bank sells the goods to the client", "From signing the MoU", "From application date"], answer: 1, explanation: "p. 365, control 7." }
     },
     {
@@ -178,7 +178,7 @@ IFL_DATA.registerChapter({
       exam: "Working capital: Murabaha (raw material); Murabaha + Istisna‘a + Wakalah (processing/overheads, export); running Musharakah (daily product; gross-profit sharing); Salam + agency (sugar, fertiliser, cement).",
       keyPoints: ["In Salam-agency, price risk stays with the bank."],
       steps: ["Murabaha for raw material", "Istisna‘a for manufacture and overheads", "Goods become the bank's on manufacture", "Exporter acts as bank's agent to export", "Bank recovers Istisna‘a price and profit from proceeds; client pays Murabaha price"],
-      related: ["t10.5", "t12.7.2"],
+      related: ["t10.10", "t12.7.2"],
       quickCheck: { q: "In the sugar-mill Salam with agency, if the market price falls below the agreed price, who bears the loss?", options: ["The mill", "The bank", "The government", "Shared equally"], answer: 1, explanation: "p. 370." }
     },
     {
@@ -195,7 +195,7 @@ IFL_DATA.registerChapter({
       exam: "Alternatives to discounting: interest-free loan + collection fee; Musawamah on bill (Rs.57.60 example); outright purchase of export goods with L/C assignment. Import Murabaha variants: Musawamah, sub-Murabaha, PAD, TR, shipping guarantee (cost adjustable, profit not).",
       keyPoints: ["Service charges amount-related, not time-related.", "In shipping-guarantee Murabaha, only the cost portion may be adjusted later."],
       examples: [{ title: "Musawamah alternative to bill discounting", kind: "textbook", text: "1 Jan 2007: exporter's US$100,000 bill due 25 Feb; spot Rs.57.75; bank quotes Rs.57.60 and funds Rs.5,760,000 as agent for raw materials; client declares possession and offers to buy the stock for US$100,000 payable 25 Feb; on receipt of the remittance, the bank debits US$100,000 (pp. 371)." }],
-      related: ["t12.7.2", "t7.13"],
+      related: ["t12.7.2", "t9.8.3"],
       quickCheck: { q: "In the import Murabaha under a shipping guarantee, if the final cost differs from the estimate, what may be adjusted?", options: ["Both cost and profit", "Only the cost portion", "Only profit", "Nothing"], answer: 1, explanation: "p. 373." }
     },
     {
@@ -206,7 +206,7 @@ IFL_DATA.registerChapter({
       academic: ["Sukuk holders are Musharakah partners proportionate to their ownership and assume pool rights and obligations."],
       exam: "Project: Musharakah + Istisna‘a + agency + rent + unit sale (cement plant); syndicate: promise to lease + Istisna‘a + agency + Ijarah (oil terminal); Sukuk pools >50% tangible (Hanafi >10%).",
       keyPoints: ["Ijarah alone is unsuitable for construction stage."],
-      related: ["t10.10", "t15.3.6"],
+      related: ["t10.11.10", "t15.3.6"],
       quickCheck: { q: "Under the majority view, a securitised pool can trade at any price if Ijarah/fixed assets exceed:", options: ["10%", "33%", "50%", "90%"], answer: 2, explanation: "p. 374 (Hanafi: 10%)." }
     },
     {
@@ -233,7 +233,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "FX rules: possession before parting; equality in same currency; spot T+2 at deal rate; set-off at agreed rate; forward cover = unilateral promise, genuine need documented, no fee, earnest money for actual loss.",
       keyPoints: ["Currency dealers cannot get forward cover (speculation).", "No bilateral binding promise."],
-      related: ["t3.3", "t4.7", "t6.9"],
+      related: ["t3.2.1.d", "t4.7.2", "t8.8.7"],
       quickCheck: { q: "Which forward currency cover is permissible per contemporary scholars cited in the chapter?", options: ["A bilateral binding forward sale", "A unilateral promise for a documented genuine trade need, without a cover fee", "Any forward for speculation", "A forward with a premium fee"], answer: 1, explanation: "p. 377." }
     },
     {
@@ -244,7 +244,7 @@ IFL_DATA.registerChapter({
       academic: ["The pool profit = gross income less provisions plus recoveries and reversals; excess over quarterly provisional payments is deposited within seven days in the non-remunerative Takaful fund; shortfalls refunded from it; in loss, the Islamic bank may reclaim provisional profit paid plus SBP's share of principal loss."],
       exam: "IERS: Musharakah pool (≥10 blue chips); SBP shares profit on daily product; excess over EFS → Takaful fund; losses by investment share (SBP's from Takaful fund first).",
       keyPoints: ["Takaful fund = risk-mitigation reserve."],
-      related: ["t14.3.1", "t9.10"],
+      related: ["t14.3.1", "t12.7.1"],
       quickCheck: { q: "Under the IERS, profit to SBP above conventional EFS rates is credited to:", options: ["SBP's income", "A Takaful fund reserve", "The exporter", "Charity"], answer: 1, explanation: "p. 378." }
     },
     {
@@ -274,7 +274,7 @@ IFL_DATA.registerChapter({
           ["AmBank Al-Taslif", "Bai‘ al ‘Inah", "Buy-back — questionable"]
         ]
       },
-      related: ["t13.3", "t5.5.5"],
+      related: ["t13.3", "t6.11"],
       quickCheck: { q: "Per the OIC Fiqh Council, a card with an interest condition is impermissible even if:", options: ["The fee is fixed", "The holder intends to pay within the free period", "The merchant pays commission", "It is a debit card"], answer: 1, explanation: "p. 380." }
     },
     {
@@ -304,7 +304,7 @@ IFL_DATA.registerChapter({
         { number: "14.6.2", title: "Letters of Guarantee (L/G)", page: 384, points: ["Fees generally not allowed for guarantee itself", "Some allow service/expense fees", "Called guarantee: principal only"] },
         { number: "14.6.3", title: "Letters of Credit (L/C)", page: 385, points: ["Service with non-time fees", "Murabaha or Musharakah L/C", "Correspondent safeguards", "Suftajah"] }
       ],
-      related: ["t12.6", "t5.7.3"],
+      related: ["t12.6", "t7.15"],
       quickCheck: { q: "Under the OIC Fiqh Academy resolution, an underwriter may be paid for:", options: ["The commitment to take up unsubscribed shares", "Services other than underwriting, such as studies or marketing", "Buying shares below par", "Guaranteeing profits"], answer: 1, explanation: "p. 384." }
     },
     {

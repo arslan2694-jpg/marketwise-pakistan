@@ -233,7 +233,7 @@ IFL_DATA.registerChapter({
         { title: "Loss split", kind: "practice", text: "A invests 600,000 and B 400,000; profit ratio 50:50. If the venture loses 100,000, A bears 60,000 and B 40,000 — the profit ratio is irrelevant to loss. (Practice example — generated for learning.)" }
       ],
       confusions: [{ wrong: "Loss can be shared in the same ratio as profit if partners agree.", right: "Loss must follow the capital ratio; only profit follows agreement." }],
-      related: ["t12.4.4", "t8.8.2"],
+      related: ["t12.4.4", "t8.5.2"],
       quickCheck: { q: "A and B invest 70:30 and agree to share profit 50:50. The venture makes a loss of 10,000. B bears:", options: ["5,000", "3,000", "7,000", "Nothing"], answer: 1, explanation: "Loss follows capital: 30% × 10,000 = 3,000 (p. 317)." }
     },
     {
@@ -248,7 +248,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Partners = trustees; liable only for breach, misconduct, negligence; no guarantee of capital/profit by co-partner; security for negligence allowed; independent third-party guarantee allowed on four conditions (≤50% links both ways, not a condition, no fee).",
       keyPoints: ["Three forms of negligence.", "Third-party guarantee is a promise, not a condition of the Shirkah."],
-      related: ["t12.4", "t5.7.3"],
+      related: ["t12.4", "t7.15"],
       quickCheck: { q: "Which condition applies to a third-party guarantee of Musharakah capital?", options: ["The guarantor must own over 50% of the venture", "The guarantee must be paid for", "The Shirkah contract must not be conditional on it", "Only a partner can give it"], answer: 2, explanation: "p. 318 (AAOIFI)." }
     },
     {
@@ -292,7 +292,7 @@ IFL_DATA.registerChapter({
         { term: "Mudarib", meaning: "The working partner/manager in Mudarabah, a trustee entitled to an agreed share of profit." },
         { term: "Ujratul-mithl", meaning: "Fair (market) wage paid to a Mudarib when the Mudarabah contract becomes invalid." }
       ],
-      related: ["t12.4.1", "t12.5", "t8.8.2"],
+      related: ["t12.4.1", "t12.5", "t8.5.2"],
       quickCheck: { q: "If a Mudarabah contract becomes invalid, the Mudarib is entitled to:", options: ["His agreed profit share", "A fair wage (Ujratul-mithl) only", "All the profit", "Nothing at all"], answer: 1, explanation: "p. 321." }
     },
     {
@@ -312,7 +312,7 @@ IFL_DATA.registerChapter({
       examples: [
         { title: "Bank investing in its own Mudarabah pool", kind: "textbook", text: "Depositors $2,000, bank $1,000, 50:50 ratio, profit $300: bank receives $100 for its capital plus $100 as Mudarib; depositors receive $100 (pp. 323–324)." }
       ],
-      related: ["t12.7.1", "t8.8.2"],
+      related: ["t12.7.1", "t8.5.2"],
       quickCheck: { q: "Why is converting a debt into Mudarabah capital prohibited?", options: ["Debts are too small", "It could disguise a usurious loan earning a return", "Debts cannot be valued", "The Mudarib would lose"], answer: 1, explanation: "p. 323." }
     },
     {
@@ -375,7 +375,7 @@ IFL_DATA.registerChapter({
       exam: "Profit ratio agreed at contract, no lump sum; loss = capital erosion, borne by financier; profit only after capital intact; distribution on actual/constructive liquidation; reserves allowed; no salary for Mudarib (except limited expenses); separate fee agreement allowed.",
       keyPoints: ["Capital must be kept whole before profit exists.", "Profit ceiling arrangements allowed."],
       confusions: [{ wrong: "A Mudarib earns a salary plus a share of profit.", right: "He earns only his agreed share; any extra-customary job needs a separate, independent agreement." }],
-      related: ["t12.3.4", "t8.8.2"],
+      related: ["t12.3.4", "t8.5.2"],
       quickCheck: { q: "A Mudarabah earns 30,000 on one deal and loses 20,000 on another in the same period. What is distributable profit?", options: ["30,000", "10,000", "50,000", "None"], answer: 1, explanation: "Profits first offset losses; the remainder is shared (pp. 326–327)." }
     },
     {
@@ -447,7 +447,7 @@ IFL_DATA.registerChapter({
         "Underwriting commitment itself is not a paid service.",
         "Links to Chapter 8 screening rules."
       ],
-      related: ["t8.8.5", "t15.3.6"],
+      related: ["t8.8.2", "t15.3.6"],
       quickCheck: { q: "A company's assets are still entirely cash just after its IPO. Its shares can be traded:", options: ["At any price", "Only at face value", "Not at all", "At a discount only"], answer: 1, explanation: "Trading liquid money at a different price would be Riba (p. 330)." }
     },
     {
@@ -477,7 +477,7 @@ IFL_DATA.registerChapter({
       ],
       exam: "Depositors = Rabbul-mal, bank = Mudarib; pool; direct expenses to pool, HQ expenses to bank; weightages disclosed (tenor-based); bank equity at start = Musharakah; loss borne by pool by investment ratio; disclosure essential.",
       keyPoints: ["Weightages change only at start of a period.", "Loss → bank earns nothing as Mudarib."],
-      related: ["t8.8.2", "t14.3.1"],
+      related: ["t8.5.2", "t14.3.1"],
       quickCheck: { q: "Who bears head-office expenses in an Islamic bank's Mudarabah deposit pool?", options: ["The pool", "The bank as Mudarib", "Depositors pro rata", "The central bank"], answer: 1, explanation: "p. 331." }
     },
     {
@@ -556,7 +556,7 @@ IFL_DATA.registerChapter({
         { term: "Musha‘a", meaning: "Undivided joint ownership in which each co-owner owns every part of the property pro rata." }
       ],
       distinctions: [{ a: "DM in Shirkatul‘aqd", b: "DM in Shirkatulmilk", text: "Contractual (trade) DM needs a profit ratio and forbids a pre-agreed unit price; ownership DM needs no profit ratio, uses rent on the financier's share, and allows a pre-agreed price schedule." }],
-      related: ["t12.9", "t12.2.1", "t5.7.3"],
+      related: ["t12.9", "t12.2.1", "t5.5.5"],
       quickCheck: { q: "In which form of Diminishing Musharakah may the client promise to buy the bank's units at a pre-agreed price?", options: ["Shirkatul‘aqd (trade)", "Shirkatulmilk (joint ownership, e.g. housing)", "Neither", "Both"], answer: 1, explanation: "p. 338." }
     },
     {
