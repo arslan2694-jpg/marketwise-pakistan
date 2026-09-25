@@ -200,5 +200,69 @@ window.IFL_DATA.flashcards.push(
     "front": "List Chapra's five functions of the Islamic State in economics and finance.",
     "back": "1) Poverty eradication, full employment, optimum growth; 2) Economic planning; 3) Ensuring social/economic justice; 4) Stability in the value of money; 5) Harmonizing international relations and national defence.",
     "source": { "chapter": 2, "section": "2.5.5", "pages": [40, 41] }
+  },
+  {
+    "id": "fc-ch2-26",
+    "chapter": 2,
+    "category": "Exam facts",
+    "front": "List the eight basic socio-economic rights of human beings that Ayub identifies from the Qur'an and Sunnah.",
+    "back": "The right to: safety, to be informed, to choose, to be heard, satisfaction of basic needs, redress, education, and a healthy environment.",
+    "source": { "chapter": 2, "section": "2.2.2", "pages": [25] }
+  },
+  {
+    "id": "fc-ch2-27",
+    "chapter": 2,
+    "category": "Exam facts",
+    "front": "According to Maurice Lombard's 'The Golden Age of Islam' (cited by Ayub), what role did the medieval Muslim world play in trade and culture, and what unified it?",
+    "back": "The Muslim East was the 'driving force' behind economic and cultural life while the West was a relative 'void'. The Muslim world was unified by one main currency (the Dinar) and one international commercial language (Arabic).",
+    "source": { "chapter": 2, "section": "2.3.1", "pages": [28] }
+  },
+  {
+    "id": "fc-ch2-28",
+    "chapter": 2,
+    "category": "Exam facts",
+    "front": "Per Maurice Lombard, what happened to the unified Muslim world after the late 11th century?",
+    "back": "Crises, disturbances and invasions in the second half of the 11th century impeded trade and provoked urban decline; the single Muslim civilization fragmented into regional particularisms - Turkish, Persian, Syrian, Egyptian and Maghreb Islam.",
+    "source": { "chapter": 2, "section": "2.3.1", "pages": [28, 29] }
+  },
+  {
+    "id": "fc-ch2-29",
+    "chapter": 2,
+    "category": "Principles",
+    "front": "What does Ayub argue about the Enlightenment's effect on religion's role in economics?",
+    "back": "The Enlightenment's secularist worldview treated revealed religious truths as mere human inventions, weakening religion's hold and the collective moral sanction it provides, depriving society of morally-oriented filtering and restructuring mechanisms.",
+    "source": { "chapter": 2, "section": "2.3", "pages": [26] }
+  },
+  {
+    "id": "fc-ch2-30",
+    "chapter": 2,
+    "category": "Exam facts",
+    "front": "What historical example does Ayub give of an Islamic State intervening in market pricing, and why was it permissible?",
+    "back": "Caliph Umar Farooq asked a trader selling a commodity well below the market price to either raise the price or leave the market - permissible because it protected fair market functioning against a distortion, not because it was routine price-fixing.",
+    "source": { "chapter": 2, "section": "2.5.5", "pages": [39, 40] }
+  },
+  {
+    "id": "fc-ch2-31",
+    "chapter": 2,
+    "category": "Principles",
+    "front": "Under what condition, per Chapter 2, does obedience to rulers cease to be required?",
+    "back": "Obedience to rulers is not valid where it would involve disobedience to Allah - per the Hadith, 'Obedience (to rulers) is not valid where a disobedience to Allah is involved.'",
+    "source": { "chapter": 2, "section": "2.5.5", "pages": [39] }
+  },
+  {
+    "id": "fc-ch2-32",
+    "chapter": 2,
+    "category": "Exam facts",
+    "front": "List the four types of government economic action identified in the Islamic economics literature, per Chapter 2.",
+    "back": "1) Ensuring compliance with the Islamic code of conduct (education, compulsion if needed); 2) maintaining healthy market conditions; 3) modifying resource allocation/income distribution via guidance/regulation or direct intervention; 4) taking positive steps in production/capital formation to accelerate growth.",
+    "source": { "chapter": 2, "section": "2.5.5", "pages": [39, 40] }
+  },
+  {
+    "id": "fc-ch2-33",
+    "chapter": 2,
+    "category": "Exam facts",
+    "front": "What did Ibn Khaldun notice about productivity, market extent, and division of labour - anticipating which later economist?",
+    "back": "Like Adam Smith, Ibn Khaldun observed that productivity depends on the extent of the market, division of labour and specialization.",
+    "source": { "chapter": 2, "section": "2.3.1", "pages": [28] }
   }
 );

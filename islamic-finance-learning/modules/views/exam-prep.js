@@ -28,7 +28,7 @@
       '<h3>Browse by Question Type</h3>' +
       '<div class="card-grid">' +
         Object.keys(byType).map(function (t) {
-          return '<div class="card"><div class="card-title">' + esc(TYPE_LABELS[t] || t) + '</div><p class="text-sm mb-0">' + byType[t].length + ' questions across the book</p></div>';
+          return '<button class="card card-clickable" data-nav="#/quiz/type/' + esc(t) + '"><div class="card-title">' + esc(TYPE_LABELS[t] || t) + '</div><p class="text-sm mb-0">' + byType[t].length + ' questions across the book — practice this type →</p></button>';
         }).join("") +
       '</div>';
   }

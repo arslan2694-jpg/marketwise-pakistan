@@ -450,6 +450,172 @@ window.IFL_DATA.chapters[8] = {
       examRelevance: "detailed",
       difficulty: "advanced",
       source: { chapter: 8, section: "8.8.7-8.9", pages: [209, 210, 211, 212] }
+    },
+    {
+      id: "ch8-t12",
+      sectionNumber: "8.4.2-8.4.4",
+      sectionTitle: "Investment Banking / Other NBFIs / Conventional Financial Markets",
+      title: "Investment Banking, NBFIs and Conventional Financial Markets in Depth",
+      overview: "Expands on investment banking's fee-based service lines and fund-raising products, surveys the other NBFIs beyond investment banks, and details how conventional money and capital markets are structured.",
+      simpleExplanation: "Investment banks help companies raise money directly from investors (through IPOs, private placements, underwriting) and earn fees rather than a lending spread, while other NBFIs like leasing firms, venture capital companies and insurers do their own specialized jobs. Conventional financial markets are split into short-term money markets and longer-term capital markets, with a primary market where new securities are first sold and a secondary market where they're later traded, including cross-border instruments like GDRs.",
+      academicExplanation: "Investment banks facilitate the direct flow of funds from surplus to deficit units by helping firms and governments sell debt or equity securities in the primary market, and also act as brokers/dealers in the secondary market; income is primarily fee-based (underwriting, stock/bond trading, M&A facilitation, arranging/funding syndicated loans, advisory services on pricing of securities) rather than from a lending/borrowing spread. For small and start-up companies, investment banks mobilize venture capital funding through private placements (direct sale of securities to ultimate investors); their most important job is facilitating IPOs, after which they serve as brokers, arbitrageurs and corporate advisors. Conventional investment banks raise medium- and long-term funds through closed- and open-ended funds, by issuing COIs/CODs and offering guaranteed-dividend accounts without checking facilities; COI holders get pre-agreed interest income, and account holders are sometimes given a minimum guaranteed return (generally below market rate) with the upside kept open. Other NBFIs beyond investment banks - discount houses, leasing companies, venture capital companies, asset/fund management companies, insurance companies and other specialized sector institutions - facilitate business and industry through direct intermediation between savers and investors and through money/capital market transactions; investors get interest or a guaranteed dividend while fund users pay interest, and some NBFIs deal in real estate and manage property/other funds for fixed or variable interest/dividend returns. Conventional financial markets facilitate liquidity management: a security holder needing cash sells to a third party via the market, and the purchaser steps into the previous holder's shoes. These markets comprise money markets (short-term interest-based lending/borrowing and trading in short-term debt instruments) and capital markets (medium- and long-term debt and equity transactions), further split into primary markets (where instruments are first generated) and secondary markets (where they are subsequently traded). Global depository receipts (GDRs) - negotiable certificates held in one country's bank representing a specific number of securities/shares traded on another country's exchange - are increasingly traded in developed financial markets. A conventional bond represents a loan repayable with interest, unrelated to the actual business undertaken with the borrowed money; a typical debt market trades bonds, debentures, commercial papers, treasury bills and derivatives in spot and future markets. The basic concept of an equity (stock) market is permissible under Shari'ah provided the traded stocks do not involve Riba and Gharar, for which experts have developed screening criteria (detailed elsewhere in the book).",
+      examExplanation: "Investment banks = fee-based (underwriting, M&A, syndication, advisory), not spread-based; facilitate IPOs and venture capital private placements; raise funds via closed/open-ended funds and COIs/CODs (pre-agreed interest, sometimes minimum-guaranteed-return accounts). Other NBFIs = discount houses, leasing cos, VC cos, asset/fund managers, insurers - intermediate directly between savers/investors, paying interest/guaranteed dividends. Conventional markets = money market (short-term) + capital market (medium/long-term, debt+equity), each split into primary/secondary; GDRs enable cross-border share trading; conventional bonds = interest-bearing debt unrelated to underlying business.",
+      keyPoints: [
+        "Investment banks derive income primarily from fee-based activities (underwriting, M&A, syndication, advisory) rather than a lending/borrowing spread",
+        "Investment banks mobilize venture capital for small/start-up companies via private placements, and their most important role is facilitating IPOs",
+        "Conventional investment banks raise medium/long-term funds via closed/open-ended funds and COIs/CODs, sometimes offering a minimum guaranteed return with open upside",
+        "Other NBFIs (discount houses, leasing companies, venture capital companies, asset/fund managers, insurers) intermediate directly between savers and fund users, generally without checking facilities",
+        "Conventional financial markets split into money markets (short-term) and capital markets (medium/long-term debt and equity), each with primary and secondary segments",
+        "GDRs let shares traded on one country's exchange be held and traded via a negotiable certificate in another country's bank",
+        "A conventional bond is a loan repayable with interest, unrelated to the actual business undertaken with the borrowed funds"
+      ],
+      definitions: [
+        { term: "Global Depository Receipt (GDR)", definition: "A negotiable certificate held in the bank of one country representing a specific number of securities/shares of a stock traded on an exchange of another country, enabling cross-border trading." },
+        { term: "Primary Market", definition: "The market in which new securities/instruments are first generated and sold to investors, as distinct from the secondary market where they are subsequently traded." }
+      ],
+      conditions: [
+        "An equity (stock) market is permissible under Shari'ah provided the traded stocks do not involve Riba and Gharar, subject to screening criteria"
+      ],
+      principles: [],
+      processSteps: [],
+      examples: [
+        { title: "Minimum-Guaranteed-Return Investment Bank Account", body: "Conventional investment banks sometimes offer account holders a minimum guaranteed return, generally below the prevailing market rate, while keeping the upside open - a hybrid between a fixed COI-type return and a fully variable dividend account.", generated: false }
+      ],
+      commonConfusions: [
+        "Assuming all NBFIs function like investment banks - the category also includes non-fee-based intermediaries like leasing and discount houses, which pay/charge interest directly rather than earning fee income"
+      ],
+      importantDistinctions: [
+        "Primary market (instruments first issued) vs secondary market (instruments subsequently traded) - both exist within money markets and capital markets alike",
+        "Investment banks (fee-based, capital-markets focused) vs other NBFIs like leasing/discount houses (interest-based direct intermediation)"
+      ],
+      relatedConcepts: ["Investment Banking", "NBFIs", "Money Market", "Capital Market", "GDR"],
+      examRelevance: "supporting",
+      difficulty: "beginner",
+      source: { chapter: 8, section: "8.4.2-8.4.4", pages: [184, 185] }
+    },
+    {
+      id: "ch8-t13",
+      sectionNumber: "8.5.3 (cont.)",
+      sectionTitle: "Government/Public Sector Financing; Treasury Liquidity Management; Alternatives to Foreign Loans",
+      title: "Government/Public Sector Financing and Alternatives to Foreign Loans",
+      overview: "Details how governments and public enterprises can be financed through Mudarabah/Musharakah/Ijarah/Istisna'a-based instruments and Sukuk, the Mudarabah-based process for inter-bank treasury placements, and Sukuk-based alternatives to foreign borrowing.",
+      simpleExplanation: "Governments need financing too, and instead of issuing ordinary interest-bearing bonds, they can lease assets to themselves through Sukuk, get Islamic banks to buy and supply them large equipment on credit (Murabaha), or issue Musharakah/Ijarah Sukuk to raise money from investors both at home and abroad - offering a real, Shari'ah-compliant substitute for foreign commercial loans.",
+      academicExplanation: "Government and public sector enterprises can obtain finance via Mudarabah or Musharakah certificates issued to purchase equipment or utility-generating assets for leasing to public sector corporations; Ijarah and Istisna'a are best suited for public-sector infrastructure projects, with Ijarah Sukuk emerging as a crucial instrument for public-sector financing. Through syndication arrangements, Islamic banks can supply goods/assets of enormous value to government entities or corporations on a Murabaha basis by setting up joint Murabaha funds; ownership of such Murabaha funds can itself be securitized to offer equity-based investment opportunities to investors and the banks themselves, with returns distributed among Sukuk/certificate holders pro rata. On treasury liquidity and fund management more broadly, Islamic banks may sell/purchase Shari'ah-compliant money and capital market instruments (stocks, Sukuk), and direct placement/acquisition of funds in the inter-bank funds market on a Mudarabah/Musharakah basis follows a defined process: (1) a Mudarabah relationship is created between the deficit and surplus banks; (2) funds received are allocated to pools; (3) weightages are assigned periodically by tier/category; (4) profit earned is allocated according to the weightages assigned at the start of the period; (5) the bank charges a pre-agreed Mudarib fee as a percentage of realized profit (and may pay additional profit from its own share); (6) the investor bears any loss unless it arises from the Mudarib's misconduct or negligence. Islamic banks may also arrange with the central bank to serve as lender of last resort - e.g. a short (three-day) grace-period liquidity facility followed by a Mudarabah with a profit-sharing ratio heavily favoring the central bank to discourage repeated reliance on it - or via sale/purchase of Shari'ah-compliant certificates/Sukuk, which can be structured on an amortizing or bullet-maturity basis and sold to the central bank for liquidity if the regulatory structure allows. For the inflow of foreign resources as an alternative to conventional foreign loans, the instruments available are portfolio investment through stock markets, flotation of various categories of Sukuk, and direct investment by foreigners. Public and private enterprises can issue Musharakah and Ijarah Sukuk to finance projects, especially development projects; such Sukuk can be denominated in foreign or domestic currency, carry a predetermined proportion of the profit earned by their respective projects, and can be restricted to a particular project or earmarked to a group of projects. Various funds can be established to finance the economic activities of public and private enterprises on equity, partnership, leasing, Salam and mixed-asset-pool bases - targeted at a specific sector (agriculture, industry, infrastructure), a particular industry (textiles, household durables), or general types of projects.",
+      examExplanation: "Government financing tools: Mudarabah/Musharakah certificates (equipment/utility assets leased to public corporations); Ijarah/Istisna'a for infrastructure; Ijarah Sukuk increasingly crucial; syndicated Murabaha funds for large government purchases, with fund ownership itself securitizable. Inter-bank Mudarabah placement process: relationship -> pool allocation -> periodic weightage -> profit allocation -> Mudarib fee -> investor bears loss (absent Mudarib misconduct). Central bank as lender of last resort: short grace period then unfavorable-ratio Mudarabah, or Sukuk sale/purchase. Alternatives to foreign loans: portfolio investment via stock markets, Sukuk flotation, direct foreign investment; Musharakah/Ijarah Sukuk can be foreign- or domestic-currency, project-specific or pooled.",
+      keyPoints: [
+        "Government/public enterprises can be financed via Mudarabah/Musharakah certificates (equipment/utility assets leased to public corporations), Ijarah/Istisna'a for infrastructure, and increasingly Ijarah Sukuk",
+        "Ownership of a joint Murabaha fund used to supply large government purchases can itself be securitized into equity-based investment opportunities",
+        "The inter-bank Mudarabah placement process runs: relationship creation -> pool allocation -> periodic weightage assignment -> profit allocation -> Mudarib fee -> investor bears loss absent Mudarib misconduct/negligence",
+        "A central bank can act as lender of last resort via a short grace-period facility followed by an unfavorably-weighted Mudarabah, or via sale/purchase of Sukuk",
+        "Alternatives to conventional foreign loans include portfolio investment through stock markets, flotation of various Sukuk categories, and direct foreign investment",
+        "Musharakah and Ijarah Sukuk for development projects can be foreign- or domestic-currency denominated, and restricted to a single project or earmarked across a group of projects"
+      ],
+      definitions: [],
+      conditions: [],
+      principles: [
+        "In inter-bank Mudarabah placements, the investing bank bears any loss unless it results from the Mudarib (investee bank)'s own misconduct or negligence"
+      ],
+      processSteps: [
+        "A Mudarabah relationship is created between the deficit (investee) bank and the surplus (investor) bank.",
+        "Funds received are allocated to investment pools.",
+        "Weightages are assigned periodically, based on different tiers/categories.",
+        "Profit earned is allocated according to the weightages assigned at the beginning of the period.",
+        "The investee bank charges a pre-agreed Mudarib fee as a percentage of realized profit, and may pay additional profit from its own share.",
+        "The investor bank bears any loss unless it arises from misconduct or negligence of the Mudarib."
+      ],
+      examples: [
+        { title: "Central Bank as Lender of Last Resort", body: "An Islamic bank facing a liquidity shortfall may receive a short (e.g. three-day) grace-period facility from the central bank, followed, if needed, by a Mudarabah arrangement with a profit-sharing ratio heavily favoring the central bank - deliberately structured to discourage the bank from relying on central bank funds for longer periods.", generated: false }
+      ],
+      commonConfusions: [
+        "Assuming government Sukuk financing is identical to conventional sovereign bond issuance - the book stresses these instruments must be asset-backed (equipment, infrastructure, project-specific), not a mere promise to repay with interest"
+      ],
+      importantDistinctions: [
+        "Inter-bank Mudarabah placement (return crystallizes only at period end, investor bears loss absent Mudarib fault) vs a conventional fixed inter-bank lending rate"
+      ],
+      relatedConcepts: ["Mudarabah", "Musharakah", "Ijarah Sukuk", "Syndication", "Lender of Last Resort"],
+      examRelevance: "supporting",
+      difficulty: "intermediate",
+      source: { chapter: 8, section: "8.5.3", pages: [192, 193, 194] }
+    },
+    {
+      id: "ch8-t14",
+      sectionNumber: "8.8.1",
+      sectionTitle: "Islamic Funds: Usmani's Five Categories and Equity Fund Risk Tiers",
+      title: "Islamic Investment Fund Categories and Equity Fund Risk Tiers",
+      overview: "Details the five categories of Islamic investment fund identified by Shaikh Taqi Usmani, the Mudarabah/agency basis for fund manager compensation, and the four risk-profile sub-categories used specifically within equity funds.",
+      simpleExplanation: "Islamic mutual funds aren't all the same - some invest in shares (equity funds), some buy assets to lease out (Ijarah funds), some trade commodities, and some do cost-plus sales (Murabaha funds, which must stay closed-end since there's nothing tangible to trade). Within equity funds specifically, there are further risk tiers - from safe, dividend-focused funds for retirees to aggressive funds only for risk-tolerant investors - and fund managers get paid either a share of profit (Mudarabah) or a flat fee (agency), agreed before the fund even launches.",
+      academicExplanation: "Fund management can be conducted by both commercial and investment banks, though presently mostly investment banks are involved; the asset-based nature of Islamic finance makes this business more suitable for IFIs than short-term commercial banking. Fund management refers to investors pooling resources to collectively purchase a larger number of shares than they could individually. About 150 mutual funds of various categories provide low-risk/moderate-return, balanced-risk/return and high-risk/high-return Shari'ah-compliant investment facilities in Saudi Arabia, UAE, Bahrain, Kuwait, Qatar, Pakistan, Malaysia, Brunei, Singapore, Germany, Ireland, the UK, the USA, Canada, Switzerland and South Africa, among other markets; most are equity funds, with a number of hybrid funds managing leasing, real estate, Takaful and other assets. Fund management is conducted on a Mudarabah or agency basis: under Mudarabah, the fund manager gets a pre-agreed percentage of realized profit; under an agency arrangement, the manager gets a fee on agreed terms (a specified amount or a percentage of the fund's net asset value). Shaikh Taqi Usmani's five categories of Islamic investment fund are: (1) equity funds - proceeds invested in shares of joint stock companies, with capital-gain and dividend returns distributed pro rata; (2) Ijarah funds - amounts used to purchase assets for leasing, with rentals distributed among subscribers, and Ijarah Sukuk tradable in the secondary market on market-force pricing, the purchaser replacing the seller in pro rata ownership with all rights/obligations passed on; (3) commodity funds - subscription amounts used to purchase commodities for resale, with sale profits distributed among subscribers; (4) Murabaha funds - must be closed-end since the bank's Murabaha portfolio does not own tangible assets, so units cannot be negotiated in a secondary market; (5) mixed funds - subscription amounts employed across equities, leasing, commodities etc., tradable only if tangible assets exceed 51% and liquid assets/debts stay below 50%. Within equity funds specifically, risk profile and investment strategy divide them into four categories: regular income funds (profit via dividends of investee companies, providing a regular income stream mainly to risk-averse investors like retired people); capital gain funds (profit via frequent sale/purchase of Shari'ah-compliant stocks, suited to moderate risk-takers through proper management/diversification); aggressive funds (invest in high-risk securities for abnormal profits, restricted to high-risk investors given greater loss potential); and balanced funds (invest in high-quality, lower-risk securities, giving a regular income stream from both dividends and capital gain via a 'capital proactive' approach). Islamic equity funds grew rapidly in the late 1990s: 29 funds with $800 million in assets in 1996, growing to 98 funds with approximately $5 billion in assets by early 2000, and over 100 funds by the time of writing.",
+      examExplanation: "Usmani's 5 fund types: equity (shares, dividends+capital gains), Ijarah (leased assets, rentals, tradable), commodity (resale profits), Murabaha (must be closed-end, non-tradable - no tangible assets owned), mixed (tradable if tangible assets >51%, liquid/debts <50%). Manager compensation: Mudarabah (% of realized profit) or agency (fixed fee or % of NAV), determined before fund launch. Equity fund risk tiers: regular income (dividend-focused, risk-averse), capital gain (frequent trading, moderate risk), aggressive (high-risk securities, restricted access), balanced ('capital proactive', dividend+capital gain). Growth: 1996 (29 funds, $800M) -> 2000 (98 funds, ~$5B) -> 100+ funds today.",
+      keyPoints: [
+        "Fund management is more suitable for IFIs than short-term commercial banking, given Islamic finance's asset-based nature",
+        "Usmani's five fund categories: equity, Ijarah (tradable), commodity, Murabaha (must be closed-end, nontradable), and mixed (tradable only if tangible assets exceed 51% and liquid assets/debts stay below 50%)",
+        "Fund managers are compensated either on a Mudarabah basis (pre-agreed % of realized profit) or an agency basis (fixed fee or % of NAV), determined before the fund launches",
+        "Equity funds further divide by risk profile into four types: regular income (risk-averse), capital gain (moderate risk), aggressive (high-risk, restricted access), and balanced ('capital proactive')",
+        "Islamic equity fund assets grew from $800 million (29 funds, 1996) to roughly $5 billion (98 funds, 2000) to over 100 funds subsequently"
+      ],
+      definitions: [
+        { term: "Regular Income Fund", definition: "An Islamic equity fund category aiming to earn profit through dividends of investee companies, providing a regular income stream mainly to risk-averse investors such as retired people." },
+        { term: "Aggressive Fund", definition: "An Islamic equity fund category investing in high-risk securities to generate abnormal profits, with access restricted to high-risk investors given the greater chance of loss." }
+      ],
+      conditions: [
+        "A mixed fund is tradable only if its tangible assets exceed 51% of the portfolio and liquid assets/debts stay below 50%",
+        "The basis for a fund manager's compensation (Mudarabah share or agency fee) must be determined and disclosed before the fund's launch"
+      ],
+      principles: [],
+      processSteps: [],
+      examples: [
+        { title: "Growth of Islamic Equity Funds", body: "Islamic equity funds grew from 29 funds holding $800 million in assets in 1996 to 98 funds holding approximately $5 billion in assets by early 2000, and to over 100 funds subsequently - reflecting strong demand for Shari'ah-compliant investment vehicles.", generated: false }
+      ],
+      commonConfusions: [
+        "Assuming all Islamic 'equity funds' carry the same risk level - the chapter subdivides them into four distinct risk/return tiers (regular income, capital gain, aggressive, balanced) with different suitable investor profiles"
+      ],
+      importantDistinctions: [
+        "Mudarabah-basis fund management (manager's pay tied to realized profit) vs agency-basis fund management (manager's pay is a fixed fee/NAV percentage regardless of profit)"
+      ],
+      relatedConcepts: ["Mudarabah", "Wakalatul Istismar", "Ijarah Sukuk", "Murabaha Funds", "Screening Criteria"],
+      examRelevance: "supporting",
+      difficulty: "intermediate",
+      source: { chapter: 8, section: "8.8.1", pages: [201, 202] }
+    },
+    {
+      id: "ch8-t15",
+      sectionNumber: "8.8.3 (Box 8.3)",
+      sectionTitle: "Islamic Capital Market Instruments and Sukuk Structures (Box 8.3)",
+      title: "Detailed Sukuk Structures and Treasury Functions (Box 8.3)",
+      overview: "Box 8.3 lays out precisely what Islamic capital market instruments can represent, restates the tradability rule in structured form, and defines the treasury functions of debt portfolio management and risk management alongside the specific structural features of each Sukuk type.",
+      simpleExplanation: "Box 8.3 in the book acts as a quick-reference summary: it lists exactly what a Sukuk certificate can represent (ownership in a business, ownership of a leased asset, or ownership of a debt from a sale/manufacturing contract), restates when each is tradable, and spells out what a treasury desk actually does - managing the bank's overall debt portfolio and hedging risks like currency and liquidity risk - plus the specific features of each named Sukuk type.",
+      academicExplanation: "Per Box 8.3, Islamic financial market instruments can represent: ownership in a company or business (e.g. stocks, Musharakah or Mudarabah Sukuk); ownership of durable assets or their usufruct (e.g. Ijarah Sukuk); ownership of debt arising from Murabaha, Istisna'a or Salam financing; or a combination of these categories. On tradability: Islamic money market instruments can be tradable or nontradable in the secondary market - instruments representing ownership in business, real physical assets and usufructs are negotiable at market prices; instruments representing ownership of debt are not tradable in the secondary market, as sale of debt is not permissible in Islamic law; instruments representing a combination of categories are subject to the rules of the dominant category. Box 8.3 also defines two treasury functions: debt portfolio management (managing the debt portfolio that emerges from the accumulation of individual financing transactions so as to achieve an acceptable cost and risk profile for the portfolio over time) and risk management (advising on and implementing effective hedging of treasury-type risks, especially foreign exchange, return rate, liquidity, settlement, credit and counterparty risks). The box then details specific Sukuk structures: Musharakah Sukuk (co-ownership of assets or business with control and management rights, payments supported by income generated by the assets/business, tradable); Mudarabah Sukuk (ownership of assets or business without control and management rights, payments supported by income generated by the assets/business, tradable); Ijarah Sukuk (a sale-and-lease-back structure, which could be based on fixed or floating rate structures, payments supported by lease rentals, tradable); Salam Sukuk (ownership of debt resulting from a Salam transaction - i.e. advance payment of funds, future delivery of assets - short-term maturity, nontradable); and Istisna'a Sukuk (ownership of debt arising from an Istisna'a transaction - i.e. advance payment of funds, in full or instalments, for construction of an asset - nontradable).",
+      examExplanation: "Box 8.3 instrument categories: ownership in company/business; ownership of durable assets/usufruct; ownership of debt (Murabaha/Istisna'a/Salam); combination. Tradability: real-asset/business/usufruct-backed = tradable at market price; debt-backed = nontradable (debt sale barred in Islamic law); mixed = follows dominant category. Treasury functions: debt portfolio management (cost/risk profile of the accumulated financing portfolio) + risk management (hedging FX, return rate, liquidity, settlement, credit, counterparty risk). Sukuk structure specifics: Musharakah (co-ownership + control rights, tradable), Mudarabah (ownership without control rights, tradable), Ijarah (sale-and-lease-back, fixed/floating, tradable), Salam (short-term debt ownership, nontradable), Istisna'a (construction-debt ownership, nontradable).",
+      keyPoints: [
+        "Box 8.3 identifies four things an Islamic capital market instrument can represent: business/company ownership, ownership of durable assets/usufruct, ownership of debt (Murabaha/Istisna'a/Salam), or a combination",
+        "Debt-representing instruments are nontradable in the secondary market because sale of debt is not permissible in Islamic law; combination instruments follow the dominant category's rule",
+        "Debt portfolio management (achieving an acceptable cost/risk profile for the accumulated financing portfolio) and risk management (hedging FX, return rate, liquidity, settlement, credit and counterparty risk) are the two treasury functions Box 8.3 defines",
+        "Musharakah Sukuk carry control/management rights alongside co-ownership; Mudarabah Sukuk represent ownership without control/management rights - both are tradable",
+        "Ijarah Sukuk are structured as a sale-and-lease-back, payable via fixed or floating-rate rentals, and are tradable",
+        "Salam Sukuk and Istisna'a Sukuk both represent ownership of a debt (from advance-payment-for-future-delivery or advance-payment-for-construction transactions respectively) and are both nontradable"
+      ],
+      definitions: [
+        { term: "Debt Portfolio Management (Treasury)", definition: "The treasury function of managing the debt portfolio that emerges from the accumulation of individual financing transactions, so as to achieve an acceptable cost and risk profile for the portfolio over time." },
+        { term: "Risk Management (Treasury)", definition: "The treasury function of advising on and implementing effective hedging of treasury-type risks, especially foreign exchange, return rate, liquidity, settlement, credit and counterparty risks." }
+      ],
+      conditions: [
+        "Instruments representing ownership of debt are not tradable in the secondary market, as sale of debt is not permissible in Islamic law",
+        "A combination instrument is governed by the rules of whichever category (real-asset/business vs debt) dominates the pool"
+      ],
+      principles: [],
+      processSteps: [],
+      examples: [],
+      commonConfusions: [
+        "Confusing Musharakah Sukuk (co-ownership WITH control/management rights) and Mudarabah Sukuk (ownership WITHOUT control/management rights) - Box 8.3 draws this distinction precisely, even though both are tradable and both pay from underlying business/asset income"
+      ],
+      importantDistinctions: [
+        "Musharakah Sukuk (co-ownership plus control/management rights) vs Mudarabah Sukuk (ownership without control/management rights) - both tradable, but differing in the holder's governance role",
+        "Salam Sukuk (short-term, debt from advance payment for future delivery) vs Istisna'a Sukuk (debt from advance payment for construction) - both nontradable, but arising from different underlying transactions"
+      ],
+      relatedConcepts: ["Musharakah Sukuk", "Mudarabah Sukuk", "Ijarah Sukuk", "Salam Sukuk", "Istisna'a Sukuk", "Treasury Management"],
+      examRelevance: "detailed",
+      difficulty: "advanced",
+      source: { chapter: 8, section: "8.8.3", pages: [207, 208] }
     }
   ],
   chapterSummary: "Chapter 8 maps the entire conventional banking and financial-markets landscape onto its Islamic counterpart, establishing that Islamic banks remain essential intermediaries but replace interest with risk-bearing instruments across deposits (Amanah/Qard for current accounts, Mudarabah-based weightage pools for savings/investment) and assets (Musharakah/Mudarabah, Murabaha, Salam, Istisna'a, Ijarah, matched to sector-specific needs). It surveys the scholarly debate over whether profit-and-loss-sharing should be preferred over debt-creating exchange modes, and closes by describing Islamic capital market instruments (Sukuk types and their tradability rules), Islamic funds, stock screening/purification, forward markets built on Salam/Istisna'a/Ju'alah, and the largely non-compliant nature of conventional derivatives.",

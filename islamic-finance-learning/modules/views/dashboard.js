@@ -89,7 +89,7 @@
         '<div class="card">' +
           '<div class="section-header mb-2"><h3 class="mb-0">Weak Topics</h3><a data-nav="#/adaptive" class="text-sm">Practice weak areas →</a></div>' +
           (weak.length ? weak.map(function (w) {
-            return '<div class="card-row mb-2"><span class="text-sm">' + esc(w.title) + '</span>' +
+            return '<div class="card-row mb-2"><span class="text-sm" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:220px;" title="' + esc(w.title) + '">' + esc(IFLDom.truncate(w.title, 34)) + '</span>' +
               '<span class="flex items-center gap-2"><span class="progress-track" style="width:100px;"><span class="progress-fill ' + (w.pct < 50 ? "danger" : "warn") + '" style="width:' + w.pct + '%"></span></span><strong class="text-sm">' + w.pct + '%</strong></span></div>';
           }).join("") : '<p class="text-sm text-muted">Take a few quizzes and weak topics will show up here automatically.</p>') +
         '</div>' +

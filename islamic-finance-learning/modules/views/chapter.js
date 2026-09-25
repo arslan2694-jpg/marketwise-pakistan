@@ -105,8 +105,8 @@
       '</div>' +
 
       '<div class="flex items-center justify-between mt-6">' +
-        (prevCh ? '<button class="btn btn-outline" data-nav="#/chapter/' + prevCh.chapterNumber + '">← Ch ' + prevCh.chapterNumber + ': ' + esc(prevCh.title.slice(0, 30)) + '</button>' : '<span></span>') +
-        (nextCh ? '<button class="btn btn-outline" data-nav="#/chapter/' + nextCh.chapterNumber + '">Ch ' + nextCh.chapterNumber + ': ' + esc(nextCh.title.slice(0, 30)) + ' →</button>' : '<span></span>') +
+        (prevCh ? '<button class="btn btn-outline" data-nav="#/chapter/' + prevCh.chapterNumber + '">← Ch ' + prevCh.chapterNumber + ': ' + esc(IFLDom.truncate(prevCh.title, 34)) + '</button>' : '<span></span>') +
+        (nextCh ? '<button class="btn btn-outline" data-nav="#/chapter/' + nextCh.chapterNumber + '">Ch ' + nextCh.chapterNumber + ': ' + esc(IFLDom.truncate(nextCh.title, 34)) + ' →</button>' : '<span></span>') +
       '</div>';
   }
 
@@ -200,9 +200,9 @@
       '<div class="card mt-4" id="notes-host"><h3>My Notes on this Topic</h3><textarea id="topic-note-text" placeholder="Write a note for yourself…"></textarea><button class="btn btn-outline btn-sm mt-2" id="save-note-btn">Save Note</button></div>' +
 
       '<div class="flex items-center justify-between mt-6">' +
-        (prevT ? '<button class="btn btn-outline" data-nav="#/chapter/' + num + '/topic/' + prevT.id + '">← ' + esc(prevT.title.slice(0, 28)) + '</button>' : '<button class="btn btn-outline" data-nav="#/chapter/' + num + '">← Chapter overview</button>') +
+        (prevT ? '<button class="btn btn-outline" data-nav="#/chapter/' + num + '/topic/' + prevT.id + '">← ' + esc(IFLDom.truncate(prevT.title, 32)) + '</button>' : '<button class="btn btn-outline" data-nav="#/chapter/' + num + '">← Chapter overview</button>') +
         '<button class="btn btn-primary" id="complete-btn">' + (isDone ? "✓ Topic Completed" : "Mark Topic Complete") + '</button>' +
-        (nextT ? '<button class="btn btn-outline" data-nav="#/chapter/' + num + '/topic/' + nextT.id + '">' + esc(nextT.title.slice(0, 28)) + ' →</button>' : '<button class="btn btn-outline" data-nav="#/chapter/' + num + '">Chapter overview →</button>') +
+        (nextT ? '<button class="btn btn-outline" data-nav="#/chapter/' + num + '/topic/' + nextT.id + '">' + esc(IFLDom.truncate(nextT.title, 32)) + ' →</button>' : '<button class="btn btn-outline" data-nav="#/chapter/' + num + '">Chapter overview →</button>') +
       '</div>';
 
     root.innerHTML = "";

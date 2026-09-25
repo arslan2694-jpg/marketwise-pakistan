@@ -330,6 +330,15 @@ window.IFL_DATA.chapters[10] = {
         "Parallel Salam with an independent third party (permitted) vs a 'Parallel Salam' arrangement with the original seller or their affiliated entity (prohibited buy-back)."
       ],
       relatedConcepts: ["Bai' al 'Inah", "Hamish Jiddiyah", "Salam Sukuk"],
+      transactionSteps: [
+        { step: "Original Salam (Bank as Buyer)", description: "The bank pays the full price in advance to a seller (e.g. a farmer or trader) under an original Salam contract, for a fungible commodity of specified quality and quantity to be delivered on a future date." },
+        { step: "Second, Independent Salam Contract (Bank as Seller)", description: "Relying on the more permissive scholarly view (Ibn Taymiyah, Ibn al-Qayyim, the Maliki school) that transfer of ownership and price risk passes to the buyer as soon as the Salam agreement is executed, the bank enters a separate Parallel Salam contract as seller, agreeing to deliver goods of similar specification to another buyer." },
+        { step: "The Two Contracts Kept Independent", description: "The original Salam purchase and the Parallel Salam sale remain two legally separate contracts - neither is made contingent on the other, and default or rescission in one does not excuse performance of the other." },
+        { step: "Original Seller Excluded from the Parallel Contract", description: "Parallel Salam can never be entered into with the original seller of the first contract, even through a separate legal entity that seller owns - doing so would amount to prohibited buy-back (Bai' al 'Inah)." },
+        { step: "Delivery from the Original Seller", description: "On the agreed date, the original seller delivers the commodity to the bank; ownership and risk transfer to the bank upon actual or constructive possession." },
+        { step: "Bank Delivers Under the Parallel Salam", description: "The bank then delivers the commodity to its own Parallel Salam buyer, fulfilling its separate obligation under the second contract." },
+        { step: "Alternative Marketing Routes", description: "Where Parallel Salam is not used, the bank may instead dispose of the goods via an agency contract (a third party or the original seller sells on the bank's behalf, under an agreement kept separate from the Salam contract) or by direct sale in the open market once delivery is taken." }
+      ],
       examRelevance: "core",
       difficulty: "advanced",
       source: { chapter: 10, section: "10.6-10.6.1", pages: [250, 251, 252] }
@@ -483,6 +492,16 @@ window.IFL_DATA.chapters[10] = {
         "An existing, specifically identified asset (invalid Istisna'a subject) vs an asset identified only by specification, even if already produced (valid Istisna'a subject)."
       ],
       relatedConcepts: ["Salam", "Bai' Mu'ajjal", "Murabaha to Purchase Orderer"],
+      transactionSteps: [
+        { step: "Order Placement and Specification", description: "The purchaser places an order to manufacture, assemble, or construct an item not yet in existence, clearly stating its type, dimensions, quality, quantity, and the period and place of delivery, so no ignorance or dispute remains about the subject matter." },
+        { step: "Price Agreement", description: "The parties fix the price by mutual consent - it can be cash, tangible goods, or usufruct of an identified asset (relevant to build-operate-transfer arrangements) - and, once settled, the price cannot be unilaterally changed." },
+        { step: "Contract Concluded (Sale Executed)", description: "Because Istisna'a is a sale contract and not a mere promise, the sale is treated as executed the moment the Istisna'a contract is signed - unlike Murabaha to Purchase Orderer, no fresh offer and acceptance is needed later when the goods are ready." },
+        { step: "Manufacture of the Asset", description: "The manufacturer supplies both the raw material and the labour to produce the asset per the agreed specification (he need not personally manufacture it unless the contract requires this, and may subcontract to another manufacturer)." },
+        { step: "Risk Remains with the Manufacturer", description: "Before delivery, the asset - including raw materials and work in progress - remains at the manufacturer's risk; the contract becomes binding once the manufacturer starts work (either party could rescind by notice beforehand)." },
+        { step: "Delivery", description: "The manufacturer delivers the completed asset, conforming to the agreed specification, at the agreed time and place; possession may be physical or constructive, with a clear demarcation between handing over and taking over." },
+        { step: "Acceptance or Rejection", description: "The purchaser accepts the asset if it conforms to specification (there is no Khiyar al Ro'yat/option of seeing, since the item was ordered by specification); if it does not conform, he may reject it or accept it as-is, which then constitutes satisfactory performance." },
+        { step: "Payment of Price", description: "The purchaser pays the agreed price, which, unlike Salam, need not be paid in advance - it can be paid in instalments linked to the manufacturing/completion stages." }
+      ],
       examRelevance: "core",
       difficulty: "intermediate",
       source: { chapter: 10, section: "10.11-10.11.2", pages: [263, 264, 265] }
@@ -568,6 +587,15 @@ window.IFL_DATA.chapters[10] = {
         "Parallel Istisna'a (bank as buyer in a second contract, subcontracting production - permitted with a genuine third party) vs simply asking the original customer to also act as the manufacturer's subcontractor (not a valid independent Parallel Istisna'a structure)."
       ],
       relatedConcepts: ["Wakalah", "Takaful", "Bai' al 'Inah"],
+      transactionSteps: [
+        { step: "Original Istisna'a (Bank as Seller)", description: "The bank enters an Istisna'a contract with a customer, undertaking as seller/manufacturer to deliver a specified manufactured or constructed asset to the customer's specifications by an agreed date and price." },
+        { step: "Parallel Istisna'a (Bank as Buyer)", description: "Separately, since Istisna'a is not confined to what the manufacturer himself makes, the bank enters a second, independent Parallel Istisna'a contract with a genuine third-party contractor, this time as buyer, ordering the same subject matter to be manufactured to the same specifications." },
+        { step: "Delivery Dates Sequenced", description: "The delivery date of the Parallel Istisna'a is fixed so as not to precede the delivery date of the original Istisna'a, ensuring the bank can receive the asset from its subcontractor in time to pass it on to its own customer." },
+        { step: "Contracts Kept Independent", description: "The two contracts, and their respective ownership-related risks, remain fully independent - the rights and obligations of one cannot be made contingent on the other, and Parallel Istisna'a is permitted only with a genuine third party." },
+        { step: "Subcontractor Manufactures and Delivers to the Bank", description: "The third-party contractor manufactures the asset and delivers it to the bank under the Parallel Istisna'a; before this delivery, the asset remains at the subcontractor's risk, transferring to the bank upon delivery." },
+        { step: "Bank Delivers to the Original Customer", description: "The bank, as seller under the original Istisna'a, delivers the same-specification asset to its customer, who accepts it if it conforms to specifications or may reject or accept nonconforming goods as-is." },
+        { step: "Profit or Loss Retained by the Bank", description: "If the bank's actual cost (including any discount secured from the subcontractor) is less than the forecast cost, the bank is not obliged to pass the saving to the customer and keeps the additional profit; the same rule applies symmetrically if actual costs exceed the forecast." }
+      ],
       examRelevance: "core",
       difficulty: "advanced",
       source: { chapter: 10, section: "10.11.6-10.11.9", pages: [266, 267, 268, 269] }

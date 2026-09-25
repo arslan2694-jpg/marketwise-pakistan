@@ -192,5 +192,69 @@ window.IFL_DATA.flashcards.push(
     front: "Per Samuel L. Hayes (quoted in the book), what is the closest Islamic substitute for a conventional forward contract?",
     back: "The Salam contract (an imperfect substitute), with Istisna'a providing another partial proxy for manufactured goods; there are no true Islamic equivalents to conventional swaps, futures, and options.",
     source: { chapter: 8, section: "8.8.8", pages: [210] }
+  },
+  {
+    id: "fc-ch8-25",
+    chapter: 8,
+    category: "Banking",
+    front: "How do investment banks primarily earn income, and what are their two flagship activities for raising client funds?",
+    back: "Primarily fee-based income (underwriting, M&A, syndication, advisory) rather than a lending spread; their flagship activities are facilitating venture capital via private placements (for small/start-up firms) and facilitating IPOs.",
+    source: { chapter: 8, section: "8.4.2", pages: [184] }
+  },
+  {
+    id: "fc-ch8-26",
+    chapter: 8,
+    category: "Capital markets",
+    front: "What is a Global Depository Receipt (GDR)?",
+    back: "A negotiable certificate held in one country's bank representing a specific number of securities/shares of a stock traded on an exchange of another country, enabling cross-border trading.",
+    source: { chapter: 8, section: "8.4.4", pages: [185] }
+  },
+  {
+    id: "fc-ch8-27",
+    chapter: 8,
+    category: "Banking",
+    front: "List the six steps of the inter-bank Mudarabah placement process described in the chapter.",
+    back: "(1) Mudarabah relationship created; (2) funds allocated to pools; (3) weightages assigned periodically; (4) profit allocated per weightages; (5) bank charges a pre-agreed Mudarib fee; (6) investor bears any loss unless caused by the Mudarib's misconduct/negligence.",
+    source: { chapter: 8, section: "8.5.3", pages: [192, 193] }
+  },
+  {
+    id: "fc-ch8-28",
+    chapter: 8,
+    category: "Capital markets",
+    front: "How can a joint Murabaha fund used to supply goods to government entities be turned into an investment vehicle for outside investors?",
+    back: "Ownership of the Murabaha fund can itself be securitized to offer equity-based investment opportunities to investors and the banks themselves, with returns distributed among Sukuk/certificate holders pro rata.",
+    source: { chapter: 8, section: "8.5.3", pages: [193] }
+  },
+  {
+    id: "fc-ch8-29",
+    chapter: 8,
+    category: "Financing modes",
+    front: "Name Shaikh Taqi Usmani's five categories of Islamic investment fund.",
+    back: "Equity funds, Ijarah funds, commodity funds, Murabaha funds (must be closed-end), and mixed funds (tradable only if tangible assets exceed 51% and liquid assets/debts stay below 50%).",
+    source: { chapter: 8, section: "8.8.1", pages: [201] }
+  },
+  {
+    id: "fc-ch8-30",
+    chapter: 8,
+    category: "Financing modes",
+    front: "What are the four risk-profile sub-categories of Islamic equity funds, and who is each suited to?",
+    back: "Regular income funds (dividend-focused, risk-averse investors), capital gain funds (frequent trading, moderate risk-takers), aggressive funds (high-risk securities, restricted to high-risk investors), and balanced funds (dividend + capital gain, 'capital proactive' approach).",
+    source: { chapter: 8, section: "8.8.1", pages: [202] }
+  },
+  {
+    id: "fc-ch8-31",
+    chapter: 8,
+    category: "Capital markets",
+    front: "Per Box 8.3, what four things can an Islamic capital market instrument represent?",
+    back: "(1) Ownership in a company/business (e.g. stocks, Musharakah/Mudarabah Sukuk); (2) ownership of durable assets/usufruct (e.g. Ijarah Sukuk); (3) ownership of debt from Murabaha, Istisna'a or Salam financing; (4) a combination of these.",
+    source: { chapter: 8, section: "8.8.3", pages: [207] }
+  },
+  {
+    id: "fc-ch8-32",
+    chapter: 8,
+    category: "Risk",
+    front: "What two treasury functions does Box 8.3 define?",
+    back: "Debt portfolio management (achieving an acceptable cost/risk profile for the accumulated financing portfolio over time) and risk management (hedging FX, return rate, liquidity, settlement, credit and counterparty risks).",
+    source: { chapter: 8, section: "8.8.3", pages: [208] }
   }
 );

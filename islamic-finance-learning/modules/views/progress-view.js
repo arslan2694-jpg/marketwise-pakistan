@@ -27,7 +27,7 @@
         chapters.map(function (c) {
           var p = IFLData.chapterTopicProgress(c.chapterNumber);
           var avg = IFLData.chapterQuizAverage(c.chapterNumber);
-          return '<tr><td><a data-nav="#/chapter/' + c.chapterNumber + '">Ch ' + c.chapterNumber + ': ' + esc(c.title.slice(0, 36)) + '</a></td>' +
+          return '<tr><td><a data-nav="#/chapter/' + c.chapterNumber + '">Ch ' + c.chapterNumber + ': ' + esc(IFLDom.truncate(c.title, 44)) + '</a></td>' +
             '<td>' + p.done + '/' + p.total + '</td><td>' + (avg == null ? "—" : avg + "%") + '</td>' +
             '<td>' + (p.pct === 100 ? '<span class="pill pill-success">Completed</span>' : p.done > 0 ? '<span class="pill pill-warning">In progress</span>' : '<span class="pill">Not started</span>') + '</td></tr>';
         }).join("") +
@@ -36,7 +36,7 @@
       '<h3>Recent Quiz Attempts</h3>' +
       '<div class="card mb-4">' + (recentAttempts.length ? recentAttempts.map(function (a) {
         var chapter = a.chapter ? IFLData.getChapter(a.chapter) : null;
-        return '<div class="card-row mb-2"><span class="text-sm">' + (chapter ? "Ch " + a.chapter + ": " + esc(chapter.title.slice(0, 30)) : "Mixed quiz") + ' · ' + IFLDom.relativeTime(a.ts) + '</span>' +
+        return '<div class="card-row mb-2"><span class="text-sm">' + (chapter ? "Ch " + a.chapter + ": " + esc(IFLDom.truncate(chapter.title, 36)) : "Mixed quiz") + ' · ' + IFLDom.relativeTime(a.ts) + '</span>' +
           '<span class="pill ' + (a.scorePct >= 70 ? "pill-success" : a.scorePct >= 40 ? "pill-warning" : "pill-danger") + '">' + a.scorePct + '%</span></div>';
       }).join("") : '<p class="text-muted mb-0">No quizzes taken yet.</p>') + '</div>' +
 

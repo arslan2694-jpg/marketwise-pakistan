@@ -23,7 +23,7 @@
           var avg = IFLData.chapterQuizAverage(c.chapterNumber);
           if (!n) return "";
           return '<button class="card card-clickable" data-nav="#/quiz/chapter/' + c.chapterNumber + '">' +
-            '<div class="card-title">Ch ' + c.chapterNumber + ': ' + esc(c.title.slice(0, 40)) + '</div>' +
+            '<div class="card-title">Ch ' + c.chapterNumber + ': ' + esc(IFLDom.truncate(c.title, 48)) + '</div>' +
             '<p class="text-sm mb-0">' + n + ' questions' + (avg != null ? " · avg " + avg + "%" : "") + '</p></button>';
         }).join("") +
       '</div>';
@@ -198,6 +198,15 @@
   IFLRouter.register("/quiz", renderPicker);
   IFLRouter.register("/quiz/mixed", function () { startQuiz({}); });
   IFLRouter.register("/quiz/chapter/:num", startQuiz);
+  IFLRouter.register("/quiz/type/:type", function (params) {
+    var pool = IFLData.allQuestions().filter(function (q) { return q.type === params.type; });
+    var shuffled = pool.slice().sort(function () { return Math.random() - 0.5; }).slice(0, 15);
+    if (!shuffled.length) {
+      IFLRouter.outlet().innerHTML = '<div class="empty-state"><h3>No questions of this type</h3><button class="btn btn-primary" data-nav="#/exam-prep">Back to Exam Prep</button></div>';
+      return;
+    }
+    runSession(shuffled, 0, { correct: 0, answers: {}, missed: [], chapter: null });
+  });
 
   // Exposed so other modules (adaptive practice, crash-course rapid-fire
   // quiz) can run an arbitrary custom question set through the same engine.

@@ -54,6 +54,17 @@
     return "pill";
   }
 
+  // Truncate to a max length on a word boundary and add an ellipsis, so
+  // titles never get chopped mid-word with no visual indicator.
+  function truncate(str, maxLen) {
+    str = String(str == null ? "" : str);
+    if (str.length <= maxLen) return str;
+    var cut = str.slice(0, maxLen);
+    var lastSpace = cut.lastIndexOf(" ");
+    if (lastSpace > maxLen * 0.6) cut = cut.slice(0, lastSpace);
+    return cut.replace(/[\s,;:.-]+$/, "") + "…";
+  }
+
   function formatDuration(seconds) {
     seconds = Math.max(0, Math.round(seconds || 0));
     var h = Math.floor(seconds / 3600);
@@ -124,6 +135,7 @@
 
   global.IFLDom = {
     esc: esc,
+    truncate: truncate,
     formatText: formatText,
     el: el,
     qs: qs,

@@ -184,5 +184,69 @@ window.IFL_DATA.flashcards.push(
     front: "What made WAPDA's Ijarah Sukuk eligible for Islamic banks' statutory liquidity requirement (SLR)?",
     back: "The government of Pakistan's guarantee of WAPDA's payment obligation under the Sukuk issue made it eligible for maintaining SLR by Islamic banks.",
     source: { chapter: 15, section: "15.4", pages: [414] }
+  },
+  {
+    id: "fc-ch15-24",
+    chapter: 15,
+    category: "Contract rules",
+    front: "How do resale rules for a Mudarabah Sukuk holder depend on the form of the Mudarabah capital?",
+    back: "If capital is still money: Bai' al Sarf rules apply (simultaneous exchange). If capital is debt: debt-trading rules apply. If capital is a mix of cash, receivables, goods and real assets: trading follows the market price by mutual consent.",
+    source: { chapter: 15, section: "15.3.5", pages: [398, 399] }
+  },
+  {
+    id: "fc-ch15-25",
+    chapter: 15,
+    category: "Comparisons",
+    front: "Why is Musharakah Sukuk considered more equitable than Mudarabah Sukuk, per the OIC-aligned rules?",
+    back: "Because the intermediary is a genuine partner sharing BOTH profit and loss with certificate holders (like a joint stock company), unlike a Mudarib in Mudarabah Sukuk, who only shares profit and bears no loss.",
+    source: { chapter: 15, section: "15.3.5", pages: [400] }
+  },
+  {
+    id: "fc-ch15-26",
+    chapter: 15,
+    category: "Exam facts",
+    front: "What are Sudan's CMCs and GMCs, and what do they replace?",
+    back: "Central Bank Musharakah Certificates and Government Musharakah Certificates, issued since 1998, used in place of treasury bills and other interest-bearing securities for open market operations and monetary management.",
+    source: { chapter: 15, section: "15.3.5", pages: [400] }
+  },
+  {
+    id: "fc-ch15-27",
+    chapter: 15,
+    category: "Financing modes",
+    front: "Name the four sub-types of Ijarah Sukuk described in the chapter.",
+    back: "(1) Sukuk of ownership in leased assets; (2) Sukuk of ownership of usufruct of existing assets; (3) Sukuk of ownership of usufruct of future assets (per description); (4) Sukuk of ownership of services (of a specified supplier, or of future services per description).",
+    source: { chapter: 15, section: "15.3.5", pages: [401, 402] }
+  },
+  {
+    id: "fc-ch15-28",
+    chapter: 15,
+    category: "Risk",
+    front: "In Ijarah Sukuk, who bears corpus (ownership-related) expenses versus operational maintenance expenses, and why does this matter for return?",
+    back: "Corpus/ownership-related expenses fall on the owner (Sukuk holders); operational maintenance expenses fall on the lessee. This split means expected returns aren't fully fixed - making Ijarah Sukuk quasi-fixed-return instruments.",
+    source: { chapter: 15, section: "15.3.5", pages: [402, 403] }
+  },
+  {
+    id: "fc-ch15-29",
+    chapter: 15,
+    category: "Capital markets",
+    front: "What real-world example illustrates a short-term, LIBOR-linked Salam Sukuk structure?",
+    back: "The Bahrain Monetary Agency's 2001 aluminium securities: the Bahrain government sells aluminium to Bahrain Islamic Bank (BIB) on a Salam basis, while BIB acts as the government's agent to market the aluminium at delivery for a return to security holders.",
+    source: { chapter: 15, section: "15.3.5", pages: [403, 404] }
+  },
+  {
+    id: "fc-ch15-30",
+    chapter: 15,
+    category: "Contract rules",
+    front: "When does an Istisna'a Sukuk become tradable, versus remaining a face-value-only debt certificate?",
+    back: "Tradable if mobilized funds have converted, through business/trade, into assets owned by certificate holders during the Istisna'a operation; otherwise (e.g. funds immediately paid out under a Parallel Istisna'a) it represents a monetary debt, cashable only at face value/maturity.",
+    source: { chapter: 15, section: "15.3.5", pages: [404, 405] }
+  },
+  {
+    id: "fc-ch15-31",
+    chapter: 15,
+    category: "Capital markets",
+    front: "What contract types can be pooled into a Mixed Portfolio Sukuk, and what real-world issue exemplifies this structure?",
+    back: "Musharakah, Ijarah, and some Murabaha, Salam, Istisna'a and Ju'alah contracts. The IDB's $400 million Solidarity Trust Sukuk (2003) is the prominent example, requiring Ijarah assets above 50% of the pool with a dissolution trigger below 25%.",
+    source: { chapter: 15, section: "15.3.5", pages: [406] }
   }
 );

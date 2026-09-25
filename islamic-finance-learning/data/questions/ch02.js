@@ -492,5 +492,111 @@ window.IFL_DATA.questions.push(
     "explanation": "The chapter frames monetary stability as grounded in the Qur'anic injunction to give full measure and weight without defrauding — currency erosion is treated as a justice issue, not merely a technical monetary concern.",
     "learningObjective": "Describe the State's role in an Islamic economy and why the author rejects unrestrained laissez-faire and Pareto efficiency as adequate frameworks",
     "source": { "chapter": 2, "section": "2.5.5", "pages": [40, 41] }
+  },
+  {
+    "id": "q-ch2-29",
+    "chapter": 2,
+    "section": "2.2.2",
+    "topic": "Objectives (Maqasid) of Shari'ah: Primary and Secondary",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "cognitiveLevel": "recall",
+    "prompt": "Which of the following are among the eight basic socio-economic rights Ayub identifies from the Qur'an and Sunnah?",
+    "options": ["The right to safety", "The right to a fixed interest rate", "The right to be informed", "The right to satisfaction of basic needs", "The right to unlimited borrowing"],
+    "correctAnswer": [0, 2, 3],
+    "explanation": "The eight rights are: safety, to be informed, to choose, to be heard, satisfaction of basic needs, redress, education, and a healthy environment. A fixed interest rate and unlimited borrowing are not among them and conflict with Islamic economic principles.",
+    "learningObjective": "State the primary (Maqasid) and secondary objectives of Shari'ah and explain their relevance to economics",
+    "source": { "chapter": 2, "section": "2.2.2", "pages": [25] }
+  },
+  {
+    "id": "q-ch2-30",
+    "chapter": 2,
+    "section": "2.3.1",
+    "topic": "Historical Contributions of Classical and Modern Islamic Economists",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitiveLevel": "recall",
+    "prompt": "What does Maurice Lombard's 'The Golden Age of Islam' say unified the medieval Muslim world economically, and what ended that unity?",
+    "options": [],
+    "correctAnswer": "The Muslim Dinar (one main currency) and Arabic (one international commercial language) unified it; crises, disturbances and invasions in the late 11th century fragmented the unified Muslim civilization into regional particularisms (Turkish, Persian, Syrian, Egyptian, Maghreb Islam).",
+    "explanation": "Lombard credits the Dinar and Arabic with economically unifying the medieval Muslim world, describing its fragmentation into regional civilizations after 11th-century crises.",
+    "learningObjective": "Identify key classical Muslim scholars (e.g. Ibn Khaldun, Ibn Taymiyah) and their economic contributions",
+    "source": { "chapter": 2, "section": "2.3.1", "pages": [28, 29] }
+  },
+  {
+    "id": "q-ch2-31",
+    "chapter": 2,
+    "section": "2.5.5",
+    "topic": "Liberalism versus State Intervention: The State's Active Economic Role",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "cognitiveLevel": "understanding",
+    "prompt": "True or False: Per Chapter 2, obedience to Islamic State rulers is unconditional and absolute, regardless of what they command.",
+    "options": ["True", "False"],
+    "correctAnswer": 1,
+    "explanation": "False. Obedience to rulers is conditional - per the cited Hadith, 'Obedience (to rulers) is not valid where a disobedience to Allah is involved.'",
+    "learningObjective": "Describe the State's role in an Islamic economy and why the author rejects unrestrained laissez-faire and Pareto efficiency as adequate frameworks",
+    "source": { "chapter": 2, "section": "2.5.5", "pages": [39] }
+  },
+  {
+    "id": "q-ch2-32",
+    "chapter": 2,
+    "section": "2.5.5",
+    "topic": "Liberalism versus State Intervention: The State's Active Economic Role",
+    "type": "scenario",
+    "difficulty": "medium",
+    "cognitiveLevel": "application",
+    "prompt": "A trader in an Islamic market sells a commodity at a price far below the prevailing market rate, distorting fair competition. Based on Caliph Umar Farooq's precedent cited in Chapter 2, what State action would be appropriate?",
+    "options": [
+      "No action - the State must never interfere with any pricing decision",
+      "The State may ask the trader to raise the price to the market rate or leave the market, to protect fair market functioning",
+      "The State should nationalize the trader's business",
+      "The State should fine only the trader's customers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Caliph Umar Farooq asked a trader selling well below market price to raise the price or leave the market - an example of permissible State intervention to protect fair market functioning against distortion, not routine price-fixing.",
+    "learningObjective": "Describe the State's role in an Islamic economy and why the author rejects unrestrained laissez-faire and Pareto efficiency as adequate frameworks",
+    "source": { "chapter": 2, "section": "2.5.5", "pages": [39, 40] }
+  },
+  {
+    "id": "q-ch2-33",
+    "chapter": 2,
+    "section": "2.5.5",
+    "topic": "Liberalism versus State Intervention: The State's Active Economic Role",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "cognitiveLevel": "recall",
+    "prompt": "Which are among the four types of government economic action identified in the Islamic economics literature (Chapter 2)?",
+    "options": [
+      "Ensuring compliance with the Islamic code of conduct through education and, if necessary, compulsion",
+      "Nationalizing all privately owned banks",
+      "Maintaining healthy market conditions",
+      "Taking positive steps in production/capital formation to accelerate growth",
+      "Abolishing all forms of taxation"
+    ],
+    "correctAnswer": [0, 2, 3],
+    "explanation": "The four types are: ensuring compliance with the Islamic code of conduct; maintaining healthy market conditions; modifying resource allocation/distribution via regulation or intervention; and taking positive steps in production/capital formation. Nationalizing all banks and abolishing taxation are not among them.",
+    "learningObjective": "Describe the State's role in an Islamic economy and why the author rejects unrestrained laissez-faire and Pareto efficiency as adequate frameworks",
+    "source": { "chapter": 2, "section": "2.5.5", "pages": [39, 40] }
+  },
+  {
+    "id": "q-ch2-34",
+    "chapter": 2,
+    "section": "2.3",
+    "topic": "Why Study Islamic Economics? The Integrated Islamic Worldview",
+    "type": "mcq",
+    "difficulty": "hard",
+    "cognitiveLevel": "analysis",
+    "prompt": "Per Ayub, what specific effect did the Enlightenment's secularist worldview have on economics and society?",
+    "options": [
+      "It strengthened religion's collective moral sanction on economic behaviour",
+      "It weakened religion's hold and its collective moral sanction, depriving society of morally-oriented filtering and restructuring mechanisms",
+      "It had no discernible effect on economic thought",
+      "It immediately eliminated global poverty"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ayub argues the Enlightenment treated revealed religious truths as mere inventions, weakening religion's hold and the collective moral sanction it provided, depriving society of morally-oriented filtering, motivating and restructuring mechanisms.",
+    "learningObjective": "Explain why the author argues Islamic economics should be studied",
+    "source": { "chapter": 2, "section": "2.3", "pages": [26] }
   }
 );

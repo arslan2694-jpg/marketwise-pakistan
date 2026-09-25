@@ -15,9 +15,10 @@
       '<div class="section-header"><h1>Comparison Lab</h1></div>' +
       '<p class="text-secondary">Textbook-supported comparisons, dimension by dimension.</p>' +
       '<div class="card-grid">' + comparisons.map(function (c) {
+        var subtitle = c.summary ? c.summary.slice(0, 90) + (c.summary.length > 90 ? "…" : "") : (c.dimensions.length + " dimensions compared");
         return '<button class="card card-clickable" data-nav="#/comparisons/' + esc(c.id) + '">' +
           '<div class="card-title">' + esc(c.title) + '</div>' +
-          '<p class="text-sm mb-0">' + esc(c.itemALabel) + ' vs ' + esc(c.itemBLabel) + '</p></button>';
+          '<p class="text-sm mb-0 text-muted">' + esc(subtitle) + '</p></button>';
       }).join("") + '</div>';
   }
 

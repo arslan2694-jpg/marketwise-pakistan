@@ -445,5 +445,170 @@ window.IFL_DATA.questions.push(
     explanation: "The chapter's summary notes that developing instruments for financing government budget deficits is difficult mainly because sovereigns do not have sufficient real assets for conversion of debt stock into Shari'ah-compliant securities.",
     learningObjective: "Outline the instruments and structure of Islamic financial and capital markets.",
     source: { chapter: 8, section: "8.9", pages: [211, 212] }
+  },
+  {
+    id: "q-ch8-27",
+    chapter: 8,
+    section: "8.4.2",
+    topic: "Investment Banking, NBFIs and Conventional Financial Markets in Depth",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "What is described as an investment bank's 'most important job' among its services?",
+    options: [
+      "Managing conventional pension funds",
+      "Facilitating initial public offerings (IPOs)",
+      "Issuing letters of credit",
+      "Accepting checking-account deposits"
+    ],
+    correctAnswer: 1,
+    explanation: "The chapter states that facilitating initial public offerings (IPOs) - the first sale of stocks by a company to the public - is the investment bank's most important job.",
+    learningObjective: "Explain what a bank is and how commercial banking differs from investment banking.",
+    source: { chapter: 8, section: "8.4.2", pages: [184] }
+  },
+  {
+    id: "q-ch8-28",
+    chapter: 8,
+    section: "8.4.4",
+    topic: "Investment Banking, NBFIs and Conventional Financial Markets in Depth",
+    type: "truefalse",
+    difficulty: "easy",
+    cognitiveLevel: "recall",
+    prompt: "True or False: A conventional bond's return is tied to the actual performance of the business undertaken with the borrowed money.",
+    options: ["True", "False"],
+    correctAnswer: 1,
+    explanation: "False - a conventional bond stands for a loan repayable with interest, and has nothing to do with the actual business undertaken with the borrowed money.",
+    learningObjective: "Outline the instruments and structure of Islamic financial and capital markets.",
+    source: { chapter: 8, section: "8.4.4", pages: [185] }
+  },
+  {
+    id: "q-ch8-29",
+    chapter: 8,
+    section: "8.5.3",
+    topic: "Government/Public Sector Financing and Alternatives to Foreign Loans",
+    type: "ordering",
+    difficulty: "medium",
+    cognitiveLevel: "application",
+    prompt: "Order the steps of the inter-bank Mudarabah placement process described in the chapter.",
+    options: [
+      "Weightages are assigned periodically, based on different tiers/categories",
+      "A Mudarabah relationship is created between the deficit and surplus banks",
+      "Funds received are allocated to pools",
+      "Profit earned is allocated according to the weightages assigned at the beginning of the period"
+    ],
+    correctAnswer: [1, 2, 0, 3],
+    explanation: "The correct order is: Mudarabah relationship created -> funds allocated to pools -> weightages assigned periodically -> profit allocated per those weightages (followed by the Mudarib fee and loss-bearing rule).",
+    learningObjective: "Outline the instruments and structure of Islamic financial and capital markets.",
+    source: { chapter: 8, section: "8.5.3", pages: [192, 193] }
+  },
+  {
+    id: "q-ch8-30",
+    chapter: 8,
+    section: "8.5.3",
+    topic: "Government/Public Sector Financing and Alternatives to Foreign Loans",
+    type: "multiselect",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Which of the following are listed as alternatives to conventional foreign loans for inflow of foreign resources?",
+    options: [
+      "Portfolio investment through stock markets",
+      "Flotation of various categories of Sukuk",
+      "Direct investment by foreigners",
+      "Issuance of interest-bearing eurobonds"
+    ],
+    correctAnswer: [0, 1, 2],
+    explanation: "The chapter lists portfolio investment through stock markets, flotation of various Sukuk categories, and direct foreign investment as the alternatives to foreign loans - not interest-bearing eurobonds.",
+    learningObjective: "Outline the instruments and structure of Islamic financial and capital markets.",
+    source: { chapter: 8, section: "8.5.3", pages: [193] }
+  },
+  {
+    id: "q-ch8-31",
+    chapter: 8,
+    section: "8.5.3",
+    topic: "Government/Public Sector Financing and Alternatives to Foreign Loans",
+    type: "short",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "How can an Islamic central bank act as 'lender of last resort' to an Islamic bank facing a liquidity shortfall, per the chapter?",
+    options: [],
+    correctAnswer: "It may provide a short (e.g. three-day) grace-period liquidity facility with ceilings, followed if needed by a Mudarabah arrangement with a profit-sharing ratio heavily favoring the central bank - deliberately structured to discourage the bank from relying on central bank funds for longer periods - or via sale/purchase of Shari'ah-compliant certificates/Sukuk.",
+    explanation: "This reflects the two lender-of-last-resort options described in section 8.5.3: a grace-period Mudarabah facility, or Sukuk sale/purchase.",
+    learningObjective: "Outline the instruments and structure of Islamic financial and capital markets.",
+    source: { chapter: 8, section: "8.5.3", pages: [193] }
+  },
+  {
+    id: "q-ch8-32",
+    chapter: 8,
+    section: "8.8.1",
+    topic: "Islamic Investment Fund Categories and Equity Fund Risk Tiers",
+    type: "matching",
+    difficulty: "medium",
+    cognitiveLevel: "application",
+    prompt: "Match each Islamic equity fund risk category to its description: (1) Regular income fund; (2) Capital gain fund; (3) Aggressive fund; (4) Balanced fund. Descriptions: (a) high-risk securities for abnormal profits, restricted access; (b) dividend-focused, suited to risk-averse investors; (c) high-quality, lower-risk securities via a 'capital proactive' approach; (d) frequent sale/purchase of stocks for capital gain.",
+    options: ["1-b, 2-d, 3-a, 4-c", "1-a, 2-b, 3-c, 4-d", "1-c, 2-a, 3-d, 4-b", "1-d, 2-c, 3-b, 4-a"],
+    correctAnswer: 0,
+    explanation: "Regular income funds are dividend-focused for risk-averse investors (b); capital gain funds trade frequently for capital gain (d); aggressive funds invest in high-risk securities with restricted access (a); balanced funds take a 'capital proactive' lower-risk approach (c).",
+    learningObjective: "Outline the instruments and structure of Islamic financial and capital markets.",
+    source: { chapter: 8, section: "8.8.1", pages: [202] }
+  },
+  {
+    id: "q-ch8-33",
+    chapter: 8,
+    section: "8.8.1",
+    topic: "Islamic Investment Fund Categories and Equity Fund Risk Tiers",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "recall",
+    prompt: "On what two bases can Islamic fund managers be compensated, per the chapter?",
+    options: [
+      "Only a fixed annual salary",
+      "Mudarabah basis (pre-agreed % of realized profit) or agency basis (fixed fee or % of NAV)",
+      "Only a share of the fund's total assets regardless of profit",
+      "Compensation is always set by the central bank"
+    ],
+    correctAnswer: 1,
+    explanation: "Fund management can be carried out on a Mudarabah basis (manager gets a pre-agreed percentage of realized profit) or an agency basis (a fee on agreed terms, a specified amount or a percentage of the fund's net asset value).",
+    learningObjective: "Outline the instruments and structure of Islamic financial and capital markets.",
+    source: { chapter: 8, section: "8.8.1", pages: [201] }
+  },
+  {
+    id: "q-ch8-34",
+    chapter: 8,
+    section: "8.8.3",
+    topic: "Detailed Sukuk Structures and Treasury Functions (Box 8.3)",
+    type: "comparison",
+    difficulty: "hard",
+    cognitiveLevel: "analysis",
+    prompt: "Per Box 8.3, what is the key structural difference between Musharakah Sukuk and Mudarabah Sukuk, even though both are tradable?",
+    options: [
+      "Musharakah Sukuk carry co-ownership WITH control and management rights; Mudarabah Sukuk represent ownership WITHOUT control and management rights",
+      "Only Mudarabah Sukuk can pay a return at all",
+      "Musharakah Sukuk are always nontradable, unlike Mudarabah Sukuk",
+      "There is no meaningful difference between the two"
+    ],
+    correctAnswer: 0,
+    explanation: "Box 8.3 distinguishes Musharakah Sukuk (co-ownership of assets/business WITH control and management rights) from Mudarabah Sukuk (ownership of assets/business WITHOUT control and management rights) - both are tradable and pay from underlying income, but differ in the holder's governance role.",
+    learningObjective: "Outline the instruments and structure of Islamic financial and capital markets.",
+    source: { chapter: 8, section: "8.8.3", pages: [207, 208] }
+  },
+  {
+    id: "q-ch8-35",
+    chapter: 8,
+    section: "8.8.3",
+    topic: "Detailed Sukuk Structures and Treasury Functions (Box 8.3)",
+    type: "mcq",
+    difficulty: "medium",
+    cognitiveLevel: "understanding",
+    prompt: "Per Box 8.3, what does the treasury function of 'risk management' involve?",
+    options: [
+      "Only managing the bank's physical office security",
+      "Advising on and implementing effective hedging of FX, return rate, liquidity, settlement, credit and counterparty risks",
+      "Only setting interest rates for conventional deposits",
+      "Managing the bank's marketing budget"
+    ],
+    correctAnswer: 1,
+    explanation: "Box 8.3 defines risk management as advising on and implementing effective hedging of treasury-type risks - especially foreign exchange, return rate, liquidity, settlement, credit and counterparty risks.",
+    learningObjective: "Outline the instruments and structure of Islamic financial and capital markets.",
+    source: { chapter: 8, section: "8.8.3", pages: [208] }
   }
 );

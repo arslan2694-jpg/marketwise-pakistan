@@ -261,7 +261,11 @@ button { font-family: inherit; }
   background: var(--color-bg-elevated); position: sticky; top: 0; z-index: 20;
 }
 .topbar-search { flex: 1; max-width: 480px; position: relative; }
-.topbar-search input {
+/* Higher-specificity selector (class + attribute) so this reliably beats
+   the generic input[type="search"] rule in the Forms section regardless
+   of source order — otherwise the icon gutter collapses and the search
+   icon overlaps the placeholder text. */
+.topbar-search input[type="search"] {
   width: 100%; padding: var(--sp-2) var(--sp-3) var(--sp-2) var(--sp-8);
   border-radius: var(--radius-pill); border: 1px solid var(--color-border);
   background: var(--color-bg-sunken); color: var(--color-text); font-size: var(--fs-sm);
@@ -457,6 +461,26 @@ label { font-size: var(--fs-xs); font-weight: 600; color: var(--color-text-secon
 
 /* ---- Concept map ---- */
 .concept-map-wrap { overflow: auto; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-bg-sunken); }
+.concept-graph { position: relative; display: flex; gap: 56px; align-items: flex-start; padding: var(--sp-6) var(--sp-7); min-width: max-content; }
+.concept-col { display: flex; flex-direction: column; gap: var(--sp-3); width: 200px; flex-shrink: 0; position: relative; z-index: 1; }
+.concept-col-header { font-size: var(--fs-xs); font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: var(--sp-1); }
+.concept-node {
+  border: 1px solid var(--color-border); border-left: 3px solid var(--node-accent, var(--color-border));
+  background: var(--color-bg-elevated); border-radius: var(--radius-sm); padding: var(--sp-2) var(--sp-3);
+  font-size: var(--fs-sm); text-align: left; cursor: pointer; color: var(--color-text);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), opacity var(--transition-fast);
+}
+.concept-node:hover { box-shadow: var(--shadow-sm); transform: translateX(2px); }
+.concept-node.active { background: var(--color-brand-soft); border-color: var(--color-brand); font-weight: 650; box-shadow: var(--shadow-md); }
+.concept-node.connected { border-color: var(--node-accent, var(--color-brand)); box-shadow: var(--shadow-sm); }
+.concept-node.dim { opacity: 0.35; }
+.concept-edge-svg { position: absolute; top: 0; left: 0; pointer-events: none; z-index: 0; overflow: visible; }
+.concept-edge { fill: none; stroke: var(--color-brand); stroke-width: 1.75; opacity: 0.75; }
+.concept-edge.dim { stroke: var(--color-text-muted); opacity: 0.3; stroke-width: 1.25; }
+@media (max-width: 700px) {
+  .concept-col { width: 168px; }
+  .concept-graph { gap: 40px; padding: var(--sp-4); }
+}
 
 /* ---- Quiz ---- */
 .quiz-option {

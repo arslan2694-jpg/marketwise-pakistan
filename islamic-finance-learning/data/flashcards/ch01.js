@@ -192,5 +192,69 @@ window.IFL_DATA.flashcards.push(
     "front": "What do Parts II and III of Ayub's book cover?",
     "back": "Part II (Ch.5-7): Islamic law of contracts — sale, loans/debts, subcontracts like Hawalah/Kafalah/Rahn. Part III (Ch.8-18): financing modes and products (Murabaha, Salam/Istisna'a, Ijarah, Musharakah/Mudarabah), accessory contracts, application principles, Sukuk, Takaful, an appraisal of criticism, and the way forward.",
     "source": { "chapter": 1, "section": "1.11", "pages": [17, 18, 19] }
+  },
+  {
+    "id": "fc-ch1-25",
+    "chapter": 1,
+    "category": "Exam facts",
+    "front": "What does Ayub say about 'Billanthropy' by the biggest charitable foundations?",
+    "back": "Even large-scale giving ('Billanthropy') by the biggest charitable foundations has not been able to make a dent on poverty, since imbalances created by the system as a whole cannot be corrected by selective spending alone.",
+    "source": { "chapter": 1, "section": "1.4", "pages": [8] }
+  },
+  {
+    "id": "fc-ch1-26",
+    "chapter": 1,
+    "category": "Exam facts",
+    "front": "What UN estimate does John Perkins cite (via Ayub) to contrast with global war spending?",
+    "back": "The United Nations estimated that about $40 billion would be sufficient to provide clean water, adequate diets, sanitation and basic education to every person on the planet - a sum Perkins contrasts with the trillions spent on wars and bribing the corrupt.",
+    "source": { "chapter": 1, "section": "1.2", "pages": [5, 6] }
+  },
+  {
+    "id": "fc-ch1-27",
+    "chapter": 1,
+    "category": "Comparisons",
+    "front": "Per Ayub's footnote, how did China and India's response to the 'Washington Consensus' differ from countries that followed it, and what happened in Malaysia's 1997-98 crisis?",
+    "back": "China and India did not follow the Washington Consensus (jointly devised by the US Treasury, IMF and World Bank) and instead devised their own policies, becoming the fastest-growing economies in the world; Malaysia controlled its late-1990s crisis by adopting its own policies rather than IMF/World Bank advice.",
+    "source": { "chapter": 1, "section": "1.2", "pages": [6] }
+  },
+  {
+    "id": "fc-ch1-28",
+    "chapter": 1,
+    "category": "Exam facts",
+    "front": "What debt-relief statistics does Ayub cite for developing countries in the early-to-mid 2000s?",
+    "back": "Debt relief was given to 27 countries (mostly Sub-Saharan Africa), reducing their debt stock by two-thirds (World Bank, 2005); developing countries' external debt fell from about 45% of GNI (1999) to about 40% (2003) - though domestic debt rose to offset this, and developed-country trade barriers on poor countries' products persisted.",
+    "source": { "chapter": 1, "section": "1.2", "pages": [5] }
+  },
+  {
+    "id": "fc-ch1-29",
+    "chapter": 1,
+    "category": "Definitions",
+    "front": "Define Mal (property) per Nabhani, as cited by Ayub in Chapter 1.",
+    "back": "Anything that can be possessed: money (e.g. gold and silver), commodities (e.g. clothes and foodstuffs), and immovable property (e.g. houses and factories); wealth is Mal together with human effort.",
+    "source": { "chapter": 1, "section": "1.7", "pages": [10, 11] }
+  },
+  {
+    "id": "fc-ch1-30",
+    "chapter": 1,
+    "category": "Exam facts",
+    "front": "What did UK Chancellor Gordon Brown say about how Islam historically spread, and how does Ayub connect this to Islamic finance?",
+    "back": "Brown said it was mainly through peaceful trade that the faith of Islam arrived in different countries. Ayub argues Islamic finance's trade-based models can similarly provide closer interaction between Muslim and non-Muslim communities and enhance social cohesion.",
+    "source": { "chapter": 1, "section": "1.9", "pages": [13] }
+  },
+  {
+    "id": "fc-ch1-31",
+    "chapter": 1,
+    "category": "Exam facts",
+    "front": "Summarize the historical arc of Muslim civilization's economic role that Ayub sketches in Section 1.7.",
+    "back": "A golden age of trade, scholarship and economic-principle development from the 7th to 11th century, followed by intellectual decline that caused the Muslim world to miss the Industrial Revolution, ending with the fall of the Ottoman Empire (the last Muslim world power) to European colonization after British/French-instigated rebellion against Turkish rule.",
+    "source": { "chapter": 1, "section": "1.7", "pages": [11] }
+  },
+  {
+    "id": "fc-ch1-32",
+    "chapter": 1,
+    "category": "Principles",
+    "front": "What Hadith does Gordon Brown quote (cited by Ayub) to argue for cross-border ethical solidarity?",
+    "back": "'The Ummah, the Muslim global community, is like the human body - when one part feels pain, the other parts must reflect the pain' - a truth relevant in and beyond the Muslim world, emphasizing duty to strangers and outsiders.",
+    "source": { "chapter": 1, "section": "1.9", "pages": [14] }
   }
 );

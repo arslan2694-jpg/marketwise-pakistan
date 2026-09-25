@@ -184,5 +184,69 @@ window.IFL_DATA.flashcards.push(
     front: "If an Istijrar arrangement is structured via Murabaha, what additional requirement applies to each consignment?",
     back: "A separate offer and acceptance is needed for every consignment, based on the client's requisition each time - Murabaha's full conditions still apply.",
     source: { chapter: 13, section: "13.5", pages: [355] }
+  },
+  {
+    id: "fc-ch13-24",
+    chapter: 13,
+    category: "Exam facts",
+    front: "List the five types of Wakalah described in Chapter 13.",
+    back: "Wakil-bil-Kusoomah (taking up disputes/cases), Wakil-bil-Taqazi al Dayn (receiving debt), Wakil-bil-Qabaza al Dayn (possession of debt), Wakil-bil-Bai' (agency for trading), and Wakil-bil-Shira (agency for purchase).",
+    source: { chapter: 13, section: "13.2.1", pages: [347] }
+  },
+  {
+    id: "fc-ch13-25",
+    chapter: 13,
+    category: "Exam facts",
+    front: "What textual evidence from the Prophet's (pbuh) own practice supports the permissibility of Wakalah?",
+    back: "The Prophet (pbuh) himself delegated the job of purchasing a goat for him to a Companion named 'Urwah al Barqi; the fourth Caliph Ali and other Companions also delegated their business to others.",
+    source: { chapter: 13, section: "13.2", pages: [347] }
+  },
+  {
+    id: "fc-ch13-26",
+    chapter: 13,
+    category: "Contract rules",
+    front: "Distinguish a specific agency contract from a general agency contract, with an example of each.",
+    back: "Specific: a bank asks an agent to sell one particular asset at a given price/instruction. General: a bank appoints an agent to purchase certain kinds of goods as and when asked. Even in a general contract, the job's nature must be clearly defined to avoid disputes.",
+    source: { chapter: 13, section: "13.2", pages: [348] }
+  },
+  {
+    id: "fc-ch13-27",
+    chapter: 13,
+    category: "Contract rules",
+    front: "Which contracts are attributed explicitly to the principal only, even though the agent handles most rights/liabilities in a transaction?",
+    back: "Marriage, divorce, and settlement of murder are attributed explicitly to the principal - unlike delivery, price claims, inspection rights, and being sued for non-performance, which are attributed to the agent.",
+    source: { chapter: 13, section: "13.2", pages: [348] }
+  },
+  {
+    id: "fc-ch13-28",
+    chapter: 13,
+    category: "Risk",
+    front: "Why is Tawarruq carried out through national/international commodity exchanges vulnerable to Shari'ah violations?",
+    back: "Because only brokers perform nominal agency services and the goods always remain where they were, without any real transfer of ownership from seller to buyer - several conditions of a valid sale may be lacking.",
+    source: { chapter: 13, section: "13.3", pages: [350] }
+  },
+  {
+    id: "fc-ch13-29",
+    chapter: 13,
+    category: "Financing modes",
+    front: "Besides simple commodity purchase/resale, what other structures do some Islamic banks use to conduct Tawarruq, and what caution applies?",
+    back: "Shares of joint stock companies, Ijarah Sukuk (tangible assets and services), and 'bundles of assets' (real assets plus cash/receivables, with real assets forming the majority). Despite legal permissibility, extensive use of such financing needs to be avoided.",
+    source: { chapter: 13, section: "13.3", pages: [350] }
+  },
+  {
+    id: "fc-ch13-30",
+    chapter: 13,
+    category: "Contract rules",
+    front: "Can a Ju'alah worker be unspecified, and how does this differ from Ijarah?",
+    back: "Yes - the worker may be any specified person(s) or simply the general public (unlike Ijarah). An unspecified public offer lets any interested person attempt the work, alone or with help; a specified worker must personally undertake it, or involve others only with the offeror's express consent.",
+    source: { chapter: 13, section: "13.4.1", pages: [351, 352] }
+  },
+  {
+    id: "fc-ch13-31",
+    chapter: 13,
+    category: "Contract rules",
+    front: "What is a Ju'alah worker's liability status regarding the offeror's property in his possession?",
+    back: "The worker is considered a trustee (Amin) regarding any offeror property in his possession - not liable for loss except in cases of negligence, misconduct, or violation of the stipulated conditions.",
+    source: { chapter: 13, section: "13.4.1", pages: [352] }
   }
 );

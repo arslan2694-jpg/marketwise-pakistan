@@ -285,6 +285,15 @@ window.IFL_DATA.chapters[12] = {
         "Profit-sharing ratio (flexible, by mutual agreement, can reflect work contribution) vs loss-sharing ratio (rigid, always exactly proportional to capital investment) - the single most tested distinction in Musharakah."
       ],
       relatedConcepts: ["Mudarabah", "Diminishing Musharakah", "Rabbul-mal"],
+      transactionSteps: [
+        { step: "Capital Contribution", description: "Partners contribute capital in any agreed proportion (contributions need not be equal); the capital is commingled - actually (physically pooled) or constructively (merged on an agreed valuation basis) - so individual ownership is replaced by collective joint-venture ownership." },
+        { step: "Joint Ownership and Mutual Agency", description: "Upon contract execution, partners automatically become each other's agents (Wakil, not Kafil/surety for one another); one partner's possession of Musharakah property constitutes constructive possession for all the others." },
+        { step: "Agreed Management Arrangement", description: "Partners agree how the business will be run: all partners may take part in routine management, management may be restricted to specific partners, or it may be delegated to an outside manager (fixed remuneration, optionally with a profit-based bonus) or structured as a Mudarabah-style profit-share-only role." },
+        { step: "Business Operates", description: "The partnership conducts its agreed trade or business activity using the commingled capital, under the agreed management arrangement, with partners handling routine matters such as sales, purchases, and credit requests as each other's agents." },
+        { step: "Profit Shared Per Agreed Ratio", description: "Realized net profit (never a lump sum or a fixed percentage of capital) is distributed per whatever ratio the partners agreed - which may differ from the capital ratio to reflect work contribution, subject to the rule that a partner who explicitly declared himself 'sleeping' cannot receive more than his capital ratio." },
+        { step: "Loss Shared Strictly Per Capital Ratio", description: "Any loss - meaning erosion of the Musharakah capital - is borne by every partner exactly in proportion to his capital investment, with no exceptions, per the maxim: 'profit is based on agreement of the parties, but loss is always subject to the ratio of investment.'" },
+        { step: "Termination or Maturity", description: "The Musharakah ends when its purpose is achieved, a partner withdraws after due notice, a partner dies, capital is wholly lost, a partner loses legal capacity, or (in modern practice) an agreed binding period expires - after which assets are valued and a final settlement made per the agreed profit and capital ratios." }
+      ],
       examRelevance: "core",
       difficulty: "intermediate",
       source: { chapter: 12, section: "12.3.4", pages: [316, 317, 318, 319, 320] }
@@ -400,6 +409,14 @@ window.IFL_DATA.chapters[12] = {
         "Mudarabah capital (should be legal tender money, cannot be an existing debt) vs Musharakah capital (majority view also prefers liquid assets, but goods with assessed market value are more readily accepted)."
       ],
       relatedConcepts: ["Musharakah", "Qard", "Riba"],
+      transactionSteps: [
+        { step: "Rabbul-mal Provides Capital", description: "The capital provider (Rabbul-mal) contributes the Mudarabah capital, preferably as legal tender money (an existing debt cannot serve as capital, since this would risk disguising a usurious loan as a Mudarabah)." },
+        { step: "Mudarib Undertakes the Business", description: "The working partner (Mudarib) takes charge of trading with the capital, acting as the Rabbul-mal's trustee and agent - he contributes no capital of his own, only labour, skill, and management." },
+        { step: "Business Operated by the Mudarib Alone", description: "The Mudarib runs the agreed business - restricted to a specified line of trade, place, or time if the financier so stipulated, or left unrestricted otherwise - while the Rabbul-mal has no right to participate in management, retaining only the right to oversee honest and efficient conduct." },
+        { step: "Profit Shared Per Agreed Ratio", description: "Any profit is divided between the two parties strictly per the pre-agreed ratio (never a lump sum or fixed amount), with final distribution determined only at actual or constructive liquidation, though provisional on-account draws are permitted subject to later adjustment." },
+        { step: "Loss Borne Solely by the Capital Provider", description: "Loss - meaning erosion of the Mudarabah capital - falls exclusively on the Rabbul-mal; the Mudarib bears no financial loss beyond his uncompensated time and effort, unless his negligence, misconduct, or breach of the agreed conditions caused the loss, in which case he becomes liable for it." },
+        { step: "Termination", description: "The Mudarabah ends by mutual consent or on completion of its restricted purpose; once the Mudarib has actually commenced business, or where a fixed duration was agreed, it becomes binding until liquidation or expiry - at which point illiquid assets are valued or sold so the final profit or loss can be determined and settled." }
+      ],
       examRelevance: "core",
       difficulty: "intermediate",
       source: { chapter: 12, section: "12.4-12.4.1", pages: [320, 321, 322, 323] }
