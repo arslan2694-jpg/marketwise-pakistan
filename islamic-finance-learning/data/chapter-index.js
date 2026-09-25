@@ -767,6 +767,13 @@ window.IFL_DATA.chapterIndex = {
           "subsections": []
         },
         {
+          "sectionNumber": "6.10",
+          "title": "Bai‘ al Dayn (Sale of Debt)",
+          "page": 146,
+          "pdfPage": 174,
+          "subsections": []
+        },
+        {
           "sectionNumber": "6.11",
           "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
           "page": 147,
