@@ -5,10 +5,11 @@
   "description": "Offline-first study platform for Muhammad Ayub, Understanding Islamic Finance.",
   "scripts": {
     "start": "npx --yes http-server -c-1 -p 8080 .",
-    "build": "node tools/build-course-index.cjs && node tools/build-indexes.cjs && node tools/build-sw.cjs",
+    "build": "node tools/build-course-index.cjs && node tools/build-indexes.cjs && node tools/build-sw.cjs && node tools/build-standalone.cjs",
     "validate": "node tools/validate.cjs && node tools/audit-content.cjs && node tools/audit-overlap.cjs",
     "test": "node tools/validate.cjs && node tests/e2e.cjs",
-    "icons": "node tools/render-icons.cjs"
+    "icons": "node tools/render-icons.cjs",
+    "test:standalone": "node tools/build-standalone.cjs && E2E_FILE=Islamic-Finance-Learning.html node tests/e2e.cjs"
   },
   "license": "UNLICENSED"
 }

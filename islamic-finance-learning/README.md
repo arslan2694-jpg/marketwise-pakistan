@@ -27,7 +27,9 @@ Keyboard: `/` focuses search. In quizzes, `A`–`D` or `1`–`4` answer and `Ent
 
 ## How to run it
 
-**Option 1: open the file.** Double-click `index.html` or open it in a browser (`file://`). Everything works this way, including progress saving. The app is plain HTML, CSS and JavaScript loaded as classic scripts, with no build step and no dependencies.
+**Easiest: the single-file version.** `Islamic-Finance-Learning.html` is the complete app in one self-contained file (about 1.5 MB). All 18 chapters, the glossary, flashcards, questions, diagrams, cases, study plans, styles and code are embedded. Double-click it, or copy, email or USB it anywhere; it needs no other files and no internet. It has every feature of the folder version. The only exception is the "Open textbook PDF at page" button, which works only if the file sits next to a `textbook/` folder containing the PDF. It is generated from the sources by `node tools/build-standalone.cjs` (part of `npm run build`), so edit the source files, not this one. Progress is saved in the browser. Chrome and Edge share it between the single file and `index.html`. Firefox and Safari may keep it separate for each file location. Export and Import move it either way.
+
+**Option 1: open the folder version.** Double-click `index.html` or open it in a browser (`file://`). Everything works this way, including progress saving. The app is plain HTML, CSS and JavaScript loaded as classic scripts, with no build step and no dependencies.
 
 **Option 2: serve it locally.** This turns on the installable PWA and offline cache:
 
@@ -85,6 +87,7 @@ The app does not need the PDF. When the PDF is present, the "View source context
 
 ```text
 islamic-finance-learning/
+├── Islamic-Finance-Learning.html   Generated single-file build (everything inlined; double-click to run)
 ├── index.html              App shell (top bar, sidebar, view, bottom nav); loads scripts in order
 ├── styles.css              Design system: tokens for light/dark, layout, components, responsive rules
 ├── app.js                  Navigation, theme, mobile drawer, shortcuts, service-worker registration

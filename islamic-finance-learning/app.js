@@ -100,7 +100,7 @@
   window.addEventListener('unhandledrejection', function (e) { console.error(e.reason); if (e.reason && /Could not load/.test(String(e.reason.message))) u.toast('Some content could not be loaded. Check that all files are present.'); });
 
   /* Offline: service worker when served over http(s) */
-  if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+  if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol) && !window.IFL_STANDALONE) {
     window.addEventListener('load', function () { navigator.serviceWorker.register('service-worker.js').catch(function (err) { console.warn('Service worker not registered', err); }); });
   }
 

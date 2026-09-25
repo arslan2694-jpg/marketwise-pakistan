@@ -7,7 +7,9 @@ const path = require('path'), fs = require('fs'), http = require('http');
 let pw; try { pw = require('playwright'); } catch (e) { pw = require('/opt/node22/lib/node_modules/playwright'); }
 
 const ROOT = path.join(__dirname, '..');
-const URL = 'file://' + path.join(ROOT, 'index.html');
+// E2E_FILE=/path/to/Islamic-Finance-Learning.html runs the same suite against the single-file build.
+const STANDALONE = process.env.E2E_FILE || '';
+const URL = 'file://' + (STANDALONE ? path.resolve(STANDALONE) : path.join(ROOT, 'index.html'));
 const SHOTS = path.join(__dirname, 'screenshots');
 const filter = process.argv[2] || '';
 const tests = [];
@@ -408,6 +410,17 @@ test('UX flow (Phase 52): dashboard → chapter 1 → topic → complete → Ch 
   assert(s.attempts.length === 1 && s.notes.length === 1 && s.bookmarks.length === 1 && s.reviews.length === 1, 'quiz, note, bookmark and flashcard review all recorded');
 });
 
+test('standalone: the whole app runs from one file (no other file is requested)', async (page) => {
+  if (!STANDALONE) return;
+  const files = [];
+  page.on('request', (r) => files.push(r.url()));
+  await page.reload(); await page.waitForSelector('#view > *');
+  for (const r of ['/chapter/18', '/topic/t17.4', '/glossary', '/diagram/takaful', '/cases', '/finder', '/guided/deep180']) await go(page, r);
+  const others = files.filter((u) => !/^(data|blob):/.test(u) && !u.endsWith(path.basename(STANDALONE)));
+  assert(others.length === 0, 'extra files requested: ' + others.join(', '));
+  assert(await page.evaluate(() => Object.keys(window.IFL_DATA.chapters).length) === 18, 'all 18 chapters embedded');
+});
+
 /* ---------------- Runner ---------------- */
 function serve() {
   const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.pdf': 'application/pdf' };
@@ -426,7 +439,7 @@ function serve() {
   const srv = await serve();
   const base = 'http://127.0.0.1:' + srv.address().port + '/index.html';
   let pass = 0, fail = 0;
-  for (const t of tests.filter((x) => x.name.includes(filter))) {
+  for (const t of tests.filter((x) => x.name.includes(filter) && !(STANDALONE && x.opts.http))) {
     const t0 = Date.now();
     let ctx, page;
     try {
