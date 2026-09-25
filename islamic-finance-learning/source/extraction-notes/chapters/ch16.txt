@@ -1,0 +1,756 @@
+
+----- p.417 (pdf 445) -----
+
+
+16
+Takaful: An Alternative
+to Conventional Insurance
+16.1 INTRODUCTION
+Insurance has become a need of businesses and individuals for mitigating risks and losses
+and lessening the impact of catastrophes on their lives and wealth. Financial institutions also
+have to take out insurance cover to safeguard against losses. When Islamic banking started
+functioning in the 1970s, it also required a Shar ¯ı´ah-compliant alternative to conventional
+insurance, considered against the Shar ¯ı´ah tenets due to the involvement of Riba, Gharar
+and gambling. To fill the gap in the cycle of Islamic finance, the system of Takaful has
+been developed and a large number of Takaful companies are providing services in various
+regions of the world.
+In this chapter we shall briefly discuss the reasons why conventional insurance is frowned
+upon, the need for and evolution of Takaful, the Shar ¯ı´ah basis and features of Takaful,
+various models of Takaful, the status, opportunities and the challenges facing the Takaful
+industry. Giving details about the technicalities and working of the Takaful industry is not
+the objective. As the nature of business of banking and Takaful is different, and bankers are
+mostly not involved in Takaful business, the purpose of this chapter is only to introduce the
+reader to the main features of the Takaful system that is compliant with the Shar ¯ı´ah tenets.
+16.2 THE NEED FOR TAKAFUL COVER
+All human beings are exposed to risks in respect of their lives and belongings. Man is
+required by instinct, and as such has always strived, to safeguard himself from the risks and
+hazards to his life and property. As human society developed and business grew, this instinct
+took the form of the business of life and general insurance. Today, the insurance industry
+has become a necessary part of business and part and parcel of the financial system. 1
+However, Muslim societies in general have been avoiding commercial insurance, mainly
+for two reasons. First, it has been considered unnecessary, as members of a Muslim society
+are required to help each other, particularly the victims of any misfortune. Hence, some
+arrangements to help traders and other communities have been in existence in Muslim
+societies for centuries. Many people believe that true belief in Allah and destiny means there
+is no need for any such cover against death or losses to a man himself or his wealth. Things
+happen with the will and order of God and to get insurance against them is considered to
+1 Insurance products are mainly of two categories: life insurance and general insurance. The latter has three main branches: marine,
+fire and accident (as in the case of motor vehicles, aeroplanes, etc.); life insurance is broadly classified into whole life policies and
+endowment policies. While whole life policies promise the face value of the policy whenever the insured dies, endowment policies
+are confined to limited periods.
+
+
+----- p.418 (pdf 446) -----
+
+
+418 Understanding Islamic Finance
+be questioning His actions. Second, the severe prohibition of Riba, Gharar and gambling
+are believed to indicate the nonpermissibility of conventional insurance. Further, insurance
+companies are involved in other forbidden businesses, including alcohol, pork, indecent
+entertainment and hotels with clubs and prohibited activities.
+While the second reason is genuine and must be observed in order to avoid prohibitions,
+the first is only a myth. All human beings are invariably exposed to the likelihood of meeting
+catastrophes and disasters, giving rise to misfortune and suffering such as death, loss of
+limbs, accident, destruction of business or wealth, etc. Notwithstanding the belief in Allah
+and destiny, Islam provides that one must find ways and means to avoid such catastrophe
+and disaster wherever possible, and to lighten one’s or one’s family’s burden should such
+an event occur.
+Shar¯ı´ah intends to save human beings from hardship. The Holy Qur´ ¯an says: “Allâh
+intends for you ease, and He does not want to make things difficult for you.” (2: 185). It
+further says: “Allah wishes to lighten (the burden) for you, and man was created weak” (4:
+28). One day the holy Prophet (pbuh) saw a person leaving a camel in the jungle, he asked
+him: “Why don’t you tie down your camel?” He answered: “I put my trust in Allah.” The
+Prophet said: “Tie your camel first, then put your trust in Allah.”
+The idea of getting cover against risks is not intrinsically bad. In the case of genuine
+problems and remaining within the main Shar ¯ı´ah constraints, the rule of necessity comes
+into play to find the proper solutions. Therefore, the scholars deemed it necessary to develop
+a scheme or system enabling human beings to avoid misfortune and lessen the losses in a
+manner not against the principles of the Shar ¯ı´ah.
+The insurance business is conducted mostly by non-bank financial institutions (NBFIs)
+and the commercial banks are not allowed, in most countries, to be involved in the insurance
+business. However, all commercial and investment banks and other NBFIs have to resort to
+insurance services, either as a regulatory requirement or as an unavoidable business need.
+Similarly, business, industry and individuals have been increasingly taking on the services
+of insurance companies to safeguard against unfortunate incidents and losses to life and
+wealth. While Islamic banking emerged in the 1960s and early 1970s, Islamic insurance
+started no earlier than 1979. This reveals that the Takaful system developed in response to
+demand for risk cover by Islamic financial institutions, due mainly to the fact that banking
+and insurance go hand-in-hand and complement each other’s operations. However, it may
+also have positive implications for those individuals, households and businesses who have
+been avoiding insurance on the basis of belief.
+16.2.1 Why Conventional Insurance is Prohibited
+As indicated above, efforts to avoid risk are not against the Shar ¯ı´ah tenets. Belief in God or
+destiny does not mean that man should be exposed to unnecessary risks, and Shar ¯ı´ah accepts
+the basic safety requirement of human beings and their belongings. This includes protection
+of self, protection of one’s offspring and wealth, protection against disease, illiteracy and
+poverty and other misfortune. Why, then, is conventional insurance not acceptable in the
+structure of Islamic finance?
+Marine insurance was the first form of commercial insurance, initiated probably at the
+end of the 12th century. It took the form of a formal system in the 17th century, when
+the marine business developed on a massive scale. Among the Islamic jurists, Ibn Abdin, a
+widely respected jurist of the 19th century, was the first scholar who wrote about modern
+
+
+----- p.419 (pdf 447) -----
+
+
+Takaful: An Alternative to Conventional Insurance 419
+commercial insurance in detail and particularly discussed the marine insurance of his time;
+but he did not approve it from the Shar ¯ı´ah point of view.
+Different views have been expressed about the Shar ¯ı´ah status of conventional insurance. 2
+The difference of opinion has arisen for two reasons: one, jurists who did not know the
+details and complexities involved in various forms of insurance and its structure were asked
+to issue edicts without sufficiently explaining the background and perspective of the issues
+involved, and two, there is no direct reference to practices like insurance in the Holy Qur´ ¯an
+and Sunnah. As Islamic economics and finance developed, Shar ¯ı´ah scholars gained more
+and more knowledge and, hence, it became easy for them to analyse the system proactively.
+As a result, an overwhelming majority of the Shar ¯ı´ah scholars have come to the conclusion
+that commercial insurance is unlawful due to the involvement of Riba (interest), Qim ¯ar and
+Maisir (gambling), Gharar (excessive uncertainty) and the invalid transfer of risk from the
+insured to the insurer. As a whole, it contains the element of temptation and cheating and is
+incompatible with the natural and ethical methods of earning money.
+Riba is involved in conventional insurance both directly and indirectly: an excess on one
+side in the case of exchange between the amount of premiums and the sum insured is the direct
+involvement of Riba, while investment in interest-based businesses by the insurer refers to the
+indirect involvement of the policyholder in Riba-based transactions. If a claim is not made in
+non-life policies, the insurance company keeps almost the whole amount. There is a loss of
+premiums in the case of cancellation of a life insurance policy by the policyholder, while only
+a proportional refund is made if the insurance company terminates the cover.
+Gharar means Khatar and uncertainty about the subject matter and the price and the
+rights and liabilities of parties in commutative contracts and also involves Maisir and Qim ¯ar.
+Khatar refers to stipulating transfer of ownership of a property or profitability in a deal where
+commercial benefit is involved on both sides for any uncertain event. Hence, Khatar/Gharar
+would be found if the liability of any of the parties to a contract was uncertain or contingent;
+delivery of one of the exchange items was not in the control of any party, or the payment from
+one side was uncertain. Qim ¯ar is found in a deal if the profit of one party is dependent on
+the loss of the other. It also involves Maisir, which means any deal in which monetary gains
+come from mere chance, speculation and conjecture and not from work, taking responsibility
+or real sector business.
+Conventional insurance involves Khatar as a policyholder enters into a business deal in
+which his liability and the right both remain contingent. He loses the amount given as
+premium if the event of insurance does not occur, as in the case of general insurance. The
+insurer (company) does not know how much he will owe to the insured. In many cases, an
+insured also does not know how much he will pay ultimately to the insurer. In life policies,
+a policyholder has generally to lose all premiums that he has paid if he cancels his policy
+within the first two or three years of the contract.
+The insurer receives premiums and undertakes to fulfil the loss or damage to life or
+property of the insured. It is either in surplus or in deficit if the claims are less or higher than
+the premiums received, respectively. This becomes a monetary or commercial transaction in
+which the insurer owns an underwriting surplus (UWS) or underwriting loss (UWL). 3
+2 For different views on insurance, see Khorshid, 2004, pp. 12–15, 60–78; Fatawah in respect of insurance/Takaful are given
+(without text) in the appendix to this chapter.
+3 UWS means the net amount of money which the insurer gets from the premiums paid by the policyholders after payments of
+the claims, if any. Conversely, UWL is the amount of money which the insurer has to pay in the form of claims in excess of the
+premiums received from the policyholders.
+
+
+----- p.420 (pdf 448) -----
+
+
+420 Understanding Islamic Finance
+Any of the parties gains at the cost of the other. The hope of “chance profit” or gain motivates
+the taking of risk, the feature which makes the insurance contract a money stake or a gamble.
+It is pertinent to keep in view in this regard that Gharar, or uncertainty, is prohibited when it is
+involved in commercial/commutative contracts. As conventional insurance is a commutative
+contract, any involvement of uncertainty would invalidate the contract.
+At the present stage of human life, individuals, businesses and societies cannot afford
+to avoid such cover against losses to business. The only requirement is that the elements
+prohibited by the Shar ¯ı´ah are excluded from any such scheme. Hence, an Islamic alternative
+to insurance was urgently required to fill the gap in Islamic finance. In many cases it is
+a legal requirement that assets underlying Islamic banking contracts have to be insured,
+as in the case of auto Ijarah, storage, shipment and transportation of goods, etc. Further,
+Islamic banks’ clients criticized the involvement of conventional insurance as they wanted
+to avoid interest in all respects. In addition to that, there was a need for an alternative to
+life insurance, as in the case of housing finance by an increasing number of IFIs and for
+the benefit of individuals. IFIs also needed to offer savings and protection-related Takaful
+products to their customers. As such, the development of the Takaful industry was necessary
+to complete the cycle of Islamic finance.
+16.3 THE SHAR ¯I´AH BASIS OF TAKAFUL
+The approximate Shar ¯ı´ah equivalent word for insurance in Arabic is “Ta’mein”, which
+means to reassure, safeguard and guarantee through indemnity to losses. It also denotes
+fidelity, loyalty, confidence and trust and refers more to guarantee than to cooperative sharing
+of losses among a group. This concept remained under discussion of the scholars for about
+a century. But the concept which finally gained Shar ¯ı´ah scholars’ acceptance on a large
+scale is that of Takaful, which requires that the nature of the main insurance contract should
+be converted to a contributory arrangement in which the losses to members may be covered
+from the Takaful pool on the basis of mutual help and sacrifice.
+Shaikh Abu Zahra, an eminent jurist of the 20th century, has deliberated upon the subject
+in detail and concluded that a cooperative and social insurance scheme is, in principle,
+legitimate, and that noncooperative insurance is unacceptable because it contains the traits
+of gambling, temptation and usury that invalidate the contract. 4 The Islamic Fiqh Council
+of the OIC approved the Takaful system based on mutual cooperation as an alternative to
+conventional insurance in 1985.
+Takaful is not a new concept for Islamic commercial law. Islam accepts the right of human
+beings to protect their religion (belief), life, dignity and honour, property and talent. Some
+similar practices were in vogue in early Islamic Arab Society, like ‘ ¯Aqilah (kinsmen; further
+explained below), Qas ¯amah (an oath that was taken from the kinsmen of the murdered; in
+one such case the holy Prophet paid blood money of one hundred camels of Sadaqah 5) and
+Maw¯al¯at (a contract in which one party agreed to bequeath his property to the other on the
+understanding that the benefactor would pay any blood money that may eventually be due
+by the former) 6.
+4 Khorshid, 2004, pp. 58, 59.
+5 Muslim, 1981, Book 16, Kitab al Qasamah.
+6 Khorshid, 2004, p. 24.
+
+
+----- p.421 (pdf 449) -----
+
+
+Takaful: An Alternative to Conventional Insurance 421
+Contemporary jurists acknowledge that the principle of shared responsibility in the system
+of “ ‘ ¯Aqilah” (kinsmen or people in a relationship) laid the foundation for Takaful. It was
+practised in the ancient Arab tribes and the holy Prophet (pbuh) approved it. In the case
+of any natural calamity, everybody used to contribute something until the disaster was
+relieved. Similarly, the idea of ‘ ¯Aqilah in respect of blood money was based on the concept
+of Takaful, wherein payments by the whole tribe distributed the burden of the family in
+trouble. Islam accepted this principle of reciprocal compensation and joint responsibility. 7
+In addition, such an institution of mutual help was established in the early second century
+of the Islamic era when the Arabs expanding trade into Asia mutually agreed to contribute
+to a fund to help anyone in the group that incurred mishaps or robberies during the sea
+voyages.
+On the basis of the above principles, the Takaful system as an alternative to conventional
+insurance embodies the elements of shared responsibility, common benefit and mutual
+solidarity. Every policyholder pays his subscription in order to assist those among them
+who need assistance. The theory of Islamic finance does not accept Gharar or excessive
+uncertainty in respect of rights and liabilities of the parties to a commercial contract. Hence,
+the concept of Tabarru‘ (donation) has been incorporated in the arrangement as the main
+ingredient of the contract. A participant of a Takaful policy agrees to relinquish, as Tabarru‘,
+the whole or a certain proportion of his Takaful contributions that he undertakes to pay, thus
+enabling him to fulfil his obligation of mutual help should any of his fellow participants
+suffer a defined loss.
+Another concept and institution which provides support to the idea of mutual help is that
+of Waqf (endowment). Waqf in Islamic Shar ¯ı´ah refers to the retention of a property for the
+benefit of a charitable or humanitarian objective, or for a specified group of people such
+as members of the donor’s family. There are three kinds of Waqf in Islamic jurisprudence:
+religious Waqf, philanthropic Waqf and family Waqf. Waqf becomes a separate entity which
+has the ability to accept or transfer ownership. The ownership of the Waqf property is
+transferred from the person creating the Waqf forever. Waqf property cannot be sold; only the
+usufruct is assigned to the beneficiaries. According to the Waqf principles, a member (donor)
+can also benefit from the Waqf. The beneficiaries of the Waqf in Takaful arrangements are
+the creator of the Waqf and the group whose members contribute for the purpose of mutual
+help and covering the losses to any of them.
+Keeping the above in mind, the jurists have developed, over the last two or three decades, a
+system of cooperative risk-sharing in such a way that on the one hand, the basic prohibitions
+of Shar¯ı´ah are taken care of and, on the other hand, the requirements of the socio-economic
+and financial framework are fulfilled. The losses of the unfortunate few are shared by the
+contributions of the fortunate many that are exposed to the same risk on a cooperative
+risk-sharing basis. The funds are used by the manager/trustee for payment of claims and for
+business in any Shar ¯ı´ah-compliant manner. The underwriting surplus or deficit belongs to
+the group members. The manager of the pool gets a return in the form of a fee and/or share
+from the profit made from the investments of the funds in Shar ¯ı´ah-compliant avenues (this
+is the “investment profit” – different from the UWS/UWL as discussed above).
+7 Muslehuddin, 1982, p. 62; Nyazi, 1988, p. 339.
+
+
+----- p.422 (pdf 450) -----
+
+
+422 Understanding Islamic Finance
+16.3.1 Main Objective of the Takaful System
+The above discussion reveals that the main objective of the Takaful system from the poli-
+cyholders’ point of view is mutual help and not earning profit or any windfall gains, as in
+the case of conventional insurance. In all forms of Takaful, like family Takaful (alternative
+to life insurance) or general Takaful, the participants agree to help one another out of their
+contributions at the time when any of them faces any catastrophe or incurs any defined
+loss. As a business venture, however, the operators can get fees and/or share the profits
+against their services and the policyholders/partners can share the realized profit, if any,
+after making up the losses incurred by the group members.
+Having a family Takaful or Islamic life policy is not against virtue or piety. It does not
+mean that one has insured one’s life; it is one of the means of providing a safeguard for
+offspring and is thus in line with the saying of the holy Prophet (pbuh): “It is better for you
+to leave your offspring wealthy than to leave them poor, asking others for help”. The holy
+Prophet (pbuh) also encouraged the providing of security for widows, orphans and the poor,
+as he highlighted in one of his sayings: “The one who looks after and works for a widow
+and for a poor person (dependent), is like a warrior fighting for the cause of Allah (SWT),
+or like a person who fasts during the day and prays throughout the night”.
+Mutual help in the case of any catastrophe is also acclaimed in the Shar ¯ı´ah. There was
+a concept of mutual protection practised in the Islamic era by establishing common pools
+amongst Muslim traders to jointly compensate the loss to any group member due to robberies
+or misfortune during their trade journeys. As such, the concept of Tabarru‘ and virtue with
+other fellow beings is the main feature of Takaful business and any Takaful-based policy.
+However, there is no Shar ¯ı´ah issue in viewing Takaful as a business when conducted with
+Shar¯ı´ah compliance, transparency and fairness to all stakeholders.
+16.4 HOW THE TAKAFUL SYSTEM WORKS
+A Takaful company serves as a trustee or a manager on the basis of Wakalah or Mudarabah
+to operate the business. The operator and the partners who take any policy contribute to
+the Takaful fund. Claims are paid from the Takaful fund and the underwriting surplus or
+deficit is shared by the participants. In life policies, a part of the contribution is also kept
+as an investment fund. The operator uses the funds in the business on the basis of Wakalah
+or Mudarabah. The underwriting surplus or deficit belongs to the policyholders/partners,
+while distribution of profit arising from the business depends upon the basis of Wakalah or
+Mudarabah.
+The modus operandi of Takaful can be divided mainly into two types: family Takaful or
+life policies and general Takaful. The contribution paid by the life policyholders is divided
+into a “protection part” (for the Takaful fund/payment of claims) and a saving/investment
+part if the company is working as Mudarib; if the company is working on a Wakalah basis,
+contributions are divided into three parts, i.e. a part as a management fee, a protection part
+and the investment part. The protection part works on a donation principle, according to
+which individual rights are given up in favour of the Waqf. In the investment/savings part,
+individual rights remain intact under the Mudarabah principle and the contributions, along
+with the profit (net of expenses), are paid to the policyholders at the end of the policy term
+or before, if required by them. In the case of general Takaful, the whole contribution is
+considered a donation for protection and the participants relinquish their ownership right
+
+
+----- p.423 (pdf 451) -----
+
+
+Takaful: An Alternative to Conventional Insurance 423
+in favour of the Takaful fund, and the UWS/UWL belongs to the participants. There is a
+provision of Qard al Hasan by the company to the fund if claims at any time exceed the
+amount available in it and the reserves are insufficient to meet the shortfall.
+On the same bases of Tabarru‘, Waqf and Mudarabah, Takaful companies can arrange
+re-Takaful, for which they pay an agreed-upon contribution from the Takaful fund to a
+re-Takaful operator, which, in return, helps the Takaful companies in case of losses.
+Here, a question arises about the treatment of Tabarru‘ or donation: some people consider
+it synonymous with Sadaqah, or charity, that, once given, can neither be taken back nor
+can any benefit be derived from it. 8 This, however, is not the case; every donation is not
+necessarily Sadaqah. The operators who are working on the Mudarabah model are of the
+view that the Takaful fund becomes a separate legal entity and the protection part of the
+contribution of the policyholders is considered its part in case of any claims; it is conditional
+on being used to pay the claims and there is an element of surplus, which may be given
+back to the participants. Proportionate ownership of the contribution remains that of the
+participants to the extent that the funds are not used for payment of the claims.
+Even if the amount is considered Tabarru‘ from the very beginning, donations to Waqf are
+used for the beneficiaries in favour of whom the Waqf has been created. Like Sadaqah, here
+also, the person who contributes to the Waqf relinquishes his right of individual ownership;
+but in contrast to Sadaqah, he can benefit from the fund as one of the beneficiaries. This
+is why the model involving the concept of Waqf, as introduced in the Takaful business in
+recent years, is considered preferable to the models that operate without Waqf. The whole
+contribution by the policyholders or a part of it is considered a donation to the Waqf fund.
+Policyholders have no claim on the donation part that is used for payment of claims. The
+operator invests the funds in the business and shares the profits with the Waqf fund and the
+policyholders get any share in the profit as beneficiaries of the fund.
+In the early years when Takaful developed as a system, no distinction was made by the
+Takaful operators between the underwriting surplus and the “investment profit”. Even now,
+in many cases, sharing of profit or surplus that may emerge from the overall operations of
+Takaful is made only after the obligation of assisting fellow participants has been fulfilled.
+But in the continuing process of research and discussion, the scholars felt that the whole
+UWS/UWL should belong to the participants/policyholders and the Takaful operator should
+get a Takaful fee and/or a share in the “investment profit”.
+16.4.1 Models of Takaful
+Any form of insurance business acceptable to Islam must contain the virtues of cooperation,
+solidarity and Tabarru‘. Shar ¯ı´ah scholars are also unanimous that there can be a commercial
+basis conforming to the basic characteristics of Islamic business principles. Towards this
+end, the scholars have suggested from time to time various models, like that of Wakalah,
+Mudarabah, Waqf (a kind of endowment) or Wakalah with Waqf. According to the latest
+research by over forty Shar ¯ı´ah scholars conducted under the guidance of Shaikh Muhammad
+Taqi Usmani, a renowned contemporary jurist and member of the Shar ¯ı´ah councils of the
+OIC/IDB and the AAOIFI, a Waqf model or a combination of Wakalah and Waqf is the best
+basis for evolving a practical Takaful system in line with the Shar ¯ı´ah principles. Even prior
+8 Billah, 2002.
+
+
+----- p.424 (pdf 452) -----
+
+
+424 Understanding Islamic Finance
+to that, some jurists advocated the use of a Waqf mechanism to develop a Shar ¯ı´ah-compliant
+insurance system. 9
+In a pure Wakalah model, generally practised in the Middle East, the Takaful operator
+acts as a Wakil for the participants and gets a fee in the form of an agreed percentage, say
+30 % of the participants’ donations, and the whole UWS/UWL and the investment profit/loss
+belongs to the policyholders or the participants. The Wakalah fee is to cover all management
+expenses of business. The fee rate is fixed annually in advance in consultation with the
+Shar¯ı´ah committee of the company. In order to give incentive, a part of the UWS is also
+given to the operator, depending upon the level of performance. However, the loss (UWL),
+if any, has to be borne only by the participants. The operator simply provides Qard al Hasan.
+For this reason, the Shar ¯ı´ah scholars have expressed some reservation on this model, due
+to it not being equitable.
+Under a pure Mudarabah model, practised mainly in the Asia – Pacific region, the participants
+and the operator enter into a Mudarabah contract for cooperative sharing of losses of the members
+and sharing the profits, if any. The profit, which is taken to mean return on investments plus any
+underwriting surplus (as in the case of conventional insurance), is distributed according to the
+mutually agreed ratio, such as 50:50, 60:40, etc. between the participants and the company. The
+Shar¯ı´ah committee of the Takaful company approves the sharing ratio for each year in advance.
+Most of the expenses are charged to the shareholders. An issue in this model is that the amount
+donated as Tabarru‘ cannot simultaneously become capital for the Mudarabah relationship.
+Moreover, the Takaful operator gets the UWS, but does not bear the UWL. Therefore, Shar¯ı´ah
+scholars have raised serious objections to this model.
+In some cases, a model involving the combination of Mudarabah and Wakalah has been
+adopted. Under the combined model, the sharing of profit between participants and operators
+is an entitlement embedded in the contract, i.e. UWS and the investment profit both are
+shared. There is, however, a structural issue in the way such profit/surplus is determined. The
+issue is that, under Mudarabah, the operator, as the Mudarib, cannot charge its management
+expenses from the Takaful fund separate from its share as Mudarib, whereas under Wakalah,
+the operator, being the agent of the participants, can take its management fees from the fund
+as per pre-agreed terms. Further, the operator does not bear the UWL. Therefore, it also
+smacks of trouble from the Shar ¯ı´ah angle.
+In the Waqf model introduced in recent years, the shareholders create a Waqf fund (Takaful
+fund) through an initial donation to extend help to those who want cover against catastrophes
+or financial losses. More than one Takaful fund can be formed for different classes of service.
+Contributions of the participants, appropriate to the risk of the participants/assets, are divided
+into two parts: one as donation to the Takaful fund and the other for investment on the
+basis of Mudarabah. The donation part always remains with the Waqf. Operational costs
+like re-Takaful, claims, etc. are met from the fund. The underwriting surplus or loss belongs
+to the fund, which can be distributed to the beneficiaries of the Waqf, kept as a reserve
+or reinvested to the benefit of the Waqf. There is no obligation to distribute the surplus.
+Rules for management fees, distribution of profit, creation of reserves, the procedure, extent
+or limit of compensation to the policyholders are decided beforehand. In the case of need,
+shareholders give Qard al Hasan to the fund. For investment purposes, a Mudarabah contract
+takes place between the Takaful fund and the company working as Mudarib. The investment
+9 For details, see Khorshid, 2004, pp. 20–22.
+
+
+----- p.425 (pdf 453) -----
+
+
+Takaful: An Alternative to Conventional Insurance 425
+part is invested by the company on a Mudarabah basis and is redeemed to the policyholder
+on a NAV basis at maturity of the policy. The investment profit is shared between the
+company and the fund. As per the contents of the policies, the company distributes the profit
+among the beneficiaries.
+Box 16.1: Flowchart of the Wakalah with Waqf Model of Takaful
+Profit / loss
+Attributable to
+Shareholders
+Investment
+by Fund 
+Profits  from
+Investment
+DONATION
+PAID by
+Participant 
+WAQF
+FUND
+75%
+TO
+70%
+WAQF
+FUND
+Operational 
+Cost of
+Takaful/
+Retakaful
+Share of
+ surplus for
+The participant
+100%
+Surplus
+COMPANY
+PARTICIPANT
+60%
+Share of Profit
+for the Company
+40%
+Management
+Expenses of
+Company
+WAQF
+initial donation by
+Shareholders to
+create Waqf fund 
+Takaful operator fees for
+Administration expenses
+25% to 30%
+Profit sharing on
+ Mudarabah bases
+Prepared by Abdul Rahim Abdul Wahab of Sidat Hyder Murshid Associates, Karachi 
+1. Shareholders create a Waqf for the purpose of Takaful; policyholders/participants
+donate to the Waqf fund.
+2. The company invests 70 % to 75 % of the Waqf fund on a Wakalah basis. 25–30 %
+is the management fee for the company, from which it shall incur all management
+expenses.
+3. Claims/operational costs of Takaful and re-Takaful are charged to the Takaful fund
+and the UWS or UWL belongs to the participants as a group.
+4. A Mudarabah contract for investment purposes takes place between the fund and the
+company. The profit-sharing ratio between the company and the fund in this case is
+40 % and 60 % (it can be any ratio as per agreement).
+Besides the usual technical reserves, the Waqf fund is allowed to create a contingency
+reserve fund from the contributions and the profit earned on investment. This reserve is also
+
+
+----- p.426 (pdf 454) -----
+
+
+426 Understanding Islamic Finance
+the property of the Waqf. The company’s sources of income are the Waqf management fee,
+paid from the Waqf fund, a share in the investment profit as Mudarib or a service charge as
+investment agent and the profit from shareholders’ money.
+16.4.2 Issues in the Mudarabah Model
+While the concept of Mudarabah is highly suitable as a basis for Islamic banking business,
+particularly on the deposits side, it is not suitable for the insurance business. In a Mudarabah
+model of Takaful, amounts paid by the participants and the investment incomes are used to
+pay the claims, re-Takaful costs and other claims-related expenses from the general Takaful
+fund. Normally, the shareholders meet all management and marketing-related expenses from
+their share and any remaining amount is their net profit. However, in some cases, the
+companies charge management expenses from the Takaful fund, which is against the rules of
+Mudarabah. Some part of any underwriting surplus is also given to the operator, depending
+upon his performance.
+Shar¯ı´ah scholars have raised certain issues about the validity of the Mudarabah model
+for Takaful on account of the following:
+• In this arrangement the cooperative nature of the contract is undermined. The relationship
+between the participants should base on Tabarru‘ and not Mudarabah; profit-sharing
+cannot be applied here. A donation cannot be the Mudarabah capital at the same time.
+• Sharing in any UWS makes the Takaful contract essentially the same as conven-
+tional insurance, in which the shareholders become the risk-takers – they get the UWS
+or bear the UWL; Mudarabah-based Takaful is rather worse, because the Takaful
+operators/shareholders take only the UWS, but do not bear the UWL, if any. The point
+is that a Takaful operator should not be a risk-taker, which he becomes in the case of the
+Mudarabah model.
+• In Mudarabah, invested capital has to be returned along with the profit, if any; and if
+there is a loss, that has to be subtracted from the capital. In non-life Takaful, the paid
+premiums are not returned.
+• The requirement to provide Qard al Hasan (in case of a deficit) in a Mudarabah contract
+is against the concept of Mudarabah by definition, which is a profit-sharing contract.
+Further, a Mudarib cannot be a guarantor to the financier.
+16.4.3 Issues in Wakalah and Wakalah–Mudarabah Models
+• Wakalah combined with Shirkah arrangements (as in the case of most Takaful companies
+in the Middle East that give a part of any UWS to shareholders) is subject to the same
+objections as the Mudarabah model. The problem arises when the Takaful operator is
+given a part of the UWS in addition to the operating fee as a performance incentive.
+Sharing of surplus should be among the pool members of the fund.
+• The risk premium should be separately defined and related to the risk; this should be the
+same for similar risks, regardless of who the client is.
+• For large clients, the company should reduce the operator’s fees and not the risk premium
+rates.
+• Expenses related to initial set-up should be borne by the shareholders.
+
+
+----- p.427 (pdf 455) -----
+
+
+Takaful: An Alternative to Conventional Insurance 427
+16.5 TAKAFUL AND CONVENTIONAL INSURANCE COMPARED
+Takaful and conventional insurance are different with respect to the objectives, structure, invest-
+ment policies and returns. In conventional insurance, risk is transferred to one party – the com-
+pany – and the prohibited factors of Riba, Gharar and gambling are involved. The policyholders
+have to pay the premiums against unknown risks in the case of general insurance. In life insur-
+ance, they get back the premiums along with interest in the case of survival and the insured
+amount in the case of death before maturity of the policy. In Takaful, the participants or the group
+members relinquish their ownership right of the amount of the donation and then the Waqf fund
+bears the losses to any of them and the members share the UWS/UWL. The Takaful companies
+manage the business and share the investment profit with the policyholders.
+Although there still remains some uncertainty, it is within the group itself, all members
+have jointly contributed to help those among them who incur any loss and share the remain-
+der, if any. This is why the model of Takaful in which UWS/UWL fully belongs to the
+participants is considered to be the best model as per the latest research. Uncertainty is
+further minimized by recourse to reserves and access to Qard al Hasan to the Takaful fund
+from the shareholders in case of need.
+The risk premium in the conventional system is commercially driven, motivated by the
+desire for maximum profit for the shareholders; while in Takaful, its adequacy is the main
+consideration and the profit element is subject to the rules of equity, justice and ethics.
+Losses in terms of underwriting or on investment, if any, are first absorbed by the
+reserves, then from the interest-free loans from shareholders and then by a general increase in
+pricing by the company. Hence, the Takaful system has a built-in mechanism to counter any
+overpricing policies of the insurance companies, because whatever the amount of premium,
+the surplus goes back to the participants in proportion to their contributions.
+There are some basic differences between life policies in the two systems. A life insurance
+policy under the conventional system revolves around the element of Riba, whereas the
+Islamic model of life policy is based mainly on the principles of Waqf, Tabarru‘ and
+Mudarabah. Under the conventional policies, payments to the agents are made from the
+assureds’ paid premiums, whereas under the family Takaful policy, the agents work for the
+company and thus they are paid by the company itself. With regard to the insurable interest,
+under the conventional system, it is usually vested to the policyholder himself should he be
+alive upon the expiry of the policy period. But, in the case of death of the assured within the
+period, the insurable interest is to be vested to the nominee, who could be the husband/wife,
+parents or children or any other person or entity. In contrast, under the Islamic model, the
+insurable interest is to be vested to the assured himself or to his heirs, according to the
+principles of inheritance and wills.
+The idea of a conventional life policy is that if the assured dies at any time before the
+maturity of the policy, the nominee is entitled to recover from the insurer the whole amount
+agreed in the policy, while if the assured is alive upon the expiry of the policy period,
+he is entitled to the whole amount agreed in the policy plus interest, dividends and bonus
+subject to the company’s policy. On the contrary, in the Takaful system, if the assured
+dies at any time before the maturity of policy, the company gives to the beneficiary the
+amount projected in the policy, which includes his investment part along with profit, any
+amount from the Takaful fund and the donation from the company at its discretion. In the
+case where the policyholder is alive upon the expiry of the maturity period, the company
+gives him the investment part along with profit, a pro rata share in the underwriting surplus
+
+
+----- p.428 (pdf 456) -----
+
+
+428 Understanding Islamic Finance
+and a dividend/bonus according to the policy of the company. In the case of premature
+termination, the partner is given the investment part along with profit and a pro rata share
+in underwriting surplus (with reduced weightages depending upon the number of years). He
+gets no assistance from the Takaful fund.
+The distinction between conventional insurance and Takaful business is more visible with
+respect to investment of funds. While insurance companies invest their funds, among others,
+in interest-based avenues and without any regard to the concepts of Halal and Haram, Takaful
+companies undertake only Shar ¯ı´ah-compliant business and the profits are distributed in
+accordance with the pre-agreed formula/basis in the Takaful agreement.
+16.6 STATUS AND POTENTIAL OF THE TAKAFUL INDUSTRY
+The Takaful business has proved its viability in a period of only two decades. The first Takaful
+company was established in 1979 – the Islamic Insurance Company of Sudan. Malaysia started
+Takaful business in 1984. The system gathered momentum in Saudi Arabia and other Middle
+Eastern countries. It has been growing at a rate of 10–20 % p.a., compared to the global average
+growth of the insurance industry which is, 5 % p.a. A large number of Takaful companies exist
+in the Middle East, Far East and even in some non-Islamic countries.
+There are over 60 companies offering Takaful services (including windows – 5 %) in
+24 countries around the world. These countries are: Bahrain, Bangladesh, Brunei, Egypt,
+Ghana, Indonesia, Iran, Jordan, Kuwait, Luxembourg, Malaysia, Pakistan, Qatar, Saudi
+Arabia, Senegal, Singapore, Sri Lanka, Sudan, Trinidad & Tobago, Tunisia, Turkey, United
+Arab Emirates and Yemen. Takaful products are available to meet the needs of all sectors
+of the economy, both at individual and corporate levels, to cater for short- and long-term
+financial needs of various groups in society. Re-Takaful business has also been developed
+in Malaysia, Bahrain, Saudi Arabia and UAE.
+At global level, however, the Takaful system has not met with such a major degree of
+success as has been witnessed in the case of Islamic banking. This is for two reasons:
+1. The huge investment required to compete with the conventional insurance industry.
+2. The changes required in regulatory requirements, as seen in the case of Malaysia, to
+allow Takaful to compete on equal terms with the conventional industry.
+Takaful business has a huge potential as there is increasing demand for a Shar ¯ı´ah-
+compliant system, particularly with the development of the Islamic banking industry. There
+has been low insurance density (premiums per capita) and low penetration (premiums as a
+percentage of GDP) in Islamic countries, mainly because of the belief of the majority of
+Muslims that insurance is un-Islamic, and that there is no alternative available to that system.
+With the development of Islamic banking, there has been a significant increase in the Ijarah
+and home mortgages which necessitate Takaful. Also, there is a need for Takaful in cases
+of personal policies, like motor vehicles, health and family security.
+The potential may be realized only if people are given education and awareness about the
+features of the Takaful system, particularly about life Takaful. So far, only a small number
+of companies are providing comprehensive family Takaful policies. In the Middle East, only
+Bank Aljazira of Saudi Arabia is offering exclusive Takaful Ta‘awani (family Takaful) with
+a full range of products like retirement, marriage, education and protection to the general
+public and corporate clients. Other companies are engaged mainly in composite operations.
+
+
+----- p.429 (pdf 457) -----
+
+
+Takaful: An Alternative to Conventional Insurance 429
+Takaful operators need to approach the large number of individuals and groups who have
+not been taking out insurance cover in the past due to religious reasons.
+Islamic banks may like to realize this potential and thus complete the cycle of Islamic
+finance more quickly. In the markets or countries where a viable Takaful facility is not yet
+available, they may jointly establish well-capitalized Takaful companies, as long as there
+are no legal constraints. The main objective of these companies may be to provide Takaful
+services to the Islamic banks, keeping in mind all Shar ¯ı´ah principles. They may also be
+allowed to do other market business. This would create competition in the market and a
+large number of general Takaful companies would be entering into the market to undertake
+Shar¯ı´ah-compliant business with competitive pricing.
+16.7 TAKAFUL CHALLENGES
+The basic structure of a Shar ¯ı´ah-compliant insurance system has been generally accepted
+by the Shar ¯ı´ah scholars to be essentially based on the principle of mutual help by group
+members. The way ahead is to improve/reform and develop the existing operational struc-
+tures in respect of the models and procedures. A number of conceptual issues need to
+be addressed to ensure credibility and thus enhance the acceptability of the new indus-
+try. Takaful operators should come forward to incorporate the institution of Waqf in the
+Takaful arrangement, as it fully conforms to the requirements of the concept of Tabarru‘
+and is free from Shar ¯ı´ah-related objections. Other problems that have to be addressed are
+adequate capitalization, enabling the Takaful operators to work in competition with the
+conventional companies, developing human resources, re-Takaful facilities and Shar ¯ı´ah-
+compliant avenues for investment of funds, standardization/harmonization of the practices
+and providing legal and regulatory frameworks for healthy operation of the industry.
+The most important challenge that the Takaful industry is facing is creating awareness about
+the concept itself. The majority of the Muslim population, who have been avoiding insurance
+because of religious reasons, need to be assured that taking out cover against catastrophes in a
+manner conforming to the principles of Shar¯ı´ah does not involve any prohibitions.
+A Shar¯ı´ah board or an advisor and periodical Shar ¯ı´ah audit are required for every Takaful
+company, not only for ensuring Shar ¯ı´ah compliance but also for enhancing the confidence
+of the public with regard to Shar ¯ı´ah-related issues.
+Takaful companies are mostly providing general business policies. The real potential lies
+in family Takaful or Takaful Ta‘awani, to realize which, practitioners need to mobilize the
+general public in Muslim societies. For this they also need a sound financial basis. Composite
+business has the benefit of offering annual products, which are expense and surplus driven,
+allowing an early and much-needed cash flow for successful Takaful business. Family
+Takaful programmes, on the other hand, are cash-absorbing businesses in the early years of
+establishment of the company. This problem can be solved only by enhancing the capital
+base of the companies, which, of course, would benefit them in subsequent years.
+Besides this, working in a competitive environment side by side with conventional
+insurance companies is, in itself, a challenge. Takaful companies must offer competitive
+products/services in terms of price, quality of coverage and delivery time. They will have to
+work with a new mindset, avoiding malpractices and using the best professional expertise.
+Policy holders also need to support Takaful companies and be proactive to ensure that the
+companies are competitive and their operations are Shar ¯ı´ah-compliant in all respects. Re-
+Takaful availability is a problem, as only a few companies are providing re-Takaful facilities
+
+
+----- p.430 (pdf 458) -----
+
+
+430 Understanding Islamic Finance
+in Malaysia, UAE, Bahrain and Saudi Arabia, and that too on a Mudarabah basis, which is
+objectionable, as discussed in the chapter.
+Providing well-aware and competent manpower for the nascent Takaful industry is another
+challenge. Only committed, trained and experienced personnel can enhance the acceptability
+of the system among the public. While there are some facilities available for training in
+Islamic banking, facilities in respect of Takaful are almost entirely lacking. In this respect,
+the IRTI (IDB), the AAOIFI, training arms of the central banks and the Securities and
+Exchange Commissions in countries where Islamic financial services are being developed
+need to work proactively in collaboration with the Takaful companies.
+Lastly, in view of the process of globalization of financial services, there must be stan-
+dardization of the Takaful products. This will require efforts by the AAOIFI and IFSB
+to prepare the Shar ¯ı´ah and performance standards respectively (as in the case of Islamic
+banking) for standardization of services and structures feasible in the framework of mutual
+help. Differences of opinion with regard to the Takaful models have to be resolved. This is
+because reservations/differences, once expressed, would keep agitating the minds of stake-
+holders and thus hinder the growth of the emerging industry. To avoid this and to harmonize
+the practice, the Shar ¯ı´ah scholars and the practitioners should collaborate for convergence
+on the basis of the Wakalah–Waqf model that is nearest to the principles of the Shar ¯ı´ah. The
+regulators need to provide flexibility and ensure that the operators or practitioners perform
+their functions, keeping in mind the generally accepted key benchmarks, like the CAMELS
+tests and other performance criteria. 10
+Appendix: Fat ¯awa (Juristic Opinions) on Different Aspects of Insurance
+Source(s) Issue(s)
+Fatwah by Shaikh al-Azhar Shaikh Jad al-Haq Ali Jad
+al-Haq in 1995 (al-Iqtisadul Islami, July 1995)
+Against life insurance
+Fatwah issued in a judicial conference held in Makkah
+in Shaban 1398 AH
+Against the validity of insurance
+The unanimous decisions of the Muslim scholars in a
+seminar held in Morocco on 6th May, 1972
+Against life insurance
+Verdict of the Supreme Court of Egypt on 27th
+December, 1926
+Against life insurance
+Fatwah issued by the National Religious Council
+(Malaysia) in 1972
+Against the validity of conventional
+insurance
+Two Fat ¯awa issued by Shaikh Mohammad Abduh (the
+ex-Grand Mufti of Egypt) in 1900–1901
+In favour of the validity of insurance
+A unanimous fatwah issued by the ulama in the Muslim
+League Conference, held in Cairo in 1965
+Against life insurance
+Fat¯awa issued by the Higher Council of Saudi Ulama
+in 1397 AH
+In favour of insurance under an Islamic
+model
+Fat¯awa issued by the Fiqh Council of Muslim World
+League in 1398 AH
+In favour of insurance under an Islamic
+model
+Fat¯awa issued by Shaikh Mohd Baqit (the ex-Mufti of
+Egypt) in 1906
+In favour of insurance
+10 The author is grateful to M/s Hassan Kaleem, Shar ¯ı´ah Advisor, Al Baraka Islamic Bank, Pakistan and Abdul Rahim Abdul
+Wahab of Sidat Hyder Murshid Associates, Karachi for their conceptual and technical help in writing this chapter.
+
+
+----- p.431 (pdf 459) -----
+
+
+Takaful: An Alternative to Conventional Insurance 431
+Fat¯awa issued by the Fiqh Council of the Organization
+of the Islamic Conference in 1405 AH
+In favour of insurance under an Islamic
+model
+Unanimous decision by the ulama in the First
+International Conference for the Islamic Economy
+held in Makah in 1396 AH
+In favour of insurance under an Islamic
+model
+Fatwah issued by the State of Trengganu in 1974 Against the validity of conventional
+insurance
+Fatwah issued by the State of Selangor in 1970 Against the validity of conventional
+insurance
+Fatwah issued by the State of Negri Sembilan in 1972 Against the validity of conventional
+insurance
+Fatwah issued by the State of Kelantan in 1975 Against the validity of conventional
+insurance
+Fatwah issued by the State of Perak in 1974 Against the validity of conventional
+insurance
+Source: http://islamic-finance.net/Islamic-insurance/fatawa.html.
+
+
+----- p.432 (pdf 460) -----
+
+
+
+

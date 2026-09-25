@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="An MBA-level Islamic Finance learning platform grounded in Muhammad Ayub's Understanding Islamic Finance — chapters, glossary, flashcards, quizzes, case studies and exam preparation.">
+<meta name="theme-color" content="#0f6e5c">
+<meta name="color-scheme" content="dark light">
+<meta name="robots" content="noindex, nofollow">
+<title>Understanding Islamic Finance · Learning Platform</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+<script>
+(function () {
+  try {
+    var raw = localStorage.getItem("ifl_v1");
+    var theme = "system";
+    if (raw) { var s = JSON.parse(raw); if (s && s.settings && s.settings.theme) theme = s.settings.theme; }
+    if (theme !== "system") document.documentElement.setAttribute("data-theme", theme);
+  } catch (e) {}
+})();
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="sr-only" href="#app-content">Skip to content</a>
+
+<div class="mobile-nav-backdrop" id="mobile-backdrop"></div>
+
+<div class="app-shell">
+  <nav class="sidebar" id="sidebar" aria-label="Main navigation">
+    <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Collapse sidebar" title="Collapse sidebar">&#x2261;</button>
+    <a href="#/dashboard" class="sidebar-brand" data-nav="#/dashboard">
+      <span class="sidebar-brand-mark" aria-hidden="true">IF</span>
+      <span class="sidebar-brand-text">Understanding<br>Islamic Finance<small>Muhammad Ayub · Study Companion</small></span>
+    </a>
+    <div id="sidebar-nav"></div>
+  </nav>
+
+  <div class="main-area">
+    <header class="mobile-topbar">
+      <button class="btn btn-icon btn-ghost" id="mobile-menu-btn" aria-label="Open menu">&#9776;</button>
+      <div class="topbar-search" style="max-width:none;flex:1;">
+        <span class="icon" aria-hidden="true">&#128269;</span>
+        <input type="search" id="search-input-mobile" placeholder="Search chapters, terms, questions…" aria-label="Search">
+      </div>
+      <button class="btn btn-icon btn-ghost" id="theme-toggle-mobile" aria-label="Toggle theme">&#9788;</button>
+    </header>
+
+    <header class="topbar">
+      <div class="topbar-search">
+        <span class="icon" aria-hidden="true">&#128269;</span>
+        <input type="search" id="search-input" placeholder="Search chapters, terms, glossary, questions…" aria-label="Search the course">
+      </div>
+      <div class="topbar-actions">
+        <span class="pill pill-brand" id="streak-pill" title="Study streak">🔥 0-day streak</span>
+        <button class="btn btn-icon btn-outline" id="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">&#9788;</button>
+        <button class="btn btn-outline btn-sm" data-nav="#/settings">Settings</button>
+      </div>
+    </header>
+
+    <main id="app-content" class="content" role="main" aria-live="polite"></main>
+  </div>
+</div>
+
+<div id="toast-host" style="position:fixed;bottom:20px;right:20px;display:flex;flex-direction:column;gap:8px;z-index:200;"></div>
+
+<!-- ============ Data layer (no build step — plain scripts, global namespace) ============ -->
+<script src="data/glossary.js"></script>
+<script src="data/comparisons.js"></script>
+<script src="data/case-studies.js"></script>
+<script src="data/concept-map.js"></script>
+<script src="data/decision-tree.js"></script>
+<script src="data/study-modes.js"></script>
+<script src="data/exam-prep.js"></script>
+<script src="data/chapter-index.js"></script>
+
+<script src="data/chapters/ch01.js"></script>
+<script src="data/chapters/ch02.js"></script>
+<script src="data/chapters/ch03.js"></script>
+<script src="data/chapters/ch04.js"></script>
+<script src="data/chapters/ch05.js"></script>
+<script src="data/chapters/ch06.js"></script>
+<script src="data/chapters/ch07.js"></script>
+<script src="data/chapters/ch08.js"></script>
+<script src="data/chapters/ch09.js"></script>
+<script src="data/chapters/ch10.js"></script>
+<script src="data/chapters/ch11.js"></script>
+<script src="data/chapters/ch12.js"></script>
+<script src="data/chapters/ch13.js"></script>
+<script src="data/chapters/ch14.js"></script>
+<script src="data/chapters/ch15.js"></script>
+<script src="data/chapters/ch16.js"></script>
+<script src="data/chapters/ch17.js"></script>
+<script src="data/chapters/ch18.js"></script>
+
+<script src="data/flashcards/ch01.js"></script>
+<script src="data/flashcards/ch02.js"></script>
+<script src="data/flashcards/ch03.js"></script>
+<script src="data/flashcards/ch04.js"></script>
+<script src="data/flashcards/ch05.js"></script>
+<script src="data/flashcards/ch06.js"></script>
+<script src="data/flashcards/ch07.js"></script>
+<script src="data/flashcards/ch08.js"></script>
+<script src="data/flashcards/ch09.js"></script>
+<script src="data/flashcards/ch10.js"></script>
+<script src="data/flashcards/ch11.js"></script>
+<script src="data/flashcards/ch12.js"></script>
+<script src="data/flashcards/ch13.js"></script>
+<script src="data/flashcards/ch14.js"></script>
+<script src="data/flashcards/ch15.js"></script>
+<script src="data/flashcards/ch16.js"></script>
+<script src="data/flashcards/ch17.js"></script>
+<script src="data/flashcards/ch18.js"></script>
+
+<script src="data/questions/ch01.js"></script>
+<script src="data/questions/ch02.js"></script>
+<script src="data/questions/ch03.js"></script>
+<script src="data/questions/ch04.js"></script>
+<script src="data/questions/ch05.js"></script>
+<script src="data/questions/ch06.js"></script>
+<script src="data/questions/ch07.js"></script>
+<script src="data/questions/ch08.js"></script>
+<script src="data/questions/ch09.js"></script>
+<script src="data/questions/ch10.js"></script>
+<script src="data/questions/ch11.js"></script>
+<script src="data/questions/ch12.js"></script>
+<script src="data/questions/ch13.js"></script>
+<script src="data/questions/ch14.js"></script>
+<script src="data/questions/ch15.js"></script>
+<script src="data/questions/ch16.js"></script>
+<script src="data/questions/ch17.js"></script>
+<script src="data/questions/ch18.js"></script>
+
+<!-- ============ Core modules ============ -->
+<script src="modules/dom.js"></script>
+<script src="modules/store.js"></script>
+<script src="modules/data.js"></script>
+<script src="modules/router.js"></script>
+<script src="modules/progress.js"></script>
+<script src="modules/search.js"></script>
+
+<!-- ============ View modules (each registers its own routes) ============ -->
+<script src="modules/views/dashboard.js"></script>
+<script src="modules/views/learn.js"></script>
+<script src="modules/views/chapter.js"></script>
+<script src="modules/views/concept-map.js"></script>
+<script src="modules/views/glossary.js"></script>
+<script src="modules/views/flashcards.js"></script>
+<script src="modules/views/quiz.js"></script>
+<script src="modules/views/adaptive.js"></script>
+<script src="modules/views/comparisons.js"></script>
+<script src="modules/views/case-studies.js"></script>
+<script src="modules/views/decision-tool.js"></script>
+<script src="modules/views/exam-prep.js"></script>
+<script src="modules/views/study-modes.js"></script>
+<script src="modules/views/bookmarks.js"></script>
+<script src="modules/views/notes.js"></script>
+<script src="modules/views/progress-view.js"></script>
+<script src="modules/views/settings.js"></script>
+<script src="modules/views/search-results.js"></script>
+<script src="modules/views/timer.js"></script>
+
+<script src="app.js"></script>
+</body>
+</html>

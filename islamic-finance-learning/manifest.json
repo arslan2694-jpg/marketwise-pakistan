@@ -1,0 +1,14 @@
+{
+  "name": "Understanding Islamic Finance — Learning Platform",
+  "short_name": "Islamic Finance",
+  "description": "MBA-level Islamic Finance study companion based on Muhammad Ayub's Understanding Islamic Finance.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f1319",
+  "theme_color": "#0f6e5c",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

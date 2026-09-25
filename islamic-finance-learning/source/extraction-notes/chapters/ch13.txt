@@ -1,0 +1,423 @@
+
+----- p.347 (pdf 375) -----
+
+
+13
+Some Accessory Contracts
+13.1 INTRODUCTION
+Major contracts being used by Islamic financial institutions like Shirkah, Bai‘, Ijarah and
+similar contracts have been discussed separately in various chapters. However, there are
+some ancillary contracts that are used as part of the major contracts or could be used under
+various modes. Out of these, two contracts, namely Wakalah (agency) and Ju‘alah (rendering
+a service against reward), are discussed in this chapter. Tawarruq (monetization or generating
+cash through purchase/sale activity) basically carries the concept of Murabaha in one way
+or the other, but it has taken the form of a separate mode that Islamic banks use along
+with some other major modes. Hence, it is also discussed in this chapter. Istijrar, a kind of
+repeat sale that could take place under some major modes, has been discussed briefly. Other
+subcontracts like Hawalah (assignment of debt), Kafalah (guarantee) and Bai‘ al Dayn (sale
+of debt) have been discussed in the relevant chapters.
+13.2 WAKALAH (AGENCY)
+The literal meaning of “Wakalah” is looking after, taking custody or application of skill or
+remedying on behalf of others. From this, the word “Tawkeel” is derived, which means to
+appoint someone to take charge of something, and also to delegate any job to any other
+person. Wakalah is also a responsibility. It is therefore necessary for a Wakil to discharge
+his responsibility in the way a trustee discharges his responsibility in the case of Am ¯anah.
+13.2.1 Types of Wakalah
+• Wakil-bil-Kusoomah (to take up various disputes/cases on behalf of the principal);
+• Wakil-bil-Taqazi al Dayn (receiving debt);
+• Wakil-bil-Qabaza al Dayn (possession of debt);
+• Wakil-bil-Bai‘ (agency for trading);
+• Wakil-bil-Shira (agency for purchase).
+Agency or delegated authority is proved by the texts of the Shar ¯ı´ah. The holy Prophet
+(pbuh) himself delegated the job of purchasing a goat for him to a Companion named
+‘Urwah al Barqi. 1 Similarly, the fourth Pious Caliph, Hadhrat Ali, and a number of other
+Companions (Gbpwth) delegated their business to others.
+1 Abu Daud, 1952, cf. Mansoori, 2005, p. 62.
+
+
+----- p.348 (pdf 376) -----
+
+
+348 Understanding Islamic Finance
+The subject matter of agency or the act to be performed by the agent should be
+known/defined. If the agency is for the purchase of a thing, the genus, kind, quality and
+other necessary attributes of the commodity to be bought should be mentioned. Agency
+is not permissible in acts prohibited in the Shar ¯i’ah or acts of disobedience such as theft,
+usurpation of property or conducting Riba-based business.
+An act to be carried out by an agent should be one that admits representation. Hence,
+appointment of an agent for an act such as prayer, fasting, giving evidence or for taking an
+oath is not permissible, because these acts should be performed by the principal himself.
+An eyewitness to an incident, for instance, is required to give testimony himself. He is
+not allowed to delegate this task to another person. Some of the acts for which the agency
+contract can be invoked include sale and purchase, letting and hiring, borrowing and lend-
+ing, assignment of debt, guarantee, pledge, gifts, bailment, taking and making payments,
+marriage and divorce, litigation and relinquishment, admission and acknowledgement of
+rights.
+An agency contract may be specific or general. A bank, for example, may appoint an
+agent to purchase some kinds of goods as and when asked by it. This will be a general
+agency contract. If a bank asks an agent to sell his particular asset at a given price or as per
+its instruction, it will be a specific agency contract. Even in a general contract, the nature of
+job to be undertaken has to be clearly defined to avoid any disputes.
+Delivery of the subject matter, claiming the price, exercise of the right of option of defect
+or inspection and returning goods in the case of reclaiming and similar rights and liabilities
+are attributed to the agent, who is responsible for making payment and receiving goods on
+behalf of the principal. He would demand the price from the purchaser in case of sale. The
+agent can be sued for not performing as per the agency agreement in the case of purchase
+or sale. However, there are certain contracts which are attributed explicitly to the principal,
+such as marriage, divorce and settlement of murder.
+The agent must perform according to the instructions of the principal and exercise due care
+and skill. He cannot entrust the job to another person without the consent of the principal.
+He must also avoid conflicts of interest. Hence, for example, he cannot sell his own property
+to the principal without fully disclosing that it belongs to him. Agency could generate third
+party liabilities. Banks, while appointing an agent for the conduct of any business, should
+take care of this aspect to ensure that the agent performs the function in good faith and
+with due diligence, and the contract may contain a clause to make him liable in the case of
+negligence on his part.
+An action performed by an agent on behalf of the principal will be deemed an action by
+the principal. According to the preferred juristic view, particularly of Shafi‘is and Hanbalis,
+ownership of a commodity purchased by an agent for the principal will stand transferred
+from the seller to the principal, without first entering into the ownership of the agent.
+Sometimes jobs are undertaken without the proper authority of the principal. Such an unau-
+thorized person is termed Fuduli in Islamic jurisprudence. There are two opinions regarding
+the legal status of contracts concluded on behalf of another without proper authority. The
+preferred view is that these are valid subject to ratification by the principal.
+A Wakalah contract comes to an end by mutual agreement, unilateral termination,
+discharging of obligation, destruction of the subject matter or death or loss of legal
+capacity.
+A Wakalah contract is used by Islamic financial institutions in respect of almost all
+modes like Murabaha, Salam, Istisna‘a, Ijarah, Diminishing Musharakah and activities like
+
+
+----- p.349 (pdf 377) -----
+
+
+Some Accessory Contracts 349
+L/C, payment and collection of bills, fund management and securitization. Wakalah may
+be both commutative and noncommutative. Islamic banks mostly do not pay a fee to their
+clients who purchase/sell goods on their behalf or perform other functions. However, banks
+normally charge fees for agency services rendered by them on behalf of their clients.
+Fund management on the basis of Wakalatul Istism ¯ar is one such example, wherein banks
+charge a fixed fee remitting all profits/losses to the investors. We discuss this briefly
+below.
+13.2.2 Wakalatul Istism ¯ar
+Islamic financial institutions can manage funds of investors on the basis of Wakalatul
+Istism¯ar, meaning agency services for the management of the funds. For their services, banks
+can get a pre-agreed fee irrespective of the profit or loss on the relevant portfolio. This fee
+may be fixed in a lump sum or as a monthly or annual remuneration in percentage of the
+amount of investment or the net asset value of the fund. For example, it may be agreed that
+the management will get 2 % or 3 % of the net asset value of the fund at the end of every
+financial year.
+However, it is necessary to determine any one of the aforesaid methods before the launch
+of the fund. The practical means of doing this would be to disclose in the prospectus of the
+fund the basis on which the fees of the management will be paid. It is generally presumed
+that whoever subscribes to the fund agrees with the terms mentioned in the prospectus.
+Therefore, the manner of paying the management fee will be taken as agreed upon by all
+the subscribers.
+13.3 TAWARRUQ
+Tawarruq means to buy on credit and sell at spot value with the objective of getting cash,
+meaning that the transaction is not the need of the buyer; he simply wants liquidity, which
+he gets by purchasing a commodity on credit and selling the same forthwith for cash. If he
+sells to any third party, it is acceptable from the Shar ¯i‘ah point of view, but if he sells to the
+person from whom he purchased on credit, it is not Shar ¯i‘ah compatible according to the
+majority view. Despite being a grey area, Tawarruq is being used by many Islamic banks
+for liquidity management and as a mode of financing, especially for personal financing and
+credit cards.
+In the traditional books of Islamic jurisprudence, Tawarruq has been discussed mainly by
+the Hanbali and Shafi‘e jurists; but they also differentiate it from Bai‘ al ‘Inah. The difference
+between ‘Inah and Tawarruq is that “Mutawarriq” (the person who acquires liquidity in this
+way) sells the commodity to a third party, while in ‘Inah, the buyer resells it to the same
+seller from whom he had bought the commodity with a difference in the sale and purchase
+price.
+The Hanbali and Shafi‘e jurists generally allow Tawarruq. There are two versions reported
+from Imam Ahmad Ibn Hanbal about the permissibility of Tawarruq. The majority of the
+Hanbali jurists have preferred the version according to which Tawarruq is permissible.
+However, Ibn Taymiyah and Ibn Qayyim have held it as impermissible. Maliki jurists, who
+are very strict about ‘Inah, do not see a major problem in Tawarruq. They consider it a way
+to avoid Riba.
+
+
+----- p.350 (pdf 378) -----
+
+
+350 Understanding Islamic Finance
+Some Hanafi jurists of later days have held that Tawarruq is ‘Inah, and hence abominable.
+But the majority of the Hanafi jurists have preferred the view of Ibnul-Hummam that ‘Inah
+is restricted to a situation where the commodity is sold back to the person from whom it
+was purchased; if it is sold in the market, the transaction is valid and permissible. However,
+Qardal Hasan (lending money without interest) is more preferable. Thus, the preferred view
+in all the four schools of Islamic Fiqh is that Tawarruq is permissible. The AAOIFI has also
+taken up the view that if a commodity is sold back, either directly or indirectly (through
+any agent), to the original seller from whom it was purchased on a deferred payment basis,
+this will be invalid, while if the commodity is sold to a third party, it is acceptable in the
+Shar¯ı´ah.
+This is the position with regard to the original concept of Tawarruq, but the ruling changes
+if the transaction is infiltrated by some other elements. If a bank purchases a commodity
+having brisk market and sells the same to the Mutawarriq, who sells it in the market, there
+is no Shar ¯ı´ah problem. But, if the bank appoints the Mutawarriq its agent to purchase the
+commodity on its behalf and then to sell the same to himself, the transaction will not be
+valid, as the two transactions of purchase and sale are interdependent and the bank has not
+taken the possession and the business risk. However, if the bank appoints him as an agent
+only for the purchase of a commodity on behalf of the bank, then, once it is purchased, the
+bank itself sells it to him through a separate contract with proper offer and acceptance, the
+transaction is valid, but not advisable.
+If a Mutawarriq appoints the bank his agent to sell a commodity that he would purchase
+from the bank for Tawarruq in the market and this agency is stipulated in the contract of
+sale as a condition, the transaction is not valid. However, if the agency was not a condition
+in the sale contract and has been effected after unconditional sale, the transaction is valid,
+but even then not advisable.
+If Tawarruq is carried out through the national or international commodity exchange,
+wherein only brokers are doing some agency services and the goods always remain where
+they were without transfer of ownership from the seller to the buyer, it is vulnerable to
+violation of Shar ¯ı´ah rules one way or another, because a number of conditions of a valid
+sale may be lacking. Some Islamic banks are conducting Tawarruq by way of shares of joint
+stock companies, Ijarah Sukuk (of tangible assets and also of services) and even “bundles of
+assets”, comprising real assets as well as cash and receivables (the real assets being in the
+majority in the bundle). Despite permissibility on legal grounds, use of such financing on
+an extensive level needs to be avoided. The Shar ¯ı´ah scholars and experts in Islamic finance
+advise that Tawarruq practice must be of limited use only for meeting unavoidable liquidity
+needs of the corporate sector. “For individual consumers it must be completely out of the
+Islamic banking practices,” says Monzer Kahf, a renowned scholar of Islamic economics and
+finance.2 Nejatullah Siddiqi has observed in this regard: “The client approaches the Islamic
+bank with a wish to have cash and a collateral and comes back with the desired cash after
+signing a number of papers”. 3 This trend of wide and careless use of Tawarruq would create
+systemic risk for the nascent finance industry. However, if all the conditions of a valid sale
+are properly observed, the transaction may be valid, but even then its extensive use could
+be problematic. 4
+2 Kahf, 2004.
+3 Siddiqi, 2006, pp. 15, 16.
+4 For further details, see Obaidullah, n.d., pp. 109–111; http://islamiccenter.kau.edu.sa/english/publications/Obaidullah/ifs/ifs.html.
+
+
+----- p.351 (pdf 379) -----
+
+
+Some Accessory Contracts 351
+13.3.1 Use of Tawarruq for Liquidity Management
+Some Islamic banks use Tawarruq to place and obtain funds. It can give a fixed return
+to the banks and, hence, it is widely used as Commodity Murabaha or Shares Murabaha
+in the Middle East. Acceptable Tawarruq arrangements can be executed in the following
+manner: one bank (in need of funds) and another bank (intends to place funds) select any
+commodity/stocks which are liquid in nature (such as blue chip stocks); the surplus bank
+purchases the commodity on cash payment from the market; the deficit bank purchases it
+from the surplus bank on credit (Murabaha) and after taking delivery, sells it in the market
+at spot price.
+The Tawarruq process seems to be very simple. However, extreme care should be taken
+while undertaking such transactions and it should be ensured that the transaction does not
+become a mere exchange of papers between two brokers and one or two banks. Islamic
+banks need to understand that Tawarruq arrangements should be used in extreme cases
+where no option is available to avoid interest. Widespread use of such products is harmful
+to the Islamic banking industry in the long run. Shar ¯ı´ah boards need to strictly monitor all
+Tawarruq-based transactions.
+13.4 JU‘ALAH
+Ju‘alah is a contract in which one party (the J ¯a‘il) undertakes to give a specific reward
+(the Jua‘l) to anyone who may be able to realize a specific or uncertain required result, for
+example, finding a stolen car. Ju‘alah is permissible on the authority of the Holy Qur’ ¯an and
+the Sunnah. There is reference in Surah Yousuf to the announcement about the lost beaker
+of the King that the person who would find the beaker of the King would be given reward
+of a camel load grain. 5 As regards the Sunnah, the holy Prophet (pbuh) approved a deal by
+some Companions who stipulated that if the Chief of the tribe was cured, they would be
+given compensation for that. Although some jurists restrict Ju‘alah to a reward for the return
+of a runaway slave, the majority of them consider it permissible for a number of activities.
+The determination of the required end result of the transaction is considered to be sufficient
+to make it permissible. Ju‘alah is a relevant and useful transaction in events that cannot
+be accomplished through Ijarah, such as bringing back a lost property from an uncertain
+location, because the Ijarah contract requires that the work must be specified. Accordingly,
+Ju‘alah may be used by Islamic banks for recovery of overdue debts and certain other
+services whereby the subject of the required work cannot be minutely specified.
+13.4.1 Parties to Ju‘alah
+The two parties of Ju‘alah are the offeror and the worker; the former offers specified
+compensation to anyone (the worker) who has to realize a determined result in a known or
+unknown period. The worker may be any specified person(s) or the general public. In this
+respect also, it is different from Ijarah. Realization of the end result is necessary in Ju‘alah
+for payment of the compensation to the worker(s). In other words, if the worker, despite
+his effort, is unable to realize the objective, he will not be entitled to any compensation for
+5 Holy Qur’ ¯an, 10: 70–72.
+
+
+----- p.352 (pdf 380) -----
+
+
+352 Understanding Islamic Finance
+his effort or time spent. Therefore, Ju‘alah is not affected by the uncertainty with respect to
+the subject matter or the work to be done. This is why it is suitable for activities for which
+Ijarah is not.
+It is not a condition of Ju‘alah that the worker be specified and it is sufficient that an
+offer is issued to the general public, in response to which any person can undertake the work
+himself or with the help of others. However, if any worker is specified, then he himself will
+have to undertake the work or he can involve others with the express consent of the offeror.
+Ju‘alah is similar to agency, in which seeking help from others is valid.
+Ju‘alah per se is not a binding contract. Parties in a Ju‘alah contract are entitled to
+terminate the contract unilaterally. However, when the worker commences the work, it
+becomes binding and if the offeror revokes in between, he will have to give a reasonable
+wage to the worker. The basis for the entitlement of the worker to receive reasonable wages
+when the contract is revoked after commencement of work is that the work done by the
+worker is legally valid and loss is not to be caused to him. When the parties undertake not to
+terminate the contract within a specified period, they must observe such an undertaking. If
+the worker himself revokes the contract after commencing the work, he has no claim against
+the offeror, unless they had agreed to the contrary.
+The worker is considered a trustee as to the property of the offeror in his possession. As
+such, he is not liable for any loss except in the case of negligence, misconduct or violation
+of the stipulated conditions.
+13.4.2 Subject Matter of Ju‘alah and Reward
+The subject matter of Ju‘alah is the work required to be done and the compensation agreed
+for the work. As Ju‘alah is a contract of exchange, it is necessary to indicate a task and
+the reward. The task should not be a legal or an employment obligation upon the worker
+and must involve some effort. The reward should be known and valuable, i.e. is permissible
+consideration, and deliverable when required, so as to avoid any uncertainty when the result
+is realized. The reward can also be a certain portion of the realized result.
+If the work to be realized is determined, a Ju‘alah contract is valid, despite uncertainty
+about the amount of work to be put in by the worker and the possibility of realization of
+the result. Ju‘alah can be used for undertaking various activities like extraction of minerals,
+finding any lost asset or property, collection of debts, getting any information for the benefit
+of the offeror, such as presenting a report on any subject or the project or undertaking any
+scientific invention, etc.
+For example, governments may ask some firms for extraction of minerals with the condi-
+tion that a specified amount of money will be given only to those who find any agreed-upon
+mineral with specified features. Ju‘alah can also be used for collection of due but defaulted
+debts, where the entitlement to compensation is contingent upon collection of agreed upon-
+debts/receivables. Compensation in this case can also be related to the amount of realized
+debts on a proportionate basis.
+For innovations, scientific discoveries and designs such as trademarks, the entitlement to
+compensation is contingent upon realization of the discovery or the accomplishment of the
+stipulated job.
+If Ju‘alah is used for brokerage activities, the entitlement to compensation will be contin-
+gent upon completion or execution of the contract for which the brokerage service has been
+sought.
+
+
+----- p.353 (pdf 381) -----
+
+
+Some Accessory Contracts 353
+An offeror can specify a time for accomplishment of a job, after which the worker will
+not be entitled to any reward except any stipulation or adjustment otherwise. For example,
+parties can agree that if work on the job is at an advanced stage but remains incomplete due
+to any genuine problem, the completion time may be increased with mutual consent.
+13.4.3 Execution of a Ju‘alah Contract
+Ju‘alah can be concluded by an open or informal offer to the public. In this case, any person
+who hears or receives the offer and is interested to do the job may do so, either himself or
+through the assistance of another person. However, if a Ju‘alah contract is concluded with
+a specified worker, such a worker is obliged to perform the work himself.
+Conclusion of a Ju‘alah contract does not require a counter acceptance by another party (as
+is required in Ijarah), because the requirement of counter acceptance in Ju‘alah is practically
+unattainable, except when it is concluded with a specific worker who is obliged to perform
+the work himself.
+As against Ijarah/Ujrah, the claim to the reward is not enforceable until the completion
+of the required work. (In Ujrah, the worker who had agreed to work for a stipulated time
+is entitled to a wage if he has worked for the settled time, irrespective of the work being
+completed or not.) However, the worker is entitled to the reward prior to the completion of
+the work in the following situations:
+1. When it is found that the worker has worked to realize a result in respect of a property
+that does not belong to the offeror and a legal decision to that effect has been issued.
+2. When an accident that was not due to the negligence or misconduct of the worker causes
+impairment of the value of the subject matter of the contract; here, the worker is entitled
+to the full reward.
+The worker is not entitled to a reward if Ju‘alah is terminated unilaterally by either party
+before the commencement of work. However, when the contract is terminated by the offeror
+after the work is commenced, the former is obliged to pay to the worker the common market
+remuneration.
+13.4.4 Parallel Ju‘alah Contracts
+A bank, after taking work, can get it done by others on the basis of a Parallel Ju‘alah. The
+two contracts will be independent of each other. The bank may play the role of the worker
+by signing a Ju‘alah contract. It may carry out the work itself or through another parallel
+contract with a third party, provided the first Ju‘alah contract does not require it to do the
+work itself.
+It is also possible for the bank to play the role of the offeror for performance, irrespective
+of whether it needs the work for its own benefit or for the fulfilment of its obligation in a
+Parallel Ju‘alah contract, taking into account that the two contracts remain independent.
+13.4.5 Practical Process in Ju‘alah by Islamic Banks
+Ju‘alah can be used by Islamic banks for a number of services, directly or through a Parallel
+Ju‘alah contract with the following process (see Figure 13.1):
+1. The customer negotiates with the bank for performance of uncertain work in a specified
+time for an agreed reward.
+
+
+----- p.354 (pdf 382) -----
+
+
+354 Understanding Islamic Finance
+2. The bank agrees to perform the work after conducting a cost versus benefit analysis, and
+a Ju‘alah contract is entered into between the bank and the customer.
+3. The bank finds a worker with the expertise to perform such uncertain work on his behalf
+and a Parallel Ju‘alah contract is made with him.
+4. The work is completed by the worker and an agreed wage or reward is paid to him by
+the bank.
+5. The bank collects its reward from the customer with whom the initial Ju‘alah contract
+had been entered into.
+Similarly, banks can take services from others on the basis of Ju‘alah. Recovery of
+nonperforming debts is one such example.
+Customer Worker
+ISLAMIC
+BANK
+4
+3
+1
+5Parallel
+Ju´alah
+contract 
+Negotiation to perform an
+uncertain work in specified
+time
+Receiving of
+reward on
+completion
+of work  
+xxxxxxxxx xxxxxxx
+2
+Ju´alah contract
+Accomplishment of
+work for an agreed
+entitlement
+Figure 13.1 The Ju‘alah process
+13.4.6 Some Islamic Financial Products Based on Ju‘alah
+Collection of Debts
+Ju‘alah contracts can be used for collecting due debts where the entitlement to the reward is
+related to realization of all or part of the debt. For example, a Ju‘alah contract for recovery
+of debt is entered into between “A Bank” and “B Ltd”. The contract provides for the reward
+
+
+----- p.355 (pdf 383) -----
+
+
+Some Accessory Contracts 355
+as a percentage of the amount collected on the basis of Ju‘alah. The reward can also be paid
+in advance in full or in part, before completion of the work. However, in such a case, the
+worker shall not be absolutely entitled to reward until the required result is realized and the
+payment shall be made “on account” to him.
+Securing Permissible Financing Facility
+Ju‘alah contracts can be used to secure permissible financing, in which a worker is required
+to do some form of service, like preparing of feasibility, that will make the bank agree to
+provide the facility to the offeror.
+Brokerage
+Ju‘alah contracts may also be used in brokerage activities, where entitlement to reward is
+attached to the signing of a contract which is intermediated by the broker.
+13.5 BAI‘ AL ISTIJRAR (SUPPLY CONTRACT)
+Istijrar is not a specific mode; it is rather a repeat sale/purchase arrangement of normal sale
+in which a seller agrees to sell various amounts/units of a commodity from time to time.
+The seller may also deliver the commodity agreed upon once in a number of consignments
+and the price may be determined in advance, with every consignment or after the delivery
+of all consignments.
+The terms and conditions of repeat sale may be of any normal cash or credit sale. An
+agreement may take place between the buyer and the supplier, whereby the supplier agrees
+to supply a particular product on an ongoing basis, for example monthly, at an agreed price
+and on the basis of an agreed mode of payment.
+This is a modus operandi by which a master agreement is signed for financing on an
+ongoing basis under any suitable normal modes. As it is a normal day-to-day business,
+Shar¯ı´ah scholars give some relaxation on the matter of fixation and payment of price if
+the arrangement does not involve Gharar. 6 Such types of arrangement take place between
+wholesalers and retailers. Normally, the seller goes on delivering specified goods at the price
+known to the buyer and the buyer makes payment on a monthly basis or as agreed between
+them. A supplier of bread may go on supplying bread to a retailer for a month and may take
+payment once after the month.
+However, if any formal or informal contracts take place on the basis of any specific mode,
+like Murabaha or Salam, their conditions and Shar ¯ı´ah essentials have to be fulfilled. In the
+case of Murabaha, for example, separate offer and acceptance would be needed for every
+consignment, based upon requisition of the client.
+6 Obaidullah, n.d., pp. 101, 177.
+
+
+----- p.356 (pdf 384) -----
+
+
+
+

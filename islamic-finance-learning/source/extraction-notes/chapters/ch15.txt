@@ -1,0 +1,1322 @@
+
+----- p.389 (pdf 417) -----
+
+
+15
+Sukuk and Securitization: Vital Issues
+in Islamic Capital Markets
+15.1 INTRODUCTION
+The growth of Islamic banking and finance has gained momentum during the last decade,
+particularly in the areas of Sukuk and securitization. In addition to a large number of products
+for retail banking and investment instruments, securitization in the framework of the Islamic
+finance industry has developed a lot of momentum. While Shirkah-based instruments of
+investment like Mudarabah certificates and participation term certificates (PTCs) have been
+in use since the early 1980s, local currency instruments/Sukuk based on modes other than
+Shirkah have been issued since 1992. The first issue of dollar-denominated Sukuk of $600
+million was offered in Malaysia in 2002. This was followed by the launching of $400 million
+Solidarity Trust Sukuk of the Islamic Development Bank in September 2003. Since then,
+about forty sovereign and corporate Sukuk issues have been offered in Bahrain, Malaysia,
+Saudi Arabia, Qatar, UAE, the UK, Germany, Pakistan, Indonesia, The Philippines and
+a number of other countries. Prominent Sukuk issues include PCFC’s’s Sukuk of USD
+3.5 billion to help fund DP World’s acquisition of the UK’s P&O, $3.52 billion Sukuk
+offered by Nakheel, the property arm of Dubai’s DP World, and Pakistan’s sovereign Sukuk
+of $600 million. 1
+Sukuk are gaining popularity as an alternative source of funding, particularly for sovereigns
+and corporate bodies. Their growth has been fuelled by strong demand in the global capital
+market for Shar¯ı´ah-compliant instruments. Standard & Poor’s, the well-known rating agency,
+has put the market for Islamic financial products – banking, mortgages, equity funds, Sukuk,
+Takaful, project finance, etc. – at $400 billion. 2 Sukuk have taken a crucial position among
+the instruments of Islamic capital markets by providing an alternative to conventional fixed-
+income securities issued for funding large developmental and capital expenditures of the big
+entities and facilitating IFIs and investors in managing liquidity with profitability.
+Two decades back, it was considered that only an equity market is possible in an Islamic
+finance framework for financing long-term projects. This may be partly true, as debts cannot
+be sold as per Shar ¯ı´ah principles unless their trading is subject to the rules of Hawalah, i.e.
+at face value with recourse to the assignor. Hence, debts cannot generate any return. But
+the emergence of Sukuk, particularly Ijarah Sukuk and the Sukuk backed by a mixed asset
+pool, has tended to imply that some features and benefits of a debt market are possible even
+in an Islamic financial structure.
+The major requirement for making an investment certificate Shar ¯ı´ah-compliant is that it
+should not represent interest-bearing debt as dominant part of the underlying assets. The
+1 See http://www.lmcbahrain.com.
+2 The Economist , 9th–15th December, 2006, p. 73.
+
+
+----- p.390 (pdf 418) -----
+
+
+390 Understanding Islamic Finance
+Sukuk issued on the bases of Shirkah and Ijarah represent the ownership of the underlying
+assets by the Sukuk holders; hence, the same can be traded in the secondary market at the
+price determined by the market forces. A typical debt market provides a fixed return and
+secondary market trading facilities; Sukuk issued on the basis of Ijarah and pools of mixed
+assets – fixed as well as intangible like receivables – can also provide the same facility,
+subject to the fulfilment of certain criteria. Near alternatives of conventional bonds can,
+therefore, be developed through securitization of assets. The instruments created through
+securitization of assets represent the proportionate ownership of their holders in the assets.
+Like the two categories of modes in Islamic finance, i.e. participatory and fixed-
+return/debt-creating, Sukuk or investment instruments can also be variable-return Sukuk
+(VRS) and fixed-return Sukuk (FRS). But the FRS are different from the conventional debt-
+related instruments like bonds and debentures because, in principle, the return on Islamic
+instruments will be quasi-fixed, as we shall explain in this chapter, unless an independent
+third party guarantee is provided, as admissible under the Shar ¯ı´ah rules.
+15.2 THE CAPITAL MARKET IN AN ISLAMIC FRAMEWORK
+Before discussing Sukuk and securitization, we may briefly see the salient features of the
+capital market comprising debt, equity and the Sukuk markets. An equity market, commonly
+known as a stock market, is the trading place for the stocks of joint stock companies. A
+debt market, which deals in debentures and bonds, normally involves Riba and Gharar and,
+therefore, is not an active part of Islamic financial markets. Debts can only be assigned to
+others on a par value without transferring the risk of default. This process is called Hawalah
+in Fiqh terminology. The difference between sale and assignment is that transfer in Hawalah
+is with recourse, while transfer in ordinary sale is without recourse.
+Key components of an Islamic capital market are Shar ¯ı´ah-compliant stocks, Islamic
+funds and Sukuk/Islamic investment certificates. The basic concept of a stock market is
+permissible under Shar¯ı´ah. However, there are certain conditions which need to be followed
+for investments in stocks conforming to the Shar ¯ı´ah principles. Shar¯ı´ah guidelines in respect
+of stocks have already been given in Chapter 8 and to some extent in Chapter 12.
+An Islamic capital market can be developed by developing Sukuk, introducing Islamic
+depository receipts (IDRs) at a mass level, replacing debt financing with Shirkah-based
+indirect and direct financing, securitization and fund management. While IDRs refer to an
+arrangement for trading of stocks in countries other than their origin (see Box 15.1), Sukuk
+represent common undivided shares in the ownership of underlying assets with the effect
+that the Sukuk holders share the return as agreed at the time of issuance and bear the loss,
+if any, in proportion to their share in investment. Issuance of Shar ¯ı´ah-compliant Sukuk
+would result in enhanced supply of risk-based capital with limited risk-taking on account of
+the prohibition of Riba, gambling and Gharar and a balanced return rate structure based on
+real-asset-backed economic activities.
+Box 15.1: Developing Islamic Depository Receipts (IDRs)
+A GDR is a negotiable certificate held in the bank of one country representing a
+specific number of shares of a stock traded on an exchange of another country.
+It is an arrangement for trading of stocks in countries other than their origin. The
+
+
+----- p.391 (pdf 419) -----
+
+
+Sukuk and Securitization 391
+following are a few specialized GDRs: American depositor receipts (ADRs); European
+depository receipts (EDRs) and Islamic depository receipts (IDRs). Parties to an IDR
+would be the originator of the underlying asset, an investor and the custodian bank.
+Shar¯ı´ah-compliant stocks and other instruments are to be traded under IDRs.
+Advantages of IDRs
+For the originators
+• expansion of investor base;
+• low cost of funds in highly liquid markets;
+• better image of securities by trading in more organized markets.
+For the investors
+• diversification of portfolio in other markets;
+• IFIs to have Shar ¯ı´ah-compliant stocks;
+• higher returns for IFIs than conventional placements in Murabaha;
+• liquidity management facility for IFIs.
+Importance of IDRs
+• convergence of Islamic capital markets;
+• an alternative to cross-listing;
+• better regulatory environment due to listing of IDRs;
+• generation of development funds for developing Muslim countries;
+• standardization of Shar ¯ı´ah compliance standards across jurisdictions;
+• growth of Islamic capital markets.
+Institutions supporting IDR development include
+• Islamic Development Bank (IDB);
+• International Islamic Financial Market (IIFM);
+• rating agencies;
+• International Financial Services Board (IFSB);
+• local regulatory bodies;
+• Islamic financial institutions.
+15.3 SECURITIZATION AND SUKUK
+The traditional business model of financial institutions revolved around originating an asset
+and holding it until maturity. But now, financial institutions increasingly resort to securiti-
+zation, which is a process of pooling/repackaging the nonmarketable and illiquid assets into
+tradable certificates of investment. Securitization transforms the originator’s role from being
+an accumulator to that of a distributor. In Islamic finance it has become a stimulating factor,
+
+
+----- p.392 (pdf 420) -----
+
+
+392 Understanding Islamic Finance
+which refers to the process in which ownership of the underlying assets is transferred to a
+large number of investors in the form of instruments, presently termed Sukuk (the plural of
+the word Sak, or Sanadat, meaning certificate of investment or simply certificates).
+The ownership of the securitized assets is transferred to a special purpose vehicle (SPV) or
+special purpose Mudarabah (SPM) that is set up for the dual purpose of managing the assets
+on behalf of the Sukuk holders and for the issuance of the investment certificates. The SPV
+that serves as Mudarib manages both the liabilities and assets of the issues. The contractual
+rights attached to Sukuk determine the mutual ownership and benefits of the securitized
+assets for the individual investors who subscribe to the Sukuk. The Sukuk holders earn any
+revenue generated by the project and/or capital appreciation of the assets involved.
+The AAOIFI has defined investment Sukuk as certificates of equal value representing
+undivided shares in the ownership of tangible assets, usufruct and services or (in the own-
+ership of) assets of the particular projects or any specified investment activity. 3 Investment
+Sukuk should be distinguished from common shares and bonds. While shares represent
+the ownership of a company as a whole and are for an indefinite period, Sukuk represent
+specified assets and are for a given period of time (so far issued for periods ranging from
+three months to ten years). Sukuk, unlike bonds, carry returns based on cash flow originating
+from the assets on the basis of which they are issued.
+Islamic financing being asset-backed by nature, provides ample opportunities for issuance
+of Sukuk on the basis of assets already booked by IFIs or by purchasing the assets with
+proceeds of a variety of Sukuk created on the principle of Shirkah. The process and the
+procedures applied for Sukuk issue are almost same as those used for securitization in the
+conventional set-up, with the exception of avoiding Riba, Gharar and the activities prohibited
+by the Shar ¯ı´ah.
+Securitization involves evaluating, isolating and efficiently allocating specific risks, eval-
+uating the taxation, accounting and legal implications, designing appropriate credit enhance-
+ment structures 4 and pricing the (residual) risk for pricing the units of the securitized assets
+or pools. Securitization provides a premium over equivalent related plain securities and
+better stability than vanilla papers. Other benefits of securitization for investors include:
+focused risks associated with securities, portfolio diversification, tailored cash flow struc-
+tures backed by the securitized assets, a flexible range of maturities and experienced risk
+assessment.
+Securitization is also beneficial for the originator, as it provides incentives for developing
+a transparent fund approval process, efficient collection procedures, and a well-built mecha-
+nism to control this process. Public availability of information about pool performance adds
+to confidence in securitized papers. New forms of securities in the form of Sukuk assist the
+development of capital markets, attract conservative buyers, draw international capital and
+facilitate the efficient sharing of risks.
+Securitized papers are generally traded at a premium over vanilla corporate papers of
+similar rating and tenor. The premium depends on the liquidity/active secondary market for
+the securitized paper, the complexity of the transaction structure, investors’ comfort with
+the underlying collateral and investors’ demand at the time of issuance. It makes them
+3 AAOIFI, 2004–5a, Standard on Investment Sukuk, p. 298.
+4 Credit enhancements in respect of Sukuk could be internal and/or external collateral aspects, in addition to the underlying
+assets, to reduce the risk to investors and to enhance the rating of the issue. Some examples are: cash reserves, Takaful cover,
+overcollateralization, early warning triggers performance guarantee by originators of facilities and third party guarantee, if possible.
+
+
+----- p.393 (pdf 421) -----
+
+
+Sukuk and Securitization 393
+an effective and attractive tool for mobilizing long-term funds for financing development
+projects in industry, agriculture and real estate development.
+15.3.1 Parties to Sukuk Issue/Securitization
+Various parties are involved in Sukuk transactions. Key players in various issues of
+Sukuk are:
+• The originator or the issuer of Sukuk, who sells its assets to the SPV and uses the
+realized funds. Originators are mostly governments or big corporations, but they could
+be banking or non-banking Islamic financial institutions. The issuers may delegate, for a
+consideration or a commission, the process of arranging the issue.
+• The SPV – an entity set up specifically for the securitization process and managing the
+issue. It purchases assets from the originator and funds the purchase price by issuing
+Sukuk. Sometimes, the SPV is also referred to as the issuer.
+• Investment banks – as issue agents for underwriting, lead managing and book-making ser-
+vices for Sukuk against any agreed-upon fee or commission. These services are provided
+by syndicates of Islamic banks and big multinational banks operating Islamic windows.
+• Subscribers of Sukuk – mostly central banks, Islamic banks and NBFIs and individuals
+who subscribe to securities issued by the SPV.
+Other parties to the general securitization process may include:
+• the obligor: a contractual debtor to the originator who pays cash flows that are securitized;
+• the lead manager: as structurer for designing and executing the transaction and as arranger
+for the securities – may be a company/trust/mutual fund that provides services for man-
+aging the issues;
+• the servicer: collects and administers the rentals from obligors, monitors and maintains
+assets;
+• the cash administrator or receiving and paying agent: the banker for the deal who manages
+inflows and outflows, invests interim funds and accesses cash collateral;
+• the credit enhancement provider: provides credit enhancement by way of guarantees,
+Takaful/insurance, etc.;
+• the credit rating agency: provides a rating for the deal based on structure, rating of parties,
+legal and tax aspects;
+• the legal and tax counsel: provides key opinions on the structure and underlying contracts
+with respect to their legal and tax implications;
+• the auditor: appointed for conducting due diligence, both initial and during the deal;
+• the custodian/R&T agents: appointed for registration/transfer of securities and safe custody
+of the underlying documents. It actually holds the assets as agent and bailee for the
+trustee.
+Classes of securitized papers include:
+• asset-backed securitization (ABS);
+• pool-based securitization:
+— mortgage-backed securitization;
+
+
+----- p.394 (pdf 422) -----
+
+
+394 Understanding Islamic Finance
+— CDO/CLO: collateralized debt/loan obligations (not Shar ¯ı´ah-compliant unless sub-
+jected to the rules of Hawalah);
+— lease rentals securitization (for Shar ¯ı´ah compliance of Ijarah Sukuk, ownership of
+the assets must also be transferred to the Sukuk holders);
+• future flow securitization (FFS):
+— securitization of receivables to be generated in future;
+— road toll securitization (transfer of pro rata ownership to Sukuk holders necessary for
+Shar¯ı´ah compliance);
+— telecom receivable securitization;
+— credit card receivable securitization (not Shar ¯ı´ah-compliant unless subjected to the
+rules of Hawalah).
+A flow diagram of the typical securitization process is given in Figure 15.1.
+Originator
+Obligors 
+T &R Account
+SPV
+Subordinate Investor
+(Originator)
+Servicer  
+Senior Investors
+Purchase
+consideration
+Pool 
+collections
+Pool
+collection
+Pool
+collections
+Sale of receivables
+Monthly Payments
+Issue of PTCs
+Subscription to  PTCs
+Agreements
+Initial Cashflows
+Monthly Cashflows
+Issue of PTCs
+Figure 15.1 Flow diagram of the securitization process 5
+15.3.2 Special Purpose Vehicle (SPV)
+SPVs are formed as separate legal entities for the specified purpose of managing the securities
+issues. As such, an SPV is capital and tax efficient – it does not add to the costs of the transaction.
+Major characteristics of a typical SPV include bankruptcy remoteness and thin capitalization.
+5 The author is grateful to M/s Ashar Nazim, Arsalan Siddiqi and Shazia Farooq of Islamic Capital Partners, Karachi and
+Mr Muhammad Sajid, CEO, JS Finance, Karachi for their help in preparing flow diagrams and charts and also for sharing vital
+information on securitization and Sukuk.
+
+
+----- p.395 (pdf 423) -----
+
+
+Sukuk and Securitization 395
+The legal structure of an SPV depends upon the regulatory and legal environment in which it
+has to work. It has to be ensured that the sale to the SPV is true and there is a proper segregation
+of the asset from the original owner. Once the ownership has been transferred to the SPV, the
+discretion of the original owner in respect of the asset comes to an end, and it cannot be reversed
+in the case of insolvency of the original owner or otherwise.
+Alternative payment structures adopted by SPVs include the “pass-through structure” –
+the SPV remits any funds collected completely and immediately to the investors – and
+the “pay-through structures” – desynchronization of servicing of the securities from the
+underlying cash flows. SPVs may also have discretion to reinvest the funds and pay investors
+according to a predetermined schedule. They may also serve as “conduits” – vehicles set up
+for multiple issuances (typically in the case of securitization of receivables of credit cards
+and commercial papers).
+15.3.3 Risk, Contract and Cash Flow Analysis
+The lead bankers have to undertake minute risk analysis in respect of credit and bankruptcy
+risk (the ability of the entity to pay its obligations and survive as a viable entity); perfor-
+mance risk (the ability to fulfil contractual obligations); asset/collateral risk (variation in the
+value of the underlying asset); payment risk (the ability of other parties, particularly credit
+enhancement providers, to meet their obligations); return rate risk (variation in return rate
+structure); exchange rate risk; liquidity risk (the ability to liquidate the underlying assets
+or the collateral to service the investor); risk of loss of money collected and retained by
+the servicer for a short period before remitting to the SPV; prepayment risk (variation in
+maturity of the investments made by the investors due to prepayment by obligors); reinvest-
+ment risk in pay-through structures (variation in the returns earned on investments made by
+the SPV for the period until the prespecified dates, and the legal/regulatory/tax related risk
+(interpretation of various laws, regulations and complex documentation).
+Contract analysis focuses on rights and obligations, performance requirements, termina-
+tion, events of default and consequences of defaults, with the purpose of knowing the ability
+to fulfil the rights and obligations. It also includes study of transaction documentation.
+Cash flow analysis is conducted to identify key variables and expected patterns of the
+underlying cash flows under various scenarios and to determine the rating.
+Box 15.2: Securitization Mitigates the Risks
+Originator’s perspective Investors’ perspective
+• mitigates liquidity risk of an
+illiquid asset;
+• foreign exchange risk is reduced
+if underlying asset is denominated in
+multiple currencies;• reduced cost of funding;
+• takes assets off balance sheet,
+without loss of use;
+• pooling of diversified assets with
+heterogeneous risk mitigates earnings
+risk;
+• reduced cost of finance if SPV is
+serving as multiple originators by
+pooling assets.
+• undivided ownership of the asset is an
+added protection.
+
+
+----- p.396 (pdf 424) -----
+
+
+396 Understanding Islamic Finance
+15.3.4 Shar ¯ı´ah Bases of Sukuk Issue
+The AAOIFI, in its Shar ¯ı´ah Standard for Investment Sukuk, has discussed the following
+types of investment certificates or Sukuk:
+1. Sukuk of ownership in leased assets: further divided into Sukuk of ownership of usufruct
+of existing assets, Sukuk of ownership of described future assets, Sukuk of ownership of
+services of a specified party and Sukuk of ownership of described future services.
+2. Salam Sukuk.
+3. Istisna‘a Sukuk.
+4. Murabaha Sukuk.
+5. Musharakah Sukuk: further divided into participation certificates, Mudarabah Sukuk and
+investment agency Sukuk.
+6. Muzara‘ah (share-cropping) Sukuk.
+7. Mus ¯aqah (projects involving irrigation of fruit-bearing trees) Sukuk.
+8. Mugh ¯arasah (projects involving plantation of gardens) Sukuk.
+The most important of the above Sukuk or certificates of investment with sizeable potential
+are those issued on the basis of Shirkah, Ijarah, Salam and Istisna‘a. As per the basic rules of
+Shar¯ı´ah, investment Sukuk have to be structured, on one side, on the principle of Shirkah.
+However, depending upon the nature of the asset, usufruct of assets or services involved,
+certificates can be structured to be designated as Ijarah Sukuk, Salam Sukuk and Istisna‘a
+Sukuk. On the other side, business could be conducted through participatory or fixed return
+modes/instruments. Thus, the rates of return on Sukuk will be either variable (if the modes
+on the second leg are participatory) or quasi-fixed (in the case of cash flow from assets
+securitized through modes with fixed return). However, any third party guarantee can make
+the Sukuk fixed-return certificates of investment. 6
+The issuers or the Sukuk holders can adopt any permissible methods of managing and
+mitigating risks, such as creating a Takaful fund with contributions from certificate holders,
+or taking cover from Islamic Takaful companies and paying the contributions from the
+income of the issue or donations of the Sukuk holders. It is also permissible to set aside
+a certain percentage of the profit in order to mitigate fluctuations of distributable profit,
+subject to the condition that proper disclosure was made in the prospectus of the issue.
+Disgusting Bases of Sukuk Issues and Trading
+Most of the Sukuk issues so far are based on the concept of Ijarah, while a few Sukuk are
+based on Shirkah, Salam or pooled assets. A number of Sukuk issues are subject to severe
+criticism due to the involvement of Bai‘ al ‘Inah, Bai‘ al Dayn and other non-Shar ¯ı´ah-
+compliant traits that make the Sukuk as good or as bad as interest-based bonds. Bai‘ al ‘Inah
+is a double sale by which the borrower and the lender sell and then resell an object between
+them, once for cash and once for a higher price on credit, with the net result of a loan with
+interest. As such, it is a legal device to circumvent the prohibition of Riba. Sukuk issues
+of Malaysia are mostly based on the concepts of Bai‘ al ‘Inah of underlying assets and the
+concept of Tabarru‘ (donation to the investor irrespective of the cash flow of the project
+6 Council of the Islamic Fiqh Academy, 2000, p. 65; AAOIFI, 2004–5a, Standard on Guarantees (No. 5), clause 7/6 and Standard
+on Sukuk (No. 17), clause 5/1/8/7.
+
+
+----- p.397 (pdf 425) -----
+
+
+Sukuk and Securitization 397
+underlying the Sukuk or certificates), while their trading in the secondary market takes place
+through Bai‘ al Dayn. (Lately, they have also been issuing Ijarah Sukuk, which is a healthy
+development.)
+Rosly and Sanusi have concluded in this regard:
+“The use of a legal device is therefore evidence that the Niyyah (intention) factor is undermined
+or made secondary in the securitization process of Islamic bonds in Malaysia /periodmtmi/periodmtmi/periodmtmiTo retain the
+basic structure of traditional bonds in Islamic finance, that is providing fixed return to investors,
+practitioners and the relevant Shar ¯ı´ah experts may have wrongly applied Shar ¯ı´ah laws, which
+implies now that the legitimacy of Islamic bonds issued using Bai‘ al ‘Inah is suspect.” 7
+In the case of a variety of Malaysia-based Sukuk, secondary market trading of Sukuk
+is conducted on the basis of Bai‘ al Dayn. However, the majority of jurists do not accept
+this, even though the debt represented by Sukuk is supported by the underlying assets. The
+traditional Muslim jurists are unanimous on the point that Bai‘ al Dayn with discount is
+not allowed in Shar ¯ı´ ah. The overwhelming majority of contemporary Shar ¯ı´ah scholars are
+also of the same view. However, some scholars from Malaysia have allowed this kind of
+sale. They normally refer to the ruling of the Shafi‘e school, but they do not consider the
+fact that the Shafi’e jurists allowed it only in a case where a debt was sold at its par value. 8
+Rosly and Sanusi have observed in this regard:
+“The trading of Islamic bonds at a discount using Bai‘ al Dayn has been found unacceptable by
+the Jamhur Ulama, including al-Shafi‘e. As such, the position of Malaysian Islamic bonds remains
+unacceptable among the Middle Eastern jurists, although some Malaysian jurists found this the
+opposite.”
+The OIC Islamic Fiqh Council, which has the representation of all Islamic countries,
+including Malaysia, has also approved the prohibition of Bai‘ al Dayn unanimously, without
+a single dissent.
+In contrast to the Bai‘ al ‘Inah concept, which is prohibited, the experts in Shar ¯ı´ah
+principles allow the use of a sale and lease-back technique. This is because of the flexibility
+in the Ijarah contract, as discussed earlier. An asset can be purchased from a party and then
+leased to that party. In this case, the Ijarah contract should not be executed unless and until
+the IFI has acquired the asset. 9 As such, the sale and lease-back technique does not create
+any Shar ¯ı´ah-related problem, particularly in respect of Sukuk issue on the basis of Ijarah,
+provided the sale of the asset is complete in all respects and then the Ijarah rules are made
+applicable. (Use of sale and lease-back in the case of consumer durables is not considered
+desirable by many Shar ¯ı´ah scholars and even practitioners, and they allow it only where the
+client wants to avoid interest-based financing and there is no other way out.) Assets leased
+under this technique can again be sold to the original owner, as in the case of most of the
+sovereign Ijarah Sukuk issued so far. Shar ¯ı´ah scholars suggest, however, that sufficient time
+should pass before the lessee repurchases the asset, in which time there is the possibility of a
+change in the value and structure of the asset being sold and leased back. They recommend
+that in such cases, the client should purchase back the asset at least after one year of sale.
+This is to ensure that the technique is not used as a back door to interest.
+7 Rosly and Sanusi, 1999, 1(2) (http://islamic-finance.net/journal.html).
+8 Usmani, 2000a, pp. 216–217.
+9 AAOIFI, 2004–5a, pp. 140, 152.
+
+
+----- p.398 (pdf 426) -----
+
+
+398 Understanding Islamic Finance
+Ijarah has great flexibility and a large potential for Sukuk issue, but some of the features
+of Ijarah Sukuk issues or the agreements involved in the process are pointers to different
+Shar¯ı´ah-related problems. As per Shar ¯ı´ah rules, Sukuk holders have to jointly bear the risks
+of an asset’s price and the ownership-related costs and share its rent by leasing it to any user.
+As discussed in Chapter 11, due to the possibility of nonpredictable expenses relating to the
+ownership of relevant leased assets and possible defaults, the returns could be quasi-fixed
+and not absolutely fixed or unmodified when pegged to any benchmark. However, the returns
+on most of the Sukuk are absolutely fixed or unmodified. This aspect carries systemic risk
+of non-Shar ¯ı´ah-compliance, which nullifies the very basis of the Islamic financial system
+and contravenes the investors’ aspiration based on their belief.
+Sukuk originating from Sudan, Bahrain and other Middle Eastern countries are based
+on Shirkah, Ijarah, Salam, Istisna‘a, Istisna‘a-cum-Ijarah or a pool of mixed assets. Such
+Sukuk are acceptable to almost all of the Islamic scholars and banking experts, subject to
+the fulfilment of minimal Shar ¯ı´ah essentials associated with underlying contracts.
+15.3.5 Categories of Sukuk
+Below we discuss various categories of Sukuk.
+Muqaradah or Mudarabah Sukuk
+Mudarabah or Muqaradah 10 Sukuk or deeds can be instrumental in enhancing public partici-
+pation in investment activities in any economy. These are certificates that represent projects
+or activities managed on the Mudarabah principle by appointing any of the partners or any
+other person as Mudarib for management of the business. As regards the relationship between
+the parties to the issue, the issuer of Mudarabah certificates is the Mudarib, subscribers are
+the owners of the capital and the realized funds are the Mudarabah capital. The certificate
+holders own the assets of the Mudarabah and the agreed upon share of the profits belongs
+to the owners of capital and they bear the loss, if any.
+In terms of the Resolution of the Islamic Fiqh Council of the OIC (fourth session, 1988),
+the following are the salient features of Mudarabah Sukuk/certificates:
+1. Mudarabah Sukuk (MS) represent common ownership and entitle their holders to a share
+in the specific projects against which the MS have been issued.
+2. The MS contract is based on the official notice of the issue or the prospectus, which must
+provide all information required by Shar ¯ı´ah for a Qir ¯ad contract, such as the nature of
+capital, the ratio for profit distribution and other conditions related to the issue, which
+must be compatible with Shar ¯ı´ah.
+3. The MS holder is given the right to transfer the ownership by selling the Sukuk in the
+securities market at his discretion. The market value of Muqaradah Sukuk varies with the
+business status and anticipated or expected profits of the concerned project. The sale of
+MS must follow the rules listed below:
+10 Muqaradah or Qir ¯ad have the same meaning as that of Mudarabah, as explained in Chapter 12 (in the part relating to Mudarabah).
+
+
+----- p.399 (pdf 427) -----
+
+
+Sukuk and Securitization 399
+— if the Mudarabah capital is still in the form of money before the operation of the
+specific project, the trading of MS will be like the exchange of money for money and
+it must satisfy the rules of Bai‘ al Sarf; 11
+— if the Mudarabah capital is in the form of debt, it must be based on the principles of
+debt trading in Islamic jurisprudence;
+— if the capital is in the form of a combination of cash, receivables, goods, real assets
+and benefits, trade must be based on the market price evolved by mutual consent.
+4. The manager/SPV who receives the funds collected from the subscribers to MS can also
+invest his own funds. He will get a profit for his capital contribution in addition to his
+share in the profit as Mudarib.
+5. Neither prospectus nor MS should contain a guarantee, from the issuer or the manager
+of the fund, for the capital or a fixed profit, or a profit based on any percentage of the
+capital. Accordingly, (i) the prospectus, or the MS issued pursuant to it, may not stipulate
+payment of a specific amount to the MS holder, (ii) profit is to be divided, as determined
+by applying the rules of Shar ¯ı´ah; that is, an amount in excess of the capital, and not
+the revenue or the yield, and (iii) the Profit and Loss Account of the project must be
+published and disseminated to MS holders.
+6. It is permissible to create reserves for contingencies, such as loss of capital, by deducting
+from the profit a certain percentage in each accounting period.
+7. The prospectus can also contain a promise made by a third party, totally unrelated to the
+parties to the contract, in terms of legal entity or financial status, to donate a specific sum,
+without any counter benefit, to meet losses in a given project, provided such commitment
+is independent of the Mudarabah contract. However, it is not permissible for the issuer
+to guarantee the capital of the Mudarabah. 12
+IFIs can offer Mudarabah Sukuk or certificates to the investors who would subscribe and
+participate in the investment transactions. The funds mobilized would be the variable capital
+(class B share) of any bank to be marketed regionally through the selling of the issued
+Mudarabah Sukuk.
+Musharakah Sukuk
+Musharakah is a mode which can serve as a basis for securitization easily, especially in
+the case of big projects where huge amounts are required. Every subscriber is given a
+Musharakah certificate, which represents his proportionate ownership in the assets of the
+project. These are certificates of equal value issued for mobilizing funds to be used on
+the basis of partnership, so that their holders become owners of the relevant project or
+the asset as per their respective shares that are part of their asset portfolios. Musharakah
+Sukuk can be issued as redeemable certificates by or to the corporate sector or to individuals
+for their rehabilitation/employment, for the purchase of automobiles for their commercial
+use or for the establishment of high-standard clinics, hospitals, factories, trading centres,
+endowments, etc.
+11 Bai‘ al Sarf refers to the exchange of gold, silver, monetary values/receivables or currencies; this has to be equal for equal and
+simultaneous if the items of exchange are homogeneous, like gold for gold or US Dollar for US Dollar; and simultaneous if the
+items being exchanged are heterogeneous, e.g. gold for silver or Pound for Dollar.
+12 Council of the Islamic Fiqh Academy, 2000, pp. 61–66.
+
+
+----- p.400 (pdf 428) -----
+
+
+400 Understanding Islamic Finance
+Musharakah redeemable Sukuk are almost similar to Mudarabah Sukuk. Therefore, basic
+Shar¯ı´ah rules relating to Mudarabah also apply to Musharakah certificates. The only major
+difference is that the intermediary party will be a partner of the group of subscribers
+represented by a body of Musharakah certificate holders, in a manner similar to a joint stock
+company.13
+After the project is started, these Musharakah certificates can be treated as negotiable
+instruments. Certificates based on Musharakah/Mudarabah can be bought and sold in the
+secondary market, subject to the condition that the portfolio of Musharakah comprises
+nonliquid assets valuing more than 50 %. Profit earned by the Musharakah is shared according
+to an agreed ratio. Loss is shared on a pro rata basis. Whenever there is a combination of
+liquid and nonliquid assets, it can be sold and purchased for an amount greater than the
+amount of liquid assets in the combination or in the pool.
+Investment Sukuk can be issued on a Musharakah basis to mobilize short-term deposits
+for the development of long-term projects or for investment in general financial activities or
+specific projects. The proceeds of the Sukuk can be used to buy and lease certain equipment
+or for the construction of projects and factories, the expansion of projects or for working
+capital finance. The Musharakah structure is considered more equitable and also safer for the
+investors than the Mudarabah structure, as it involves both profit- and loss-sharing between
+the fund manager and the Sukuk holders, not only profit-sharing. In addition, Musharakah
+Sukuk holders will have added comfort and security from the cushion provided by the
+manager’s participation in the Musharakah capital.
+In Sudan, a number of assets of the Ministry of Finance and the Bank of Sudan, Bank
+of Khartoum, Nilain Bank and other public entities have been identified for the purpose
+of securitization on a Musharakah basis. Instruments known as central bank Musharakah
+certificates (CMCs) and government Musharakah certificates (GMCs) have been issued since
+1998 for investors and are used in place of treasury bills and other interest-bearing securities
+for open market operations and monetary management by the central bank. The CMCs are
+sold (or bought) by the central bank through auctions and can be traded in the secondary
+inter-bank market. 14
+Ijarah Sukuk
+The concept of Ijarah can be used for mobilizing funds for the development of long-
+term infrastructure projects. This is possible through securitization of tangible assets such
+as airports, roads, buildings, schools and hospitals and offering Sukuk to a large number
+of institutional and individual investors. It is also possible to create a secondary market
+instrument for financiers on the basis of Ijarah.
+If a lessor, after executing an Ijarah contract, wishes to recover his cost of purchase of
+the asset to get liquidity or for the purpose of profit, he can sell the leased asset wholly
+or partly, either to one party or to a number of individuals. The purchase of proportion of
+the asset can be evidenced by issuing certificates, which may be called Ijarah certificates or
+Sukuk. The certificates must represent ownership of the pro rata undivided parts of the asset
+with all related rights and obligations. Hence, Ijarah Sukuk are the securities representing
+13 Homoud, 1998.
+14 Ayub, 2002, pp. 128–131; Eltejani, 2005, pp. 411–413.
+
+
+----- p.401 (pdf 429) -----
+
+
+Sukuk and Securitization 401
+ownership of well-defined and known assets tied up to a lease contract, rental of which is
+the return payable to the Sukuk holders.
+By virtue of flexibility in the rules of Ijarah, securitizing the Ijarah contracts is a key
+factor for solving liquidity management problems and financing the public sector needs in
+developing countries. Payment of Ijarah rentals can be unrelated to the period of taking
+usufruct by the lessee, i.e. it can be made before the beginning of the lease period, during
+the period or after the period, as the parties may mutually decide. This flexibility can be
+used to evolve different forms of contracts and Sukuk that may suit different purposes of
+issuers and investors.
+If funds are raised through issuance of Sukuk for purchasing assets like buildings, motor
+vehicles or other equipment for the purpose of leasing them out to their ultimate users, these
+may be termed Ijarah funds. The ownership of the assets remains with the fund manager or
+SPV and the rentals received from the users are distributed by the fund managers pro rata
+among the subscribers. As discussed in detail in Chapter 12, most of the jurists are of the
+view that such a fund cannot be created on the basis of Mudarabah, because Mudarabah,
+according to them, is restricted to the sale of goods and does not extend to the business of
+services and leases. However, in the Hanbali school, Mudarabah can be used in services and
+also leases. This view is preferred by the majority of contemporary scholars.
+Rental in Ijarah must be stipulated in clear terms for the first term of lease, and for future
+renewable terms it could be constant, increasing or decreasing by benchmarking or relating
+it to any well-known variable like the inflation rate, any periodically announced price index,
+or otherwise by any settled percentage. The mainstream Shar ¯ı´ah experts have permitted
+benchmarking with any interest rate reference, although it is not an ideal practice to them. 15
+Governments can use Ijarah Sukuk as an alternative tool to interest-based borrowing,
+provided they have durable assets useable in the process of performing government functions.
+Use of assets by governments is necessary, while it does not matter whether these assets are
+income-generating or not.
+The following types of Sukuk can be issued on the concept of Ijarah:
+1. Sukuk of ownership in leased assets. These are certificates of equal value that are issued
+either by the owner of a leased asset or an asset to be leased (by promise), or by his
+financial agent, with the aim of recovering the value of the asset through subscription.
+The subscribers are buyers of the asset. The certificate holders become owners of the
+asset jointly, with its benefits and risks.
+2. Sukuk of ownership of usufruct of assets. Such certificates have various types, including
+the following:
+— Sukuk of ownership of usufructs of existing assets. These are documents of equal value
+issued either by the owner of usufruct of an existing asset or a financial intermediary
+acting on the owner’s behalf. The mobilized funds from subscription are the purchase
+price of the usufructs, and the certificate holders become owners of the usufruct along
+with the risks and rewards. It is permissible to trade in certificates of ownership of
+usufructs of tangible assets prior to a contract of sub-leasing the assets. When the
+assets are sub-leased, the certificate then represents the rent receivables, which makes
+it a debt certificate. Therefore, in that case, the certificate is subject to the rules and
+15 Usmani, 2000a, pp. 168–171.
+
+
+----- p.402 (pdf 430) -----
+
+
+402 Understanding Islamic Finance
+requirements of debts. It is permissible for the issuer to redeem, either at the market
+price or as agreed upon at the time of purchase, the Sukuk of ownership of usufruct
+of tangible assets from the Sukuk holder after allocation of Sukuk and payment of
+subscription amounts.
+— Certificates of ownership of usufructs to be made available in the future as per
+description. These are documents of equal value issued for the sake of leasing assets
+that the lessor is liable to provide in the future, whereby the rental is recovered from
+the subscription income, in which case the holders of the certificates become owners
+of the usufruct of the future assets. The subscribers are buyers of usufructs and will
+have both the risks and rewards. Such Sukuk can be traded after the asset is identified.
+It is not valid to sub-lease or trade in usufructs of an asset to be made available prior
+to identification of the asset, in which case trading must be carried out in line with
+the rules of currency exchange. The trading rules in the case of sub-leasing of such
+usufructs would be the same as those discussed above.
+— Certificates of ownership of services of a specified supplier. These are documents of
+equal value issued for the sake of providing or selling services through a specified
+supplier (such as educational programmes in a particular university) and obtaining
+the value in the form of subscription income, in which case the holders of the Sukuk
+become owners of the services.
+— Certificates of ownership of services to be made available in the future as per descrip-
+tion. These are documents of equal value issued for the sake of providing or selling
+services through a nonexisting supplier with the description of the subject matter
+(such as educational programmes of a specific quality, schedule, duration, etc. with-
+out mentioning the educational institution) and obtaining the value in the form of
+subscription income, in which case the holders of the certificates become owners of
+the services. 16
+The following features may be kept in mind for securitization under Ijarah. It is necessary
+for an Ijarah contract that the asset being leased and the amount of rent both are clearly
+known to the parties at the time of the contract, and if both of these are known, Ijarah
+can be contracted on an asset or a building that is yet to be constructed, as long as it is
+fully described in the contract, provided that the lessor should normally be able to acquire,
+construct or buy the asset being leased by the time set for its delivery to the lessee. The
+lessor can sell the leased asset provided it does not hinder the lessee in taking benefit from
+the asset. The new owner(s) will be entitled to receive the rentals for the remaining period.
+Similarly, they can dispose of their share in the asset to the new owners individually or
+collectively.
+As an Ijarah certificate represents the holder’s proportionate ownership in the leased asset,
+the holder will assume the rights and obligations of the owner/lessor to the extent of his
+ownership. The holder will have the right to enjoy part of the rent according to his proportion
+of ownership in the asset. In the case of total destruction of the assets, he will suffer the loss
+to the extent of his ownership. So, it is essential that the Ijarah certificates are designed to
+represent real ownership of the leased assets, and not only a right to receive the rent.
+As per Shar ¯ı´ah rules, expenses related to the corpus or basic characteristics of the asset
+are the responsibility of the owner, while maintenance expenses related to its operation
+16 AAOIFI, 2004–5a, pp. 298–302.
+
+
+----- p.403 (pdf 431) -----
+
+
+Sukuk and Securitization 403
+are to be borne by the lessee. Therefore, the expected return flow from such Sukuk may
+not be completely fixed and predetermined. From this perspective, Ijarah Sukuk should be
+taken as quasi-fixed return instruments in Islamic finance. There is one possibility that the
+owner/lessor of the asset may assure the purchaser (SPV/Sukuk holder) about – performance
+of the lessees, as in the case of IDB Trust. But if the asset is destroyed without any fault or
+negligence of the lessee, the loss has to be borne by the lessor – the Sukuk holders.
+It can be agreed between the parties that the rental should consist of two parts – one for
+payment to the lessor and the other as an “on account” payment, to be held by the lessee for
+any costs relating to ownership of the asset.
+As regards the procedure for issuance of Ijarah Sukuk, an SPV is created to purchase
+the asset(s), and this serves as a manager and issues Sukuk to the investors, enabling it to
+make payment for purchasing the asset. The asset is then leased to the government or any
+corporate body for its use. The lessee makes periodic rental payments to the SPV, which, in
+turn, distributes the same among the Sukuk holders. As the lessor can stipulate the rental in
+advance, the rental on Sukuk issue can be indicated in advance with the possibility of very
+small variation that might be possible due to payment of ownership-related unpredictable
+expenses by the lessor or the possibility of any default by the lessee.
+Ijarah certificates can be negotiated and traded freely in the market and can serve as an
+instrument easily convertible into cash. But, this should be after transfer of ownership to the
+Sukuk holders, necessarily implying that the Sukuk represent real assets and not the monetary
+capital, and that the holders have become owners of the assets (after which they can sell).
+It is also permissible for the issuer to redeem, before maturity, certificates of ownership of
+leased assets at the market price or at the price agreed upon between the certificate holder
+and the issuer. Similarly, Ijarah Sukuk representing ownership of the usufruct of ascertained
+assets can be traded prior to the contract of sub-leasing (because in that case they would
+represent the monetary rent receivable).
+Salam Securities/Sukuk
+Salam is a contract in which advance payment of a price is made for goods to be delivered
+later on. As per the AAOIFI Standard, a Salam purchase can onward sell the Salam com-
+modity by another contract which is parallel to the first. In this case, the first and the second
+contracts should be independent of each other. Specifications of the goods and delivery
+dates of the two contracts may conform to each other, but both the contracts should be
+independently enforceable.
+Salam Sukuk are certificates of equal value issued for the sake of mobilizing capital that
+is paid in advance in the shape of the price of the commodity to be delivered later. The
+seller of the Salam commodity issues the certificates, while the subscribers are the buyers
+of that commodity, i.e. they are the owners of the commodity when delivered. In the case
+of Parallel Salam, the holders of Salam Sukuk are entitled to the Salam commodity or the
+selling price at the time when the commodity is delivered.
+Salam sale is attractive to the seller, whose cash flow is enhanced in advance, and to the
+buyer, as the Salam price is normally lower than the prevailing spot price. The BMA, in
+June 2001, developed Salam-based securities with LIBOR-related three-month tenures used
+by Islamic banks for maintaining SLR. The Bahrain government sells aluminium to Bahrain
+Islamic Bank (BIB), which has been nominated to represent the other banks wishing to
+participate in the Salam contract. The government undertakes to supply a specified amount
+
+
+----- p.404 (pdf 432) -----
+
+
+404 Understanding Islamic Finance
+of aluminium on the basis of Salam at a future date. At the same time, BIB appoints the
+government its agent to market the aluminium at the time of delivery through its channels
+of distribution at a price which provides a return to the security holders. Such short-term
+Sukuk can be developed on the basis of commodities being heavily traded, like crude oil
+and cotton, and the produce of big industrial projects having firm demand.
+So far, secondary market trading of Salam Sukuk is considered impermissible on the
+grounds that the certificates represent a share in the Salam debt, in which case they are
+subject to the rules of debt trading. The issue needs further analysis in respect of reselling
+the goods purchased under Salam before taking possession by the original buyer, especially
+in the situation when he maintains inventory of that kind of goods, in which case banks
+would be selling those goods out of the stock maintained by them without specifying any
+units of the goods.
+The Salam seller is bound to deliver the goods at the agreed date/time. The possibility
+of a change in price of tangible goods during the Salam contract/the delivery period gives
+rise to a business risk needed for getting a return through sale. Secondly, Salam deals have
+been allowed as an exception from the general rule of not selling goods without having their
+ownership and possession by dint of some conditions that are put in place to avoid excessive
+Gharar in transactions. If it is allowed, the Salam Sukuk may be negotiable. The purchaser
+of Sukuk would be the owner of the commodity to be delivered at the specified date and the
+price of Sukuk would be determined by the market, depending upon the demand and supply
+of the underlying commodity.
+Istisna‘a Sukuk
+Istisna‘a is a contractual agreement for manufacturing goods, allowing cash payment in
+advance and future delivery or a future payment and future delivery of the goods man-
+ufactured, as per the contract. It can be used for providing the facility of financing the
+manufacture or construction of houses, plant, projects, bridges, roads and highways. By
+way of a Parallel Istisna‘a contract with subcontractors, Islamic banks can undertake the
+construction of any project/asset and its sale for a deferred price, and subcontract the actual
+construction to any specialized firms.
+In Istisna‘a, full ownership of the constructed item is immediately transferred upon delivery
+of the item to the purchaser, against the deferred sale price that normally covers not only the
+construction costs but also profits, which could legitimately include the cost of tying funds
+for the duration of the repayment period. The payable deferred price can be documented
+in the form of Sukuk (certificates of indebtedness), known as Istisna‘a Sukuk, which are
+documents that carry equal value and are issued with the aim of mobilizing the funds required
+for producing a certain item. The issuer of the certificates is the manufacturer (seller), while
+the subscribers or certificate holders are the buyers of the item to be produced.
+It is permissible to trade in or redeem Istisna‘a certificates if the funds have been converted
+through business or trade into assets owned by certificate holders during the operation of
+Istisna‘a, as the Sukuk represent properties that can be disposed of. If the realized funds
+are immediately paid as a price in a Parallel Istisna‘a contract or the manufactured item is
+submitted to the ultimate purchaser, then trading in Istisna‘a certificates is subject to the
+
+
+----- p.405 (pdf 433) -----
+
+
+Sukuk and Securitization 405
+rules of disposing of debts. This is because the Sukuk represent a price that is a monetary
+debt owed by the ultimate purchaser to the manufacturer. 17
+The prohibition of Riba precludes the sale of these debt certificates to a third party at
+any price other than their face value. Therefore, such certificates, which may be cashed
+only on maturity, cannot have a secondary market. However, they can be transferred at face
+value to a third party. Builders, big industrial concerns and wholesale suppliers can sell to
+the IFIs certain assets on an Istisna‘a basis on deferred payment and issue Istisna‘a Sukuk
+redeemable periodically according to their payment dates. The holders of Istisna‘a Sukuk
+may acquire against them property or merchandise for a deferred price. Once acquired, such
+property or merchandise can be disposed of in any manner. As indicated earlier in the book,
+the deferred price of goods acquired against such certificates would be higher than the spot
+price of the same goods. The certificate holder acquiring the goods now at higher than the
+spot price is, in fact, relinquishing to the seller of the goods some (all, or even more) of the
+price differential which the former obtained from the client above the construction cost of
+the project he financed. This means that the market forces can play a role in encouraging or
+curtailing the exchange of these certificates for goods. 18
+Securitization on the Basis of Murabaha and Murabaha Sukuk
+Any paper representing a monetary right or obligation arising out of a credit sale transaction
+by banks cannot create a negotiable instrument. Therefore, Murabaha receivables cannot be
+securitized for creating negotiable Sukuk to be traded in the secondary market. The purchaser
+on credit in a Murabaha transaction signs a note or paper to evidence his indebtedness
+towards the seller. That paper represents a debt receivable by the seller. Transfer of this
+paper to a third party must be at par value and subject to the rules of Hawalah, meaning that
+its assignment also has to be at face value. However, if a commodity has been purchased but
+not yet sold, trading in certificates issued against it is allowed, as the certificates represent
+the asset that can be traded.
+A mixed portfolio consisting of a number of transactions, including Murabaha, may issue
+negotiable certificates subject to certain conditions. For this purpose, the pool of the assets
+should consist of Ijarah or other fixed assets valuing more than 50 % of its total worth.
+However, if the Hanafi view is adopted, trading will be allowed even if the nonliquid assets
+are more than 10 % of its total worth.
+Murabaha Sukuk are more likely to be used in respect of purchases of goods by the
+public sector. If the government needs items of huge price, it may purchase them through
+credit sales by paying in instalments. The seller will amortize his cost and return (profit
+margin) over the period of instalments. The government will issue certificates according to
+the number of instalments. Each certificate having a maturity date will represent a property
+right of the seller, which can change hands provided the amount of the claim does not change.
+The seller or the original certificate holder can transfer his collection rights to another party,
+subject to recourse to him against payment that would be equal to the face value of the
+certificate minus the collection cost at the transferee’s end. Any “Murabaha funds” can also
+issue Murabaha Sukuk, the proceeds of which could be used for sale of prespecified and
+17 AAOIFI, 2004–5a, p. 311.
+18 Al-Bashir and Al-Amine, 2001.
+
+
+----- p.406 (pdf 434) -----
+
+
+406 Understanding Islamic Finance
+general assets on the basis of Murabaha to give a quasi-fixed return to the Murabaha Sukuk
+holders.
+Arcapita Bank B.S.C (Bahrain) issued five-year multicurrency Murabaha-backed Sukuk
+in 2005 with a five-year bullet maturity. The proceeds of the Sukuk are used for sale and
+purchase of assets via a series of commodity Murabaha transactions. As Murabaha may
+yield a fixed return, the Sukuk holders have been offered a return equivalent to three-month
+LIBOR + 175 bps. The SPV will have full recourse to Arcapita and, therefore, the Sukuk
+are a freely transferable instrument on the basis of a mechanism approved by Arcapita’s
+Shar¯ı´ah supervisory board. It is presumed that the SPV will be maintaining a sufficient
+amount of inventory or fixed assets, making its Sukuk negotiable.
+Mixed Portfolio Securities/Sukuk
+Banks may securitize a pool of Musharakah, Ijarah and some Murabaha, Salam, Istisna‘a,
+and Ju‘alah (a contract for performing a given task against a prescribed fee in a given period)
+contracts. The return/risk on such securities depends on the chosen mix of the contracts.
+A prominent example of such mixed portfolio Sukuk are IDB’s Solidarity Trust Sukuk for
+US$ 400 million issued in 2003. Salient features of IDB Solidarity Trust Sukuk are given
+below.
+Solidarity Trust Services (STS) served as trustee to issue the fixed-rate trust certificates
+that were issued to purchase a portfolio of Sukuk assets comprising Ijarah, Murabaha and
+Istisna‘a contracts originated by the IDB. Each certificate represented an undivided beneficial
+ownership in trust assets and ranked pari passu with other trust certificates. Most of the
+assets (over 50 %) would, at all times during the period, comprise Ijarah assets. If, at any
+time, the proportion of assets evidenced by Ijarah contracts fell below 25 %, a dissolution
+event would occur, and IDB, by virtue of its separate undertaking, would be obliged to
+purchase all of the assets owned by the trustee pursuant to the terms of the “purchase
+undertaking deed”. Profit on Sukuk assets, net of expenses of the trust, would be used to
+give a periodic return to the certificate holders. Certificates would be redeemed at 100 % of
+their principal value. In the case of any early dissolution event, the redemption would be
+according to adjustment, keeping in mind the return accumulation period. Principal amounts
+of Sukuk would be reinvested in Ijarah and Musharakah contracts to form a part of Sukuk
+assets.
+On the basis of a separate undertaking, IDB has guaranteed payments in respect of assets
+owed by the trustee by reference to the schedule of payments given by IDB at the time of
+sale of assets to the trustee. Certificate holders will not have any recourse for payment of
+any amount in respect of certificates in case the trust assets are exhausted.
+As such, IDB’s guarantee (for the rate on the certificates) does not comprise a guarantee
+of payments in respect of the trust certificates, but represents a guarantee, inter alia ,o ft h e
+amount scheduled as being payable by the obligors of the underlying transactions in respect
+of the assets. In the case of any shortfall in return on the Sukuk assets, the IDB has agreed
+to meet the shortfall. IDB has also agreed to provide an interest-free facility to the STS to
+ensure timely payment of any periodic distribution amounts on the trust certificates. Thus,
+the ability of the trust to pay the due on certificates ultimately depends on IDB.
+On the basis of the “purchase undertaking deed” between IDB and the trust, the IDB will
+purchase the Sukuk assets on the earlier of the maturity date or the dissolution date. The
+proceeds will be distributed by the trust among the certificate holders, who will periodically
+receive a fixed rate of return net of any withholding or any other taxes.
+
+
+----- p.407 (pdf 435) -----
+
+
+Sukuk and Securitization 407
+Under Islamic banking principles, IDB has to retain the risk of default on the Sukuk
+assets sold to the trust. As such, it is an unconditional and irrevocable guarantor to provide
+liquidity to the trust to cover costs and expenses, periodic distribution payments and the
+principal amount of investment to Sukuk holders. A flow-chart of IDB Trust Sukuk is given
+in Figure 15.2.
+Investors/Subscriber
+Trust
+Certificate
+Solidarity Trust Services
+SPV/Trustee
+ICD Buys Trust
+Assets from IDB
+and sells to SPV
+IDB originator of
+Trust Assets
+ICD Wakil
+Appointed by
+SPV
+IDB Guarantor
+Proceeds to IDB from sale
+of assets
+Proceeds to ICD from sale
+of assetsTransfer of ownership of
+Trust assets to SPV
+Transfer of ownership of
+Trust assets to ICD
+Distributions from Trust
+Assets
+Proceeds from investors who
+secure the certificates
+Figure 15.2 Flow diagram of IDB mixed portfolio Sukuk issue, 2003
+The modus operandi of issuing mixed portfolio Sukuk is an effective tool for converting
+nonmarketable and illiquid assets to negotiable instruments having a secondary market,
+particularly suitable for investment banks and DFIs.
+15.3.6 Tradability of Sukuk
+Sukuk representing tangible assets or usufruct of such assets can be traded in the secondary
+market, depending upon the quality, risk and profitability of the securitized assets. Tradability
+is a highly important feature that has to be kept in mind while issuing Sukuk as well as
+for making investment. A deciding factor in this regard is whether the Sukuk create any
+debt obligations or they represent an ownership stake in the underlying assets or project;
+in the former case, the certificate will not be tradable, while in the latter case, it will be
+negotiable/tradable. As discussed above in the case of various categories of Sukuk in the
+light of the AAOIFI Standard, the Shar ¯ı´ah position of their trading in the secondary market
+is given in Box 15.3.
+
+
+----- p.408 (pdf 436) -----
+
+
+408 Understanding Islamic Finance
+Box 15.3: Tradability of Sukuk in the Secondary Market 19
+Mudarabah/Musharakah certificates or
+Sukuk
+Tradable at market price after the
+commencement of the activity for which the
+funds were raised.
+Ijarah Sukuk based on freehold existing
+assets
+Tradable at market price.
+Ijarah Sukuk of existing assets subject to
+head lease
+Tradable at market price or at a rate agreed
+upon at the date of redemption.
+Ijarah Sukuk based on future tangible
+assets
+Tradable at market price only after the asset is
+ascertained and leased.
+Sukuk based on existing specified
+services
+Tradable prior to sub-leasing of such services.
+Sukuk based on described future services Tradable at market price only after the source of
+the service is ascertained.
+Salam Sukuk Not tradable except at the face value.
+Istisna‘a Sukuk Tradable if funds converted into assets and
+before sale to the orderer.
+Sukuk issued on Mudarabah basis for
+Murabaha sales – Murabaha Sukuk
+Tradable before sale of the goods to the
+end-buyer or if receivables (if inventory is
+maintained) are less than 50 %; after sale of the
+goods and without inventory of more than 50 %,
+tradable only at face value with recourse.
+Box 15.4: Prominent Sukuk Issues in Various Countries 20
+Name of Sukuk Type Amount Period Pricing
+Malaysian Global First Corporate US$ 150M 5 years Floating rate on
+underlying Ijarah
+IFC Wawasan Ringgit
+Sukuk (Bai‘ bil
+Thamanal Ajil)
+Corporate US$ 132M 3 years Fixed, 2.82 %
+Malaysian Global Ijarah
+Sukuk
+Sovereign US$ 500M 7 years Floating, LIBOR-related
+Qatar Global Ijarah Sukuk Sovereign US$ 700M 7 years 0.4 % above LIBOR
+Tabreed Global Ijarah
+Sukuk
+Corporate US$ 100M 5 years Fixed, 6 %
+Sukuk Al Intifaa Makkah Corporate US$ 390M 24 years Sale of usufruct rights as
+weekly time shares
+Ijarah Sukuk
+Saxony-Anhalt
+Germany
+Sovereign Euro 100M 5 years 1 basis point over
+6-month EURIBOR
+Dubai – Civil Aviation
+(DCA) Ijarah Sukuk
+Corporate US$ 750M 5 years Floating reference rate
+on underlying Ijarah
+19 AAOIFI, 2004–5a, Standard on Investment Certificates (No. 17), clause 5/2.
+20 Web sites of LMC (http://www.lmcbahrain.com) and respective entities.
+
+
+----- p.409 (pdf 437) -----
+
+
+Sukuk and Securitization 409
+Sitara Musharakah Term
+Finance
+Corporate Pak Rs. 360M 5 years Shirkah-based profit/loss
+Solidarity Trust
+Certificates IDB
+Corporate US$ 400M 5 years Based on performance of
+mixed portfolio, IDB guar-
+antee
+Bahrain Monetary Agency
+(BMA)
+Sovereign US$ 100M 5 years Fixed, 4.25 %
+GoB – BMA Sovereign US$ 70M 3 years Fixed, 4 %
+BMA Sovereign US$ 80M 5 years Fixed, 4 %
+BMA Sovereign US$ 50M 3 years Fixed, 3 %
+BMA Sovereign US$ 80M 3 years Fixed, 3 %
+BMA Sovereign US$ 100M 5 years Fixed, 3.75 %
+BMA Sovereign US$ 250M 5 years 0.6 % above LIBOR
+BMA Sovereign US$ 200M 5 years Floating rate reference
+BMA Sovereign US$ 106M 10 years Fixed, 5.125 %
+1st Islamic Investment
+Bank, Bahrain
+Corporate US$ 75M 3 years LIBOR-related
+Malaysia Global Ijarah Sovereign US$ 600M 5 years 0.95 % above LIBOR
+Dubai Civil Aviation
+Sukuk
+Sovereign US$ 1000M 5 years Fixed
+Durrat Real Estate Sukuk Sovereign US$ 120M 5 years 1.25 % above LIBOR
+Sarawak Ijarah Sukuk Sovereign US$ 350M 5 years 1.25 % above LIBOR
+Nakheel Sukuk Corporate US$ 3.52B 3 years 1.20 % above LIBOR
+Ijarah Sukuk, Pakistan Sovereign US$ 600M 5 years 2.20 % above LIBOR
+15.3.7 Issues in Terms and Structures of Sukuk
+Notwithstanding the exceptional growth of Sukuk in the last five years, there are some
+concerns that have to be taken care of for more vigorous and sustained support for the
+emerging financial system. The first and foremost crucial issue is that of conclusively pre-
+fixed rates of return in almost all Sukuk, in some cases even without any provision for third
+party guarantee. Profit rates in deferred-payment Murabaha and rentals in Ijarah are no doubt
+fixed, but while there could be default in receipt of Murabaha receivables, in leases there is
+the possibility both of ownership-related expenses and default in receipt of the due rental.
+The loss of the cost of funds that cannot be recovered under Islamic finance and expenses
+that could be incurred by the lessor as owner of the leased asset may not make it possible
+to give a return to Sukuk holders that is fixed and guaranteed in all respects. This concern
+is particularly genuine in respect of sovereign Sukuk, as a guarantee by the sovereign itself
+may give rise to doubts about Shar ¯ı´ah compliance. Payment of rental is guaranteed in the
+main contract itself in the form of a contractual obligation on sovereigns to pay the rent.
+In this regard, the general public interested in Islamic finance and practitioners need to be
+educated about the flexibilities and the limits of each mode/product so that the integrity of
+the system is not damaged. The Shar ¯ı´ah scholars are unanimous that any pre-fixed return
+or guarantee of the investment by any of the partners in contractual Shirkah-based modes
+is not acceptable. According to the AAOIFI’s Standard on Sukuk, a prospectus to issue any
+certificates (not only those which are Shirkah-based) must not contain any clause that the
+issuer is liable to compensate certificate holders up to the nominal value in situations other
+than torts and negligence, or that he guarantees a fixed percentage of profit. (An independent
+third party can, however, provide such a guarantee free of charge and subject to relevant
+
+
+----- p.410 (pdf 438) -----
+
+
+410 Understanding Islamic Finance
+conditions).21 But the way in which various Sukuk are structured and marketed tends to
+assure the subscribers/holders that the issue carries a fixed return rate, like any fixed income
+security in the conventional interest-based structure.
+One view is that the financier partner can give a part of its own profit or even out of its
+own wallet to the client partners, as in the case of deposits kept on the basis of Mudarabah.
+But even there the banks are not free; they can accommodate the clients up to the limit of
+a pre-agreed ratio only and any arrangement of payment of an agreed amount of profit out
+of the banks’ own income may dilute the sanctity of the institution of Shirkah, particularly
+when adopted as a system. In the case of Sukuk, even this is not possible and the SPVs have
+to distribute among the Sukuk holders the net proceeds of the business in which the raised
+funds have been used.
+Ijarah has flexibility in the sense that the rental rate can be fixed or floating and the lessor
+may know in advance his future expected receipts. But the lessor is exposed to losing rental
+collection when the lessee fails in timely payment. He may also lose his property because
+of both systematic and unsystematic risks. So, how can Sukuk holders be given a guarantee
+of investment and assured of a fixed income? One possibility is that the owner/lessor of
+the asset may assure the purchaser of the asset (while selling it to the SPV) about the
+performance of the lessees, as in the case of IDB Trust Sukuk issued on the basis of a mixed
+portfolio of assets booked by the IDB. In the case of Murabaha or other receivables, the SPV
+may have recourse to the institution that has undertaken the underlying transactions. It seems
+pertinent that the Shar ¯ı´ah scholars may explain the limits within which such guarantee or
+assurance can be given, particularly in respect of future assets to be leased by the SPV. If
+the asset is destroyed without any fault or negligence of the lessee, the risk has to be borne
+by the lessor – Sukuk holders. They may also like to clarify how the requirement of taking
+up the ownership-related risks would be fulfilled if Ijarah Sukuk holders were guaranteed a
+fixed return on their investment, as in the case of conventional securities.
+Another important issue is that a number of contracts are combined in one arrangement
+of Sukuk issue in such a way that they are interdependent on one another. The Ijarah Sukuk
+issue with a sale and lease-back arrangement involves about six agreements. If these are
+made integral parts of the main contract, Shar ¯ı´ah compliance is at stake. Sequencing of these
+agreements, which has a bearing on Shar ¯ı´ah compliance, also needs to be taken care of.
+Further, it has been observed that most of the issues lack transparency in respect of
+documentation and rights and liabilities of various parties to the issue. Proper care of all
+the aspects and transparency would lend enhanced credibility to the concept of Sukuk and
+widen the Islamic finance market. According to the AAOIFI’s Standard, a prospectus of any
+issue must include all contractual conditions, rights and obligations of various parties and the
+party covering the loss, if any. The Shar ¯ı´ah boards should not only approve the procedure
+of the issue but also monitor the implementation of the project throughout its duration. This
+necessarily includes matters relating to the distribution of profit, trade and redemption of the
+certificates.22
+A related point of concern is that of reliance on Ijarah Sukuk only; the potential of
+Shirkah-based or even mixed portfolio Sukuk is not being properly realized. Most of the
+Sukuk issued for public sector financing are not based on the best possible structures of
+21 AAOIFI, 2004–5a, Standard on Investment Certificates, clause 5/1/8/7; see also clause 6/7 of Standard No. 5 on Guarantees.
+22 AAOIFI, 2004–5a, Standard on Investment Certificates, clause 5/1/8.
+
+
+----- p.411 (pdf 439) -----
+
+
+Sukuk and Securitization 411
+Islamic finance. Salam Sukuk in Bahrain and some Shirkah-related certificates in Sudan
+are the only exceptions. Experience of Shirkah-based certificates of investment issued by
+corporate bodies has proved their suitability and profitability. Further, the procedures of
+Ijarah Sukuk issues need some refinement in consultation with a team of Shar ¯ı´ah scholars.
+15.3.8 Potential of Sukuk in Fund Management and Developing the Islamic
+Capital Market
+Sukuk, a by-product of the fast-growing Islamic finance industry, have confirmed their
+viability in mobilization of resources and their effective use for the benefit of both investors
+and the fund users. Their growth is attributable to a number of factors, including, among
+others, their potential for liquidity and fund management. They could also be used as a tool
+for monetary policy and open market operations. As is the case in Sudan, central banks can
+issue Sukuk for the purpose of controlling liquidity. 23
+Previously, IFIs had to rely on Tawarruq and Murabaha-based dealings in the international
+metals market and equity markets for the purpose of short-term and medium- to long-term
+fund and cash management respectively. The modus operandi of the transactions in the
+metals market was not fully acceptable to the Shar ¯ı´ah scholars, as the Murabaha conditions
+were not accomplished in letter and spirit. The emergence of Sukuk in general since 2001,
+and IjarahSukuk in particular, and that of the market makers and servicers facilitates IFIs
+in short-term fund placements in a Shar ¯ı´ah-compliant manner. Due to a shortage in supply
+of such instruments vis-à-vis their demand, Sukuk were tightly held until the recent past,
+resulting in the absence of a secondary market. Lately, the position has eased and active
+trading has started. The average volume of trading in PCFC Sukuk has been $10 million a
+day since their launch. 24 An active secondary market dealing in Nakheel Sukuk just after
+their issue in December 2006 also points to a healthy signal in this regard.
+According to Sameer Abdi of Ernst & Young, about one-third of investors in countries
+with a Muslim majority are seeking Shar ¯ı´ah-compliant products; another 50–60 % would
+use products conforming to Shar ¯ı´ah tenets if they were commercially competitive. At the
+company level, a large number of businesses and institutions in the world, where Shar ¯ı´ah-
+compliant products are available, particularly in the Middle East, are shifting to public
+vehicles offering Shar¯ı´ah-compliant solutions to financial problems. This confirms the huge
+potential of Shar ¯ı´ah-compliant certificates of investment.
+In a Sukuk issue of $800 million from Abu Dhabi Investment Bank that closed on
+December 4, 2006, nearly 40 % of the investors came from Europe. In the Nakheel Sukuk
+issue of $3.52 billion also, 40 % of investors are from Europe. A number of European and
+Japanese corporations are planning to explore the Sukuk market for raising long-term funds.
+A huge amount of funds is needed for infrastructure projects in the Muslim world, and
+if managed properly and carefully without compromising on the Shar ¯ı´ah principles, this
+can not only be arranged through the vehicle of Sukuk, but also it could be a stepping
+stone for broad-based development of these economies. This requires developing Islamic
+countries to increasingly use the vehicle of Sukuk for financing their infrastructure and other
+development projects.
+23 See Eltejani, 2005, pp. 411–413.
+24 The Economist , December 9th–15th, 2006, p. 73.
+
+
+----- p.412 (pdf 440) -----
+
+
+412 Understanding Islamic Finance
+The development of Sukuk depends on factors like a proper regulatory framework, Shar¯ı´ah
+compliance and convergence, the development of market professionals, investors’ education
+and knowledge-sharing.
+15.4 SUMMARY AND CONCLUSION
+Sukuk provide a tremendous potential for growth in the global Islamic capital market that
+is critical for the sustained development of the Islamic finance industry. Their emergence
+has attracted a large number of investors across the world. Sukuk create a framework for
+participation of a large number of people in financing projects in the public and private
+sectors, including those of infrastructure, such as roads, bridges, ports, airports, etc. A variety
+of target-specific Sukuk can be issued on the basis of various modes, keeping in mind the
+relevant Shar ¯ı´ah rules. The return on the Sukuk depends on the income realized by the
+underlying assets/projects. Sukuk issue requires appropriate enabling laws to protect the
+interests of investors and issuers, appropriate accounting standards, study of the targeted
+market, monitoring of standardized contracts, appropriate flow of financial data to investors
+and provision of a standard quality service to customers at large.
+Islamic banks’ credibility is a very fragile issue, especially in countries such as the GCC
+states and Pakistan. The role of Shar ¯ı´ah scholars is crucial in this regard; anything to do
+with the Shar ¯ı´ah should be the exclusive domain of the Shar ¯ı´ah scholars, who are careful
+and responsible enough to find solutions to financial problems without compromising on the
+tenets of the Shar ¯ı´ah.
+The international institutions set up during the last decade to lend the Islamic finance
+industry a global acceptance, namely the Bahrain-based LMC, IIFM and IIRA, have to do a
+lot to make Islamic capital markets increasingly active and efficient. They have to lead the
+industry players to exploit the potential of Shirkah-based Sukuk, as reliance on Ijarah Sukuk
+alone, as has been witnessed over the last few years, may not be sufficient to realize the secu-
+ritization potential of the industry as a whole. It may not be able to generate the sustainable
+support critically needed for realization of the market potential. 25 The creation of Islamic
+universal Sukuk, structured by IIFM as SPV, fulfilling the Shar ¯ı´ah essentials of Ijarah could
+serve as a basis to promote cooperation among Muslim countries and their financial markets.
+Box 15.5: DP World’s Nakheel Sukuk
+Initial offering – US$ 2.5 billion
+Final offering – US$ 3.52 billion (amount raised by US$ 1.02 billion)
+Financial institutions involved – Barclays Capital and Dubai Islamic Bank as joint
+lead managers and joint bookrunners for the offering
+Listed on – Dubai International Financial Exchange
+Sukuk teno r – 3 years
+Structure – Sale and lease-back (convertible)
+Pricing – LIBOR + 120 basis points
+25 Adam, 2005, pp. 371–400.
+
+
+----- p.413 (pdf 441) -----
+
+
+Sukuk and Securitization 413
+Investors’ Profile
+Around 100 accounts were allocated notes, of which 38 % were from the Middle
+East, 40 % from Europe and 22 % from the rest of the world. By type, 55 % of the deal
+went to banks, 35 % to both fixed-income and convertible funds and the remainder to
+asset managers and wealthy individuals.
+The bonds will continue until maturity in 2009. There is an extensive security
+package featuring a mortgage on land, a pledge on shares in the operating company
+and a guarantee from Nakheel’s parent company, Dubai World.
+Box 15.6: Ijarah Sukuk Offering by the Government of Pakistan
+President of Pakistan
+for and on behalf
+of Pakistan
+The National
+Highway Authority 
+of Pakistan
+Investors
+Pakistan International
+Sukuk Company
+Limited
+Distribution
+Re
+de
+mp
+tio
+n
+Ca
+sh Certificates
+Rentals
+Purchase
+of
+Highway
+Land
+Lease of
+Highway Land
+Purchase 
+Price
+Exercise
+Price
+Sale of
+Highway Land
+upon
+dissolution (1)
+Pakistan’s first ever Islamic Sukuk, worth USD 600 million, were launched in Jan-
+uary 2005. Pakistan International Sukuk Company Limited (PIS) bought highway
+land (M-2 motorway) from the National Highway Authority and issued the trust cer-
+tificates. The Sukuk issue was assigned a B + rating by Standard & Poor’s Rating
+Services.
+Issue structure
+An SPV was created – Pakistan International Sukuk Company Limited – wholly owned
+by the government of Pakistan. The property in collateral is the M-2 motorway.
+The offer
+• the offer attracted orders from 82 accounts worth USD 1200 million, of which USD
+600 million were accepted;
+• sold at par to yield 220 basis points above six-month LIBOR.
+
+
+----- p.414 (pdf 442) -----
+
+
+414 Understanding Islamic Finance
+Box 15.6: Continued
+Transaction structure
+• Pakistan International Sukuk Company Limited bought highway land (M-2 motor-
+way) from the National Highway Authority and issued the trust certificates;
+• the land was then leased to the government of Pakistan for a period corresponding
+to the tenor of the trust certificates;
+• the government of Pakistan is making periodic payments under lease agreements
+to PIS to pay off periodic liabilities arising on the trust certificates;
+• on completion of the term, the government of Pakistan will repurchase the land
+from PIS at an agreed price, enabling it to redeem the Sukuk.
+Box 15.7: Ijarah Sukuk Issue by WAPDA, Pakistan
+The Water and Power Development Authority (WAPDA), is an autonomous body
+working for the development of water and hydel power in the country. It needed
+finance to enhance its power-generating capacity, which it did through the issuance
+of local currency Ijarah Sukuk. An SPV, “WAPDA First Sukuk Co” (WFS) was
+formed, which purchased from WAPDA ten power generation turbines installed at
+Mangla Hydel Power Station for lease back to WAPDA for seven years. Rentals are
+benchmarked against the Karachi Interbank Offer Rate (KIBOR).
+WAPDA pays semiannual rental to WFS to pay periodic rental to the Sukuk holders.
+At the end of the lease term, WAPDA will purchase the underlying assets by fulfilling
+its unilateral undertaking to purchase the turbines. This will enable WFS to pay back
+the investment amounts to the Sukuk holders.
+The payment obligation of WAPDA under the WAPDA Sukuk issue is guaranteed by
+the government of Pakistan, this characteristic has made them eligible for maintaining
+a statutory liquidity requirement (SLR) by Islamic banks. The transaction structure, in
+brief, is:
+Rental rate: 6 months KIBOR + 35 bps
+Principal amount: PKR 8000 million
+Underlying asset: WAPDA’s ten Mangla Hydel power generation units
+Issuance format: privately placed LCY floating-rate notes
+Specific feature: Sukuk eligible for maintaining SLR.
+Box 15.8: Case Study of Hanco Fleet Securitization (Saudi Arabia)
+Issue structure
+Principal amount: USD 27 200 000
+Periodic distribution: 6 %
+Tenor: 3 years
+
+
+----- p.415 (pdf 443) -----
+
+
+Sukuk and Securitization 415
+Issuance format: privately placed LCY fixed-rate notes
+Issuer: two-tier SPV/SPC
+Underlying assets: motor fleet.
+A two-tier special purpose vehicle/special purpose company (SPV/ SPC) structure was
+established to issue Sukuk certificates, where the SPC was incorporated in a foreign
+country because of stringent Saudi laws.
+Transaction structure
+• the SPC issues Sukuk certificates and proceeds are used by the SPV to fund the
+purchase of assets from the originator;
+• the SPV owns the assets and allows an agent to manage the assets. The SPV
+forwards all cash flows into an off-shore bank account, managed by the SPC;
+• in the case of lack of cash flow to fulfil the payment flow obligations, this bank
+account is used to meet the obligations;
+• the SPC pays the certificate holders and, at maturity, sells the assets to fund the
+redemption of certificate holders.
+
+
+----- p.416 (pdf 444) -----
+
+
+
+

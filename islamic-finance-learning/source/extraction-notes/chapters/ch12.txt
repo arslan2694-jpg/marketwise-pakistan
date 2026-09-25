@@ -1,0 +1,1919 @@
+
+----- p.307 (pdf 335) -----
+
+
+12
+Participatory Modes: Shirkah and
+its Variants
+12.1 INTRODUCTION
+Islamic modes are asset-based and entail real economic activity and undertaking responsi-
+bility or liability. The modes that form the basis of Islamic finance belong to participatory
+or profit/loss sharing (PLS) or risk-sharing techniques and as such are considered the most
+desirable modes by the majority of jurists on Islamic finance. This does not imply that non-
+participatory modes, as discussed in the previous few chapters, do not involve business risk;
+taking risk and responsibility is rather a precondition for the legality of profit in any busi-
+ness. Shirkah-based participatory modes of business, however, involve direct participation
+in profits and losses by the parties.
+Two contracts, namely Mudarabah and Musharakah, that lend themselves to the system
+of profit/loss sharing are based on the concept of Shirkah. A partnership may be in the right
+of ownership (Shirkatulmilk), wherein a profit motive may not necessarily exist, or it may
+be contractual (Shirkatul‘aqd), in which the partners enter into a contract to conduct a joint
+business with the objective of earning profit and agree to share the profit on a pre-agreed
+ratio and bear the loss, if any, to the extent of the investment of each partner. Another
+variant may be wherein one partner may provide the capital and the other may manage the
+business (Mudarabah) for earning profit. These modes are the means of providing risk-based
+capital and are jointly termed participatory modes of finance. In this chapter we shall discuss
+variants of Shirkah, namely Musharakah, Mudarabah, modern corporations and Diminishing
+Musharakah, as modes of business by Islamic financial institutions (IFIs).
+Partnership-based business was widely practised in the pre-Islamic period. The holy
+Prophet (pbuh) himself did business on the basis of partnership before his prophethood and
+many of his Companions did it during his life and later. Islam approved the concept of
+business partnership. 1 The practice was so commonly prevalent among the Arabs and other
+Muslims that, perhaps under their influence, the Christians of the areas in Europe where
+Muslims went also conducted it and introduced it far inside Europe. 2
+In the early/conventional books of Fiqh, joint businesses are discussed mainly under the
+caption of Shirkah, which is a set of broad principles that can accommodate many forms of
+joint business. According to the majority of the classical jurists, Mudarabah is also a type
+of Shirkah when used as a broad term. In Fiqh books, discussion on Mudarabah is available
+both in the chapters on Shirkah and under the separate caption of Mudarabah.
+1 Hassan, 1993, p.104.
+2 See Postan and Rich, 1952, 2, pp. 173, 267.
+
+
+----- p.308 (pdf 336) -----
+
+
+308 Understanding Islamic Finance
+Musharakah is a term used by the contemporary jurists both for broad and limited connota-
+tions. In the limited sense, it is used for contractual partnership in which all partners provide
+funds, not necessarily equally, and have the right to work for the joint venture. In the specific
+sense, it is an amalgam of Musharakah and Mudarabah wherein a Mudarib, in addition to the
+capital provided by the Rabbul-m¯al, employees his own capital as well. This arrangement is also
+permissible according to the jurists.3
+While in Musharakah all parties contribute to the joint business and work for it, in
+Mudarabah, one party contributes funds and the other acts as entrepreneur and the profit is
+shared in a predetermined, mutually agreed ratio. In Mudarabah, the financier bears the loss
+while the entrepreneur loses his already expended labour.
+In this chapter we shall discuss the traditional concept of Shirkah as discussed in books
+of Fiqh followed by a discussion on the application of the system of profit and loss sharing
+in the contemporary world.
+The modern Shirkah takes the form of partnerships, joint stock companies and cooperative
+societies and, in a sense, that of pools, cartels, trusts and syndicates, etc. In modern law,
+all these forms are treated differently in accordance with the differences in their objec-
+tives and the nature of combination. An important difference between the Islamic and the
+modern partnership laws exists in the former’s religious character. To describe the rules of
+partnership, we shall discuss the subject in the three main sets of Musharakah, Mudarabah
+and Diminishing Musharakah, the last being the latest development of Islamic jurisprudence
+based on the broad principles of Shirkah.
+12.2 LEGALITY, FORMS AND DEFINITION OF PARTNERSHIP
+The legality of Shirkah is proved by the texts of the Holy Qur’¯an and Sunnah and the consensus
+of the Islamic jurists.4 In particular, the two forms of Shirkah al Inan (general partnership) and
+Mudarabah, which we will be discussing in the following pages, enjoy acceptance by all jurists
+without any difference of opinion. Jurists normally divide Shirkah into two broad categories of
+Shirkatulmilk (partnership by ownership or in right of ownership) and Shirkatul‘aqd (partner-
+ship by contract). With these two forms, traditional Shirkah is the main source of rules governing
+the operations of Musharakah, Mudarabah and Diminishing Musharakah by Islamic financial
+institutions in the present age.
+Keeping in mind the discussion by classical jurists and the modern business environment,
+Shirkah can be defined as a business where two or more people combine their capital or
+labour or creditworthiness together, having similar rights and liabilities, to share the profits or
+a yield or appreciation in value and to share the loss, if any, according to their proportionate
+ownership. This implies that capital is not necessary in certain structures of Shirkah. “Profit”
+in the context of this definition and according to Islamic law can be made through purchase,
+sale, hire or wages and excludes income arising from the contracts of marriage, divorce,
+subsistence payable to wives and children or in the case of penalties and fines. We define
+various forms of Shirkah in the following section. 5
+3 Usmani, 2000a, pp. 27–33, 53, 54.
+4 Holy Qur’ ¯an, verses: 4: 12 and 38: 24; the holy Prophet is reported to have conveyed the message of Allah (SWT), who says: “So
+long as the two partners remain honest to each other, I am the 3rd”. (Abu Daud and Sahih al Hakim).
+5 For various forms of Shirkah, see Ibn Qudama, 1367 AH, 5, p. 1 and Usmani, 2000b, pp. 139–144.
+
+
+----- p.309 (pdf 337) -----
+
+
+Participatory Modes: Shirkah and its Variants 309
+12.2.1 Partnership in Ownership (Shirkatulmilk)
+The basic element of Shirkatulmilk is the mixing of ownership, either mandatorily or by
+choice. Two or more people are joint owners of one thing. It is further subdivided into
+two categories: optional and compulsive. Optional partnership by ownership is explained
+in the words: “where two persons make a joint purchase of one specific article or where
+it is presented to them as a gift, and they accept of it; or where it is left to them, jointly,
+by bequest and they accept of it”. Basically, it is not for sharing of profit. The co-owners
+may use the property jointly or individually. Compulsive partnership is where the capital
+or goods of two people become united without their act and it is difficult or impossible to
+distinguish between them, or where two people inherit one property.
+In other forms of partnership, a partner is treated as an agent to the other partner’s share,
+but in partnership by ownership, partners (co-owners) are not agents of each other; here, a
+partner is a stranger and in the absence of the other partner, he has no right to use the absent
+partner’s property, nor can he be responsible for any liability arising out of the latter’s share.
+He cannot use even his own share if it is detrimental to the interest of the other partner’s
+share. It is, however, lawful for one partner to sell his own share to the other partner, and
+he may also sell his share to others, without his partner’s consent, except only in cases of
+association or a mixture of property, for in both these instances, one partner cannot lawfully
+sell the share of the other to a third person without his partner’s permission. If joint property
+is used by one partner, the owner may demand rental for his part of the property from the
+benefiting partner. The distribution of the revenue of Shirkatulmilk is always subject to the
+proportion of ownership.
+12.2.2 Partnership by Contract (Shirkatul‘aqd)
+This is the main form of Shirkah, which is created by offer and acceptance and is applicable
+in most of the cases of modern business where two or more persons are involved. The
+AAOIFI Standard has defined it as an agreement between two or more persons to combine
+their assets, labour or liabilities for the purpose of making profit. 6 It is created through a
+contract – offer and acceptance is its basic element – partners are agents of each other and
+one partner cannot sell his share without the other partners consent and cannot guarantee
+capital or any profit of the other partners.
+This form can be further divided into: Shirkatulamwal, where all the partners invest
+some capital into a commercial enterprise that comes under the collective ownership of the
+partners as per the ratio of their capital; Shirkatula‘mal, where the partners jointly undertake
+to render some services to their customers and share the fee charged by them according
+to the agreed ratio and each partner brings his own resources, if needed, for the business;
+and Shirkatulwujooh, meaning partnership in creditworthiness where all partners avail credit
+from the market using their credibility and sell the commodity to share the profit so earned
+at an agreed ratio.
+In Shirkah, the rights and liabilities of all the partners should be similar, although not
+necessarily equal. The basic principle of Shirkah is that a man who shares in profits must also
+bear the risks. This principle is based on the Prophet’s saying that earnings are concomitant
+to risks.
+6 AAOIFI, 2004–5a, Standard on Shirkah (Musharakah), clause 2/1, p. 200.
+
+
+----- p.310 (pdf 338) -----
+
+
+310 Understanding Islamic Finance
+Contractual partnership (Shirkatul‘aqd) is subdivided into several kinds depending upon
+the subject matter of partnership: capital (or goods), labour or personal creditworthiness, as
+discussed briefly in below.
+Shirkah-al-Mufawadah, or Universal Partnership
+According to the Hanafi jurists, Shirkah-al-Mufawadah is where two persons, being the
+equal of each other in respect of property, privileges and religious persuasion, enter into a
+contract of partnership. This form is very cumbersome to operate because it refers to sharing
+everything on an equal basis. Therefore, it is factually nonexistent. It is, in fact, advocated
+by Hanafi jurists only. Imam Shafi‘e, Imam Ahmed ibn Hanbal, Imam Malik and the Jafari
+jurists do not support this form. 7
+Shirkah al ‘Inan, or General Partnership
+Shirkah al ‘Inan, involving collective capital of the partners, is where any two persons
+become partners in any particular business or where they become partners in all matters of
+commerce indifferently. It is contracted by each party, respectively, becoming the agent of the
+other and not his surety. This form enjoys consensus among all Islamic jurists. It is the most
+important form and seems to be nearer to the modern concept of a business partnership. We
+shall be discussing in detail mainly the rules of this general form of contractual partnership.
+Shirkatula‘mal
+Shirkatula‘mal, or San ¯ai‘ (partnership in labour or crafts), signifies a situation where two
+persons become partners by agreeing to work jointly, and to share their earnings, in partner-
+ship. It is also known as Shirkah Taqabbul, or Shirka al Abd ¯an. Some classical examples
+of such a partnership are the partnerships between medical practitioners, teachers, miners,
+transport owners and farmers. 8
+Shirkatul Wujooh, or Partnership in Creditworthiness
+Shirkatul Wujooh is where two persons become partners by agreeing to purchase goods
+jointly, upon their personal credit (without immediately paying the price) and to sell these
+goods on their joint account. Partners undertake to fulfil their obligations according to the
+percentages determined by the parties. They also agree on the ratio of liability for which each
+partner is responsible while paying such debt. 9 According to Imam Shafi‘e, it is unlawful.
+The Maliki jurists observe that such a form of partnership has an element of random chance
+and is, therefore, invalid. They have, however, permitted it on the condition that the element
+7 Jurists of the Shafi‘e school of thought have legalized only Shirkatul ‘Inan. (Usmani, 2000b, p.186, with reference from Mughni
+al-Muhtaj of Ramly and Takmelah Sharah Muhazzab).
+8 Al Mudawwanah al Kubra, Cairo, 1323 AH (Matba al Sadah), 12,p .5 1 .
+9 AAOIFI, 2004–5a, Standard on Musharakah, clause 3/2.
+
+
+----- p.311 (pdf 339) -----
+
+
+Participatory Modes: Shirkah and its Variants 311
+of obligation is made clear before the contract is effected, for example, joint credit purchase
+of a specific commodity and sale at a profit. 10
+Hanafi and Hanbali jurists, however, agree upon the validity of such a form of partnership.
+Loss in this form of Shirkah will have to be borne as per the liability taken at the beginning.
+If such a contract is enforced without first stipulating the extent of liability of each partner,
+they will be responsible for credit taken by each of them individually and the working
+partner will be entitled to wages for his work and not to a share in profits.
+Mudarabah
+Mudarabah, or partnership in the profits of capital and labour, signifies a contract of part-
+nership in which one party is entitled to profit on account of its M ¯al, while the other party
+is entitled to profit on account of its labour.
+Of the above-mentioned kinds, Shirkah al ‘Inan and Mudarabah are the most popular
+kinds of partnership and enjoy Ijma‘a of the jurists. Shafi‘e, Jafari and Zahirites like Ibn
+Hazm treat only these two forms of Shirkah as lawful modes of joint venture. For the Shafi‘e
+and Jafari schools, Shirkah is a contract between two or more (persons) made with a view
+to making all profits common between the two (or among all the partners); the object of
+contract preferably being trade. Hanafi and Maliki jurists believe in a broader circle of joint
+business practices.
+Shirkahal ‘Inan is suitable for joint businesses, adaptable to any situation and practicable
+in the present day’s advanced commercial practices. It refers to a joint enterprise formed for
+conducting any business with the condition that all partners shall share the profit according
+to a specified ratio, while the loss will be shared according to the ratio of contribution to
+the capital of the joint business. Two or more partners that are considered agents (Wakil) of
+other partners share the business on the basis of the following conditions:
+1. Capital can be invested by the partners in any proportion.
+2. Power of appropriation in the property and participation in the affairs of the Shirkah may
+be different and disproportionate to the capital invested by the partners.
+3. Profit may be divisible unequally and disproportionate to the capital invested, and may
+be according to the agreement of the partners.
+4. Loss is to be shared in proportion to the capital invested.
+5. Each partner is an agent to the other partners.
+6. No partner is responsible for indemnification of the acts of commission and omissions
+on the part of other partners.
+There are a number of views regarding the last-mentioned condition above. Regarding
+rights and liabilities of partners, jurists contend that partners are allowed to sell partnership
+capital/assets, perform trading business with it, give it as deposit or collateral with others
+and hand it over to any person for business on a Mudarabah basis. 11 Further, jurists consider
+that the partners can perform all other acts that are according to the custom or common
+practice, subject to compliance with the main Shar ¯ı´ah principles. If any partner takes a loan
+for the joint business, all partners will be (jointly) liable to pay. 12
+10 Al Mudawwanah, 1323 AH, 12,p .5 .
+11 Al-Kasani, 1993, 6, pp. 68, 69.
+12 Al-Kasani, 1993, 6,p .7 2 .
+
+
+----- p.312 (pdf 340) -----
+
+
+312 Understanding Islamic Finance
+A Musharakah (and also Mudarabah) contract may be for any specific project up to
+its completion or in the form of a redeemable investment by a partner, 13 particularly the
+financial institutions – also known as Diminishing Musharakah. If the Musharakah lasts as
+long as a business operates without any midway termination, it is considered a continuous
+Musharakah.
+The above discussion implies that Shirkah in Islamic law refers to all forms of partnership,
+also including Mudarabah. Some of the jurists observe that Mudarabah is a form of Shirkah,
+while some others treat this as different from Shirkah. It seems that the difference is due to
+variation in analysis of business conditions more than the differences in Shirkah principles.
+The former view is held by some of the jurists of the Maliki and Hanbali schools, while the
+latter by the Hanafi school. The Hanafi jurists argue that Mudarabah should not be treated as
+a form of Shirkah, because in Shirkah, the contracting parties become partners and, therefore,
+liable to losses soon after the business is started or the capital of the partners is combined,
+while in Mudarabah, the working party does not become a partner and is not liable to any
+losses unless and until profits arise. Before the creation of profits, the position of the working
+party is that of an agent, although the contract of Mudarabah becomes effective.
+12.3 BASIC RULES OF MUSHARAKAH
+In this section we shall be discussing the rules relating mainly to a general partnership
+conducted with joint capital of the partners (Shirkatulamwal-cum-Shirkah al ‘Inan). All
+conditions necessary for any valid contract, e.g. free consent of the parties that must be
+without deception, misrepresentation and duress, etc., should be fulfilled in the Shirkah
+contract. Certain other conditions must also be fulfilled, and these are outlined in the
+following paragraphs.
+12.3.1 Conditions with Respect to Partners
+The word “persons” as used in the definitions refers to both individuals and legal persons
+or corporate bodies. As regards individuals, it is unanimously agreed that they should be
+free and of sound mind. The study of relevant rules in Fiqh suggests that insolvency and
+prison are disqualifications for making the contract of sale; as the contract of partnership
+comprehends mutual agency, anybody who is handicapped in exercise of this right cannot
+act as a partner in the true sense and a contract so made should be deemed to be ineffective.
+On this ground, minors and the insane are incompetent to become partners. A minor can
+enter into a partnership if allowed by his guardian. 14 Imam Shafi‘e extends the state of
+incompetence to all those who, for any reason, lose their power of decision, like a man
+who is intoxicated. This is, however, a temporary incompetence. A man who is put under
+inhibition by a court either because of insolvency or due to any other reason is also not
+competent to enter into a contract of partnership, because his partner could be prevented
+from making use of the inhibited partner’s property. The Jafari scholars give five reasons
+which inhibit one from making a contract of sale. These are minority, stupidity, insanity,
+13 Ibn-Qudama, 1367 AH, 5,p .6 3 .
+14 Al-Atasi, 1403 AH, Majallah, Article 1335.
+
+
+----- p.313 (pdf 341) -----
+
+
+Participatory Modes: Shirkah and its Variants 313
+fatal disease and insolvency. 15 This is also applicable to Shirkah. The other jurists do not
+disagree with this.
+However, there is some difference of opinion about indebtedness as a cause of incompe-
+tence or inhibition. Some jurists are inclined to accept that inhibition will not be imposed
+if there is any possibility of the recovery of debt. 16 According to Imam Abu Hanifa, an
+indebted person cannot be inhibited because, in this way, he is restrained from improving
+his economic condition. He can, however, be imprisoned if he fails to repay his debts. 17 But
+the later Hanafi law, based on the views of Imam Abu Yusuf and Muhammad, provides for
+inhibition of the debtor if the creditors so demand. 18 Indebtedness here indicates a state in
+which the total liabilities of a debtor exceed his total assets and he is unable to pay off the
+debts. In the case of a businessman, it is a state of near insolvency. Inhibition does not apply
+in the case of businessmen in the present age who run their entire business on credit and
+command sufficient resources to dispose of their liabilities.
+Musharakah can be concluded with non-Muslims and also interest-based banks to carry
+out operations acceptable in the Shar ¯ı´ah. In this respect, arrangement has to be made to
+obtain all necessary assurances and guarantees that the rules and principles of Shar ¯ı´ah
+will be observed during the operation of the partnership. 19 It excludes all those businesses
+which are not lawful in Islam, i.e. trade in swine flesh or liquor, etc. and unlawful activities
+like pornography and gambling. For example, if a syndicate of banks comprising Islamic
+as well as conventional banks is financing any huge project or corporate firm, the Islamic
+bank’s portfolio must comprise valid contracts like Ijarah to ensure its Shar ¯ı´ah compliance.
+In this respect, a distinction has to be made between the goods and activities which are
+absolutely prohibited for all and the goods and activities which are prohibited for Muslims
+alone. Interest, for example, is prohibited for all in an Islamic state, while alcoholic drinks
+and flesh of the swine, etc. are prohibited for Muslims alone. A non-Muslim citizen of an
+Islamic state can be permitted to trade in the objects of the latter category but partnerships
+in any such trade will be declared void if any of the parties is a Muslim.
+12.3.2 Rules Relating to Musharakah Capital
+According to the majority of jurists, capital invested by a partner should be in the form of
+liquid assets, i.e. money or prevalent currency units, and its value should be known without
+any ambiguity, particularly according to Maliki, Hanbali and Shafi‘e jurists. Hanafites,
+however, consider that knowing the amount of capital at the time of contract is not necessary;
+it can be agreed before the commencement of business. 20 It should not be a debt or a
+nonexistent commodity. 21 Al-Sarakhsi, a great Hanafi jurist, points out that the forms of
+capital change from place to place according to ‘Urf of the place. Al-Kasani says that if
+the practice of the people is to invest the capital in the form of currency, the matter shall
+be decided according to this and if the practice of the people is to invest the capital in the
+form of goods, the matter shall be decided accordingly. However, contemporary jurists are
+15 Hussain, 1964.
+16 Ibn Qudama, 1367 AH, 2, p. 168.
+17 Al-Marghinani, 3, p. 342.
+18 Al-Atasi, 1403 AH, Majallah, Article 959.
+19 AAOIFI, 2004–5a, clauses 3/1/1/2, 3/1/1/3, p. 201.
+20 Al-Kasani, 1993, 6,p .6 3 .
+21 Ibn-Qudama, 1367 AH, 5, p. 16; Al-Sarakhsi, n.d., 11, pp. 156, 159.
+
+
+----- p.314 (pdf 342) -----
+
+
+314 Understanding Islamic Finance
+unanimous that the value of goods should be assessed in terms of monetary units. Debt
+cannot become part of partnership capital until it is received.
+In the case of limited companies, capital is given the form of equal units called shares,
+and the intended partners can buy as many of these shares as possible disproportionately.
+The objects which, according to Islamic law, cannot be sold or utilized cannot form the
+basis of a partnership contract. Broadly, Shirkah rules require that the capital of the partners
+should be merged and commingled. The implication of commingling is that individual
+ownership is replaced by the collective ownership of the joint venture and any appreciation
+in value of the Musharakah assets will reflect the right of all the partners with the ratio of
+their capital; any partner cannot say that his part, a shop for example, that he contributed
+to the business at the beginning, has appreciated more in the case of a rise in its price,
+and hence only he is entitled to the enhancement. Commingling does not necessarily imply
+an indistinguishable character that the amount of capital should be in the form of cash, or
+identical goods or transfer of money or goods towards the partnership capital just at the time
+of contract. The merger can be actual or constructive, the latter being made on the basis of
+valuation on any agreed standard like market value. In the case of goods, the share of the
+partners will be calculated in terms of their money value at the time of contract.
+After analysing the views of jurists of all schools of thought regarding the nature of
+capital, Shaikh Muhammad Taqi Usmani has concluded:
+“We may, therefore, conclude that the share capital in a Musharakah can be contributed either in
+cash or in the form of commodities. In the latter case, the market value of the commodities shall
+determine the share of the partner in the capital”. 22
+Other aspects relating to the nature of partnership capital in the modern age include the
+following: a person can become a partner of a running business having fixed assets by
+investing capital in cash/kind, merger of various partnership firms is also possible. 23
+This implies that the capital of all the partners has to be quantified and specified. In the
+case of running business, valuation should be made in such a way that cash/receivables
+are taken at face value and the conversion rate in the case of different currencies should
+be that of the day of execution of the Musharakah contract. In the case of fixed assets, an
+agreed-upon value will be taken, while the average utilized amount should be considered as
+Musharakah capital if financing is made on the basis of running Musharakah, as in the case
+of deposit management by Islamic banks on the basis of Shirkah.
+12.3.3 Mutual Relationship Among Partners and Musharakah Management
+Rules
+Shirkah business is managed by the will and equal right of all the partners. As indicated
+earlier, parties to a contractual Musharakah are agents of one another. When a contract
+of Musharakah is executed, the conditions of agency are automatically presumed to be
+in existence in the contract. The actual possession of one partner over property of the
+Musharakah business is in the constructive possession of the other partners. However, if a
+partner purchases something for himself only, it is exclusively for him and not for the joint
+business.
+22 Usmani, 2000a, pp. 38–41.
+23 This is according to Ahnaf, Malikis and Hanbali (Al-Kasani, 1993, 6:60; Ibn-Qudama, 1367 AH, 5:129; Usmani, 2000b,
+pp. 257–261).
+
+
+----- p.315 (pdf 343) -----
+
+
+Participatory Modes: Shirkah and its Variants 315
+All partners in a Shirkah have a right to take part in management of the joint business in
+the following transactions: cash or credit sales, rejecting defective goods, renting the partner-
+ship’s commercial assets, cancellation of contracts, requesting credit facilities for the partner-
+ship, taking the partnership’s receivables, making payments or giving deposits and providing
+or receiving pledge for the partnership and doing all that is customary in the interests of the
+joint business. They can give short-term/minor loans that may not, according to customary
+practice, affect the operation of the partnership. However, the partners are not permitted to
+give out grants or loans unless all the partners have given their consent to such an action. 24
+Working for the joint business by each partner is not necessary and it can be agreed in
+the partnership agreement that the management will be restricted to a single or some iden-
+tified partners, in which case the other partners should not act on behalf of the partnership.
+The partners can also agree to appoint a manager other than from the partners and pay him
+a fixed remuneration that will be treated as an expense of the Shirkah. An outside manager
+can also get a part of the investment profit as a good management bonus plus a fixed salary.
+However, if the management is carried out from the outset for a share in the profit earned
+by the venture, meaning that the manager is working as a Mudarib, he will be entitled only
+to the share in the realized profit and will not be given any additional remuneration for his
+management services. If a partner contributes to managing the venture or provides some kind
+of other service which other partners are not providing, such as accounting, he can be given,
+with mutual consent of the other partners, a share of the profit of the venture greater than
+that he would receive solely as a partner. A partner can be appointed for any of the services
+required by the Shirkah on the basis of an independent employment contract; he can also
+be dismissed from the service without the need to amend or terminate the Shirkah contract.25
+The matter of indemnification is not the same in the different forms of Shirkah. In Shirkah
+al ‘Inan, which is more relevant to us, a partner is Wakil, but not Kafil (agent, but not
+indemnifier) of the other partners. Thus, a partner is not liable to indemnify an outsider on
+behalf of another partner for a loss during such agency. Al-Kasani opines that the matter
+of indemnification is based on and regulated by usage (‘Urf) of the people. This means
+that if, in a society, some type of partnership has a presumptive and potential condition of
+indemnification as a common usage, the condition will be considered valid.
+Partners also have the following rights in the absence of any condition to the contrary: 26
+1. To invest the Shirkah capital in Mudarabah.
+2. To make any person an agent for any work in the Musharakah.
+3. To keep the property of Musharakah with any person as Am ¯anah or deposit or give it
+as a loan.
+4. To mortgage the property of Shirkah.
+5. To travel for the concerned business at the expense of Shirkah.
+6. To become a partner in any other Musharakah on behalf of his own Shirkah business.
+7. To mix the property of Musharakah with that of his own.
+8. To accept the mortgage of property of any outsider on behalf of his Musharakah.
+9. Depending upon consent of the other partners and the ‘Urf, spending any sum out of
+the Musharakah property.
+10. To purchase and sell goods necessary for the conduct of business.
+24 AAOIFI, 2004–5a, clause 3/1/3/1, p. 202.
+25 AAOIFI, 2004–5a, clauses 3/1/3/4, 3/1/3/5, p. 203.
+26 Al-Sarakhsi, n.d., 11, p. 158.
+
+
+----- p.316 (pdf 344) -----
+
+
+316 Understanding Islamic Finance
+In all modern forms of Shirkah as well, the partners have equal rights, as mentioned
+above. In a partnership concern, the partners, by a mutual agreement, distribute among them
+their responsibilities, duties and jobs. In limited companies and cooperative societies, the
+shareholders delegate their powers to some of them to be called directors, or some such
+name. The partners may appoint a managing partner by mutual consent. Some of the partners
+may decide not to work for the Musharakah and work as sleeping partners.
+12.3.4 Treatment of Profit and Loss
+Profit and loss sharing is a crucial aspect in partnership. As the amount of the share towards
+the capital subscribed by each partner can be unequal (except in the case of Mufawadah,
+briefly discussed in Section 12.2.2), the share in profits and losses can also be unequal.
+It is, however, necessary that the share of all the partners should be decided without any
+ambiguity. The generally accepted view, which is based on the views of Imam Ahmad
+and Imam Abu Hanifa, is that the ratio of distribution of profit must be agreed upon
+at the time of execution of the agreement, otherwise the contract will not be valid in
+Shar¯ı´ah.
+There is a slight difference of opinion among jurists about a ratio of profit distribution
+different from the ratio of investment of two (or more) partners when both of them are
+obliged to work on the basis of a Musharakah contract. As a general rule, the shares of profit
+and of loss should be commensurate with the share in capital subscribed by each partner.
+According to Imam Malik, Imam Shafi‘e and Imam Zufar, each partner shall get the profit
+exactly in the proportion of his investment. On the other hand, according to Imam Ahmad
+and the majority of Hanafi jurists, the ratio of profit may differ from the ratio of investment,
+provided it is agreed with free consent of the parties. 27 The viewpoint of Imam Abu Hanifa
+is a combination of both of these views. He says that, normally, the profit distribution ratio
+may differ from the investment ratio. But if a partner has made an express condition that
+he will not work for the Musharakah and will only be a sleeping partner, then his share of
+profit cannot be more than the ratio of his investment. 28 But it can be less than the ratio of
+a partner’s capital according to all jurists. Therefore, it is permissible that a partner with a
+40 % investment may get 50 % of the profit, provided he has not declared that he will be a
+sleeping partner. 29 Hanbali jurists allow even a sleeping partner more than the ratio of his
+share in a Musharakah investment. 30
+The difference of opinion is not generally taken care of and the general ruling is given
+as per the views of Imam Abu Hanifa and Imam Ahmad, according to whom the profit
+ratio can differ from the investment ratio on the basis of the amount of work to be done
+by the partners, because along with capital, labour and work are also factors for accrual of
+profit. Thus, any partner can make a condition that he will get more than the ratio of his
+investment as compensation for the work he will be doing for the Shirkah. According to all
+27 Ibn-Qudama, 1367 AH, 5, p. 31; Al-Kasani, 1993, 6, p.63.
+28 Al-Kasani, 1993, 6, pp. 62, 63.
+29 For details see Usmani, 2000b, pp. 213–215. The principle that “profit is based on agreement of the parties, but loss is always
+subject to the ratio of investment” has been derived from the Fiqh of Imam Abu Hanifa and Imam Ahmad. (Ibn-Qudama, 1367 AH,
+5, p.140; Al-Kasani, 1993, 6, pp. 162, 163). As regards loss, there is complete consensus of the jurists on this part of the principle
+(Ibn-Qudama, 1367 AH, 5, p. 147).
+30 Ibn-Qudama, 1367 AH, 5, pp. 140; Usmani, 2000b, pp. 210–218.
+
+
+----- p.317 (pdf 345) -----
+
+
+Participatory Modes: Shirkah and its Variants 317
+contemporary jurists, a loss must be shared exactly in accordance with the ratio of capital
+invested by the partners. This principle is given in a famous maxim based on the following
+saying of the fourth Pious Caliph of Islam, Ali (Gbpwh): “Profit is based on agreement of
+the parties, but loss is always subject to the ratio of investment”. 31 The rationale of this
+principle is that earning profit is legitimized by engaging in an economic activity and thereby
+contributing to the socio-economic welfare of society. It encompasses equitable risk-sharing
+between the provider of capital and the entrepreneur.
+The profit ratio must relate to the actual profit accrued to the business and not to the capital
+invested by any partner. For example, a profit earned may be distributed between two parties
+50:50, 60:40, 30:70, etc. The contract should not lead to any stipulation that profit will be ( )
+% on capital or so many dollars/rupees for all or any of the partners. It can also be agreed that
+partners A, B and C, for example, will get 30 %, 40 % and 30 % of the net profit earned by the
+joint business.32 It is not allowed to fix any lump sum amount of the profit for any partner, or
+any rate of profit tied up with the capital invested by a partner.33
+If a partner subscribes less capital but works more for the partnership than the other partners,
+he may be entitled to an equal share in profits or even more.34 In the same way, if both partners
+have an equal share of subscription, their share of profits may be unequal provided that in all
+such cases, the working partner is entitled to a bigger share. In the case of loss, there is complete
+unanimity among all jurists that each partner in Shirkah shall suffer the loss according to the
+ratio of his investment.35
+Any partner can withdraw any lump sum amount of profit subject to adjustment at the
+time of final settlement and distribution, meaning that any amount drawn by any partner
+will be deducted from his share of the profit. But if there is no profit or the actual profit is
+less than the anticipated profit, the amount drawn by any partner shall have to be subtracted
+from his capital.
+Partners can amend, at any point in time, the terms of the partnership contract. They can
+amend the ratio of profit-sharing, taking into account that losses are shared according to the
+share of each partner in the partnership capital. 36 Once the profit is realized, it has to be
+shared as per the agreed ratio. Rules relating to profit in general kinds of Shirkah are given
+in Box 12.1.
+In a partnership in creditworthiness, the partners should determine at the very beginning
+the percentage of profit-sharing and also liability-sharing for all the partners. The ratio of
+loss-sharing may differ, downward or upward, with mutual consent, from the percentage
+of profit-sharing: “The profit shall be distributed according to the agreement. However, the
+loss will be borne by each partner according to the ratio that each partner had undertaken to
+bear in proportion to overall assets that are purchased on credit. It is not permitted that the
+contract of partnership incorporates a provision that specifies a lump sum from the profit
+for any partner”. 37
+31 AAOIFI, 2004–5a, Standard on Musharakah, p. 221.
+32 Al-Kasani, 1993, 6,p .6 2 .
+33 Ibn-Qudama, 1367 AH, 5, pp. 32, 34.
+34 Al-Sarakhsi, n.d., 11, p. 157.
+35 Ibn-Qudama, 1367 AH, pp. 33, 62.
+36 AAOIFI, 2004–5a, Standard on Musharakah, clauses 3/1/1/4, 3/1/5.
+37 AAOIFI, 2004–5a, Standard on Musharakah, clause 3/2, p. 207.
+
+
+----- p.318 (pdf 346) -----
+
+
+318 Understanding Islamic Finance
+12.3.5 Guarantees in Shirkah Contracts
+All partners in Shirkah maintain the assets of the partnership as a trust. Therefore, no one is
+liable except in cases of breach of the contract, misconduct or proven negligence. Negligence
+will be considered to have occurred in any of the following three cases: (i) a partner does
+not abide by the terms and conditions of the contract; (ii) a partner works against the norms
+of the concerned business; and (iii) the established ill-intention of a partner. Hence, the
+profit or even capital of any partners cannot be guaranteed by the co-partners. However, one
+partner can demand from another partner to provide any surety, security or pledge to cover
+the cases of misconduct and negligence. 38
+Therefore, in the case of a Musharakah agreement between a bank and the business
+community, the bank, as a part of risk management and for the judicious use of funds of
+the depositors, can obtain adequate security from a partner against his misconduct, breach
+of contract and negligence (if any).
+Third Party Guarantee in Musharakah
+Any third party can also provide a guarantee to make up the loss of capital of all or some
+of the partners. This is subject to the conditions:
+1. The third party should not be legally and financially related to the Musharakah by owning
+more than 50 % of the capital of the guaranteed joint venture.
+2. The guaranteed joint venture should not own more than half of the capital of the guarantee-
+providing entity.
+3. The Shirkah contract should not be conditional on such a guarantee.
+4. The guarantee should not be provided for any consideration. In other words, fulfilment
+of promise by a third party is not a condition for validity of the contract.
+It is important to observe that the third party’s undertaking is actually a “promise to
+guarantee” and does not create the right for the beneficiary to relate the Shirkah contract
+with fulfilment of the guarantee. The partners in whose favour third party guarantee is given
+can neither claim that Shirkah should become null and void nor can they refuse to meet their
+obligations under the contract on the grounds that they had entered into Shirkah taking into
+account the third party’s undertaking to guarantee the profit or the capital. 39
+12.3.6 Maturity/Termination of Musharakah
+Musharakah is basically a nonbinding contract, meaning that any partner can withdraw his
+share from the partnership at his will. But the partners can agree on any timeframe of Shirkah
+business. A traditional Shirkah agreement is terminated in any of the following situations:
+1. When the purpose of forming Shirkah is achieved in the case of a specific purpose
+Musharakah. While the profit will be distributed according to the agreed profit distribution
+ratio, any loss will be borne by each partner according to the ratio of his investment.
+2. When, after sufficient information or notice, any partner withdraws from a partnership
+after giving his partners due notice to this effect. His withdrawal will not necessitate
+38 AAOIFI, 2004–5a, Standard on Musharakah, clauses 3/1/4/1, 3/1/4/2.
+39 AAOIFI, 2004–5a, Standard on Musharakah, clause 3/1/4/3, pp. 203, 220, 221.
+
+
+----- p.319 (pdf 347) -----
+
+
+Participatory Modes: Shirkah and its Variants 319
+termination of the partnership between the remaining partners. Assets will be distributed
+pro rata among the partners with mutual consent and then the profit, if any, will be
+distributed on the basis of the agreed ratio. It is preferable that assets are assessed in
+terms of monetary value with mutual consent.
+3. When any partner dies. However, his heirs can replace him with the consent of the other
+parties.
+4. When the whole of the Musharakah capital is exhausted or lost.
+5. When any partner is prevented or prohibited from exercising his legal powers over his
+property.
+In the past, the need for early termination of Shirkah contracts normally did not arise, due to
+the short life and liquidating nature of joint enterprises that were of the nature of caravan trade.
+The classical jurists, therefore, did not feel any need to impose any restrictions on withdrawal
+of the partners. Latter jurists have contended that in the case of a partnership among more than
+two persons, the contract remains intact even after withdrawal by any partner.40
+According to modern practice (‘Urf), a shareholder of a limited company cannot withdraw
+from it his capital. He can, however, sell his share to any person desirous of becoming a
+shareholder of that company. In the present complicated commercial scenario, public control
+and legal structures require a considerable period for all related activities and no partner
+or shareholder can be absolved of his liabilities as easily as in the old days. In businesses
+that require long gestation periods and huge amounts of capital investment, termination of
+the project in between is considered out of the question. The jurists have, however, allowed
+changes of ownership through the sale and purchase of shares. 41
+Partners can enter into a binding promise for continuity of the partnership for a stipulated
+period of time. However, they can terminate the partnership with mutual consent before
+such a fixed period. One partner can give a binding promise to buy, within the operation
+period or at the time of liquidation, the assets of the partnership at their market value or as
+per agreement at the date of buying. A promise to buy at a pre-agreed price or at the face
+value of the shares of a company is not allowed in contractual partnerships, as this implies
+guarantee of capital of other partner(s), which is not allowed in Shirkatul‘aqd. 42
+Box 12.1: Rules Relating to Sharing of Profit/Loss in Shirkah
+Rules relating to profit
+1. The ratio or the basis for sharing profit should be decided at the beginning of a
+partnership.
+2. Profit should be allocated in percentages of net earnings (after deducting the operating
+costs and expenses) and not in a sum of money or a percentage of the capital or
+investment by the partners.
+40 Al-Atasi, 1403 AH, Section 352, 4: 277.
+41 For details see Usmani, 2000b, pp. 220–231.
+42 AAOIFI, 2004–5a, clause 3/1/6/2, pp. 207, 222.
+
+
+----- p.320 (pdf 348) -----
+
+
+320 Understanding Islamic Finance
+Box 12.1: (Continued)
+3. It is not necessary that agreement for sharing profit should be proportionate to
+capital contribution.
+4. A sleeping partner cannot share the profit more than the percentage of his capital.
+If a partner did not stipulate that he would be a sleeping partner, he is entitled to
+get an additional profit share over his percentage of contribution to the capital even
+if he did not work. 43
+5. The partners may, at a later stage, agree to change the profit-sharing ratio, and on the
+date of distribution, a partner may surrender a part of his profit to another partner.
+6. One partner can cap his share of profit to a certain amount of money, giving the
+profit over and above that cap to the other partner(s).
+7. The final allocation of profit is not allowed to be based on expected profit. However,
+it is permissible to distribute a provisional profit, subject to final settlement after
+actual or constructive liquidation.
+8. If the subject matter of Shirkah is a leased asset, the rental amount distributed to the
+partners should be on account, subject to settlement and reimbursement according
+to the final position. 44
+9. It is permissible for partners to decide not to distribute a portion of profit for the
+purpose of creation of various reserves. 45
+10. Different profit-sharing formulas can be agreed for different periods or the magni-
+tude of the realized profits, provided such a formula does not lead to the likelihood
+of a partner being precluded from participation in profit. 46
+11. Profit distribution/allocation should be made on the basis of actual or constructive
+liquidation (valuation of assets) of the venture. Receivables must be valued at the
+cash value, i.e. after deduction for an allowance for doubtful debts. For receivables,
+it is not permitted to take into account the concept of time value of money or the
+notion of discount of the debt amount as consideration for earlier payment. 47
+Rules relating to loss
+1. All partners will have to share the loss in proportion to their investment.
+2. However, it is valid according to the AAOIFI Standard that one partner can take
+responsibility for bearing the loss, at the time of loss, without any prior condition. 48
+12.4 THE CONCEPT AND RULES OF MUDARABAH
+Mudarabah is a special kind of Shirkah in which an investor or a group of investors provides
+capital to an agent or manager who has to trade with it; the profit is shared according
+43 AAOIFI, 2004–5a, Standard on Musharakah, clause 3/1/5/3; also see, for the basis of Shar ¯ı´ah rulings in respect of profit/loss
+sharing, pp. 221, 222.
+44 AAOIFI, 2004–5a, Standard on Musharakah, clause 3/1/5/13.
+45 AAOIFI, 2004–5a, Standard on Musharakah, clause 3/1/5/15.
+46 AAOIFI, 2004–5a, Standard on Musharakah, clause 3/1/5/5.
+47 AAOIFI, 2004–5a, Standard on Musharakah, clause 3/1/5/10.
+48 AAOIFI, 2004–5a, Standard on Musharakah, clause 3/1/5/4.
+
+
+----- p.321 (pdf 349) -----
+
+
+Participatory Modes: Shirkah and its Variants 321
+to the pre-agreed proportion, while the loss has to be borne exclusively by the investor. 49
+The loss means a shortfall in the capital or investment of the financier. The loss of the
+agent (Mudarib) is by way of expended time and effort, for which he will not be given any
+remuneration. There is no restriction on the number of persons giving funds for business or
+any restriction on the number of working partners. 50 As discussed in the case of Musharakah,
+profit cannot be in the form of a fixed amount or any percentage of the capital employed. 51
+Any ambiguity or ignorance regarding capital or ratio of profit makes the contract invalid. 52
+If a Mudarabah contract becomes invalid for any reason, the Mudarib will be working for
+the necessary period as a wage-earner and will get Ujratul-mithl (fair pay) for his job. He
+will not be given any share of the profit.
+As evident from various books of Fiqh, the term Mudarabah is interchangeably used with
+Qir¯ad and Muqaradah. It is presumed that while the latter two originated in Hijaz, Mudarabah
+was of Iraqi origin. Subsequently, the difference appears to have been perpetuated by the
+legal schools, the Malikis and Shafi‘es adopting the terms “Qir ¯ad” and “Muqaradah” and
+the Hanafis using the term “Mudarabah”. 53
+Al-Sarakhsi, in his bookAl-Mabsut, explains the nature of Mudarabah in the following words:
+“The term Mudarabah is derived from the expression ‘making a journey’ and it is called this
+because the agent (Mudarib) is entitled to the profit by virtue of his effort and work. And he is the
+investor’s partner in the profit and in the capital used on the journey and in its dispositions.
+The people of Madina call this contract Muqaradah, and that is based on a tradition concerning
+‘Uthman, (Gbpwh), who entrusted funds to a man in the form of a Maqarada. This is derived
+from al-Qard, which signifies cutting; for, in this contract, the investor cuts off the disposition of
+a sum of money from himself and transfers its disposition to the agent. It is therefore designated
+accordingly. We, however, have preferred the first term (Mudarabah) because it corresponds to that
+which is found in the book of Almighty Allah. He said: ‘while others travel in the land (yadribuna
+fil-ard) in search of Allah’s bounty,’ that is to say, travel for the purposes of trade.” 54
+With regard to the legality of Mudarabah, Al-Marghinani says in Al-Hidaya:
+“There is no difference of opinion among the Muslims about the legality of Qir ¯ad. It was an
+institution in the pre-Islamic period and Islam confirmed it. They all agree that the nature of
+the Mudarabah business is that a person gives to another person some capital that he uses in
+the business. The user gets, according to conditions, some specified proportion, e.g. one-third,
+one-fourth or even one-half.”
+A number of sayings of the holy Prophet (pbuh) and reports by his Companions on the
+subject indicate that Islamic jurists are unanimous on the legitimacy of Mudarabah. 55 The
+terms of the Mudarabah contract offered by the Prophet’s uncle Abbas were approved by
+the Prophet (pbuh). Abu Musa, the governor of Kufa, wanted to remit public money to the
+Bayt al M ¯al. He gave the amount to Abdullah bin Umar and his brother, who traded with it.
+The Caliph’s assembly treated it as an ex post facto Mudarabah and took half of the profits
+49 Ibn-Qudama, 1367 AH, p.33.
+50 Ibn-Qudama, 1367 AH, 5,p .3 2 .
+51 Al-Marghinani, 1957, 3, p. 256.
+52 Ibn-Qudama, 1367 AH, p.30.
+53 Udovitch, 1970, pp. 174–175; AAOIFI, 2004–5a, Standard on Mudarabah, clause 4, p. 231.
+54 Al-Sarakhsi, n.d., 12,p .1 8 .
+55 Al-Sarakhsi, n.d., 12,p .1 8 .
+
+
+----- p.322 (pdf 350) -----
+
+
+322 Understanding Islamic Finance
+earned by the two brothers, because the public money in their hands was not the loan. Caliph
+Umar also used to invest orphans’ property on the basis of Mudarabah.
+This practice was rather needed, since weaker members of society could not undertake
+long journeys for trading the way that most important professions of Arabs could at that
+time. Al-Sarakhsi, in this regard, says:
+“Because people have a need for this contract. For the owner of capital may not find his way to
+profitable trading activity and the person who can find his way to such activity may not have the
+capital. And profit cannot be attained except by means of both of these, that is, capital and trading
+activity. By permitting this contract, the goal of both parties is attained”.
+By allowing Mudarabah, Islam has intended to fulfil an important economic function by
+way of encouraging the hiring of capital and that of trade skills on judicious terms of risk-
+sharing, leading to the benefit of society and the concerned parties. The Mudarib has to work
+in various capacities like trustee, agent, partner, indemnifier/liable and even wage-earner if
+the contract becomes void. Being an agent to the Rabbul-m ¯al, he undertakes the business
+and shares the profit. 56
+There could also be multilateral and sub-Mudarabahs. A multilateral Mudarabah may take
+various forms. A number of financiers may make a contract of Mudarabah with a single
+person, or a financier may contract Mudarabah with more than one worker, severally or
+jointly. Similarly, a number of workers may associate in order to work for one or more than
+one subscriber. As regards a sub-Mudarabah, there seems to be a unanimity of opinion that
+a Mudarib may give the Mudarabah capital to a third party on Mudarabah terms only if the
+financier has allowed it either in clear terms or has left the business of the Mudarabah to
+the discretion of the Mudarib. The absence of the owner’s permission will make the former
+contract voidable. 57
+Mudarabah, like other contracts, calls for lawful items of trade, failing which the contract
+will become void or voidable, as the case may be. Thus, a worker is not allowed to trade
+in wine or swine with the Mudarabah capital. The classical jurists generally restricted the
+use of Mudarabah to the act of trade (buying/selling) 58, but an overwhelming majority of
+contemporary jurists and scholars allow the use of Mudarabah with a wider scope for use
+by Islamic banks as an alternative to interest-based financing.
+Mudarabah is a contract of fidelity and the Mudarib is considered trustworthy with respect
+to the capital entrusted to him. He is not liable for the loss incurred in the normal course
+of business activities. As a corollary, he is liable for the property in his care as a result of
+the breach of trust, misconduct and negligence. 59 A guarantee to return funds can be taken
+from him but can be enforced only in two situations: if he is negligent in the use of funds
+or if he breaches the stipulated conditions of Mudarabah. 60 Hence, his actions should be in
+consonance with the overall purpose of the contract and within the recognized and customary
+commercial practice. In some situations, he becomes an employee when he performs some
+duty after the Mudarabah contract becomes invalid.
+56 For legality and rationale see AAOIFI, 2004–5a, pp. 240–241.
+57 Al Jaziri, 1973, 2, pp. 858–862.
+58 This is particularly the view of Shafi‘e jurists (Al Jaziri, 1973, 2, 847–848; see also the relevant chapter in Badai lil K ¯as¯ani).
+Among the contemporary jurists, Hasanuz Zaman is in favour of a limited role for Mudarabah (Hasanuz Zaman, 1990).
+59 AAOIFI, 2004–5a, Standard on Mudarabah, clause 4/4, p. 232.
+60 AAOIFI, 2004–5a, Standard on Mudarabah, clauses 4/4, 6.
+
+
+----- p.323 (pdf 351) -----
+
+
+Participatory Modes: Shirkah and its Variants 323
+12.4.1 The Nature of Mudarabah Capital
+As described in the discussion on Shirkah, Mudarabah capital should preferably be in the form
+of legal tender money, because capital in the form of commodities may lead to uncertainties
+and disputes. The value of illiquid assets must be clearly determined in terms of legal tender
+at the time of entering into the Mudarabah contract and there should be no ambiguity or
+uncertainty about its value. It is not permitted to use a debt owed by the Mudarib or another
+party to the capital provider as capital in a Mudarabah contract. 61 This is because the capital
+to be given for Mudarabah business should be free from all liabilities. The conversion of
+debt into a Mudarabah is prohibited to safeguard against the abuse of usurious loan being
+camouflaged as a Mudarabah, where, in essence, the financier would possibly ensure for
+himself not only the recovery of his debt but also an illegal return on his loan under the
+cover of his share in Mudarabah profits. 62 A financier cannot give the Mudarib two different
+amounts of capital with the stipulation that profit earned from one should go to him and from
+the other to the Mudarib. Similarly, he cannot specify different periods to state that profit
+earned in a specific period will be his and that of another period, the Mudarib’s. It is also
+not allowed to stipulate that profit from a particular transaction should go to the financier
+and the profit from another transaction will belong to the Mudarib. 63
+Mixing of Capital by the Mudarib
+A Mudarib is normally responsible for the management only and all the investment comes
+from the financier. But there may be situations where the Mudarib also wants to invest some
+of his money into the business of Mudarabah. In such cases, Musharakah and Mudarabah
+are combined. Jurists allow the Mudarib to add his own capital to the capital of Mudarabah
+with the permission of the Rabbul-m ¯al. If a Mudarib subscribes his portion of profit or a
+portion of capital in the Mudarabah business, he will become a partner to the extent of his
+subscription, in addition to his remaining a worker. His rights and liabilities will be governed
+by Musharakah rules so long as his capital remains part of the business to the extent of his
+share of subscription. For example, A gives $100 000 to a Mudarib B, who also invests his
+own funds amounting to $50 000. This is the situation where Mudarabah and Musharakah
+have been combined. In this combined business, B (the Mudarib) can stipulate for himself a
+certain percentage of profit against his own investment and another percentage for his work
+as a Mudarib. In the above example, he has invested one-third of the capital. Therefore,
+according to normal business practice, he will get one-third of the actual profit on account
+of his investment, while the remaining two-thirds will be distributed between them equally.
+However, they may agree on another ratio for distribution.
+Islamic banks normally mobilize deposits on Mudarabah principles and invest them in
+the business. If a bank also provides funds, it is entitled to get a profit on its own capital in
+proportion to the total capital of the Mudarabah. In addition to such a share in the profit, the
+bank shall also be entitled to share the remaining profit as Mudarib in an agreed proportion.
+For example, depositors provide $2000 for Mudarabah and the bank contributes $1000 to
+the business, and it was agreed to share the profit in the ratio 50:50. Let us assume that the
+profit earned by the bank as Mudarib is $300. The bank will get $100 as profit on its own
+61 AAOIFI, 2004–5a, Standard on Mudarabah, clause 7/3; also see p. 242.
+62 AAOIFI, 2004–5a, Standard on Mudarabah, p. 242.
+63 AAOIFI, 2004–5a, clause 8/6.
+
+
+----- p.324 (pdf 352) -----
+
+
+324 Understanding Islamic Finance
+investment of $1000. The remaining profit of $200 will be distributed between the bank and
+the depositors on the agreed ratio of 50:50. In other words, out of the profit of $200, the
+bank will get $100 and the depositors $100.
+12.4.2 Types of Mudarabah and Conditions Regarding Business
+Mudarabah business can be of two types: restricted and unrestricted Mudarabah. If the
+finance provider specifies any particular business, the Mudarib shall undertake business in
+that particular business only for items and conditions and the time set by the Rabbul-m ¯al.
+This is restricted Mudarabah. But if the Rabbul-m ¯al has left it open for the Mudarib to
+undertake any business he wishes, the Mudarib shall be authorized to invest the funds in any
+business he deems fit. This is called un-restricted Mudarabah. In both cases, the actions of
+the Mudarib should be in accordance with the business customs relating to the Mudarabah
+operations: the subject matter of the contract. 64
+Accordingly, a Mudarabah contract can be conditional or unconditional. The conditions
+may pertain to the nature of the work, the place of work and/or the period of the work.
+Conditions binding the worker to trade with a particular person or in a particular commodity,
+etc. are, according to Hanafi and Hanbali jurists, permissible, but these make the contract a
+special Mudarabah.
+It is not legally necessary that the financier directly makes a contract with the Mudarib. 65
+Thus, a banker may act as an agent to an investor and become a middle man doing business
+on the basis of investment agency (Wakalatul Istism ¯ar).
+The financier has a right to impose conditions on a Mudarib, provided they are not
+prejudicial to the interests of the business and are not counterproductive to the purpose of
+the Mudarabah. For example:
+1. He may fix a time limit for the operation of the contract.
+2. He may specify the articles to be traded in or whose trade is to be avoided.
+3. He may stop the worker from dealing with a particular person or a company.
+4. He may stop the worker from travelling to a particular place or may also specify the
+place where trade is to be carried out.
+5. He may ask the worker to make sure to fulfil his fiduciary responsibilities (but not
+profitability).66
+6. According to some jurists, he may also compel his worker to sell the goods if the bargain
+is profitable (while the worker wants to hold then).
+7. He also has a right to stop the worker from contracting a Mudarabah with any other
+party.
+The Mudarib, on his part, is bound to follow the financier’s conditions. If he violates a
+restriction or contravenes a beneficial condition, he becomes a usurper and will be responsible
+in respect of capital to the capital owner. He is not entitled to sell the Mudarabah goods
+at less than the general market price or buy goods for Mudarabah at a price higher than
+the common market price. He is also not allowed to donate Mudarabah funds or waive
+receivables of the business without explicit permission from the financier. 67
+64 AAOIFI, 2004–5a, Standard on Mudarabah, clause 5/1.
+65 Al Jaziri, 1973, 2, p. 815.
+66 Al Jaziri, 1973, 2, p. 851.
+67 AAOIFI, 2004–5a, Standard on Mudarabah, clauses 9/5–9/7, pp. 236, 244.
+
+
+----- p.325 (pdf 353) -----
+
+
+Participatory Modes: Shirkah and its Variants 325
+12.4.3 Work for the Mudarabah Business
+According to the majority of the traditional jurists, a financier in Mudarabah is not allowed
+to work for the joint business. He is not permitted to stipulate that he has a right to work with
+a Mudarib and to be involved in selling and buying activities, or supplying and ordering.
+However, he has the right to oversee and ensure that the Mudarib is doing his fiduciary
+duties honestly and efficiently.
+It is only according to Hanbali jurists and, to some extent, Hanafi jurists that the owner is
+allowed to work for the business with the Mudarib. The reason for disapproval by the majority
+is that it jeopardizes the freedom of the worker to act according to his discretion. 68 This
+classical position is understandable if the basic idea that a person enters into a Mudarabah
+contract because he lacks business skill is presumed to exist. But if the financier also has skill
+and has contracted Mudarabah simply because he cannot do the entire work single-handedly,
+the rationale behind prohibiting him to work is not understandable. Moreover, it now seems
+more reasonable to allow the owner to ensure honesty and efficiency of the worker by taking
+a personal interest in the affairs of the business. Even some Hanafi jurists have allowed the
+financier’s sale of Mudarabah goods if it is profitable. 69
+In present circumstances, it can be left to the parties, who may agree on any role by the
+investor keeping in mind its impact on profitability of the joint business. After transfer of
+the capital by the financier, the Mudarib needs to be given independence for the normal
+conduct of business. However, the financier can impose restrictions on the Mudarib in terms
+of place, object and method of trade. He may also want to have quick and direct access
+to his capital and may, for instance, stipulate that the Mudarib may trade within a certain
+marketing zone.
+12.4.4 Treatment of Profit/Loss
+Both parties in Mudarabah are at liberty to agree on the proportion or ratio of profit-sharing
+between them with mutual consent. This ratio has to be decided at the time the contract is
+concluded. They can agree on equal sharing or allocate different proportions. A lump sum
+amount as a profit/return on investment for any of the parties cannot be allowed or agreed
+upon. In other words, they can agree on, for example, 50, 40 or 60 % of the profit going
+to the Rabbul-m ¯al and the remaining 50, 60 or 40 %, respectively, going to the Mudarib.
+Different proportions can be agreed upon for different situations. For example, the financier
+can say to the Mudarib: “If you deal in wheat, you will get 50 %, but if you deal in cloth,
+you will be given 40 % of the profit. Or if you do business in your town, you will get 40 %
+and if in another town, your share in the profit will be 50 %.” Loss, if any, has to be borne by
+the financier. Loss means erosion of capital; no profit can be recognized or claimed unless
+the capital of Mudarabah is maintained intact. 70
+The distribution of profit depends on the final result of the operations at the time of
+physical or constructive liquidation of the Mudarabah. Reserves can be created with mutual
+consent and if a Mudarabah incurs a loss, the loss can be compensated by the profit of the
+future operation of the joint business or the reserves created in the past. At the time of profit
+68 The same is the view taken by the AAOIFI, as per its Standard on Mudarabah (clause 9/3; also see p. 244).
+69 See Hasanuz Zaman, 1990, pp. 69–88.
+70 See, for its basis, AAOIFI, 2004–5a, p. 243.
+
+
+----- p.326 (pdf 354) -----
+
+
+326 Understanding Islamic Finance
+allocation, one partner can donate a part of his profit to the other partner(s). A financier can
+also award a good management bonus to a Mudarib. If losses are greater than profits at the
+time of liquidation, the balance (net loss) has to be deducted from the capital.
+Profits are shared when they accrue, but this accrual does not mean a transaction-wise
+calculation of the profits; it means the overall adjustment of profits and losses over a particular
+period of time, which will be treated as the closing of the accounts but not necessarily the
+winding up of the business. However, the partners can provisionally draw the profit that will
+be subject to adjustment at the time of finalization of the accounts.
+The Mudarib is entitled to a share of profit as soon as it is clear that the operations of the
+Mudarabah have led to the realization of a profit. However, this entitlement is not absolute,
+as it is subject to the retention of interim profits for the protection of the capital. It will
+be an absolute right only after distribution takes place. For valuation, receivables should
+be measured at the cash equivalent, or net realizable, value, i.e. after the deduction of a
+provision for doubtful debts. In measuring receivables, neither time value nor discount on
+current value for an extension of the period of payment shall be taken into consideration. 71
+Parties can change the ratio for profit distribution at any time, but that ratio will remain
+effective for the period for which it has been mutually fixed. If the parties did not stipulate
+the ratio, they should refer to the customary practice, if any, to determine the shares of profit.
+If there is no customary practice, the contract will be regarded void ab intio and the Mudarib
+will get the common market wage for the kind and amount of service he has rendered. 72
+Although one party in Mudarabah cannot stipulate for himself a lump sum amount of
+money, the parties can agree with mutual consent that if the profit is over a particular ceiling,
+one of the parties can take the greater share of the profit and if the profit is below or equal
+to the stipulated ceiling, the distribution will be according to the agreed ratio. The profits
+realized from Mudarabah cannot be finally distributed until all expenses have been paid,
+in accordance with custom and the original agreement. Final accounting will be undertaken
+against the net profits of the Mudarabah operations. The part of profit of the Mudarib
+becomes secure after the liquidation of the Mudarabah and the capital owner recovers its
+capital and part of profit.
+The Mudarib cannot claim any periodical salary or a fee or remuneration for the work
+done by him for the Mudarabah business over and above his share as agreed in the contract.
+However, Imam Ahmad has allowed the Mudarib to draw his daily expenses of food only
+from the Mudarabah account. Hanafi jurists have also restricted the right of the Mudarib to
+claim expenses incurred during business journies. The financier and the manager can enter
+into a separate agreement, independent of the Mudarabah agreement, for assigning any job
+that is not by custom a part of the Mudarabah business against a fee. This means that the
+Mudarabah contract will not be affected if the Mudarib is terminated from the service. 73
+As a principle, in Mudarabah it is only the financier who bears the loss. However, if a
+Mudarib has also contributed capital, which he can do with mutual consent, he will bear the
+pro rata loss. If profit has been distributed upon constructive or actual liquidation of business,
+it cannot be withdrawn in order to make up for a later loss or for any other purpose. 74 If loss
+has occurred in some transactions and profit has been realized in some others, the profit can
+71 AAOIFI, 2004–5a, Standard on Mudarabah, clause 8/8.
+72 AAOIFI, 2004–5a Standard on Mudarabah, clause 8/4.
+73 AAOIFI, 2004–5a, Standard on Mudarabah, clause 8/2.
+74 Al Jaziri, 1973, 2, pp. 862–865.
+
+
+----- p.327 (pdf 355) -----
+
+
+Participatory Modes: Shirkah and its Variants 327
+be used to offset the loss at the first instance, then the remainder, if any, shall be distributed
+between the parties according to the agreed ratio.
+12.4.5 Termination of a Mudarabah Contract
+The general principle is that Mudarabah is not a binding contract and each of the parties can
+terminate it unilaterally except in two cases: (i) when the Mudarib has already commenced the
+business, in which case the contract becomes binding up to the date of actual or constructive
+liquidation; and (ii) when the parties agree on a certain duration of the contract, in which
+case it cannot be terminated before expiry of that period except with mutual agreement.
+For termination, the Mudarib will be given time to sell the illiquid assets so that an actual
+amount of profit may be determined. 75
+The unlimited power to terminate the Mudarabah may create difficulties in the context
+of the present circumstances, because most commercial enterprises today need time to bear
+fruit. Modern businesses also demand continuous and complex efforts. Therefore, if the
+parties agree, while entering into the Mudarabah, that no party shall terminate it during a
+specified period, except in specified circumstances, it does not seem to violate any principle
+of Shar ¯ı´ah, particularly in the light of the famous Hadith which says: “All the conditions
+agreed upon by the Muslims are upheld, except a condition which allows what is prohibited
+or prohibits what is lawful in Shar ¯ı´ah.”
+If all assets of the Mudarabah are in cash form at the time of termination, and some
+profit has been earned on the principal amount, it shall be distributed between the parties
+according to the agreed ratio. However, if the assets of the Mudarabah are not in cash form,
+the Mudarib shall be given an opportunity to sell and liquidate them, so that the actual profit
+may be determined.
+A restricted Mudarabah will automatically wind up after the object is achieved. If the
+Mudarabah is general, it will be in the interests of both parties to wind up at will whenever
+both of them mutually agree to do so. The difficulty may arise if one of the parties wants
+to continue business. Reconciliation on this point should be sought through a court or any
+arbitration.
+12.5 MUDARABAH DISTINGUISHED FROM MUSHARAKAH
+Mudarabah is distinguished from Musharakah briefly on the following grounds:
+1. The investment in Musharakah comes from all the partners, while in Mudarabah, invest-
+ment comes from a person or a group of persons, but not from the Mudarib. 76
+2. In Musharakah, all partners have a right to participate in the management of the business
+and can work for it, while in Mudarabah, the Rabbul-m ¯al has no right to participate in
+management. With mutual consent, however, he can work for the venture. Further, the
+financier has the right to ensure that the Mudarib is doing his fiduciary duties in the true
+sense.
+3. In Musharakah, all the partners share the loss according to the ratio of their investment,
+while in Mudarabah, the loss, if any, is suffered by the Rabbul-m ¯al only. However, if
+75 AAOIFI, 2004–5a, Standard on Mudarabah, clause 10.
+76 Usmani, 2000a, pp. 47–49.
+
+
+----- p.328 (pdf 356) -----
+
+
+328 Understanding Islamic Finance
+the Mudarib has conducted business with negligence or has been dishonest, he shall be
+liable for the loss caused by his negligence or misconduct.
+4. The liability of the partners in Musharakah is normally unlimited. However, if all the
+partners have agreed that no partner shall incur any debt during the course of business,
+then the liabilities exceeding assets shall be borne by that partner alone who has incurred a
+debt on the business in violation of the aforesaid condition. Contrary to this, in Mudarabah,
+the liability of the Rabbul-m ¯al is limited to his investment unless he has permitted the
+Mudarib to incur debts on his behalf. 77
+5. In Musharakah, profit can be distributed on an annual, quarterly or monthly basis by
+valuation of the assets. 78 In the case of Mudarabah, final distribution can take place only
+after liquidation of the Mudarabah business. However, on account payment of profit is
+possible subject to ultimate adjustment. 79 To avoid problems in perpetual Mudarabah, the
+contemporary jurists have accepted the concept of constructive liquidation of assets by
+determining the market value of nonliquid assets. 80
+6. In Musharakah, all assets of the Musharakah become jointly owned by all of the partners
+according to the proportion of their respective investment. Therefore, each one of them
+can benefit from the appreciation in the value of the assets, even if profit has not accrued
+through sales. In Mudarabah, however, all the goods/assets purchased by the Mudarib are
+solely owned by the Rabbul-m ¯al, and the Mudarib can earn his share in the profit only if
+he sells the assets profitably. However, there are some exceptions to this rule according
+to a minority view.
+7. If the Mudarabah business is dissolved, its assets and profit, if any, can be distributed only
+after assessing its value in terms of money. In the case of Shirkah, this is not necessary. 81
+12.6 MODERN CORPORATIONS: JOINT STOCK COMPANIES
+Modern corporate bodies can be considered to be based on the concept of Shirkah al ‘Inan
+or a combination of Musharakah and Mudarabah, which is allowed by the generality of
+the contemporary jurists. 82 There are a number of forms of modern corporations, including
+joint stock companies with limited liability, joint liability companies (a form of personal
+partnership), companies limited by shares (also a kind of personal partnership), partnerships
+in commendum (a form of financing partnership), etc. 83 The general principles governing
+these forms are the same and we will be discussing mainly the modern stock companies
+with limited liability of the shareholders.
+The main ingredient of modern corporate business is the issuance of shares or certificates
+to the investors in a joint business. A large number of people provide funds and are issued
+any specific type of receipts that are called shares or a variety of certificates that represent
+the proportionate ownership of the shareholders. The AAOIFI Standard on Musharakah has
+defined a stock company as an entity, the capital of which is distributed into equal units of
+77 Ibn-Qudama, 1367 AH, pp. 18, 35.
+78 Ibn-Qudama, 1367 AH, pp. 5, 64.
+79 AlJaziri, 1973, 3,p .6 1 .
+80 Usmani, 2000b, pp. 276–283.
+81 Al-Kasani, 1993, 6,p .7 7 .
+82 Usmani, 2000b, pp. 313–329.
+83 See, for details, AAOIFI, 2004–5a, Standard on Musharakah, pp. 208–213.
+
+
+----- p.329 (pdf 357) -----
+
+
+Participatory Modes: Shirkah and its Variants 329
+tradable shares with limited liability of the shareholders to their pro rata capital. The rules
+relating to Shirkah al ‘Inan are applicable to it except on the issue of the limited liability of
+the shareholders. In other words, shareholders are owners of the assets of the company to
+the extent of shares held by them. They can sell/transfer the shares to any other persons but
+have no discretion over the assets of the company. 84
+A company incorporated by law is considered a juristic personality, and as such, cannot
+avoid its obligations to people dealing with it. This separates the liability of the company
+from the liability of the shareholders. The company’s liability can be limited to its paid-up
+capital if it is made public in order to make the customers aware of its financial position. It
+involves a binding contract for continuity in terms of its Articles of Association. Therefore,
+no one is entitled to terminate the company in terms of his shares. However, a shareholder
+can sell his shares or relinquish title to them in favour of other people.
+The capital contribution for subscription to shares can be made in a lump sum or in
+instalments. Unpaid instalments would constitute an undertaking to increase the share in the
+company subsequently. It is permissible to issue new shares in order to increase the capital,
+provided the new shares are issued at the fair value of the old shares – this can be at a
+premium, discount or at the nominal value of the shares. 85 Preference shares having special
+financial characteristics that give their holders a priority for profit allocation at the time of
+the company’s liquidation do not conform to the Shar ¯ı´ah principles. 86
+IFIs can purchase or sell shares of any company subject to the condition that the company
+is undertaking a Halal business. The price of the shares can be less or more than their
+nominal value, provided more than 50 % of its shares comprise fixed assets, i.e. liquid assets
+(cash plus receivables) are less than 50 %. If the major business of any company is not
+against Shar¯ı´ah and some of its transactions involve un-Islamic elements, like dealing with
+interest-based institutions, its shares can also be purchased, provided the part of income
+representing interest, if identified, is given to charity.
+One cannot sell shares that one does not own and a promise by a broker to lend a share to
+a short-seller at the date of delivery does not refer to ownership or possession of the shares.
+Shares can also be pledged, because anything that can be sold can also be given as pledge. 87
+Shares that are gradually redeemed before the termination of the company only through
+the distribution of profits by the company do not conform to the Shar ¯ı´ah principles. This is
+because the funds the certificate holders receive constitute profit in respect of their shares.
+The claim that the participations be redeemed in consideration for the distributed profit is
+invalid. Therefore, the certificate holders remain owners of the shares and are entitled to
+proceeds when the company is liquidated. 88
+Preference shares, on the basis of which some of the partners in a concern are earmarked
+a fixed percentage of dividends, do not fulfil the principles of Shar ¯ı´ah. The basic principle
+of distribution of profit is that no gain can be had without undertaking to bear the risk of
+loss. In this respect, all the subscribing partners of a company should be treated alike, based
+on the number of shares held by them. Similarly, if any of the partners has been privileged
+to share in profits only without sharing in losses, the partnership contract is deemed to have
+84 AAOIFI, 2004–5a, Standard on Musharakah, clause 4/1/1; Usmani, 2000b, p.330.
+85 AAOIFI, 2004–5a, Standard on Musharakah, clause 4/1/2/3.
+86 AAOIFI, 2004–5a, Standard on Musharakah, clause 4/1/2/14.
+87 AAOIFI, 2004–5a, Standard on Musharakah, clause 4/1/2/7; also at p. 223.
+88 See Resolution No. 63(1/7) of the International Islamic Fiqh Academy; AAOIFI, 2004–5a, Standard on Musharakah, clause
+4/1/2/15, pp. 210, 224.
+
+
+----- p.330 (pdf 358) -----
+
+
+330 Understanding Islamic Finance
+become void due to the element of interest. The case of qualification shares is, however,
+different, as it determines the minimum extent of attention and devotion of the directors
+without any preferential treatment in pecuniary entitlement.
+Underwriting is a crucial part of the business related to modern corporations. A share-
+holder or any third party can underwrite an issue of shares without any consideration. The
+underwriter will undertake, by an agreement at the time of incorporation of the company
+or shares issue, to buy all or a part of the shares issue. It undertakes to buy the remaining
+shares at nominal value that are not subscribed through public or private placements. The
+underwriter can charge for services provided, other than the underwriting, such as conducting
+feasibility studies or marketing the shares. 89
+The actual rules of modern corporate business require more detailed analysis.
+Shares/certificates are floated for raising liquid assets. Trading in assets that represent the
+underlying assets is permissible as long as real assets and services constitute the majority of
+the total assets. As such, the instruments or shares represent only the money, they cannot be
+traded so long as the capital is in liquid form, i.e. in the form of cash raised or receivables
+or advances due from others. This is because the shares represent pro rata ownership of
+shareholders in the joint business/project. If the capital is still in liquid form, the shares may
+be sold only at face value, otherwise it would mean that money is being exchanged for more
+money, which is Riba. However, when the raised money is employed in purchasing nonliquid
+assets, like land, buildings, machinery, raw material, furniture, etc., the shares/Musharakah
+certificates will represent the holders’ proportionate ownership in these assets. In this case,
+it will be allowed by the Shar ¯ı´ah to sell these certificates in the secondary market for any
+price agreed upon between the parties, which may be more or less than the face value of the
+shares/certificates, because the subject matter of the sale is a share in the tangible assets and
+not in money only; therefore, the certificate may be taken as any other commodity which
+can be sold with profit or at a loss.
+Another major feature of the present corporate structure is that running projects are
+normally a mixture of liquid and tangible assets, e.g. in the form of raw material, fixed assets,
+inventory of finished goods, sales proceeds, receivables (that being debt is treated as liquid,
+like money), etc. The opinion of contemporary jurists regarding the Shar ¯ı´ah position of
+trading in shares of entities having mixed liquid and nonliquid assets is different. According
+to the classical jurists of the Shafi‘e school, combined assets of a business cannot be sold
+unless the tangible assets are separated and sold independently. Hanafi jurists, however, are
+of the view that a combination of liquid and tangible assets can be sold/purchased for an
+amount that is greater than the amount of liquid assets in the combined assets. They prescribe
+no specific proportion of tangible assets to qualify for permission of such a sale/purchase.
+However, most of the contemporary scholars, including those of the Shafi‘e school, have
+allowed trading in the shares and certificates only if the nonliquid assets of the business are
+more than 50 %, while some reduce this floor to 33 %.
+Other principles relating to stocks have been discussed in Chapter 8.
+12.7 MODERN APPLICATION OF THE CONCEPT OF SHIRKAH
+Keeping in mind the broad principles and the concept of Shirkah, Musharakah and Mudarabah
+can be used for evolving a new system, both on the liabilities and assets sides of the financial
+89 AAOIFI, 2004–5a, Standard on Musharakah, clause 4/1/2/4; also at p. 223.
+
+
+----- p.331 (pdf 359) -----
+
+
+Participatory Modes: Shirkah and its Variants 331
+system, that conforms to the requirements of Shar ¯ı´ah and also fulfils the needs of trade and
+business. It may take the form of corporate firms, mutual funds, Mudarabah companies, indi-
+vidual or multi-investment portfolios by fund managers, business participation certificates,
+Musharakah agreements, project financing, running Musharakah and partnership businesses,
+certificates of investment or Diminishing Musharakah for facilitating financing fixed assets,
+trade and services. A combination of Shirkatulamwal and Shirkatula‘mal can be used for
+service firms of the modern age in medicine, law, IT, architecture and other fields. 90
+12.7.1 Use of Shirkah on the Deposits Side of the Banking System
+According to the Shar ¯ı´ah principles, whatever is permissible for an individual is also
+permissible for a group of people. Based on this principle, Shirkah, which conventionally
+was an individual contract carried out by an owner of funds with a Mudarib, has now
+become a group activity. The main relationship between depositors and Islamic banks is that
+of financiers and Mudaribs. All deposits are pooled, the bank invests the pooled amount in
+business, all direct expenses are charged to the pool while expenses related to the general
+management or Head Office expenses are borne by the bank (Mudarib) itself, and the
+net proceeds are distributed among depositors according to the stipulated ratios. Different
+weightages can be assigned to different depositors depending upon their tenure and size,
+subject to the condition of sufficient disclosure to all depositors. For the purpose of profit
+distribution among partners, there is constructive liquidation after a tenure or accounting
+period and then the joint relationship starts afresh for the next accounting period.
+Banks normally also put a part of their equity into the pool. In terms of the rules, the
+relationship will be of Musharakah if they put their part in the pool at the beginning of
+pool creation and that of Mudarabah if subsequently. In the latter case, the bank will be an
+investor just like the other depositors. All pool members will be partners among themselves
+and the bank will serve as Mudarib. The overall relationship will remain one of Mudarib
+and Rabbul-m ¯al, because in the case of Musharakah, all partners would have the right to
+participate in the appreciation of the business as a whole, which is not the case for the
+banks’ depositors. Further, depositors are like sleeping partners and normally have no right
+in management and business decisions. This Mudarabah relationship is clearer in the case
+of special investors or portfolio accounts maintained by depositors, investment of which is
+made by banks in the light of depositors’ directives.
+The longer the tenor of deposits, the greater the weightage assigned to them. Banks can
+assign preferential weightages to various categories of deposits, like those of the old/pensioners,
+welfare associations, etc. But assigning different weightages to bigger sizes of deposit as a
+matter of course would not be a good practice, keeping in mind the principle of justice.
+According to the rules of Mudarabah, all financial losses, if any, should be borne by the
+pool as Rabbul-m ¯al. However, in such a case, the bank should also not earn any amount
+against its services. A loss attributable to the pool should be distributed among the pool
+members according to their investment as per the rules of Musharakah, i.e. according to
+their investment ratio.
+The bank should cover all expenses from its own share of profit within the Mudarabah
+arrangement. Weightages can only be amended at the beginning of the accounting period,
+which can be a month or a quarter. The bank can have a right to reduce/withdraw the
+90 Ibn-Qudama, 1367 AH, 5, p. 9; Usmani, 2000b, pp. 292–308.
+
+
+----- p.332 (pdf 360) -----
+
+
+332 Understanding Islamic Finance
+profit-sharing ratio in the Mudarabah arrangement in favour of the pool. The bank may also
+invest in the pool as a depositor.
+All accounts should be linked to respective pools containing more than 50 % Ijarah or other
+fixed assets to allow premature withdrawal. However, if the Hanafi view is adopted, early
+withdrawal will be allowed even if the nonliquid assets are more than 10 % of its total worth.
+Savers/investors offer funds to Islamic mutual funds or banks on a Mudarabah basis, who
+mix those funds with their own funds and offer them to users who seek Shar ¯ı´ah-compatible
+financing. Hence, Islamic financial institutions play the role of intermediary along with that
+of partner, as reflected in taking the funds, considering customer requests, following up
+repayments, distributing realized profits and many other functions.
+The system of profit allocation between the banks’ equity and investment account holders
+is important, because it deals with fundamental and ethical aspects relating to the concept of
+fairness in the Islamic alternative that Islamic banks offer as opposed to interest-based banks.
+It requires disclosure of information regarding the business and the profit-sharing formulas.
+The principles of fairness and trust emphasize the importance of the individuals’ confidence
+in the Islamic banks’ ability to achieve their investment goals. Disclosure should be made
+about significant accounting policies, weightages assigned on the basis of the tenor and the
+size of accounts, expenses to be charged and the basis applied by the Islamic bank in the
+allocation of profits between owners’ equity and unrestricted investment account holders.
+12.7.2 Use of Shirkah on the Assets Side
+The best alternative to interest for financing by banks is considered to be a Shirkah arrange-
+ment that could be in the form of Mudarabah, Musharakah or investments through Shirkah-
+based certificates or Sukuk. Mudarabah can be best used for financing of import trade on a
+single transaction or consignment basis in the case of a firm order and L/C without margin,
+where the whole investment has to be made by the bank. Its use is also possible for running
+businesses, project financing and for the purpose of securitization.
+Musharakah can be applied in trade finance without complexities, since the chances of
+fraud, negligence and other problems are relatively lower in international trade than in other
+Musharakah-based projects. A bank may enter into a Musharakah arrangement with a client
+who intends to import; the bank may also appoint him as agent for acquisition and disposal
+of the goods after the same are imported; an L/C could be opened in the bank’s or the
+client’s name. The net profit out of this limited purpose Musharakah will be shared between
+the bank and the client in an agreed ratio. The above procedure can also be adopted in
+respect of bills drawn under inland L/Cs. Detailed procedures for import financing under
+Musharakah are given in Chapter 14.
+In the case of export finance under L/C, the goods will be acquired and made ready for
+shipment on a Musharakah basis. The client will prepare the export documents strictly in
+accordance with the terms of the L/C and undertake to indemnify the bank for any loss in
+case of his failure to honour his commitment. Export proceeds will be distributed according
+to the agreed ratio. If there is no L/C involved, the merchandise will be made ready for export
+under joint ownership of the bank and the client. However, details of all such transactions
+will have to be worked out in consultation with the commercial bankers who are actually
+involved in the business.
+The following could be the procedure for export financing on the basis of Shirkah: the
+exporter receives an order from abroad to export a specific commodity/goods at a known
+price. He estimates its expected profit. If he needs financing for manufacturing/procurement
+
+
+----- p.333 (pdf 361) -----
+
+
+Participatory Modes: Shirkah and its Variants 333
+of the goods, the bank can provide financing on the basis of Shirkah. Profit would be shared
+on a pre-agreed percentage. The bank can secure itself from any negligence on the part
+of the exporter. However, being a partner of the business, the bank will be liable to bear
+any loss which may be caused due to any reason other than the negligence of the exporter.
+However, in order to undertake such an operation, banks need to understand the nature of
+the exporter’s business and other requirements.
+Banks can also provide Musharakah-based financing through Musharakah agreements
+with their clients. It is observed that a Shar ¯ı´ah expert would not have any objection if
+the banks make a provision in the Musharakah agreements giving them the right, on an
+agreed formula, to convert their investment outstanding at any time during the currency of
+the agreement into ordinary shares of the company. The details can be worked out by the
+experts. The client may be required to seek clearance from the bank before declaration of
+any dividend. There should also be a provision for adjudication to resolve any differences
+between the parties. There may be a review or a resolution committee with members named
+in the Musharakah agreement to deal with the issues of breach of contract by either of the
+parties. It seems imperative that banks shall employ some mechanics for monitoring the
+affairs of the concerned companies. They will have to gear up their machinery for a more
+thorough appraisal of the project feasibility and other aspects in the preliminary stages as
+well as for subsequent monitoring of projects’ implementation.
+In the case of project financing, the traditional method of Shirkah can be easily adopted.
+If the financier wants to finance the whole project, the form of Mudarabah can be used. If
+investment comes from both sides, the form of Musharakah would be more suitable. In this
+case, if the management is the sole responsibility of one party, a combination of Musharakah
+and Mudarabah can also be used according to the rules.
+The following may be the flow of transactions in the case of Musharakah for running
+business:
+1. A running Musharakah Account for the client will be opened in the books of the financ-
+ing bank.
+2. The client’s proceeds from the sale of finished of goods will be credited in the Running
+Musharakah Account.
+3. The client’s cash flows generated from investment activities (for example, sales proceeds
+from the disposal of fixed assets) and cash flows from long-term financing activities (for
+example, long-term finance availed for the project) cannot be credited in the Running
+Musharakah Account.
+4. For determination of the period of running Musharakah limit, all the clients of the bank
+will be divided into the following three categories: seasonal, cyclical and continued
+operation.
+5. At the end of each quarter or month, as the case may be, the profit earned by the client
+in the Musharakah will be paid to the bank.
+6. The profit-sharing will be based on the computed operating profit for the same period
+for which the running Musharakah limit was awarded. 91
+Shirkah can also be used for financing through the purchase of Musharakah/Mudarabah
+certificates like Shirkah-based Sukuk, term finance certificates (TFCs) or participation term
+91 For details, see Usmani, 2000a, pp. 55–81.
+
+
+----- p.334 (pdf 362) -----
+
+
+334 Understanding Islamic Finance
+certificates (PTCs). Certificates issued on the principle of Shirkah are negotiable instruments
+issued by a company in consideration of any fund, money or accommodation received or to
+be received by it whether in cash or in kind, or against any promise, guarantee, undertaking
+or indemnity issued for its benefit. The problem of moral hazard would be much less in the
+case of TFCs/PTCs than in the case of direct Musharakah investments.
+However, banks indicate a number of risks and problems in the case of Shirkah-based
+financing. For example, the managing partner may manipulate the financial reporting in
+order to deceive the Islamic bank. They may be unwilling to disclose actual profits to the
+bank, exposing it to the risk of return on its investment. Guarantee/collateral can be taken
+only to safeguard against negligence and misconduct. The partners may allocate indirect and
+personal expenses in Musharakah operations. Legal capacity and financial stability of the
+guarantors have to be independent from the Musharakah contract. The Islamic bank, as the
+buying partner in a Diminishing Musharakah, may be exposed to fluctuations in unit price
+if it is not fixed at the beginning of the contract.
+The main obstacles in the way of widespread use of Musharakah stem from the lack of
+documentation, defective taxation systems and the lack of effort on the part of the bankers
+themselves. In the view of this author, Islamic banks have not made serious efforts to apply
+this system simply because of the easy and less risky alternatives based on Murabaha and
+leasing. Musharakah could have been safely applied at least for trading and project financing
+if they had undertaken some research and taken initiatives to realize the potential of this
+most preferable mode of Islamic finance. In the following pages we shall give some case
+studies in this regard.
+12.7.3 Securitization on a Shirkah Basis
+A security, in financial terms, can be defined as an asset in the form of a paper whose cash
+flow is backed by a pool of liquid and tangible assets. Through securitization, tangible or
+nonliquid assts of joint business are made negotiable through the sale of shares/certificates
+in the financial market.
+Musharakah can easily be adopted as a basis for securitization, especially in the case of
+big projects where huge amounts are required. Every subscriber can be given a certificate
+representing his proportionate ownership in the assets of the joint business, and after the
+project is started by acquiring substantial nonliquid assets, these Musharakah certificates can
+be treated as negotiable instruments and can be bought and sold in the secondary market.
+Musharakah and Mudarabah Sukuk can be issued as redeemable certificates by or to
+the corporate sector or to individuals for their rehabilitation/employment, for purchase of
+automobiles for their commercial use or for the establishment of high-standard clinics,
+hospitals, factories, trading centres, endowments, etc. This we shall discuss in detail in
+Chapter 15.
+Box 12.2: Case Study on the Use of Musharakah for Trade Financing
+Islamic banks normally use Murabaha in trade financing and Musharakah and
+Mudarabah are avoided because of the perception of more risk. Shirkah-based modes
+can be applied in export and import finance without complexities, particularly in respect
+of single transactions and export/import consignments. However, in order to undertake
+such operations, Islamic banks need to understand the nature of the exporter’s business
+
+
+----- p.335 (pdf 363) -----
+
+
+Participatory Modes: Shirkah and its Variants 335
+and other requirements. A possible procedure for trade financing under Musharakah
+and Mudarabah is given below:
+1. The exporter receives an order from abroad to export a specific commodity/good
+at a known price. He prepares estimates of cost and his expected profit.
+2. He needs financing for manufacturing/procurement of the goods and asks the bank
+to provide finance on the basis of Shirkah. The bank enters into an agreement,
+according to which profit will be shared on a pre-agreed percentage.
+3. The bank can get a guarantee/security to protect itself from misconduct, breach
+of contract or negligence on the part of the client. However, being a partner of
+the exporter, the bank will be liable to bear any loss which may be caused due
+to any reason other than the negligence of the exporter.
+A practical application of a similar transaction of import finance is discussed in the
+following case study.
+A huge utility organization awards a contract to a local supplier (ABC & Co) for
+the supply of equipment that has to be imported. ABC & Co is interested in financing
+the transaction through a Musharakah arrangement with an Islamic bank. The structure
+of the product is developed on a partnership by creditworthiness basis (Shirkatul
+Wujooh), in which the partners have no investment at all. They purchase goods on
+credit and sell them at spot. The profit so earned is distributed between them at an
+agreed ratio. The process of the transaction consists of the following steps:
+1. ABC & Co opens a Usance L/C of Rs. 10 million, which is issued by an Islamic bank
+(bank financing on a participation basis) in favour of M/s XYZ Machines, Italy.
+2. XYZ Machines agrees to give a credit period of 180 days.
+3. Equipment is shipped to the importing country through air cargo due to the
+sensitivity of the equipment.
+4. ABC & Co inspects the goods and confirms its satisfaction to the bank, upon
+which the Islamic bank conveys its acceptance of the documents to the negotiat-
+ing bank.
+5. Customs take 30 days for the clearing of the equipment.
+6. ABC & Co take around 50 days to install the equipment.
+7. After the installation, the utility organization inspects and tests the equipment for
+its performance.
+8. As soon as the satisfaction certificate is issued, a bill is lodged for payment.
+9. Payment is received within 150 days of shipment.
+10. Profit is distributed among the partners as per the agreed ratio.
+11. The Islamic bank settles the L/C on the due date.
+Box 12.3: Musharakah-based TFCs Issued by Sitara Industries, Pakistan
+An excellent example of Musharakah-based financing through the issuance of partic-
+ipatory instruments is that of the 5-year term finance certificates (TFCs) worth Pak
+Rupees 360 million issued by Sitara Chemical Industries, a public limited company in
+Pakistan, in June 2002. The amount raised through the TFC issue was utilized to meet
+
+
+----- p.336 (pdf 364) -----
+
+
+336 Understanding Islamic Finance
+Box 12.3: (Continued)
+a part of the cost of an expansion project of the company. The TFCs are based on
+the mechanism of Shirkah and are tradable in the securities market. The payment of
+profit or sharing of loss is linked to the operating profit or loss of the company. The
+investors assume the risk of sustaining losses proportionate to their principal amount
+in the case of any operating losses incurred by Sitara. Changes in any government
+regulations may also affect the profitability of the TFCs. By investing in the TFCs,
+an investor also assumes the risk of not being able to sell the TFC without adversely
+affecting the price.
+Profit is paid on a six-monthly basis. For the purposes of sharing profit with the
+TFC holders, the level of yearly operating profit is divided into two tiers, as described
+below under the headings of Level I Profit and Level II Profit.
+Level I Profit
+On the first Rs. 100 million operating profit at 12 % p.a. of the outstanding principal.
+The rate of 12 % has been taken as a projected rate by reverse accounting on the basis
+of a sharing ratio. The rate of percentage profit entitlement shall be proportionately
+reduced if operating profit is less than Rs. 100 million, as follows: (Actual operating
+profit / Rs.100 million) × 12 % = Actual profit entitlement rate for Level I profit.
+Level II Profit
+2 % p.a. of the outstanding principal on each subsequent Rs. 100 million operating
+profit (over and above Rs.100 million). One quarter of this profit will be transferred
+into the Takaful reserve and the balance will be distributed to the TFC holders. The rate
+of profit entitlement shall be proportionately reduced if the actual figure of subsequent
+operating profit falls in between two successive slabs of Rs. 100 million of operating
+profit, as follows: (Actual operating profit / Rs.100 million) × 2% = Actual profit
+entitlement rate for Level II profit.
+If the final profit payment of a year is in excess of the on-account profit payments
+already paid to the TFC holders, the excess amount will be paid along with the next
+six-monthly on-account profit payment. However, if the on-account payments that
+have already been made for the year are in excess of the final profit share of the
+TFC holders, then the excess will be adjusted as per a predecided procedure. If the
+operating profit is more than Level I profit, the profit-sharing arrangement applicable
+on Level II profit is followed.
+If, upon finalization of the annual audited accounts, a loss is incurred, the on-account
+profit payment has to be adjusted. The loss attributable to the TFC holders will be
+offset against the Takaful reserve created for the purpose. If the amount available in
+the Takaful reserve is insufficient to absorb the entire loss attributable to the TFC
+holders, the unabsorbed losses will be adjusted against the principal amount at the
+time of redemption of the principal amount.
+The face value of each TFC issued to the general public is Rs. 5000. The principal
+amount has to be redeemed at the end of the third, fourth and fifth years from
+July 1, 2002. The amount of principal redemption at the end of the third year may be
+Rs. 1650/-, at the end of the fourth year Rs. 1650/- and at the end of the fifth year
+
+
+----- p.337 (pdf 365) -----
+
+
+Participatory Modes: Shirkah and its Variants 337
+Rs. 1700/-. The principal redemption in each above-mentioned year will be subject to
+profit/loss adjustments.
+NB: Sitara TFCs remained highly profitable; they gave a profit between 15 and 24 %
+per annum. The TFCs are not available in the secondary market as the holders locked
+in, keeping in mind the high profitability.
+12.8 DIMINISHING MUSHARAKAH
+The participatory contracts that may be more suitable for financing of fixed assets and
+present-day ongoing projects, particularly for financial intermediaries, can be based on the
+concept of “Diminishing Musharakah” (DM). In the Diminishing Musharakah contract, a
+party, after participation in ownership of any business/project, can liquidate his investment
+from the asset or the ongoing business. The jurists are unanimous on the permissibility of
+this arrangement. 92 DM contracts contain a sale provision, according to which, one partner
+makes a promise to sell his part of ownership to the other party periodically. As discussed
+earlier, jurists have opined that promises are enforceable, and a court of law can compel a
+promisor to fulfil his promise, especially in the context of commercial activities. 93
+Diminishing Musharakah as a financing technique, however, is a new type of contract,
+suggested by contemporary jurists keeping in mind the problems perceived while discussing
+the traditional Musharakah/Mudarabah principles in the broader economic perspective. This
+involves the concept of Musha‘a, which means undivided ownership of the asset by the
+partners. All co-owners are owners of each and every part of the joint property on a pro rata
+basis and one partner cannot claim a specific part of the property leaving other part(s) for
+other partners. Further, it is allowed to lease Musha‘a to another joint owner.
+A DM arrangement may consist of two or three subcontracts, i.e. in the case of assets that
+could render any service, and hence they could be leased, there would be three subcontracts:
+partnership by ownership between two or more persons, leasing by one partner its share in the
+asset to the other partner(s), selling by one partner its share to the other partner(s); and in the case
+of partnership in trade of assets that do not involve leasing, it would involve two subcontracts:
+partnership and sale. This factually becomes a general partnership and all rules of Shirkahal
+‘Inan are applicable to it. One major point to be taken into consideration in this type of DM
+arrangement is that one partner cannot sell his part to the other partner at a pre-agreed price.94
+All, two or three subcontracts are considered permissible by the jurists, particularly when
+the sale/lease contracts are stipulated among the partners, i.e. assets are sold/leased to the
+partners.95 Thus, the combination of Shirkah and lease contracts does not create any Shar ¯ı´ah-
+related problem. Sale of a part by a partner to the other partner should be separate and
+independent from the Shirkah or leasing arrangement.
+There is some difference of opinion regarding leasing out an undivided share to a third
+party. While Imams Malik, Shafi‘e and Abu Yusuf allow it, Imams Abu Hanifa and Zufur
+disallow the letting out of the undivided share to any third party. As per the present practice
+92 Al-Kasani, 1993, 4, p. 493.
+93 For details, see Usmani, 2000b, pp. 363–368.
+94 Usmani, 2000a, pp. 91, 92.
+95 Ibn-Qudama, 1367 AH, 6, p. 137; for details see Usmani, 2000b, pp. 357–360; AAOIFI, 2004–5a, p. 215.
+
+
+----- p.338 (pdf 366) -----
+
+
+338 Understanding Islamic Finance
+of Islamic financial institutions, DM is being used in such a manner that lease/sale is made
+to the co-partners, in respect of which there is no difference of opinion among the jurists.
+We can infer from the contemporary juristic opinion that any arrangement in which three
+separate agreements of partnership, leasing and sale are made in such a way that they are
+not conditional upon one another and are separately enforceable, will be according to the
+principles of Shar ¯ı´ah and therefore Shar ¯ı´ah-compliant. However, if the three contracts are
+stipulated collectively, this is not approved by the jurists, as discussed in Chapter 5. Even
+the Hanbali jurists, who allow imposing some conditions in a sale contract, do not approve
+of a contract, the enforcement of which depends upon any other contract. The relationship
+among the parties in this arrangement is that of partners and lessor/lessee in the first instance
+and seller and buyer at the later stage. The sale has to be kept independent from the first
+part, comprising partnership and leasing.
+Diminishing Musharakah can be conducted both in respect of partnership in ownership
+(Shirkatulmilk) and contractual partnership (Shirkatul‘aqd). But some crucial differences
+between the two have to be taken into consideration to ensure Shar ¯ı´ah compliance:
+1. In Diminishing Musharakah through contractual partnership, the ratio of profit distribution
+for each partner should be clearly determined, this may be disproportionate to the ratio
+of equity of both parties. This ratio can be changed with mutual agreement due to a
+change in the ratio of equity share of the parties. A loss would necessarily be allocated
+in accordance with the ratio of equity at the time when the loss is incurred. No partner
+can be given a lump sum amount out of the profits. 96
+As regards partnership by ownership, the major objective of its forming is not profit-
+earning through business; therefore, the ratio of profit distribution need not be stipulated
+in this arrangement. Each partner will own both risk and reward proportionate to his share.
+As one partner can lease his part to the co-partner, he can get rental on the leased part.
+The lessee, who is owner of a part of the asset, will get the reward of his part by using the
+asset without paying any rent. As the lessee partner goes on purchasing the share of the
+financier partner, the rental goes on decreasing. Both parties will bear ownership-related
+expenses/liabilities and losses, if any in the case of sale, on a pro rata basis.
+2. In Diminishing Musharakah through partnership by contract, the lessee partner can
+promise to buy periodically the share of the financier partner according to the market
+value or at a price to be agreed at the time of sale of units of the asset. It is not permitted
+to stipulate that the ownership units will be bought at a pre-agreed price or at their original
+or fair value, as this would constitute a guarantee of share capital of one partner by the
+other partner, which is prohibited by the Shar ¯ı´ah.
+In Diminishing Musharakah through partnership by ownership, one partner can pur-
+chase ownership units of the co-partner at a pre-agreed price. This is a crucial difference
+between the two, particularly in respect of Shar ¯ı´ah compliance of the procedure and
+the payment of price for transfer of ownership from the Islamic financial institutions to
+their clients. The IFIs that provide housing finance on the basis of DM in Shirkatulmilk
+generally take promise from the clients that they will purchase the banks’ units of shares
+at pre-agreed prices, and this is permissible as per Shar ¯ı´ah rules.
+Diminishing Musharakah in trade is conducted for the purpose of profit-earning; therefore,
+the price of units of the financial institution cannot be fixed in the promise to purchase by
+96 AAOIFI, 2004–5a, Standard on Musharakah, clauses 5/4, 5/5, 5/6.
+
+
+----- p.339 (pdf 367) -----
+
+
+Participatory Modes: Shirkah and its Variants 339
+the other partner (client) because it would practically mean that the client has guaranteed the
+principal invested by the financier with or without profit. Therefore, the financial institution
+either has to agree to sell the units of his ownership on the basis of valuation at the time
+of the sale of each unit, or allow the client to sell these units to anybody else at whatever
+price he can, but at the same time it would offer a specific price to the client, meaning
+thereby that if he finds a purchaser of that unit at a higher price, he may sell it to him,
+but if he wants to sell it to the financier, the latter will be agreeable to purchase it at the
+price fixed by him beforehand. However, this does not seem to be feasible as it does not
+serve the purpose of decreasing the equity in any business, as required under a Diminishing
+Musharakah arrangement. Therefore, Diminishing Musharakah is feasible only in respect of
+fixed or other assets that can be leased or given for use to the other partner. 97
+12.9 DIMINISHING MUSHARAKAH AS AN ISLAMIC MODE OF
+FINANCE
+Diminishing Musharakah can be easily used for the purpose of financing fixed assets by
+Islamic banks. It includes house financing, auto financing, plant and machinery financing,
+factory/building financing and all other fixed asset financing. In the case of housing finance,
+for example, a joint ownership is created for the purpose of Diminishing Musharakah. The
+financier partner gives his undivided share on lease to the partner using the house. The client
+gives rent on the part of the financier and periodically purchases the units of the partner’s
+ownership.
+The modus operandi approved by Shar ¯ı´ah scholars is that three contracts are entered
+into separately, ensuring that each contract is independent of the other two contracts. The
+sequencing of contracts should be:
+1. A contract between partners to create a joint ownership. The client partner makes a
+promise, before or after the lease agreement is finalized, to purchase the share of the
+financier partner.
+2. The financing partner gives units of his share to the client on lease.
+3. The client partner goes on purchasing the units of ownership of the financing partner as
+per his promise. Accordingly, the rent goes on decreasing.
+Financing by a bank on the basis of Diminishing Musharakah can take different forms
+depending upon the assets involved. Some assets can be leased out, e.g. in the case of house
+financing and financing the purchase of plant and machinery. Assets of a commercial nature
+would not involve leasing.
+12.9.1 Diminishing Musharakah in Trade
+If leasing is not involved and there is a simple partnership in which two partners start a
+business, for example on a 40:60 basis, they can agree that the share units of one partner
+will be periodically sold to the other partner, who will keep on purchasing them on a gradual
+basis until the second party is out of the business. As this contract has been entered into for
+profit-earning by the partners and also does not involve leasing, like the case of a house or
+97 Usmani, 2000a, pp. 91, 92.
+
+
+----- p.340 (pdf 368) -----
+
+
+340 Understanding Islamic Finance
+a vehicle, the price of share units cannot be fixed in the promise to sell. One partner may
+agree to sell the units on the basis of valuation of the business at the time of the purchase of
+each unit. Such valuation may be carried out in accordance with the recognized principles
+by experts, whose identity may be agreed upon between the parties when the promise is
+signed. At the time of purchase, the sale should be executed through offer and acceptance.
+Although the entrepreneur partner in DM for trade has an inherent motivation to acquire
+full ownership by purchasing shares from the financier, the Shar ¯ı´ah experts are not inclined
+to make the purchase binding on him. According to Resolution No. 2 of the Jeddah-based
+OIC Fiqh Academy, and also research undertaken by the IRTI, the sale provision of the
+contract can be made binding only on the financier partner and the sale will be effected at
+the prices prevailing in the market at the time of actual sale. After creating joint ownership,
+the bank may sign a one-sided promise to sell different units of the share of its ownership
+periodically and may undertake that when the client purchases a unit of its share, the rent
+of the remaining units will be reduced accordingly. Thus, an Islamic bank will be making a
+binding promise to offer a specific part of its ownership of the project for sale on a specified
+future date for a price that will be determined at the time of actual sale. The entrepreneur
+partner may voluntarily buy the share of the financier at the prices prevailing at the time of
+sale in the stock market or at a price determined with the free consent of the parties.
+12.9.2 Procedure and Documentation in Diminishing Musharakah
+The following is the sequence of documentation in a typical Diminishing Musharakah
+arrangement, as being used by Islamic financial institutions for housing finance business on
+the basis of partnership by ownership:
+1. Creation of joint ownership through a Musharakah agreement; the customer and the IFI
+become co-owners in a joint property. If legal title to the property is already with the
+customer, there can be an agreement to the effect that the IFI will acquire a certain share
+in the Musha‘a property and this would involve a sale and lease-back arrangement.
+2. Rent agreement. Both parties agree that the IFI will lease its undivided share to the client
+partner against a stipulated rental to be governed under the rules of Ijarah. This agreement
+is signed after the Musharakah agreement. It contains details about rent, the formula of
+its calculation and a schedule for the period of lease.
+3. Undertaking to purchase units of the bank’s share in the joint property. This is a unilateral
+promise binding on the promisor only. Either the client or the bank can make this promise.
+If the arrangement is based on Shirkatulmilk, it may contain a price schedule at which
+the client has to purchase the units from time to time. It also gives details about the
+situation if the client wants at any time, to purchase more shares than provided in the
+mutually agreed schedule. The arrangement also contains details about the nature of
+security/guarantee to be provided by the client. Normally it is the equitable mortgage
+of the financed property. The bank may require additional security to secure its interest,
+particularly in view of the financial position of the client.
+Thus, the customer pays rent for the use of the bank’s share in the property and goes on
+purchasing a part of the bank’s share periodically until the ownership of the asset is trans-
+ferred to him. The facility can be provided for buying a house, building a house, renovation
+of a house and for replacing interest-based housing loans with a Shar ¯ı´ah-compliant arrange-
+ment (balance transfer facility). Other fixed assets can also be financed through Diminishing
+Musharakah.
+
+
+----- p.341 (pdf 369) -----
+
+
+Participatory Modes: Shirkah and its Variants 341
+Box 12.4: Construction of a House on a Customer’s Land or
+Renovation of a House
+Construction of a house on land owned by the customer would involve purchase/sale
+and lease-back. Suppose the plot of land is worth one million dirhams and the cus-
+tomer needs 800 000 Drs from the Islamic bank. The bank would purchase a part
+of the land from the customer (say 8 units of 100 000 Drs each out of a total of
+ten units) to form a joint ownership on the basis of Shirkatulmilk. The customer
+would undertake that he would pay rent on the bank’s part of ownership and would
+periodically purchase the share of the bank according to a pre-agreed schedule of
+price.
+With the proceeds of the land (800 000 Drs that could be provided in four equal
+instalments), the client would construct the house; when the house was complete and
+habitable, the bank would lease its part of ownership to the client at the agreed rental.
+Up to one year, the client would pay only the rent on the bank’s part of the house.
+Accordingly, the rent would not decrease during that period.
+One year after the disbursement of the last instalment, the bank would start selling
+its units of ownership to the client as per the undertaking of the customer; rent
+would decrease with every rental paid, and ultimately the title of the house would
+transfer to the client. The period of one year has been suggested by the Shar ¯ı´ah
+scholars for sale of units by the bank to avoid buy-back (Bai‘ al ‘Inah), which is
+prohibited.
+Renovation of a house owned by the customer would also involve purchase/sale
+and lease-back. The client would sell, say, four units of his ownership to the bank to
+create a joint ownership. With the proceeds of the sale, the client would renovate the
+house or make alterations to it. The bank would start taking rent from the first month
+after disbursement of the first tranche because the customer is already living in the
+house. The process of the units’ sale back to the client would start one year after the
+disbursement of the last tranche.
+Box 12.5: Hypothetical Case Study on Housing Finance Through
+Diminishing Musharakah (Partnership by Ownership)
+Calculation of the monthly payment plan for home purchase:
+Cost of house: Drs or Ryls 1. 0 Mm
+Bank financing: 80 %
+Tenure: 10 years
+Rental (return rate equivalent to) : 7 % p.a. (of investment)
+Purpose: home purchase from the market
+
+
+----- p.342 (pdf 370) -----
+
+
+342 Understanding Islamic Finance
+Box 12.5: (Continued)
+Key structure
+Monthly payment consists of unit purchase and rent components. Unit purchase will
+remain constant over the entire tenure. Rent is calculated based on the number of
+units outstanding. The rent component will decrease every month with the purchase
+of units.
+(Construction of a house on a plot of land already owned by the client,
+renovation/additions to a house owned by him or a balance transfer facility (BTF) for
+the payment of an interest-based mortgage loan on a client’s house are subject to a
+different procedure, as discussed in the previous Box.)
+Working
+Bank’s share: Ryls. 800 000; full payment is made in one tranche
+Client’s share: Ryls. 200 000
+No. of bank’s units (equal to number of months): 120
+Price per unit: 6666.67
+(Principal/number of units)
+Rent per unit (annual): 466.67
+[((outstanding investment ∗ rate) / 12) for monthly rent]
+Month Unit Rent per
+month
+Total Units Investment
+0 — — — 120 800 000.0
+1 6666.67 4666.67 11 333.33 119 793 333.3
+2 6666.67 4627.78 11 294.44 118 786 666.7
+3 6666.67 4588.89 11 255.56 117 780 000.0
+4 6666.67 4550.00 11 216.67 116 773 333.3
+5 6666.67 4511.11 11 177.78 115 766 666.7
+6 to 115 xxxx xxxx xxxx xxxx xxxx
+116 6666.67 194.44 6861.11 4 26 666.7
+117 6666.67 155.56 6822.22 3 20 000.0
+118 6666.67 116.67 6783.33 2 13 333.3
+119 6666.67 77.78 6744.44 1 6666.7
+120 6666.67 38.89 6705.56 — 0.0
+In all three above cases, i.e. the construction of a house, renovation of a house or purchase
+of a built house, if the client regularly pays the rental and periodically purchases the bank’s
+share, the ownership is transferred to him. If he delays, the rental will not decrease and the
+bank’s loss in terms of income will be far less than in the case of Murabaha or even simple
+leasing, as the customer will go on paying rental on the units owned by the bank.
+The client can also purchase more than one unit if his cash flow allows him to do so.
+In this case, Islamic banks normally conduct a valuation of the house and share in the
+capital gain, if any, generally up to a prestipulated rate. For example, if the client intends
+to purchase five units at one time, the bank will conduct a valuation and will share the
+
+
+----- p.343 (pdf 371) -----
+
+
+Participatory Modes: Shirkah and its Variants 343
+appreciation up to 3 or 4 % on its part of the investment, giving the remainder to the client.
+Thus, Diminishing Musharakah on the basis of Shirkatul milk has a built-in element of risk
+mitigation. The rental rates to be taken by the banks can be fixed or floating; if floating,
+they should be subject to a proper “floor and cap” to avoid Gharar, which could render the
+transaction non-Shar¯ı´ah-compliant.
+12.10 SUMMARY AND CONCLUSION
+We may summarize the basic principles of Shirkah in the following way:
+1. Of the various kinds of Shirkah used in the books of Islamic jurisprudence, Shirkah al
+‘Inan is of more relevance to partnership business by banks and financial institutions.
+There is a consensus of the jurists that Shirkah is not only a legitimate contract in Islam
+but is also preferable over the modes based on trade and leasing. The term “Musharakah”
+introduced by contemporary Shar ¯ı´ah scholars also means joint commercial enterprise
+doing any economic activity by joint funds. 98
+2. Capital to be invested by the partners can be unequal and should preferably be in the
+nature of any prevalent currency. If it is in the shape of commodities, the market value
+should be determined with mutual consent to determine the share of each partner for
+sharing the profit or bearing the loss, if any. It may also be in the form of equal units
+representing currency, called shares in the case of perpetual Musharakah and certificates
+or Sukuk in the case of a redeemable partnership. The shares/Sukuk are negotiable and a
+shareholder can sell his shares to anyone in the market. Obtaining formal consent about
+the entry or exit of members into limited companies is not compulsory from an Islamic
+point of view.
+3. Power of appropriation in the property and participation in the affairs of the Musharakah
+may be disproportionate to the capital invested by the partners.
+4. In Musharakah (and also in Mudarabah), the ratio of profit distribution may differ from
+the ratio of investment, but the loss must be divided exactly in accordance with the ratio
+of capital invested by each of the partners.
+5. It is not allowed to fix a lump sum amount of profit for any of the partners, or any rate
+of profit tied up with his investment.
+6. Scholars have approved the concept of “projected profit”, but this is subject to final
+settlement at the end of the term, meaning that any amount so drawn by any partner
+shall be treated as an “on-account payment” and will be adjusted to the actual profit he
+may deserve at the end of the term.
+7. If all the partners agree to work for the joint venture, each one of them shall be treated
+as an agent of the other in all the matters of the business and any work done by one
+of them in the normal course of business shall be deemed to be authorized by all the
+partners. The partners may agree upon a condition that the management shall be carried
+out by one of them, and no other partner shall work for the Musharakah. In this case, the
+ratio of profit allocated to a sleeping partner shall not exceed the ratio of his investment.
+8. In the case of running Shirkah business, the concept of “daily product” can be used for
+determining the share of each partner in the profit accrued.
+98 Usmani, 2000a, pp. 32, 33.
+
+
+----- p.344 (pdf 372) -----
+
+
+344 Understanding Islamic Finance
+9. Musharakah or Mudarabah should never mean the advancing of money to get an ex ante
+return. It means participation in the business and sharing the actual results in the form
+of both profit and loss, subject to certain conditions.
+10. A financier on the basis of Shirkah must share the loss incurred by the business to the
+extent of his financing.
+11. The loss suffered by each partner must be exactly in the proportion of his investment.
+12. The basis of profit-sharing has to be defined beforehand without any pre-emptive right
+to any of the parties.
+Mudarabah is an essential mode for the establishment and operation of Islamic financial
+institutions. It serves as a basis of business to be conducted by combining funds and the
+expertise of different groups of people. For the assets side, however, Mudarabah is considered
+to be a very high-risk financing activity, mainly due to the moral hazard, adverse selection
+and lack of banks’ expertise in project evaluation and related technical matters. Islamic
+banks may use Mudarabah, albeit with proper care and risk management, to finance the
+business of those who are capable to work, whether they are professionals like physicians or
+engineers or traders and craftsmen. It can also be used without much risk of loss in foreign
+trade financing.
+Musharakah can be used for foreign and inland trade financing, project financing directly
+or through securitization.
+Mudarabah Sukuk can be issued to mobilize funds and strengthen trading and industrial
+activities. Asset management companies can manage such funds for conducting business
+for their benefit, and also that of the Sukuk holders. This could generate higher rates of
+return for the investors relative to the return realizable on any interest-based investment. In
+the case of big projects, the IFIs may form a consortium to issue certificates to the public
+for subscription. Similarly, they can carry out work on infrastructure and socio-economic
+projects in coordination and partnership with engineering firms.
+Box 12.6: Accounting Treatment of Mudarabah (Financing Side)
+Recognition of Mudarabah capital at the time of
+contracting
+• recognize when paid to Mudarib or placed under his disposition;
+• if capital is paid in instalments, each instalment is recognized when paid;
+• presented as “Mudarabah financing”. If capital is provided in the form of nonmonetary
+assets, it is reported as “nonmonetary assets”.
+Measurement of Mudarabah capital at the time of contract
+• capital provided in cash is measured by the amount paid or amount placed under the
+disposition of the Mudarib;
+• capital provided in kind is measured at fair value of the assets and any difference
+between the fair value and the book value is recognized as profit or loss;
+• expenses incurred are not considered part of the Mudarabah capital, unless otherwise
+agreed by both parties.
+
+
+----- p.345 (pdf 373) -----
+
+
+Participatory Modes: Shirkah and its Variants 345
+Measurement at the end of the financial period
+• apply the same measurement criteria as used at the time of contracting, however,
+any repayment made to the bank is to be deducted from the Mudarabah capital;
+• any loss at the inception of work shall be borne by the Islamic bank and if the loss
+occurs after the inception of work, it shall not affect the measurement of Mudarabah
+capital;
+• if the whole of the capital is lost without any misconduct or negligence of the
+Mudarib, the Mudarabah shall be terminated and the Islamic bank shall recognize it
+as loss;
+• if the Mudarabah is terminated or liquidated and capital is not paid, it shall be
+recognized as a receivable due from the Mudarib.
+Recognition of the bank’s share in profits or losses
+• profits or loss on Mudarabah transactions which commence and end during the same
+financial period are recognized at the time of liquidation (constructive or actual);
+• the Islamic bank’s share of profits on Mudarabah financing that continues for more
+than one financial period is recognized to the extent of profit distribution and the
+loss is deducted from the Mudarabah capital;
+• share of profits is recognized as a receivable due from the Mudarib if he does not
+pay after liquidation or settlement of account is made;
+• losses are recognized at the time of liquidation by reducing the Mudarabah capital.
+Box 12.7: Accounting Treatment of Musharakah 99
+Recognition of the bank’s share in Musharakah capital at the time of the contract
+• recognized when it is paid to the partner or made available to him on account of
+Musharakah;
+• presented as “Musharakah financing” in the financial statements.
+Measurement of the bank’s share in Musharakah capital at the time of contracting
+• capital provided in cash is measured by the amount paid or made available to the
+partner on account of Musharakah;
+• capital provided in kind is measured at fair value of the assets and any difference
+between the fair value and the book value is recognized as profit or loss;
+• expenses incurred are not to be considered part of Musharakah capital, unless other-
+wise agreed by both parties.
+99 The author is grateful to Mr Omer Mustafa Ansari of Fords Rhodes Sidat Hyder & Co., Karachi for his help in respect of the
+accounting treatment in various modes of financing.
+
+
+----- p.346 (pdf 374) -----
+
+
+346 Understanding Islamic Finance
+Box 12.7: (Continued)
+Measurement at the end of the financial period
+• share in constant Musharakah capital is measured at historical cost;
+• share in Diminishing Musharakah is measured at historical cost after deducting the
+share transferred to the partner. Such transfer is made by sale at fair value (in DM
+on Shirkah al ‘Aqd). The difference between the historical cost and the fair value is
+recognized as profit or loss;
+• if Diminishing Musharakah is liquidated before complete transfer is made to the
+partner, the difference between the book value and the recovered amount is recognized
+in the income statement of the bank;
+• if Musharakah is terminated or liquidated, any amount that remains unpaid is recog-
+nized as a receivable due from the partner.
+Recognition of the Islamic bank’s share in profits or losses
+• profits or loss on Musharakah transactions which commence and culminate during
+the same financial period are recognized at the time of (constructive) liquidation;
+• the Islamic bank’s share of profits on Musharakah financing that continues for more
+than one financial period is recognized to the extent of profit distribution and share
+of loss is deducted from the Musharakah capital;
+• the treatment mentioned in the above point shall apply to a Diminishing Musharakah
+after taking into consideration the decline in the Islamic bank’s share in Musharakah
+capital and its profits or loss;
+• share of profits is recognized as a receivable due from the partner if he does not pay
+the Islamic bank’s due share of profits after liquidation or settlement of account is
+made;
+• loss incurred due to negligence or misconduct of the partner is recognized as a
+receivable due from the partner.
+

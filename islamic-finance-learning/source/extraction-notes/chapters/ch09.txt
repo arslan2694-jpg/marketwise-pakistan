@@ -1,0 +1,1316 @@
+
+----- p.213 (pdf 241) -----
+
+
+9
+Murabaha and Musawamah
+9.1 INTRODUCTION
+Trading is one of the most common activities of Islamic banks. While conventional banks
+simply finance trading businesses by providing funds, Islamic banks have to be involved
+in the sale and purchase process for goods according to the trading rules prescribed by the
+Shar¯ı´ah. They are entitled to profit by undertaking business risk like real sector businesses.
+However, Islamic banks’ trading pattern is different from the general trading business.
+Banks’ clients normally need a credit facility and the banks are selling goods on credit and
+thus creating receivables. Credit sale (Bai‘ Mu´ajjal) may take a number of forms, important
+among which are:
+1. Musawamah, or normal sale, in which parties bargain on price, a sale is executed and
+goods delivered while payment is deferred.
+2. Murabaha, a “cost-plus sale”, in which parties bargain on the margin of profit over the
+known cost price. The seller has to reveal the cost-incurred by him for acquisition of the
+goods and provide all cost-related information to the buyer.
+Experts in Islamic economics and finance generally advise the use of profit/loss sharing
+modes and discourage extensive use of Murabaha or other trading modes. But, as its permis-
+sibility is beyond doubt and all Islamic banks operating in the world are using this technique
+excessively as an alternative to the conventional modes of credit, studying Murabaha from
+the point of view of Islamic banking is crucial, and hence is the subject of the present
+chapter.
+The technique of Murabaha that is currently being used in Islamic banking is something
+different from the classical Murabaha used in normal trade. This transaction is concluded
+with a prior promise to buy or a request made by a person interested in acquiring goods on
+credit from any financial institution. As such, it is called “Murabaha to Purchase Orderer”
+(MPO). The AAOIFI’s Shar¯ı´ah Standard on Murabaha is also based on this arrangement. We
+shall discuss the general rules of Murabaha and various structures that financial institutions
+can adopt for sale to help their clients.
+Various aspects to be discussed in this regard include the nature of Murabaha as we find
+in classical literature on Islamic jurisprudence, the sorts of goods eligible for selling through
+Murabaha on credit, disclosure to the buyer by the seller, combining other contracts or
+subcontracts for Murabaha arrangements by Islamic banks, the concept of Khiyar (option to
+rescind the sale) and possible defects in the object of sale, prepayment or late payment by the
+client, the possibility of liquidated damages/solatium to banks and the modern application
+of Murabaha along with issues involved. Fixity of price, taking ownership, risk related to
+
+
+----- p.214 (pdf 242) -----
+
+
+214 Understanding Islamic Finance
+ownership and possession 1 of the object of contract by the bank before sale to the client,
+timings of Murabaha execution and the principles regarding Murabaha receivables need
+more focus for their impact on Shar ¯ı´ah compliance.
+9.2 CONDITIONS OF VALID BAI‘
+The conditions and rules for a lawful sale transaction have been described in detail in
+Chapter 6. Keeping in mind the importance given by Islamic banks to Murabaha, we give
+below a recap on the salient features and conditions for a valid sale:
+1. The people uttering offer and acceptance in respect of a valid sale should be qualified
+to enter into the contracts.
+2. The sale should take place with free and mutual consent of the seller and the purchaser.
+3. Offer and acceptance must include certainty of price, certainty of date and place of
+delivery and certainty about the time of payment of the price.
+4. The seller should be either the owner of the object of sale (Mabi‘) or an agent of the
+owner.
+5. The Mabi‘ should be alienable. Transfer of title requires acquisition of title by the
+purchaser, which implies assuming the risks related to ownership, including the risk
+of damage, destruction, pilferage or theft, the risk of obsolescence and the price or
+market risk.
+6. The subject of sale must exist at the time of sale; as such, one cannot sell the unborn
+calf of one’s cow, or a bank cannot execute Murabaha on goods that have already been
+consumed or used.
+7. The Mabi‘ should be well-defined and in the ownership of the seller. Hence, what is not
+owned by the seller cannot be sold; for example, A sells to B a car which he intends to
+purchase from C (still owned by C) Since the car is not owned by A at the time of sale,
+the sale is void.
+8. The subject of sale must be in the physical or constructive possession of the seller at
+the time of sale. 2 Constructive possession means that the buyer has not taken physical
+delivery of the goods, but the ownership risk of the goods has been transferred to him:
+the goods are under his control and all rights and liabilities of the goods have passed
+on to him. For example, A has purchased a car from B, B has not physically handed
+over the car to A but has placed it in a garage which is in the control of A, who has
+free access to it – the risk of the car has practically passed on to him, the car is in the
+“constructive possession” of A and he can sell the car to any third party.
+9. Sale must be instant and absolut e – a sale attributed to a future date or a sale contingent
+on a future event is void. For example, A says to B on 1st of January: “I sell my car to
+you on the 1st of February”. The sale is void, because it is contingent on a future event.
+He can give an understanding or a promise, but the sale will have to be executed on 1st
+February, and it is only then that rights and liabilities will emerge.
+1 Ownership as distinct from possession; while possession can also be constructive, the sale of unowned goods, even if existent, is
+unanimously prohibited, except in the case of Salam.
+2 This is based on a number of traditions of the holy Prophet, as discussed in Chapter 6. However, constructive possession is
+sufficient, as widely accepted by the Shar ¯ı´ah scholars. The journal Al-Iqtisad al-Islami of Dubai Islamic Bank reported as for back
+as in 1984 that possession by the banks is completed when the vendor sets it aside for it, particularly when the bank concerned is
+liable to bear the loss of damage to the commodity before its delivery to the buyer ( Al-Iqtisad-al-Islami, March, 1984).
+
+
+----- p.215 (pdf 243) -----
+
+
+Murabaha and Musawamah 215
+10. The subject of sale should be lawful and an object of value. A thing having no value
+according to the usage of trade cannot be sold; similarly, the subject of sale should not
+be a thing used for any prohibited purpose, e.g. pork, wine, etc.
+11. The subject of sale should be specifically known and identified to the buyer, i.e. it must
+be identified by pointing out or by detailed specifications so as to distinguish it from
+other units of goods not sold. For example, A says to B: “I sell 100 cotton bales out
+of the bales lying in that building”, if A does not identify the bales, the sale is void,
+because in the case of loss to the cotton, it would be difficult to ascertain who suffered
+how much loss.
+12. The delivery of the sold commodity to the buyer should be certain and should not
+depend on a contingency or chance. For example, if A sells his car, which has been
+snatched, to a person in the hope that he will manage to get it back, the sale is void.
+13. A certain price is stipulated once and for all. For example, A says to B: “If you pay in
+one month, the price is $50 and if in two months, the price will be $55”; as the price
+is uncertain, the sale is void. A can give the two options to B, but B must select one
+option to have one definite price to validate the sale.
+14. The sale must be unconditional. A conditional sale is invalid, unless the condition is a
+part of any usual practice of trade not expressly prohibited by the Shar ¯ı´ah.
+There are also certain other conditions which are applicable to each form of sale separately.
+The conditions related to Bai‘ Murabaha are discussed below.
+9.3 MURABAH A – A BAI‘ AL AM ¯ANAH
+For the purpose of this chapter, forms of Bai‘ can be described from the point of view of the cost
+of any item to the seller – we may call it the original cost. Since the original cost or purchase price
+is the starting point in Bai‘ Murabaha, it is appropriate to refer briefly to all such lawful forms of
+Bai‘ which become effective with express mention of the original cost. Such a classification of
+Bai‘ includes Tawliyah, Wadhi‘ah or Mohatah and Murabaha. These forms require an honest
+declaration of the cost by the seller and as such are referred to in the Fiqh literature as Buyoo‘ al
+Am¯an¯at (fiduciary sales).3 Among fiduciary sales, Tawliyah means resale at the stated original
+price with no profit or loss to the seller. Wadhi‘ah or Mohatah means resale at a discount from the
+original cost. The last one, Murabaha, is sale with a fixed profit margin over the cost. Another,
+and the most common, form is Bai‘ Musawamah, which is an ordinary sale and signifies sale
+for a price which is mutually agreed upon between the seller and the purchaser without any
+reference to the purchase price/cost to the seller. In other words, it refers to bargaining on price
+of the commodity being traded. All these forms could be either on a spot or deferred payment
+basis. While in Musawamah the parties freely agree on the price, in Murabaha the seller informs
+the buyer of his original cost and the parties agree on a stipulated profit to be added to that cost.
+9.4 BAI‘ MURABAHA IN CLASSICAL LITERATURE
+Murabaha is derived from Ribh, which means gain, profit or addition. In Murabaha, a seller
+has to reveal his cost and the contract takes place at an agreed margin of profit. This contract
+3 Al Jaziri, 1973, p. 300.
+
+
+----- p.216 (pdf 244) -----
+
+
+216 Understanding Islamic Finance
+was practised in pre-Islamic times. Imam Malik has mentioned this sale in Al-Mu’watta –
+the first formally coded book on traditions of the holy Prophet (pbuh). A renowned Hanafi
+jurist Al-Marghinani has defined Murabaha as “the sale of anything for the price at which it
+was purchased by the seller and an addition of a fixed sum by way of profit”. 4 Ibn Qudama,
+a Hanbali jurist, has defined it as “the sale at capital cost plus a known profit; the knowledge
+of capital cost is a precondition in it. Thus the seller should say: ‘My capital involved in
+this deal is so much or this thing has cost me (Dm) 100 and I sell it to you for this cost plus
+a profit of (Dm) 10’. This is lawful without any controversy among the jurists”. 5
+According to Imam Malik, Murabaha is conducted and completed by exchanging goods
+and price including a mutually agreed profit margin, then and there. 6 It is important to
+observe that to him, no credit is involved in Murabaha. Malikis as a whole do not like this
+sale as it requires so many conditions, the fulfilment of which is very difficult. However,
+they do not prohibit it. 7
+Imam Shaf’ie in Kitabul Umm expanded this concept to include credit transactions. It has
+been defined in similar words in other books of Fiqh. 8
+By definition, therefore, it is basic for a valid Murabaha that the buyer must know the
+original price, additional expenses if any and the amount of profit. Accordingly, Murabaha
+is a contract of trustworthiness. 9
+9.5 THE NEED FOR MURABAHA
+Actually, Murabaha is meant for some restricted situations. Al-Marghinani has suggested
+that the purpose of Murabaha (and Tawliyah) is the protection of innocent consumers lacking
+expertise in trade from the tricks and stratagems of cunning traders. 10 A person who lacks
+skill in making purchases in the market on the basis of Musawamah is obliged to have
+recourse to a Murabaha dealer who is known for his honesty in this particular type of trade,
+and thus purchases the article from that person by paying him an agreed addition over the
+original purchase price. This leaves the actual buyer satisfied and secure from the fraud to
+which he was exposed for want of skill. Hence, it is evident that the main purpose of this
+form of Bai‘ is to protect innocent purchasers from exploitation by cunning traders.
+Imam Ahmad prefers ordinary sale over Murabaha in the following words:
+“To me, ordinary sale (Musawamah) is easier than Murabaha, because Murabaha implies a trust
+(reposed in the seller) and seeking of ease on behalf of the buyer, and it also requires detailed
+description to the buyer; there is every likelihood that selfishness may overcome the seller, per-
+suading him to give a false statement or that mistake may occur which makes it exploitation and
+fraud. Avoidance of such a situation is, therefore, much better and preferable”. 11
+The same ideas have been expressed by a Jafari jurist on the authority of Imam Hussain
+ibn Ali. 12 After basing the sale price on the original cost of the goods to the seller, the
+4 Al-Marghinani, 1957, p. 282.
+5 Ibn Qudama, 1958, 4, p. 179; Al Jaziri, 1973, pp. 559–564.
+6 Malik, 1985, pp. 424, 425.
+7 Al Jaziri, 1973, p. 559.
+8 Al-Hilli, 1389 AH, p. 40.
+9 Al-Kasani, 1993, 5, p. 223, cf. Hassan, 1993, p. 95.
+10 Al-Marghinani, 1957, p. 282.
+11 Ibn Qudama, 1367 AH, p. 187.
+12 Al-Kulayni, 1278 AH, p. 197.
+
+
+----- p.217 (pdf 245) -----
+
+
+Murabaha and Musawamah 217
+purchaser is provided with a modicum of protection against unjust exploitation by unscrupu-
+lous merchants. 13
+It is important to observe, however, that modern Murabaha is conducted mainly by banks
+and financial institutions on a deferred payment basis. Upon execution of Murabaha, a
+receivable is created that becomes the liability of the customer. The aspect of disclosing
+details of the banks’ cost price, though a necessary condition of Murabaha, does not remain
+a serious issue between the parties, particularly in view of the fact that the customer himself
+is involved one way or the other in locating and purchasing the goods.
+9.6 SPECIFIC CONDITIONS OF MURABAHA
+It is quite obvious that a transaction under Murabaha should meet all the general conditions
+applicable to an ordinary sale. The specific conditions regarding lawful transactions of
+Murabaha pertain to the goods subject to Murabaha, the original price paid by the seller, any
+additional costs to compute the total costs serving as the basis of Murabaha and the margin
+of profit charged on the cost so determined. An account of these conditions follows:
+1. Goods to be traded should be real, but not necessarily tangible. Rights and royalties are
+examples of nontangibles that can be traded through Murabaha, as they have value, are
+owned and can be sold on credit.
+2. Any currency and monetary units that are subject to the rules of Bai‘ al Sarf cannot be
+sold through Murabaha, because currencies have to be exchanged simultaneously. 14
+3. Similarly, credit documents that represent debt owed by someone cannot be the subject
+of Murabaha, first because debt cannot be sold except when it is subject to the rules of
+Hawalah and second because any profit taken on the debt would be Riba.
+4. The seller must state the original price and the additional expenses incurred on the sale
+item and he must be just and true to his words. The additional expenses such as transport,
+processing and packing charges, etc. that enhance the value of the commodity in any
+way, and that are added as a custom by the merchant community in the original price, can
+be added into the purchase price to form the basis of Murabaha. It is, however, requisite
+that the seller, in making or including such an addition, should say: “This article has
+cost me so much”, and not: “I have purchased this at such a rate,” because the latter
+assertion would be false. 15 The traditional jurists had some differences in this regard. The
+Hanafi school permits the seller to include in the base price of Murabaha all expenses
+he has incurred in relation to it, which have somehow modified the object (tailoring,
+dyeing for cloth) and those which have not modified it but were nevertheless incurred
+for the object’s sake (transportation, storage costs, commission). 16 The Malikis divide
+the expenses into three groups: expenses that directly affect the object of the sale and
+that can be added to the base price of the object; expenses that are incurred after the
+profit has been calculated and do not directly alter the sale object, like services which
+the seller might not have provided himself (transportation and storage expenses), which
+can also be added and expenses which represent the services that the seller could have
+13 Udovitch, 1970, p. 220.
+14 Al-Jaziri, 1973, p. 564; AAOIFI, 2004–5a, p. 128.
+15 Al-Marghinani, 1957, p. 282; Shaybani, 1953, pp. 155, 156.
+16 Al-Jaziri, 1973, pp. 564, 565; Saleh, 1986, p. 96.
+
+
+----- p.218 (pdf 246) -----
+
+
+218 Understanding Islamic Finance
+provided himself but did not provide, such as packing charges, sales commission, etc. –
+these cannot be added. 17 According to Shafi‘es also, the expenses of the last category
+cannot be added to the cost. The Hanbalis’ view is more pragmatic, according to which
+all expenses can be added with mutual consent, provided the buyer is informed about the
+break-down of these expenses. 18
+5. The prospective seller in Murabaha is required to disclose all aspects relating to the
+commodity, any defects or additional benefits and the mode of payment to the original
+seller/supplier. All schools of thought are unanimous on the point that the buyer in
+Murabaha ought to be informed if the original price was on credit, since credit prices are
+often higher than cash prices. All also agree that the original purchase price deliberately
+inflated violates the concept of Murabaha. If an Islamic bank receives a rebate for goods
+purchased, even after the Murabaha sale of such a contract, the client/buyer is entitled to
+benefit from the rebate as well. 19
+6. The margin of profit on the price so reached has to be mutually agreed upon between
+buyer and seller. The price, once fixed as per agreement and deferred, cannot be further
+increased except for rebate received from the supplier as mentioned above.
+7. Any Majhul (unspecified) price cannot become a basis for Murabaha, as it involves the
+semblance of uncertainty which renders Murabaha sale unlawful. 20 It is, therefore, a
+prerequisite that the price or cost paid by the seller must be expressed in identical units,
+such as dirhams and dinars, or specific articles of weight or measurement; because if the
+original price is an article of which all the units are not similar, the exact price at which
+the original buyer has become owner of the article will remain unknown.
+8. If the seller gives an incorrect statement about the original price/cost of goods, the buyer,
+according to Imam Malik, may rescind the sale unless the seller returns to him the
+difference between his real and the stated cost, in which case the sale is binding. The
+Hanafis give the buyer the unqualified option to rescind, while the Hanbalis consider the
+sale binding after the return of the difference between the correct and the stated costs.
+The Shafi‘es have two versions, one of which agrees with the Hanbalis and the other
+with the Hanafis. 21
+9. The purchaser in Murabaha has the right of option, even in the absence of this condition
+or its stipulation in the contract. If he discovers that the seller has defrauded him by false
+statement regarding particulars of the article, its price, additional expenses or if the seller
+himself has bought the commodity on a deferred payment basis and sold it on prompt
+payment without informing him, or if any practice on the part of the seller involves the
+semblance of illegal sale, the purchaser will be at liberty either to accept or reject the
+bargain as he pleases. 22 If, however, the purchaser detects cheating after he has used
+that commodity or it has been destroyed in his hands, he is not entitled to make any
+deduction from the price according to Imam Abu Hanifa and his disciple Muhammad,
+because the commodity against which he has to practise his right of option does not exist.
+17 Ibn Rushd, 1950, 2, p. 217.
+18 See Saleh, 1986, p. 96.
+19 AAOIFI, 2004–5a, clause 4/5, p. 120; See also Saleh, 1986, p. 96.
+20 Al-Marghinani, 1957, p. 285.
+21 Ibn Rushd, 1950, 2, p. 218; cf. Ray, 1995, p. 44.
+22 Ibn Qudama, 1369 AH, 13,p .7 8 .
+
+
+----- p.219 (pdf 247) -----
+
+
+Murabaha and Musawamah 219
+According to Abu Yusuf and Ibn-abi-Laila, also Hanafi, deduction will be made even
+after the destruction of the commodity. 23
+The message we get from the above is that Murabaha is a lawful kind of sale but has
+its own limitations. The Medieval Murabaha was not a mode of financing, it was a kind
+of trade. Contemporary jurists have accepted it as a mode of business and an alternative to
+financing with certain limitations. These relate to the level of transparency and justice which
+Islam ordains for commercial activities. It is in view of this requirement that Maliki fuqaha
+consider this form of sale Naqis (defective). This means that the permissibility of Murabaha
+is not as absolute as is the case of ordinary sale. 24
+There is no doubt that jurists have justified Murabaha on the grounds that it provides
+protection to the innocent, unskilled and inexperienced purchasers, but as we do not find
+any reference regarding its prohibition for experienced people or traders, it can therefore be
+adopted subject to the fulfilment of the juristic conditions, as an alternative to interest-bearing
+transactions for those activities which the Shar¯ı´ah boards of various banks may allow.25
+9.6.1 Bai‘ Murabaha and Credit Sale (Murabaha–Mu’ajjal)
+Murabaha as an alternative to interest-based financial transactions assumes importance only
+when it is transacted on a deferred payment basis. This, therefore, calls for a study of the
+concept of postponement of payment in Murabaha. The terms of payment in the classical
+Murabaha did not necessarily involve credit; they could be either cash or credit. It may,
+however, be pointed out that the legality of postponement of payment is one of the general
+features of lawful sales – termed Bai‘ Mu’ajjal, which refers to sale of goods or prop-
+erty against deferred payment (either in a lump sum or instalments). 26 Bunched with the
+Murabaha, Bai‘ Mu’ajjal would mean sale with an agreed profit margin over the cost price
+along with deferred payment.
+In Hidaya, permission for credit sale has been described thus:
+“A sale is valid either for ready money or for a future payment provided the period be fixed,
+because of the words of the Holy Qur’ ¯an ‘Trading is lawful’ and also because there is a tradition
+of the holy Prophet (peace be upon him) who purchased a garment from a Jew, and promised to
+pay the price at a fixed future date by pledging his iron breast-coat. It is indispensably a requisite
+of business but the period of payment should be fixed. Uncertainty in the period of repayment may
+occasion a dispute and jeopardize the execution of the transaction since the seller would naturally
+like to demand the payment of the price as soon as possible, and the buyer would desire to defer
+it.”27
+The substitution of prompt payment by deferred payment has been justified on the grounds
+that upon execution of the transaction, the receipt of the agreed price becomes the sole
+23 Al-Sarakhsi, n.d., 13,p .8 6 .
+24 Al Jaziri, 1973, p. 559.
+25 For details see Council of Islamic Ideology, 1980, pp. 15, 16, 34, 35, 38, 42–46; the CII has described the detailed application
+of this mode in the chapter on “Commercial Banking”. According to the CII, it can be used both for “fixed investment financing”
+and “working capital requirements” of parties (pp. 34, 38). Farmers’ short-term fund requirements, particularly for the purchase of
+inputs like seed, fertilizer and pesticides and for plough cattle, tractors and tubewells can be met through Murabaha (pp. 34–45). The
+commerce sector can also be financed through this mode (pp. 45 and 46). As regards mining, quarrying, electricity, gas, water and
+services, this technique may be used for financing the purchase of capital goods and machinery (pp. 46–47). In the field of personal
+consumption, consumer durables can be financed on a Murabaha–Mu’ajjal basis.
+26 Majallah al Ahkam refers to Bai‘ al Mujjal as Bai‘ bil Nasiah or bi al T’ ajil wa al Taqsit (Al-Atasi, 1403 AH, Articles 245–251).
+27 Al-Marghinani, 1957, p. 242.
+
+
+----- p.220 (pdf 248) -----
+
+
+220 Understanding Islamic Finance
+right of the seller. It is, therefore, within his discretion to postpone it for the convenience
+and ease of the purchaser. The fact is that he is empowered even to forego it altogether. 28
+Delay in payment under Murabaha is also allowed in other schools of Fiqh, including
+Shiaites.29
+As described in detail in Chapter 6, jurists slightly differ on the aspect of different cash
+and credit prices. The Hanafis, Shafi‘es and Hanbalis permit the difference between cash
+and credit prices provided one price is settled at the finalization of the contract. Although
+Imam Malik himself forbade it, some of the Malikis hold a different view and allow it.
+Contemporary jurists are almost unanimous on the legality of this difference. The rationale
+behind this viewpoint is that exchange in respect of a loan wherein any excess is prohibited
+occurs between a commodity and its like, while in credit sale, one of the counter values is
+the money and the other any goods of trade. As, for example, in loan transactions, $100 can
+only be exchanged for $100 or a ton of wheat for a ton of wheat. Any increase in the mutual
+exchange, therefore, is Riba. In the case of credit sale, exchange has to take place between
+two different commodities. First, money is exchanged for goods and then goods are sold
+against money. Therefore, the difference between the purchase price and sale price does not
+amount to Riba. 30
+Further, interest charged on a loan is payable to the lender in any case. In a sale contract,
+this is not so because the prices are liable to change. If the price rises, the purchaser gains
+because he purchased a good on a deferred payment basis at a cheaper price, but if the price
+drops, the seller gains because he succeeded in selling the item purchased on a deferred
+payment basis at a higher price. Bai‘ bi Thaman al-’ Ajil or Bai‘ Mu‘ajjal is, therefore, in
+conformity with the Fiqhi principle “Al-Ghunm bil Ghurm”, i.e. profit goes with loss. 31
+However, the sale contract has to be finalized at one price so that the exact liability is known
+to the parties. This would practically imply that the whole price is in return of the sale
+item.32
+However, it is not allowed to conduct Murabaha on a deferred payment basis in the case of
+gold, silver or currencies, because all monetary units are subject to the rules of Bai‘ al Sarf.
+Similarly, receivables or debt instruments cannot become the subject matter of Murabaha,
+as any profit over the principal of a debt is Riba. 33 However, Murabaha of shares of joint
+stock companies eligible on the basis of screening criteria is allowed.
+9.7 POSSIBLE STRUCTURES OF MURABAHA
+Trading and other real sector business activities require specific expertise, which bankers may
+or may not have. Further, it is not possible for banks to train all staff in trading, marketing
+and other real sector activities required for Islamic banking practices. One possible solution
+is that banks may establish specific purpose companies to undertake trading (and leasing)
+activities and the staff with relevant specialized expertise may be entrusted the job of trading
+in goods so as to fulfil the Shar ¯ı´ah essentials of Murabaha–Mu’ajjal. Those companies
+28 Al-Marghinani, 1957, p. 288.
+29 Al-Hilli, 1389 AH, p. 41.
+30 Nooruddin, 1977, p. 125.
+31 Nooruddin, 1977, p. 126.
+32 Nooruddin, 1977, p. 134; Al-Sanani, 1972, pp. 136–137.
+33 AAOIFI, 2004–5a, Murabaha Standard, clause 2/2/6; pp. 114, 128.
+
+
+----- p.221 (pdf 249) -----
+
+
+Murabaha and Musawamah 221
+would buy commodities and assets and sell them to their customers on the basis of deferred
+payment. Thus, the banks’ specialized entities could use their entrepreneurial expertise, like
+all other profit-seeking businesses, to earn profit. Otherwise, the trading activities may be
+conducted either through the client as agent or through a third party agency. The options for
+conducting Murabaha are briefly discussed below.
+9.7.1 Direct Trading by Bank Management
+Direct trading by bank officials is the most ideal option with respect to fulfilment of the
+Murabaha essentials, but involving the bankers in retail trading business could lead to a lot
+of managerial problems and open the floodgates to corruption. This issue can be resolved
+through the introduction of effective internal controls. In the absence of such controls, this
+structure could be used only in cases of selected specific assets, wherein banks could purchase
+any high value asset or specific goods with trademarks in bulk for building inventory
+and sell to its clients on a cost-plus basis. For example, a bank’s subsidiary dealing with
+agricultural finance may purchase fertilizer/pesticides and provide them to farmers on the
+basis of Murabaha through dealers. In such wholesale business, an additional benefit would
+be that the bank’s sale price could be closer to the cash market price.
+9.7.2 Bank Purchases Through a Third Party/Agent
+One option in many cases may be to purchase goods through a third party agent to
+maintain inventory or to purchase according to clients’ requests for Murabaha opera-
+tions. This structure of Murabaha is most likely to accomplish the Shar ¯ı´ah requirement
+of taking possession and commercial risk by the bank for the period between the pur-
+chase of the assets from the supplier and their sale to the client on Murabaha. 34 After
+purchase from the supplier, banks stand liable if anything goes wrong until handing the
+asset over to the Murabaha clients. The customer cannot guarantee the risk of transporta-
+tion of the goods because the safety of the goods is the responsibility of the owner,
+that is, the bank. 35 Banks can mitigate this risk by stipulating to get delivery at their
+godowns.
+Banks may appoint qualified suppliers as agents for purchase according to their inventory-
+creating plans or as and when required by their clients. For the latter arrangement, the
+package would comprise (i) an MoU or agreement to sell – the client’s request and promise
+that he will purchase the specified commodity from the bank; it may also include a stip-
+ulation about the profit margin to be taken by the bank and, if possible, the sale price,
+that will include the cost price, the contract price and the payment date(s); for the profit
+margin, the bank may indicate at this stage any reference rate provided a definite price
+is stipulated at the time of execution of Murabaha; 36 (ii) the sale deed executed at the
+time when the commodity is in the ownership and risk of the bank; and (iii) the “promis-
+sory note” signed by the client to the effect that he will pay the price of the goods
+purchased on a specified date. In addition to this, the agreement may include clauses
+about the security/collateral, description and quality of goods and the way out in case of
+34 According to the AAOIFI standard, the option of a third party agent is better; it recommends that the customer should not be
+appointed to act as agent for purchase of items for Murabaha except in situations of dire need (clause 3/1/3, p. 117).
+35 AAOIFI, 2004–5a, p. 129.
+36 AAOIFI, 2004–5a, p. 120.
+
+
+----- p.222 (pdf 250) -----
+
+
+222 Understanding Islamic Finance
+defect in the goods and nonpayment by the client at the due date(s). According to the
+AAOIFI Standard, a promissory note or other guarantee can be obtained from the cus-
+tomer at the promise stage also. 37 Of course, it is better that promissory notes be obtained
+after execution of the sale, because these generally contain the wording “against value
+received”.
+9.7.3 Murabaha Through the Client as Agent
+The structure of trading through a client as the bank’s agent is the safest way for banks to
+avoid commodity-based risks and related problems. But this arrangement is more likely to
+make Murabaha transactions a back door to interest and, therefore, requires extra care to keep
+it Shar ¯ı´ah-compliant. The foremost requirement is that goods come under the ownership
+and risk of the bank. Further, the customer should explain to the supplier about his agency
+status.38 If the bank does not purchase and own the items and only makes payment for
+any goods directly purchased and received by the client from the supplier/vendor under
+“Murabaha”, that will be a remittance of the amount of money on behalf of the client, which
+shall be nothing but a loan to him and any profit on this amount shall be nothing but interest.
+As Islamic banks are normally using this structure, we discuss it in detail.
+9.8 MURABAHA TO PURCHASE ORDERER (MPO)
+Modern Murabaha transactions by banks normally take the form of Murabaha to Purchase
+Orderer (MPO) (Murabaha lil ‘amri bil Shira or ‘Murabaha li Wa‘da bi Shira), which is
+an arrangement wherein the bank, upon request by the customer, purchases an asset from a
+third party and sells the same to the customer on a deferred payment basis. This variant is
+being widely used by almost all Islamic banks operating in various parts of the world and
+by the Islamic Development Bank for its foreign trade-financing operations. The need for
+MPO arises from the following factors:
+1. Commercial banks, and likewise Islamic banks, do not normally undertake business where
+they might be maintaining inventories of various goods; they do not want to become
+grocers or traders because inventory storage, space and holding costs might be expensive.
+2. It may not be possible for Islamic banks to purchase all items in advance for Murabaha
+to their clients because the list of goods could be very long and there could be continuous
+additions to the list.
+3. The clients might be in need of specific quality goods and the banks might not be even
+aware of the source of their availability. If banks keep similar items in inventory, these
+might not be acceptable to the clients.
+4. Regulators/central banks normally do not allow the banks to undertake trading as their
+core business, with the dual purpose of keeping them liquid/saving them from the asset
+and market risks related to goods and to avoid cartels and monopolies in the commodity
+market. As such, most of the Islamic banks purchase only those goods for which they
+receive requisition from their clients.
+37 AAOIFI, 2004–5a, p. 121.
+38 AAOIFI, 2004–5a, clause 3/1/1, pp. 117, 130.
+
+
+----- p.223 (pdf 251) -----
+
+
+Murabaha and Musawamah 223
+On account of the above, Islamic banks have been allowed not necessarily to maintain
+inventory of goods to be sold through Murabaha. According to the AAOIFI Shar ¯ı´ah Standard
+on Murabaha, it is permissible for IFIs to purchase items only in response to their customers’
+wish and application. But this wish may not be considered a promise or commitment by the
+client to purchase the items, except when the promise has been made in the due form. 39 For
+practical purposes, the promise can be incorporated into the requisition form to be submitted
+by the client.
+The customer can also indicate the supplier from whom the items/goods are to be purchased
+by the bank. But the bank will have to ensure that the supplier is any third party and that
+the client has not already purchased the item from that supplier or made a firm commitment
+with him to purchase; otherwise it would be Bai‘ al ‘Inah and the transaction would be
+non-Shar¯ı´ah-compliant. The bank can obtain a performance bond from the client to ensure
+that the supplier identified by him will function in good faith and that the item provided
+by him will be acceptable to the client. 40 Similarly, the bank is not allowed to enter into a
+Musharakah arrangement with the client with the promise that one of the parties will buy
+the other’s share through Murabaha on either a spot or deferred payment basis. However,
+the promise can be made by a partner to buy the other’s share at the market price or at a
+mutually agreed price at the time of sale by means of a separate contract. 41
+The above permission for MPO does not imply that IFIs cannot be involved in the
+sale/purchase of goods or cannot create their inventories. Purchasing an item, taking its
+possession and ownership along with risk and reward is a major requirement of Shar ¯ı´ah,
+without which the transaction would not be valid. Murabaha cannot be used as a substitute
+for a running finance facility, which provides cash for fulfilling various needs of the client.
+If a bank does not keep inventory, it can purchase a commodity on a client’s request and
+sell it to him on a cost-plus basis, but it will have to fulfil all the necessary conditions of
+valid Bai‘ as well as additional conditions applicable to Murabaha.
+Merchant banking has become one of the functions of even conventional banks. Therefore,
+Islamic banks, in addition to conducting MPO, may like to establish specialized asset
+management and trading companies as non-bank financial subsidiaries to undertake active
+trading business by maintaining inventory of major items demanded by their clients. This
+way, their profit margin may be higher and the customers may also be offered such items at
+cheaper rates.
+Banks can purchase the goods through any third person/agent and possess the goods
+before resale. If the bank appoints the customer its agent to buy the commodity on its
+behalf, the customer will first purchase the commodity on behalf of the bank and take its
+possession as such. But payment should be made by the bank directly to the supplier. Double
+agency, i.e. for making payment and for purchasing and taking delivery, should be avoided
+because it may become a cause of misuse, making Murabaha a back door to interest. At
+this stage, the commodity must remain at the risk of the financier, who is the seller in this
+transaction. Thereafter, the client purchases the commodity from the financier for a deferred
+price.42
+39 AAOIFI, 2004–5a, p. 113.
+40 AAOIFI, 2004–5a, Standard on Murabaha, clause 2/5/1, p. 116.
+41 AAOIFI, 2004–5a, Standard on Murabaha, pp. 113, 114, 116, 128; clauses 2/2/1 to 2/2/5 and 2/5.
+42 Usmani, 2000a, p. 106; for principal’s ownership during agency, see Zuhayli, 2003, p. 674.
+
+
+----- p.224 (pdf 252) -----
+
+
+224 Understanding Islamic Finance
+9.8.1 MP O – A Bunch of Contracts
+Modern Murabaha also involves an agency relationship between the bank and any third
+party or even the client. The Murabaha to Purchase Orderer in this form would comprise
+three distinct contracts:
+1. A master contract which defines the overall facility to be availed, followed by an agree-
+ment to purchase or promise by the client to purchase the article when offered by the
+bank. Instead of being a bilateral contract of forward sale, the “agreement to buy” is a
+unilateral promise from the client which binds him and not the bank.
+2. An agency contract whereby the agent, who could be a client or any third party, has to
+purchase the item from the market or the supplier identified by the client and take its
+possession on behalf of the bank; this should be separate from the Murabaha agreement. 43
+3. The actual Murabaha contract. The actual Murabaha contract should be concluded when
+the bank owns the concerned commodity.
+Murabaha transactions that involve other contracts like promise, agency (Wakalah) and
+credit along with an agreed rate of return for IFIs over the cost price lead to a number of
+issues: should the promise be unilateral or bilateral, binding or nonbinding? What is the
+remedy if the client backs out? What should be the sequencing of the various actions of the
+bank and the client? When the actual Murabaha is to be executed, what happens if the client
+makes early payment or delays in making payment of the settled price? To what extent can
+the bank’s loss be covered and mitigated? And last, but not least, what structure and modus
+operandi of Murabaha can be adopted to fulfil the needs of various stakeholders along with
+ensuring Shar¯ı´ah compliance? We discuss these matters in the following sections.
+9.8.2 Promise to Purchase in Murabaha
+According to classical Fiqh rules, mere promises are not binding and cannot be compelled
+by the process of law. Although fulfilling a promise is advisable and violation reproachable,
+it is neither mandatory nor enforceable through the courts. 44 However, to many other jurists,
+promise can be enforced through courts of law. The third view (of some Maliki jurists) is
+that promise is not binding in normal conditions, but if the promisor has caused the promisee
+to incur some expenses or undertake some labour or liability on the basis of a promise, it is
+mandatory on him to fulfil his promise for which he may be compelled by the courts.
+Shaikh Muhammad Taqi Usmani, after detailed discussion on the subject, contends:
+“Therefore, it is evident from these injunctions that fulfilling promise is obligatory. However,
+the question whether or not a promise is enforceable in courts depends on the nature of the
+promise. /periodmtmi/periodmtmi/periodmtmiBut in commercial dealings, where a party has given an absolute promise to sell or
+purchase something and the other party has incurred liabilities on that basis, there is no reason why
+such a promise should not be enforced. Therefore, on the basis of the clear injunctions of Islam,
+if the parties have agreed that this particular promise will be binding on the promisor, it will be
+enforceable. If the promisor backs out of his promise, a court or any arbitration may force him
+either to purchase the commodity or pay actual damages to the promisee seller. The actual damages
+will include the actual monetary loss suffered by him, but will not include the opportunity cost”. 45
+43 AAOIFI, 2004–5a, Standard on Murabaha, p. 130.
+44 This is the view of Imam Abu Hanifa, Imam Shafi‘e, Imam Ahmad and of some Maliki jurists, cf. Usmani, 2000a, pp. 121, 122.
+45 Usmani, 2000a, pp. 125, 126; Resolution Nos. 2 and 3, 5th session of the Islamic Fiqh Academy.
+
+
+----- p.225 (pdf 253) -----
+
+
+Murabaha and Musawamah 225
+This aspect has been discussed in detail in Chapter 5, with the conclusion that if the parties
+agree that the promise should be binding, it will be legally enforceable; and if the promisee
+has incurred expenses as a result of the promise, the promisor will have to make up the loss
+incurred by the promisee. A client asks a bank to purchase certain goods on the basis of
+Murabaha according to his specifications from a supplier and promises that, after the bank
+acquires the goods, he will purchase them from the bank on a cost-plus basis. In a case of
+the breach of promise by the client, the bank may suffer loss while trying to return or to
+dispose of the purchased goods. To overcome this problem, scholars have issued a verdict
+that the promise of the customer to enter into the sale binds him, at least to the extent that
+he should pay any actual loss, excluding the loss on account of conventional “opportunity
+cost”, incurred by the bank as a consequence of its reliance on the promise. This is in line
+with the AAOIFI’s Standard on Murabaha to Purchase Orderer. 46
+Even a mutual promise (involving two parties) is permissible in the case of a Murabaha sale
+provided the option (Khiyar) is given to one or both of the parties. Without such an option, it is
+not permissible, since in a Murabaha sale, a mutual and binding promise is like an ordinary sale
+contract, in which the prerequisite is that the seller should be in full possession of the goods to be
+sold in order to be in conformity with the tenets of the Shar ¯ı´ah forbidding the sale of anything
+that is not in one’s possession.47 A bank can also obtain Hamish Jiddiyah (earnest money) from
+the client to ensure that the latter will buy the item when purchased.
+In response to a purchase request by a client, a bank can enter into a purchase agreement
+with the supplier, keeping for itself an option of return (Khiyaral-Shart) within a specified
+period. This option will expire with actual sale to the customer. 48 Hence, an option (Khiyar)
+can be used as a risk mitigation tool (asset risk) by an Islamic bank.
+It must be kept in mind, however, that an actual sale must take place at the proper time
+when the bank gets possession and ownership of the item by the exchange of offer and
+acceptance.49 Mere promise itself should not be taken as a concluded sale.
+9.8.3 MPO – The Customer as the Bank’s Agent to Buy and Related
+Matters
+The general structure of this variant of Murabaha is the following:
+1. The customer approaches the bank with a request for the purchase of any commodity that
+can be legally sold on credit.
+2. The bank appoints the client its agent to purchase the item(s).
+3. The bank purchases the commodity through the client as agent.
+4. The bank makes payment to the vendor/supplier.
+5. The customer takes delivery of the item on behalf of the bank as agent.
+6. The customer makes an offer to purchase and the bank accepts the offer – the bank
+transfers the title over to the customer upon execution of Murabaha.
+7. The customer makes payment on a deferred basis without any rollover, discount or rebate.
+46 The Fiqh Academy of the OIC and the AAOIFI accept this view; AAOIFI, 2004–5a, Standard on Murabaha, clause 4/2, pp. 119,
+131; see also Vogel and Hayes, 1998, p. 126.
+47 AAOIFI, 2004–5a, pp. 114, 115, 127, 128.
+48 AAOIFI, 2004–5a, pp. 116, 129; clause 2/3/5 of Standard on Murabaha.
+49 AAOIFI, 2004–5a, Standard on Murabaha, clause 4/1.
+
+
+----- p.226 (pdf 254) -----
+
+
+226 Understanding Islamic Finance
+The above structure involves the following stages/steps: pre-promise understanding;
+promise stage; agency stage; acquiring possession; execution of Murabaha; post-execution
+of Murabaha. Each of these steps is crucial in its own right and neglecting essentials of any
+stage would render the whole arrangement unacceptable from the Shar ¯ı´ah angle:
+1. The client and the bank sign an MoU or “agreement to sell”, 50 whereby the bank under-
+takes to sell and the client promises to buy a commodity for a purchase price plus a profit
+margin of X % that may or may not be tied with any benchmark, or a stipulated amount
+over the known cost.
+2. The bank appoints the client as its agent for purchasing the commodity on its behalf, and
+both the parties sign an independent specific or general purpose agreement of agency.
+3. The client purchases the commodity on behalf of the bank and takes its possession, for
+which the bank makes payment to the vendor/supplier. This is obligatory according to
+the AAOIFI Standard; 51 however, some Islamic banks do not follow this instruction due
+to some procedural problems. The purchase order, material receiving report and delivery
+challan, under whatever title, should be in the name of the bank. 52
+4. The client informs the bank that he has purchased the commodity on its behalf, has taken
+possession thereof, and makes an offer to purchase it from the bank at a profit margin
+over the cost, as agreed to in the “agreement to sell”. This must be before the goods are
+consumed, otherwise the Murabaha will be invalid.
+5. The bank accepts the offer and the sale is concluded, whereby the ownership as well as
+the risk of the commodity is transferred to the client.
+The nature of the relationship in the above arrangement would be:
+1. Bank and client: principal and agent.
+2. Bank and client: promisor and promisee.
+3. Bank and supplier: buyer and seller.
+4. Bank and client: seller and buyer.
+5. Bank and client: creditor and debtor.
+Prerequisites of the various stages of MPO with the client working as agent are discussed
+below.
+Pre-Promise Stage – Facility Approval
+The following points have to be kept in mind while approving the facility: it is essential
+that the transaction between the bank and the client must be genuine, involving the trade
+of goods. Murabaha cannot be used for providing liquidity or for cash financing. At the
+time of facility approval, banks should ensure that the client needs some goods. Further, this
+should exclude any prior contractual relationship between the client and the supplier whom
+the client is indicating for supply of the goods. It is not permissible to transfer a contract that
+has already been executed between the client and the supplier because this is tantamount to
+Bai‘ al ‘Inah, which is prohibited. However, if any such prior understanding has not been
+50 This is different from the “sale agreement” in which ownership rights are transferred to the buyer upon signing of the agreement.
+In an “agreement to sell”, a promise is made to sell any commodity in the future and it does not involve conveyance of the
+ownership rights.
+51 AAOIFI, 2004–5a, Standard on Murabaha, clause 3/1/4, pp. 117, 118.
+52 Usmani, 2000a, pp. 107, 108.
+
+
+----- p.227 (pdf 255) -----
+
+
+Murabaha and Musawamah 227
+finalized, the bank can enter into an Murabaha arrangement. The bank must also ensure that
+the supplier or the party from whom the item is being purchased is a third party and not the
+customer, his agent or any entity with more than 50 % ownership by the customer.
+The nature of the required commodity should be in the scope of valid Murabaha.
+Commodities that are subject to the rules of Bai‘ al Sarf, like gold, silver and currencies, are
+not valid for Murabaha, because in such commodities and monetary units, exchange has to
+be hand to hand. 53 The bank should also analyse the nature of goods from a risk management
+point of view, their marketing, any uniqueness that could affect their profitability and the
+cash flow and risk profile of the client.
+Promise Stage – Master Murabaha Facility Agreement
+After the initial analysis of the customer’s request, the bank will enter into a master Murabaha
+facility agreement, or MoU, in which the limit of the facility, the nature of the commodity,
+the profit margin to be taken by the bank, the schedule of payment, the security to be
+submitted by the customer and other terms and conditions will be mutually stipulated. On the
+basis of one MoU there could be a number of consignments for purchase of the asset from
+time to time under sub-Murabahas. The MoU should also include specimens of purchase
+requisition, a delivery report, a promissory note and the nature of collateral required. If both
+parties agree, the agency agreement can also be signed at this stage.
+Purchase Requisition
+As per the MoU, the client will submit a requisition to the bank to purchase the commodity
+as per his specifications. The requisition will contain details of the goods required to be
+purchased from the bank and if possible the name of the supplier, cost price and the expected
+date of delivery. Also at this stage, the bank should ensure that the goods are not already
+owned by the client, otherwise the Shar ¯ı´ah advisor might ask the bank to credit the income
+from this transaction to the Charity Account. The customer will also give an undertaking to
+the bank that he will buy the goods which the bank will acquire on his request. Normally, a
+purchase requisition contains this promise. If the supplier is nominated by the client himself,
+the bank may demand a performance bond or guarantee for good performance to the effect
+that the goods provided by the supplier indicated by the client will be acceptable to him.
+Earnest money (Hamish Jiddiyah) can be demanded from the customer to assess his
+sincerity to purchase the goods and as a security deposit. If the bank purchases the goods
+and the client backs out and does not purchase, the bank may sell the goods in the market
+and recover the actual loss, if any, from the Hamish Jiddiyah. However, the bank cannot
+recover the conventional “cost of funds” or liquidated damages in the form of “opportunity
+cost”.54
+For purchasing the commodity it is advisable that the bank makes payment directly to the
+supplier to ensure that the funds are used for the actual purpose. Experience has shown that
+if funds are given to the client, there is a chance of misutilization that could also involve
+non-Shar¯ı´ah-compliance. Advance payment can also be made to the supplier, and in this
+case, the bank would charge a higher profit margin than the case of post-supply payment.
+53 AAOIFI, 2004–5a, Standard on Murabaha, clause 2/2/6, pp. 114, 128.
+54 AAOIFI, 2004–5a, Standard on Murabaha, clause 4/2, p. 119.
+
+
+----- p.228 (pdf 256) -----
+
+
+228 Understanding Islamic Finance
+Agency Stage
+An agency agreement can be signed side by side with the signing of an MoU. But it should
+invariably be before the purchase of goods by the client. If the client purchases the goods
+before the agency agreement, it would mean the goods are already owned by him and the
+transaction would become Bai‘ al ‘Inah, which is prohibited. An agency agreement could
+be “specific agency”, when the purchase of the commodity is not of a consistent nature, or
+“general”, when the purchase of the commodity is of a consistent nature.
+Purchasing Stage
+The client should purchase the goods as the agent of the bank and as per the specifications
+already decided. A number of situations could evolve at this stage. If the cost price is already
+given and the supplier gives some rebate, it should be passed on to the client at the time of
+execution of the Murabaha sale by reducing the cost of sale. If there is a rise in prices and the
+amount escalates from the amount agreed in the Murabaha limit, the bank or the principal
+must be informed in order to make a decision on whether to accept it or not. The bank has
+the right to reject the purchase if made at other than the agreed price. If the goods to be
+purchased are different from those given in the agency agreement, the change of commodity
+can be made with mutual consent. Normally, banks indicate a time within which purchase
+has to be made and if there is a delay, the bank may ask the client to refund the cost of
+goods without any opportunity cost.
+Acquisition of Title and Possession of the Asset
+For Shar ¯ı´ah compliance, it is necessary that the bank takes ownership and actual or con-
+structive possession of the goods before the execution of Murabaha. The forms of taking
+possession of items differ according to their nature and customs. The requirement from the
+Shar¯ı´ah angle is that the goods must come under the responsibility and risk of the bank.
+The Islamic Fiqh Academy of the OIC resolved, in its sixth session, in respect of the forms
+of “possession”:
+“Just as the possession of commodities may be physical, by taking the commodity in one’s hand or
+measuring or weighing the eatables, or by transferring or delivering the commodity to the premises
+of the buyer, the possession may also be an implied or constructive possession, which takes place
+by leaving the commodity at one’s disposal and enabling him to deal with it as he wishes. This
+will be deemed a valid possession, even though the physical possession has not taken place. As for
+the mode of possession, it may vary from commodity to commodity, according to its nature and
+pursuant to the different customs prevalent in this behalf”. 55
+The time when the risk of the item is passed on from the supplier to the bank, and
+subsequently from the bank to the customer, must be clearly identified. This is why Shar ¯ı´ah
+scholars normally do not approve Murabaha of natural gas in pipes; the gas company cannot
+say that from “this” point possession of the gas and its risk has been transferred to the
+bank, and then from the bank to the client. Further, the goods must exist at the time of
+execution of Murabaha. Sometimes, it happens that the client takes delivery of the goods as
+agent and uses them in his process of production even before informing the bank and “offer
+55 Council of the Islamic Fiqh Academy, 2000, p. 107.
+
+
+----- p.229 (pdf 257) -----
+
+
+Murabaha and Musawamah 229
+and acceptance”. This creates a Shar ¯ı´ah objection. Before execution of Murabaha, the bank
+must ensure that the item exists in its form and for this purpose it is advisable that the bank
+appoints any person for physical inspection. Further, all ownership-related expenses like
+Takaful until this point need to be paid by the bank. Any loss before that date also belongs
+to the bank, being the principal owner of the goods.
+Execution of Murabaha Stage – Offer and Acceptance
+After the customer acquires possession of the goods, as an agent, he should give a possession
+report and make an offer to purchase the goods acquired by him on the bank’s behalf.
+The bank will accept the offer and the transaction will be completed. All the terms of the
+Murabaha transaction, such as contract price (cost plus profit), due date or schedule of
+payments, etc. must be mentioned in the bank’s letter of acceptance. Upon execution of
+Murabaha, the relationship of buyer and seller between the customer and the bank changes
+into the relationship of debtor and creditor. After this, the bank will not be liable for any
+harm to the goods.
+Having taken delivery of the goods as per the purchase requisition, the customer should
+confirm that the goods have been examined and are satisfactory in respect of quality and
+suitability for his use. He should also relieve the bank from any loss or third party liability
+in respect of the goods sold to him. The AAOIFI Standard recommends that the bank should
+assign to the customer the right of recourse to the supplier to obtain compensation for any
+established defects which would otherwise be recoverable by the bank from the supplier. 56
+Security/Collateral against Murabaha Price
+The bank can ask the customer to furnish security to its satisfaction for timely payment of
+the deferred price. It is also permissible that the sold commodity itself is given to the bank as
+a security, provided possession is once given to the customer. In such a case, the customer
+would own the risk and reward of the goods. The bank can obtain any of the following
+types of security, depending upon the amount of facility, nature of business and credibility
+of the customer: a hypothecation charge on assets, a pledge of goods and/or marketable
+securities, a lien on deposits, a mortgage charge on movable and immovable properties, bank
+guarantees, personal guarantees or any other security mutually agreed between bank and
+client. Some Shar ¯ı´ah boards allow taking interest-bearing securities as collateral (Murabaha
+facility against TDRs and FDRs); in such a case the bank will have recourse to the extent of
+principal only. However, it is preferable not to take interest-bearing instruments as securities
+and the customer should be asked to encash the instruments and offer any Shar ¯ı´ah-compliant
+securities.
+9.9 ISSUES IN MURABAHA
+The above complex type of contractual arrangement could create a number of issues relating
+to the sale contract, credit price and legal implications of combining promise and agency
+with the actual Murabaha contract. One objection sometimes raised in this regard is that
+56 AAOIFI, 2004–5a, clause 4/9, p. 120.
+
+
+----- p.230 (pdf 258) -----
+
+
+230 Understanding Islamic Finance
+Murabaha operations by Islamic banks constitute two sales in one; the contract of promise
+and the sale deed. The objection is that as the promise is made binding, it takes on the
+character of a sale, leading to two contracts in one sale contract. 57 A very simple fact,
+however, is that as it does not involve violation of any major Shar ¯ı´ah principle, almost
+all contemporary jurists have allowed the combination, as the promise does not take the
+form of a formal contract. The implications of a sale contract and a promise to purchase are
+different. A unilateral promise remains a promise and cannot take the form of a contract.
+With regard to the credit price being more than the cash market price of the goods being
+sold under Murabaha, we have already discussed this issue in Chapters 4 and 6. Some other
+issues are discussed below.
+9.9.1 Avoiding Buy-back
+Bai‘ al ‘Inah, commonly known as “buy-back”, is a double sale by which the borrower and
+the lender sell and then resell an object between them, once for cash and again for a higher
+price on credit, with the net result of a loan with interest. As such, it is a legal device to
+circumvent the prohibition of Riba and therefore prohibited. Although banking authorities in
+Malaysia consider it acceptable, the mainstream Shar ¯ı´ah experts from the Middle East and
+the rest of the world consider it nonpermissible. Therefore, Islamic banks, while conducting
+Murabaha to Purchase Orderer, have to be vigilant that the goods being required by the
+client are not already owned by him. The AAOIFI also holds this view. 58
+9.9.2 Khiyar (Option to Rescind the Sale) in Murabaha
+Most scholars do not consider Khiyar (option) to be necessary in modern Murabaha. Some
+banks stipulate in the contract that any defect is the liability of the buyer if he examines
+the goods himself, or if they are described to him (in such a way) as to eliminate ignorance
+(about the goods), which could lead to dispute. However, any lack in the quantity of the
+goods or specification remains the liability of the seller. This latter case results in the sale
+price being reduced by an amount proportionally corresponding to the missing goods, with
+the buyer having the right to rescind the contract. 59
+Hence, from a juristic point of view, if the goods are defective or not according to the
+stipulated specifications, Khiyar al ‘Aib and Khiyar al Wasf are available to the client, and if
+he rejects the goods on the grounds of inferior quality before the execution of the Murabaha
+deal, the goods can be returned to the supplier and genuine quality goods can be acquired
+through the same or a new Murabaha. The bank can also stipulate that, after inspection of the
+goods by the client and execution of Murabaha, it will not be liable for any discrepancies. 60
+As discussed above, in the case of warranties, the bank can also assign such rights to the
+client.
+If option is available to the customer, the bank will be carrying a much larger risk and
+may have to carry out, before agreeing to the financing, a more intensive market survey,
+that may not be possible for most of the Islamic banks in their present structure and state
+57 Ray, 1995, p. 54
+58 AAOIFI, 2004–5a, pp. 114, 128.
+59 Kuwait Finance House, n.d., 2, Fat ¯awa No. 61, translation in Ray, 1995, p. 181.
+60 AAOIFI, 2004–5a, Standard on Murabaha, clause 4/9.
+
+
+----- p.231 (pdf 259) -----
+
+
+Murabaha and Musawamah 231
+of infancy. To avoid the risks, what the banks are doing in practice is to make the customer
+their agent for the purchase of the goods as well as for taking delivery from the supplier.
+The client will be purchasing the goods with full care as per his requirement. Mostly, the
+client also identifies the supplier from which the bank should buy the goods. In this case,
+the bank can take from him a performance guarantee that he will be responsible in respect
+of the quality of the item.
+9.9.3 Time of Executing Murabaha
+Another issue is the point of time when the bank can legally sell the article to its client. The
+requirement in this regard is that a Murabaha contract should be conducted only after the
+bank gets ownership and possession and becomes responsible for any loss or any defects
+therein.61 Shar¯ı´ah scholars generally recommend that a modern Murabaha operation is
+allowed provided the bank takes full possession of the object before selling it, including
+bearing the risk of its loss and the responsibility for returning it if it is defective. Murabaha
+has to be executed only after the bank has taken possession and the goods exist. However,
+there are references in some edicts to sale occurring before the bank has taken possession
+of the object. 62 Such edicts might create a credibility problem for Islamic banking. Agency
+contracts for buying the goods by the client on behalf of the bank and immediately selling
+them to the client are made part and parcel of Murabaha contracts. Islamic banks must avoid
+this practice and treat agency contracts as being totally separate and independent from the
+Murabaha contracts. After the goods are taken into possession by the client as agent, there
+should be a separate offer and acceptance between the client and the bank.
+9.9.4 Defaults by the Clients
+In the conventional banking system, a delinquent customer has to reschedule his debt, usually
+at a higher rate. The additional interest cost to the customer may motivate him to pay
+on time. The question, therefore, is how to take care of the problem of deliberate delays
+in payments in the Islamic financial system. One option is that a bank stipulates in the
+Murabaha agreement that in the case of a customer’s delay in payment without any genuine
+reason, all remaining instalments will become due; thus, the customer will try to be more
+disciplined.63 The issue of default has also been discussed in Chapters 2 and 7. Below, we
+briefly mention the related matters.
+By means of an undertaking by the client, Islamic banks stipulate in the contracts that
+the client should pay to charity in case of default. Contemporary Shar ¯ı´ah scholars have
+evolved a consensus that banks are authorized to impose late fees on delinquent clients (this
+means that the clients that are really unable to pay will not be charged any such penalty).
+But the proceeds of such penalties are to be used for charitable purposes. Only a court or
+any independent body can allocate any part of the penalty as solatium for the banks. The
+Shariat Appellate Bench of Pakistan’s Supreme Court says, in this regard:
+“The legislature can also confer a power on the court to impose penalty on a party who makes a
+default in meeting out his liability or who is found guilty of putting up vexatious pleas and adopting
+61 International Association of Islamic Banks, 1990, pp. 36, 37.
+62 Kuwait Finance House, n.d., 2, Fatwah No. 63; See also Ray, 1995, p. 48.
+63 AAOIFI, 2004–5a, Standard on Murabaha, clause 5/1.
+
+
+----- p.232 (pdf 260) -----
+
+
+232 Understanding Islamic Finance
+dilatory tactics with a view to cause delay in decision of the case and in discharging liabilities and
+from the amount of such penalty a smaller or bigger part, depending upon the circumstances, can
+be awarded as solatium to the party who is put to loss and inconvenience by such tactics. The
+amount of penalty can be received by the State and used for charitable purposes and in the projects
+of public interest, including the projects intended to ameliorate economic conditions of the sections
+of society possessing little or nothing, i.e. needy people/peoples without means”. 64
+Therefore, courts or any resolution committees appointed by the State or the regulators
+can determine compensation for the actual damage but not for the loss of income calculated
+on the basis of the conventional concept of opportunity cost. If any part of the penalty is
+not allowed for the bank by a court, the proceeds must be utilized for charitable objectives
+only and cannot be made available as compensation to the bank.
+Going further ahead on the path of Ijtihad, a Fatwah of the Shar ¯ı´ah board of Al Baraka,
+Sudan, authorizes Islamic banks to impose late fees to be taken as the bank’s income on
+the basis of a profit rate actually gained by it during the period of default, as if the delayed
+money had also earned that profit if received by the bank. 65 However, the idea of charging
+a realized rate of return is more akin to the conventional concept of opportunity cost and
+it would be very difficult to differentiate Murabaha contracts with such stretched Ijtihad
+from Western trade financing involving interest. For the credibility of the Islamic financial
+system, such differentiation is necessary.
+9.9.5 Rebates on Early Payment
+Depending upon the cash flow, some clients may wish to pay earlier than the due date
+and demand a prepayment rebate as in the case of conventional banking. However, the
+majority of contemporary Shar ¯ı´ah scholars do not allow remission for earlier payment in
+Murabaha operations by banks. This issue has been discussed in detail in Chapter 7. The
+OIC Fiqh Academy, the Shariat Appellate Bench of the Supreme Court of Pakistan, Shar ¯ı´ah
+committees of Islamic banks in the Middle East and Shar ¯ı´ah scholars in general consider that
+it would be similar to interest-based instalments sales techniques. The AAOIFI’s Shar ¯ı´ah
+Standard on Murabaha, however, allows a rebate if it is not already stipulated in the Murabaha
+contract.66 Therefore, if the customer makes early payment and there is no commitment from
+the bank in respect of any discount in the price of Murabaha, the bank has discretion in
+allowing the rebate or not. But, it should not be made a practice and any such case should
+be decided on merit in consultation with the Shar ¯ı´ah advisor.
+9.9.6 Rollover in Murabaha
+“Rollover” in Murabaha means booking another Murabaha against receivables of any previous
+Murabaha, payment in respect of which has not been made by the client. Further mark-up is
+added to the receivable in default by a client. This is explicit Riba, as the bank is not entitled
+to any amount over and above the debt created in a Murabaha transaction, as a result of which
+ownership of the sold goods had already been transferred to the client. Now the bank has no right
+of re-pricing. Rescheduling is allowed, but re-pricing and, therefore, rollover is not allowed.
+64 Shariat Appellate Bench, 2000, pp. 477, para. 24 in the court order; Council of the Islamic Fiqh Academy, 2000, pp. 251, 252;
+AAOIFI, 2004–5a, pp. 122, 132.
+65 Fatwah translated into English, cf. Ray, 1995, pp. 182, 183.
+66 AAOIFI, 2004–5a, p. 132.
+
+
+----- p.233 (pdf 261) -----
+
+
+Murabaha and Musawamah 233
+The bank, at its discretion, can reschedule the payment without any increase in the original
+receivable. Any amount taken from the client on account of late payment, as per his undertaking
+in the Murabaha agreement, would go to the charity account. However, there is the possibility
+of a fresh Murabaha facility through the sale of new goods.
+9.9.7 Murabaha Through Shares
+In recent years, some Islamic banks have conducted shares Murabaha, i.e. they purchase
+shares through a client as agent and sell them on a Murabaha basis to the clients. As shares
+represent tangible assets of joint stock companies, their trading is permissible provided the
+screening criteria recommended by the Shar ¯ı´ah scholars are taken into consideration. Their
+sale through Murabaha is also permissible, but Islamic banks need to take extra care with
+regard to Shar ¯ı´ah compliance matters. Banks should make payment directly to the brokers
+and the client should not be appointed agent for purchasing the shares. After the payment
+is made by the bank and the shares are transferred to it actually or through any central
+depository, the bank can sell them onward on a Murabaha basis. If settlement takes time,
+the bank shall wait for actual transfer. Generally, transfer takes three days; so the risk of
+price for three days has to be taken by the bank. Further, the shares in respect of which
+Murabaha is to be conducted should not be of any sister concern of the client; otherwise it
+will be “buy-back” and therefore prohibited.
+9.9.8 Commodity Murabaha
+Some banks in the Middle East and the West have been using commodity Murabaha on
+international commodity exchanges as a treasury operation. This is a very tricky issue and
+needs a special role of the Shar ¯ı´ah advisors of the concerned banks. It refers to a short-
+term placement mechanism involving purchase and sale of commodities in the international
+markets, e.g. London Metal Exchange (LME). Internationally, Islamic banks have relied
+mainly on this product for liquidity management.
+The banks use Tawarruq and appoint a broker to purchase any metal and then sell the
+same on deferred payment to any third broker on the same date. Normally, Islamic banks
+make an agent of a conventional bank to buy on their behalf any metal from broker A
+against cash payment and then sell that to broker B on deferred payment. Nobody cares
+whether any actual transaction has taken place or not, and at which point in time risk was
+transferred to the bank. There are doubts about the quantity of metal being sufficient to
+cover the transaction volumes. As the brokerage cost makes the product less competitive,
+there is a chance that no actual transactions might be taking place. Islamic bankers need
+to understand that the Tawarruq arrangement, even in its genuine form, should be used in
+extreme cases where no option is available to avoid interest. It has not been approved by all
+scholars. Widespread use of such products is harmful to the Islamic banking industry in the
+long run.
+9.10 PRECAUTIONS IN MURABAHA OPERATIONS
+In Murabaha, Islamic banks have to face additional asset risk, greater fiduciary risks, greater
+legal risk and the Shar ¯ı´ah compliance risk. To mitigate the legal risk, special care has to be
+given to completing documentation for various contracts under the guidance of the bank’s
+
+
+----- p.234 (pdf 262) -----
+
+
+234 Understanding Islamic Finance
+legal department. Adherence to the AAOIFI’s Shar ¯ı´ah Standards would enable the bank to
+get Shar¯ı´ah compliance. In this regard, the role of Shar ¯ı´ah supervisory boards/advisors is of
+crucial importance in applying proper internal controls for Shar ¯ı´ah compliance. Mistiming
+in documentation may lead to loss of income. Therefore, an Islamic bank must strengthen
+its internal Shar ¯ı´ah control and risk management departments. Risk mitigation measures in
+Murabaha are given in Box 9.1.
+9.11 MUSAWAMAH (BARGAINING ON PRICE)
+Musawamah is a general and regular kind of sale in which the price of the commod-
+ity to be traded is bargained between the seller and the buyer without any reference to
+the price paid or cost incurred by the former. Thus, it is different from Murabaha in
+respect of the pricing formula. Unlike Murabaha, the seller in Musawamah is not obliged
+to reveal his cost. Both the parties negotiate on the price. All other conditions relevant to
+Murabaha are valid for Musawamah as well. Musawamah can be used where the seller
+is not in a position to ascertain precisely the costs of commodities that he is offering
+to sell.
+From a juristic point of view, Musawamah can be either cash or credit sale, but when
+used by banks it will generally be a deferred payment sale in which they will bargain with
+clients on the price of goods/assets. They will add their profit margin to their cost but will
+not be required to tell their clients the details of cost price and their profit in any transaction.
+A few Islamic financial institutions have a practice of obtaining a discount from the supplier
+in the case of retail goods. In such a case, since actual profit is not brought to the notice of
+the customer, it is necessary that such a sale should be conducted through Musawamah and
+not Murabaha.
+Box 9.1: Risk Management in Murabaha
+Nature of Risk Mitigating Tool(s)
+Customer refuses to purchase goods
+after taking possession as agent.
+Promise to purchase the ordered goods is
+obtained from customers. Also, Hamish
+Jiddiyah may be taken, from which the
+bank can cover its actual loss.
+Customer did not purchase fresh
+assets/goods; has already purchased
+and now wants funds for the payment
+to the supplier; involves Bai‘ al ‘Inah,
+so non-Shar¯ı´ah-compliant.
+• Make direct payment to supplier
+through DD/PO.
+• Obtain invoice of goods purchased. Date
+of invoice should not be earlier than the
+date of agency agreement and not later
+than the declaration or offer to purchase.
+• In addition to invoice, obtain any other
+evidence, e.g. gate pass, inward register,
+entry in stock register, truck receipt.
+• Physical inspection of goods.
+
+
+----- p.235 (pdf 263) -----
+
+
+Murabaha and Musawamah 235
+Goods/asset have been used by
+customer before offer and acceptance;
+do not exist when Murabaha is
+executed, so non-Shar ¯ı´ah-compliant.
+Reducing the time interval when offer is to
+be made periodically; physical inspection
+of goods on a random basis.
+In transit, risk of destruction of goods
+before offer and acceptance without
+agent’s negligence.
+During transit, goods are owned by the
+bank and all risks belong to the bank. This
+risk can be mitigated through obtaining
+Takaful cover.
+Overdue. Undertaking from the customer is obtained
+to give a certain amount to charity in the
+case of late payment.
+Default risk. Securities/collateral can be realized to
+recover loss.
+Supplier may not perform his
+obligation.
+The agent, in his personal capacity, can
+guarantee the performance of the supplier.
+Purchase from or resale to
+associates/subsidiaries.
+Obtain related party information from the
+financial statements of the company or by
+any other source.
+Box 9.2: Possible Steps for Murabaha in Import Financing
+Step 1: The Islamic bank and the customer will sign a master murabaha agreement (MoU)
+and an agency agreement; as per the agency agreement, the customer will purchase goods
+from foreign suppliers on the bank’s behalf by opening L/Cs with the bank.
+(The difference between a general Murabaha agreement and a sight L/C Murabaha
+agreement is that it is possible in sight L/C Murabaha that an item may be sold at cost price
+in the case of a spot Murabaha. In order to accommodate such a transaction, the agreement
+needs to mention that it can be covered both under Murabaha and Musawamah.)
+Step 2: The customer will negotiate a deal with some foreign supplier (exporter) for
+the purchase of assets as agent of the bank. It should be ensured that such a deal
+should be finalized only after execution of the agency agreement.
+(Otherwise, it could be a problem for the bank in the case of sight L/C; if the
+customer delays in making payment, the bank will have to suffer the loss, as it would
+not be able to earn any profit on the amount paid to the exporter through the negotiating
+bank.)
+Step 3: The importer will request the bank to open an L/C by submitting all relevant
+documents. Takaful should be arranged by the importer on behalf of the bank (cost to
+be borne by the bank) and the relevant policy should be forwarded along with the L/C
+application form. The bank will issue an L/C in the favour of the beneficiary (exporter).
+
+
+----- p.236 (pdf 264) -----
+
+
+236 Understanding Islamic Finance
+Box 9.2: (Continued)
+Step 4: On receipt of the L/C, the exporter will ship the goods and deliver the related
+shipping documents to the negotiating bank for the payment of the bill amount. If the
+documents are found to be in order, the negotiating bank will send the documents to the
+Islamic bank.
+Step 5: On receipt of the documents, the Islamic bank will contact the customer
+and inform him of the availability of the documents. The customer will negotiate the
+FX rate for the required foreign currency amount. The Islamic bank will discuss the
+payment terms with the customer and settle the bill.
+Settlement: Sight L/C
+If the customer is not in need of credit and wishes to settle the transaction, the bank
+will issue a Musawamah declaration to the customer. Through spot Murabaha or
+Musawamah, the bank will sell the assets at the following spot price to the customer:
+L/C cost + all charges + Takaful charges. After receiving payment, the bank will
+release the shipping documents to the customer. However, the bank’s risk on the goods
+will end only after delivery of the assets to the customer.
+Settlement: Customer Requires Financing
+The Islamic bank will discuss the payment date with the customer and execute the
+Murabaha, which means the signing of a declaration by the customer and the acceptance
+of its offer to purchase by the Islamic bank. Profit will be charged from the day the
+bank’s Nostro was debited to the Murabaha settlement date according to the agreed
+profit rate. The bank will release the shipping documents to the customer and record
+a Murabaha receivable.
+(MPO is being using widely for local and foreign trade financing by Islamic banks. Such Murabahas include: (i) local currency:
+simple Murabaha, advance payment Murabaha, suppliers’ credit murabaha; (ii) foreign currency: sight L/C spot Murabaha, sight
+L/C deferred Murabaha, usance L/C Murabaha.)
+Box 9.3: Accounting Treatment by Islamic Banks in Murabaha
+Measurement of asset value at acquisition: asset is measured and recorded at
+historical cost.
+After acquisition: (1) asset available for sale on Murabaha to the purchase orderer
+who is obliged to fulfil his promise shall be measured at historical cost and any decline
+in value shall be reflected in the valuation of the asset at the end of the financial
+period. (2) If there is an indication of nonrecovery of costs of goods, the asset shall
+be measured at cash equivalent value (net realizable value). This value is obtained by
+creating a provision for decline in the asset value to reflect the difference between
+acquisition cost and the cash equivalent value.
+Potential discount after acquisition: (1) the discount shall not be considered as
+revenue, however it should reduce the cost of goods. (2) The discount may be treated
+as revenue if this is decided by the Islamic bank’s Shar ¯ı´ah supervisory board.
+Murabaha receivables: These shall be recorded at the time of occurrence at their
+cash equivalent value.
+
+
+----- p.237 (pdf 265) -----
+
+
+Murabaha and Musawamah 237
+Profit recognition: profit shall be recognized at the time of contracting if the sale
+is for cash or on credit but the term does not exceed the current financial period.
+Profits of credit sale whose payment is due after the current financial period shall be
+recognized using any of the following methods:
+• Proportionate allocation of profits method; may be adopted whether or not cash is
+received, which is the preferred method.
+• Profit may also be recognized as and when received. Disclose the accrued amount
+of profit if the accrual method has not been followed.
+• Deferred profits shall be offset against Murabaha receivables in the statement of
+financial position.
+Early settlement with deduction of part of profit (deduction of profit at the time
+of settlement): the bank may deduct the part of the profit agreed upon from the
+payment of one or more instalments.
+Deduction of part of profit after settlement: the above criteria should be applied for
+payments of one or more instalments before the time specified, the Islamic bank may ask
+the client to pay the full amount and thereafter reimburse with part of the profit.
+Failure to fulfil promise having paid Hamish Jiddiyah: Hamish Jiddiyah shall be
+treated as a liability on an Islamic bank.
+Treatment for nonbinding promise: Hamish Jiddiyah shall be returned in full even
+if the asset is sold at a lower amount to another client.
+Treatment for binding promise: the amount of actual loss shall be deducted from
+Hamish Jiddiyah. In the absence of any guarantee or Hamish Jiddiyah, any loss incurred
+shall be recorded as a receivable due from the defaulter client.
+Procrastination: the amount received as a penalty shall be treated as revenue or an
+allocation to the charity fund, as any arbitration or Shar ¯ı´ah board deems appropriate.
+Insolvency: the Islamic bank cannot ask the client to pay any additional amount by
+way of penalty.
+Box 9.4: Murabaha Financing for Exports: Process and Steps
+1. Exporter and bank sign an agreement to enter into Murabaha.
+2. Exporter is appointed as agent to purchase goods on the bank’s behalf.
+3. Bank gives money to supplier/vendor for purchase of the goods.
+4. Exporter purchases goods on the bank’s behalf and takes their possession.
+5. Exporter makes an offer to purchase the goods from the bank.
+6. Bank accepts the offer and sale is concluded.
+7. Exporter pays the agreed price to the bank according to an agreed schedule.
+
+
+----- p.238 (pdf 266) -----
+
+
+238 Understanding Islamic Finance
+9.11.1 Musawamah as a Mode of Financing
+Businesses normally use Musawamah, in that they are interested only in profit, which they
+earn through pricing, while Islamic banks mostly use Murabaha. This is because direct use
+of any benchmark is relatively easier in Murabaha than in the case of Musawamah. It is
+easier for the bank management and the regulators to manage the return rate structure in
+Murabaha. Further, chances of corruption are minimal in Murabaha, because whatever the
+level of price of the asset, the bank will be charging a profit margin tied up with the cost
+price of the asset.
+Musawamah is more suitable for single huge transactions, wherein decisions are made
+normally at the top level and the price is bargained between the parties. For example, an
+airline in the Middle East may require credit purchase of an aeroplane costing about $500
+million. An Islamic bank may purchase the aeroplane for $450 million, for example, and
+sell it to the airline after adding its profit of $50 million, keeping in mind the credit period
+and the payment schedule. Details of the cost price to the bank will not be needed and the
+airline will be interested in the final price only. Similarly, Musawamah could be used in
+financing of all such purchases where it is not possible for banks to tell a number of minute
+details, as required in Murabaha.
+The agency structure can also be used in Musawamah, but it is better and preferable
+that the bank directly purchases the assets, particularly expensive assets. However, the bank
+may involve the clients in selection of the supplier and the assets to ensure that the assets
+being purchased by the bank have all the specifications requested by the client. In the case
+of assets with a huge price, the structure used by banks will be Musawamah to Purchase
+Orderer, while in the case of less expensive goods, generally demanded by businesses and
+the public, banks or their specially created subsidiaries can maintain inventory for sale to
+the clients on a Musawamah basis as and when demanded by the clients.
+The conditions of taking ownership, possession and business risk of the asset are equally
+applicable in Musawamah as in the case of Murabaha. Goods required for onward sale must
+come under the risk of the bank before execution of the sale contract with the customer.
+Similarly, all conditions regarding subject matter, payment of the stipulated price and the
+treatment in case of default, etc. will be the same as in the case of Murabaha. The only
+difference is that the bank is not required to disclose details about its cost price or profit
+margin, and bargaining will be on the final price of the goods.
+9.12 SUMMARY
+Musharakah or Mudarabah (PLS modes) may not necessarily be suitable for all the financial
+needs of modern businesses. In many cases, such modes may neither be feasible nor desired
+by the banks or their clients. The majority of the traditional as well as the contemporary jurists
+have, therefore, allowed a number of other modes which facilitate the sale (or purchase) of
+goods and usufruct of such goods, the corpus of which is not consumed with their use. One
+such trade-based mode is Murabaha, which takes the form of Murabaha–Mu’ajjal (cost-plus
+sale with deferred payment of price) when used by banks.
+Murabaha refers to a mutually stipulated margin of profit in a sale transaction, where the
+cost of the commodity is known or made known to the buyer. The parties negotiate the
+profit margin on cost and not the cost per se. If payment of the sale price is deferred, it also
+becomes Mu’ajjal. The due date of payment of the price must be fixed in an unambiguous
+
+
+----- p.239 (pdf 267) -----
+
+
+Murabaha and Musawamah 239
+manner. Other terms used for similar transactions are instalments sale, cost-plus/mark-up
+based sale, etc.
+According to contemporary Shar ¯ı´ah scholars, Murabaha–Mu’ajjal is legitimate provided
+the risk of the transaction is borne by the financier until the possession has been passed
+on to the Murabaha customer. For such a transaction to be legal, the bank must purchase a
+commodity through a contract and sell it to the customer under a separate contract.
+Notwithstanding the fact that dangers are associated with the use of Murabaha by banks
+as an Islamic mode of financing, the reality is that Islamic banks all over the world are
+resorting heavily to this mode for one reason or another. An important consideration in this
+regard is that banks hold depositors’ money as trustees. Investment of money should be
+undertaken keeping in mind the depositors’ aspirations/advice and their risk profiles. If any
+classes of society, like the old and widows or others depending on their savings for their
+sustenance, do not want to take the risk of loss possible in PLS modes, their money has to
+be invested in less risky avenues on the basis of trade- or leasing based modes. Faced with
+this dilemma, the available way out is that it has to be used with utmost caution, with such
+a structure that fulfilment of the Shar ¯ı´ah essentials is ensured.
+Credit sale is allowed by the clear texts of the Shar ¯ı´ah. Instalments sale with a price
+higher than the cash market price is also permitted as a normal reflection of market based
+commercial activities. A deferred Murabaha price, higher than the cash-n-carry price, is
+objected to by some of the theoreticians working on Islamic banking and finance. But this
+aspect needs to be seen on the two separate fronts of permissibility and preference of one
+mode over the other. There is no doubt about the permissibility of Murabaha with a credit
+price higher than the cash market price of the related commodity. PLS modes are preferable,
+but in order to safeguard the interests of the depositors, these modes need to be used keeping
+in mind the risk profiles of various businesses and the parties involved.
+Murabaha, as currently being used in Islamic banking, is something different from the
+Murabaha discussed in Fiqh literature. This transaction is concluded with a prior promise to
+buy or a request made by a person interested in acquiring goods on credit from any financial
+institution. Further, the customer is normally appointed an agent of the bank for the purchase
+of the item on behalf of the bank. As such, it is called “Murabaha to Purchase Orderer”
+(MPO), which normally comprises three separate deals including a promise to buy or to
+sell, an agency contract and the actual Murabaha contract. Islamic banks also enter into an
+MoU or Murabaha facility agreement which contains the overall structure of the transaction,
+the profit rate to be charged in various sub-Murabahas, the nature of collateral/security,
+treatment in the case of default or other developments.
+Banks must make sure that the client intends to purchase a commodity capable of being
+the subject of Murabaha. Payment of the price may be made directly to the supplier and, if
+it becomes necessary due to the nature of the item that funds be given to the client, purchase
+of the commodity should be evidenced by invoices or similar other documents which the
+client should present to the bank.
+Buy-back arrangements and rollover in Murabaha are not allowed. Therefore, the banks
+must ensure that the goods requested by the client are not already in his ownership.
+In order to ensure that the buyer pays the instalments promptly, he may be asked to
+promise that in the case of a default he will pay a certain amount of penalty for any charitable
+purpose. Such a penalty shall not constitute bank income and shall be utilized for charitable
+purposes only.
+
+
+----- p.240 (pdf 268) -----
+
+
+
+

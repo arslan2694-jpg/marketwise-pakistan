@@ -1,0 +1,1321 @@
+
+----- p.101 (pdf 129) -----
+
+
+5
+Islamic Law of Contracts and Business
+Transactions
+5.1 INTRODUCTION
+Islam considers the property of people as sacred and inviolable as their life and honour.
+To ensure this, it forbids the unlawful devouring of others’ property by way of theft,
+embezzlement, usurpation, bribery, cheating and all other unlawful means of acquiring
+wealth. These proscriptions are in addition to the main prohibitions like Riba, Gharar and
+Qim¯ar, which are considered major causes for usurpation of others’ property. In addition,
+different transactions have different features that need to conform to the tenets of the Shar¯ı´ah.
+Contracts that do not conform to these tenets or that involve any of the above prohibited
+elements are regarded as invalid. As Islamic banks and financial institutions are dealing in
+goods by entering into contracts like sale, leasing, partnership, suretyship, agency, assignment
+of debt, mortgages, etc., it is worthwhile discussing in detail the overall framework of
+the Islamic law of contracts to ascertain the permissibility/validity or nonvalidity of their
+operations.
+This chapter deals with the general principles of contracts, the elements of contracts, con-
+ditions of subject matter, qualification of contracting parties, classification of contracts with
+regard to validity, the nature of remuneration or compensation in contracts or consideration
+of the contracts and the causes and effects of invalidity.
+5.2 M ¯AL (WEALTH), USUFRUCT AND OWNERSHIP
+Contracts deal with goods/wealth (M ¯al), usufruct of goods and transfer of ownership of the
+goods/usufruct from one to another party. It is pertinent, therefore, to briefly describe all of
+these concepts.
+Wealth is anything that is useable and has legal and material value for the people. It means
+that anything considered M ¯al from a juristic point of view should be of value, possessable
+and it should have a legitimate use. It also includes abstract and intangible rights (like
+trademarks and intellectual property). 1 In addition to other goods, fiduciary money is also a
+kind of M ¯al. It serves as a medium of exchange or the standard by which the value of other
+goods is measured but in itself it is not a subject matter of sale.
+M¯al or property in Islamic commercial law is divided into movable and immovable,
+fungible and nonfungible and finally determinate (‘Ain) and indeterminate (Dayn) categories.
+‘Ain is a specific or determinate type of M ¯al while Dayn is a nonspecific or indeterminate
+property. In contracts, when a person is to get a certain/specific property from other, this
+1 Mustafa Zarqa, cf. Mansoori, 2005, p. 190.
+
+
+----- p.102 (pdf 130) -----
+
+
+102 Understanding Islamic Finance
+is determinate or ‘Ain. When a nonspecific unit of any kind of property is to be taken,
+it is regarded as Dayn. Hence, gold, silver, currency, grain, oil and the like are kinds of
+indeterminate or Dayn property; while giving counter delivery in exchange contracts one
+can give any units of these items. Legally, Dayn is the responsibility or obligation of a
+person to another person that has to be fulfilled by paying any units of the relevant property
+equivalent to the obligation. 2
+With respect to the exchange of goods, Islamic law distinguishes between Mabi‘ (the
+subject of sale) and Thaman (price). Currency notes and debt certificates are not a valid
+subject of sale (in exchange of homogeneous currencies). They represent Thaman, serve as a
+medium of exchange, but cannot adopt the role of a commodity, as their exact utility cannot
+be assessed before they are actually spent. These are issued by the State or its authority and
+people accept them with full confidence, as they accepted gold/silver in the past. Nobody
+accepts the notes taking them as exchangeable for gold or silver. Further, the notes are
+unlimited legal tender while gold (in the past) was limited currency. They are like “Fulus”
+that had value more than their intrinsic value. 3 A commodity, on the other hand, is the
+principal object of sale from which the benefit is ultimately to be derived in lieu of a price
+as settled between the contracting parties.
+Accordingly, ownership can be any of the following categories of assets and can be
+acquired through contracts, succession or addition to the existing owned assets of someone:
+1. Ownership of assets (Milk ul‘Ain).
+2. Ownership of debt (Milk ud Dayn).
+3. Ownership of usufruct (Milk ul Manf‘at).
+If a person gets ownership of ‘Ain (the asset itself), he gets ownership of its Manf‘at also,
+but not the other way round, meaning that getting usufruct of something does not mean
+ownership of the asset itself, as in the case of Ijarah where usufruct is transferred to the
+lessee and the ownership remains with the lessor. If an Ijarah contract involves transfer of
+ownership as an automatic impact of lease, the contract is void.
+Milk ul‘Ain is definite and not related to time, meaning that when someone gets ownership
+of an asset through purchase, the asset is subject to his discretion; his ownership cannot be
+ended or done away with, but can be transferred with his free will and according to any valid
+contract as per the respective juristic rules. For example, a buyer of a commodity on credit
+becomes the owner of that commodity and the seller, after execution of the sale, has no
+jurisdiction to take it back from the purchaser; he can only ask for payment of the debt or the
+credit price. As such, the concept of transfer of ownership of an asset, as distinguished from
+the transfer of its usufruct, is of immense importance for Islamic banks, as it determines the
+liability, right, risk and reward for them in their asset-based operations.
+Milk ul Manf‘at is related to time, meaning that usufruct of any asset against rental can
+be taken or given for a specified time. Thus, a valid Ijarah (lease) contract always needs
+stipulation about the lease period.
+An important categorization of goods is that of fungible (Zwatul Amth ¯al or Mithli) and
+nonfungible (Zwatul Qiyam or Qimi) goods. An article is said to be Mithli if all of its
+units are similar, like wheat or rice of particular varieties or vehicles of a given trademark.
+People choose any of their units while the purchasing price of all units in the market is
+2 For details, see Rahim, 1958, pp. 261, 325.
+3 Usmani, 1994, pp. 26–28.
+
+
+----- p.103 (pdf 131) -----
+
+
+Islamic Law of Contracts and Business Transactions 103
+the same. A commodity belongs to a dissimilar category if its like is not available in the
+market and each of its units has a different value due to differences in quality or otherwise,
+like paintings, gems and buildings. This categorization is important for Islamic financial
+institutions because, for example, Salam can be conducted for Mithli goods, while Istisna‘a
+is used for Qimi goods.
+For transfer of the ownership of goods or their usufruct through trade, lease or gift,
+jurists have laid down certain rules, keeping in mind the text of the Qur’ ¯an and Sunnah and
+remaining within the general framework of the Shar ¯ı´ah for guidance of the people. While
+ownership is transferred in a sale to the buyer, it remains with the lessor in Ijarah. While
+“sale and buy-back” (Bai‘ al ‘Inah) is prohibited according to the majority of jurists, “sale
+and lease-back” is allowed by almost all. These aspects are explained in detail in relevant
+chapters.
+5.2.1 Defining Various Related Terms
+Various Arabic terms are used to denote transactions and contracts and convey the meaning
+of undertaking a contractual obligation. These terms are: Mith ¯aq, ‘Ahd or W‘adah and ‘Aqd.
+Mith¯aq
+Mith¯aq means a covenant and refers to an earnest and firm determination on the part of
+the concerned parties to fulfil the contractual obligations; it has more sanctity than ordinary
+contracts. The word Mith ¯aq has been used in the Holy Qur’ ¯an in a number of places. 4
+Examples of Mith ¯aq are the treaties in the early Islamic era between Muslims and other
+nations and the contract of marriage. The Holy Qur’ ¯an refers to the covenant between God
+and human beings (13: 20), treaty between nations or groups (8: 72 and 4: 90) and the
+contract of marriage (4: 21). As such, this term has more relevance with religious and social
+covenants than with economic or financial contracts.
+‘Ahd or W‘adah
+‘Ahd refers to a unilateral promise or an undertaking, although sometimes it also covers a
+bilateral obligation. The Holy Qur’ ¯an has used this word in both senses. 5 The Qur’ ¯an says:
+“And fulfil every ‘Ahd, for every ‘Ahd will be inquired into (on the Day of Judgement)”
+or “(But righteous) are those who fulfil the contracts, which they have made”. ‘Ahd is also
+termed W‘adah in the Fiqh literature.
+‘Aqd (Contract)
+‘Aqd, which lexically means conjunction or to tie, is synonymous with the word “contract”
+of modern law. Murshid al-Hayran has defined it as the conjunction of an offer emanating
+from one of the two contracting parties with the acceptance by the other in a manner that
+it affects the subject matter of the contract. According to Majallah al-Ahkam al-Adliyyah,
+an ‘Aqd takes place when two parties undertake obligations in respect of any matter. It is
+4 See verses 4: 21; 4: 90; 8: 72; 13: 20.
+5 See verses 2: 40; 2: 177; and 17: 40.
+
+
+----- p.104 (pdf 132) -----
+
+
+104 Understanding Islamic Finance
+effected by the combination of an offer (Ijab) and acceptance (Qabul). Al ‘Inayah has defined
+‘Aqd as a legal relationship created by the conjunction of two declarations, from which flow
+legal consequences with regard to the subject matter. Among modern jurists, Abd al-Razzaq
+al-Sanhuri defines ‘Aqd as the concurrence of two wills to create an obligation or to shift it
+or to relinquish it. 6
+An analysis of the above definitions would reveal that a contract involves: the existence
+of two parties; the issuance of an outward act depicting internal willingness; an offer (Ijab)
+and acceptance (Qabul). Further, there must be a legal union between the two declarations
+regarding the subject matter or the contractual obligations. 7
+‘Aqd, therefore, implies obligation arising out of a mutual agreement. The term ‘Aqd has
+an underlying idea of conjunction, as it joins the intention as well as the declaration of two
+parties. The Holy Qur’ ¯an has used the word in this sense: “O believers! fulfil your contracts
+(‘Uqud).”8
+‘Aqd is used in two senses: in the general sense, it is applied to every act which is
+undertaken in earnestness and with firm determination, regardless of whether it emerges
+from a unilateral intention such as Waqf, remission of debt, divorce, undertaking an oath,
+or from a mutual agreement, such as a sale, lease, agency or mortgage. In this sense, ‘Aqd
+is applicable to an obligation irrespective of the fact that the source of this obligation is
+a unilateral declaration or agreement of the two declarations. In the specific sense, it is a
+combination of an offer and acceptance, which gives rise to certain legal consequences. 9
+Of the above three terms, Islamic law relating to business generally deals with
+‘Ahd/W‘adah (promise) and ‘Aqd (contract). Islamic financial institutions presently enter
+into promises in respect of a number of transactions, some of which are:
+• Murabaha to Purchase Orderer, wherein the client places an order with the bank to
+purchase for him a well defined asset and promises to buy the same at cost plus the
+bank’s profit margin.
+• Ijarah Muntahia-bi-Tamleek, in which the bank or the client promises with the other party
+to sell or purchase the asset at the end of the lease period or transfer the ownership to
+the client through the contract of Hibah (gift). Similarly, the concept of W‘adah is used
+while issuing Sukuk on the basis of Ijarah.
+• Sale and lease-back is allowed subject to the fulfilment of certain conditions and in this
+transaction, promise is a crucial ingredient.
+• Diminishing Musharakah, in which case the client promises to redeem the bank’s invest-
+ment by periodically purchasing the bank’s share in the joint asset or the bank promises
+to sell its part of ownership in the asset.
+• Disposal of goods purchased through Salam, in which case an Islamic bank, after executing
+a Salam contract for forward purchase of a well-defined product, gets a promise from
+any trader that the latter will buy it on stipulated terms and conditions. Islamic banks also
+take promises from their clients to sell the banks’ Salam assets when received as their
+agents at any given price.
+6 Mansoori, 2005, pp. 19–23.
+7 Mansoori, 2005, pp. 20, 21.
+8 (1: 5). Also see 2: 235; 5: 88.
+9 For details see Mansoori, 2005, pp. 19–23.
+
+
+----- p.105 (pdf 133) -----
+
+
+Islamic Law of Contracts and Business Transactions 105
+• Similarly, for disposal of assets manufactured/constructed under Istisna‘a, banks take
+promises to buy from other parties.
+‘Aqd (contract) is the most crucial tool for Islamic banks for both deposits and asset
+sides. They enter into Am ¯anah, Qard (loan), Shirkah, or Wakalah contracts with savers or
+depositors and Bai‘, Ijarah, Ujrah, Shirkah, Wakalah, Kafalah, Ju‘alah and Hawalah contracts
+with those who avail themselves of the financing facility from them. It is, therefore, pertinent
+to discuss in detail the concepts of W‘adah (promise) and ‘Aqd (contract).
+5.3 GENERAL FRAMEWORK OF CONTRACTS
+Islamic law is related to the methodology of the Shar ¯ı´ah in dealing with Ib ¯ad¯at (devotional
+acts) and Mu‘ ¯amal¯at (transactions). Ib ¯ad¯at are held to be universal truths that are unaffected
+by time and space. The Mu‘ ¯amal¯at are matters pertaining to individuals interacting among
+themselves. They may change with changes in time and space. Imam Ibn Taymiyah explains
+the difference between Ib ¯ad¯at and Mu‘ ¯amal¯at in the following words:
+“The acts and deeds of individuals are of two types: Ib ¯ad¯at, whereby their religiousness is improved,
+and Ad ¯at or Mu‘ ¯amal¯at (transactions), which they need in their worldly matters. An inductive
+survey of the sources of the Shar ¯ı´ah establishes that devotional acts are sanctioned by express
+injunctions of the Shar ¯ı´ah. Thus, what is not commanded cannot be made obligatory. As regards
+transactions, the principle governing them would be permissibility and absence of prohibition. So
+nothing can be prohibited unless it is proscribed by Allah (SWT) and His Prophet (pbuh) in the
+overall framework.” 10
+This provides a reasonable degree of liberty to the jurists in finding solutions to emerging
+problems and issues in entering into contracts and transactions and business dealings with
+one another.
+Mu‘¯amal¯at, in turn, pertains to two types of activities, i.e. social and economic and/or
+financial. This chapter deals with the second category of activities, relating one way or
+another to transactions and human activities in respect of production, exchange and distri-
+bution of economic resources.
+Income is generated either through production of goods or providing services by way of
+sale of goods, their usufruct or expertise. Businesses are conducted in various structures like
+that of sole proprietorship, partnership (Shirkah), agency (Wakalah) or labour (Ujrah) or
+forms like sale and lease. All such activities are subject to the observance of certain rules,
+making the transactions valid and legally enforceable. These rules together constitute the
+Islamic law of contracts.
+A basic rule of Islamic law is that the factor to be considered in Mu‘ ¯amal¯at or social and
+economic contracts is the apparent wording, any format or writing of the contract. Only that
+will have legal consequences; any party who has entered into a contract cannot say that it
+was not his intent (Niyyah). The law will enforce what he has agreed with the other party.
+In devotional acts (Ib ¯ad¯at), on the other hand, it is the intent, meaning or Niyyah of the
+person doing any devotional act that matters and not mere words.
+The validity of the contract requires that its motivating and underlying cause should be
+according to the requirements of the Shar ¯ı´ah. All contracts which promote immorality or
+10 Ibn Taymiyah, Fatawa al Kubra, cf, Mansoori, 2005, pp. 3, 4.
+
+
+----- p.106 (pdf 134) -----
+
+
+106 Understanding Islamic Finance
+are against public policy, are harmful to a person or property of a third party or which are
+forbidden by law are deemed to be void. A sale or hiring of a weapon to a criminal who
+will use it to kill innocent people is invalid, when the seller or the lessor is aware of his
+intention.
+5.4 ELEMENTS OF A CONTRACT
+A contract comprises the following elements: the existence of two parties who must be
+capable of entering into contracts, i.e. they must be mature and sane; an offer (Ijab) and
+acceptance (Qabul); a legal (Sharie) basis of union between the two declarations and the
+contractual obligations; and free from all prohibited factors. Muslim jurists in general hold
+that, intrinsically, the essential elements of a contract are threefold and if these elements are
+not found properly, the contract is invalid:
+• the form, i.e. offer and acceptance (Sighah);
+• the contracting parties (‘Aqidain);
+• the subject matter (Ma‘qud ‘alayh).
+According to Sanhuri, who has included some other factors, there are seven components
+in a contract: 11
+• the concurrence of offer and acceptance;
+• the unity of the Majlis (session/meeting) of a contract;
+• plurality of the contracting parties;
+• sanity or the power of distinction of the contracting parties;
+• subject matter susceptible to delivery;
+• the object (Mahall) defined;
+• the beneficial nature of the object, in that trade in it is permitted as per Shar ¯ı´ah rules.
+5.4.1 Offer and Acceptance: Form of the Contract
+The form (offer and acceptance) is the procedure or the means by which a contract is made.
+Juristic rules require that the offer should be in clear language and unconditional. There
+should be conformity of the offer and acceptance on the subject matter and the consideration
+and issuance of the offer and its acceptance should be in the same session. We briefly discuss
+these rules in the following paragraphs.
+An offer (Ijab) is the necessary condition of a valid contract. It has been defined as a
+declaration or a firm proposal made first with a view to creating an obligation, while the
+subsequent declaration is termed acceptance (Qabul). Ijab signifies the willingness of a party
+to do something positive. Islamic law is silent on whether the willingness of a party to
+abstain from a thing also constitutes Ijab or not. The Council of Islamic Ideology in Pakistan
+is of the view that only the commission of an act forms Ijab. Abstinence from an act cannot
+be regarded as Ijab. Pakistan’s Federal Shariat Court is of the opinion that a contract may
+be to do anything or to abstain from doing it. This definition conforms to the meaning of
+11 Mansoori, 2005, p. 25.
+
+
+----- p.107 (pdf 135) -----
+
+
+Islamic Law of Contracts and Business Transactions 107
+Ijab as given in the Contract Act of 1872 in English law, which says: “When one person
+signifies to another his willingness to do or to abstain from doing anything with a view to
+obtaining the assent of that other person to such an act or abstinence, he is said to make a
+Proposal”.12
+Offer and acceptance can be conveyed in a number of ways, namely: by words, by gesture
+or indication or by conduct. There is no difference of opinion among jurists with regards
+to the conclusion of contracts through words. They have not fixed particular words for the
+formation of a particular contract. Whatever conveys the meaning with clarity is considered
+sufficient for the formation of a contract. It is all the same whether the words are explicit or
+implicit.
+An offer is considered cancelled in the following cases:
+• withdrawal of the offer by the maker;
+• death of a party or loss of its capacity to enter into the contract;
+• termination of the Majlis, i.e. contractual session, without concluding the contract;
+• destruction of the subject matter;
+• lapse of the time fixed for acceptance.
+It is a requirement of Islamic law that acceptance should conform to the offer in all
+its details and that it should be accepted in the same meeting if the offer is made to be
+effective from that session. The requirement of unity of session for “offer and acceptance”
+has been interpreted in different ways. This requirement is based on a saying of the holy
+Prophet (pbuh): “The contracting parties have the right of option (to finalize or not) until
+they separate.” 13 Despite some minor differences of opinion, jurists are of the view that a
+contract must be completed by offer and acceptance in the same meeting until one party
+acquires for itself the right to think over, to ratify or to revoke the contract later. 14 The
+option of stipulation (Khiyar al- Shart) is a mechanism provided by Islamic law to overcome
+the problem caused by the restriction of unity of the session. This option makes a contract
+nonbinding for the party which has acquired that right for a specified period. 15
+The Federal Shariat Court of Pakistan, in this regard, has observed:
+“A narrow interpretation of Majlis would mean that the offer of the promisor should be accepted
+without any delay and without giving the promisee any opportunity to think or consult someone
+in order to make up his mind. This may be practicable in small transactions but will fail in bigger
+transactions, which may require considerable inquiry. Thus, if an offer is made for sale of a
+factory, it will require inquiry into the title, power to sell, value of machinery, value of building,
+its liabilities, if any, profitability, etc. If the Majlis is interpreted to mean a single session, no one
+will consider purchasing a property /periodmtmi/periodmtmi/periodmtmi”
+The Hadith (as given above) simply means that if the two parties agree to enter into
+a contract in one meeting, each of them shall have a right to retract from it until they
+separate. It also means that an offer must be taken seriously. To some modern scholars, the
+word “meeting” is only a legal fiction, in that whatever time is taken by the promisee to
+communicate his acceptance may be called a continuance of the same meeting. 16
+12 Mansoori, 2005, p. 26.
+13 Bukhari, Sahih, Kitab al Buyu.
+14 Mansoori, 2005, p. 30.
+15 The concept of Khiyar (the option to rescind a sale contract) is discussed in detail in Chapter 6.
+16 For further detail see Mansoori, 2005, pp. 30, 31.
+
+
+----- p.108 (pdf 136) -----
+
+
+108 Understanding Islamic Finance
+As such, if a seller makes an offer to a potential buyer: “I sell you this commodity for so
+much”, but the buyer does not answer him before they separate, the sale is not concluded
+and the offer no longer exists. However, if the buyer gets a specified time from the seller,
+they can conclude the sale within that time on the basis of that offer.
+It may be observed that the requirement of unity of session does not apply to the contracts
+of agency, gift and appointment of an executor for the property of any minor.
+5.4.2 Elements of the Subject Matter
+The subject matter of a contract may include the object of the contracts, a commodity or
+the performance of an act. The contractual obligation of one party according to Islamic law
+is the consideration for the contractual obligation of the other party. Detailed conditions
+in respect of subject matter in various types of contracts are different, but on the whole,
+the subject matter should be existing/existable, valuable, usable, capable of ownership/title,
+capable of delivery/possession, specified and quantified and the seller must have its title and
+risk. If a nonexistent thing is sold, even with mutual consent, the sale is void according to
+the Shar¯ı´ah.
+Accordingly, short-selling has been prohibited by almost all scholars. Similarly, the subject
+of a contract should not be a thing which is not normally used except for a nonpermissible
+purpose. The subject matter of an exchange contract must have value of some kind. The
+“usufruct” of an asset is considered property and thus can be the subject matter of an exchange
+transaction. A commodity which has not yet come into existence or is not deliverable, and
+the seller does not know as to when it could be delivered (like an animal which is missing
+or a stolen car), cannot be sold in order to avoid Gharar.
+On the same basis, a contract for sale of a debt or a receivable is not valid because the seller
+of the debt (creditor) does not know whether and when the debtor will pay the debt. But,
+if it is subjected to the rules of Hawalah (assignment of debt) with recourse to the original
+debtor, it is valid. In Salam (the sale of goods with prepayment and deferred delivery), the
+sale of a nonexistent commodity is allowed because all details about the commodity and
+delivery are pre-agreed and Gharar is removed.
+Conditions regarding the subject matter are discussed below in some detail:
+• The basic attributes of the merchandise should consist of pure materials, which should be
+objects of intrinsic/legal value having some use. The commodity, service or performance
+must not include things prohibited by the Shar ¯ı´ah like wine, pork and intoxicants. It
+must be ritually and legally clean and permissible. It is further required that the purpose
+of the contract and the underlying cause should also not be contrary to the objectives of
+the Shar ¯ı´ah. Therefore, a contract to operate a brothel or a gambling house is not valid
+because in the former case the contract is contrary to the preservation of the family unit,
+progeny and offspring, which is an objective of the Shar ¯ı´ah, and in the latter case, the
+objective is opposed to the preservation of property and amounts to devouring others’
+properties wrongfully. Further, since immortality is prohibited in Islam, any contract or
+transaction that entails these evils or promotes them is also forbidden.
+• Legality of the subject matter requires that the commodities should be owned by someone.
+It also requires that it should be free from legal charge. Thus, an asset mortgaged with a
+creditor cannot be sold until redemption of the asset upon payment of the debt.
+• The subject matter should fulfil the objective of the contract. Thus, perishable goods like
+vegetables cannot be the subject of a pledge. Similarly, public roads and parks cannot be
+
+
+----- p.109 (pdf 137) -----
+
+
+Islamic Law of Contracts and Business Transactions 109
+the subject of a sale contract because these are meant for the benefit of the public and
+not for individuals.
+• The subject matter should not be harmful to the contracting parties or the public in
+general. As such, producing and trading in intoxicants like heroin, etc. is not a valid
+subject for contracts.
+Precise Determination of Subject Matter
+The subject matter should be precisely determined with regard to its essence, quality and
+value. Determination can be made either by pointing or by detailed specification. In some
+cases, jurists allow a sale even if the goods have not been examined. In such a case the buyer
+is granted the option of sight after the contract. Thus, there can be two ways to determine
+the subject matter:
+1. The subject matter is known and specified when the parties to the contract see and
+examine it at the time of the contract. If the subject matter is present in the session, the
+majority view is that its examination is necessary.
+2. Sale by description. If the asset or property to be sold is known, like a house of the
+seller who has only one house, a description highlighting its specifications is deemed to
+be sufficient. However, if the seller has a number of apartments almost similar to each
+other, then identification of the specific unit is necessary for the contract to be valid. If an
+owner of a shopping mall says to a person: “I sell one of the shops to you” and the person
+accepts it, the contract is voidable unless the shop intended to be sold is specifically
+identified or pointed out to the buyer.
+The consideration of a contract or the price must be agreed and fixed at the time of
+executing the exchange transactions. If the price is uncertain, the contract is void. For
+example, if the seller says to the buyer: “Take this (asset) and I will charge you its price
+in the market, or I shall tell you the price later”, or he says: “If you pay within a month
+the price will be $100, and if within two months you will be charged $105”, and the buyer
+agrees without stipulating any one final price, the transaction is not valid.
+The measuring unit of the price should also be known, e.g. any legal tender or currency,
+etc. Special care is needed in barter sales because in cases of uncertain price, sales would
+not be valid. The ownership of the goods being sold remains with the seller until delivery
+is made. In this respect, there should be a formal event that signifies the point at which
+a contract is concluded, for example a handshake or a signature. At this point, ownership,
+along with its risk and reward, is transferred to the buyer, who is liable to pay the price
+either immediately or at a later specified date if the contract involves credit.
+Possession and Certainty of Delivery of the Subject Matter
+The capacity to deliver the subject matter of the contract at the time of the conclusion of the
+contract is an essential condition of a valid contract. If such a capacity is lacking, the contract
+is void. The holy Prophet (pbuh) is reported to have said: “He who buys foodstuff should
+not sell it until he has taken possession of it”. It is reported that the Companion Hakim
+ibn Hizam had bought some commodities in the times of Umar ibn al-Khattab (Gbpwth),
+and intended to sell them to others. Umar ordered him not to sell the commodities before
+taking their possession. Zayd ibn Thabit, Abdullah ibn Umar and Abdullah ibn ’Abbas
+
+
+----- p.110 (pdf 138) -----
+
+
+110 Understanding Islamic Finance
+(Gbpwth) held the same view as that of ’Umar. Their interpretation implies that the vendor
+must be the real owner of the goods and, as such, the owner of their risk and reward. As
+regards the liability in case of damage, successors like Ta’aus and Qatadadh opined that if
+the goods were damaged before being paid for (in a cash sale), they belonged to the vendor.
+But if they were damaged after the purchaser had promised to take them, they belonged to
+the latter and the former had to replace them. Further, according to Muhammad ibn Sirin, if
+any party in the contract makes a precondition for the replacement of damaged goods, the
+liability for such replacement is on the one who made it. 17
+Therefore, the subject matter of the sale must be in the possession (Qabza) of the seller
+at the time the sale is executed. In the case of Salam, certain conditions have been put in
+place to rule out the possibility of nondelivery of the goods in a normal business scenario.
+For example, only those commodities that are normally available in the market at the time
+when delivery has to be made can become the subject of Salam, so that the Salam seller
+can get them from the market for delivery to the Salam buyer if he himself is unable to
+produce them as per the agreed specifications. In Istisna‘a, it becomes the responsibility of
+the manufacturer/seller to supply the specified asset at the agreed time.
+Possession of the subject matter by the seller means that it must be in the physical or
+constructive possession of the seller when he sells it to another person. Constructive (Hukmi)
+possession means a situation where the possessor has not taken the physical delivery of the
+commodity, yet the commodity has come into his risk and control and all the rights and
+liabilities of the commodity are passed on to him, including the risk of its destruction. In
+the case of immovable assets, any legal notice of transfer or mutation is sufficient.
+5.5 BROAD RULES FOR THE VALIDITY OF MU‘ ¯AMAL ¯AT
+5.5.1 Free Mutual Consent
+All transactions, in order to be valid and enforceable, must be based on free mutual consent
+of the parties. The consent that is required for the formation of a valid contract is free
+consent. Consent obtained through oppression, fraud and misperception renders a contract
+invalid as per Islamic law. It also requires that consenting parties have certain and definite
+knowledge of the subject matter of the contract and the rights and the obligations arising
+from it. Accordingly, inspection of the subject matter and proper documentation of the
+transaction, particularly if it involves credit, have been encouraged and emphasized.
+Practices like Najash (false bidding to prices), Ghaban-e-Fahish (charging exorbitant prices
+while giving the impression that the normal market price has been charged), Talaqqi-al-
+Rukban (a city dweller taking advantage of the ignorance of a Bedouin by purchasing his
+goods at a far lower price before the latter comes to the market) and concealing any material
+defect in the goods or any value-related information in trust sales like Murabaha have been
+strictly prohibited so that the parties can decide with free will and confidence.
+5.5.2 Prohibition of Gharar
+All valid contracts must be free from excessive uncertainty (Gharar) about the subject matter
+or the consideration (price) given in exchange. This is particularly a requirement of all
+17 Al-Sanani, 1972, 8, p. 28, cf. Hassan, 1993, p. 34.
+
+
+----- p.111 (pdf 139) -----
+
+
+Islamic Law of Contracts and Business Transactions 111
+compensatory or commutative contracts. In noncompensatory contracts, like gifts, some
+uncertainty is affordable. Gharar conveys the meaning of uncertainty about the ultimate
+outcome of the contract, which may lead to dispute and litigation. Examples of transactions
+based on Gharar are the sale of fish in water, fruits of trees at the beginning of the season
+when their quality cannot be established or the future sale of not fully defined or specified
+products of a factory which is still under construction. 18
+In order to avoid uncertainty, valid sales require that the commodity being traded must
+exist at the time of sale; the seller should have acquired the ownership of that commodity
+and it must be in the physical or constructive possession of the seller. Salam or Salaf and
+Istisna‘a are the only two exceptions to this principle in Shar ¯ı´ah and exemption has been
+granted by creating such conditions for their validity that Gharar is removed and there is
+little chance of dispute or exploitation of any of the parties. These conditions relate to the
+precise determination of quality, quantity, price and the time and place of delivery of the
+Salam goods.
+Another relevant example of avoiding uncertainty is that of the sale of debt, which, per
+se, is not allowed even at the face value, because the subject matter or the amount of debt
+is not there and if the debtor defaults in payment, the debt purchaser will lose. Therefore,
+discounting of bills is not allowed as per Shar ¯ı´ah rules. However, subjecting it to the rules
+of Hawalah (assignment of debt) will validate the transaction, because under the rules of
+Hawalah, the purchaser of debt (if it is on the face value) will have recourse to the original
+debtor and Gharar is removed.
+Other examples of Gharar-based invalid transactions are short-selling of shares, the sale
+of conventional derivatives and the insurance business. Futures sales of shares, in which
+delivery of the shares is not given and taken and only a difference in price is adjusted, trading
+in shares of provisionally listed companies or speculation in shares and Forex business, in
+which only the difference is netted and delivery does not take place, are other examples of
+Gharar-based transactions.
+However, speculation per se, which means sale/purchase keeping in mind possible change
+in prices in the future, is not prohibited. It is only such sales that may involve the sale of
+nonexistent and not owned goods/shares and Maisir/Qim ¯ar that are prohibited. 19
+5.5.3 Avoiding Riba
+As discussed in detail in previous chapters, Riba is an increase that has no corresponding
+consideration in an exchange of an asset for another asset. The increase without corresponding
+consideration could be either in exchange or loan transactions. As Islamic banks and financial
+institutions are involved in real sector trading activities as well as the creation of debt as a
+result of credit transactions, they must give special consideration to avoiding Riba lest their
+income might go to the Charity Account due to non-Shar ¯ı´ah compliance. In the conventional
+sense, the cost of funds amounts to Riba and they have to make profit by way of pricing the
+goods or usufruct of assets and not by lending.
+18 Already discussed in detail in Chapter 3.
+19 Usmani, 1999, pp. 74, 75, 89–91.
+
+
+----- p.112 (pdf 140) -----
+
+
+112 Understanding Islamic Finance
+5.5.4 Avoiding Qim ¯ar and Maisir (Games of Chance)
+Qim¯ar includes every form of gain or money, the acquisition of which depends purely on
+luck and chance. Maisir means getting something too easily or getting a profit without
+working for it. All contracts involving Qim ¯ar and Maisir are prohibited. Present-day lotteries
+and prize schemes based purely on luck come under this prohibition. Dicing and wagering
+are rightly held to be within the definition of gambling and Maisir. Therefore, Islamic banks
+cannot launch any such schemes or products. 20
+5.5.5 Prohibition of Two Mutually Contingent Contracts
+Two mutually contingent and inconsistent contracts have been prohibited by the holy Prophet
+(pbuh). This refers to
+1. The sale of two articles in such a way that one who intends to purchase an article is
+obliged to purchase the other also at any given price.
+2. The sale of a single article for two prices when one of the prices is not finally stipulated
+at the time of the execution of the sale.
+3. Contingent sale.
+4. Combining sale and lending in one contract.
+In order to avoid this prohibition, jurists consider it preferable that a contract of sale must
+relate to only one transaction, and different contracts should not be mixed in such a way that
+the reward and liability of contracting parties involved in a transaction are not fully defined.
+Therefore, rather than signing a single contract to cover more than one transaction, parties
+should enter into separate transactions under separate contracts.
+Islamic banks may come across a number of transactions in which there could be inter-
+dependent agreements or stipulations that have to be avoided. The combination of some
+contracts is permissible subject to certain conditions:
+• Bai‘ (sale) and Ijarah (leasing) are two contracts of totally different impacts; while
+ownership and risk are transferred to the buyer in Bai‘, neither ownership nor risk transfer
+from the lessor to the lessee. It is necessary, therefore, that lease and sale are kept as
+separate agreements. In Islamic banks’ Ijarah Muntahia-bi-Tamleek (lease culminating in
+transfer of ownership to the lessee), the relationship between the parties throughout the
+lease period remains that of the lessor and lessee and the bank remains liable for the risks
+and expenses relating to ownership. Transferring ownership risk to the lessee during the
+lease period would render the transaction void. However, one of the parties can undertake
+a unilateral promise to sell, buy or gift the asset at the termination of the lease period.
+This will not be binding on the other party.
+• Shirkah and Ijarah can be combined, meaning that a partner can give his part of ownership
+in an asset on lease to any co-partners. Jurists are unanimous about the permissibility
+of leasing one’s undivided share in a property to any other partner. 21 However, sale of
+ownership units to the client in Diminishing Musharakah will have to be kept totally
+separate, requiring “offer and acceptance” for each unit.
+20 Already discussed in detail in Chapter 3. Also see Saleh, 1986.
+21 Usmani, 2000a, p. 86.
+
+
+----- p.113 (pdf 141) -----
+
+
+Islamic Law of Contracts and Business Transactions 113
+• Musharakah and Mudarabah can also be combined. For example, banks manage deposi-
+tors’ funds on the basis of Mudarabah; they can also deploy their funds in the business
+with the condition that the ratio of profit for a sleeping partner cannot be more than the
+ratio that their capital has in the total capital.
+• Contracts of agency (Wakalah) and suretyship (Kafalah) can also be combined with sale
+or lease contracts, with the condition that the rights and liabilities arising from various
+contracts are taken as per their respective rules. As per present practice of Islamic banks,
+Wakalah is an important component of Murabaha, Salam and Istisna‘a agreements.
+• Islamic banks can structure products by combining different modes subject to the fulfil-
+ment of their respective conditions. For example, they can combine Salam or Istisna‘a
+with Murabaha for preshipment export financing. Diminishing Musharakah is also a com-
+bination of Shirkah and Ijarah, added by an undertaking by one party to periodically
+sell/purchase the ownership to/from another partner.
+Similarly, the exchange of two liabilities is prohibited. Transactions between two parties
+involve an exchange of any of the following types: corporeal property for corporeal property,
+corporeal property for a corresponding liability or a liability for another liability. Each one
+of these can be immediate for both parties or delayed for both or immediate for one party
+and delayed for the other. In this way, Ibn Rushd has identified nine kinds of sales. 22 Out
+of the above categories of exchange, an exchange involving delay from both sides is not
+permitted as it amounts to the exchange of a debt for a debt, which is prohibited. That is
+why full prepayment is necessary for valid contracts of Salam. Some further details on “two
+deals in one transaction” are given in Chapter 6.
+5.5.6 Conformity of Contracts with the Maqasid of Shar ¯ı´ah
+The injunctions of the Shar ¯ı´ah are directed towards the realization of various objectives for
+the welfare of mankind. The objectives of the Shar ¯ı´ah have been emphasized in a large
+number of the texts of the Qur’ ¯an and Sunnah. Any contract or transaction that militates
+against any of these objectives is invalid in Shar ¯ı´ah. It is quite obvious that the rights of
+fellow beings have to be honoured in respect of all transactions. The rights of Allah (SWT)
+in Shar ¯ı´ah also refer to everything that involves the benefit of the community at large. In
+this sense, they correspond with public rights in modern law. Therefore, any contract should
+not be against the benefits of the public at large. 23
+5.5.7 Profits with Liability
+This principle states that a person is entitled to profit only when he bears the risk of loss in
+business. It operates in a number of contracts such as the contract of sale, hire or partnership.
+Any excess over and above the principal sum paid to the creditor by the debtor is prohibited
+because the creditor does not bear any business risk with regard to the amount lent. In sale
+and lease agreements, parties have to bear risk as per the requirements of the respective
+contracts.
+22 Ibn Rushd, 1950, 2, p. 125.
+23 Mansoori, 2005, pp. 11, 12.
+
+
+----- p.114 (pdf 142) -----
+
+
+114 Understanding Islamic Finance
+5.5.8 Permissibility as a General Rule
+Everything that is not prohibited is permissible. The principle of permissibility establishes
+the fact that all agreements and conditions contained in them are permissible as long as they
+do not contradict any explicit text of the Qur’ ¯an or Sunnah.
+Individuals are not always in a position to conduct exchange transactions on a spot
+payment basis. Many times, one of the two counter values to an exchange transaction is not
+exchanged simultaneously, as happens in credit (Mu’ajjal) or forward (Salam) transactions.
+The validity of these transactions requires certain rules. Such contracts are discussed in detail
+in various other chapters.
+5.6 W‘ADAH (PROMISE) AND RELATED MATTERS
+In W‘adah or ‘Ahd, one party binds itself to do some action for the other. ’Ahd generally does
+not create legal obligation but in certain cases it becomes legally binding and enforceable.
+This is where the promisee has incurred some expenses or taken some liability as a result
+of the promise. Contingent promises are also considered binding.
+Keeping in mind the intricacies of present-day business, particularly when conducted by
+Islamic banks, contemporary scholars have reached the consensus that W‘adah is enforceable
+by law until and unless the promisor is not in a position to fulfil it on account of any force
+majeure. If nonfulfilment is due to any wilful act of the promisor, he has to make good
+the loss to the promisee. 24 For example, A promises to sell next month a house to B (a
+bank) for $100 000, but subsequently he sells the house to C before the month elapses. A
+would be liable to make up any actual loss incurred by the bank, since it might have made
+arrangements to lease the house or to sell it or to use it for accommodation for its staff and
+thus incurred costs.
+Let’s say A asks bank B to purchase for him a motor car and promises to buy it from B
+at $20 000. After B purchases it for the total cost of $18 000, A backs out; B sells it in the
+market for $17 000. Now the net loss of $1000 will have to be borne by A, which the bank
+can recover from his security or token money (Hamish Jiddiyah).
+The rationale behind this consensus decision is that, in many cases, binding promises
+become a genuine requirement, the fulfilment of which does not amount to violation of any
+basic Shar¯ı´ah tenet. For example, importers need to hedge their foreign exchange needs, but
+since forward contracts of gold, silver or any monetary units are not allowed as per Islamic
+principles relating to Bai‘ al Sarf, they can do this through unilateral promise by any of the
+parties. Thus, they can take foreign currency forward cover for genuine business activities
+allowed by the Shar ¯ı´ah scholars on the basis of promise and simultaneous exchange of the
+currencies at the agreed time.
+Some scholars have criticized Islamic banks for treating the “promise to purchase” by the
+client as binding. But as it does not involve violation of any major Shar ¯ı´ah principle, many
+edicts have declared it binding, keeping in mind the practical problems in finalization of
+contracts. Quoting the arguments of both sides, Dylan Ray concludes:
+“Having examined these Fatwas, it seems clear that from the point of view of the medieval
+Fiqh sources, the only correct view is that the promise to purchase ought not to be binding.
+24 For details see Vogel and Hayes, 1998, pp. 125–128.
+
+
+----- p.115 (pdf 143) -----
+
+
+Islamic Law of Contracts and Business Transactions 115
+However, modern Muslim jurists do not at all consider themselves bound by their predecessors,
+and most Islamic banks consider the promise to purchase as binding. Further, they require collateral
+against the possibility of the promise being dishonoured. This reasoned departure from medieval
+Fiqh demonstrates that important developments are occurring in the way Islamic judgements are
+constructed. These developments are creating a degree of conflict among Islamic legal scholars,
+and objections have been raised against the Murabaha transaction as it is currently practised.”
+In the opinion of this author, it does not involve any conflict. It seems that Ray has
+not thoroughly read the position and importance of promise in Islamic Shar ¯ı´ah. Many
+traditional jurists, particularly the Malikis, Hanbalis and some Hanafi and Shafi‘e, and almost
+all contemporary jurists have accepted the legal effectiveness of promise if understanding
+between the promisor and the promisee takes place in commercial dealings with mutual
+consent. According to them, fulfilling a promise is mandatory and a promisor is under moral
+as well as legal obligation to fulfil his promise. In this regard, Shaikh Taqi Usmani says:
+“This view is ascribed to Samurah b. Jundub, the well-known companion of the holy Prophet
+‘Umar B. Abdul Aziz, Hasan al-Basri, Sa‘id b. al-Ashwa’, Ishaq b. Rahwaih and Imam Bukhari.
+The same is the view of some Maliki jurists, and it is preferred by Ibn-al-Arabi and Ibn-al-Shat,
+and endorsed by al-Ghazzali, the famous Shafi‘e jurist, who says the promise is binding if it is
+made in absolute terms. The same is the view of Ibn Shubruma”. 25 The third view is presented by
+some Maliki jurists. They say that in normal conditions, promise is not binding, but if the promisor
+has caused the promise to incur some expenses or undertake some labour or liability on the basis
+of promise, it is mandatory on him to fulfil his promise for which he may be compelled by the
+courts.26
+Further, this does not contradict any Nass (text) of the Qur’ ¯an or Sunnah and therefore
+can be accepted on the principle of Ib ¯ahatul Asliyah.
+The Islamic Fiqh Academy of the OIC has made the promise in commercial dealings
+binding with the following conditions:
+1. The promise should be unilateral or one-sided.
+2. The promisor must have caused the promisee to incur some liabilities or expenses.
+3. If the promise is to purchase something, the actual sale must take place at the appointed
+time by the exchange of offer and acceptance. Mere promise itself should not be taken
+as the actual sale.
+4. If the promisor backs out of his promise, the court may force him either to purchase
+the commodity or pay actual damages to the seller. The actual damages will include the
+actual monetary loss suffered by him, but will not include the opportunity cost. 27
+According to the majority of scholars, Muwa‘adah or Mu‘ahidah (bilateral promise) is
+not allowed in situations where ‘Aqd is not allowed (e.g. forward currency contracts), and
+thus not enforceable by law. However, some scholars of the subcontinent consider bilateral
+promise as enforceable by law except for the bilateral promises in transactions like short-
+selling of currencies or shares of joint stock companies. Notwithstanding the binding nature
+of promise, the difference between a contract (‘Aqd) and a bilateral promise is that the
+ownership in bilateral promise is not transferred at the time of signing the promise, while in
+25 Al Muhallah, 8: 28; Bukhari, al-Sahih, al Shahadat; Ghazali, 3: 133, cf. Usmani, 2000a, p. 122.
+26 For detail see Usmani, 2000a, pp. 120–126.
+27 OIC Fiqh Academy, 5th Conference, Resolution Nos. 2 and 3.
+
+
+----- p.116 (pdf 144) -----
+
+
+116 Understanding Islamic Finance
+‘Aqd, not only the ownership transfers but also the rules of inheritance apply as soon as it
+is executed.
+The binding nature of promise has important implications for Islamic banks’ operations
+in respect of Murabaha to Purchase Orderer, Ijarah-wal-Iqtina‘, Diminishing Musharakah,
+which is used by many Islamic banks in the world for housing finance, and for the disposal
+of goods purchased by banks under Salam/Istisna‘a.
+5.6.1 Token Money (Hamish Jiddiyah) and ‘Arb ¯un
+In the case of binding promises, Islamic banks take token money from the promisee clients,
+which is the amount taken from them to convey seriousness in purchasing the relevant
+commodity/asset. In Arabic, this is called Hamish Jiddiyah – the margin reflecting the firm
+intention of the promisee. Banks hold token money as a trust and adjust it in price at the time
+of the execution of the sale. This means that Hamish Jiddiyah is taken before the execution
+of an agreement, as against ‘Arb ¯un, which is taken from the buyer as part of the price after
+execution of the sale agreement. In cases where the bank undertakes some activities and
+incurs expenses in purchasing the asset for onward sale to the promisee, and the latter fails
+to honour the “promise to purchase”, the bank can recover the actual loss from the promisee;
+the excess/remaining amount of Hamish Jiddiyah will have to be given back to the client.
+The actual loss does not cover the loss in respect of “cost of funds”. 28 ‘Arb¯un is the earnest
+money given at the time of execution of the sale as part of the price.
+Such amounts are also taken in tenders, in which the bidders show their intention to
+purchase an asset at a certain price and instantly give a part of it to the seller who has called
+the bid. If the bid is accepted, the amount becomes part of the price. So the amount is treated
+as a trust until the time of bidding and the nonsuccessful bidders have the right to get it
+back. Bidders can cover actual damage sustained in the bidding process. 29
+The seller, after execution of the sale against a part payment, has the right to retain the
+whole amount of ‘Arb ¯un if the other party has failed to perform within the period stipulated
+in the agreement. The AAOIFI, however, considers it preferable to refund the amount over
+and above the loss actually sustained by the seller. 30
+In recent years, ‘Arb ¯un has become a subject of intensive research in respect of finding
+any alternative to the conventional options. It therefore warrants some detail. Imam Malik
+has defined ‘Arb ¯un in the following words: “It is when a person buys a slave or rents an
+animal and says to the seller or the owner of the animal, ‘I will give you one dinar or one
+dirham or more or less and if I ratify the sale or the rent contract, the amount I gave will
+be part of the total price. And if I cancel the deal, then what I gave will be for you without
+any exchange’.” 31 He considers this deal invalid.
+Two traditions are reported with regard to ‘Arb ¯un in various books of Hadith, one
+prohibiting and the other allowing ‘Arb ¯un sale. But both of these are considered weak and
+unauthenticated. Among the main schools of Islamic Fiqh, only the Hanbali school considers
+Bai‘ al ‘Arb ¯un a legal contract. They rely mainly on the report from Naf‘i Ibnal Harith,
+28 AAOIFI, 2004–5a, No. 5, p. 66.
+29 AAOIFI, 2004–5a, pp. 65, 66, 76.
+30 AAOIFI, 2004–5a, pp. 65, 66, 76.
+31 Al-Baji, 1332AH, 4, p. 158.
+
+
+----- p.117 (pdf 145) -----
+
+
+Islamic Law of Contracts and Business Transactions 117
+an officer at Makkah deputed by Caliph Umar (Gbpwh), which states that he bought from
+Safwan Ibn Umayyah a prison house for Caliph Umar (Gbpwh) for four thousand dirhams
+on condition that if the Caliph approved of it, the deal would be final, otherwise Safwan
+would be given four hundred dirhams. 32
+The majority of contemporary jurists are of the view that if a buyer in actual sale
+transactions stipulates by his free will and without any duress that he will either finalize the
+deal within so many days or the sale will be considered cancelled and the seller will get
+the amount given in advance, it could be considered legal. But open options, even in valid
+sales, wherein the parties have no intention to buy and want profit simply by transferring
+risk to the other party, are against the basic philosophy of Islamic finance. That is why
+conventional options have not been accepted as genuine instruments in Islamic finance. We
+shall discuss this in detail in Chapter 8. Here, we can briefly say that the concept of ‘Arb ¯un
+is acceptable to the extent of part payment after finalization of the deal. Its legality as a
+separate sale, i.e. Bai‘ al ‘Arb ¯un, and its implications for the legality of conventional options
+are not acceptable, in general, to scholars.
+5.7 TYPES OF CONTRACTS
+Contracts can be classified with respect to a number of perspectives. With respect to validity
+or otherwise as per Shar ¯ı´ah rules, jurists in general divide contracts into two types, namely:
+valid (Sahih) and invalid (Batil) contracts. A valid contract is one that satisfies all of its
+conditions, while an invalid contract is one in which one or more conditions for legality are
+violated.33
+Hanafis, however, divide contracts into three categories of valid (Sahih), voidable/defective
+(F¯asid) and void (Batil). Thus, they divide the void contracts into defective/irregular (F ¯asid)
+and invalid categories. 34 If one studies the details of these categories in books by the Hanafi
+jurists, one may face some confusion regarding this categorization unless deep understanding
+is developed by thorough and extensive study. That is why Zuhayli, while discussing voidable
+contracts according to Hanafis, says:
+“I have distinguished between examples of invalid and defective sales to avoid confusion, in
+contrast to what most books of Hanafi jurisprudence discuss under the heading of defective sales.
+The majority of such books use the term ‘defective sales’ to mean the more general category of
+‘defective and invalid sales’, i.e. all sales that are legally prohibited. It is also common for the
+authors of such books to use the term ‘defective’ (F ¯asid), when they really mean ‘invalid’ (Batil).
+The reader is then forced to infer their meaning from the surrounding text or by telling statements
+such as their saying: ‘thus the contract does not become valid’ in the case of invalid sales, and
+‘thus the contract returns to being valid’ in the case of defective ones.”
+In the following pages, we will be discussing the three categories as described by Hanafis
+because these provide more options for practitioners to apply the Islamic law of contracts in
+modern-day operations.
+32 Ibnul Qayyim, 1955, 3.
+33 Zuhayli, 2003, 1,p .7 4 .
+34 For details see Zuhayli, 2003, pp. 71, 72.
+
+
+----- p.118 (pdf 146) -----
+
+
+118 Understanding Islamic Finance
+5.7.1 Valid Contracts
+The validity of any contract depends on the legality or illegality of the subject matter, the
+existence and precise determination of the subject matter, delivery or the ability to deliver
+the subject matter without involvement of excessive uncertainty and precise determination
+of the price or consideration in a contract.
+A valid contract is one which is in accordance with Islamic law, both as regards its ’Asl
+(fundamental components, nature or essence) and Wasf (accessory circumstances or external
+attributes). A contract is deemed valid when all elements of the contract (form or offer
+and acceptance, the subject matter and the contracting parties) are found to be in order; the
+conditions of each element have been met and it is free from external prohibited activities
+like Riba, Gharar, etc. The form of the contract requires conformity between offer and
+acceptance, their issuance in the same session and the existence of Ijab until the issuance
+of Qabul. It also requires that parties to the contract must be sane and mature in age and
+that the subject matter must be permissible, in existence, deliverable and known. (Petty
+purchases of edibles by children that do not create any rights or liabilities for any of the
+parties are exempt; however, the seller has to ensure that the children do not get involved in
+harmful things. Similarly, day-to-day transactions in which offer and acceptance is implied
+are exempt.)
+A valid contract assigns all its effects which the Shar ¯ı´ah has determined for it. It becomes
+effective (Nafiz) upon execution if not suspended (Mawquf), in which case it is enforced
+upon the removal of the cause of suspension. Some jurists, including Hanafis, Malikis and
+some Hanbalis, are of the view that the effectiveness of a valid contract can be delayed until
+the happening of a future event. To them, a valid contract can be either Nafiz (immediately
+effective) or Mawquf (suspended or tied to any future event). According to Shawafi‘e and
+some of the Hanbalis, however, a valid contract must be effective immediately upon its
+execution. A Nafiz contract is one in which the elements are found to be in order, the
+conditions are met, the external attributes are legal and it is not suspended or dependent
+upon ratification.
+Contracts Effective Instantly or from a Future Date
+Jurists allow the contracts of Ijarah and Istisna‘a (manufacturing upon order) to become
+effective from a future date because a person does not own usufructs immediately as he
+does in the case of a sale contract, but he owns them gradually, so time is considered in
+such contracts. Kafalah (suretyship) and Hawalah (assignment of debt) are also considered
+to be contracts effective from a future date. A Kafil is not required to pay debt immediately
+when the contract is concluded. So it is valid if the surety were to say to the creditor: “If
+your debtor has not paid off his debt to you by the beginning of next month, I will make the
+payment”. Similarly, agency, divorce and Waqf are valid from a future date. A contract of
+bequest, by its nature, also admits delay, as it cannot be enforced in the life of the legator.
+The contract of Ijarah can be either immediately enforceable or made effective from any
+future date.
+The contract of sale is immediately enforceable in the opinion of all jurists, thus it is not
+permissible to say: “I sell you this house at the beginning of next year”. The jurists see in
+this postponement and delay an element of Gharar. It is like a contract which is contingent
+upon an uncertain event, where the parties do not know whether it will occur or not. In
+this regard, Siddiq al Dharir observes: “Indeed the only Gharar in a future contract lies in
+
+
+----- p.119 (pdf 147) -----
+
+
+Islamic Law of Contracts and Business Transactions 119
+the possible lapse of interest of either party, which may affect his consent when the time
+set therein comes. If someone buys something by ‘Aqd Mudhaf (effective from future) and
+his circumstances change or the market changes bringing its price down at the time set for
+fulfilment of contract, he will undoubtedly be averse to its fulfilment and will regret entering
+into it. Indeed the object may itself change and the two parties may dispute over it”. It is
+pertinent to note that Ibn al-Qayyim and Ibn Taymiyah do not subscribe to the majority
+viewpoint. They maintain that ‘Aqd Mudhaf is permissible, without distinction between a
+sale contract and a leasing contract. 35
+To avoid any juristic issue, contemporary scholars suggest arranging a unilateral promise
+for regular contracts in the future.
+Mawquf (Suspended) Contracts
+The following may be causes for suspending the effects of a valid contract:
+1. Defective capacity of any of the parties, e.g. a transaction by a minor which has the
+likelihood of both benefit and harm is valid subject to ratification, which may be accorded
+by the guardian after the transaction and before the minor attains puberty, or by the
+minor himself after puberty if the guardian did not object before his attaining puberty.
+The status of such a contract is that if ratification is granted, it acts retrospectively from
+the date of the contract, but if ratification is refused, the contract becomes void.
+2. Lack of proper authority, i.e. the person acting as agent does not have proper authority
+over the principal – the contract by a Fuduli (a person who is neither guardian nor agent,
+or if he is an agent, he transgresses the limits prescribed by the principal). It is also
+subject to ratification as in case 1 above.
+3. The right of any third party. If the owner sells a property mortgaged by someone, it will
+be subject to ratification by the mortgagee. If a house owned by A is mortgaged with
+a bank, A cannot sell it, and if he enters into a contract to sell it, it will be a Mawquf
+contract. The bank would demand that his debt be paid first. It is important to observe that
+before ratification, the buyer has the right to revoke the contract but the mortgagor/seller
+has no right to revoke the contract of sale made by him.
+Binding (L ¯azim) and nonbinding Contracts
+Contracts which are Sahih and Nafiz can be divided into L ¯azim (binding) and Ghair L ¯azim
+(nonbinding) contracts. A L ¯azim contract is one in which none of the parties has the unilateral
+right to revoke (without the consent of the other) unless an option (Khiyar-al-Shart) has
+been granted to a party by virtue of which the right to revoke can be exercised. A contract
+is Ghair L ¯azim if any of the parties has a right to revoke it without the consent of the other.
+There are two reasons why a contract might be nonbinding or revocable:
+1. The nature of the contract. Some contracts are nonbinding by nature; both parties are
+allowed to revoke independently. Examples of such contracts are Wakalah (agency),
+Kafalah (suretyship), Shirkah (partnership), Wadi‘ah (deposits or Am ¯anah), and ‘ ¯Ariyah
+(commodity given for use without any compensation or rent). These contracts are ter-
+minable by any of the parties. But if the parties mutually agree that none of them will
+35 For further details, see Mansoori, 2005, pp. 181–185.
+
+
+----- p.120 (pdf 148) -----
+
+
+120 Understanding Islamic Finance
+terminate up to a specified period, the contract will no longer be revocable unilaterally.
+Accordingly, in Islamic banks’ investment deposits based on the Shirkah principle, the
+banks can restrict the depositors to withdrawal before the settled date by putting a clause
+to this effect in the agreement, i.e. the account opening form. Shareholders of joint stock
+companies also cannot terminate their shareholding. They can simply transfer their part
+through the sale of shares in the market.
+2. An option (Khiyar-al-Shart) stipulated in the contract prevents it from becoming L ¯azim
+until the time of Khiyar is over. The party possessing the Khiyar of recession can revoke
+the contract within the period of the option without the consent of the other party. 36
+5.7.2 Voidable (F ¯asid) Contracts
+A contract that is legal in its ’Asl, i.e. it has all the elements of a contract, but is not legal
+in its Wasf, i.e. with respect to external or nonessential attributes of the contract, will not
+necessarily be void, rather it will be voidable or F ¯asid, and can be regularized or validated
+by removing the cause of irregularity.
+If a contract is structured in a way that is prohibited, it can, under certain circumstances,
+be rectified by removal of the objectionable clause, or it may result in the entire contract
+being annulled. If conditions of less importance, like minute specifications of subject matter,
+are not fulfilled, the contract will be capable of ratification, but will be void due to defect
+until the defect is removed or compliance with the Shar ¯ı´ah conditions is achieved. If the
+defect is rectified, the contract becomes valid.
+Causes of Irregularity in Voidable (F ¯asid) Contracts
+Causes of invalidity are of two types:
+1. Intrinsic causes which relate to the basic elements of the contract, such as unlawfulness
+or nonexistence of the subject matter, or the absence of contractual capacity in any of the
+parties.
+2. Extrinsic causes that relate to Wasf, i.e. external attributes such as Riba or Gharar
+contained in the contract.
+It is pertinent to note that Riba and Gharar are causes of irregularity of a contract in
+Hanafi law, while in other schools they are causes of invalidity of a contract. However, even
+in Hanafi law, a Riba- or Gharar-based contract is not enforceable and only removal of the
+term involving Riba or Gharar would validate it. For some detail, the following may be the
+major factors rendering contracts irregular or voidable:
+• Defective consent. The majority of jurists hold that a contract made under coercion is a
+void or Batil contract. However, Hanafi jurists consider it a voidable or F ¯asid contract
+which can be regularized by ratification. In other words, it is a suspended contract which
+is subject to ratification. Ratification of an irregular contract is possible before possession
+as well as after it.
+36 Mansoori, 2005, p. 82.
+
+
+----- p.121 (pdf 149) -----
+
+
+Islamic Law of Contracts and Business Transactions 121
+• Lack of any value-relevant information (Gharar or Jahl). If the contract lacks any such
+information for any of the parties that may lead to dispute, the contract is F ¯asid. The lack
+of information affecting the validity of contracts can be of the following types:
+— Relating to the subject matter, e.g. indeterminate object in a sale contract or uniden-
+tified/not sufficiently defined asset in an Ijarah contract. In Ijarah Mosufah bil
+Zimmah,37 which is permissible, the asset might not be exactly identified but should
+be sufficiently described as to leave no ambiguity regarding the use or usufruct to be
+taken.
+— Lack of information about consideration, e.g. one definite price is not settled or the
+price is kept subject to change at the discretion of any or both of the parties.
+— Lack of information about the time of performance in sale, lease and other binding
+contracts. A partnership contract is not invalidated due to indeterminacy of the period,
+because a partnership is a nonbinding contract in its origin.
+— Lack of information about the guarantee, surety or the pledge. It is necessary that in
+the case of a credit, the security, guarantee or the pledge must be identified and made
+known to the creditor.
+• Defect due to any invalid condition not being collateral to the contract or not admitted by
+the commercial usage or which gives benefit to one of the parties at the cost of another.
+Invalid and defective conditions may make a transaction voidable. 38 The following types
+of conditions may be deemed to be invalid or not permissible:
+— When it is against the purpose of the contract, such as stipulating that the buyer will
+not sell the asset he is purchasing or he will not rent it out, or stipulating in a marriage
+contract that the husband will not establish a matrimonial relationship with his wife.
+— When it is expressly prohibited by the Shar ¯ı´ah, like selling an article on the condition
+that the purchaser will sell something else to the buyer or lend him some money
+or make him a gift. Such conditions are prohibited because Islamic law expressly
+prohibits the combination of (i) two mutually inconsistent contracts and (ii) a loan
+and a sale. A genuine credit sale of any commodity is one transaction and, therefore,
+perfectly permissible in Islamic law.
+— When it is against the commercial usage, such as a condition by the purchaser of corn
+that the seller will grind it, or a condition by a buyer of a piece of cloth that the seller
+will sew it.
+— When it is advantageous to one party at the cost of the other party. For example,
+where the seller reserves for himself an advantage from the sale, such as the condition
+that he shall reside in the house sold for a period of two months after the sale, or he
+will lend him some money. 39
+It is pertinent to note here that these irregular conditions affect only compensatory con-
+tracts, such as contracts of sale, hiring, etc., and do not affect gratuitous contracts, such as
+37 In Ijarah Mosufah bil Zimmah, the lessor undertakes to provide a well-defined service or benefit without identifying any
+particular units of asset rendering the related service. For example, an Islamic bank may require a transporter to pick up and drop
+its officers from their houses to the office on air-conditioned vans of a defined nature. In this case, any particular van is not hired,
+neither will the destruction of any van terminate the lease contract; the lessor has to arrange the vans as per the agreement.
+38 There are three types of conditions according to Hanafis: valid, defective and invalid; see Zuhayli, 2003, 1, pp. 123–131.
+39 Mansoori, 2005, pp. 157–163.
+
+
+----- p.122 (pdf 150) -----
+
+
+122 Understanding Islamic Finance
+loan, gift, donation, Waqf, or contracts of suretyship, such as Kafalah, mortgage, Hawalah
+(assignment of debt) or the contract of marriage. Irregular conditions in the latter contracts
+do not invalidate them. Only the invalid condition is abrogated. The other part of the contract
+remains valid and effective.
+Joint ventures in early Islamic society traditionally took the form of Shirkah and
+Mudarabah in trade and industry and Muzara‘a and Musaqat in agriculture. A valid Shirkah
+entitled the parties to a share in the profits of business. If the contract of Shirkah or Mudarabah
+failed to comply with legal requirements, it was treated as void (Batil) or voidable (F ¯asid)
+depending upon the nature of violation. It was here that the jurists distinguished between the
+functions of different factors and assigned to them different portions of income according
+to the role that they had played in the process of production or in providing the service.
+In such voidable contracts, the parties that help in production or assist the rendering of
+service are allowed a matching wage, except the capital provider, who claims the residual.
+As payment of wages and other charges supersedes the calculation of profit, the owner of
+capital may be a loser if the earnings do not exceed this liability. In order to protect the
+owner from this situation, jurists have introduced the concept of matching the rate of profit
+(Ribh-al-mithl), matching rates in Mudarabah, etc. in addition to the concept of matching
+wages.
+Some Forms of Voidable Contracts
+Hanafi jurists have identified some forms of F ¯asid or voidable contracts. These are:
+• Bai‘ al-Majh ¯ul (lacking any material information). This refers to a sale in which the
+object of sale or its price or the time of payment remains unknown and unspecified.
+• Contingent contract. This is a contract that is contingent upon an uncertain event. For
+example, A says to B: “I sell to you my house if X sells to me his house”.
+• Sales contract effective from a future date. A sale becomes effective as soon as it is
+executed. If a contract says that the sale will come into effect from a future date, it will
+be voidable and will be of no effect.
+• Bai‘ al-Gh ¯aib. This is a sale of an item which is not visible at the meeting of the parties;
+the seller has title over the subject matter but it is not available for inspection of the
+parties because it is elsewhere. This has to be regularized by seeing. However, if the
+parties are satisfied with the description of the item of sale and there is no chance of
+Gharar, the contract is valid.
+• Sale contract with unlawful consideration. This refers to a sale whose consideration or
+price is something prohibited by Islamic law, such as wine or pork.
+• Two sales in one. This is where a single contract relates to two sales, such as selling one
+commodity for two prices, one being cash and the other a credit price, thus making the
+contract binding against one of the two prices without specifying either. 40
+Legal Status of the F ¯asid (Voidable) Contract
+A voidable contract must be revoked without the consent of either party. Therefore, no rights
+or obligations arise. However, if the cause of defect or irregularity is removed, the contract
+40 For detail see Zuhayli, 2003, 1, pp. 102–123.
+
+
+----- p.123 (pdf 151) -----
+
+
+Islamic Law of Contracts and Business Transactions 123
+becomes valid. The legal position of such a contract depends upon whether the goods have
+been delivered or not. For example, if the subject of sale, not previously identified, is
+mutually identified, the sale contract is valid. If a lender has put the condition of interest in
+a loan contract, the condition of charging interest is invalid and if this condition is removed,
+the loan contract becomes valid and the debtor has to pay only the principal sum of the
+loan. Here, the rule may be kept in mind that noncommutative contracts (like the contract
+of loan) do not become void with a void condition. Only the condition has to be removed.
+If the buyer in a voidable sale (due to unidentified subject matter, for example) takes
+possession of an item or an object with the consent of the seller, ownership will pass on to
+him and he will be liable to pay the value agreed with mutual consent or the market value
+and not necessarily the price fixed in the earlier agreement. In this regard, Majallah points
+out: “In Bai‘ F ¯asid, where the buyer has received the object with permission of the seller, he
+becomes the owner.” 41 However, the parties can still revoke it if the buyer has not disposed
+of it. In such a case, if the seller wishes to get the commodity back, he must first pay the
+purchase money to the buyer. Until such recompense, the goods are held by the purchaser
+as a pledge. But if the buyer has disposed of the property by onward sale or donation or
+added or subtracted from it, or changed it in such a way that it can no longer be regarded
+as the same object, then there is no right for either party to annul the contract. Thus, where
+the buyer has sold the property, this second sale is valid and legally enforceable; it cannot
+be obstructed in Islamic law by the fact that the first sale was irregular. 42
+As such, a valid contract can be differentiated from a voidable contract in the following
+manner:
+• Ownership in a valid contract is transferred from the seller to the purchaser by mere
+offer and acceptance, whereas in a voidable contract it is transferred to him by possession
+taken with the consent of the seller.
+• In a voidable sale, the value of the commodity, i.e. its market price, is admissible, whereas
+in a valid contract, an agreed price is paid. In a voidable lease contract, the lessor is
+entitled to equitable and proper rent (according to the market rate) and not to the rent
+specified in the original lease agreement. Similarly, in a voidable partnership, each partner
+gets the profit in proportion to his capital and not according to the agreement.
+5.7.3 Void (Batil) Contracts
+Contracts that do not fulfil the conditions relating to offer and acceptance, subject matter,
+consideration and possession or delivery, or involve some illegal external attributes are
+considered void (Batil). In other words, if major conditions relating to the form of the
+contract (acceptance does not conform to the offer, or the offer does not exist at the time of
+acceptance, etc.), parties to the contract (sane and mature), possession and deliverability of
+the subject matter are not fulfilled, the contract is Batil. 43
+The sale of a thing having an element of absolute uncertainty or speculation is not valid,
+for example, the sale of milk in the udder of a cow is not a valid sale. Similarly, a sale
+with unknown consideration and until an unknown period, the sale of a dirham for two
+41 Al-Atasi, 1403 AH, Majallah, Article 371.
+42 Mansoori, 2005, pp. 87–89. Also see for detail Zuhayli, 2003, 1, pp. 139–144.
+43 Mansoori, 2005, pp. 90–94.
+
+
+----- p.124 (pdf 152) -----
+
+
+124 Understanding Islamic Finance
+dirhams, bidding over the bid (after the two parties have reached an agreement on the
+price)44 and contracts actuated by fraud or deceit are examples of invalid contracts. In
+contrast, permissible forms of Bai‘ include Salam (or Salaf), selling through bidding, Bai‘
+al Khiyar (option to rescind), Musawamah (bargain on price), Murabaha (bargain on profit
+margin), etc.
+A Batil contract does not give rise to any effect, i.e. the buyer will not have the title to the
+subject matter; the seller will not have the title to price or the consideration; ownership will
+not transfer and the transaction will be null and void. If delivery of the goods has already
+been made, the same would have to be returned to the other party regardless of whether
+such illegality was known to the parties. If the buyer sells the goods to a third party after
+taking delivery, the original seller cannot be prevented from claiming the goods. The reason
+is that ownership cannot be transferred through a contract that is Batil. This Hukm is clearly
+different from that of a F ¯asid contract, which has been discussed above.
+5.8 COMMUTATIVE AND NONCOMMUTATIVE CONTRACTS
+With respect to the consideration or counter value in exchange, contracts are of two types.
+The first are Uqood-e-Mu‘awadha, or compensatory/commutative contracts, as a result of
+which one party can get remuneration or compensation – like sale, purchase, lease and
+Wakalah contracts. The other kind is that of Uqood Ghair Mu‘awadha or noncommutative
+contracts, wherein one cannot get any return or compensation – like contracts of loan
+(Qard), gift (Tabarru/Hibah), guarantee (Kafalah) and assignment of debt (Hawalah). Any
+consideration in the contracts of loans, guarantee, against guarantee per se and assignment
+of debt would be illegal.
+5.8.1 Uqood-e-Mu‘awadha (Commutative Contracts)
+Among commutative contracts (sale, hire and manufacturing), sale contracts can be further
+classified as follows:
+Classification according to object:
+• Bai‘ Muqayadhah (barter sale);
+• Bai‘ al H ¯al (simultaneous exchange of goods for money, spot sale);
+• Bai‘ al Sarf (exchange of money or monetary units);
+• Bai‘ Salam (sale with immediate payment and deferred delivery);
+• Bai‘ Mu’ajjal (deferred payment sale, commonly known as a credit sale);
+• Bai‘ Mutlaq (normal sale of goods for money, also called absolute sale).
+Classification according to price:
+• Bai‘ Tawliyah (resale at cost price);
+• Bai‘ Murabaha (resale at cost price plus profit – bargaining on profit margin);
+44 Imam Malik says regarding prohibition of bidding against each other and outbidding. “There is no harm, however, in more than
+one person bidding against each other over goods put up for sale.” He said: “Were people to leave off haggling when the first
+person started haggling, an unreal price might be taken and the disapproved would enter into the sale of the goods. This is still the
+way of doing things among us.”
+
+
+----- p.125 (pdf 153) -----
+
+
+Islamic Law of Contracts and Business Transactions 125
+• Bai‘ Wadhi‘ah (resale with loss); (The above three forms of sale are termed Buyu’al Amanat
+or trust sales)
+• Bai‘ Musawamah (sale without any reference to the original cost price-bargaining on price).
+Ijarah or the contract of hiring is divided into:
+• Ijarat al Ashkhas (rendering services);
+• Ijarat al Ashya (letting things).
+Istisna‘a (contract of manufacturing).
+Wakalah can be both commutative and noncommutative contracts.
+5.8.2 Uqood Ghair Mu‘awadha (Tabarru‘) or Gratuitous Contracts
+The main feature of these contracts is the donation of property. The donor transfers ownership
+of any property to a party without consideration. The following contracts fall under this
+category:
+• Hibah (gift);
+• Wasiyyah (bequest);
+• Waqf (endowment);
+• Kafalah (guarantee);
+• ‘ ¯Ariyah (loan of usable item free of any charge); 45
+• Loan (Qard);
+• Hawalah (assignment of debt).
+Among these contracts, Kafalah, Qard and Hawalah are directly relevant to Islamic banking
+operations, but they cannot charge any profit against these contracts per se . However, they
+can charge fees for other services provided on the basis of Wakalah or Ju‘alah. For example,
+while issuing L/Cs, guarantees, etc., banks can charge for their services depending upon
+expenses incurred for issuing guarantees. These charges can be amount-based (possibly
+slabs) but not time-based.
+5.8.3 Legal Status of Commutative and Noncommutative Contracts
+Compensatory/commutative contracts like sale, purchase, lease and other remunerative agree-
+ments become void by inserting any void condition. Noncompensatory/voluntary agreements
+do not become void because of a void condition. The void condition itself becomes inef-
+fective. For example, a person enters into an interest-based loan; the condition of charging
+interest on the loan would be void but the loan contract will remain effective, the debtor
+will have to repay the loan/debt as it becomes due. Similarly, Gharar (uncertainty) does not
+invalidate noncompensatory contracts; for example, jurists indicate that donation of a stray
+or unidentified animal or fruit before its benefits are evident or a usurped commodity is
+permissible, but their sale is not valid.
+45 For example, the holy Prophet (pbuh) took iron chest plates on the basis of ‘ ¯Ariyah at the time of Ghazwa-e-Hunain; Mubarakpuri,
+1996, p. 563 (Abu Daud, 1952, Kitab al Buyu’).
+
+
+----- p.126 (pdf 154) -----
+
+
+126 Understanding Islamic Finance
+5.9 CONDITIONAL OR CONTINGENT CONTRACTS
+As a general rule, conditional contracts are not valid. This, however, requires some detail
+and some conditions could be acceptable. We find discussion in the Fiqh literature on three
+types of stipulations/conditions:
+1. T‘aliq – conditions which suspend a contract to any future event.
+2. Idafa – an extension that delays the beginning of any contract until a future time.
+3. Iqtiran (concomitance) that varies the terms of the contract. 46
+In all these cases the contract may or may not be void even if the condition is void. Various
+jurists differ with regard to the result of stipulation. Both Hanafis and Hanbalis allow some
+delay in beginning contracts like lease of agency (where property is transferred only over
+time) until any future event, but not for sale. 47
+As regards concomitant conditions, all schools consider whether the condition agrees to
+or is in conflict with the purpose of the contract. For example, a stipulation that the buyer
+pays the price or the seller transfers full title is a valid stipulation. They also approve the
+condition that the buyer will pay in certain coins/currency or provide a pledge as security.
+However, they do not approve a condition that the buyer will never resell the object. The
+conditions that pose problems are those by which any of the parties gets an additional benefit.
+Here, jurists differ but Ibn Taymiyah has taken a practical approach by rejecting only those
+conditions which are in contradiction with the Qur’ ¯an and Sunnah or the Ijma‘a, or which
+contradict the very object of the contract.
+As regards the overall view of different schools of thought, Hanbali jurists emphasize the
+supremacy of the discretion of contracting parties and allow every condition and stipulation
+as long as it does not contradict any text from the Qur’ ¯an or the Sunnah. The Hanafi, Sh ¯afi’¯i
+and Maliki jurists divide conditions into valid, irregular and void.
+Valid conditions are those that confirm the effects attributed to juridical acts by the
+Shar¯ı´ah and which are admitted explicitly by it, such as the option of stipulation (Khiyar
+al-Shart) reserved for a party to revoke or ratify a contract within specified days. Such a
+condition is valid because the Shar ¯ı´ah has sanctioned the option of stipulation and the option
+of inspection (Khiyar al-Ru’yah). The stipulation to sell on the condition that the seller will
+not hand over the goods to the buyer unless he pays the price is also a valid condition,
+because it stresses and confirms the effects of the contract and realizes its objective. 48
+A condition in aid of a contract is valid, like a sale with a condition that the vendor
+in the cash sale will have possession of the property when the price is paid, or a sale on
+condition that the buyer should pledge something to the vendor as security for the price. 49
+Similarly, any condition which is customary to embody in a contract will be upheld. 50 If a
+F¯asid (invalid) condition is put into a contract that is otherwise valid, the condition will be
+void while the contract will be valid and enforceable, i.e. without regard to that condition. 51
+46 Sanhuri 3: 134–172; cf Vogel and Hayes, 1998, p. 100.
+47 Al-Atasi, 1403 AH, Majallah Articles 408–440; Ibn Qudama, 1367 AH, 6, pp. 6–7.
+48 Mansoori, 2005, pp. 157–163.
+49 Al-Atasi, 1403 AH, Majallah Articles 186, 187.
+50 Tirmidhi, 1988, No. 1276. (Jaber bought a camel from the holy Prophet and a condition of a ride to the home was put into the
+contract). Also, Al-Atasi, 1403 AH, Majallah, Article 188.
+51 Nisai, n.d., 7, p. 300.
+
+
+----- p.127 (pdf 155) -----
+
+
+Islamic Law of Contracts and Business Transactions 127
+A condition which is not of advantage to either party is regarded as superfluous and
+cannot be enforced. A condition which is repugnant to a contract or transfer of ownership
+but is of advantage to one of the parties will make the transaction debauched if made an
+inseparable part of it. 52
+A void condition is any condition which directly infringes any rule of the Shar ¯ı´ah, or
+inflicts harm on one of the two contracting parties or derogates from completion of the
+contract. We can therefore conclude our discussion on the subject of conditions in contracts
+by stating that a condition or stipulation which is not against the main purpose of the contract
+is a valid condition. Similarly, a condition which has become a normal practice in the market
+is not void provided it is not against any explicit injunctions of the Holy Qur’ ¯an or Sunnah.
+For example, a condition that the seller will provide five years’ guarantee and one year’s
+free service is not void, neither is the availability of a warranty against defective goods a
+problem. Similarly, conditions may be imposed in a sale regarding the service or repair of
+any manufactured item sold to a buyer. The parties can give each other an option to cancel
+a transaction during a given period after the conclusion of that transaction.
+5.10 SUMMARY
+All commercial transactions must be governed by the respective rules and norms of Islamic
+ethics, as enunciated by the Shar ¯ı´ah. The Islamic system disapproves of any exploitation or
+injustice on the part of any of the parties involved. To achieve this objective, the Shar ¯ı´ah
+has advised some prohibitions and recommended some ethics. Detailed study of the rules
+and norms reveals that Islamic finance is, in essence, an ethical system and ethics need to
+be an inseparable part of the system.
+What is not prohibited is permissible. Therefore, all contracts are valid unless they violate
+the text of the Holy Qur’ ¯an or Sunnah of the holy Prophet (pbuh), or are in conflict with the
+objectives of the Shar ¯ı´ah.
+A property is either a specific existent object (‘Ayn), e.g. a house, or an object defined
+generically or abstractly by an obligation (Dayn). One can subdivide sale according to the
+types of Mabi‘ being exchanged. The mode of Murabaha can be used in trading of ‘Ayn
+and merchandise and not in credit documents or Dayn.
+The prohibition of sale of a debt for a debt affects when obligations (to perform or to
+pay) are delayed, and when such obligations may be bought, sold or otherwise transferred.
+In a transaction, any of the two counter values can be postponed, i.e. payment of the price,
+or delivery of the commodity. While the former is a credit sale or Bai‘ Mu’ajjal, the latter
+refers to a future sale wherein the goods sold are to be supplied later against prepaid price
+(Salam).
+Any contracts must be made as explicit as possible in order to avoid Gharar and injustice
+to any of the parties. A clause in the contract allowing a change in liability beyond the control
+of the liable party would be unjust, e.g. the client in Murabaha agrees that the bank can
+change his liability whenever the latter likes, or the client agrees to automatic compensation
+for the bank in case of his failure to meet the liability.
+Commercial contracts have to be concluded at a price that is agreed mutually without
+uncertainty or hazard (Gharar) with regard to the subject matter and the counter value or
+52 Vogel and Hayes, 1998, p. 101; Al-Atasi, 1403 AH, Majallah, Article 189.
+
+
+----- p.128 (pdf 156) -----
+
+
+128 Understanding Islamic Finance
+consideration and the seller’s ability to deliver. A valid contract must comprise the following
+intrinsic elements:
+• The form, i.e. offer and acceptance, which can be conveyed by spoken words, in writing
+or through indication and conduct. The acceptance should conform to the offer in all its
+details.
+• The contracting parties, who must have the capacity for execution.
+• The subject matter, which must be lawful, in actual existence at the time of the contract
+and should be capable of being delivered and precisely determined either by description
+or by inspection/examination.
+If the contract is one of sale, it must be noncontingent and effective immediately, because
+the sale of goods attributable to the future is void in the opinion of the majority of scholars.
+The arrangement of “two contracts into one contract” is not permissible in Shar ¯ı´ah;
+therefore, we cannot have the agreement of hire and purchase in one contract, we can only
+undertake/promise to purchase the leased asset.
+Promise in commercial transactions can be binding or nonbinding. It can be legally
+enforceable, particularly if the promisee incurs some expenses or liability as required by the
+promise. Therefore, if the promisor backs out from fulfilling the promise, the other party
+can claim for the actual loss that could arise due to nonfulfilment of the promise.
+The validity of the contract requires that its motivating and underlying cause should be
+according to the requirements of the Shar ¯ı´ah. All contracts that promote immorality or are
+against public welfare, are harmful to a person or property of a third party or which are
+forbidden by law are deemed to be void.
+Generally, Islam prohibits all transactions that depend just on chance and speculation,
+those in which the rights of the contracting parties are not clearly defined and those that
+enable some to amass wealth at the expense of others and which could result in litigation.
+Such transactions involve appropriation of other’s wealth without right or justice. Practices
+like Riba, Gharar, fraud, dishonesty, false assertions and breach of contracts and promises
+also lead to injustice. In every instance of prohibited business conduct one can discern an
+element of injustice, either to one of the contracting parties or to the general public. In some
+such cases, the injustice may not be apparent, yet it is always there. In order to nip evil in
+the bud, Islam seeks to block all those channels that eventually lead to injustice. 53
+53 For further details on Islamic law see: Hassan, 1993; Qadri, 1963, pp. 97–113.
+

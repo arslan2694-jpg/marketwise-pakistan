@@ -1,0 +1,2550 @@
+{
+  "book": {
+    "title": "Understanding Islamic Finance",
+    "author": "Muhammad Ayub",
+    "publisher": "John Wiley & Sons",
+    "pdfPageOffset": 28,
+    "totalPdfPages": 544,
+    "note": "pdfPage = printedPage + pdfPageOffset for chapters 1-18 (front matter uses roman numerals and is excluded from this offset)."
+  },
+  "parts": [
+    {
+      "part": "I",
+      "title": "Fundamentals",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "startPage": 1
+    },
+    {
+      "part": "II",
+      "title": "Contractual Bases in Islamic Finance",
+      "chapters": [
+        5,
+        6,
+        7
+      ],
+      "startPage": 99
+    },
+    {
+      "part": "III",
+      "title": "Islamic Finance - Products and Procedures",
+      "chapters": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "startPage": 177
+    }
+  ],
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "title": "Introduction",
+      "part": "I",
+      "startPage": 3,
+      "startPdfPage": 31,
+      "sections": [
+        {
+          "sectionNumber": "1.1",
+          "title": "Economic Scenario in the Neoclassical Framework",
+          "page": 3,
+          "pdfPage": 31,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.2",
+          "title": "Conventional Debt: A Recipe for Exploitation",
+          "page": 4,
+          "pdfPage": 32,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.3",
+          "title": "Growth per se May not Lead to Socio-economic Justice",
+          "page": 6,
+          "pdfPage": 34,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.4",
+          "title": "Social Welfare Activities of the States",
+          "page": 8,
+          "pdfPage": 36,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.5",
+          "title": "The Main Culprit",
+          "page": 8,
+          "pdfPage": 36,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.6",
+          "title": "The Need of the Hour",
+          "page": 9,
+          "pdfPage": 37,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.7",
+          "title": "Economics and Religion",
+          "page": 10,
+          "pdfPage": 38,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.8",
+          "title": "Islamic Principles Can Make the Difference",
+          "page": 11,
+          "pdfPage": 39,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.9",
+          "title": "Regulating Trade and Business",
+          "page": 13,
+          "pdfPage": 41,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.10",
+          "title": "Islamic Finance Passing Significant Milestones",
+          "page": 15,
+          "pdfPage": 43,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.11",
+          "title": "Could it Work to Achieve the Objectives?",
+          "page": 16,
+          "pdfPage": 44,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "1.12",
+          "title": "About this Book",
+          "page": 17,
+          "pdfPage": 45,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 2,
+      "title": "Distinguishing Features of the Islamic Economic System",
+      "part": "I",
+      "startPage": 21,
+      "startPdfPage": 49,
+      "sections": [
+        {
+          "sectionNumber": "2.1",
+          "title": "Introduction",
+          "page": 21,
+          "pdfPage": 49,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "2.2",
+          "title": "Islamic Shar i'ah and its Objectives",
+          "page": 21,
+          "pdfPage": 49,
+          "subsections": [
+            {
+              "subsectionNumber": "2.2.1",
+              "title": "Sources of Shar i'ah Tenets",
+              "page": 21,
+              "pdfPage": 49
+            },
+            {
+              "subsectionNumber": "2.2.2",
+              "title": "Objectives (Maqasid) of Shar i'ah",
+              "page": 22,
+              "pdfPage": 50
+            }
+          ]
+        },
+        {
+          "sectionNumber": "2.3",
+          "title": "Why Study Islamic Economics?",
+          "page": 25,
+          "pdfPage": 53,
+          "subsections": [
+            {
+              "subsectionNumber": "2.3.1",
+              "title": "The Role of Islamic Economists",
+              "page": 27,
+              "pdfPage": 55
+            }
+          ]
+        },
+        {
+          "sectionNumber": "2.4",
+          "title": "Islamic Economics: What should it be?",
+          "page": 30,
+          "pdfPage": 58,
+          "subsections": [
+            {
+              "subsectionNumber": "2.4.1",
+              "title": "Islamic Economics Defined",
+              "page": 31,
+              "pdfPage": 59
+            }
+          ]
+        },
+        {
+          "sectionNumber": "2.5",
+          "title": "Paraphernalia of Islamic Economics",
+          "page": 32,
+          "pdfPage": 60,
+          "subsections": [
+            {
+              "subsectionNumber": "2.5.1",
+              "title": "Ownership of Resources and Property Rights",
+              "page": 33,
+              "pdfPage": 61
+            },
+            {
+              "subsectionNumber": "2.5.2",
+              "title": "Islamic Welfare Approach",
+              "page": 34,
+              "pdfPage": 62
+            },
+            {
+              "subsectionNumber": "2.5.3",
+              "title": "The Factors of Production",
+              "page": 35,
+              "pdfPage": 63
+            },
+            {
+              "subsectionNumber": "2.5.4",
+              "title": "Restrained Individual Freedom",
+              "page": 37,
+              "pdfPage": 65
+            },
+            {
+              "subsectionNumber": "2.5.5",
+              "title": "Liberalism versus State Intervention",
+              "page": 38,
+              "pdfPage": 66
+            }
+          ]
+        },
+        {
+          "sectionNumber": "2.6",
+          "title": "Summary",
+          "page": 41,
+          "pdfPage": 69,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 3,
+      "title": "The Main Prohibitions and Business Ethics in Islamic Economics and Finance",
+      "part": "I",
+      "startPage": 43,
+      "startPdfPage": 71,
+      "sections": [
+        {
+          "sectionNumber": "3.1",
+          "title": "Introduction",
+          "page": 43,
+          "pdfPage": 71,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "3.2",
+          "title": "The Basic Prohibitions",
+          "page": 43,
+          "pdfPage": 71,
+          "subsections": [
+            {
+              "subsectionNumber": "3.2.1",
+              "title": "Prohibition of Riba",
+              "page": 44,
+              "pdfPage": 72
+            },
+            {
+              "subsectionNumber": "3.2.2",
+              "title": "Prohibition of Gharar",
+              "page": 57,
+              "pdfPage": 85
+            },
+            {
+              "subsectionNumber": "3.2.3",
+              "title": "Prohibition of Maisir/Qimar (Games of Chance)",
+              "page": 61,
+              "pdfPage": 89
+            }
+          ]
+        },
+        {
+          "sectionNumber": "3.3",
+          "title": "Business Ethics and Norms",
+          "page": 64,
+          "pdfPage": 92,
+          "subsections": [
+            {
+              "subsectionNumber": "3.3.1",
+              "title": "Justice and Fair Dealing",
+              "page": 64,
+              "pdfPage": 92
+            },
+            {
+              "subsectionNumber": "3.3.2",
+              "title": "Fulfilling the Covenants and Paying Liabilities",
+              "page": 67,
+              "pdfPage": 95
+            },
+            {
+              "subsectionNumber": "3.3.3",
+              "title": "Mutual Cooperation and Removal of Hardship",
+              "page": 68,
+              "pdfPage": 96
+            },
+            {
+              "subsectionNumber": "3.3.4",
+              "title": "Free Marketing and Fair Pricing",
+              "page": 68,
+              "pdfPage": 96
+            },
+            {
+              "subsectionNumber": "3.3.5",
+              "title": "Freedom from Dharar (Detriment)",
+              "page": 69,
+              "pdfPage": 97
+            }
+          ]
+        },
+        {
+          "sectionNumber": "3.4",
+          "title": "Summary and Conclusion",
+          "page": 70,
+          "pdfPage": 98,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 4,
+      "title": "The Philosophy and Features of Islamic Finance",
+      "part": "I",
+      "startPage": 73,
+      "startPdfPage": 101,
+      "sections": [
+        {
+          "sectionNumber": "4.1",
+          "title": "Introduction",
+          "page": 73,
+          "pdfPage": 101,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "4.2",
+          "title": "The Philosophy of Islamic Finance",
+          "page": 73,
+          "pdfPage": 101,
+          "subsections": [
+            {
+              "subsectionNumber": "4.2.1",
+              "title": "Avoiding Interest",
+              "page": 74,
+              "pdfPage": 102
+            },
+            {
+              "subsectionNumber": "4.2.2",
+              "title": "Avoiding Gharar",
+              "page": 75,
+              "pdfPage": 103
+            },
+            {
+              "subsectionNumber": "4.2.3",
+              "title": "Avoiding Gambling and Games of Chance",
+              "page": 76,
+              "pdfPage": 104
+            },
+            {
+              "subsectionNumber": "4.2.4",
+              "title": "Alternative Financing Principles",
+              "page": 76,
+              "pdfPage": 104
+            },
+            {
+              "subsectionNumber": "4.2.5",
+              "title": "Valid Gains on Investment",
+              "page": 78,
+              "pdfPage": 106
+            },
+            {
+              "subsectionNumber": "4.2.6",
+              "title": "Entitlement to Profit – With Risk and Responsibility",
+              "page": 81,
+              "pdfPage": 109
+            },
+            {
+              "subsectionNumber": "4.2.7",
+              "title": "Islamic Banks Dealing in Goods not in Money",
+              "page": 82,
+              "pdfPage": 110
+            },
+            {
+              "subsectionNumber": "4.2.8",
+              "title": "Transparency and Documentation",
+              "page": 83,
+              "pdfPage": 111
+            },
+            {
+              "subsectionNumber": "4.2.9",
+              "title": "Additional Risks Faced by Islamic Banks",
+              "page": 84,
+              "pdfPage": 112
+            }
+          ]
+        },
+        {
+          "sectionNumber": "4.3",
+          "title": "Debt versus Equity",
+          "page": 85,
+          "pdfPage": 113,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "4.4",
+          "title": "Islamic Banking: Business versus Benevolence",
+          "page": 86,
+          "pdfPage": 114,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "4.5",
+          "title": "Exchange Rules",
+          "page": 87,
+          "pdfPage": 115,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "4.6",
+          "title": "Time Value of Money in Islamic Finance",
+          "page": 89,
+          "pdfPage": 117,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "4.7",
+          "title": "Money, Monetary Policy and Islamic Finance",
+          "page": 90,
+          "pdfPage": 118,
+          "subsections": [
+            {
+              "subsectionNumber": "4.7.1",
+              "title": "Status of Paper Money",
+              "page": 91,
+              "pdfPage": 119
+            },
+            {
+              "subsectionNumber": "4.7.2",
+              "title": "Trading in Currencies",
+              "page": 91,
+              "pdfPage": 119
+            },
+            {
+              "subsectionNumber": "4.7.3",
+              "title": "Creation of Money from the Islamic Perspective",
+              "page": 92,
+              "pdfPage": 120
+            },
+            {
+              "subsectionNumber": "4.7.4",
+              "title": "Currency Rate Fluctuation and Settlement of Debts",
+              "page": 94,
+              "pdfPage": 122
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 5,
+      "title": "Islamic Law of Contracts and Business Transactions",
+      "part": "II",
+      "startPage": 101,
+      "startPdfPage": 129,
+      "sections": [
+        {
+          "sectionNumber": "5.1",
+          "title": "Introduction",
+          "page": 101,
+          "pdfPage": 129,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "5.2",
+          "title": "Mal (Wealth), Usufruct and Ownership",
+          "page": 101,
+          "pdfPage": 129,
+          "subsections": [
+            {
+              "subsectionNumber": "5.2.1",
+              "title": "Defining Various Related Terms",
+              "page": 103,
+              "pdfPage": 131
+            }
+          ]
+        },
+        {
+          "sectionNumber": "5.3",
+          "title": "General Framework of Contracts",
+          "page": 105,
+          "pdfPage": 133,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "5.4",
+          "title": "Elements of a Contract",
+          "page": 106,
+          "pdfPage": 134,
+          "subsections": [
+            {
+              "subsectionNumber": "5.4.1",
+              "title": "Offer and Acceptance: Form of the Contract",
+              "page": 106,
+              "pdfPage": 134
+            },
+            {
+              "subsectionNumber": "5.4.2",
+              "title": "Elements of the Subject Matter",
+              "page": 108,
+              "pdfPage": 136
+            }
+          ]
+        },
+        {
+          "sectionNumber": "5.5",
+          "title": "Broad Rules for the Validity of Mu‘amal¯at",
+          "page": 110,
+          "pdfPage": 138,
+          "subsections": [
+            {
+              "subsectionNumber": "5.5.1",
+              "title": "Free Mutual Consent",
+              "page": 110,
+              "pdfPage": 138
+            },
+            {
+              "subsectionNumber": "5.5.2",
+              "title": "Prohibition of Gharar",
+              "page": 110,
+              "pdfPage": 138
+            },
+            {
+              "subsectionNumber": "5.5.3",
+              "title": "Avoiding Riba",
+              "page": 111,
+              "pdfPage": 139
+            },
+            {
+              "subsectionNumber": "5.5.4",
+              "title": "Avoiding Qimar and Maisir (Games of Chance)",
+              "page": 112,
+              "pdfPage": 140
+            },
+            {
+              "subsectionNumber": "5.5.5",
+              "title": "Prohibition of Two Mutually Contingent Contracts",
+              "page": 112,
+              "pdfPage": 140
+            },
+            {
+              "subsectionNumber": "5.5.6",
+              "title": "Conformity of Contracts with the Maqasid of Shar i'ah",
+              "page": 113,
+              "pdfPage": 141
+            },
+            {
+              "subsectionNumber": "5.5.7",
+              "title": "Profits with Liability",
+              "page": 113,
+              "pdfPage": 141
+            },
+            {
+              "subsectionNumber": "5.5.8",
+              "title": "Permissibility as a General Rule",
+              "page": 114,
+              "pdfPage": 142
+            }
+          ]
+        },
+        {
+          "sectionNumber": "5.6",
+          "title": "W‘adah (Promise) and Related Matters",
+          "page": 114,
+          "pdfPage": 142,
+          "subsections": [
+            {
+              "subsectionNumber": "5.6.1",
+              "title": "Token Money (Hamish Jiddiyah) and ‘Arbun",
+              "page": 116,
+              "pdfPage": 144
+            }
+          ]
+        },
+        {
+          "sectionNumber": "5.7",
+          "title": "Types of Contracts",
+          "page": 117,
+          "pdfPage": 145,
+          "subsections": [
+            {
+              "subsectionNumber": "5.7.1",
+              "title": "Valid Contracts",
+              "page": 118,
+              "pdfPage": 146
+            },
+            {
+              "subsectionNumber": "5.7.2",
+              "title": "Voidable (Fasid) Contracts",
+              "page": 120,
+              "pdfPage": 148
+            },
+            {
+              "subsectionNumber": "5.7.3",
+              "title": "Void (Batil) Contracts",
+              "page": 123,
+              "pdfPage": 151
+            }
+          ]
+        },
+        {
+          "sectionNumber": "5.8",
+          "title": "Commutative and Noncommutative Contracts",
+          "page": 124,
+          "pdfPage": 152,
+          "subsections": [
+            {
+              "subsectionNumber": "5.8.1",
+              "title": "Uqood-e-Mu‘awadha (Commutative Contracts)",
+              "page": 124,
+              "pdfPage": 152
+            },
+            {
+              "subsectionNumber": "5.8.2",
+              "title": "Uqood Ghair Mu‘awadha (Tabarru‘) or Gratuitous Contracts",
+              "page": 125,
+              "pdfPage": 153
+            },
+            {
+              "subsectionNumber": "5.8.3",
+              "title": "Legal Status of Commutative and Noncommutative Contracts",
+              "page": 125,
+              "pdfPage": 153
+            }
+          ]
+        },
+        {
+          "sectionNumber": "5.9",
+          "title": "Conditional or Contingent Contracts",
+          "page": 126,
+          "pdfPage": 154,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "5.10",
+          "title": "Summary",
+          "page": 127,
+          "pdfPage": 155,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 6,
+      "title": "Trading in Islamic Commercial Law",
+      "part": "II",
+      "startPage": 129,
+      "startPdfPage": 157,
+      "sections": [
+        {
+          "sectionNumber": "6.1",
+          "title": "Introduction",
+          "page": 129,
+          "pdfPage": 157,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "6.2",
+          "title": "Bai‘ – Exchange of Values",
+          "page": 130,
+          "pdfPage": 158,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "6.3",
+          "title": "Legality of Trading",
+          "page": 131,
+          "pdfPage": 159,
+          "subsections": [
+            {
+              "subsectionNumber": "6.3.1",
+              "title": "Trade (Profit) versus Interest: Permissibility versus Prohibition",
+              "page": 132,
+              "pdfPage": 160
+            }
+          ]
+        },
+        {
+          "sectionNumber": "6.4",
+          "title": "Types of Bai‘",
+          "page": 133,
+          "pdfPage": 161,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "6.5",
+          "title": "Requirements of a Valid Sale Contract",
+          "page": 133,
+          "pdfPage": 161,
+          "subsections": [
+            {
+              "subsectionNumber": "6.5.1",
+              "title": "The Object of the Sale Contract",
+              "page": 135,
+              "pdfPage": 163
+            },
+            {
+              "subsectionNumber": "6.5.2",
+              "title": "Prices and the Profit Margin",
+              "page": 138,
+              "pdfPage": 166
+            },
+            {
+              "subsectionNumber": "6.5.3",
+              "title": "Cash and Credit Prices",
+              "page": 139,
+              "pdfPage": 167
+            }
+          ]
+        },
+        {
+          "sectionNumber": "6.6",
+          "title": "Riba Involvement in Sales",
+          "page": 142,
+          "pdfPage": 170,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "6.7",
+          "title": "Ghara r – A Cause of Prohibition of Sales",
+          "page": 143,
+          "pdfPage": 171,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "6.8",
+          "title": "Conditional Sales and “Two Bargains in One Sale”",
+          "page": 144,
+          "pdfPage": 172,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "6.9",
+          "title": "Bai‘ al‘Arbun (Downpayment Sale)",
+          "page": 145,
+          "pdfPage": 173,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "6.11",
+          "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
+          "page": 147,
+          "pdfPage": 175,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "6.12",
+          "title": "Options in Sales (Khiyar)",
+          "page": 150,
+          "pdfPage": 178,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "6.13",
+          "title": "Summary",
+          "page": 152,
+          "pdfPage": 180,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 7,
+      "title": "Loan and Debt in Islamic Commercial Law",
+      "part": "II",
+      "startPage": 155,
+      "startPdfPage": 183,
+      "sections": [
+        {
+          "sectionNumber": "7.1",
+          "title": "Introduction",
+          "page": 155,
+          "pdfPage": 183,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.2",
+          "title": "The Terms Defined",
+          "page": 155,
+          "pdfPage": 183,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.3",
+          "title": "Illegality of Commercial Interest",
+          "page": 157,
+          "pdfPage": 185,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.4",
+          "title": "Loaning and the Banking System",
+          "page": 158,
+          "pdfPage": 186,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.5",
+          "title": "Guidance from the Holy Qur’an on Loans and Debts",
+          "page": 159,
+          "pdfPage": 187,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.6",
+          "title": "The Substance of Loans",
+          "page": 159,
+          "pdfPage": 187,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.7",
+          "title": "Repayment of the Principal Only",
+          "page": 160,
+          "pdfPage": 188,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.8",
+          "title": "Time Value of Money in Loans and Debts",
+          "page": 160,
+          "pdfPage": 188,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.9",
+          "title": "Instructions for the Debtor",
+          "page": 161,
+          "pdfPage": 189,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.10",
+          "title": "Instructions for the Creditor",
+          "page": 162,
+          "pdfPage": 190,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.11",
+          "title": "Husnal Qadha (Gracious Payment of Loan/Debt)",
+          "page": 162,
+          "pdfPage": 190,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.12",
+          "title": "Remitting a Part of a Loan and Prepayment Rebate",
+          "page": 163,
+          "pdfPage": 191,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.13",
+          "title": "Penalty on Default",
+          "page": 165,
+          "pdfPage": 193,
+          "subsections": [
+            {
+              "subsectionNumber": "7.13.1",
+              "title": "Insolvency of the Debtor",
+              "page": 167,
+              "pdfPage": 195
+            }
+          ]
+        },
+        {
+          "sectionNumber": "7.14",
+          "title": "Hawalah (Assignment of Debt)",
+          "page": 167,
+          "pdfPage": 195,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.15",
+          "title": "Security/Guarantee (Kafalah) in Loans",
+          "page": 168,
+          "pdfPage": 196,
+          "subsections": [
+            {
+              "subsectionNumber": "7.15.1",
+              "title": "Risk and Reward in Pledge",
+              "page": 170,
+              "pdfPage": 198
+            },
+            {
+              "subsectionNumber": "7.15.2",
+              "title": "Benefits from Pledge",
+              "page": 171,
+              "pdfPage": 199
+            }
+          ]
+        },
+        {
+          "sectionNumber": "7.16",
+          "title": "Bai‘ al Dayn (Sale of Debt/Debt Instruments)",
+          "page": 172,
+          "pdfPage": 200,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.17",
+          "title": "Impact of Inflation on Loans/Debts",
+          "page": 172,
+          "pdfPage": 200,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "7.18",
+          "title": "Summary",
+          "page": 174,
+          "pdfPage": 202,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 8,
+      "title": "Overview of Financial Institutions and Products: Conventional and Islamic",
+      "part": "III",
+      "startPage": 179,
+      "startPdfPage": 207,
+      "sections": [
+        {
+          "sectionNumber": "8.1",
+          "title": "Introduction",
+          "page": 179,
+          "pdfPage": 207,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "8.2",
+          "title": "What is Banking or a Bank?",
+          "page": 179,
+          "pdfPage": 207,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "8.3",
+          "title": "The Strategic Position of Banks and Financial Institutions",
+          "page": 180,
+          "pdfPage": 208,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "8.4",
+          "title": "Categories of Conventional Financial Business",
+          "page": 181,
+          "pdfPage": 209,
+          "subsections": [
+            {
+              "subsectionNumber": "8.4.1",
+              "title": "Commercial Banking",
+              "page": 181,
+              "pdfPage": 209
+            },
+            {
+              "subsectionNumber": "8.4.2",
+              "title": "Investment Banking",
+              "page": 184,
+              "pdfPage": 212
+            },
+            {
+              "subsectionNumber": "8.4.3",
+              "title": "Other NBFIs",
+              "page": 185,
+              "pdfPage": 213
+            },
+            {
+              "subsectionNumber": "8.4.4",
+              "title": "Conventional Financial Markets",
+              "page": 185,
+              "pdfPage": 213
+            }
+          ]
+        },
+        {
+          "sectionNumber": "8.5",
+          "title": "The Need for Islamic Banks and NBFIs",
+          "page": 185,
+          "pdfPage": 213,
+          "subsections": [
+            {
+              "subsectionNumber": "8.5.1",
+              "title": "The Structure of Islamic Banking",
+              "page": 186,
+              "pdfPage": 214
+            },
+            {
+              "subsectionNumber": "8.5.2",
+              "title": "The Deposits Side of Islamic Banking",
+              "page": 188,
+              "pdfPage": 216
+            },
+            {
+              "subsectionNumber": "8.5.3",
+              "title": "Instruments on the Assets Side",
+              "page": 191,
+              "pdfPage": 219
+            }
+          ]
+        },
+        {
+          "sectionNumber": "8.6",
+          "title": "The Issue of Mode Preference",
+          "page": 195,
+          "pdfPage": 223,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "8.7",
+          "title": "Islamic Investment Banking",
+          "page": 199,
+          "pdfPage": 227,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "8.8",
+          "title": "Islamic Financial Markets and Instruments",
+          "page": 199,
+          "pdfPage": 227,
+          "subsections": [
+            {
+              "subsectionNumber": "8.8.1",
+              "title": "Islamic Funds",
+              "page": 201,
+              "pdfPage": 229
+            },
+            {
+              "subsectionNumber": "8.8.2",
+              "title": "Principles Relating to Stocks",
+              "page": 203,
+              "pdfPage": 231
+            },
+            {
+              "subsectionNumber": "8.8.3",
+              "title": "Investment Sukuk as Islamic Market Instruments",
+              "page": 204,
+              "pdfPage": 232
+            },
+            {
+              "subsectionNumber": "8.8.4",
+              "title": "Trading in Financial Instruments",
+              "page": 205,
+              "pdfPage": 233
+            },
+            {
+              "subsectionNumber": "8.8.5",
+              "title": "Inter-bank Funds Market",
+              "page": 205,
+              "pdfPage": 233
+            },
+            {
+              "subsectionNumber": "8.8.6",
+              "title": "Islamic Forward Markets",
+              "page": 206,
+              "pdfPage": 234
+            },
+            {
+              "subsectionNumber": "8.8.7",
+              "title": "Foreign Exchange Market in the Islamic Framework",
+              "page": 209,
+              "pdfPage": 237
+            },
+            {
+              "subsectionNumber": "8.8.8",
+              "title": "Derivatives and Islamic Finance",
+              "page": 209,
+              "pdfPage": 237
+            }
+          ]
+        },
+        {
+          "sectionNumber": "8.9",
+          "title": "Summary and Conclusion",
+          "page": 211,
+          "pdfPage": 239,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 9,
+      "title": "Murabaha and Musawamah",
+      "part": "III",
+      "startPage": 213,
+      "startPdfPage": 241,
+      "sections": [
+        {
+          "sectionNumber": "9.1",
+          "title": "Introduction",
+          "page": 213,
+          "pdfPage": 241,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "9.2",
+          "title": "Conditions of Valid Bai‘",
+          "page": 214,
+          "pdfPage": 242,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "9.3",
+          "title": "Murabaha – a Bai‘ al Amanah",
+          "page": 215,
+          "pdfPage": 243,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "9.4",
+          "title": "Bai‘ Murabaha in Classical Literature",
+          "page": 215,
+          "pdfPage": 243,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "9.5",
+          "title": "The Need for Murabaha",
+          "page": 216,
+          "pdfPage": 244,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "9.6",
+          "title": "Specific Conditions of Murabaha",
+          "page": 217,
+          "pdfPage": 245,
+          "subsections": [
+            {
+              "subsectionNumber": "9.6.1",
+              "title": "Bai‘ Murabaha and Credit Sale (Murabaha–Mu’ajjal)",
+              "page": 219,
+              "pdfPage": 247
+            }
+          ]
+        },
+        {
+          "sectionNumber": "9.7",
+          "title": "Possible Structures of Murabaha",
+          "page": 220,
+          "pdfPage": 248,
+          "subsections": [
+            {
+              "subsectionNumber": "9.7.1",
+              "title": "Direct Trading by Bank Management",
+              "page": 221,
+              "pdfPage": 249
+            },
+            {
+              "subsectionNumber": "9.7.2",
+              "title": "Bank Purchases Through a Third Party/Agent",
+              "page": 221,
+              "pdfPage": 249
+            },
+            {
+              "subsectionNumber": "9.7.3",
+              "title": "Murabaha Through the Client as Agent",
+              "page": 222,
+              "pdfPage": 250
+            }
+          ]
+        },
+        {
+          "sectionNumber": "9.8",
+          "title": "Murabaha to Purchase Orderer (MPO)",
+          "page": 222,
+          "pdfPage": 250,
+          "subsections": [
+            {
+              "subsectionNumber": "9.8.1",
+              "title": "MPO – A Bunch of Contracts",
+              "page": 224,
+              "pdfPage": 252
+            },
+            {
+              "subsectionNumber": "9.8.2",
+              "title": "Promise to Purchase in Murabaha",
+              "page": 224,
+              "pdfPage": 252
+            },
+            {
+              "subsectionNumber": "9.8.3",
+              "title": "MPO – The Customer as the Bank’s Agent to Buy and Related Matters",
+              "page": 225,
+              "pdfPage": 253
+            }
+          ]
+        },
+        {
+          "sectionNumber": "9.9",
+          "title": "Issues in Murabaha",
+          "page": 229,
+          "pdfPage": 257,
+          "subsections": [
+            {
+              "subsectionNumber": "9.9.1",
+              "title": "Avoiding Buy-back",
+              "page": 230,
+              "pdfPage": 258
+            },
+            {
+              "subsectionNumber": "9.9.2",
+              "title": "Khiyar (Option to Rescind the Sale) in Murabaha",
+              "page": 230,
+              "pdfPage": 258
+            },
+            {
+              "subsectionNumber": "9.9.3",
+              "title": "Time of Executing Murabaha",
+              "page": 231,
+              "pdfPage": 259
+            },
+            {
+              "subsectionNumber": "9.9.4",
+              "title": "Defaults by the Clients",
+              "page": 231,
+              "pdfPage": 259
+            },
+            {
+              "subsectionNumber": "9.9.5",
+              "title": "Rebates on Early Payment",
+              "page": 232,
+              "pdfPage": 260
+            },
+            {
+              "subsectionNumber": "9.9.6",
+              "title": "Rollover in Murabaha",
+              "page": 232,
+              "pdfPage": 260
+            },
+            {
+              "subsectionNumber": "9.9.7",
+              "title": "Murabaha Through Shares",
+              "page": 233,
+              "pdfPage": 261
+            },
+            {
+              "subsectionNumber": "9.9.8",
+              "title": "Commodity Murabaha",
+              "page": 233,
+              "pdfPage": 261
+            }
+          ]
+        },
+        {
+          "sectionNumber": "9.10",
+          "title": "Precautions in Murabaha Operations",
+          "page": 233,
+          "pdfPage": 261,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "9.11",
+          "title": "Musawamah (Bargaining on Price)",
+          "page": 234,
+          "pdfPage": 262,
+          "subsections": [
+            {
+              "subsectionNumber": "9.11.1",
+              "title": "Musawamah as a Mode of Financing",
+              "page": 238,
+              "pdfPage": 266
+            }
+          ]
+        },
+        {
+          "sectionNumber": "9.12",
+          "title": "Summary",
+          "page": 238,
+          "pdfPage": 266,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 10,
+      "title": "Forward Sales: Salam and Istisna‘a",
+      "part": "III",
+      "startPage": 241,
+      "startPdfPage": 269,
+      "sections": [
+        {
+          "sectionNumber": "10.1",
+          "title": "Introduction",
+          "page": 241,
+          "pdfPage": 269,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "10.2",
+          "title": "Bai‘ Salam/Salaf",
+          "page": 241,
+          "pdfPage": 269,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "10.3",
+          "title": "Benefits of Salam and the Economic Role of Bai‘ Salam",
+          "page": 242,
+          "pdfPage": 270,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "10.4",
+          "title": "Features of a Valid Salam Contract",
+          "page": 243,
+          "pdfPage": 271,
+          "subsections": [
+            {
+              "subsectionNumber": "10.4.1",
+              "title": "Subject Matter of Salam",
+              "page": 244,
+              "pdfPage": 272
+            },
+            {
+              "subsectionNumber": "10.4.2",
+              "title": "Payment of Price: Salam Capital",
+              "page": 246,
+              "pdfPage": 274
+            },
+            {
+              "subsectionNumber": "10.4.3",
+              "title": "Period and Place of Delivery",
+              "page": 247,
+              "pdfPage": 275
+            },
+            {
+              "subsectionNumber": "10.4.4",
+              "title": "Khiyar (Option) in Salam",
+              "page": 248,
+              "pdfPage": 276
+            },
+            {
+              "subsectionNumber": "10.4.5",
+              "title": "Amending or Revoking the Salam Contract",
+              "page": 248,
+              "pdfPage": 276
+            },
+            {
+              "subsectionNumber": "10.4.6",
+              "title": "Penalty for Nonperformance",
+              "page": 249,
+              "pdfPage": 277
+            }
+          ]
+        },
+        {
+          "sectionNumber": "10.5",
+          "title": "Security, Pledge and Liability of the Sureties",
+          "page": 249,
+          "pdfPage": 277,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "10.6",
+          "title": "Disposing of the Goods Purchased on Salam",
+          "page": 250,
+          "pdfPage": 278,
+          "subsections": [
+            {
+              "subsectionNumber": "10.6.1",
+              "title": "Alternatives for Marketing Salam Goods",
+              "page": 251,
+              "pdfPage": 279
+            }
+          ]
+        },
+        {
+          "sectionNumber": "10.7",
+          "title": "Salam – Post Execution Scenarios",
+          "page": 252,
+          "pdfPage": 280,
+          "subsections": [
+            {
+              "subsectionNumber": "10.7.1",
+              "title": "Supply of Goods as Per Contract",
+              "page": 252,
+              "pdfPage": 280
+            },
+            {
+              "subsectionNumber": "10.7.2",
+              "title": "Failure in Supply of Goods",
+              "page": 253,
+              "pdfPage": 281
+            },
+            {
+              "subsectionNumber": "10.7.3",
+              "title": "Supply of Inferior Goods",
+              "page": 253,
+              "pdfPage": 281
+            }
+          ]
+        },
+        {
+          "sectionNumber": "10.8",
+          "title": "Salam-Based Securitization – Salam Certificates/Sukuk",
+          "page": 254,
+          "pdfPage": 282,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "10.9",
+          "title": "Summary of Salam Rules",
+          "page": 255,
+          "pdfPage": 283,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "10.10",
+          "title": "Salam as a Financing Technique by Banks",
+          "page": 257,
+          "pdfPage": 285,
+          "subsections": [
+            {
+              "subsectionNumber": "10.10.1",
+              "title": "Risks in Salam and their Management",
+              "page": 258,
+              "pdfPage": 286
+            }
+          ]
+        },
+        {
+          "sectionNumber": "10.11",
+          "title": "Istisna‘a (Order to Manufacture)",
+          "page": 263,
+          "pdfPage": 291,
+          "subsections": [
+            {
+              "subsectionNumber": "10.11.1",
+              "title": "Definition and Concept",
+              "page": 263,
+              "pdfPage": 291
+            },
+            {
+              "subsectionNumber": "10.11.2",
+              "title": "Subject Matter of Istisna‘a",
+              "page": 264,
+              "pdfPage": 292
+            },
+            {
+              "subsectionNumber": "10.11.3",
+              "title": "Price in Istisna‘a",
+              "page": 265,
+              "pdfPage": 293
+            },
+            {
+              "subsectionNumber": "10.11.4",
+              "title": "Penalty Clause: Delay in Fulfilling the Obligations",
+              "page": 266,
+              "pdfPage": 294
+            },
+            {
+              "subsectionNumber": "10.11.5",
+              "title": "The Binding Nature of an Istisna‘a Contract",
+              "page": 266,
+              "pdfPage": 294
+            },
+            {
+              "subsectionNumber": "10.11.6",
+              "title": "Guarantees",
+              "page": 267,
+              "pdfPage": 295
+            },
+            {
+              "subsectionNumber": "10.11.7",
+              "title": "Parallel Contract – Subcontracting",
+              "page": 267,
+              "pdfPage": 295
+            },
+            {
+              "subsectionNumber": "10.11.8",
+              "title": "Istisna‘a and Agency Contract",
+              "page": 268,
+              "pdfPage": 296
+            },
+            {
+              "subsectionNumber": "10.11.9",
+              "title": "Post Execution Scenario",
+              "page": 268,
+              "pdfPage": 296
+            },
+            {
+              "subsectionNumber": "10.11.10",
+              "title": "The Potential of Istisna‘a",
+              "page": 269,
+              "pdfPage": 297
+            },
+            {
+              "subsectionNumber": "10.11.11",
+              "title": "Risk Management in Istisna‘a",
+              "page": 269,
+              "pdfPage": 297
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapterNumber": 11,
+      "title": "Ijarah – Leasing",
+      "part": "III",
+      "startPage": 279,
+      "startPdfPage": 307,
+      "sections": [
+        {
+          "sectionNumber": "11.1",
+          "title": "Introduction",
+          "page": 279,
+          "pdfPage": 307,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "11.2",
+          "title": "Essentials of Ijarah Contracts",
+          "page": 280,
+          "pdfPage": 308,
+          "subsections": [
+            {
+              "subsectionNumber": "11.2.1",
+              "title": "Ijarah and Bai‘ Compared",
+              "page": 280,
+              "pdfPage": 308
+            }
+          ]
+        },
+        {
+          "sectionNumber": "11.3",
+          "title": "General Juristic Rules of Ijarah",
+          "page": 281,
+          "pdfPage": 309,
+          "subsections": [
+            {
+              "subsectionNumber": "11.3.1",
+              "title": "Execution of an Ijarah Contract",
+              "page": 282,
+              "pdfPage": 310
+            },
+            {
+              "subsectionNumber": "11.3.2",
+              "title": "Determination of Rent",
+              "page": 283,
+              "pdfPage": 311
+            },
+            {
+              "subsectionNumber": "11.3.3",
+              "title": "Sub-lease by the Lessee",
+              "page": 284,
+              "pdfPage": 312
+            },
+            {
+              "subsectionNumber": "11.3.4",
+              "title": "Security/Guarantee in Ijarah",
+              "page": 285,
+              "pdfPage": 313
+            },
+            {
+              "subsectionNumber": "11.3.5",
+              "title": "Liabilities of the Parties",
+              "page": 285,
+              "pdfPage": 313
+            },
+            {
+              "subsectionNumber": "11.3.6",
+              "title": "Termination/Amendment of the Contract and Implications",
+              "page": 286,
+              "pdfPage": 314
+            },
+            {
+              "subsectionNumber": "11.3.7",
+              "title": "Failure in Payment of Due Rent",
+              "page": 287,
+              "pdfPage": 315
+            }
+          ]
+        },
+        {
+          "sectionNumber": "11.4",
+          "title": "Modern Use of Ijarah",
+          "page": 287,
+          "pdfPage": 315,
+          "subsections": [
+            {
+              "subsectionNumber": "11.4.1",
+              "title": "Financial Lease or Hire–Purchase",
+              "page": 288,
+              "pdfPage": 316
+            },
+            {
+              "subsectionNumber": "11.4.2",
+              "title": "Security or Financing Lease",
+              "page": 288,
+              "pdfPage": 316
+            },
+            {
+              "subsectionNumber": "11.4.3",
+              "title": "Operating Lease",
+              "page": 289,
+              "pdfPage": 317
+            },
+            {
+              "subsectionNumber": "11.4.4",
+              "title": "Appraisal of Conventional Leases from the Shar i'ah Angle",
+              "page": 289,
+              "pdfPage": 317
+            },
+            {
+              "subsectionNumber": "11.4.5",
+              "title": "Combining Two Contracts",
+              "page": 289,
+              "pdfPage": 317
+            },
+            {
+              "subsectionNumber": "11.4.6",
+              "title": "Takaful/Insurance Expenses",
+              "page": 291,
+              "pdfPage": 319
+            }
+          ]
+        },
+        {
+          "sectionNumber": "11.5",
+          "title": "Islamic Banks’ Ijarah Muntahia-bi-Tamleek",
+          "page": 291,
+          "pdfPage": 319,
+          "subsections": [
+            {
+              "subsectionNumber": "11.5.1",
+              "title": "Procedure for Ijarah Muntahia-bi-Tamleek",
+              "page": 293,
+              "pdfPage": 321
+            },
+            {
+              "subsectionNumber": "11.5.2",
+              "title": "Issues Concerning Modern Use of Ijarah",
+              "page": 295,
+              "pdfPage": 323
+            },
+            {
+              "subsectionNumber": "11.5.3",
+              "title": "Assignment of the Leased Assets and Securitization of Leases",
+              "page": 297,
+              "pdfPage": 325
+            },
+            {
+              "subsectionNumber": "11.5.4",
+              "title": "Potential of Ijarah",
+              "page": 297,
+              "pdfPage": 325
+            }
+          ]
+        },
+        {
+          "sectionNumber": "11.6",
+          "title": "Summary of Guidelines for Islamic Bankers on Ijarah",
+          "page": 298,
+          "pdfPage": 326,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 12,
+      "title": "Participatory Modes: Shirkah and its Variants",
+      "part": "III",
+      "startPage": 307,
+      "startPdfPage": 335,
+      "sections": [
+        {
+          "sectionNumber": "12.1",
+          "title": "Introduction",
+          "page": 307,
+          "pdfPage": 335,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "12.2",
+          "title": "Legality, Forms and Definition of Partnership",
+          "page": 308,
+          "pdfPage": 336,
+          "subsections": [
+            {
+              "subsectionNumber": "12.2.1",
+              "title": "Partnership in Ownership (Shirkatulmilk)",
+              "page": 309,
+              "pdfPage": 337
+            },
+            {
+              "subsectionNumber": "12.2.2",
+              "title": "Partnership by Contract (Shirkatul‘aqd)",
+              "page": 309,
+              "pdfPage": 337
+            }
+          ]
+        },
+        {
+          "sectionNumber": "12.3",
+          "title": "Basic Rules of Musharakah",
+          "page": 312,
+          "pdfPage": 340,
+          "subsections": [
+            {
+              "subsectionNumber": "12.3.1",
+              "title": "Conditions with Respect to Partners",
+              "page": 312,
+              "pdfPage": 340
+            },
+            {
+              "subsectionNumber": "12.3.2",
+              "title": "Rules Relating to Musharakah Capital",
+              "page": 313,
+              "pdfPage": 341
+            },
+            {
+              "subsectionNumber": "12.3.3",
+              "title": "Mutual Relationship Among Partners and Musharakah Management Rules",
+              "page": 314,
+              "pdfPage": 342
+            },
+            {
+              "subsectionNumber": "12.3.4",
+              "title": "Treatment of Profit and Loss",
+              "page": 316,
+              "pdfPage": 344
+            },
+            {
+              "subsectionNumber": "12.3.5",
+              "title": "Guarantees in Shirkah Contracts",
+              "page": 318,
+              "pdfPage": 346
+            },
+            {
+              "subsectionNumber": "12.3.6",
+              "title": "Maturity/Termination of Musharakah",
+              "page": 318,
+              "pdfPage": 346
+            }
+          ]
+        },
+        {
+          "sectionNumber": "12.4",
+          "title": "The Concept and Rules of Mudarabah",
+          "page": 320,
+          "pdfPage": 348,
+          "subsections": [
+            {
+              "subsectionNumber": "12.4.1",
+              "title": "The Nature of Mudarabah Capital",
+              "page": 323,
+              "pdfPage": 351
+            },
+            {
+              "subsectionNumber": "12.4.2",
+              "title": "Types of Mudarabah and Conditions Regarding Business",
+              "page": 324,
+              "pdfPage": 352
+            },
+            {
+              "subsectionNumber": "12.4.3",
+              "title": "Work for the Mudarabah Business",
+              "page": 325,
+              "pdfPage": 353
+            },
+            {
+              "subsectionNumber": "12.4.4",
+              "title": "Treatment of Profit/Loss",
+              "page": 325,
+              "pdfPage": 353
+            },
+            {
+              "subsectionNumber": "12.4.5",
+              "title": "Termination of a Mudarabah Contract",
+              "page": 327,
+              "pdfPage": 355
+            }
+          ]
+        },
+        {
+          "sectionNumber": "12.5",
+          "title": "Mudarabah Distinguished from Musharakah",
+          "page": 327,
+          "pdfPage": 355,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "12.6",
+          "title": "Modern Corporations: Joint Stock Companies",
+          "page": 328,
+          "pdfPage": 356,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "12.7",
+          "title": "Modern Application of the Concept of Shirkah",
+          "page": 330,
+          "pdfPage": 358,
+          "subsections": [
+            {
+              "subsectionNumber": "12.7.1",
+              "title": "Use of Shirkah on the Deposits Side of the Banking System",
+              "page": 331,
+              "pdfPage": 359
+            },
+            {
+              "subsectionNumber": "12.7.2",
+              "title": "Use of Shirkah on the Assets Side",
+              "page": 332,
+              "pdfPage": 360
+            },
+            {
+              "subsectionNumber": "12.7.3",
+              "title": "Securitization on a Shirkah Basis",
+              "page": 334,
+              "pdfPage": 362
+            }
+          ]
+        },
+        {
+          "sectionNumber": "12.8",
+          "title": "Diminishing Musharakah",
+          "page": 337,
+          "pdfPage": 365,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "12.9",
+          "title": "Diminishing Musharakah as an Islamic Mode of Finance",
+          "page": 339,
+          "pdfPage": 367,
+          "subsections": [
+            {
+              "subsectionNumber": "12.9.1",
+              "title": "Diminishing Musharakah in Trade",
+              "page": 339,
+              "pdfPage": 367
+            },
+            {
+              "subsectionNumber": "12.9.2",
+              "title": "Procedure and Documentation in Diminishing Musharakah",
+              "page": 340,
+              "pdfPage": 368
+            }
+          ]
+        },
+        {
+          "sectionNumber": "12.10",
+          "title": "Summary and Conclusion",
+          "page": 343,
+          "pdfPage": 371,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 13,
+      "title": "Some Accessory Contracts",
+      "part": "III",
+      "startPage": 347,
+      "startPdfPage": 375,
+      "sections": [
+        {
+          "sectionNumber": "13.1",
+          "title": "Introduction",
+          "page": 347,
+          "pdfPage": 375,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "13.2",
+          "title": "Wakalah (Agency)",
+          "page": 347,
+          "pdfPage": 375,
+          "subsections": [
+            {
+              "subsectionNumber": "13.2.1",
+              "title": "Types of Wakalah",
+              "page": 347,
+              "pdfPage": 375
+            },
+            {
+              "subsectionNumber": "13.2.2",
+              "title": "Wakalatul Istismar",
+              "page": 349,
+              "pdfPage": 377
+            }
+          ]
+        },
+        {
+          "sectionNumber": "13.3",
+          "title": "Tawarruq",
+          "page": 349,
+          "pdfPage": 377,
+          "subsections": [
+            {
+              "subsectionNumber": "13.3.1",
+              "title": "Use of Tawarruq for Liquidity Management",
+              "page": 351,
+              "pdfPage": 379
+            }
+          ]
+        },
+        {
+          "sectionNumber": "13.4",
+          "title": "Ju‘alah",
+          "page": 351,
+          "pdfPage": 379,
+          "subsections": [
+            {
+              "subsectionNumber": "13.4.1",
+              "title": "Parties to Ju‘alah",
+              "page": 351,
+              "pdfPage": 379
+            },
+            {
+              "subsectionNumber": "13.4.2",
+              "title": "Subject Matter of Ju‘alah and Reward",
+              "page": 352,
+              "pdfPage": 380
+            },
+            {
+              "subsectionNumber": "13.4.3",
+              "title": "Execution of a Ju‘alah Contract",
+              "page": 353,
+              "pdfPage": 381
+            },
+            {
+              "subsectionNumber": "13.4.4",
+              "title": "Parallel Ju‘alah Contracts",
+              "page": 353,
+              "pdfPage": 381
+            },
+            {
+              "subsectionNumber": "13.4.5",
+              "title": "Practical Process in Ju‘alah by Islamic Banks",
+              "page": 353,
+              "pdfPage": 381
+            },
+            {
+              "subsectionNumber": "13.4.6",
+              "title": "Some Islamic Financial Products Based on Ju‘alah",
+              "page": 354,
+              "pdfPage": 382
+            }
+          ]
+        },
+        {
+          "sectionNumber": "13.5",
+          "title": "Bai‘ al Istijrar (Supply Contract)",
+          "page": 355,
+          "pdfPage": 383,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 14,
+      "title": "Application of the System: Financing Principles and Practices",
+      "part": "III",
+      "startPage": 357,
+      "startPdfPage": 385,
+      "sections": [
+        {
+          "sectionNumber": "14.1",
+          "title": "Introduction",
+          "page": 357,
+          "pdfPage": 385,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "14.2",
+          "title": "Product Development",
+          "page": 358,
+          "pdfPage": 386,
+          "subsections": [
+            {
+              "subsectionNumber": "14.2.1",
+              "title": "Procedure for Product Development",
+              "page": 358,
+              "pdfPage": 386
+            }
+          ]
+        },
+        {
+          "sectionNumber": "14.3",
+          "title": "The Nature of Financial Services/Business",
+          "page": 358,
+          "pdfPage": 386,
+          "subsections": [
+            {
+              "subsectionNumber": "14.3.1",
+              "title": "Management of Deposit Pools and Investments",
+              "page": 359,
+              "pdfPage": 387
+            },
+            {
+              "subsectionNumber": "14.3.2",
+              "title": "Selection of the Mode for Financing",
+              "page": 360,
+              "pdfPage": 388
+            },
+            {
+              "subsectionNumber": "14.3.3",
+              "title": "Tenor of Financing",
+              "page": 362,
+              "pdfPage": 390
+            },
+            {
+              "subsectionNumber": "14.3.4",
+              "title": "Shar i'ah Compliance and Internal Shar i'ah Controls",
+              "page": 363,
+              "pdfPage": 391
+            },
+            {
+              "subsectionNumber": "14.3.5",
+              "title": "Operational Controls",
+              "page": 367,
+              "pdfPage": 395
+            }
+          ]
+        },
+        {
+          "sectionNumber": "14.4",
+          "title": "Prospects and Issues in Specific Areas of Financing",
+          "page": 369,
+          "pdfPage": 397,
+          "subsections": [
+            {
+              "subsectionNumber": "14.4.1",
+              "title": "Working Capital Finance",
+              "page": 369,
+              "pdfPage": 397
+            },
+            {
+              "subsectionNumber": "14.4.2",
+              "title": "Trade Financing by Islamic Banks",
+              "page": 370,
+              "pdfPage": 398
+            },
+            {
+              "subsectionNumber": "14.4.3",
+              "title": "Project Financing",
+              "page": 373,
+              "pdfPage": 401
+            },
+            {
+              "subsectionNumber": "14.4.4",
+              "title": "Liquidity Management",
+              "page": 374,
+              "pdfPage": 402
+            },
+            {
+              "subsectionNumber": "14.4.5",
+              "title": "Forward Contracts and Foreign Exchange Dealings",
+              "page": 375,
+              "pdfPage": 403
+            },
+            {
+              "subsectionNumber": "14.4.6",
+              "title": "Refinancing by the Central Banks",
+              "page": 377,
+              "pdfPage": 405
+            },
+            {
+              "subsectionNumber": "14.4.7",
+              "title": "Cards: Debit, Charge, Credit and ATM",
+              "page": 379,
+              "pdfPage": 407
+            }
+          ]
+        },
+        {
+          "sectionNumber": "14.5",
+          "title": "Islamic Banks’ Relationship with Conventional Banks",
+          "page": 384,
+          "pdfPage": 412,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "14.6",
+          "title": "Fee-based Islamic Banking Services",
+          "page": 384,
+          "pdfPage": 412,
+          "subsections": [
+            {
+              "subsectionNumber": "14.6.1",
+              "title": "Underwriting",
+              "page": 384,
+              "pdfPage": 412
+            },
+            {
+              "subsectionNumber": "14.6.2",
+              "title": "Letters of Guarantee (L/G)",
+              "page": 384,
+              "pdfPage": 412
+            },
+            {
+              "subsectionNumber": "14.6.3",
+              "title": "Letters of Credit (L/C)",
+              "page": 385,
+              "pdfPage": 413
+            }
+          ]
+        },
+        {
+          "sectionNumber": "14.7",
+          "title": "Summary and Conclusion",
+          "page": 386,
+          "pdfPage": 414,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 15,
+      "title": "Sukuk and Securitization: Vital Issues in Islamic Capital Markets",
+      "part": "III",
+      "startPage": 389,
+      "startPdfPage": 417,
+      "sections": [
+        {
+          "sectionNumber": "15.1",
+          "title": "Introduction",
+          "page": 389,
+          "pdfPage": 417,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "15.2",
+          "title": "The Capital Market in an Islamic Framework",
+          "page": 390,
+          "pdfPage": 418,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "15.3",
+          "title": "Securitization and Sukuk",
+          "page": 391,
+          "pdfPage": 419,
+          "subsections": [
+            {
+              "subsectionNumber": "15.3.1",
+              "title": "Parties to Sukuk Issue/Securitization",
+              "page": 393,
+              "pdfPage": 421
+            },
+            {
+              "subsectionNumber": "15.3.2",
+              "title": "Special Purpose Vehicle (SPV)",
+              "page": 394,
+              "pdfPage": 422
+            },
+            {
+              "subsectionNumber": "15.3.3",
+              "title": "Risk, Contract and Cash Flow Analysis",
+              "page": 395,
+              "pdfPage": 423
+            },
+            {
+              "subsectionNumber": "15.3.4",
+              "title": "Shar i'ah Bases of Sukuk Issue",
+              "page": 396,
+              "pdfPage": 424
+            },
+            {
+              "subsectionNumber": "15.3.5",
+              "title": "Categories of Sukuk",
+              "page": 398,
+              "pdfPage": 426
+            },
+            {
+              "subsectionNumber": "15.3.6",
+              "title": "Tradability of Sukuk",
+              "page": 407,
+              "pdfPage": 435
+            },
+            {
+              "subsectionNumber": "15.3.7",
+              "title": "Issues in Terms and Structures of Sukuk",
+              "page": 409,
+              "pdfPage": 437
+            },
+            {
+              "subsectionNumber": "15.3.8",
+              "title": "Potential of Sukuk in Fund Management and Developing the Islamic Capital Market",
+              "page": 411,
+              "pdfPage": 439
+            }
+          ]
+        },
+        {
+          "sectionNumber": "15.4",
+          "title": "Summary and Conclusion",
+          "page": 412,
+          "pdfPage": 440,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 16,
+      "title": "Takaful: An Alternative to Conventional Insurance",
+      "part": "III",
+      "startPage": 417,
+      "startPdfPage": 445,
+      "sections": [
+        {
+          "sectionNumber": "16.1",
+          "title": "Introduction",
+          "page": 417,
+          "pdfPage": 445,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "16.2",
+          "title": "The Need for Takaful Cover",
+          "page": 417,
+          "pdfPage": 445,
+          "subsections": [
+            {
+              "subsectionNumber": "16.2.1",
+              "title": "Why Conventional Insurance is Prohibited",
+              "page": 418,
+              "pdfPage": 446
+            }
+          ]
+        },
+        {
+          "sectionNumber": "16.3",
+          "title": "The Shar i'ah Basis of Takaful",
+          "page": 420,
+          "pdfPage": 448,
+          "subsections": [
+            {
+              "subsectionNumber": "16.3.1",
+              "title": "Main Objective of the Takaful System",
+              "page": 422,
+              "pdfPage": 450
+            }
+          ]
+        },
+        {
+          "sectionNumber": "16.4",
+          "title": "How the Takaful System Works",
+          "page": 422,
+          "pdfPage": 450,
+          "subsections": [
+            {
+              "subsectionNumber": "16.4.1",
+              "title": "Models of Takaful",
+              "page": 423,
+              "pdfPage": 451
+            },
+            {
+              "subsectionNumber": "16.4.2",
+              "title": "Issues in the Mudarabah Model",
+              "page": 426,
+              "pdfPage": 454
+            },
+            {
+              "subsectionNumber": "16.4.3",
+              "title": "Issues in Wakalah and Wakalah–Mudarabah Models",
+              "page": 426,
+              "pdfPage": 454
+            }
+          ]
+        },
+        {
+          "sectionNumber": "16.5",
+          "title": "Takaful and Conventional Insurance Compared",
+          "page": 427,
+          "pdfPage": 455,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "16.6",
+          "title": "Status and Potential of the Takaful Industry",
+          "page": 428,
+          "pdfPage": 456,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "16.7",
+          "title": "Takaful Challenges",
+          "page": 429,
+          "pdfPage": 457,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 17,
+      "title": "An Appraisal of Common Criticism of Islamic Banking and Finance",
+      "part": "III",
+      "startPage": 433,
+      "startPdfPage": 461,
+      "sections": [
+        {
+          "sectionNumber": "17.1",
+          "title": "Introduction",
+          "page": 433,
+          "pdfPage": 461,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "17.2",
+          "title": "The Common Myths and Objections",
+          "page": 433,
+          "pdfPage": 461,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "17.3",
+          "title": "Appraisal of Conceptual Criticism",
+          "page": 436,
+          "pdfPage": 464,
+          "subsections": [
+            {
+              "subsectionNumber": "17.3.1",
+              "title": "The Connotation of the Word Riba",
+              "page": 436,
+              "pdfPage": 464
+            },
+            {
+              "subsectionNumber": "17.3.2",
+              "title": "Rent on Money Capital",
+              "page": 437,
+              "pdfPage": 465
+            },
+            {
+              "subsectionNumber": "17.3.3",
+              "title": "Inflation and Interest",
+              "page": 438,
+              "pdfPage": 466
+            },
+            {
+              "subsectionNumber": "17.3.4",
+              "title": "Time Value of Money and Islamic Banking",
+              "page": 439,
+              "pdfPage": 467
+            },
+            {
+              "subsectionNumber": "17.3.5",
+              "title": "Charging Interest from Rich Debtors",
+              "page": 441,
+              "pdfPage": 469
+            },
+            {
+              "subsectionNumber": "17.3.6",
+              "title": "Different Shar i'ah Interpretations",
+              "page": 441,
+              "pdfPage": 469
+            },
+            {
+              "subsectionNumber": "17.3.7",
+              "title": "Islamic Banks Using Debt-creating Modes",
+              "page": 442,
+              "pdfPage": 470
+            },
+            {
+              "subsectionNumber": "17.3.8",
+              "title": "Islamic Financial Institutions – Banks or Trade Houses?",
+              "page": 444,
+              "pdfPage": 472
+            },
+            {
+              "subsectionNumber": "17.3.9",
+              "title": "Islamic Banks to Act as Social Welfare Institutions?",
+              "page": 445,
+              "pdfPage": 473
+            }
+          ]
+        },
+        {
+          "sectionNumber": "17.4",
+          "title": "Appraisal of Criticism on Islamic Banking Practice",
+          "page": 445,
+          "pdfPage": 473,
+          "subsections": [
+            {
+              "subsectionNumber": "17.4.1",
+              "title": "Divergence between Theory and Practice",
+              "page": 445,
+              "pdfPage": 473
+            },
+            {
+              "subsectionNumber": "17.4.2",
+              "title": "IFIs using Interest Income as Seed/Base Capital",
+              "page": 446,
+              "pdfPage": 474
+            },
+            {
+              "subsectionNumber": "17.4.3",
+              "title": "Difference between Islamic and Conventional Banking",
+              "page": 447,
+              "pdfPage": 475
+            },
+            {
+              "subsectionNumber": "17.4.4",
+              "title": "Imposing Penalties on Defaulters",
+              "page": 454,
+              "pdfPage": 482
+            },
+            {
+              "subsectionNumber": "17.4.5",
+              "title": "Availability of Cash for Overhead Expenses and Deficit Financing",
+              "page": 455,
+              "pdfPage": 483
+            },
+            {
+              "subsectionNumber": "17.4.6",
+              "title": "Socio-economic Impact of the Present Islamic Banking System",
+              "page": 455,
+              "pdfPage": 483
+            }
+          ]
+        },
+        {
+          "sectionNumber": "17.5",
+          "title": "Conclusion",
+          "page": 456,
+          "pdfPage": 484,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "chapterNumber": 18,
+      "title": "The Way Forward",
+      "part": "III",
+      "startPage": 457,
+      "startPdfPage": 485,
+      "sections": [
+        {
+          "sectionNumber": "18.1",
+          "title": "Introduction",
+          "page": 457,
+          "pdfPage": 485,
+          "subsections": []
+        },
+        {
+          "sectionNumber": "18.2",
+          "title": "Agenda for the Policymakers",
+          "page": 457,
+          "pdfPage": 485,
+          "subsections": [
+            {
+              "subsectionNumber": "18.2.1",
+              "title": "Muslim States and Islamic Finance",
+              "page": 459,
+              "pdfPage": 487
+            }
+          ]
+        },
+        {
+          "sectionNumber": "18.3",
+          "title": "Potential, Issues and Challenges for Islamic Banking",
+          "page": 461,
+          "pdfPage": 489,
+          "subsections": [
+            {
+              "subsectionNumber": "18.3.1",
+              "title": "Promising Potential",
+              "page": 463,
+              "pdfPage": 491
+            },
+            {
+              "subsectionNumber": "18.3.2",
+              "title": "Issues in Islamic Finance",
+              "page": 465,
+              "pdfPage": 493
+            },
+            {
+              "subsectionNumber": "18.3.3",
+              "title": "The Challenges",
+              "page": 474,
+              "pdfPage": 502
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "title": "The Major Functions of a Shar i'ah Supervisory Board In the Light of the AAOIFI’s Shar i'ah Standard",
+      "page": 387,
+      "pdfPage": 415
+    },
+    {
+      "title": "Fatawa (Juristic Opinions) on Different Aspects of Insurance",
+      "page": 430,
+      "pdfPage": 458
+    }
+  ],
+  "backMatter": {
+    "acronyms": {
+      "page": 481,
+      "pdfPage": 509
+    },
+    "glossary": {
+      "page": 485,
+      "pdfPage": 513
+    },
+    "bibliographyEnglish": {
+      "page": 497,
+      "pdfPage": 525
+    },
+    "bibliographyArabicUrdu": {
+      "page": 503,
+      "pdfPage": 531
+    },
+    "suggestedFurtherReadings": {
+      "page": 505,
+      "pdfPage": 533
+    },
+    "index": {
+      "page": 509,
+      "pdfPage": 537
+    }
+  }
+}

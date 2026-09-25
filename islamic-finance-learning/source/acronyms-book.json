@@ -1,0 +1,478 @@
+[
+  {
+    "acronym": "AAOIFI",
+    "expansion": "Accounting and Auditing Organization for Islamic Financial Institutions"
+  },
+  {
+    "acronym": "ABS",
+    "expansion": "Asset-backed securities"
+  },
+  {
+    "acronym": "ARCIFI",
+    "expansion": "Arbitration and Reconciliation Centre for Islamic Financial Institutions"
+  },
+  {
+    "acronym": "ARR",
+    "expansion": "Anticipated rate of return"
+  },
+  {
+    "acronym": "ATM",
+    "expansion": "Automatic teller machine"
+  },
+  {
+    "acronym": "BIC",
+    "expansion": "Bank Islam Malaysia Card"
+  },
+  {
+    "acronym": "BIS",
+    "expansion": "Bank for International Settlements"
+  },
+  {
+    "acronym": "BMA",
+    "expansion": "Bahrain Monetary Agency"
+  },
+  {
+    "acronym": "BNM",
+    "expansion": "Bank Negara Malaysia"
+  },
+  {
+    "acronym": "BOOT",
+    "expansion": "Build own operate and transfer"
+  },
+  {
+    "acronym": "BOT",
+    "expansion": "Build operate and transfer"
+  },
+  {
+    "acronym": "BTF",
+    "expansion": "Balance transfer facility"
+  },
+  {
+    "acronym": "CAMELS",
+    "expansion": "Capital adequacy, Asset quality, Management capability, Earnings, Liquidity, Sensitivity to market risks (sometimes, another S is added at the end, which stands for Systems and operations controls)"
+  },
+  {
+    "acronym": "CBs",
+    "expansion": "Central banks"
+  },
+  {
+    "acronym": "CDC",
+    "expansion": "Central depository company"
+  },
+  {
+    "acronym": "CDOs",
+    "expansion": "Collateralized debt obligations"
+  },
+  {
+    "acronym": "CIF",
+    "expansion": "Cost, insurance and freight"
+  },
+  {
+    "acronym": "CII",
+    "expansion": "Council of Islamic Ideology (Pakistan)"
+  },
+  {
+    "acronym": "CLOs",
+    "expansion": "Collateralized loan obligations"
+  },
+  {
+    "acronym": "CMA",
+    "expansion": "Cash management accounts"
+  },
+  {
+    "acronym": "CMC",
+    "expansion": "Central bank Musharakah certificates (Sudan)"
+  },
+  {
+    "acronym": "CODs",
+    "expansion": "Certificates of deposit"
+  },
+  {
+    "acronym": "COIs",
+    "expansion": "Certificates of investment"
+  },
+  {
+    "acronym": "COT",
+    "expansion": "Carried over transactions"
+  },
+  {
+    "acronym": "DFIs",
+    "expansion": "Development finance institutions"
+  },
+  {
+    "acronym": "DM",
+    "expansion": "Diminishing Musharakah"
+  },
+  {
+    "acronym": "DO",
+    "expansion": "Delivery order"
+  },
+  {
+    "acronym": "DPB",
+    "expansion": "Daily product basis (deposit management)"
+  },
+  {
+    "acronym": "EDL",
+    "expansion": "External debt liability"
+  },
+  {
+    "acronym": "EDR",
+    "expansion": "European depository receipts"
+  },
+  {
+    "acronym": "EFS",
+    "expansion": "Export finance scheme"
+  },
+  {
+    "acronym": "EIB",
+    "expansion": "Emirates Islamic Bank (credit card)"
+  },
+  {
+    "acronym": "FDR",
+    "expansion": "Fixed deposit receipts"
+  },
+  {
+    "acronym": "FFS",
+    "expansion": "Future flow securitization"
+  },
+  {
+    "acronym": "FOB",
+    "expansion": "Free on board"
+  },
+  {
+    "acronym": "FRS",
+    "expansion": "Fixed return securities"
+  },
+  {
+    "acronym": "FSC",
+    "expansion": "Federal Shariat Court (Pakistan)"
+  },
+  {
+    "acronym": "Gbpwh/Gbpwth",
+    "expansion": "God be pleased with him and God be pleased with the m – a salutation Muslims use with the names of the Companions of the holy Prophet of Islam"
+  },
+  {
+    "acronym": "GCC",
+    "expansion": "Gulf Cooperation Council"
+  },
+  {
+    "acronym": "GCIBAFI",
+    "expansion": "General Council for Islamic Banks and Financial Institutions"
+  },
+  {
+    "acronym": "GDP",
+    "expansion": "Gross domestic product"
+  },
+  {
+    "acronym": "GDR",
+    "expansion": "Global depository receipts"
+  },
+  {
+    "acronym": "GICs",
+    "expansion": "Government investment certificates (Malaysia)"
+  },
+  {
+    "acronym": "GIIs",
+    "expansion": "Government investment issues (Malaysia)"
+  },
+  {
+    "acronym": "GMC",
+    "expansion": "Government Musharakah certificates (Sudan)"
+  },
+  {
+    "acronym": "GNI",
+    "expansion": "Gross national income"
+  },
+  {
+    "acronym": "IB",
+    "expansion": "Islamic Bank"
+  },
+  {
+    "acronym": "IBBs",
+    "expansion": "Islamic banking branches (stand-alone)"
+  },
+  {
+    "acronym": "ID",
+    "expansion": "Islamic Dinar"
+  },
+  {
+    "acronym": "IDB",
+    "expansion": "Islamic Development Bank"
+  },
+  {
+    "acronym": "IDR",
+    "expansion": "Islamic depository receipts"
+  },
+  {
+    "acronym": "IERS",
+    "expansion": "Islamic export refinance scheme"
+  },
+  {
+    "acronym": "IFIs",
+    "expansion": "Islamic financial institutions"
+  },
+  {
+    "acronym": "IFSB",
+    "expansion": "Islamic Financial Services Board (Malaysia-based)"
+  },
+  {
+    "acronym": "IIBI",
+    "expansion": "Institute of Islamic Banking and Insurance (London)"
+  },
+  {
+    "acronym": "IIFM",
+    "expansion": "International Islamic Financial Market (Bahrain-based)"
+  },
+  {
+    "acronym": "IIIE",
+    "expansion": "International Institute of Islamic Economics (Islamabad)"
+  },
+  {
+    "acronym": "IIIT",
+    "expansion": "International Institute of Islamic Thought"
+  },
+  {
+    "acronym": "IIMM",
+    "expansion": "Islamic inter-bank money market (Malaysia)"
+  },
+  {
+    "acronym": "IIRA",
+    "expansion": "International Islamic Rating Agency"
+  },
+  {
+    "acronym": "IIU",
+    "expansion": "International Islamic University"
+  },
+  {
+    "acronym": "IMF",
+    "expansion": "International Monetary Fund"
+  },
+  {
+    "acronym": "IMFIs",
+    "expansion": "Islamic micro-finance institutions"
+  },
+  {
+    "acronym": "IPO",
+    "expansion": "Initial public offering (shares)"
+  },
+  {
+    "acronym": "IRI",
+    "expansion": "Islamic Research Institute (Islamabad, Pakistan)"
+  },
+  {
+    "acronym": "IRS",
+    "expansion": "Internal rating system"
+  },
+  {
+    "acronym": "IRTI",
+    "expansion": "Islamic Research and Training Institute, research and training arm of IDB (Jeddah)"
+  },
+  {
+    "acronym": "ITC",
+    "expansion": "Islamic Trade Centre"
+  },
+  {
+    "acronym": "JIB",
+    "expansion": "Jordan Islamic Bank"
+  },
+  {
+    "acronym": "L/C",
+    "expansion": "Letter of credit"
+  },
+  {
+    "acronym": "L/G",
+    "expansion": "Letter of guarantee"
+  },
+  {
+    "acronym": "LDCs",
+    "expansion": "Least developed countries"
+  },
+  {
+    "acronym": "LLR",
+    "expansion": "Lender of last resort"
+  },
+  {
+    "acronym": "LMC",
+    "expansion": "Liquidity Management Centre (Bahrain-based)"
+  },
+  {
+    "acronym": "LUMS",
+    "expansion": "Lahore University of Management Sciences"
+  },
+  {
+    "acronym": "MGS",
+    "expansion": "Malaysian government securities"
+  },
+  {
+    "acronym": "MII",
+    "expansion": "Mudarabah inter-bank investments"
+  },
+  {
+    "acronym": "MPO",
+    "expansion": "Murabaha to Purchase Orderer"
+  },
+  {
+    "acronym": "MS",
+    "expansion": "Mudarabah Sukuk"
+  },
+  {
+    "acronym": "MTB",
+    "expansion": "Malaysian treasury bills"
+  },
+  {
+    "acronym": "NBFCs",
+    "expansion": "Non-bank financial companies"
+  },
+  {
+    "acronym": "NBFIs",
+    "expansion": "Non-bank financial institutions"
+  },
+  {
+    "acronym": "NDFIs",
+    "expansion": "National development finance institutions"
+  },
+  {
+    "acronym": "NIB",
+    "expansion": "Non-interest based system"
+  },
+  {
+    "acronym": "NIBAF",
+    "expansion": "National Institute of Banking and Finance"
+  },
+  {
+    "acronym": "NPL",
+    "expansion": "Nonperforming loans"
+  },
+  {
+    "acronym": "NSS",
+    "expansion": "National savings schemes"
+  },
+  {
+    "acronym": "OD",
+    "expansion": "Overdraft"
+  },
+  {
+    "acronym": "OIC",
+    "expansion": "Organization of Islamic Countries"
+  },
+  {
+    "acronym": "OMOs",
+    "expansion": "Open market operations"
+  },
+  {
+    "acronym": "PAD",
+    "expansion": "Payment against documents"
+  },
+  {
+    "acronym": "Pbuh",
+    "expansion": "Peace be upon Him (used with the name of the holy Prophet of Islam)"
+  },
+  {
+    "acronym": "PLS",
+    "expansion": "Profit/loss sharing"
+  },
+  {
+    "acronym": "PTC",
+    "expansion": "Participation term certificates (Musharakah-based investment certificates) R&D Research and development"
+  },
+  {
+    "acronym": "Repo",
+    "expansion": "Repurchase offer"
+  },
+  {
+    "acronym": "ROE",
+    "expansion": "Return on equity"
+  },
+  {
+    "acronym": "SAB",
+    "expansion": "Shariat Appellate Bench (of the Supreme Court of Pakistan) that gave an historic judgement on Riba in 1999"
+  },
+  {
+    "acronym": "SAMA",
+    "expansion": "Saudi Arabian Monetary Agency"
+  },
+  {
+    "acronym": "SC",
+    "expansion": "Salam certificate"
+  },
+  {
+    "acronym": "SDR",
+    "expansion": "Special drawing right"
+  },
+  {
+    "acronym": "SEC",
+    "expansion": "Securities and Exchange Commission"
+  },
+  {
+    "acronym": "SLR",
+    "expansion": "Statutory liquidity reserves"
+  },
+  {
+    "acronym": "SME",
+    "expansion": "Small and medium enterprises"
+  },
+  {
+    "acronym": "SPM",
+    "expansion": "Special purpose Mudarabah"
+  },
+  {
+    "acronym": "SPV",
+    "expansion": "Special purpose vehicle"
+  },
+  {
+    "acronym": "SSC",
+    "expansion": "Shar ¯ı´ah supervisory committee"
+  },
+  {
+    "acronym": "STS",
+    "expansion": "Solidarity Trust Services (SPV to issue IDB’s trust certificates)"
+  },
+  {
+    "acronym": "SWT",
+    "expansion": "Subhanahu wa Ta‘ala (the term that Muslims use with the name of Allah Almighty)"
+  },
+  {
+    "acronym": "TC",
+    "expansion": "Traveller’s cheque"
+  },
+  {
+    "acronym": "TDR",
+    "expansion": "Term deposit receipts"
+  },
+  {
+    "acronym": "TDT",
+    "expansion": "Trickle-down theory (in economic development and growth)"
+  },
+  {
+    "acronym": "TFC",
+    "expansion": "Term finance certificates"
+  },
+  {
+    "acronym": "TMCL",
+    "expansion": "Time multiple counter loan"
+  },
+  {
+    "acronym": "TR",
+    "expansion": "Trust receipt"
+  },
+  {
+    "acronym": "UDCs",
+    "expansion": "Underdeveloped countries"
+  },
+  {
+    "acronym": "UWL",
+    "expansion": "Underwriting loss (in Takaful/insurance)"
+  },
+  {
+    "acronym": "UWS",
+    "expansion": "Underwriting surplus (in Takaful/insurance)"
+  },
+  {
+    "acronym": "VRS",
+    "expansion": "Variable return securities"
+  },
+  {
+    "acronym": "WTO",
+    "expansion": "World Trade Organization"
+  }
+]
