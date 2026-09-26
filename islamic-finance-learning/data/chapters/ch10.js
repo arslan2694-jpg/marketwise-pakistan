@@ -443,6 +443,50 @@ window.IFL_DATA.chapters[10] = {
       examples: [
         { title: "Box 10.1 - Flow of Salam Transactions by Banks", body: "(1) The bank purchases the item from a client/seller with full prepayment of price and delivery on an agreed specified date. (2) The customer (seller) delivers the commodity at the agreed time and place. (3) The bank sells the commodity to a third party via Parallel Salam, a prior promise to purchase, appointing the original seller as selling agent, or waiting until goods are received and then selling in the market. (4) After taking delivery, the bank delivers to the third-party purchaser.", generated: false }
       ],
+      calculations: [
+        {
+          title: "Box 10.4 Case Study: The Salam Price Discount as the Bank's Implicit Return",
+          formula: "Effective Return over Holding Period = (Locked Resale Value - Salam Capital) / Salam Capital; Annualized Return = Effective Return x (12 / Holding Period in Months)",
+          inputs: [
+            { label: "Salam capital paid by Bank B to Farmer A on 1 January", value: "Rs. 100 million (for 5,000 tons of wheat deliverable 1 May)" },
+            { label: "Implied Salam price per ton", value: "Rs. 100 million / 5,000 tons = Rs. 20,000 per ton" },
+            { label: "Value locked in via B's promise arrangement with buyer C for the same wheat on 1 May", value: "Rs. 115 million, against Hamish Jiddiyah (earnest money) of Rs. 15 million from C" },
+            { label: "Holding period (Salam contract date to delivery/resale date)", value: "1 January to 1 May = 4 months" }
+          ],
+          steps: [
+            "Salam capital advanced by the bank on day 1 = Rs. 100 million, for wheat priced today at a discount to what the bank expects to realize on delivery.",
+            "Value the bank has locked in for the same wheat 4 months later (via the promise-to-purchase with C) = Rs. 115 million.",
+            "Implicit discount/spread = Rs. 115 million - Rs. 100 million = Rs. 15 million earned over the 4-month Salam period.",
+            "Return over the 4-month holding period = Rs. 15 million / Rs. 100 million = 15%.",
+            "Annualized (simple) effective return = 15% x (12 months / 4 months) = 45% per annum."
+          ],
+          result: "The bank's Rs. 100 million Salam price is effectively 'discounted' Rs. 15 million (15%) below the Rs. 115 million value it has locked in for the same wheat 4 months later - a simple annualized effective return of about 45%.",
+          interpretation: "This spread is exactly the economic mechanism described in Section 10.3: the farmer accepts a price today that is cheaper than what he expects the goods to fetch later, in exchange for immediate liquidity, while the bank/buyer accepts price risk and the burden of marketing the goods and is compensated by the resulting spread rather than by an interest charge. Because the wheat still has to be delivered, resold, and its price risk actually borne (Box 10.3's commodity-price and marketing risks), this 45% figure is a return on genuine trade risk, not a guaranteed, interest-like yield - had C not been secured with a binding promise backed by Hamish Jiddiyah, or had wheat prices fallen before resale, the bank's realized return could have been far lower or even negative.",
+          generated: false,
+          source: { chapter: 10, section: "10.9-10.10.1 (Box 10.4)", pages: [259, 260] }
+        },
+        {
+          title: "Practice Example - generated for learning: Annualizing the Salam Price Discount",
+          formula: "Salam Capital = Salam Price per Unit x Quantity; Discount = (Expected Future Spot Price - Salam Price) x Quantity; Annualized Return = [(Expected Future Spot Price / Salam Price) - 1] x (12 / Months to Delivery)",
+          inputs: [
+            { label: "Quantity of wheat contracted", value: "100 tons" },
+            { label: "Salam price agreed today (discounted)", value: "$180 per ton" },
+            { label: "Expected spot price at the 6-month delivery date", value: "$200 per ton" },
+            { label: "Delivery period", value: "6 months from contract date" }
+          ],
+          steps: [
+            "Total Salam capital the bank pays the farmer today = $180 x 100 tons = $18,000.",
+            "Expected value of the same 100 tons if sold at the future spot price = $200 x 100 tons = $20,000.",
+            "Implicit discount (the farmer's cost of getting cash now) = $20,000 - $18,000 = $2,000 over 6 months.",
+            "Return over the 6-month holding period, from the bank's side = $2,000 / $18,000 = 11.1%.",
+            "Annualized effective return = 11.1% x (12 / 6) = 22.2% per annum."
+          ],
+          result: "By paying $18,000 now instead of the $20,000 the wheat is expected to fetch in 6 months, the bank earns an implicit 11.1% return over the period - roughly 22.2% annualized - if it can resell the wheat at the expected spot price.",
+          interpretation: "The discount below the expected future spot price is the Salam buyer's substitute for interest: it compensates the bank for paying cash today, tying up funds for 6 months, and bearing the commodity's price and marketing risk until resale (Box 10.3). It is not a contractually fixed rate - if wheat prices fall below $200/ton by delivery, or the bank cannot market the wheat promptly, its realized return will be lower than 22.2% or could turn into a loss, which is precisely what distinguishes this spread from an interest-bearing loan.",
+          generated: true,
+          source: { chapter: 10, section: "10.3, 10.10", pages: [242, 243, 257] }
+        }
+      ],
       commonConfusions: [
         "Students sometimes assume Salam's underuse reflects some Shari'ah defect in the mode. The book is explicit this is a purely practical/operational preference issue (upfront cash requirement, physical goods handling) - Salam is, in fact, the one mode expressly sanctioned by the Prophet (pbuh) himself."
       ],
@@ -539,6 +583,29 @@ window.IFL_DATA.chapters[10] = {
       processSteps: [],
       examples: [
         { title: "The Tailor Wage-Reduction Analogy", body: "Classical jurists allowed a condition in Ijarah such as: a person hiring a tailor's services could stipulate that the wage will be 10 dirhams if the clothes are prepared within a week, but only 8 (or another reduced amount) if delayed. By analogy, jurists permit a Shart-e-Jazai penalty clause in Istisna'a reducing the price for delay in delivery, supply, or construction.", generated: false }
+      ],
+      calculations: [
+        {
+          title: "Practice Example - generated for learning: Istisna'a Price Paid in Progress Installments",
+          formula: "Installment Amount = Contract Price x Installment Percentage",
+          inputs: [
+            { label: "Total Istisna'a contract price (fixed at signing)", value: "$2,000,000" },
+            { label: "Installment 1 - on order confirmation", value: "20% of contract price" },
+            { label: "Installment 2 - on certified 50% completion of manufacture", value: "30% of contract price" },
+            { label: "Installment 3 - on delivery/acceptance of the finished asset", value: "50% of contract price" }
+          ],
+          steps: [
+            "Total contract price = $2,000,000, fixed by mutual consent at signing and not unilaterally changeable thereafter (Section 10.11.3).",
+            "Installment 1 (order confirmation, 20%) = $2,000,000 x 0.20 = $400,000.",
+            "Installment 2 (50% completion milestone, 30%) = $2,000,000 x 0.30 = $600,000.",
+            "Installment 3 (delivery/acceptance, 50%) = $2,000,000 x 0.50 = $1,000,000.",
+            "Check: $400,000 + $600,000 + $1,000,000 = $2,000,000, matching the agreed contract price."
+          ],
+          result: "The manufacturer receives $400,000 on order confirmation, $600,000 at the 50% completion milestone, and the remaining $1,000,000 on delivery - together equal to the full $2,000,000 contract price.",
+          interpretation: "This staged structure is only possible because, unlike Salam, Istisna'a does not require the price to be paid in full in advance - Section 10.11.3 states the price 'can be paid in instalments within the agreed time period and can also be linked with the completion stages,' a flexibility justified by analogy to Ijarah's permissible deferred rental payments and by the practical reality that manufacturing large assets takes time. The exact split (20/30/50 here) is itself negotiable between the parties - the book's own case studies elsewhere in the chapter (e.g. the housing and project-finance Istisna'a examples) show total prices paid to contractors in multiple instalments, without any mandated formula, in direct contrast to Salam, where the entire price is mandatorily due in a single payment at contract signing.",
+          generated: true,
+          source: { chapter: 10, section: "10.11.3", pages: [265, 266] }
+        }
       ],
       commonConfusions: [
         "Students often assume the Istisna'a late-delivery penalty, like Salam's, must go to charity. It does not - the Shart-e-Jazai price reduction directly benefits the purchaser's own income, because it stems from the manufacturer's own controllable commitment/labour, unlike Salam's penalty (which reflects an already-fixed debt claim)."

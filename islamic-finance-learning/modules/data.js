@@ -63,6 +63,8 @@
   function caseStudies() { return D().caseStudies || []; }
   function getCaseStudy(id) { return caseStudies().find(function (c) { return c.id === id; }) || null; }
 
+  function productsMatrix() { return D().productsMatrix || []; }
+
   function conceptMap() { return D().conceptMap || { nodes: [], edges: [] }; }
   function decisionTree() { return D().decisionTree || null; }
   function studyModes() { return D().studyModes || {}; }
@@ -215,6 +217,7 @@
     glossaryTerms: glossaryTerms, acronyms: acronyms,
     comparisons: comparisons, getComparison: getComparison,
     caseStudies: caseStudies, getCaseStudy: getCaseStudy,
+    productsMatrix: productsMatrix,
     conceptMap: conceptMap, decisionTree: decisionTree, studyModes: studyModes, examPrepSets: examPrepSets,
     chapterTopicProgress: chapterTopicProgress, overallProgress: overallProgress,
     chapterQuizAverage: chapterQuizAverage, overallQuizAverage: overallQuizAverage,

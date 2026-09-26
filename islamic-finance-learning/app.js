@@ -21,6 +21,7 @@
       { label: "Case Studies", href: "#/case-studies", icon: "&#128188;" },
       { label: "Comparisons", href: "#/comparisons", icon: "&#9878;" },
       { label: "Financing Mode Finder", href: "#/decision-tool", icon: "&#129504;" },
+      { label: "Products at a Glance", href: "#/products", icon: "&#128203;" },
       { label: "Calculators", href: "#/calculators", icon: "&#128202;" }
     ] },
     { section: "Exam Preparation", items: [

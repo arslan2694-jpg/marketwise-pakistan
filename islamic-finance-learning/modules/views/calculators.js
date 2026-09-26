@@ -26,7 +26,9 @@
   var TOOLS = [
     { id: "deposit-pool", title: "Deposit Pool Profit Distribution", blurb: "Weightage-based profit sharing across tenors — the Mudarabah + Musharakah pool model from Box 8.1 (Chapter 8).", icon: "🏦" },
     { id: "murabaha-pricing", title: "Murabaha / Musawamah Pricing", blurb: "Cost-plus pricing mechanics — compute sale price, profit, or implied cost (Chapter 9).", icon: "🧾" },
-    { id: "musharakah-split", title: "Musharakah Profit & Loss Split", blurb: "See the book's core rule enforced live: profit follows the agreed ratio, loss always follows capital (Chapter 12).", icon: "🤝" }
+    { id: "salam-discount", title: "Salam Price Discount", blurb: "Why a Salam price is discounted below expected future spot price — and what effective return that discount implies (Chapter 10).", icon: "🌾" },
+    { id: "musharakah-split", title: "Musharakah Profit & Loss Split", blurb: "See the book's core rule enforced live: profit follows the agreed ratio, loss always follows capital (Chapter 12).", icon: "🤝" },
+    { id: "sukuk-return", title: "Sukuk Periodic Distribution", blurb: "Compute a Sukuk's periodic distribution, total distributions, and full cash flow including redemption (Chapter 15).", icon: "📜" }
   ];
 
   function picker() {
@@ -215,8 +217,86 @@
     recalc();
   }
 
+  // ---- Tool 4: Salam Price Discount ----
+  function salamDiscount() {
+    var root = IFLRouter.outlet();
+    root.innerHTML =
+      '<nav class="text-sm text-muted mb-3"><a data-nav="#/calculators">Calculators</a> › Salam Price Discount</nav>' +
+      '<h1>🌾 Salam Price Discount</h1>' +
+      '<p class="text-secondary">In Salam, the buyer pays the FULL price today for goods delivered later — always at a price below the expected future spot price. That discount is economically the buyer\'s return for supplying cash now and bearing price risk until delivery (§10.2-10.3, §10.10).</p>' +
+      '<div class="calc-block mb-4">' +
+        '<div class="calc-formula">Salam Capital = Quantity × Salam Price &nbsp;|&nbsp; Discount = Quantity × (Expected Spot − Salam Price)</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Quantity (tons)</label><input type="number" id="sd-qty" value="100"></div>' +
+          '<div><label>Delivery period (months)</label><input type="number" id="sd-months" value="6"></div>' +
+        '</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Salam price per ton (paid today)</label><input type="number" id="sd-salam-price" value="180"></div>' +
+          '<div><label>Expected spot price per ton at delivery</label><input type="number" id="sd-spot-price" value="200"></div>' +
+        '</div>' +
+        '<div id="sd-result"></div>' +
+      '</div>';
+    function recalc() {
+      var qty = num("sd-qty"), months = num("sd-months") || 1;
+      var salamPrice = num("sd-salam-price"), spotPrice = num("sd-spot-price");
+      var capital = qty * salamPrice;
+      var expectedValue = qty * spotPrice;
+      var discount = expectedValue - capital;
+      var discountPct = capital ? (discount / capital) * 100 : 0;
+      var annualized = discountPct * (12 / months);
+      var html = '<ol class="calc-steps mb-2">' +
+        '<li>Salam Capital (paid now) = ' + fmtMoney(qty) + ' × ' + fmtMoney(salamPrice) + ' = <strong>' + fmtMoney(capital) + '</strong></li>' +
+        '<li>Expected value at delivery (at spot) = ' + fmtMoney(qty) + ' × ' + fmtMoney(spotPrice) + ' = <strong>' + fmtMoney(expectedValue) + '</strong></li>' +
+        '<li>Implicit discount = ' + fmtMoney(expectedValue) + ' − ' + fmtMoney(capital) + ' = <strong>' + fmtMoney(discount) + '</strong> (' + fmtPct(discountPct) + ' of capital)</li>' +
+        '<li>Annualized (discount % ÷ ' + months + ' months × 12) ≈ ' + fmtPct(annualized) + '</li>' +
+      '</ol>' +
+      '<div class="calc-result">Salam Capital paid today: <strong>' + fmtMoney(capital) + '</strong>. If the goods are worth their expected spot value at delivery, the buyer\'s implicit return is ' + fmtPct(discountPct) + ' over ' + months + ' months (≈' + fmtPct(annualized) + ' annualized).</div>' +
+      '<p class="text-sm text-secondary mt-2">This discount is NOT interest — it is the price of a genuine forward SALE, agreed once at contract time and never adjusted. The seller (often a farmer or manufacturer) accepts a lower guaranteed price in exchange for immediate cash; the buyer accepts full pre-payment risk (the seller could default or deliver late) in exchange for the discount. Contrast with Istisna\'a, where payment can be staged instead of paid entirely upfront.</p>';
+      document.getElementById("sd-result").innerHTML = html;
+    }
+    IFLDom.qsa("#sd-qty, #sd-months, #sd-salam-price, #sd-spot-price", root).forEach(function (i) { i.addEventListener("input", recalc); });
+    recalc();
+  }
+
+  // ---- Tool 5: Sukuk Periodic Distribution ----
+  function sukukReturn() {
+    var root = IFLRouter.outlet();
+    root.innerHTML =
+      '<nav class="text-sm text-muted mb-3"><a data-nav="#/calculators">Calculators</a> › Sukuk Periodic Distribution</nav>' +
+      '<h1>📜 Sukuk Periodic Distribution</h1>' +
+      '<p class="text-secondary">Modeled on the book\'s Hanco Fleet Securitization case study (Chapter 15): Sukuk holders receive periodic distributions (e.g. Ijarah rental passed through) over the tenor, then their principal back at maturity — distinct from a conventional bond\'s "interest coupon" because the distribution represents a real share of the underlying asset\'s income, not a loan return.</p>' +
+      '<div class="calc-block mb-4">' +
+        '<div class="calc-formula">Periodic Distribution = Principal × Periodic Rate &nbsp;|&nbsp; Total Cash Flow = (Distribution × Periods) + Principal at Redemption</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Sukuk principal (issue size)</label><input type="number" id="sk-principal" value="27200000"></div>' +
+          '<div><label>Periodic distribution rate (% per period)</label><input type="number" id="sk-rate" value="6" step="0.1"></div>' +
+        '</div>' +
+        '<div><label>Tenor (number of distribution periods, e.g. years)</label><input type="number" id="sk-periods" value="3" class="mb-3"></div>' +
+        '<div id="sk-result"></div>' +
+      '</div>';
+    function recalc() {
+      var principal = num("sk-principal"), rate = num("sk-rate"), periods = num("sk-periods") || 1;
+      var distribution = principal * (rate / 100);
+      var totalDistributions = distribution * periods;
+      var totalCashFlow = totalDistributions + principal;
+      var html = '<ol class="calc-steps mb-2">' +
+        '<li>Periodic distribution = ' + fmtMoney(principal) + ' × ' + fmtPct(rate) + ' = <strong>' + fmtMoney(distribution) + '</strong> per period</li>' +
+        '<li>Total distributions over ' + periods + ' periods = ' + fmtMoney(distribution) + ' × ' + periods + ' = <strong>' + fmtMoney(totalDistributions) + '</strong></li>' +
+        '<li>Principal redeemed at maturity = <strong>' + fmtMoney(principal) + '</strong></li>' +
+        '<li>Total cash flow to Sukuk holders = ' + fmtMoney(totalDistributions) + ' + ' + fmtMoney(principal) + ' = <strong>' + fmtMoney(totalCashFlow) + '</strong></li>' +
+      '</ol>' +
+      '<div class="calc-result">Each period: <strong>' + fmtMoney(distribution) + '</strong>. Total over the full tenor including redemption: <strong>' + fmtMoney(totalCashFlow) + '</strong>.</div>' +
+      '<p class="text-sm text-secondary mt-2">Unlike a conventional bond coupon (a contractual debt payment regardless of the underlying asset\'s performance), this distribution is only Shari\'ah-compliant if it represents a genuine share of the Sukuk pool\'s actual income (e.g. real Ijarah rental) — the book flags Sukuk structures that instead guarantee a fixed return independent of asset performance as questionable (§15.3.4-15.3.5).</p>';
+      document.getElementById("sk-result").innerHTML = html;
+    }
+    IFLDom.qsa("#sk-principal, #sk-rate, #sk-periods", root).forEach(function (i) { i.addEventListener("input", recalc); });
+    recalc();
+  }
+
   IFLRouter.register("/calculators", picker);
   IFLRouter.register("/calculators/deposit-pool", depositPool);
   IFLRouter.register("/calculators/murabaha-pricing", murabahaPricing);
   IFLRouter.register("/calculators/musharakah-split", musharakahSplit);
+  IFLRouter.register("/calculators/salam-discount", salamDiscount);
+  IFLRouter.register("/calculators/sukuk-return", sukukReturn);
 })();

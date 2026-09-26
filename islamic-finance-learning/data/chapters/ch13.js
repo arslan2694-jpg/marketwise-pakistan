@@ -74,6 +74,15 @@ window.IFL_DATA.chapters[13] = {
         "An action performed by an agent on the principal's behalf is deemed to be an action of the principal himself."
       ],
       processSteps: [],
+      transactionSteps: [
+        { step: "Principal Identifies Need", description: "A principal (an individual, bank, or investor) has a task or transaction requiring representation - such as purchasing a commodity, managing funds, or conducting a Murabaha/Salam/Istisna'a/Ijarah leg - and decides to appoint an agent (Wakil) rather than act personally." },
+        { step: "Scope and Subject Matter Defined", description: "Principal and agent agree the subject matter of the agency: for a purchase agency, the genus, kind, quality, and other necessary attributes of the commodity must be specified; the agency may be specific (one particular asset/task) or general (a recurring category), but its nature must always be clearly defined to avoid disputes." },
+        { step: "Fee Arrangement Agreed (if Commutative)", description: "The parties settle whether the Wakalah is commutative (fee-based) or noncommutative (gratuitous); if fee-based, the fee - fixed as a lump sum or as a percentage (e.g. of investment amount or net asset value, as in Wakalatul Istismar) - is agreed and disclosed before the agent begins acting." },
+        { step: "Agent Acts Within Scope", description: "The agent performs the specified act (buying, selling, collecting or paying debt, litigation, etc.) with due care and skill, per the principal's instructions, without delegating the task to another without consent, and without any conflict of interest, such as selling his own property to the principal without disclosure." },
+        { step: "Legal Effect Attaches to the Principal", description: "The agent's action is deemed the principal's own action; per the preferred view (especially Shafi'i and Hanbali), ownership of any commodity purchased by the agent transfers directly from the seller to the principal, without first passing through the agent's own ownership." },
+        { step: "Principal Bears the Outcome", description: "The principal bears the profit, loss, or risk of the underlying transaction - this is what distinguishes Wakalah from a risk-sharing contract like Mudarabah or Musharakah; the agent himself is liable only for negligence, misconduct, or acting outside the agreed scope." },
+        { step: "Fee Paid and Contract Ends", description: "The agent receives any agreed fee for services rendered, and the Wakalah contract terminates by mutual agreement, unilateral termination, discharge of the obligation, destruction of the subject matter, or death or loss of legal capacity of either party." }
+      ],
       examples: [
         { title: "The Prophet's Delegated Goat Purchase", body: "The Prophet (pbuh) himself delegated the job of purchasing a goat for him to a Companion named 'Urwah al Barqi - cited as foundational textual evidence for the permissibility of agency (Wakalah).", generated: false }
       ],
@@ -114,6 +123,27 @@ window.IFL_DATA.chapters[13] = {
       examples: [
         { title: "2-3% of Net Asset Value", body: "A fund's prospectus may stipulate that the management will receive 2% or 3% of the net asset value of the fund at the end of every financial year, regardless of whether the fund's underlying investments were profitable that year.", generated: false }
       ],
+      calculations: [
+        {
+          title: "Practice Example — generated for learning: Wakalatul Istismar Fixed Management Fee",
+          formula: "Management fee = Agreed fee rate x Net Asset Value (NAV) of the fund, paid irrespective of the fund's actual profit or loss",
+          inputs: [
+            { label: "Fund's Net Asset Value (NAV) at financial year end", value: "$50,000,000" },
+            { label: "Agreed management fee rate (per the fund's prospectus)", value: "2% of NAV per annum" },
+            { label: "Fund's actual investment performance this year", value: "-3% (a loss on the underlying portfolio)" }
+          ],
+          steps: [
+            "Per the prospectus, the bank (as Wakil) is entitled to a pre-agreed fixed annual fee of 2% of NAV, determined and disclosed before the fund's launch, regardless of whether the underlying investments profit or lose money.",
+            "Fund NAV at year end = $50,000,000.",
+            "Management fee = 2% x $50,000,000 = $1,000,000.",
+            "The fund's investments actually lost 3% in value this year - a genuine investment loss borne entirely by the investors, not the bank - but the bank's Wakalah fee is unaffected, since it is computed on NAV, not on performance."
+          ],
+          result: "The bank earns a $1,000,000 management fee for the year - the full 2% of NAV - despite the fund's -3% investment performance.",
+          interpretation: "This illustrates the structural contrast with Mudarabah-based fund management drawn in the text: under Wakalatul Istismar, the bank's compensation is a pre-agreed fee (lump sum, or a percentage of investment amount/NAV) fixed and disclosed before the fund launches, and it does not vary with the fund's actual profit or loss. All investment risk and return, positive or negative, flows entirely to the investors, while the bank is compensated purely for its agency/management service - a mechanism similar to how a Takaful operator's Wakalah fee is charged for managing the participants' risk fund.",
+          generated: true,
+          source: { chapter: 13, section: "13.2.2", pages: [349] }
+        }
+      ],
       commonConfusions: [
         "Students sometimes confuse Wakalatul Istismar with Mudarabah-based fund management. In Mudarabah, the manager's return is a share of actual profit (and none if there's a loss); in Wakalatul Istismar, the manager earns a FIXED fee regardless of the fund's profit or loss."
       ],
@@ -153,8 +183,42 @@ window.IFL_DATA.chapters[13] = {
       ],
       principles: [],
       processSteps: [],
+      transactionSteps: [
+        { step: "Customer Needs Cash", description: "The customer (Mutawarriq) does not actually want any commodity; he needs liquidity, so he approaches the bank for a Tawarruq-based cash financing arrangement." },
+        { step: "Bank Sells a Commodity on Deferred Payment", description: "The bank purchases a liquid, genuinely saleable commodity (e.g. metals, shares, Sukuk) and sells it to the customer on a Murabaha-style deferred-payment basis, at cost plus an agreed profit margin, with ownership and risk passing to the customer." },
+        { step: "Customer Takes Ownership", description: "Ownership and risk of the commodity transfer to the customer at the point of sale, satisfying the requirement that a genuine sale - not a disguised loan - has taken place." },
+        { step: "Commodity Resold Via an Agent (or the Customer Himself)", description: "The customer, either personally or via an agent appointed after the sale (not as a pre-arranged condition of it), arranges to resell the same commodity." },
+        { step: "Sale to a Genuine Third Party", description: "The commodity is sold in the open market to an independent third party unconnected to the original transaction, for cash at the prevailing spot price - this is the step that makes the transaction Shari'ah-compliant Tawarruq rather than prohibited Bai' al 'Inah, since the resale is NOT back to the original bank-seller." },
+        { step: "Customer Receives Cash", description: "The customer receives the spot-sale proceeds immediately, satisfying his original need for liquidity." },
+        { step: "Customer Owes the Bank the Deferred Price", description: "The customer now owes the bank the full deferred Murabaha price on the agreed schedule, independent of what the commodity actually resold for in the market." },
+        { step: "Repayment Over Time", description: "The customer repays the bank in installments (or as a lump sum) per the agreed schedule, completing the Tawarruq financing structure." }
+      ],
       examples: [
         { title: "Nejatullah Siddiqi's Critique of Tawarruq", body: "\"The client approaches the Islamic bank with a wish to have cash and a collateral and comes back with the desired cash after signing a number of papers\" - Siddiqi's critique, cited by the author as a warning about Tawarruq's potential to become a bare paperwork exercise disguising an interest loan.", generated: false }
+      ],
+      calculations: [
+        {
+          title: "Practice Example — generated for learning: Tawarruq Cash Financing and Its Implied Cost",
+          formula: "Implied financing cost (% p.a.) = [(Deferred Price - Cash Received) / Cash Received] x (12 / financing tenor in months) x 100",
+          inputs: [
+            { label: "Cash the customer needs today", value: "$90,000" },
+            { label: "Bank's Murabaha sale price to customer (cost + profit), deferred", value: "$100,000" },
+            { label: "Financing tenor", value: "12 months" },
+            { label: "Third-party spot resale value of the same commodity", value: "approx. $90,000" }
+          ],
+          steps: [
+            "The bank buys a commodity for approximately $90,000 cash and sells it to the customer on Murabaha at a deferred price of $100,000, payable in 12 months.",
+            "The customer (or his agent, appointed after the sale) immediately resells the same commodity to an independent third party in the market for its cash value, approximately $90,000 - a genuine sale to a party other than the bank.",
+            "The customer nets $90,000 cash today from the third-party resale, meeting his original liquidity need.",
+            "The customer's total obligation to the bank is $100,000, payable over the 12-month tenor.",
+            "Implied financing markup = $100,000 - $90,000 = $10,000 over 12 months.",
+            "Implied annualized financing cost = ($10,000 / $90,000) x 100 = approximately 11.1% per annum (over the 12-month tenor)."
+          ],
+          result: "The customer receives $90,000 cash today and repays $100,000 over 12 months - an implied annualized financing cost of approximately 11.1%.",
+          interpretation: "This is exactly why critics like Nejatullah Siddiqi describe Tawarruq as reducing to 'signing a number of papers' to get cash: economically, the customer ends up paying a markup that functions much like interest on a cash loan. What keeps it Shari'ah-compliant (per the preferred view across all four Fiqh schools), rather than a disguised Riba loan, is that two genuine sale contracts occur - the bank's sale of a real, owned commodity to the customer, and the customer's (or his agent's) sale of that same commodity to an unconnected THIRD PARTY - so the customer's obligation arises from real ownership and sale, not a cash loan repayable with interest. If the customer instead resold the commodity back to the original bank, the same $90,000-for-$100,000 economics would instead constitute prohibited Bai' al 'Inah, which is why the genuine third party in Step 5 is the structure's Shari'ah-critical element.",
+          generated: true,
+          source: { chapter: 13, section: "13.3", pages: [349, 350] }
+        }
       ],
       commonConfusions: [
         "Students sometimes assume Tawarruq and Bai' al 'Inah are the same thing since both involve a double transaction to generate cash. The key distinction: Tawarruq resells to a genuine THIRD PARTY (acceptable); 'Inah resells back to the SAME original seller (prohibited)."
@@ -229,6 +293,14 @@ window.IFL_DATA.chapters[13] = {
         "Ju'alah's validity requires only that the required END RESULT of the transaction be determined - unlike Ijarah, which requires the underlying work itself to be precisely specified."
       ],
       processSteps: [],
+      transactionSteps: [
+        { step: "Ja'il Announces Task and Reward", description: "The Ja'il (offeror) publicly announces, or privately agrees, a specific or uncertain task (e.g. finding a lost item, curing an illness, recovering a debt) along with a known, valuable, deliverable reward (the Jua'l), which may be a lump sum or a percentage of the realized result." },
+        { step: "Worker Undertakes the Task", description: "Any interested party (if the offer is open to the general public) or a specified named worker (if the Ju'alah is concluded with a specific person) undertakes the task; no formal counter-acceptance is required, since attempting the task itself constitutes engagement with the offer." },
+        { step: "Work Is Attempted", description: "The worker applies effort toward achieving the specified result; the exact scope or amount of work needed can remain uncertain without invalidating the contract, since only the end result - not the work itself - must be determined." },
+        { step: "Contract Becomes Binding Once Work Begins", description: "Once the worker commences work, the Ja'il can no longer freely cancel without owing a reasonable wage for work already done (though the worker himself may still withdraw with no claim against the offeror, unless otherwise agreed)." },
+        { step: "Task Completed (or Not)", description: "The worker either succeeds in realizing the specified result (e.g. the lost item is found, the debt is collected) or fails despite genuine effort." },
+        { step: "Reward Paid Only If Realized", description: "If the result is realized, the Ja'il pays the agreed Jua'l; if the worker's genuine effort fails to achieve the result, no reward is owed for the effort or time spent - subject to narrow exceptions, such as a non-negligent accident impairing the subject matter, which entitles the worker to the full reward." }
+      ],
       examples: [
         { title: "The King's Lost Beaker (Surah Yousuf)", body: "Surah Yousuf references an announcement about the King's lost drinking beaker: whoever found and returned it would receive a reward of a camel-load of grain - cited as Qur'anic textual authority for the permissibility of Ju'alah.", generated: false }
       ],

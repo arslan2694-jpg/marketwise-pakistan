@@ -8,7 +8,9 @@
   var CALCULATOR_LINKS = {
     "ch8-t4": { href: "#/calculators/deposit-pool", label: "Try it yourself: Deposit Pool Calculator →" },
     "ch9-t14": { href: "#/calculators/murabaha-pricing", label: "Try it yourself: Murabaha/Musawamah Pricing Calculator →" },
-    "ch12-t7": { href: "#/calculators/musharakah-split", label: "Try it yourself: Musharakah Profit & Loss Split Calculator →" }
+    "ch12-t7": { href: "#/calculators/musharakah-split", label: "Try it yourself: Musharakah Profit & Loss Split Calculator →" },
+    "ch10-t11": { href: "#/calculators/salam-discount", label: "Try it yourself: Salam Price-Discount Calculator →" },
+    "ch15-t6": { href: "#/calculators/sukuk-return", label: "Try it yourself: Sukuk Periodic Return Calculator →" }
   };
 
   function sourceFooter(source, chapterTitle) {
