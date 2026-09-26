@@ -203,7 +203,7 @@
   }, { wide: true });
 
   IFL.route('/concept/:id', function (ctx) {
-    return window.IFL_DATA.load(['concepts', 'diagrams', 'comparisons']).then(function (r) {
+    return window.IFL_DATA.load(['concepts', 'diagrams', 'comparisons', 'products']).then(function (r) {
       var c = r.concepts.filter(function (x) { return x.id === ctx.params.id; })[0];
       if (!c) throw new Error('Concept not found');
       IFL.progress.log('concept', 'Concept: ' + c.name, '/concept/' + c.id);
@@ -211,6 +211,7 @@
       IFL.course.chapters.forEach(function (ch) { ch.topicObjs.forEach(function (t) { if (t.concepts.some(function (k) { return c.tags.indexOf(k) > -1; })) tagged.push(t); }); });
       var diagrams = r.diagrams.filter(function (d) { return d.concept === c.id; });
       var pairs = r.comparisons.pairs.filter(function (p) { var s = u.norm(p.title); return s.indexOf(u.norm(c.name.split(/[ (/]/)[0])) > -1; });
+      var prods = (r.products || []).filter(function (p) { return p.contracts.indexOf(c.id) > -1; });
       var byId = {}; r.concepts.forEach(function (x) { byId[x.id] = x; });
       var topicIds = tagged.map(function (t) { return t.id; });
       return h('div',
@@ -225,7 +226,9 @@
             c.links.length ? h('section.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'Connected concepts'),
               h('ul.small', c.links.map(function (l) { var o = byId[l.to]; return o ? h('li', l.label + ': ', h('a', { href: '#/concept/' + o.id }, o.name)) : null; }))) : null,
             diagrams.length || pairs.length ? h('section.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'Diagrams and comparisons'),
-              h('div.row', diagrams.map(function (d) { return h('a.chip', { href: '#/diagram/' + d.id }, u.svg('flow'), d.title); }), pairs.map(function (p) { return h('a.chip', { href: '#/compare?id=' + p.id }, u.svg('compare'), p.title); }))) : null)));
+              h('div.row', diagrams.map(function (d) { return h('a.chip', { href: '#/diagram/' + d.id }, u.svg('flow'), d.title); }), pairs.map(function (p) { return h('a.chip', { href: '#/compare?id=' + p.id }, u.svg('compare'), p.title); }))) : null,
+            prods.length ? h('section.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'Islamic banking products using it (' + prods.length + ')'),
+              h('div.row', prods.map(function (p) { return h('a.chip', { href: '#/product/' + p.id }, u.svg('bank'), p.name); }))) : null)));
     });
   }, { wide: true });
 })();

@@ -6,12 +6,14 @@
 
   /* All questions (chapter questions + topic quick checks) with chapter numbers attached. */
   function pool() {
-    return window.IFL_DATA.loadAllChapters().then(function (chs) {
-      var out = [];
+    return Promise.all([window.IFL_DATA.loadAllChapters(), window.IFL_DATA.load(['products', 'concepts']).catch(function () { return {}; })]).then(function (res) {
+      var chs = res[0], out = [];
       chs.forEach(function (ch) {
         ch.questions.forEach(function (q) { out.push(Object.assign({ chapter: ch.number }, q)); });
         ch.topics.forEach(function (t) { var qc = C.quickCheckQuestion(t); if (qc) { qc.chapter = ch.number; qc.quick = true; out.push(qc); } });
       });
+      /* Questions generated from the Islamic banking products catalogue. */
+      if (IFL.productQuestions && res[1].products) out = out.concat(IFL.productQuestions(res[1].products, res[1].concepts));
       return out;
     });
   }

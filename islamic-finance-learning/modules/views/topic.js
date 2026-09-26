@@ -6,7 +6,7 @@
   function loadTopic(id) {
     var meta = IFL.course.topic(id);
     if (!meta) return Promise.reject(new Error('Topic ' + id + ' not found'));
-    return Promise.all([window.IFL_DATA.loadChapter(meta.chapter), window.IFL_DATA.load(['concepts'])]).then(function (r) {
+    return Promise.all([window.IFL_DATA.loadChapter(meta.chapter), window.IFL_DATA.load(['concepts', 'products'])]).then(function (r) {
       var ch = r[0], t = ch.topics.filter(function (x) { return x.id === id; })[0];
       if (!t) throw new Error('Topic data missing for ' + id);
       return { ch: ch, t: t, meta: meta };
@@ -95,6 +95,8 @@
         t.calc ? sectionCard('Calculation', IFL.calc(t.calc.type, t.calc.note)) : null,
         (function () { var extra = Object.keys(IFL.calcTypes || {}).filter(function (k) { return IFL.calcTypes[k].topic === t.id && (!t.calc || t.calc.type !== k); });
           return extra.length ? sectionCard(t.calc ? 'More interactive tools' : 'Interactive tool', h('div.stack', extra.map(function (k) { return IFL.calc(k); }))) : null; })(),
+        (function () { var ps = (window.IFL_DATA.sets.products || []).filter(function (p) { return p.topics.indexOf(t.id) > -1; });
+          return ps.length ? sectionCard('Islamic banking products', h('div', h('p.small.muted', 'Products in the catalogue that apply this lesson:'), h('div.row', ps.map(function (p) { return h('a.chip', { href: '#/product/' + p.id }, u.svg('bank'), p.name); })))) : null; })(),
         t.distinctions && t.distinctions.length ? sectionCard('Important distinctions', h('div', t.distinctions.map(function (x) { return h('div.callout.info', h('div.t', x.a + ' vs ' + x.b), h('p', x.text)); }))) : null,
         t.confusions && t.confusions.length ? sectionCard('Common confusions', h('div.stack', t.confusions.map(function (x) { return h('div.confusion', h('div.wrong', h('div.lbl', 'Misconception'), x.wrong), h('div.right', h('div.lbl', 'Correct view'), x.right)); }))) : null,
         t.debate && t.debate.length ? sectionCard('Arguments and the author\'s discussion', h('div', t.debate.map(C.debate))) : null,

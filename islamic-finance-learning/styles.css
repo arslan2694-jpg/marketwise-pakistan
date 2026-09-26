@@ -533,3 +533,23 @@ button.tool-card { text-align: left; width: 100%; font: inherit; color: inherit;
 .cmap .link.ego-in { stroke-dasharray: 5 4; }
 .cmap .node.match rect { stroke: var(--accent); stroke-width: 2.2; }
 .cmap.chmap .link { stroke-width: 1.1; }
+
+/* ---------- Islamic banking products ---------- */
+.chip.static { cursor: default; font-size: var(--fs-xs, 12px); padding: 2px 8px; }
+.chip.static:hover { border-color: var(--border); color: var(--text-2); }
+.product-card { display: flex; flex-direction: column; }
+.callout.ok { border-color: var(--ok); background: var(--ok-soft); }
+.pmap .pmap-sep { stroke: var(--border); stroke-dasharray: 3 3; }
+.pmap .node.cat-0 rect { fill: var(--accent-soft); }
+.pmap .node.cat-2 rect, .pmap .node.cat-4 rect { fill: var(--gold-soft); }
+.pmap .node.cat-3 rect { fill: var(--info-soft); }
+/* ---------- Numericals trainer ---------- */
+.num-given { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; font-size: var(--fs-sm); margin: 8px 0; }
+.num-given dt { color: var(--text-2); }
+.num-given dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+.num-answer { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0; }
+.num-answer label { min-width: 220px; font-size: var(--fs-sm); }
+.num-answer input { width: 170px; }
+.num-answer .res { font-size: var(--fs-sm); font-weight: 600; }
+.num-answer .res.ok { color: var(--ok); }
+.num-answer .res.bad { color: var(--bad); }

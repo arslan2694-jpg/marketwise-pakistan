@@ -9,7 +9,7 @@
   var FILES = {
     glossary: 'data/glossary.js', concepts: 'data/concepts.js', diagrams: 'data/diagrams.js',
     comparisons: 'data/comparisons.js', cases: 'data/case-studies.js', modeFinder: 'data/mode-finder.js',
-    studyPlans: 'data/study-plans.js'
+    studyPlans: 'data/study-plans.js', products: 'data/products.js'
   };
   var pending = {};
   function inject(src) {

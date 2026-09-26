@@ -1,7 +1,7 @@
 /* Bookmarks, notes and the detailed progress page. */
 (function () {
   var IFL = window.IFL, u = IFL.u, h = u.h, C = IFL.c;
-  var TYPES = { topic: 'Topics', chapter: 'Chapters', concept: 'Concepts', term: 'Glossary terms', question: 'Questions', flashcard: 'Flashcards', comparison: 'Comparisons', diagram: 'Diagrams', case: 'Cases', exam: 'Exam questions' };
+  var TYPES = { topic: 'Topics', chapter: 'Chapters', concept: 'Concepts', term: 'Glossary terms', question: 'Questions', flashcard: 'Flashcards', comparison: 'Comparisons', diagram: 'Diagrams', case: 'Cases', exam: 'Exam questions', product: 'Products' };
 
   IFL.route('/bookmarks', function (ctx) {
     var type = ctx.query.type || '';

@@ -545,6 +545,26 @@ button.tool-card { text-align: left; width: 100%; font: inherit; color: inherit;
 .cmap .node.match rect { stroke: var(--accent); stroke-width: 2.2; }
 .cmap.chmap .link { stroke-width: 1.1; }
 
+/* ---------- Islamic banking products ---------- */
+.chip.static { cursor: default; font-size: var(--fs-xs, 12px); padding: 2px 8px; }
+.chip.static:hover { border-color: var(--border); color: var(--text-2); }
+.product-card { display: flex; flex-direction: column; }
+.callout.ok { border-color: var(--ok); background: var(--ok-soft); }
+.pmap .pmap-sep { stroke: var(--border); stroke-dasharray: 3 3; }
+.pmap .node.cat-0 rect { fill: var(--accent-soft); }
+.pmap .node.cat-2 rect, .pmap .node.cat-4 rect { fill: var(--gold-soft); }
+.pmap .node.cat-3 rect { fill: var(--info-soft); }
+/* ---------- Numericals trainer ---------- */
+.num-given { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; font-size: var(--fs-sm); margin: 8px 0; }
+.num-given dt { color: var(--text-2); }
+.num-given dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+.num-answer { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0; }
+.num-answer label { min-width: 220px; font-size: var(--fs-sm); }
+.num-answer input { width: 170px; }
+.num-answer .res { font-size: var(--fs-sm); font-weight: 600; }
+.num-answer .res.ok { color: var(--ok); }
+.num-answer .res.bad { color: var(--bad); }
+
 </style>
   <script>
     /* Apply the saved theme before first paint to avoid a flash. */
@@ -626,7 +646,7 @@ window.IFL_STANDALONE = true;
   var FILES = {
     glossary: 'data/glossary.js', concepts: 'data/concepts.js', diagrams: 'data/diagrams.js',
     comparisons: 'data/comparisons.js', cases: 'data/case-studies.js', modeFinder: 'data/mode-finder.js',
-    studyPlans: 'data/study-plans.js'
+    studyPlans: 'data/study-plans.js', products: 'data/products.js'
   };
   var pending = {};
   function inject(src) {
@@ -2881,6 +2901,46 @@ IFL_DATA.register('diagrams', [
     ],
     rules: ["Face value only.", "Gratuitous: no fee for the assignment itself."],
     pitfalls: ["Using it to sell debts at a discount"] }
+  ,
+  { id: "istisna-housing", title: "Housing finance through Istisna‘a and Diminishing Musharakah (Box 10.13)", topic: "t10.11.10", concept: "istisna",
+    summary: "Client and bank jointly buy a flat under construction from a builder by Istisna‘a; after handover the bank leases its share to the client, who buys it unit by unit.",
+    parties: [{ id: "client", label: "Client A (Rs.2 m)", x: 14, y: 30 }, { id: "bank", label: "Bank B (Rs.5 m)", x: 50, y: 8 }, { id: "builder", label: "Builder C", x: 86, y: 30 }],
+    steps: [
+      { from: "client", to: "bank", kind: "contract", label: "Shirkatulmilk pool of Rs.7 m", detail: "A contributes Rs.2 m and B Rs.5 m for a flat priced Rs.7 m (p. 275)." },
+      { from: "bank", to: "builder", kind: "contract", label: "Joint Istisna‘a with the builder", detail: "A and B jointly contract for a flat of defined specifications." },
+      { from: "bank", to: "builder", kind: "cash", label: "Rs.7 m in four instalments", detail: "The price is paid as construction proceeds." },
+      { from: "bank", to: "client", kind: "agency", label: "Client supervises construction", detail: "The bank appoints A its agent to supervise the work." },
+      { from: "builder", to: "client", kind: "goods", label: "Flat handed over", detail: "Ownership is joint in the ratio 2 : 5." },
+      { from: "bank", to: "client", kind: "rent", label: "Bank leases its share", detail: "Rent is charged on the bank’s share only." },
+      { from: "client", to: "bank", kind: "cash", label: "Monthly unit purchases", detail: "Rent falls after each unit; after ten years ownership passes to A (Diminishing Musharakah)." }
+    ],
+    rules: ["The builder deals in cash and has no financing relationship with the bank.", "Rent starts only after handover; before that the bank is a co-owner of a flat under construction."],
+    pitfalls: ["Charging rent during construction", "Treating the bank’s share as a loan"] },
+  { id: "istisna-export", title: "Istisna‘a for pre-shipment export finance (Box 10.14)", topic: "t10.11.10", concept: "istisna",
+    summary: "The bank buys the export goods from the exporter by Istisna‘a, takes delivery and bears their risk, then exports them through the exporter as its agent.",
+    parties: [{ id: "exporter", label: "Exporter A", x: 14, y: 30 }, { id: "bank", label: "Bank B", x: 50, y: 8 }, { id: "importer", label: "Foreign importer", x: 86, y: 30 }],
+    steps: [
+      { from: "bank", to: "exporter", kind: "contract", label: "Istisna‘a for Rs.100 m", detail: "Garments of a specified nature to be supplied within three months (p. 276)." },
+      { from: "bank", to: "exporter", kind: "agency", label: "Exporter appointed export agent", detail: "Effective once the garments are the bank’s." },
+      { from: "importer", to: "bank", kind: "contract", label: "L/C of Rs.110 m", detail: "Opened in the bank’s name. If an L/C already exists, Istisna‘a is not possible (it would be ‘Inah)." },
+      { from: "exporter", to: "bank", kind: "goods", label: "Bank takes delivery", detail: "Actual or constructive possession; the garments are now at the bank’s risk." },
+      { from: "exporter", to: "importer", kind: "goods", label: "Goods exported as the bank’s agent", detail: "Documents are sent on the bank’s behalf." },
+      { from: "importer", to: "bank", kind: "cash", label: "Rs.110 m under the L/C", detail: "The bank’s gross margin of Rs.10 m is earned by owning and exporting goods." }
+    ],
+    rules: ["No existing L/C for the same sale when the Istisna‘a is signed.", "The bank must take delivery and bear the goods’ risk before export."],
+    pitfalls: ["Buying from the exporter after the L/C is opened", "Skipping the bank’s possession"] },
+  { id: "ijarah-istisna-project", title: "Syndicated Ijarah–Istisna‘a for an oil terminal (p. 374)", topic: "t14.4.3", concept: "istisna",
+    summary: "A consortium commissions the terminal by Istisna‘a, with the operator supervising as its agent, and leases the completed terminal to the operator under a prior binding promise.",
+    parties: [{ id: "operator", label: "Terminal operator", x: 14, y: 30 }, { id: "syndicate", label: "Bank consortium", x: 50, y: 8 }, { id: "contractor", label: "Contractor", x: 86, y: 30 }],
+    steps: [
+      { from: "operator", to: "syndicate", kind: "promise", label: "Binding promise to lease", detail: "A unilateral promise gives the consortium comfort before it commits funds." },
+      { from: "syndicate", to: "contractor", kind: "contract", label: "Istisna‘a to build the terminal", detail: "Price paid in stages as the work proceeds." },
+      { from: "syndicate", to: "operator", kind: "agency", label: "Operator supervises construction", detail: "As the consortium’s agent." },
+      { from: "contractor", to: "syndicate", kind: "goods", label: "Completed terminal delivered", detail: "The consortium owns it and bears ownership risk." },
+      { from: "syndicate", to: "operator", kind: "rent", label: "Ijarah executed", detail: "Rent runs only once the terminal is ready for use." }
+    ],
+    rules: ["Ijarah cannot start until the asset exists and can be used.", "The consortium members own the terminal in proportion to their funding."],
+    pitfalls: ["Charging rent during construction", "Signing the Ijarah before the asset exists"] }
 ]);
 
 </script>
@@ -3291,6 +3351,220 @@ IFL_DATA.register('studyPlans', {
     ]
   }
 });
+
+</script>
+<script data-src="data/products.js">
+/* Islamic banking products catalogue.
+   Built from Box 8.2 (the book's own product/mode table) and the product procedures, boxes and case studies in
+   Chapters 8–16. Each product lists its underlying contracts (concept ids), how it works, a worked numerical
+   (kind "textbook" = the book's own figures; kind "practice" = generated for learning), Shari'ah controls,
+   risks with mitigants, and how it differs from the conventional product it replaces. */
+IFL_DATA.register('products', [
+  /* ---------------- Deposits and fund mobilisation ---------------- */
+  { id: "current-account", name: "Current account", cat: "Deposits", need: "Safe keeping and payments, with money repayable on demand.",
+    contracts: ["qard"], topics: ["t8.5.2", "t14.3", "t7.1"],
+    how: ["The customer deposits money, which the bank holds as a loan (Qard) or Amanah.", "The bank guarantees repayment on demand.", "No return is paid, since any benefit on a loan would be Riba."],
+    numerical: { title: "Why no profit on a current account", kind: "practice", given: [["Balance", "50,000"], ["Bank’s overall pool profit rate", "8 %"]], working: ["The current account is a loan to the bank, not a Mudarabah investment.", "The bank guarantees the 50,000, so the depositor bears no risk.", "Any payment tied to the balance would be an increase on a loan."], answer: "Return = 0; the 50,000 is guaranteed and repayable on demand." },
+    controls: ["No return, gift or benefit stipulated on the balance.", "Risks of current accounts stay with the bank and are not passed to investment accounts (p. 471)."],
+    risks: [["Withdrawal on demand", "Liquidity management through Sukuk and interbank Mudarabah"]],
+    conventional: { name: "Conventional current account", diff: ["Both are usually non-remunerative; the Islamic account is explicitly a Qard, and its funds may be used only in Shari’ah-compliant business."] } },
+  { id: "mudarabah-deposit", name: "Savings and term deposits (Mudarabah pool)", cat: "Deposits", need: "Earn a Halal return on savings with the flexibility of tenors.",
+    contracts: ["mudarabah", "musharakah"], diagram: "deposit-pool", calc: "pool-weightage", topics: ["t8.5.2", "t12.7.1", "t14.3.1"],
+    how: ["Depositors’ funds are pooled; each tenor category gets a disclosed weightage, which can change only at the start of a period.", "The pool (as Rabbul-mal) and the bank (as Mudarib) share gross pool profit at the agreed ratio.", "The pool’s share is distributed to depositors by weighted daily products.", "A loss is shared by investment ratio, and the bank earns nothing as Mudarib."],
+    numerical: { title: "Box 8.1: distributing pool profit", kind: "textbook", given: [["3-month deposits", "$3,000 × 0.60"], ["6-month deposits", "$4,000 × 0.70"], ["1-year deposits", "$3,000 × 1.00"], ["Profit on $10,000 for one month", "$1,000"], ["Mudarabah ratio", "50 : 50"]],
+      working: ["Bank as Mudarib: 1,000 × 50 % = $500; pool: $500.", "Weighted amounts: 1,800 + 2,800 + 3,000 = 7,600.", "3-month: 500 × 1,800 ÷ 7,600 = $119 (3.96 % monthly on its $3,000).", "6-month: 500 × 2,800 ÷ 7,600 = $184 (4.60 %).", "1-year: 500 × 3,000 ÷ 7,600 = $197 (6.56 %).", "A $500 loss instead would be shared 150 / 200 / 150 by investment, ignoring weightages."],
+      answer: "Bank $500; depositors $119, $184 and $197 (Box 8.1, pp. 190–191)." },
+    controls: ["No fixed return promised; projected rates are adjusted to actual results (p. 360).", "Weightages disclosed; bigger balances of the same tenor should not be favoured (p. 359).", "Head-office expenses are borne by the bank, not the pool (p. 331)."],
+    risks: [["Displaced commercial risk (pressure to match market rates)", "Profit equalisation reserves with disclosure"], ["Loss in the pool", "Diversification across modes and sectors; reserves"]],
+    conventional: { name: "Interest-bearing savings/term deposit", diff: ["Conventional: principal plus fixed interest guaranteed. Islamic: variable return from actual pool profit; capital at the pool’s risk."] } },
+  { id: "wakalah-fund", name: "Investment fund on Wakalatul Istismar", cat: "Deposits", need: "Professional management of funds for a known fee, with all results passing to investors.",
+    contracts: ["wakalah"], topics: ["t13.2.2", "t8.5.2", "t18.3.1"],
+    how: ["The fee basis (lump sum or % of amount or NAV) is fixed before launch and disclosed in the prospectus.", "The bank invests the fund as agent in compliant avenues.", "Profit and loss belong entirely to investors; the bank earns only its fee."],
+    numerical: { title: "Fee in a loss year", kind: "practice", given: [["NAV at year-end", "200 million"], ["Disclosed fee", "2 % of NAV"], ["Fund result", "Loss of 5 million"]], working: ["Fee = 2 % × 200 m = 4 m.", "The fee is independent of profit or loss.", "Investors bear the 5 m loss and pay the 4 m fee."], answer: "Manager earns 4 m; investors bear the loss (p. 349)." },
+    controls: ["Fee method fixed before launch (p. 349).", "Only Shari’ah-compliant investments; screening criteria applied."],
+    risks: [["Poor performance", "Investor bears it — disclosure and screening"], ["Fiduciary breach", "Agent liable for negligence"]],
+    conventional: { name: "Managed fund / guaranteed-return account", diff: ["No guaranteed return; the manager’s income is a fee, not a spread."] } },
+
+  /* ---------------- Consumer and retail finance ---------------- */
+  { id: "auto-ijarah", name: "Car finance (Ijarah Muntahia-bi-Tamleek)", cat: "Consumer finance", need: "Use of a car now with ownership at the end of the lease.",
+    contracts: ["ijarah", "imbt", "wad", "wakalah"], diagram: "imbt", calc: "ijarah-case", topics: ["t11.5", "t11.5.1", "t11.4.5", "t11.6"], cases: ["c-ijarah-car"],
+    how: ["Customer promises to lease and pays a refundable security deposit.", "The bank buys the car (directly or through an agent) and owns it.", "The Ijarah starts when the usable car is delivered; rent is fixed or floating with floor and cap.", "The bank bears ownership risk and Takaful; the customer bears usage costs.", "At the end the car passes by a separate sale or gift under a unilateral promise."],
+    numerical: { title: "Box 11.3: car destroyed without negligence", kind: "textbook", given: [["Outstanding Ijarah investment + prepaid expenses", "Rs.370,000"], ["Takaful claim received", "Rs.450,000"], ["Security deposit", "Rs.50,000"]],
+      working: ["The lease ends and rent stops; the loss is the bank’s as owner.", "The client gets back his deposit: Rs.50,000.", "AAOIFI 8/8: pass the Takaful surplus to the client: 450,000 − 370,000 = Rs.80,000."], answer: "Client receives Rs.130,000 (p. 303)." },
+    controls: ["No sale clause inside the lease; ownership transfer only by separate promise (p. 290).", "Rent only from delivery of a usable asset (p. 289).", "Takaful at the lessor’s expense; late-payment amounts to charity (pp. 300–301)."],
+    risks: [["Customer refuses to lease after purchase", "Binding promise plus Hamish Jiddiyah"], ["Asset destroyed", "Takaful"], ["Inflation / rate risk", "Floating rent with floor and cap"], ["Careless use", "Trust receipt; lessee liable for negligence"]],
+    conventional: { name: "Hire-purchase / finance lease", diff: ["Conventional: customer bears all risks, rent continues after theft, penalties taken as income, automatic transfer (Box 11.2).", "Ijarah: bank bears ownership risk, rent stops if the car is lost, charity for late payment, separate sale or gift."] } },
+  { id: "home-dm", name: "Home finance (Diminishing Musharakah)", cat: "Consumer finance", need: "Buy a house with the bank as co-owner, paying rent and buying the bank’s share over time.",
+    contracts: ["diminishing-musharakah", "ijarah", "wad", "shirkah"], diagram: "dm", calc: "dm-schedule", topics: ["t12.9.2", "t12.8", "t12.9"], cases: ["c-dm-house", "c-dm-construction"],
+    how: ["Joint ownership (Shirkatulmilk) is created: e.g. bank 80 %, client 20 %.", "The bank leases its undivided share to the client for rent.", "The client buys the bank’s units under a unilateral promise, often on a pre-agreed schedule.", "Rent falls as units are bought; title passes after the last unit."],
+    numerical: { title: "Box 12.5: first and last instalments", kind: "textbook", given: [["House cost", "1,000,000"], ["Bank share", "800,000 (80 %)"], ["Tenure", "120 monthly units"], ["Rent rate", "7 % p.a. on outstanding investment"]],
+      working: ["Unit price = 800,000 ÷ 120 = 6,666.67.", "Month 1 rent = 800,000 × 7 % ÷ 12 = 4,666.67 → payment 11,333.33.", "Month 2 rent = 793,333.3 × 7 % ÷ 12 = 4,627.78 → 11,294.44.", "Month 120 rent = 6,666.7 × 7 % ÷ 12 = 38.89 → 6,705.56."], answer: "Payments fall from 11,333.33 to 6,705.56 (p. 342)." },
+    controls: ["Three contracts kept separate and independently enforceable (p. 338).", "Pre-agreed unit price allowed only in Shirkatulmilk (p. 338).", "Floating rent needs a floor and cap (p. 343).", "Construction or renovation: unit sales start one year after the last disbursement (p. 341)."],
+    risks: [["Client delays unit purchases", "Rent continues on the bank’s units — less loss than Murabaha (p. 342)"], ["Property damage", "Takaful; costs shared by ownership"]],
+    conventional: { name: "Interest-bearing mortgage", diff: ["Mortgage: a loan secured on the house, with interest on the outstanding balance.", "DM: joint ownership, rent for use of the bank’s share, sale of units; ownership risk is shared pro rata."] } },
+  { id: "apartment-istisna-dm", name: "Apartment under construction (Istisna‘a + DM)", cat: "Consumer finance", need: "Finance a flat that a builder has not yet built.",
+    contracts: ["istisna", "diminishing-musharakah", "ijarah", "wakalah"], diagram: "istisna-housing", topics: ["t10.11.10", "t10.11", "t12.9.2"],
+    how: ["Client and bank form a Shirkatulmilk pool for the flat’s price.", "They jointly sign an Istisna‘a with the builder and pay in instalments.", "The client supervises construction as the bank’s agent.", "On handover, the bank leases its share to the client, who buys units monthly (Diminishing Musharakah)."],
+    numerical: { title: "Box 10.13: sharing the price", kind: "textbook", given: [["Apartment price", "Rs.7 million"], ["Client’s own funds", "Rs.2 million"], ["Bank financing", "Rs.5 million over 10 years"]], working: ["Joint ownership: client 2/7 (28.6 %), bank 5/7 (71.4 %).", "The Rs.7 m is paid to the builder in four instalments under Istisna‘a.", "After handover the client pays rent on the bank’s Rs.5 m share and buys it in units over ten years."], answer: "Bank owns 71.4 % at handover, falling to 0 as units are bought (pp. 274–275)." },
+    controls: ["Istisna‘a price fixed and specifications clear.", "DM rules after completion (separate lease and unit purchases)."],
+    risks: [["Builder delays", "Shart-e-Jazai price reduction; performance bond"], ["Quality", "Specifications, supervision by agent"]],
+    conventional: { name: "Construction-linked mortgage", diff: ["No interest on stage payments; the bank co-owns the flat and earns rent only once it is usable."] } },
+  { id: "consumer-murabaha", name: "Consumer durables (Murabaha instalment sale)", cat: "Consumer finance", need: "Buy a fridge, computer or motorbike and pay in instalments.",
+    contracts: ["murabaha", "qabd", "wad"], diagram: "murabaha", calc: "credit-price", topics: ["t9.6", "t9.8", "t9.9.4"],
+    how: ["Customer requests the item and promises to buy.", "The bank (or a subsidiary holding inventory) buys and owns the item.", "The bank sells it at disclosed cost plus profit, payable in instalments.", "The price is fixed; late payment may lead to a charity penalty, never a higher price."],
+    numerical: { title: "Instalment price", kind: "practice", given: [["Cost to bank", "60,000"], ["Agreed profit", "10 % flat for 12 months"]], working: ["Price = 60,000 × 1.10 = 66,000.", "Instalment = 66,000 ÷ 12 = 5,500.", "If month 8 is paid late, the price stays 66,000; any agreed penalty goes to charity."], answer: "Price 66,000 in 12 instalments of 5,500." },
+    controls: ["Bank owns and possesses before sale.", "Mark-up from the date of sale, not disbursement (p. 365).", "No rollover (p. 364)."],
+    risks: [["Default", "Collateral; charity penalty as a deterrent"], ["Item damaged before sale", "Bank’s risk; Takaful"]],
+    conventional: { name: "Consumer loan / credit purchase", diff: ["The loan balance grows with interest on delay; the Murabaha price does not."] } },
+  { id: "islamic-card", name: "Islamic charge and credit cards", cat: "Consumer finance", need: "Payments and short-term credit without interest.",
+    contracts: ["qard", "wakalah"], calc: "late-payment", topics: ["t14.4.7"],
+    how: ["A charge card gives credit up to a limit, paid in full on the statement, with fixed fees.", "Interest-free credit cards (e.g. EIB, KFH Al Tayseer) charge fixed service fees, not interest.", "Merchant commission is allowed; cash withdrawals carry only a flat fee."],
+    numerical: { title: "KFH Al Tayseer repayment", kind: "practice", given: [["Outstanding balance", "9,000"], ["Rule", "One-third repaid each month; the rest rolls over without interest"]], working: ["Month 1 payment = 9,000 ÷ 3 = 3,000; carried 6,000.", "No interest is added on the 6,000; the bank earns from the annual fee and merchant commissions."], answer: "Pay 3,000; carry 6,000 interest-free (p. 383)." },
+    controls: ["No interest condition, even if the holder intends to pay on time (OIC Fiqh Council 2000).", "Flat cash-withdrawal fee, not linked to the amount (p. 381).", "No prohibited privileges such as conventional life insurance."],
+    risks: [["Default", "Salary account or lien (KFH); charity penalty"]],
+    conventional: { name: "Revolving interest-bearing credit card", diff: ["Conventional income is interest on the rolled-over balance; Islamic cards rely on fixed fees and merchant commission."] } },
+
+  /* ---------------- Trade and working-capital finance ---------------- */
+  { id: "working-capital-murabaha", name: "Working capital: Murabaha to Purchase Orderer", cat: "Trade & working capital", need: "Buy raw materials and inventory on deferred payment.",
+    contracts: ["murabaha", "wakalah", "wad", "qabd", "arbun"], diagram: "mpo", calc: "promise-breach", topics: ["t9.8.3", "t9.8", "t14.4.1", "t14.3.4"], cases: ["c-mpo-agent"],
+    how: ["Master Murabaha agreement and the client’s promise to buy (with Hamish Jiddiyah if needed).", "A separate agency: the client buys the goods for the bank (the bank pays the supplier directly).", "The client takes delivery as agent, and the goods are at the bank’s risk.", "The client offers to buy and the bank accepts: cost plus profit, deferred.", "The price is fixed; there is no rollover, and a new need means new goods and a new Murabaha."],
+    numerical: { title: "Mark-up period", kind: "practice", given: [["Supplier paid on", "1 March"], ["Client’s offer accepted on", "15 March"], ["Cost", "2,000,000"], ["Profit", "12 % p.a., 90 days from sale"]], working: ["Profit runs from the sale on 15 March, not from disbursement on 1 March.", "Profit = 2,000,000 × 12 % × 90/365 = 59,178.", "Price = 2,059,178, due 13 June."], answer: "Murabaha price ≈ 2,059,178, with no mark-up for 1–15 March (p. 365)." },
+    controls: ["Invoice date between the agency agreement and the offer (Box 9.1).", "Supplier not the client’s sister concern (>50 %) (p. 365).", "Goods must exist and be unused at the offer (p. 365).", "DP note after the sale, or for principal only (p. 365)."],
+    risks: [["Client refuses to buy", "Promise + Hamish Jiddiyah; actual loss only"], ["Client already bought the goods (‘Inah)", "Pay supplier directly; check invoices, gate passes, stock registers"], ["Goods in transit lost", "Bank’s risk; Takaful"], ["Overdue", "Undertaking to pay charity; collateral"]],
+    conventional: { name: "Running finance / overdraft", diff: ["Murabaha cannot replace a running facility: each drawing needs real goods and a separate sale (p. 223)."] } },
+  { id: "import-murabaha", name: "Import finance: L/C Murabaha", cat: "Trade & working capital", need: "Import goods through an L/C with deferred payment.",
+    contracts: ["murabaha", "wakalah", "musawamah"], diagram: "import-murabaha", topics: ["t14.4.2", "t9.8.3"],
+    how: ["Master Murabaha + agency agreement before the deal with the foreign supplier (Box 9.2).", "The bank opens the L/C; Takaful is arranged on the bank’s behalf, at its cost.", "The documents arrive and the bank pays through its Nostro.", "If the client pays at once: Musawamah or spot Murabaha at L/C cost + charges + Takaful.", "If credit is needed: a sub-Murabaha, with profit from the Nostro debit to the settlement date."],
+    numerical: { title: "Sub-Murabaha price", kind: "practice", given: [["L/C cost in rupees", "6,000,000"], ["Charges + Takaful", "60,000"], ["Profit rate", "10 % p.a."], ["Nostro debit to settlement", "120 days"]], working: ["Cost = 6,060,000.", "Profit = 6,060,000 × 10 % × 120/365 = 199,233.", "Murabaha price = 6,259,233."], answer: "≈ 6,259,233 payable after 120 days (TR Murabaha)." },
+    controls: ["Agency before the import deal is finalised (Box 9.2).", "The bank’s risk ends only on delivery to the customer.", "In a shipping-guarantee case, only the cost part may be adjusted later (p. 373)."],
+    risks: [["Customer delays after sight payment", "Agency lets the bank book a Murabaha rather than suffer a loss (p. 368)"]],
+    conventional: { name: "Import loan / usance L/C with interest", diff: ["Profit is on a sale of the goods, fixed once agreed, instead of interest accruing on a loan."] } },
+  { id: "export-bill-musawamah", name: "Export bill finance (Musawamah alternative to discounting)", cat: "Trade & working capital", need: "Cash now against an export bill without interest-based discounting.",
+    contracts: ["musawamah", "wakalah", "bai-sarf"], diagram: "musawamah-export", topics: ["t14.4.2"], cases: ["c-bill"],
+    how: ["The exporter holds a bill (e.g. US$100,000 due in 55 days).", "The bank advances local currency as the exporter’s agent to buy goods the exporter needs.", "The exporter buys the goods for the bank and declares possession; the bank then sells them to the exporter for the bill’s foreign-currency amount, payable on the bill date.", "The bill proceeds settle the Musawamah price."],
+    numerical: { title: "Section 14.4.2 figures", kind: "textbook", given: [["Bill", "US$100,000 due in 55 days"], ["Spot rate", "Rs.57.75"], ["Bank’s quoted rate", "Rs.57.60"]], working: ["Funds disbursed for goods = 100,000 × 57.60 = Rs.5,760,000.", "Goods sold to the exporter for US$100,000 payable on the bill date.", "Bank’s margin in rupee terms if paid at a spot of 57.75 at maturity: 100,000 × (57.75 − 57.60) = Rs.15,000 (practice illustration)."], answer: "Rs.5,760,000 now; US$100,000 on 25 February (p. 371)." },
+    controls: ["Real goods bought and owned before the sale.", "No discounting of the bill itself (a sale of debt)."],
+    risks: [["Bill not honoured", "Recourse to the exporter as Musawamah buyer; L/C security"]],
+    conventional: { name: "Bill discounting", diff: ["Discounting sells a debt below face value — Riba. The Islamic route uses a real sale of goods."] } },
+  { id: "export-istisna", name: "Pre-shipment export finance (Istisna‘a / Salam + agency)", cat: "Trade & working capital", need: "Funds to manufacture or procure goods for an export order.",
+    contracts: ["istisna", "salam", "wakalah"], diagram: "istisna-export", topics: ["t10.11.10", "t10.10", "t14.4.1"],
+    how: ["The exporter has an order (e.g. garments Rs.110 m).", "The bank buys the goods from the exporter by Istisna‘a (made to order) or Salam (fungible goods), before any L/C for that sale exists.", "The bank appoints the exporter its agent to export once the goods are the bank’s.", "The importer’s L/C proceeds come to the bank."],
+    numerical: { title: "Box 10.14: garment export", kind: "textbook", given: [["Istisna‘a price paid by bank", "Rs.100 million"], ["Export L/C value", "Rs.110 million"], ["Period", "3 months"]], working: ["The bank buys the garments for Rs.100 m and takes delivery, bearing their risk.", "It exports them through the client as agent and receives Rs.110 m under the L/C.", "Gross margin = Rs.10 m, earned by owning and exporting goods."], answer: "Bank’s gross margin Rs.10 m (pp. 275–276). Salam rice example: Rs.1.0 m paid, L/C Rs.1.1 m (Box 10.5)." },
+    controls: ["If an L/C has already been opened in the client’s name, Istisna‘a is not possible (avoid ‘Inah) (p. 276).", "The bank bears the goods’ risk after delivery; Takaful is its cost."],
+    risks: [["Order cancelled after delivery", "Bank’s risk as owner — select sound buyers"], ["Late or defective goods", "Performance bond; Shart-e-Jazai in Istisna‘a"]],
+    conventional: { name: "Pre-shipment export loan", diff: ["The bank earns by buying and exporting goods, not by lending against the order."] } },
+  { id: "salam-agri", name: "Agricultural finance (Salam with promise or Parallel Salam)", cat: "Trade & working capital", need: "Farmers’ pre-harvest funding; buyers’ price certainty.",
+    contracts: ["salam", "wad", "arbun"], diagram: "salam", calc: "salam-profit", topics: ["t10.10", "t10.10.1", "t10.6"], cases: ["c-salam-wheat"],
+    how: ["The bank pays the full price at contract for specified crop quantity, quality, date and place.", "It takes a buyer’s promise (with Hamish Jiddiyah), a Parallel Salam, or appoints the seller as agent to sell.", "The bank takes delivery at maturity and then sells; it cannot resell before possession."],
+    numerical: { title: "Box 10.4: wheat", kind: "textbook", given: [["Salam price paid 1 January", "Rs.100 m for 5,000 tons"], ["C’s promise to buy on 1 May", "Rs.115 m"], ["Hamish Jiddiyah", "Rs.15 m"]], working: ["Gross margin if C buys = 115 − 100 = Rs.15 m.", "If C refuses and the market pays Rs.108 m: actual loss = 115 − 108 = Rs.7 m, taken from the HJ; Rs.8 m refunded (practice extension)."], answer: "Rs.15 m margin, earned by bearing delivery and price risk (pp. 259–260)." },
+    controls: ["Full price at contract; no Salam in currencies or a specific field (pp. 244–245).", "Parallel contract independent (p. 256).", "Late-delivery penalty only to charity (p. 266)."],
+    risks: [["Seller fails to deliver", "Security/pledge; buy from the market"], ["Price falls", "Parallel Salam or promise to buy"], ["Holding costs", "Recover in parallel pricing"]],
+    conventional: { name: "Crop loan", diff: ["The bank buys produce and bears price and delivery risk instead of lending at interest."] } },
+  { id: "salam-working-capital", name: "Working capital for manufacturers (Salam + selling agency)", cat: "Trade & working capital", need: "Cash for a sugar, cement or fertiliser producer against future output.",
+    contracts: ["salam", "wakalah"], diagram: "salam-sugar", topics: ["t14.4.1", "t10.10"],
+    how: ["The bank buys future output by Salam, paying the full price now (it may take a charge on the mill’s assets).", "A separate agency appoints the producer to sell the goods for the bank at a target price.", "The bank takes delivery; the agent sells; proceeds go to the bank.", "Any excess over the target may be the agent’s bonus if agreed; a shortfall is the bank’s loss."],
+    numerical: { title: "Box 10.7: sugar", kind: "textbook", given: [["Salam price", "Rs.19 per kg"], ["Bank’s target sale price", "Rs.20 per kg"], ["Scenario A: agent sells at", "Rs.21"], ["Scenario B: market falls to", "Rs.18"]], working: ["Target margin = 20 − 19 = Re.1 per kg.", "A: sold at 21 — the extra Re.1 may be the agent’s fee if the bank agrees; the bank keeps Re.1.", "B: sold at 18 — the bank loses Re.1 per kg; the agent does not guarantee the price."], answer: "Bank’s result ranges from +Re.1 to −Re.1 per kg: real price risk (pp. 261–262)." },
+    controls: ["Agency independent of the Salam.", "The bank takes delivery before the agent sells."],
+    risks: [["Price risk", "Borne by the bank — the price of genuine trade"]],
+    conventional: { name: "Cash credit / running finance", diff: ["Funds are provided against a purchase of real output, with the bank bearing price risk."] } },
+  { id: "running-musharakah", name: "Running Musharakah (working capital partnership)", cat: "Trade & working capital", need: "Revolving working capital for a going business, sharing actual profit.",
+    contracts: ["musharakah"], diagram: "running-musharakah", calc: "musharakah-pl", topics: ["t12.7.2", "t14.4.1"],
+    how: ["A Running Musharakah Account is opened with a limit.", "Sale proceeds of finished goods are credited; drawings are debited.", "The bank’s capital is the average utilised amount (daily product).", "Operating profit is shared monthly or quarterly at the agreed ratio; loss by capital."],
+    numerical: { title: "Quarterly profit share", kind: "practice", given: [["Average bank balance in the business", "10 m"], ["Client’s capital", "30 m"], ["Operating profit for the quarter", "4 m"], ["Agreed ratio (bank : client)", "20 : 80"]], working: ["Bank = 4 m × 20 % = 0.8 m; client 3.2 m.", "If the quarter made a loss of 2 m: bank bears 2 m × 10/40 = 0.5 m; client 1.5 m."], answer: "Profit: bank 0.8 m. Loss: bank 0.5 m (by capital)." },
+    controls: ["Only operating cash flows credited (p. 333).", "Guarantees only against negligence or breach (p. 318).", "Gross-profit sharing possible if the client bears indirect costs (p. 370)."],
+    risks: [["Under-reporting of profit", "Documentation, audit rights, security against misconduct"]],
+    conventional: { name: "Running finance with interest", diff: ["The bank’s return depends on actual operating profit, not on the balance outstanding."] } },
+  { id: "musharakah-trade", name: "Trade finance by Musharakah (single transaction)", cat: "Trade & working capital", need: "Finance a single export or import deal and share its profit.",
+    contracts: ["musharakah", "shirkah"], diagram: "musharakah", topics: ["t12.7.2", "t14.4.2"], cases: ["c-wujooh-lc"],
+    how: ["The client prepares cost and profit estimates for a specific order.", "The bank joins as partner for that transaction, profit shared at an agreed ratio.", "Security covers only misconduct, breach or negligence.", "The deal is liquidated when the proceeds arrive; profit is shared, and any loss by capital."],
+    numerical: { title: "Box 12.2: import on partnership in creditworthiness", kind: "textbook", given: [["Usance L/C", "Rs.10 million, 180 days"], ["Clearing + installation", "~30 + ~50 days"], ["Customer payment", "within 150 days of shipment"]], working: ["Proceeds (≤150 days) arrive before the L/C falls due (180 days), so there is no funding gap.", "The partners buy on credit and sell for cash; profit is shared at the agreed ratio (Shirkatul Wujooh)."], answer: "Profit shared as agreed; the bank settles the L/C at day 180 (pp. 334–335)." },
+    controls: ["Wujooh accepted by Hanafis and Hanbalis; Shafi‘is reject it (pp. 310–311).", "Loss follows the liability agreed at the start."],
+    risks: [["Buyer default", "Partnership risk — careful client selection"]],
+    conventional: { name: "Trade loan", diff: ["The bank shares the deal’s profit and risk instead of charging interest for the period."] } },
+
+  /* ---------------- Corporate, project and asset finance ---------------- */
+  { id: "corporate-ijarah", name: "Plant and machinery Ijarah / sale and lease-back", cat: "Corporate & project", need: "Fixed assets for a company, including assets it already owns.",
+    contracts: ["ijarah", "imbt", "wad", "bai"], diagram: "ijarah", calc: "ijarah-case", topics: ["t11.5.1", "t11.3.1", "t11.6"],
+    how: ["For new assets, the bank buys (via an agent if needed) and leases them.", "For assets the client already owns, the bank buys them (sale) and then leases them back.", "Transfer at the end is by separate sale or gift; for sale and lease-back, not within about a year."],
+    numerical: { title: "Box 11.3: early purchase of ten cars", kind: "textbook", given: [["Client’s offer", "Rs.400,000 per car × 10"], ["Outstanding Ijarah investment", "Rs.350,000 per car"], ["Prepaid expenses incl. Takaful", "Rs.20,000 per car"]], working: ["Liabilities per car = 350,000 + 20,000 = 370,000; ten cars = Rs.3.7 m.", "Offer = Rs.4.0 m.", "Profit = 4.0 − 3.7 = Rs.300,000 (Rs.30,000 per car), assuming the deposit is included in the offer."], answer: "Accept: the offer covers liabilities and yields Rs.300,000 (p. 303)." },
+    controls: ["Trucks bought from the market: direct lease; plant, looms and owned cars: sale and lease-back (Box 11.3).", "No early retirement before one year in sale and lease-back.", "Repairs caused by the client’s poor maintenance are borne by the client (Answer 2)."],
+    risks: [["Early termination", "Promise to purchase on a price schedule in risky cases"], ["Resale value", "Lease only assets with a sufficient market"]],
+    conventional: { name: "Term loan / finance lease", diff: ["The bank owns the asset and bears ownership risk; rent is for use, not interest on principal."] } },
+  { id: "project-istisna", name: "Project finance: Istisna‘a with Parallel Istisna‘a", cat: "Corporate & project", need: "Build roads, plants or buildings with deferred payment.",
+    contracts: ["istisna", "wakalah"], diagram: "parallel-istisna", calc: "parallel-istisna", topics: ["t10.11.7", "t10.11.10", "t14.4.3"],
+    how: ["The bank sells the asset to the customer by Istisna‘a (price payable over time).", "It buys the asset from a contractor by a separate Parallel Istisna‘a (paid in stages).", "It appoints the customer or a consultant to supervise.", "On completion the contractor delivers to the bank and the bank delivers to the customer."],
+    numerical: { title: "Box 10.16: government road", kind: "textbook", given: [["Istisna‘a price to government", "Rs.1,200 m over 10 years"], ["Parallel Istisna‘a with contractor", "Rs.1,000 m in four equal instalments"]], working: ["Instalments to the contractor = 1,000 ÷ 4 = Rs.250 m each.", "Bank’s gross margin = 1,200 − 1,000 = Rs.200 m, received over ten years (tolls assigned; shortfall paid by the government).", "Box 10.15 building: builder pays Rs.120 m, contractor gets Rs.100 m → Rs.20 m margin."], answer: "Rs.200 m margin on the road; Rs.20 m on the flats (pp. 276–277)." },
+    controls: ["Parallel delivery date not earlier than the original (p. 267).", "The two contracts are independent; the parallel contract is only with a third party.", "Price fixed; not priced on a Murabaha cost-plus basis (p. 265)."],
+    risks: [["Contractor delay", "Shart-e-Jazai"], ["Quality", "Supplier guarantee; supervision"], ["Bank does not own the materials", "Security from the manufacturer"]],
+    conventional: { name: "Construction loan", diff: ["The bank earns the difference between two sale prices, bearing delivery risk."] } },
+  { id: "musharakah-tfc", name: "Musharakah term finance certificates", cat: "Corporate & project", need: "Long-term corporate funding with profit-based returns.",
+    contracts: ["musharakah", "sukuk"], calc: "sitara-tfc", topics: ["t12.7.3"], cases: ["c-sitara"],
+    how: ["The company issues certificates representing a share in the profit of the business or project.", "Returns follow tiered formulas on actual operating profit.", "Principal is redeemed over the term."],
+    numerical: { title: "Box 12.3: Sitara TFCs (Level I)", kind: "textbook", given: [["Issue", "Rs.360 million, five years (June 2002)"], ["Level I", "12 % of the first Rs.100 m of operating profit"], ["Level II", "2 % of each further Rs.100 m; ¼ to a Takaful reserve"]], working: ["If operating profit is Rs.100 m, Level I = 12 m to TFC holders.", "Actual returns reported were about 15–24 %, depending on profit."], answer: "Returns track operating profit rather than a fixed coupon (Box 12.3)." },
+    controls: ["No fixed return guaranteed by the issuer."],
+    risks: [["Profit shortfall", "Holders share the downside"]],
+    conventional: { name: "Interest-bearing TFC / bond", diff: ["Return from a profit formula, not a coupon."] } },
+  { id: "syndication", name: "Syndicated Ijarah–Istisna‘a (oil terminal)", cat: "Corporate & project", need: "Very large projects financed by several banks.",
+    contracts: ["istisna", "ijarah", "wad", "wakalah"], diagram: "ijarah-istisna-project", topics: ["t14.4.3"],
+    how: ["The operator gives a binding unilateral promise to lease.", "The consortium signs an Istisna‘a with a contractor.", "The operator supervises construction as agent.", "On completion the consortium leases the terminal to the operator."],
+    numerical: { title: "Sharing the rent", kind: "practice", given: [["Terminal cost", "Rs.10 billion"], ["Bank A share", "30 %"], ["Annual rent", "Rs.1.1 billion"]], working: ["Bank A owns 30 % and receives 30 % × 1.1 bn = Rs.330 m a year.", "It bears 30 % of ownership risk and costs."], answer: "Rs.330 m a year to Bank A, with 30 % of ownership risk." },
+    controls: ["Ijarah executed only after the asset exists and is owned (p. 374)."],
+    risks: [["Construction delay", "Shart-e-Jazai in the Istisna‘a"]],
+    conventional: { name: "Syndicated loan", diff: ["Banks co-own the asset and earn rent, instead of lending at a spread."] } },
+
+  /* ---------------- Treasury and capital markets ---------------- */
+  { id: "ijarah-sukuk", name: "Sovereign / corporate Ijarah Sukuk", cat: "Treasury & capital markets", need: "Raise large funds against real assets; give investors tradable, quasi-fixed income.",
+    contracts: ["sukuk", "ijarah", "wad", "bai"], diagram: "sukuk", calc: "sukuk-trade", topics: ["t15.3.5.b", "t15.4.cases", "t15.3.7"], cases: ["c-pak-sukuk", "c-wapda", "c-nakheel"],
+    how: ["An SPV buys an asset from the originator (a true sale).", "The SPV issues Sukuk representing pro rata ownership of the asset.", "The SPV leases the asset to the originator; rent flows to holders.", "At maturity the originator repurchases under a separate undertaking."],
+    numerical: { title: "Box 15.6: Pakistan’s sovereign Sukuk", kind: "textbook", given: [["Issue", "US$600 m, 5 years (January 2005)"], ["Pricing", "6-month LIBOR + 220 bps"], ["Orders", "US$1.2 bn from 82 accounts"]], working: ["If 6-m LIBOR = 4.80 %, rent rate = 7.00 % p.a.", "Semi-annual rent ≈ 600 m × 7.00 % ÷ 2 = US$21 m.", "Oversubscription = 1,200 ÷ 600 = 2×."], answer: "≈ US$21 m per half-year at a 4.80 % LIBOR (pp. 413–414)." },
+    controls: ["Sukuk must represent ownership, not just rent receivables (p. 402).", "No issuer guarantee of face value except for tort or negligence (AAOIFI).", "Repurchase at least a year after the sale (p. 397)."],
+    risks: [["Asset destroyed", "Holders bear it as owners — Takaful"], ["Pre-fixed return concerns", "Book’s critique, Section 15.3.7"]],
+    conventional: { name: "Government bond", diff: ["A bond is a debt; Ijarah Sukuk are ownership of an asset earning rent, tradable at market price."] } },
+  { id: "liquidity-tools", name: "Liquidity management (interbank Mudarabah, Sukuk, Commodity Murabaha)", cat: "Treasury & capital markets", need: "Place surplus funds or cover shortfalls without interest.",
+    contracts: ["mudarabah", "sukuk", "tawarruq", "salam"], diagram: "tawarruq", calc: "tawarruq-check", topics: ["t14.4.4", "t8.8.5", "t13.3.1"],
+    how: ["Interbank Mudarabah: the deficit bank shares its general profit at a negotiated ratio.", "Sukuk bought at par and sold outright when cash is needed (not a repo).", "Invite investment in a pool of Murabaha and Ijarah assets (Murabaha receivables < 50 %).", "Commodity Murabaha (Tawarruq) only as a last resort, under Shari’ah-board supervision."],
+    numerical: { title: "Interbank Mudarabah return", kind: "practice", given: [["Placement", "100 m for 30 days"], ["Investee bank’s gross profit rate", "9 % p.a."], ["Ratio (investor : investee)", "70 : 30"]], working: ["Gross profit on the placement = 100 m × 9 % × 30/365 = 739,726.", "Investor’s share = 70 % = 517,808."], answer: "≈ 517,808 — known only when the investee’s profit is known (p. 206)." },
+    controls: ["No fixed return on Mudarabah placements.", "Tawarruq never sold back to the seller; goods must move (p. 350)."],
+    risks: [["Return uncertainty", "Diversify instruments"], ["Paper-only Tawarruq", "Board supervision; limited use"]],
+    conventional: { name: "Call money and repo", diff: ["No interest-bearing lending between banks; returns come from profit sharing or asset sales."] } },
+  { id: "fx-forward-cover", name: "Foreign exchange: spot dealing and forward cover by promise", cat: "Treasury & capital markets", need: "Currency for trade and remittances, and protection against rate moves.",
+    contracts: ["bai-sarf", "wad", "arbun"], calc: "fx-settlement", topics: ["t14.4.5", "t8.8.7"],
+    how: ["Spot FX with settlement within two days at the deal-date rate.", "For genuine documented trade needs, a unilateral promise to sell or buy currency at a pre-agreed rate on a future date.", "The actual exchange takes place simultaneously on that date; no cover fee; earnest money may be taken."],
+    numerical: { title: "Importer’s forward cover", kind: "practice", given: [["Need", "US$500,000 in 90 days"], ["Promised rate", "Rs.60.20"], ["Earnest money", "Rs.1,000,000"], ["Spot at maturity if the client defaults", "Rs.59.80"]], working: ["At maturity the client pays 500,000 × 60.20 = Rs.30,100,000 and receives the dollars.", "If he defaults, the bank sells the dollars at 59.80: loss = 500,000 × 0.40 = Rs.200,000, taken from the earnest money; Rs.800,000 refunded."], answer: "Actual loss only: Rs.200,000 (p. 377)." },
+    controls: ["Genuine documented need — no speculators (p. 377).", "A promise, not a forward sale; no cover fee."],
+    risks: [["Client default", "Earnest money covers actual loss"]],
+    conventional: { name: "FX forward contract", diff: ["A conventional forward is a sale for future delivery on both sides; here there is only a unilateral promise and a spot exchange later."] } },
+  { id: "iers", name: "Export refinance from the central bank (SBP IERS)", cat: "Treasury & capital markets", need: "Priority-sector refinance without interest.",
+    contracts: ["musharakah"], diagram: "iers", topics: ["t14.4.6"],
+    how: ["The Islamic bank forms a Musharakah pool of at least ten blue-chip exporters’ financings.", "SBP invests in the pool and shares its actual profit on daily products.", "Profit above the conventional EFS rate goes to a Takaful fund held by SBP.", "Losses are shared by investment, SBP’s share met first from the Takaful fund."],
+    numerical: { title: "Excess profit", kind: "practice", given: [["SBP’s average investment", "Rs.1,000 m"], ["SBP’s share of pool profit", "9 % p.a."], ["EFS rate", "7 % p.a."]], working: ["SBP’s profit share = Rs.90 m.", "At the EFS rate = Rs.70 m.", "Excess Rs.20 m goes to the Takaful fund (within 7 days of determination)."], answer: "Rs.20 m to the Takaful fund (p. 378)." },
+    controls: ["Only transactions approved by the bank’s Shari’ah board.", "Actual, not fixed, profit."],
+    risks: [["Pool loss", "Takaful fund absorbs SBP’s share first"]],
+    conventional: { name: "Export finance scheme (EFS)", diff: ["The central bank earns a share of actual pool profit instead of a fixed refinance rate."] } },
+
+  /* ---------------- Fee-based services and Takaful ---------------- */
+  { id: "lc-lg", name: "Letters of credit and guarantees", cat: "Services & Takaful", need: "Payment assurance in trade; performance and bid guarantees.",
+    contracts: ["wakalah", "security"], topics: ["t14.6", "t5.8"],
+    how: ["L/C: a banking service charged as a fee that is not time-related; it may vary with L/C type and effort.", "L/G: guarantee itself is gratuitous; fees cover related services and expenses.", "If a guarantee is called, the bank recovers only the principal."],
+    numerical: { title: "Guarantee called", kind: "practice", given: [["Guarantee amount", "Rs.5 m"], ["Called and paid by the bank", "Rs.5 m"], ["Client repays after", "60 days"]], working: ["The bank recovers Rs.5 m only.", "No charge for the 60 days (that would be Riba); the service fee agreed at issue is unaffected."], answer: "Recover Rs.5 m; no time-based charge (p. 385)." },
+    controls: ["No time-based L/C or L/G fee (pp. 384–385).", "Standby L/Cs are treated as guarantees."],
+    risks: [["Called guarantee not reimbursed", "Collateral; margin"]],
+    conventional: { name: "Conventional L/C and L/G commission", diff: ["Conventional pricing often varies with time outstanding; Islamic fees reflect service and effort."] } },
+  { id: "jualah-services", name: "Service products on Ju‘alah (debt recovery, brokerage)", cat: "Services & Takaful", need: "Pay for a result whose effort cannot be specified in advance.",
+    contracts: ["jualah"], diagram: "jualah", calc: "jualah-reward", topics: ["t13.4.6", "t13.4.5"], cases: ["c-jualah-recovery"],
+    how: ["Reward fixed as an amount or a share of the result (e.g. % of debts recovered).", "No result, no reward; the offeror pays a market wage if he revokes after work begins.", "The bank may sub-contract by Parallel Ju‘alah."],
+    numerical: { title: "Recovery reward", kind: "practice", given: [["Recovered", "3,000,000"], ["Reward", "4 %"], ["Advance paid on account", "50,000"]], working: ["Reward = 120,000.", "Less advance on account 50,000 → 70,000 payable."], answer: "70,000 still payable (pp. 352–355)." },
+    controls: ["Task must not be the worker’s existing legal duty (p. 352)."],
+    risks: [["No recovery", "Offeror pays nothing"]],
+    conventional: { name: "Collection agency on retainer", diff: ["Payment depends on the result, not on time spent."] } },
+  { id: "takaful", name: "Takaful (general and family)", cat: "Services & Takaful", need: "Cover against loss without Riba, Gharar and Maisir.",
+    contracts: ["takaful", "waqf", "wakalah", "mudarabah"], diagram: "takaful", calc: "takaful-waqf", topics: ["t16.4.1", "t16.4", "t16.5"], cases: ["c-takaful-fund"],
+    how: ["Participants donate (Tabarru‘) to a Waqf fund created by shareholders.", "The operator charges a Wakalah fee and invests the fund as Mudarib.", "Claims are paid from the fund; the underwriting surplus belongs to participants.", "Family Takaful adds a savings part returned with profit at maturity."],
+    numerical: { title: "Year-end result", kind: "practice", given: [["Donations", "20 m"], ["Wakalah fee", "25 %"], ["Claims and re-Takaful", "9 m"], ["Investment profit", "2 m, shared fund 60 : operator 40"]], working: ["Fee = 5 m.", "Underwriting surplus = 20 − 5 − 9 = 6 m → participants.", "Investment profit: fund 1.2 m, operator 0.8 m."], answer: "Surplus 6 m to participants; operator 5.8 m (fee + share) (Box 16.1 method)." },
+    controls: ["Operator does not take the underwriting surplus as a risk-taker (p. 426).", "Deficits met from reserves, then Qard from shareholders (p. 427).", "Reduce the fee, not the risk premium, for large clients."],
+    risks: [["Deficit", "Reserves; Qard al Hasan; re-Takaful"]],
+    conventional: { name: "Conventional insurance", diff: ["Risk sold to an insurer that keeps the surplus; Takaful shares risk among participants, who own the surplus."] } }
+]);
 
 </script>
 <script data-src="data/chapters/ch01.js">
@@ -13784,6 +14058,8 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
   }
   IFL.ICONS = {
     dot: '<circle cx="12" cy="12" r="3"/>',
+    bank: '<path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 21h18"/>',
+    sum: '<path d="M18 5H6l6 7-6 7h12"/>',
     home: '<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
     book: '<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 5v16"/>',
     map: '<circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7.5l3 8M16 7.5l-3 8M8.5 6h7"/>',
@@ -15270,6 +15546,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
       h('div.grid.grid-2', [
         ['#/revision-cards', 'layers', 'Rapid revision cards'], ['#/compare', 'compare', 'Comparison lab'], ['#/diagrams', 'flow', 'Transaction diagrams'], ['#/concepts', 'map', 'Concept map'],
         ['#/exam/trainer', 'exam', 'Exam answer trainer'], ['#/finder', 'compass', 'Which mode applies?'], ['#/cases', 'case', 'Case studies'], ['#/timer', 'clock', 'Study timer'],
+        ['#/products', 'bank', 'Islamic banking products'], ['#/numericals', 'sum', 'Numericals trainer'],
         ['#/mock', 'flame', 'Timed mock exam'], ['#/tools', 'calc', 'Interactive tools'], ['#/mistakes', 'refresh', 'My mistakes' + (function () { var n = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false; }).length; return n ? ' (' + n + ')' : ''; })()]
       ].map(function (x) { return h('a.btn', { href: x[0], style: { justifyContent: 'flex-start' } }, u.svg(x[1]), x[2]); })));
 
@@ -15468,7 +15745,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
   function loadTopic(id) {
     var meta = IFL.course.topic(id);
     if (!meta) return Promise.reject(new Error('Topic ' + id + ' not found'));
-    return Promise.all([window.IFL_DATA.loadChapter(meta.chapter), window.IFL_DATA.load(['concepts'])]).then(function (r) {
+    return Promise.all([window.IFL_DATA.loadChapter(meta.chapter), window.IFL_DATA.load(['concepts', 'products'])]).then(function (r) {
       var ch = r[0], t = ch.topics.filter(function (x) { return x.id === id; })[0];
       if (!t) throw new Error('Topic data missing for ' + id);
       return { ch: ch, t: t, meta: meta };
@@ -15557,6 +15834,8 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
         t.calc ? sectionCard('Calculation', IFL.calc(t.calc.type, t.calc.note)) : null,
         (function () { var extra = Object.keys(IFL.calcTypes || {}).filter(function (k) { return IFL.calcTypes[k].topic === t.id && (!t.calc || t.calc.type !== k); });
           return extra.length ? sectionCard(t.calc ? 'More interactive tools' : 'Interactive tool', h('div.stack', extra.map(function (k) { return IFL.calc(k); }))) : null; })(),
+        (function () { var ps = (window.IFL_DATA.sets.products || []).filter(function (p) { return p.topics.indexOf(t.id) > -1; });
+          return ps.length ? sectionCard('Islamic banking products', h('div', h('p.small.muted', 'Products in the catalogue that apply this lesson:'), h('div.row', ps.map(function (p) { return h('a.chip', { href: '#/product/' + p.id }, u.svg('bank'), p.name); })))) : null; })(),
         t.distinctions && t.distinctions.length ? sectionCard('Important distinctions', h('div', t.distinctions.map(function (x) { return h('div.callout.info', h('div.t', x.a + ' vs ' + x.b), h('p', x.text)); }))) : null,
         t.confusions && t.confusions.length ? sectionCard('Common confusions', h('div.stack', t.confusions.map(function (x) { return h('div.confusion', h('div.wrong', h('div.lbl', 'Misconception'), x.wrong), h('div.right', h('div.lbl', 'Correct view'), x.right)); }))) : null,
         t.debate && t.debate.length ? sectionCard('Arguments and the author\'s discussion', h('div', t.debate.map(C.debate))) : null,
@@ -15874,12 +16153,14 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
 
   /* All questions (chapter questions + topic quick checks) with chapter numbers attached. */
   function pool() {
-    return window.IFL_DATA.loadAllChapters().then(function (chs) {
-      var out = [];
+    return Promise.all([window.IFL_DATA.loadAllChapters(), window.IFL_DATA.load(['products', 'concepts']).catch(function () { return {}; })]).then(function (res) {
+      var chs = res[0], out = [];
       chs.forEach(function (ch) {
         ch.questions.forEach(function (q) { out.push(Object.assign({ chapter: ch.number }, q)); });
         ch.topics.forEach(function (t) { var qc = C.quickCheckQuestion(t); if (qc) { qc.chapter = ch.number; qc.quick = true; out.push(qc); } });
       });
+      /* Questions generated from the Islamic banking products catalogue. */
+      if (IFL.productQuestions && res[1].products) out = out.concat(IFL.productQuestions(res[1].products, res[1].concepts));
       return out;
     });
   }
@@ -16440,7 +16721,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
   }, { wide: true });
 
   IFL.route('/concept/:id', function (ctx) {
-    return window.IFL_DATA.load(['concepts', 'diagrams', 'comparisons']).then(function (r) {
+    return window.IFL_DATA.load(['concepts', 'diagrams', 'comparisons', 'products']).then(function (r) {
       var c = r.concepts.filter(function (x) { return x.id === ctx.params.id; })[0];
       if (!c) throw new Error('Concept not found');
       IFL.progress.log('concept', 'Concept: ' + c.name, '/concept/' + c.id);
@@ -16448,6 +16729,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
       IFL.course.chapters.forEach(function (ch) { ch.topicObjs.forEach(function (t) { if (t.concepts.some(function (k) { return c.tags.indexOf(k) > -1; })) tagged.push(t); }); });
       var diagrams = r.diagrams.filter(function (d) { return d.concept === c.id; });
       var pairs = r.comparisons.pairs.filter(function (p) { var s = u.norm(p.title); return s.indexOf(u.norm(c.name.split(/[ (/]/)[0])) > -1; });
+      var prods = (r.products || []).filter(function (p) { return p.contracts.indexOf(c.id) > -1; });
       var byId = {}; r.concepts.forEach(function (x) { byId[x.id] = x; });
       var topicIds = tagged.map(function (t) { return t.id; });
       return h('div',
@@ -16462,7 +16744,9 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
             c.links.length ? h('section.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'Connected concepts'),
               h('ul.small', c.links.map(function (l) { var o = byId[l.to]; return o ? h('li', l.label + ': ', h('a', { href: '#/concept/' + o.id }, o.name)) : null; }))) : null,
             diagrams.length || pairs.length ? h('section.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'Diagrams and comparisons'),
-              h('div.row', diagrams.map(function (d) { return h('a.chip', { href: '#/diagram/' + d.id }, u.svg('flow'), d.title); }), pairs.map(function (p) { return h('a.chip', { href: '#/compare?id=' + p.id }, u.svg('compare'), p.title); }))) : null)));
+              h('div.row', diagrams.map(function (d) { return h('a.chip', { href: '#/diagram/' + d.id }, u.svg('flow'), d.title); }), pairs.map(function (p) { return h('a.chip', { href: '#/compare?id=' + p.id }, u.svg('compare'), p.title); }))) : null,
+            prods.length ? h('section.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'Islamic banking products using it (' + prods.length + ')'),
+              h('div.row', prods.map(function (p) { return h('a.chip', { href: '#/product/' + p.id }, u.svg('bank'), p.name); }))) : null)));
     });
   }, { wide: true });
 })();
@@ -17021,6 +17305,518 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
 })();
 
 </script>
+<script data-src="modules/views/products.js">
+/* Islamic banking products: catalogue, product pages, product–contract map, side-by-side comparison
+   and a product quiz. Content comes from data/products.js (built from Box 8.2 and the product
+   procedures, boxes and case studies in Chapters 8–16). */
+(function () {
+  var IFL = window.IFL, u = IFL.u, h = u.h, C = IFL.c;
+  var D = window.IFL_DATA;
+  var H2 = { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' };
+  var NS = 'http://www.w3.org/2000/svg';
+  var CATS = ['Deposits', 'Consumer finance', 'Trade & working capital', 'Corporate & project', 'Treasury & capital markets', 'Services & Takaful'];
+  function el(tag, attrs, text) { var e = document.createElementNS(NS, tag); Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); }); if (text != null) e.textContent = text; return e; }
+  function load() { return D.load(['products', 'concepts', 'diagrams', 'cases']); }
+  function cmap(R) { var m = {}; R.concepts.forEach(function (c) { m[c.id] = c; }); return m; }
+  function kindBadge(k) { return k === 'textbook' ? h('span.badge.accent', 'Textbook figures') : h('span.badge.gold', 'Practice example — generated for learning'); }
+
+  /* ---------- Questions generated from the catalogue (stable ids, deterministic distractors) ---------- */
+  function hash(s) { var x = 2166136261; for (var i = 0; i < s.length; i++) { x ^= s.charCodeAt(i); x = Math.imul(x, 16777619); } return x >>> 0; }
+  function pick(list, n, seed) {
+    var a = list.slice(), s = seed || 1;
+    for (var i = a.length - 1; i > 0; i--) { s = (Math.imul(s, 1103515245) + 12345) >>> 0; var j = s % (i + 1); var t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a.slice(0, n);
+  }
+  function mcq(id, stem, right, wrong, extra) {
+    var seed = hash(id), opts = pick(wrong, 3, seed), at = seed % (opts.length + 1);
+    opts.splice(at, 0, right);
+    return Object.assign({ id: id, type: 'mcq', q: stem, options: opts, answer: at, product: true }, extra);
+  }
+  function uniq(a) { var o = {}; return a.filter(function (x) { if (!x || o[x]) return false; o[x] = 1; return true; }); }
+  IFL.productQuestions = function (products, concepts) {
+    var cm = {}; (concepts || []).forEach(function (c) { cm[c.id] = c; });
+    var out = [], count = function (arr, v) { return arr.filter(function (x) { return x === v; }).length; };
+    var allConv = products.map(function (p) { return p.conventional.name; });
+    var allMit = []; products.forEach(function (p) { p.risks.forEach(function (r) { allMit.push(r[1]); }); });
+    products.forEach(function (p) {
+      var t = IFL.course.topic(p.topics[0]), base = { topic: p.topics[0], chapter: t ? t.chapter : null, obj: 'Identify how ' + p.name + ' is structured' };
+      var src = ' See the product page “' + p.name + '”.';
+      var core = cm[p.contracts[0]];
+      if (core) {
+        var others = uniq(products.map(function (o) { return o.contracts[0]; }).filter(function (c) { return p.contracts.indexOf(c) < 0 && cm[c]; })).map(function (c) { return cm[c].name; });
+        if (others.length >= 3) out.push(mcq('pq-' + p.id + '-core', 'Which contract is at the core of “' + p.name + '”?', core.name, others,
+          Object.assign({ explanation: p.name + ' rests on ' + p.contracts.map(function (c) { return cm[c] ? cm[c].name : c; }).join(', ') + '. ' + p.how[0] + src, diff: 'E', level: 'recall' }, base)));
+      }
+      var others2 = products.filter(function (o) { return o.cat !== p.cat; }).map(function (o) { return o.name; });
+      out.push(mcq('pq-' + p.id + '-need', 'A client needs: “' + p.need + '” Which Islamic banking product fits best?', p.name, others2,
+        Object.assign({ explanation: p.name + ' (' + p.cat + ') meets this need through ' + p.contracts.map(function (c) { return cm[c] ? cm[c].name : c; }).join(' + ') + '.' + src, diff: 'M', level: 'application' }, base)));
+      var words = u.norm(p.name).split(/[^a-z]+/).filter(function (w) { return w.length > 4; });
+      var giveaway = words.some(function (w) { return u.norm(p.conventional.name).indexOf(w) > -1; });
+      if (count(allConv, p.conventional.name) === 1 && !giveaway) {
+        out.push(mcq('pq-' + p.id + '-conv', 'Which conventional product does “' + p.name + '” replace?', p.conventional.name, uniq(allConv.filter(function (n) { return n !== p.conventional.name; })),
+          Object.assign({ explanation: p.conventional.diff[0] + src, diff: 'E', level: 'understanding' }, base)));
+      }
+      var r = p.risks.filter(function (x) { return count(allMit, x[1]) === 1; })[0];
+      if (r) {
+        var mine = p.risks.map(function (x) { return x[1]; });
+        out.push(mcq('pq-' + p.id + '-risk', 'In “' + p.name + '”, how does the bank manage this risk: ' + r[0].replace(/\.$/, '') + '?', r[1], uniq(allMit.filter(function (m) { return mine.indexOf(m) < 0; })),
+          Object.assign({ explanation: 'Mitigant for ' + r[0].toLowerCase() + ': ' + r[1] + '.' + src, diff: 'M', level: 'understanding' }, base)));
+      }
+    });
+    return out;
+  };
+
+  /* ---------- Catalogue ---------- */
+  IFL.route('/products', function (ctx) {
+    return load().then(function (R) {
+      var cm = cmap(R), q = ctx.query, cat = q.cat || '', term = '';
+      var grid = h('div.grid.grid-3'), countEl = h('span.small.muted');
+      var search = h('input.input', { type: 'search', placeholder: 'Search products, contracts or needs…', 'aria-label': 'Search products', style: { maxWidth: '360px' } });
+      var chips = [''].concat(CATS).map(function (c) {
+        var b = h('button.chip', { type: 'button', 'aria-pressed': String(c === cat), onclick: function () { cat = c; chips.forEach(function (x) { x.setAttribute('aria-pressed', String(x._c === cat)); }); draw(); } }, c || 'All');
+        b._c = c; return b;
+      });
+      function card(p) {
+        return h('a.card.card-link.product-card', { href: '#/product/' + p.id },
+          h('div.row', h('span.badge', p.cat), p.numerical.kind === 'textbook' ? h('span.badge.accent', 'Textbook numerical') : null),
+          h('h3', { style: { fontSize: 'var(--fs-md)', margin: '8px 0 4px' } }, p.name),
+          h('p.small.text-2', { style: { margin: '0 0 8px' } }, p.need),
+          h('div.row', { style: { gap: '4px' } }, p.contracts.map(function (c) { return h('span.chip.static', cm[c] ? cm[c].name : c); })));
+      }
+      function draw() {
+        var n = u.norm(term);
+        var list = R.products.filter(function (p) {
+          if (cat && p.cat !== cat) return false;
+          if (!n) return true;
+          var hay = u.norm([p.name, p.need, p.cat, p.conventional.name].concat(p.contracts.map(function (c) { return cm[c] ? cm[c].name : c; })).join(' '));
+          return hay.indexOf(n) > -1;
+        });
+        grid.innerHTML = '';
+        u.append(grid, list.length ? list.map(card) : [C.empty('No products match', 'Try another search or category.')]);
+        countEl.textContent = list.length + ' of ' + R.products.length + ' products';
+      }
+      search.addEventListener('input', function () { term = search.value; draw(); });
+      draw();
+      var tb = R.products.filter(function (p) { return p.numerical.kind === 'textbook'; }).length;
+      return h('div',
+        C.pageHead({ eyebrow: 'Islamic banking products', title: 'Product catalogue', desc: R.products.length + ' products as the book describes them, from deposits to Sukuk and Takaful. Each page shows the underlying contracts, the steps, a transaction diagram, a worked numerical (' + tb + ' use the book’s own figures), Shari’ah controls, risks and mitigants, and how the product differs from its conventional counterpart.',
+          actions: [h('a.btn', { href: '#/products/map' }, u.svg('map'), 'Product–contract map'), h('a.btn', { href: '#/products/compare' }, u.svg('compare'), 'Compare products'), h('a.btn.primary', { href: '#/products/quiz' }, u.svg('quiz'), 'Product quiz')] }),
+        h('section.card', h('div.row', search, h('span.spacer'), countEl), h('div.row', { style: { marginTop: '10px' } }, chips)),
+        grid,
+        h('p.small.muted', { style: { marginTop: '16px' } }, 'Box 8.2 of the book maps each banking product to its modes; this catalogue expands that table. Descriptions apply the book’s rules and are not a Fatwa; banks’ actual terms vary and are approved by their own Shari’ah boards.'));
+    });
+  });
+
+  /* ---------- Product page ---------- */
+  IFL.route('/product/:id', function (ctx) {
+    return Promise.all([load(), D.loadAllChapters()]).then(function (res) {
+      var R = res[0], cm = cmap(R);
+      var p = R.products.filter(function (x) { return x.id === ctx.params.id; })[0];
+      if (!p) return C.empty('Product not found', 'It may have been renamed.', h('a.btn.primary', { href: '#/products' }, 'All products'));
+      var d = p.diagram ? R.diagrams.filter(function (x) { return x.id === p.diagram; })[0] : null;
+      var cases = (p.cases || []).map(function (id) { return R.cases.filter(function (c) { return c.id === id; })[0]; }).filter(Boolean);
+      var same = R.products.filter(function (o) { return o.id !== p.id && o.contracts.some(function (c) { return p.contracts.indexOf(c) > -1; }); }).slice(0, 6);
+      var n = p.numerical;
+      var num = h('section.card#product-numerical',
+        h('div.row.between', h('h2', { style: H2 }, 'Worked numerical'), kindBadge(n.kind)),
+        h('h3', { style: { fontSize: 'var(--fs-md)' } }, n.title),
+        C.table({ head: ['Given', 'Value'], rows: n.given }),
+        (function () {
+          var ol = h('ol.steps'), shown = 0, btn;
+          function next() { if (shown < n.working.length) { ol.appendChild(h('li', n.working[shown])); shown++; } if (shown >= n.working.length) { btn.replaceWith(h('div.callout.ok', h('strong', 'Answer: '), n.answer)); } }
+          btn = h('button.btn', { type: 'button', onclick: next }, 'Show the next step');
+          var all = h('button.btn.ghost', { type: 'button', onclick: function () { while (shown < n.working.length) next(); } }, 'Show full solution');
+          return h('div', h('p.small.muted', 'Try it first, then reveal the working one step at a time.'), ol, h('div.row', btn, all));
+        })(),
+        p.calc && IFL.calcTypes && IFL.calcTypes[p.calc] ? h('p.small', { style: { marginTop: '10px' } }, 'Change the figures in the interactive tool below, or practise more problems in the ', h('a', { href: '#/numericals' }, 'numericals trainer'), '.') : h('p.small', { style: { marginTop: '10px' } }, 'Practise more problems in the ', h('a', { href: '#/numericals' }, 'numericals trainer'), '.'));
+      var node = h('div',
+        C.pageHead({ crumbs: [{ label: 'Products', route: '/products' }, { label: p.cat, route: '/products?cat=' + encodeURIComponent(p.cat) }, { label: p.name }], eyebrow: p.cat, title: p.name, desc: p.need,
+          actions: [C.bookmarkBtn ? C.bookmarkBtn({ type: 'product', id: p.id, label: p.name, route: '/product/' + p.id }) : null] }),
+        h('div.stack',
+          h('section.card', h('h2', { style: H2 }, 'Underlying contracts'),
+            h('div.row', p.contracts.map(function (c) { return cm[c] ? h('a.chip', { href: '#/concept/' + c }, cm[c].name) : h('span.chip', c); })),
+            h('ul.list', { style: { marginTop: '10px' } }, p.contracts.map(function (c) { return cm[c] ? h('li', h('strong', cm[c].name + ': '), cm[c].oneLine) : null; }))),
+          h('section.card', h('h2', { style: H2 }, 'How it works'), h('ol.steps', p.how.map(function (s) { return h('li', s); }))),
+          d ? h('section.card', h('h2', { style: H2 }, 'Transaction diagram'), C.diagram(d), C.sourceFoot(d.topic)) : null,
+          num,
+          p.calc && IFL.calcTypes && IFL.calcTypes[p.calc] ? h('section.card', h('div.eyebrow', 'Interactive tool'), IFL.calc(p.calc)) : null,
+          h('div.grid.grid-2',
+            h('section.card', h('h2', { style: H2 }, 'Shari’ah controls'), h('ul.list', p.controls.map(function (c) { return h('li', c); }))),
+            h('section.card', h('h2', { style: H2 }, 'Compared with ' + p.conventional.name), h('ul.list', p.conventional.diff.map(function (c) { return h('li', c); })))),
+          h('section.card', h('h2', { style: H2 }, 'Risks and mitigants'), C.table({ head: ['Risk', 'How the bank manages it'], rows: p.risks })),
+          cases.length ? h('section.card', h('h2', { style: H2 }, 'Case studies'), h('ul.list', cases.map(function (c) { return h('li', h('a', { href: '#/case/' + c.id }, c.title)); }))) : null,
+          h('section.card', h('h2', { style: H2 }, 'Lessons in the book'),
+            h('ul.list', p.topics.map(function (t) { var m = IFL.course.topic(t); return m ? h('li', h('a', { href: '#/topic/' + t }, IFL.course.sourceLabel(t) + ' · ' + m.title)) : null; })),
+            C.sourceFoot(p.topics[0])),
+          same.length ? h('section.card', h('h2', { style: H2 }, 'Products built on the same contracts'),
+            h('div.row', same.map(function (o) { return h('a.chip', { href: '#/product/' + o.id }, o.name); })),
+            h('p.small', { style: { marginTop: '10px' } }, h('a', { href: '#/products/compare?a=' + p.id + '&b=' + same[0].id }, 'Compare ' + p.name + ' with ' + same[0].name))) : null,
+          h('div.row', h('a.btn.primary', { href: '#/products/quiz?id=' + p.id }, u.svg('quiz'), 'Test yourself on this product'), h('a.btn', { href: '#/products' }, 'All products'))));
+      return node;
+    });
+  });
+
+  /* ---------- Product–contract map ---------- */
+  IFL.productMap = function (products, concepts) {
+    var cm = {}; concepts.forEach(function (c) { cm[c.id] = c; });
+    var ps = CATS.reduce(function (a, c) { return a.concat(products.filter(function (p) { return p.cat === c; })); }, []);
+    var used = [], idx = {}, edges = [];
+    ps.forEach(function (p, i) { p.contracts.forEach(function (c) { if (!cm[c]) return; if (!(c in idx)) { idx[c] = used.length; used.push(cm[c]); } edges.push([i, idx[c]]); }); });
+    var deg = used.map(function (_, j) { return edges.filter(function (e) { return e[1] === j; }).length; });
+    var order = used.map(function (_, j) { return j; }).sort(function (a, b) { return deg[b] - deg[a]; });
+    var pos = {}; order.forEach(function (j, k) { pos[j] = k; });
+    var RH = 26, top = 16, W = 900, n1 = ps.length, n2 = used.length, H = top * 2 + Math.max(n1, n2) * RH;
+    var y1 = function (i) { return top + (i + 0.5) * (H - 2 * top) / n1; }, y2 = function (j) { return top + (pos[j] + 0.5) * (H - 2 * top) / n2; };
+    var LX = 330, RX = 640;
+    var svg = el('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'cmap chmap pmap', role: 'group', 'aria-label': 'Map of Islamic banking products and their contracts' });
+    var gE = el('g'), gN = el('g'); svg.appendChild(gE); svg.appendChild(gN);
+    var edgeEls = edges.map(function (e) {
+      var a = y1(e[0]), b = y2(e[1]);
+      var p = el('path', { d: 'M' + LX + ',' + a + ' C' + (LX + 150) + ',' + a + ' ' + (RX - 150) + ',' + b + ' ' + RX + ',' + b, class: 'link' });
+      p.dataset.t = e[0]; p.dataset.c = e[1]; gE.appendChild(p); return p;
+    });
+    var tEls = [], cEls = [];
+    function hl(kind, i) {
+      edgeEls.forEach(function (p) { var on = kind === 't' ? +p.dataset.t === i : +p.dataset.c === i; p.classList.toggle('hl', on); p.style.opacity = on ? 1 : 0.15; });
+      var tOn = {}, cOn = {}; edgeEls.forEach(function (p) { if (p.classList.contains('hl')) { tOn[p.dataset.t] = 1; cOn[p.dataset.c] = 1; } });
+      tEls.forEach(function (g, k) { g.classList.toggle('dim', !tOn[k] && !(kind === 't' && k === i)); });
+      cEls.forEach(function (g, k) { g.classList.toggle('dim', !cOn[k] && !(kind === 'c' && k === i)); });
+    }
+    function reset() { edgeEls.forEach(function (p) { p.classList.remove('hl'); p.style.opacity = ''; }); tEls.concat(cEls).forEach(function (g) { g.classList.remove('dim'); }); }
+    function node(g, label, route, kind, i) {
+      g.setAttribute('tabindex', 0); g.setAttribute('role', 'link'); g.setAttribute('aria-label', label);
+      g.addEventListener('mouseenter', function () { hl(kind, i); }); g.addEventListener('focus', function () { hl(kind, i); });
+      g.addEventListener('mouseleave', reset); g.addEventListener('blur', reset);
+      g.addEventListener('click', function () { IFL.go(route); });
+      g.addEventListener('keydown', function (e) { if (e.key === 'Enter') IFL.go(route); });
+      gN.appendChild(g);
+    }
+    var lastCat = null;
+    ps.forEach(function (p, i) {
+      var g = el('g', { class: 'node cat-' + CATS.indexOf(p.cat) });
+      g.appendChild(el('rect', { x: 8, y: y1(i) - 11, width: LX - 12, height: 22, rx: 6 }));
+      g.appendChild(el('text', { x: 16, y: y1(i) + 4, style: 'font-size: 11px; font-weight: 500' }, IFL.trunc(p.name, 46)));
+      g.appendChild(el('title', {}, p.cat + ' · ' + p.name));
+      if (p.cat !== lastCat && i) gN.appendChild(el('line', { x1: 8, x2: LX - 4, y1: y1(i) - RH / 2 + 1, y2: y1(i) - RH / 2 + 1, class: 'pmap-sep' }));
+      lastCat = p.cat;
+      node(g, p.name, '/product/' + p.id, 't', i); tEls.push(g);
+    });
+    used.forEach(function (c, j) {
+      var g = el('g', { class: 'node' });
+      g.appendChild(el('rect', { x: RX, y: y2(j) - 12, width: W - RX - 8, height: 24, rx: 12 }));
+      g.appendChild(el('text', { x: RX + 12, y: y2(j) + 4 }, IFL.trunc(c.name, 26) + ' (' + deg[j] + ')'));
+      g.appendChild(el('title', {}, c.name + ' — used by ' + deg[j] + ' product' + (deg[j] > 1 ? 's' : '')));
+      node(g, c.name + ', used by ' + deg[j] + ' products', '/concept/' + c.id, 'c', j); cEls.push(g);
+    });
+    return h('div.cmap-scroll', { style: { overflowX: 'auto' } }, h('div', { style: { minWidth: '620px' } }, svg));
+  };
+  IFL.route('/products/map', function () {
+    return load().then(function (R) {
+      var cm = cmap(R), cnt = {};
+      R.products.forEach(function (p) { p.contracts.forEach(function (c) { cnt[c] = (cnt[c] || 0) + 1; }); });
+      var top = Object.keys(cnt).sort(function (a, b) { return cnt[b] - cnt[a]; }).slice(0, 6);
+      return h('div',
+        C.pageHead({ crumbs: [{ label: 'Products', route: '/products' }, { label: 'Product–contract map' }], eyebrow: 'Concept map', title: 'Products and the contracts behind them',
+          desc: 'Products are grouped by category on the left; contracts on the right are ordered by how many products use them. Hover or focus a node to trace its links; click to open it.' }),
+        h('section.card', IFL.productMap(R.products, R.concepts)),
+        h('section.card', h('h2', { style: H2 }, 'The most-used building blocks'),
+          h('div.grid.grid-3', top.map(function (c) {
+            return h('a.card.card-link', { href: '#/concept/' + c }, h('h3', { style: { fontSize: 'var(--fs-md)', margin: 0 } }, cm[c] ? cm[c].name : c), h('p.small.text-2', { style: { margin: '6px 0 0' } }, cnt[c] + ' products · ' + (cm[c] ? cm[c].oneLine : '')));
+          })),
+          h('p.small.muted', 'Wakalah and Wa‘d recur because banks use agency to buy and sell, and unilateral promises to bind clients to lease or buy, across many products.')));
+    });
+  });
+
+  /* ---------- Side-by-side comparison ---------- */
+  IFL.route('/products/compare', function (ctx) {
+    return load().then(function (R) {
+      var cm = cmap(R), by = {}; R.products.forEach(function (p) { by[p.id] = p; });
+      var a = by[ctx.query.a] ? ctx.query.a : R.products[3].id, b = by[ctx.query.b] ? ctx.query.b : R.products[6].id;
+      function sel(v, set) {
+        var s = h('select.input', { 'aria-label': 'Product', style: { flex: '1 1 200px', minWidth: 0, maxWidth: '100%' }, onchange: function () { set(s.value); draw(); } },
+          CATS.map(function (c) { return h('optgroup', { label: c }, R.products.filter(function (p) { return p.cat === c; }).map(function (p) { return h('option', { value: p.id, selected: p.id === v }, p.name); })); }));
+        return s;
+      }
+      var out = h('div');
+      function names(p) { return p.contracts.map(function (c) { return cm[c] ? cm[c].name : c; }).join(', '); }
+      function draw() {
+        var A = by[a], B = by[b];
+        var shared = A.contracts.filter(function (c) { return B.contracts.indexOf(c) > -1; }).map(function (c) { return cm[c] ? cm[c].name : c; });
+        out.innerHTML = '';
+        u.append(out, [C.table({ head: ['', A.name, B.name], rows: [
+          ['Category', A.cat, B.cat], ['Need met', A.need, B.need], ['Contracts', names(A), names(B)],
+          ['First step', A.how[0], B.how[0]], ['Last step', A.how[A.how.length - 1], B.how[B.how.length - 1]],
+          ['Key control', A.controls[0], B.controls[0]], ['Main risk → mitigant', A.risks[0].join(' → '), B.risks[0].join(' → ')],
+          ['Replaces', A.conventional.name, B.conventional.name], ['Worked numerical', A.numerical.title + ' (' + A.numerical.kind + ')', B.numerical.title + ' (' + B.numerical.kind + ')']] }),
+          h('p.small', shared.length ? 'Shared building blocks: ' + shared.join(', ') + '.' : 'These products share no underlying contract.'),
+          h('div.row', h('a.btn', { href: '#/product/' + a, style: { whiteSpace: 'normal' } }, 'Open ' + A.name), h('a.btn', { href: '#/product/' + b, style: { whiteSpace: 'normal' } }, 'Open ' + B.name))]);
+      }
+      draw();
+      return h('div',
+        C.pageHead({ crumbs: [{ label: 'Products', route: '/products' }, { label: 'Compare' }], eyebrow: 'Islamic banking products', title: 'Compare two products', desc: 'Pick any two products to see their contracts, steps, controls, risks and conventional counterparts side by side.' }),
+        h('section.card', h('div.row', sel(a, function (v) { a = v; }), h('span', 'vs'), sel(b, function (v) { b = v; }))),
+        h('section.card', out));
+    });
+  });
+
+  /* ---------- Product quiz ---------- */
+  IFL.route('/products/quiz', function (ctx) {
+    return Promise.all([load(), D.loadAllChapters()]).then(function (res) {
+      var R = res[0], id = ctx.query.id;
+      var all = IFL.productQuestions(R.products, R.concepts);
+      var p = id ? R.products.filter(function (x) { return x.id === id; })[0] : null;
+      var items = p ? all.filter(function (q) { return q.id.indexOf('pq-' + p.id + '-') === 0; }) : u.shuffle(all).slice(0, Number(ctx.query.n) || 12);
+      var label = p ? 'Product quiz: ' + p.name : 'Islamic banking products quiz';
+      var head = C.pageHead({ crumbs: [{ label: 'Products', route: '/products' }].concat(p ? [{ label: p.name, route: '/product/' + p.id }] : []).concat([{ label: 'Quiz' }]), eyebrow: 'Islamic banking products', title: label,
+        desc: 'Questions are generated from the product catalogue: the core contract, the need a product meets, its conventional counterpart and how its risks are managed. They also appear in the main quiz pool.' });
+      if (!items.length) return h('div', head, C.empty('No questions for this product', '', h('a.btn.primary', { href: '#/products/quiz' }, 'Mixed product quiz')));
+      return h('div', head, IFL.quizRunner(items, { label: label, mode: 'products' }));
+    });
+  });
+})();
+
+</script>
+<script data-src="modules/views/numericals.js">
+/* Numericals trainer: worked problems for Islamic banking products. Each problem type has the book's own
+   figures where the book gives them ("Textbook figures") and unlimited practice variants ("Practice
+   problem — generated for learning"). Answers are checked with a small tolerance and the full working
+   is shown step by step. Results are stored only in this browser. */
+(function () {
+  var IFL = window.IFL, u = IFL.u, h = u.h, C = IFL.c;
+  var H2 = { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' };
+  function f(x, dp) { dp = dp == null ? 0 : dp; var s = Math.abs(x).toFixed(dp).split('.'); s[0] = s[0].replace(/\B(?=(\d{3})+(?!\d))/g, ','); return (x < 0 ? '−' : '') + s.join('.'); }
+  function rnd(r, lo, hi, step) { step = step || 1; return lo + Math.floor(r() * (Math.floor((hi - lo) / step) + 1)) * step; }
+  function rng(seed) { var s = seed >>> 0 || 1; return function () { s = (Math.imul(s, 1664525) + 1013904223) >>> 0; return s / 4294967296; }; }
+  function r2(x) { return Math.round(x * 100) / 100; }
+
+  /* Each generator: params (textbook or random) → { given, asks: [{ label, v, dp }], steps, note } */
+  var G = [
+    { id: 'murabaha-instalment', cat: 'Consumer finance', title: 'Murabaha price and instalments', product: 'consumer-murabaha', topic: 't9.3', source: 'Murabaha pricing (Sections 6.5.3 and 9.3)',
+      book: null,
+      rand: function (r) { return { cost: rnd(r, 40, 200) * 1000, pct: rnd(r, 6, 18), months: [6, 10, 12, 18, 24][rnd(r, 0, 4)] }; },
+      solve: function (p) {
+        var price = p.cost * (1 + p.pct / 100), inst = price / p.months;
+        return { given: [['Bank’s cost of the goods', f(p.cost)], ['Agreed profit (on cost, for the whole term)', p.pct + ' %'], ['Monthly instalments', p.months]],
+          asks: [{ label: 'Murabaha (credit) price', v: price }, { label: 'Monthly instalment', v: inst, dp: 2 }],
+          steps: ['Price = cost × (1 + profit) = ' + f(p.cost) + ' × ' + (1 + p.pct / 100).toFixed(2) + ' = ' + f(price) + '.', 'Instalment = ' + f(price) + ' ÷ ' + p.months + ' = ' + f(inst, 2) + '.', 'Once the sale is made the price is a debt: it cannot rise for late payment, and any agreed late-payment penalty goes to charity.'] };
+      } },
+    { id: 'murabaha-period', cat: 'Trade & working capital', title: 'Mark-up period in a working-capital Murabaha', product: 'working-capital-murabaha', topic: 't9.8.3', source: 'Section 14.3.4 (mark-up from the date of sale)',
+      book: null,
+      rand: function (r) { return { cost: rnd(r, 10, 50) * 100000, rate: rnd(r, 8, 16), gap: rnd(r, 5, 20), days: [60, 90, 120, 180][rnd(r, 0, 3)] }; },
+      solve: function (p) {
+        var prof = p.cost * p.rate / 100 * p.days / 365, wrong = p.cost * p.rate / 100 * (p.days + p.gap) / 365;
+        return { given: [['Cost paid to the supplier', f(p.cost)], ['Profit rate used to price the sale', p.rate + ' % p.a.'], ['Days between paying the supplier and the Murabaha sale', p.gap], ['Credit period from the sale', p.days + ' days']],
+          asks: [{ label: 'Profit (days on a 365-day basis)', v: prof }, { label: 'Murabaha price', v: p.cost + prof }],
+          steps: ['The bank cannot sell until it owns and possesses the goods, so the price is fixed at the sale; the period before it is not charged as time.', 'Profit = ' + f(p.cost) + ' × ' + p.rate + ' % × ' + p.days + '/365 = ' + f(prof) + '.', 'Price = ' + f(p.cost + prof) + '. Charging from the supplier payment (' + (p.days + p.gap) + ' days) would give ' + f(wrong) + ' — not allowed as a Murabaha price basis.'] };
+      } },
+    { id: 'promise-loss', cat: 'Consumer finance', title: 'Loss on breach of a promise to purchase', product: 'working-capital-murabaha', topic: 't5.6', source: 'Section 5.6',
+      book: { cost: 18000, promised: 20000, resale: 17000, hj: 2000 }, bookNote: 'Cost, promised price and resale price are the book’s; the Hamish Jiddiyah amount is added for practice.',
+      rand: function (r) { var c = rnd(r, 10, 60) * 1000; return { cost: c, promised: c + rnd(r, 1, 6) * 500, resale: c - rnd(r, 1, 8) * 500, hj: rnd(r, 1, 6) * 500 }; },
+      solve: function (p) {
+        var loss = Math.max(0, p.cost - p.resale), take = Math.min(loss, p.hj);
+        return { given: [['Bank’s purchase cost', f(p.cost)], ['Promised purchase price', f(p.promised)], ['Resale price after the client breaks the promise', f(p.resale)], ['Hamish Jiddiyah held', f(p.hj)]],
+          asks: [{ label: 'Loss the bank may recover', v: loss }, { label: 'Hamish Jiddiyah refunded to the client', v: p.hj - take }],
+          steps: ['Actual loss = cost − resale = ' + f(p.cost) + ' − ' + f(p.resale) + ' = ' + f(loss) + '.', 'Lost profit (' + f(p.promised - p.cost) + ') is not recoverable: only actual loss is.', 'Take ' + f(take) + ' from the Hamish Jiddiyah; refund ' + f(p.hj - take) + (loss > p.hj ? '; claim the remaining ' + f(loss - p.hj) + ' from the client.' : '.')] };
+      } },
+    { id: 'pool-profit', cat: 'Deposits', title: 'Mudarabah deposit pool: profit by weightage', product: 'mudarabah-deposit', topic: 't8.5.2', source: 'Box 8.1',
+      book: { d: [3000, 4000, 3000], w: [0.6, 0.7, 1], profit: 1000, mud: 50 },
+      rand: function (r) { return { d: [rnd(r, 2, 8) * 1000, rnd(r, 2, 8) * 1000, rnd(r, 2, 8) * 1000], w: [rnd(r, 50, 65, 5) / 100, rnd(r, 70, 85, 5) / 100, 1], profit: rnd(r, 5, 20) * 100, mud: rnd(r, 30, 60, 5) }; },
+      solve: function (p) {
+        var bank = p.profit * p.mud / 100, pool = p.profit - bank, wa = p.d.map(function (d, i) { return d * p.w[i]; }), wt = wa[0] + wa[1] + wa[2];
+        var sh = wa.map(function (x) { return pool * x / wt; });
+        return { given: [['3-month deposits × weightage', f(p.d[0]) + ' × ' + p.w[0]], ['6-month deposits × weightage', f(p.d[1]) + ' × ' + p.w[1]], ['1-year deposits × weightage', f(p.d[2]) + ' × ' + p.w[2]], ['Pool profit for the month', f(p.profit)], ['Bank’s share as Mudarib', p.mud + ' %']],
+          asks: [{ label: 'Bank’s Mudarib share', v: bank }, { label: '3-month depositors', v: sh[0] }, { label: '6-month depositors', v: sh[1] }, { label: '1-year depositors', v: sh[2] }],
+          steps: ['Bank = ' + f(p.profit) + ' × ' + p.mud + ' % = ' + f(bank) + '; depositors’ pool = ' + f(pool) + '.', 'Weighted amounts: ' + wa.map(function (x) { return f(x); }).join(' + ') + ' = ' + f(wt) + '.', 'Shares: ' + sh.map(function (x, i) { return f(pool) + ' × ' + f(wa[i]) + ' ÷ ' + f(wt) + ' = ' + f(x); }).join('; ') + '.', 'Monthly return on each tier: ' + sh.map(function (x, i) { return (100 * x / p.d[i]).toFixed(2) + ' %'; }).join(', ') + '.'] };
+      } },
+    { id: 'pool-loss', cat: 'Deposits', title: 'Mudarabah deposit pool: sharing a loss', product: 'mudarabah-deposit', topic: 't8.5.2', source: 'Box 8.1',
+      book: { d: [3000, 4000, 3000], loss: 500 },
+      rand: function (r) { return { d: [rnd(r, 2, 8) * 1000, rnd(r, 2, 8) * 1000, rnd(r, 2, 8) * 1000], loss: rnd(r, 2, 10) * 100 }; },
+      solve: function (p) {
+        var t = p.d[0] + p.d[1] + p.d[2], sh = p.d.map(function (d) { return p.loss * d / t; });
+        return { given: [['3-month deposits', f(p.d[0])], ['6-month deposits', f(p.d[1])], ['1-year deposits', f(p.d[2])], ['Loss for the period', f(p.loss)]],
+          asks: [{ label: '3-month depositors bear', v: sh[0] }, { label: '6-month depositors bear', v: sh[1] }, { label: '1-year depositors bear', v: sh[2] }, { label: 'Bank earns as Mudarib', v: 0 }],
+          steps: ['A loss follows capital: weightages apply only to profit.', 'Shares = loss × deposit ÷ ' + f(t) + ': ' + sh.map(function (x) { return f(x); }).join(', ') + '.', 'The bank as Mudarib loses its effort and earns nothing (unless it was negligent, when it is liable).'] };
+      } },
+    { id: 'mudarabah-bank-capital', cat: 'Deposits', title: 'Bank’s own capital inside a Mudarabah', product: 'mudarabah-deposit', topic: 't12.4.1', source: 'Section 12.4.1',
+      book: { dep: 2000, bank: 1000, profit: 300, ratio: 50 },
+      rand: function (r) { return { dep: rnd(r, 10, 60) * 100, bank: rnd(r, 5, 30) * 100, profit: rnd(r, 2, 12) * 50, ratio: rnd(r, 20, 60, 5) }; },
+      solve: function (p) {
+        var t = p.dep + p.bank, own = p.profit * p.bank / t, rest = p.profit - own, m = rest * p.ratio / 100;
+        return { given: [['Depositors’ funds', f(p.dep)], ['Bank’s own funds', f(p.bank)], ['Profit', f(p.profit)], ['Bank’s Mudarib share of the depositors’ part', p.ratio + ' %']],
+          asks: [{ label: 'Bank’s total profit', v: own + m, dp: 2 }, { label: 'Depositors’ profit', v: rest - m, dp: 2 }],
+          steps: ['Profit attributable to the bank’s capital = ' + f(p.profit) + ' × ' + f(p.bank) + ' ÷ ' + f(t) + ' = ' + f(own, 2) + '.', 'The rest (' + f(rest, 2) + ') is shared as Mudarabah: bank ' + f(m, 2) + ', depositors ' + f(rest - m, 2) + '.', 'Bank total = ' + f(own + m, 2) + ' (partner on its own capital, Mudarib on the depositors’).'] };
+      } },
+    { id: 'musharakah-pl', cat: 'Trade & working capital', title: 'Musharakah: profit by agreement, loss by capital', product: 'running-musharakah', topic: 't12.3.4', source: 'Section 12.3.4 and Box 12.1',
+      book: null,
+      rand: function (r) { var loss = r() < 0.4; return { ca: rnd(r, 2, 9) * 100000, cb: rnd(r, 2, 9) * 100000, pa: rnd(r, 20, 70, 5), res: (loss ? -1 : 1) * rnd(r, 2, 20) * 10000 }; },
+      solve: function (p) {
+        var t = p.ca + p.cb, a = p.res >= 0 ? p.res * p.pa / 100 : p.res * p.ca / t;
+        return { given: [['Bank’s capital (partner A)', f(p.ca)], ['Client’s capital (partner B)', f(p.cb)], ['Agreed profit ratio A : B', p.pa + ' : ' + (100 - p.pa)], ['Result for the period', (p.res >= 0 ? 'Profit ' : 'Loss ') + f(Math.abs(p.res))]],
+          asks: [{ label: 'A’s share (enter a loss as negative)', v: a }, { label: 'B’s share (enter a loss as negative)', v: p.res - a }],
+          steps: p.res >= 0 ? ['A profit is shared at the agreed ratio: A = ' + f(p.res) + ' × ' + p.pa + ' % = ' + f(a) + '.', 'B = ' + f(p.res - a) + '.', 'Caution: a sleeping partner’s share may not exceed its capital ratio (' + (100 * p.ca / t).toFixed(1) + ' % for A).']
+            : ['A loss is always shared by capital, whatever the profit ratio.', 'A = ' + f(p.res) + ' × ' + f(p.ca) + ' ÷ ' + f(t) + ' = ' + f(a) + '.', 'B = ' + f(p.res - a) + '.'] };
+      } },
+    { id: 'dm-housing', cat: 'Consumer finance', title: 'Diminishing Musharakah home finance', product: 'home-dm', topic: 't12.9.2', source: 'Box 12.5',
+      book: { cost: 1000000, share: 80, months: 120, rate: 7 },
+      rand: function (r) { return { cost: rnd(r, 20, 120) * 100000, share: rnd(r, 50, 85, 5), months: [60, 84, 120, 180][rnd(r, 0, 3)], rate: rnd(r, 60, 140, 5) / 10 }; },
+      solve: function (p) {
+        var inv = p.cost * p.share / 100, unit = inv / p.months, r1 = inv * p.rate / 1200, r2v = (inv - unit) * p.rate / 1200;
+        return { given: [['House price', f(p.cost)], ['Bank’s share', p.share + ' %'], ['Units (monthly)', p.months], ['Rent rate on the bank’s outstanding share', p.rate + ' % p.a.']],
+          asks: [{ label: 'Unit price', v: unit, dp: 2 }, { label: 'Month 1 rent', v: r1, dp: 2 }, { label: 'Month 1 total payment', v: unit + r1, dp: 2 }, { label: 'Month 2 total payment', v: unit + r2v, dp: 2 }],
+          steps: ['Bank investment = ' + f(p.cost) + ' × ' + p.share + ' % = ' + f(inv) + '.', 'Unit price = ' + f(inv) + ' ÷ ' + p.months + ' = ' + f(unit, 2) + '.', 'Month 1 rent = ' + f(inv) + ' × ' + p.rate + ' % ÷ 12 = ' + f(r1, 2) + '; payment = ' + f(unit + r1, 2) + '.', 'Month 2: outstanding ' + f(inv - unit, 2) + ' → rent ' + f(r2v, 2) + '; payment ' + f(unit + r2v, 2) + '. Rent falls as the client buys units.'] };
+      } },
+    { id: 'salam-margin', cat: 'Trade & working capital', title: 'Salam with a promise to buy', product: 'salam-agri', topic: 't10.10', source: 'Box 10.4',
+      book: { salam: 100, promise: 115, hj: 15, market: 108 }, bookNote: 'Salam price, promised price and Hamish Jiddiyah are the book’s; the market price on default is a practice extension.',
+      rand: function (r) { var s = rnd(r, 20, 200, 5); return { salam: s, promise: s + rnd(r, 5, 25), hj: rnd(r, 3, 20), market: s + rnd(r, -5, 20) }; },
+      solve: function (p) {
+        var loss = Math.max(0, p.promise - p.market), take = Math.min(loss, p.hj);
+        return { given: [['Salam price paid in advance (Rs m)', f(p.salam)], ['Third party’s promised purchase price (Rs m)', f(p.promise)], ['Hamish Jiddiyah (Rs m)', f(p.hj)], ['Market price if the promisor refuses (Rs m)', f(p.market)]],
+          asks: [{ label: 'Gross margin if the promise is kept', v: p.promise - p.salam }, { label: 'Amount taken from Hamish Jiddiyah on refusal', v: take }, { label: 'Bank’s result on refusal (market − Salam price + HJ taken)', v: p.market - p.salam + take }],
+          steps: ['Margin = ' + f(p.promise) + ' − ' + f(p.salam) + ' = ' + f(p.promise - p.salam) + '.', 'On refusal the actual loss against the promise = ' + f(p.promise) + ' − ' + f(p.market) + ' = ' + f(loss) + '; take ' + f(take) + ' from the HJ and refund ' + f(p.hj - take) + '.', 'Result = sale ' + f(p.market) + ' − cost ' + f(p.salam) + ' + ' + f(take) + ' = ' + f(p.market - p.salam + take) + '. The bank bears delivery and price risk until it sells.'] };
+      } },
+    { id: 'salam-agent', cat: 'Trade & working capital', title: 'Salam goods sold through an agent', product: 'salam-working-capital', topic: 't10.10', source: 'Box 10.7',
+      book: { price: 19, target: 20, sold: 18, kg: 100000 }, bookNote: 'Prices per kg are the book’s; the quantity is added for practice.',
+      rand: function (r) { var p = rnd(r, 30, 90); return { price: p, target: p + rnd(r, 1, 5), sold: p + rnd(r, -4, 7), kg: rnd(r, 1, 20) * 10000 }; },
+      solve: function (p) {
+        var res = (p.sold - p.price) * p.kg;
+        return { given: [['Salam price per kg', 'Rs.' + p.price], ['Bank’s target sale price per kg', 'Rs.' + p.target], ['Price the agent actually obtained per kg', 'Rs.' + p.sold], ['Quantity', f(p.kg) + ' kg']],
+          asks: [{ label: 'Target margin per kg', v: p.target - p.price }, { label: 'Bank’s actual result on the lot (loss negative)', v: res }],
+          steps: ['Target margin = ' + p.target + ' − ' + p.price + ' = Rs.' + (p.target - p.price) + ' per kg.', 'Actual = (' + p.sold + ' − ' + p.price + ') × ' + f(p.kg) + ' = ' + f(res) + '.', p.sold > p.target ? 'Above target: the excess may be given to the agent as an incentive if so agreed.' : p.sold < p.price ? 'Below cost: the bank bears the loss; the agent does not guarantee the price.' : 'The bank keeps the result; the agent does not guarantee any price.'] };
+      } },
+    { id: 'parallel-istisna', cat: 'Corporate & project', title: 'Istisna‘a and Parallel Istisna‘a', product: 'project-istisna', topic: 't10.11.7', source: 'Box 10.16',
+      book: { sale: 1200, years: 10, cost: 1000, inst: 4 },
+      rand: function (r) { var c = rnd(r, 20, 200) * 10; return { sale: c + rnd(r, 5, 40) * 10, years: rnd(r, 3, 12), cost: c, inst: rnd(r, 2, 6) }; },
+      solve: function (p) {
+        return { given: [['Istisna‘a price agreed with the customer (Rs m)', f(p.sale)], ['Customer pays over (years, equal annual amounts)', p.years], ['Parallel Istisna‘a price with the contractor (Rs m)', f(p.cost)], ['Equal instalments to the contractor', p.inst]],
+          asks: [{ label: 'Bank’s gross margin', v: p.sale - p.cost }, { label: 'Customer’s annual payment', v: p.sale / p.years, dp: 2 }, { label: 'Each contractor instalment', v: p.cost / p.inst, dp: 2 }],
+          steps: ['Margin = ' + f(p.sale) + ' − ' + f(p.cost) + ' = ' + f(p.sale - p.cost) + '.', 'Customer: ' + f(p.sale) + ' ÷ ' + p.years + ' = ' + f(p.sale / p.years, 2) + ' a year.', 'Contractor: ' + f(p.cost) + ' ÷ ' + p.inst + ' = ' + f(p.cost / p.inst, 2) + ' each.', 'The two contracts are independent: the bank stays liable to the customer even if the contractor fails.'] };
+      } },
+    { id: 'ijarah-loss', cat: 'Consumer finance', title: 'Leased car destroyed: settlement with Takaful', product: 'auto-ijarah', topic: 't11.4.5', source: 'Box 11.3 (Answer 4)',
+      book: { out: 370000, claim: 450000, dep: 50000 },
+      rand: function (r) { var o = rnd(r, 20, 90) * 10000; return { out: o, claim: o + rnd(r, -10, 15) * 10000, dep: rnd(r, 2, 10) * 10000 }; },
+      solve: function (p) {
+        var surplus = Math.max(0, p.claim - p.out);
+        return { given: [['Outstanding Ijarah investment + prepaid expenses', f(p.out)], ['Takaful claim received', f(p.claim)], ['Client’s security deposit', f(p.dep)]],
+          asks: [{ label: 'Amount returned to the client', v: p.dep + surplus }, { label: 'Shortfall borne by the bank (0 if none)', v: Math.max(0, p.out - p.claim) }],
+          steps: ['The asset is destroyed without negligence: the lease ends, rent stops, and the loss is the owner’s.', 'Refund the deposit: ' + f(p.dep) + '.', surplus ? 'Pass the Takaful surplus (' + f(p.claim) + ' − ' + f(p.out) + ' = ' + f(surplus) + ') to the client, as AAOIFI 8/8 recommends.' : 'No surplus; the bank bears the shortfall of ' + f(p.out - p.claim) + ' as owner.', 'Client receives ' + f(p.dep + surplus) + '.'] };
+      } },
+    { id: 'ijarah-early', cat: 'Corporate & project', title: 'Early purchase of leased assets', product: 'corporate-ijarah', topic: 't11.4.5', source: 'Box 11.3 (Answer 3)',
+      book: { n: 10, offer: 400000, out: 350000, pre: 20000 },
+      rand: function (r) { var o = rnd(r, 20, 90) * 10000; return { n: rnd(r, 2, 20), offer: o + rnd(r, -2, 10) * 10000, out: o, pre: rnd(r, 1, 5) * 10000 }; },
+      solve: function (p) {
+        var liab = (p.out + p.pre) * p.n, off = p.offer * p.n;
+        return { given: [['Number of leased vehicles', p.n], ['Client’s offer per vehicle', f(p.offer)], ['Outstanding Ijarah investment per vehicle', f(p.out)], ['Prepaid expenses incl. Takaful per vehicle', f(p.pre)]],
+          asks: [{ label: 'Total liabilities to recover', v: liab }, { label: 'Bank’s gain on the sale (loss negative)', v: off - liab }],
+          steps: ['Liabilities = (' + f(p.out) + ' + ' + f(p.pre) + ') × ' + p.n + ' = ' + f(liab) + '.', 'Offer = ' + f(p.offer) + ' × ' + p.n + ' = ' + f(off) + '.', 'Gain = ' + f(off - liab) + (off >= liab ? ': the offer covers the bank’s liabilities.' : ': the offer does not cover them; the bank may negotiate, since sale is by mutual consent.')] };
+      } },
+    { id: 'sukuk-rent', cat: 'Treasury & capital markets', title: 'Floating rent on Ijarah Sukuk', product: 'ijarah-sukuk', topic: 't15.3.6', source: 'Box 15.6',
+      book: { size: 600, spread: 220, bench: 4.8 }, bookNote: 'Issue size and the 220 bps spread are the book’s; the benchmark rate is a practice assumption.',
+      rand: function (r) { return { size: rnd(r, 2, 20) * 50, spread: rnd(r, 50, 300, 10), bench: rnd(r, 10, 60, 5) / 10 }; },
+      solve: function (p) {
+        var rate = p.bench + p.spread / 100, half = p.size * rate / 100 / 2;
+        return { given: [['Sukuk issued (US$ m)', f(p.size)], ['Rent benchmark rate for the period', p.bench.toFixed(2) + ' % p.a.'], ['Spread', p.spread + ' bps']],
+          asks: [{ label: 'Rent rate (% p.a.)', v: rate, dp: 2 }, { label: 'Semi-annual rent to Sukuk holders (US$ m)', v: half, dp: 2 }],
+          steps: ['Rate = ' + p.bench.toFixed(2) + ' % + ' + (p.spread / 100).toFixed(2) + ' % = ' + rate.toFixed(2) + ' %.', 'Half-year rent = ' + f(p.size) + ' × ' + rate.toFixed(2) + ' % ÷ 2 = ' + f(half, 2) + '.', 'The benchmark only prices the rent; holders own the leased asset and bear its ownership risk.'] };
+      } },
+    { id: 'takaful-result', cat: 'Services & Takaful', title: 'Wakalah–Waqf Takaful year-end result', product: 'takaful', topic: 't16.4', source: 'Box 16.1 method (practice figures)',
+      book: null,
+      rand: function (r) { return { con: rnd(r, 10, 60), fee: rnd(r, 15, 35, 5), claims: rnd(r, 3, 30), inv: rnd(r, 1, 6), mud: rnd(r, 20, 50, 10) }; },
+      solve: function (p) {
+        var fee = p.con * p.fee / 100, uw = p.con - fee - p.claims, op = p.inv * p.mud / 100;
+        return { given: [['Participants’ donations (m)', f(p.con)], ['Operator’s Wakalah fee', p.fee + ' %'], ['Claims and re-Takaful (m)', f(p.claims)], ['Investment profit (m)', f(p.inv)], ['Operator’s Mudarib share of investment profit', p.mud + ' %']],
+          asks: [{ label: 'Underwriting surplus (deficit negative)', v: uw, dp: 2 }, { label: 'Operator’s total income', v: fee + op, dp: 2 }],
+          steps: ['Fee = ' + f(p.con) + ' × ' + p.fee + ' % = ' + f(fee, 2) + '.', 'Underwriting = ' + f(p.con) + ' − ' + f(fee, 2) + ' − ' + f(p.claims) + ' = ' + f(uw, 2) + (uw < 0 ? ': a deficit, met by a Qard al Hasan from the operator.' : ': a surplus, which belongs to the participants’ fund.'), 'Operator’s share of investment profit = ' + f(op, 2) + '; income = ' + f(fee + op, 2) + '.'] };
+      } },
+    { id: 'iers-excess', cat: 'Treasury & capital markets', title: 'IERS: SBP’s excess profit', product: 'iers', topic: 't14.4.6', source: 'Section 14.4.6 (practice figures)',
+      book: null,
+      rand: function (r) { var e = rnd(r, 5, 9); return { inv: rnd(r, 5, 40) * 100, share: e + rnd(r, 1, 4), efs: e }; },
+      solve: function (p) {
+        var a = p.inv * p.share / 100, b = p.inv * p.efs / 100;
+        return { given: [['SBP’s average investment in the pool (Rs m)', f(p.inv)], ['SBP’s share of pool profit (% p.a.)', p.share], ['EFS rate (% p.a.)', p.efs]],
+          asks: [{ label: 'SBP’s profit from the pool', v: a }, { label: 'Excess paid to the Takaful fund', v: a - b }],
+          steps: ['Profit = ' + f(p.inv) + ' × ' + p.share + ' % = ' + f(a) + '.', 'At the EFS rate = ' + f(b) + '.', 'Excess ' + f(a - b) + ' goes to the Takaful fund.'] };
+      } },
+    { id: 'jualah-reward', cat: 'Services & Takaful', title: 'Ju‘alah reward for debt recovery', product: 'jualah-services', topic: 't13.4.2', source: 'Section 13.4 (practice figures)',
+      book: null,
+      rand: function (r) { return { rec: rnd(r, 5, 80) * 100000, pct: rnd(r, 2, 8), adv: rnd(r, 1, 10) * 10000 }; },
+      solve: function (p) {
+        var rw = p.rec * p.pct / 100;
+        return { given: [['Amount recovered', f(p.rec)], ['Reward', p.pct + ' % of the amount recovered'], ['Advance paid on account', f(p.adv)]],
+          asks: [{ label: 'Reward earned', v: rw }, { label: 'Balance payable now', v: rw - p.adv }],
+          steps: ['Reward = ' + f(p.rec) + ' × ' + p.pct + ' % = ' + f(rw) + '.', 'Balance = ' + f(rw) + ' − ' + f(p.adv) + ' = ' + f(rw - p.adv) + '.', 'The reward is due only on completing the task (recovery); a lump-sum or percentage reward must be known in advance.'] };
+      } }
+  ];
+  IFL.numericals = G;
+
+  function parse(s) { s = String(s).replace(/[,\s]/g, '').replace(/[−–]/g, '-'); return s === '' || isNaN(Number(s)) ? null : Number(s); }
+  function close(x, v) { var tol = Math.max(0.5 * Math.pow(10, -2), Math.abs(v) * 0.005, 1e-9); if (Math.abs(v) >= 100) tol = Math.max(tol, 1); return Math.abs(x - v) <= tol; }
+
+  function panel(g, mode, seed) {
+    var p = mode === 'book' ? g.book : g.rand(rng(seed)), s = g.solve(p);
+    var box = h('section.card#num-panel');
+    var inputs = s.asks.map(function (a, i) {
+      var id = 'num-a' + i, inp = h('input.input', { id: id, inputmode: 'decimal', autocomplete: 'off' }), res = h('span.res', { 'aria-live': 'polite' });
+      return { a: a, inp: inp, res: res, row: h('div.num-answer', h('label', { for: id }, a.label), inp, res) };
+    });
+    var steps = h('ol.steps', { hidden: true }, s.steps.map(function (x) { return h('li', x); }));
+    var checked = false;
+    function check() {
+      var ok = 0;
+      inputs.forEach(function (x) {
+        var v = parse(x.inp.value), good = v != null && close(v, x.a.v);
+        if (good) ok++;
+        x.res.className = 'res ' + (good ? 'ok' : 'bad');
+        x.res.textContent = v == null ? 'Enter a number' : good ? '✓ Correct' : '✗ Not quite';
+      });
+      if (!checked) { checked = true; IFL.progress.recordAnswer({ id: 'num-' + g.id, topic: g.topic }, ok === inputs.length); }
+      summary.textContent = ok + ' of ' + inputs.length + ' correct' + (ok === inputs.length ? ' — well done.' : '. Check the working below.');
+      if (ok < inputs.length) steps.hidden = false;
+    }
+    function reveal() { steps.hidden = false; inputs.forEach(function (x) { x.res.className = 'res'; x.res.textContent = '= ' + f(x.a.v, x.a.dp || (Math.abs(x.a.v % 1) > 1e-9 ? 2 : 0)); }); }
+    var summary = h('p.small', { 'aria-live': 'polite' });
+    var prod = window.IFL_DATA.sets.products ? window.IFL_DATA.sets.products.filter(function (x) { return x.id === g.product; })[0] : null;
+    u.append(box, [
+      h('div.row.between', h('div', h('div.eyebrow', g.cat), h('h2', { style: H2 }, g.title)),
+        mode === 'book' ? h('span.badge.accent', 'Textbook figures') : h('span.badge.gold', 'Practice problem — generated for learning')),
+      mode === 'book' && g.bookNote ? h('p.small.muted', g.bookNote) : null,
+      h('dl.num-given', s.given.map(function (x) { return [h('dt', x[0]), h('dd', String(x[1]))]; })),
+      h('p.small.muted', 'Round money to the nearest unit unless two decimals are shown. Commas are fine.'),
+      h('form', { onsubmit: function (e) { e.preventDefault(); check(); } }, inputs.map(function (x) { return x.row; }),
+        h('div.row', { style: { marginTop: '8px' } }, h('button.btn.primary', { type: 'submit' }, 'Check answers'), h('button.btn', { type: 'button', onclick: reveal }, 'Show solution'),
+          h('button.btn', { type: 'button', onclick: function () { IFL.go('/numericals?p=' + g.id + '&s=' + ((Math.random() * 1e9) >>> 0)); } }, u.svg('refresh'), 'New practice problem'),
+          g.book && mode !== 'book' ? h('a.btn.ghost', { href: '#/numericals?p=' + g.id + '&s=book' }, 'Book’s figures') : null)),
+      summary, h('h3', { style: { fontSize: 'var(--fs-md)' } }, 'Working'), steps,
+      h('div.row.small', { style: { marginTop: '8px' } }, 'Source: ' + g.source, h('span.spacer'),
+        prod ? h('a', { href: '#/product/' + prod.id }, 'Product: ' + prod.name) : null,
+        h('a', { href: '#/topic/' + g.topic }, 'Lesson ' + IFL.course.sourceLabel(g.topic)))]);
+    return box;
+  }
+
+  IFL.route('/numericals', function (ctx) {
+    return window.IFL_DATA.load(['products']).then(function () {
+      var q = ctx.query, cur = G.filter(function (g) { return g.id === q.p; })[0];
+      var mode = cur && (q.s === 'book' || (!q.s && cur.book)) ? 'book' : 'practice';
+      var seed = Number(q.s) || 1 + (u.dayKey ? String(u.dayKey()).split('').reduce(function (a, c) { return a + c.charCodeAt(0); }, 0) : 7);
+      var cats = [];
+      G.forEach(function (g) { if (cats.indexOf(g.cat) < 0) cats.push(g.cat); });
+      var ans = IFL.store.state.answers || {};
+      var list = h('div.stack', cats.map(function (c) {
+        return h('section.card', h('h2', { style: H2 }, c), h('div.grid.grid-3', G.filter(function (g) { return g.cat === c; }).map(function (g) {
+          var a = ans['num-' + g.id];
+          return h('a.card.card-link' + (cur === g ? '.sel' : ''), { href: '#/numericals?p=' + g.id + (g.book ? '&s=book' : '') },
+            h('div.row', g.book ? h('span.badge.accent', 'Book figures + practice') : h('span.badge.gold', 'Practice'), a ? h('span.badge.' + (a.lastCorrect ? 'ok' : 'warn'), a.correct + '/' + a.n + ' solved') : null),
+            h('h3', { style: { fontSize: 'var(--fs-md)', margin: '8px 0 4px' } }, g.title), h('p.small.text-2', { style: { margin: 0 } }, g.source));
+        })));
+      }));
+      var node = h('div', C.pageHead({ eyebrow: 'Islamic banking products', title: 'Numericals trainer', desc: G.length + ' problem types covering deposits, Murabaha, Salam, Istisna‘a, Ijarah, Musharakah, Sukuk and Takaful. Problems marked “Textbook figures” use the book’s own numbers; every other problem is generated for learning with the same rules. Your results stay in this browser.' }),
+        cur ? panel(cur, mode, seed) : null, list);
+      if (cur) setTimeout(function () { var el = document.getElementById('num-panel'); if (el && el.scrollIntoView) el.scrollIntoView({ block: 'start' }); }, 30);
+      return node;
+    });
+  });
+})();
+
+</script>
 <script data-src="modules/views/guided.js">
 /* Guided study modes: 45-minute crash course, 90-minute revision, 3-hour deep study.
    Countdown, current section, completion track, previous / next / skip, pause / resume — saved locally. */
@@ -17152,7 +17948,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
 /* Bookmarks, notes and the detailed progress page. */
 (function () {
   var IFL = window.IFL, u = IFL.u, h = u.h, C = IFL.c;
-  var TYPES = { topic: 'Topics', chapter: 'Chapters', concept: 'Concepts', term: 'Glossary terms', question: 'Questions', flashcard: 'Flashcards', comparison: 'Comparisons', diagram: 'Diagrams', case: 'Cases', exam: 'Exam questions' };
+  var TYPES = { topic: 'Topics', chapter: 'Chapters', concept: 'Concepts', term: 'Glossary terms', question: 'Questions', flashcard: 'Flashcards', comparison: 'Comparisons', diagram: 'Diagrams', case: 'Cases', exam: 'Exam questions', product: 'Products' };
 
   IFL.route('/bookmarks', function (ctx) {
     var type = ctx.query.type || '';
@@ -17468,6 +18264,7 @@ IFL_DATA.courseIndex = {"book":{"title":"Understanding Islamic Finance","author"
   var NAV = [
     { label: null, items: [{ r: '/', t: 'Dashboard', i: 'home' }] },
     { label: 'Learn', items: [{ r: '/learn', t: 'All chapters', i: 'book', sub: 'learn' }] },
+    { label: 'Islamic banking products', items: [{ r: '/products', t: 'Product catalogue', i: 'bank' }, { r: '/products/map', t: 'Product–contract map', i: 'map' }, { r: '/numericals', t: 'Numericals trainer', i: 'sum' }] },
     { label: 'Explore', items: [{ r: '/concepts', t: 'Concept map', i: 'map' }, { r: '/glossary', t: 'Glossary', i: 'glossary' }, { r: '/diagrams', t: 'Transaction diagrams', i: 'flow' }, { r: '/compare', t: 'Comparisons', i: 'compare' }, { r: '/finder', t: 'Which mode applies?', i: 'compass' }] },
     { label: 'Practise', items: [{ r: '/flashcards', t: 'Flashcards', i: 'cards' }, { r: '/quiz', t: 'Quiz', i: 'quiz' }, { r: '/practice', t: 'Adaptive practice', i: 'target' }, { r: '/mistakes', t: 'My mistakes', i: 'refresh' }, { r: '/cases', t: 'Case studies', i: 'case' }, { r: '/tools', t: 'Interactive tools', i: 'calc' }] },
     { label: 'Exam', items: [{ r: '/exam', t: 'Exam preparation', i: 'exam' }, { r: '/mock', t: 'Timed mock exam', i: 'flame' }, { r: '/exam/trainer', t: 'Answer trainer', i: 'edit' }, { r: '/revision-cards', t: 'Rapid revision cards', i: 'layers' }] },

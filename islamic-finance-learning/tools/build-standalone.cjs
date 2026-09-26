@@ -14,7 +14,7 @@ const scripts = [...html.matchAll(/<script src="([^"]+)"><\/script>/g)].map((m) 
 if (!scripts.length) throw new Error('No scripts found in index.html');
 
 // All lazily-loaded content, registered up front (the loader then resolves instantly).
-const data = ['data/glossary.js', 'data/concepts.js', 'data/diagrams.js', 'data/comparisons.js', 'data/case-studies.js', 'data/mode-finder.js', 'data/study-plans.js'];
+const data = ['data/glossary.js', 'data/concepts.js', 'data/diagrams.js', 'data/comparisons.js', 'data/case-studies.js', 'data/mode-finder.js', 'data/study-plans.js', 'data/products.js'];
 for (let n = 1; n <= 18; n++) data.push('data/chapters/ch' + String(n).padStart(2, '0') + '.js');
 
 // Make script text safe inside an inline <script> element.

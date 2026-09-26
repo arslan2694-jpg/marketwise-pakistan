@@ -315,4 +315,44 @@ IFL_DATA.register('diagrams', [
     ],
     rules: ["Face value only.", "Gratuitous: no fee for the assignment itself."],
     pitfalls: ["Using it to sell debts at a discount"] }
+  ,
+  { id: "istisna-housing", title: "Housing finance through Istisna‘a and Diminishing Musharakah (Box 10.13)", topic: "t10.11.10", concept: "istisna",
+    summary: "Client and bank jointly buy a flat under construction from a builder by Istisna‘a; after handover the bank leases its share to the client, who buys it unit by unit.",
+    parties: [{ id: "client", label: "Client A (Rs.2 m)", x: 14, y: 30 }, { id: "bank", label: "Bank B (Rs.5 m)", x: 50, y: 8 }, { id: "builder", label: "Builder C", x: 86, y: 30 }],
+    steps: [
+      { from: "client", to: "bank", kind: "contract", label: "Shirkatulmilk pool of Rs.7 m", detail: "A contributes Rs.2 m and B Rs.5 m for a flat priced Rs.7 m (p. 275)." },
+      { from: "bank", to: "builder", kind: "contract", label: "Joint Istisna‘a with the builder", detail: "A and B jointly contract for a flat of defined specifications." },
+      { from: "bank", to: "builder", kind: "cash", label: "Rs.7 m in four instalments", detail: "The price is paid as construction proceeds." },
+      { from: "bank", to: "client", kind: "agency", label: "Client supervises construction", detail: "The bank appoints A its agent to supervise the work." },
+      { from: "builder", to: "client", kind: "goods", label: "Flat handed over", detail: "Ownership is joint in the ratio 2 : 5." },
+      { from: "bank", to: "client", kind: "rent", label: "Bank leases its share", detail: "Rent is charged on the bank’s share only." },
+      { from: "client", to: "bank", kind: "cash", label: "Monthly unit purchases", detail: "Rent falls after each unit; after ten years ownership passes to A (Diminishing Musharakah)." }
+    ],
+    rules: ["The builder deals in cash and has no financing relationship with the bank.", "Rent starts only after handover; before that the bank is a co-owner of a flat under construction."],
+    pitfalls: ["Charging rent during construction", "Treating the bank’s share as a loan"] },
+  { id: "istisna-export", title: "Istisna‘a for pre-shipment export finance (Box 10.14)", topic: "t10.11.10", concept: "istisna",
+    summary: "The bank buys the export goods from the exporter by Istisna‘a, takes delivery and bears their risk, then exports them through the exporter as its agent.",
+    parties: [{ id: "exporter", label: "Exporter A", x: 14, y: 30 }, { id: "bank", label: "Bank B", x: 50, y: 8 }, { id: "importer", label: "Foreign importer", x: 86, y: 30 }],
+    steps: [
+      { from: "bank", to: "exporter", kind: "contract", label: "Istisna‘a for Rs.100 m", detail: "Garments of a specified nature to be supplied within three months (p. 276)." },
+      { from: "bank", to: "exporter", kind: "agency", label: "Exporter appointed export agent", detail: "Effective once the garments are the bank’s." },
+      { from: "importer", to: "bank", kind: "contract", label: "L/C of Rs.110 m", detail: "Opened in the bank’s name. If an L/C already exists, Istisna‘a is not possible (it would be ‘Inah)." },
+      { from: "exporter", to: "bank", kind: "goods", label: "Bank takes delivery", detail: "Actual or constructive possession; the garments are now at the bank’s risk." },
+      { from: "exporter", to: "importer", kind: "goods", label: "Goods exported as the bank’s agent", detail: "Documents are sent on the bank’s behalf." },
+      { from: "importer", to: "bank", kind: "cash", label: "Rs.110 m under the L/C", detail: "The bank’s gross margin of Rs.10 m is earned by owning and exporting goods." }
+    ],
+    rules: ["No existing L/C for the same sale when the Istisna‘a is signed.", "The bank must take delivery and bear the goods’ risk before export."],
+    pitfalls: ["Buying from the exporter after the L/C is opened", "Skipping the bank’s possession"] },
+  { id: "ijarah-istisna-project", title: "Syndicated Ijarah–Istisna‘a for an oil terminal (p. 374)", topic: "t14.4.3", concept: "istisna",
+    summary: "A consortium commissions the terminal by Istisna‘a, with the operator supervising as its agent, and leases the completed terminal to the operator under a prior binding promise.",
+    parties: [{ id: "operator", label: "Terminal operator", x: 14, y: 30 }, { id: "syndicate", label: "Bank consortium", x: 50, y: 8 }, { id: "contractor", label: "Contractor", x: 86, y: 30 }],
+    steps: [
+      { from: "operator", to: "syndicate", kind: "promise", label: "Binding promise to lease", detail: "A unilateral promise gives the consortium comfort before it commits funds." },
+      { from: "syndicate", to: "contractor", kind: "contract", label: "Istisna‘a to build the terminal", detail: "Price paid in stages as the work proceeds." },
+      { from: "syndicate", to: "operator", kind: "agency", label: "Operator supervises construction", detail: "As the consortium’s agent." },
+      { from: "contractor", to: "syndicate", kind: "goods", label: "Completed terminal delivered", detail: "The consortium owns it and bears ownership risk." },
+      { from: "syndicate", to: "operator", kind: "rent", label: "Ijarah executed", detail: "Rent runs only once the terminal is ready for use." }
+    ],
+    rules: ["Ijarah cannot start until the asset exists and can be used.", "The consortium members own the terminal in proportion to their funding."],
+    pitfalls: ["Charging rent during construction", "Signing the Ijarah before the asset exists"] }
 ]);

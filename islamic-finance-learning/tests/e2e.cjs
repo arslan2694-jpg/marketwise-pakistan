@@ -511,6 +511,64 @@ test('concept graphs: relationship graph, chapter concept map and map filtering'
   assert(dimmed > 30, 'non-matching concepts dimmed');
 });
 
+test('Islamic banking products: catalogue, filter, product page, map, compare and product quiz', async (page) => {
+  await go(page, '/products');
+  const n = await page.evaluate(() => window.IFL_DATA.sets.products.length);
+  assert(n >= 25 && await page.locator('#view .product-card').count() === n, 'every product listed');
+  await page.locator('#view button.chip', { hasText: 'Deposits' }).click();
+  assert(await page.locator('#view .product-card').count() < n, 'category filter narrows the list');
+  await page.locator('#view input[aria-label="Search products"]').fill('Sukuk');
+  assert(/Sukuk/.test(await page.locator('#view .grid').innerText()) || await page.locator('#view .product-card').count() === 0, 'search runs');
+  await go(page, '/product/auto-ijarah');
+  const txt = await page.locator('#view').innerText();
+  ['Underlying contracts', 'How it works', 'Transaction diagram', 'Worked numerical', 'Textbook figures', 'Shari’ah controls', 'Risks and mitigants'].forEach((k) => assert(txt.includes(k), 'product page has ' + k));
+  await page.locator('#product-numerical button', { hasText: 'Show full solution' }).click();
+  assert(/Rs\.130,000/.test(await page.locator('#product-numerical').innerText()), 'Box 11.3 answer revealed');
+  assert(await page.locator('#view .diagram-svg').count() === 1, 'diagram embedded');
+  await page.locator('#view a.chip', { hasText: 'Ijarah' }).first().click();
+  await page.waitForFunction(() => /#\/concept\//.test(location.hash));
+  await go(page, '/products/map');
+  const nodes = await page.locator('#view svg.pmap .node').count();
+  assert(nodes > n + 8, 'map shows products and contracts: ' + nodes);
+  await page.locator('#view svg.pmap .node').first().hover();
+  assert(await page.locator('#view svg.pmap .link.hl').count() >= 1, 'hover highlights links');
+  await go(page, '/products/compare?a=home-dm&b=apartment-istisna-dm');
+  assert(/Shared building blocks: .*Diminishing Musharakah/.test(await page.locator('#view').innerText()), 'comparison shows shared contracts');
+  await go(page, '/products/quiz?id=takaful');
+  const qn = await page.evaluate(() => window.IFL.productQuestions(window.IFL_DATA.sets.products, window.IFL_DATA.sets.concepts).filter((q) => q.id.startsWith('pq-takaful-')).length);
+  assert(qn >= 3, 'several questions for one product');
+  for (let i = 0; i < qn; i++) { await answerCurrent(page); const next = page.getByRole('button', { name: /Next question|See results/ }); await next.click(); }
+  await page.waitForSelector('.score-big');
+  const pool = await page.evaluate(() => window.IFL.questionPool().then((a) => a.filter((q) => q.product).length));
+  assert(pool >= 3 * n, 'product questions join the quiz pool: ' + pool);
+});
+
+test('numericals trainer: textbook figures check, wrong answers show working, practice problems vary', async (page) => {
+  await go(page, '/numericals');
+  const n = await page.evaluate(() => window.IFL.numericals.length);
+  assert(n >= 15, 'problem types listed');
+  await go(page, '/numericals?p=pool-profit&s=book');
+  const panel = page.locator('#num-panel');
+  assert(/Textbook figures/.test(await panel.innerText()), 'book figures labelled');
+  const vals = ['500', '119', '184', '197'];
+  for (let i = 0; i < vals.length; i++) await page.fill('#num-a' + i, vals[i]);
+  await panel.locator('button', { hasText: 'Check answers' }).click();
+  assert(/4 of 4 correct/.test(await panel.innerText()), 'Box 8.1 answers accepted');
+  assert((await state(page)).answers['num-pool-profit'].correct === 1, 'result stored locally');
+  await go(page, '/numericals?p=dm-housing&s=12345');
+  const p2 = page.locator('#num-panel');
+  assert(/Practice problem — generated for learning/.test(await p2.innerText()), 'practice labelled');
+  const g1 = await p2.locator('dl').innerText();
+  await page.fill('#num-a0', '1');
+  await p2.locator('button', { hasText: 'Check answers' }).click();
+  assert(await p2.locator('ol.steps:not([hidden]) li').count() >= 3, 'working shown after a wrong answer');
+  await p2.locator('button', { hasText: 'New practice problem' }).click();
+  await page.waitForTimeout(200);
+  assert(await page.locator('#num-panel dl').innerText() !== g1, 'new problem has different figures');
+  const bad = await page.evaluate(() => window.IFL.numericals.filter((g) => { for (let i = 1; i < 50; i++) { let s = i; const r = () => { s = (Math.imul(s, 1664525) + 1013904223) >>> 0; return s / 4294967296; }; const o = g.solve(g.rand(r)); if (o.asks.some((a) => !isFinite(a.v))) return true; } return false; }).map((g) => g.id));
+  assert(!bad.length, 'all generators produce finite answers: ' + bad.join(','));
+});
+
 test('standalone: the whole app runs from one file (no other file is requested)', async (page) => {
   if (!STANDALONE) return;
   const files = [];

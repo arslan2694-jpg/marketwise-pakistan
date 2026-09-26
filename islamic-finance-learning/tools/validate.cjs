@@ -93,6 +93,33 @@ R.diagrams.forEach(d => { if (!has(d.topic)) err('diagram ' + d.id + ' topic'); 
 R.comparisons.pairs.forEach(p => { if (!has(p.topic)) err('pair ' + p.id + ' topic'); p.rows.forEach(r => { if (r.length !== p.cols.length + 1) err('pair ' + p.id + ' row width'); }); });
 R.comparisons.modes.forEach(m => { if (!has(m.topic)) err('mode ' + m.id + ' topic'); });
 R.cases.forEach(c => { if (!has(c.topic)) err('case ' + c.id + ' topic'); if (c.kind === 'practice' && !/generated for learning/i.test(c.title)) err('practice case ' + c.id + ' not labelled'); c.questions.forEach(q => { if (q.answer >= q.options.length) err('case ' + c.id + ' answer range'); }); });
+const CS = new Set(R.cases.map(c => c.id)), calcSrc = fs.readFileSync(path.join(__dirname, '..', 'modules', 'calculators.js'), 'utf8');
+const prodIds = new Set();
+(R.products || []).forEach(p => {
+  if (prodIds.has(p.id)) err('duplicate product ' + p.id); prodIds.add(p.id);
+  ['name', 'cat', 'need'].forEach(k => { if (!p[k]) err('product ' + p.id + ' missing ' + k); });
+  p.topics.forEach(t => { if (!has(t)) err('product ' + p.id + ' → topic ' + t); });
+  p.contracts.forEach(c => { if (!C.has(c)) err('product ' + p.id + ' → concept ' + c); });
+  if (p.diagram && !G.has(p.diagram)) err('product ' + p.id + ' → diagram ' + p.diagram);
+  (p.cases || []).forEach(c => { if (!CS.has(c)) err('product ' + p.id + ' → case ' + c); });
+  if (p.calc && !new RegExp("['\"]?" + p.calc.replace(/-/g, '\\-') + "['\"]?\\s*:\\s*\\{").test(calcSrc)) err('product ' + p.id + ' → calc ' + p.calc);
+  const n = p.numerical; if (!n || !['textbook', 'practice'].includes(n.kind) || !n.given.length || !n.working.length || !n.answer) err('product ' + p.id + ' numerical');
+  if (!p.how.length || !p.controls.length || !p.risks.length || !p.conventional || !p.conventional.diff.length) err('product ' + p.id + ' incomplete');
+  p.risks.forEach(r => { if (r.length !== 2) err('product ' + p.id + ' risk row'); });
+});
+// Numericals trainer: every generator runs, links to a real topic/product, and yields finite answers.
+{
+  const vm = require('vm'), ctx = { window: { IFL: { u: { h: () => ({}), svg: () => null }, c: {}, route: () => {} }, IFL_DATA: { sets: {} } } };
+  vm.createContext(ctx); vm.runInContext(fs.readFileSync(path.join(root, 'modules', 'views', 'numericals.js'), 'utf8'), ctx);
+  (ctx.window.IFL.numericals || []).forEach(g => {
+    if (!has(g.topic)) err('numerical ' + g.id + ' → topic ' + g.topic);
+    if (!prodIds.has(g.product)) err('numerical ' + g.id + ' → product ' + g.product);
+    const runs = [g.book].filter(Boolean);
+    for (let i = 1; i <= 300; i++) { let s = i * 7919; runs.push(g.rand(() => { s = (Math.imul(s, 1664525) + 1013904223) >>> 0; return s / 4294967296; })); }
+    runs.forEach(p => { const r = g.solve(p); if (!r.asks.length || !r.steps.length || r.asks.some(a => !isFinite(a.v))) err('numerical ' + g.id + ' bad output'); });
+  });
+  if (!(ctx.window.IFL.numericals || []).length) err('numericals trainer has no generators');
+}
 Object.values(R.modeFinder.results).forEach(r => r.topics.forEach(t => { if (!has(t)) err('finder → ' + t); }));
 Object.entries(R.modeFinder.nodes).forEach(([k, n]) => n.options.forEach(o => { if (o.next && !R.modeFinder.nodes[o.next]) err('finder node ' + k + ' → ' + o.next); if (o.result && !R.modeFinder.results[o.result]) err('finder result ' + o.result); }));
 if (!/not a (Fatwa|Shari’ah ruling)/i.test(R.modeFinder.disclaimer)) err('mode finder disclaimer missing');
@@ -125,7 +152,7 @@ scan.forEach(f => {
 const ci = fs.readFileSync(path.join(root, 'data/course-index.js'), 'utf8');
 D.chapters.forEach(c => c.topics.forEach(t => { if (ci.indexOf('"' + t.id + '"') < 0) err('course-index.js is stale (missing ' + t.id + ') — run node tools/build-course-index.cjs'); }));
 
-const totals = { topics: Object.keys(T).length, flashcards: Object.keys(F).length, questions: Object.keys(Q).length, quickChecks: Object.values(T).filter(x => x.t.quickCheck).length, exam: D.chapters.reduce((a, c) => a + c.exam.length, 0), glossary: R.glossary.length, concepts: R.concepts.length, diagrams: R.diagrams.length, comparisons: R.comparisons.pairs.length, cases: R.cases.length };
+const totals = { topics: Object.keys(T).length, flashcards: Object.keys(F).length, questions: Object.keys(Q).length, quickChecks: Object.values(T).filter(x => x.t.quickCheck).length, exam: D.chapters.reduce((a, c) => a + c.exam.length, 0), glossary: R.glossary.length, concepts: R.concepts.length, diagrams: R.diagrams.length, comparisons: R.comparisons.pairs.length, cases: R.cases.length, products: (R.products || []).length };
 console.log('Content:', JSON.stringify(totals));
 warnings.forEach(w => console.log('WARN', w));
 if (errors.length) { errors.forEach(e => console.log('ERROR', e)); console.log(errors.length + ' error(s)'); process.exit(1); }
