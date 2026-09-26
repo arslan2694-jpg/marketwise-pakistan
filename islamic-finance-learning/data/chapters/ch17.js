@@ -33,7 +33,10 @@ IFL_DATA.registerChapter({
         "The chapter is organised in two parts: conceptual criticism (17.3) and criticism of practice (17.4) (pp. 434–436)."
       ],
       related: ["t17.2", "t18.1"],
-      quickCheck: { q: "Which country's Islamic banking share was cited as 24%?", options: ["Pakistan", "Malaysia", "Bahrain", "Indonesia"], answer: 2, explanation: "p. 433." }
+      quickCheck: { q: "Which country's Islamic banking share was cited as 24%?", options: ["Pakistan", "Malaysia", "Bahrain", "Indonesia"], answer: 2, explanation: "p. 433." },
+      examples: [
+        { title: "The paradox in numbers", kind: "textbook", text: "Most Muslims regard Riba as a grave sin, yet Islamic banking held only about 1.5 % of the financial system in Indonesia, 2.2 % in Pakistan, 12 % in Malaysia and 24 % in Bahrain at the time of writing (p. 433)." }
+      ]
     },
     {
       id: "t17.2", section: "17.2", title: "The Common Myths and Objections", pages: [433, 436], tier: "core",
@@ -48,7 +51,10 @@ IFL_DATA.registerChapter({
       ],
       table: { caption: "The criticisms examined (pp. 434–436)", head: ["Type", "Criticism"], rows: [["Conceptual", "Riba is undefined; only usury or a charge on old debt is prohibited"], ["Conceptual", "Money deserves rent like any asset"], ["Conceptual", "Interest compensates for inflation"], ["Conceptual", "Rich borrowers are not exploited"], ["Conceptual", "Rejecting interest means rejecting time value"], ["Conceptual", "Islamic banks should use only PLS or free loans"], ["Conceptual", "Banks should not trade"], ["Conceptual", "Differing interpretations prevent standardisation"], ["Practice", "Theory–practice gap; fixed returns; LIBOR benchmarks"], ["Practice", "No real difference; same end result; no real trading"], ["Practice", "Windows seeded with interest income"], ["Practice", "Collateral; combined contracts; binding promises"], ["Practice", "Cash for overheads; penalties on defaulters"]] },
       related: ["t17.3", "t17.4"],
-      quickCheck: { q: "Which of these is listed as a criticism of Islamic banking practice?", options: ["The Qur’an defines Riba precisely", "Islamic banks use interest-related benchmarks like LIBOR", "Islamic banks never take collateral", "Islamic banks refuse to trade"], answer: 1, explanation: "p. 435." }
+      quickCheck: { q: "Which of these is listed as a criticism of Islamic banking practice?", options: ["The Qur’an defines Riba precisely", "Islamic banks use interest-related benchmarks like LIBOR", "Islamic banks never take collateral", "Islamic banks refuse to trade"], answer: 1, explanation: "p. 435." },
+      examples: [
+        { title: "Sorting the objections", kind: "practice", text: "“Only usury is Riba” and “money deserves rent” are conceptual criticisms. “Islamic banks use LIBOR” and “they never pass on losses” are criticisms of practice. The chapter answers each group separately (pp. 433–436)." }
+      ]
     },
     {
       id: "t17.3", section: "17.3", title: "Appraisal of Conceptual Criticism (Overview)", pages: [436, 445], tier: "supporting",
@@ -65,7 +71,10 @@ IFL_DATA.registerChapter({
         "A recurring test: profit is due only where there is exposure to risk and liability; a guaranteed loan earns nothing (p. 438)."
       ],
       related: ["t17.3.1", "t17.3.4"],
-      quickCheck: { q: "According to the chapter, a lender may claim a return only if:", options: ["The borrower is rich", "He bears the risk of loss by converting money into business, sale or lease", "The rate is low", "Inflation is high"], answer: 1, explanation: "p. 438." }
+      quickCheck: { q: "According to the chapter, a lender may claim a return only if:", options: ["The borrower is rich", "He bears the risk of loss by converting money into business, sale or lease", "The rate is low", "Inflation is high"], answer: 1, explanation: "p. 438." },
+      examples: [
+        { title: "The test the author keeps applying", kind: "practice", text: "For any return, ask what value it adds: labour, risk or responsibility. A trader bears goods risk, a lessor ownership risk, a partner business risk; a lender bears none, so he earns nothing (pp. 436–445)." }
+      ]
     },
     {
       id: "t17.3.1", section: "17.3.1", title: "The Connotation of the Word Riba", pages: [436, 437], tier: "core",
@@ -89,6 +98,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "According to the author, the Qur’anic prohibition of Riba applies to:", options: ["Only high-rate usury", "Only consumption loans", "Any increase over the principal, whatever the rate", "Only increases on overdue debt"], answer: 2, explanation: "p. 437." },
       confusions: [
         { wrong: "Only a charge added to an old unpaid debt is Riba; a charge fixed at the start of a loan is not.", right: "Any benefit stipulated over the principal is Riba, whether added at the outset, periodically or on default (p. 437)." }
+      ],
+      examples: [
+        { title: "Riba in pre-Islamic practice", kind: "textbook", text: "Riba was charged in several ways: on loans or on debts from sales, monthly or yearly with the principal due at a set date, or added to the principal. All were called Riba, so modern interest in any of these forms is covered (p. 437)." }
       ]
     },
     {
@@ -157,6 +169,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Where does the chapter say time value is acceptable?", options: ["In pricing loans", "In pricing goods and usufruct in genuine sale or lease", "In late-payment charges", "Nowhere"], answer: 1, explanation: "p. 440." },
       confusions: [
         { wrong: "Islamic economics assumes a zero time preference.", right: "Agents may have positive time preference, reflected in the pricing of goods. What is barred is adding time value to loans and debts (p. 440)." }
+      ],
+      examples: [
+        { title: "Cheaper in season", kind: "textbook", text: "Wheat is cheaper at harvest than months later, and cheaper in one market than another. The Shari’ah accepts such time and place differences in the price of goods, but not a time charge on a loan or debt (p. 440)." }
       ]
     },
     {
@@ -175,7 +190,10 @@ IFL_DATA.registerChapter({
         { issue: "Is interest on loans to rich businesses unjust?", criticism: "Today’s borrowers are mostly wealthy firms, not the poor, so interest does them no injustice.", response: "Returns on borrowed funds vary and may be losses. Interest costs are passed to consumers, and savers get a small fixed share of large profits.", takeaway: "Interest can exploit either party, so the prohibition does not depend on who borrows (p. 441)." }
       ],
       related: ["t3.2"],
-      quickCheck: { q: "According to the author, the ‘rich debtors’ argument actually:", options: ["Justifies interest", "Strengthens the case against interest", "Is irrelevant", "Supports indexation"], answer: 1, explanation: "p. 441." }
+      quickCheck: { q: "According to the author, the ‘rich debtors’ argument actually:", options: ["Justifies interest", "Strengthens the case against interest", "Is irrelevant", "Supports indexation"], answer: 1, explanation: "p. 441." },
+      examples: [
+        { title: "Who really pays the interest?", kind: "practice", text: "A large firm borrows at 8 % and earns 25 % on the funds. It books the interest as a cost and passes it to consumers in prices, while savers receive a small fixed return — the author’s point that interest can exploit the public even when the borrower is rich (p. 441)." }
+      ]
     },
     {
       id: "t17.3.6", section: "17.3.6", title: "Different Shari’ah Interpretations", pages: [441, 442], tier: "core",
@@ -193,7 +211,10 @@ IFL_DATA.registerChapter({
       ],
       related: ["t15.3.4", "t13.3", "t2.2.1"],
       quickCheck: { q: "Which products does the author say do not fit Islamic banking's philosophy?", options: ["Ijarah and Salam", "Bai‘ al Dayn and Bai‘ al ‘Inah", "Musharakah", "Istisna‘a"], answer: 1, explanation: "p. 442." },
-      table: { caption: "Relaxations granted through Ijtihad (p. 442)", head: ["Relaxation", "Condition"], rows: [["Late-payment penalty as % p.a.", "Proceeds go to charity"], ["FX forward cover", "Unilateral promise; simultaneous exchange at a pre-agreed rate"], ["Sale and lease-back", "Especially corporates and sovereigns"], ["Third-party guarantee on Sukuk", "Independent and free"], ["Tawarruq", "Actual trade; goods sold in the market or to a third party"]] }
+      table: { caption: "Relaxations granted through Ijtihad (p. 442)", head: ["Relaxation", "Condition"], rows: [["Late-payment penalty as % p.a.", "Proceeds go to charity"], ["FX forward cover", "Unilateral promise; simultaneous exchange at a pre-agreed rate"], ["Sale and lease-back", "Especially corporates and sovereigns"], ["Third-party guarantee on Sukuk", "Independent and free"], ["Tawarruq", "Actual trade; goods sold in the market or to a third party"]] },
+      examples: [
+        { title: "Ijtihad has limits", kind: "textbook", text: "Scholars used Ijtihad to allow forward FX cover by unilateral promise, penalties on defaulters paid to charity, and sale and lease-back. They have not approved Bai‘ al Dayn at a discount, which conflicts with the texts (pp. 441–442)." }
+      ]
     },
     {
       id: "t17.3.7", section: "17.3.7", title: "Islamic Banks Using Debt-creating Modes", pages: [442, 444], tier: "core",
@@ -242,6 +263,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which banking model does the author consider more suitable for IFIs?", options: ["Pure commercial intermediation", "Universal and investment banking", "Central banking", "Microcredit only"], answer: 1, explanation: "pp. 444–445." },
       confusions: [
         { wrong: "Trading by banks is unknown in global finance.", right: "Universal and merchant banks in Japan, Germany, Switzerland and the Netherlands already engage in real-sector business (p. 444)." }
+      ],
+      examples: [
+        { title: "Universal banks already trade", kind: "textbook", text: "German and Japanese universal banks hold equity in firms and engage in merchant banking. So an Islamic bank that buys, sells and leases real assets is not an anomaly in global finance (p. 444)." }
       ]
     },
     {
@@ -262,6 +286,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Why can't Islamic banks simply give return-free finance to all?", options: ["It is prohibited", "They hold depositors' funds under a mandate to earn Halal returns", "Regulators forbid charity", "Customers refuse it"], answer: 1, explanation: "p. 445." },
       confusions: [
         { wrong: "An Islamic bank should use depositors’ funds for interest-free charitable lending.", right: "Banks hold depositors’ money in trust under a mandate. Benevolence is for individuals, or for banks only as a side activity under board policy (p. 445)." }
+      ],
+      examples: [
+        { title: "Whose charity?", kind: "practice", text: "A branch manager wants to lend depositors’ money interest-free to a needy family. The deposits are held in trust under a mandate to earn Halal profit, so such help must come from the bank’s own funds or the charity account (p. 445)." }
       ]
     },
     {
@@ -279,7 +306,10 @@ IFL_DATA.registerChapter({
         "The author treats the apparent theory–practice divergence mainly as the evolution of the concept rather than a betrayal (p. 446)."
       ],
       related: ["t17.4.1", "t17.4.3", "t17.4.6"],
-      quickCheck: { q: "Section 17.4 appraises criticism of:", options: ["Islamic banking practice", "Only the meaning of Riba", "Takaful models", "Sukuk pricing only"], answer: 0, explanation: "p. 445." }
+      quickCheck: { q: "Section 17.4 appraises criticism of:", options: ["Islamic banking practice", "Only the meaning of Riba", "Takaful models", "Sukuk pricing only"], answer: 0, explanation: "p. 445." },
+      examples: [
+        { title: "Evaluating a practice criticism", kind: "practice", text: "Take “Islamic banks never pass losses to depositors.” The author’s reply is factual: diversified pools and reserves mean a few losses are usually covered by overall profit, not that losses are impossible (pp. 445–449)." }
+      ]
     },
     {
       id: "t17.4.1", section: "17.4.1", title: "Divergence between Theory and Practice (‘Murabaha Syndrome’)", pages: [445, 446], tier: "core",
@@ -297,7 +327,10 @@ IFL_DATA.registerChapter({
         { issue: "Has Islamic banking abandoned its PLS ideal?", criticism: "Pioneers and Usmani saw Murabaha and Ijarah as exceptions, but they dominate practice.", response: "This is evolution rather than divergence. Trade and leasing are legitimate and suit risk-averse depositors.", alternative: "Use Musharakah for single transactions and well-documented clients.", takeaway: "Credibility depends on applying debt modes properly while expanding equity use (p. 446)." }
       ],
       related: ["t17.3.7", "t12.7.2"],
-      quickCheck: { q: "How does the author characterise the gap between PLS theory and Murabaha-heavy practice?", options: ["As fraud", "More as evolution of the concept than divergence", "As a reason to abandon Islamic banking", "As irrelevant"], answer: 1, explanation: "p. 446." }
+      quickCheck: { q: "How does the author characterise the gap between PLS theory and Murabaha-heavy practice?", options: ["As fraud", "More as evolution of the concept than divergence", "As a reason to abandon Islamic banking", "As irrelevant"], answer: 1, explanation: "p. 446." },
+      examples: [
+        { title: "Where Murabaha is the right choice", kind: "textbook", text: "A bank’s depositors are mostly pensioners and widows who cannot bear loss. For them, trade and Ijarah are the proper modes. For a single, well-documented export transaction, however, the author recommends Musharakah for its higher return (p. 446)." }
+      ]
     },
     {
       id: "t17.4.2", section: "17.4.2", title: "IFIs Using Interest Income as Seed/Base Capital", pages: [446, 447], tier: "supporting",
@@ -317,6 +350,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which condition does the author attach to using interest income as seed capital?", options: ["It must be donated first", "Operations must be Shari’ah-compliant and totally segregated from interest-based business", "It must be below 5%", "Only in non-Muslim countries"], answer: 1, explanation: "p. 447." },
       confusions: [
         { wrong: "An Islamic window seeded from interest income can never be Shari’ah-compliant.", right: "It can be, if its operations are Shari’ah-compliant and totally segregated from interest business, following 2:275 and 2:278 (pp. 446–447)." }
+      ],
+      examples: [
+        { title: "Keeping past gains, stopping future interest", kind: "textbook", text: "A conventional bank decides to open an Islamic subsidiary using its retained earnings. Verse 2:275 lets those who desist keep past gains, their case being left to Allah; the subsidiary must then be fully compliant and segregated (pp. 446–447)." }
       ]
     },
     {
@@ -388,6 +424,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Where do late-payment penalties collected by Islamic banks go?", options: ["Bank profit", "Depositors' pool", "Charity", "Shareholders"], answer: 2, explanation: "p. 454." },
       confusions: [
         { wrong: "The Qur’anic grace for debtors in difficulty forbids any penalty on any defaulter.", right: "It covers genuine hardship. Wilful, resourceful defaulters on Dayn may be fined for charity (p. 455)." }
+      ],
+      examples: [
+        { title: "Two defaulters", kind: "textbook", text: "A trader whose crop failed cannot pay his Murabaha instalment: he should be given time without charge. A wealthy client who delays while living luxuriously may be fined for charity and made to pay the bank’s actual loss (p. 455)." }
       ]
     },
     {
@@ -429,7 +468,10 @@ IFL_DATA.registerChapter({
         { issue: "Is present Islamic banking merely a legitimisation of conventional banking?", criticism: "Asad Zaman (2006) calls it an attempt to legitimise Western banking by distorting the Shari’ah.", response: "Khurshid Ahmad and Nejatullah Siddiqi share the concern about equity, but reject wholesale condemnation, citing the difficulty of applying divine guidance today.", takeaway: "The concern is valid, and its remedy is support from states and regulators and a move towards equity modes (pp. 455–456)." }
       ],
       related: ["t18.2", "t18.3.2"],
-      quickCheck: { q: "Who described condemning the whole Islamic banking effort as ‘less than generous’?", options: ["Asad Zaman", "Professor Khurshid Ahmad", "Ibn Taymiyah", "Monzer Kahf"], answer: 1, explanation: "p. 456." }
+      quickCheck: { q: "Who described condemning the whole Islamic banking effort as ‘less than generous’?", options: ["Asad Zaman", "Professor Khurshid Ahmad", "Ibn Taymiyah", "Monzer Kahf"], answer: 1, explanation: "p. 456." },
+      examples: [
+        { title: "Two responses to harsh criticism", kind: "textbook", text: "Asad Zaman called Islamic banking an attempt to legitimise Western banking. Khurshid Ahmad agreed that failing to move towards equity would be a tragedy, but said condemning the whole effort was ungenerous (p. 456)." }
+      ]
     }
   ],
   summary: "Islamic finance faces myths and severe criticism both from those who reject the prohibition of interest and from ‘pious’ critics who expect an ideal system without allowing for evolutionary difficulties. The author argues that the concept rests on sound reasoning: Riba is any increase over the principal of a loan or debt, whatever the rate or the debtor; money cannot be rented because it is consumed in use and a lender bears no ownership risk; loans must be repaid in kind regardless of inflation; time value is legitimate in pricing goods but not debts; and debt-creating modes are permissible when their Shari’ah essentials are met, though PLS modes are preferable. On practice, he defends benchmarks as pricing tools, fixed prices in sales, agency-based trading, collateral, combined but independent contracts, binding unilateral promises, charity-directed penalties and interest-income seed capital for segregated windows — while conceding real concerns about conclusively fixed Sukuk returns, the neglect of equity modes and limited socio-economic impact. His recommendations: create awareness, apply stringent internal controls, train staff, find ways to use equity modes (consignment trade, micro-business, Shirkah securitisation, fund management), and finance capable clients without tangible collateral through personal or group sureties.",

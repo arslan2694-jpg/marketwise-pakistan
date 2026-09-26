@@ -40,6 +40,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "In Ijarah, what is transferred to the lessee?", options: ["Ownership of the asset", "The usufruct of the asset", "The asset’s risk", "A loan"], answer: 1, explanation: "p. 279." },
       confusions: [
         { wrong: "Ijarah covers only the renting of property.", right: "Ijarah covers the hire of assets (rent) and of people’s work (wages); Ju‘alah and other usufruct contracts fall under its rules (p. 279)." }
+      ],
+      examples: [
+        { title: "Two kinds of Ijarah", kind: "textbook", text: "Renting a delivery van is Ijarah of things, and the consideration is rent (Ujrah). Hiring a doctor or tailor is Ijarah of persons, and the consideration is a wage (Ajr) (p. 279)." }
       ]
     },
     {
@@ -62,6 +65,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "When is the lessee liable for damage to the leased asset?", options: ["Always", "Only when caused by his negligence or misuse", "Never", "Only in operating leases"], answer: 1, explanation: "p. 280." },
       confusions: [
         { wrong: "The lessee is liable for any damage to the leased asset.", right: "The lessee is Ameen (trustee): liable only for loss from his negligence or misuse, not for loss beyond his control (p. 280)." }
+      ],
+      examples: [
+        { title: "Lessee as trustee", kind: "textbook", text: "A leased car is stolen although the lessee locked and parked it properly. The lessee, as Ameen, is not liable; the lessor bears the loss. Had he left it unlocked with the keys inside, he would be liable for negligence (p. 280)." }
       ]
     },
     {
@@ -79,6 +85,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "A lessee inherits the leased house from the lessor. What happens to the Ijarah?", options: ["It continues", "It ceases, because the lessee has become owner", "Rent doubles", "It becomes Murabaha"], answer: 1, explanation: "p. 280." },
       confusions: [
         { wrong: "If the lessee inherits the leased asset, the lease continues.", right: "Once the lessee becomes owner by gift, inheritance or otherwise, the Ijarah ceases (p. 280)." }
+      ],
+      examples: [
+        { title: "Inheritance ends the lease", kind: "textbook", text: "A tenant leases a flat from his father for five years; the father dies in year two and the tenant inherits the flat. The Ijarah ceases, because one cannot lease from oneself (pp. 280–281)." }
       ]
     },
     {
@@ -135,6 +144,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "A bank has not yet bought a specific machine a client wants leased. What should it sign now?", options: ["The Ijarah agreement", "A promise to lease (advance rent may be taken)", "A sale deed", "Nothing at all"], answer: 1, explanation: "p. 283." },
       confusions: [
         { wrong: "A bank may sign the Ijarah of a specific asset before it owns the asset.", right: "For a specified asset, the lease cannot be executed before the lessor owns it; the bank should take a promise to lease and may take advance rent to be adjusted later (p. 283)." }
+      ],
+      examples: [
+        { title: "Future-dated lease", kind: "textbook", text: "On 1 January a landlord leases a completed house to a client with effect from 1 March. This is valid, although a sale effective from a future date is not, because the lessor keeps ownership and its risks until then (pp. 282–283)." }
       ]
     },
     {
@@ -177,6 +189,9 @@ IFL_DATA.registerChapter({
       ],
       confusions: [
         { wrong: "A lessee may sell shares in future rentals to investors without selling any part of the asset.", right: "That assigns a receivable for money — selling debt at a discount, which is Riba (p. 285)." }
+      ],
+      examples: [
+        { title: "Sub-letting at a higher rent", kind: "textbook", text: "A lessee pays 20,000 a month and, with the lessor’s consent, sub-lets for 25,000. On the Shafi‘i and Hanbali view preferred today, he may keep the 5,000. Abu Hanifa would send it to charity unless he improved the property or charged in another currency (pp. 284–285)." }
       ]
     },
     {
@@ -193,6 +208,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "From the lessee’s security, a lessor may recover:", options: ["Rent for the remaining lease period plus cost of funds", "Actual loss/due rent only, excluding opportunity cost", "Any amount it chooses", "Nothing"], answer: 1, explanation: "p. 285." },
       confusions: [
         { wrong: "A lessor may recover cost of funds from the lessee’s security on default.", right: "Only the actual loss can be recovered; anything above due rent is Riba (p. 285)." }
+      ],
+      examples: [
+        { title: "Recovering from the security deposit", kind: "textbook", text: "A lessee defaults on 60,000 of rent; the lessor holds a 100,000 deposit. It may deduct the 60,000 owed and any actual loss, but not a cost-of-funds charge, and must return the rest (p. 285)." }
       ]
     },
     {
@@ -284,6 +302,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "From when may an Islamic lessor charge rent?", options: ["When funds are released to the supplier", "When the lessee is able to benefit from the delivered asset", "When the MoU is signed", "When the L/C is opened"], answer: 1, explanation: "p. 289." },
       confusions: [
         { wrong: "In an Islamic operating lease the lessee bears all risks and expenses, as in conventional practice.", right: "The Islamic lessor must bear upkeep of the corpus and all ownership risks; the lessee bears day-to-day running costs (p. 289)." }
+      ],
+      examples: [
+        { title: "When rent starts", kind: "textbook", text: "Under a conventional lease, rent starts the day the lessor pays the supplier. Under Shari’ah rules, rent starts only once the asset is delivered and the lessee can use it (p. 289)." }
       ]
     },
     {
@@ -300,6 +321,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Why is a bilateral promise to buy/sell the leased asset at the end avoided?", options: ["It is too expensive", "A bilateral binding promise becomes a contract (sale), making two contracts in one", "It violates tax laws", "It is required by AAOIFI"], answer: 1, explanation: "p. 290." },
       confusions: [
         { wrong: "A bilateral binding promise to sell and buy at lease end is acceptable.", right: "Scholars require a unilateral promise binding the promisor; the lessee keeps the option not to buy — a bilateral promise becomes a contract (p. 290)." }
+      ],
+      examples: [
+        { title: "Promise to gift at the end", kind: "textbook", text: "A bank leases a car for five years with rent set to recover cost and profit. Instead of a sale clause, it gives a separate unilateral promise to gift the car when the lease ends — fair, since the lessee has paid the full cost and return (pp. 289–290)." }
       ]
     },
     {
@@ -344,6 +368,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Under AAOIFI, in which IMBT transfer method does ownership pass without signing a new document?", options: ["Promise to sell at market value", "Promise to gift at the end", "Gift contingent on payment of remaining instalments", "None"], answer: 2, explanation: "p. 292." },
       confusions: [
         { wrong: "A hire–purchase contract becomes Islamic when renamed IMBT or Ijarah-wal-Iqtina‘.", right: "Renaming changes nothing; the lease must stay a pure Ijarah with ownership risk on the bank and a separate transfer contract (p. 294)." }
+      ],
+      examples: [
+        { title: "Contingent gift", kind: "textbook", text: "Under AAOIFI’s third method, the bank promises the car will become the lessee’s as a gift once the last instalment is paid. When that condition is fulfilled, title passes without any new contract (pp. 291–293)." }
       ]
     },
     {

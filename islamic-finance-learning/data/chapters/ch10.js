@@ -37,6 +37,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Why are Salam and Istisna‘a permitted despite involving goods not yet existing?", options: ["Because they involve interest", "Because conditions are prescribed that free them from Gharar", "Because they are gifts", "Because regulators allow it"], answer: 1, explanation: "p. 241." },
       confusions: [
         { wrong: "Salam and Istisna are forms of conventional futures contracts.", right: "They are exceptions to the rule against selling what does not exist, allowed because their conditions remove Gharar; options, swaps and modern futures do not qualify (p. 241)." }
+      ],
+      examples: [
+        { title: "Which forward deals qualify?", kind: "practice", text: "(1) A mill prepays in full for 500 tons of specified cotton due in March: Salam, valid. (2) A builder is ordered to construct a warehouse to specification, paid in stages: Istisna‘a, valid. (3) Two traders agree today on a wheat price for March, with nothing paid and the deal settled by price difference: a conventional future, not valid (p. 241)." }
       ]
     },
     {
@@ -64,6 +67,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "What did the Prophet (pbuh) require when people paid in advance for fruit?", options: ["Nothing", "Known quality, specified measure and weight, price and time of delivery", "Delivery within a week", "Payment in gold only"], answer: 1, explanation: "p. 242." },
       confusions: [
         { wrong: "Salam and Bai‘ Mu’ajjal are the same credit sale.", right: "In Salam the price is paid now and goods come later; in Mu’ajjal the goods are delivered now and the price is paid later (p. 241)." }
+      ],
+      examples: [
+        { title: "The Madinan practice corrected", kind: "textbook", text: "People in Madinah paid in advance for dates due in one to three years without fixing quality or measure. The Prophet (pbuh) required a known quality, specified measure and weight, and a fixed delivery time — the conditions that turn such a deal into valid Salam (pp. 241–242)." }
       ]
     },
     {
@@ -165,6 +171,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "If the Salam contract does not specify the place of delivery, delivery is at:", options: ["The buyer’s warehouse", "The place where the contract was executed (or as customarily agreed)", "The nearest port", "Any place chosen by the seller"], answer: 1, explanation: "p. 248." },
       confusions: [
         { wrong: "Risk passes to the Salam buyer at the contract date.", right: "The goods stay at the seller’s risk until delivery, physical or constructive (p. 248)." }
+      ],
+      examples: [
+        { title: "Delivery in instalments", kind: "textbook", text: "A bank buys 3,000 tons of rice on Salam, deliverable 1,000 tons each in June, July and August at the bank’s Karachi warehouse. Instalments are allowed if agreed. Had no place been stated, the place of contract would apply (pp. 247–248)." }
       ]
     },
     {
@@ -273,6 +282,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Wheat under Salam is absolutely unavailable. Which substitute is permissible under the rules cited?", options: ["Corn", "Cotton of value not exceeding the wheat’s value", "The seller’s animals", "Wheat of another variety at a higher price"], answer: 1, explanation: "Different genus, fungible, value ≤ original (p. 254)." },
       confusions: [
         { wrong: "On a failed Salam the bank may recover the market value of the goods in cash.", right: "It may buy the goods from the pledge proceeds, but if it takes cash it can recover only the price it paid — no increase for changes in value (p. 253)." }
+      ],
+      examples: [
+        { title: "Seller cannot deliver", kind: "textbook", text: "A Salam seller fails to deliver 100 tons of wheat. The bank may wait, cancel and take back its advance (no more, no less, whatever wheat prices have done), or sell the pledge, buy wheat in the market and return any surplus to the seller (pp. 252–254)." }
       ]
     },
     {
@@ -310,7 +322,10 @@ IFL_DATA.registerChapter({
         "For multiple items, state the value and delivery period of each so partial performance can be settled."
       ],
       related: ["t10.4.1", "t10.4.2", "t10.6"],
-      quickCheck: { q: "A bank pays half the Salam price in cash and sets off the other half against a loan owed by the seller. The contract is effective:", options: ["Fully", "Only to the extent of the cash payment", "Not at all", "Only if interest-free"], answer: 1, explanation: "p. 255." }
+      quickCheck: { q: "A bank pays half the Salam price in cash and sets off the other half against a loan owed by the seller. The contract is effective:", options: ["Fully", "Only to the extent of the cash payment", "Not at all", "Only if interest-free"], answer: 1, explanation: "p. 255." },
+      examples: [
+        { title: "Bank must take conforming delivery", kind: "textbook", text: "On the due date the seller offers wheat exactly as specified. If the bank refuses because prices have fallen, the seller is absolved: the bank may refuse only non-conforming goods or early delivery that inconveniences it (pp. 255–256)." }
+      ]
     },
     {
       id: "t10.10", section: "10.10", title: "Salam as a Financing Technique by Banks (Boxes 10.1–10.8)", pages: [256, 263], tier: "core",
@@ -391,6 +406,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "A customer supplies cloth and pays a tailor only for stitching. This is:", options: ["Istisna‘a", "Ujrah (hire of work)", "Salam", "Murabaha"], answer: 1, explanation: "p. 264." },
       confusions: [
         { wrong: "Istisna is merely a promise, so offer and acceptance must be repeated on delivery.", right: "Istisna is a sale concluded at the contract; unlike MPO, no fresh offer and acceptance is needed when the asset is ready (p. 263)." }
+      ],
+      examples: [
+        { title: "Istisna‘a or Ujrah?", kind: "textbook", text: "A client orders 1,000 pairs of shoes; the maker supplies the leather and labour — Istisna‘a. If the client supplies the leather and pays only for the work, it is Ujrah (hire of work), not Istisna‘a (pp. 263–264)." }
       ]
     },
     {
@@ -411,6 +429,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which cannot be the subject of Istisna‘a?", options: ["A ship of given specifications", "An apartment building on designated land", "A harvest of corn", "Machinery to specification"], answer: 2, explanation: "Natural products are excluded (p. 264)." },
       confusions: [
         { wrong: "A bank can sell a specific, identified car from a factory by Istisna.", right: "Istisna cannot be on an existing identified asset; an already-made asset may be delivered only if the contract names specifications, not a particular unit (p. 264)." }
+      ],
+      examples: [
+        { title: "What cannot be ordered", kind: "textbook", text: "A contract to “manufacture” 50 goats or next season’s mangoes is not Istisna‘a, since these are natural products. An order for “this particular car in the showroom” fails too, because an existing identified asset cannot be the subject (pp. 264–265)." }
       ]
     },
     {
@@ -446,7 +467,10 @@ IFL_DATA.registerChapter({
         { a: "Istisna‘a late delivery", b: "Salam late delivery", text: "Istisna‘a: price reduction benefits purchaser (Shart-e-Jazai). Salam: penalty goes to charity because the advance is a debt." }
       ],
       related: ["t4.2.9", "t10.4.4"],
-      quickCheck: { q: "In Istisna‘a, a price reduction for late delivery (Shart-e-Jazai):", options: ["Goes to charity", "Benefits the purchaser as income", "Is prohibited", "Is paid by the purchaser"], answer: 1, explanation: "p. 266." }
+      quickCheck: { q: "In Istisna‘a, a price reduction for late delivery (Shart-e-Jazai):", options: ["Goes to charity", "Benefits the purchaser as income", "Is prohibited", "Is paid by the purchaser"], answer: 1, explanation: "p. 266." },
+      examples: [
+        { title: "Shart-e-Jazai in a road contract", kind: "textbook", text: "An Istisna‘a for a road priced at 50 million reduces the price by 100,000 for each week of late delivery (force majeure excepted). The reduction is the buyer’s income, by analogy with a tailor paid 10 dirhams in a week or 12 in two days. In Salam, by contrast, a late-delivery penalty would go to charity (p. 266)." }
+      ]
     },
     {
       id: "t10.11.5", section: "10.11.5", title: "Binding Nature of Istisna‘a and Guarantees", pages: [266, 267], tier: "core",
@@ -466,6 +490,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "When does an Istisna‘a contract become binding on the buyer?", options: ["At signing always", "Once the manufacturer starts work on the subject matter", "Only on delivery", "Never"], answer: 1, explanation: "p. 266." },
       distinctions: [
         { a: "Before work starts", b: "After work starts", text: "Before the manufacturer starts, either party may cancel by notice; once work begins, the OIC Fiqh Council and most scholars treat Istisna as binding (pp. 266–267)." }
+      ],
+      examples: [
+        { title: "After work has started", kind: "textbook", text: "A buyer who ordered a ship wants to cancel after the yard has laid the keel. He cannot cancel unilaterally once manufacture has begun. If the ship conforms he must accept it, though he may claim for defects or missing specifications (pp. 266–267)." }
       ]
     },
     {
@@ -495,7 +522,10 @@ IFL_DATA.registerChapter({
         "Bank delivers to customer; customer pays P1 per schedule"
       ],
       related: ["t10.11.10", "t4.2.7"],
-      quickCheck: { q: "In Parallel Istisna‘a, the delivery date in the parallel contract with the contractor must:", options: ["Precede the original contract’s date", "Not precede the original Istisna‘a date (per the chapter)", "Be the same as signing", "Be unspecified"], answer: 1, explanation: "p. 267." }
+      quickCheck: { q: "In Parallel Istisna‘a, the delivery date in the parallel contract with the contractor must:", options: ["Precede the original contract’s date", "Not precede the original Istisna‘a date (per the chapter)", "Be the same as signing", "Be unspecified"], answer: 1, explanation: "p. 267." },
+      examples: [
+        { title: "Parallel dates", kind: "textbook", text: "A bank agrees to deliver a building to its client on 30 June and signs a Parallel Istisna‘a with a contractor for delivery on 31 May. The parallel date must not precede the original, and each contract stands independently: the bank must deliver even if the contractor fails (pp. 267–268)." }
+      ]
     },
     {
       id: "t10.11.9", section: "10.11.9", title: "Istisna‘a — Post-Execution Scenario", pages: [268, 269], tier: "supporting",
@@ -556,7 +586,10 @@ IFL_DATA.registerChapter({
       keyPoints: ["Bank has no claim on manufacturer’s materials.", "Percentage-of-completion revenue recognition."],
       table: { caption: "Risks in Istisna and mitigation (Box 10.9)", head: ["Risk", "Mitigation"], rows: [["Bank does not own the maker’s materials", "Security from the manufacturer"], ["Subcontractor delay", "Shart-e-Jazai price reduction clause"], ["No sale before delivery", "Promise to purchase from a third party; agency for sale"], ["Inferior quality", "Quality guarantee from the supplier"]] },
       related: ["t10.10.1", "t11.2.1", "t4.2.9"],
-      quickCheck: { q: "According to Box 10.10, which statement is TRUE?", options: ["Salam is revocable until work starts", "Istisna‘a is nonbinding until work starts; Salam is binding once executed", "Both require full prepayment", "Istisna‘a is only for Mithli goods"], answer: 1, explanation: "p. 270." }
+      quickCheck: { q: "According to Box 10.10, which statement is TRUE?", options: ["Salam is revocable until work starts", "Istisna‘a is nonbinding until work starts; Salam is binding once executed", "Both require full prepayment", "Istisna‘a is only for Mithli goods"], answer: 1, explanation: "p. 270." },
+      examples: [
+        { title: "Delay risk and its mitigant", kind: "textbook", text: "A subcontractor’s delay threatens the bank’s own delivery date. Box 10.9’s mitigant is a Shart-e-Jazai price-reduction clause in the Parallel Istisna‘a, plus security from the manufacturer, since the bank has no claim on materials it does not own (pp. 269–274)." }
+      ]
     }
   ],
   summary: "Salam and Istisna‘a are the permitted forward sales — exceptions to the rule that goods sold must exist and be owned and possessed, made free of Gharar by conditions. In Salam the full price is paid at contract for fungible, precisely specified goods normally available at a fixed delivery time and place; it cannot be in currencies, specific items or debts; it is binding; late-delivery penalties go to charity; goods may be disposed of through independent Parallel Salam, a third-party promise or agency (never back to the seller). Banks under-use Salam but it suits agriculture, SMEs, exports and working capital, with defined risk mitigation. Istisna‘a is an order to manufacture or construct, with material supplied by the manufacturer, price payable in instalments, binding once work starts, allowing a price reduction for late delivery (Shart-e-Jazai), and usable through Parallel Istisna‘a for housing, exports, buildings and infrastructure. (Chapter synthesis — the book has no separate summary section; Section 10.9 summarises Salam rules.)",

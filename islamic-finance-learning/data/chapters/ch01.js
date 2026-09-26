@@ -124,7 +124,9 @@ IFL_DATA.registerChapter({
         "Charity on any scale cannot solve the problem (footnote on “Billanthropy”).",
         "Conflict between the operative tools of conventional economics and its normative goals explains why even rich states miss their welfare aims."
       ],
-      examples: [],
+      examples: [
+        { title: "Safety net vs system fix", kind: "practice", text: "A state spends heavily on cash transfers to poor households, while interest-based credit keeps flowing mainly to large borrowers with collateral. The author’s point is that transfers treat symptoms: unless the way funds are created and allocated changes, inequality is regenerated each year (p. 8)." }
+      ],
       confusions: [
         { wrong: "Bigger social-security spending can by itself correct the injustice created by the financial system.", right: "The author argues selective state spending cannot offset system-wide imbalances and may create moral hazard; the system itself must change so weaker groups get their share at the stage of production and distribution (p. 8)." }
       ],
@@ -148,7 +150,9 @@ IFL_DATA.registerChapter({
         "Risk-bearing reduces moral hazard and increases discipline."
       ],
       principles: ["No risk, no gain: entitlement to return requires bearing liability for possible loss."],
-      examples: [],
+      examples: [
+        { title: "“No risk, no gain” in two contracts", kind: "practice", text: "A lender gives 1,000,000 and is owed 1,100,000 whatever happens to the borrower’s business. A Musharakah partner gives the same 1,000,000 but shares the actual profit or loss. Only the second satisfies the principle that a return must be matched by liability for loss (pp. 8–9)." }
+      ],
       confusions: [
         { wrong: "“No risk, no gain” means Islamic finance maximises risk.", right: "It means return must be linked to bearing risk/liability; later chapters show risk can be mitigated but not eliminated." }
       ],
@@ -175,7 +179,9 @@ IFL_DATA.registerChapter({
         "Justice/fair play is the raison d’être of any sustainable economic system and cannot be traded off in the Islamic worldview.",
         "Benefits of prohibiting interest: a moral dimension, greater equity and market discipline, and a healthier, more stable system."
       ],
-      examples: [],
+      examples: [
+        { title: "Replacing interest with risk-related capital", kind: "practice", text: "A firm funding a factory with an interest-bearing loan must pay whatever the factory earns. Funded by Musharakah, the financier’s return rises and falls with output, which the author argues adds equity and market discipline to the system (pp. 9–10)." }
+      ],
       confusions: [
         { wrong: "Islamic economists only need to design new financial products.", right: "The author asks them to build a whole model of balanced, equitable growth, with justice as the non-negotiable foundation (p. 9)." }
       ],
@@ -252,7 +258,11 @@ IFL_DATA.registerChapter({
         { wrong: "A guarantor can charge a fee for guaranteeing a loan.", right: "Guaranteeing a financial obligation for a price involves Riba; only out-of-pocket expenses may be recovered." }
       ],
       related: ["t5.8", "t3.2", "t4.2"],
-      quickCheck: { q: "Under the principles summarised here, which transaction can legitimately carry a return?", options: ["A loan", "A guarantee", "A gift", "A sale or lease"], answer: 3, explanation: "Return is valid in commutative contracts such as sale and leasing; loans, guarantees and gifts are gratuitous (pp. 12–13)." }
+      quickCheck: { q: "Under the principles summarised here, which transaction can legitimately carry a return?", options: ["A loan", "A guarantee", "A gift", "A sale or lease"], answer: 3, explanation: "Return is valid in commutative contracts such as sale and leasing; loans, guarantees and gifts are gratuitous (pp. 12–13)." },
+      examples: [
+        { title: "Zakat rates", kind: "textbook", text: "Zakat is generally 2.5 % of net wealth, and 5 % or 10 % on agricultural produce above a minimum (pp. 11–13)." },
+        { title: "Guarantee for a price", kind: "textbook", text: "A bank that charges a fee for guaranteeing someone’s financial obligation would be taking Riba; the Islamic Fiqh Academy allows only recovery of out-of-pocket expenses (pp. 11–13, footnote)." }
+      ]
     },
     {
       id: "t1.9", section: "1.9", title: "Regulating Trade and Business", pages: [13, 14], tier: "core",
@@ -314,7 +324,10 @@ IFL_DATA.registerChapter({
         { wrong: "The figures (75 countries, 550 IFIs) are current statistics.", right: "They are the author’s figures at the time of writing (book published 2007)." }
       ],
       related: ["t8.5", "t18.3"],
-      quickCheck: { q: "Which of these is listed by the author as a standard-setting body or global facilitator for Islamic finance?", options: ["IFSB", "OPEC", "WTO", "Basel Committee"], answer: 0, explanation: "AAOIFI, IFSB, IIFM and LMC are listed (p. 15)." }
+      quickCheck: { q: "Which of these is listed by the author as a standard-setting body or global facilitator for Islamic finance?", options: ["IFSB", "OPEC", "WTO", "Basel Committee"], answer: 0, explanation: "AAOIFI, IFSB, IIFM and LMC are listed (p. 15)." },
+      examples: [
+        { title: "Scale at the time of writing", kind: "textbook", text: "About 550 Islamic financial institutions operated in over 75 countries, with hubs in Bahrain, Malaysia, Saudi Arabia and Dubai; in Malaysia about 40 % of Islamic banks’ clients were non-Muslims (pp. 15–16)." }
+      ]
     },
     {
       id: "t1.11", section: "1.11", title: "Could it Work to Achieve the Objectives?", pages: [16, 17], tier: "core",
@@ -339,7 +352,10 @@ IFL_DATA.registerChapter({
         { wrong: "If a product is legally Shari’ah compliant, Islamic finance has achieved its objectives.", right: "The author warns that copying conventional products and fitting them formally undermines the theory; compliance must be Shari’ah-inspired and consider the impact on society (pp. 16–17)." }
       ],
       related: ["t17.4", "t18.3"],
-      quickCheck: { q: "What does the author say about IFIs that adapt conventional products merely to fit Islamic legal forms?", options: ["They represent best practice", "They undermine the integrity of Islamic finance theory", "They are required by AAOIFI", "They eliminate all risk"], answer: 1, explanation: "He warns that such moulding without regard to impact undermines the integrity of the theory (p. 16)." }
+      quickCheck: { q: "What does the author say about IFIs that adapt conventional products merely to fit Islamic legal forms?", options: ["They represent best practice", "They undermine the integrity of Islamic finance theory", "They are required by AAOIFI", "They eliminate all risk"], answer: 1, explanation: "He warns that such moulding without regard to impact undermines the integrity of the theory (p. 16)." },
+      examples: [
+        { title: "Form versus substance", kind: "practice", text: "Bank A renames its interest-bearing loan “Murabaha” but never buys the goods. Bank B buys the goods, takes their risk and sells them at a fixed price. Both products look alike on paper; only B meets the “Shari’ah-inspired” standard the author calls for (pp. 16–17)." }
+      ]
     },
     {
       id: "t1.12", section: "1.12", title: "About this Book", pages: [17, 19], tier: "revision",
@@ -362,6 +378,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which interpretive approach does the book follow?", options: ["Minority view only", "Mainstream view", "No Shari’ah view", "A new interpretation by the author"], answer: 1, explanation: "The book represents the mainstream view, which also underlies AAOIFI and IFSB standards (p. 17)." },
       distinctions: [
         { a: "Mainstream view", b: "Minority view", text: "The book follows the mainstream interpretation because it is widely recognised, underpins Middle-East practice and the AAOIFI/IFSB standards; minority-view practices are converging towards it (p. 17)." }
+      ],
+      examples: [
+        { title: "Map of the book", kind: "textbook", text: "Part I: foundations and prohibitions; Part II: law of contracts, trading, loans and debts (with Hawalah, Kafalah, Rahn); Part III: products, procedures, Sukuk, Takaful, criticism and the way forward (pp. 17–19)." }
       ]
     }
   ],

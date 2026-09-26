@@ -34,7 +34,10 @@ IFL_DATA.registerChapter({
         "Invalid contracts (contractual defects) are treated separately in Chapter 5."
       ],
       related: ["t3.2", "t3.3"],
-      quickCheck: { q: "What does the author call the raison d’être of the Islamic financial system?", options: ["Profitability", "Shari’ah compliance", "Low cost of funds", "Government support"], answer: 1, explanation: "Shari’ah compliance (p. 43)." }
+      quickCheck: { q: "What does the author call the raison d’être of the Islamic financial system?", options: ["Profitability", "Shari’ah compliance", "Low cost of funds", "Government support"], answer: 1, explanation: "Shari’ah compliance (p. 43)." },
+      examples: [
+        { title: "Why compliance comes first", kind: "practice", text: "An Islamic bank finds a product that would double its profit but uses a buy-back. Because Shari’ah compliance is the raison d’être of the institution, the profit consideration cannot override it (p. 43)." }
+      ]
     },
     {
       id: "t3.2", section: "3.2", title: "The Basic Prohibitions", pages: [43, 43], tier: "core",
@@ -51,7 +54,10 @@ IFL_DATA.registerChapter({
       ],
       related: ["t3.2.1", "t3.2.2", "t3.2.3", "t5.5"],
       quickCheck: { q: "Which three prohibitions define the overall limits for transactions?", options: ["Riba, Gharar, gambling", "Zakat, Waqf, Hibah", "Murabaha, Salam, Ijarah", "Taxes, rent, wages"], answer: 0, explanation: "Riba, Gharar and gambling (p. 43)." },
-      table: { caption: "The three basic prohibitions at a glance", head: ["Prohibition", "Core idea", "Tolerance"], rows: [["Riba", "Any addition over the principal of a loan/debt; unequal or deferred exchange of like monetary goods", "None — the slightest Riba vitiates"], ["Gharar", "Excessive uncertainty about the subject matter, price or delivery", "Minor (Qalil) Gharar tolerated"], ["Maisir / Qimar", "Gain by chance at another’s cost", "None"]] }
+      table: { caption: "The three basic prohibitions at a glance", head: ["Prohibition", "Core idea", "Tolerance"], rows: [["Riba", "Any addition over the principal of a loan/debt; unequal or deferred exchange of like monetary goods", "None — the slightest Riba vitiates"], ["Gharar", "Excessive uncertainty about the subject matter, price or delivery", "Minor (Qalil) Gharar tolerated"], ["Maisir / Qimar", "Gain by chance at another’s cost", "None"]] },
+      examples: [
+        { title: "Screening three deals", kind: "practice", text: "(1) A loan of 100 repayable 110 — Riba. (2) Selling next year’s unknown fish catch for a fixed price — Gharar. (3) A prize draw funded by participants’ stakes — Maisir. Each fails a different basic prohibition (p. 43)." }
+      ]
     },
     {
       id: "t3.2.1", section: "3.2.1", title: "Riba: Textual Prohibition and Riba in Loans/Debts", pages: [44, 49], tier: "core",
@@ -159,6 +165,9 @@ IFL_DATA.registerChapter({
       keyPoints: [
         "SAB: permissibility of interest cannot depend on the debtor’s financial position or the purpose of the loan.",
         "Modern interest is worse than Riba al-jahiliyyah: it is charged at inception and on overdue amounts."
+      ],
+      examples: [
+        { title: "“Only for production loans?”", kind: "textbook", text: "The argument that interest is harmless on business loans is rejected: the Shariat Appellate Bench held that permissibility cannot depend on the debtor’s financial position or the purpose of the loan, and modern interest is charged both at inception and on overdue amounts (pp. 49–51)." }
       ]
     },
     {
@@ -224,6 +233,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which of these is NOT Riba under the broad definition?", options: ["An addition to a loan for extra time", "Rent charged in Ijarah", "An excess when exchanging gold for gold", "Indexing a loan to inflation"], answer: 1, explanation: "Rentals in Ijarah correspond to liability and risk of ownership and are excluded (p. 53)." },
       confusions: [
         { wrong: "Conventional loan interest involves only Riba Al-Nasiah.", right: "The author says loan interest involves both Riba Al-Nasiah (benefit from delay) and Riba Al-Fadl (extra money paid when due) (p. 53)." }
+      ],
+      examples: [
+        { title: "Nasiah and Fadl in one loan", kind: "practice", text: "Lending 1,000 dollars today for 1,050 dollars in a year involves Riba al-Nasiah (the delay premium) and Riba al-Fadl (unequal exchange of like money), which is why the book says interest-bearing loans involve both (pp. 52–53)." }
       ]
     },
     {
@@ -359,7 +371,10 @@ IFL_DATA.registerChapter({
         "Allah may pardon faults against His rights but not harm done to fellow beings — giving people their due is the cardinal ethical principle."
       ],
       related: ["t3.3.1", "t3.3.2", "t3.3.3", "t3.3.4", "t3.3.5"],
-      quickCheck: { q: "What is the cardinal principle of the Islamic system of ethics according to the chapter?", options: ["Profit maximisation", "Giving people their due right", "Minimising taxes", "Avoiding contracts"], answer: 1, explanation: "p. 64." }
+      quickCheck: { q: "What is the cardinal principle of the Islamic system of ethics according to the chapter?", options: ["Profit maximisation", "Giving people their due right", "Minimising taxes", "Avoiding contracts"], answer: 1, explanation: "p. 64." },
+      examples: [
+        { title: "Rights of Allah and of people", kind: "practice", text: "A trader who misses a voluntary fast may seek Allah’s forgiveness; a trader who cheated a customer must also make it right with that customer, because harm to fellow beings is forgiven only by those harmed (p. 64)." }
+      ]
     },
     {
       id: "t3.3.1", section: "3.3.1", title: "Justice and Fair Dealing (Honesty, Najash, Khalabah, Disclosure)", pages: [64, 67], tier: "core",
@@ -417,6 +432,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "If a customer breaches a binding promise to buy in a Murabaha to Purchase Orderer, what can the bank recover?", options: ["Any penalty it chooses", "The actual loss incurred", "Interest for the period", "Nothing"], answer: 1, explanation: "The promisee may recover the actual loss (p. 68)." },
       confusions: [
         { wrong: "A promise in Islamic finance is only morally binding and has no financial consequence.", right: "Contemporary scholars regard promises as binding; in MPO, leasing and Diminishing Musharakah the promisee may recover the actual loss caused by a breach (pp. 67–68)." }
+      ],
+      examples: [
+        { title: "Broken promise in MPO", kind: "textbook", text: "A client promises to buy a car the bank has bought for him, then refuses. The bank sells the car in the market; it can recover only the actual loss from the client, not a penalty or its cost of funds (pp. 67–68; see Section 5.6)." }
       ]
     },
     {
@@ -437,6 +455,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which principle does the author identify as the foundation of Takaful?", options: ["Riba Al-Fadl", "Reciprocal compensation and joint responsibility", "Najash", "Hawalah"], answer: 1, explanation: "p. 68." },
       confusions: [
         { wrong: "Islam rejects all pre-Islamic customs.", right: "Islam validated beneficial practices such as ‘Aqilah and Dhaman Khatr al-Tariq — the basis of Takaful (p. 68)." }
+      ],
+      examples: [
+        { title: "Dhaman Khatr al-Tariq", kind: "textbook", text: "Traders pooled money to compensate any of them who lost goods to hazards on trade routes — a pre-Islamic scheme of joint indemnity that Islam accepted and that underlies Takaful (p. 68)." }
       ]
     },
     {

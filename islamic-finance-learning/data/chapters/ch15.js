@@ -72,6 +72,9 @@ IFL_DATA.registerChapter({
       table: { caption: "Box 15.1 — Islamic Depository Receipts (pp. 390–391)", head: ["Aspect", "Points"], rows: [["Parties", "Originator, investor, custodian bank"], ["For originators", "Wider investor base; lower cost of funds; better image"], ["For investors", "Diversification; Shari’ah-compliant stocks; higher returns than Murabaha placements; liquidity management"], ["Importance", "Convergence of markets; alternative to cross-listing; development funds; standardisation"], ["Supporters", "IDB, IIFM, rating agencies, IFSB, regulators, IFIs"]] },
       confusions: [
         { wrong: "A debt can be sold without recourse at a discount, like any other asset.", right: "Debts may only be assigned at par. Hawalah is transfer with recourse; an ordinary sale is without recourse (p. 390)." }
+      ],
+      examples: [
+        { title: "An Islamic depository receipt", kind: "textbook", text: "Shares of a Shari’ah-compliant Malaysian company are held by a custodian bank in Bahrain, which issues IDRs to Gulf investors. The originator gains a wider investor base; investors gain diversification (pp. 390–391)." }
       ]
     },
     {
@@ -125,6 +128,9 @@ IFL_DATA.registerChapter({
       table: { caption: "Classes of securitised paper and Shari’ah status (pp. 393–394)", head: ["Class", "Shari’ah note"], rows: [["Asset-backed securitisation", "Acceptable if ownership passes"], ["Mortgage-backed", "Depends on the structure"], ["CDO/CLO", "Not compliant unless subject to Hawalah rules"], ["Lease rentals", "Asset ownership must pass to holders"], ["Road tolls", "Pro rata ownership must pass"], ["Credit-card receivables", "Not compliant unless subject to Hawalah rules"]] },
       confusions: [
         { wrong: "Selling the right to lease rentals alone makes a valid Ijarah Sukuk.", right: "Ownership of the leased assets must also be transferred to the Sukuk holders (p. 394)." }
+      ],
+      examples: [
+        { title: "Roles in one issue", kind: "textbook", text: "A government (originator) sells highway land to an SPV. Investment banks underwrite and book-run the Sukuk. Central and Islamic banks subscribe. A servicer collects rentals, and a rating agency rates the issue (p. 393)." }
       ]
     },
     {
@@ -145,6 +151,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "In a pass-through structure, the SPV:", options: ["Reinvests collections until a schedule date", "Remits collections completely and immediately to investors", "Keeps collections", "Pays a fixed coupon from its capital"], answer: 1, explanation: "p. 395." },
       confusions: [
         { wrong: "If the originator becomes insolvent, the assets sold to the SPV return to its estate.", right: "A true sale ends the originator’s discretion over the assets and cannot be reversed on its insolvency (p. 395)." }
+      ],
+      examples: [
+        { title: "Pass-through vs pay-through", kind: "textbook", text: "Pass-through: each month’s rentals collected by the SPV go straight to holders. Pay-through: the SPV invests collections and pays holders on a fixed semi-annual schedule, taking on reinvestment risk (p. 395)." }
       ]
     },
     {
@@ -162,7 +171,10 @@ IFL_DATA.registerChapter({
         "Prepayment risk: maturity changes because obligors pay early. Reinvestment risk: returns on interim investment vary in pay-through structures (p. 395)."
       ],
       related: ["t15.3.7"],
-      quickCheck: { q: "Prepayment risk in securitisation refers to:", options: ["Default by the obligor", "Variation in investment maturity due to early payment by obligors", "Currency movements", "Legal changes"], answer: 1, explanation: "p. 395." }
+      quickCheck: { q: "Prepayment risk in securitisation refers to:", options: ["Default by the obligor", "Variation in investment maturity due to early payment by obligors", "Currency movements", "Legal changes"], answer: 1, explanation: "p. 395." },
+      examples: [
+        { title: "Prepayment risk", kind: "textbook", text: "Lessees in a pooled Ijarah prepay and buy their assets early. The pool shrinks sooner than planned and holders receive their money earlier than expected — prepayment risk (p. 395)." }
+      ]
     },
     {
       id: "t15.3.4", section: "15.3.4", title: "Shari’ah Bases of Sukuk Issue and Disputed Structures", pages: [396, 398], tier: "core",
@@ -194,6 +206,9 @@ IFL_DATA.registerChapter({
       confusions: [
         { wrong: "The Shafi‘i school permits the sale of debt at a discount, so Bai‘ al Dayn Sukuk trading is Shafi‘i-compliant.", right: "The Shafi‘is allowed sale of debt only at par. Discounted Bai‘ al Dayn is rejected by the traditional jurists unanimously and by the OIC Fiqh Council without dissent (p. 397)." },
         { wrong: "Sale and lease-back is the same as Bai‘ al ‘Inah.", right: "Sale and lease-back is allowed if the sale is complete before the Ijarah. For repurchase, scholars recommend at least a year so that it is not a back door to interest (p. 397)." }
+      ],
+      examples: [
+        { title: "Sale and lease-back done properly", kind: "textbook", text: "A government sells a building to an SPV, the sale completed in all respects. Only then does the SPV lease it back. The government repurchases at maturity, at least a year later, which scholars recommend so that the structure is not ‘Inah (p. 397)." }
       ]
     },
     {
@@ -308,6 +323,9 @@ IFL_DATA.registerChapter({
       table: { caption: "IDB Solidarity Trust Sukuk 2003 (pp. 406–407)", head: ["Feature", "Detail"], rows: [["Size", "US$400 m, 5 years"], ["Trustee/SPV", "Solidarity Trust Services"], ["Assets", "Ijarah, Murabaha, Istisna‘a; Ijarah > 50 % at all times"], ["Dissolution trigger", "Ijarah share below 25 %; IDB must buy all assets"], ["IDB support", "Guarantee of scheduled obligor payments; shortfall cover; interest-free liquidity facility"], ["Redemption", "100 % of principal; purchase undertaking at maturity or dissolution"], ["ICD role", "Buys assets from IDB and sells to the SPV; appointed Wakil"]] },
       confusions: [
         { wrong: "IDB guaranteed payments on the trust certificates themselves.", right: "IDB guaranteed amounts scheduled as payable by obligors on the underlying assets. Holders have no recourse if the trust assets are exhausted (p. 406)." }
+      ],
+      examples: [
+        { title: "Ijarah share falls", kind: "textbook", text: "If Ijarah contracts in the IDB trust pool fell below 25 % of assets, a dissolution event would occur and IDB would have to buy all the trust assets under its purchase undertaking (p. 406)." }
       ]
     },
     {
@@ -323,7 +341,10 @@ IFL_DATA.registerChapter({
       keyPoints: ["Debt → par only; ownership → market price."],
       table: { caption: "Box 15.4 — selected Sukuk issues (pp. 408–409)", head: ["Issue", "Type", "Amount / tenor", "Pricing"], rows: [["Qatar Global Ijarah", "Sovereign", "US$700 m, 7 yrs", "LIBOR + 0.40 %"], ["Saxony-Anhalt (Germany)", "Sovereign", "€100 m, 5 yrs", "6-m EURIBOR + 1 bp"], ["Sukuk Al Intifaa Makkah", "Corporate", "US$390 m, 24 yrs", "Usufruct as weekly time-shares"], ["Tabreed Global Ijarah", "Corporate", "US$100 m, 5 yrs", "Fixed 6 %"], ["Malaysia Global Ijarah", "Sovereign", "US$600 m, 5 yrs", "LIBOR + 0.95 %"], ["Pakistan Ijarah", "Sovereign", "US$600 m, 5 yrs", "LIBOR + 2.20 %"]] },
       related: ["t12.6", "t15.3.5"],
-      quickCheck: { q: "Per Box 15.3, Salam Sukuk are:", options: ["Tradable at market price", "Not tradable except at face value", "Tradable after delivery at discount", "Tradable only by central banks"], answer: 1, explanation: "p. 408." }
+      quickCheck: { q: "Per Box 15.3, Salam Sukuk are:", options: ["Tradable at market price", "Not tradable except at face value", "Tradable after delivery at discount", "Tradable only by central banks"], answer: 1, explanation: "p. 408." },
+      examples: [
+        { title: "Salam Sukuk vs Ijarah Sukuk", kind: "textbook", text: "Holders of Bahrain’s aluminium Salam Sukuk can transfer them only at face value, as they represent a Salam debt. Holders of Ijarah Sukuk on existing freehold assets may sell at any market price (p. 408)." }
+      ]
     },
     {
       id: "t15.3.7", section: "15.3.7", title: "Issues in Terms and Structures of Sukuk", pages: [409, 411], tier: "core",
@@ -351,6 +372,9 @@ IFL_DATA.registerChapter({
       confusions: [
         { wrong: "A sovereign may guarantee Sukuk holders a fixed return on Shirkah-based Sukuk because it is creditworthy.", right: "No partner may guarantee capital or a fixed return in contractual Shirkah. AAOIFI bars prospectus clauses making the issuer liable up to nominal value except for tort or negligence (p. 409)." },
         { wrong: "An SPV can top up Sukuk returns from its own funds, as banks sometimes do for depositors.", right: "Even banks may do so only within a pre-agreed ratio. SPVs must distribute the net proceeds of the business (p. 410)." }
+      ],
+      examples: [
+        { title: "The destroyed asset problem", kind: "textbook", text: "An Ijarah Sukuk promises holders a fixed rate. If the leased asset is destroyed without the lessee’s fault, the loss legally belongs to the holders as owners — so the “fixed” return cannot be guaranteed in all respects (p. 410)." }
       ]
     },
     {
@@ -368,7 +392,10 @@ IFL_DATA.registerChapter({
         "Infrastructure needs in the Muslim world could be met through Sukuk, if managed without compromising Shari’ah principles (p. 411)."
       ],
       related: ["t14.4.4", "t18.3.1"],
-      quickCheck: { q: "Before Sukuk emerged, IFIs managed short-term funds mainly through:", options: ["Government T-bills", "Tawarruq and metals-market Murabaha", "Interbank interest", "Equity futures"], answer: 1, explanation: "p. 411." }
+      quickCheck: { q: "Before Sukuk emerged, IFIs managed short-term funds mainly through:", options: ["Government T-bills", "Tawarruq and metals-market Murabaha", "Interbank interest", "Equity futures"], answer: 1, explanation: "p. 411." },
+      examples: [
+        { title: "From metals to Sukuk", kind: "textbook", text: "Before Sukuk, IFIs parked short-term funds in commodity Murabaha on international metals markets, often without the Murabaha conditions being met. Ijarah Sukuk with market makers now let them place liquidity compliantly (p. 411)." }
+      ]
     },
     {
       id: "t15.4.cases", section: "15.4", title: "Case Studies: Nakheel, Pakistan Sovereign, WAPDA and Hanco (Boxes 15.5–15.8)", pages: [412, 415], tier: "detailed",
@@ -391,7 +418,10 @@ IFL_DATA.registerChapter({
       ],
       related: ["t11.5.3", "t15.3.7"],
       quickCheck: { q: "What was the underlying asset in Pakistan's 2005 US$600m sovereign Ijarah Sukuk?", options: ["Mangla turbines", "M-2 motorway land", "A motor fleet", "Airport buildings"], answer: 1, explanation: "p. 413." },
-      table: { caption: "Case studies (Boxes 15.5–15.8, pp. 412–415)", head: ["Issue", "Asset / structure", "Pricing", "Notable feature"], rows: [["Nakheel (DP World)", "Sale and lease-back (convertible), 3 yrs", "LIBOR + 120 bps", "Raised from US$2.5 bn to 3.52 bn; 40 % European investors"], ["Pakistan sovereign 2005", "M-2 motorway land; SPV PIS; lease to government; repurchase", "6-m LIBOR + 220 bps", "Orders US$1.2 bn for US$600 m; B+ rating"], ["WAPDA", "10 Mangla turbines, 7-yr lease-back", "6-m KIBOR + 35 bps", "PKR 8 bn; government guarantee; SLR-eligible"], ["Hanco (Saudi)", "Motor fleet; two-tier SPV/SPC offshore", "Fixed 6 %", "US$27.2 m, 3 yrs"]] }
+      table: { caption: "Case studies (Boxes 15.5–15.8, pp. 412–415)", head: ["Issue", "Asset / structure", "Pricing", "Notable feature"], rows: [["Nakheel (DP World)", "Sale and lease-back (convertible), 3 yrs", "LIBOR + 120 bps", "Raised from US$2.5 bn to 3.52 bn; 40 % European investors"], ["Pakistan sovereign 2005", "M-2 motorway land; SPV PIS; lease to government; repurchase", "6-m LIBOR + 220 bps", "Orders US$1.2 bn for US$600 m; B+ rating"], ["WAPDA", "10 Mangla turbines, 7-yr lease-back", "6-m KIBOR + 35 bps", "PKR 8 bn; government guarantee; SLR-eligible"], ["Hanco (Saudi)", "Motor fleet; two-tier SPV/SPC offshore", "Fixed 6 %", "US$27.2 m, 3 yrs"]] },
+      examples: [
+        { title: "Demand for Pakistan’s sovereign Sukuk", kind: "textbook", text: "Orders worth US$1.2 billion came from 82 accounts for a US$600 million issue, which was sold at par to yield 6-month LIBOR plus 220 bps (p. 413)." }
+      ]
     }
   ],
   summary: "Sukuk offer great potential for Islamic capital markets by letting many investors finance public and private projects, including infrastructure. They are certificates of undivided ownership in tangible assets, usufruct, services or project assets, created through securitisation via a bankruptcy-remote SPV; unlike bonds their returns derive from the underlying assets, and unlike shares they relate to specified assets for a set period. Depending on the second-leg mode, returns are variable (Shirkah) or quasi-fixed (Ijarah, Murabaha), becoming fixed only with an independent third-party guarantee. Tradability depends on whether a Sukuk represents ownership (market price) or debt (par only) — Box 15.3. Structures based on Bai‘ al ‘Inah or discounted Bai‘ al Dayn are rejected by the majority; sale and lease-back is acceptable when properly sequenced. The author warns about conclusively fixed returns and guarantees, interdependent contracts, poor transparency and over-reliance on Ijarah, urging Shirkah-based and mixed Sukuk, enabling laws, accounting standards, standardised contracts and a decisive role for Shari’ah scholars, with institutions such as LMC, IIFM and IIRA leading market development.",

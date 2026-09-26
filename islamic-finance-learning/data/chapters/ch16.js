@@ -33,7 +33,10 @@ IFL_DATA.registerChapter({
         "Conventional insurance has two broad categories: life (whole-life and endowment policies) and general (marine, fire, accident) (p. 417 n. 1)."
       ],
       related: ["t16.2"],
-      quickCheck: { q: "Which elements make conventional insurance objectionable, per Chapter 16?", options: ["Riba, Gharar and gambling", "Only taxes", "Only high premiums", "Agents' commissions"], answer: 0, explanation: "p. 417." }
+      quickCheck: { q: "Which elements make conventional insurance objectionable, per Chapter 16?", options: ["Riba, Gharar and gambling", "Only taxes", "Only high premiums", "Agents' commissions"], answer: 0, explanation: "p. 417." },
+      examples: [
+        { title: "Why a bank needs Takaful", kind: "practice", text: "An Islamic bank leasing 2,000 cars must insure them under law. Conventional insurance involves Riba, Gharar and Maisir, so it needs a Shari’ah-compliant alternative — Takaful (p. 417)." }
+      ]
     },
     {
       id: "t16.2", section: "16.2", title: "The Need for Takaful Cover", pages: [417, 418], tier: "core",
@@ -56,6 +59,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which hadith does the author cite to show that precaution is consistent with Tawakkul?", options: ["‘Leave your offspring wealthy’", "‘Tie your camel first, then put your trust in Allah’", "‘Muslims are bound by their conditions’", "‘Earnings are concomitant with risk’"], answer: 1, explanation: "p. 418." },
       confusions: [
         { wrong: "Seeking cover against loss contradicts trust in Allah.", right: "The author calls this a myth. Precaution is required (“Tie your camel first, then put your trust in Allah”), and the Shari’ah aims to remove hardship (p. 418)." }
+      ],
+      examples: [
+        { title: "Tie your camel", kind: "textbook", text: "A man left his camel untied, saying he trusted in Allah. The Prophet (pbuh) told him, “Tie your camel first, then put your trust in Allah” — precaution is part of trust, not against it (p. 418)." }
       ]
     },
     {
@@ -143,6 +149,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "The main objective of Takaful from participants' view is:", options: ["Windfall gains", "Mutual help", "Tax savings", "Speculation"], answer: 1, explanation: "p. 422." },
       confusions: [
         { wrong: "Taking a family Takaful policy is a lack of piety because it insures one’s life.", right: "It is a means of safeguarding offspring, consistent with the Prophet’s saying about leaving heirs wealthy (p. 422)." }
+      ],
+      examples: [
+        { title: "Providing for dependants", kind: "textbook", text: "A father takes family Takaful so that his children are cared for if he dies, in line with the Hadith that it is better to leave heirs wealthy than dependent on others (p. 422)." }
       ]
     },
     {
@@ -162,6 +171,9 @@ IFL_DATA.registerChapter({
       confusions: [
         { wrong: "Tabarru‘ in Takaful is the same as Sadaqah, so no benefit can return to the donor.", right: "Not every donation is Sadaqah. A Waqf donor gives up individual ownership but may benefit as one of the fund’s beneficiaries (p. 423)." },
         { wrong: "Early Takaful operators always separated underwriting surplus from investment profit.", right: "Early operators did not distinguish them. Later research concluded that the whole UWS/UWL belongs to participants, with the operator earning a fee and/or an investment-profit share (p. 423)." }
+      ],
+      examples: [
+        { title: "Splitting a family Takaful contribution", kind: "textbook", text: "Under a Wakalah basis a monthly contribution is split three ways: a management fee to the operator, a donation to the Takaful fund for protection, and a savings part invested on Mudarabah and returned with profit at maturity (p. 422)." }
       ]
     },
     {
@@ -192,6 +204,9 @@ IFL_DATA.registerChapter({
         "The company keeps 25–30 % as its management fee and invests 70–75 % of the fund",
         "Claims and re-Takaful costs are charged to the fund; UWS/UWL belongs to participants as a group",
         "Investment profit is shared by Mudarabah between fund and company (e.g. 60:40)"
+      ],
+      examples: [
+        { title: "Pure Wakalah fee", kind: "textbook", text: "An operator charges a Wakalah fee of 30 % of donations and may take a performance share of any surplus. If there is a deficit, participants bear it and the operator only lends Qard al Hasan — hence scholars’ reservations about equity (p. 424)." }
       ]
     },
     {
@@ -209,6 +224,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Why is a donation (Tabarru‘) problematic as Mudarabah capital?", options: ["It is too small", "Donated funds cannot simultaneously be capital to be returned with profit", "It is taxed", "Only banks can donate"], answer: 1, explanation: "p. 426." },
       confusions: [
         { wrong: "A Mudarabah Takaful operator may charge management expenses to the Takaful fund in addition to its profit share.", right: "Under Mudarabah rules, management costs come from the operator’s own share, not the fund (p. 426)." }
+      ],
+      examples: [
+        { title: "Operator takes surplus, not deficit", kind: "practice", text: "Year 1: surplus 4 m, the operator takes half under a Mudarabah model. Year 2: deficit 3 m, participants bear it and the operator only lends. This one-sided pattern is exactly what scholars object to (p. 426)." }
       ]
     },
     {
@@ -226,6 +244,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "For a large client, what should a Takaful operator reduce?", options: ["The risk premium rate", "The operator's fee", "Claims payable", "The Waqf corpus"], answer: 1, explanation: "p. 426." },
       confusions: [
         { wrong: "Giving the Wakalah operator a share of UWS as a performance bonus raises no Shari’ah issue.", right: "It draws the same objection as the Mudarabah model: the surplus should go only to pool members (p. 426)." }
+      ],
+      examples: [
+        { title: "Discount for a large client", kind: "textbook", text: "A corporate client insures a large fleet. Rather than lowering the risk premium below that charged to others with the same risk, the operator should reduce its own fee (p. 426)." }
       ]
     },
     {
@@ -253,6 +274,9 @@ IFL_DATA.registerChapter({
       ],
       confusions: [
         { wrong: "A family Takaful participant who terminates early gets help from the Takaful fund.", right: "On early termination he gets his investment part with profit and a reduced pro rata UWS share, but no assistance from the fund (p. 428)." }
+      ],
+      examples: [
+        { title: "Absorbing a deficit", kind: "textbook", text: "A Takaful fund ends the year with claims exceeding contributions. The deficit is met first from reserves, then by an interest-free loan from shareholders, and only then by a general increase in pricing (p. 427)." }
       ]
     },
     {
@@ -270,7 +294,10 @@ IFL_DATA.registerChapter({
         "Insurance density = premiums per capita; penetration = premiums as % of GDP (p. 428)."
       ],
       related: ["t16.7", "t18.3.1"],
-      quickCheck: { q: "The first Takaful company was established in:", options: ["Malaysia, 1984", "Sudan, 1979", "Saudi Arabia, 1990", "Bahrain, 1975"], answer: 1, explanation: "p. 428." }
+      quickCheck: { q: "The first Takaful company was established in:", options: ["Malaysia, 1984", "Sudan, 1979", "Saudi Arabia, 1990", "Bahrain, 1975"], answer: 1, explanation: "p. 428." },
+      examples: [
+        { title: "Density and penetration", kind: "textbook", text: "Low premiums per person (density) and low premiums relative to GDP (penetration) in Muslim countries reflect a belief that insurance is un-Islamic. Growing Ijarah and home finance are now creating demand for Takaful (p. 428)." }
+      ]
     },
     {
       id: "t16.7", section: "16.7", title: "Takaful Challenges", pages: [429, 430], tier: "core",
@@ -287,6 +314,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "What does the chapter call the most important challenge for Takaful?", options: ["Tax rates", "Creating awareness of the concept", "Too many companies", "Excess capital"], answer: 1, explanation: "p. 429." },
       confusions: [
         { wrong: "Family Takaful generates early cash flow for a new company.", right: "Family programmes absorb cash in the early years; composite annual products provide the early cash flow (p. 429)." }
+      ],
+      examples: [
+        { title: "Why family Takaful needs capital", kind: "textbook", text: "A new company’s annual general policies bring early cash, while its family Takaful business absorbs cash in its first years. Without a strong capital base it cannot grow the family line, where the real potential lies (p. 429)." }
       ]
     },
     {
@@ -302,7 +332,10 @@ IFL_DATA.registerChapter({
       ],
       related: ["t16.3"],
       quickCheck: { q: "Which body's Fatwa (1405 AH) favoured insurance under an Islamic model?", options: ["Egypt Supreme Court", "OIC Fiqh Council", "Makkah judicial conference", "Selangor State"], answer: 1, explanation: "p. 431." },
-      table: { caption: "Selected Fatawa on insurance (pp. 430–431)", head: ["Source", "Position"], rows: [["Shaikh Mohammad Abduh, 1900–1901", "In favour of insurance"], ["Shaikh Mohd Baqit, 1906", "In favour of insurance"], ["Supreme Court of Egypt, 1926", "Against life insurance"], ["Muslim League Conference, Cairo, 1965", "Against life insurance"], ["Morocco seminar, 1972", "Against life insurance"], ["National Religious Council (Malaysia), 1972", "Against conventional insurance"], ["First International Conference on Islamic Economy, Makkah, 1396 AH", "In favour of an Islamic model"], ["Higher Council of Saudi Ulama, 1397 AH", "In favour of an Islamic model"], ["Fiqh Council of the Muslim World League, 1398 AH", "In favour of an Islamic model"], ["OIC Fiqh Council, 1405 AH", "In favour of an Islamic model"], ["Shaikh al-Azhar Jad al-Haq, 1995", "Against life insurance"]] }
+      table: { caption: "Selected Fatawa on insurance (pp. 430–431)", head: ["Source", "Position"], rows: [["Shaikh Mohammad Abduh, 1900–1901", "In favour of insurance"], ["Shaikh Mohd Baqit, 1906", "In favour of insurance"], ["Supreme Court of Egypt, 1926", "Against life insurance"], ["Muslim League Conference, Cairo, 1965", "Against life insurance"], ["Morocco seminar, 1972", "Against life insurance"], ["National Religious Council (Malaysia), 1972", "Against conventional insurance"], ["First International Conference on Islamic Economy, Makkah, 1396 AH", "In favour of an Islamic model"], ["Higher Council of Saudi Ulama, 1397 AH", "In favour of an Islamic model"], ["Fiqh Council of the Muslim World League, 1398 AH", "In favour of an Islamic model"], ["OIC Fiqh Council, 1405 AH", "In favour of an Islamic model"], ["Shaikh al-Azhar Jad al-Haq, 1995", "Against life insurance"]] },
+      examples: [
+        { title: "Changing positions over time", kind: "textbook", text: "Early Egyptian muftis Abduh (1900–1901) and Baqit (1906) favoured insurance. Later councils rejected conventional insurance but approved an Islamic model — the Higher Council of Saudi Ulama (1397 AH), the MWL Fiqh Council (1398 AH) and the OIC Fiqh Council (1405 AH) (pp. 430–431)." }
+      ]
     }
   ],
   summary: "Seeking protection against misfortune is consistent with Islam — the Prophet told the Bedouin to tie his camel first — but conventional insurance is held unlawful by the overwhelming majority of scholars because of Riba, Gharar/Khatar, Qimar and Maisir and the invalid transfer of risk in a commutative contract. Takaful replaces it with cooperative risk-sharing grounded in ‘Aqilah, Tabarru‘ and Waqf: participants donate to a fund that compensates defined losses; the underwriting surplus or deficit belongs to participants; the operator earns a Wakalah fee and/or a Mudarib share of investment profit and provides Qard al Hasan for deficits. Family Takaful splits contributions into protection and investment parts; general Takaful treats the whole contribution as a donation. The Mudarabah model and surplus-sharing variants are criticised for making the operator a risk-taker; research led by Mufti Taqi Usmani favours the Waqf or Wakalah–Waqf model. The industry has grown fast since 1979 but lags banking; its challenges are awareness, capital, people, re-Takaful, investments, standardisation, regulation and Shari’ah governance. (Chapter synthesis — the chapter has no separate summary section.)",

@@ -33,7 +33,10 @@ IFL_DATA.registerChapter({
         { a: "Interest-free banking", b: "Islamic banking", text: "The former only avoids interest; the latter also avoids Gharar and unethical practices and pursues the objectives of an Islamic economy." }
       ],
       related: ["t4.2", "t8.5"],
-      quickCheck: { q: "Why does the author consider ‘interest-free banking’ a narrow concept?", options: ["It ignores deposits", "It only denotes avoiding interest, not Gharar, unethical practices and the goals of an Islamic economy", "It is a Western term", "It includes Takaful"], answer: 1, explanation: "p. 73." }
+      quickCheck: { q: "Why does the author consider ‘interest-free banking’ a narrow concept?", options: ["It ignores deposits", "It only denotes avoiding interest, not Gharar, unethical practices and the goals of an Islamic economy", "It is a Western term", "It includes Takaful"], answer: 1, explanation: "p. 73." },
+      examples: [
+        { title: "Interest-free but not Islamic", kind: "practice", text: "A bank offers a “zero-interest” product whose return comes from a prize draw among depositors. It avoids interest, yet it involves Maisir. That is why the book treats Islamic banking as broader than “interest-free banking”: it must also avoid Gharar and unethical practice (p. 73)." }
+      ]
     },
     {
       id: "t4.2", section: "4.2", title: "The Philosophy of Islamic Finance: Loan vs Investment", pages: [73, 74], tier: "core",
@@ -99,6 +102,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which activity does the prohibition of Gharar rule out for Islamic banks?", options: ["Spot purchase of identified goods", "Short-selling", "Ijarah of a building", "Musharakah in a project"], answer: 1, explanation: "p. 75." },
       confusions: [
         { wrong: "All stock-market activity is prohibited for Islamic banks.", right: "The author says stock-market transactions, if cleansed of Gharar, interest and gambling, would be Islamic; speculation and short-selling are what must be avoided (p. 75)." }
+      ],
+      examples: [
+        { title: "Short sale ruled out", kind: "practice", text: "A dealer sells 1,000 shares he does not own, hoping to buy them back cheaper later. He sells what he neither owns nor possesses, so the deal is Gharar and speculation of the kind the book excludes for Islamic banks (p. 75)." }
       ]
     },
     {
@@ -115,7 +121,10 @@ IFL_DATA.registerChapter({
         "Prize bonds benefit a few participants at the cost of the rest, without work or liability — hence Maisir as well as Riba."
       ],
       related: ["t3.2.3"],
-      quickCheck: { q: "Conventional insurance is non-compliant due to which elements, according to the author?", options: ["Riba and Maisir", "Only Najash", "Only Khalabah", "None"], answer: 0, explanation: "p. 76." }
+      quickCheck: { q: "Conventional insurance is non-compliant due to which elements, according to the author?", options: ["Riba and Maisir", "Only Najash", "Only Khalabah", "None"], answer: 0, explanation: "p. 76." },
+      examples: [
+        { title: "Prize bonds", kind: "textbook", text: "Holders of prize bonds keep their capital safe, while prizes drawn by lot go to a few, funded by the return on everyone’s money. A few gain at the cost of the rest without work or liability, which is both Riba and Maisir (p. 76)." }
+      ]
     },
     {
       id: "t4.2.4", section: "4.2.4", title: "Alternative Financing Principles", pages: [76, 78], tier: "core",
@@ -212,6 +221,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "After a credit sale, the goods are destroyed in the buyer’s possession. The buyer:", options: ["Is released from paying", "Must still pay the price at the settled time", "Pays half", "Can return the goods"], answer: 1, explanation: "Risk transferred on sale; the price remains payable (p. 82)." },
       confusions: [
         { wrong: "Taking Takaful on sold goods removes the buyer’s obligation to pay if the goods are destroyed.", right: "Takaful mitigates the buyer’s risk but has no link with his liability to pay the price at the settled time (p. 82)." }
+      ],
+      examples: [
+        { title: "Goods destroyed after a credit sale", kind: "textbook", text: "A client buys a machine from the bank on credit and it is destroyed a week later. The client must still pay the full price, because the risk passed to him with ownership at the sale. Before the sale the loss would have been the bank’s (pp. 81–82)." }
       ]
     },
     {
@@ -240,6 +252,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Under what condition is a Parallel Salam valid according to contemporary scholars cited here?", options: ["It must be conditional on the first Salam", "It must not be linked to or conditional on the original Salam", "It must have a different commodity", "It must be with the same party"], answer: 1, explanation: "p. 83." },
       confusions: [
         { wrong: "Parallel Salam must be linked to the first Salam so the bank is protected.", right: "The two contracts must not be linked or conditional; the parallel Salam must be honoured even if the first fails (p. 83)." }
+      ],
+      examples: [
+        { title: "Spot FX allowed, forward FX with delay not", kind: "textbook", text: "An Islamic bank may buy dollars for rupees on the spot. It may not agree today to exchange the currencies at a future date with the payment deferred, since exchange of monetary values must be simultaneous (pp. 82–83)." }
       ]
     },
     {
@@ -259,6 +274,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Why may lack of transparency invalidate a Murabaha?", options: ["Murabaha requires disclosure of cost/price and payment mode", "Murabaha is a loan", "It creates Maisir", "It is not a sale"], answer: 0, explanation: "p. 83." },
       confusions: [
         { wrong: "Disclosure requirements for Islamic banks are the same as for conventional banks.", right: "They are stricter: lack of transparency on Murabaha cost and payment terms can make the transaction non-compliant, and banks must examine the nature of the client’s business (pp. 83–84)." }
+      ],
+      examples: [
+        { title: "Murabaha without disclosed cost", kind: "textbook", text: "A bank sells goods “at 110” without telling the client that the cost was 100. Murabaha is a trust sale based on disclosed cost, so hiding the cost or payment terms can make the transaction non-compliant (pp. 83–84)." }
       ]
     },
     {
@@ -325,7 +343,10 @@ IFL_DATA.registerChapter({
         { wrong: "Islamic banks should provide cost-free money.", right: "Islamic banking is a business using savers’ funds; it does not mean cost-free money." }
       ],
       related: ["t17.3.9", "t7.4"],
-      quickCheck: { q: "Out of which funds may an Islamic bank give return-free loans?", options: ["Depositors’ investment funds at its discretion", "Its own equity or accumulated Charity Fund, with Shari’ah approval", "Current account balances", "None at all"], answer: 1, explanation: "p. 86." }
+      quickCheck: { q: "Out of which funds may an Islamic bank give return-free loans?", options: ["Depositors’ investment funds at its discretion", "Its own equity or accumulated Charity Fund, with Shari’ah approval", "Current account balances", "None at all"], answer: 1, explanation: "p. 86." },
+      examples: [
+        { title: "Whose money is it?", kind: "textbook", text: "A widow’s savings deposited in a bank fund a large trading firm. If the bank lent them free, the richer firm would gain at the widow’s expense. Free loans can come only from the bank’s own equity or Charity Fund, with Shari’ah approval (p. 86)." }
+      ]
     },
     {
       id: "t4.5", section: "4.5", title: "Exchange Rules", pages: [87, 89], tier: "core",
@@ -399,6 +420,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "How does conventional finance treat money, according to the author?", options: ["Only as a medium of exchange", "As a commodity that can be sold, bought and rented", "As gold", "As Zakat"], answer: 1, explanation: "p. 90." },
       distinctions: [
         { a: "Money in conventional finance", b: "Money in Islamic finance", text: "Conventionally money is a commodity that can be sold and rented for a return; in Islamic finance it is a medium of exchange and measure of value only (p. 90)." }
+      ],
+      examples: [
+        { title: "Why the rules of Riba al-Fadl encourage money", kind: "textbook", text: "Exchanging 2 kg of poor dates for 1 kg of good dates is barred. Instead, the Prophet (pbuh) directed selling one for money and buying the other, which moves exchange towards a money economy and away from unfair barter (p. 90; the Hadith is discussed on p. 437)." }
       ]
     },
     {
@@ -465,6 +489,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "What does the author identify as the major source of monetary expansion?", options: ["Exports", "Financing government budget deficits by borrowing from the central bank", "Zakat", "Islamic bank deposits"], answer: 1, explanation: "p. 92." },
       distinctions: [
         { a: "100% reserve advocates", b: "Credit-creation supporters", text: "Early writers saw credit money as morally wrong and wanted full reserves; others argue credit is harmful only through interest, and under PLS banks would create credit only as far as productive profit opportunities exist (pp. 93–94)." }
+      ],
+      examples: [
+        { title: "Three sources of new money", kind: "practice", text: "In a year, the central bank lends 50 bn to the government, commercial banks create 30 bn of derivative deposits, and capital inflows add 20 bn. The book asks regulators to watch all three, the first being the major one, and to keep total money growth in line with goods and services (pp. 92–94)." }
       ]
     },
     {

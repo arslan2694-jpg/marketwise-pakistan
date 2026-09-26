@@ -34,7 +34,10 @@ IFL_DATA.registerChapter({
         "Innovation is described as the most critical success factor, but Islamic product development has the extra requirement of Shari’ah conformity (p. 357)."
       ],
       related: ["t14.2", "t4.1"],
-      quickCheck: { q: "According to the chapter, what is the biggest challenge facing Islamic finance?", options: ["Lack of deposits", "Developing products that are Shari’ah-compliant and meet changing business needs", "Taxation", "Staff salaries"], answer: 1, explanation: "p. 357." }
+      quickCheck: { q: "According to the chapter, what is the biggest challenge facing Islamic finance?", options: ["Lack of deposits", "Developing products that are Shari’ah-compliant and meet changing business needs", "Taxation", "Staff salaries"], answer: 1, explanation: "p. 357." },
+      examples: [
+        { title: "Money must pass through goods", kind: "practice", text: "A bank with surplus deposits cannot simply lend them at 8 %. It must buy goods and sell them, lease assets, or invest in partnerships — earning through risk and value addition (p. 357)." }
+      ]
     },
     {
       id: "t14.2", section: "14.2", title: "Product Development and its Procedure", pages: [358, 358], tier: "core",
@@ -81,6 +84,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Current accounts in Islamic banks are normally treated as:", options: ["Mudarabah", "Loans with no return", "Musharakah", "Wakalah with fee"], answer: 1, explanation: "p. 359." },
       confusions: [
         { wrong: "Current accounts in an Islamic bank share in pool profits.", right: "Current accounts are normally treated as loans (Qard) and are not entitled to any return (p. 359)." }
+      ],
+      examples: [
+        { title: "Sources of an Islamic bank’s funds", kind: "textbook", text: "Shareholders’ equity, current accounts (loans, no return), savings and term deposits (Mudarabah or Wakalatul Istismar), interbank placements and sometimes central-bank refinance (p. 359)." }
       ]
     },
     {
@@ -188,6 +194,9 @@ IFL_DATA.registerChapter({
       confusions: [
         { wrong: "Banks may take a DP note for principal plus mark-up at disbursement.", right: "DP notes should be taken after the Murabaha sale. If one is needed at disbursement as security, it should cover the principal only (p. 365)." },
         { wrong: "Buying goods in the client’s name to save transfer charges is harmless.", right: "The bank then never owns the goods. Title, risk and reward should be the bank’s until sale to the client (p. 365)." }
+      ],
+      examples: [
+        { title: "Rollover in disguise", kind: "textbook", text: "A client cannot pay a 10 million Murabaha. The bank books a “new” Murabaha with no goods, credits 10.5 million to his account and debits the old debt. The book says such fictitious rollovers must be stopped and their return sent to the Charity Account (p. 364)." }
       ]
     },
     {
@@ -287,6 +296,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Under the majority view, a securitised pool can trade at any price if Ijarah/fixed assets exceed:", options: ["10%", "33%", "50%", "90%"], answer: 2, explanation: "p. 374 (Hanafi: 10%)." },
       confusions: [
         { wrong: "A Sukuk pool containing Murabaha receivables may trade at any price.", right: "The Sukuk price cannot fall below the value of the debt instruments in the pool (p. 374)." }
+      ],
+      examples: [
+        { title: "Oil terminal syndication", kind: "textbook", text: "A consortium obtains the operator’s binding promise to lease, signs an Istisna‘a with a construction contractor, appoints the operator to supervise construction, and signs the Ijarah once the terminal is ready (p. 374)." }
       ]
     },
     {
@@ -307,6 +319,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "When an Islamic bank invites others into a pool of its Murabaha and Ijarah assets, Murabaha receivables should be:", options: ["More than 50%", "Less than 50% of total assets", "Exactly 50%", "100%"], answer: 1, explanation: "p. 375." },
       confusions: [
         { wrong: "Selling Sukuk for liquidity is the same as a conventional repo.", right: "It is similar in effect, but the sale and repurchase are two separate outright transactions, not a single repurchase agreement (p. 375)." }
+      ],
+      examples: [
+        { title: "Selling Sukuk for cash", kind: "textbook", text: "An Islamic bank bought government Ijarah Sukuk at par. Short of liquidity, it sells them outright to another bank; later, with surplus cash, it buys Sukuk in the market. This resembles repo but uses two separate outright sales (pp. 374–375)." }
       ]
     },
     {
@@ -360,7 +375,10 @@ IFL_DATA.registerChapter({
         "Pool profit for SBP = gross income less provisions, plus recoveries of prior losses and reversals of provisions (p. 378)."
       ],
       related: ["t14.3.1", "t12.7.1"],
-      quickCheck: { q: "Under the IERS, profit to SBP above conventional EFS rates is credited to:", options: ["SBP's income", "A Takaful fund reserve", "The exporter", "Charity"], answer: 1, explanation: "p. 378." }
+      quickCheck: { q: "Under the IERS, profit to SBP above conventional EFS rates is credited to:", options: ["SBP's income", "A Takaful fund reserve", "The exporter", "Charity"], answer: 1, explanation: "p. 378." },
+      examples: [
+        { title: "Excess profit to the Takaful fund", kind: "practice", text: "Suppose the EFS rate is 7 % and SBP’s share of pool profit works out at 9 %. SBP keeps the EFS-level return and the 2 % excess goes to the Takaful fund, which later absorbs SBP’s share of any pool losses (p. 378)." }
+      ]
     },
     {
       id: "t14.4.7", section: "14.4.7", title: "Cards: Debit, Charge, Credit and ATM", pages: [379, 383], tier: "core",
@@ -409,7 +427,10 @@ IFL_DATA.registerChapter({
         "Islamic banks may open documentary credits at conventional banks and ask correspondents to confirm L/Cs (p. 385)."
       ],
       related: ["t14.6"],
-      quickCheck: { q: "Which is an area of cooperation with conventional banks listed in Section 14.5?", options: ["Interest-bearing placements", "Correspondent services and co-financing", "Sharing Riba income", "Conventional derivatives"], answer: 1, explanation: "p. 384." }
+      quickCheck: { q: "Which is an area of cooperation with conventional banks listed in Section 14.5?", options: ["Interest-bearing placements", "Correspondent services and co-financing", "Sharing Riba income", "Conventional derivatives"], answer: 1, explanation: "p. 384." },
+      examples: [
+        { title: "Cooperation with conventional banks", kind: "textbook", text: "An Islamic bank keeps credit balances with a foreign correspondent in return for limited overdraft facilities, with no interest either way, so that it can open and confirm L/Cs for importers (pp. 384–386)." }
+      ]
     },
     {
       id: "t14.6", section: "14.6", title: "Fee-based Islamic Banking Services: Underwriting, L/G, L/C", pages: [384, 386], tier: "core",
@@ -460,6 +481,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Minimum number of Shari’ah scholar members on an SSB per AAOIFI:", options: ["One", "Two", "Three", "Five"], answer: 2, explanation: "p. 387." },
       confusions: [
         { wrong: "A bank’s director may sit on its Shari’ah board to improve coordination.", right: "The AAOIFI standard excludes directors and significant shareholders (p. 387)." }
+      ],
+      examples: [
+        { title: "Composition of a Shari’ah board", kind: "textbook", text: "Under AAOIFI’s standard, a board of three Shari’ah scholars may co-opt an accountant and a lawyer as consultants, but may not include a director or major shareholder of the bank (p. 387)." }
       ]
     }
   ],

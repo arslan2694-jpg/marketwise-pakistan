@@ -29,7 +29,10 @@ IFL_DATA.registerChapter({
       exam: "Accessory contracts: Wakalah, Ju‘alah, Tawarruq, Istijrar (Hawalah, Kafalah, Bai‘ al Dayn elsewhere).",
       keyPoints: ["Ancillary contracts support the major modes.", "Hawalah, Kafalah and Bai‘ al Dayn are covered in their own chapters, not here (p. 347)."],
       related: ["t13.2", "t13.3", "t13.4", "t13.5"],
-      quickCheck: { q: "Which of these is discussed in Chapter 13 as an accessory contract?", options: ["Musharakah", "Ju‘alah", "Salam", "Takaful"], answer: 1, explanation: "p. 347." }
+      quickCheck: { q: "Which of these is discussed in Chapter 13 as an accessory contract?", options: ["Musharakah", "Ju‘alah", "Salam", "Takaful"], answer: 1, explanation: "p. 347." },
+      examples: [
+        { title: "Accessory contracts inside one product", kind: "practice", text: "In a car Ijarah the bank appoints the client as agent to buy the car (Wakalah), takes a guarantee (Kafalah) and a pledge of a deposit (Rahn). None of these is the main mode, but the product depends on them (p. 347)." }
+      ]
     },
     {
       id: "t13.2", section: "13.2", title: "Wakalah (Agency)", pages: [347, 349], tier: "core",
@@ -161,7 +164,10 @@ IFL_DATA.registerChapter({
         { wrong: "The Maliki school, being strict on ‘Inah, rejects Tawarruq.", right: "The Malikis see no major problem in Tawarruq and regard it as a way to avoid Riba (p. 349)." },
         { wrong: "If every formal condition of sale is met, heavy use of Tawarruq raises no concern.", right: "The transaction may be valid, but its extensive use is still problematic and could create systemic risk (p. 350)." }
       ],
-      table: { caption: "Organised Tawarruq structures (p. 350)", head: ["Structure", "Ruling"], rows: [["Bank buys a commodity, sells to Mutawarriq, who sells it in the market", "No Shari’ah problem"], ["Mutawarriq is the bank’s agent to buy and then sells to himself", "Invalid"], ["Mutawarriq is agent only to buy; the bank then sells by a separate contract", "Valid but not advisable"], ["Bank is the Mutawarriq’s agent to sell, stipulated in the sale", "Invalid"], ["Bank is agent to sell, appointed after an unconditional sale", "Valid but not advisable"], ["Via commodity exchange where goods never move", "Vulnerable to violations"]] }
+      table: { caption: "Organised Tawarruq structures (p. 350)", head: ["Structure", "Ruling"], rows: [["Bank buys a commodity, sells to Mutawarriq, who sells it in the market", "No Shari’ah problem"], ["Mutawarriq is the bank’s agent to buy and then sells to himself", "Invalid"], ["Mutawarriq is agent only to buy; the bank then sells by a separate contract", "Valid but not advisable"], ["Bank is the Mutawarriq’s agent to sell, stipulated in the sale", "Invalid"], ["Bank is agent to sell, appointed after an unconditional sale", "Valid but not advisable"], ["Via commodity exchange where goods never move", "Vulnerable to violations"]] },
+      examples: [
+        { title: "Tawarruq vs ‘Inah", kind: "textbook", text: "A buys copper from bank B on credit for 110 and sells it to an unrelated trader for 100 cash: Tawarruq. If A sold it back to B for 100, it would be ‘Inah — the same cash flows, but prohibited by the majority (pp. 349–350)." }
+      ]
     },
     {
       id: "t13.3.1", section: "13.3.1", title: "Use of Tawarruq for Liquidity Management", pages: [351, 351], tier: "supporting",
@@ -185,6 +191,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "In interbank Tawarruq, who buys the commodity on deferred payment?", options: ["The surplus bank", "The deficit bank", "The broker", "The central bank"], answer: 1, explanation: "p. 351." },
       confusions: [
         { wrong: "Interbank Tawarruq is harmless because it is simple.", right: "The book warns that widespread use harms the industry in the long run and must be strictly monitored by Shari’ah boards (p. 351)." }
+      ],
+      examples: [
+        { title: "Interbank Commodity Murabaha", kind: "practice", text: "Bank D needs 50 million for 3 months. Bank S buys 50 million of blue-chip shares in the market, sells them to D on 3-month credit for 50.6 million, and D sells them at spot. D has cash now and owes 50.6 million at maturity (p. 351)." }
       ]
     },
     {
@@ -232,6 +241,9 @@ IFL_DATA.registerChapter({
       confusions: [
         { wrong: "If the offeror revokes after work has started, the worker gets nothing because the result was not achieved.", right: "Once work has begun, revocation by the offeror obliges him to pay a reasonable wage for the work done (p. 352)." },
         { wrong: "A worker who abandons the job midway can claim for his effort.", right: "If the worker revokes after starting, he has no claim unless agreed otherwise (p. 352)." }
+      ],
+      examples: [
+        { title: "Public offer of a reward", kind: "textbook", text: "A company announces a reward of 1 million to anyone who finds its lost container. Anyone may act, alone or with helpers. Whoever finds it earns the reward; those who searched without success get nothing (pp. 351–352)." }
       ]
     },
     {
@@ -272,7 +284,10 @@ IFL_DATA.registerChapter({
         { a: "Ju‘alah reward (Ju‘l)", b: "Ijarah wage (Ujrah)", text: "Ju‘l is due only on achieving the result; Ujrah is earned for the stipulated time worked even if the task is incomplete." }
       ],
       related: ["t13.4.1"],
-      quickCheck: { q: "Does a public Ju‘alah offer require counter-acceptance?", options: ["Yes, always", "No — except with a specified worker", "Only in writing", "Only by the government"], answer: 1, explanation: "p. 353." }
+      quickCheck: { q: "Does a public Ju‘alah offer require counter-acceptance?", options: ["Yes, always", "No — except with a specified worker", "Only in writing", "Only by the government"], answer: 1, explanation: "p. 353." },
+      examples: [
+        { title: "Accident before completion", kind: "textbook", text: "A worker recovering a stolen truck under Ju‘alah has nearly finished when a flood, not his fault, damages the truck. The book says he is entitled to the full reward in this situation (p. 353)." }
+      ]
     },
     {
       id: "t13.4.4", section: "13.4.4", title: "Parallel Ju‘alah Contracts", pages: [353, 353], tier: "supporting",
@@ -289,6 +304,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "When can a bank not use a Parallel Ju‘alah?", options: ["Never restricted", "When the first contract requires the bank to do the work itself", "When the reward is money", "When the customer is a corporate"], answer: 1, explanation: "p. 353." },
       confusions: [
         { wrong: "A bank may always subcontract Ju‘alah work through a Parallel Ju‘alah.", right: "Only if the first Ju‘alah does not require the bank to perform the work itself (p. 353)." }
+      ],
+      examples: [
+        { title: "Bank in the middle", kind: "practice", text: "A bank undertakes to recover a client’s overdue receivables for 5 % of collections, then engages a collection firm for 3.5 % under a separate Parallel Ju‘alah. Each contract is independent; the bank keeps the difference (p. 353)." }
       ]
     },
     {
@@ -330,6 +348,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "A debt-collection Ju‘alah pays part of the reward in advance. The worker's right to it is:", options: ["Absolute immediately", "On account until the required result is realised", "Forfeited", "Interest"], answer: 1, explanation: "p. 355." },
       confusions: [
         { wrong: "A debt-recovery agent paid in advance keeps the advance whatever happens.", right: "Advance reward is on account; the worker is not absolutely entitled until the result is achieved (p. 355)." }
+      ],
+      examples: [
+        { title: "Brokerage by Ju‘alah", kind: "textbook", text: "A broker is promised 1 % of the price if he finds a buyer for a factory. He earns it only when the sale contract he arranged is signed, however much effort he spent before (p. 355)." }
       ]
     },
     {

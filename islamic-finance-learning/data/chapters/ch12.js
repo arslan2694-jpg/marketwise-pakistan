@@ -41,7 +41,10 @@ IFL_DATA.registerChapter({
         { term: "Participatory (PLS) modes", meaning: "Shirkah-based modes — Musharakah and Mudarabah — in which the parties directly share actual profit and loss." }
       ],
       related: ["t12.2", "t4.2"],
-      quickCheck: { q: "In Mudarabah, who bears a financial loss that occurs without negligence?", options: ["The Mudarib", "The financier (Rabbul-mal)", "Both equally", "The bank's depositors only"], answer: 1, explanation: "The financier bears the loss; the Mudarib loses his labour (p. 308)." }
+      quickCheck: { q: "In Mudarabah, who bears a financial loss that occurs without negligence?", options: ["The Mudarib", "The financier (Rabbul-mal)", "Both equally", "The bank's depositors only"], answer: 1, explanation: "The financier bears the loss; the Mudarib loses his labour (p. 308)." },
+      examples: [
+        { title: "Participatory vs fixed-return finance", kind: "practice", text: "A bank puts 5 million into a client’s trading venture. Under Murabaha it would earn a fixed margin whatever the venture earned. Under Musharakah it earns an agreed share of the actual profit, or bears its share of any loss (pp. 307–308)." }
+      ]
     },
     {
       id: "t12.2", section: "12.2", title: "Legality, Forms and Definition of Partnership", pages: [308, 312], tier: "core",
@@ -69,6 +72,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which two forms of Shirkah enjoy acceptance by all jurists?", options: ["Mufawadah and Wujooh", "Shirkah al ‘Inan and Mudarabah", "A‘mal and Mufawadah", "Wujooh and Mudarabah"], answer: 1, explanation: "p. 308 and p. 311." },
       distinctions: [
         { a: "Maliki and some Hanbali jurists", b: "Hanafi jurists", text: "Some Maliki and Hanbali jurists treat Mudarabah as a form of Shirkah. The Hanafis do not: in Shirkah the partners are liable for losses from the start, while the Mudarib is not a partner, and is not liable for losses, until profit arises. Before then he is an agent (p. 312)." }
+      ],
+      examples: [
+        { title: "Is Mudarabah a kind of Shirkah?", kind: "textbook", text: "A Mudarib has traded for a month with no profit yet, and the goods have fallen in value. For the Hanafis he is still only an agent and bears no loss, which is why they do not count Mudarabah as Shirkah; some Malikis and Hanbalis do (p. 312)." }
       ]
     },
     {
@@ -88,7 +94,10 @@ IFL_DATA.registerChapter({
         { term: "Shirkatulmilk", meaning: "Partnership in ownership — joint ownership of property arising by choice or compulsion, not basically for profit sharing." }
       ],
       related: ["t12.8", "t12.9.2"],
-      quickCheck: { q: "In Shirkatulmilk, are the co-owners agents of each other?", options: ["Yes, always", "No — each is a stranger in respect of the other's share", "Only if they are relatives", "Only in inheritance cases"], answer: 1, explanation: "p. 309." }
+      quickCheck: { q: "In Shirkatulmilk, are the co-owners agents of each other?", options: ["Yes, always", "No — each is a stranger in respect of the other's share", "Only if they are relatives", "Only in inheritance cases"], answer: 1, explanation: "p. 309." },
+      examples: [
+        { title: "Co-owners are not agents", kind: "textbook", text: "Two brothers inherit a house. It is Shirkatulmilk: neither is the other’s agent. If one lives in the whole house, he owes the other rent for using his share (p. 309)." }
+      ]
     },
     {
       id: "t12.2.2", section: "12.2.2", title: "Partnership by Contract (Shirkatul‘aqd) and its Kinds", pages: [309, 312], tier: "core",
@@ -119,7 +128,10 @@ IFL_DATA.registerChapter({
       ],
       table: { caption: "Kinds of contractual partnership (Section 12.2.2)", head: ["Kind", "Subject matter", "Juristic status (as described)"], rows: [["Shirkatulamwal / ‘Inan", "Capital of partners", "Consensus of all jurists"], ["Shirkatula‘mal", "Labour, skill, services", "Recognised (examples: doctors, teachers)"], ["Shirkatul Wujooh", "Creditworthiness", "Valid for Hanafi/Hanbali; Maliki conditional; Shafi‘i unlawful"], ["Mufawadah", "Everything equally", "Hanafi only; practically nonexistent"], ["Mudarabah", "Capital of one, labour of other", "Consensus of all jurists"]] },
       related: ["t12.3", "t12.4"],
-      quickCheck: { q: "In Shirkah al ‘Inan, a partner is:", options: ["Agent and surety of the others", "Agent but not surety (Wakil, not Kafil)", "Neither agent nor surety", "Surety only"], answer: 1, explanation: "p. 310 and p. 315." }
+      quickCheck: { q: "In Shirkah al ‘Inan, a partner is:", options: ["Agent and surety of the others", "Agent but not surety (Wakil, not Kafil)", "Neither agent nor surety", "Surety only"], answer: 1, explanation: "p. 310 and p. 315." },
+      examples: [
+        { title: "Partnership in labour", kind: "textbook", text: "Two doctors agree to run a clinic together and share their fees in an agreed ratio, without pooling capital. This is Shirkatula‘mal (partnership in work), also called Shirkah al Abdan (p. 310)." }
+      ]
     },
     {
       id: "t12.3", section: "12.3", title: "Basic Rules of Musharakah", pages: [312, 312], tier: "core",
@@ -136,7 +148,10 @@ IFL_DATA.registerChapter({
         "General contract conditions (free consent, no deception, misrepresentation or duress) apply to Shirkah before its special rules (p. 312)."
       ],
       related: ["t12.3.1", "t12.3.2", "t12.3.3", "t12.3.4", "t12.3.5", "t12.3.6"],
-      quickCheck: { q: "Which type of partnership do the chapter's basic Musharakah rules mainly address?", options: ["Shirkatulmilk", "Shirkatulamwal-cum-Shirkah al ‘Inan", "Mufawadah", "Wujooh"], answer: 1, explanation: "p. 312." }
+      quickCheck: { q: "Which type of partnership do the chapter's basic Musharakah rules mainly address?", options: ["Shirkatulmilk", "Shirkatulamwal-cum-Shirkah al ‘Inan", "Mufawadah", "Wujooh"], answer: 1, explanation: "p. 312." },
+      examples: [
+        { title: "Checking a Musharakah proposal", kind: "practice", text: "Before approving, test: are both partners competent to contract; is the capital money (or goods valued in money), not a debt; is profit a percentage of actual profit; will loss follow capital; is no partner’s capital guaranteed by the other? (pp. 312–320)." }
+      ]
     },
     {
       id: "t12.3.1", section: "12.3.1", title: "Conditions with Respect to Partners", pages: [312, 313], tier: "supporting",
@@ -411,7 +426,10 @@ IFL_DATA.registerChapter({
         { term: "Unrestricted Mudarabah", meaning: "Mudarabah where the Mudarib may invest in any business he deems fit, within business custom." }
       ],
       related: ["t13.2.2", "t8.8.1"],
-      quickCheck: { q: "A Mudarib trades in a commodity the financier expressly excluded and loses money. He:", options: ["Shares the loss with the financier", "Becomes a usurper liable for the capital", "Bears no liability", "Must pay interest"], answer: 1, explanation: "p. 324." }
+      quickCheck: { q: "A Mudarib trades in a commodity the financier expressly excluded and loses money. He:", options: ["Shares the loss with the financier", "Becomes a usurper liable for the capital", "Bears no liability", "Must pay interest"], answer: 1, explanation: "p. 324." },
+      examples: [
+        { title: "Restricting the Mudarib", kind: "textbook", text: "A Rabbul-mal may set a time limit, name the goods to trade (say, only cloth), bar dealings with a particular person and specify the city of trade. If the Mudarib breaks such a condition he becomes a usurper, responsible to the owner for the capital (p. 324)." }
+      ]
     },
     {
       id: "t12.4.3", section: "12.4.3", title: "Work for the Mudarabah Business", pages: [325, 325], tier: "supporting",
@@ -436,6 +454,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "According to the majority of classical jurists, the Rabbul-mal:", options: ["Must work alongside the Mudarib", "May not work but may oversee the Mudarib's fiduciary duties", "Must manage the business", "Has no rights at all"], answer: 1, explanation: "p. 325." },
       confusions: [
         { wrong: "All jurists forbid the Rabbul-mal from working in the Mudarabah business.", right: "That is the majority view (and the AAOIFI’s). The Hanbalis, and to some extent the Hanafis, allow the owner to work with the Mudarib (p. 325)." }
+      ],
+      examples: [
+        { title: "Supervision, not interference", kind: "textbook", text: "The financier may inspect accounts and visit the business to make sure the Mudarib is honest and efficient. On the majority view he may not stipulate a right to do the buying and selling himself (p. 325)." }
       ]
     },
     {
@@ -517,6 +538,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "In which contract is the financier's liability normally limited to his investment?", options: ["Musharakah", "Mudarabah", "Both", "Neither"], answer: 1, explanation: "p. 328." },
       confusions: [
         { wrong: "A Mudarib shares in the appreciation of unsold goods, just as a partner does.", right: "Goods bought by the Mudarib belong solely to the Rabbul-mal. The Mudarib earns only by selling them at a profit, though a minority view has exceptions (p. 328)." }
+      ],
+      examples: [
+        { title: "Unsold goods", kind: "textbook", text: "A Mudarib buys goods for 100, which rise to 130 but are unsold at year-end. In Mudarabah the goods belong solely to the Rabbul-mal and the Mudarib gains only by selling at a profit. In Musharakah both partners would share in the appreciation as joint owners (p. 328)." }
       ]
     },
     {
@@ -550,6 +574,9 @@ IFL_DATA.registerChapter({
       ],
       distinctions: [
         { a: "Classical Shafi‘i view", b: "Hanafi view", text: "Shafi‘i: mixed assets cannot be sold together unless the tangible assets are separated and sold independently. Hanafi: the combination can be sold for more than its liquid part, with no fixed proportion. Most contemporary scholars require non-liquid assets above 50 %; some say 33 % (p. 330)." }
+      ],
+      examples: [
+        { title: "When can a new company’s shares trade above par?", kind: "textbook", text: "A company raises 100 million and still holds it all in the bank. Its shares may change hands only at face value, since they represent money. Once it has bought land and machinery forming the majority of its assets, they may trade at any agreed price (p. 330)." }
       ]
     },
     {
@@ -567,7 +594,10 @@ IFL_DATA.registerChapter({
         "Shirkatulamwal combined with Shirkatula‘mal suits modern professional service firms (p. 331)."
       ],
       related: ["t12.7.1", "t12.7.2", "t12.7.3"],
-      quickCheck: { q: "Which combination suits modern professional service firms?", options: ["Wujooh and Mufawadah", "Shirkatulamwal and Shirkatula‘mal", "Mudarabah only", "Shirkatulmilk only"], answer: 1, explanation: "p. 331." }
+      quickCheck: { q: "Which combination suits modern professional service firms?", options: ["Wujooh and Mufawadah", "Shirkatulamwal and Shirkatula‘mal", "Mudarabah only", "Shirkatulmilk only"], answer: 1, explanation: "p. 331." },
+      examples: [
+        { title: "Professional partnerships", kind: "textbook", text: "A group of architects contributes capital for an office (Shirkatulamwal) and also shares fee income from joint work (Shirkatula‘mal). The book suggests this combination for modern service firms in medicine, law, IT and architecture (p. 331)." }
+      ]
     },
     {
       id: "t12.7.1", section: "12.7.1", title: "Use of Shirkah on the Deposits Side", pages: [331, 332], tier: "core",
@@ -631,7 +661,10 @@ IFL_DATA.registerChapter({
         "Base sharing on computed operating profit for the limit period"
       ],
       related: ["t14.4.1", "t14.4.2"],
-      quickCheck: { q: "Which cash flows cannot be credited to a Running Musharakah account?", options: ["Sale proceeds of finished goods", "Proceeds from disposal of fixed assets and long-term finance", "Operating receipts", "Customer payments"], answer: 1, explanation: "p. 333." }
+      quickCheck: { q: "Which cash flows cannot be credited to a Running Musharakah account?", options: ["Sale proceeds of finished goods", "Proceeds from disposal of fixed assets and long-term finance", "Operating receipts", "Customer payments"], answer: 1, explanation: "p. 333." },
+      examples: [
+        { title: "Running Musharakah", kind: "textbook", text: "The bank opens a Running Musharakah Account for the client. Proceeds from selling finished goods are credited to it, but not proceeds from selling fixed assets or long-term loans. Each month or quarter the bank receives its share of the computed operating profit, its capital measured by the average amount utilised (pp. 314, 333)." }
+      ]
     },
     {
       id: "t12.7.3", section: "12.7.3", title: "Securitisation on a Shirkah Basis (Boxes 12.2–12.3)", pages: [334, 337], tier: "core",
@@ -686,6 +719,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "In which form of Diminishing Musharakah may the client promise to buy the bank's units at a pre-agreed price?", options: ["Shirkatul‘aqd (trade)", "Shirkatulmilk (joint ownership, e.g. housing)", "Neither", "Both"], answer: 1, explanation: "p. 338." },
       confusions: [
         { wrong: "The partnership, lease and sale in DM may be stipulated as one package.", right: "They must be separate, independently enforceable contracts, none conditional on another. Even the Hanbalis reject a contract whose enforcement depends on another (p. 338)." }
+      ],
+      examples: [
+        { title: "Leasing an undivided share", kind: "textbook", text: "A bank owns 80 % of a house in common with the client. It can lease its undivided share (Musha‘a) to the client, a co-owner, which all jurists accept. Leasing it to a stranger is disputed: Malik, Shafi‘i and Abu Yusuf allow it, while Abu Hanifa and Zufar do not (pp. 337–338)." }
       ]
     },
     {
@@ -708,7 +744,10 @@ IFL_DATA.registerChapter({
         "Client purchases units periodically; rent falls accordingly"
       ],
       related: ["t12.9.2", "t11.5"],
-      quickCheck: { q: "As the client buys the bank's units in housing DM, the rent:", options: ["Increases", "Decreases", "Stays constant", "Is paid to the client"], answer: 1, explanation: "p. 339." }
+      quickCheck: { q: "As the client buys the bank's units in housing DM, the rent:", options: ["Increases", "Decreases", "Stays constant", "Is paid to the client"], answer: 1, explanation: "p. 339." },
+      examples: [
+        { title: "Sequence of the three contracts", kind: "textbook", text: "First a joint-ownership agreement, with the client’s promise to buy units; then a lease of the bank’s share; then periodic purchase of units, each with its own offer and acceptance, the rent falling as units are bought (p. 339)." }
+      ]
     },
     {
       id: "t12.9.1", section: "12.9.1", title: "Diminishing Musharakah in Trade", pages: [339, 340], tier: "supporting",

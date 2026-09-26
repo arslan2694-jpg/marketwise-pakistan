@@ -33,7 +33,10 @@ IFL_DATA.registerChapter({
         "The author presents these as his own views (“I believe”), not as established consensus (p. 457)."
       ],
       related: ["t1.1", "t4.7"],
-      quickCheck: { q: "According to the author, a root cause of global socio-economic problems is:", options: ["Too little credit", "Unbridled creation of fictitious assets, especially reserve currencies", "Excessive equity finance", "Too many Islamic banks"], answer: 1, explanation: "p. 457." }
+      quickCheck: { q: "According to the author, a root cause of global socio-economic problems is:", options: ["Too little credit", "Unbridled creation of fictitious assets, especially reserve currencies", "Excessive equity finance", "Too many Islamic banks"], answer: 1, explanation: "p. 457." },
+      examples: [
+        { title: "Money creation and war", kind: "textbook", text: "The author notes that recent wars financed by deficit money creation cost countless lives; he cites an estimate of about US$1 trillion for the Iraq war. For him this shows the danger of easy creation of fictitious money (p. 457 and footnote)." }
+      ]
     },
     {
       id: "t18.2", section: "18.2", title: "Agenda for the Policymakers", pages: [457, 459], tier: "core",
@@ -63,6 +66,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which forum does the author suggest could develop a widely acceptable regional reserve currency?", options: ["The IMF", "The OIC", "The WTO", "The FSA"], answer: 1, explanation: "p. 458." },
       debate: [
         { issue: "Can Islamic finance become a model for the global system?", criticism: "The global system rests on fiat reserve currencies and interest-based credit, and changing it would require unprecedented cooperation.", response: "The author proposes phased international steps: multiple reserve currencies, money creation tied to real assets through Sukuk principles, and investment in place of loan-based aid, arguing for their benefits to all societies.", takeaway: "These are the author’s policy recommendations, offered for policymakers to consider (pp. 458–459)." }
+      ],
+      examples: [
+        { title: "From loans to investment in aid", kind: "textbook", text: "Instead of interest-bearing aid, the author proposes direct investment, transparent project finance, portfolio investment by sovereigns, and return-free loans or aid in kind after natural disasters (p. 459)." }
       ]
     },
     {
@@ -81,6 +87,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Why does the author say Islamic finance has limited macro impact at present?", options: ["It is too large", "Governments continue to raise funds mainly from conventional interest-based markets", "It has no products", "Central banks prohibit it"], answer: 1, explanation: "p. 460." },
       confusions: [
         { wrong: "Converting retail and corporate banks alone will transform a Muslim economy.", right: "The author argues it will have little visible impact while governments keep financing themselves through interest-based markets (p. 460)." }
+      ],
+      examples: [
+        { title: "Why state borrowing matters", kind: "practice", text: "If a country’s banks become Islamic but its government keeps borrowing through interest-bearing bonds, the benchmark rates and money creation of the economy stay interest-based. The author expects little visible impact until public finance also moves to Ijarah, Istisna‘a and Shirkah (p. 460)." }
       ]
     },
     {
@@ -97,7 +106,10 @@ IFL_DATA.registerChapter({
       keyPoints: ["Standards (AAOIFI, IFSB) enhance credibility."],
       table: { caption: "Ten driving forces of Islamic finance (pp. 462–463)", head: ["#", "Driving force"], rows: [["1", "Religious demand for Riba-free investment"], ["2", "Resurgence of Muslim cultural values"], ["3", "Scholars working with bankers"], ["4", "Compliant products absorbing excess liquidity"], ["5", "Standardisation (AAOIFI, IFSB)"], ["6", "Gulf oil surpluses and economic growth"], ["7", "Regulatory flexibility (US after Glass–Steagall repeal, 1999; UK FSA)"], ["8", "Conversion of sound Middle East institutions"], ["9", "High-net-worth investors shifting"], ["10", "Real-asset-based, ethical nature of products"]] },
       related: ["t18.3.1", "t8.5"],
-      quickCheck: { q: "Which US legal change does the author link to growth of Islamic investment institutions in the USA?", options: ["Dodd–Frank", "Repeal of the Glass–Steagall Act in 1999", "Sarbanes–Oxley", "Basel II"], answer: 1, explanation: "p. 462." }
+      quickCheck: { q: "Which US legal change does the author link to growth of Islamic investment institutions in the USA?", options: ["Dodd–Frank", "Repeal of the Glass–Steagall Act in 1999", "Sarbanes–Oxley", "Basel II"], answer: 1, explanation: "p. 462." },
+      examples: [
+        { title: "Driving force: regulatory flexibility", kind: "textbook", text: "After the US repealed the Glass–Steagall Act in 1999, more than two dozen Islamic investment institutions began serving Riba-averse communities. The UK’s FSA eased the treatment of Islamic deposits and single stamp duty on mortgages (pp. 462–463)." }
+      ]
     },
     {
       id: "t18.3.1", section: "18.3.1", title: "Promising Potential: Funds, Sukuk and Specific Sectors", pages: [463, 465], tier: "core",
@@ -173,6 +185,9 @@ IFL_DATA.registerChapter({
       confusions: [
         { wrong: "Islamic banks must hold inventory like traders to be genuine.", right: "They buy on the client’s requisition for sale or lease. There is no Shari’ah objection, hence the AAOIFI Standard is titled Murabaha to Purchase Orderer (p. 469)." },
         { wrong: "Taxes on Islamic banks’ purchases are neutral.", right: "Taxing their asset purchases creates an uneven playing field and double taxation. It pushes some banks into doubtful practices to avoid the costs (p. 470)." }
+      ],
+      examples: [
+        { title: "Double tax on Murabaha", kind: "textbook", text: "A bank buys a house and sells it to a client by Murabaha. Stamp duty on both transfers makes the Islamic product dearer than a mortgage. The UK’s relief — duty paid only once — is the kind of flexibility the author asks regulators for (pp. 462–463, 470)." }
       ]
     },
     {
@@ -198,6 +213,9 @@ IFL_DATA.registerChapter({
       confusions: [
         { wrong: "A Shari’ah board’s job ends when it approves a product.", right: "Boards should supervise application, finalise model agreements and inspect at least yearly. A passive role opens the door to interest in the garb of asset-based deals (p. 473)." },
         { wrong: "Majority decisions are the normal basis for Shari’ah edicts.", right: "Most edicts are unanimous. Frequent resort to majority, as in some outsourced Sukuk endorsements, may harm integrity. AAOIFI Standards should be the basis (p. 472)." }
+      ],
+      examples: [
+        { title: "SBP’s framework in brief", kind: "textbook", text: "A central-bank Shari’ah board (two scholars, three experts), a Shari’ah board or advisor in each bank under fit-and-proper criteria, internal Shari’ah audit at least yearly, and SBP inspection using a Shari’ah audit manual (pp. 473–474)." }
       ]
     },
     {

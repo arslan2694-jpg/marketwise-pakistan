@@ -38,6 +38,9 @@ IFL_DATA.registerChapter({
       ],
       confusions: [
         { wrong: "Bank Murabaha is identical to classical Murabaha.", right: "Classical Murabaha was an ordinary trust sale; modern bank Murabaha is MPO — preceded by a promise, often with the client as agent, and used on deferred payment (pp. 213, 217)." }
+      ],
+      examples: [
+        { title: "Musawamah or Murabaha?", kind: "practice", text: "A bank sells a generator to a client for 1,150,000 payable in a year. If it tells the client its cost (1,000,000) and the agreed margin, the sale is Murabaha. If it just agrees a price without reference to cost, it is Musawamah (pp. 213–214)." }
       ]
     },
     {
@@ -93,6 +96,9 @@ IFL_DATA.registerChapter({
       ],
       confusions: [
         { wrong: "In Murabaha the parties bargain on the price.", right: "In Murabaha they bargain on the profit margin over a disclosed cost; bargaining on the price itself, without disclosing cost, is Musawamah (p. 215)." }
+      ],
+      examples: [
+        { title: "Four sales, one good", kind: "textbook", text: "Cost 100. Resold at 100: Tawliyah. Resold at 90: Wadhi‘ah (Mohatah). Resold at 110 with the cost disclosed: Murabaha. Resold at a bargained 110 with no mention of cost: Musawamah (p. 215)." }
       ]
     },
     {
@@ -112,6 +118,9 @@ IFL_DATA.registerChapter({
       ],
       confusions: [
         { wrong: "All classical schools treated Murabaha as a credit-financing technique.", right: "For Imam Malik it was a spot exchange with no credit; Imam Shafi‘i extended it to credit. Malikis disliked it for its many conditions but did not forbid it (p. 216)." }
+      ],
+      examples: [
+        { title: "Ibn Qudama’s formula", kind: "textbook", text: "“I sell to you at my cost of 100 plus a profit of 10.” Knowing the cost is the precondition, and such a sale is lawful without controversy (pp. 215–216)." }
       ]
     },
     {
@@ -212,6 +221,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which structure does the AAOIFI standard consider better, allowing the client as agent only in dire need?", options: ["Client as agent", "Purchase through a third-party agent", "No agent at all", "Bank lending cash"], answer: 1, explanation: "p. 221 (footnote)." },
       confusions: [
         { wrong: "If the bank simply pays the supplier for goods the client already received, it is Murabaha.", right: "Without the bank owning the goods, payment on the client’s behalf is a loan and any profit is interest (p. 222)." }
+      ],
+      examples: [
+        { title: "Fertiliser through a subsidiary", kind: "textbook", text: "A bank’s agricultural subsidiary buys fertiliser in bulk, holds it as inventory and sells it to farmers through dealers on Murabaha. This is direct trading, the most ideal structure, with prices close to the cash market (pp. 220–222)." }
       ]
     },
     {
@@ -236,6 +248,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "A client has already bought machinery from a supplier and asks the bank to ‘do a Murabaha’ to pay the supplier. This would be:", options: ["Valid MPO", "Bai‘ al ‘Inah / a loan with interest — not compliant", "Musawamah", "Salam"], answer: 1, explanation: "pp. 222–223." },
       confusions: [
         { wrong: "Under MPO the bank may never hold inventory.", right: "MPO permits buying only on request, but banks (or trading subsidiaries) may hold inventory; ownership and risk before sale are what matter (p. 223)." }
+      ],
+      examples: [
+        { title: "Client-nominated supplier", kind: "textbook", text: "A client asks the bank to buy looms from Supplier S, whom he has chosen. The bank may do so, but must check that the client has not already bought or committed to buy from S — otherwise the deal would be ‘Inah — and may take a performance bond from S (pp. 222–224)." }
       ]
     },
     {
@@ -259,7 +274,10 @@ IFL_DATA.registerChapter({
         "Actual Murabaha — after bank owns the goods"
       ],
       related: ["t9.8.2", "t5.5.5"],
-      quickCheck: { q: "In MPO, the ‘agreement to buy’ is best described as:", options: ["A bilateral forward sale", "A unilateral promise binding the client", "The sale itself", "A loan"], answer: 1, explanation: "p. 224." }
+      quickCheck: { q: "In MPO, the ‘agreement to buy’ is best described as:", options: ["A bilateral forward sale", "A unilateral promise binding the client", "The sale itself", "A loan"], answer: 1, explanation: "p. 224." },
+      examples: [
+        { title: "Three separate papers", kind: "practice", text: "Month 1: the client signs a master agreement and promises to buy. Month 2: a separate agency agreement appoints him to buy steel for the bank. Month 3: once the bank owns the steel, the client offers to buy and the bank accepts — the Murabaha itself (p. 224)." }
+      ]
     },
     {
       id: "t9.8.2", section: "9.8.2", title: "Promise to Purchase in Murabaha", pages: [224, 225], tier: "core",
@@ -312,7 +330,10 @@ IFL_DATA.registerChapter({
       ],
       related: ["t9.9", "t9.10", "t14.4.2"],
       quickCheck: { q: "At what point does the relationship between the bank and client become debtor–creditor in MPO?", options: ["When the MoU is signed", "When the agency agreement is signed", "When the bank accepts the client’s offer to purchase (Murabaha executed)", "When the supplier is paid"], answer: 2, explanation: "p. 229." },
-      table: { caption: "Relationships between the parties in MPO (p. 226)", head: ["Stage", "Relationship"], rows: [["Agency", "Bank = principal, client = agent"], ["Promise", "Client = promisor, bank = promisee"], ["Purchase", "Bank = buyer, supplier = seller"], ["Murabaha sale", "Bank = seller, client = buyer"], ["After sale", "Bank = creditor, client = debtor"]] }
+      table: { caption: "Relationships between the parties in MPO (p. 226)", head: ["Stage", "Relationship"], rows: [["Agency", "Bank = principal, client = agent"], ["Promise", "Client = promisor, bank = promisee"], ["Purchase", "Bank = buyer, supplier = seller"], ["Murabaha sale", "Bank = seller, client = buyer"], ["After sale", "Bank = creditor, client = debtor"]] },
+      examples: [
+        { title: "Invoice dates in MPO", kind: "textbook", text: "The agency agreement is signed on 1 March and the client’s offer to purchase on 20 March. A supplier invoice dated 25 February means the goods were bought before the agency, so the bank never owned them: the invoice must fall between the two dates (pp. 225–229)." }
+      ]
     },
     {
       id: "t9.9", section: "9.9", title: "Issues in Murabaha: Two Sales in One, Timing, Shares and Commodity Murabaha", pages: [229, 233], tier: "core",
@@ -362,6 +383,9 @@ IFL_DATA.registerChapter({
       ],
       confusions: [
         { wrong: "Because Malaysian authorities accept ‘Inah, it is mainstream practice.", right: "Mainstream Shari’ah experts in the Middle East and elsewhere, and AAOIFI, consider it impermissible (p. 230)." }
+      ],
+      examples: [
+        { title: "Buy-back disguised as Murabaha", kind: "textbook", text: "A client sells his own stock of cotton to the bank for 1 million cash and buys it back on Murabaha for 1.1 million payable later. This is ‘Inah, a loan of 1 million at 10 %, which is why banks must confirm the goods are not already the client’s (p. 230)." }
       ]
     },
     {
@@ -418,6 +442,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "According to AAOIFI, a rebate for early Murabaha payment is allowed when:", options: ["It is written into the contract", "It is not stipulated in the contract and is at the bank’s discretion", "The client demands it", "Never"], answer: 1, explanation: "p. 232." },
       confusions: [
         { wrong: "A Murabaha contract may promise a rebate for early payment.", right: "Contractual rebates are not allowed; AAOIFI permits a discretionary rebate only if not stipulated, decided case by case with the Shari’ah advisor (p. 232)." }
+      ],
+      examples: [
+        { title: "Prepaying a Murabaha", kind: "textbook", text: "A client owing 1,200,000 in 12 months pays after 6 and asks for 60,000 off. A contractual rebate is not allowed (majority, OIC Fiqh Academy). Under AAOIFI the bank may give one at its discretion, case by case with its Shari’ah advisor, if it was never promised (p. 232)." }
       ]
     },
     {

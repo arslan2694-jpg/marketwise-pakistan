@@ -32,7 +32,10 @@ IFL_DATA.registerChapter({
         "Banking rules stem from the wider economic framework, so the book starts with Islamic economics before finance."
       ],
       related: ["t1.7", "t2.2"],
-      quickCheck: { q: "Why does the book discuss Islamic economics before Islamic finance?", options: ["It is unrelated", "Because the Islamic financial system works within the Islamic economic framework", "To replace finance topics", "Because banks set economic policy"], answer: 1, explanation: "The rules governing financial institutions stem from the overall economic framework (pp. 21, 41)." }
+      quickCheck: { q: "Why does the book discuss Islamic economics before Islamic finance?", options: ["It is unrelated", "Because the Islamic financial system works within the Islamic economic framework", "To replace finance topics", "Because banks set economic policy"], answer: 1, explanation: "The rules governing financial institutions stem from the overall economic framework (pp. 21, 41)." },
+      examples: [
+        { title: "Why the economy comes first", kind: "practice", text: "A student who learns only the rules of Murabaha may ask why a bank cannot simply lend at interest. The answer depends on the wider Islamic economic system — its view of money, risk and distribution — which is why the book starts there (p. 21)." }
+      ]
     },
     {
       id: "t2.2", section: "2.2", title: "Islamic Shari’ah and its Branches", pages: [21, 21], tier: "core",
@@ -53,7 +56,10 @@ IFL_DATA.registerChapter({
       ],
       related: ["t2.2.1", "t2.2.2"],
       quickCheck: { q: "Which branch of Shari’ah covers socio-economic and legal systems?", options: ["Aqaid", "Akhlaq", "Ahkam", "Nawahi"], answer: 2, explanation: "Ahkam covers socio-economic and legal systems; Nawahi are prohibitions (p. 21)." },
-      table: { caption: "Branches of Shari’ah injunctions (p. 21)", head: ["Branch", "Covers"], rows: [["Aqaid", "Belief and worship"], ["Akhlaq", "Self-discipline"], ["Ahkam", "Socio-economic and legal systems"], ["Fraidh", "Obligations"], ["Nawahi", "Prohibitions"]] }
+      table: { caption: "Branches of Shari’ah injunctions (p. 21)", head: ["Branch", "Covers"], rows: [["Aqaid", "Belief and worship"], ["Akhlaq", "Self-discipline"], ["Ahkam", "Socio-economic and legal systems"], ["Fraidh", "Obligations"], ["Nawahi", "Prohibitions"]] },
+      examples: [
+        { title: "Classifying rules by branch", kind: "textbook", text: "Belief in Allah and prayer fall under Aqaid; honesty under Akhlaq; the law of contracts under Ahkam; paying Zakat under Fraidh; the ban on Riba under Nawahi (p. 21)." }
+      ]
     },
     {
       id: "t2.2.1", section: "2.2.1", title: "Sources of Shari’ah Tenets", pages: [21, 22], tier: "core",
@@ -90,6 +96,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "What is Ibahatul Asliyah?", options: ["The rule that all acts not expressly prohibited are permissible", "Consensus of scholars", "The prohibition of interest", "A type of partnership"], answer: 0, explanation: "It is the rule of General Permissibility governing socio-economic matters (p. 22)." },
       distinctions: [
         { a: "Rights of Allah (rituals)", b: "Rights of human beings (Mu‘amalat)", text: "Rituals must be performed strictly per the texts; socio-economic matters follow General Permissibility. Allah may forgive lapses in His rights, but lapses against people are forgiven only by the aggrieved person (p. 22)." }
+      ],
+      examples: [
+        { title: "Ibahatul Asliyah at work", kind: "textbook", text: "No text mentions credit cards or Sukuk. Under the rule of General Permissibility they are allowed unless they involve something prohibited such as Riba or Gharar, which is why scholars examine their features rather than look for express permission (pp. 21–22)." }
       ]
     },
     {
@@ -148,6 +157,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which is one of M.A. Mannan’s seven imperatives for studying Islamic economics?", options: ["Technological", "Historical", "Agricultural", "Monetary"], answer: 1, explanation: "The seven are ideological, economic, social, ethical, political, historical and international (p. 26)." },
       confusions: [
         { wrong: "Islam separates the “pious person” from the “worldly person”.", right: "Islam integrates worship with economic, political and social life; verse 2:177 links righteousness to spending on kin, orphans, the needy and fulfilling contracts (p. 25)." }
+      ],
+      examples: [
+        { title: "Piety and social concern (2:177)", kind: "textbook", text: "The verse defines righteousness to include spending on kin, orphans, the needy and travellers, and fulfilling contracts — so piety cannot be separated from economic conduct (pp. 25–26)." }
       ]
     },
     {
@@ -206,7 +218,10 @@ IFL_DATA.registerChapter({
         { wrong: "Islam requires the State to fix prices.", right: "The Prophet (pbuh) discouraged price fixing when fluctuations were due to market forces alone; intervention via Hisbah is for monopolistic or unjust practices." }
       ],
       related: ["t2.4.1", "t2.5.5", "t3.3"],
-      quickCheck: { q: "Islamic economics aims at what kind of distribution of income and wealth?", options: ["Equal", "Equitable", "Market-determined without limits", "State-owned"], answer: 1, explanation: "Equitable, not equal, distribution (p. 30)." }
+      quickCheck: { q: "Islamic economics aims at what kind of distribution of income and wealth?", options: ["Equal", "Equitable", "Market-determined without limits", "State-owned"], answer: 1, explanation: "Equitable, not equal, distribution (p. 30)." },
+      examples: [
+        { title: "Equitable, not equal", kind: "textbook", text: "Islamic economics does not aim to give everyone the same income but a fair share — like blood, which is distributed to each organ according to its function. Price fixing is discouraged when prices move only because of market forces; the Hisbah checks monopolies and abuse (pp. 30–31)." }
+      ]
     },
     {
       id: "t2.4.1", section: "2.4.1", title: "Islamic Economics Defined", pages: [31, 32], tier: "core",
@@ -228,7 +243,10 @@ IFL_DATA.registerChapter({
         { term: "Islamic economics (Hasanuz Zaman)", meaning: "Knowledge of application of injunctions and rules of the Shari’ah that stop injustice in acquisition and disposition of material resources, to provide satisfaction to individuals and enable them to perform obligations to Allah and society." }
       ],
       related: ["t1.7", "t2.4"],
-      quickCheck: { q: "Whose definition describes Islamic economics as knowledge of applying Shari’ah rules that stop injustice in the acquisition and disposition of material resources?", options: ["Ibn Khaldun", "Mohsin S. Khan", "S.M. Hasanuz Zaman", "Lionel Robbins"], answer: 2, explanation: "This is S.M. Hasanuz Zaman’s definition (p. 31)." }
+      quickCheck: { q: "Whose definition describes Islamic economics as knowledge of applying Shari’ah rules that stop injustice in the acquisition and disposition of material resources?", options: ["Ibn Khaldun", "Mohsin S. Khan", "S.M. Hasanuz Zaman", "Lionel Robbins"], answer: 2, explanation: "This is S.M. Hasanuz Zaman’s definition (p. 31)." },
+      examples: [
+        { title: "Same machine, different system", kind: "practice", text: "Two factories use identical technology. What differs under Islamic economics is how the resulting wealth is owned, distributed and spent — the “economic system”, not the “economic science” of production (pp. 31–32)." }
+      ]
     },
     {
       id: "t2.5", section: "2.5", title: "Paraphernalia of Islamic Economics", pages: [32, 33], tier: "core",
@@ -253,6 +271,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which is NOT listed among the key macroeconomic features of an ideal Islamic economy?", options: ["Abolition of interest", "Profit-sharing as a tool", "Application of Zakat", "Fixed returns on deposits"], answer: 3, explanation: "Fixed returns on deposits are not listed; the features are abolition of Riba, trade, profit-sharing, Zakat, avoiding Israf and State oversight (p. 33)." },
       confusions: [
         { wrong: "Islamic economics relies on the “invisible hand” like laissez-faire.", right: "It recognises markets but also their adverse impact on the poor; it combines self-interest with State facilitation and oversight (p. 32)." }
+      ],
+      examples: [
+        { title: "Checklist of an Islamic economy", kind: "practice", text: "Test an economy against the six macro features: is Riba abolished, is real trade promoted, is profit-sharing used, is Zakat applied, is wasteful consumption (Israf) avoided, and does the State oversee effectively? (p. 33)." }
       ]
     },
     {
@@ -305,6 +326,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "If an individual cannot earn and has no relatives able to help, who is responsible for their basic needs?", options: ["Nobody", "The State", "Banks", "Foreign donors"], answer: 1, explanation: "Islam obliges the State to support such citizens (p. 35)." },
       confusions: [
         { wrong: "Islam guarantees luxury consumption as part of welfare.", right: "Moderation means necessities plus some comforts; luxury and conspicuous consumption are not encouraged (p. 34)." }
+      ],
+      examples: [
+        { title: "Order of responsibility for need", kind: "textbook", text: "A healthy adult must first work to meet his needs; if he cannot, relatives and neighbours must help; failing them, the State is responsible — “The Imam is in charge and responsible for his citizens” (pp. 34–35)." }
       ]
     },
     {
@@ -361,6 +385,9 @@ IFL_DATA.registerChapter({
       ],
       distinctions: [
         { a: "Laissez-faire", b: "Islamic restrained freedom", text: "Laissez-faire is neutral between ends; Islamic economics is value-oriented, draws a line between lawful and unlawful and imposes checks on consumer and business behaviour (p. 37)." }
+      ],
+      examples: [
+        { title: "Restraint on a profitable business", kind: "practice", text: "A casino may be highly profitable and legal in a secular system, but Islamic economics excludes it because gambling is one of the three key economic prohibitions, with interest and hazard (Gharar) (pp. 37–38)." }
       ]
     },
     {

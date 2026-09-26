@@ -33,7 +33,10 @@ IFL_DATA.registerChapter({
         "Islam treats property as sacred as life and honour — theft, embezzlement, bribery and cheating are forbidden alongside Riba, Gharar and Qimar."
       ],
       related: ["t5.2", "t5.4"],
-      quickCheck: { q: "Which of these is NOT among the contracts the chapter lists as used by IFIs?", options: ["Sale", "Leasing", "Gambling", "Assignment of debt"], answer: 2, explanation: "p. 101." }
+      quickCheck: { q: "Which of these is NOT among the contracts the chapter lists as used by IFIs?", options: ["Sale", "Leasing", "Gambling", "Assignment of debt"], answer: 2, explanation: "p. 101." },
+      examples: [
+        { title: "Beyond the big three prohibitions", kind: "practice", text: "A contract free of Riba, Gharar and gambling can still be invalid if it rests on theft, bribery or cheating. Islam protects property as it protects life and honour (p. 101)." }
+      ]
     },
     {
       id: "t5.2", section: "5.2", title: "Mal (Wealth), Usufruct and Ownership", pages: [101, 103], tier: "core",
@@ -143,7 +146,10 @@ IFL_DATA.registerChapter({
         { term: "Ma‘qud ‘alayh", meaning: "The subject matter of the contract." }
       ],
       related: ["t5.4.1", "t5.4.2", "t6.5"],
-      quickCheck: { q: "Which is NOT one of the three essential elements of a contract?", options: ["Sighah", "‘Aqidain", "Ma‘qud ‘alayh", "Witnesses"], answer: 3, explanation: "p. 106." }
+      quickCheck: { q: "Which is NOT one of the three essential elements of a contract?", options: ["Sighah", "‘Aqidain", "Ma‘qud ‘alayh", "Witnesses"], answer: 3, explanation: "p. 106." },
+      examples: [
+        { title: "Missing element", kind: "practice", text: "A seller signs a sale contract for “some goods from my warehouse” at a price to be decided later. The form (offer and acceptance) exists, but the subject matter and price are undefined, so an essential element is defective (p. 106)." }
+      ]
     },
     {
       id: "t5.4.1", section: "5.4.1", title: "Offer and Acceptance: Form of the Contract", pages: [106, 108], tier: "core",
@@ -254,7 +260,11 @@ IFL_DATA.registerChapter({
         { wrong: "All speculation is prohibited in Islamic finance.", right: "Speculation per se — trading in view of possible price changes — is not prohibited; only sales involving nonexistent/not-owned goods or Maisir are." }
       ],
       related: ["t5.5.5", "t5.5.7", "t3.2", "t2.2.2"],
-      quickCheck: { q: "According to Section 5.5.2, how can a sale of debt be validated?", options: ["By discounting it", "By subjecting it to the rules of Hawalah with recourse to the original debtor", "By adding a premium", "It can never be validated"], answer: 1, explanation: "p. 111." }
+      quickCheck: { q: "According to Section 5.5.2, how can a sale of debt be validated?", options: ["By discounting it", "By subjecting it to the rules of Hawalah with recourse to the original debtor", "By adding a premium", "It can never be validated"], answer: 1, explanation: "p. 111." },
+      examples: [
+        { title: "Talaqqi al-Rukban", kind: "textbook", text: "A trader rides out to meet Bedouin sellers and buys their goods before they reach the market and learn the prices. This is prohibited, because consent obtained through their ignorance of market value is not truly free (pp. 110–114)." },
+        { title: "Bill discounting vs Hawalah", kind: "textbook", text: "Selling a 100,000 receivable for 95,000 in cash is sale of debt at a discount, which is not allowed. Assigning it at face value, with recourse to the original debtor (Hawalah), is valid (pp. 110–114)." }
+      ]
     },
     {
       id: "t5.5.5", section: "5.5.5", title: "Prohibition of Two Mutually Contingent Contracts", pages: [112, 113], tier: "core",
@@ -487,6 +497,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "How may an Islamic bank charge for issuing a guarantee, according to Section 5.8.2?", options: ["A time-based percentage like interest", "Service charges based on expenses, amount-based but not time-based", "No charge at all ever", "A share of the client’s profit"], answer: 1, explanation: "p. 125." },
       distinctions: [
         { a: "Commutative contract with a void condition", b: "Gratuitous contract with a void condition", text: "A void condition voids a sale or lease; in a loan, gift or guarantee only the condition falls away — an interest clause is struck out and the loan stands (p. 125)." }
+      ],
+      examples: [
+        { title: "Fee on a guarantee", kind: "textbook", text: "A bank issuing a letter of guarantee may not charge for the guarantee itself, since Kafalah is gratuitous. It may recover charges for related services as an agent, based on its expenses and the amount involved, not on the time outstanding (pp. 124–125)." }
       ]
     },
     {

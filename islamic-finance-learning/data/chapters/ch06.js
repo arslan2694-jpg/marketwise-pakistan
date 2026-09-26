@@ -34,7 +34,10 @@ IFL_DATA.registerChapter({
         "Islamic law does not limit profits or fix prices; it removes Riba and Gharar so wealth does not circulate only among the rich (59:7)."
       ],
       related: ["t6.3.1", "t9.1"],
-      quickCheck: { q: "Through which three areas does the author say Islamic banks earn profit?", options: ["Lending, deposits, FX", "Trading, leasing and PLS contracts", "Insurance, bonds, loans", "Charity, Zakat, Waqf"], answer: 1, explanation: "p. 129." }
+      quickCheck: { q: "Through which three areas does the author say Islamic banks earn profit?", options: ["Lending, deposits, FX", "Trading, leasing and PLS contracts", "Insurance, bonds, loans", "Charity, Zakat, Waqf"], answer: 1, explanation: "p. 129." },
+      examples: [
+        { title: "Wealth circulating only among the rich", kind: "textbook", text: "The book cites 59:7 on why Islamic law removes Riba and Gharar without capping profits or fixing prices: so that wealth does not circulate only among the rich (p. 129)." }
+      ]
     },
     {
       id: "t6.2", section: "6.2", title: "Bai‘ — Exchange of Values", pages: [130, 131], tier: "core",
@@ -105,6 +108,9 @@ IFL_DATA.registerChapter({
       ],
       distinctions: [
         { a: "Trade profit", b: "Riba", text: "Trade profit comes from real investment with business risk shared among parties; Riba guarantees one party’s reward while the other bears all risk, violating Al-Kharaj bi-al-Daman (p. 132)." }
+      ],
+      examples: [
+        { title: "Why a trader’s margin is earned", kind: "textbook", text: "A trader finds a machine abroad, buys it, ships it and stores it. He bears transit, storage and price risk until he sells it for 120 against a cost of 100. The 20 rewards his service and risk; a lender of 100 who demands 120 has done neither (pp. 132–133)." }
       ]
     },
     {
@@ -122,7 +128,10 @@ IFL_DATA.registerChapter({
       ],
       table: { caption: "Main forms of Bai‘ (p. 133)", head: ["Form", "Meaning"], rows: [["Bai‘ al Mutlaq", "Goods for money, spot or credit"], ["Bai‘ al Sarf", "Money for money (gold, silver, currencies)"], ["Bai‘ al Muqayaza", "Barter — goods for goods"], ["Bai‘ Mu’ajjal", "Price deferred to a definite time"], ["Bai‘ Salam", "Price now, goods later"]] },
       related: ["t5.7", "t5.8", "t9.7"],
-      quickCheck: { q: "Exchange of goods for goods is called:", options: ["Bai‘ al Sarf", "Bai‘ al Muqayaza", "Bai‘ Salam", "Bai‘ Mu’ajjal"], answer: 1, explanation: "p. 133." }
+      quickCheck: { q: "Exchange of goods for goods is called:", options: ["Bai‘ al Sarf", "Bai‘ al Muqayaza", "Bai‘ Salam", "Bai‘ Mu’ajjal"], answer: 1, explanation: "p. 133." },
+      examples: [
+        { title: "Naming the sale", kind: "textbook", text: "Car for cash now: Bai‘ al Mutlaq (spot). Car now, price in six months: Mu’ajjal. Wheat price paid now, wheat delivered in May: Salam. Dollars for rupees: Sarf. Rice for wheat: Muqayaza (barter). At cost: Tawliyah; cost plus profit: Murabaha; at a loss: Wadhi‘ah (pp. 133–134)." }
+      ]
     },
     {
       id: "t6.5", section: "6.5", title: "Requirements of a Valid Sale Contract", pages: [133, 135], tier: "core",
@@ -140,7 +149,10 @@ IFL_DATA.registerChapter({
       ],
       table: { caption: "Figure 6.2 — Elements of valid Bai‘ (reconstructed)", head: ["Element", "Requirements"], rows: [["Subject matter (Mabi‘)", "Existent/existable; valuable; usable (not prohibited); in seller’s ownership and risk"], ["Price (Thaman)", "Certain (Muta’ayyan); known (Malum)"], ["Delivery/conveyance (Qabza)", "Physical (Haqiqi) or constructive (Hukmi)"]] },
       related: ["t6.5.1", "t5.4.2"],
-      quickCheck: { q: "According to Figure 6.2, delivery (Qabza) may be:", options: ["Only physical", "Physical (Haqiqi) or constructive (Hukmi)", "Only by documents", "Not required"], answer: 1, explanation: "p. 135." }
+      quickCheck: { q: "According to Figure 6.2, delivery (Qabza) may be:", options: ["Only physical", "Physical (Haqiqi) or constructive (Hukmi)", "Only by documents", "Not required"], answer: 1, explanation: "p. 135." },
+      examples: [
+        { title: "A contingent sale", kind: "practice", text: "“I sell you my house for 5 million if I get my transfer abroad next month.” This sale is contingent on a future event, so it is void or voidable and must be executed afresh when the condition is met (pp. 133–135)." }
+      ]
     },
     {
       id: "t6.5.1", section: "6.5.1", title: "The Object of the Sale Contract", pages: [135, 138], tier: "core",

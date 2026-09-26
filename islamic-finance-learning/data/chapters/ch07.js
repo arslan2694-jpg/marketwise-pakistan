@@ -34,7 +34,10 @@ IFL_DATA.registerChapter({
         "Current deposits are generally treated as loans (Qard), sometimes as Wadi‘ah/Amanah."
       ],
       related: ["t7.2", "t8.5.2"],
-      quickCheck: { q: "How are current deposits generally treated in Islamic banks?", options: ["As Mudarabah investments", "As loans (or Wadi‘ah/Amanah)", "As Salam", "As Ijarah"], answer: 1, explanation: "p. 155." }
+      quickCheck: { q: "How are current deposits generally treated in Islamic banks?", options: ["As Mudarabah investments", "As loans (or Wadi‘ah/Amanah)", "As Salam", "As Ijarah"], answer: 1, explanation: "p. 155." },
+      examples: [
+        { title: "Deposits as loans", kind: "practice", text: "A customer keeps 50,000 in a current account at an Islamic bank. The bank treats it as a loan (Qard) and guarantees it, but pays no return, since any excess on a loan would be Riba (p. 155)." }
+      ]
     },
     {
       id: "t7.2", section: "7.2", title: "The Terms Defined: Qard, Salaf, Dayn and ‘Ariyah", pages: [155, 157], tier: "core",
@@ -84,6 +87,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "A lender makes a loan conditional on the borrower renting his house to the lender. This is:", options: ["Permissible", "Illegal — a stipulated benefit/combined contract", "Hawalah", "Kafalah"], answer: 1, explanation: "p. 158." },
       confusions: [
         { wrong: "A loan benefit is Riba only if it is extra money.", right: "Any stipulated benefit — more quantity, better quality (good coins for debased ones), a lease, sale or another loan — makes the loan usurious (Ibn Qudama, Ibn al-Munzar) (pp. 157–158)." }
+      ],
+      examples: [
+        { title: "Hidden benefits in a loan", kind: "textbook", text: "A loan of 1,000 on condition that the borrower rents his house to the lender, sells him something, or repays in better-quality coins is Riba, even though the principal is unchanged. Ibn Abbas and Ibn Masud forbade loans that carry any benefit (pp. 157–158)." }
       ]
     },
     {
@@ -104,6 +110,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Why are conventional deposits categorised as Qard?", options: ["They are gifts", "Principal is guaranteed and the return is not linked to business outcomes", "They are leases", "They are partnerships"], answer: 1, explanation: "p. 158." },
       confusions: [
         { wrong: "A current account is a trust deposit, not a loan.", right: "Banks are as liable to current account holders as to fixed account holders, so conventional current accounts are loans (p. 158)." }
+      ],
+      examples: [
+        { title: "Same deposit, two banks", kind: "practice", text: "A saver places 100,000 for one year. With a conventional bank it is a loan: principal and interest are owed whatever the bank earns. With an Islamic bank on Mudarabah, the return depends on the bank’s actual results (p. 158)." }
       ]
     },
     {
@@ -143,6 +152,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which school restricts Qard to fungibles?", options: ["Maliki", "Hanafi", "Shafi‘i", "Hanbali"], answer: 1, explanation: "p. 159." },
       distinctions: [
         { a: "Hanafi view", b: "Other three schools", text: "Hanafis allow Qard only in fungibles (weight and measure); the others allow lending anything that can be sold (except humans), citing the Prophet’s borrowing of animals (pp. 159–160)." }
+      ],
+      examples: [
+        { title: "Lending an animal", kind: "textbook", text: "The Sunnah records loans of animals. The Hanafis limit Qard to fungibles measured by weight or volume, while other schools allow any saleable commodity (pp. 159–160)." }
       ]
     },
     {
@@ -178,6 +190,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Why can currency notes not be leased to earn a return?", options: ["They are too valuable", "They are money (Thaman), not subjects of sale or lease like goods", "Leasing is prohibited", "They are gold"], answer: 1, explanation: "p. 161." },
       confusions: [
         { wrong: "Leasing out currency notes avoids Riba.", right: "Currency notes and government bonds are money; they cannot be sold or leased like goods to earn time value (p. 161)." }
+      ],
+      examples: [
+        { title: "$100 is $100", kind: "textbook", text: "Someone who owes $100 due in a year owes exactly $100, no more for the time allowed. By contrast, a car sold on credit may carry a higher price than for cash, because time is priced into goods, not money (pp. 160–161)." }
       ]
     },
     {
@@ -391,6 +406,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "How did the OIC Islamic Fiqh Council decide on Bai‘ al Dayn?", options: ["Allowed at discount", "Prohibited unanimously", "Allowed for Sukuk", "Left to each country"], answer: 1, explanation: "p. 172." },
       confusions: [
         { wrong: "The Shafi‘i school allowed discounted sale of debt, so Malaysian Bai‘ al Dayn is widely accepted.", right: "Shafi‘is allowed sale of debt only at par; the majority, including Middle-East jurists and the OIC Fiqh Council unanimously, reject discounted Bai‘ al Dayn (p. 172)." }
+      ],
+      examples: [
+        { title: "Discounting a debt certificate", kind: "textbook", text: "An investor buys a 100,000 Murabaha receivable for 94,000 through Bai‘ al Dayn. The jurists’ majority and the OIC Fiqh Council reject this. The Shafi‘i allowance that Malaysian experts cite applied only to sale at par (p. 172)." }
       ]
     },
     {

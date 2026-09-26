@@ -30,7 +30,10 @@ IFL_DATA.registerChapter({
       exam: "Chapter maps conventional institutions/products to Islamic alternatives.",
       keyPoints: ["Details of alternatives are in later chapters."],
       related: ["t8.2"],
-      quickCheck: { q: "What is the purpose of Chapter 8?", options: ["To give detailed Salam rules", "To overview conventional and Islamic institutions, markets and instruments", "To discuss Takaful only", "To critique Islamic banks"], answer: 1, explanation: "p. 179." }
+      quickCheck: { q: "What is the purpose of Chapter 8?", options: ["To give detailed Salam rules", "To overview conventional and Islamic institutions, markets and instruments", "To discuss Takaful only", "To critique Islamic banks"], answer: 1, explanation: "p. 179." },
+      examples: [
+        { title: "Reading the chapter as a map", kind: "practice", text: "For each conventional product in Chapter 8 — savings account, bond, repo, futures — note the Islamic alternative the chapter points to (Mudarabah deposit, Sukuk, Sukuk sale, Salam) before studying it in later chapters (p. 179)." }
+      ]
     },
     {
       id: "t8.2", section: "8.2", title: "What is Banking or a Bank?", pages: [179, 180], tier: "supporting",
@@ -70,6 +73,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which institution is described as coordinating and standardising financial institutions globally?", options: ["IMF", "Bank for International Settlements (BIS)", "World Bank", "IDB"], answer: 1, explanation: "p. 181." },
       distinctions: [
         { a: "Commercial banks", b: "NBFIs / investment banks", text: "Commercial banks intermediate between savers and users and offer cheque facilities; NBFIs usually offer no cheques and help raise funds directly; investment banks earn mainly fees and trading profits, not a lending spread (pp. 180–181)." }
+      ],
+      examples: [
+        { title: "The spread", kind: "practice", text: "A conventional bank pays savers 6 % and charges borrowers 10 %, keeping a 4 % spread whatever the borrowers earn. An Islamic bank’s income comes instead from the trade, lease or partnership results of the funds it deploys (pp. 180–181)." }
       ]
     },
     {
@@ -90,7 +96,10 @@ IFL_DATA.registerChapter({
       ],
       related: ["t8.5.2", "t8.5.3", "t7.4"],
       quickCheck: { q: "Which conventional trade product is described as simply fee-based without financing?", options: ["Usance L/C", "Sight L/C", "Overdraft", "Bill discounting"], answer: 1, explanation: "p. 183." },
-      table: { caption: "Conventional deposit products (pp. 181–183)", head: ["Product", "Feature"], rows: [["Current account", "Usually no return; for cash-flow management"], ["Savings account", "Interest on daily product; withdrawable on demand"], ["Term deposit / TDR / COI", "Locked for a term; higher rate for longer term; may be issued at a discount"], ["Annuity / perpetuity", "Periodic withdrawals of an agreed amount"], ["Advance-profit products", "Anticipated profit discounted and paid up front"]] }
+      table: { caption: "Conventional deposit products (pp. 181–183)", head: ["Product", "Feature"], rows: [["Current account", "Usually no return; for cash-flow management"], ["Savings account", "Interest on daily product; withdrawable on demand"], ["Term deposit / TDR / COI", "Locked for a term; higher rate for longer term; may be issued at a discount"], ["Annuity / perpetuity", "Periodic withdrawals of an agreed amount"], ["Advance-profit products", "Anticipated profit discounted and paid up front"]] },
+      examples: [
+        { title: "Repo", kind: "textbook", text: "A bank short of cash sells government securities to another bank and agrees to buy them back tomorrow at a slightly higher price. The difference is interest for one day’s funds (pp. 181–184)." }
+      ]
     },
     {
       id: "t8.4.2", section: "8.4.2", title: "Investment Banking, Other NBFIs and Conventional Financial Markets", pages: [184, 185], tier: "supporting",
@@ -116,7 +125,10 @@ IFL_DATA.registerChapter({
         { number: "8.4.4", title: "Conventional Financial Markets", page: 185, points: ["Money vs capital markets", "GDRs", "Stock market permissible with screening"] }
       ],
       related: ["t8.7", "t8.8.1"],
-      quickCheck: { q: "According to the author, the basic concept of a stock market is:", options: ["Prohibited", "Permissible if traded stocks do not involve Riba and Gharar", "Permissible only for governments", "The same as a bond market"], answer: 1, explanation: "p. 185." }
+      quickCheck: { q: "According to the author, the basic concept of a stock market is:", options: ["Prohibited", "Permissible if traded stocks do not involve Riba and Gharar", "Permissible only for governments", "The same as a bond market"], answer: 1, explanation: "p. 185." },
+      examples: [
+        { title: "A bond is a loan", kind: "textbook", text: "A company issues a 5-year bond at 8 %. Holders are owed 8 % a year and the principal whatever the company does with the money, so the bond is an interest-bearing loan, unlike a share, which is permissible if the company avoids Riba and Gharar (pp. 184–185)." }
+      ]
     },
     {
       id: "t8.5", section: "8.5", title: "The Need for Islamic Banks and NBFIs", pages: [185, 186], tier: "core",
@@ -132,6 +144,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which is NOT one of the mismatches intermediaries resolve, per Al-Jarhi and Munawar Iqbal?", options: ["Maturity and liquidity preferences", "Risk preferences", "Information gathering", "Religious beliefs"], answer: 3, explanation: "p. 186." },
       confusions: [
         { wrong: "An Islamic economy can do without banks since interest is prohibited.", right: "Intermediaries remain essential to resolve mismatches in maturity, risk and information between small savers and entrepreneurs; only the basis of intermediation changes (pp. 185–186)." }
+      ],
+      examples: [
+        { title: "Why intermediaries are still needed", kind: "textbook", text: "A thousand savers each hold 10,000 while a factory needs 10 million for five years. A bank pools the small, short-term, risk-averse savings and supplies long-term finance, resolving mismatches of maturity, risk and information (pp. 185–186)." }
       ]
     },
     {
@@ -254,7 +269,10 @@ IFL_DATA.registerChapter({
         "Syndicated facilities can be structured through Murabaha, Mudarabah, Musharakah or Ijarah."
       ],
       related: ["t8.8.1", "t14.6"],
-      quickCheck: { q: "Through which modes can an Islamic syndication facility be provided?", options: ["Interest-bearing loans", "Murabaha, Mudarabah, Musharakah, Ijarah", "Bai‘ al ‘Inah", "Options"], answer: 1, explanation: "p. 199." }
+      quickCheck: { q: "Through which modes can an Islamic syndication facility be provided?", options: ["Interest-bearing loans", "Murabaha, Mudarabah, Musharakah, Ijarah", "Bai‘ al ‘Inah", "Options"], answer: 1, explanation: "p. 199." },
+      examples: [
+        { title: "Islamic syndication", kind: "practice", text: "Five Islamic banks jointly finance a 500 million cement plant: the lead bank arranges an Ijarah of the plant’s machinery for the consortium, each bank owning and earning in proportion to its share (p. 199)." }
+      ]
     },
     {
       id: "t8.8", section: "8.8", title: "Islamic Financial Markets and Instruments", pages: [199, 201], tier: "core",
@@ -273,6 +291,9 @@ IFL_DATA.registerChapter({
       ],
       confusions: [
         { wrong: "An Islamic financial market includes an active bond market.", right: "A pure debt market is not part of it, since debts pass only at nominal value under Hawalah; instruments must represent real assets (p. 200)." }
+      ],
+      examples: [
+        { title: "Stable vs variable income papers", kind: "textbook", text: "A retiree buys certificates backed by a pool of Ijarah assets with some Murabaha (quasi-fixed income). A younger investor buys Musharakah certificates whose return varies with the business (pp. 199–201)." }
       ]
     },
     {
@@ -334,7 +355,10 @@ IFL_DATA.registerChapter({
         { term: "Investment Sukuk", meaning: "Certificates of equal value representing undivided shares in ownership of tangible assets of particular projects or specific investment activity, usufruct and services (AAOIFI)." }
       ],
       related: ["t15.3", "t15.3.5", "t8.8.4"],
-      quickCheck: { q: "Which statement about Sukuk tradability is consistent with Section 8.8.3?", options: ["Pure debt Sukuk trade freely at discount", "Pure debt securities have no secondary market in principle; asset/equity Sukuk do", "No Sukuk can be traded", "Only Salam Sukuk trade"], answer: 1, explanation: "p. 204." }
+      quickCheck: { q: "Which statement about Sukuk tradability is consistent with Section 8.8.3?", options: ["Pure debt Sukuk trade freely at discount", "Pure debt securities have no secondary market in principle; asset/equity Sukuk do", "No Sukuk can be traded", "Only Salam Sukuk trade"], answer: 1, explanation: "p. 204." },
+      examples: [
+        { title: "Medieval Sukuk", kind: "textbook", text: "In medieval Muslim societies, Sukuk were papers recording obligations from trade. Today’s investment Sukuk instead represent undivided ownership shares in assets, usufruct or services (pp. 204–205)." }
+      ]
     },
     {
       id: "t8.8.4", section: "8.8.4", title: "Trading in Financial Instruments", pages: [205, 205], tier: "core",
@@ -367,7 +391,10 @@ IFL_DATA.registerChapter({
         "Malaysia’s Mudarabah Inter-bank Investment (MII): overnight to 12 months; return based on the investee bank’s gross one-year profit rate; ratio negotiable; since 1996 a minimum benchmark of the government investment rate plus 0.5%."
       ],
       related: ["t14.4.4"],
-      quickCheck: { q: "What minimum benchmark rate did BNM introduce for MII in 1996?", options: ["LIBOR", "Government investment issues rate plus 0.5%", "Zero", "The inflation rate"], answer: 1, explanation: "p. 206." }
+      quickCheck: { q: "What minimum benchmark rate did BNM introduce for MII in 1996?", options: ["LIBOR", "Government investment issues rate plus 0.5%", "Zero", "The inflation rate"], answer: 1, explanation: "p. 206." },
+      examples: [
+        { title: "Malaysia’s MII", kind: "textbook", text: "A deficit bank takes 10 million from a surplus bank for three months under Mudarabah Inter-bank Investment. The return follows the investee’s gross profit rate, and since 1996 a minimum benchmark applies (pp. 205–206)." }
+      ]
     },
     {
       id: "t8.8.6", section: "8.8.6", title: "Islamic Forward Markets", pages: [206, 208], tier: "supporting",
@@ -386,7 +413,10 @@ IFL_DATA.registerChapter({
       ],
       table: { caption: "Salam forward market vs conventional futures (pp. 206–207)", head: ["Feature", "Salam-based market", "Conventional futures"], rows: [["Delivery", "Compulsory", "Usually offset"], ["Resale before receipt", "Not allowed (Parallel Salam allowed)", "Allowed"], ["Price", "Paid in advance", "No advance payment"], ["Purpose", "Real trade", "Often speculation"]] },
       related: ["t10.8", "t15.3.5", "t13.4"],
-      quickCheck: { q: "Which Sukuk in Box 8.3 are non-tradable?", options: ["Ijarah and Musharakah", "Salam and Istisna‘a", "Mudarabah only", "All"], answer: 1, explanation: "p. 208." }
+      quickCheck: { q: "Which Sukuk in Box 8.3 are non-tradable?", options: ["Ijarah and Musharakah", "Salam and Istisna‘a", "Mudarabah only", "All"], answer: 1, explanation: "p. 208." },
+      examples: [
+        { title: "Salam market vs futures", kind: "textbook", text: "In a Salam market a buyer pays in full now for wheat due in six months and must take delivery; he cannot close out by an opposite contract. A futures trader pays nothing up front and usually offsets before delivery (pp. 206–208)." }
+      ]
     },
     {
       id: "t8.8.7", section: "8.8.7", title: "Foreign Exchange Market in the Islamic Framework", pages: [209, 209], tier: "core",
@@ -409,6 +439,9 @@ IFL_DATA.registerChapter({
       quickCheck: { q: "Which is NOT a condition for Islamic forward FX cover?", options: ["Genuine documented trade need", "A promise rather than a sale", "Payment of a forward cover fee", "Simultaneous exchange at the agreed time"], answer: 2, explanation: "No forward cover fee may be recovered (p. 209)." },
       confusions: [
         { wrong: "An Islamic bank may charge a forward-cover fee.", right: "No forward-cover fee is allowed; the bank may take earnest money (Hamish Jiddiyah) and recover the differential if the client fails to perform (p. 209)." }
+      ],
+      examples: [
+        { title: "Forward cover for an importer", kind: "textbook", text: "An importer must pay US$500,000 in 90 days. With documents showing the import, the bank promises to sell the dollars on that date at an agreed rate and takes earnest money, but charges no cover fee. On the date the currencies are exchanged simultaneously (p. 209)." }
       ]
     },
     {
