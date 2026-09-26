@@ -199,6 +199,29 @@ window.IFL_DATA.chapters[11] = {
       ],
       processSteps: [],
       examples: [],
+      calculations: [
+        {
+          "title": "Practice Example — generated for learning: Cost-Based Rent with a Benchmark Ceiling/Floor",
+          "formula": "First-period monthly rent = (Lessor's aggregate acquisition cost x agreed annual return rate) / 12; subsequent-period rent = benchmark-implied rent, capped by a mutually agreed ceiling/floor around the prior rent.",
+          "inputs": [
+            { "label": "Lessor's aggregate acquisition cost of the leased asset", "value": "$120,000" },
+            { "label": "Agreed target annual return for year 1 (mutually agreed, cost-based)", "value": "10% p.a." },
+            { "label": "Agreed ceiling/floor collar on rent movement (Gharar/Jahala safeguard)", "value": "±5% of the prior period's rent" },
+            { "label": "Benchmark-implied target return for year 2 (e.g. from a rising reference rate)", "value": "12% p.a." }
+          ],
+          "steps": [
+            "Year 1 rent is fixed by mutual agreement on the lessor's aggregate cost: monthly rent = ($120,000 x 10%) / 12 = $1,000 per month - this is the 'first period's rental amount' that must be specified for a floating structure to be valid.",
+            "For year 2, suppose the agreed benchmark (e.g. a price index or reference rate) implies a higher target return of 12% p.a., which on its own would give a new monthly rent of ($120,000 x 12%) / 12 = $1,200.",
+            "Before applying it, check the agreed ceiling: rent may not move by more than 5% from the prior period's $1,000, so the ceiling = $1,000 x 1.05 = $1,050 and the floor = $1,000 x 0.95 = $950.",
+            "Since the benchmark-implied $1,200 exceeds the $1,050 ceiling, the actual year-2 rent is capped at $1,050, not the full $1,200 the benchmark would otherwise imply.",
+            "If instead the benchmark had implied a lower rent of, say, $900, it would be raised to the $950 floor rather than allowed to fall further."
+          ],
+          "result": "Year 1 rent = $1,000/month (fixed by mutual agreement on cost). Year 2 rent is capped at $1,050/month (not the $1,200 the raw benchmark would imply), because the agreed ±5% ceiling/floor limits the swing.",
+          "interpretation": "This illustrates 11.3.2's three rules together: rent can be set from the lessor's aggregate cost by mutual agreement; a floating structure is valid once the first period's amount is fixed; and a ceiling/floor collar is what keeps benchmark-linked adjustments (even one based on an interest-rate-like reference) from producing the kind of open-ended Gharar/Jahala the scholars want to avoid. The book gives no worked numeric example in 11.3.2 itself - the numbers here are for practice only, though the mechanism (cost-based first rent, benchmark adjustment, capped collar) is exactly what the text describes.",
+          "generated": true,
+          "source": { "chapter": 11, "section": "11.3.2", "pages": [283, 284] }
+        }
+      ],
       commonConfusions: [
         "Students often assume that using LIBOR (an interest rate) as a lease pricing benchmark automatically makes an Ijarah non-compliant. The author explicitly argues this is NOT the correct view - what matters for Shari'ah compliance is genuine risk-bearing by the lessor, not the choice of pricing benchmark, though non-interest benchmarks remain preferable for clarity/optics."
       ],

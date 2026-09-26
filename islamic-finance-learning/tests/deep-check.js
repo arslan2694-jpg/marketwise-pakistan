@@ -41,14 +41,15 @@ async function main() {
 
     async function go(hash) { await page.goto("http://localhost:" + PORT + "/index.html#" + hash, { waitUntil: "networkidle" }); await page.waitForTimeout(200); }
 
-    // Ch9 MPO transaction diagram
+    // Ch9 MPO transaction diagram (flowchart: .tx-node boxes + shared .tx-detail panel)
     await go("/chapter/9/topic/ch9-t9");
-    var stepCount = await page.$$eval(".process-step", function (els) { return els.length; }).catch(function () { return -1; });
+    var stepCount = await page.$$eval(".tx-node", function (els) { return els.length; }).catch(function () { return -1; });
     checks.push({ check: "Ch9 MPO transaction steps rendered", value: stepCount });
-    var secondStep = await page.$$(".process-step");
+    var secondStep = await page.$$(".tx-node");
     if (secondStep[1]) { await secondStep[1].click(); await page.waitForTimeout(150); }
-    var openCount = await page.$$eval(".process-step.open", function (els) { return els.length; }).catch(function () { return -1; });
-    checks.push({ check: "Transaction step click-to-expand works (>=1 open)", value: openCount });
+    var activeCount = await page.$$eval(".tx-node.active", function (els) { return els.length; }).catch(function () { return -1; });
+    var detailUpdated = await page.textContent("#tx-detail").catch(function () { return null; });
+    checks.push({ check: "Transaction flowchart node click selects + updates detail panel", value: activeCount === 1, detailNonEmpty: !!(detailUpdated && detailUpdated.length > 10) });
 
     // Chapter 17 criticism block
     await go("/chapter/17");
@@ -84,6 +85,25 @@ async function main() {
     await go("/adaptive");
     var startAdaptive = await page.$("#start-adaptive");
     checks.push({ check: "Adaptive practice start button present", value: !!startAdaptive });
+
+    // Interactive calculators
+    await go("/calculators/deposit-pool");
+    await page.fill("#dp-amt-0", "6000");
+    await page.waitForTimeout(150);
+    var dpResult = await page.textContent("#dp-result").catch(function () { return null; });
+    checks.push({ check: "Deposit pool calculator live-recalculates", value: !!(dpResult && dpResult.length > 20) });
+
+    await go("/calculators/musharakah-split");
+    await page.check("#ms-sleeping");
+    await page.waitForTimeout(150);
+    var ruleCaught = await page.isVisible("text=Rule violation caught").catch(function () { return false; });
+    checks.push({ check: "Musharakah calculator catches sleeping-partner rule violation", value: ruleCaught });
+
+    // Concept Hub
+    await go("/concept/riba");
+    var hubTitle = await page.textContent("h1").catch(function () { return null; });
+    var topicCount = await page.$$eval(".card-clickable[data-nav*='/topic/']", function (els) { return els.length; }).catch(function () { return 0; });
+    checks.push({ check: "Concept Hub (Riba) loads with cross-referenced topics", value: hubTitle, topicsFound: topicCount });
 
     // Case study reveal
     await go("/case-studies");

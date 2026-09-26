@@ -5,6 +5,12 @@
   "use strict";
   var el = IFLDom.el, esc = IFLDom.esc, fmt = IFLDom.formatText;
 
+  var CALCULATOR_LINKS = {
+    "ch8-t4": { href: "#/calculators/deposit-pool", label: "Try it yourself: Deposit Pool Calculator →" },
+    "ch9-t14": { href: "#/calculators/murabaha-pricing", label: "Try it yourself: Murabaha/Musawamah Pricing Calculator →" },
+    "ch12-t7": { href: "#/calculators/musharakah-split", label: "Try it yourself: Musharakah Profit & Loss Split Calculator →" }
+  };
+
   function sourceFooter(source, chapterTitle) {
     if (!source) return "";
     var pages = (source.pages || []).join(", ");
@@ -173,7 +179,10 @@
       (topic.processSteps && topic.processSteps.length ?
         '<div class="card mb-4"><h3>Process</h3><ol class="mb-0">' + topic.processSteps.map(function (c) { return "<li>" + fmt(c) + "</li>"; }).join("") + '</ol></div>' : "") +
 
-      (topic.transactionSteps && topic.transactionSteps.length ? '<div class="card mb-4" id="tx-diagram-host"><h3>Transaction Structure</h3><p class="text-sm text-muted">Click each step to see the explanation.</p><div class="process-flow" id="tx-flow"></div></div>' : "") +
+      (topic.transactionSteps && topic.transactionSteps.length ?
+        '<div class="card mb-4" id="tx-diagram-host"><h3>Transaction Structure</h3><p class="text-sm text-muted">Click any step in the flow to see its explanation.</p>' +
+        '<div class="tx-flow" id="tx-flow"></div>' +
+        '<div class="tx-detail" id="tx-detail"></div></div>' : "") +
 
       (topic.examples && topic.examples.length ?
         '<div class="card mb-4"><h3>Examples</h3>' + topic.examples.map(function (ex) {
@@ -200,7 +209,9 @@
             (calc.result ? '<div class="calc-result"><strong>Result:</strong> ' + fmt(calc.result) + '</div>' : "") +
             (calc.interpretation ? '<p class="text-sm text-secondary mt-2 mb-0">' + fmt(calc.interpretation) + '</p>' : "") +
           '</div>';
-        }).join("") + '</div>' : "") +
+        }).join("") +
+        (CALCULATOR_LINKS[topic.id] ? '<button class="btn btn-primary btn-sm" data-nav="' + CALCULATOR_LINKS[topic.id].href + '">' + esc(CALCULATOR_LINKS[topic.id].label) + '</button>' : "") +
+        '</div>' : "") +
 
       (topic.importantDistinctions && topic.importantDistinctions.length ?
         '<div class="card mb-4"><h3>Important Distinctions</h3><ul class="mb-0">' + topic.importantDistinctions.map(function (c) { return "<li>" + fmt(c) + "</li>"; }).join("") + '</ul></div>' : "") +
@@ -243,21 +254,32 @@
       });
     });
 
-    // Transaction diagram
+    // Transaction diagram — a real flowchart: numbered boxes connected by
+    // arrows, with a single shared detail panel below (cleaner and more
+    // "diagram-like" than an accordion of vertically-stacked steps).
     var txHost = document.getElementById("tx-flow");
+    var txDetail = document.getElementById("tx-detail");
     if (txHost && topic.transactionSteps) {
-      topic.transactionSteps.forEach(function (step, i) {
-        var stepEl = el("button", { class: "process-step", type: "button" }, [
-          el("span", { class: "process-step-num" }, [String(i + 1)]),
-          el("span", { class: "process-step-body" }, [
-            el("div", { class: "process-step-title" }, [step.step]),
-            el("div", { class: "process-step-detail", html: fmt(step.description) })
-          ])
+      var steps = topic.transactionSteps;
+      function selectTxStep(i) {
+        IFLDom.qsa(".tx-node", txHost).forEach(function (n, idx) {
+          n.classList.toggle("active", idx === i);
+        });
+        txDetail.innerHTML =
+          '<div class="tx-detail-num">' + (i + 1) + '</div>' +
+          '<div><div class="tx-detail-title">' + esc(steps[i].step) + '</div>' +
+          '<div class="tx-detail-body">' + fmt(steps[i].description) + '</div></div>';
+      }
+      steps.forEach(function (step, i) {
+        if (i > 0) txHost.appendChild(el("span", { class: "tx-arrow", "aria-hidden": "true" }, ["→"]));
+        var nodeEl = el("button", { class: "tx-node", type: "button" }, [
+          el("div", { class: "tx-node-badge" }, [String(i + 1)]),
+          el("div", { class: "tx-node-title" }, [step.step])
         ]);
-        stepEl.addEventListener("click", function () { stepEl.classList.toggle("open"); });
-        txHost.appendChild(stepEl);
+        nodeEl.addEventListener("click", function () { selectTxStep(i); });
+        txHost.appendChild(nodeEl);
       });
-      if (txHost.firstChild) txHost.firstChild.classList.add("open");
+      selectTxStep(0);
     }
 
     // Bookmark + complete + note actions

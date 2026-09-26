@@ -146,7 +146,10 @@
       var detail = document.getElementById("node-detail");
       detail.innerHTML =
         '<div class="flex items-center justify-between"><h3 class="mb-1">' + esc(node.label) + '</h3>' +
-        (node.href ? '<button class="btn btn-primary btn-sm" data-nav="' + esc(node.href) + '">Open lesson →</button>' : '') + '</div>' +
+        '<span class="badge-row">' +
+        '<button class="btn btn-outline btn-sm" data-nav="#/concept/' + esc(node.id) + '">Concept Hub →</button>' +
+        (node.href ? '<button class="btn btn-primary btn-sm" data-nav="' + esc(node.href) + '">Open lesson →</button>' : '') +
+        '</span></div>' +
         (related.length ? '<p class="text-sm text-muted mb-2">Connected to ' + related.length + ' concept' + (related.length === 1 ? "" : "s") + ':</p><div class="badge-row">' +
           related.map(function (r) { return '<button class="pill" data-node-jump="' + esc(r.id) + '" style="cursor:pointer;">' + esc(r.label) + '</button>'; }).join("") + '</div>' : '<p class="text-sm text-muted mb-0">No mapped connections yet.</p>');
       IFLDom.qsa("[data-node-jump]", detail).forEach(function (b) {

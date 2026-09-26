@@ -404,6 +404,28 @@ window.IFL_DATA.chapters[15] = {
         { "title": "WAPDA First Sukuk Co (WFS)", "body": "WFS, an SPV, purchased ten power generation turbines at Mangla Hydel Power Station from WAPDA for lease-back over seven years, with semiannual rentals benchmarked at 6-month KIBOR + 35bps; the government of Pakistan's guarantee of WAPDA's payment obligation made the Sukuk eligible for maintaining Islamic banks' statutory liquidity requirement (SLR).", "generated": false },
         { "title": "Pakistan's First Sovereign Sukuk (2005)", "body": "Pakistan International Sukuk Company Limited (an SPV wholly owned by the government) purchased M-2 motorway highway land from the National Highway Authority and issued $600 million in trust certificates (B+ rated by S&P), leasing the land back to the government, whose periodic lease payments funded Sukuk distributions until the government repurchased the land at maturity to redeem the issue.", "generated": false }
       ],
+      calculations: [
+        {
+          "title": "Box 15.8: Periodic Distribution on the Hanco Fleet Securitization Sukuk",
+          "formula": "Periodic distribution amount = Total Sukuk principal x Periodic distribution rate; principal is redeemed at maturity from the sale proceeds of the underlying assets.",
+          "inputs": [
+            { "label": "Principal amount", "value": "USD 27,200,000" },
+            { "label": "Periodic distribution rate", "value": "6%" },
+            { "label": "Tenor", "value": "3 years" },
+            { "label": "Issuance format", "value": "Privately placed LCY fixed-rate notes, two-tier SPV/SPC structure" }
+          ],
+          "steps": [
+            "Periodic distribution = 6% x USD 27,200,000 = USD 1,632,000 per period.",
+            "Box 15.8 states the rate as a flat 6% 'periodic distribution' without naming the payment frequency; taking this as an annual rate over the stated 3-year tenor, total distributions paid to certificate holders before redemption = USD 1,632,000 x 3 = USD 4,896,000.",
+            "At maturity, the SPC sells the underlying motor fleet assets and uses the proceeds to redeem the certificates at their principal value of USD 27,200,000.",
+            "Total cash received by certificate holders over the Sukuk's life = USD 4,896,000 (distributions) + USD 27,200,000 (principal redemption at maturity) = USD 32,096,000."
+          ],
+          "result": "Certificate holders receive USD 1,632,000 in periodic distributions per period (USD 4,896,000 total across the 3-year tenor, on the stated annual reading) plus the USD 27,200,000 principal at redemption, for total cash flow of USD 32,096,000 against a USD 27,200,000 investment.",
+          "interpretation": "Because the fixed 6% rate is applied to a constant principal and the SPC only sells the underlying fleet assets to fund redemption at maturity, the certificate holders' cash-flow profile resembles a conventional fixed-rate bond - matching Box 15.8's own description of the issue as a 'privately placed LCY fixed-rate note', in contrast to the floating, KIBOR-benchmarked rentals of the WAPDA Ijarah Sukuk (Box 15.7) in the same section. Box 15.8 does not state the distribution frequency; this walkthrough treats the 6% as an annual rate, the simplest reading consistent with the stated 3-year tenor.",
+          "generated": false,
+          "source": { "chapter": 15, "section": "15.4 (Box 15.8)", "pages": [414, 415] }
+        }
+      ],
       commonConfusions: [],
       importantDistinctions: [
         "A single-tier SPV (as in the Pakistan sovereign Sukuk) versus a two-tier SPV/SPC structure (as in the Hanco Saudi securitization, driven by local legal constraints)"

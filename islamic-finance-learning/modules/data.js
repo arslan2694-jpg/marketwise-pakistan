@@ -167,6 +167,9 @@
         });
       });
     });
+    conceptMap().nodes.forEach(function (n) {
+      idx.push({ kind: "Concept", title: n.label, context: "Concept Hub — every topic, flashcard and question touching this concept", href: "#/concept/" + n.id, chapter: n.chapter || null, section: "", text: n.label.toLowerCase() });
+    });
     glossaryTerms().forEach(function (g) {
       idx.push({ kind: "Glossary", title: g.term, context: g.definition, href: "#/glossary?q=" + encodeURIComponent(g.term), chapter: null, section: "", text: (g.term + " " + g.definition).toLowerCase() });
     });

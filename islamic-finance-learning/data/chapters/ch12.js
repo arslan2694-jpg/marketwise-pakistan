@@ -623,6 +623,33 @@ window.IFL_DATA.chapters[12] = {
       examples: [
         { title: "Sitara Chemical Industries TFCs (Box 12.3, summarized)", body: "Sitara Chemical Industries (Pakistan) issued Rs. 360 million of 5-year Shirkah-based term finance certificates in June 2002, funding part of an expansion project. Profit/loss was linked to the company's operating profit via a two-tier structure (Level I and Level II profit rates), paid semi-annually, with a Takaful reserve absorbing losses attributable to TFC holders before any shortfall was adjusted against principal redemption.", generated: false }
       ],
+      calculations: [
+        {
+          "title": "Practice Example — generated for learning: Box 12.3's Two-Tier TFC Profit Mechanism Applied to a Year's Operating Profit",
+          "formula": "Level I profit = 12% p.a. x outstanding principal, applied to the first Rs. 100 million of operating profit (pro-rated if operating profit is under Rs. 100 million). Level II profit = 2% p.a. x outstanding principal, applied to each subsequent Rs. 100 million slab of operating profit; one-quarter of Level II profit is transferred to the Takaful reserve and the remaining three-quarters go to TFC holders.",
+          "inputs": [
+            { "label": "Outstanding TFC principal (full issue size)", "value": "Rs. 360,000,000" },
+            { "label": "Level I rate (on first Rs. 100 million operating profit)", "value": "12% p.a. of outstanding principal" },
+            { "label": "Level II rate (on each subsequent Rs. 100 million operating profit)", "value": "2% p.a. of outstanding principal" },
+            { "label": "Share of Level II profit kept in the Takaful reserve", "value": "1/4 (remaining 3/4 goes to TFC holders)" },
+            { "label": "TFC face value per certificate", "value": "Rs. 5,000 (so Rs. 360,000,000 / 5,000 = 72,000 certificates)" },
+            { "label": "Assumed operating profit for the year (illustrative, not stated in the book)", "value": "Rs. 300,000,000" }
+          ],
+          "steps": [
+            "Level I: the first Rs. 100 million of operating profit fully clears the Level I tier, entitling TFC holders to 12% p.a. of the outstanding principal: 12% x Rs. 360,000,000 = Rs. 43,200,000 for the year.",
+            "Operating profit above Rs. 100 million = Rs. 300,000,000 - Rs. 100,000,000 = Rs. 200,000,000, which exactly fills two full Rs. 100 million Level II slabs (Rs.100-200m and Rs.200-300m).",
+            "Each full Level II slab earns 2% p.a. of principal: 2% x Rs. 360,000,000 = Rs. 7,200,000 per slab; two slabs = Rs. 14,400,000 total Level II profit for the year.",
+            "One-quarter of the Rs. 14,400,000 Level II profit is transferred to the Takaful reserve: Rs. 14,400,000 / 4 = Rs. 3,600,000; the remaining three-quarters go to TFC holders: Rs. 14,400,000 x 3/4 = Rs. 10,800,000.",
+            "Total annual profit entitlement to TFC holders = Level I (Rs. 43,200,000) + Level II holders' share (Rs. 10,800,000) = Rs. 54,000,000.",
+            "As a percentage of the Rs. 360,000,000 principal: Rs. 54,000,000 / Rs. 360,000,000 = 15% p.a. - and per certificate, Rs. 54,000,000 / 72,000 certificates = Rs. 750 per certificate per year, i.e. 15% of the Rs. 5,000 face value.",
+            "Since profit is paid six-monthly, each semi-annual on-account payment would be roughly half of the annual figures: about Rs. 27,000,000 to all TFC holders (Rs. 375 per certificate), subject to final adjustment once audited annual accounts are available."
+          ],
+          "result": "On an assumed Rs. 300 million operating profit, TFC holders earn Rs. 54,000,000 for the year (Rs. 750 per Rs. 5,000 certificate, a 15% return), while Rs. 3,600,000 is set aside in the Takaful reserve to absorb any future loss attributable to TFC holders.",
+          "interpretation": "This reproduces Box 12.3's real profit-sharing mechanism and outstanding principal exactly, using an assumed (not book-stated) operating profit to make the two-tier calculation concrete. Note that a 15% p.a. return is precisely the lower bound of the 15-24% per annum range the book reports Sitara's TFCs actually achieved historically - illustrating why the certificates 'remained highly profitable' and holders preferred to hold rather than sell them. The Takaful reserve mechanic means TFC holders' downside in a loss year is cushioned before any shortfall is adjusted against principal redemption.",
+          "generated": true,
+          "source": { "chapter": 12, "section": "12.7.3 (Box 12.3)", "pages": [335, 336, 337] }
+        }
+      ],
       commonConfusions: [
         "Students sometimes assume Islamic bank depositors are genuine Musharakah partners with full management rights. The chapter clarifies they are effectively sleeping partners in a Mudarabah-style relationship overall, even when the bank's own equity contribution technically creates a Musharakah relationship within the pool."
       ],
@@ -702,6 +729,34 @@ window.IFL_DATA.chapters[12] = {
       processSteps: [],
       examples: [
         { title: "Box 12.4 - Construction on Customer-Owned Land", body: "A plot worth 1,000,000 Dirhams belongs to the customer, who needs 800,000 Dirhams from the bank. The bank purchases 8 of 10 land units (100,000 Dirhams each) to form Shirkatulmilk joint ownership. Using the 800,000 Dirhams (in four instalments), the customer constructs the house. Once complete and habitable, the bank leases its share to the client; for the first year, the client pays only rent (no unit purchases, no rent decrease). One year after the last instalment's disbursement, the bank begins selling its ownership units to the client per the pre-agreed schedule, with rent decreasing accordingly until full title transfers.", generated: false }
+      ],
+      calculations: [
+        {
+          "title": "Box 12.5: Diminishing Musharakah Housing Finance — Monthly Unit-Purchase and Rent Schedule",
+          "formula": "Fixed monthly unit purchase = Bank's investment / Number of months. Monthly rent = (Outstanding bank investment x Annual rental rate) / 12. Total monthly payment = Unit purchase + Rent.",
+          "inputs": [
+            { "label": "Cost of house", "value": "Drs/Ryls 1,000,000" },
+            { "label": "Bank financing", "value": "80% = Ryls 800,000 (paid in one tranche)" },
+            { "label": "Client's own share", "value": "20% = Ryls 200,000" },
+            { "label": "Tenure", "value": "10 years = 120 months" },
+            { "label": "Rental rate on bank's outstanding investment", "value": "7% p.a." },
+            { "label": "Number of bank's ownership units (= number of months)", "value": "120" },
+            { "label": "Price per unit", "value": "Ryls 800,000 / 120 = Ryls 6,666.67 (constant every month)" }
+          ],
+          "steps": [
+            "Fixed monthly unit-purchase amount = Ryls 800,000 / 120 months = Ryls 6,666.67 - this stays the same every month for the whole 10-year tenure.",
+            "Month 1 rent = outstanding bank investment (Ryls 800,000) x 7% / 12 = Ryls 4,666.67. Month 1 total payment = Ryls 6,666.67 (unit) + Ryls 4,666.67 (rent) = Ryls 11,333.33.",
+            "After the month-1 unit purchase, the bank's outstanding investment falls to Ryls 800,000 - 6,666.67 = Ryls 793,333.33, and its remaining units fall from 120 to 119.",
+            "Month 2 rent recalculates on the new, smaller outstanding investment: Ryls 793,333.33 x 7% / 12 = Ryls 4,627.78. Month 2 total = Ryls 6,666.67 + 4,627.78 = Ryls 11,294.44 - already lower than month 1's total.",
+            "This pattern repeats every month: the Ryls 6,666.67 unit-purchase amount never changes, but rent shrinks each month as the bank's outstanding investment (and remaining units) keep falling.",
+            "By month 116 (four months from the end), only 4 units (Ryls 26,666.7 outstanding investment) remain, so rent has fallen to Ryls 194.44 and the month's total payment is Ryls 6,861.11.",
+            "In month 120, the client buys the last unit: Ryls 6,666.67 (unit) + Ryls 38.89 (rent) = Ryls 6,705.56. Outstanding bank investment reaches zero, remaining bank units reach zero, and full title to the house transfers to the client."
+          ],
+          "result": "The client's monthly payment falls steadily from Ryls 11,333.33 in month 1 to Ryls 6,705.56 in month 120, purely because the rent component shrinks from Ryls 4,666.67 to Ryls 38.89 as the bank's ownership units (and outstanding investment) run down from 120 to 0; the Ryls 6,666.67 unit-purchase component never changes.",
+          "interpretation": "This is the arithmetic behind the process step 'as the client purchases a unit, remaining-unit rental decreases correspondingly': rent is charged only on the bank's remaining outstanding investment (its unsold units), so buying back one unit each month shrinks both the bank's ownership share and its rentable base together. Because the unit-purchase amount is fixed while rent shrinks, the client's total monthly outlay declines over the facility's life - the opposite of a conventional amortizing loan, where the total instalment is typically held constant and only the interest/principal split moves within it.",
+          "generated": false,
+          "source": { "chapter": 12, "section": "12.9.2 (Box 12.5)", "pages": [341, 342, 343] }
+        }
       ],
       commonConfusions: [
         "Students often assume the entrepreneur/client is always bound to eventually buy out the financier's share in Diminishing Musharakah. This is only true where the client himself has made a binding promise (as in most Shirkatulmilk housing DM); in trade-financing DM, only the FINANCIER's promise to sell is binding - the client entrepreneur retains a free choice."

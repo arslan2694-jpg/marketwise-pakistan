@@ -487,15 +487,39 @@ label { font-size: var(--fs-xs); font-weight: 600; color: var(--color-text-secon
   padding: var(--sp-2) var(--sp-3); font-size: var(--fs-sm);
 }
 
-/* horizontal transaction flow for wider screens */
-.tx-flow { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: stretch; }
+/* Transaction flowchart: numbered boxes connected by arrows, wrapping on
+   narrow screens, with a single shared detail panel below driven by the
+   selected node (see modules/views/chapter.js). */
+.tx-flow { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: stretch; margin-bottom: var(--sp-4); }
 .tx-node {
-  flex: 1 1 160px; background: var(--color-bg-elevated); border: 1px solid var(--color-border); border-radius: var(--radius-md);
+  flex: 1 1 150px; max-width: 190px; background: var(--color-bg-elevated); border: 1.5px solid var(--color-border); border-radius: var(--radius-md);
   padding: var(--sp-3); cursor: pointer; text-align: left; font-size: var(--fs-sm);
+  display: flex; flex-direction: column; gap: var(--sp-1); transition: border-color var(--transition-fast), box-shadow var(--transition-fast), transform var(--transition-fast);
 }
-.tx-node:hover, .tx-node.active { border-color: var(--color-brand); box-shadow: var(--shadow-sm); }
-.tx-node-title { font-weight: 650; margin-bottom: var(--sp-1); }
-.tx-arrow { align-self: center; color: var(--color-text-muted); font-size: var(--fs-lg); }
+.tx-node:hover { box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+.tx-node.active { border-color: var(--color-brand); background: var(--color-brand-soft); box-shadow: var(--shadow-md); }
+.tx-node-badge {
+  width: 22px; height: 22px; border-radius: 50%; background: var(--color-bg-sunken); color: var(--color-text-muted);
+  display: flex; align-items: center; justify-content: center; font-size: var(--fs-xs); font-weight: 700;
+}
+.tx-node.active .tx-node-badge { background: var(--color-brand); color: #fff; }
+.tx-node-title { font-weight: 650; line-height: 1.3; }
+.tx-arrow { align-self: center; color: var(--color-text-muted); font-size: var(--fs-lg); flex-shrink: 0; }
+.tx-detail {
+  display: flex; gap: var(--sp-3); background: var(--color-bg-sunken); border: 1px solid var(--color-border);
+  border-radius: var(--radius-md); padding: var(--sp-4);
+}
+.tx-detail-num {
+  width: 32px; height: 32px; border-radius: 50%; background: var(--color-brand); color: #fff; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; font-weight: 700;
+}
+.tx-detail-title { font-weight: 650; margin-bottom: var(--sp-1); }
+.tx-detail-body { font-size: var(--fs-sm); color: var(--color-text-secondary); }
+@media (max-width: 640px) {
+  .tx-flow { flex-direction: column; }
+  .tx-node { max-width: none; }
+  .tx-arrow { transform: rotate(90deg); align-self: flex-start; margin-left: var(--sp-4); }
+}
 
 /* ---- Dashboard stat tile ---- */
 .stat-tile { display: flex; flex-direction: column; gap: 2px; }
@@ -1606,7 +1630,9 @@ window.IFL_DATA.glossary = [
   },
   {
     "term": "Sahabah",
-    "definition": "Companions of the holy Prophet of Islam – the people who saw the holy Prophet while being firm believers (Muslims)."
+    "definition": "Companions of the holy Prophet of Islam – the people who saw the holy Prophet while being firm believers (Muslims).",
+    "chapter": 3,
+    "pages": [58]
   },
   {
     "term": "Salaf",
@@ -2537,6 +2563,54 @@ window.IFL_DATA.comparisons = [
       { "dimension": "Geographic reach of the view", "itemA": "Confined mainly to Malaysia; the book notes the position of Malaysian Islamic bonds 'remains unacceptable among the Middle Eastern jurists.'", "itemB": "Represents the mainstream position across the Middle East and the broader international Shari'ah-scholarship community." }
     ],
     "source": { "chapters": [6,7], "sections": ["6.10","7.16"], "pages": [146,147,172] }
+  },
+  {
+    "id": "financial-lease-vs-operating-lease",
+    "title": "Financial Lease (Hire-Purchase) vs Operating Lease",
+    "itemALabel": "Financial Lease / Hire-Purchase",
+    "itemBLabel": "Operating Lease",
+    "summary": "Sections 11.4.1 and 11.4.3 describe two distinct modern leasing forms banks and NBFIs use; the book then appraises both against Shari'ah principles in 11.4.4, since neither, as conventionally practised, fully matches genuine Ijarah.",
+    "dimensions": [
+      { "dimension": "Ownership at end of term", "itemA": "Structured so the lessee ends up owning the asset — at a price specified in advance or its market value at that time.", "itemB": "Ownership never transfers; the lessor takes back the equipment/asset when the lease ends." },
+      { "dimension": "Lease duration and cost recovery", "itemA": "The period is long enough (usually the asset's entire useful life) for the lessor to fully amortize its cost plus a stipulated interest return.", "itemB": "Covers only a specified period, not the asset's whole useful life; the same asset is repeatedly re-leased to different customers as each lease ends." },
+      { "dimension": "When rent liability starts", "itemA": "Rent liability starts from the day the lessor pays the price to the supplier, even before the lessee takes delivery of the asset.", "itemB": "Not described as suffering this defect in the same way — rent is for actual use of a possessed asset the lessor already owns and maintains in its own fleet." },
+      { "dimension": "Who bears ownership/obsolescence risk", "itemA": "Risk of ownership is effectively shifted onto the lessee, especially once a residual value is fixed in advance.", "itemB": "The lessor retains ownership and bears the risk of obsolescence, recession or diminishing demand for the asset between leases." },
+      { "dimension": "Typical use and users", "itemA": "Widely used by banks as a financing substitute for an outright credit purchase of equipment or assets.", "itemB": "Rarely used by banks; mainly used by NBFIs for specialized, high-cost, long-life assets (e.g. aircraft, ships) that require large capital outlay." },
+      { "dimension": "Termination and default treatment", "itemA": "Not cancellable before expiry without mutual consent; the lessor can repossess without a court order on default, and prepayment or default often carries an extra fine/liquidated-damages charge (sometimes involving compound interest).", "itemB": "Simply ends at the agreed period, or continues only if renewed by mutual consent — there is no purchase-linked default or repossession mechanism since ownership was never intended to transfer." }
+    ],
+    "source": { "chapters": [11], "sections": ["11.4.1", "11.4.3", "11.4.4"], "pages": [288, 289] }
+  },
+  {
+    "id": "current-account-vs-investment-deposit",
+    "title": "Current Account vs Investment (PLS) Deposit",
+    "itemALabel": "Current Account",
+    "itemBLabel": "Investment (PLS) Deposit",
+    "summary": "Section 8.5.2 sets out the two basic deposit products of an Islamic bank, built on entirely different contracts and risk-bearing logic — a distinction Box 8.1 then works through with an actual weightage-based profit calculation.",
+    "dimensions": [
+      { "dimension": "Underlying contract", "itemA": "Structured as Qard (an interest-free loan) held as Amanah — the depositor is effectively a creditor of the bank.", "itemB": "Structured on a profit-and-loss-sharing (Mudarabah/Musharakah) basis — the depositor is a Rabbul-mal, and pool members are partners with each other." },
+      { "dimension": "Return", "itemA": "No contractual return at all; some writers allow only a discretionary, non-obligatory gratis payment that must not be offered so regularly that it becomes a customary entitlement.", "itemB": "A share of actual profit earned by the bank's financing operations, distributed per an agreed profit-sharing ratio and weightage." },
+      { "dimension": "Principal guarantee", "itemA": "The bank must guarantee the full principal amount of the deposit.", "itemB": "Principal is not guaranteed — as Rabbul-mal, the depositor bears loss in proportion to capital under Musharakah rules, absent misconduct or negligence by the bank as Mudarib." },
+      { "dimension": "Weightage / pooling mechanism", "itemA": "No weightage system needs to be developed or applied for this type of account.", "itemB": "Deposits are pooled by tenor and assigned a weightage (the longer the maturity, the higher the weight) on a daily product basis, as illustrated in Box 8.1." },
+      { "dimension": "Relationship type", "itemA": "A debtor–creditor relationship between the bank and the depositor continues throughout.", "itemB": "A Musharakah relationship exists among the pool's depositors, combined with a Mudarabah relationship between the pool (as Rabbul-mal) and the bank (as Mudarib)." },
+      { "dimension": "Suitability", "itemA": "Suited to risk-averse clients who want their funds safeguarded as an interest-free loan with no exposure to the bank's financing risk.", "itemB": "Suited to risk-prone depositors willing to become part of the bank's earning-asset base in exchange for a variable, profit-linked return." }
+    ],
+    "source": { "chapters": [8], "sections": ["8.5.2"], "pages": [188, 189, 190, 191] }
+  },
+  {
+    "id": "wakalah-vs-waqf-takaful-model",
+    "title": "Wakalah Model vs Waqf Model of Takaful",
+    "itemALabel": "Pure Wakalah Model",
+    "itemBLabel": "Waqf Model",
+    "summary": "Section 16.4.1 lays out several models Shari'ah scholars have proposed for structuring a Takaful operator, and reports that a panel of over forty scholars led by Shaikh Taqi Usmani judged the Waqf (or Wakalah-Waqf) model the best basis for a Shari'ah-compliant system, over the pure Wakalah model generally practised in the Middle East.",
+    "dimensions": [
+      { "dimension": "Structural basis", "itemA": "The operator simply acts as Wakil (agent) for the participants under an agency contract.", "itemB": "Shareholders first create a Waqf (endowment) fund through an initial donation, to which participants' contributions are then added." },
+      { "dimension": "Operator's compensation", "itemA": "An agreed percentage of participants' donations (e.g. around 30 %), fixed annually in consultation with the Shari'ah committee, to cover all management expenses.", "itemB": "A management fee (roughly 25–30 %) for investing the Waqf fund's assets on a Wakalah basis, plus a separate Mudarib profit share on the investment side." },
+      { "dimension": "Ownership of underwriting surplus/loss (UWS/UWL)", "itemA": "The whole UWS/UWL belongs to the participants; the operator may still receive an incentive share of UWS based on performance.", "itemB": "UWS/UWL belongs to the Waqf fund itself, which may distribute it to beneficiaries, hold it as a reserve, or reinvest it for the Waqf's benefit — there is no obligation to distribute it." },
+      { "dimension": "Who ultimately bears the underwriting loss", "itemA": "Borne only by the participants; the operator merely extends Qard al-Hasan if needed, which scholars flag as inequitable since the operator bears no downside.", "itemB": "Absorbed by the fund itself from its reserves/Waqf corpus, with shareholders providing Qard al-Hasan to the fund in case of need." },
+      { "dimension": "Investment-side arrangement", "itemA": "The pure Wakalah model as described covers the agency relationship itself, without a distinctly separate investment contract.", "itemB": "A distinct Mudarabah contract governs investment of the fund's assets between the Waqf fund and the company, redeemed to the policyholder on an NAV basis at maturity." },
+      { "dimension": "Scholarly assessment", "itemA": "Shari'ah scholars have expressed reservations about this model for not being equitable to participants.", "itemB": "Regarded by the Usmani-led panel of over forty scholars as the best basis (alone or combined with Wakalah) for evolving a practical, Shari'ah-compliant Takaful system." }
+    ],
+    "source": { "chapters": [16], "sections": ["16.4.1"], "pages": [423, 424, 425, 426] }
   }
 ];
 
@@ -2963,6 +3037,174 @@ window.IFL_DATA.caseStudies = [
     "examTakeaway": "The book's line between Islamic and conventional financing is not whether the bank stocks physical goods, but whether it genuinely takes on ownership and risk of the asset, even momentarily, before earning a return from reselling or leasing it.",
     "source": { "chapter": 17, "section": "17.4.3", "pages": [450, 451] },
     "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-risk-sharing-1",
+    "title": "A Fixed-Rate Loan or a Profit-Sharing Partner?",
+    "chapter": 1,
+    "concept": "\"No Risk, No Gain\": Risk-Sharing vs Debt-Based Financing",
+    "scenario": "A small manufacturer needs $50,000 to expand. A conventional bank offers a loan at a fixed interest rate, repayable in full regardless of whether the expansion succeeds. Separately, an Islamic financier offers to provide the same amount as a partner, whose return depends entirely on the venture's actual profit or loss.",
+    "problemPrompt": "Using the book's own critique of the interest-based system, why is the conventional loan structurally more exploitative than the risk-sharing alternative, and what would the Islamic financier be entitled to (and liable for) instead?",
+    "analysisPrompts": ["What happens to the conventional lender's claim if the manufacturer's expansion fails?", "What does \"no risk, no gain\" mean for what the Islamic financier can legitimately earn?"],
+    "textbookAnswer": "The conventional loan obliges the manufacturer to repay principal plus interest regardless of the business outcome, transferring all risk to the borrower while guaranteeing the lender a risk-free return — exactly the pattern the book blames for unrepayable debt and exploitation. The Islamic partner's entitlement to any profit is conditional on the venture actually succeeding, and the financier must also bear a share of any loss if it fails: profit tied to real risk and responsibility, not a guaranteed charge.",
+    "whyExplanation": "The book describes the interest-based system as \"a recipe for exploitation\" that creates unrepayable debt (1.2), states that the prohibition of interest essentially implies \"there can be no gain without risk-sharing\" and that \"no risk, no gain\" is the basic juristic principle of Shari'ah and a normative rule of justice (1.5), and that any entitlement to profit comes from value addition and bearing business risk (1.8).",
+    "examTakeaway": "The book's core objection to conventional debt is not the interest rate itself but that it detaches the financier's guaranteed return from the business's actual risk — Islamic finance instead ties any return strictly to risk genuinely borne.",
+    "source": { "chapter": 1, "section": "1.2, 1.5", "pages": [5, 9] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-conventional-debt-1",
+    "title": "Rolling Over a Country's Debt With More Debt",
+    "chapter": 1,
+    "concept": "Interest-Based Debt Accumulation vs Risk-Related Capital",
+    "scenario": "A developing country facing a budget shortfall is weighing two options: taking on more foreign interest-bearing loans, to be serviced by raising taxes on citizens regardless of whether the funded projects succeed, continuing a pattern of yesterday's debt repaid by today's fresh debt; or attracting foreign direct and portfolio investment in specific real projects, where the investor's return depends on those projects' actual performance.",
+    "problemPrompt": "Which option does the book warn against as part of a global \"recipe for exploitation,\" and why does it argue that replacing risk-free borrowed capital with risk-related investment breaks the cycle?",
+    "analysisPrompts": ["What does the book say happens when governments raise taxes to service debt without providing citizens any corresponding benefit?", "Why does the book prescribe risk-related capital, rather than further borrowing, as the remedy?"],
+    "textbookAnswer": "The book warns against continuing to borrow on interest to service existing debt — precisely the pattern it identifies as fueling unrepayable debt, forcing governments to raise taxes and charges on the public without providing corresponding services, and worsening inequality. Its prescribed alternative is replacing risk-free debt capital with risk-related, asset/business-based investment (direct and portfolio investment), so the funder's return is tied to real economic performance rather than a guaranteed claim serviced through taxation.",
+    "whyExplanation": "The book states that \"yesterday's debt can be repaid by taking out more debt today\" and that governments raise taxes without providing socio-economic amenities to service it (1.2), and that \"the solution lies in replacing risk-free with risk-related capital and making efforts to ensure inflow of foreign resources in the form of direct and portfolio investments\" (1.3).",
+    "examTakeaway": "The book's prescribed remedy for the developing-world debt trap is not debt relief alone but a structural shift from risk-free borrowed capital to risk-related direct and portfolio investment.",
+    "source": { "chapter": 1, "section": "1.2, 1.3", "pages": [5, 8] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-maqasid-1",
+    "title": "Seizing a Landowner's Property to Fight Inequality",
+    "chapter": 2,
+    "concept": "Maqasid al-Shari'ah: Protection of Property vs Redistributive Justice",
+    "scenario": "Aiming to reduce inequality, a government plans to seize a portion of a large landowner's property without compensation and outside any of the recognized means of transfer (sale, inheritance, gift, or lawful State grant), redistributing it directly to landless farmers.",
+    "problemPrompt": "Does Maqasid al-Shari'ah's objective of socio-economic justice justify this seizure, or does another primary objective of Shari'ah constrain the government's options here?",
+    "analysisPrompts": ["Which of Shari'ah's primary objectives specifically protects property, and where does it rank alongside the others?", "What legitimate means does the book identify for acquiring or transferring property, and what kind of limit does Islam place on wealth-holding?"],
+    "textbookAnswer": "No — while establishing justice and equity is a recognized secondary objective of Shari'ah, and reducing the gap between rich and poor is a genuine concern of the Islamic economic system, the protection and preservation of property (alongside religion, life, progeny, intellect and honour) is one of Shari'ah's primary objectives. The book identifies specific legitimate means of acquiring or transferring property — work, inheritance, purchase, gift, and the State granting possession — and notes that Islam's limits on wealth are in terms of the quality/means of acquisition, not an arbitrary cap on quantity. Seizing land outside these recognized means would violate the primary objective of protecting property, even if the stated goal is equity.",
+    "whyExplanation": "The book lists \"protection of wealth and property,\" with emphasis on valid (Halal) earning, among Shari'ah's primary objectives (2.2.2), and states that Islam's means of possessing goods are work, inheritance, purchase, gifts and State-granted possession, with limits on acquisition \"in terms of the quality or the means of acquiring and not in terms of quantity of wealth\" (2.5.1).",
+    "examTakeaway": "Maqasid al-Shari'ah's pursuit of socio-economic justice operates within, not against, the primary objective of protecting property — Islam regulates the legitimate means of acquiring and disposing of wealth rather than authorizing the State to seize it outside those means.",
+    "source": { "chapter": 2, "section": "2.2.2, 2.5.1", "pages": [23, 33] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-welfare-state-1",
+    "title": "A Universal Cash Handout as the Whole Welfare Policy",
+    "chapter": 2,
+    "concept": "Islamic Welfare Approach: Need Fulfilment and the Order of Responsibility",
+    "scenario": "A government proposes to satisfy its welfare obligations entirely through an equal, unconditional cash transfer to every citizen, regardless of whether they are capable of working, arguing this alone fulfils Islam's welfare mandate.",
+    "problemPrompt": "Does this equal-cash-transfer approach match how the book frames the Islamic welfare and need-fulfilment obligation, or is a different structure required?",
+    "analysisPrompts": ["What does the book say is the primary way individuals are expected to meet their basic needs, before any State support is triggered?", "What order of responsibility does the book lay out for someone who genuinely cannot earn?"],
+    "textbookAnswer": "No — the book's welfare approach obliges every capable person to work and earn to meet his or her own and dependents' needs first, with the State responsible only for enabling those willing and able to work to find employment. Only those genuinely unable to earn fall to the support of relatives and neighbours and, failing that, the State. An equal cash transfer to everyone regardless of capacity to work bypasses this structured order of responsibility and the emphasis on productive self-sufficiency.",
+    "whyExplanation": "The book states that the Islamic economy \"achieves this objective by obliging each capable person to work, enabling him to fulfil his and his dependents' basic needs,\" with the State responsible for enabling the willing and able to find employment, and that only if someone is unable to earn do fellow beings, and ultimately the State, become obliged to support them (2.5.2).",
+    "examTakeaway": "Islam's welfare mandate is not a blanket case for indiscriminate State handouts — it follows a structured order (self-effort, then family/community, then the State) targeted at genuine incapacity, in service of Shari'ah's secondary objective of social security.",
+    "source": { "chapter": 2, "section": "2.5.2", "pages": [34, 35] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-valid-gains-1",
+    "title": "A \"Trade Deposit\" That Guarantees Its Return",
+    "chapter": 4,
+    "concept": "Valid Gains on Investment (4.2.5)",
+    "scenario": "An Islamic bank wants to launch a \"Trade Deposit\" marketed as Shari'ah-compliant: depositors' funds are nominally invested in a pool of Murabaha trades, but the bank guarantees depositors a fixed 8% annual return regardless of whether the underlying trades are actually profitable, with depositors bearing no exposure whatsoever to any trade loss.",
+    "problemPrompt": "Does this product satisfy the book's conditions for \"valid gains on investment,\" or does it simply recreate interest under a trade label?",
+    "analysisPrompts": ["What must a gain be tied to for it to count as legitimate profit rather than Riba?", "What happens to the capital owner's claim to profit if he is not exposed to any possibility of loss?"],
+    "textbookAnswer": "This product fails the test. Genuine investment gain requires the capital to be exposed to direct or indirect business risk — \"along with the entitlement to profit, the liability of risk of loss rests with the capital itself; no other factor can be made to bear the burden of the loss on capital.\" A blanket guarantee of a fixed return regardless of the underlying trades' actual performance decouples the depositors' return from real business risk, which the book's framework does not recognize as valid investment gain.",
+    "whyExplanation": "The book states that profit is recognized as a \"reward\" of capital only where the liability of risk of loss also rests with that capital, and that one can earn profit on investment or financing only when it is \"related to certain assets exposed to direct or indirect business risk\" (4.2.5).",
+    "examTakeaway": "A fixed return can be legitimate in genuine trade or Ijarah-based products, but only where real asset/business risk is actually passed through to the fund — a flat guarantee regardless of underlying performance is not valid investment gain, whatever label is used.",
+    "source": { "chapter": 4, "section": "4.2.5", "pages": [78, 79] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-risk-responsibility-1",
+    "title": "Locking In Profit While Pushing Off the Risk",
+    "chapter": 4,
+    "concept": "Al Kharaj bi-al-Daman: Entitlement to Profit With Risk and Responsibility (4.2.6)",
+    "scenario": "An Islamic bank has purchased goods for a client under a Murabaha to Purchase Orderer arrangement. Before executing the actual Murabaha sale, it wants the client to bear the risk of the goods (e.g. damage in transit) even though the bank still legally owns them, so the bank can lock in its profit margin without exposure.",
+    "problemPrompt": "Is this arrangement consistent with the \"Al Kharaj bi-al-Daman\" maxim?",
+    "analysisPrompts": ["Who must bear ownership-related risk while the goods remain in the bank's ownership, under this maxim?", "What happens to the bank's claim to profit if it separates ownership from risk this way?"],
+    "textbookAnswer": "No — under Al Kharaj bi-al-Daman, the bank, as owner, must bear the risk of the goods for as long as it holds them, until the sale is validly executed and risk transfers together with ownership to the buyer. It cannot shift that risk to the client in advance while still profiting from the eventual sale margin; that would mean earning profit while offloading the corresponding liability, which the book identifies as an impermissible transfer of commercial risk without transfer of the related reward.",
+    "whyExplanation": "The book states that \"the assumption of business risk is a precondition for entitlement to any profit over the principal,\" that Al Kharaj bi-al-Daman means \"one has to bear loss, if any, if he wants to get any profit over his investment,\" that \"transfer of commercial risk to anyone else without transferring the related reward is not permissible,\" and that \"ownership cannot be separated from the risk of related loss\" (4.2.6).",
+    "examTakeaway": "Whoever holds ownership of an asset holds its risk — a bank cannot keep its profit margin while pushing pre-sale ownership risk onto the client; risk and reward of ownership must travel together.",
+    "source": { "chapter": 4, "section": "4.2.6", "pages": [81, 82] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-contract-validity-1",
+    "title": "A Murabaha Price That Depends on When You Pay",
+    "chapter": 5,
+    "concept": "Voidable (Fasid) Contracts: Two Sales in One",
+    "scenario": "A bank tells a Murabaha client: \"the price will be $100 if you pay within a month, or $105 if you pay within two months,\" and executes the sale on this basis without the client choosing and fixing one final price at the time of contract.",
+    "problemPrompt": "What is this contract's status — valid, Fasid (voidable), or Batil (void) — and what, if anything, would fix it?",
+    "analysisPrompts": ["Why does a contract need one single, definite price stipulated at execution?", "What is the difference between a defect in a contract's essential elements ('Asl) and a defect in its external attributes (Wasf)?"],
+    "textbookAnswer": "This is a Fasid (voidable) contract — an example of \"two sales in one,\" listed among the Hanafi categories of voidable contracts, where a single contract relates to two prices without either being finally specified. It is legal in its essential elements ('Asl) but defective in an external attribute (Wasf) — the price ambiguity — so it is capable of correction: once the parties agree on one single, final price before separating, the defect is removed and the contract becomes valid.",
+    "whyExplanation": "The book gives almost this exact example — \"If you pay within a month the price will be $100, and if within two months you will be charged $105... the transaction is not valid\" (5.4.2) — and lists \"two sales in one... selling one commodity for two prices, one being cash and the other a credit price... without specifying either\" among the \"Some Forms of Voidable Contracts\" under Hanafi law, noting that a Fasid contract \"can be regularized or validated by removing the cause of irregularity\" (5.7.2).",
+    "examTakeaway": "An ambiguous or dual price in a Murabaha is not automatically fatal — under the Hanafi Fasid category, fixing a single stipulated price before the parties separate cures the contract, unlike a defect that strikes at the contract's essential elements.",
+    "source": { "chapter": 5, "section": "5.7.2", "pages": [108, 122] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-contract-validity-2",
+    "title": "Selling Wheat You Don't Own and Hope to Buy Later",
+    "chapter": 5,
+    "concept": "Void (Batil) Contracts: Short-Selling of an Unpossessed Commodity",
+    "scenario": "A commodities trader signs a contract to sell 100 tons of wheat for deferred delivery in three months. He does not own or possess a single ton at the time of contract, takes no advance payment, and simply plans to buy the wheat from the market closer to the delivery date, hoping prices fall in the meantime.",
+    "problemPrompt": "Since this is neither a Salam nor an Istisna'a arrangement, what is the contract's status, and why?",
+    "analysisPrompts": ["What must be true of the seller's ownership and possession at the time of a valid sale?", "Why do Salam and Istisna'a get to be exceptions to that rule when this contract does not?"],
+    "textbookAnswer": "This is a void (Batil) contract — a straightforward case of short-selling, which the book says has been \"prohibited by almost all scholars,\" because the seller neither owns nor possesses the subject matter at the time of contract and the sale fails the basic conditions of existence, ownership and capacity to deliver, without qualifying for either of the two recognized exceptions (Salam or Istisna'a) that permit selling a not-yet-possessed or nonexistent item under strict conditions.",
+    "whyExplanation": "The book states \"if a nonexistent thing is sold, even with mutual consent, the sale is void according to the Shari'ah... Accordingly, short-selling has been prohibited by almost all scholars\" (5.4.2), that valid sales require the commodity to exist and be owned/possessed by the seller, with \"Salam... and Istisna'a\" as \"the only two exceptions to this principle\" (5.5.2), and that a Batil contract, where possession and deliverability are not fulfilled, \"does not give rise to any effect\" (5.7.3).",
+    "examTakeaway": "Unlike a Fasid contract's fixable external defect, a Batil contract — such as short-selling an unowned, unpossessed commodity outside the Salam/Istisna'a exceptions — fails on an essential element and produces no legal effect at all; it cannot simply be cured.",
+    "source": { "chapter": 5, "section": "5.5.2, 5.7.3", "pages": [110, 123] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-qard-vs-pls-1",
+    "title": "A Retiree and Her Son Want Very Different Deposits",
+    "chapter": 8,
+    "concept": "Current Account (Qard) vs PLS Investment Deposit",
+    "scenario": "A retiree wants to park her savings with an Islamic bank; she must be able to withdraw at any time with zero risk of principal loss and doesn't need any return, just safety. Her son, a young professional, wants to deposit his savings for a year, is comfortable with some risk, and wants a shot at a higher return.",
+    "problemPrompt": "Which deposit structure should the bank recommend to each of them, and why do the two differ so much in risk and return?",
+    "analysisPrompts": ["What contractual basis governs a current account, and what does the bank owe the depositor at all times?", "What is different about a PLS investment/savings deposit, and what must be disclosed to the depositor upfront?"],
+    "textbookAnswer": "The retiree should be offered a current account, based on Qard/Amanah: the bank guarantees her principal as a virtually risk-free loan, but it carries no return (or at most a discretionary, non-obligatory gratis payment), since a Qard cannot legally carry any promised increase. Her son fits a savings or investment deposit on a profit-and-loss-sharing (PLS/Mudarabah) basis: his return is not guaranteed and depends on the bank's actual investment results and a pre-agreed profit-sharing ratio (weighted by deposit tenor), and he could in principle share in a loss if the underlying business genuinely loses money without misconduct.",
+    "whyExplanation": "The book states that current deposits generally carry no return because they \"take the form of loans given to Islamic banks and the loans cannot carry any return,\" with the bank guaranteeing the principal, while \"all remunerative deposits in Islamic banks... shall be accepted on a profit and loss sharing (PLS) basis,\" with the profit ratio agreed at account opening and losses shared strictly per the capital ratio (8.5.2).",
+    "examTakeaway": "A current account (Qard) trades away any return for a full principal guarantee; a PLS investment deposit trades away that guarantee for a share of real profit (and potential loss) — the bank must match the product to each depositor's actual risk appetite, not blend the two.",
+    "source": { "chapter": 8, "section": "8.5.2", "pages": [188, 189] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-liquidity-management-1",
+    "title": "Covering a Short-Term Cash Shortfall Without Interest",
+    "chapter": 8,
+    "concept": "Islamic Interbank Liquidity Management",
+    "scenario": "An Islamic bank faces a short-term liquidity shortfall and needs to raise cash quickly without resorting to interest-based interbank borrowing.",
+    "problemPrompt": "What Shari'ah-compliant tools does the book describe for a bank to manage this kind of short-term liquidity gap?",
+    "analysisPrompts": ["What role can Sukuk play in raising liquidity quickly?", "What interbank financing structure does the book describe, and how is the 'price' of such a placement determined instead of an interest rate?"],
+    "textbookAnswer": "The bank can draw on several tools the book describes: direct interbank placement on a Mudarabah or Musharakah basis, where the deficit bank shares a portion of its profits according to a negotiated or centrally-recommended Mudarabah ratio rather than paying interest; selling Sukuk it holds (e.g. Ijarah Sukuk) in the secondary market, or even to the central bank where regulation allows; and, where available, a central-bank lender-of-last-resort facility structured as a short Mudarabah with a profit ratio weighted toward the central bank to discourage overuse.",
+    "whyExplanation": "The book states that \"direct placement or acquisition of funds (in the inter-bank funds market) on the basis of Mudarabah and Musharakah is also possible,\" with the deficit bank sharing profit per a Mudarabah ratio; that \"Sukuk are important for liquidity management... To generate liquidity, Sukuk can be sold/purchased in the secondary market\" or to the central bank; and that Islamic banks may use a central bank lender-of-last-resort arrangement \"on a Mudarabah basis... for, say, a three day grace period\" (8.5.3).",
+    "examTakeaway": "Islamic banks manage short-term liquidity gaps not through interest-bearing interbank loans but through Mudarabah/Musharakah-based interbank placements and the sale of Sukuk — tools that keep the return tied to profit-sharing or asset ownership rather than a fixed interest charge.",
+    "source": { "chapter": 8, "section": "8.5.3", "pages": [192, 193] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-dual-taxation-1",
+    "title": "Why an Islamic Mortgage Gets Taxed Twice",
+    "chapter": 18,
+    "concept": "Regulatory and Tax Neutrality for Islamic Finance",
+    "scenario": "A country's tax code charges a transfer/stamp duty every time real property changes hands. Under a Diminishing Musharakah home-financing structure, the bank must first acquire a share of the house and then progressively transfer units of it to the client, triggering multiple rounds of transfer tax — making the Islamic product markedly more expensive than a conventional mortgage, where the property passes once from developer to homebuyer secured only by a lien.",
+    "problemPrompt": "What underlying policy problem does the book identify here, and what does it call on regulators to do about it?",
+    "analysisPrompts": ["Why do Islamic modes like Murabaha and Diminishing Musharakah inherently involve more taxable asset transfers than a conventional loan?", "What specific regulatory fix does the book recommend, and what real-world precedent does it cite?"],
+    "textbookAnswer": "The book identifies this as a structural regulatory/tax disadvantage: because Islamic modes require the bank to genuinely acquire and then transfer or resell real assets — rather than merely lending against a lien as in a conventional mortgage — tax regimes not designed with this in mind can subject one economically equivalent transaction to multiple taxable transfers, making Islamic finance artificially uncompetitive. It calls on regulators to build \"flexible regulatory and tax frameworks\" that specifically save \"the IFIs and their customers from dual taxation, particularly in respect of mortgage financing and Murabaha and leasing operations,\" citing the UK FSA's stamp-duty relief for Islamic mortgages as a positive precedent.",
+    "whyExplanation": "The book states that \"Islamic banks have to purchase assets for onward sale or lease to their clients. As such, the levy of taxation and fees on their purchases leads to an uneven playing field for them compared with their conventional counterparts,\" and lists \"saving the IFIs and their customers from dual taxation, particularly in respect of mortgage financing and Murabaha and leasing operations\" as a needed regulatory step, noting the UK FSA's flexibility on mortgage stamp duty as a model (18.3.2).",
+    "examTakeaway": "A major non-Shari'ah obstacle to Islamic finance is tax-code neutrality — because its contracts require real asset transfers that conventional lending avoids, unmodified tax rules can multiply the tax cost of an economically equivalent transaction, which is a policy fix, not a Shari'ah one.",
+    "source": { "chapter": 18, "section": "18.3.2", "pages": [470, 471] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
+  },
+  {
+    "id": "cs-liquidated-damages-1",
+    "title": "How Much Can the Bank Actually Recover From a Defaulter?",
+    "chapter": 18,
+    "concept": "Issues in Islamic Finance: Quantifying a Bank's Loss on Default",
+    "scenario": "An Islamic bank faces a growing number of overdue receivables, some from wilful defaulters and some from clients in genuine hardship. Its Shari'ah board confirms a penalty on wilful default is permissible and must go to charity, but bank management wants a clear, standard way to also recover its own actual financial loss from a defaulter's delay, and is unsure exactly how a court should quantify that loss.",
+    "problemPrompt": "What does the book identify as the unresolved practical issue here, and what does it point to as a partial solution?",
+    "analysisPrompts": ["Why can't conventional \"opportunity cost\" simply be used to measure the bank's loss?", "What alternative basis have some Shari'ah boards used instead, and what should ultimately guide a court's decision?"],
+    "textbookAnswer": "The book flags this as a genuinely unresolved practical issue, not one of pure Shari'ah interpretation: it is settled that a default penalty is permissible and must go to charity as a deterrent, and that a bank may separately claim its own actual loss through a court or arbitration, but there is no firm, universally accepted basis for courts to quantify that loss — conventional \"opportunity cost\" cannot be the basis. Some Shari'ah boards allow charging defaulters a rate based on income the bank actually earned from a similar portfolio in the same period, but the book says courts should ultimately weigh the client's financial position and behaviour alongside the bank's actual expenses and time spent in litigation when deciding how much, if any, goes to the bank rather than to charity.",
+    "whyExplanation": "The book lists \"the award of liquidated damages to the banks in cases of default\" as an unresolved issue, noting that while \"the penalty paid by the defaulting client goes to the charity fund,\" a bank \"may claim their loss through a court or any independent arbitration; but on what firm basis the courts would be deciding is another related issue. Conventional opportunity cost per se should not be the basis...\" and that \"the deciding factor should be the financial position and the behaviour of the client and the expenses and time involved in litigation\" (18.3.2).",
+    "examTakeaway": "Even where Shari'ah principle is settled — penalties go to charity, banks may recover genuine loss — the book flags a real operational gap: no firm, agreed method for courts to quantify a bank's \"actual loss\" from default, as one of Islamic finance's practical, not doctrinal, unresolved issues.",
+    "source": { "chapter": 18, "section": "18.3.2", "pages": [466] },
+    "disclaimer": "Educational scenario for applying Muhammad Ayub's textbook framework — not a Shari'ah ruling or professional financial/legal advice."
   }
 ];
 
@@ -3020,7 +3262,23 @@ window.IFL_DATA.conceptMap = {
     { "id": "islamic-vs-conventional-banking", "label": "Islamic vs Conventional Banking", "chapter": 17, "href": "#/chapter/17", "group": "appraisal" },
     { "id": "way-forward", "label": "The Way Forward", "chapter": 18, "href": "#/chapter/18", "group": "appraisal" },
     { "id": "policy-agenda", "label": "Agenda for Policymakers", "chapter": 18, "href": "#/chapter/18", "group": "appraisal" },
-    { "id": "potential-issues-challenges", "label": "Potential, Issues and Challenges", "chapter": 18, "href": "#/chapter/18", "group": "appraisal" }
+    { "id": "potential-issues-challenges", "label": "Potential, Issues and Challenges", "chapter": 18, "href": "#/chapter/18", "group": "appraisal" },
+
+    { "id": "mudarabah-sukuk", "label": "Mudarabah Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t11", "group": "markets" },
+    { "id": "musharakah-sukuk", "label": "Musharakah Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t12", "group": "markets" },
+    { "id": "ijarah-sukuk", "label": "Ijarah Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t13", "group": "markets" },
+    { "id": "salam-istisnaa-murabaha-sukuk", "label": "Salam/Istisna'a/Murabaha Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t14", "group": "markets" },
+    { "id": "mixed-portfolio-sukuk", "label": "Mixed Portfolio Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t14", "group": "markets" },
+    { "id": "investment-funds", "label": "Islamic Investment Funds", "chapter": 8, "href": "#/chapter/8/topic/ch8-t14", "group": "markets" },
+    { "id": "equity-fund-risk-profiles", "label": "Equity Fund Risk Profiles", "chapter": 8, "href": "#/chapter/8/topic/ch8-t14", "group": "markets" },
+    { "id": "islamic-investment-banking", "label": "Islamic Investment Banking", "chapter": 8, "href": "#/chapter/8/topic/ch8-t7", "group": "markets" },
+    { "id": "nbfis", "label": "NBFIs (Non-Bank Financial Institutions)", "chapter": 8, "href": "#/chapter/8/topic/ch8-t12", "group": "markets" },
+    { "id": "gdr", "label": "Global Depository Receipt (GDR)", "chapter": 8, "href": "#/chapter/8/topic/ch8-t12", "group": "markets" },
+    { "id": "public-sector-sukuk-financing", "label": "Public Sector & Government Sukuk Financing", "chapter": 8, "href": "#/chapter/8/topic/ch8-t13", "group": "markets" },
+    { "id": "interbank-mudarabah-market", "label": "Inter-bank Mudarabah Market", "chapter": 8, "href": "#/chapter/8/topic/ch8-t13", "group": "markets" },
+    { "id": "treasury-functions", "label": "Treasury Functions (Debt & Risk Management)", "chapter": 8, "href": "#/chapter/8/topic/ch8-t15", "group": "markets" },
+    { "id": "repo-reverse-repo", "label": "Repo / Reverse Repo", "chapter": 8, "href": "#/chapter/8/topic/ch8-t2", "group": "markets" },
+    { "id": "cdo", "label": "Collateralized Debt Obligations (CDOs)", "chapter": 8, "href": "#/chapter/8/topic/ch8-t11", "group": "markets" }
   ],
   "edges": [
     { "from": "islamic-economic-system", "to": "shariah" },
@@ -3095,7 +3353,51 @@ window.IFL_DATA.conceptMap = {
     { "from": "practice-criticism-appraisal", "to": "way-forward" },
     { "from": "conceptual-criticism-appraisal", "to": "way-forward" },
     { "from": "way-forward", "to": "policy-agenda" },
-    { "from": "way-forward", "to": "potential-issues-challenges" }
+    { "from": "way-forward", "to": "potential-issues-challenges" },
+
+    { "from": "sukuk", "to": "mudarabah-sukuk" },
+    { "from": "mudarabah-sukuk", "to": "mudarabah" },
+    { "from": "sukuk", "to": "musharakah-sukuk" },
+    { "from": "musharakah-sukuk", "to": "musharakah" },
+    { "from": "musharakah-sukuk", "to": "mudarabah-sukuk" },
+    { "from": "sukuk", "to": "ijarah-sukuk" },
+    { "from": "ijarah-sukuk", "to": "ijarah" },
+    { "from": "sukuk", "to": "salam-istisnaa-murabaha-sukuk" },
+    { "from": "salam-istisnaa-murabaha-sukuk", "to": "salam" },
+    { "from": "salam-istisnaa-murabaha-sukuk", "to": "istisnaa" },
+    { "from": "salam-istisnaa-murabaha-sukuk", "to": "murabaha" },
+    { "from": "sukuk", "to": "mixed-portfolio-sukuk" },
+    { "from": "mixed-portfolio-sukuk", "to": "musharakah-sukuk" },
+    { "from": "mixed-portfolio-sukuk", "to": "ijarah-sukuk" },
+    { "from": "mixed-portfolio-sukuk", "to": "salam-istisnaa-murabaha-sukuk" },
+
+    { "from": "islamic-banking-overview", "to": "investment-funds" },
+    { "from": "investment-funds", "to": "mudarabah" },
+    { "from": "investment-funds", "to": "equity-fund-risk-profiles" },
+    { "from": "investment-funds", "to": "murabaha" },
+    { "from": "investment-funds", "to": "ijarah-sukuk" },
+
+    { "from": "islamic-banking-overview", "to": "islamic-investment-banking" },
+    { "from": "islamic-investment-banking", "to": "nbfis" },
+    { "from": "nbfis", "to": "islamic-banking-overview" },
+    { "from": "islamic-investment-banking", "to": "gdr" },
+    { "from": "gdr", "to": "sukuk" },
+
+    { "from": "islamic-banking-overview", "to": "public-sector-sukuk-financing" },
+    { "from": "public-sector-sukuk-financing", "to": "musharakah-sukuk" },
+    { "from": "public-sector-sukuk-financing", "to": "ijarah-sukuk" },
+    { "from": "islamic-banking-overview", "to": "interbank-mudarabah-market" },
+    { "from": "interbank-mudarabah-market", "to": "mudarabah" },
+    { "from": "islamic-banking-overview", "to": "treasury-functions" },
+    { "from": "treasury-functions", "to": "sukuk" },
+
+    { "from": "islamic-banking-overview", "to": "repo-reverse-repo" },
+    { "from": "repo-reverse-repo", "to": "riba" },
+    { "from": "repo-reverse-repo", "to": "sukuk" },
+
+    { "from": "securitization", "to": "cdo" },
+    { "from": "cdo", "to": "gharar" },
+    { "from": "cdo", "to": "conceptual-criticism-appraisal" }
   ]
 };
 
@@ -11850,6 +12152,29 @@ window.IFL_DATA.chapters[11] = {
       ],
       processSteps: [],
       examples: [],
+      calculations: [
+        {
+          "title": "Practice Example — generated for learning: Cost-Based Rent with a Benchmark Ceiling/Floor",
+          "formula": "First-period monthly rent = (Lessor's aggregate acquisition cost x agreed annual return rate) / 12; subsequent-period rent = benchmark-implied rent, capped by a mutually agreed ceiling/floor around the prior rent.",
+          "inputs": [
+            { "label": "Lessor's aggregate acquisition cost of the leased asset", "value": "$120,000" },
+            { "label": "Agreed target annual return for year 1 (mutually agreed, cost-based)", "value": "10% p.a." },
+            { "label": "Agreed ceiling/floor collar on rent movement (Gharar/Jahala safeguard)", "value": "±5% of the prior period's rent" },
+            { "label": "Benchmark-implied target return for year 2 (e.g. from a rising reference rate)", "value": "12% p.a." }
+          ],
+          "steps": [
+            "Year 1 rent is fixed by mutual agreement on the lessor's aggregate cost: monthly rent = ($120,000 x 10%) / 12 = $1,000 per month - this is the 'first period's rental amount' that must be specified for a floating structure to be valid.",
+            "For year 2, suppose the agreed benchmark (e.g. a price index or reference rate) implies a higher target return of 12% p.a., which on its own would give a new monthly rent of ($120,000 x 12%) / 12 = $1,200.",
+            "Before applying it, check the agreed ceiling: rent may not move by more than 5% from the prior period's $1,000, so the ceiling = $1,000 x 1.05 = $1,050 and the floor = $1,000 x 0.95 = $950.",
+            "Since the benchmark-implied $1,200 exceeds the $1,050 ceiling, the actual year-2 rent is capped at $1,050, not the full $1,200 the benchmark would otherwise imply.",
+            "If instead the benchmark had implied a lower rent of, say, $900, it would be raised to the $950 floor rather than allowed to fall further."
+          ],
+          "result": "Year 1 rent = $1,000/month (fixed by mutual agreement on cost). Year 2 rent is capped at $1,050/month (not the $1,200 the raw benchmark would imply), because the agreed ±5% ceiling/floor limits the swing.",
+          "interpretation": "This illustrates 11.3.2's three rules together: rent can be set from the lessor's aggregate cost by mutual agreement; a floating structure is valid once the first period's amount is fixed; and a ceiling/floor collar is what keeps benchmark-linked adjustments (even one based on an interest-rate-like reference) from producing the kind of open-ended Gharar/Jahala the scholars want to avoid. The book gives no worked numeric example in 11.3.2 itself - the numbers here are for practice only, though the mechanism (cost-based first rent, benchmark adjustment, capped collar) is exactly what the text describes.",
+          "generated": true,
+          "source": { "chapter": 11, "section": "11.3.2", "pages": [283, 284] }
+        }
+      ],
       commonConfusions: [
         "Students often assume that using LIBOR (an interest rate) as a lease pricing benchmark automatically makes an Ijarah non-compliant. The author explicitly argues this is NOT the correct view - what matters for Shari'ah compliance is genuine risk-bearing by the lessor, not the choice of pricing benchmark, though non-interest benchmarks remain preferable for clarity/optics."
       ],
@@ -12898,6 +13223,33 @@ window.IFL_DATA.chapters[12] = {
       examples: [
         { title: "Sitara Chemical Industries TFCs (Box 12.3, summarized)", body: "Sitara Chemical Industries (Pakistan) issued Rs. 360 million of 5-year Shirkah-based term finance certificates in June 2002, funding part of an expansion project. Profit/loss was linked to the company's operating profit via a two-tier structure (Level I and Level II profit rates), paid semi-annually, with a Takaful reserve absorbing losses attributable to TFC holders before any shortfall was adjusted against principal redemption.", generated: false }
       ],
+      calculations: [
+        {
+          "title": "Practice Example — generated for learning: Box 12.3's Two-Tier TFC Profit Mechanism Applied to a Year's Operating Profit",
+          "formula": "Level I profit = 12% p.a. x outstanding principal, applied to the first Rs. 100 million of operating profit (pro-rated if operating profit is under Rs. 100 million). Level II profit = 2% p.a. x outstanding principal, applied to each subsequent Rs. 100 million slab of operating profit; one-quarter of Level II profit is transferred to the Takaful reserve and the remaining three-quarters go to TFC holders.",
+          "inputs": [
+            { "label": "Outstanding TFC principal (full issue size)", "value": "Rs. 360,000,000" },
+            { "label": "Level I rate (on first Rs. 100 million operating profit)", "value": "12% p.a. of outstanding principal" },
+            { "label": "Level II rate (on each subsequent Rs. 100 million operating profit)", "value": "2% p.a. of outstanding principal" },
+            { "label": "Share of Level II profit kept in the Takaful reserve", "value": "1/4 (remaining 3/4 goes to TFC holders)" },
+            { "label": "TFC face value per certificate", "value": "Rs. 5,000 (so Rs. 360,000,000 / 5,000 = 72,000 certificates)" },
+            { "label": "Assumed operating profit for the year (illustrative, not stated in the book)", "value": "Rs. 300,000,000" }
+          ],
+          "steps": [
+            "Level I: the first Rs. 100 million of operating profit fully clears the Level I tier, entitling TFC holders to 12% p.a. of the outstanding principal: 12% x Rs. 360,000,000 = Rs. 43,200,000 for the year.",
+            "Operating profit above Rs. 100 million = Rs. 300,000,000 - Rs. 100,000,000 = Rs. 200,000,000, which exactly fills two full Rs. 100 million Level II slabs (Rs.100-200m and Rs.200-300m).",
+            "Each full Level II slab earns 2% p.a. of principal: 2% x Rs. 360,000,000 = Rs. 7,200,000 per slab; two slabs = Rs. 14,400,000 total Level II profit for the year.",
+            "One-quarter of the Rs. 14,400,000 Level II profit is transferred to the Takaful reserve: Rs. 14,400,000 / 4 = Rs. 3,600,000; the remaining three-quarters go to TFC holders: Rs. 14,400,000 x 3/4 = Rs. 10,800,000.",
+            "Total annual profit entitlement to TFC holders = Level I (Rs. 43,200,000) + Level II holders' share (Rs. 10,800,000) = Rs. 54,000,000.",
+            "As a percentage of the Rs. 360,000,000 principal: Rs. 54,000,000 / Rs. 360,000,000 = 15% p.a. - and per certificate, Rs. 54,000,000 / 72,000 certificates = Rs. 750 per certificate per year, i.e. 15% of the Rs. 5,000 face value.",
+            "Since profit is paid six-monthly, each semi-annual on-account payment would be roughly half of the annual figures: about Rs. 27,000,000 to all TFC holders (Rs. 375 per certificate), subject to final adjustment once audited annual accounts are available."
+          ],
+          "result": "On an assumed Rs. 300 million operating profit, TFC holders earn Rs. 54,000,000 for the year (Rs. 750 per Rs. 5,000 certificate, a 15% return), while Rs. 3,600,000 is set aside in the Takaful reserve to absorb any future loss attributable to TFC holders.",
+          "interpretation": "This reproduces Box 12.3's real profit-sharing mechanism and outstanding principal exactly, using an assumed (not book-stated) operating profit to make the two-tier calculation concrete. Note that a 15% p.a. return is precisely the lower bound of the 15-24% per annum range the book reports Sitara's TFCs actually achieved historically - illustrating why the certificates 'remained highly profitable' and holders preferred to hold rather than sell them. The Takaful reserve mechanic means TFC holders' downside in a loss year is cushioned before any shortfall is adjusted against principal redemption.",
+          "generated": true,
+          "source": { "chapter": 12, "section": "12.7.3 (Box 12.3)", "pages": [335, 336, 337] }
+        }
+      ],
       commonConfusions: [
         "Students sometimes assume Islamic bank depositors are genuine Musharakah partners with full management rights. The chapter clarifies they are effectively sleeping partners in a Mudarabah-style relationship overall, even when the bank's own equity contribution technically creates a Musharakah relationship within the pool."
       ],
@@ -12977,6 +13329,34 @@ window.IFL_DATA.chapters[12] = {
       processSteps: [],
       examples: [
         { title: "Box 12.4 - Construction on Customer-Owned Land", body: "A plot worth 1,000,000 Dirhams belongs to the customer, who needs 800,000 Dirhams from the bank. The bank purchases 8 of 10 land units (100,000 Dirhams each) to form Shirkatulmilk joint ownership. Using the 800,000 Dirhams (in four instalments), the customer constructs the house. Once complete and habitable, the bank leases its share to the client; for the first year, the client pays only rent (no unit purchases, no rent decrease). One year after the last instalment's disbursement, the bank begins selling its ownership units to the client per the pre-agreed schedule, with rent decreasing accordingly until full title transfers.", generated: false }
+      ],
+      calculations: [
+        {
+          "title": "Box 12.5: Diminishing Musharakah Housing Finance — Monthly Unit-Purchase and Rent Schedule",
+          "formula": "Fixed monthly unit purchase = Bank's investment / Number of months. Monthly rent = (Outstanding bank investment x Annual rental rate) / 12. Total monthly payment = Unit purchase + Rent.",
+          "inputs": [
+            { "label": "Cost of house", "value": "Drs/Ryls 1,000,000" },
+            { "label": "Bank financing", "value": "80% = Ryls 800,000 (paid in one tranche)" },
+            { "label": "Client's own share", "value": "20% = Ryls 200,000" },
+            { "label": "Tenure", "value": "10 years = 120 months" },
+            { "label": "Rental rate on bank's outstanding investment", "value": "7% p.a." },
+            { "label": "Number of bank's ownership units (= number of months)", "value": "120" },
+            { "label": "Price per unit", "value": "Ryls 800,000 / 120 = Ryls 6,666.67 (constant every month)" }
+          ],
+          "steps": [
+            "Fixed monthly unit-purchase amount = Ryls 800,000 / 120 months = Ryls 6,666.67 - this stays the same every month for the whole 10-year tenure.",
+            "Month 1 rent = outstanding bank investment (Ryls 800,000) x 7% / 12 = Ryls 4,666.67. Month 1 total payment = Ryls 6,666.67 (unit) + Ryls 4,666.67 (rent) = Ryls 11,333.33.",
+            "After the month-1 unit purchase, the bank's outstanding investment falls to Ryls 800,000 - 6,666.67 = Ryls 793,333.33, and its remaining units fall from 120 to 119.",
+            "Month 2 rent recalculates on the new, smaller outstanding investment: Ryls 793,333.33 x 7% / 12 = Ryls 4,627.78. Month 2 total = Ryls 6,666.67 + 4,627.78 = Ryls 11,294.44 - already lower than month 1's total.",
+            "This pattern repeats every month: the Ryls 6,666.67 unit-purchase amount never changes, but rent shrinks each month as the bank's outstanding investment (and remaining units) keep falling.",
+            "By month 116 (four months from the end), only 4 units (Ryls 26,666.7 outstanding investment) remain, so rent has fallen to Ryls 194.44 and the month's total payment is Ryls 6,861.11.",
+            "In month 120, the client buys the last unit: Ryls 6,666.67 (unit) + Ryls 38.89 (rent) = Ryls 6,705.56. Outstanding bank investment reaches zero, remaining bank units reach zero, and full title to the house transfers to the client."
+          ],
+          "result": "The client's monthly payment falls steadily from Ryls 11,333.33 in month 1 to Ryls 6,705.56 in month 120, purely because the rent component shrinks from Ryls 4,666.67 to Ryls 38.89 as the bank's ownership units (and outstanding investment) run down from 120 to 0; the Ryls 6,666.67 unit-purchase component never changes.",
+          "interpretation": "This is the arithmetic behind the process step 'as the client purchases a unit, remaining-unit rental decreases correspondingly': rent is charged only on the bank's remaining outstanding investment (its unsold units), so buying back one unit each month shrinks both the bank's ownership share and its rentable base together. Because the unit-purchase amount is fixed while rent shrinks, the client's total monthly outlay declines over the facility's life - the opposite of a conventional amortizing loan, where the total instalment is typically held constant and only the interest/principal split moves within it.",
+          "generated": false,
+          "source": { "chapter": 12, "section": "12.9.2 (Box 12.5)", "pages": [341, 342, 343] }
+        }
       ],
       commonConfusions: [
         "Students often assume the entrepreneur/client is always bound to eventually buy out the financier's share in Diminishing Musharakah. This is only true where the client himself has made a binding promise (as in most Shirkatulmilk housing DM); in trade-financing DM, only the FINANCIER's promise to sell is binding - the client entrepreneur retains a free choice."
@@ -14435,6 +14815,28 @@ window.IFL_DATA.chapters[15] = {
         { "title": "WAPDA First Sukuk Co (WFS)", "body": "WFS, an SPV, purchased ten power generation turbines at Mangla Hydel Power Station from WAPDA for lease-back over seven years, with semiannual rentals benchmarked at 6-month KIBOR + 35bps; the government of Pakistan's guarantee of WAPDA's payment obligation made the Sukuk eligible for maintaining Islamic banks' statutory liquidity requirement (SLR).", "generated": false },
         { "title": "Pakistan's First Sovereign Sukuk (2005)", "body": "Pakistan International Sukuk Company Limited (an SPV wholly owned by the government) purchased M-2 motorway highway land from the National Highway Authority and issued $600 million in trust certificates (B+ rated by S&P), leasing the land back to the government, whose periodic lease payments funded Sukuk distributions until the government repurchased the land at maturity to redeem the issue.", "generated": false }
       ],
+      calculations: [
+        {
+          "title": "Box 15.8: Periodic Distribution on the Hanco Fleet Securitization Sukuk",
+          "formula": "Periodic distribution amount = Total Sukuk principal x Periodic distribution rate; principal is redeemed at maturity from the sale proceeds of the underlying assets.",
+          "inputs": [
+            { "label": "Principal amount", "value": "USD 27,200,000" },
+            { "label": "Periodic distribution rate", "value": "6%" },
+            { "label": "Tenor", "value": "3 years" },
+            { "label": "Issuance format", "value": "Privately placed LCY fixed-rate notes, two-tier SPV/SPC structure" }
+          ],
+          "steps": [
+            "Periodic distribution = 6% x USD 27,200,000 = USD 1,632,000 per period.",
+            "Box 15.8 states the rate as a flat 6% 'periodic distribution' without naming the payment frequency; taking this as an annual rate over the stated 3-year tenor, total distributions paid to certificate holders before redemption = USD 1,632,000 x 3 = USD 4,896,000.",
+            "At maturity, the SPC sells the underlying motor fleet assets and uses the proceeds to redeem the certificates at their principal value of USD 27,200,000.",
+            "Total cash received by certificate holders over the Sukuk's life = USD 4,896,000 (distributions) + USD 27,200,000 (principal redemption at maturity) = USD 32,096,000."
+          ],
+          "result": "Certificate holders receive USD 1,632,000 in periodic distributions per period (USD 4,896,000 total across the 3-year tenor, on the stated annual reading) plus the USD 27,200,000 principal at redemption, for total cash flow of USD 32,096,000 against a USD 27,200,000 investment.",
+          "interpretation": "Because the fixed 6% rate is applied to a constant principal and the SPC only sells the underlying fleet assets to fund redemption at maturity, the certificate holders' cash-flow profile resembles a conventional fixed-rate bond - matching Box 15.8's own description of the issue as a 'privately placed LCY fixed-rate note', in contrast to the floating, KIBOR-benchmarked rentals of the WAPDA Ijarah Sukuk (Box 15.7) in the same section. Box 15.8 does not state the distribution frequency; this walkthrough treats the 6% as an annual rate, the simplest reading consistent with the stated 3-year tenor.",
+          "generated": false,
+          "source": { "chapter": 15, "section": "15.4 (Box 15.8)", "pages": [414, 415] }
+        }
+      ],
       commonConfusions: [],
       importantDistinctions: [
         "A single-tier SPV (as in the Pakistan sovereign Sukuk) versus a two-tier SPV/SPC structure (as in the Hanco Saudi securitization, driven by local legal constraints)"
@@ -14819,6 +15221,35 @@ window.IFL_DATA.chapters[16] = {
         { "step": "Underwriting surplus or deficit and investment profit distributed", "description": "Any underwriting surplus/deficit (UWS/UWL) belongs to the participants as a group and may be distributed to beneficiaries, reserved, or reinvested for the fund's benefit; investment profit is shared between the operator and the fund/participants per the agreed Wakalah or Mudarabah terms." }
       ],
       examples: [],
+      calculations: [
+        {
+          "title": "Practice Example — generated for learning: Wakalah/Mudarabah Family Takaful Contribution, Surplus, and Investment-Profit Split",
+          "formula": "Contribution = Management fee part + Tabarru' (protection) part + Investment/savings part. Underwriting surplus (UWS) = Total Tabarru' fund - Claims paid, shared among contributing participants. Investment profit share = Participant's invested balance x return rate x agreed Mudarabah ratio.",
+          "inputs": [
+            { "label": "Participant's annual contribution (Wakalah-basis family Takaful)", "value": "$1,000" },
+            { "label": "Split: management fee part (to the operator, Wakalah fee)", "value": "20% = $200" },
+            { "label": "Split: protection part (Tabarru' to the Takaful fund)", "value": "30% = $300" },
+            { "label": "Split: investment/savings part (Mudarabah)", "value": "50% = $500" },
+            { "label": "Pool size (for the fund-level surplus calculation)", "value": "1,000 participants, each contributing $300 Tabarru'" },
+            { "label": "Total claims paid by the fund during the year", "value": "$210,000" },
+            { "label": "Assumed annual investment return on the invested part", "value": "8%" },
+            { "label": "Agreed Mudarabah profit-sharing ratio (participant : operator)", "value": "60% : 40%" }
+          ],
+          "steps": [
+            "Split the $1,000 contribution per the Wakalah-basis three-way division: $200 management fee (operator keeps this regardless of outcome), $300 Tabarru' (protection), $500 investment/savings.",
+            "At the fund level, 1,000 participants each donate $300 as Tabarru': total Takaful (protection) fund for the year = 1,000 x $300 = $300,000.",
+            "Claims paid out of the fund during the year = $210,000, leaving an underwriting surplus (UWS) = $300,000 - $210,000 = $90,000, which belongs to the participants as a group, not the operator.",
+            "If the $90,000 UWS is distributed pro rata to the 1,000 contributing participants, each participant's share = $90,000 / 1,000 = $90.",
+            "Separately, the participant's own $500 investment/savings part earns the assumed 8% annual return: $500 x 8% = $40 investment profit for the year.",
+            "Under the agreed 60:40 Mudarabah ratio, the participant keeps 60% of this profit: $40 x 60% = $24, and the operator (as Mudarib) keeps 40%: $40 x 40% = $16.",
+            "For this one participant, total value returned beyond the $200 fee already paid = $90 (UWS share) + $24 (investment profit share) = $114, on top of the $500 savings principal which remains in their investment account."
+          ],
+          "result": "Each participant receives a $90 underwriting-surplus share (from the $300,000 Tabarru' fund less $210,000 in claims) plus a $24 investment-profit share (60% of the $40 earned on their $500 savings balance) - a total of $114 returned to them for the year, while the operator earns the $200 Wakalah fee plus its $16 (40%) share of investment profit.",
+          "interpretation": "The book's description of how Takaful works (16.4) is conceptual rather than numeric, so every dollar figure here is invented for practice; the mechanism it illustrates is real: the underwriting surplus belongs entirely to participants as a group (never the operator, under the settled modern consensus described in the text), while investment profit is a separate pool split per the agreed Wakalah/Mudarabah terms - which is exactly why the book insists on keeping UWS/UWL and 'investment profit' analytically distinct even though early Takaful operators historically blurred the two.",
+          "generated": true,
+          "source": { "chapter": 16, "section": "16.4", "pages": [422, 423] }
+        }
+      ],
       commonConfusions: [
         "Assuming the underwriting surplus in Takaful belongs to the operator/company, as it effectively does in conventional insurance - it belongs to the participants as a group under the settled scholarly consensus"
       ],
@@ -31546,6 +31977,9 @@ window.IFL_DATA.questions.push(
         });
       });
     });
+    conceptMap().nodes.forEach(function (n) {
+      idx.push({ kind: "Concept", title: n.label, context: "Concept Hub — every topic, flashcard and question touching this concept", href: "#/concept/" + n.id, chapter: n.chapter || null, section: "", text: n.label.toLowerCase() });
+    });
     glossaryTerms().forEach(function (g) {
       idx.push({ kind: "Glossary", title: g.term, context: g.definition, href: "#/glossary?q=" + encodeURIComponent(g.term), chapter: null, section: "", text: (g.term + " " + g.definition).toLowerCase() });
     });
@@ -32146,6 +32580,12 @@ window.IFL_DATA.questions.push(
   "use strict";
   var el = IFLDom.el, esc = IFLDom.esc, fmt = IFLDom.formatText;
 
+  var CALCULATOR_LINKS = {
+    "ch8-t4": { href: "#/calculators/deposit-pool", label: "Try it yourself: Deposit Pool Calculator →" },
+    "ch9-t14": { href: "#/calculators/murabaha-pricing", label: "Try it yourself: Murabaha/Musawamah Pricing Calculator →" },
+    "ch12-t7": { href: "#/calculators/musharakah-split", label: "Try it yourself: Musharakah Profit & Loss Split Calculator →" }
+  };
+
   function sourceFooter(source, chapterTitle) {
     if (!source) return "";
     var pages = (source.pages || []).join(", ");
@@ -32314,7 +32754,10 @@ window.IFL_DATA.questions.push(
       (topic.processSteps && topic.processSteps.length ?
         '<div class="card mb-4"><h3>Process</h3><ol class="mb-0">' + topic.processSteps.map(function (c) { return "<li>" + fmt(c) + "</li>"; }).join("") + '</ol></div>' : "") +
 
-      (topic.transactionSteps && topic.transactionSteps.length ? '<div class="card mb-4" id="tx-diagram-host"><h3>Transaction Structure</h3><p class="text-sm text-muted">Click each step to see the explanation.</p><div class="process-flow" id="tx-flow"></div></div>' : "") +
+      (topic.transactionSteps && topic.transactionSteps.length ?
+        '<div class="card mb-4" id="tx-diagram-host"><h3>Transaction Structure</h3><p class="text-sm text-muted">Click any step in the flow to see its explanation.</p>' +
+        '<div class="tx-flow" id="tx-flow"></div>' +
+        '<div class="tx-detail" id="tx-detail"></div></div>' : "") +
 
       (topic.examples && topic.examples.length ?
         '<div class="card mb-4"><h3>Examples</h3>' + topic.examples.map(function (ex) {
@@ -32341,7 +32784,9 @@ window.IFL_DATA.questions.push(
             (calc.result ? '<div class="calc-result"><strong>Result:</strong> ' + fmt(calc.result) + '</div>' : "") +
             (calc.interpretation ? '<p class="text-sm text-secondary mt-2 mb-0">' + fmt(calc.interpretation) + '</p>' : "") +
           '</div>';
-        }).join("") + '</div>' : "") +
+        }).join("") +
+        (CALCULATOR_LINKS[topic.id] ? '<button class="btn btn-primary btn-sm" data-nav="' + CALCULATOR_LINKS[topic.id].href + '">' + esc(CALCULATOR_LINKS[topic.id].label) + '</button>' : "") +
+        '</div>' : "") +
 
       (topic.importantDistinctions && topic.importantDistinctions.length ?
         '<div class="card mb-4"><h3>Important Distinctions</h3><ul class="mb-0">' + topic.importantDistinctions.map(function (c) { return "<li>" + fmt(c) + "</li>"; }).join("") + '</ul></div>' : "") +
@@ -32384,21 +32829,32 @@ window.IFL_DATA.questions.push(
       });
     });
 
-    // Transaction diagram
+    // Transaction diagram — a real flowchart: numbered boxes connected by
+    // arrows, with a single shared detail panel below (cleaner and more
+    // "diagram-like" than an accordion of vertically-stacked steps).
     var txHost = document.getElementById("tx-flow");
+    var txDetail = document.getElementById("tx-detail");
     if (txHost && topic.transactionSteps) {
-      topic.transactionSteps.forEach(function (step, i) {
-        var stepEl = el("button", { class: "process-step", type: "button" }, [
-          el("span", { class: "process-step-num" }, [String(i + 1)]),
-          el("span", { class: "process-step-body" }, [
-            el("div", { class: "process-step-title" }, [step.step]),
-            el("div", { class: "process-step-detail", html: fmt(step.description) })
-          ])
+      var steps = topic.transactionSteps;
+      function selectTxStep(i) {
+        IFLDom.qsa(".tx-node", txHost).forEach(function (n, idx) {
+          n.classList.toggle("active", idx === i);
+        });
+        txDetail.innerHTML =
+          '<div class="tx-detail-num">' + (i + 1) + '</div>' +
+          '<div><div class="tx-detail-title">' + esc(steps[i].step) + '</div>' +
+          '<div class="tx-detail-body">' + fmt(steps[i].description) + '</div></div>';
+      }
+      steps.forEach(function (step, i) {
+        if (i > 0) txHost.appendChild(el("span", { class: "tx-arrow", "aria-hidden": "true" }, ["→"]));
+        var nodeEl = el("button", { class: "tx-node", type: "button" }, [
+          el("div", { class: "tx-node-badge" }, [String(i + 1)]),
+          el("div", { class: "tx-node-title" }, [step.step])
         ]);
-        stepEl.addEventListener("click", function () { stepEl.classList.toggle("open"); });
-        txHost.appendChild(stepEl);
+        nodeEl.addEventListener("click", function () { selectTxStep(i); });
+        txHost.appendChild(nodeEl);
       });
-      if (txHost.firstChild) txHost.firstChild.classList.add("open");
+      selectTxStep(0);
     }
 
     // Bookmark + complete + note actions
@@ -32590,7 +33046,10 @@ window.IFL_DATA.questions.push(
       var detail = document.getElementById("node-detail");
       detail.innerHTML =
         '<div class="flex items-center justify-between"><h3 class="mb-1">' + esc(node.label) + '</h3>' +
-        (node.href ? '<button class="btn btn-primary btn-sm" data-nav="' + esc(node.href) + '">Open lesson →</button>' : '') + '</div>' +
+        '<span class="badge-row">' +
+        '<button class="btn btn-outline btn-sm" data-nav="#/concept/' + esc(node.id) + '">Concept Hub →</button>' +
+        (node.href ? '<button class="btn btn-primary btn-sm" data-nav="' + esc(node.href) + '">Open lesson →</button>' : '') +
+        '</span></div>' +
         (related.length ? '<p class="text-sm text-muted mb-2">Connected to ' + related.length + ' concept' + (related.length === 1 ? "" : "s") + ':</p><div class="badge-row">' +
           related.map(function (r) { return '<button class="pill" data-node-jump="' + esc(r.id) + '" style="cursor:pointer;">' + esc(r.label) + '</button>'; }).join("") + '</div>' : '<p class="text-sm text-muted mb-0">No mapped connections yet.</p>');
       IFLDom.qsa("[data-node-jump]", detail).forEach(function (b) {
@@ -32631,6 +33090,130 @@ window.IFL_DATA.questions.push(
   }
 
   IFLRouter.register("/concept-map", render);
+})();
+
+</script>
+<script>
+/* Concept Hub: a dedicated aggregation page for a major cross-cutting
+ * concept (Riba, Murabaha, Sukuk, ...), pulling together everything the
+ * app knows about it — definition, every topic that discusses it across
+ * chapters, flashcards, questions, comparisons, and case studies — matched
+ * by name against existing data (no new data files needed; concepts are
+ * the Concept Map's own node list, which is curated and grows with the
+ * book's content). */
+(function () {
+  "use strict";
+  var esc = IFLDom.esc, fmt = IFLDom.formatText;
+
+  // Strip a parenthetical qualifier ("Riba (Interest)" -> "Riba") and
+  // normalize for loose matching.
+  function coreName(label) {
+    return label.replace(/\s*\([^)]*\)\s*$/, "").trim();
+  }
+  function norm(s) { return String(s || "").toLowerCase(); }
+  function mentions(haystack, needle) {
+    if (!haystack || !needle) return false;
+    return norm(haystack).indexOf(norm(needle)) !== -1;
+  }
+
+  function findNode(nodeId) {
+    var map = IFLData.conceptMap();
+    return (map.nodes || []).find(function (n) { return n.id === nodeId; });
+  }
+
+  function gatherForConcept(node) {
+    var name = coreName(node.label);
+    var glossaryTerms = IFLData.glossaryTerms().filter(function (g) { return mentions(coreName(g.term), name) || mentions(name, coreName(g.term)); });
+
+    var topics = [];
+    IFLData.allChapters().forEach(function (c) {
+      (c.topics || []).forEach(function (t) {
+        var hit = mentions(t.title, name) ||
+          (t.relatedConcepts || []).some(function (rc) { return mentions(rc, name); }) ||
+          (t.definitions || []).some(function (d) { return mentions(coreName(d.term), name); });
+        if (hit) topics.push({ topic: t, chapter: c });
+      });
+    });
+
+    var flashcards = IFLData.allFlashcards().filter(function (f) { return mentions(f.front, name) || mentions(f.back, name); }).slice(0, 12);
+    var questions = IFLData.allQuestions().filter(function (q) { return mentions(q.topic, name) || mentions(q.prompt, name); }).slice(0, 10);
+    var comparisons = IFLData.comparisons().filter(function (c) { return mentions(c.title, name) || mentions(c.itemALabel, name) || mentions(c.itemBLabel, name); });
+    var caseStudies = IFLData.caseStudies().filter(function (c) { return mentions(c.concept, name) || mentions(c.title, name); });
+
+    return { name: name, glossaryTerms: glossaryTerms, topics: topics, flashcards: flashcards, questions: questions, comparisons: comparisons, caseStudies: caseStudies };
+  }
+
+  function render(params) {
+    var root = IFLRouter.outlet();
+    var node = findNode(params.nodeId);
+    if (!node) {
+      root.innerHTML = '<div class="empty-state"><h3>Concept not found</h3><button class="btn btn-primary" data-nav="#/concept-map">Back to Concept Map</button></div>';
+      return;
+    }
+    var data = gatherForConcept(node);
+    var s = IFLStore.get();
+    var isBm = s.bookmarks.some(function (b) { return b.type === "concept" && b.refId === node.id; });
+
+    root.innerHTML =
+      '<nav class="text-sm text-muted mb-3"><a data-nav="#/concept-map">Concept Map</a> › ' + esc(node.label) + '</nav>' +
+      '<div class="section-header">' +
+        '<div><span class="pill pill-brand mb-2" style="display:inline-block;">Concept Hub</span><h1 class="mb-0">' + esc(node.label) + '</h1></div>' +
+        '<button class="btn btn-sm ' + (isBm ? "btn-primary" : "btn-outline") + '" id="concept-bm-btn">' + (isBm ? "🔖 Bookmarked" : "🔖 Bookmark") + '</button>' +
+      '</div>' +
+
+      (data.glossaryTerms.length ?
+        '<div class="card mb-4"><h3>Definition</h3>' + data.glossaryTerms.map(function (g) {
+          return '<div class="mb-2"><strong>' + esc(g.term) + '</strong><p class="text-sm mb-0">' + esc(g.definition) + '</p></div>';
+        }).join("") + '</div>' : "") +
+
+      '<div class="card mb-4">' +
+        '<div class="section-header mb-2"><h3 class="mb-0">Where This Appears (' + data.topics.length + ')</h3></div>' +
+        (data.topics.length ? data.topics.map(function (row) {
+          return '<button class="card card-clickable card-row mb-2" data-nav="#/chapter/' + row.chapter.chapterNumber + '/topic/' + row.topic.id + '">' +
+            '<span><span class="pill pill-brand" style="margin-right:8px;">Ch ' + row.chapter.chapterNumber + '</span>' + esc(row.topic.title) + '</span>' +
+            '<span class="text-muted">→</span></button>';
+        }).join("") : '<p class="text-muted mb-0">No directly matching topics found — try the Glossary or Search.</p>') +
+      '</div>' +
+
+      '<div class="grid-2 mb-4">' +
+        '<div class="card">' +
+          '<div class="section-header mb-2"><h3 class="mb-0">Flashcards (' + data.flashcards.length + ')</h3>' + (data.flashcards.length ? '<a data-nav="#/flashcards" class="text-sm">Review all →</a>' : "") + '</div>' +
+          (data.flashcards.length ? data.flashcards.map(function (f) {
+            return '<div class="text-sm mb-2" style="padding-bottom:var(--sp-2);border-bottom:1px solid var(--color-border);">' + esc(f.front) + '</div>';
+          }).join("") : '<p class="text-muted mb-0">None matched directly.</p>') +
+        '</div>' +
+        '<div class="card">' +
+          '<div class="section-header mb-2"><h3 class="mb-0">Quiz Questions (' + data.questions.length + ')</h3>' + (data.questions.length ? '<a data-nav="#/quiz" class="text-sm">Practice →</a> ' : "") + '</div>' +
+          (data.questions.length ? data.questions.map(function (q) {
+            return '<div class="text-sm mb-2" style="padding-bottom:var(--sp-2);border-bottom:1px solid var(--color-border);">' + esc(q.prompt.slice(0, 90)) + (q.prompt.length > 90 ? "…" : "") + '</div>';
+          }).join("") : '<p class="text-muted mb-0">None matched directly.</p>') +
+        '</div>' +
+      '</div>' +
+
+      (data.comparisons.length ?
+        '<div class="card mb-4"><h3>Related Comparisons</h3><div class="badge-row">' +
+          data.comparisons.map(function (c) { return '<a class="pill pill-brand" data-nav="#/comparisons/' + esc(c.id) + '">' + esc(c.title) + '</a>'; }).join("") +
+        '</div></div>' : "") +
+
+      (data.caseStudies.length ?
+        '<div class="card mb-4"><h3>Related Case Studies</h3><div class="badge-row">' +
+          data.caseStudies.map(function (c) { return '<a class="pill" data-nav="#/case-studies/' + esc(c.id) + '">' + esc(c.title) + '</a>'; }).join("") +
+        '</div></div>' : "") +
+
+      '<button class="btn btn-outline btn-sm" data-nav="#/concept-map">← Back to full Concept Map</button>';
+
+    document.getElementById("concept-bm-btn").addEventListener("click", function () {
+      var st = IFLStore.get();
+      var existing = st.bookmarks.find(function (b) { return b.type === "concept" && b.refId === node.id; });
+      IFLStore.update(function (state) {
+        if (existing) state.bookmarks = state.bookmarks.filter(function (b) { return b !== existing; });
+        else state.bookmarks.push({ id: "bm-" + Date.now(), type: "concept", refId: node.id, label: node.label, createdAt: Date.now() });
+      });
+      render(params);
+    });
+  }
+
+  IFLRouter.register("/concept/:nodeId", render);
 })();
 
 </script>
@@ -33335,6 +33918,231 @@ window.IFL_DATA.questions.push(
 
 </script>
 <script>
+/* Interactive Calculators: live, student-editable versions of the book's
+ * numeric mechanics (deposit-pool weightage distribution, Murabaha/
+ * Musawamah cost-plus pricing, Musharakah/Mudarabah profit-vs-loss
+ * splitting). Unlike the static "Calculation Walkthrough" on topic pages,
+ * these let the student plug in their own numbers and see the rule
+ * enforced live — including the cases where the book's own conditions
+ * (loss must follow capital ratio; a sleeping partner's profit share is
+ * capped at their capital ratio) override whatever the student typed. */
+(function () {
+  "use strict";
+  var el = IFLDom.el, esc = IFLDom.esc;
+
+  function fmtMoney(n) {
+    if (!isFinite(n)) return "—";
+    return n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+  function fmtPct(n) {
+    if (!isFinite(n)) return "—";
+    return (Math.round(n * 100) / 100) + "%";
+  }
+  function num(id) {
+    var v = parseFloat(document.getElementById(id).value);
+    return isFinite(v) ? v : 0;
+  }
+
+  var TOOLS = [
+    { id: "deposit-pool", title: "Deposit Pool Profit Distribution", blurb: "Weightage-based profit sharing across tenors — the Mudarabah + Musharakah pool model from Box 8.1 (Chapter 8).", icon: "🏦" },
+    { id: "murabaha-pricing", title: "Murabaha / Musawamah Pricing", blurb: "Cost-plus pricing mechanics — compute sale price, profit, or implied cost (Chapter 9).", icon: "🧾" },
+    { id: "musharakah-split", title: "Musharakah Profit & Loss Split", blurb: "See the book's core rule enforced live: profit follows the agreed ratio, loss always follows capital (Chapter 12).", icon: "🤝" }
+  ];
+
+  function picker() {
+    var root = IFLRouter.outlet();
+    root.innerHTML =
+      '<div class="section-header"><h1>Interactive Calculators</h1></div>' +
+      '<p class="text-secondary">Plug in your own numbers and see the textbook\'s calculation rules applied live — including the conditions that override what you might expect.</p>' +
+      '<div class="card-grid">' +
+        TOOLS.map(function (t) {
+          return '<button class="card card-clickable" data-nav="#/calculators/' + t.id + '">' +
+            '<div class="card-title">' + t.icon + ' ' + esc(t.title) + '</div>' +
+            '<p class="text-sm mb-0">' + esc(t.blurb) + '</p></button>';
+        }).join("") +
+      '</div>';
+  }
+
+  // ---- Tool 1: Deposit Pool ----
+  function depositPool() {
+    var root = IFLRouter.outlet();
+    root.innerHTML =
+      '<nav class="text-sm text-muted mb-3"><a data-nav="#/calculators">Calculators</a> › Deposit Pool Profit Distribution</nav>' +
+      '<h1>🏦 Deposit Pool Profit Distribution</h1>' +
+      '<p class="text-secondary">Based on Box 8.1 (Chapter 8, §8.5.2): deposits are pooled by tenor, each tenor gets a weightage, and the pool\'s profit share is distributed by weighted average — but a LOSS is always split strictly by capital ratio, ignoring weightage entirely.</p>' +
+      '<div class="calc-block mb-4">' +
+        '<div class="calc-formula">Depositor\'s share = (Amount × Weightage) ÷ Total Weighted Units × Distributable Amount</div>' +
+        '<table class="calc-inputs mb-3" id="dp-table"><thead><tr><th>Tenor</th><th>Amount</th><th>Weightage</th></tr></thead><tbody>' +
+          [["3-month", 3000, 0.60], ["6-month", 4000, 0.70], ["1-year", 3000, 1.00]].map(function (row, i) {
+            return '<tr><td>' + row[0] + '</td>' +
+              '<td><input type="number" id="dp-amt-' + i + '" value="' + row[1] + '" min="0" style="width:110px;"></td>' +
+              '<td><input type="number" id="dp-w-' + i + '" value="' + row[2] + '" min="0" max="1" step="0.05" style="width:80px;"></td></tr>';
+          }).join("") +
+        '</tbody></table>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Amount to distribute this period</label><input type="number" id="dp-profit" value="500"></div>' +
+          '<div><label>Scenario</label><div class="level-switch"><button data-scenario="profit" class="active">Profit</button><button data-scenario="loss">Loss</button></div></div>' +
+        '</div>' +
+        '<div id="dp-result"></div>' +
+      '</div>';
+
+    var scenario = "profit";
+    function recalc() {
+      var rows = [0, 1, 2].map(function (i) { return { label: ["3-month", "6-month", "1-year"][i], amt: num("dp-amt-" + i), w: num("dp-w-" + i) }; });
+      var distributable = num("dp-profit");
+      var totalCapital = rows.reduce(function (s, r) { return s + r.amt; }, 0);
+      var html = "";
+      if (scenario === "profit") {
+        var totalWeighted = rows.reduce(function (s, r) { return s + r.amt * r.w; }, 0);
+        html = '<ol class="calc-steps mb-2">' + rows.map(function (r) {
+          return "<li>" + r.label + ": " + fmtMoney(r.amt) + " × " + r.w + " = " + fmtMoney(r.amt * r.w) + " weighted units</li>";
+        }).join("") + "<li>Total weighted units = " + fmtMoney(totalWeighted) + "</li></ol>" +
+          '<table class="calc-inputs"><thead><tr><th>Tenor</th><th>Share of profit</th><th>Effective rate</th></tr></thead><tbody>' +
+          rows.map(function (r) {
+            var share = totalWeighted ? (r.amt * r.w / totalWeighted) * distributable : 0;
+            var rate = r.amt ? (share / r.amt) * 100 : 0;
+            return "<tr><td>" + r.label + "</td><td><strong>" + fmtMoney(share) + "</strong></td><td>" + fmtPct(rate) + "</td></tr>";
+          }).join("") + '</tbody></table>' +
+          '<div class="calc-result mt-2">Longer-tenor deposits earn a higher effective rate purely from their higher weightage — everyone still shares the SAME underlying bank/pool profit ratio.</div>';
+      } else {
+        html = '<div class="callout callout-warning mb-2"><div class="callout-title">⚠️ Loss scenario — weightage is ignored</div>Per the Musharakah rule, a loss to the pool is distributed strictly by CAPITAL ratio, never by weightage.</div>' +
+          '<table class="calc-inputs"><thead><tr><th>Tenor</th><th>Capital ratio</th><th>Share of loss</th></tr></thead><tbody>' +
+          rows.map(function (r) {
+            var ratio = totalCapital ? r.amt / totalCapital : 0;
+            var share = ratio * distributable;
+            return "<tr><td>" + r.label + "</td><td>" + fmtPct(ratio * 100) + "</td><td><strong>" + fmtMoney(share) + "</strong></td></tr>";
+          }).join("") + '</tbody></table>' +
+          '<div class="calc-result mt-2">Notice the weightage columns above become irrelevant here — only each depositor\'s share of total capital (' + fmtMoney(totalCapital) + ') matters.</div>';
+      }
+      document.getElementById("dp-result").innerHTML = html;
+    }
+    IFLDom.qsa("#dp-table input, #dp-profit", root).forEach(function (i) { i.addEventListener("input", recalc); });
+    IFLDom.qsa("[data-scenario]", root).forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        scenario = btn.getAttribute("data-scenario");
+        IFLDom.qsa("[data-scenario]", root).forEach(function (b) { b.classList.toggle("active", b === btn); });
+        recalc();
+      });
+    });
+    recalc();
+  }
+
+  // ---- Tool 2: Murabaha/Musawamah Pricing ----
+  function murabahaPricing() {
+    var root = IFLRouter.outlet();
+    root.innerHTML =
+      '<nav class="text-sm text-muted mb-3"><a data-nav="#/calculators">Calculators</a> › Murabaha / Musawamah Pricing</nav>' +
+      '<h1>🧾 Murabaha / Musawamah Pricing</h1>' +
+      '<p class="text-secondary">Both are cost-plus economically: Sale Price = Cost + Profit. The difference is disclosure — Murabaha requires the bank to reveal its cost and profit margin to the buyer; Musawamah does not (only the final bargained price is disclosed).</p>' +
+      '<div class="calc-block mb-4">' +
+        '<div class="calc-formula">Sale Price = Acquisition Cost + Profit &nbsp;|&nbsp; Markup % = Profit ÷ Cost × 100</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Bank\'s acquisition cost</label><input type="number" id="mp-cost" value="450000"></div>' +
+          '<div><label>Profit added</label><input type="number" id="mp-profit" value="50000"></div>' +
+        '</div>' +
+        '<div class="mb-3"><label>Contract type</label><div class="level-switch"><button data-mode="murabaha" class="active">Murabaha (cost disclosed)</button><button data-mode="musawamah">Musawamah (cost undisclosed)</button></div></div>' +
+        '<div id="mp-result"></div>' +
+      '</div>';
+    var mode = "murabaha";
+    function recalc() {
+      var cost = num("mp-cost"), profit = num("mp-profit");
+      var price = cost + profit;
+      var markup = cost ? (profit / cost) * 100 : 0;
+      var html = '<ol class="calc-steps mb-2">' +
+        '<li>Sale Price = ' + fmtMoney(cost) + ' + ' + fmtMoney(profit) + ' = <strong>' + fmtMoney(price) + '</strong></li>' +
+        '<li>Markup on cost = ' + fmtMoney(profit) + ' ÷ ' + fmtMoney(cost) + ' × 100 ≈ ' + fmtPct(markup) + '</li>' +
+      '</ol>' +
+      '<div class="calc-result">Final sale price: <strong>' + fmtMoney(price) + '</strong> (' + fmtPct(markup) + ' markup)</div>' +
+      (mode === "murabaha" ?
+        '<p class="text-sm text-secondary mt-2">As Murabaha, the bank MUST disclose both the ' + fmtMoney(cost) + ' cost and the ' + fmtMoney(profit) + ' profit margin to the buyer — concealing either would invalidate it as Murabaha (it would only be valid as an ordinary Musawamah sale).</p>' :
+        '<p class="text-sm text-secondary mt-2">As Musawamah, the bank discloses only the final ' + fmtMoney(price) + ' price — the buyer never learns the ' + fmtMoney(cost) + ' cost basis or the exact profit taken.</p>');
+      document.getElementById("mp-result").innerHTML = html;
+    }
+    IFLDom.qsa("#mp-cost, #mp-profit", root).forEach(function (i) { i.addEventListener("input", recalc); });
+    IFLDom.qsa("[data-mode]", root).forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        mode = btn.getAttribute("data-mode");
+        IFLDom.qsa("[data-mode]", root).forEach(function (b) { b.classList.toggle("active", b === btn); });
+        recalc();
+      });
+    });
+    recalc();
+  }
+
+  // ---- Tool 3: Musharakah Profit & Loss Split ----
+  function musharakahSplit() {
+    var root = IFLRouter.outlet();
+    root.innerHTML =
+      '<nav class="text-sm text-muted mb-3"><a data-nav="#/calculators">Calculators</a> › Musharakah Profit &amp; Loss Split</nav>' +
+      '<h1>🤝 Musharakah Profit &amp; Loss Split</h1>' +
+      '<p class="text-secondary">The single most-tested Musharakah rule (§12.3.4): the PROFIT ratio can be freely agreed (e.g. to reward a working partner), but the LOSS ratio must always exactly track each partner\'s capital contribution — this calculator enforces that rule regardless of what you enter for loss.</p>' +
+      '<div class="calc-block mb-4">' +
+        '<div class="calc-formula">Profit: per the AGREED ratio &nbsp;|&nbsp; Loss: always per the CAPITAL ratio, no exceptions</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Partner A capital</label><input type="number" id="ms-capA" value="40000"></div>' +
+          '<div><label>Partner B capital</label><input type="number" id="ms-capB" value="60000"></div>' +
+        '</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Partner A agreed profit share (%)</label><input type="number" id="ms-profitA" value="50" min="0" max="100"></div>' +
+          '<div><label class="flex items-center gap-2"><input type="checkbox" id="ms-sleeping" style="width:auto;"> Partner A is a declared sleeping (non-working) partner</label></div>' +
+        '</div>' +
+        '<div class="mb-3"><label>Venture result</label><div class="level-switch"><button data-result="profit" class="active">Profit</button><button data-result="loss">Loss</button></div>' +
+          '<input type="number" id="ms-amount" value="20000" class="mt-2"></div>' +
+        '<div id="ms-result"></div>' +
+      '</div>';
+    var resultType = "profit";
+    function recalc() {
+      var capA = num("ms-capA"), capB = num("ms-capB");
+      var totalCap = capA + capB;
+      var capRatioA = totalCap ? capA / totalCap : 0;
+      var profitPctA = Math.min(100, Math.max(0, num("ms-profitA")));
+      var sleeping = document.getElementById("ms-sleeping").checked;
+      var amount = num("ms-amount");
+      var html = "";
+      var warning = "";
+      if (sleeping && profitPctA / 100 > capRatioA + 1e-9) {
+        warning = '<div class="callout callout-warning mb-2"><div class="callout-title">⚠️ Rule violation caught</div>Partner A is declared a sleeping partner but was given ' + fmtPct(profitPctA) + ' of profit, which exceeds their ' + fmtPct(capRatioA * 100) + ' capital ratio. Per the Abu Hanifa/majority view (§12.3.4), a sleeping partner\'s profit share cannot exceed their capital ratio. Capping it at ' + fmtPct(capRatioA * 100) + ' below.</div>';
+        profitPctA = capRatioA * 100;
+      }
+      if (resultType === "profit") {
+        var shareA = amount * (profitPctA / 100);
+        var shareB = amount - shareA;
+        html = warning + '<ol class="calc-steps mb-2">' +
+          '<li>Agreed profit ratio: A = ' + fmtPct(profitPctA) + ', B = ' + fmtPct(100 - profitPctA) + ' (independent of capital ratio).</li>' +
+          '<li>Partner A profit = ' + fmtPct(profitPctA) + ' × ' + fmtMoney(amount) + ' = <strong>' + fmtMoney(shareA) + '</strong></li>' +
+          '<li>Partner B profit = ' + fmtMoney(amount) + ' − ' + fmtMoney(shareA) + ' = <strong>' + fmtMoney(shareB) + '</strong></li>' +
+        '</ol><div class="calc-result">Profit split: A gets ' + fmtMoney(shareA) + ', B gets ' + fmtMoney(shareB) + '.</div>';
+      } else {
+        var lossA = amount * capRatioA;
+        var lossB = amount - lossA;
+        html = '<div class="callout callout-note mb-2"><div class="callout-title">Loss ignores the profit ratio entirely</div>Even though the profit ratio above is ' + fmtPct(profitPctA) + '/' + fmtPct(100 - profitPctA) + ', a LOSS must follow the CAPITAL ratio (' + fmtPct(capRatioA * 100) + '/' + fmtPct((1 - capRatioA) * 100) + ') — no exceptions, under any school of thought.</div>' +
+          '<ol class="calc-steps mb-2">' +
+          '<li>Capital ratio: A = ' + fmtPct(capRatioA * 100) + ', B = ' + fmtPct((1 - capRatioA) * 100) + '</li>' +
+          '<li>Partner A loss = ' + fmtPct(capRatioA * 100) + ' × ' + fmtMoney(amount) + ' = <strong>' + fmtMoney(lossA) + '</strong></li>' +
+          '<li>Partner B loss = ' + fmtMoney(amount) + ' − ' + fmtMoney(lossA) + ' = <strong>' + fmtMoney(lossB) + '</strong></li>' +
+        '</ol><div class="calc-result">Loss split: A bears ' + fmtMoney(lossA) + ', B bears ' + fmtMoney(lossB) + '.</div>';
+      }
+      document.getElementById("ms-result").innerHTML = html;
+    }
+    IFLDom.qsa("#ms-capA, #ms-capB, #ms-profitA, #ms-sleeping, #ms-amount", root).forEach(function (i) { i.addEventListener("input", recalc); });
+    IFLDom.qsa("[data-result]", root).forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        resultType = btn.getAttribute("data-result");
+        IFLDom.qsa("[data-result]", root).forEach(function (b) { b.classList.toggle("active", b === btn); });
+        recalc();
+      });
+    });
+    recalc();
+  }
+
+  IFLRouter.register("/calculators", picker);
+  IFLRouter.register("/calculators/deposit-pool", depositPool);
+  IFLRouter.register("/calculators/murabaha-pricing", murabahaPricing);
+  IFLRouter.register("/calculators/musharakah-split", musharakahSplit);
+})();
+
+</script>
+<script>
 /* Exam Preparation Center: browse questions by neutral category, plus the
  * Exam Answer Trainer (attempt first, then reveal expected structure). */
 (function () {
@@ -33601,7 +34409,7 @@ window.IFL_DATA.questions.push(
   function hrefFor(b) {
     if (b.type === "topic") { var t = IFLData.getTopic(b.refId); var chNum = t ? (t.source && t.source.chapter) : null; return chNum ? "#/chapter/" + chNum + "/topic/" + b.refId : "#/dashboard"; }
     if (b.type === "glossary") return "#/glossary?q=" + encodeURIComponent(b.refId);
-    if (b.type === "concept") return "#/concept-map";
+    if (b.type === "concept") return "#/concept/" + b.refId;
     if (b.type === "comparison") return "#/comparisons/" + b.refId;
     if (b.type === "diagram") return "#/comparisons/" + b.refId;
     if (b.type === "question") return "#/quiz";
@@ -34025,7 +34833,8 @@ window.IFL_DATA.questions.push(
       { label: "Adaptive Practice", href: "#/adaptive", icon: "&#127919;" },
       { label: "Case Studies", href: "#/case-studies", icon: "&#128188;" },
       { label: "Comparisons", href: "#/comparisons", icon: "&#9878;" },
-      { label: "Financing Mode Finder", href: "#/decision-tool", icon: "&#129504;" }
+      { label: "Financing Mode Finder", href: "#/decision-tool", icon: "&#129504;" },
+      { label: "Calculators", href: "#/calculators", icon: "&#128202;" }
     ] },
     { section: "Exam Preparation", items: [
       { label: "Exam Prep Center", href: "#/exam-prep", icon: "&#127891;" },

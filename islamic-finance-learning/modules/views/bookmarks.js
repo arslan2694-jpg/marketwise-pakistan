@@ -6,7 +6,7 @@
   function hrefFor(b) {
     if (b.type === "topic") { var t = IFLData.getTopic(b.refId); var chNum = t ? (t.source && t.source.chapter) : null; return chNum ? "#/chapter/" + chNum + "/topic/" + b.refId : "#/dashboard"; }
     if (b.type === "glossary") return "#/glossary?q=" + encodeURIComponent(b.refId);
-    if (b.type === "concept") return "#/concept-map";
+    if (b.type === "concept") return "#/concept/" + b.refId;
     if (b.type === "comparison") return "#/comparisons/" + b.refId;
     if (b.type === "diagram") return "#/comparisons/" + b.refId;
     if (b.type === "question") return "#/quiz";

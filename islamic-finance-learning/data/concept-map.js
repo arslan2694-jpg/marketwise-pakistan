@@ -50,7 +50,23 @@ window.IFL_DATA.conceptMap = {
     { "id": "islamic-vs-conventional-banking", "label": "Islamic vs Conventional Banking", "chapter": 17, "href": "#/chapter/17", "group": "appraisal" },
     { "id": "way-forward", "label": "The Way Forward", "chapter": 18, "href": "#/chapter/18", "group": "appraisal" },
     { "id": "policy-agenda", "label": "Agenda for Policymakers", "chapter": 18, "href": "#/chapter/18", "group": "appraisal" },
-    { "id": "potential-issues-challenges", "label": "Potential, Issues and Challenges", "chapter": 18, "href": "#/chapter/18", "group": "appraisal" }
+    { "id": "potential-issues-challenges", "label": "Potential, Issues and Challenges", "chapter": 18, "href": "#/chapter/18", "group": "appraisal" },
+
+    { "id": "mudarabah-sukuk", "label": "Mudarabah Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t11", "group": "markets" },
+    { "id": "musharakah-sukuk", "label": "Musharakah Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t12", "group": "markets" },
+    { "id": "ijarah-sukuk", "label": "Ijarah Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t13", "group": "markets" },
+    { "id": "salam-istisnaa-murabaha-sukuk", "label": "Salam/Istisna'a/Murabaha Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t14", "group": "markets" },
+    { "id": "mixed-portfolio-sukuk", "label": "Mixed Portfolio Sukuk", "chapter": 15, "href": "#/chapter/15/topic/ch15-t14", "group": "markets" },
+    { "id": "investment-funds", "label": "Islamic Investment Funds", "chapter": 8, "href": "#/chapter/8/topic/ch8-t14", "group": "markets" },
+    { "id": "equity-fund-risk-profiles", "label": "Equity Fund Risk Profiles", "chapter": 8, "href": "#/chapter/8/topic/ch8-t14", "group": "markets" },
+    { "id": "islamic-investment-banking", "label": "Islamic Investment Banking", "chapter": 8, "href": "#/chapter/8/topic/ch8-t7", "group": "markets" },
+    { "id": "nbfis", "label": "NBFIs (Non-Bank Financial Institutions)", "chapter": 8, "href": "#/chapter/8/topic/ch8-t12", "group": "markets" },
+    { "id": "gdr", "label": "Global Depository Receipt (GDR)", "chapter": 8, "href": "#/chapter/8/topic/ch8-t12", "group": "markets" },
+    { "id": "public-sector-sukuk-financing", "label": "Public Sector & Government Sukuk Financing", "chapter": 8, "href": "#/chapter/8/topic/ch8-t13", "group": "markets" },
+    { "id": "interbank-mudarabah-market", "label": "Inter-bank Mudarabah Market", "chapter": 8, "href": "#/chapter/8/topic/ch8-t13", "group": "markets" },
+    { "id": "treasury-functions", "label": "Treasury Functions (Debt & Risk Management)", "chapter": 8, "href": "#/chapter/8/topic/ch8-t15", "group": "markets" },
+    { "id": "repo-reverse-repo", "label": "Repo / Reverse Repo", "chapter": 8, "href": "#/chapter/8/topic/ch8-t2", "group": "markets" },
+    { "id": "cdo", "label": "Collateralized Debt Obligations (CDOs)", "chapter": 8, "href": "#/chapter/8/topic/ch8-t11", "group": "markets" }
   ],
   "edges": [
     { "from": "islamic-economic-system", "to": "shariah" },
@@ -125,6 +141,50 @@ window.IFL_DATA.conceptMap = {
     { "from": "practice-criticism-appraisal", "to": "way-forward" },
     { "from": "conceptual-criticism-appraisal", "to": "way-forward" },
     { "from": "way-forward", "to": "policy-agenda" },
-    { "from": "way-forward", "to": "potential-issues-challenges" }
+    { "from": "way-forward", "to": "potential-issues-challenges" },
+
+    { "from": "sukuk", "to": "mudarabah-sukuk" },
+    { "from": "mudarabah-sukuk", "to": "mudarabah" },
+    { "from": "sukuk", "to": "musharakah-sukuk" },
+    { "from": "musharakah-sukuk", "to": "musharakah" },
+    { "from": "musharakah-sukuk", "to": "mudarabah-sukuk" },
+    { "from": "sukuk", "to": "ijarah-sukuk" },
+    { "from": "ijarah-sukuk", "to": "ijarah" },
+    { "from": "sukuk", "to": "salam-istisnaa-murabaha-sukuk" },
+    { "from": "salam-istisnaa-murabaha-sukuk", "to": "salam" },
+    { "from": "salam-istisnaa-murabaha-sukuk", "to": "istisnaa" },
+    { "from": "salam-istisnaa-murabaha-sukuk", "to": "murabaha" },
+    { "from": "sukuk", "to": "mixed-portfolio-sukuk" },
+    { "from": "mixed-portfolio-sukuk", "to": "musharakah-sukuk" },
+    { "from": "mixed-portfolio-sukuk", "to": "ijarah-sukuk" },
+    { "from": "mixed-portfolio-sukuk", "to": "salam-istisnaa-murabaha-sukuk" },
+
+    { "from": "islamic-banking-overview", "to": "investment-funds" },
+    { "from": "investment-funds", "to": "mudarabah" },
+    { "from": "investment-funds", "to": "equity-fund-risk-profiles" },
+    { "from": "investment-funds", "to": "murabaha" },
+    { "from": "investment-funds", "to": "ijarah-sukuk" },
+
+    { "from": "islamic-banking-overview", "to": "islamic-investment-banking" },
+    { "from": "islamic-investment-banking", "to": "nbfis" },
+    { "from": "nbfis", "to": "islamic-banking-overview" },
+    { "from": "islamic-investment-banking", "to": "gdr" },
+    { "from": "gdr", "to": "sukuk" },
+
+    { "from": "islamic-banking-overview", "to": "public-sector-sukuk-financing" },
+    { "from": "public-sector-sukuk-financing", "to": "musharakah-sukuk" },
+    { "from": "public-sector-sukuk-financing", "to": "ijarah-sukuk" },
+    { "from": "islamic-banking-overview", "to": "interbank-mudarabah-market" },
+    { "from": "interbank-mudarabah-market", "to": "mudarabah" },
+    { "from": "islamic-banking-overview", "to": "treasury-functions" },
+    { "from": "treasury-functions", "to": "sukuk" },
+
+    { "from": "islamic-banking-overview", "to": "repo-reverse-repo" },
+    { "from": "repo-reverse-repo", "to": "riba" },
+    { "from": "repo-reverse-repo", "to": "sukuk" },
+
+    { "from": "securitization", "to": "cdo" },
+    { "from": "cdo", "to": "gharar" },
+    { "from": "cdo", "to": "conceptual-criticism-appraisal" }
   ]
 };

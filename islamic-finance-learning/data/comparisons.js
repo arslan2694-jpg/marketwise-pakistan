@@ -203,5 +203,53 @@ window.IFL_DATA.comparisons = [
       { "dimension": "Geographic reach of the view", "itemA": "Confined mainly to Malaysia; the book notes the position of Malaysian Islamic bonds 'remains unacceptable among the Middle Eastern jurists.'", "itemB": "Represents the mainstream position across the Middle East and the broader international Shari'ah-scholarship community." }
     ],
     "source": { "chapters": [6,7], "sections": ["6.10","7.16"], "pages": [146,147,172] }
+  },
+  {
+    "id": "financial-lease-vs-operating-lease",
+    "title": "Financial Lease (Hire-Purchase) vs Operating Lease",
+    "itemALabel": "Financial Lease / Hire-Purchase",
+    "itemBLabel": "Operating Lease",
+    "summary": "Sections 11.4.1 and 11.4.3 describe two distinct modern leasing forms banks and NBFIs use; the book then appraises both against Shari'ah principles in 11.4.4, since neither, as conventionally practised, fully matches genuine Ijarah.",
+    "dimensions": [
+      { "dimension": "Ownership at end of term", "itemA": "Structured so the lessee ends up owning the asset — at a price specified in advance or its market value at that time.", "itemB": "Ownership never transfers; the lessor takes back the equipment/asset when the lease ends." },
+      { "dimension": "Lease duration and cost recovery", "itemA": "The period is long enough (usually the asset's entire useful life) for the lessor to fully amortize its cost plus a stipulated interest return.", "itemB": "Covers only a specified period, not the asset's whole useful life; the same asset is repeatedly re-leased to different customers as each lease ends." },
+      { "dimension": "When rent liability starts", "itemA": "Rent liability starts from the day the lessor pays the price to the supplier, even before the lessee takes delivery of the asset.", "itemB": "Not described as suffering this defect in the same way — rent is for actual use of a possessed asset the lessor already owns and maintains in its own fleet." },
+      { "dimension": "Who bears ownership/obsolescence risk", "itemA": "Risk of ownership is effectively shifted onto the lessee, especially once a residual value is fixed in advance.", "itemB": "The lessor retains ownership and bears the risk of obsolescence, recession or diminishing demand for the asset between leases." },
+      { "dimension": "Typical use and users", "itemA": "Widely used by banks as a financing substitute for an outright credit purchase of equipment or assets.", "itemB": "Rarely used by banks; mainly used by NBFIs for specialized, high-cost, long-life assets (e.g. aircraft, ships) that require large capital outlay." },
+      { "dimension": "Termination and default treatment", "itemA": "Not cancellable before expiry without mutual consent; the lessor can repossess without a court order on default, and prepayment or default often carries an extra fine/liquidated-damages charge (sometimes involving compound interest).", "itemB": "Simply ends at the agreed period, or continues only if renewed by mutual consent — there is no purchase-linked default or repossession mechanism since ownership was never intended to transfer." }
+    ],
+    "source": { "chapters": [11], "sections": ["11.4.1", "11.4.3", "11.4.4"], "pages": [288, 289] }
+  },
+  {
+    "id": "current-account-vs-investment-deposit",
+    "title": "Current Account vs Investment (PLS) Deposit",
+    "itemALabel": "Current Account",
+    "itemBLabel": "Investment (PLS) Deposit",
+    "summary": "Section 8.5.2 sets out the two basic deposit products of an Islamic bank, built on entirely different contracts and risk-bearing logic — a distinction Box 8.1 then works through with an actual weightage-based profit calculation.",
+    "dimensions": [
+      { "dimension": "Underlying contract", "itemA": "Structured as Qard (an interest-free loan) held as Amanah — the depositor is effectively a creditor of the bank.", "itemB": "Structured on a profit-and-loss-sharing (Mudarabah/Musharakah) basis — the depositor is a Rabbul-mal, and pool members are partners with each other." },
+      { "dimension": "Return", "itemA": "No contractual return at all; some writers allow only a discretionary, non-obligatory gratis payment that must not be offered so regularly that it becomes a customary entitlement.", "itemB": "A share of actual profit earned by the bank's financing operations, distributed per an agreed profit-sharing ratio and weightage." },
+      { "dimension": "Principal guarantee", "itemA": "The bank must guarantee the full principal amount of the deposit.", "itemB": "Principal is not guaranteed — as Rabbul-mal, the depositor bears loss in proportion to capital under Musharakah rules, absent misconduct or negligence by the bank as Mudarib." },
+      { "dimension": "Weightage / pooling mechanism", "itemA": "No weightage system needs to be developed or applied for this type of account.", "itemB": "Deposits are pooled by tenor and assigned a weightage (the longer the maturity, the higher the weight) on a daily product basis, as illustrated in Box 8.1." },
+      { "dimension": "Relationship type", "itemA": "A debtor–creditor relationship between the bank and the depositor continues throughout.", "itemB": "A Musharakah relationship exists among the pool's depositors, combined with a Mudarabah relationship between the pool (as Rabbul-mal) and the bank (as Mudarib)." },
+      { "dimension": "Suitability", "itemA": "Suited to risk-averse clients who want their funds safeguarded as an interest-free loan with no exposure to the bank's financing risk.", "itemB": "Suited to risk-prone depositors willing to become part of the bank's earning-asset base in exchange for a variable, profit-linked return." }
+    ],
+    "source": { "chapters": [8], "sections": ["8.5.2"], "pages": [188, 189, 190, 191] }
+  },
+  {
+    "id": "wakalah-vs-waqf-takaful-model",
+    "title": "Wakalah Model vs Waqf Model of Takaful",
+    "itemALabel": "Pure Wakalah Model",
+    "itemBLabel": "Waqf Model",
+    "summary": "Section 16.4.1 lays out several models Shari'ah scholars have proposed for structuring a Takaful operator, and reports that a panel of over forty scholars led by Shaikh Taqi Usmani judged the Waqf (or Wakalah-Waqf) model the best basis for a Shari'ah-compliant system, over the pure Wakalah model generally practised in the Middle East.",
+    "dimensions": [
+      { "dimension": "Structural basis", "itemA": "The operator simply acts as Wakil (agent) for the participants under an agency contract.", "itemB": "Shareholders first create a Waqf (endowment) fund through an initial donation, to which participants' contributions are then added." },
+      { "dimension": "Operator's compensation", "itemA": "An agreed percentage of participants' donations (e.g. around 30 %), fixed annually in consultation with the Shari'ah committee, to cover all management expenses.", "itemB": "A management fee (roughly 25–30 %) for investing the Waqf fund's assets on a Wakalah basis, plus a separate Mudarib profit share on the investment side." },
+      { "dimension": "Ownership of underwriting surplus/loss (UWS/UWL)", "itemA": "The whole UWS/UWL belongs to the participants; the operator may still receive an incentive share of UWS based on performance.", "itemB": "UWS/UWL belongs to the Waqf fund itself, which may distribute it to beneficiaries, hold it as a reserve, or reinvest it for the Waqf's benefit — there is no obligation to distribute it." },
+      { "dimension": "Who ultimately bears the underwriting loss", "itemA": "Borne only by the participants; the operator merely extends Qard al-Hasan if needed, which scholars flag as inequitable since the operator bears no downside.", "itemB": "Absorbed by the fund itself from its reserves/Waqf corpus, with shareholders providing Qard al-Hasan to the fund in case of need." },
+      { "dimension": "Investment-side arrangement", "itemA": "The pure Wakalah model as described covers the agency relationship itself, without a distinctly separate investment contract.", "itemB": "A distinct Mudarabah contract governs investment of the fund's assets between the Waqf fund and the company, redeemed to the policyholder on an NAV basis at maturity." },
+      { "dimension": "Scholarly assessment", "itemA": "Shari'ah scholars have expressed reservations about this model for not being equitable to participants.", "itemB": "Regarded by the Usmani-led panel of over forty scholars as the best basis (alone or combined with Wakalah) for evolving a practical, Shari'ah-compliant Takaful system." }
+    ],
+    "source": { "chapters": [16], "sections": ["16.4.1"], "pages": [423, 424, 425, 426] }
   }
 ];

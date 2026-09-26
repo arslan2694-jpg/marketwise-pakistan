@@ -175,6 +175,35 @@ window.IFL_DATA.chapters[16] = {
         { "step": "Underwriting surplus or deficit and investment profit distributed", "description": "Any underwriting surplus/deficit (UWS/UWL) belongs to the participants as a group and may be distributed to beneficiaries, reserved, or reinvested for the fund's benefit; investment profit is shared between the operator and the fund/participants per the agreed Wakalah or Mudarabah terms." }
       ],
       examples: [],
+      calculations: [
+        {
+          "title": "Practice Example — generated for learning: Wakalah/Mudarabah Family Takaful Contribution, Surplus, and Investment-Profit Split",
+          "formula": "Contribution = Management fee part + Tabarru' (protection) part + Investment/savings part. Underwriting surplus (UWS) = Total Tabarru' fund - Claims paid, shared among contributing participants. Investment profit share = Participant's invested balance x return rate x agreed Mudarabah ratio.",
+          "inputs": [
+            { "label": "Participant's annual contribution (Wakalah-basis family Takaful)", "value": "$1,000" },
+            { "label": "Split: management fee part (to the operator, Wakalah fee)", "value": "20% = $200" },
+            { "label": "Split: protection part (Tabarru' to the Takaful fund)", "value": "30% = $300" },
+            { "label": "Split: investment/savings part (Mudarabah)", "value": "50% = $500" },
+            { "label": "Pool size (for the fund-level surplus calculation)", "value": "1,000 participants, each contributing $300 Tabarru'" },
+            { "label": "Total claims paid by the fund during the year", "value": "$210,000" },
+            { "label": "Assumed annual investment return on the invested part", "value": "8%" },
+            { "label": "Agreed Mudarabah profit-sharing ratio (participant : operator)", "value": "60% : 40%" }
+          ],
+          "steps": [
+            "Split the $1,000 contribution per the Wakalah-basis three-way division: $200 management fee (operator keeps this regardless of outcome), $300 Tabarru' (protection), $500 investment/savings.",
+            "At the fund level, 1,000 participants each donate $300 as Tabarru': total Takaful (protection) fund for the year = 1,000 x $300 = $300,000.",
+            "Claims paid out of the fund during the year = $210,000, leaving an underwriting surplus (UWS) = $300,000 - $210,000 = $90,000, which belongs to the participants as a group, not the operator.",
+            "If the $90,000 UWS is distributed pro rata to the 1,000 contributing participants, each participant's share = $90,000 / 1,000 = $90.",
+            "Separately, the participant's own $500 investment/savings part earns the assumed 8% annual return: $500 x 8% = $40 investment profit for the year.",
+            "Under the agreed 60:40 Mudarabah ratio, the participant keeps 60% of this profit: $40 x 60% = $24, and the operator (as Mudarib) keeps 40%: $40 x 40% = $16.",
+            "For this one participant, total value returned beyond the $200 fee already paid = $90 (UWS share) + $24 (investment profit share) = $114, on top of the $500 savings principal which remains in their investment account."
+          ],
+          "result": "Each participant receives a $90 underwriting-surplus share (from the $300,000 Tabarru' fund less $210,000 in claims) plus a $24 investment-profit share (60% of the $40 earned on their $500 savings balance) - a total of $114 returned to them for the year, while the operator earns the $200 Wakalah fee plus its $16 (40%) share of investment profit.",
+          "interpretation": "The book's description of how Takaful works (16.4) is conceptual rather than numeric, so every dollar figure here is invented for practice; the mechanism it illustrates is real: the underwriting surplus belongs entirely to participants as a group (never the operator, under the settled modern consensus described in the text), while investment profit is a separate pool split per the agreed Wakalah/Mudarabah terms - which is exactly why the book insists on keeping UWS/UWL and 'investment profit' analytically distinct even though early Takaful operators historically blurred the two.",
+          "generated": true,
+          "source": { "chapter": 16, "section": "16.4", "pages": [422, 423] }
+        }
+      ],
       commonConfusions: [
         "Assuming the underwriting surplus in Takaful belongs to the operator/company, as it effectively does in conventional insurance - it belongs to the participants as a group under the settled scholarly consensus"
       ],

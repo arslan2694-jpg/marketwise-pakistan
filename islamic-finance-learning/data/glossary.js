@@ -996,7 +996,9 @@ window.IFL_DATA.glossary = [
   },
   {
     "term": "Sahabah",
-    "definition": "Companions of the holy Prophet of Islam – the people who saw the holy Prophet while being firm believers (Muslims)."
+    "definition": "Companions of the holy Prophet of Islam – the people who saw the holy Prophet while being firm believers (Muslims).",
+    "chapter": 3,
+    "pages": [58]
   },
   {
     "term": "Salaf",
