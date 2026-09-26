@@ -108,7 +108,9 @@
     });
     function src(t) { return h('a.small', { href: '#/topic/' + t.id }, '§' + t.section); }
     function block(title, content, count) { return count ? h('details.acc', { open: title === 'Important definitions' }, h('summary', title, h('span.badge', String(count))), h('div.acc-body', content)) : null; }
+    var cmap = IFL.chapterConceptMap && window.IFL_DATA.sets.concepts ? IFL.chapterConceptMap(ch, window.IFL_DATA.sets.concepts) : null;
     return h('div',
+      cmap ? h('details.acc', { open: true }, h('summary', 'Chapter concept map', h('span.badge', 'interactive')), h('div.acc-body', cmap)) : null,
       block('Important definitions', h('dl', defs.map(function (x) { return h('div.def', h('dt', x[0].term, ' ', src(x[1])), h('dd', x[0].meaning)); })), defs.length),
       block('Key principles', h('ul', principles.map(function (x) { return h('li', x[0], ' ', src(x[1])); })), principles.length),
       block('Rules and conditions', h('ul', conds.map(function (x) { return h('li', x[0], ' ', src(x[1])); })), conds.length),

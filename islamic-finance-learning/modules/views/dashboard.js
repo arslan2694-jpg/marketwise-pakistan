@@ -73,7 +73,7 @@
       h('div.grid.grid-2', [
         ['#/revision-cards', 'layers', 'Rapid revision cards'], ['#/compare', 'compare', 'Comparison lab'], ['#/diagrams', 'flow', 'Transaction diagrams'], ['#/concepts', 'map', 'Concept map'],
         ['#/exam/trainer', 'exam', 'Exam answer trainer'], ['#/finder', 'compass', 'Which mode applies?'], ['#/cases', 'case', 'Case studies'], ['#/timer', 'clock', 'Study timer'],
-        ['#/mock', 'flame', 'Timed mock exam'], ['#/mistakes', 'refresh', 'My mistakes' + (function () { var n = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false; }).length; return n ? ' (' + n + ')' : ''; })()]
+        ['#/mock', 'flame', 'Timed mock exam'], ['#/tools', 'calc', 'Interactive tools'], ['#/mistakes', 'refresh', 'My mistakes' + (function () { var n = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false; }).length; return n ? ' (' + n + ')' : ''; })()]
       ].map(function (x) { return h('a.btn', { href: x[0], style: { justifyContent: 'flex-start' } }, u.svg(x[1]), x[2]); })));
 
     var plan = IFL.buildPlan ? IFL.buildPlan() : null;

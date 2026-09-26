@@ -251,5 +251,68 @@ IFL_DATA.register('diagrams', [
       { from: "fund", to: "sbp", kind: "risk", label: "Absorbs SBP’s loss share first", detail: "Losses are shared by investment ratio." }
     ],
     rules: ["Profit and loss are actual, not fixed.", "SBP’s loss share is met first from the Takaful fund."],
-    pitfalls: ["Treating refinance as a fixed-rate loan"] }
+    pitfalls: ["Treating refinance as a fixed-rate loan"] },
+  { id: "running-musharakah", title: "Running Musharakah (working capital)", topic: "t12.7.2", concept: "musharakah",
+    summary: "The bank provides a Musharakah limit for the client’s running business. Sale proceeds of finished goods flow through a Running Musharakah Account, and each month or quarter the bank takes its agreed share of the computed operating profit.",
+    parties: [{ id: "bank", label: "Islamic bank", x: 15, y: 30 }, { id: "account", label: "Running Musharakah Account", x: 50, y: 30 }, { id: "client", label: "Client’s business", x: 85, y: 30 }],
+    steps: [
+      { from: "bank", to: "account", kind: "contract", label: "Musharakah limit approved", detail: "Clients are grouped as seasonal, cyclical or continuous for the period of the limit (p. 333)." },
+      { from: "account", to: "client", kind: "cash", label: "Client draws as needed", detail: "The bank’s capital is measured by the average amount utilised (daily product) (p. 314)." },
+      { from: "client", to: "account", kind: "cash", label: "Sale proceeds credited", detail: "Only proceeds from selling finished goods — not sales of fixed assets or long-term loans." },
+      { from: "account", to: "bank", kind: "cash", label: "Periodic profit share", detail: "Based on the computed operating profit for the period, at the agreed ratio." },
+      { from: "client", to: "bank", kind: "risk", label: "Loss shared by capital", detail: "Security covers only negligence, misconduct or breach." }
+    ],
+    rules: ["Profit is a ratio of actual operating profit, never a fixed amount.", "Loss follows the capital ratio."],
+    pitfalls: ["Crediting non-operating cash flows to inflate the base", "Guaranteeing the bank’s profit"] },
+  { id: "musawamah-export", title: "Musawamah alternative to bill discounting (Section 14.4.2)", topic: "t14.4.2", concept: "musawamah",
+    summary: "Instead of discounting an export bill, the bank advances local currency to the exporter as its agent to buy goods, then sells him those goods for the bill’s foreign-currency amount, payable on the bill date.",
+    parties: [{ id: "bank", label: "Islamic bank", x: 15, y: 30 }, { id: "exporter", label: "Exporter (client/agent)", x: 50, y: 30 }, { id: "foreign", label: "Foreign buyer’s bank", x: 85, y: 30 }],
+    steps: [
+      { from: "exporter", to: "bank", kind: "contract", label: "Bill US$100,000 due in 55 days", detail: "Spot Rs.57.75; the bank quotes Rs.57.60 (p. 371)." },
+      { from: "bank", to: "exporter", kind: "cash", label: "Rs.5,760,000 as agent to buy goods", detail: "Under an agency agreement, for the raw materials the exporter needs." },
+      { from: "exporter", to: "bank", kind: "goods", label: "Declaration of possession", detail: "The exporter buys the goods for the bank and declares possession." },
+      { from: "exporter", to: "bank", kind: "contract", label: "Offer to buy for US$100,000", detail: "Payable on 25 February; the bank accepts — a Musawamah sale." },
+      { from: "foreign", to: "exporter", kind: "cash", label: "Bill proceeds received", detail: "Remitted into the exporter’s account at the Islamic bank." },
+      { from: "exporter", to: "bank", kind: "cash", label: "US$100,000 debited", detail: "Settles the Musawamah price." }
+    ],
+    rules: ["The bank must own the goods before selling them.", "No discounting of the bill itself."],
+    pitfalls: ["Paying cash without any goods changing hands"] },
+  { id: "import-murabaha", title: "Import L/C Murabaha with sub-Murabaha (Section 14.4.2)", topic: "t14.4.2", concept: "murabaha",
+    summary: "The bank opens an L/C to import goods for itself through the client as agent. When documents arrive it sells the goods to the client, for cash (Musawamah at L/C cost plus charges) or on credit (sub-Murabaha).",
+    parties: [{ id: "client", label: "Importer (agent/buyer)", x: 12, y: 30 }, { id: "bank", label: "Islamic bank", x: 50, y: 30 }, { id: "exporter", label: "Foreign exporter", x: 88, y: 30 }],
+    steps: [
+      { from: "client", to: "bank", kind: "agency", label: "Master Murabaha + agency agreement", detail: "Signed before the L/C is opened (p. 372)." },
+      { from: "bank", to: "exporter", kind: "contract", label: "L/C opened", detail: "At the client’s request, with the relevant documents." },
+      { from: "exporter", to: "bank", kind: "goods", label: "Goods shipped; documents to bank", detail: "The goods are at the bank’s risk." },
+      { from: "bank", to: "exporter", kind: "cash", label: "Nostro debited — bill paid", detail: "Profit on credit runs from this date." },
+      { from: "bank", to: "client", kind: "contract", label: "Sub-Murabaha or Musawamah", detail: "Credit: client offers, bank accepts; price fixed. Cash: L/C cost plus charges." },
+      { from: "client", to: "bank", kind: "cash", label: "Payment on settlement date", detail: "If a shipping guarantee was used, only the cost part can be adjusted later." }
+    ],
+    rules: ["The agency must precede the purchase.", "Profit runs from the Nostro debit to the settlement date."],
+    pitfalls: ["Adjusting the profit part after the sale"] },
+  { id: "mudarabah-sukuk", title: "Mudarabah Sukuk (OIC Fiqh Council 1988)", topic: "t15.3.5", concept: "mudarabah",
+    summary: "The issuer, as Mudarib, raises capital from subscribers through Mudarabah certificates and invests it in a project. Profit is shared by the prospectus ratio, and loss falls on the certificate holders.",
+    parties: [{ id: "holders", label: "Certificate holders (Rabbul-mal)", x: 12, y: 30 }, { id: "issuer", label: "Issuer / SPV (Mudarib)", x: 50, y: 30 }, { id: "project", label: "Project", x: 88, y: 30 }],
+    steps: [
+      { from: "issuer", to: "holders", kind: "contract", label: "Prospectus: capital, ratio, conditions", detail: "No guarantee of capital or of a fixed profit by the issuer (p. 399)." },
+      { from: "holders", to: "issuer", kind: "cash", label: "Subscription = Mudarabah capital", detail: "The Mudarib may add its own funds and earn on them too." },
+      { from: "issuer", to: "project", kind: "cash", label: "Capital deployed", detail: "Trading rules change as cash becomes assets." },
+      { from: "project", to: "issuer", kind: "cash", label: "Project income", detail: "The P&L account must be published to holders." },
+      { from: "issuer", to: "holders", kind: "cash", label: "Profit by agreed ratio", detail: "Reserves may be created; an unrelated third party may promise to cover losses free of charge." },
+      { from: "project", to: "holders", kind: "risk", label: "Loss borne by holders", detail: "The Mudarib loses its effort only, unless negligent." }
+    ],
+    rules: ["Cash stage: Sarf rules; debt stage: debt rules; mixed assets: market price.", "No issuer guarantee."],
+    pitfalls: ["Promising a fixed percentage of capital"] },
+  { id: "hawalah", title: "Hawalah (assignment of debt)", topic: "t7.14", concept: "hawalah",
+    summary: "A debtor transfers his debt to a third party, who becomes responsible for paying the creditor; the original debtor is freed. It is gratuitous and at face value.",
+    parties: [{ id: "creditor", label: "Creditor", x: 12, y: 30 }, { id: "debtor", label: "Original debtor (assignor)", x: 50, y: 30 }, { id: "assignee", label: "Assignee (new payer)", x: 88, y: 30 }],
+    steps: [
+      { from: "creditor", to: "debtor", kind: "cash", label: "Original debt exists", detail: "E.g. the debtor owes 100,000." },
+      { from: "debtor", to: "assignee", kind: "contract", label: "Assignment agreed", detail: "Restricted (paid from the assignor’s property held by the assignee) or unrestricted (p. 167)." },
+      { from: "assignee", to: "creditor", kind: "promise", label: "Assignee accepts liability", detail: "Takes effect immediately; payment may still be at the due date." },
+      { from: "assignee", to: "creditor", kind: "cash", label: "Payment at face value", detail: "No remuneration for the Hawalah itself; no discount." },
+      { from: "creditor", to: "debtor", kind: "risk", label: "Recourse if the assignee fails", detail: "On the majority view, the debt returns to the assignor if the assignee dies or becomes bankrupt." }
+    ],
+    rules: ["Face value only.", "Gratuitous: no fee for the assignment itself."],
+    pitfalls: ["Using it to sell debts at a discount"] }
 ]);

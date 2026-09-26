@@ -528,3 +528,8 @@ mark { background: var(--gold-soft); color: inherit; padding: 0 2px; border-radi
   .grade-bar { gap: 6px; }
 }
 tr.current td { background: var(--accent-soft); }
+button.tool-card { text-align: left; width: 100%; font: inherit; color: inherit; cursor: pointer; }
+.cmap .ego-lbl { fill: var(--text-2); font-size: 11px; font-family: var(--font-sans); paint-order: stroke; stroke: var(--bg-sunk); stroke-width: 5px; stroke-linejoin: round; }
+.cmap .link.ego-in { stroke-dasharray: 5 4; }
+.cmap .node.match rect { stroke: var(--accent); stroke-width: 2.2; }
+.cmap.chmap .link { stroke-width: 1.1; }

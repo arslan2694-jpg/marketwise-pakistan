@@ -482,6 +482,35 @@ test('exam planner: set a date, plan covers every unfinished topic, adapts to pr
   assert((await saved(page)).settings.examDate === date, 'date persisted');
 });
 
+test('interactive tools hub: every calculator renders and computes; checkers flag problems', async (page) => {
+  await go(page, '/tools');
+  const n = await page.evaluate(() => Object.keys(window.IFL.calcTypes).length);
+  assert(n >= 23 && await page.locator('#view .tool-card').count() === n, 'all tools listed');
+  const bad = await page.evaluate(() => { const out = []; Object.entries(window.IFL.calcTypes).forEach(([k, c]) => { const v = {}; c.inputs.forEach((i) => { v[i.k] = i.v; }); try { const r = c.compute(v); if (!r || !r.result) out.push(k); } catch (e) { out.push(k + ':' + e.message); } }); return out; });
+  assert(!bad.length, 'every calculator computes: ' + bad.join(', '));
+  await page.locator('#view .tool-card', { hasText: 'Murabaha compliance checker' }).click();
+  await page.waitForSelector('#tool-panel');
+  assert(/No issues found/.test(await page.locator('#tool-panel').innerText()), 'clean structure passes');
+  await page.locator('#tool-panel select').first().selectOption('No');
+  assert(/1 issue found/.test(await page.locator('#tool-panel').innerText()), 'missing ownership flagged');
+  await go(page, '/topic/t13.3');
+  assert(/Tawarruq structure checker/.test(await page.locator('#view').innerText()), 'tool attached to its lesson');
+});
+
+test('concept graphs: relationship graph, chapter concept map and map filtering', async (page) => {
+  await go(page, '/concept/riba');
+  assert(await page.locator('#view svg.ego .node').count() >= 4, 'ego graph nodes');
+  await page.locator('#view svg.ego .node[role=link]').first().click();
+  await page.waitForFunction(() => /#\/concept\//.test(location.hash) && !/riba$/.test(location.hash));
+  await go(page, '/chapter/12?tab=aids');
+  assert(await page.locator('#view svg.chmap .node').count() > 27, 'chapter map shows topics and concepts');
+  await go(page, '/concepts');
+  await page.locator('#view input[aria-label="Find a concept"]').fill('Takaful');
+  assert(/of \d+ concepts match/.test(await page.locator('#view').innerText()), 'filter count');
+  const dimmed = await page.locator('#view svg.cmap .node.dim').count();
+  assert(dimmed > 30, 'non-matching concepts dimmed');
+});
+
 test('standalone: the whole app runs from one file (no other file is requested)', async (page) => {
   if (!STANDALONE) return;
   const files = [];

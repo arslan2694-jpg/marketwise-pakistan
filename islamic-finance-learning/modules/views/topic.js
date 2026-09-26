@@ -93,6 +93,8 @@
         t.table ? h('section', C.table(t.table)) : null,
         t.examples && t.examples.length ? sectionCard('Examples', h('div', t.examples.map(C.example))) : null,
         t.calc ? sectionCard('Calculation', IFL.calc(t.calc.type, t.calc.note)) : null,
+        (function () { var extra = Object.keys(IFL.calcTypes || {}).filter(function (k) { return IFL.calcTypes[k].topic === t.id && (!t.calc || t.calc.type !== k); });
+          return extra.length ? sectionCard(t.calc ? 'More interactive tools' : 'Interactive tool', h('div.stack', extra.map(function (k) { return IFL.calc(k); }))) : null; })(),
         t.distinctions && t.distinctions.length ? sectionCard('Important distinctions', h('div', t.distinctions.map(function (x) { return h('div.callout.info', h('div.t', x.a + ' vs ' + x.b), h('p', x.text)); }))) : null,
         t.confusions && t.confusions.length ? sectionCard('Common confusions', h('div.stack', t.confusions.map(function (x) { return h('div.confusion', h('div.wrong', h('div.lbl', 'Misconception'), x.wrong), h('div.right', h('div.lbl', 'Correct view'), x.right)); }))) : null,
         t.debate && t.debate.length ? sectionCard('Arguments and the author\'s discussion', h('div', t.debate.map(C.debate))) : null,

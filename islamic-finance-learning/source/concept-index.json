@@ -1,6 +1,6 @@
 {
  "generated": "tools/build-indexes.cjs",
- "count": 45,
+ "count": 52,
  "concepts": [
   {
    "id": "riba",
@@ -7752,6 +7752,587 @@
     {
      "to": "late-payment-penalty",
      "label": "fines on wilful defaulters go to charity"
+    }
+   ]
+  },
+  {
+   "id": "hawalah",
+   "name": "Hawalah (assignment of debt)",
+   "group": "Accessory contracts",
+   "primaryTopics": [
+    {
+     "topic": "t7.14",
+     "chapter": 7,
+     "section": "7.14",
+     "title": "Hawalah (Assignment of Debt)",
+     "pages": [
+      167,
+      168
+     ]
+    },
+    {
+     "topic": "t6.10",
+     "chapter": 6,
+     "section": "6.10",
+     "title": "Bai‘ al Dayn (Sale of Debt)",
+     "pages": [
+      146,
+      147
+     ]
+    },
+    {
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    },
+    {
+     "topic": "t8.8.4",
+     "chapter": 8,
+     "section": "8.8.4",
+     "title": "Trading in Financial Instruments",
+     "pages": [
+      205,
+      205
+     ]
+    },
+    {
+     "topic": "t15.2",
+     "chapter": 15,
+     "section": "15.2",
+     "title": "The Capital Market in an Islamic Framework (Box 15.1 IDRs)",
+     "pages": [
+      390,
+      391
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t5.8",
+     "chapter": 5,
+     "section": "5.8",
+     "title": "Commutative and Noncommutative Contracts",
+     "pages": [
+      124,
+      125
+     ]
+    },
+    {
+     "topic": "t6.10",
+     "chapter": 6,
+     "section": "6.10",
+     "title": "Bai‘ al Dayn (Sale of Debt)",
+     "pages": [
+      146,
+      147
+     ]
+    },
+    {
+     "topic": "t7.14",
+     "chapter": 7,
+     "section": "7.14",
+     "title": "Hawalah (Assignment of Debt)",
+     "pages": [
+      167,
+      168
+     ]
+    },
+    {
+     "topic": "t8.8.4",
+     "chapter": 8,
+     "section": "8.8.4",
+     "title": "Trading in Financial Instruments",
+     "pages": [
+      205,
+      205
+     ]
+    },
+    {
+     "topic": "t15.2",
+     "chapter": 15,
+     "section": "15.2",
+     "title": "The Capital Market in an Islamic Framework (Box 15.1 IDRs)",
+     "pages": [
+      390,
+      391
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "bai-dayn",
+     "label": "the lawful way to transfer a debt"
+    },
+    {
+     "to": "qard",
+     "label": "gratuitous like a loan"
+    },
+    {
+     "to": "sukuk",
+     "label": "debt-based Sukuk follow its rules"
+    }
+   ]
+  },
+  {
+   "id": "maqasid",
+   "name": "Maqasid al-Shari’ah",
+   "group": "Foundations",
+   "primaryTopics": [
+    {
+     "topic": "t2.2.2",
+     "chapter": 2,
+     "section": "2.2.2",
+     "title": "Objectives (Maqasid) of Shari’ah",
+     "pages": [
+      22,
+      25
+     ]
+    },
+    {
+     "topic": "t5.5",
+     "chapter": 5,
+     "section": "5.5",
+     "title": "Broad Rules for the Validity of Mu‘amalat",
+     "pages": [
+      110,
+      114
+     ]
+    },
+    {
+     "topic": "t17.4.6",
+     "chapter": 17,
+     "section": "17.4.6",
+     "title": "Socio-economic Impact of the Present Islamic Banking System",
+     "pages": [
+      455,
+      456
+     ]
+    },
+    {
+     "topic": "t18.3.3",
+     "chapter": 18,
+     "section": "18.3.3",
+     "title": "The Challenges",
+     "pages": [
+      474,
+      479
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t2.2.2",
+     "chapter": 2,
+     "section": "2.2.2",
+     "title": "Objectives (Maqasid) of Shari’ah",
+     "pages": [
+      22,
+      25
+     ]
+    },
+    {
+     "topic": "t5.5",
+     "chapter": 5,
+     "section": "5.5",
+     "title": "Broad Rules for the Validity of Mu‘amalat",
+     "pages": [
+      110,
+      114
+     ]
+    },
+    {
+     "topic": "t17.4.6",
+     "chapter": 17,
+     "section": "17.4.6",
+     "title": "Socio-economic Impact of the Present Islamic Banking System",
+     "pages": [
+      455,
+      456
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "ijtihad",
+     "label": "Ijtihad must serve the Maqasid"
+    },
+    {
+     "to": "islamic-economics",
+     "label": "goals of the system"
+    },
+    {
+     "to": "business-ethics",
+     "label": "justice in dealings"
+    }
+   ]
+  },
+  {
+   "id": "hiyal",
+   "name": "Hiyal (legal ruses)",
+   "group": "Prohibitions",
+   "primaryTopics": [
+    {
+     "topic": "t6.11",
+     "chapter": 6,
+     "section": "6.11",
+     "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
+     "pages": [
+      147,
+      150
+     ]
+    },
+    {
+     "topic": "t9.9.1",
+     "chapter": 9,
+     "section": "9.9.1",
+     "title": "Avoiding Buy-back",
+     "pages": [
+      230,
+      230
+     ]
+    },
+    {
+     "topic": "t15.3.4",
+     "chapter": 15,
+     "section": "15.3.4",
+     "title": "Shari’ah Bases of Sukuk Issue and Disputed Structures",
+     "pages": [
+      396,
+      398
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t6.11",
+     "chapter": 6,
+     "section": "6.11",
+     "title": "Al ‘Inah Sale and the Use of Ruses (Hiyal)",
+     "pages": [
+      147,
+      150
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "inah",
+     "label": "the classic ruse"
+    },
+    {
+     "to": "tawarruq",
+     "label": "can become one if organised"
+    },
+    {
+     "to": "maqasid",
+     "label": "defeats the objectives"
+    }
+   ]
+  },
+  {
+   "id": "musawamah",
+   "name": "Musawamah (bargained sale)",
+   "group": "Sale-based modes",
+   "primaryTopics": [
+    {
+     "topic": "t9.11",
+     "chapter": 9,
+     "section": "9.11",
+     "title": "Musawamah (Bargaining on Price)",
+     "pages": [
+      234,
+      234
+     ]
+    },
+    {
+     "topic": "t9.11.1",
+     "chapter": 9,
+     "section": "9.11.1",
+     "title": "Musawamah as a Mode of Financing",
+     "pages": [
+      238,
+      238
+     ]
+    },
+    {
+     "topic": "t9.1",
+     "chapter": 9,
+     "section": "9.1",
+     "title": "Introduction: Credit Sale Forms and MPO",
+     "pages": [
+      213,
+      214
+     ]
+    },
+    {
+     "topic": "t14.4.2",
+     "chapter": 14,
+     "section": "14.4.2",
+     "title": "Trade Financing by Islamic Banks",
+     "pages": [
+      370,
+      373
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t9.1",
+     "chapter": 9,
+     "section": "9.1",
+     "title": "Introduction: Credit Sale Forms and MPO",
+     "pages": [
+      213,
+      214
+     ]
+    },
+    {
+     "topic": "t9.11",
+     "chapter": 9,
+     "section": "9.11",
+     "title": "Musawamah (Bargaining on Price)",
+     "pages": [
+      234,
+      234
+     ]
+    },
+    {
+     "topic": "t9.11.1",
+     "chapter": 9,
+     "section": "9.11.1",
+     "title": "Musawamah as a Mode of Financing",
+     "pages": [
+      238,
+      238
+     ]
+    },
+    {
+     "topic": "t14.4.2",
+     "chapter": 14,
+     "section": "14.4.2",
+     "title": "Trade Financing by Islamic Banks",
+     "pages": [
+      370,
+      373
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "murabaha",
+     "label": "cost-disclosed alternative"
+    },
+    {
+     "to": "bai",
+     "label": "a form of sale"
+    },
+    {
+     "to": "qabd",
+     "label": "same ownership and possession rules"
+    }
+   ]
+  },
+  {
+   "id": "istijrar",
+   "name": "Bai‘ al Istijrar (supply contract)",
+   "group": "Accessory contracts",
+   "primaryTopics": [
+    {
+     "topic": "t13.5",
+     "chapter": 13,
+     "section": "13.5",
+     "title": "Bai‘ al Istijrar (Supply Contract)",
+     "pages": [
+      355,
+      355
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t13.5",
+     "chapter": 13,
+     "section": "13.5",
+     "title": "Bai‘ al Istijrar (Supply Contract)",
+     "pages": [
+      355,
+      355
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "murabaha",
+     "label": "each consignment a separate Murabaha"
+    },
+    {
+     "to": "salam",
+     "label": "may be Salam-based"
+    },
+    {
+     "to": "bai",
+     "label": "repeated sales"
+    }
+   ]
+  },
+  {
+   "id": "waqf",
+   "name": "Waqf (endowment)",
+   "group": "Takaful & social",
+   "primaryTopics": [
+    {
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    },
+    {
+     "topic": "t16.4.1",
+     "chapter": 16,
+     "section": "16.4.1",
+     "title": "Models of Takaful (Box 16.1)",
+     "pages": [
+      423,
+      426
+     ]
+    },
+    {
+     "topic": "t18.3.1",
+     "chapter": 18,
+     "section": "18.3.1",
+     "title": "Promising Potential: Funds, Sukuk and Specific Sectors",
+     "pages": [
+      463,
+      465
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t16.3",
+     "chapter": 16,
+     "section": "16.3",
+     "title": "The Shari’ah Basis of Takaful",
+     "pages": [
+      420,
+      421
+     ]
+    },
+    {
+     "topic": "t16.4.1",
+     "chapter": 16,
+     "section": "16.4.1",
+     "title": "Models of Takaful (Box 16.1)",
+     "pages": [
+      423,
+      426
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "takaful",
+     "label": "basis of the preferred model"
+    },
+    {
+     "to": "zakat",
+     "label": "social finance"
+    },
+    {
+     "to": "islamic-economics",
+     "label": "redistribution"
+    }
+   ]
+  },
+  {
+   "id": "zakat",
+   "name": "Zakat",
+   "group": "Takaful & social",
+   "primaryTopics": [
+    {
+     "topic": "t1.8",
+     "chapter": 1,
+     "section": "1.8",
+     "title": "Islamic Principles Can Make the Difference",
+     "pages": [
+      11,
+      13
+     ]
+    },
+    {
+     "topic": "t2.5",
+     "chapter": 2,
+     "section": "2.5",
+     "title": "Paraphernalia of Islamic Economics",
+     "pages": [
+      32,
+      33
+     ]
+    },
+    {
+     "topic": "t7.15",
+     "chapter": 7,
+     "section": "7.15",
+     "title": "Security/Guarantee (Kafalah) and Pledge (Rihn)",
+     "pages": [
+      168,
+      172
+     ]
+    },
+    {
+     "topic": "t18.3.1",
+     "chapter": 18,
+     "section": "18.3.1",
+     "title": "Promising Potential: Funds, Sukuk and Specific Sectors",
+     "pages": [
+      463,
+      465
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t1.8",
+     "chapter": 1,
+     "section": "1.8",
+     "title": "Islamic Principles Can Make the Difference",
+     "pages": [
+      11,
+      13
+     ]
+    },
+    {
+     "topic": "t2.5",
+     "chapter": 2,
+     "section": "2.5",
+     "title": "Paraphernalia of Islamic Economics",
+     "pages": [
+      32,
+      33
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "islamic-economics",
+     "label": "a pillar of the system"
+    },
+    {
+     "to": "waqf",
+     "label": "social finance"
+    },
+    {
+     "to": "security",
+     "label": "Gharim surety may receive it"
     }
    ]
   }
