@@ -34,7 +34,7 @@ async function main() {
       await page.evaluate(function (h) { location.hash = h.replace(/^#/, ""); }, topicLink);
       await page.waitForTimeout(300);
       results.push({ check: "Topic detail loaded", value: await page.textContent("h1").catch(function () { return null; }) });
-      var mpoTx = await page.$$(".process-step");
+      var mpoTx = await page.$$(".tx-node");
       results.push({ check: "Transaction steps on some topic", value: mpoTx.length });
     }
 

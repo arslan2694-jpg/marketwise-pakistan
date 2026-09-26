@@ -3211,6 +3211,430 @@ window.IFL_DATA.caseStudies = [
 </script>
 <script>
 window.IFL_DATA = window.IFL_DATA || {};
+window.IFL_DATA.productsMatrix = [
+  {
+    "id": "murabaha",
+    "name": "Murabaha",
+    "category": "Trade-based (Sale)",
+    "chapter": 9,
+    "href": "#/chapter/9",
+    "shariahBasis": "A classical 'fiduciary sale' (Bai' al-Amanah): the seller must honestly disclose the original cost and add an agreed profit margin. Modern bank Murabaha takes the specific form of 'Murabaha to Purchase Orderer' (MPO), built on a client promise, an agency purchase, and a separate sale contract.",
+    "subjectMatter": "Any real, existing, Shari'ah-permissible good already owned and possessed by the bank (not currency, gold/silver, or debt instruments) that the bank resells to the client at cost plus disclosed profit.",
+    "ownershipRiskTiming": "Ownership and risk pass to the bank only after it (or its agent) takes actual or constructive possession from the supplier; only then can the bank execute a fresh offer-and-acceptance sale that transfers ownership and risk to the client.",
+    "returnType": "Fixed",
+    "returnTypeDetail": "The profit margin over the disclosed cost is fixed once at execution and cannot later be increased even though payment is deferred; rollover/re-pricing of overdue receivables is not allowed.",
+    "typicalTenor": "Short to medium term, structured around a single trade transaction financed on a deferred-payment (Bai' Mu'ajjal) basis.",
+    "liquidityTradability": "Murabaha creates a monetary receivable/debt owed by the client, which cannot be traded or sold at a discount (this would be Riba) and can only be assigned at face value under Hawalah rules.",
+    "commonUse": "Financing raw materials, inventory, equipment, and trade goods needing a cost-plus credit facility -- the book cites farm inputs, machinery, import/export trade financing, and consumer durables.",
+    "keyConditions": [
+      "Seller must truthfully disclose the original cost and any addable expenses, being honest and true to his words (a 'trust sale').",
+      "The bank must take actual or constructive possession and bear the risk of the goods before reselling to the client.",
+      "The goods requested must not already be owned by the client, otherwise the deal becomes prohibited Bai' al-'Inah (buy-back).",
+      "Currencies, gold/silver, and debt instruments cannot be the subject of Murabaha since they fall under Bai' al-Sarf rules.",
+      "The promise to purchase, the agency contract, and the actual Murabaha sale must remain three separate, independent contracts."
+    ],
+    "majorRisks": [
+      "Shari'ah-compliance risk if agency and sale steps are collapsed together or the client already owns the requested goods.",
+      "Asset/ownership risk borne by the bank between taking possession from the supplier and completing the sale to the client.",
+      "Client default risk -- rollover (re-pricing overdue receivables) is prohibited as explicit Riba, leaving only rescheduling at the same price.",
+      "Customer backing out after being appointed purchasing agent, only partly mitigated by earnest money (Hamish Jiddiyah)."
+    ],
+    "distinguishingFeature": "Unlike Musawamah, Murabaha requires the seller to disclose the original cost and negotiate only the profit margin added to it.",
+    "source": { "chapter": 9, "section": "9.2-9.10", "pages": [213, 238] }
+  },
+  {
+    "id": "musawamah",
+    "name": "Musawamah",
+    "category": "Trade-based (Sale)",
+    "chapter": 9,
+    "href": "#/chapter/9",
+    "shariahBasis": "An ordinary, general form of Bai' in which price is freely bargained between buyer and seller with no reference to the seller's cost, lawful under the same general conditions of valid sale as any other Bai', minus Murabaha's disclosure obligation.",
+    "subjectMatter": "Any Shari'ah-permissible goods or assets the bank owns and possesses, sold at a bargained final price -- suited to cases where the bank's acquisition cost is not easily broken down for the client.",
+    "ownershipRiskTiming": "Same as Murabaha: ownership, possession and risk must pass to the bank before it resells to the customer; the only difference is that cost and profit need not be disclosed.",
+    "returnType": "Fixed",
+    "returnTypeDetail": "The final price is fixed by mutual bargaining without disclosing the bank's cost or margin, so the return is embedded in the negotiated price rather than a stated markup.",
+    "typicalTenor": "Cash or deferred; the book notes it suits single large transactions (e.g. an aircraft purchase) decided at senior levels rather than routine small-ticket financing.",
+    "liquidityTradability": "As with Murabaha, execution creates a deferred-payment receivable/debt that cannot be traded at a discount and is only assignable at face value under Hawalah.",
+    "commonUse": "Large one-off asset purchases (the book's example: aircraft financing) or retail goods where the bank has obtained an undisclosed supplier discount, which would be noncompliant to keep under Murabaha.",
+    "keyConditions": [
+      "All general conditions of a valid Bai' (Chapter 6) apply exactly as in Murabaha.",
+      "The bank must still take ownership, possession, and business risk of the asset before reselling to the customer.",
+      "No disclosure of cost price or profit margin is required or expected by either party.",
+      "Where a supplier rebate is received and not disclosed to the customer, the sale must be structured as Musawamah, not Murabaha."
+    ],
+    "majorRisks": [
+      "Same ownership/possession and default risks as Murabaha, since all other Shari'ah essentials are identical.",
+      "Less pricing transparency than Murabaha, which the book notes makes benchmark-linked pricing and regulatory oversight harder.",
+      "Greater scope for mispricing relative to Murabaha's disclosed cost-plus structure, per the book's own comparison."
+    ],
+    "distinguishingFeature": "Unlike Murabaha, Musawamah involves no obligation on the seller to disclose the original cost -- price is set purely by mutual bargaining on the final figure.",
+    "source": { "chapter": 9, "section": "9.11", "pages": [234, 238] }
+  },
+  {
+    "id": "salam",
+    "name": "Salam",
+    "category": "Forward Sale",
+    "chapter": 10,
+    "href": "#/chapter/10",
+    "shariahBasis": "An explicit exception -- sanctioned directly by the Prophet (pbuh) -- to the rule that a sold commodity must exist and be possessed by the seller, permitted for the genuine financing 'necessity' of farmers and traders, subject to strict specification and full advance payment.",
+    "subjectMatter": "Fungible (Mithli) commodities precisely defined by quality, quantity and standard specification (e.g. wheat, rice, oil, metals) and generally available in the market at delivery; not usable for money/currencies, unique items, or value-by-subjective-judgment items.",
+    "ownershipRiskTiming": "The buyer pays the full price upfront (Salam capital) while the seller keeps the goods and bears their risk until the agreed future delivery date, when ownership and risk of the delivered commodity pass to the buyer.",
+    "returnType": "Fixed",
+    "returnTypeDetail": "The buyer's gain comes from a Salam price typically cheaper than the future spot price -- effectively a fixed forward price agreed today for goods delivered later.",
+    "typicalTenor": "Historically one to three years for farm produce; contemporary use fixes any agreed period, from days to years, depending on the commodity.",
+    "liquidityTradability": "The majority view bars the Salam buyer from reselling before taking delivery; banks instead use Parallel Salam, an independent agency sale, or a third-party purchase promise -- negotiable Salam certificates remain a disputed, largely unaccepted innovation.",
+    "commonUse": "Financing producers and traders who need cash now against future delivery of a standardized commodity -- the book's archetype is agricultural financing (seed, inputs, working capital for farmers).",
+    "keyConditions": [
+      "Full price must be paid in advance, essentially at the contract session (a short customary delay is tolerated by some jurists).",
+      "Quantity, quality and specifications must be precisely defined to remove Gharar; delivery date and place must be fixed.",
+      "The commodity must be a fungible item normally available in the market at delivery, not a specific identified asset.",
+      "Salam is not permitted in gold, silver, or currencies, which fall under Bai' al-Sarf's simultaneous-exchange requirement.",
+      "The contract is binding and non-revocable except by mutual consent; Khiyar al-Shart (option) is disallowed."
+    ],
+    "majorRisks": [
+      "Seller default or delivery of inferior/short-quantity goods, mitigated by pledges, sureties, and predefined substitution rules.",
+      "Marketing/disposal risk for the bank on taking delivery, since onward resale before possession is restricted.",
+      "Price risk since the contract is binding and neither party may rescind merely because the market price moved.",
+      "Shari'ah-compliance risk in disguised currency-based or debt-based Salam structures, rejected by the majority of jurists."
+    ],
+    "distinguishingFeature": "Unlike Istisna'a, Salam requires full price payment in advance and is restricted to fungible (Mithli) goods rather than items requiring manufacture.",
+    "source": { "chapter": 10, "section": "10.2-10.8", "pages": [241, 263] }
+  },
+  {
+    "id": "istisnaa",
+    "name": "Istisna'a",
+    "category": "Forward Sale",
+    "chapter": 10,
+    "href": "#/chapter/10",
+    "shariahBasis": "Legalized on the principle of Istihsan (juristic preference) as a sale of a not-yet-existing manufactured item, justified by long-standing common practice and by the ease it affords for financing manufacture and infrastructure that Salam's rules cannot accommodate.",
+    "subjectMatter": "Items that must be manufactured, assembled or constructed -- identified by detailed specification, not by pointing to an existing unit -- such as buildings, plant, ships, aircraft, and infrastructure.",
+    "ownershipRiskTiming": "The manufacturer/seller bears the risk of raw materials and work-in-progress until delivery; risk and ownership of the completed asset transfer to the purchaser only on delivery in the agreed specifications.",
+    "returnType": "Fixed",
+    "returnTypeDetail": "Price is fixed by mutual agreement at execution and cannot be unilaterally changed, though it may be revised by mutual consent for material design changes or unforeseen cost shifts.",
+    "typicalTenor": "Medium to long term, suited to long-gestation projects (construction, shipbuilding, plant manufacture); price can be paid in instalments linked to completion stages rather than in full advance.",
+    "liquidityTradability": "The purchaser is not deemed owner of work-in-progress materials, and the completed asset is not readily tradable before delivery; banks typically use Parallel Istisna'a as manufacturer-supplier rather than reselling receivables.",
+    "commonUse": "Financing manufacture and construction -- housing, plant and machinery, infrastructure (roads, bridges, dams), and high-technology goods such as aircraft and ships -- plus export/working-capital financing.",
+    "keyConditions": [
+      "Subject matter must require manufacturing/construction and be defined by specification, not by identifying an existing unit.",
+      "Price need not be paid in advance (unlike Salam) and can be instalment-based or tied to completion stages.",
+      "The contract only becomes binding once the manufacturer starts work; before that either party may cancel.",
+      "A penalty clause (Shart-e-Jazai) reducing price for late delivery is permitted, with its benefit going to the purchaser -- unlike Salam's late-delivery penalty, which goes to charity.",
+      "Parallel Istisna'a with a third-party contractor is permitted provided the two contracts stay fully independent."
+    ],
+    "majorRisks": [
+      "Delivery/completion risk if the manufacturer or a parallel subcontractor delays or fails to perform.",
+      "Quality risk -- the purchaser has the option of defect (Khiyar al-'Aib) if the delivered asset lacks agreed specifications.",
+      "Settlement, price, and possession risk during the manufacturing period, since sale before delivery is restricted.",
+      "Market/cost risk if project costs or values shift over long gestation periods before delivery completes."
+    ],
+    "distinguishingFeature": "Unlike Salam, Istisna'a does not require full advance payment and only becomes binding once work has actually started.",
+    "source": { "chapter": 10, "section": "10.11", "pages": [263, 270] }
+  },
+  {
+    "id": "ijarah",
+    "name": "Ijarah",
+    "category": "Lease-based",
+    "chapter": 11,
+    "href": "#/chapter/11",
+    "shariahBasis": "Sanctioned by Qur'an, Sunnah and juristic consensus (Ijma'a) as the sale of usufruct (Manafa'ah) of an asset -- not its corpus -- for rent, valid for any asset whose corpus is not consumed by use and whose usufruct can be clearly ascertained.",
+    "subjectMatter": "The right to use a specified tangible asset (property, vehicle, equipment) whose corpus is not consumed through use; corpus ownership stays with the lessor throughout.",
+    "ownershipRiskTiming": "Ownership of the corpus never transfers in pure Ijarah; it stays with the lessor for the whole term, and all ownership-related risks/expenses remain the lessor's, while the lessee is liable only for loss he causes by negligence.",
+    "returnType": "Rental",
+    "returnTypeDetail": "Rent (Ujrah) is agreed for a specified period and becomes due only once the asset is delivered in usable form -- not from when the lessor pays for the asset -- and may be benchmarked or revised with agreed ceilings/floors.",
+    "typicalTenor": "Flexible -- can run for the asset's full useful life (financial-lease style) or a shorter period (operating lease), which the book notes suits high-cost, long-production-time assets like aircraft and ships.",
+    "liquidityTradability": "Accrued rent is a debt and cannot be sold at a discount; sub-leasing is permitted with the lessor's consent, and the lessor may sell the leased asset to a third party without ending the lease.",
+    "commonUse": "Financing use of equipment, vehicles, machinery, and property where the client needs the asset's usufruct rather than outright purchase.",
+    "keyConditions": [
+      "The leased asset's corpus must not be consumed by use (excludes money, food, fuel, and similar consumables).",
+      "The usufruct, rental amount, and lease period must all be clearly known/ascertained to avoid Gharar.",
+      "Rent does not become due until the asset is actually delivered to the lessee in usable condition.",
+      "All ownership-related expenses and risks (including Takaful) remain the lessor's responsibility throughout.",
+      "Any interest-benchmark-linked rental review must be capped/floored to avoid Gharar."
+    ],
+    "majorRisks": [
+      "Asset ownership risk borne entirely by the lessor -- if the asset is destroyed without the lessee's fault, the lessor bears the loss and cannot claim further rent.",
+      "Rental default risk, since accrued rent is a debt; only charity-directed late-payment penalties (not bank income) are permitted as a deterrent.",
+      "Residual/obsolescence risk for the lessor in operating leases, which must be re-leased or disposed of at term end.",
+      "Shari'ah-compliance risk if conventional-lease practices (rent before delivery, shifting all ownership risk to the lessee) creep into the structure."
+    ],
+    "distinguishingFeature": "Unlike a sale, Ijarah transfers only the usufruct (right to use), never the corpus/ownership, which stays with the lessor throughout the lease term.",
+    "source": { "chapter": 11, "section": "11.1-11.4", "pages": [279, 290] }
+  },
+  {
+    "id": "ijarah-muntahia-bi-tamleek",
+    "name": "Ijarah Muntahia-bi-Tamleek",
+    "category": "Lease-based",
+    "chapter": 11,
+    "href": "#/chapter/11",
+    "shariahBasis": "Built on ordinary Ijarah rules but kept compliant by strictly separating the lease from ownership transfer: a unilateral, binding promise by the lessor to sell or gift the asset at lease end, executed through a wholly separate contract, avoids the prohibited 'two contracts in one bargain'.",
+    "subjectMatter": "Same as Ijarah -- a specified usable asset whose corpus is not consumed by use -- with an accompanying separate promise mechanism for eventual ownership transfer to the lessee.",
+    "ownershipRiskTiming": "Corpus ownership and risk stay with the bank/lessor throughout, exactly as in ordinary Ijarah; only at lease-end, via a separate sale, gift, or gift-contingent-on-final-payment contract, do ownership and risk pass to the lessee.",
+    "returnType": "Rental",
+    "returnTypeDetail": "Payments are structured purely as rent throughout the lease (not as purchase instalments), starting only when the asset is supplied in usable form -- unlike a conventional finance lease, where accrual starts on payment to the supplier.",
+    "typicalTenor": "Generally spans the asset's expected productive life, ending with a separate ownership-transfer contract at term -- commonly multi-year in the book's housing and equipment finance examples.",
+    "liquidityTradability": "Same as Ijarah: accrued rent is a non-tradable debt; the ownership-transfer promise is unilateral and not itself a negotiable instrument.",
+    "commonUse": "The dominant Islamic-bank leasing structure for financing houses, vehicles, and equipment where the client's end goal is ownership -- the Shari'ah-compliant counterpart to conventional hire-purchase/finance lease.",
+    "keyConditions": [
+      "The ownership-transfer promise must be unilateral and binding only on the lessor; the lessee retains the option not to proceed.",
+      "Transfer of ownership must be executed via a separate, independent contract (sale, gift, or gift contingent on final instalment), never as a built-in condition of the lease.",
+      "If structured as sale-and-lease-back, a reasonable interval (the book suggests around one year) should separate purchase and eventual repurchase to avoid Bai' al-'Inah.",
+      "All ordinary Ijarah essentials (defined usufruct and rent, lessor bearing ownership risk) must still be fully satisfied throughout.",
+      "Rent must start only from actual usable delivery to the lessee, not from the date the bank pays the supplier."
+    ],
+    "majorRisks": [
+      "Shari'ah-compliance risk if the sale/gift is effectively pre-conditioned into the lease rather than kept independent.",
+      "Ownership risk for the lessor for the full lease term, since risk transfer is deferred to the final ownership-transfer contract.",
+      "Bai' al-'Inah risk in sale-and-lease-back variants if repurchase follows too quickly after the initial sale.",
+      "Default/termination risk -- if the lessee fails to complete purchase, the lessor may recover only actual loss (not opportunity cost) from any earnest money held."
+    ],
+    "distinguishingFeature": "Unlike plain Ijarah, IMT adds a separate, unilateral promise mechanism for ownership to transfer at lease end -- but that transfer must never be built into the lease contract itself.",
+    "source": { "chapter": 11, "section": "11.5", "pages": [290, 293] }
+  },
+  {
+    "id": "musharakah",
+    "name": "Musharakah",
+    "category": "Participatory (Equity)",
+    "chapter": 12,
+    "href": "#/chapter/12",
+    "shariahBasis": "Rooted in Shirkatul-'aqd (contractual partnership), specifically Shirkah al-'Inan, which enjoys the consensus (Ijma'a) of the major schools: partners combine capital (and optionally labour) to conduct a joint business, sharing profit by agreement and loss strictly by capital ratio.",
+    "subjectMatter": "A jointly owned commercial venture or specific project/asset, financed by the combined capital contributions (cash or valued-in-kind) of two or more partners who act as each other's mutual agents.",
+    "ownershipRiskTiming": "Ownership of the venture's assets is joint and proportional to each partner's capital from inception; each partner bears business risk and loss immediately and continuously in proportion to capital invested.",
+    "returnType": "Variable/Profit-Share",
+    "returnTypeDetail": "Profit is shared in any mutually agreed ratio (which may differ from the capital ratio to reward a working partner's effort), but loss must always be borne strictly in proportion to capital contribution.",
+    "typicalTenor": "Can be continuous, lasting as long as the business operates, or restricted to a specific project until completion; a partner may generally withdraw at will unless a fixed term is mutually agreed.",
+    "liquidityTradability": "A partner's share can be sold or assigned subject to partnership rules, and in corporate form takes the shape of tradable shares; but a promise to buy another partner's share at a pre-fixed price (rather than market/agreed value) is not permitted, since that would guarantee his capital.",
+    "commonUse": "Joint-venture and project financing where the bank and client both contribute capital and share business risk -- the book frames it as the most genuinely risk-sharing, and preferred, mode.",
+    "keyConditions": [
+      "Profit-sharing ratio must be agreed at execution and can differ from the capital ratio; loss must always follow the capital ratio exactly.",
+      "No partner may be guaranteed a lump-sum or fixed-percentage-of-capital return -- profit must be a share of actual realized profit.",
+      "Capital contributed (cash or valued goods) must be quantified without ambiguity.",
+      "All partners are mutual agents (Wakil) of one another but not guarantors (Kafil) of one another's losses due to misconduct.",
+      "A sleeping partner (one who does not work) cannot receive a profit share exceeding his capital ratio."
+    ],
+    "majorRisks": [
+      "Full exposure to business/commercial loss in proportion to capital invested -- there is no capital protection.",
+      "Partner-management (agency) risk, since a partner is liable only for negligence or misconduct, not ordinary business loss.",
+      "Termination/liquidity risk, since Musharakah is non-binding by default and any partner may seek to withdraw.",
+      "Valuation risk at exit or profit-distribution points, requiring fair valuation (actual or constructive liquidation) of assets."
+    ],
+    "distinguishingFeature": "Unlike Mudarabah, in Musharakah all partners contribute capital and may participate in management, and all partners bear loss in proportion to their own investment.",
+    "source": { "chapter": 12, "section": "12.2-12.3", "pages": [307, 320] }
+  },
+  {
+    "id": "mudarabah",
+    "name": "Mudarabah",
+    "category": "Participatory (Equity)",
+    "chapter": 12,
+    "href": "#/chapter/12",
+    "shariahBasis": "A specific form of Shirkah recognized since pre-Islamic times and confirmed by Prophetic practice and juristic consensus, in which one party (Rabbul-mal) supplies capital and another (Mudarib) supplies labour/expertise, sharing profit by agreement while capital loss is borne solely by the financier.",
+    "subjectMatter": "Capital (preferably cash, precisely valued if in kind) entrusted to a Mudarib to trade or conduct business with, on either a restricted (specific business/place/time) or unrestricted basis.",
+    "ownershipRiskTiming": "The Rabbul-mal owns the capital and all business assets/profits until distribution; the Mudarib owns nothing of the venture and bears no capital risk -- his only loss on failure is uncompensated time and effort, absent negligence.",
+    "returnType": "Variable/Profit-Share",
+    "returnTypeDetail": "Profit is split in a pre-agreed ratio (e.g. 50:50) fixed at inception and never a lump sum or a percentage of capital; capital loss is borne entirely by the Rabbul-mal unless caused by the Mudarib's negligence or misconduct.",
+    "typicalTenor": "Can run to a fixed term by agreement or continue until wound up at will (unrestricted Mudarabah); once the Mudarib has commenced business, the contract becomes binding until actual or constructive liquidation.",
+    "liquidityTradability": "Mudarabah certificates/Sukuk can be traded subject to conditions -- as cash they follow Bai' al-Sarf rules, as debt they follow debt-trading rules, and as mixed assets they trade at market-agreed value; final profit/loss is only fixed at actual or constructive liquidation.",
+    "commonUse": "The classical basis for Islamic banks' deposit-taking (banks as Mudarib for depositors' funds) and for asset-management/investment-agency products.",
+    "keyConditions": [
+      "Profit-sharing ratio must be fixed at inception as a share of actual realized profit, never a lump sum or percentage of capital.",
+      "Capital must be reasonably liquid/quantifiable; a pre-existing debt cannot be converted into Mudarabah capital.",
+      "The Mudarib may not work contrary to the financier's specified conditions (business, place, time) in a restricted Mudarabah.",
+      "The financier (Rabbul-mal) generally may not interfere in day-to-day management, though he may monitor fiduciary compliance.",
+      "If the Mudarib contributes his own capital alongside the financier's, that portion becomes a hybrid Musharakah-Mudarabah arrangement."
+    ],
+    "majorRisks": [
+      "Full capital-loss exposure for the financier -- the working partner risks only his labour, creating potential agency/moral-hazard risk.",
+      "Difficulty verifying the Mudarib's honesty and diligence, since he is a trustee liable only for negligence, not ordinary business loss.",
+      "Profit-recognition risk: profit is not final until actual or constructive liquidation, complicating periodic distributions.",
+      "Termination risk, since Mudarabah is non-binding by default absent an agreed minimum duration."
+    ],
+    "distinguishingFeature": "Unlike Musharakah, only the financier (Rabbul-mal) contributes capital and bears any capital loss -- the Mudarib contributes labour only and loses nothing but his effort if the venture fails.",
+    "source": { "chapter": 12, "section": "12.4-12.5", "pages": [320, 328] }
+  },
+  {
+    "id": "diminishing-musharakah",
+    "name": "Diminishing Musharakah",
+    "category": "Participatory (Equity)",
+    "chapter": 12,
+    "href": "#/chapter/12",
+    "shariahBasis": "A contemporary juristic development combining Shirkatulmilk (joint ownership) with separate leasing and sale sub-contracts, permissible because each element is kept independently valid and not made conditional on the others, avoiding the prohibition on tying two contracts together.",
+    "subjectMatter": "A jointly owned fixed asset (typically a house, vehicle, plant, or building) in which the financier partner's ownership units are periodically leased and then sold to the client partner until full ownership transfers.",
+    "ownershipRiskTiming": "Both partners hold proportional ownership and bear risk from the outset pro rata; as the client buys successive ownership units, the financier's ownership share, risk, and rental entitlement all shrink until full ownership passes to the client.",
+    "returnType": "Mixed",
+    "returnTypeDetail": "The client pays declining rent on the financier's shrinking ownership share plus a separate periodic payment to purchase further ownership units, combining a rental return with capital repayment.",
+    "typicalTenor": "Medium to long term, matched to the underlying asset -- the book's worked housing-finance example runs a 10-year (120-month) unit-purchase and rental-decline schedule.",
+    "liquidityTradability": "The financier's remaining ownership units are not freely tradable to third parties in typical bank structures; the client's promise to purchase is unilateral and binding on him (in Shirkatulmilk) or, in DM-in-trade, only on the financier, priced independently of any guaranteed capital value.",
+    "commonUse": "The book's leading example for house financing, auto financing, plant/machinery financing, and balance-transfer facilities replacing interest-based mortgages, plus gradual buyout of a trading partner's equity stake.",
+    "keyConditions": [
+      "Partnership, lease, and sale must be structured as three separate, independently enforceable contracts, never bundled or conditional on one another.",
+      "In Shirkatulmilk-based DM (e.g. housing), a pre-agreed purchase price schedule is permitted; in DM-in-trade, units must instead be sold at prevailing market/valuation price to avoid guaranteeing the financier's capital.",
+      "Rent is charged only on the financier's outstanding ownership share and must decline as the client buys further units.",
+      "Sale-and-lease-back variants require a suitable interval (the book suggests about one year) before repurchase, to avoid Bai' al-'Inah.",
+      "Both partners bear ownership-related expenses and losses pro rata according to their current ownership share."
+    ],
+    "majorRisks": [
+      "Client default risk -- if payments stop, the financier's ownership share and rental income do not decline, though the client's asset may be at stake via security.",
+      "Shari'ah-compliance risk if the three sub-contracts are stipulated together rather than kept independent, or a pre-fixed buyout price is used in DM-in-trade.",
+      "Valuation risk when a client buys multiple units at once, requiring fresh appraisal and capital-gain sharing.",
+      "Rate risk on floating rental components, requiring a floor-and-cap structure to avoid Gharar."
+    ],
+    "distinguishingFeature": "Unlike ordinary Musharakah, Diminishing Musharakah has a built-in exit mechanism: one partner's ownership share is progressively bought out by the other through periodic unit purchases until sole ownership results.",
+    "source": { "chapter": 12, "section": "12.8-12.9", "pages": [337, 343] }
+  },
+  {
+    "id": "wakalah",
+    "name": "Wakalah",
+    "category": "Agency-based",
+    "chapter": 13,
+    "href": "#/chapter/13",
+    "shariahBasis": "Agency is directly evidenced by Shari'ah texts and Prophetic practice (the Prophet delegated a purchase to a Companion); a Wakil acts on behalf of a principal with the diligence of a trustee (Amanah), and the resulting rights/liabilities attach to the principal as if he acted himself.",
+    "subjectMatter": "Any lawful act that admits representation -- purchase, sale, letting, borrowing/lending, debt assignment, payment collection, or fund management -- delegated by a principal to an agent for a specific or general purpose.",
+    "ownershipRiskTiming": "Per the preferred juristic view, ownership of anything the agent purchases for the principal transfers directly from the seller to the principal without passing through the agent's ownership; the agent bears no ownership risk unless negligent.",
+    "returnType": "Fee-based",
+    "returnTypeDetail": "Banks typically charge a fee (fixed lump sum or percentage of net asset value/investment) for agency services such as Wakalatul Istismar fund management, while often not charging clients who act as the bank's own purchasing agent.",
+    "typicalTenor": "Can be a one-off specific agency or an ongoing general agency; it terminates by mutual agreement, unilateral termination, task completion, destruction of the subject matter, or death/loss of capacity.",
+    "liquidityTradability": "Not applicable in the usual sense -- Wakalah creates a service relationship rather than a tradable financial claim, though the transactions it enables may be tradable per their own rules.",
+    "commonUse": "Used pervasively as a supporting contract across almost every Islamic banking mode -- Murabaha, Salam, Istisna'a, Ijarah, Diminishing Musharakah -- plus standalone fund management (Wakalatul Istismar), L/C handling, and bill collection.",
+    "keyConditions": [
+      "The delegated act must be clearly known and must admit representation (excludes personal acts like prayer or giving testimony).",
+      "Agency is not permitted for unlawful acts (theft, Riba-based dealing) or acts of disobedience.",
+      "The agent must perform per the principal's instructions with due care and skill, and may not sub-delegate without consent.",
+      "The agent must avoid conflicts of interest -- e.g. cannot sell his own property to the principal without full disclosure.",
+      "An agency contract can be specific or general, but the scope of work must be clearly defined either way."
+    ],
+    "majorRisks": [
+      "Agency (moral hazard) risk -- the agent may not act with full diligence, especially where he is also a counterparty (as in Murabaha's client-as-agent structure).",
+      "Fuduli risk -- an agent acting beyond his authority creates a contract valid only subject to the principal's ratification.",
+      "Shari'ah-compliance risk when agency and sale steps are improperly combined (e.g. double agency for both payment and purchase).",
+      "Third-party liability risk, since an agent's dealings can create obligations the principal must honor."
+    ],
+    "distinguishingFeature": "Wakalah's defining feature is that the agent's actions and any resulting ownership pass directly to the principal, without the agent bearing risk in a personal capacity absent negligence.",
+    "source": { "chapter": 13, "section": "13.2", "pages": [347, 349] }
+  },
+  {
+    "id": "tawarruq",
+    "name": "Tawarruq",
+    "category": "Trade-based (Sale)",
+    "chapter": 13,
+    "href": "#/chapter/13",
+    "shariahBasis": "Permitted by the majority (preferred) view across the schools as a genuine credit-then-cash-sale sequence, distinguished from prohibited Bai' al-'Inah because the commodity is sold on to an unrelated third party, not back to the original seller.",
+    "subjectMatter": "A liquid, marketable commodity (e.g. exchange-traded metals, shares, or other tradable goods) purchased on deferred payment and then sold for spot cash, purely to generate liquidity rather than to acquire the commodity itself.",
+    "ownershipRiskTiming": "The Mutawarriq (liquidity seeker) must take ownership and possession of the commodity from the original seller before reselling it to a genuinely separate third party; ownership/risk briefly passes through the client before being sold on for cash.",
+    "returnType": "Fixed",
+    "returnTypeDetail": "The bank's return is the fixed profit margin embedded in the credit sale price to the client, realized once the commodity is resold at spot for cash.",
+    "typicalTenor": "Short-term, used mainly for liquidity management and interbank placements and for personal financing/credit cards.",
+    "liquidityTradability": "The commodity must be genuinely transferred and sold, not merely papered over; commodity-exchange-based Tawarruq (e.g. LME) is flagged as vulnerable to Shari'ah violations if goods never actually move.",
+    "commonUse": "Personal and consumer financing, credit cards, and interbank/treasury liquidity management (Commodity Murabaha/Shares Murabaha), used only when no other compliant financing option is available.",
+    "keyConditions": [
+      "The commodity must be sold to a genuine, unrelated third party -- reselling to the original seller makes it invalid Bai' al-'Inah.",
+      "The bank should not appoint the Mutawarriq as its own agent to both buy and then sell the same commodity to himself.",
+      "Where the bank acts as agent for the onward sale, this agency should not be stipulated as a condition inside the sale contract.",
+      "The transaction must involve real transfer of ownership and possession of an actual commodity, not just an exchange of paperwork.",
+      "Scholars cited in the book advise strictly limited, exceptional use, particularly discouraging it for individual consumer financing."
+    ],
+    "majorRisks": [
+      "High Shari'ah-compliance risk -- widely regarded as a 'grey area' vulnerable to becoming a disguised interest loan if any step is mishandled.",
+      "Reputational/systemic risk from widespread or careless use, which scholars warn could undermine the industry's credibility.",
+      "Execution risk in commodity-exchange-based structures where actual transfer/possession of the underlying metal may be doubtful.",
+      "Counterparty/settlement risk in the rapid buy-then-sell sequence across multiple brokers."
+    ],
+    "distinguishingFeature": "Unlike Bai' al-'Inah (prohibited), Tawarruq requires the commodity to be resold to a genuinely separate third party, and the buyer's motive is pure liquidity, not owning the commodity.",
+    "source": { "chapter": 13, "section": "13.3", "pages": [349, 351] }
+  },
+  {
+    "id": "juaalah",
+    "name": "Ju'alah",
+    "category": "Agency-based",
+    "chapter": 13,
+    "href": "#/chapter/13",
+    "shariahBasis": "Permitted on the authority of the Qur'an (the King's lost-beaker reward in Surah Yousuf) and Sunnah; it is a contract where a specified reward is promised to whoever achieves a determined result, even where the work needed involves inherent uncertainty.",
+    "subjectMatter": "A required end result (not a minutely specified task) to be achieved by an unspecified worker (the general public) or a specified worker, such as recovering a lost asset, collecting overdue debt, or producing a report.",
+    "ownershipRiskTiming": "No corpus ownership transfer is involved; entitlement to the reward arises only upon realization of the specified result, and the worker bears the risk of unrewarded effort if the result is never achieved, except in specific defined cases.",
+    "returnType": "Fee-based",
+    "returnTypeDetail": "A fixed or result-proportional reward (Jua'l) is paid only upon successful realization of the stipulated result; partial advance payment 'on account' is possible but full entitlement stays contingent on completion.",
+    "typicalTenor": "Can specify a completion deadline after which the worker forfeits the reward (extendable by mutual consent for genuine cause); otherwise open-ended until the result is achieved or the contract is terminated.",
+    "liquidityTradability": "Not a tradable financial instrument -- it is a service/reward contract, and entitlement to reward is personal to the worker who achieves the result.",
+    "commonUse": "Used by Islamic banks for recovery of overdue/nonperforming debts, securing feasibility studies to obtain financing, and brokerage -- suited to tasks Ijarah cannot cover because the work cannot be minutely specified in advance.",
+    "keyConditions": [
+      "The task (required end result) and the reward must both be clearly indicated, even though the work needed to achieve it may remain uncertain.",
+      "The reward must be known, valuable, permissible, and deliverable once the result is achieved -- it can be a proportion of the realized result.",
+      "The task must not already be a legal/employment obligation of the worker and must involve genuine effort.",
+      "Ju'alah is non-binding before work commences (either party may terminate); once work begins, the offeror cannot revoke without paying a reasonable wage.",
+      "Parallel Ju'alah is permitted -- a bank can be worker in one contract and offeror in an independent parallel contract with a third party."
+    ],
+    "majorRisks": [
+      "No-result, no-reward risk for the worker -- if the task fails despite genuine effort, no compensation is due absent a specific exception.",
+      "Ambiguity/dispute risk if the required result or reward is not clearly specified up front.",
+      "Offeror revocation risk after work has commenced, obligating a reasonable wage despite no result yet achieved.",
+      "Counterparty performance risk in Parallel Ju'alah, since the bank stays liable to the original offeror regardless of the parallel worker's performance."
+    ],
+    "distinguishingFeature": "Unlike Ijarah, Ju'alah does not require the work itself to be precisely specified -- only the end result and reward -- making it usable for tasks where the effort needed is inherently uncertain.",
+    "source": { "chapter": 13, "section": "13.4", "pages": [351, 355] }
+  },
+  {
+    "id": "sukuk",
+    "name": "Sukuk",
+    "category": "Capital Market",
+    "chapter": 15,
+    "href": "#/chapter/15",
+    "shariahBasis": "AAOIFI defines Sukuk as certificates of equal value representing undivided ownership shares in tangible assets, usufruct, services, or a specified investment/project; compliance requires interest-bearing debt not to dominate the underlying pool, and the structure to rest on real modes such as Shirkah, Ijarah, Salam, or Istisna'a rather than a disguised loan.",
+    "subjectMatter": "A pool or specific asset (real estate, equipment, receivables from real transactions, or a project) transferred to a special purpose vehicle (SPV)/special purpose Mudarabah, whose proportional undivided ownership is represented by the issued certificates.",
+    "ownershipRiskTiming": "Sukuk holders collectively own the underlying assets from issuance (via the SPV) and bear the associated risk of loss/underperformance from that point; return and capital recovery depend on the actual performance of the specific underlying assets.",
+    "returnType": "Mixed",
+    "returnTypeDetail": "Return is variable/participatory when the underlying mode is Shirkah-based (profit/loss share) or quasi-fixed when based on Ijarah/fixed-return modes; a truly fixed return, as with conventional bonds, requires an independent third-party guarantee.",
+    "typicalTenor": "Issued for a defined period against specific assets, ranging from about three months to ten years in the book's account of market practice.",
+    "liquidityTradability": "Ijarah- and Shirkah-based Sukuk (representing real asset/usufruct ownership) can be actively traded at market-determined prices; Sukuk relying on Bai' al-Dayn-based secondary trading (criticized in some Malaysian structures) are Shari'ah-contentious among the majority of scholars.",
+    "commonUse": "Sovereign and corporate funding of large infrastructure and development projects, an alternative to conventional bonds for issuers, and a liquidity-management/diversification instrument for Islamic banks -- the book's case studies include Pakistan's motorway and WAPDA power Sukuk.",
+    "keyConditions": [
+      "The underlying assets transferred to the SPV must involve a real, complete, irrevocable transfer, not merely a paper assignment.",
+      "Interest-bearing debt must not be the dominant component of the asset pool for the certificates to be Shari'ah-compliant.",
+      "In sale-and-lease-back Ijarah Sukuk, a reasonable interval should separate the sale to the SPV and any eventual repurchase, to avoid Bai' al-'Inah.",
+      "Secondary-market trading must correspond to trading real ownership of tangible assets/usufruct (Ijarah/Shirkah basis), not a discounted debt claim (Bai' al-Dayn), which the majority of jurists reject.",
+      "Any guarantee making returns fully fixed must come from an independent third party, not the issuer/manager guaranteeing its own capital or profit."
+    ],
+    "majorRisks": [
+      "Shari'ah-compliance risk where structures (e.g. Bai' al-'Inah or Bai' al-Dayn-based secondary trading) resemble conventional interest-bearing bonds in substance.",
+      "Asset/collateral risk -- variation in the value or performance of the underlying assets directly affects Sukuk holder returns.",
+      "Credit and bankruptcy risk of the originator/obligor, plus payment risk from credit-enhancement providers and legal/regulatory risk.",
+      "Liquidity and market risk, since secondary-market depth varies by structure, and reliance on Ijarah Sukuk alone may not sustain the industry's full securitization potential."
+    ],
+    "distinguishingFeature": "Unlike a conventional bond (a pure debt claim), a Sukuk represents proportional real ownership in underlying tangible assets, usufruct, or a project -- its return and tradability derive from that asset's actual performance.",
+    "source": { "chapter": 15, "section": "15.1-15.4", "pages": [389, 416] }
+  },
+  {
+    "id": "takaful",
+    "name": "Takaful",
+    "category": "Risk-Pooling",
+    "chapter": 16,
+    "href": "#/chapter/16",
+    "shariahBasis": "Developed as a cooperative alternative to conventional insurance -- rejected by the majority of scholars for containing Riba, Gharar, and Maisir -- Takaful is grounded in mutual-help concepts like 'Aqilah (shared tribal responsibility) and Waqf (endowment), converting the relationship into mutual donation (Tabarru') rather than a commutative risk-transfer sale.",
+    "subjectMatter": "Participant contributions (split into a donation/protection portion and, for family Takaful, a savings/investment portion) pooled into a Takaful (often Waqf) fund used to pay claims to participants who suffer a defined loss.",
+    "ownershipRiskTiming": "Once contributed as Tabarru' (donation) to the fund, participants relinquish individual ownership of that portion; the underwriting surplus or deficit (UWS/UWL) belongs collectively to the participants, while the operator manages the fund as Wakil and/or Mudarib for a fee/profit share.",
+    "returnType": "Mixed",
+    "returnTypeDetail": "The operator earns a Wakalah management fee and/or a Mudarabah share of investment profit; participants may receive a share of any underwriting surplus and, in family Takaful, their accumulated savings/investment portion plus profit at maturity.",
+    "typicalTenor": "Mirrors conventional insurance terms -- ongoing and renewed periodically for general Takaful, or running to a defined policy term for family (life) Takaful savings/protection plans.",
+    "liquidityTradability": "Not a tradable market instrument; a participant's claim is a right to a defined benefit/beneficiary share from the fund, not a security, though the fund's own investments must be Shari'ah-compliant.",
+    "commonUse": "Shari'ah-compliant risk cover for individuals and businesses, including insuring assets underlying other Islamic bank contracts (auto Ijarah, Murabaha goods in transit, Istisna'a projects), plus family (life) Takaful savings/protection plans.",
+    "keyConditions": [
+      "The core contribution (or a defined portion) must be structured as Tabarru' (donation) to the mutual fund, not a commutative premium-for-indemnity exchange.",
+      "The underwriting surplus or deficit (UWS/UWL) must belong to the participants as a group, not to the operator/shareholders.",
+      "The operator's compensation must be a defined Wakalah fee and/or Mudarabah profit share -- not a share of UWS alone without bearing corresponding downside.",
+      "Fund investments must be made only in Shari'ah-compliant avenues, avoiding Riba-based instruments.",
+      "A Waqf structure (or Wakalah-Waqf combination) is regarded by the cited contemporary scholarly consensus as the most Shari'ah-robust model."
+    ],
+    "majorRisks": [
+      "Model-design (Shari'ah-compliance) risk -- pure Wakalah, pure Mudarabah, and combined models each face specific scholarly objections.",
+      "Fund solvency/deficit risk -- if claims exceed the pool and reserves, the operator must extend Qard al-Hasan to cover the shortfall.",
+      "Governance/trust risk given the operator's dual roles (Wakil and/or Mudarib) and the need for transparent surplus and fee allocation.",
+      "Re-Takaful (reinsurance) counterparty risk when funds cede catastrophic-loss risk to re-Takaful operators."
+    ],
+    "distinguishingFeature": "Unlike conventional insurance's premium-for-indemnity risk transfer, Takaful is built on mutual donation (Tabarru') among participants, with the underwriting surplus belonging to the participant pool rather than the operator/shareholders.",
+    "source": { "chapter": 16, "section": "16.1-16.4", "pages": [417, 426] }
+  }
+];
+
+</script>
+<script>
+window.IFL_DATA = window.IFL_DATA || {};
 window.IFL_DATA.conceptMap = {
   "nodes": [
     { "id": "islamic-economic-system", "label": "Islamic Economic System", "chapter": 2, "href": "#/chapter/2", "group": "foundations" },
@@ -11745,6 +12169,50 @@ window.IFL_DATA.chapters[10] = {
       examples: [
         { title: "Box 10.1 - Flow of Salam Transactions by Banks", body: "(1) The bank purchases the item from a client/seller with full prepayment of price and delivery on an agreed specified date. (2) The customer (seller) delivers the commodity at the agreed time and place. (3) The bank sells the commodity to a third party via Parallel Salam, a prior promise to purchase, appointing the original seller as selling agent, or waiting until goods are received and then selling in the market. (4) After taking delivery, the bank delivers to the third-party purchaser.", generated: false }
       ],
+      calculations: [
+        {
+          title: "Box 10.4 Case Study: The Salam Price Discount as the Bank's Implicit Return",
+          formula: "Effective Return over Holding Period = (Locked Resale Value - Salam Capital) / Salam Capital; Annualized Return = Effective Return x (12 / Holding Period in Months)",
+          inputs: [
+            { label: "Salam capital paid by Bank B to Farmer A on 1 January", value: "Rs. 100 million (for 5,000 tons of wheat deliverable 1 May)" },
+            { label: "Implied Salam price per ton", value: "Rs. 100 million / 5,000 tons = Rs. 20,000 per ton" },
+            { label: "Value locked in via B's promise arrangement with buyer C for the same wheat on 1 May", value: "Rs. 115 million, against Hamish Jiddiyah (earnest money) of Rs. 15 million from C" },
+            { label: "Holding period (Salam contract date to delivery/resale date)", value: "1 January to 1 May = 4 months" }
+          ],
+          steps: [
+            "Salam capital advanced by the bank on day 1 = Rs. 100 million, for wheat priced today at a discount to what the bank expects to realize on delivery.",
+            "Value the bank has locked in for the same wheat 4 months later (via the promise-to-purchase with C) = Rs. 115 million.",
+            "Implicit discount/spread = Rs. 115 million - Rs. 100 million = Rs. 15 million earned over the 4-month Salam period.",
+            "Return over the 4-month holding period = Rs. 15 million / Rs. 100 million = 15%.",
+            "Annualized (simple) effective return = 15% x (12 months / 4 months) = 45% per annum."
+          ],
+          result: "The bank's Rs. 100 million Salam price is effectively 'discounted' Rs. 15 million (15%) below the Rs. 115 million value it has locked in for the same wheat 4 months later - a simple annualized effective return of about 45%.",
+          interpretation: "This spread is exactly the economic mechanism described in Section 10.3: the farmer accepts a price today that is cheaper than what he expects the goods to fetch later, in exchange for immediate liquidity, while the bank/buyer accepts price risk and the burden of marketing the goods and is compensated by the resulting spread rather than by an interest charge. Because the wheat still has to be delivered, resold, and its price risk actually borne (Box 10.3's commodity-price and marketing risks), this 45% figure is a return on genuine trade risk, not a guaranteed, interest-like yield - had C not been secured with a binding promise backed by Hamish Jiddiyah, or had wheat prices fallen before resale, the bank's realized return could have been far lower or even negative.",
+          generated: false,
+          source: { chapter: 10, section: "10.9-10.10.1 (Box 10.4)", pages: [259, 260] }
+        },
+        {
+          title: "Practice Example - generated for learning: Annualizing the Salam Price Discount",
+          formula: "Salam Capital = Salam Price per Unit x Quantity; Discount = (Expected Future Spot Price - Salam Price) x Quantity; Annualized Return = [(Expected Future Spot Price / Salam Price) - 1] x (12 / Months to Delivery)",
+          inputs: [
+            { label: "Quantity of wheat contracted", value: "100 tons" },
+            { label: "Salam price agreed today (discounted)", value: "$180 per ton" },
+            { label: "Expected spot price at the 6-month delivery date", value: "$200 per ton" },
+            { label: "Delivery period", value: "6 months from contract date" }
+          ],
+          steps: [
+            "Total Salam capital the bank pays the farmer today = $180 x 100 tons = $18,000.",
+            "Expected value of the same 100 tons if sold at the future spot price = $200 x 100 tons = $20,000.",
+            "Implicit discount (the farmer's cost of getting cash now) = $20,000 - $18,000 = $2,000 over 6 months.",
+            "Return over the 6-month holding period, from the bank's side = $2,000 / $18,000 = 11.1%.",
+            "Annualized effective return = 11.1% x (12 / 6) = 22.2% per annum."
+          ],
+          result: "By paying $18,000 now instead of the $20,000 the wheat is expected to fetch in 6 months, the bank earns an implicit 11.1% return over the period - roughly 22.2% annualized - if it can resell the wheat at the expected spot price.",
+          interpretation: "The discount below the expected future spot price is the Salam buyer's substitute for interest: it compensates the bank for paying cash today, tying up funds for 6 months, and bearing the commodity's price and marketing risk until resale (Box 10.3). It is not a contractually fixed rate - if wheat prices fall below $200/ton by delivery, or the bank cannot market the wheat promptly, its realized return will be lower than 22.2% or could turn into a loss, which is precisely what distinguishes this spread from an interest-bearing loan.",
+          generated: true,
+          source: { chapter: 10, section: "10.3, 10.10", pages: [242, 243, 257] }
+        }
+      ],
       commonConfusions: [
         "Students sometimes assume Salam's underuse reflects some Shari'ah defect in the mode. The book is explicit this is a purely practical/operational preference issue (upfront cash requirement, physical goods handling) - Salam is, in fact, the one mode expressly sanctioned by the Prophet (pbuh) himself."
       ],
@@ -11841,6 +12309,29 @@ window.IFL_DATA.chapters[10] = {
       processSteps: [],
       examples: [
         { title: "The Tailor Wage-Reduction Analogy", body: "Classical jurists allowed a condition in Ijarah such as: a person hiring a tailor's services could stipulate that the wage will be 10 dirhams if the clothes are prepared within a week, but only 8 (or another reduced amount) if delayed. By analogy, jurists permit a Shart-e-Jazai penalty clause in Istisna'a reducing the price for delay in delivery, supply, or construction.", generated: false }
+      ],
+      calculations: [
+        {
+          title: "Practice Example - generated for learning: Istisna'a Price Paid in Progress Installments",
+          formula: "Installment Amount = Contract Price x Installment Percentage",
+          inputs: [
+            { label: "Total Istisna'a contract price (fixed at signing)", value: "$2,000,000" },
+            { label: "Installment 1 - on order confirmation", value: "20% of contract price" },
+            { label: "Installment 2 - on certified 50% completion of manufacture", value: "30% of contract price" },
+            { label: "Installment 3 - on delivery/acceptance of the finished asset", value: "50% of contract price" }
+          ],
+          steps: [
+            "Total contract price = $2,000,000, fixed by mutual consent at signing and not unilaterally changeable thereafter (Section 10.11.3).",
+            "Installment 1 (order confirmation, 20%) = $2,000,000 x 0.20 = $400,000.",
+            "Installment 2 (50% completion milestone, 30%) = $2,000,000 x 0.30 = $600,000.",
+            "Installment 3 (delivery/acceptance, 50%) = $2,000,000 x 0.50 = $1,000,000.",
+            "Check: $400,000 + $600,000 + $1,000,000 = $2,000,000, matching the agreed contract price."
+          ],
+          result: "The manufacturer receives $400,000 on order confirmation, $600,000 at the 50% completion milestone, and the remaining $1,000,000 on delivery - together equal to the full $2,000,000 contract price.",
+          interpretation: "This staged structure is only possible because, unlike Salam, Istisna'a does not require the price to be paid in full in advance - Section 10.11.3 states the price 'can be paid in instalments within the agreed time period and can also be linked with the completion stages,' a flexibility justified by analogy to Ijarah's permissible deferred rental payments and by the practical reality that manufacturing large assets takes time. The exact split (20/30/50 here) is itself negotiable between the parties - the book's own case studies elsewhere in the chapter (e.g. the housing and project-finance Istisna'a examples) show total prices paid to contractors in multiple instalments, without any mandated formula, in direct contrast to Salam, where the entire price is mandatorily due in a single payment at contract signing.",
+          generated: true,
+          source: { chapter: 10, section: "10.11.3", pages: [265, 266] }
+        }
       ],
       commonConfusions: [
         "Students often assume the Istisna'a late-delivery penalty, like Salam's, must go to charity. It does not - the Shart-e-Jazai price reduction directly benefits the purchaser's own income, because it stems from the manufacturer's own controllable commitment/labour, unlike Salam's penalty (which reflects an already-fixed debt claim)."
@@ -13468,6 +13959,15 @@ window.IFL_DATA.chapters[13] = {
         "An action performed by an agent on the principal's behalf is deemed to be an action of the principal himself."
       ],
       processSteps: [],
+      transactionSteps: [
+        { step: "Principal Identifies Need", description: "A principal (an individual, bank, or investor) has a task or transaction requiring representation - such as purchasing a commodity, managing funds, or conducting a Murabaha/Salam/Istisna'a/Ijarah leg - and decides to appoint an agent (Wakil) rather than act personally." },
+        { step: "Scope and Subject Matter Defined", description: "Principal and agent agree the subject matter of the agency: for a purchase agency, the genus, kind, quality, and other necessary attributes of the commodity must be specified; the agency may be specific (one particular asset/task) or general (a recurring category), but its nature must always be clearly defined to avoid disputes." },
+        { step: "Fee Arrangement Agreed (if Commutative)", description: "The parties settle whether the Wakalah is commutative (fee-based) or noncommutative (gratuitous); if fee-based, the fee - fixed as a lump sum or as a percentage (e.g. of investment amount or net asset value, as in Wakalatul Istismar) - is agreed and disclosed before the agent begins acting." },
+        { step: "Agent Acts Within Scope", description: "The agent performs the specified act (buying, selling, collecting or paying debt, litigation, etc.) with due care and skill, per the principal's instructions, without delegating the task to another without consent, and without any conflict of interest, such as selling his own property to the principal without disclosure." },
+        { step: "Legal Effect Attaches to the Principal", description: "The agent's action is deemed the principal's own action; per the preferred view (especially Shafi'i and Hanbali), ownership of any commodity purchased by the agent transfers directly from the seller to the principal, without first passing through the agent's own ownership." },
+        { step: "Principal Bears the Outcome", description: "The principal bears the profit, loss, or risk of the underlying transaction - this is what distinguishes Wakalah from a risk-sharing contract like Mudarabah or Musharakah; the agent himself is liable only for negligence, misconduct, or acting outside the agreed scope." },
+        { step: "Fee Paid and Contract Ends", description: "The agent receives any agreed fee for services rendered, and the Wakalah contract terminates by mutual agreement, unilateral termination, discharge of the obligation, destruction of the subject matter, or death or loss of legal capacity of either party." }
+      ],
       examples: [
         { title: "The Prophet's Delegated Goat Purchase", body: "The Prophet (pbuh) himself delegated the job of purchasing a goat for him to a Companion named 'Urwah al Barqi - cited as foundational textual evidence for the permissibility of agency (Wakalah).", generated: false }
       ],
@@ -13508,6 +14008,27 @@ window.IFL_DATA.chapters[13] = {
       examples: [
         { title: "2-3% of Net Asset Value", body: "A fund's prospectus may stipulate that the management will receive 2% or 3% of the net asset value of the fund at the end of every financial year, regardless of whether the fund's underlying investments were profitable that year.", generated: false }
       ],
+      calculations: [
+        {
+          title: "Practice Example — generated for learning: Wakalatul Istismar Fixed Management Fee",
+          formula: "Management fee = Agreed fee rate x Net Asset Value (NAV) of the fund, paid irrespective of the fund's actual profit or loss",
+          inputs: [
+            { label: "Fund's Net Asset Value (NAV) at financial year end", value: "$50,000,000" },
+            { label: "Agreed management fee rate (per the fund's prospectus)", value: "2% of NAV per annum" },
+            { label: "Fund's actual investment performance this year", value: "-3% (a loss on the underlying portfolio)" }
+          ],
+          steps: [
+            "Per the prospectus, the bank (as Wakil) is entitled to a pre-agreed fixed annual fee of 2% of NAV, determined and disclosed before the fund's launch, regardless of whether the underlying investments profit or lose money.",
+            "Fund NAV at year end = $50,000,000.",
+            "Management fee = 2% x $50,000,000 = $1,000,000.",
+            "The fund's investments actually lost 3% in value this year - a genuine investment loss borne entirely by the investors, not the bank - but the bank's Wakalah fee is unaffected, since it is computed on NAV, not on performance."
+          ],
+          result: "The bank earns a $1,000,000 management fee for the year - the full 2% of NAV - despite the fund's -3% investment performance.",
+          interpretation: "This illustrates the structural contrast with Mudarabah-based fund management drawn in the text: under Wakalatul Istismar, the bank's compensation is a pre-agreed fee (lump sum, or a percentage of investment amount/NAV) fixed and disclosed before the fund launches, and it does not vary with the fund's actual profit or loss. All investment risk and return, positive or negative, flows entirely to the investors, while the bank is compensated purely for its agency/management service - a mechanism similar to how a Takaful operator's Wakalah fee is charged for managing the participants' risk fund.",
+          generated: true,
+          source: { chapter: 13, section: "13.2.2", pages: [349] }
+        }
+      ],
       commonConfusions: [
         "Students sometimes confuse Wakalatul Istismar with Mudarabah-based fund management. In Mudarabah, the manager's return is a share of actual profit (and none if there's a loss); in Wakalatul Istismar, the manager earns a FIXED fee regardless of the fund's profit or loss."
       ],
@@ -13547,8 +14068,42 @@ window.IFL_DATA.chapters[13] = {
       ],
       principles: [],
       processSteps: [],
+      transactionSteps: [
+        { step: "Customer Needs Cash", description: "The customer (Mutawarriq) does not actually want any commodity; he needs liquidity, so he approaches the bank for a Tawarruq-based cash financing arrangement." },
+        { step: "Bank Sells a Commodity on Deferred Payment", description: "The bank purchases a liquid, genuinely saleable commodity (e.g. metals, shares, Sukuk) and sells it to the customer on a Murabaha-style deferred-payment basis, at cost plus an agreed profit margin, with ownership and risk passing to the customer." },
+        { step: "Customer Takes Ownership", description: "Ownership and risk of the commodity transfer to the customer at the point of sale, satisfying the requirement that a genuine sale - not a disguised loan - has taken place." },
+        { step: "Commodity Resold Via an Agent (or the Customer Himself)", description: "The customer, either personally or via an agent appointed after the sale (not as a pre-arranged condition of it), arranges to resell the same commodity." },
+        { step: "Sale to a Genuine Third Party", description: "The commodity is sold in the open market to an independent third party unconnected to the original transaction, for cash at the prevailing spot price - this is the step that makes the transaction Shari'ah-compliant Tawarruq rather than prohibited Bai' al 'Inah, since the resale is NOT back to the original bank-seller." },
+        { step: "Customer Receives Cash", description: "The customer receives the spot-sale proceeds immediately, satisfying his original need for liquidity." },
+        { step: "Customer Owes the Bank the Deferred Price", description: "The customer now owes the bank the full deferred Murabaha price on the agreed schedule, independent of what the commodity actually resold for in the market." },
+        { step: "Repayment Over Time", description: "The customer repays the bank in installments (or as a lump sum) per the agreed schedule, completing the Tawarruq financing structure." }
+      ],
       examples: [
         { title: "Nejatullah Siddiqi's Critique of Tawarruq", body: "\"The client approaches the Islamic bank with a wish to have cash and a collateral and comes back with the desired cash after signing a number of papers\" - Siddiqi's critique, cited by the author as a warning about Tawarruq's potential to become a bare paperwork exercise disguising an interest loan.", generated: false }
+      ],
+      calculations: [
+        {
+          title: "Practice Example — generated for learning: Tawarruq Cash Financing and Its Implied Cost",
+          formula: "Implied financing cost (% p.a.) = [(Deferred Price - Cash Received) / Cash Received] x (12 / financing tenor in months) x 100",
+          inputs: [
+            { label: "Cash the customer needs today", value: "$90,000" },
+            { label: "Bank's Murabaha sale price to customer (cost + profit), deferred", value: "$100,000" },
+            { label: "Financing tenor", value: "12 months" },
+            { label: "Third-party spot resale value of the same commodity", value: "approx. $90,000" }
+          ],
+          steps: [
+            "The bank buys a commodity for approximately $90,000 cash and sells it to the customer on Murabaha at a deferred price of $100,000, payable in 12 months.",
+            "The customer (or his agent, appointed after the sale) immediately resells the same commodity to an independent third party in the market for its cash value, approximately $90,000 - a genuine sale to a party other than the bank.",
+            "The customer nets $90,000 cash today from the third-party resale, meeting his original liquidity need.",
+            "The customer's total obligation to the bank is $100,000, payable over the 12-month tenor.",
+            "Implied financing markup = $100,000 - $90,000 = $10,000 over 12 months.",
+            "Implied annualized financing cost = ($10,000 / $90,000) x 100 = approximately 11.1% per annum (over the 12-month tenor)."
+          ],
+          result: "The customer receives $90,000 cash today and repays $100,000 over 12 months - an implied annualized financing cost of approximately 11.1%.",
+          interpretation: "This is exactly why critics like Nejatullah Siddiqi describe Tawarruq as reducing to 'signing a number of papers' to get cash: economically, the customer ends up paying a markup that functions much like interest on a cash loan. What keeps it Shari'ah-compliant (per the preferred view across all four Fiqh schools), rather than a disguised Riba loan, is that two genuine sale contracts occur - the bank's sale of a real, owned commodity to the customer, and the customer's (or his agent's) sale of that same commodity to an unconnected THIRD PARTY - so the customer's obligation arises from real ownership and sale, not a cash loan repayable with interest. If the customer instead resold the commodity back to the original bank, the same $90,000-for-$100,000 economics would instead constitute prohibited Bai' al 'Inah, which is why the genuine third party in Step 5 is the structure's Shari'ah-critical element.",
+          generated: true,
+          source: { chapter: 13, section: "13.3", pages: [349, 350] }
+        }
       ],
       commonConfusions: [
         "Students sometimes assume Tawarruq and Bai' al 'Inah are the same thing since both involve a double transaction to generate cash. The key distinction: Tawarruq resells to a genuine THIRD PARTY (acceptable); 'Inah resells back to the SAME original seller (prohibited)."
@@ -13623,6 +14178,14 @@ window.IFL_DATA.chapters[13] = {
         "Ju'alah's validity requires only that the required END RESULT of the transaction be determined - unlike Ijarah, which requires the underlying work itself to be precisely specified."
       ],
       processSteps: [],
+      transactionSteps: [
+        { step: "Ja'il Announces Task and Reward", description: "The Ja'il (offeror) publicly announces, or privately agrees, a specific or uncertain task (e.g. finding a lost item, curing an illness, recovering a debt) along with a known, valuable, deliverable reward (the Jua'l), which may be a lump sum or a percentage of the realized result." },
+        { step: "Worker Undertakes the Task", description: "Any interested party (if the offer is open to the general public) or a specified named worker (if the Ju'alah is concluded with a specific person) undertakes the task; no formal counter-acceptance is required, since attempting the task itself constitutes engagement with the offer." },
+        { step: "Work Is Attempted", description: "The worker applies effort toward achieving the specified result; the exact scope or amount of work needed can remain uncertain without invalidating the contract, since only the end result - not the work itself - must be determined." },
+        { step: "Contract Becomes Binding Once Work Begins", description: "Once the worker commences work, the Ja'il can no longer freely cancel without owing a reasonable wage for work already done (though the worker himself may still withdraw with no claim against the offeror, unless otherwise agreed)." },
+        { step: "Task Completed (or Not)", description: "The worker either succeeds in realizing the specified result (e.g. the lost item is found, the debt is collected) or fails despite genuine effort." },
+        { step: "Reward Paid Only If Realized", description: "If the result is realized, the Ja'il pays the agreed Jua'l; if the worker's genuine effort fails to achieve the result, no reward is owed for the effort or time spent - subject to narrow exceptions, such as a non-negligent accident impairing the subject matter, which entitles the worker to the full reward." }
+      ],
       examples: [
         { title: "The King's Lost Beaker (Surah Yousuf)", body: "Surah Yousuf references an announcement about the King's lost drinking beaker: whoever found and returned it would receive a reward of a camel-load of grain - cited as Qur'anic textual authority for the permissibility of Ju'alah.", generated: false }
       ],
@@ -31873,6 +32436,8 @@ window.IFL_DATA.questions.push(
   function caseStudies() { return D().caseStudies || []; }
   function getCaseStudy(id) { return caseStudies().find(function (c) { return c.id === id; }) || null; }
 
+  function productsMatrix() { return D().productsMatrix || []; }
+
   function conceptMap() { return D().conceptMap || { nodes: [], edges: [] }; }
   function decisionTree() { return D().decisionTree || null; }
   function studyModes() { return D().studyModes || {}; }
@@ -32025,6 +32590,7 @@ window.IFL_DATA.questions.push(
     glossaryTerms: glossaryTerms, acronyms: acronyms,
     comparisons: comparisons, getComparison: getComparison,
     caseStudies: caseStudies, getCaseStudy: getCaseStudy,
+    productsMatrix: productsMatrix,
     conceptMap: conceptMap, decisionTree: decisionTree, studyModes: studyModes, examPrepSets: examPrepSets,
     chapterTopicProgress: chapterTopicProgress, overallProgress: overallProgress,
     chapterQuizAverage: chapterQuizAverage, overallQuizAverage: overallQuizAverage,
@@ -32583,7 +33149,9 @@ window.IFL_DATA.questions.push(
   var CALCULATOR_LINKS = {
     "ch8-t4": { href: "#/calculators/deposit-pool", label: "Try it yourself: Deposit Pool Calculator →" },
     "ch9-t14": { href: "#/calculators/murabaha-pricing", label: "Try it yourself: Murabaha/Musawamah Pricing Calculator →" },
-    "ch12-t7": { href: "#/calculators/musharakah-split", label: "Try it yourself: Musharakah Profit & Loss Split Calculator →" }
+    "ch12-t7": { href: "#/calculators/musharakah-split", label: "Try it yourself: Musharakah Profit & Loss Split Calculator →" },
+    "ch10-t11": { href: "#/calculators/salam-discount", label: "Try it yourself: Salam Price-Discount Calculator →" },
+    "ch15-t6": { href: "#/calculators/sukuk-return", label: "Try it yourself: Sukuk Periodic Return Calculator →" }
   };
 
   function sourceFooter(source, chapterTitle) {
@@ -33946,7 +34514,9 @@ window.IFL_DATA.questions.push(
   var TOOLS = [
     { id: "deposit-pool", title: "Deposit Pool Profit Distribution", blurb: "Weightage-based profit sharing across tenors — the Mudarabah + Musharakah pool model from Box 8.1 (Chapter 8).", icon: "🏦" },
     { id: "murabaha-pricing", title: "Murabaha / Musawamah Pricing", blurb: "Cost-plus pricing mechanics — compute sale price, profit, or implied cost (Chapter 9).", icon: "🧾" },
-    { id: "musharakah-split", title: "Musharakah Profit & Loss Split", blurb: "See the book's core rule enforced live: profit follows the agreed ratio, loss always follows capital (Chapter 12).", icon: "🤝" }
+    { id: "salam-discount", title: "Salam Price Discount", blurb: "Why a Salam price is discounted below expected future spot price — and what effective return that discount implies (Chapter 10).", icon: "🌾" },
+    { id: "musharakah-split", title: "Musharakah Profit & Loss Split", blurb: "See the book's core rule enforced live: profit follows the agreed ratio, loss always follows capital (Chapter 12).", icon: "🤝" },
+    { id: "sukuk-return", title: "Sukuk Periodic Distribution", blurb: "Compute a Sukuk's periodic distribution, total distributions, and full cash flow including redemption (Chapter 15).", icon: "📜" }
   ];
 
   function picker() {
@@ -34135,10 +34705,182 @@ window.IFL_DATA.questions.push(
     recalc();
   }
 
+  // ---- Tool 4: Salam Price Discount ----
+  function salamDiscount() {
+    var root = IFLRouter.outlet();
+    root.innerHTML =
+      '<nav class="text-sm text-muted mb-3"><a data-nav="#/calculators">Calculators</a> › Salam Price Discount</nav>' +
+      '<h1>🌾 Salam Price Discount</h1>' +
+      '<p class="text-secondary">In Salam, the buyer pays the FULL price today for goods delivered later — always at a price below the expected future spot price. That discount is economically the buyer\'s return for supplying cash now and bearing price risk until delivery (§10.2-10.3, §10.10).</p>' +
+      '<div class="calc-block mb-4">' +
+        '<div class="calc-formula">Salam Capital = Quantity × Salam Price &nbsp;|&nbsp; Discount = Quantity × (Expected Spot − Salam Price)</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Quantity (tons)</label><input type="number" id="sd-qty" value="100"></div>' +
+          '<div><label>Delivery period (months)</label><input type="number" id="sd-months" value="6"></div>' +
+        '</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Salam price per ton (paid today)</label><input type="number" id="sd-salam-price" value="180"></div>' +
+          '<div><label>Expected spot price per ton at delivery</label><input type="number" id="sd-spot-price" value="200"></div>' +
+        '</div>' +
+        '<div id="sd-result"></div>' +
+      '</div>';
+    function recalc() {
+      var qty = num("sd-qty"), months = num("sd-months") || 1;
+      var salamPrice = num("sd-salam-price"), spotPrice = num("sd-spot-price");
+      var capital = qty * salamPrice;
+      var expectedValue = qty * spotPrice;
+      var discount = expectedValue - capital;
+      var discountPct = capital ? (discount / capital) * 100 : 0;
+      var annualized = discountPct * (12 / months);
+      var html = '<ol class="calc-steps mb-2">' +
+        '<li>Salam Capital (paid now) = ' + fmtMoney(qty) + ' × ' + fmtMoney(salamPrice) + ' = <strong>' + fmtMoney(capital) + '</strong></li>' +
+        '<li>Expected value at delivery (at spot) = ' + fmtMoney(qty) + ' × ' + fmtMoney(spotPrice) + ' = <strong>' + fmtMoney(expectedValue) + '</strong></li>' +
+        '<li>Implicit discount = ' + fmtMoney(expectedValue) + ' − ' + fmtMoney(capital) + ' = <strong>' + fmtMoney(discount) + '</strong> (' + fmtPct(discountPct) + ' of capital)</li>' +
+        '<li>Annualized (discount % ÷ ' + months + ' months × 12) ≈ ' + fmtPct(annualized) + '</li>' +
+      '</ol>' +
+      '<div class="calc-result">Salam Capital paid today: <strong>' + fmtMoney(capital) + '</strong>. If the goods are worth their expected spot value at delivery, the buyer\'s implicit return is ' + fmtPct(discountPct) + ' over ' + months + ' months (≈' + fmtPct(annualized) + ' annualized).</div>' +
+      '<p class="text-sm text-secondary mt-2">This discount is NOT interest — it is the price of a genuine forward SALE, agreed once at contract time and never adjusted. The seller (often a farmer or manufacturer) accepts a lower guaranteed price in exchange for immediate cash; the buyer accepts full pre-payment risk (the seller could default or deliver late) in exchange for the discount. Contrast with Istisna\'a, where payment can be staged instead of paid entirely upfront.</p>';
+      document.getElementById("sd-result").innerHTML = html;
+    }
+    IFLDom.qsa("#sd-qty, #sd-months, #sd-salam-price, #sd-spot-price", root).forEach(function (i) { i.addEventListener("input", recalc); });
+    recalc();
+  }
+
+  // ---- Tool 5: Sukuk Periodic Distribution ----
+  function sukukReturn() {
+    var root = IFLRouter.outlet();
+    root.innerHTML =
+      '<nav class="text-sm text-muted mb-3"><a data-nav="#/calculators">Calculators</a> › Sukuk Periodic Distribution</nav>' +
+      '<h1>📜 Sukuk Periodic Distribution</h1>' +
+      '<p class="text-secondary">Modeled on the book\'s Hanco Fleet Securitization case study (Chapter 15): Sukuk holders receive periodic distributions (e.g. Ijarah rental passed through) over the tenor, then their principal back at maturity — distinct from a conventional bond\'s "interest coupon" because the distribution represents a real share of the underlying asset\'s income, not a loan return.</p>' +
+      '<div class="calc-block mb-4">' +
+        '<div class="calc-formula">Periodic Distribution = Principal × Periodic Rate &nbsp;|&nbsp; Total Cash Flow = (Distribution × Periods) + Principal at Redemption</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Sukuk principal (issue size)</label><input type="number" id="sk-principal" value="27200000"></div>' +
+          '<div><label>Periodic distribution rate (% per period)</label><input type="number" id="sk-rate" value="6" step="0.1"></div>' +
+        '</div>' +
+        '<div><label>Tenor (number of distribution periods, e.g. years)</label><input type="number" id="sk-periods" value="3" class="mb-3"></div>' +
+        '<div id="sk-result"></div>' +
+      '</div>';
+    function recalc() {
+      var principal = num("sk-principal"), rate = num("sk-rate"), periods = num("sk-periods") || 1;
+      var distribution = principal * (rate / 100);
+      var totalDistributions = distribution * periods;
+      var totalCashFlow = totalDistributions + principal;
+      var html = '<ol class="calc-steps mb-2">' +
+        '<li>Periodic distribution = ' + fmtMoney(principal) + ' × ' + fmtPct(rate) + ' = <strong>' + fmtMoney(distribution) + '</strong> per period</li>' +
+        '<li>Total distributions over ' + periods + ' periods = ' + fmtMoney(distribution) + ' × ' + periods + ' = <strong>' + fmtMoney(totalDistributions) + '</strong></li>' +
+        '<li>Principal redeemed at maturity = <strong>' + fmtMoney(principal) + '</strong></li>' +
+        '<li>Total cash flow to Sukuk holders = ' + fmtMoney(totalDistributions) + ' + ' + fmtMoney(principal) + ' = <strong>' + fmtMoney(totalCashFlow) + '</strong></li>' +
+      '</ol>' +
+      '<div class="calc-result">Each period: <strong>' + fmtMoney(distribution) + '</strong>. Total over the full tenor including redemption: <strong>' + fmtMoney(totalCashFlow) + '</strong>.</div>' +
+      '<p class="text-sm text-secondary mt-2">Unlike a conventional bond coupon (a contractual debt payment regardless of the underlying asset\'s performance), this distribution is only Shari\'ah-compliant if it represents a genuine share of the Sukuk pool\'s actual income (e.g. real Ijarah rental) — the book flags Sukuk structures that instead guarantee a fixed return independent of asset performance as questionable (§15.3.4-15.3.5).</p>';
+      document.getElementById("sk-result").innerHTML = html;
+    }
+    IFLDom.qsa("#sk-principal, #sk-rate, #sk-periods", root).forEach(function (i) { i.addEventListener("input", recalc); });
+    recalc();
+  }
+
   IFLRouter.register("/calculators", picker);
   IFLRouter.register("/calculators/deposit-pool", depositPool);
   IFLRouter.register("/calculators/murabaha-pricing", murabahaPricing);
   IFLRouter.register("/calculators/musharakah-split", musharakahSplit);
+  IFLRouter.register("/calculators/salam-discount", salamDiscount);
+  IFLRouter.register("/calculators/sukuk-return", sukukReturn);
+})();
+
+</script>
+<script>
+/* Products at a Glance: a filterable comparison matrix across all major
+ * Islamic banking products (Murabaha, Salam, Ijarah, Musharakah, Sukuk,
+ * Takaful, ...), each row expandable in place for the full grounded detail
+ * (Shari'ah basis, ownership/risk timing, conditions, risks, distinguishing
+ * feature) with a link back to its chapter. */
+(function () {
+  "use strict";
+  var esc = IFLDom.esc, fmt = IFLDom.formatText;
+
+  function returnTypePill(rt) {
+    var cls = { "Fixed": "pill-info", "Variable/Profit-Share": "pill-brand", "Rental": "pill-accent", "Fee-based": "pill-warning", "Mixed": "pill" }[rt] || "pill";
+    return '<span class="pill ' + cls + '">' + esc(rt || "—") + '</span>';
+  }
+
+  function render(params, query) {
+    var root = IFLRouter.outlet();
+    var products = IFLData.productsMatrix ? IFLData.productsMatrix() : [];
+    if (!products.length) {
+      root.innerHTML = '<div class="empty-state"><h3>Products at a Glance is still being generated</h3><p>Check back shortly.</p></div>';
+      return;
+    }
+    var categories = Array.from(new Set(products.map(function (p) { return p.category; })));
+    var activeCategory = query.cat || "";
+    var expandedId = query.p || "";
+
+    root.innerHTML =
+      '<div class="section-header"><h1>Islamic Banking Products at a Glance</h1><span class="text-sm text-muted">' + products.length + ' products</span></div>' +
+      '<p class="text-secondary">Every major financing product side by side. Click a row to see its full profile — Shari\'ah basis, ownership/risk timing, conditions, risks, and what most distinguishes it from adjacent products.</p>' +
+      '<div class="badge-row mb-4">' +
+        '<button class="btn btn-sm ' + (!activeCategory ? "btn-primary" : "btn-outline") + '" data-cat="">All</button>' +
+        categories.map(function (c) {
+          return '<button class="btn btn-sm ' + (activeCategory === c ? "btn-primary" : "btn-outline") + '" data-cat="' + esc(c) + '">' + esc(c) + '</button>';
+        }).join("") +
+      '</div>' +
+      '<div class="card" style="overflow-x:auto;">' +
+        '<table><thead><tr><th>Product</th><th>Category</th><th>Return Type</th><th>Typical Tenor</th><th></th></tr></thead><tbody id="pm-tbody"></tbody></table>' +
+      '</div>';
+
+    function paint() {
+      var filtered = products.filter(function (p) { return !activeCategory || p.category === activeCategory; });
+      var tbody = document.getElementById("pm-tbody");
+      if (!filtered.length) {
+        tbody.innerHTML = '<tr><td colspan="5" class="text-muted">No products in this category.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = filtered.map(function (p) {
+        var isOpen = p.id === expandedId;
+        var row = '<tr class="card-clickable" data-toggle="' + esc(p.id) + '" style="cursor:pointer;">' +
+          '<td><strong>' + esc(p.name) + '</strong></td>' +
+          '<td class="text-sm text-muted">' + esc(p.category) + '</td>' +
+          '<td>' + returnTypePill(p.returnType) + '</td>' +
+          '<td class="text-sm">' + esc(p.typicalTenor) + '</td>' +
+          '<td class="text-muted">' + (isOpen ? "▲" : "▼") + '</td>' +
+        '</tr>';
+        if (isOpen) {
+          row += '<tr><td colspan="5" style="background:var(--color-bg-sunken);">' +
+            '<div class="mb-2"><strong>Shari\'ah basis:</strong> ' + fmt(p.shariahBasis) + '</div>' +
+            '<div class="mb-2"><strong>Subject matter:</strong> ' + fmt(p.subjectMatter) + '</div>' +
+            '<div class="mb-2"><strong>Ownership / risk timing:</strong> ' + fmt(p.ownershipRiskTiming) + '</div>' +
+            '<div class="mb-2"><strong>Return:</strong> ' + fmt(p.returnTypeDetail || "") + '</div>' +
+            '<div class="mb-2"><strong>Liquidity / tradability:</strong> ' + fmt(p.liquidityTradability) + '</div>' +
+            '<div class="mb-2"><strong>Common use:</strong> ' + fmt(p.commonUse) + '</div>' +
+            '<div class="grid-2 mb-2">' +
+              '<div><strong>Key conditions</strong><ul class="mb-0">' + (p.keyConditions || []).map(function (c) { return "<li>" + fmt(c) + "</li>"; }).join("") + '</ul></div>' +
+              '<div><strong>Major risks</strong><ul class="mb-0">' + (p.majorRisks || []).map(function (c) { return "<li>" + fmt(c) + "</li>"; }).join("") + '</ul></div>' +
+            '</div>' +
+            '<div class="callout callout-note mb-2"><div class="callout-title">What distinguishes it most</div>' + fmt(p.distinguishingFeature) + '</div>' +
+            (p.source ? '<div class="source-footer"><span class="icon">📖</span> Source: Chapter ' + p.source.chapter + (p.source.section ? ", §" + esc(p.source.section) : "") + (p.source.pages ? ", pp. " + p.source.pages.join("-") : "") + '</div>' : "") +
+            (p.href ? '<button class="btn btn-primary btn-sm mt-2" data-nav="' + esc(p.href) + '">Read full chapter →</button>' : "") +
+          '</td></tr>';
+        }
+        return row;
+      }).join("");
+      IFLDom.qsa("[data-toggle]", tbody).forEach(function (tr) {
+        tr.addEventListener("click", function () {
+          var id = tr.getAttribute("data-toggle");
+          IFLRouter.navigate("#/products" + IFLRouter.buildQuery({ cat: activeCategory || undefined, p: expandedId === id ? undefined : id }));
+        });
+      });
+    }
+    paint();
+
+    IFLDom.qsa("[data-cat]", root).forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        IFLRouter.navigate("#/products" + IFLRouter.buildQuery({ cat: btn.getAttribute("data-cat") || undefined }));
+      });
+    });
+  }
+
+  IFLRouter.register("/products", render);
 })();
 
 </script>
@@ -34834,6 +35576,7 @@ window.IFL_DATA.questions.push(
       { label: "Case Studies", href: "#/case-studies", icon: "&#128188;" },
       { label: "Comparisons", href: "#/comparisons", icon: "&#9878;" },
       { label: "Financing Mode Finder", href: "#/decision-tool", icon: "&#129504;" },
+      { label: "Products at a Glance", href: "#/products", icon: "&#128203;" },
       { label: "Calculators", href: "#/calculators", icon: "&#128202;" }
     ] },
     { section: "Exam Preparation", items: [

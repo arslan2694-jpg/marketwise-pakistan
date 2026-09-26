@@ -99,6 +99,34 @@ async function main() {
     var ruleCaught = await page.isVisible("text=Rule violation caught").catch(function () { return false; });
     checks.push({ check: "Musharakah calculator catches sleeping-partner rule violation", value: ruleCaught });
 
+    // Salam and Sukuk calculators
+    await go("/calculators/salam-discount");
+    var salamResult = await page.textContent("#calc-result, .calc-result").catch(function () { return null; });
+    checks.push({ check: "Salam discount calculator renders a result", value: !!(salamResult && salamResult.length > 5) });
+
+    await go("/calculators/sukuk-return");
+    var sukukResult = await page.textContent("#calc-result, .calc-result").catch(function () { return null; });
+    checks.push({ check: "Sukuk return calculator renders a result", value: !!(sukukResult && sukukResult.length > 5) });
+
+    // Products at a Glance matrix
+    await go("/products");
+    var productRows = await page.$$eval("#pm-tbody tr[data-toggle]", function (els) { return els.length; }).catch(function () { return -1; });
+    checks.push({ check: "Products at a Glance lists all products", value: productRows });
+    var firstProductRow = await page.$("#pm-tbody tr[data-toggle]");
+    if (firstProductRow) {
+      await firstProductRow.click();
+      await page.waitForTimeout(150);
+      var expandedVisible = await page.isVisible("text=Shari'ah basis:").catch(function () { return false; });
+      checks.push({ check: "Products matrix row expands to show full profile", value: expandedVisible });
+    }
+    var categoryPill = await page.$("[data-cat]:not([data-cat=''])");
+    if (categoryPill) {
+      await categoryPill.click();
+      await page.waitForTimeout(150);
+      var filteredRows = await page.$$eval("#pm-tbody tr[data-toggle]", function (els) { return els.length; }).catch(function () { return -1; });
+      checks.push({ check: "Products matrix category filter narrows the list", value: filteredRows > 0 && filteredRows <= productRows });
+    }
+
     // Concept Hub
     await go("/concept/riba");
     var hubTitle = await page.textContent("h1").catch(function () { return null; });
