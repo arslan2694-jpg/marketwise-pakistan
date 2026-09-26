@@ -303,7 +303,7 @@ IFL_DATA.registerChapter({
     },
     {
       id: "t14.4.4", section: "14.4.4", title: "Liquidity Management", pages: [374, 375], tier: "core",
-      concepts: ["liquidity", "tawarruq", "sukuk"],
+      concepts: ["money-market", "liquidity", "tawarruq", "sukuk"],
       intuition: "Without an interest-based money market, how do Islamic banks manage surplus and shortage?",
       simple: "Options: interbank Mudarabah (deficit bank shares general profit at a negotiated ratio); buying government Sukuk at par and selling them outright in the secondary market or to the central bank (like repo, but two separate outright sales); pooling Murabaha and Ijarah assets for other banks to invest (Murabaha receivables below 50%); Parallel Salam; and Tawarruq/Commodity Murabaha — a grey area to be used only in extreme cases under board guidance. Malaysian cards combining Tawarruq with buy-back are considered non-compliant by most scholars.",
       academic: [

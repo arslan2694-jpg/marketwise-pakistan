@@ -367,4 +367,19 @@ IFL_DATA.register('concepts', [
     trigger: "Distributive justice, need fulfilment, microfinance.",
     topics: ["t1.8", "t2.5", "t7.15", "t18.3.1"],
     links: [{ to: "islamic-economics", label: "a pillar of the system" }, { to: "waqf", label: "social finance" }, { to: "security", label: "Gharim surety may receive it" }] }
+  ,
+  { id: "islamic-funds", name: "Islamic funds (equity, Ijarah, commodity, Murabaha, mixed)", group: "Banking & markets", tags: ["islamic-funds"],
+    oneLine: "Pooled investment vehicles run on Mudarabah (profit share) or agency (fee); what the fund holds decides whether its units can be traded.",
+    points: ["Usmani’s five categories: equity, Ijarah, commodity, Murabaha and mixed funds.", "Equity and Ijarah fund units trade at market price; a Murabaha fund must be closed-end because its portfolio is debt.", "A mixed fund’s units trade if tangible assets exceed 51 %."],
+    distinction: "A conventional fund may guarantee a return tied to face value; an Islamic fund pays only the profit actually earned.",
+    trigger: "Mutual funds, asset management, unit trusts, screening, purification.",
+    topics: ["t8.8.1", "t8.8.4", "t15.3.8"],
+    links: [{ to: "screening", label: "equity funds screen stocks" }, { to: "mudarabah", label: "manager as Mudarib" }, { to: "wakalah", label: "manager as agent for a fee" }, { to: "bai-dayn", label: "Murabaha funds hold debts" }, { to: "sukuk", label: "units akin to Sukuk" }] },
+  { id: "money-market", name: "Islamic interbank money market", group: "Banking & markets", tags: ["money-market"],
+    oneLine: "Short-term placements between banks on Mudarabah (e.g. Malaysia’s MII) or through trading in Shari’ah-compliant instruments.",
+    points: ["MII: overnight to 12 months; return based on the investee bank’s gross profit rate, with a negotiated ratio.", "Elsewhere, interbank placements are treated like deposits and paid by weightage and daily product.", "CODs, COIs and Ijarah-based instruments can also be traded for liquidity."],
+    distinction: "Conventional call money pays a fixed rate agreed upfront; an MII return is known only at maturity.",
+    trigger: "Liquidity management, treasury, interbank placements.",
+    topics: ["t8.8.5", "t14.4.4", "t13.3.1"],
+    links: [{ to: "liquidity", label: "tool for" }, { to: "mudarabah", label: "MII is a Mudarabah" }, { to: "tawarruq", label: "Commodity Murabaha alternative" }, { to: "sukuk", label: "traded instruments" }] }
 ]);

@@ -532,6 +532,15 @@ test('Islamic banking products: catalogue, filter, product page, map, compare an
   assert(nodes > n + 8, 'map shows products and contracts: ' + nodes);
   await page.locator('#view svg.pmap .node').first().hover();
   assert(await page.locator('#view svg.pmap .link.hl').count() >= 1, 'hover highlights links');
+  assert(await page.locator('#view svg.pfam .node.leaf').count() === n, 'families map shows every product');
+  await go(page, '/products/finder');
+  await page.locator('#view button.chip', { hasText: 'Farmer or fisherman' }).click();
+  const farm = await page.locator('#view .finder-result').count();
+  await page.locator('#view button.chip', { hasText: 'Buy or use an asset' }).click();
+  const farmAsset = await page.locator('#view .finder-result').count();
+  assert(farm >= 5 && farmAsset >= 2 && farmAsset < farm, 'finder narrows by client and need: ' + farm + ' → ' + farmAsset);
+  await go(page, '/product/mixed-portfolio-sukuk');
+  assert(/Solidarity Trust/.test(await page.locator('#view').innerText()) && await page.locator('#view .diagram-svg').count() === 1, 'new Sukuk product page with diagram');
   await go(page, '/products/compare?a=home-dm&b=apartment-istisna-dm');
   assert(/Shared building blocks: .*Diminishing Musharakah/.test(await page.locator('#view').innerText()), 'comparison shows shared contracts');
   await go(page, '/products/quiz?id=takaful');

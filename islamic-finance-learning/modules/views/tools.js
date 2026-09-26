@@ -45,6 +45,8 @@
       var more = h('section.card', h('h2', { style: H2 }, 'More interactive study tools'),
         h('div.grid.grid-3', [
           ['#/finder', 'compass', 'Which mode applies?', 'Decision tree from a client’s need to a financing mode.'],
+          ['#/products/finder', 'bank', 'Product finder', 'From the client and the need to every product the book offers for it.'],
+          ['#/numericals', 'sum', 'Numericals trainer', 'Worked problems with the book’s figures and generated practice.'],
           ['#/compare', 'compare', 'Comparison lab', 'Any mode against any other, plus 25 curated comparisons.'],
           ['#/diagrams', 'flow', 'Transaction diagrams', 'Step through who pays, owns and bears risk.'],
           ['#/concepts', 'map', 'Concept map', 'How the ideas connect, with relationship graphs.'],

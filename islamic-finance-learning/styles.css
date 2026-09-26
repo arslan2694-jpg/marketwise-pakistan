@@ -541,8 +541,6 @@ button.tool-card { text-align: left; width: 100%; font: inherit; color: inherit;
 .callout.ok { border-color: var(--ok); background: var(--ok-soft); }
 .pmap .pmap-sep { stroke: var(--border); stroke-dasharray: 3 3; }
 .pmap .node.cat-0 rect { fill: var(--accent-soft); }
-.pmap .node.cat-2 rect, .pmap .node.cat-4 rect { fill: var(--gold-soft); }
-.pmap .node.cat-3 rect { fill: var(--info-soft); }
 /* ---------- Numericals trainer ---------- */
 .num-given { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; font-size: var(--fs-sm); margin: 8px 0; }
 .num-given dt { color: var(--text-2); }
@@ -553,3 +551,12 @@ button.tool-card { text-align: left; width: 100%; font: inherit; color: inherit;
 .num-answer .res { font-size: var(--fs-sm); font-weight: 600; }
 .num-answer .res.ok { color: var(--ok); }
 .num-answer .res.bad { color: var(--bad); }
+.pmap .node.cat-2 rect { fill: var(--ok-soft); }
+.pmap .node.cat-3 rect, .pmap .node.cat-5 rect { fill: var(--gold-soft); }
+.pmap .node.cat-4 rect, .pmap .node.cat-7 rect { fill: var(--info-soft); }
+.pmap .node.cat-6 rect { fill: var(--accent-soft); }
+.pfam .node circle { fill: var(--bg-elev); stroke: var(--border-strong); stroke-width: 1.3; }
+.pfam .node.sel circle { fill: var(--accent-soft); stroke: var(--accent); }
+.pfam .node.leaf circle { fill: var(--accent); stroke: none; }
+.pfam .node.leaf:hover text, .pfam .node.leaf:focus text { fill: var(--accent); }
+.pfam .node.fam rect { fill: var(--gold-soft); stroke: var(--gold); }

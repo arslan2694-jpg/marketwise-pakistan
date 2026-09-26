@@ -355,4 +355,79 @@ IFL_DATA.register('diagrams', [
     ],
     rules: ["Ijarah cannot start until the asset exists and can be used.", "The consortium members own the terminal in proportion to their funding."],
     pitfalls: ["Charging rent during construction", "Signing the Ijarah before the asset exists"] }
+  ,
+  { id: "interbank-mii", title: "Mudarabah interbank investment (MII, Malaysia’s IIMM)", topic: "t8.8.5", concept: "liquidity",
+    summary: "A surplus bank invests with a deficit bank on Mudarabah for overnight to 12 months; the return is a negotiated share of the investee’s actual profit rate, known only at the end.",
+    parties: [{ id: "investor", label: "Surplus (investor) bank", x: 14, y: 30 }, { id: "investee", label: "Deficit (investee) bank", x: 86, y: 30 }, { id: "bnm", label: "Central bank (BNM)", x: 50, y: 4 }],
+    steps: [
+      { from: "bnm", to: "investee", kind: "contract", label: "Minimum benchmark rate", detail: "From February 1996: government investment issue rate + 0.5 %, so only banks with reasonable returns take funds (p. 206)." },
+      { from: "investor", to: "investee", kind: "contract", label: "Profit-sharing ratio negotiated", detail: "Tenor from overnight to 12 months." },
+      { from: "investor", to: "investee", kind: "cash", label: "Principal placed", detail: "The investee uses it in its Shari’ah-compliant business." },
+      { from: "investee", to: "investor", kind: "risk", label: "Return not known in advance", detail: "Based on the investee’s gross profit rate before distribution on one-year investments." },
+      { from: "investee", to: "investor", kind: "cash", label: "Principal + share of profit at maturity", detail: "The actual return crystallises at the end of the period." }
+    ],
+    rules: ["No fixed return: the ratio is agreed, and the rate is known only at the end.", "The benchmark filters participants; it is not a guarantee."],
+    pitfalls: ["Treating the placement as a fixed-rate deposit", "Promising the benchmark as the return"] },
+  { id: "dm-construction", title: "House on the customer’s land: sale and lease-back Diminishing Musharakah (Box 12.4)", topic: "t12.9.2", concept: "diminishing-musharakah",
+    summary: "The bank buys part of the client’s land to become co-owner, releases the price in instalments to build the house, then leases its share and sells it back unit by unit.",
+    parties: [{ id: "client", label: "Client (owns the land)", x: 14, y: 30 }, { id: "bank", label: "Islamic bank", x: 86, y: 30 }, { id: "house", label: "Joint property", x: 50, y: 56 }],
+    steps: [
+      { from: "client", to: "bank", kind: "ownership", label: "Bank buys 8 of 10 land units", detail: "Land worth Drs 1,000,000; the bank buys Drs 800,000 of it (Shirkatulmilk)." },
+      { from: "bank", to: "client", kind: "cash", label: "Price paid in four instalments", detail: "Drs 200,000 each; the client uses them to build the house." },
+      { from: "client", to: "house", kind: "goods", label: "House built on the joint land", detail: "The client supervises the construction." },
+      { from: "bank", to: "client", kind: "rent", label: "Lease of the bank’s share", detail: "Starts when the house is habitable; for the first year only rent is paid, so it does not fall." },
+      { from: "client", to: "bank", kind: "cash", label: "Unit purchases begin a year after the last instalment", detail: "The gap avoids buy-back (‘Inah); rent falls with each unit bought." },
+      { from: "bank", to: "client", kind: "ownership", label: "Title passes after the last unit", detail: "For a renovation, rent starts from the first month because the client already lives in the house." }
+    ],
+    rules: ["One-year gap before units are sold back (p. 341).", "No rent until the house can be used (except in a renovation)."],
+    pitfalls: ["Selling units back immediately (‘Inah)", "Charging rent during construction"] },
+  { id: "post-shipment", title: "Post-shipment finance: Qard against the export bill plus a collection fee", topic: "t14.4.2", concept: "qard",
+    summary: "Instead of discounting, the bank lends the bill amount interest-free, collects the bill as the exporter’s agent for a flat fee, and may earn the exchange differential through a promise.",
+    parties: [{ id: "exporter", label: "Exporter", x: 14, y: 30 }, { id: "bank", label: "Islamic bank", x: 50, y: 6 }, { id: "importer", label: "Importer’s bank", x: 86, y: 30 }],
+    steps: [
+      { from: "exporter", to: "bank", kind: "contract", label: "Bill lodged for collection", detail: "The bank acts as collecting agent (Wakalah)." },
+      { from: "bank", to: "exporter", kind: "cash", label: "Qard at face value, at spot rate", detail: "No deduction that grows with time (p. 371)." },
+      { from: "exporter", to: "bank", kind: "promise", label: "Promise to sell the FX proceeds", detail: "Exchange at settlement; the rate differential is the bank’s income (Box 8.2)." },
+      { from: "importer", to: "bank", kind: "cash", label: "Bill paid at maturity", detail: "Proceeds repay the Qard." },
+      { from: "exporter", to: "bank", kind: "cash", label: "Flat collection fee", detail: "Related to the amount, not to the days outstanding." }
+    ],
+    rules: ["Face value; no time-based charge on the loan.", "The FX leg is a promise; the actual exchange is spot at settlement."],
+    pitfalls: ["A fee that rises with the number of days", "Buying the bill at a discount"] },
+  { id: "islamic-fund", title: "Islamic equity fund: screening and purification", topic: "t8.8.1", concept: "screening",
+    summary: "Investors pool money with a manager who invests only in screened shares, purifies tainted income and distributes actual gains pro rata.",
+    parties: [{ id: "investors", label: "Unit holders", x: 12, y: 30 }, { id: "manager", label: "Fund manager", x: 50, y: 30 }, { id: "stocks", label: "Screened companies", x: 88, y: 30 }, { id: "charity", label: "Charity account", x: 50, y: 58 }],
+    steps: [
+      { from: "investors", to: "manager", kind: "cash", label: "Subscriptions", detail: "No guarantee of principal or of a rate of profit (p. 202)." },
+      { from: "manager", to: "stocks", kind: "contract", label: "Screen before buying", detail: "Halal business; debt, cash and receivables each < 33 % of average market cap (DJIM)." },
+      { from: "manager", to: "stocks", kind: "cash", label: "Shares bought", detail: "Regular income, capital gain, aggressive or balanced strategy." },
+      { from: "stocks", to: "manager", kind: "cash", label: "Dividends and capital gains", detail: "Returns as actually earned." },
+      { from: "manager", to: "charity", kind: "cash", label: "Purification", detail: "Charity rate (non-compliant income ÷ gross revenue) × dividend (Al Meezan method)." },
+      { from: "manager", to: "investors", kind: "cash", label: "Net returns pro rata", detail: "The manager takes a profit share (Mudarabah) or a fee on NAV (agency)." }
+    ],
+    rules: ["Screen and re-screen; divest stocks that fail.", "Purify income; the manager is not obliged to purify its own fee."],
+    pitfalls: ["Promising a fixed return", "Keeping non-compliant income"] },
+  { id: "salam-sukuk", title: "Salam Sukuk: Bahrain’s aluminium securities (BMA, 2001)", topic: "t15.3.5.c", concept: "salam",
+    summary: "Banks pay the government in advance for aluminium to be delivered in three months, then appoint the government to sell it on their behalf.",
+    parties: [{ id: "banks", label: "Participating banks (Sukuk holders)", x: 12, y: 30 }, { id: "bib", label: "Bahrain Islamic Bank (representative)", x: 50, y: 6 }, { id: "gov", label: "Government of Bahrain", x: 88, y: 30 }, { id: "market", label: "Aluminium buyers", x: 50, y: 58 }],
+    steps: [
+      { from: "banks", to: "bib", kind: "cash", label: "Subscriptions", detail: "Three-month Salam securities held for liquidity requirements." },
+      { from: "bib", to: "gov", kind: "cash", label: "Salam price paid in advance", detail: "For a specified amount of aluminium at a future date." },
+      { from: "bib", to: "gov", kind: "agency", label: "Government appointed selling agent", detail: "A separate agency contract." },
+      { from: "gov", to: "market", kind: "goods", label: "Aluminium delivered and sold", detail: "At a price that gives holders their return." },
+      { from: "gov", to: "banks", kind: "cash", label: "Sale proceeds to holders", detail: "Certificates are not traded before delivery: they are a Salam debt (p. 404)." }
+    ],
+    rules: ["Full advance payment; a precisely specified commodity.", "No secondary trading of Salam debt."],
+    pitfalls: ["Trading the certificates before delivery", "Guaranteeing the sale price"] },
+  { id: "idb-sukuk", title: "Mixed-portfolio Sukuk: IDB Solidarity Trust (2003, Figure 15.2)", topic: "t15.3.5.d", concept: "sukuk",
+    summary: "IDB’s Ijarah, Murabaha and Istisna‘a assets pass through ICD to a trust SPV that issues US$400 m certificates; Ijarah must stay above 50 % of the pool.",
+    parties: [{ id: "idb", label: "IDB (originator, guarantor)", x: 12, y: 30 }, { id: "icd", label: "ICD (buyer, then Wakil)", x: 50, y: 4 }, { id: "spv", label: "Trust SPV", x: 88, y: 30 }, { id: "investors", label: "Certificate holders", x: 50, y: 58 }],
+    steps: [
+      { from: "idb", to: "icd", kind: "ownership", label: "Portfolio sold to ICD", detail: "Ijarah, Murabaha and Istisna‘a contracts." },
+      { from: "icd", to: "spv", kind: "ownership", label: "ICD sells the assets to the SPV", detail: "The SPV then appoints ICD its Wakil to manage them." },
+      { from: "investors", to: "spv", kind: "cash", label: "US$400 m subscribed", detail: "Each certificate is an undivided beneficial ownership, pari passu." },
+      { from: "spv", to: "investors", kind: "cash", label: "Periodic distributions", detail: "From the assets’ profit, net of trust expenses." },
+      { from: "idb", to: "spv", kind: "promise", label: "Guarantee and purchase undertaking", detail: "Guarantees obligors’ scheduled payments; buys the assets at maturity or if Ijarah falls below 25 %." }
+    ],
+    rules: ["Over 50 % Ijarah at all times keeps the certificates tradable.", "Principal is reinvested in Ijarah and Musharakah."],
+    pitfalls: ["Letting receivables dominate the pool", "Reading the guarantee as a guarantee of the certificates themselves"] }
 ]);

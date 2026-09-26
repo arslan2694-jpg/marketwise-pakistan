@@ -298,7 +298,7 @@ IFL_DATA.registerChapter({
     },
     {
       id: "t8.8.1", section: "8.8.1", title: "Islamic Funds, Screening and Purification", pages: [201, 203], tier: "core",
-      concepts: ["islamic-funds", "screening", "purification"],
+      concepts: ["islamic-funds", "islamic-funds", "screening", "purification"],
       intuition: "How does an Islamic equity fund decide which shares to hold — and what does it do with tainted income?",
       simple: "Funds are managed on Mudarabah (share of profit) or agency (fee) basis. Usmani’s categories: equity, Ijarah, commodity, Murabaha (closed-end, not tradable) and mixed funds (tradable if tangible assets > 51%). Equity funds: regular income, capital gain, aggressive, balanced. Screening: Halal business, debt < 33%, negligible interest income (e.g. ≤5% at Al Meezan), share value ≥ net liquid assets; Dow Jones: debt, cash + interest securities and receivables each < 33% of market cap. Purify non-compliant income to charity.",
       academic: [
@@ -362,7 +362,7 @@ IFL_DATA.registerChapter({
     },
     {
       id: "t8.8.4", section: "8.8.4", title: "Trading in Financial Instruments", pages: [205, 205], tier: "core",
-      concepts: ["sukuk", "hawalah", "bai-sarf"],
+      concepts: ["islamic-funds", "sukuk", "hawalah", "bai-sarf"],
       intuition: "What price rule applies when trading a certificate — market price, face value, or currency rules?",
       simple: "Instruments representing real assets and usufruct (Musharakah, Mudarabah, Ijarah certificates) trade at market prices. Instruments representing debts and money follow Hawalah and Bai‘ al Sarf. Mixed pools follow the dominant category: if cash and receivables dominate, Sarf applies; if physical assets dominate, market price.",
       academic: [
@@ -379,7 +379,7 @@ IFL_DATA.registerChapter({
     },
     {
       id: "t8.8.5", section: "8.8.5", title: "Inter-bank Funds Market", pages: [205, 206], tier: "supporting",
-      concepts: ["interbank", "mudarabah"],
+      concepts: ["money-market", "interbank", "mudarabah"],
       intuition: "How do Islamic banks lend surplus funds to each other overnight without interest?",
       simple: "Through Mudarabah placements or sale/purchase of compliant instruments. Malaysia’s Islamic Inter-bank Money Market (IIMM, 1994) includes inter-bank trading of Islamic instruments and Mudarabah Inter-bank Investments (MII) — overnight to 12 months, profit-sharing ratio negotiable, return based on the investee bank’s gross profit rate; since 1996 a minimum benchmark (government investment issues rate + 0.5%).",
       academic: [

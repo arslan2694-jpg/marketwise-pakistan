@@ -379,7 +379,7 @@ IFL_DATA.registerChapter({
     },
     {
       id: "t15.3.8", section: "15.3.8", title: "Potential of Sukuk in Fund Management and Capital Markets", pages: [411, 412], tier: "supporting",
-      concepts: ["sukuk", "liquidity"],
+      concepts: ["islamic-funds", "sukuk", "liquidity"],
       intuition: "What changed for Islamic bank treasuries once Sukuk became available?",
       simple: "Sukuk help mobilise resources, manage liquidity and funds, and can serve monetary policy and open-market operations (as in Sudan). Before Sukuk, IFIs relied on Tawarruq and metals-market Murabaha, not fully acceptable to scholars. Secondary trading has started (PCFC about $10 million a day; Nakheel active). About one-third of Muslim-majority investors seek compliant products and 50–60% more would use them if competitive (Ernst & Young). Around 40% of investors in the ADIB $800m and Nakheel issues were European. Growth needs regulation, compliance and convergence, professionals, investor education and knowledge sharing.",
       academic: [

@@ -1,6 +1,6 @@
 {
  "generated": "tools/build-indexes.cjs",
- "count": 52,
+ "count": 54,
  "concepts": [
   {
    "id": "riba",
@@ -6675,6 +6675,16 @@
      ]
     },
     {
+     "topic": "t8.8.4",
+     "chapter": 8,
+     "section": "8.8.4",
+     "title": "Trading in Financial Instruments",
+     "pages": [
+      205,
+      205
+     ]
+    },
+    {
      "topic": "t12.6",
      "chapter": 12,
      "section": "12.6",
@@ -6682,6 +6692,16 @@
      "pages": [
       328,
       330
+     ]
+    },
+    {
+     "topic": "t15.3.8",
+     "chapter": 15,
+     "section": "15.3.8",
+     "title": "Potential of Sukuk in Fund Management and Capital Markets",
+     "pages": [
+      411,
+      412
      ]
     }
    ],
@@ -8333,6 +8353,174 @@
     {
      "to": "security",
      "label": "Gharim surety may receive it"
+    }
+   ]
+  },
+  {
+   "id": "islamic-funds",
+   "name": "Islamic funds (equity, Ijarah, commodity, Murabaha, mixed)",
+   "group": "Banking & markets",
+   "primaryTopics": [
+    {
+     "topic": "t8.8.1",
+     "chapter": 8,
+     "section": "8.8.1",
+     "title": "Islamic Funds, Screening and Purification",
+     "pages": [
+      201,
+      203
+     ]
+    },
+    {
+     "topic": "t8.8.4",
+     "chapter": 8,
+     "section": "8.8.4",
+     "title": "Trading in Financial Instruments",
+     "pages": [
+      205,
+      205
+     ]
+    },
+    {
+     "topic": "t15.3.8",
+     "chapter": 15,
+     "section": "15.3.8",
+     "title": "Potential of Sukuk in Fund Management and Capital Markets",
+     "pages": [
+      411,
+      412
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t8.8.1",
+     "chapter": 8,
+     "section": "8.8.1",
+     "title": "Islamic Funds, Screening and Purification",
+     "pages": [
+      201,
+      203
+     ]
+    },
+    {
+     "topic": "t8.8.4",
+     "chapter": 8,
+     "section": "8.8.4",
+     "title": "Trading in Financial Instruments",
+     "pages": [
+      205,
+      205
+     ]
+    },
+    {
+     "topic": "t15.3.8",
+     "chapter": 15,
+     "section": "15.3.8",
+     "title": "Potential of Sukuk in Fund Management and Capital Markets",
+     "pages": [
+      411,
+      412
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "screening",
+     "label": "equity funds screen stocks"
+    },
+    {
+     "to": "mudarabah",
+     "label": "manager as Mudarib"
+    },
+    {
+     "to": "wakalah",
+     "label": "manager as agent for a fee"
+    },
+    {
+     "to": "bai-dayn",
+     "label": "Murabaha funds hold debts"
+    },
+    {
+     "to": "sukuk",
+     "label": "units akin to Sukuk"
+    }
+   ]
+  },
+  {
+   "id": "money-market",
+   "name": "Islamic interbank money market",
+   "group": "Banking & markets",
+   "primaryTopics": [
+    {
+     "topic": "t8.8.5",
+     "chapter": 8,
+     "section": "8.8.5",
+     "title": "Inter-bank Funds Market",
+     "pages": [
+      205,
+      206
+     ]
+    },
+    {
+     "topic": "t14.4.4",
+     "chapter": 14,
+     "section": "14.4.4",
+     "title": "Liquidity Management",
+     "pages": [
+      374,
+      375
+     ]
+    },
+    {
+     "topic": "t13.3.1",
+     "chapter": 13,
+     "section": "13.3.1",
+     "title": "Use of Tawarruq for Liquidity Management",
+     "pages": [
+      351,
+      351
+     ]
+    }
+   ],
+   "taggedTopics": [
+    {
+     "topic": "t8.8.5",
+     "chapter": 8,
+     "section": "8.8.5",
+     "title": "Inter-bank Funds Market",
+     "pages": [
+      205,
+      206
+     ]
+    },
+    {
+     "topic": "t14.4.4",
+     "chapter": 14,
+     "section": "14.4.4",
+     "title": "Liquidity Management",
+     "pages": [
+      374,
+      375
+     ]
+    }
+   ],
+   "links": [
+    {
+     "to": "liquidity",
+     "label": "tool for"
+    },
+    {
+     "to": "mudarabah",
+     "label": "MII is a Mudarabah"
+    },
+    {
+     "to": "tawarruq",
+     "label": "Commodity Murabaha alternative"
+    },
+    {
+     "to": "sukuk",
+     "label": "traded instruments"
     }
    ]
   }

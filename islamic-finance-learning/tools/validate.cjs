@@ -106,6 +106,10 @@ const prodIds = new Set();
   const n = p.numerical; if (!n || !['textbook', 'practice'].includes(n.kind) || !n.given.length || !n.working.length || !n.answer) err('product ' + p.id + ' numerical');
   if (!p.how.length || !p.controls.length || !p.risks.length || !p.conventional || !p.conventional.diff.length) err('product ' + p.id + ' incomplete');
   p.risks.forEach(r => { if (r.length !== 2) err('product ' + p.id + ' risk row'); });
+  const WHO = ['ind', 'farm', 'biz', 'corp', 'bank', 'inv'], USE = ['save', 'asset', 'home', 'cash', 'wc', 'trade', 'project', 'raise', 'service', 'protect'];
+  if (!(p.who || []).length || p.who.some(w => !WHO.includes(w))) err('product ' + p.id + ' who');
+  if (!(p.use || []).length || p.use.some(w => !USE.includes(w))) err('product ' + p.id + ' use');
+  if (!['Deposits', 'Consumer finance', 'Agriculture', 'Trade & working capital', 'Corporate & project', 'Treasury & capital markets', 'Sukuk', 'Funds & investment banking', 'Services & Takaful'].includes(p.cat)) err('product ' + p.id + ' category ' + p.cat);
 });
 // Numericals trainer: every generator runs, links to a real topic/product, and yields finite answers.
 {

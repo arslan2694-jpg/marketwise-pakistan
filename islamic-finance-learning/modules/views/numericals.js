@@ -165,6 +165,154 @@
         return { given: [['Amount recovered', f(p.rec)], ['Reward', p.pct + ' % of the amount recovered'], ['Advance paid on account', f(p.adv)]],
           asks: [{ label: 'Reward earned', v: rw }, { label: 'Balance payable now', v: rw - p.adv }],
           steps: ['Reward = ' + f(p.rec) + ' × ' + p.pct + ' % = ' + f(rw) + '.', 'Balance = ' + f(rw) + ' − ' + f(p.adv) + ' = ' + f(rw - p.adv) + '.', 'The reward is due only on completing the task (recovery); a lump-sum or percentage reward must be known in advance.'] };
+      } }    ,
+    /* ---- Round 5: further products ---- */
+    { id: 'tractor-ijarah', cat: 'Agriculture', title: 'Tractor on Ijarah with harvest-season rents', product: 'farm-machinery-ijarah', topic: 't11.5', source: 'Box 8.2 and Section 11.5 (practice figures)',
+      book: null,
+      rand: function (r) { return { cost: rnd(r, 10, 60) * 100000, years: rnd(r, 2, 6), rate: rnd(r, 6, 16) }; },
+      solve: function (p) {
+        var n = p.years * 2, cap = p.cost / n, r1 = cap + p.cost * p.rate / 200, r2v = cap + (p.cost - cap) * p.rate / 200, last = cap + cap * p.rate / 200;
+        return { given: [['Tractor cost (owned by the bank)', f(p.cost)], ['Tenor', p.years + ' years, rent after each of two harvests a year'], ['Rent basis', 'Capital recovery + ' + p.rate + ' % p.a. on the outstanding amount']],
+          asks: [{ label: 'Capital recovered per half-year', v: cap, dp: 2 }, { label: 'First rent', v: r1, dp: 2 }, { label: 'Second rent', v: r2v, dp: 2 }, { label: 'Last rent', v: last, dp: 2 }],
+          steps: ['Rents = ' + n + '; capital per rent = ' + f(p.cost) + ' ÷ ' + n + ' = ' + f(cap, 2) + '.', 'First = ' + f(cap, 2) + ' + ' + f(p.cost) + ' × ' + p.rate + ' % ÷ 2 = ' + f(r1, 2) + '.', 'Second = ' + f(cap, 2) + ' + ' + f(p.cost - cap, 2) + ' × ' + p.rate + ' % ÷ 2 = ' + f(r2v, 2) + '.', 'Last = ' + f(last, 2) + '. The bank owns the tractor and bears its ownership risk until a separate sale or gift at the end.'] };
+      } },
+    { id: 'mii-return', cat: 'Treasury & capital markets', title: 'Mudarabah interbank investment (MII) return', product: 'interbank-mudarabah', topic: 't8.8.5', source: 'Section 8.8.5 (practice figures)',
+      book: null,
+      rand: function (r) { return { amt: rnd(r, 5, 50) * 10000000, days: [1, 7, 30, 90, 180][rnd(r, 0, 4)], rate: rnd(r, 40, 90, 5) / 10, psr: rnd(r, 50, 85, 5) }; },
+      solve: function (p) {
+        var gross = p.amt * p.rate / 100 * p.days / 365, inv = gross * p.psr / 100;
+        return { given: [['Amount placed', f(p.amt)], ['Tenor (days)', p.days], ['Investee bank’s gross profit rate on 1-year investments', p.rate + ' % p.a.'], ['Profit-sharing ratio (investor : investee)', p.psr + ' : ' + (100 - p.psr)]],
+          asks: [{ label: 'Gross profit attributable to the placement', v: gross }, { label: 'Investor bank’s profit', v: inv }, { label: 'Effective return to the investor (% p.a.)', v: p.rate * p.psr / 100, dp: 2 }],
+          steps: ['Gross = ' + f(p.amt) + ' × ' + p.rate + ' % × ' + p.days + '/365 = ' + f(gross) + '.', 'Investor = ' + f(gross) + ' × ' + p.psr + ' % = ' + f(inv) + '.', 'Effective rate = ' + p.rate + ' % × ' + p.psr + ' % = ' + (p.rate * p.psr / 100).toFixed(2) + ' % — known only once the investee’s profit rate is crystallised at the end.'] };
+      } },
+    { id: 'tawarruq-cost', cat: 'Consumer finance', title: 'Cost of cash through Tawarruq', product: 'personal-tawarruq', topic: 't13.3', source: 'Section 13.3 (practice figures)',
+      book: null,
+      rand: function (r) { var c = rnd(r, 5, 50) * 10000; return { cost: c, mk: rnd(r, 6, 18), spot: rnd(r, 97, 100) / 100, months: [6, 12, 24][rnd(r, 0, 2)] }; },
+      solve: function (p) {
+        var price = p.cost * (1 + p.mk / 100), cash = Math.round(p.cost * p.spot), extra = price - cash;
+        return { given: [['Bank’s cash purchase of the commodity', f(p.cost)], ['Deferred sale price mark-up', p.mk + ' % for ' + p.months + ' months'], ['Client’s spot sale to a third party', f(cash)]],
+          asks: [{ label: 'Deferred price owed to the bank', v: price }, { label: 'Cost of the cash (debt − cash received)', v: extra }, { label: 'Cost as % of the cash received', v: 100 * extra / cash, dp: 2 }],
+          steps: ['Deferred price = ' + f(p.cost) + ' × ' + (1 + p.mk / 100).toFixed(2) + ' = ' + f(price) + '.', 'The client gets ' + f(cash) + ' by selling to a third party — not back to the bank, which would be ‘Inah.', 'Cost = ' + f(price) + ' − ' + f(cash) + ' = ' + f(extra) + ' (' + (100 * extra / cash).toFixed(2) + ' % of the cash). The book advises using Tawarruq only for unavoidable liquidity needs.'] };
+      } },
+    { id: 'dm-construction', cat: 'Consumer finance', title: 'House on the customer’s land (sale and lease-back DM)', product: 'house-construction-dm', topic: 't12.9.2', source: 'Box 12.4',
+      book: { land: 1000000, fin: 800000, inst: 4, unit: 100000, rate: 0 },
+      rand: function (r) { var u = rnd(r, 5, 20) * 10000; return { land: u * 10, fin: u * rnd(r, 5, 9), inst: rnd(r, 2, 6), unit: u, rate: 0 }; },
+      solve: function (p) {
+        var units = p.fin / p.unit;
+        return { given: [['Land value', f(p.land) + ' (10 units of ' + f(p.unit) + ')'], ['Finance needed from the bank', f(p.fin)], ['Disbursement', p.inst + ' equal instalments']],
+          asks: [{ label: 'Units the bank buys', v: units }, { label: 'Bank’s ownership share (%)', v: 100 * p.fin / p.land, dp: 1 }, { label: 'Each disbursement', v: p.fin / p.inst }],
+          steps: ['The bank buys ' + f(p.fin) + ' ÷ ' + f(p.unit) + ' = ' + units + ' units: a sale and lease-back creating Shirkatulmilk.', 'Ownership: bank ' + (100 * p.fin / p.land).toFixed(1) + ' %, client ' + (100 - 100 * p.fin / p.land).toFixed(1) + ' %.', 'Each instalment = ' + f(p.fin) + ' ÷ ' + p.inst + ' = ' + f(p.fin / p.inst) + ', used by the client to build.', 'Rent starts when the house is habitable; unit buy-back starts one year after the last instalment, to avoid ‘Inah.'] };
+      } },
+    { id: 'equity-screen', cat: 'Funds & investment banking', title: 'Screening a stock and purifying its dividend', product: 'equity-fund', topic: 't8.8.1', source: 'Section 8.8.1 (DJIM criteria; Al Meezan charity rate)',
+      book: null,
+      rand: function (r) { return { debt: rnd(r, 5, 45), cash: rnd(r, 5, 40), recv: rnd(r, 5, 45), nc: rnd(r, 0, 60) / 10, div: rnd(r, 2, 40) * 50000 }; },
+      solve: function (p) {
+        var fails = [p.debt, p.cash, p.recv].filter(function (x) { return x >= 33; }).length, charity = fails ? 0 : p.div * p.nc / 100;
+        return { given: [['Debt ÷ 12-month average market cap', p.debt + ' %'], ['Cash + interest-bearing securities ÷ market cap', p.cash + ' %'], ['Receivables ÷ market cap', p.recv + ' %'], ['Non-compliant income ÷ gross revenue', p.nc + ' %'], ['Dividend received', f(p.div)]],
+          asks: [{ label: 'Number of DJIM financial ratios failed', v: fails }, { label: 'Charity amount to set aside (0 if the stock is excluded)', v: charity }],
+          steps: ['Each of the three ratios must be below 33 %: debt ' + p.debt + ' %, cash ' + p.cash + ' %, receivables ' + p.recv + ' % → ' + fails + ' fail(s).', fails ? 'The stock is excluded; no dividend is held, so nothing is purified.' : 'The stock passes; charity rate ' + p.nc + ' % × ' + f(p.div) + ' = ' + f(charity) + '.', 'Al Meezan’s tolerance for non-permissible income is 5 % of total income' + (p.nc > 5 ? '; at ' + p.nc + ' % this company would also fail that test.' : '.')] };
+      } },
+    { id: 'mixed-fund-floor', cat: 'Funds & investment banking', title: 'Mixed fund: tradability and minimum unit price', product: 'mixed-fund', topic: 't8.8.1', source: 'Sections 8.8.1 and 15.3.5 (practice figures)',
+      book: null,
+      rand: function (r) { return { tang: rnd(r, 20, 90) * 1000000, cash: rnd(r, 2, 30) * 1000000, recv: rnd(r, 2, 40) * 1000000, units: rnd(r, 5, 20) * 1000000 }; },
+      solve: function (p) {
+        var t = p.tang + p.cash + p.recv, pct = 100 * p.tang / t, floor = (p.cash + p.recv) / p.units;
+        return { given: [['Shares, leased and other tangible assets', f(p.tang)], ['Cash', f(p.cash)], ['Receivables', f(p.recv)], ['Units in issue', f(p.units)]],
+          asks: [{ label: 'Tangible assets as % of the fund', v: pct, dp: 1 }, { label: 'Tradable at market price? (1 = yes, 0 = no)', v: pct > 51 ? 1 : 0 }, { label: 'Price per unit must exceed (liquid + debts per unit)', v: floor, dp: 2 }],
+          steps: ['Tangible share = ' + f(p.tang) + ' ÷ ' + f(t) + ' = ' + pct.toFixed(1) + ' %.', pct > 51 ? 'Above 51 %: units may trade at market price.' : 'Not above 51 %: cash and debts dominate, so Sarf and debt rules apply and the units cannot trade at a market price.', 'Price floor = (' + f(p.cash) + ' + ' + f(p.recv) + ') ÷ ' + f(p.units) + ' = ' + f(floor, 2) + ' per unit.'] };
+      } },
+    { id: 'idb-ijarah-share', cat: 'Sukuk', title: 'Mixed-portfolio Sukuk: keeping Ijarah above 50 %', product: 'mixed-portfolio-sukuk', topic: 't15.3.5.d', source: 'Section 15.3.5 (IDB Solidarity Trust thresholds; practice figures)',
+      book: null,
+      rand: function (r) { return { ij: rnd(r, 8, 30) * 10, mu: rnd(r, 5, 20) * 10, is: rnd(r, 0, 10) * 10 }; },
+      solve: function (p) {
+        var t = p.ij + p.mu + p.is, pct = 100 * p.ij / t, need = Math.max(0, t - 2 * p.ij);
+        return { given: [['Ijarah assets (US$ m)', f(p.ij)], ['Murabaha receivables (US$ m)', f(p.mu)], ['Istisna‘a receivables (US$ m)', f(p.is)]],
+          asks: [{ label: 'Ijarah share of the pool (%)', v: pct, dp: 1 }, { label: 'Extra Ijarah (US$ m) to add before the share exceeds 50 %', v: need }, { label: 'Dissolution event? (1 = yes, below 25 %)', v: pct < 25 ? 1 : 0 }],
+          steps: ['Ijarah share = ' + f(p.ij) + ' ÷ ' + f(t) + ' = ' + pct.toFixed(1) + ' %.', need ? 'To reach 50 %: add x with (' + f(p.ij) + ' + x) ÷ (' + f(t) + ' + x) = 50 % → x = ' + f(t) + ' − 2 × ' + f(p.ij) + ' = ' + f(need) + '.' : 'Already at or above 50 %: no additional Ijarah needed.', pct < 25 ? 'Below 25 %: a dissolution event; IDB must buy the assets under its purchase undertaking.' : 'Not below 25 %, so there is no dissolution event.'] };
+      } },
+    { id: 'mudarabah-sukuk', cat: 'Sukuk', title: 'Mudarabah Sukuk distribution with a reserve', product: 'mudarabah-sukuk', topic: 't15.3.5', source: 'Section 15.3.5 (OIC Fiqh Council rules; practice figures)',
+      book: null,
+      rand: function (r) { var loss = r() < 0.25; return { size: rnd(r, 5, 30) * 100, res: (loss ? -1 : 1) * rnd(r, 2, 20) * 10, ratio: rnd(r, 60, 85, 5), rsv: rnd(r, 0, 10) }; },
+      solve: function (p) {
+        if (p.res < 0) return { given: [['Sukuk issued (Rs m)', f(p.size)], ['Project result (Rs m)', 'Loss ' + f(-p.res)], ['Profit ratio (holders : Mudarib)', p.ratio + ' : ' + (100 - p.ratio)], ['Reserve rate', p.rsv + ' % of profit']],
+          asks: [{ label: 'Holders’ share of the result (loss negative)', v: p.res }, { label: 'Mudarib’s profit', v: 0 }],
+          steps: ['There is no profit, so nothing goes to reserve or to the Mudarib.', 'The loss of ' + f(-p.res) + ' is borne by the holders as capital owners (reserves built in earlier years may absorb it).', 'The issuer cannot guarantee capital; only an unrelated third party may promise a donation.'] };
+        var rv = p.res * p.rsv / 100, d = p.res - rv, hold = d * p.ratio / 100;
+        return { given: [['Sukuk issued (Rs m)', f(p.size)], ['Project profit (Rs m)', f(p.res)], ['Profit ratio (holders : Mudarib)', p.ratio + ' : ' + (100 - p.ratio)], ['Reserve rate', p.rsv + ' % of profit']],
+          asks: [{ label: 'Holders’ profit (Rs m)', v: hold, dp: 2 }, { label: 'Mudarib’s profit (Rs m)', v: d - hold, dp: 2 }],
+          steps: ['Reserve = ' + f(p.res) + ' × ' + p.rsv + ' % = ' + f(rv, 2) + '; distributable = ' + f(d, 2) + '.', 'Holders = ' + f(d, 2) + ' × ' + p.ratio + ' % = ' + f(hold, 2) + ' (' + (100 * hold / p.size).toFixed(2) + ' % on the issue).', 'Mudarib = ' + f(d - hold, 2) + '.'] };
+      } },
+    { id: 'salam-sukuk', cat: 'Sukuk', title: 'Salam Sukuk: return on a short-term issue', product: 'salam-sukuk', topic: 't15.3.5.c', source: 'Section 15.3.5 (Bahrain structure; practice figures)',
+      book: null,
+      rand: function (r) { var s = rnd(r, 10, 100); return { price: s, sale: r2(s * (1 + rnd(r, 5, 30) / 1000)), months: [3, 6][rnd(r, 0, 1)] }; },
+      solve: function (p) {
+        var g = p.sale - p.price, ann = 100 * g / p.price * 12 / p.months;
+        return { given: [['Salam price paid in advance (US$ m)', f(p.price)], ['Months to delivery', p.months], ['Agent’s sale price on delivery (US$ m)', f(p.sale, 2)]],
+          asks: [{ label: 'Gross gain (US$ m)', v: g, dp: 2 }, { label: 'Annualised return (%)', v: ann, dp: 2 }],
+          steps: ['Gain = ' + f(p.sale, 2) + ' − ' + f(p.price) + ' = ' + f(g, 2) + '.', 'Annualised = ' + f(g, 2) + ' ÷ ' + f(p.price) + ' × 12/' + p.months + ' = ' + ann.toFixed(2) + ' %.', 'The certificates represent a Salam debt, so they are not traded before delivery.'] };
+      } },
+    { id: 'murabaha-sukuk', cat: 'Sukuk', title: 'Murabaha Sukuk: instalment certificates', product: 'murabaha-sukuk', topic: 't15.3.5.c', source: 'Section 15.3.5 (practice figures)',
+      book: null,
+      rand: function (r) { return { cost: rnd(r, 10, 80) * 100, pct: rnd(r, 5, 25), n: rnd(r, 2, 8) }; },
+      solve: function (p) {
+        var price = p.cost * (1 + p.pct / 100), each = price / p.n;
+        return { given: [['Goods cost (Rs m)', f(p.cost)], ['Murabaha profit for the whole period', p.pct + ' %'], ['Equal instalments (one certificate each)', p.n]],
+          asks: [{ label: 'Murabaha price (Rs m)', v: price, dp: 2 }, { label: 'Face value of each certificate (Rs m)', v: each, dp: 2 }],
+          steps: ['Price = ' + f(p.cost) + ' × ' + (1 + p.pct / 100).toFixed(2) + ' = ' + f(price, 2) + '.', 'Each certificate = ' + f(price, 2) + ' ÷ ' + p.n + ' = ' + f(each, 2) + '.', 'Being debt, a certificate can be transferred only at face value (less collection cost), never at a discount.'] };
+      } },
+    { id: 'underwriting', cat: 'Funds & investment banking', title: 'Underwriting: take-up and service fee', product: 'underwriting', topic: 't14.6', source: 'Section 14.6.1 (practice figures)',
+      book: null,
+      rand: function (r) { var iss = rnd(r, 10, 100) * 10; return { iss: iss, uw: Math.round(iss * rnd(r, 20, 60) / 100), sub: Math.round(iss * rnd(r, 60, 100) / 100), fee: rnd(r, 2, 10) / 10, px: 10 }; },
+      solve: function (p) {
+        var gap = Math.max(0, p.iss - p.sub), take = Math.min(gap, p.uw), fee = p.uw * p.fee / 100;
+        return { given: [['Issue size (Rs m)', f(p.iss)], ['Amount underwritten (Rs m)', f(p.uw)], ['Public subscription (Rs m)', f(p.sub)], ['Service fee', p.fee + ' % of the amount underwritten'], ['Offer price', 'Rs.' + p.px + ' per share']],
+          asks: [{ label: 'Underwriter’s take-up (Rs m)', v: take }, { label: 'Permissible fee (Rs m)', v: fee, dp: 2 }, { label: 'Take-up commission allowed (Rs m)', v: 0 }],
+          steps: ['Unsubscribed = max(0, ' + f(p.iss) + ' − ' + f(p.sub) + ') = ' + f(gap) + '; the underwriter takes up ' + f(take) + ' at the offer price.', 'Fee = ' + f(p.uw) + ' × ' + p.fee + ' % = ' + f(fee, 2) + ', for arranging and marketing only.', 'No commission for the commitment itself, and no discount on the shares taken up (OIC Fiqh Council, 1992).'] };
+      } },
+    { id: 'shipping-guarantee', cat: 'Trade & working capital', title: 'Delivery-order Murabaha: settling the cost difference', product: 'shipping-guarantee-murabaha', topic: 't14.4.2', source: 'Section 14.4.2 (practice figures)',
+      book: null,
+      rand: function (r) { var c = rnd(r, 20, 200) * 50000; return { est: c, prof: Math.round(c * rnd(r, 2, 6) / 100), fin: c + rnd(r, -8, 8) * 25000 }; },
+      solve: function (p) {
+        var diff = p.fin - p.est;
+        return { given: [['Estimated cost at the sub-Murabaha', f(p.est)], ['Profit agreed', f(p.prof)], ['Final cost when documents arrive', f(p.fin)]],
+          asks: [{ label: 'Final Murabaha price', v: p.fin + p.prof }, { label: 'Amount the customer pays (+) or receives (−) to settle', v: diff }, { label: 'Profit after adjustment', v: p.prof }],
+          steps: ['Booked price = ' + f(p.est) + ' + ' + f(p.prof) + ' = ' + f(p.est + p.prof) + '.', 'Cost difference = ' + f(p.fin) + ' − ' + f(p.est) + ' = ' + f(diff) + (diff >= 0 ? ', paid by the customer.' : ', refunded to the customer.'), 'Only the cost portion changes; profit stays ' + f(p.prof) + '.'] };
+      } },
+    { id: 'post-shipment', cat: 'Trade & working capital', title: 'Bill discounting vs Qard with a collection fee', product: 'post-shipment-qard', topic: 't14.4.2', source: 'Section 14.4.2 (practice figures)',
+      book: null,
+      rand: function (r) { return { bill: rnd(r, 10, 100) * 100000, days: [30, 45, 60, 90, 120][rnd(r, 0, 4)], disc: rnd(r, 8, 16), fee: rnd(r, 1, 5) / 10 }; },
+      solve: function (p) {
+        var d = p.bill * p.disc / 100 * p.days / 365, fee = p.bill * p.fee / 100;
+        return { given: [['Export bill (local currency at spot)', f(p.bill)], ['Days to maturity', p.days], ['Conventional discount rate', p.disc + ' % p.a.'], ['Islamic collection fee (flat)', p.fee + ' %']],
+          asks: [{ label: 'Conventional discount deducted', v: d }, { label: 'Qard received by the exporter', v: p.bill }, { label: 'Collection fee', v: fee }],
+          steps: ['Discount = ' + f(p.bill) + ' × ' + p.disc + ' % × ' + p.days + '/365 = ' + f(d) + ': it grows with time, so it is Riba.', 'Qard at face value = ' + f(p.bill) + '.', 'Fee = ' + f(p.bill) + ' × ' + p.fee + ' % = ' + f(fee) + ', the same for 30 or 120 days.'] };
+      } },
+    { id: 'dm-business', cat: 'Corporate & project', title: 'Diminishing Musharakah in business: buy-out at valuation', product: 'dm-business', topic: 't12.9.1', source: 'Section 12.9.1 (practice figures)',
+      book: null,
+      rand: function (r) { return { share: rnd(r, 40, 80, 5), sell: rnd(r, 5, 20, 5), v1: rnd(r, 10, 40), g: rnd(r, -15, 25) }; },
+      solve: function (p) {
+        var v1 = p.v1 * 1000000, v2 = Math.round(v1 * (1 + p.g / 100)), a = v1 * p.sell / 100, b = v2 * p.sell / 100;
+        return { given: [['Bank’s share of the business', p.share + ' %'], ['Bank sells each year', p.sell + ' % of the business'], ['Valuation at end of year 1', f(v1)], ['Valuation at end of year 2', f(v2)]],
+          asks: [{ label: 'Year-1 purchase price', v: a }, { label: 'Year-2 purchase price', v: b }, { label: 'Bank’s share after two sales (%)', v: p.share - 2 * p.sell }],
+          steps: ['Year 1 = ' + p.sell + ' % × ' + f(v1) + ' = ' + f(a) + '.', 'Year 2 = ' + p.sell + ' % × ' + f(v2) + ' = ' + f(b) + ' (valuation ' + (p.g >= 0 ? 'up' : 'down') + ' ' + Math.abs(p.g) + ' %).', 'Bank’s share = ' + p.share + ' − 2 × ' + p.sell + ' = ' + (p.share - 2 * p.sell) + ' %. The price cannot be fixed in the promise for a trading business.'] };
+      } },
+    { id: 'takaful-models', cat: 'Services & Takaful', title: 'Takaful models compared: who gets what', product: 'takaful', topic: 't16.4.1', source: 'Section 16.4.1 and Box 16.1 (practice figures)',
+      book: null,
+      rand: function (r) { return { con: rnd(r, 50, 200), claims: rnd(r, 20, 120), fee: rnd(r, 20, 35, 5), inv: rnd(r, 2, 15), mud: rnd(r, 30, 50, 10) }; },
+      solve: function (p) {
+        var uw = p.con - p.claims, wak = p.con * p.fee / 100, uwW = p.con - wak - p.claims, mudOp = Math.max(0, uw + p.inv) * p.mud / 100, waqfOp = wak + p.inv * p.mud / 100;
+        return { given: [['Contributions (m)', f(p.con)], ['Claims and re-Takaful (m)', f(p.claims)], ['Wakalah fee', p.fee + ' %'], ['Investment profit (m)', f(p.inv)], ['Mudarabah ratio (operator : participants)', p.mud + ' : ' + (100 - p.mud)]],
+          asks: [{ label: 'Operator’s income, pure Wakalah model (fee only)', v: wak, dp: 2 }, { label: 'Operator’s income, pure Mudarabah model', v: mudOp, dp: 2 }, { label: 'Operator’s income, Wakalah–Waqf model (fee + Mudarib share)', v: waqfOp, dp: 2 }, { label: 'Underwriting result left to participants under Wakalah–Waqf', v: uwW, dp: 2 }],
+          steps: ['Pure Wakalah: fee = ' + f(p.con) + ' × ' + p.fee + ' % = ' + f(wak, 2) + '; the surplus and investment profit belong to participants. Any deficit is theirs, with only a Qard from the operator — scholars see this as not equitable.', 'Pure Mudarabah: “profit” = underwriting surplus ' + f(uw) + ' + investment profit ' + f(p.inv) + ', shared ' + p.mud + ' %: operator ' + f(mudOp, 2) + '. The operator takes surplus but not losses, which scholars object to.', 'Wakalah–Waqf (Box 16.1): fee ' + f(wak, 2) + ' + ' + p.mud + ' % of investment profit (' + f(p.inv * p.mud / 100, 2) + ') = ' + f(waqfOp, 2) + '.', 'Underwriting result for the Waqf fund = ' + f(p.con) + ' − ' + f(wak, 2) + ' − ' + f(p.claims) + ' = ' + f(uwW, 2) + (uwW < 0 ? ', a deficit met by Qard al Hasan from shareholders.' : ', belonging to the participants as a group.')] };
+      } },
+    { id: 'commodity-operations', cat: 'Trade & working capital', title: 'Government wheat procurement by Murabaha', product: 'commodity-operations', topic: 't14.4.2', source: 'Section 14.4.2 (practice figures)',
+      book: null,
+      rand: function (r) { return { tons: rnd(r, 2, 20) * 10000, price: rnd(r, 20, 40) * 1000, costs: rnd(r, 5, 60), pct: rnd(r, 4, 10) }; },
+      solve: function (p) {
+        var cost = p.tons * p.price + p.costs * 1000000, prof = cost * p.pct / 100;
+        return { given: [['Wheat bought', f(p.tons) + ' tons at Rs.' + f(p.price) + ' per ton'], ['Agency and storage costs', 'Rs.' + p.costs + ' m'], ['Murabaha profit', p.pct + ' % on total cost']],
+          asks: [{ label: 'Total cost', v: cost }, { label: 'Murabaha price to the province', v: cost + prof }],
+          steps: ['Cost = ' + f(p.tons) + ' × ' + f(p.price) + ' + ' + f(p.costs * 1000000) + ' = ' + f(cost) + '.', 'Profit = ' + f(cost) + ' × ' + p.pct + ' % = ' + f(prof) + '.', 'Price = ' + f(cost + prof) + ', fixed once the syndicate, owning the wheat through its agents, sells it.'] };
       } }
   ];
   IFL.numericals = G;

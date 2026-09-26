@@ -6,7 +6,11 @@
   var D = window.IFL_DATA;
   var H2 = { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' };
   var NS = 'http://www.w3.org/2000/svg';
-  var CATS = ['Deposits', 'Consumer finance', 'Trade & working capital', 'Corporate & project', 'Treasury & capital markets', 'Services & Takaful'];
+  var CATS = ['Deposits', 'Consumer finance', 'Agriculture', 'Trade & working capital', 'Corporate & project', 'Treasury & capital markets', 'Sukuk', 'Funds & investment banking', 'Services & Takaful'];
+  var WHO = [['ind', 'Individual or household'], ['farm', 'Farmer or fisherman'], ['biz', 'Trader, manufacturer, exporter or importer'], ['corp', 'Large corporate, project or government'], ['bank', 'Bank treasury'], ['inv', 'Saver or investor']];
+  var USE = [['save', 'Save or invest'], ['asset', 'Buy or use an asset'], ['home', 'A home'], ['cash', 'Cash or liquidity'], ['wc', 'Working capital or inventory'], ['trade', 'Import or export'], ['project', 'Build a project or plant'], ['raise', 'Raise funds from investors'], ['service', 'A banking service'], ['protect', 'Protection or cover']];
+  /* Families follow the group of each product's core (first) contract in the concept map. */
+  var FAMILIES = [['Sale-based modes', 'Sale-based'], ['Lease-based modes', 'Lease-based'], ['Partnership modes', 'Partnership'], ['Accessory contracts', 'Agency, service & accessory'], ['Principles', 'Loans & promises'], ['Banking & markets', 'Capital & money market'], ['Takaful & social', 'Takaful']];
   function el(tag, attrs, text) { var e = document.createElementNS(NS, tag); Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); }); if (text != null) e.textContent = text; return e; }
   function load() { return D.load(['products', 'concepts', 'diagrams', 'cases']); }
   function cmap(R) { var m = {}; R.concepts.forEach(function (c) { m[c.id] = c; }); return m; }
@@ -92,7 +96,7 @@
       var tb = R.products.filter(function (p) { return p.numerical.kind === 'textbook'; }).length;
       return h('div',
         C.pageHead({ eyebrow: 'Islamic banking products', title: 'Product catalogue', desc: R.products.length + ' products as the book describes them, from deposits to Sukuk and Takaful. Each page shows the underlying contracts, the steps, a transaction diagram, a worked numerical (' + tb + ' use the book’s own figures), Shari’ah controls, risks and mitigants, and how the product differs from its conventional counterpart.',
-          actions: [h('a.btn', { href: '#/products/map' }, u.svg('map'), 'Product–contract map'), h('a.btn', { href: '#/products/compare' }, u.svg('compare'), 'Compare products'), h('a.btn.primary', { href: '#/products/quiz' }, u.svg('quiz'), 'Product quiz')] }),
+          actions: [h('a.btn', { href: '#/products/finder' }, u.svg('compass'), 'Product finder'), h('a.btn', { href: '#/products/map' }, u.svg('map'), 'Product maps'), h('a.btn', { href: '#/products/compare' }, u.svg('compare'), 'Compare products'), h('a.btn.primary', { href: '#/products/quiz' }, u.svg('quiz'), 'Product quiz')] }),
         h('section.card', h('div.row', search, h('span.spacer'), countEl), h('div.row', { style: { marginTop: '10px' } }, chips)),
         grid,
         h('p.small.muted', { style: { marginTop: '16px' } }, 'Box 8.2 of the book maps each banking product to its modes; this catalogue expands that table. Descriptions apply the book’s rules and are not a Fatwa; banks’ actual terms vary and are approved by their own Shari’ah boards.'));
@@ -202,6 +206,50 @@
     });
     return h('div.cmap-scroll', { style: { overflowX: 'auto' } }, h('div', { style: { minWidth: '620px' } }, svg));
   };
+  IFL.productFamilies = function (products, concepts) {
+    var cm = {}; concepts.forEach(function (c) { cm[c.id] = c; });
+    var fam = FAMILIES.map(function (f) { return { key: f[0], label: f[1], items: [] }; });
+    products.forEach(function (p) { var g = cm[p.contracts[0]] ? cm[p.contracts[0]].group : null; var f = fam.filter(function (x) { return x.key === g; })[0] || fam[4]; f.items.push(p); });
+    fam = fam.filter(function (f) { return f.items.length; });
+    var W = 1000, cx = W / 2, cy = W / 2, R1 = 150, R2 = 285, n = products.length + fam.length, k = 0;
+    var svg = el('svg', { viewBox: '0 0 ' + W + ' ' + W, class: 'cmap pfam', role: 'group', 'aria-label': 'Islamic banking products grouped by contract family' });
+    var gE = el('g'), gN = el('g'); svg.appendChild(gE); svg.appendChild(gN);
+    var centre = el('g', { class: 'node sel' });
+    centre.appendChild(el('circle', { cx: cx, cy: cy, r: 66 }));
+    centre.appendChild(el('text', { x: cx, y: cy - 4, 'text-anchor': 'middle' }, 'Islamic banking'));
+    centre.appendChild(el('text', { x: cx, y: cy + 14, 'text-anchor': 'middle' }, 'products (' + products.length + ')'));
+    gN.appendChild(centre);
+    var leafEls = [];
+    fam.forEach(function (f, fi) {
+      var a0 = (k + 0.5) / n * 2 * Math.PI, start = k; k += f.items.length + 1;
+      var mid = ((start + k - 1) / 2) / n * 2 * Math.PI - Math.PI / 2;
+      var fx = cx + R1 * Math.cos(mid), fy = cy + R1 * Math.sin(mid);
+      gE.appendChild(el('path', { d: 'M' + cx + ',' + cy + ' L' + fx + ',' + fy, class: 'link spine' }));
+      var fg = el('g', { class: 'node fam fam-' + fi, tabindex: 0, role: 'button', 'aria-label': f.label + ': ' + f.items.length + ' products' });
+      var tw = Math.max(90, f.label.length * 6.6 + 20);
+      fg.appendChild(el('rect', { x: fx - tw / 2, y: fy - 14, width: tw, height: 28, rx: 14 }));
+      fg.appendChild(el('text', { x: fx, y: fy + 4, 'text-anchor': 'middle' }, f.label + ' (' + f.items.length + ')'));
+      var mine = [];
+      f.items.forEach(function (p, j) {
+        var a = (start + j) / n * 2 * Math.PI - Math.PI / 2, lx = cx + R2 * Math.cos(a), ly = cy + R2 * Math.sin(a);
+        var path = el('path', { d: 'M' + fx + ',' + fy + ' Q' + (cx + (R1 + 60) * Math.cos(a)) + ',' + (cy + (R1 + 60) * Math.sin(a)) + ' ' + lx + ',' + ly, class: 'link' });
+        gE.appendChild(path);
+        var deg = a * 180 / Math.PI, flip = Math.cos(a) < 0, rot = flip ? deg + 180 : deg;
+        var g = el('g', { class: 'node leaf', tabindex: 0, role: 'link', 'aria-label': p.name + ' (' + f.label + ')' });
+        g.appendChild(el('circle', { cx: lx, cy: ly, r: 5 }));
+        g.appendChild(el('text', { x: lx + (flip ? -9 : 9), y: ly + 4, 'text-anchor': flip ? 'end' : 'start', transform: 'rotate(' + rot.toFixed(1) + ' ' + lx.toFixed(1) + ' ' + ly.toFixed(1) + ')', style: 'font-size: 11px; font-weight: 500' }, IFL.trunc(p.name, 34)));
+        g.appendChild(el('title', {}, p.name + ' — ' + p.cat));
+        g.addEventListener('click', function () { IFL.go('/product/' + p.id); });
+        g.addEventListener('keydown', function (e) { if (e.key === 'Enter') IFL.go('/product/' + p.id); });
+        gN.appendChild(g); mine.push({ g: g, path: path }); leafEls.push(g);
+      });
+      function hl(on) { leafEls.forEach(function (x) { x.classList.toggle('dim', on && mine.every(function (m) { return m.g !== x; })); }); mine.forEach(function (m) { m.path.classList.toggle('hl', on); }); }
+      fg.addEventListener('mouseenter', function () { hl(true); }); fg.addEventListener('focus', function () { hl(true); });
+      fg.addEventListener('mouseleave', function () { hl(false); }); fg.addEventListener('blur', function () { hl(false); });
+      gN.appendChild(fg);
+    });
+    return h('div.cmap-scroll', { style: { overflowX: 'auto' } }, h('div', { style: { minWidth: '640px', maxWidth: '900px', margin: '0 auto' } }, svg));
+  };
   IFL.route('/products/map', function () {
     return load().then(function (R) {
       var cm = cmap(R), cnt = {};
@@ -210,7 +258,8 @@
       return h('div',
         C.pageHead({ crumbs: [{ label: 'Products', route: '/products' }, { label: 'Product–contract map' }], eyebrow: 'Concept map', title: 'Products and the contracts behind them',
           desc: 'Products are grouped by category on the left; contracts on the right are ordered by how many products use them. Hover or focus a node to trace its links; click to open it.' }),
-        h('section.card', IFL.productMap(R.products, R.concepts)),
+        h('section.card', h('h2', { style: H2 }, 'Product families'), h('p.small.muted', 'Each product sits in the family of its core contract. Hover a family to highlight its products; click a product to open it.'), IFL.productFamilies(R.products, R.concepts)),
+        h('section.card', h('h2', { style: H2 }, 'Products and their contracts'), IFL.productMap(R.products, R.concepts)),
         h('section.card', h('h2', { style: H2 }, 'The most-used building blocks'),
           h('div.grid.grid-3', top.map(function (c) {
             return h('a.card.card-link', { href: '#/concept/' + c }, h('h3', { style: { fontSize: 'var(--fs-md)', margin: 0 } }, cm[c] ? cm[c].name : c), h('p.small.text-2', { style: { margin: '6px 0 0' } }, cnt[c] + ' products · ' + (cm[c] ? cm[c].oneLine : '')));
@@ -247,6 +296,38 @@
       return h('div',
         C.pageHead({ crumbs: [{ label: 'Products', route: '/products' }, { label: 'Compare' }], eyebrow: 'Islamic banking products', title: 'Compare two products', desc: 'Pick any two products to see their contracts, steps, controls, risks and conventional counterparts side by side.' }),
         h('section.card', h('div.row', sel(a, function (v) { a = v; }), h('span', 'vs'), sel(b, function (v) { b = v; }))),
+        h('section.card', out));
+    });
+  });
+
+  /* ---------- Product finder ---------- */
+  IFL.route('/products/finder', function (ctx) {
+    return load().then(function (R) {
+      var cm = cmap(R), who = ctx.query.who || '', use = ctx.query.use || '';
+      var out = h('div');
+      function chipRow(list, get, set, label) {
+        var chips = [['', 'Any']].concat(list).map(function (x) {
+          var b = h('button.chip', { type: 'button', 'aria-pressed': String(get() === x[0]), onclick: function () { set(x[0]); chips.forEach(function (c) { c.setAttribute('aria-pressed', String(c._k === get())); }); draw(); } }, x[1]);
+          b._k = x[0]; return b;
+        });
+        return h('div', h('div.small.muted', { style: { margin: '8px 0 4px' } }, label), h('div.row', chips));
+      }
+      function draw() {
+        var list = R.products.filter(function (p) { return (!who || p.who.indexOf(who) > -1) && (!use || p.use.indexOf(use) > -1); });
+        out.innerHTML = '';
+        if (!list.length) { out.appendChild(C.empty('No product in the book fits both choices', 'Try “Any” for one of them.')); return; }
+        u.append(out, [h('p.small', { 'aria-live': 'polite' }, h('strong', list.length + ' product' + (list.length > 1 ? 's' : '')), ' fit this need.'),
+          h('div.grid.grid-3', list.map(function (p) {
+            return h('a.card.card-link.product-card.finder-result', { href: '#/product/' + p.id }, h('span.badge', p.cat),
+              h('h3', { style: { fontSize: 'var(--fs-md)', margin: '8px 0 4px' } }, p.name), h('p.small.text-2', { style: { margin: '0 0 6px' } }, p.need),
+              h('p.small', { style: { margin: 0 } }, h('strong', 'Built on: '), p.contracts.map(function (c) { return cm[c] ? cm[c].name : c; }).join(', ')));
+          }))]);
+      }
+      draw();
+      return h('div',
+        C.pageHead({ crumbs: [{ label: 'Products', route: '/products' }, { label: 'Product finder' }], eyebrow: 'Islamic banking products', title: 'Which product fits?',
+          desc: 'Choose who the client is and what they need. The list shows every product in the catalogue that the book presents for that need. It is a study aid, not advice or a Fatwa; the right structure depends on the facts and the bank’s Shari’ah board.' }),
+        h('section.card', chipRow(WHO, function () { return who; }, function (v) { who = v; }, 'Who is the client?'), chipRow(USE, function () { return use; }, function (v) { use = v; }, 'What do they need?')),
         h('section.card', out));
     });
   });
