@@ -453,6 +453,13 @@ window.IFL_DATA.chapters[13] = {
       ],
       principles: [],
       processSteps: [],
+      transactionSteps: [
+        { step: "Buyer and Supplier Sign a Master Agreement", description: "The buyer and the supplier enter one master agreement covering an ongoing, repeated series of sales/purchases of a commodity, rather than negotiating a fresh contract for each delivery - a modus operandi for financing on an ongoing basis under any suitable normal (cash or credit) sale mode." },
+        { step: "Price-Fixing Method Is Agreed for the Series", description: "The parties agree how the price will be set for the whole arrangement: it may be determined in advance for the entire series, fixed with every individual consignment, or settled only after delivery of all consignments has been completed - whichever method they choose, the terms follow those of a normal cash or credit sale." },
+        { step: "Goods Delivered in Tranches per the Schedule", description: "The supplier goes on delivering the agreed goods in a number of consignments over time (e.g. monthly), as in the case of a bread supplier delivering to a retailer daily through the month, rather than in a single lump-sum delivery." },
+        { step: "Payment Settled per the Agreed Method", description: "The buyer pays according to whatever method was agreed - for example, once at the end of the month for all deliveries made during it, or on some other agreed schedule - reflecting normal day-to-day wholesaler-retailer business practice." },
+        { step: "Shari'ah Validity Requires No Gharar (and Any Specific Mode's Own Conditions Still Apply)", description: "Because Istijrar is normal, everyday business rather than a distinct financing mode, Shari'ah scholars allow some relaxation on exactly how and when price is fixed and paid, provided the arrangement does not involve Gharar (excessive uncertainty). However, if the master agreement is in fact structured through a specific mode such as Murabaha or Salam, that mode's own full conditions and Shari'ah essentials must still be fulfilled for every consignment - for Murabaha, this means a separate offer and acceptance is needed for each delivery, based on the client's requisition at that time." }
+      ],
       examples: [
         { title: "Bread Supplier to Retailer", body: "A supplier of bread may go on supplying bread to a retailer for a month at a known price, and take payment once, after the month - a typical Istijrar arrangement reflecting normal day-to-day wholesaler-retailer business.", generated: false }
       ],

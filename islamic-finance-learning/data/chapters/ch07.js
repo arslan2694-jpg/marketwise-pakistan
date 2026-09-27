@@ -46,6 +46,13 @@ window.IFL_DATA.chapters[7] = {
       ],
       principles: [],
       processSteps: [],
+      transactionSteps: [
+        { step: "Lender Hands Over Ownership", description: "The lender (Muqrid) gives a sum of money or a fungible commodity to the borrower (Muqtarid) 'by way of virtue' -- this is not a sale or a rental of the item's use, but a transfer of full ownership: the property is 'cut off' from the lender's ownership (the literal meaning of Qard) and passes entirely to the borrower." },
+        { step: "Borrower Uses the Item Freely", description: "Because ownership -- not just possession -- has transferred, the borrower may use, sell, or even donate the borrowed sum/commodity as he wishes. This is the key structural difference from 'Ariyah, where a commodity is lent for use only: there, the exact item itself remains a liability the borrower must return, and he cannot dispose of it as his own." },
+        { step: "Borrower Owes Only an Identical Replacement", description: "The borrower's obligation is to pay back 'the same or similar amount of that thing' -- no more, no less. He does not need to return the identical unit he received (unlike 'Ariyah), only a like-for-like replacement of the same quantity and kind, and the amount/value of the loan must be known without doubt." },
+        { step: "Repayment on Demand or at the Settled Time", description: "If the loan is a straightforward Qard, the lender may demand repayment at any time (per the Hanafi, Shafi'e and Hanbali view that Qard is among Duyun Halah); per the Maliki view, once a repayment time is settled (Qard-e-Muajjalah), the lender cannot demand earlier payment. If instead the loan is for a fixed term, it is termed Salaf rather than Qard." },
+        { step: "Any Voluntary Excess Must Not Be a Precondition", description: "The borrower may voluntarily repay more than the principal, or give a gift, as Husnal Qadha (gracious repayment) -- not by way of 'Ariyah or Hibah, but to recover it in the form in which it was given, per the Maliki school's characterization of Qard as a favour granted to the borrower alone. Such voluntary generosity, not stipulated as a condition of the loan, is not Riba; but a loan conditioned on receiving anything in excess, explicit or implicit, is unlawful Riba, and a Qard must not be made conditional upon any other contract, such as Bai' (sale)." }
+      ],
       examples: [
         { title: "The Prophet's 'Ariyah of camels and armor", body: "Preparing for Ghazwa-e-Hunain, the Prophet took camels and iron breast-plates as 'Ariyah from Safwan bin Umayyah, assuring full return; when some plates were found missing on return, Safwan (having since converted to Islam) waived the loss.", generated: false }
       ],
@@ -177,6 +184,29 @@ window.IFL_DATA.chapters[7] = {
       processSteps: [],
       examples: [
         { title: "Ibn Zubair's cross-border repayment convenience", body: "Ibn Zubair accepted sums from Makkah inhabitants to be repaid in Iraq through drafts drawn on his brother Mus'ab there -- an indirect, customary, costless convenience unopposed by Ibn Abbas and Ali, illustrating a permissible indirect benefit distinct from Riba.", generated: false }
+      ],
+      calculations: [
+        {
+          title: "Practice Example — generated for learning: Qard Hasan vs. an Interest-Bearing Loan of the Same Amount",
+          formula: "Qard Repayment = Principal only (no addition permitted as a condition); Conventional Loan Repayment = Principal + (Principal x Interest Rate x Time)",
+          inputs: [
+            { label: "Amount borrowed (principal)", value: "$10,000" },
+            { label: "Tenor", value: "12 months" },
+            { label: "Qard Hasan condition", value: "Borrower repays exactly the amount borrowed, no more and no less" },
+            { label: "Illustrative conventional interest rate (simple, p.a.)", value: "8%" }
+          ],
+          steps: [
+            "Under Qard Hasan, the lender gives $10,000 into the borrower's ownership 'by way of virtue' -- since it is a loan (Qard/Dayn), no value can be assigned to the 12 months the borrower holds the money once the amount is mutually stipulated: the borrower owes back exactly $10,000, because money is exchanged only in equal sums ($100 for $100, per the chapter's own illustration).",
+            "Qard Hasan repayment after 12 months = $10,000 (principal only) + $0 = $10,000.",
+            "Under a conventional interest-bearing loan of the same $10,000 at an illustrative 8% p.a. simple rate for 12 months, interest = $10,000 x 8% x 1 = $800.",
+            "Conventional loan repayment after 12 months = $10,000 + $800 = $10,800.",
+            "Difference between the two repayment amounts = $10,800 - $10,000 = $800 -- an amount 'drawn forth' by the lender purely for the passage of time, with the principal itself unchanged."
+          ],
+          result: "The Qard Hasan borrower repays exactly $10,000; the conventional borrower repays $10,800 for an identical $10,000 principal over the identical 12 months -- an $800 excess tied only to time.",
+          interpretation: "The chapter states plainly that 'a loan whereby anything in excess of the principal is exacted becomes unlawful, as it amounts to Riba' and that 'no value can be assigned to the time given for payment of a receivable once its amount is mutually stipulated' in a Qard or Dayn context, because time valuation is approved by the Shari'ah in business/trade but not in Qard or Dayn -- these being 'virtuous acts from which one cannot take any benefit.' The $800 in this example is exactly that kind of excess: a predetermined quantity, calculable at a predetermined rate, unrelated to any real-sector trade or risk-bearing, charged solely for time on a loan of money for money. That is why it is Riba and forbidden, while the identical $10,000-for-$10,000 Qard Hasan repayment is not, regardless of how long the 12 months' delay was.",
+          generated: true,
+          source: { chapter: 7, section: "7.7-7.8", pages: [160, 161] }
+        }
       ],
       commonConfusions: [
         "Students often assume that since credit prices can legitimately exceed cash prices in trade, a similar 'delay premium' should be allowed on a loan; the chapter is explicit this does NOT apply to Qard/Dayn -- time value of money is recognized only in genuine trade/business, not in loan/debt repayment.",
@@ -358,6 +388,13 @@ window.IFL_DATA.chapters[7] = {
       ],
       principles: [],
       processSteps: [],
+      transactionSteps: [
+        { step: "Original Debtor Owes a Debt", description: "A debtor owes a debt to a creditor -- the debt may have arisen from a loan (Qard/Dayn) or any other credit transaction. Under the ordinary rule, the debtor alone remains liable to that creditor." },
+        { step: "A Third Party Is Brought In as Assignee", description: "The debtor arranges for a third party (the assignee) to take over responsibility for the debt. In restricted Hawalah, the assignee is to pay from the debtor's own assets/property already in the assignee's possession; in unrestricted Hawalah, the assignee undertakes to pay from his own funds, with recourse back to the debtor only if he paid on the debtor's order." },
+        { step: "Assignment Is Contracted by Mutual Consent, Taking Immediate Effect", description: "Hawalah is valid when contracted by mutual consent between the debtor (assignor) and the assignee -- and, per the Prophet's recommendation to accept Hawalah to a trustworthy, wealthy debtor, the creditor is expected to agree. The assignment itself must take effect immediately: it cannot be suspended for a period, concluded temporarily, or made contingent on an unlikely future event, though the assignee's actual payment date can validly be deferred to a mutually specified date." },
+        { step: "The Assignee Becomes Solely Responsible, Discharging the Original Debtor", description: "Once Hawalah takes effect, the responsibility shifts: the original debtor is freed from the debt, and the assignee is now the party responsible for it -- this is what makes Hawalah a transfer of debt (replacing one debtor with another), distinct from a transfer of right (which would replace the creditor instead)." },
+        { step: "Creditor Collects from the New Party at the Debt's Original (Par) Value, with Recourse Preserved", description: "The creditor now looks to the assignee for payment, at the exact nominal/par value of the debt -- Hawalah is a noncommutative contract, so the assignee cannot take any remuneration for the service, and no discount or premium may attach to the amount assigned. Crucially, if the assignee fails to pay for any reason (or dies or becomes bankrupt), recourse reverts to the original debtor/assignor per the majority view, so the debt is never simply left unpaid. This preserved recourse is exactly what distinguishes permissible Hawalah from a prohibited 'sale of debt,' where the purchaser has no recourse to the seller and the transaction is voided by Gharar/Riba." }
+      ],
       examples: [
         { title: "Hawalah's role in bill-of-exchange history", body: "Together with al-Suftajah, Hawalah formed the basis of the bill of exchange in Islamic commercial law, and was carried to Europe via Spain and Sicily during the 12th-century Crusades.", generated: false }
       ],
@@ -411,6 +448,15 @@ window.IFL_DATA.chapters[7] = {
         "Creditor requests security (Kafalah suretyship and/or Rihn pledge) at loan/credit origination.",
         "If the debtor defaults and the debt matures unpaid, the pledgee applies to the court to have the pledged item sold.",
         "Proceeds from the sale are used to recover the debt; any excess is returned to the pledger."
+      ],
+      transactionSteps: [
+        { step: "Kafalah 1: Principal Debtor's Obligation Exists", description: "A principal debtor owes a debt, fine, or other liability to a creditor. The creditor, wanting recourse beyond the debtor alone, calls for a guarantee -- one of the bank's tools being letters of guarantee, post-dated cheques, promissory notes, frozen cash deposits, or a third-party guarantee." },
+        { step: "Kafalah 2: Guarantor Voluntarily Undertakes Suretyship", description: "A third party (the Kafil/guarantor) becomes surety for the debt, with the scope of the suretyship known and free of preconditions. This does not release the principal debtor -- both remain liable side by side, unless the guarantor separately agrees to remit the debt himself, in which case the effect becomes equivalent to Hawalah (transference of debt) rather than Kafalah." },
+        { step: "Kafalah 3: Creditor May Claim from Either Party", description: "The creditor has the right to demand payment from either the principal debtor or the surety. A guarantee is ineffective, however, over goods already held in trust by the principal debtor (e.g. items he holds under pledge or lease cannot be furnished as his guarantee), and a delay granted to the principal debtor extends to the surety too -- though a delay granted only to the surety does not extend to the principal debtor." },
+        { step: "Kafalah 4: Guarantor's Right of Recourse If He Pays", description: "If the debtor cannot pay and the surety is obliged to pay the creditor instead, the principal debtor is bound to reimburse the surety -- and if the debtor still cannot pay, the surety who paid on his behalf may himself become eligible to receive Zakat/charity as a Gharmeen (one obliged to pay another's debt)." },
+        { step: "Rihn 1: Debtor Hands Over Property as Pledge", description: "Separately (or in combination), the debtor hands over property he owns -- whatever is a valid subject of sale, including a share in jointly-owned property -- as a Rihn (pledge), which the creditor (pledgee) then holds as a trust, encumbered only to the extent of the debt." },
+        { step: "Rihn 2: Pledger Retains Risk and Reward Throughout", description: "Ownership of the pledged property, and with it its risk and reward (Ghunm/Ghurm), stays with the pledger throughout -- per the Hadith 'pledge cannot be foreclosed, and it is from the pledger and for him is its Ghunm and upon him is its Ghurm.' If the pledge is lost or destroyed without the pledgee's proven negligence, the loss falls on the pledger, not the trustee-pledgee, who can still recover the amount lent from him." },
+        { step: "Rihn 3: On Default, Forfeiture Is Barred -- Only a Court Sale Can Recover the Debt", description: "'Pledge cannot be foreclosed' means the pledgee may never simply appropriate the pledged item for himself on default -- a contract provision to that effect is invalid. Instead, once the debt matures unpaid, the pledgee must apply to the court to have the pledged item sold (creditors may hold an irrevocable power of attorney to streamline this), with the proceeds used to recover the debt and any excess returned to the pledger." }
       ],
       examples: [
         { title: "The Prophet's pledge to a Jewish creditor", body: "The Prophet borrowed from a Jew against the security of an iron breastplate, which was still with the creditor at the time of the Prophet's demise -- illustrating the permissibility of pledges even in a cross-faith transaction.", generated: false },
