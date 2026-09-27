@@ -417,5 +417,154 @@ window.IFL_DATA.productsMatrix = [
     ],
     "distinguishingFeature": "Unlike conventional insurance's premium-for-indemnity risk transfer, Takaful is built on mutual donation (Tabarru') among participants, with the underwriting surplus belonging to the participant pool rather than the operator/shareholders.",
     "source": { "chapter": 16, "section": "16.1-16.4", "pages": [417, 426] }
+  },
+  {
+    "id": "qard-hasan",
+    "name": "Qard Hasan",
+    "category": "Loan-based (Qard)",
+    "chapter": 7,
+    "href": "#/chapter/7",
+    "shariahBasis": "Qard is a virtuous, interest-free loan sanctioned by the Qur'an and Sunnah: legally, giving something of value into another's ownership by way of virtue, repayable in a similar amount, with any stipulated excess over the principal constituting Riba.",
+    "subjectMatter": "Cash or another valuable, fungible item advanced to a borrower for his own benefit -- most commonly cash placed in a current/Qard-based deposit account or lent for a genuine social or microfinance need.",
+    "ownershipRiskTiming": "Ownership of the loaned item transfers fully to the borrower immediately on disbursement, who may use, sell, or donate it as he wishes; only a similar amount/value need be returned, on demand (Qard) or at a settled time.",
+    "returnType": "None (interest-free)",
+    "returnTypeDetail": "No return over the principal may be stipulated or expected at all -- the lender cannot benefit from the loan, and even accepting an unstipulated post-loan gift from the borrower is restricted unless such gift-giving already predated and was customary between them.",
+    "typicalTenor": "Classically repayable on demand at any time since Qard is defined by the amount rather than a fixed term; can also be settled at a mutually agreed date without any extra value attaching to the delay.",
+    "liquidityTradability": "Not a tradable instrument -- it is a debt (Dayn) owed at exactly its face value, which cannot be sold at a discount or carry any time-value premium.",
+    "commonUse": "Bank current accounts (deposits the book treats as interest-free loans to the bank) and benevolent/social lending such as microfinance and hardship loans.",
+    "keyConditions": [
+      "Any condition attaching a benefit or increase to the loan -- whether in quantity or quality -- makes it void as Riba.",
+      "The loan must not be made conditional upon any other contract, such as a sale (Bai').",
+      "Repayment is due on demand under Qard, since the amount rather than a fixed term defines it; a similar (not necessarily identical) amount/value must be returned.",
+      "A creditor may not accept even a gift from the borrower after the loan unless such gift-exchange predates and was already customary between them.",
+      "No value can be assigned to the time given for repayment -- once the amount is mutually fixed, exactly that amount is owed regardless of delay."
+    ],
+    "majorRisks": [
+      "Full credit/default risk borne by the lender, since no collateral or return compensates for the risk taken.",
+      "No compensation for inflation or delay -- the lender recovers only the nominal amount lent, even after a long deferral.",
+      "Moral-hazard/wilful-default risk on the borrowing side, since repayment relies on the debtor's diligence and on religious injunctions against delay that carry no direct commercial enforcement.",
+      "Opportunity-cost risk for a bank funding Qard Hasan facilities or covering a shortfall (e.g. a Takaful fund deficit), since the committed funds earn no return."
+    ],
+    "distinguishingFeature": "Unlike every other product in this matrix, Qard Hasan carries zero markup, rent, or profit share by definition -- the lender may recover only the exact principal (or its equivalent value), making it the sole genuinely benevolent, non-commercial mode.",
+    "source": { "chapter": 7, "section": "7.2, 7.7", "pages": [155, 161] }
+  },
+  {
+    "id": "kafalah",
+    "name": "Kafalah",
+    "category": "Guarantee-based",
+    "chapter": 7,
+    "href": "#/chapter/7",
+    "shariahBasis": "A pre-Islamic guarantee practice approved by the Prophet, in which a third party voluntarily becomes surety (Kafil) for a debt or liability unpaid by the person originally responsible, provided the scope of the suretyship is known and free of preconditions.",
+    "subjectMatter": "A guarantee of payment or performance -- a third party's (the Kafil's) promise to pay a debt, fine, or other liability, or to ensure a person's court appearance, if the original obligor defaults.",
+    "ownershipRiskTiming": "No asset ownership changes hands; the surety's liability arises only if and when the original debtor fails to pay, at which point the creditor may claim from either the debtor or the surety.",
+    "returnType": "Fee-based",
+    "returnTypeDetail": "Classically Kafalah is a gratuitous, non-commutative undertaking, but banks issuing letters of guarantee in trade finance charge a service/commission fee for the facility rather than for the guarantee liability itself.",
+    "typicalTenor": "Runs for the life of the underlying obligation it secures, ending once that debt is discharged or the guaranteed liability lapses; any delay granted to the principal debtor extends automatically to the surety.",
+    "liquidityTradability": "Not a tradable instrument -- Kafalah creates a personal, non-assignable surety obligation rather than a claim that can be sold or transferred.",
+    "commonUse": "Bank guarantees and letters of guarantee supporting trade finance and contract performance, alongside tools like third-party guarantees, Hamish Jiddiyah, and post-dated cheques used to secure a bank's financing exposure.",
+    "keyConditions": [
+      "The scope/degree of the suretyship must be known and must not come with preconditions.",
+      "A surety agreement becomes enforceable once offered and accepted by the claimant/creditor.",
+      "Multiple simultaneous (joint) sureties for one obligation each bear only their own share, but successive sureties, one after another, are each liable for the whole debt.",
+      "If the guarantor undertakes to remit the principal debtor's debt himself, the effect becomes equivalent to Hawalah (transfer of debt).",
+      "A delay granted to the principal debtor extends automatically to the surety, but a delay given only to the surety does not extend to the principal debtor."
+    ],
+    "majorRisks": [
+      "Full contingent credit risk for the surety/bank if the principal debtor defaults and the guarantee is called.",
+      "Shari'ah-compliance risk if a fee is structured so as to effectively price the guarantee liability itself rather than a genuine service.",
+      "Recourse/recovery risk against the original debtor once the surety has paid the creditor.",
+      "Documentation risk, since the suretyship's scope must be clearly defined or the guarantee can be disputed as invalid."
+    ],
+    "distinguishingFeature": "Unlike Rahn, which secures a debt with a pledged asset, Kafalah secures it with a third party's personal promise to pay -- no property changes hands unless and until the guarantee is actually called.",
+    "source": { "chapter": 7, "section": "7.15", "pages": [168, 170] }
+  },
+  {
+    "id": "hawalah",
+    "name": "Hawalah",
+    "category": "Debt-Transfer",
+    "chapter": 7,
+    "href": "#/chapter/7",
+    "shariahBasis": "Hawalah is an agreement by which a debtor is freed from his debt by another party becoming responsible for it, encouraged by the Prophet's own guidance to accept transfer to a trustworthy, wealthy debtor, and permissible -- unlike an outright sale of debt -- because it preserves recourse to the original debtor.",
+    "subjectMatter": "An existing monetary debt (Dayn), transferred from the original debtor (assignor) to a new debtor (assignee) who undertakes to pay the creditor.",
+    "ownershipRiskTiming": "Responsibility for the debt shifts to the assignee immediately once Hawalah is contracted -- it must take effect at once and cannot be suspended or made contingent -- though the obligation reverts to the original assignor if the new debtor later becomes bankrupt or dies.",
+    "returnType": "Fee-based",
+    "returnTypeDetail": "Hawalah itself is a noncommutative contract -- the assignee cannot take remuneration for the transfer service -- though banks providing remittance/transfer facilities built on Hawalah charge a separate service fee for the operational service.",
+    "typicalTenor": "Takes effect immediately upon the contract, though the actual payment date of the transferred debt can be deferred to a mutually agreed future date.",
+    "liquidityTradability": "Assignable only at the debt's nominal (face) value with recourse preserved to the original debtor -- this is what distinguishes it from a prohibited discounted sale of debt, which carries no such recourse.",
+    "commonUse": "Modern bank instruments the book identifies as forms of Hawalah -- cheques, drafts, pay orders, remittances, promissory notes, bills of exchange, overdrafts, and endorsements -- used for fund transfers and receivables assignment.",
+    "keyConditions": [
+      "Hawalah must take effect immediately; it cannot be suspended for a period, made temporary, or contingent on a future unlikely event.",
+      "It is valid only by mutual consent between the assignor (original debtor) and the assignee (new debtor).",
+      "The assignee cannot take any remuneration for the transfer, since Hawalah is a noncommutative contract.",
+      "It is a binding contract once concluded and is not subject to unilateral termination.",
+      "Assignment is permitted only at the debt's nominal value -- discounting the transferred amount would make it a prohibited sale of debt."
+    ],
+    "majorRisks": [
+      "Assignee (new debtor) credit/default risk, which the original assignor may still bear via recourse.",
+      "Reversion risk -- if the assignee becomes bankrupt or dies, the obligation to pay can revert to the original assignor.",
+      "Shari'ah-compliance risk if the arrangement drops the recourse feature, effectively becoming a prohibited discounted sale of debt.",
+      "Operational/settlement risk in high-volume instruments (cheques, remittances) built on the Hawalah structure."
+    ],
+    "distinguishingFeature": "Unlike the prohibited sale of debt (a discounted Bai' al-Dayn with no recourse), Hawalah is permitted specifically because it transfers the debt at par value while preserving the creditor's recourse to the original debtor if the new debtor defaults.",
+    "source": { "chapter": 7, "section": "7.14", "pages": [167, 168] }
+  },
+  {
+    "id": "rahn",
+    "name": "Rahn",
+    "category": "Collateral-based",
+    "chapter": 7,
+    "href": "#/chapter/7",
+    "shariahBasis": "Sanctioned directly by the Qur'an (2:283, \"Rihn Maqbudah\" -- a pledge with possession), permissible whether travelling or at home and even between a Muslim and non-Muslim; the debtor hands over property as security while the creditor holds it strictly as a trust, not as owner.",
+    "subjectMatter": "Any asset that is a valid subject of sale -- including a share in jointly owned property -- pledged by the debtor (pledger) to the creditor (pledgee) as collateral, encumbered only to the extent of the debt.",
+    "ownershipRiskTiming": "Ownership, risk, and reward (Ghunm/Ghurm) of the pledged property remain with the pledger throughout; the pledgee only holds possession as a trustee and is not liable if the pledge is lost or destroyed without proven negligence.",
+    "returnType": "Fee-based",
+    "returnTypeDetail": "Rahn itself creates no return for the pledgee, but jurists differ on whether the pledgee may derive some benefit from the pledged asset (e.g. use, or a maintenance-linked charge) while holding it, generally capped at the level of upkeep expenditure.",
+    "typicalTenor": "Runs alongside the underlying debt it secures, ending when the debt is repaid (releasing the pledge) or, on default, when the pledgee obtains a court-sanctioned sale of the pledged item to recover the debt.",
+    "liquidityTradability": "The pledge itself is not a tradable claim -- \"pledge cannot be foreclosed\", meaning the pledgee may never simply appropriate or sell it outright on default but must proceed through the courts (or a pre-agreed power of attorney) to realize it.",
+    "commonUse": "Collateralized and pawn-based Islamic microfinance, and as a general security device banks combine with other guarantee tools to secure financing exposure.",
+    "keyConditions": [
+      "Whatever is a valid subject of a sale can be pledged, encumbered only to the extent of the debt it secures.",
+      "The pledger retains ownership and bears the pledge's risk and reward (Ghunm/Ghurm) throughout.",
+      "The pledgee holds the pledge as a trust and is not liable for loss absent proven negligence.",
+      "A provision letting the pledgee simply take over the pledged item in place of the debt on default is not valid -- \"pledge cannot be foreclosed\".",
+      "Any pledgee benefit from the asset is disputed among the schools and, where allowed, should correspond to maintenance cost rather than be stipulated as extra return."
+    ],
+    "majorRisks": [
+      "Valuation and market risk on the pledged asset, since recovery depends on the item's sale value on default.",
+      "Enforcement/liquidity risk, since the pledgee cannot simply seize the item and must pursue a court-sanctioned sale process.",
+      "Shari'ah-compliance risk if pledgee benefit from the asset is stipulated as a condition at contract time in a way that amounts to Riba.",
+      "Custodial risk for the pledgee as trustee of the pledged property until the debt is settled."
+    ],
+    "distinguishingFeature": "Unlike Kafalah's personal third-party guarantee, Rahn secures a debt with a specific pledged asset that the debtor himself continues to own and bear the risk/reward of, while the creditor merely holds it in trust.",
+    "source": { "chapter": 7, "section": "7.15", "pages": [168, 172] }
+  },
+  {
+    "id": "bai-al-istijrar",
+    "name": "Bai' al Istijrar",
+    "category": "Trade-based (Sale)",
+    "chapter": 13,
+    "href": "#/chapter/13",
+    "shariahBasis": "Not a distinct Shari'ah mode but an ordinary repeat sale/purchase arrangement, permitted with some scholarly relaxation on price fixation and payment timing because it reflects normal, everyday wholesaler-retailer business, provided the arrangement involves no Gharar.",
+    "subjectMatter": "A commodity or product a supplier agrees to deliver to a buyer repeatedly, in various amounts or a series of consignments, under one master supply agreement rather than a fresh contract each time.",
+    "ownershipRiskTiming": "Ownership and risk of each consignment pass to the buyer on that delivery, exactly as in an ordinary cash or credit sale; where the arrangement is structured through a specific mode like Murabaha, that mode's own ownership/possession requirements apply to each consignment.",
+    "returnType": "Fixed",
+    "returnTypeDetail": "Price may be fixed in advance for the whole arrangement, per consignment, or settled after all consignments are delivered, with payment typically collected periodically (e.g. monthly) rather than transaction by transaction.",
+    "typicalTenor": "Ongoing/recurring for as long as the master supply agreement runs, structured around regular (e.g. monthly) delivery and payment cycles rather than a single one-off transaction.",
+    "liquidityTradability": "Creates the same receivables/debts as whichever underlying sale structure is used (cash or credit); any deferred-payment balance follows ordinary Dayn rules and cannot be traded at a discount.",
+    "commonUse": "Ongoing supply financing between wholesalers and retailers, or banks and clients needing recurring commodity deliveries -- the book's example is a bread supplier delivering daily to a retailer and collecting payment once a month.",
+    "keyConditions": [
+      "The arrangement must not involve Gharar to qualify for the relaxed treatment scholars allow on price fixation and payment timing.",
+      "Price can be fixed in advance for the whole series, with each individual consignment, or after all consignments are delivered.",
+      "If a specific mode such as Murabaha is used to structure the supply, that mode's full Shari'ah conditions must still be met for every single consignment.",
+      "Under a Murabaha-based Istijrar, a separate offer and acceptance is required for each consignment, based on the client's requisition each time."
+    ],
+    "majorRisks": [
+      "Shari'ah-compliance risk if the relaxed price/payment flexibility is used to disguise Gharar in an otherwise ordinary sale.",
+      "Price risk over the life of a long master agreement if a price fixed once in advance diverges from later market prices.",
+      "Supplier/delivery risk across a long series of consignments if any single delivery falls short of the agreed specification.",
+      "Documentation risk if the underlying specific mode's per-consignment requirements (e.g. Murabaha's offer/acceptance) are not properly executed each time."
+    ],
+    "distinguishingFeature": "Unlike an ordinary Murabaha or Musawamah negotiated afresh for each transaction, Bai' al Istijrar fixes price/terms once under a master agreement covering a whole series of repeat deliveries -- though any specific mode layered on top (e.g. Murabaha) must still satisfy its own conditions per consignment.",
+    "source": { "chapter": 13, "section": "13.5", "pages": [355] }
   }
 ];
