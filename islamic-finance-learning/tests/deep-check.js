@@ -108,10 +108,16 @@ async function main() {
     var sukukResult = await page.textContent("#calc-result, .calc-result").catch(function () { return null; });
     checks.push({ check: "Sukuk return calculator renders a result", value: !!(sukukResult && sukukResult.length > 5) });
 
+    await go("/calculators/qard-hasan-comparison");
+    await page.fill("#qh-rate", "10");
+    await page.waitForTimeout(150);
+    var qhResult = await page.textContent(".calc-result").catch(function () { return null; });
+    checks.push({ check: "Qard Hasan calculator live-recalculates on rate change", value: !!(qhResult && qhResult.length > 5) });
+
     // Products at a Glance matrix
     await go("/products");
     var productRows = await page.$$eval("#pm-tbody tr[data-toggle]", function (els) { return els.length; }).catch(function () { return -1; });
-    checks.push({ check: "Products at a Glance lists all products", value: productRows });
+    checks.push({ check: "Products at a Glance lists all 19 products", value: productRows });
     var firstProductRow = await page.$("#pm-tbody tr[data-toggle]");
     if (firstProductRow) {
       await firstProductRow.click();
@@ -132,6 +138,20 @@ async function main() {
     var hubTitle = await page.textContent("h1").catch(function () { return null; });
     var topicCount = await page.$$eval(".card-clickable[data-nav*='/topic/']", function (els) { return els.length; }).catch(function () { return 0; });
     checks.push({ check: "Concept Hub (Riba) loads with cross-referenced topics", value: hubTitle, topicsFound: topicCount });
+
+    // Concept Hub cross-referencing a Products Matrix profile
+    await go("/concept/murabaha");
+    var hasProductProfile = await page.isVisible("text=Product Profile: Murabaha").catch(function () { return false; });
+    checks.push({ check: "Concept Hub (Murabaha) shows cross-referenced Product Profile card", value: hasProductProfile });
+
+    // New Ch7 accessory-contract transaction diagrams
+    await go("/chapter/7/topic/ch7-t8");
+    var hawalahSteps = await page.$$eval(".tx-node", function (els) { return els.length; }).catch(function () { return -1; });
+    checks.push({ check: "Hawalah (ch7-t8) transaction flowchart renders", value: hawalahSteps });
+
+    await go("/chapter/7/topic/ch7-t9");
+    var kafalahRahnSteps = await page.$$eval(".tx-node", function (els) { return els.length; }).catch(function () { return -1; });
+    checks.push({ check: "Kafalah/Rahn (ch7-t9) transaction flowchart renders", value: kafalahRahnSteps });
 
     // Case study reveal
     await go("/case-studies");

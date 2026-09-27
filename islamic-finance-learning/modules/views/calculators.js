@@ -28,7 +28,8 @@
     { id: "murabaha-pricing", title: "Murabaha / Musawamah Pricing", blurb: "Cost-plus pricing mechanics — compute sale price, profit, or implied cost (Chapter 9).", icon: "🧾" },
     { id: "salam-discount", title: "Salam Price Discount", blurb: "Why a Salam price is discounted below expected future spot price — and what effective return that discount implies (Chapter 10).", icon: "🌾" },
     { id: "musharakah-split", title: "Musharakah Profit & Loss Split", blurb: "See the book's core rule enforced live: profit follows the agreed ratio, loss always follows capital (Chapter 12).", icon: "🤝" },
-    { id: "sukuk-return", title: "Sukuk Periodic Distribution", blurb: "Compute a Sukuk's periodic distribution, total distributions, and full cash flow including redemption (Chapter 15).", icon: "📜" }
+    { id: "sukuk-return", title: "Sukuk Periodic Distribution", blurb: "Compute a Sukuk's periodic distribution, total distributions, and full cash flow including redemption (Chapter 15).", icon: "📜" },
+    { id: "qard-hasan-comparison", title: "Qard Hasan vs. Interest-Bearing Loan", blurb: "See exactly why the book calls any required excess over principal Riba — compare a benevolent loan against an equivalent interest loan (Chapter 7).", icon: "🤲" }
   ];
 
   function picker() {
@@ -293,10 +294,45 @@
     recalc();
   }
 
+  // ---- Tool 6: Qard Hasan vs Interest-Bearing Loan ----
+  function qardHasanComparison() {
+    var root = IFLRouter.outlet();
+    root.innerHTML =
+      '<nav class="text-sm text-muted mb-3"><a data-nav="#/calculators">Calculators</a> › Qard Hasan vs. Interest-Bearing Loan</nav>' +
+      '<h1>🤲 Qard Hasan vs. Interest-Bearing Loan</h1>' +
+      '<p class="text-secondary">Per §7.7-7.8, a loan (Qard) is a "gratuitous, cooperative" contract: the borrower owes back only an exact replacement of what was borrowed — the same sum, no more, no less — because money has no intrinsic time value that can lawfully be charged for. Any REQUIRED excess over principal is Riba, however small, however it is labeled.</p>' +
+      '<div class="calc-block mb-4">' +
+        '<div class="calc-formula">Qard Hasan repayment = Principal (always) &nbsp;|&nbsp; Interest loan repayment = Principal × (1 + Rate × Months ÷ 12)</div>' +
+        '<div class="grid-2 mb-3">' +
+          '<div><label>Amount borrowed</label><input type="number" id="qh-principal" value="10000"></div>' +
+          '<div><label>Loan term (months)</label><input type="number" id="qh-months" value="12"></div>' +
+        '</div>' +
+        '<div><label>Comparable conventional interest rate (% p.a., simple)</label><input type="number" id="qh-rate" value="8" step="0.1" class="mb-3"></div>' +
+        '<div id="qh-result"></div>' +
+      '</div>';
+    function recalc() {
+      var principal = num("qh-principal"), months = num("qh-months") || 0, rate = num("qh-rate");
+      var qardRepayment = principal;
+      var interestRepayment = principal * (1 + (rate / 100) * (months / 12));
+      var ribaAmount = interestRepayment - qardRepayment;
+      var html = '<ol class="calc-steps mb-2">' +
+        '<li>Qard Hasan: borrower owes back exactly what was borrowed = <strong>' + fmtMoney(qardRepayment) + '</strong>, regardless of how long the ' + months + ' months take</li>' +
+        '<li>Conventional loan: ' + fmtMoney(principal) + ' × (1 + ' + fmtPct(rate) + ' × ' + months + '/12) = <strong>' + fmtMoney(interestRepayment) + '</strong></li>' +
+        '<li>The difference — ' + fmtMoney(interestRepayment) + ' − ' + fmtMoney(qardRepayment) + ' = <strong>' + fmtMoney(ribaAmount) + '</strong> — is exactly the Riba the book prohibits: a REQUIRED excess charged purely for the passage of time.</li>' +
+      '</ol>' +
+      '<div class="calc-result">Qard Hasan costs the borrower <strong>' + fmtMoney(qardRepayment) + '</strong> in total. An equivalent interest loan would cost <strong>' + fmtMoney(interestRepayment) + '</strong> — a required excess of <strong>' + fmtMoney(ribaAmount) + '</strong>.</div>' +
+      '<p class="text-sm text-secondary mt-2">This is a Practice Example generated for learning — the dollar figures and interest rate are illustrative, not quoted from the book. The underlying rule is not: §7.7 states repayment is of principal only, and §7.8 explains why the "time value of money" argument used to justify interest does not apply to a Qard — the delay itself does not entitle the lender to compensation, because a loan is a benevolence (Tabarru\') contract, not a sale of the use of money. A VOLUNTARY, unstipulated excess the borrower chooses to add back (Husnal Qadha, §7.11) is praiseworthy and NOT Riba — only a required one is.</p>';
+      document.getElementById("qh-result").innerHTML = html;
+    }
+    IFLDom.qsa("#qh-principal, #qh-months, #qh-rate", root).forEach(function (i) { i.addEventListener("input", recalc); });
+    recalc();
+  }
+
   IFLRouter.register("/calculators", picker);
   IFLRouter.register("/calculators/deposit-pool", depositPool);
   IFLRouter.register("/calculators/murabaha-pricing", murabahaPricing);
   IFLRouter.register("/calculators/musharakah-split", musharakahSplit);
   IFLRouter.register("/calculators/salam-discount", salamDiscount);
   IFLRouter.register("/calculators/sukuk-return", sukukReturn);
+  IFLRouter.register("/calculators/qard-hasan-comparison", qardHasanComparison);
 })();
