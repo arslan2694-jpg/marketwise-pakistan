@@ -43,8 +43,9 @@
     var questions = IFLData.allQuestions().filter(function (q) { return mentions(q.topic, name) || mentions(q.prompt, name); }).slice(0, 10);
     var comparisons = IFLData.comparisons().filter(function (c) { return mentions(c.title, name) || mentions(c.itemALabel, name) || mentions(c.itemBLabel, name); });
     var caseStudies = IFLData.caseStudies().filter(function (c) { return mentions(c.concept, name) || mentions(c.title, name); });
+    var products = (IFLData.productsMatrix ? IFLData.productsMatrix() : []).filter(function (p) { return mentions(p.name, name) || mentions(name, p.name); });
 
-    return { name: name, glossaryTerms: glossaryTerms, topics: topics, flashcards: flashcards, questions: questions, comparisons: comparisons, caseStudies: caseStudies };
+    return { name: name, glossaryTerms: glossaryTerms, topics: topics, flashcards: flashcards, questions: questions, comparisons: comparisons, caseStudies: caseStudies, products: products };
   }
 
   function render(params) {
@@ -69,6 +70,15 @@
         '<div class="card mb-4"><h3>Definition</h3>' + data.glossaryTerms.map(function (g) {
           return '<div class="mb-2"><strong>' + esc(g.term) + '</strong><p class="text-sm mb-0">' + esc(g.definition) + '</p></div>';
         }).join("") + '</div>' : "") +
+
+      (data.products.length ? data.products.map(function (p) {
+        return '<div class="card mb-4">' +
+          '<div class="section-header mb-2"><h3 class="mb-0">Product Profile: ' + esc(p.name) + '</h3><span class="pill pill-brand">' + esc(p.category) + '</span></div>' +
+          '<div class="mb-2"><strong>Shari\'ah basis:</strong> ' + fmt(p.shariahBasis) + '</div>' +
+          '<div class="mb-2"><strong>Distinguishes it most:</strong> ' + fmt(p.distinguishingFeature) + '</div>' +
+          '<button class="btn btn-outline btn-sm" data-nav="#/products?p=' + esc(p.id) + '">View full profile in Products at a Glance →</button>' +
+        '</div>';
+      }).join("") : "") +
 
       '<div class="card mb-4">' +
         '<div class="section-header mb-2"><h3 class="mb-0">Where This Appears (' + data.topics.length + ')</h3></div>' +
