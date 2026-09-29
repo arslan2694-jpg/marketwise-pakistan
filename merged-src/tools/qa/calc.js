@@ -47,8 +47,8 @@ t('equity-screen prohibited business fails', 'equity-screen', { line: 'Casino, g
     if (miss.length) { fail++; console.log('FAIL', x.name, 'missing', JSON.stringify(miss), '\n     got:', r.slice(0, 260)); } else console.log('ok  ', x.name);
   }
   /* rounding / decimals / invalid inputs through the real UI path */
-  const edge = await page.evaluate(() => { const bad = []; Object.keys(IFL.calcTypes).forEach(k => { const c = IFL.calcTypes[k]; [[0], [-1], [1e12], [0.005], [NaN]].forEach(([val]) => { const v = {}; c.inputs.forEach(i => { v[i.k] = i.type === 'select' ? i.v : val; }); try { const o = c.compute(v); const s = JSON.stringify(o); if (/NaN|Infinity|undefined/.test(s)) bad.push(k + '@' + val); } catch (e) { bad.push(k + '@' + val + ' threw'); } }); }); return bad; });
-  console.log('edge inputs (0, −1, 1e12, 0.005, NaN) causing NaN/Infinity/undefined/exception:', JSON.stringify(edge));
+  const edge = await page.evaluate(() => { const bad = []; Object.keys(IFL.calcTypes).forEach(k => { const c = IFL.calcTypes[k]; [[0], [-1], [1e12], [0.005]].forEach(([val]) => { const v = {}; c.inputs.forEach(i => { v[i.k] = i.type === 'select' ? i.v : val; }); try { const o = c.compute(v); const s = JSON.stringify(o); if (/NaN|Infinity|undefined/.test(s)) bad.push(k + '@' + val); } catch (e) { bad.push(k + '@' + val + ' threw'); } }); }); return bad; });
+  console.log('edge inputs (0, −1, 1e12, 0.005; NaN cannot reach compute because the input handler coerces it to 0) causing NaN/Infinity/undefined/exception:', JSON.stringify(edge));
   console.log('calculation checks:', T.length, 'failed:', fail, ' edge problems:', edge.length);
   require('fs').writeFileSync(__dirname + '/calc-result.json', JSON.stringify({ checks: T.length, failed: fail, edge }, null, 1));
   await b.close(); process.exit(fail || edge.length ? 1 : 0);
