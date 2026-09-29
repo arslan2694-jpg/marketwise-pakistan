@@ -42,13 +42,15 @@ function secTokens(sec) {           // "8.2-8.3" -> {lo:'8.2',hi:'8.3'} ; "17.4.
 }
 
 /* ---------------------------------------------------------------- main */
+function S1diagrams(D1) { return D1.sets.diagrams; }
 function mergeData(opts) {
   const A1 = loadApp1(opts.app1), A2 = loadApp2(opts.app2);
   const D1 = A1.D, D2 = A2.D;
   const audit = { generatedBy: 'merge-tools/merge-data.js', files: {}, categories: {}, consolidations: [], mapping: {}, collisions: [], notes: [] };
-  audit.files.app1 = { path: path.basename(opts.app1), bytes: A1.bytes, scripts: A1.scriptCount, dataScripts: A1.dataScripts };
+  const clean = n => n.replace(/^[0-9a-f]{8}-/, '').replace(/_1\.html$/, ' (1).html');
+  audit.files.app1 = { path: clean(path.basename(opts.app1)), bytes: A1.bytes, scripts: A1.scriptCount, dataScripts: A1.dataScripts };
   { const r1 = new Set((A1.html.match(/IFL\.route\('([^']+)'/g) || [])), r2 = new Set((A2.html.match(/IFLRouter\.register\("([^"]+)"/g) || [])); audit.routes = { app1: r1.size, app2: r2.size }; }
-  audit.files.app2 = { path: path.basename(opts.app2), bytes: A2.bytes, scripts: A2.scriptCount, dataScripts: A2.dataScripts };
+  audit.files.app2 = { path: clean(path.basename(opts.app2)), bytes: A2.bytes, scripts: A2.scriptCount, dataScripts: A2.dataScripts };
 
   /* ============================================================ CHAPTERS + TOPIC CANONICALISATION */
   const chapters = {};
@@ -210,7 +212,7 @@ function mergeData(opts) {
   D2.glossary.forEach(g => {
     const k = termKey(g.term), e = gIndex[k];
     if (e) {
-      gStats.mergedWithApp1++;
+      gStats.mergedWithApp1++; audit.consolidations.push({ type: 'glossary (app 2 into app 1)', canonical: e.term, merged: g.term, spellingsDiffer: g.term !== e.term, definitionsDiffer: norm(g.definition) !== norm(e.def) });
       if (g.term !== e.term && (e.alts || []).indexOf(g.term) < 0) (e.alts = e.alts || []).push(g.term);
       if (norm(g.definition) !== norm(e.def) && !(e.moreDefs || []).some(m => norm(m.def) === norm(g.definition))) { (e.defs2 = e.defs2 || []).push({ term: g.term, def: g.definition, pages: g.pages || [] }); gStats.app2DefinitionsDiffering++; }
       e.pages2 = uniq((e.pages2 || []).concat(g.pages || [])); e.chapter = e.chapter || g.chapter; if (g.relatedTerms && g.relatedTerms.length) e.related = uniq((e.related || []).concat(g.relatedTerms)); if (e.origin.indexOf('app2') < 0) e.origin.push('app2');
@@ -221,6 +223,10 @@ function mergeData(opts) {
     }
   });
   audit.categories.glossary = gStats;
+  /* number of records the Glossary page shows: the merged glossary + every term defined inside chapters / companion notes */
+  { const keys = new Set(glossary.map(g => termKey(g.term)));
+    Object.values(chapters).forEach(c => c.topics.forEach(t => { const defs = (t.definitions || []).concat((t.companions || []).flatMap(x => x.definitions || [])); defs.forEach(d => d.term.split(/\s*\/\s*/).forEach((part, i) => keys.add(termKey(i === 0 ? d.term : part)))); }));
+    gStats.glossaryPageRecords = keys.size; gStats.mergedGlossaryEntries = glossary.length; }
   const acronyms = D2.acronyms.map(a => ({ id: 'ac-' + norm(a.acronym).replace(/ /g, '-'), acronym: a.acronym, expansion: a.expansion, origin: 'app2' }));
   { const seen = {}; acronyms.forEach(a => { if (seen[a.id]) { a.id += '-' + (++seen[a.id]); } else seen[a.id] = 1; }); }
 
@@ -262,6 +268,7 @@ function mergeData(opts) {
   concepts.forEach(c => { graphNodes.push({ id: c.id, label: c.name, group: c.group, concept: c.id, origin: 'app1' }); gnMap[c.id] = c.id; });
   const gNew = [];
   D2.conceptMap.nodes.forEach(n => {
+    if (G2F1[n.id] || SPINE_ALIAS[n.id]) audit.consolidations.push({ type: 'concept-map node', app2Id: n.id, canonical: G2F1[n.id] || SPINE_ALIAS[n.id], sameId: n.id === G2F1[n.id] });
     if (G2F1[n.id]) { if (!conceptIds.has(G2F1[n.id])) throw new Error('bad concept alias ' + n.id); gnMap[n.id] = G2F1[n.id]; (graphNodes.find(g => g.id === G2F1[n.id]).app2Ids = graphNodes.find(g => g.id === G2F1[n.id]).app2Ids || []).push(n.id); return; }
     if (SPINE_ALIAS[n.id]) { gnMap[n.id] = SPINE_ALIAS[n.id]; return; }
     const id = 'g-' + n.id; gnMap[n.id] = id;
@@ -355,7 +362,8 @@ function mergeData(opts) {
 
   const data = { chapters, sets: { glossary, acronyms, concepts, conceptGraph, diagrams: clone(D1.sets.diagrams), comparisons: cmp, cases, modeFinder, decisionTree, studyPlans: plans, bookIndex }, courseIndex,
     aliases: { topics: topicAliasMap, conceptGraphIds: gnMap, comparisonLabs: labs.map(l => [l.aliases[0], l.id]), caseIds: {}, studyMode: { '45': 'crash45', '90': 'revision90', '180': 'deep180-chapters' } },
-    meta: { built: new Date().toISOString(), sources: audit.files } };
+    meta: { sources: { app1: audit.files.app1.path, app2: audit.files.app2.path }, expected: { chapters: 18, topics: allTopics.length, companionNotes: companions.length, questions: Object.values(chapters).reduce((a, c) => a + c.questions.length, 0), flashcards: Object.values(chapters).reduce((a, c) => a + c.flashcards.length, 0),
+      examItems: Object.values(chapters).reduce((a, c) => a + c.exam.length, 0), glossaryEntries: glossary.length, glossaryPageRecords: gStats.glossaryPageRecords, acronyms: acronyms.length, cases: cases.length, comparisons: cmp.pairs.length, concepts: concepts.length, conceptMapNodes: graphNodes.length, conceptMapEdges: graphEdges.length, diagrams: S1diagrams(D1).length } } };
   return { data, audit, companions };
 }
 module.exports = { mergeData, norm, termKey };

@@ -18,6 +18,7 @@ let lint = { name: 'Static checks (node --check + ESLint no-undef/no-redeclare/â
 const eslint = spawnSync(process.env.ESLINT || 'eslint', ['-c', path.join(T, 'eslint.config.js'), path.join(T, '..', 'src')], { encoding: 'utf8' });
 if (eslint.error) { lint.name += ' â€” ESLint not available, syntax only'; } else if (eslint.status === 0) lint.passed++; else { lint.failed++; console.log(eslint.stdout); }
 suites.push(lint); console.log(lint.name + ': ' + lint.passed + ' passed, ' + lint.failed + ' failed');
+run('Architecture checks (one router / store / theme / search / progress engine, no network APIs)', process.execPath, [path.join(T, 'static.js')]);
 run('Content integrity + preservation (Node)', process.execPath, [path.join(T, 'integrity.js'), merged, app1, app2]);
 run('Browser regression: startup, routes, navigation, search, questions, flashcards, exam, persistence, migration, settings, responsive, accessibility', process.execPath, [path.join(T, 'regression.js'), merged].concat(axe ? ['--axe', axe] : []));
 run('Browser features: live search, guided study, timers, planner, mastery, keyboard, diagrams, calculators, export/import', process.execPath, [path.join(T, 'features.js'), merged]);

@@ -75,6 +75,6 @@ shell = shell.replace('<!--STYLE-->', () => '<style>\n' + css + '\n</style>')
 
 const outFile = path.join(outDir, 'Understanding-Islamic-Finance-MERGED.html');
 fs.writeFileSync(outFile, shell);
-audit.output = { file: path.basename(outFile), bytes: Buffer.byteLength(shell), scripts: (shell.match(/<script/g) || []).length, externalReferences: (shell.match(/(?:src|href)="(?!#|data:)[^"]+"/g) || []).filter(x => !/textbook\/Understanding/.test(x)) };
+audit.output = { file: path.basename(outFile), bytes: Buffer.byteLength(shell), sha256: require('crypto').createHash('sha256').update(shell).digest('hex'), scripts: (shell.match(/<script/g) || []).length, externalReferences: (shell.match(/(?:src|href)="(?!#|data:)[^"]+"/g) || []).filter(x => !/textbook\/Understanding/.test(x)) };
 writeAudit({ outDir, audit, data, modules: MODULES.map(m => m.name) });
 console.log('wrote', outFile, (audit.output.bytes / 1e6).toFixed(2) + ' MB');

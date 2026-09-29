@@ -1,0 +1,2344 @@
+{
+  "title": "Understanding-Islamic-Finance-MERGED — merge audit",
+  "generated": "2026-09-29T08:27:44.462Z",
+  "counts": {
+    "chapters": 18,
+    "topics": 311,
+    "companionTopicNotes": 225,
+    "questions": 1343,
+    "quickChecks": 311,
+    "flashcards": 1056,
+    "glossary": 206,
+    "acronyms": 119,
+    "cases": 49,
+    "comparisons": 38,
+    "comparisonLabs": 13,
+    "concepts": 45,
+    "conceptMapNodes": 65,
+    "conceptMapEdges": 162,
+    "diagrams": 20,
+    "calculators": 14,
+    "examItems": 136,
+    "studyPlans": 4,
+    "decisionTrees": 2,
+    "routes": 37
+  },
+  "reconciliation": [
+    {
+      "category": "chapters",
+      "file1Unique": 0,
+      "file2Unique": 0,
+      "duplicatesOrAliased": 18,
+      "mergedFinal": 18
+    },
+    {
+      "category": "topics (canonical)",
+      "file1Unique": 311,
+      "file2Unique": 0,
+      "duplicatesOrAliased": 225,
+      "mergedFinal": 311
+    },
+    {
+      "category": "questions",
+      "file1Unique": 771,
+      "file2Unique": 572,
+      "duplicatesOrAliased": 0,
+      "mergedFinal": 1343
+    },
+    {
+      "category": "flashcards",
+      "file1Unique": 498,
+      "file2Unique": 558,
+      "duplicatesOrAliased": 0,
+      "mergedFinal": 1056
+    },
+    {
+      "category": "glossary entries (book glossaries)",
+      "file1Unique": 191,
+      "file2Unique": 17,
+      "duplicatesOrAliased": 163,
+      "mergedFinal": 206
+    },
+    {
+      "category": "glossary page records (entries + terms taught in chapters and companion notes)",
+      "file1Unique": "—",
+      "file2Unique": "—",
+      "duplicatesOrAliased": "—",
+      "mergedFinal": 391
+    },
+    {
+      "category": "acronyms",
+      "file1Unique": 0,
+      "file2Unique": 119,
+      "duplicatesOrAliased": 0,
+      "mergedFinal": 119
+    },
+    {
+      "category": "case studies",
+      "file1Unique": 19,
+      "file2Unique": 30,
+      "duplicatesOrAliased": 0,
+      "mergedFinal": 49
+    },
+    {
+      "category": "comparisons",
+      "file1Unique": 25,
+      "file2Unique": 13,
+      "duplicatesOrAliased": 0,
+      "mergedFinal": 38
+    },
+    {
+      "category": "concepts / map nodes",
+      "file1Unique": 45,
+      "file2Unique": 20,
+      "duplicatesOrAliased": 25,
+      "mergedFinal": 65
+    },
+    {
+      "category": "diagrams",
+      "file1Unique": 20,
+      "file2Unique": 0,
+      "duplicatesOrAliased": 0,
+      "mergedFinal": 20
+    },
+    {
+      "category": "calculators (topics with a calculator)",
+      "file1Unique": 14,
+      "file2Unique": 0,
+      "duplicatesOrAliased": 0,
+      "mergedFinal": 14
+    },
+    {
+      "category": "exam / trainer items",
+      "file1Unique": 110,
+      "file2Unique": 26,
+      "duplicatesOrAliased": 0,
+      "mergedFinal": 136
+    },
+    {
+      "category": "study plans",
+      "file1Unique": 3,
+      "file2Unique": 3,
+      "duplicatesOrAliased": 2,
+      "mergedFinal": 4
+    },
+    {
+      "category": "decision trees",
+      "file1Unique": 1,
+      "file2Unique": 1,
+      "duplicatesOrAliased": 0,
+      "mergedFinal": 2
+    },
+    {
+      "category": "routes",
+      "file1Unique": "37 (F1)",
+      "file2Unique": "31 (F2)",
+      "duplicatesOrAliased": "13 identical paths",
+      "mergedFinal": "37 canonical"
+    }
+  ],
+  "featureMatrix": [
+    {
+      "area": "Content",
+      "feature": "18 chapters with objectives, why-it-matters, summary, takeaways",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "F1 chapter record is canonical; F2 objectives/why/summary/takeaways kept as \"Companion chapter notes\" (Overview + Summary tabs)"
+    },
+    {
+      "area": "Content",
+      "feature": "Granular topics (311) with intuition / simple / academic / exam layers, key points, quick check",
+      "file1": "Yes",
+      "file2": "No",
+      "merged": "Yes",
+      "notes": "canonical topic set"
+    },
+    {
+      "area": "Content",
+      "feature": "Topic write-ups (225) with overview / simple / academic / exam, conditions, principles, process steps, examples, confusions, distinctions, related concepts, relevance",
+      "file1": "No",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "kept whole as Companion study notes on the canonical topic that covers the same section (206 topics carry one or more); none dropped"
+    },
+    {
+      "area": "Content",
+      "feature": "Definitions, conditions, principles, steps, tables, examples, distinctions, confusions, debates, calculators per topic",
+      "file1": "Yes",
+      "file2": "Partly",
+      "merged": "Yes",
+      "notes": "F2 lists shown in companion notes, Study-aids tab and glossary"
+    },
+    {
+      "area": "Content",
+      "feature": "Source references (chapter, section, printed page, PDF page)",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "F2 page lists preserved as `src`; PDF page = printed + 28 (from the book index)"
+    },
+    {
+      "area": "Content",
+      "feature": "Book index (part/chapter/section start pages, appendices, back matter)",
+      "file1": "No",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "stored as IFL_DATA.sets.bookIndex; used for PDF pages and back-matter page references"
+    },
+    {
+      "area": "Data",
+      "feature": "Flashcards",
+      "file1": "498",
+      "file2": "558",
+      "merged": "1,056",
+      "notes": "same 11 categories; F2 cards mapped to canonical topics via cited section, original source kept"
+    },
+    {
+      "area": "Data",
+      "feature": "Questions",
+      "file1": "771 (+311 quick checks)",
+      "file2": "572",
+      "merged": "1,343 (+311)",
+      "notes": "all 10 F2 types converted to the renderer set; original type kept as `kind`; original topic string kept as `topicLabel`"
+    },
+    {
+      "area": "Data",
+      "feature": "Question metadata: difficulty, cognitive level, objective, explanation, source",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "F2 easy/medium/hard → E/M/H"
+    },
+    {
+      "area": "Data",
+      "feature": "Glossary",
+      "file1": "191",
+      "file2": "180",
+      "merged": "canonical records (see §9)",
+      "notes": "one record per concept; alternate spellings, both definitions, related terms, both page refs kept"
+    },
+    {
+      "area": "Data",
+      "feature": "Acronyms",
+      "file1": "No",
+      "file2": "119",
+      "merged": "119",
+      "notes": "new Acronyms tab; searchable"
+    },
+    {
+      "area": "Data",
+      "feature": "Exam answer-trainer questions",
+      "file1": "110",
+      "file2": "26",
+      "merged": "136",
+      "notes": "F2 structure / concepts / points / mistakes mapped to the same trainer format"
+    },
+    {
+      "area": "Data",
+      "feature": "Case studies",
+      "file1": "19 (13 textbook, 6 practice)",
+      "file2": "30 (scenario + textbook-grounded answer)",
+      "merged": "49",
+      "notes": "F2 cases are labelled \"Practice — generated for learning\" (their scenarios are hypothetical); never shown as textbook cases"
+    },
+    {
+      "area": "Data",
+      "feature": "Comparisons",
+      "file1": "25 pairs + 12-mode matrix",
+      "file2": "13 labs",
+      "merged": "38 + matrix",
+      "notes": "labs listed under their own heading; F2 ids resolve as aliases"
+    },
+    {
+      "area": "Data",
+      "feature": "Diagrams (interactive transaction flows)",
+      "file1": "20",
+      "file2": "No",
+      "merged": "20",
+      "notes": ""
+    },
+    {
+      "area": "Data",
+      "feature": "Concepts (revision cards, pages)",
+      "file1": "45",
+      "file2": "45 map nodes / 73 edges",
+      "merged": "45 concepts + 20 map-only nodes (see §9)",
+      "notes": "25 F2 nodes were the same concept as an F1 concept and were aliased; the rest kept as graph nodes"
+    },
+    {
+      "area": "Data",
+      "feature": "Decision trees",
+      "file1": "Need-based finder (9 nodes, 14 results)",
+      "file2": "Question tree (10 questions, 14 results)",
+      "merged": "Both, one result card",
+      "notes": "result card merges both descriptions when they concern the same mode"
+    },
+    {
+      "area": "Data",
+      "feature": "Study plans",
+      "file1": "45 / 90 / 180 min (concept-led)",
+      "file2": "45 / 90 / 180 min (chapter-led)",
+      "merged": "45, 90, 180 + 180 chapter track",
+      "notes": "45 and 90 combined (F2 overview added to each matching segment); F2 180 kept as its own track because its segments differ"
+    },
+    {
+      "area": "Learning",
+      "feature": "Lesson with 3 levels + explain-again + Teach-me",
+      "file1": "Yes",
+      "file2": "Levels + Teach-me",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Learning",
+      "feature": "Mark complete, chapter/part/overall progress",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Learning",
+      "feature": "Concept map + concept pages",
+      "file1": "Yes",
+      "file2": "Yes (map)",
+      "merged": "Yes",
+      "notes": "one interactive map showing the union graph"
+    },
+    {
+      "area": "Learning",
+      "feature": "Glossary with A–Z + category filter + related terms",
+      "file1": "Yes",
+      "file2": "Search + filter",
+      "merged": "Yes",
+      "notes": "transliteration-tolerant search"
+    },
+    {
+      "area": "Learning",
+      "feature": "Rapid revision cards",
+      "file1": "45 concept cards",
+      "file2": "one per topic",
+      "merged": "both decks",
+      "notes": "Concept cards / Topic cards toggle (topic deck includes companion write-ups)"
+    },
+    {
+      "area": "Learning",
+      "feature": "Comparison Lab",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Learning",
+      "feature": "Case Study Lab",
+      "file1": "MCQ-based flow",
+      "file2": "open-analysis flow",
+      "merged": "both flows",
+      "notes": "completion tracked for both"
+    },
+    {
+      "area": "Learning",
+      "feature": "Financing-mode finder / decision tree",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "two entry routes"
+    },
+    {
+      "area": "Learning",
+      "feature": "Calculators (14 topic calculators)",
+      "file1": "Yes",
+      "file2": "No",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Learning",
+      "feature": "Printable chapter revision sheet",
+      "file1": "Yes",
+      "file2": "No",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Practice",
+      "feature": "Flashcards: spaced review (SM-2 style) with due / difficult / new / chapter / category decks",
+      "file1": "Yes",
+      "file2": "Box-based SRS",
+      "merged": "Yes",
+      "notes": "F1 scheduler kept (superset); F2 box state converted"
+    },
+    {
+      "area": "Practice",
+      "feature": "Quiz builder (chapters, types, difficulty, level, size), chapter quizzes, history",
+      "file1": "Yes",
+      "file2": "Chapter / mixed / by-type",
+      "merged": "Yes",
+      "notes": "F2 routes redirect"
+    },
+    {
+      "area": "Practice",
+      "feature": "Adaptive practice",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "per-topic mastery now also covers F2 questions"
+    },
+    {
+      "area": "Practice",
+      "feature": "My mistakes / retry missed",
+      "file1": "Yes",
+      "file2": "Missed list in attempts",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Exam",
+      "feature": "Exam Preparation Center (definitions, short, long, conceptual, difference, scenario, MCQ, viva, rapid, core)",
+      "file1": "Yes",
+      "file2": "By question type",
+      "merged": "Yes",
+      "notes": "question-bank-by-type grid added"
+    },
+    {
+      "area": "Exam",
+      "feature": "Exam answer trainer (attempt → reveal structure, key concepts, points, mistakes)",
+      "file1": "Yes (saves drafts)",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Exam",
+      "feature": "Timed mock exam with silent answers, timer, auto-submit, review, chapter breakdown",
+      "file1": "Yes",
+      "file2": "No",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Exam",
+      "feature": "Exam planner",
+      "file1": "Yes",
+      "file2": "No",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Guided",
+      "feature": "Guided study 45 / 90 / 180 with countdown, pause / resume, previous / next / skip, rapid-fire quiz",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "saved progress; F2 saved progress converted"
+    },
+    {
+      "area": "Personal",
+      "feature": "Bookmarks, notes (all item types)",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "definition bookmarks → glossary-term bookmarks"
+    },
+    {
+      "area": "Personal",
+      "feature": "Progress page, weak topics, readiness, activity heat-map",
+      "file1": "Yes",
+      "file2": "Partly",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Personal",
+      "feature": "Achievements",
+      "file1": "11",
+      "file2": "16",
+      "merged": "19",
+      "notes": "union: 11 F1 + 7 F2-only + 1 new; same-meaning ids aliased (e.g. five-day-streak → streak-5)"
+    },
+    {
+      "area": "Personal",
+      "feature": "Study streak",
+      "file1": "Dashboard stat",
+      "file2": "Top-bar pill",
+      "merged": "Both",
+      "notes": "pill shown in the top bar when streak ≥ 1"
+    },
+    {
+      "area": "Personal",
+      "feature": "Study timer (25 / 45 / 60 / custom), sessions log",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Search",
+      "feature": "Full-text search page",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "now spans 14 record types + aliases"
+    },
+    {
+      "area": "Search",
+      "feature": "Live search-as-you-type suggestions in the top bar",
+      "file1": "No",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "re-implemented as an accessible combobox (arrow keys, Enter, Esc, \"See all results\")"
+    },
+    {
+      "area": "Settings",
+      "feature": "Theme (light / dark / system), text size, reduced motion, daily goal, name, level",
+      "file1": "Yes",
+      "file2": "Theme, level",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Settings",
+      "feature": "Export / import / reset",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "import accepts merged, F1 and F2 export files; legacy files are merged, never overwrite"
+    },
+    {
+      "area": "UI",
+      "feature": "Collapsible sidebar (desktop icon rail)",
+      "file1": "No",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "state persists (also migrates ifl_sidebar_collapsed)"
+    },
+    {
+      "area": "UI",
+      "feature": "Mobile drawer + bottom navigation + top-bar search",
+      "file1": "Drawer + bottom nav",
+      "file2": "Drawer + mobile top bar",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "UI",
+      "feature": "Keyboard: \"/\" search, quiz A–D/1–4, flashcard Space + 1–4, arrows in revision cards, Esc closes dialogs",
+      "file1": "Yes",
+      "file2": "Limited",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "UI",
+      "feature": "Modals with focus trap, toasts, skip link, reduced-motion CSS",
+      "file1": "Yes",
+      "file2": "Partly",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Platform",
+      "feature": "Single localStorage record, versioned",
+      "file1": "ifl.v1",
+      "file2": "ifl_v1",
+      "merged": "ifl_v2",
+      "notes": "migration from both, non-destructive"
+    },
+    {
+      "area": "Platform",
+      "feature": "In-memory fallback + corrupt-record backup",
+      "file1": "Yes",
+      "file2": "No (defaults only)",
+      "merged": "Yes",
+      "notes": ""
+    },
+    {
+      "area": "Platform",
+      "feature": "Hash routing that works over file://",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "one router + redirect table for F2 routes"
+    },
+    {
+      "area": "Platform",
+      "feature": "Standalone single HTML file",
+      "file1": "Yes",
+      "file2": "Yes",
+      "merged": "Yes",
+      "notes": "no external scripts/styles; optional link to a local textbook PDF is a plain anchor"
+    },
+    {
+      "area": "Platform",
+      "feature": "Service worker for http(s) hosting",
+      "file1": "Yes (disabled in standalone)",
+      "file2": "No",
+      "merged": "Not included",
+      "notes": "was never active in the standalone build of App 1 either (guarded by IFL_STANDALONE)"
+    }
+  ],
+  "routes": [
+    {
+      "canonical": "/",
+      "origin": "F1",
+      "aliases": "/dashboard (F2)"
+    },
+    {
+      "canonical": "/learn",
+      "origin": "Both",
+      "aliases": ""
+    },
+    {
+      "canonical": "/learn/:part",
+      "origin": "F1",
+      "aliases": "/learn/part/:part (F2; I / II / III accepted)"
+    },
+    {
+      "canonical": "/chapter/:n",
+      "origin": "Both",
+      "aliases": ""
+    },
+    {
+      "canonical": "/chapter/:n/print",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/topic/:id",
+      "origin": "F1",
+      "aliases": "/chapter/:num/topic/:topicId (F2); F2 topic ids like ch9-t4 are resolved through the topic alias map"
+    },
+    {
+      "canonical": "/teach/:id",
+      "origin": "Both",
+      "aliases": "F2 topic ids resolved"
+    },
+    {
+      "canonical": "/concepts",
+      "origin": "F1",
+      "aliases": "/concept-map (F2)"
+    },
+    {
+      "canonical": "/concept/:id",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/glossary",
+      "origin": "Both",
+      "aliases": "?tab=acronyms is new; /acronyms redirects here"
+    },
+    {
+      "canonical": "/diagrams",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/diagram/:id",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/compare",
+      "origin": "F1",
+      "aliases": "/comparisons, /comparisons/:id (F2)"
+    },
+    {
+      "canonical": "/finder",
+      "origin": "F1",
+      "aliases": "/decision-tool (F2) → ?tool=tree"
+    },
+    {
+      "canonical": "/flashcards",
+      "origin": "Both",
+      "aliases": "?chapter=N (F2) → review"
+    },
+    {
+      "canonical": "/flashcards/review",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/quiz",
+      "origin": "Both",
+      "aliases": ""
+    },
+    {
+      "canonical": "/quiz/run",
+      "origin": "F1",
+      "aliases": "/quiz/chapter/:num, /quiz/mixed, /quiz/type/:type (F2)"
+    },
+    {
+      "canonical": "/practice",
+      "origin": "F1",
+      "aliases": "/adaptive (F2)"
+    },
+    {
+      "canonical": "/practice/run",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/mistakes",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/cases",
+      "origin": "F1",
+      "aliases": "/case-studies (F2)"
+    },
+    {
+      "canonical": "/case/:id",
+      "origin": "F1",
+      "aliases": "/case-studies/:id (F2)"
+    },
+    {
+      "canonical": "/exam",
+      "origin": "F1",
+      "aliases": "/exam-prep (F2)"
+    },
+    {
+      "canonical": "/exam/trainer",
+      "origin": "F1",
+      "aliases": "/exam-prep/trainer, /exam-prep/trainer/:id (F2)"
+    },
+    {
+      "canonical": "/revision-cards",
+      "origin": "F1",
+      "aliases": "/exam-prep/rapid-revision (F2); ?deck=topics is new"
+    },
+    {
+      "canonical": "/mock",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/mock/run",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/planner",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/guided",
+      "origin": "F1",
+      "aliases": ""
+    },
+    {
+      "canonical": "/guided/:plan",
+      "origin": "F1",
+      "aliases": "/crash-course/45 | 90 | 180 (F2) → crash45 | revision90 | deep180-chapters"
+    },
+    {
+      "canonical": "/bookmarks",
+      "origin": "Both",
+      "aliases": ""
+    },
+    {
+      "canonical": "/notes",
+      "origin": "Both",
+      "aliases": ""
+    },
+    {
+      "canonical": "/progress",
+      "origin": "Both",
+      "aliases": ""
+    },
+    {
+      "canonical": "/timer",
+      "origin": "Both",
+      "aliases": ""
+    },
+    {
+      "canonical": "/settings",
+      "origin": "Both",
+      "aliases": ""
+    },
+    {
+      "canonical": "/search",
+      "origin": "Both",
+      "aliases": ""
+    }
+  ],
+  "modules": [
+    "modules/util.js",
+    "modules/store.js",
+    "modules/progress.js",
+    "modules/srs.js",
+    "modules/router.js",
+    "modules/components.js",
+    "modules/calculators.js",
+    "modules/views/dashboard.js",
+    "modules/views/learn.js",
+    "modules/views/topic.js",
+    "modules/views/glossary.js",
+    "modules/views/flashcards.js",
+    "modules/views/quiz.js",
+    "modules/views/practice.js",
+    "modules/views/cases.js",
+    "modules/views/compare.js",
+    "modules/views/diagrams.js",
+    "modules/views/concept-map.js",
+    "modules/views/finder.js",
+    "modules/views/exam.js",
+    "modules/views/mock.js",
+    "modules/views/planner.js",
+    "modules/views/guided.js",
+    "modules/views/personal.js",
+    "modules/views/search.js",
+    "modules/views/settings.js",
+    "modules/timer.js",
+    "modules/aliases.js",
+    "modules/livesearch.js",
+    "app.js"
+  ],
+  "audit": {
+    "generatedBy": "merge-tools/merge-data.js",
+    "files": {
+      "app1": {
+        "path": "Islamic-Finance-Learning (1).html",
+        "bytes": 2202089,
+        "scripts": 57,
+        "dataScripts": 27
+      },
+      "app2": {
+        "path": "Understanding-Islamic-Finance-STANDALONE (1).html",
+        "bytes": 3198053,
+        "scripts": 89,
+        "dataScripts": 62
+      }
+    },
+    "categories": {
+      "glossary": {
+        "app1": 191,
+        "app2": 180,
+        "app1InternalMerged": 2,
+        "mergedWithApp1": 163,
+        "app2Unique": 17,
+        "app2DefinitionsDiffering": 162,
+        "glossaryPageRecords": 391,
+        "mergedGlossaryEntries": 206
+      },
+      "comparisons": {
+        "app1Pairs": 25,
+        "app1ModeMatrixModes": 12,
+        "app2Labs": 13
+      },
+      "cases": {
+        "app1": 19,
+        "app1Textbook": 13,
+        "app1Practice": 6,
+        "app2": 30
+      },
+      "concepts": {
+        "app1Concepts": 45,
+        "app2MapNodes": 45,
+        "app2NodesAliasedToApp1": 25,
+        "app2OnlyNodes": 20,
+        "app1Edges": 97,
+        "app2Edges": 73,
+        "mergedEdges": 162
+      },
+      "decisionTools": {
+        "app1Nodes": 9,
+        "app1Results": 14,
+        "app2Questions": 10,
+        "app2Results": 14
+      },
+      "studyPlans": {
+        "app1Plans": 3,
+        "app2Modes": 3,
+        "mergedPlans": 4,
+        "notes": [
+          "crash45: \"Foundations\" enriched with App 2 overview",
+          "crash45: \"Riba, Gharar, Maisir\" enriched with App 2 overview",
+          "crash45: \"Contracts\" enriched with App 2 overview",
+          "crash45: \"Murabaha\" enriched with App 2 overview",
+          "crash45: \"Salam & Istisna‘a\" enriched with App 2 overview",
+          "crash45: \"Ijarah\" enriched with App 2 overview",
+          "crash45: \"Musharakah & Mudarabah\" enriched with App 2 overview",
+          "crash45: \"Sukuk\" enriched with App 2 overview",
+          "crash45: \"Takaful\" enriched with App 2 overview",
+          "crash45: \"Rapid-fire quiz\" enriched with App 2 overview",
+          "revision90: \"Foundations\" enriched with App 2 overview",
+          "revision90: \"Prohibitions\" enriched with App 2 overview",
+          "revision90: \"Contracts\" enriched with App 2 overview",
+          "revision90: \"Major financing modes\" enriched with App 2 overview",
+          "revision90: \"Comparisons\" enriched with App 2 overview",
+          "revision90: \"Sukuk\" enriched with App 2 overview",
+          "revision90: \"Takaful\" enriched with App 2 overview",
+          "revision90: \"Practice questions\" enriched with App 2 overview",
+          "deep180-chapters: App 2 3-hour mode kept as a separate chapter-by-chapter track (its 14 segments differ from App 1's 10 concept-led segments)"
+        ]
+      },
+      "questions": {
+        "app1": 771,
+        "app2": 572,
+        "exactDuplicateTexts": 0,
+        "app1UniqueRetained": 771,
+        "app2UniqueRetained": 572,
+        "merged": 1343,
+        "app1InternalRepeatedTexts": 1,
+        "note": "No question was removed: near-identical topics are kept as separate items because wording/difficulty/level/source differ."
+      },
+      "flashcards": {
+        "app1": 498,
+        "app2": 558,
+        "exactDuplicates": 0,
+        "merged": 1056,
+        "app1InternalRepeatedFronts": 4
+      },
+      "topics": {
+        "app1": 311,
+        "app2": 225,
+        "app2SectionsCoincidingWithApp1": 225,
+        "app2SectionsWithNoApp1Counterpart": 0,
+        "canonicalTopics": 311,
+        "companionNotesAttached": 225,
+        "app1TopicsWithCompanion": 206
+      },
+      "chapters": {
+        "app1": 18,
+        "app2": 18,
+        "merged": 18
+      },
+      "acronyms": {
+        "app1": 0,
+        "app2": 119,
+        "merged": 119
+      },
+      "diagrams": {
+        "app1": 20,
+        "app2": 0,
+        "merged": 20
+      },
+      "exam": {
+        "app1": 110,
+        "app2Trainer": 26,
+        "merged": 136
+      },
+      "calculations": {
+        "app1TopicsWithCalculator": 14,
+        "app2": 0
+      },
+      "definitionsInTopics": {
+        "app1": 183,
+        "app2CompanionDefinitions": 323
+      },
+      "bookIndex": {
+        "source": "app2 chapterIndex",
+        "pdfPageOffset": 28
+      }
+    },
+    "consolidations": [
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ahadith",
+        "merged": "Ahadith",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "‘Ahd",
+        "merged": "‘Ahd",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "‘Ain",
+        "merged": "‘Ain",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ajr al-Mithl",
+        "merged": "Ajr al-Mithl",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ajr al-Musammah",
+        "merged": "Ajr al-Musammah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Akhlaq",
+        "merged": "Akhlaq",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Al-Ajr",
+        "merged": "Al-Ajr",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Al Ghunm bil Ghurm",
+        "merged": "Al Ghunm bil Ghurm",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Al-Hisbah",
+        "merged": "Al-Hisbah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Al-Sarf",
+        "merged": "Al-Sarf",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Al-Wadi‘ah",
+        "merged": "Al-Wadi‘ah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Amanah",
+        "merged": "Amanah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ameen",
+        "merged": "Ameen",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Aqaid",
+        "merged": "Aqaid",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "‘Aqd",
+        "merged": "‘Aqd",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "‘Aqilah",
+        "merged": "‘ Aqilah",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "‘Ariyah",
+        "merged": "‘ Ariyah",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Athman",
+        "merged": "Athman",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ al Dayn",
+        "merged": "Bai‘ al Dayn",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ al Hasat",
+        "merged": "Bai‘ al Hasat",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ al ‘Inah",
+        "merged": "Bai‘ al ‘Inah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ al Khiyar",
+        "merged": "Bai‘ al Khiyar",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ al Mu‘allaq",
+        "merged": "Bai‘ al Mu‘allaq",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ al Sarf",
+        "merged": "Bai‘ al Sarf",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ Batil",
+        "merged": "Bai‘ Batil",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ bil Wafa",
+        "merged": "Bai‘ bil Wafa",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ Murabaha",
+        "merged": "Bai‘ Murabaha",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ Musawamah",
+        "merged": "Bai‘ Musawamah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ Salam",
+        "merged": "Bai‘ Salam",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ Tawliyah",
+        "merged": "Bai‘ Tawliyah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ Wadhi‘ah",
+        "merged": "Bai‘ Wadhi‘ah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Bai‘ wal Salaf",
+        "merged": "Bai‘ wal Salaf",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Barnamaj",
+        "merged": "Barnamaj",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Dayn",
+        "merged": "Dayn",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Dhaman",
+        "merged": "Dhaman",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Dhaman Khatr al-Tariq",
+        "merged": "Dhaman Khatr al-Tariq",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Dinar",
+        "merged": "Dinar",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Dirham",
+        "merged": "Dirham",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Falah",
+        "merged": "Falah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Fasid",
+        "merged": "Fasid",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Fatwah",
+        "merged": "Fatwah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Fiqh",
+        "merged": "Fiqh",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Fraidh",
+        "merged": "Fraidh",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Fuduli",
+        "merged": "Fuduli",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Fulus",
+        "merged": "Fulus",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ghaban",
+        "merged": "Ghaban",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ghaban-e-Fahish",
+        "merged": "Ghaban-e-Fahish",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Gharar",
+        "merged": "Gharar",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Gharmeen",
+        "merged": "Gharmeen",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ghasib",
+        "merged": "Ghasib",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Habal-al-Hablah",
+        "merged": "Habal-al-Hablah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Halal",
+        "merged": "Halal",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Hamish Jiddiyah",
+        "merged": "Hamish Jiddiyah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Haram",
+        "merged": "Haram",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Hawalah",
+        "merged": "Hawalah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Hibah",
+        "merged": "Hibah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Husnal Qadha",
+        "merged": "Husnal Qadha",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ibahatul Asliyah",
+        "merged": "Ibahatul Asliyah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ijab",
+        "merged": "Ijab",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ijarah",
+        "merged": "Ijarah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ijarah Mosufah bil Zimmah",
+        "merged": "Ijarah Mosufah bil Zimmah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ijarah Muntahia-bi-Tamleek",
+        "merged": "Ijarah Muntahia-bi-Tamleek",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ijarah-wal-Iqtina‘",
+        "merged": "Ijarah-wal-Iqtina‘",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ijma‘a",
+        "merged": "Ijma‘a",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ijtihad",
+        "merged": "Ijtihad",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "‘Illah",
+        "merged": "‘Illah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Imam",
+        "merged": "Imam",
+        "spellingsDiffer": false,
+        "definitionsDiffer": false
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Iman",
+        "merged": "Iman",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "‘Inan",
+        "merged": "‘Inan (a type of Shirkah)",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Israf",
+        "merged": "Israf",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Istihsan",
+        "merged": "Istihsan",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Istijar",
+        "merged": "Istijar",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Istijrar",
+        "merged": "Istijrar",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Istisna‘a",
+        "merged": "Istisna‘a",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "‘Iwad",
+        "merged": "‘Iwad",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Kafalah",
+        "merged": "Kafalah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khalabah",
+        "merged": "Khalabah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Kharaj bil Daman",
+        "merged": "Kharaj bi-al-Daman",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khatar",
+        "merged": "Khatar",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khiyar",
+        "merged": "Khiyar",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khiyar al ‘Aib",
+        "merged": "Khiyar al ‘Aib",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khiyar al-Majlis",
+        "merged": "Khiyar al-Majlis",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khiyar al Ro’yat",
+        "merged": "Khiyar al Ro’yat",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khiyar al-Shart",
+        "merged": "Khiyar al-Shart",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khiyar al Wasf",
+        "merged": "Khiyar al Wasf",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khiyar-e-Ghaban",
+        "merged": "Khiyar-e-Ghaban",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Khiyar-e-Naqad",
+        "merged": "Khiyar-e-Naqad",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ma‘lum",
+        "merged": "Ma‘lum",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mabi‘",
+        "merged": "Mabi‘",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Maisir",
+        "merged": "Maisir",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mal",
+        "merged": "Mal",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mal-e-Mutaqawam",
+        "merged": "Mal-e-Mutaqawam",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Maslaha-e-Mursalah",
+        "merged": "Maslaha-e-Mursalah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mawquf",
+        "merged": "Mawquf",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mithaq",
+        "merged": "Mithaq",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mithli",
+        "merged": "Mithli",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mua‘awamah",
+        "merged": "Mua‘awamah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mubah",
+        "merged": "Mubah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mudarabah",
+        "merged": "Mudarabah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mudarib",
+        "merged": "Mudarib",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Muflis",
+        "merged": "Muflis",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mugharasah",
+        "merged": "Mugharasah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mulamasah",
+        "merged": "Mulamasah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Munabadhah",
+        "merged": "Munabadhah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Murabaha",
+        "merged": "Murabaha",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Musaqah",
+        "merged": "Musaqah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Musawamah",
+        "merged": "Musawamah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Musharakah",
+        "merged": "Musharakah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Mustarsal",
+        "merged": "Mustarsal",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Najash",
+        "merged": "Najash",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Nass",
+        "merged": "Nass",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Nawahi",
+        "merged": "Nawahi",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Niyyah",
+        "merged": "Niyyah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Qabul",
+        "merged": "Qabul",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Qard",
+        "merged": "Qard",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Qard al Hasan",
+        "merged": "Qard al Hasan",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Qimar",
+        "merged": "Qimar",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Qirad",
+        "merged": "Qirad",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Qirad mithl",
+        "merged": "Qirad mithl",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Qirsh",
+        "merged": "Qirsh",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Qisas",
+        "merged": "Qisas",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Qiyas",
+        "merged": "Qiyas",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ra’asul-mal",
+        "merged": "Ra’asul-mal",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ra‘iee",
+        "merged": "Ra‘iee",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Rabbul-mal",
+        "merged": "Rabbul-mal",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Riba",
+        "merged": "Riba",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Riba al-Fadl",
+        "merged": "Riba Al-Fadl",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Riba al-Nasiah",
+        "merged": "Riba Al-Nasiah",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ribawi",
+        "merged": "Ribawi",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ribh al-mithl",
+        "merged": "Ribh-al-mithl",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Rukban",
+        "merged": "Rukban",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Sa‘a",
+        "merged": "Sa‘a",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Sahabah",
+        "merged": "Sahabah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Salaf",
+        "merged": "Salaf",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Sanadat",
+        "merged": "Sanadat",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Al-Sarf",
+        "merged": "Sarf",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Shart-e-Jazai",
+        "merged": "Shart-e-Jazai",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Shirkah",
+        "merged": "Shirkah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Shirkatul‘aqd",
+        "merged": "Shirkatul‘aqd",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Shirkatulmilk",
+        "merged": "Shirkatulmilk",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Shuf‘ah",
+        "merged": "Shuf‘ah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Suftajah",
+        "merged": "Suftajah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Sukuk",
+        "merged": "Sukuk",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Sunnah",
+        "merged": "Sunnah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ta‘zir",
+        "merged": "T‘azir",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ta‘liq",
+        "merged": "T‘aliq",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ta’mein",
+        "merged": "Ta’mein",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Tabarru‘",
+        "merged": "Tabarru‘",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Tabzir",
+        "merged": "Tabzir",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Takaful",
+        "merged": "Takaful",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Taqwa",
+        "merged": "Taqwa",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Tawarruq",
+        "merged": "Tawarruq",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Thaman",
+        "merged": "Thaman",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Thaman-e-mithl",
+        "merged": "Thaman-e-mithl",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ujrah",
+        "merged": "Ujrah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Ujratul-mithl",
+        "merged": "Ujratul-mithl",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Uqood-e-Mu‘awadha",
+        "merged": "Uqood-e-Mu‘awadha",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Uqood Ghair Mu‘awadha",
+        "merged": "Uqood Ghair Mu‘awadha",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Al-Wadi‘ah",
+        "merged": "Wadi‘ah",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Wakalah",
+        "merged": "Wakalah",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Waqf",
+        "merged": "Waqf",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Zakah",
+        "merged": "Zakah/Zakat",
+        "spellingsDiffer": true,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "glossary (app 2 into app 1)",
+        "canonical": "Zulm",
+        "merged": "Zulm",
+        "spellingsDiffer": false,
+        "definitionsDiffer": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "islamic-economic-system",
+        "canonical": "islamic-economics",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "shariah",
+        "canonical": "sp-shariah",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "maqasid",
+        "canonical": "sp-maqasid",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "business-ethics",
+        "canonical": "business-ethics",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "riba",
+        "canonical": "riba",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "gharar",
+        "canonical": "gharar",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "maisir-qimar",
+        "canonical": "maisir",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "mal-usufruct-ownership",
+        "canonical": "mal",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "wadah-promise",
+        "canonical": "wad",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "bai-exchange",
+        "canonical": "bai",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "khiyar-options",
+        "canonical": "khiyar",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "murabaha",
+        "canonical": "murabaha",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "salam",
+        "canonical": "salam",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "istisnaa",
+        "canonical": "istisna",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "ijarah",
+        "canonical": "ijarah",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "ijarah-muntahia-bi-tamleek",
+        "canonical": "imbt",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "musharakah",
+        "canonical": "musharakah",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "mudarabah",
+        "canonical": "mudarabah",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "diminishing-musharakah",
+        "canonical": "diminishing-musharakah",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "wakalah",
+        "canonical": "wakalah",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "tawarruq",
+        "canonical": "tawarruq",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "juaalah",
+        "canonical": "jualah",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "islamic-banking-overview",
+        "canonical": "islamic-banking",
+        "sameId": false
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "sukuk",
+        "canonical": "sukuk",
+        "sameId": true
+      },
+      {
+        "type": "concept-map node",
+        "app2Id": "takaful",
+        "canonical": "takaful",
+        "sameId": true
+      }
+    ],
+    "mapping": {
+      "companionMapStats": {
+        "exact": 176,
+        "range": 46,
+        "descendant": 0,
+        "ancestor": 2,
+        "title": 0,
+        "pages": 1,
+        "chapterFallback": 0
+      },
+      "companionMethods": {
+        "section": 217,
+        "ancestor": 2,
+        "range": 5,
+        "pages": 1
+      },
+      "f1TopicsWithCompanion": 206,
+      "questionMapping": {
+        "convertedTypes": {
+          "mcq→mcq": 186,
+          "truefalse→tf": 77,
+          "short→short": 84,
+          "scenario→scenario": 107,
+          "definition→short/definition": 15,
+          "multiselect→multi": 42,
+          "comparison→comparison": 24,
+          "identify→identify": 8,
+          "ordering→order": 7,
+          "matching→match": 2,
+          "matching→mcq/match": 13,
+          "identify→short/identify": 3,
+          "ordering→mcq/order": 4
+        },
+        "methods": {
+          "section": 538,
+          "ancestor": 25,
+          "title": 9
+        }
+      },
+      "flashcardMapping": {
+        "section": 527,
+        "ancestor": 26,
+        "pages": 4,
+        "chapter-fallback": 1
+      }
+    },
+    "collisions": [],
+    "notes": [],
+    "routes": {
+      "app1": 37,
+      "app2": 31
+    },
+    "idAudit": {
+      "topics": {
+        "app1": 311,
+        "app2": 225,
+        "identicalIds": 0,
+        "duplicateIdsWithinApp1": 0,
+        "duplicateIdsWithinApp2": 0
+      },
+      "questions": {
+        "app1": 771,
+        "app2": 572,
+        "identicalIds": 0,
+        "duplicateIdsWithinApp1": 0,
+        "duplicateIdsWithinApp2": 0
+      },
+      "flashcards": {
+        "app1": 498,
+        "app2": 558,
+        "identicalIds": 0,
+        "duplicateIdsWithinApp1": 0,
+        "duplicateIdsWithinApp2": 0
+      },
+      "exam": {
+        "app1": 110,
+        "app2": 26,
+        "identicalIds": 0,
+        "duplicateIdsWithinApp1": 0,
+        "duplicateIdsWithinApp2": 0
+      },
+      "cases": {
+        "app1": 19,
+        "app2": 30,
+        "identicalIds": 0,
+        "duplicateIdsWithinApp1": 0,
+        "duplicateIdsWithinApp2": 0
+      },
+      "comparisons": {
+        "app1": 25,
+        "app2": 13,
+        "identicalIds": 0,
+        "duplicateIdsWithinApp1": 0,
+        "duplicateIdsWithinApp2": 0
+      },
+      "concepts": {
+        "app1": 45,
+        "app2": 45,
+        "identicalIds": 13,
+        "duplicateIdsWithinApp1": 0,
+        "duplicateIdsWithinApp2": 0,
+        "note": "Identical ids (riba, gharar, murabaha, ...) denote the same concept; they were merged into one canonical node (App 2 ids kept as app2Ids). Different-id equivalents were resolved through an explicit alias table."
+      }
+    },
+    "output": {
+      "file": "Understanding-Islamic-Finance-MERGED.html",
+      "bytes": 5055718,
+      "sha256": "51e0f9ae4ca058576d2698c06d2b311a42b63a740a53e91f05f30dc35bbd9ad6",
+      "scripts": 38,
+      "externalReferences": []
+    }
+  }
+}

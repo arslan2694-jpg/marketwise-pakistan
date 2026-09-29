@@ -1,0 +1,40 @@
+{
+  "ran": "2026-09-29T08:27:37.586Z",
+  "suites": [
+    {
+      "name": "Static checks (node --check + ESLint no-undef/no-redeclare/… on src/)",
+      "passed": 32,
+      "failed": 0
+    },
+    {
+      "name": "Architecture checks (one router / store / theme / search / progress engine, no network APIs)",
+      "passed": 13,
+      "failed": 0,
+      "seconds": 0
+    },
+    {
+      "name": "Content integrity + preservation (Node)",
+      "passed": 23956,
+      "failed": 0,
+      "seconds": 1
+    },
+    {
+      "name": "Browser regression: startup, routes, navigation, search, questions, flashcards, exam, persistence, migration, settings, responsive, accessibility",
+      "passed": 361,
+      "failed": 0,
+      "seconds": 295
+    },
+    {
+      "name": "Browser features: live search, guided study, timers, planner, mastery, keyboard, diagrams, calculators, export/import",
+      "passed": 45,
+      "failed": 0,
+      "seconds": 31
+    }
+  ],
+  "notes": [
+    "Chromium (Playwright) over `file://`, so the same conditions as double-clicking the file.",
+    "Integrity suite compares every record of both original files with the merged data (text-identical) and validates ids, answers, topic/chapter links, sources, decision-tree reachability and study-plan references.",
+    "Regression suite swept **all 1,343 questions** through the real renderer (correct answer scored correct, wrong answer scored wrong, explanation shown, for every type), opened **all 311 topic pages**, and checked overflow on 35 routes × 7 widths (320, 375, 414, 768, 1024, 1280, 1440).",
+    "axe-core (WCAG 2 A/AA + best-practice) run on 16 routes in light and dark: zero serious/critical violations."
+  ]
+}

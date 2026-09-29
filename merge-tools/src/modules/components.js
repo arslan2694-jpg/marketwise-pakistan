@@ -257,7 +257,7 @@
         var box = h('div.feedback.ok', { style: { background: 'var(--info-soft)', borderColor: 'transparent' } },
           h('div.t', 'Model answer'), h('p', q.answer),
           kws.length ? h('p.small', h('strong', 'Key terms: '), kws.map(function (k) { var got = hit.indexOf(k) > -1; return h('span.badge.' + (got ? 'ok' : 'warn'), { style: { marginRight: '4px' } }, (got ? '✓ ' : '') + k); })) : null,
-          ta.value.trim() ? h('p.small.muted', 'Your answer used ' + hit.length + ' of ' + kws.length + ' key terms.') : null,
+          ta.value.trim() && kws.length ? h('p.small.muted', 'Your answer used ' + hit.length + ' of ' + kws.length + ' key terms.') : null,
           h('div.row', h('span.small', 'How did you do?'),
             h('button.btn.sm', { type: 'button', onclick: function () { self(true); } }, 'I had the key points'),
             h('button.btn.sm', { type: 'button', onclick: function () { self(false); } }, 'Not yet')));

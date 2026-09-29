@@ -96,11 +96,12 @@ function writeAudit({ outDir, audit, data, modules }) {
   };
   const cat = audit.categories;
   const recon = [
-    ['chapters', 18, 18, 18, 18, 18],
+    ['chapters', 0, 0, 18, 18, 18],
     ['topics (canonical)', cat.topics.app1, 0, cat.topics.app2, cat.topics.canonicalTopics, cat.topics.canonicalTopics + ' (+' + cat.topics.companionNotesAttached + ' companion notes)'],
     ['questions', cat.questions.app1, cat.questions.app2, cat.questions.exactDuplicateTexts, cat.questions.merged, cat.questions.merged],
     ['flashcards', cat.flashcards.app1, cat.flashcards.app2, cat.flashcards.exactDuplicates, cat.flashcards.merged, cat.flashcards.merged],
-    ['glossary terms', cat.glossary.app1, cat.glossary.app2Unique, cat.glossary.mergedWithApp1, S.glossary.length, S.glossary.length],
+    ['glossary entries (book glossaries)', cat.glossary.app1, cat.glossary.app2Unique, cat.glossary.mergedWithApp1, S.glossary.length, S.glossary.length],
+    ['glossary page records (entries + terms taught in chapters and companion notes)', '—', '—', '—', cat.glossary.glossaryPageRecords, cat.glossary.glossaryPageRecords],
     ['acronyms', 0, cat.acronyms.app2, 0, cat.acronyms.merged, cat.acronyms.merged],
     ['case studies', cat.cases.app1, cat.cases.app2, 0, counts.cases, counts.cases],
     ['comparisons', cat.comparisons.app1Pairs, cat.comparisons.app2Labs, 0, counts.comparisons, counts.comparisons],
@@ -123,11 +124,11 @@ function writeAudit({ outDir, audit, data, modules }) {
 
   md.push('## 1. Files analysed', '');
   table(['', 'File', 'Size', 'Structure'], [
-    ['File 1 (“F1”)', audit.files.app1.path.replace(/^[0-9a-f]+-/, ''), (audit.files.app1.bytes / 1e6).toFixed(2) + ' MB', audit.files.app1.scripts + ' script blocks: 27 data (registry, 18 chapters, glossary, concepts, diagrams, comparisons, cases, mode-finder, study-plans, course-index), 28 code modules + theme/flag scripts; state key `ifl.v1`'],
-    ['File 2 (“F2”)', audit.files.app2.path.replace(/^[0-9a-f]+-/, ''), (audit.files.app2.bytes / 1e6).toFixed(2) + ' MB', audit.files.app2.scripts + ' script blocks: ' + audit.files.app2.dataScripts + ' data (glossary+acronyms, comparisons, case studies, concept map, decision tree, study modes, exam-prep, chapter index; 18 chapter files, 18 flashcard chunks, 18 question chunks) + 26 code modules + theme script; state key `ifl_v1`'],
-    ['Output', audit.output.file, (audit.output.bytes / 1e6).toFixed(2) + ' MB', audit.output.scripts + ' inline script blocks (3 JSON data blocks + code), 1 inline stylesheet; no external script, stylesheet or font']
+    ['File 1 (“F1”)', audit.files.app1.path, (audit.files.app1.bytes / 1e6).toFixed(2) + ' MB', audit.files.app1.scripts + ' script blocks: 27 data (registry, 18 chapters, glossary, concepts, diagrams, comparisons, cases, mode-finder, study-plans, course-index), 28 code modules + theme/flag scripts; state key `ifl.v1`'],
+    ['File 2 (“F2”)', audit.files.app2.path, (audit.files.app2.bytes / 1e6).toFixed(2) + ' MB', audit.files.app2.scripts + ' script blocks: ' + audit.files.app2.dataScripts + ' data (glossary+acronyms, comparisons, case studies, concept map, decision tree, study modes, exam-prep, chapter index; 18 chapter files, 18 flashcard chunks, 18 question chunks) + 26 code modules + theme script; state key `ifl_v1`'],
+    ['Output', audit.output.file, (audit.output.bytes / 1e6).toFixed(2) + ' MB', audit.output.scripts + ' inline script blocks (3 JSON data blocks + code), 1 inline stylesheet; no external script, stylesheet or font. SHA-256 `' + audit.output.sha256 + '`']
   ]);
-  md.push('The two applications share a lineage (same book, same `IFL_*` naming) but were written independently: their data is disjoint in wording and, for questions/flashcards, disjoint in every record (0 exact duplicates). Both originals are untouched.', '');
+  md.push('The two applications cover the same book and use the same `IFL_*` naming, but their content was written independently: it is different in wording and, for questions and flashcards, different in every record (0 exact duplicates). Both originals are untouched.', '');
   md.push('**Approach.** F1 is the more capable, topic-addressed platform (311 topics, SM-2 scheduler, mock exams, planner, answer trainer, diagrams, calculators, 28 view/utility modules), so its architecture is the base. Every F2 dataset was converted into that schema with all metadata retained, and every F2-only capability was re-implemented inside the same router, store, component and design system. No F2 record was replaced by an F1 record, and no F1 record was replaced by an F2 record.', '');
 
   md.push('## 2. Feature inventory / feature matrix', '');
@@ -181,7 +182,7 @@ function writeAudit({ outDir, audit, data, modules }) {
   md.push(TESTS_MD(), '');
 
   md.push('## 11. Unresolved issues / caveats', '');
-  md.push('* **F2 practice cases.** F2 cases describe hypothetical clients; they are labelled *Practice — generated for learning*. A few of them may paraphrase a textbook box; the audit could not prove that either way, so the conservative label is used. Their answers cite the textbook section/pages.');
+  md.push('* **F2 practice cases.** F2 cases describe hypothetical clients; they are labelled *Practice — generated for learning*. The audit cannot establish whether any F2 scenario reproduces a textbook box, so the conservative label is used for all of them. Their answers cite the textbook section/pages.');
   md.push('* **Two independent paraphrases.** Where F1 and F2 explain the same section their wording (and occasionally emphasis) differs. Both are shown and labelled; no attempt was made to adjudicate between them.');
   md.push('* **Concept-map density.** The union graph has ' + counts.conceptMapEdges + ' relationship lines; unselected lines are drawn faintly and a node’s relationships are listed when it is selected. A text list of all nodes remains available.');
   md.push('* **F1’s own repeated texts** (1 question text and 4 flashcard fronts appear twice inside F1) were kept — they are distinct records with distinct ids.');

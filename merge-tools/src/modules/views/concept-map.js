@@ -63,7 +63,7 @@
       for (var i = 0; i < SPINE.length - 1; i++) line(SPINE[i].id, SPINE[i + 1].id, 'spine');
       lanes.forEach(function (l) { l.items.forEach(function (c) { line(l.s.id, c.id, 'member'); }); });
       G.edges.forEach(function (e) { line(e.from, e.to, 'rel'); });
-      linkEls.forEach(function (e) { if (/rel/.test(e.getAttribute('class'))) e.style.opacity = 0.22; });
+      linkEls.forEach(function (e) { if (/rel/.test(e.getAttribute('class'))) e.style.opacity = 0.13; });
       var nodeEls = {};
       function node(id, label, isSpine) {
         var p = pos[id], g = el('g', { class: 'node' + (isSpine ? ' spine' : ''), tabindex: 0, role: 'button', 'aria-label': label });
@@ -82,7 +82,7 @@
       var panel = h('div.card', { 'aria-live': 'polite' }, h('p.muted', 'Select a node to see how it connects and to open its lesson. The gold line follows the course sequence from the economic system to Takaful.'));
       function select(id) {
         var nb = {}; nb[id] = 1;
-        linkEls.forEach(function (e) { var on = e.dataset.a === id || e.dataset.b === id; if (on) { nb[e.dataset.a] = 1; nb[e.dataset.b] = 1; } e.classList.toggle('hl', on); if (/rel/.test(e.getAttribute('class'))) e.style.opacity = on ? 1 : 0.2; });
+        linkEls.forEach(function (e) { var on = e.dataset.a === id || e.dataset.b === id; if (on) { nb[e.dataset.a] = 1; nb[e.dataset.b] = 1; } e.classList.toggle('hl', on); if (/rel/.test(e.getAttribute('class'))) e.style.opacity = on ? 1 : 0.13; });
         Object.keys(nodeEls).forEach(function (k) { nodeEls[k].classList.toggle('sel', k === id); nodeEls[k].classList.toggle('dim', !nb[k]); });
         panel.innerHTML = '';
         var sp = SPINE.filter(function (s) { return s.id === id; })[0];

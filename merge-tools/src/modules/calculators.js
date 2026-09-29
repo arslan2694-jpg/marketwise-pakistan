@@ -159,11 +159,11 @@
     },
     'dm-schedule': {
       title: 'Diminishing Musharakah housing schedule', source: 'Box 12.5',
-      inputs: [{ k: 'cost', label: 'House cost', v: 1000000 }, { k: 'share', label: 'Bank financing (%)', v: 80 }, { k: 'months', label: 'Tenure (months)', v: 120 }, { k: 'rate', label: 'Rental rate (% p.a.)', v: 7, step: 0.25 }],
+      inputs: [{ k: 'cost', label: 'House cost', v: 1000000 }, { k: 'share', label: 'Bank financing (%)', v: 80 }, { k: 'months', label: 'Tenure (months)', v: 120, min: 1, max: 1200 }, { k: 'rate', label: 'Rental rate (% p.a.)', v: 7, step: 0.25 }],
       textbook: { cost: 1000000, share: 80, months: 120, rate: 7 },
       compute: function (v) {
         var inv = v.cost * v.share / 100, unit = inv / Math.max(1, v.months), rows = [], out = inv, totalRent = 0;
-        for (var m = 1; m <= v.months; m++) { var rent = out * v.rate / 100 / 12; totalRent += rent; out -= unit; if (m <= 3 || m > v.months - 2) rows.push([m, n(unit), n(rent), n(unit + rent), n(Math.max(0, out))]); if (m === 3 && v.months > 5) rows.push(['…', '', '', '', '']); }
+        for (var m = 1; m <= Math.min(1200, v.months); m++) { var rent = out * v.rate / 100 / 12; totalRent += rent; out -= unit; if (m <= 3 || m > v.months - 2) rows.push([m, n(unit), n(rent), n(unit + rent), n(Math.max(0, out))]); if (m === 3 && v.months > 5) rows.push(['…', '', '', '', '']); }
         return { formula: 'Monthly payment = unit price (investment ÷ months) + outstanding investment × rate ÷ 12',
           steps: ['Bank investment = ' + n(inv) + '; unit price = ' + n(unit) + '.', 'Month 1 rent = ' + n(inv) + ' × ' + v.rate + '% ÷ 12 = ' + n(inv * v.rate / 1200) + '.', 'Total rent over the term = ' + n(totalRent) + '.'],
           table: { head: ['Month', 'Unit', 'Rent', 'Total', 'Outstanding'], rows: rows },
@@ -191,8 +191,13 @@
     var inputs = h('div.inputs', c.inputs.map(function (i) {
       var id = 'calc-' + type + '-' + i.k, inp;
       if (i.type === 'select') inp = h('select.input', { id: id }, i.options.map(function (o) { return h('option', { value: o, selected: o === i.v }, o); }));
-      else inp = h('input.input', { id: id, type: 'number', value: i.v, step: i.step || 'any' });
-      inp.addEventListener('input', function () { vals[i.k] = i.type === 'select' ? inp.value : Number(inp.value); run(); });
+      else inp = h('input.input', { id: id, type: 'number', value: i.v, step: i.step || 'any', min: i.min != null ? i.min : -1e12, max: i.max != null ? i.max : 1e12 });
+      /* Inputs are bounded (default ±10^12, tenure ≤ 1,200 months) so an extreme value can never freeze the page or print NaN/Infinity. */
+      inp.addEventListener('input', function () {
+        if (i.type === 'select') vals[i.k] = inp.value;
+        else { var raw = Number(inp.value), lo = i.min != null ? i.min : -1e12, hi = i.max != null ? i.max : 1e12; vals[i.k] = isFinite(raw) ? Math.min(hi, Math.max(lo, raw)) : (i.min != null ? i.min : 0); }
+        run();
+      });
       return h('div.field', h('label', { for: id }, i.label), inp);
     }));
     function isTextbook() {

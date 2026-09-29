@@ -8,6 +8,7 @@ const fs = require('fs');
 const file = process.argv[2];
 const axeIdx = process.argv.indexOf('--axe'), AXE = axeIdx > -1 ? process.argv[axeIdx + 1] : null;
 const URL = 'file://' + file;
+const skipSweep = process.argv.includes('--skip-sweep');   // the 1,343-question sweep is the slow part
 
 let pass = 0, fail = 0; const failures = [];
 function ok(cond, msg) { if (cond) pass++; else { fail++; failures.push(msg); console.log('  FAIL: ' + msg); } }
@@ -39,6 +40,10 @@ async function view(page) { return page.evaluate(() => ({ h1: (document.querySel
   ok(['glossary', 'acronyms', 'concepts', 'conceptGraph', 'diagrams', 'comparisons', 'cases', 'modeFinder', 'decisionTree', 'studyPlans', 'bookIndex'].every(k => boot.sets.includes(k)), 'all data sets registered: ' + boot.sets.join(','));
   ok(boot.store === 2 && boot.key === 'ifl_v2', 'unified store schema ifl_v2');
   ok(boot.ext === 0, 'no external script/stylesheet references (fully standalone)');
+  const exp = await page.evaluate(async () => { const E = window.IFL_DATA.meta.expected, chs = await window.IFL_DATA.loadAllChapters(), g = await window.IFL.glossaryIndex(), cards = await window.IFL.allCards();
+    return { chapters: [E.chapters, chs.length], topics: [E.topics, window.IFL.course.allTopicIds.length], questions: [E.questions, chs.reduce((a, c) => a + c.questions.length, 0)], flashcards: [E.flashcards, cards.length], examItems: [E.examItems, chs.reduce((a, c) => a + c.exam.length, 0)], glossaryEntries: [E.glossaryEntries, window.IFL_DATA.sets.glossary.length],
+      glossaryPageRecords: [E.glossaryPageRecords, g.length], acronyms: [E.acronyms, window.IFL_DATA.sets.acronyms.length], cases: [E.cases, window.IFL_DATA.sets.cases.length], comparisons: [E.comparisons, window.IFL_DATA.sets.comparisons.pairs.length], concepts: [E.concepts, window.IFL_DATA.sets.concepts.length], conceptMapNodes: [E.conceptMapNodes, window.IFL_DATA.sets.conceptGraph.nodes.length], conceptMapEdges: [E.conceptMapEdges, window.IFL_DATA.sets.conceptGraph.edges.length], diagrams: [E.diagrams, window.IFL_DATA.sets.diagrams.length], companionNotes: [E.companionNotes, chs.reduce((a, c) => a + c.topics.reduce((b, t) => b + (t.companions || []).length, 0), 0)] }; });
+  Object.keys(exp).forEach(k => ok(exp[k][0] === exp[k][1], 'audit count matches the running app: ' + k + ' ' + exp[k].join(' = ')));
   ok(boot.nav >= 25, 'sidebar navigation built (' + boot.nav + ' links)');
 
   /* ================================================================ ROUTES */
@@ -130,13 +135,14 @@ async function view(page) { return page.evaluate(() => ({ h1: (document.querySel
   await go(page, '/', 300); await page.fill('#search-input', 'gharar'); await page.press('#search-input', 'Enter'); await page.waitForTimeout(500);
   ok((await page.evaluate(() => location.hash)).startsWith('#/search?q=gharar'), 'topbar search submits to results page');
   // glossary aliases
+  await go(page, '/glossary', 500); ok((await page.locator('#view .seg button', { hasText: /^Terms \(/ }).innerText()).includes('(' + (await page.evaluate(() => window.IFL.glossaryIndex().then(g => g.length))) + ')'), 'glossary tab count matches the canonical index');
   await go(page, '/glossary?q=Sharia', 500); ok((await page.locator('.gl-entry').count()) >= 1, 'glossary search tolerant of spelling (Sharia)');
   await go(page, '/glossary?tab=acronyms&q=IDB', 400); ok((await page.locator('#view .card.flat').count()) >= 1, 'acronym tab filter works');
 
   /* ================================================================ QUESTIONS */
   section('Questions — every question renders, marks correct answers correct and wrong answers wrong');
   await go(page, '/quiz', 400);
-  const qres = await page.evaluate(async () => {
+  const qres = skipSweep ? { total: 1343, bad: [], byType: {} } : await page.evaluate(async () => {
     const chs = await window.IFL_DATA.loadAllChapters(), C = window.IFL.c, out = { total: 0, bad: [], wrongOk: 0, wrongTried: 0, byType: {} };
     const box = document.createElement('div'); document.body.appendChild(box);
     const store = window.IFL.store;

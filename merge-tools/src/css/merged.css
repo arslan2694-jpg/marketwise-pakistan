@@ -36,3 +36,6 @@
 }
 .lesson > *, .lesson-body { min-width: 0; }
 .lesson-body h1, .lesson-body .intuition { overflow-wrap: anywhere; }
+
+.companion summary { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.cmp-grid > *, .concept-grid > * { min-width: 0; }
