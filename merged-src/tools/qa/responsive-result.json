@@ -1,0 +1,169 @@
+{
+ "overflow": [],
+ "unlabeled": [],
+ "smallTargets": [],
+ "contrast": [
+  {
+   "theme": "light",
+   "pair": "text/bg",
+   "ratio": 14.56,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "text/elev",
+   "ratio": 15.89,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "text-2/elev",
+   "ratio": 7.75,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "text-3/elev",
+   "ratio": 5.37,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "text-3/bg",
+   "ratio": 4.92,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "accent/elev",
+   "ratio": 7.38,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "accent/soft",
+   "ratio": 6.27,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "gold/gold-soft",
+   "ratio": 4.95,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "ok/ok-soft",
+   "ratio": 5.23,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "warn/warn-soft",
+   "ratio": 5.24,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "bad/bad-soft",
+   "ratio": 5.4,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "info/info-soft",
+   "ratio": 5.96,
+   "pass": true
+  },
+  {
+   "theme": "light",
+   "pair": "contrast/accent",
+   "ratio": 7.38,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "text/bg",
+   "ratio": 15.18,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "text/elev",
+   "ratio": 13.93,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "text-2/elev",
+   "ratio": 9.01,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "text-3/elev",
+   "ratio": 5.49,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "text-3/bg",
+   "ratio": 5.98,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "accent/elev",
+   "ratio": 6.88,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "accent/soft",
+   "ratio": 5.38,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "gold/gold-soft",
+   "ratio": 6.29,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "ok/ok-soft",
+   "ratio": 6.69,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "warn/warn-soft",
+   "ratio": 6.59,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "bad/bad-soft",
+   "ratio": 6.2,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "info/info-soft",
+   "ratio": 6.89,
+   "pass": true
+  },
+  {
+   "theme": "dark",
+   "pair": "contrast/accent",
+   "ratio": 7.57,
+   "pass": true
+  }
+ ],
+ "drawer": {
+  "open": true,
+  "exp": "true",
+  "sc": true
+ },
+ "drawerClosed": true
+}

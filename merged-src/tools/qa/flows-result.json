@@ -1,0 +1,485 @@
+[
+ {
+  "name": "search \"Murabaha\" returns results",
+  "ok": true,
+  "extra": [
+   "All (540)",
+   "Financing mode (6)",
+   "Concept (13)"
+  ]
+ },
+ {
+  "name": "search \"Musharakah\" returns results",
+  "ok": true,
+  "extra": [
+   "All (331)",
+   "Financing mode (4)",
+   "Concept (5)"
+  ]
+ },
+ {
+  "name": "search \"Mudarabah\" returns results",
+  "ok": true,
+  "extra": [
+   "All (332)",
+   "Financing mode (4)",
+   "Concept (11)"
+  ]
+ },
+ {
+  "name": "search \"Ijarah\" returns results",
+  "ok": true,
+  "extra": [
+   "All (500)",
+   "Financing mode (6)",
+   "Concept (12)"
+  ]
+ },
+ {
+  "name": "search \"Salam\" returns results",
+  "ok": true,
+  "extra": [
+   "All (417)",
+   "Financing mode (4)",
+   "Concept (12)"
+  ]
+ },
+ {
+  "name": "search \"Istisna'a\" returns results",
+  "ok": true,
+  "extra": [
+   "All (245)",
+   "Financing mode (5)",
+   "Concept (8)"
+  ]
+ },
+ {
+  "name": "search \"Sukuk\" returns results",
+  "ok": true,
+  "extra": [
+   "All (317)",
+   "Financing mode (1)",
+   "Concept (11)"
+  ]
+ },
+ {
+  "name": "search \"Takaful\" returns results",
+  "ok": true,
+  "extra": [
+   "All (257)",
+   "Financing mode (3)",
+   "Concept (4)"
+  ]
+ },
+ {
+  "name": "search \"Tawarruq\" returns results",
+  "ok": true,
+  "extra": [
+   "All (97)",
+   "Financing mode (1)",
+   "Concept (2)"
+  ]
+ },
+ {
+  "name": "search \"Kafalah\" returns results",
+  "ok": true,
+  "extra": [
+   "All (60)",
+   "Financing mode (2)",
+   "Concept (1)"
+  ]
+ },
+ {
+  "name": "search \"Qard Hasan\" returns results",
+  "ok": true,
+  "extra": [
+   "All (60)",
+   "Financing mode (2)",
+   "Concept (1)"
+  ]
+ },
+ {
+  "name": "search \"AAOIFI\" returns results",
+  "ok": true,
+  "extra": [
+   "All (198)",
+   "Financing mode (1)",
+   "Concept (3)"
+  ]
+ },
+ {
+  "name": "search \"SPV\" returns results",
+  "ok": true,
+  "extra": [
+   "All (50)",
+   "Financing mode (1)",
+   "Concept (1)"
+  ]
+ },
+ {
+  "name": "search \"Hamish Jiddiyah\" returns results",
+  "ok": true,
+  "extra": [
+   "All (60)",
+   "Financing mode (2)",
+   "Concept (2)"
+  ]
+ },
+ {
+  "name": "search \"sleeping partner\" returns results",
+  "ok": true,
+  "extra": [
+   "All (20)",
+   "Financing mode (1)",
+   "Topic (6)"
+  ]
+ },
+ {
+  "name": "search \"weightage\" returns results",
+  "ok": true,
+  "extra": [
+   "All (36)",
+   "Concept (1)",
+   "Topic (8)"
+  ]
+ },
+ {
+  "name": "search \"Wakalah\" returns results",
+  "ok": true,
+  "extra": [
+   "All (170)",
+   "Financing mode (2)",
+   "Concept (3)"
+  ]
+ },
+ {
+  "name": "search \"Hawalah\" returns results",
+  "ok": true,
+  "extra": [
+   "All (98)",
+   "Financing mode (2)",
+   "Concept (2)"
+  ]
+ },
+ {
+  "name": "search \"Rahn\" returns results",
+  "ok": true,
+  "extra": [
+   "All (12)",
+   "Financing mode (2)",
+   "Concept (1)"
+  ]
+ },
+ {
+  "name": "search \"Gharar\" returns results",
+  "ok": true,
+  "extra": [
+   "All (200)",
+   "Financing mode (5)",
+   "Concept (4)"
+  ]
+ },
+ {
+  "name": "search \"Riba\" returns results",
+  "ok": true,
+  "extra": [
+   "All (394)",
+   "Financing mode (5)",
+   "Concept (9)"
+  ]
+ },
+ {
+  "name": "Murabaha search spans content types",
+  "ok": true,
+  "extra": [
+   "Financing mode",
+   "Concept",
+   "Topic",
+   "Definition",
+   "Glossary",
+   "Acronym",
+   "Product",
+   "Transaction diagram",
+   "Case study",
+   "Numerical",
+   "Calculator",
+   "Comparison",
+   "Question",
+   "Flashcard",
+   "Exam prompt",
+   "Chapter",
+   "Source"
+  ]
+ },
+ {
+  "name": "Murabaha explore hub shown",
+  "ok": true
+ },
+ {
+  "name": "live search suggestions open",
+  "ok": true,
+  "extra": {
+   "open": true,
+   "n": 8
+  }
+ },
+ {
+  "name": "question mcq [q1.1] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question mcq [q-ch18-30] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question tf [q1.2] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question tf [q-ch18-23] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question multi [q1.3] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question multi [q-ch18-27] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question match [q1.4] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question match [q18.21] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question definition [q1.5] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question definition [q18.11] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question scenario [q1.6] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question scenario [q-ch18-20] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question identify [q1.7] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question identify [q18.40] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question order [q1.9] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question order [q18.18] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question short [q1.10] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question short [q-ch18-28] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question application [q1.12] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question application [q18.39] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question comparison [q1.20] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question comparison [q-ch18-15] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question short:definition [q-ch1-9] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question short:definition [q-ch15-8] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question mcq:matching [q-ch5-10] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question mcq:matching [q-ch15-33] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question short:identify [q-ch5-23] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question short:identify [q-ch7-8] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question mcq:ordering [q-ch9-15] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "question mcq:ordering [q-ch13-9] answers correctly",
+  "ok": true,
+  "extra": "correct"
+ },
+ {
+  "name": "answers recorded in the single progress model",
+  "ok": true,
+  "extra": 30
+ },
+ {
+  "name": "flashcard session graded 6 cards with valid SRS state",
+  "ok": true,
+  "extra": {
+   "n": 6,
+   "bad": []
+  }
+ },
+ {
+  "name": "SRS fuzz: 20,000 random grades never produce NaN, negative or impossible values",
+  "ok": true,
+  "extra": {
+   "bad": 0,
+   "sample": {
+    "reps": 13,
+    "ease": 1.3,
+    "interval": 73,
+    "lapses": 1000,
+    "due": 1868979541292,
+    "last": 1862672341292,
+    "grade": 1
+   }
+  }
+ },
+ {
+  "name": "SRS corrupt-card sanitiser",
+  "ok": true
+ },
+ {
+  "name": "mock exam finishes with a review",
+  "ok": true
+ },
+ {
+  "name": "mock attempt recorded",
+  "ok": true
+ },
+ {
+  "name": "F1-style case reaches textbook answer and is recorded",
+  "ok": true
+ },
+ {
+  "name": "F2-style case reveals answer and is recorded",
+  "ok": true
+ },
+ {
+  "name": "finder pathway need reaches a result",
+  "ok": true
+ },
+ {
+  "name": "finder pathway purpose reaches a result",
+  "ok": true
+ },
+ {
+  "name": "guided plan crash45 completes",
+  "ok": true
+ },
+ {
+  "name": "guided plan revision90 completes",
+  "ok": true
+ },
+ {
+  "name": "guided plan deep180 completes",
+  "ok": true
+ },
+ {
+  "name": "all 25 calculators run with default, zero and negative inputs without NaN/Infinity/undefined",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "all numerical generators produce finite answers over textbook + 40 random seeds",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "bookmarks stored for topic and financing mode",
+  "ok": true
+ },
+ {
+  "name": "notes page lists the note",
+  "ok": true
+ },
+ {
+  "name": "theme toggle persists a setting",
+  "ok": true,
+  "extra": {
+   "t": "light",
+   "s": "light"
+  }
+ },
+ {
+  "name": "state persisted under ifl.v3 (APP_STATE_VERSION 3)",
+  "ok": true
+ },
+ {
+  "name": "no network requests (fully offline / standalone)",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "no JS/console errors during interactive QA",
+  "ok": true,
+  "extra": []
+ }
+]

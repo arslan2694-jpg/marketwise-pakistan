@@ -1,0 +1,17 @@
+{
+ "checks": 27,
+ "failed": 0,
+ "edge": [
+  "credit-price@NaN",
+  "pool-weightage@NaN",
+  "qard-vs-interest@NaN",
+  "parallel-istisna@NaN",
+  "mudarabah-mixed@NaN",
+  "sitara-tfc@NaN",
+  "dm-schedule@NaN",
+  "equity-screen@NaN",
+  "floating-rent@NaN",
+  "jualah-reward@NaN",
+  "late-payment@NaN"
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "numericals": 33,
+ "numericalsWithBookFigures": 12,
+ "calculators": 25,
+ "calcKinds": {
+  "calculator": 23,
+  "checker": 2
+ },
+ "questionTypes": {
+  "mcq": 295,
+  "tf": 205,
+  "multi": 120,
+  "match": 42,
+  "definition": 18,
+  "scenario": 206,
+  "identify": 122,
+  "order": 46,
+  "short": 141,
+  "application": 61,
+  "comparison": 82
+ },
+ "examKinds": {
+  "long": 32,
+  "short": 21,
+  "conceptual": 15,
+  "viva": 19,
+  "answer-plan": 26,
+  "difference": 11,
+  "scenario": 12
+ },
+ "quickChecks": 311,
+ "productQuestions": 198,
+ "supplements": 225,
+ "definitionsInTopics": 183,
+ "supplementDefinitions": 323,
+ "routes": null,
+ "achievements": 19,
+ "guidedPlans": 3,
+ "planSegments": [
+  10,
+  8,
+  10
+ ],
+ "finderPathways": 2,
+ "finderResults": 28,
+ "graphTriples": 2365,
+ "chapters": 18,
+ "sections": 311,
+ "parts": 3,
+ "bookSections": 149
+}

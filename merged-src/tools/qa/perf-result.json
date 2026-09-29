@@ -1,0 +1,16 @@
+{
+ "firstRenderMs": 611,
+ "bytes": 5991838,
+ "dcl": 526,
+ "load": 530,
+ "transfer": 5992138,
+ "searchIndexBuildMs": 53,
+ "searchQueryMs": 5,
+ "topicPageMs": 45,
+ "modesPageMs": 9,
+ "glossaryMs": 297,
+ "conceptMapMs": 33,
+ "searchPageMs": 58,
+ "heapMB": 45.2,
+ "domNodes": 1185
+}

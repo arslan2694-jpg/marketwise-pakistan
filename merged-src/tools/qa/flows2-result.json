@@ -1,0 +1,147 @@
+[
+ {
+  "name": "search result opens a page",
+  "ok": true
+ },
+ {
+  "name": "topic page shows extended study notes from the second source",
+  "ok": true
+ },
+ {
+  "name": "level switch changes lesson and extended notes (Beginner/MBA/Exam)",
+  "ok": true,
+  "extra": [
+   8101,
+   11445,
+   8361
+  ]
+ },
+ {
+  "name": "connected-learning panel offers questions and flashcards for the topic",
+  "ok": true
+ },
+ {
+  "name": "mark complete updates the single progress model",
+  "ok": true
+ },
+ {
+  "name": "Teach me runs its 9 steps to completion",
+  "ok": true
+ },
+ {
+  "name": "transaction diagram steps through parties, cash and ownership",
+  "ok": true
+ },
+ {
+  "name": "numerical shows worked solution",
+  "ok": true
+ },
+ {
+  "name": "mode page links diagram, products, case, numerical, calculator",
+  "ok": true
+ },
+ {
+  "name": "modes filter by category",
+  "ok": true
+ },
+ {
+  "name": "mode row expands (aria-expanded)",
+  "ok": true
+ },
+ {
+  "name": "compare-selected opens matrix with both modes",
+  "ok": true
+ },
+ {
+  "name": "learning-flow map highlights connections for a selected concept",
+  "ok": true
+ },
+ {
+  "name": "show-all draws every sequence link",
+  "ok": true,
+  "extra": 122
+ },
+ {
+  "name": "course map renders with pillars and concepts",
+  "ok": true
+ },
+ {
+  "name": "concept page: relationship graph, connected learning, mentions",
+  "ok": true
+ },
+ {
+  "name": "F2 concept id resolves to the merged concept",
+  "ok": true
+ },
+ {
+  "name": "glossary search filters terms",
+  "ok": true
+ },
+ {
+  "name": "glossary shows both study sources' definitions for a merged term",
+  "ok": true
+ },
+ {
+  "name": "acronyms tab lists the expansion",
+  "ok": true
+ },
+ {
+  "name": "products filter by category from the URL",
+  "ok": true
+ },
+ {
+  "name": "cases filter by financing mode (mixed sources)",
+  "ok": true
+ },
+ {
+  "name": "text size and reduced motion apply to the document",
+  "ok": true
+ },
+ {
+  "name": "export downloads a versioned JSON file",
+  "ok": true
+ },
+ {
+  "name": "import offers merge or replace",
+  "ok": true
+ },
+ {
+  "name": "first Tab stop is the skip link",
+  "ok": true,
+  "extra": "skip-link"
+ },
+ {
+  "name": "exactly one h1, one main, one nav landmark set; aria-current on active nav link",
+  "ok": true
+ },
+ {
+  "name": "modal is an aria-modal dialog with focus moved inside",
+  "ok": true,
+  "extra": {
+   "has": true,
+   "modal": "true",
+   "inside": true
+  }
+ },
+ {
+  "name": "Tab focus stays trapped inside the modal",
+  "ok": true
+ },
+ {
+  "name": "Escape closes the modal and returns focus",
+  "ok": true
+ },
+ {
+  "name": "flashcard flips with Space exactly once",
+  "ok": true
+ },
+ {
+  "name": "dark theme applied",
+  "ok": true
+ },
+ {
+  "name": "no JS errors in part 2",
+  "ok": true,
+  "extra": []
+ }
+]

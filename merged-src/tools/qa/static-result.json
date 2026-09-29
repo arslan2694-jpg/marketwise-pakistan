@@ -1,0 +1,73 @@
+{
+ "checks": [
+  {
+   "name": "document starts with <!DOCTYPE html> and has lang, charset and viewport",
+   "ok": true
+  },
+  {
+   "name": "markup is balanced (every opened element is closed)",
+   "ok": true,
+   "extra": {
+    "probs": [],
+    "unclosed": []
+   }
+  },
+  {
+   "name": "no duplicate ids in the static markup",
+   "ok": true,
+   "extra": []
+  },
+  {
+   "name": "static aria-controls / aria-labelledby / label-for targets exist",
+   "ok": true,
+   "extra": []
+  },
+  {
+   "name": "all 71 inline scripts parse without syntax errors",
+   "ok": true,
+   "extra": []
+  },
+  {
+   "name": "no external scripts, stylesheets, fonts, images or @import (works offline from file://)",
+   "ok": true,
+   "extra": {
+    "urls": [],
+    "cssUrls": [],
+    "imports": []
+   }
+  },
+  {
+   "name": "no web-app manifest / service-worker registration in the standalone file (no false PWA claims)",
+   "ok": true
+  },
+  {
+   "name": "no fetch / XMLHttpRequest / dynamic script injection",
+   "ok": true
+  },
+  {
+   "name": "no route pattern is registered twice (48 routes)",
+   "ok": true,
+   "extra": []
+  },
+  {
+   "name": "exactly one router, store, SRS, progress model, data layer, migration, calculator framework, question runner, search index and flashcard engine",
+   "ok": true,
+   "extra": []
+  },
+  {
+   "name": "single application shell (one header, one nav, one main)",
+   "ok": true
+  },
+  {
+   "name": "all 18 chapter data files and 15 shared data sets inlined",
+   "ok": true
+  },
+  {
+   "name": "embedded favicon is a data: URI",
+   "ok": true
+  }
+ ],
+ "bytes": 5972366,
+ "scripts": 71,
+ "routes": 48
+}

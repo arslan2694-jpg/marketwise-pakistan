@@ -1,0 +1,21 @@
+{
+ "counts": {
+  "topic": 311,
+  "question": 1338,
+  "flashcard": 1053,
+  "exam": 136,
+  "glossary": 191,
+  "acronym": 119,
+  "concept": 85,
+  "mode": 19,
+  "product": 58,
+  "case": 61,
+  "diagram": 34,
+  "comparison": 29,
+  "learningObjective": 240,
+  "supplement": 225,
+  "bookSections": 150,
+  "graphEdges": 2365
+ },
+ "problems": []
+}

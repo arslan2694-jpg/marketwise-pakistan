@@ -1,0 +1,252 @@
+{
+ "totalStrings": 52813,
+ "explainedTotal": {
+  "implicit true/false option labels (canonical tf questions store a boolean)": 150,
+  "typographic / spacing / case variant of a string that is present": 4,
+  "same wording re-ordered (identical content words) as a definition that is present": 1,
+  "internal id / route string (ids were canonicalised through alias tables)": 20,
+  "label kept with an “(extended)” suffix": 1
+ },
+ "totalLost": 0,
+ "report": [
+  {
+   "name": "F1 topics (311)",
+   "strings": 10964,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 topics (225)",
+   "strings": 7275,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 questions (771)",
+   "strings": 8043,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 questions (572; 5 true duplicates excluded)",
+   "strings": 7498,
+   "exactMissing": 150,
+   "explained": {
+    "implicit true/false option labels (canonical tf questions store a boolean)": 150
+   },
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 flashcards (498)",
+   "strings": 2490,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 flashcards (558; 3 true duplicates excluded)",
+   "strings": 2775,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 exam prompts (110)",
+   "strings": 1720,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 answer trainer sets (26)",
+   "strings": 412,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 chapter metadata",
+   "strings": 471,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 chapter metadata",
+   "strings": 303,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 glossary (191)",
+   "strings": 945,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 glossary (180)",
+   "strings": 697,
+   "exactMissing": 3,
+   "explained": {
+    "typographic / spacing / case variant of a string that is present": 2,
+    "same wording re-ordered (identical content words) as a definition that is present": 1
+   },
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 acronyms (119)",
+   "strings": 229,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 concepts (54)",
+   "strings": 1107,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 concept map (64 nodes, 124 edges)",
+   "strings": 64,
+   "exactMissing": 2,
+   "explained": {
+    "typographic / spacing / case variant of a string that is present": 2
+   },
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 financing-mode matrix (19)",
+   "strings": 434,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 comparison mode attributes (12)",
+   "strings": 155,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 products (58)",
+   "strings": 2248,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 transaction diagrams (34)",
+   "strings": 1462,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 cases (19)",
+   "strings": 580,
+   "exactMissing": 1,
+   "explained": {
+    "internal id / route string (ids were canonicalised through alias tables)": 1
+   },
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 cases (42)",
+   "strings": 504,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 comparison pairs (25)",
+   "strings": 517,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 comparisons (16)",
+   "strings": 390,
+   "exactMissing": 1,
+   "explained": {
+    "label kept with an “(extended)” suffix": 1
+   },
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 mode finder",
+   "strings": 135,
+   "exactMissing": 5,
+   "explained": {
+    "internal id / route string (ids were canonicalised through alias tables)": 5
+   },
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 decision tree",
+   "strings": 198,
+   "exactMissing": 14,
+   "explained": {
+    "internal id / route string (ids were canonicalised through alias tables)": 14
+   },
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F1 study plans",
+   "strings": 393,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 study modes",
+   "strings": 65,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  },
+  {
+   "name": "F2 book / chapter index",
+   "strings": 739,
+   "exactMissing": 0,
+   "explained": {},
+   "unexplained": 0,
+   "sample": []
+  }
+ ]
+}

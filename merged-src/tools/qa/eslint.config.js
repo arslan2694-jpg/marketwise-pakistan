@@ -1,0 +1,6 @@
+const browser = { window: 'readonly', document: 'readonly', localStorage: 'readonly', sessionStorage: 'readonly', location: 'readonly', history: 'readonly', navigator: 'readonly', console: 'readonly', setTimeout: 'readonly', clearTimeout: 'readonly', setInterval: 'readonly', clearInterval: 'readonly', matchMedia: 'readonly', Blob: 'readonly', URL: 'readonly', FileReader: 'readonly', Notification: 'readonly', performance: 'readonly', Promise: 'readonly', CSS: 'readonly', Event: 'readonly', getComputedStyle: 'readonly', IFL_DATA: 'readonly', IFL: 'writable' };
+module.exports = [{
+  files: ['**/*.js'], ignores: ['**/tools/**', '**/data/**'],
+  languageOptions: { ecmaVersion: 2022, sourceType: 'script', globals: browser },
+  rules: { 'no-undef': 'error', 'no-redeclare': 'error', 'no-dupe-keys': 'error', 'no-dupe-args': 'error', 'no-unreachable': 'error', 'no-const-assign': 'error', 'no-func-assign': 'error', 'no-unsafe-negation': 'error', 'use-isnan': 'error', 'valid-typeof': 'error', 'no-dupe-else-if': 'error', 'no-duplicate-case': 'error', 'no-empty-character-class': 'error', 'no-ex-assign': 'error', 'no-invalid-regexp': 'error', 'no-self-assign': 'error', 'no-unused-labels': 'error', 'no-cond-assign': 'error', 'no-unsafe-finally': 'error', 'getter-return': 'error' }
+}];
