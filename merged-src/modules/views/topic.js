@@ -80,6 +80,8 @@
       var qc = C.quickCheckQuestion(t);
       var next = IFL.course.nextTopic(t.id), prev = IFL.course.prevTopic(t.id);
       var bmItem = { type: 'topic', id: t.id, label: '§' + t.section + ' ' + t.title, route: '/topic/' + t.id };
+      /* keyboard: n / p move through the book, m toggles completion */
+      IFL.keys = function (k) { if (k === 'n' && next) { IFL.go('/topic/' + next.id); return true; } if (k === 'p' && prev) { IFL.go('/topic/' + prev.id); return true; } if (k === 'm') { completeBtn.click(); return true; } };
 
       var main = h('div.lesson-body.stack',
         h('header',
@@ -113,7 +115,8 @@
         h('nav.row.between', { 'aria-label': 'Topic navigation' },
           prev ? h('a.btn', { href: '#/topic/' + prev.id }, u.svg('left'), '§' + prev.section) : h('span'),
           h('a.btn', { href: '#/chapter/' + ch.number + '?tab=topics' }, 'Chapter ' + ch.number + ' topics'),
-          next ? h('a.btn.primary', { href: '#/topic/' + next.id }, '§' + next.section + ' ' + IFL.trunc(next.title, 26), u.svg('right')) : h('span')));
+          next ? h('a.btn.primary', { href: '#/topic/' + next.id }, '§' + next.section + ' ' + IFL.trunc(next.title, 26), u.svg('right')) : h('span')),
+        h('p.small.muted.key-hint', { 'aria-hidden': 'true' }, 'Keys: ', h('kbd', 'N'), ' next topic · ', h('kbd', 'P'), ' previous · ', h('kbd', 'M'), ' mark complete · ', h('kbd', 'Ctrl'), '+', h('kbd', 'K'), ' jump anywhere'));
 
       var aside = h('aside.lesson-aside', { 'aria-label': 'Chapter navigation' });
       function refreshAside() {

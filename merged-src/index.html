@@ -46,6 +46,7 @@
         <div class="suggest" id="search-suggest" role="listbox" aria-label="Search suggestions" hidden></div>
       </form>
       <div class="topbar-actions">
+        <button class="palette-btn" id="palette-btn" type="button" aria-label="Open the command palette (Ctrl or Command + K)" title="Jump anywhere (Ctrl/⌘ K)"><kbd>⌘K</kbd></button>
         <a class="streak-pill" id="streak-pill" href="#/progress" aria-label="Study streak"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-3 2-4 2-7 1.5 1 2 2 3 3 0-2 0-4 0-6z"/></svg><span class="streak-text">0-day streak</span></a>
         <button class="icon-btn" id="timer-btn" type="button" aria-label="Study timer" title="Study timer">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg>
@@ -62,6 +63,7 @@
     </nav>
     <div class="scrim" id="scrim" hidden></div>
 
+    <div class="read-progress" id="read-progress" aria-hidden="true" hidden><span></span></div>
     <main class="main" id="main" tabindex="-1">
       <div class="view" id="view" aria-live="polite">
         <div class="loading" role="status"><span class="spinner" aria-hidden="true"></span> Loading…</div>
@@ -128,6 +130,7 @@
 <script src="modules/components.js"></script>
 <script src="modules/calculators.js"></script>
 <script src="modules/views/dashboard.js"></script>
+<script src="modules/views/today.js"></script>
 <script src="modules/views/learn.js"></script>
 <script src="modules/views/topic.js"></script>
 <script src="modules/views/glossary.js"></script>
@@ -152,6 +155,7 @@
 <script src="modules/views/modes.js"></script>
 <script src="modules/views/sources.js"></script>
 <script src="modules/timer.js"></script>
+<script src="modules/palette.js"></script>
 <script src="modules/legacy-routes.js"></script>
 <script src="app.js"></script>
 </body>

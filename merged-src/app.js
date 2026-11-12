@@ -23,7 +23,7 @@
 
   /* ---------- Navigation (Learn → Practise → Apply → Calculate → Exam → Study → Reference → Personal) ---------- */
   var NAV = [
-    { label: null, items: [{ r: '/', t: 'Dashboard', i: 'home' }] },
+    { label: null, items: [{ r: '/', t: 'Dashboard', i: 'home' }, { r: '/today', t: 'Today’s session', i: 'calendar' }] },
     { label: 'Learn', items: [{ r: '/learn', t: 'Chapters and topics', i: 'book', sub: 'learn' }, { r: '/concepts', t: 'Concepts and map', i: 'map' }, { r: '/glossary', t: 'Glossary and acronyms', i: 'glossary' }] },
     { label: 'Practise', items: [{ r: '/quiz', t: 'Questions and quizzes', i: 'quiz' }, { r: '/practice', t: 'Adaptive practice and weak areas', i: 'target' }, { r: '/flashcards', t: 'Flashcards (spaced review)', i: 'cards' }, { r: '/mistakes', t: 'My mistakes', i: 'refresh' }] },
     { label: 'Apply', items: [{ r: '/modes', t: 'Financing modes', i: 'bank' }, { r: '/products', t: 'Products', i: 'layers' }, { r: '/diagrams', t: 'Transaction diagrams', i: 'flow' }, { r: '/cases', t: 'Case studies', i: 'case' }, { r: '/compare', t: 'Comparisons', i: 'compare' }, { r: '/finder', t: 'Which mode applies?', i: 'compass' }] },
@@ -33,6 +33,7 @@
     { label: 'Reference', items: [{ r: '/search', t: 'Search everything', i: 'search' }, { r: '/sources', t: 'Sources and page map', i: 'source' }] },
     { label: 'Personal', items: [{ r: '/progress', t: 'Progress and history', i: 'chart' }, { r: '/bookmarks', t: 'Bookmarks', i: 'bookmark' }, { r: '/notes', t: 'My notes', i: 'note' }, { r: '/settings', t: 'Settings', i: 'settings' }] }
   ];
+  IFL.navItems = []; NAV.forEach(function (g) { g.items.forEach(function (it) { IFL.navItems.push({ r: it.r, t: it.t, i: it.i, group: g.label || '' }); }); });
   var nav = document.getElementById('nav');
   var learnOpen = true;
   function buildNav() {
@@ -47,7 +48,7 @@
             IFL.course.parts.map(function (p) { var pp = IFL.progress.partProgress(p.id); return h('a.nav-link', { href: '#/learn/' + p.id, 'data-route': '/learn/' + p.id }, ({ 'part-i': 'Part I · Fundamentals', 'part-ii': 'Part II · Contracts', 'part-iii': 'Part III · Products' })[p.id] || p.title, h('span.nav-meter', pp.pct + '%')); }));
           toggle.addEventListener('click', function () { learnOpen = !learnOpen; toggle.setAttribute('aria-expanded', String(learnOpen)); sub.hidden = !learnOpen; });
           grp.appendChild(toggle); grp.appendChild(sub);
-        } else grp.appendChild(h('a.nav-link', { href: '#' + it.r, 'data-route': it.r }, u.svg(it.i), it.t, it.r === '/flashcards' && IFL.srs.dueCount() ? h('span.nav-meter', IFL.srs.dueCount() + ' due') : null));
+        } else grp.appendChild(h('a.nav-link', { href: '#' + it.r, 'data-route': it.r }, u.svg(it.i), it.t, it.r === '/flashcards' && IFL.srs.dueCount() ? h('span.nav-meter', IFL.srs.dueCount() + ' due') : it.r === '/today' ? (function () { var p = IFL.todayPlan(); return h('span.nav-meter', p.done + '/' + p.total); })() : null));
       });
       nav.appendChild(grp);
     });
@@ -131,9 +132,14 @@
   });
 
   /* Keep nav meters and streak fresh */
-  IFL.store.on(u.debounce(function (what) { if (['complete', 'review', 'import', 'reset', 'chapter'].indexOf(what) > -1) buildNav(); if (['tick', 'complete', 'import', 'reset', 'attempt', 'review'].indexOf(what) > -1) drawStreak(); }, 400));
+  IFL.store.on(u.debounce(function (what) { if (['complete', 'review', 'import', 'reset', 'chapter', 'attempt'].indexOf(what) > -1) buildNav(); if (['tick', 'complete', 'import', 'reset', 'attempt', 'review'].indexOf(what) > -1) drawStreak(); }, 400));
   var firstRender = true;   /* on the very first render keep focus at the top so the skip link is the first Tab stop; afterwards move focus to <main> on navigation */
-  IFL.afterRender = function () { if (firstRender) { firstRender = false; return; } var m = document.getElementById('main'); if (m && document.activeElement === document.body) m.focus({ preventScroll: true }); };
+  /* Reading progress: a thin bar under the top bar while a lesson is open. */
+  var rp = document.getElementById('read-progress'), rpBar = rp.firstElementChild, rpOn = false;
+  function drawRead() { if (!rpOn) return; var d = document.documentElement, max = d.scrollHeight - window.innerHeight; rpBar.style.width = (max > 40 ? Math.min(100, Math.max(0, 100 * window.scrollY / max)) : 0) + '%'; }
+  window.addEventListener('scroll', drawRead, { passive: true });
+  window.addEventListener('resize', drawRead);
+  IFL.afterRender = function () { rpOn = /^\/(topic|teach)\//.test(currentPath()); rp.hidden = !rpOn; drawRead(); if (firstRender) { firstRender = false; return; } var m = document.getElementById('main'); if (m && document.activeElement === document.body) m.focus({ preventScroll: true }); };
 
   /* Errors: never crash silently */
   window.addEventListener('error', function (e) { console.error(e.error || e.message); });

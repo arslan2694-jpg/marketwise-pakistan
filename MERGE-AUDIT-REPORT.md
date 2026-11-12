@@ -1,6 +1,6 @@
 # Merge Audit Report
 
-Generated 2026-09-29. Result of merging **File 1** (*Islamic-Finance-Learning*) and **File 2** (*Understanding-Islamic-Finance-STANDALONE*) into **Understanding-Islamic-Finance-MBA-Learning-System.html** (5.71 MB, single file, no network access).
+Generated 2026-11-12. Result of merging **File 1** (*Islamic-Finance-Learning*) and **File 2** (*Understanding-Islamic-Finance-STANDALONE*) into **Understanding-Islamic-Finance-MBA-Learning-System.html** (5.74 MB, single file, no network access).
 
 ## 1. Process followed
 
@@ -68,7 +68,7 @@ Structure classes not counted above: SHARED_DEPENDENCY = the 18 chapters / 3 par
 - File 2 exam prompts carry no “kind” (long/short…); they are labelled “Answer plan” rather than guessing.
 - Static page-number links to a local textbook PDF (File 1) were removed: the PDF is not shipped, so the link could only break. Page and PDF-page numbers are shown instead.
 - Verified in headless Chromium only (no Firefox / Safari / manual screen-reader pass).
-- First render 697 ms; the file is 5.7 MB because all content is embedded.
+- First render 253 ms; the file is 5.7 MB because all content is embedded.
 
 ## 6. Final zero-loss / duplication questions
 

@@ -1,6 +1,6 @@
 # Canonical Data Schema
 
-Generated 2026-09-29 from the built data (`merged-src/data/*.js`). Field tables list every field that occurs, its JSON type and how many records carry it.
+Generated 2026-11-12 from the built data (`merged-src/data/*.js`). Field tables list every field that occurs, its JSON type and how many records carry it.
 
 ## Principles
 

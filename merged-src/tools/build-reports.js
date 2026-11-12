@@ -9,7 +9,7 @@ const OUT = path.join(ROOT, '..');
 const audit = require('../data/_audit.json');
 const integ = require('../data/_integrity.json');
 const rd = f => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, 'qa', f), 'utf8')); } catch (e) { return null; } };
-const Q = { flows: rd('flows-result.json'), flows2: rd('flows2-result.json'), crawl: rd('crawl-result.json'), resp: rd('responsive-result.json'), calc: rd('calc-result.json'), stat: rd('static-result.json'), zl: rd('zero-loss-result.json'), counts: rd('counts-result.json'), perf: rd('perf-result.json'), migrate: rd('migrate-result.json'), lint: rd('lint-result.json') };
+const Q = { flows: rd('flows-result.json'), flows2: rd('flows2-result.json'), flows3: rd('flows3-result.json'), crawl: rd('crawl-result.json'), resp: rd('responsive-result.json'), calc: rd('calc-result.json'), stat: rd('static-result.json'), zl: rd('zero-loss-result.json'), counts: rd('counts-result.json'), perf: rd('perf-result.json'), migrate: rd('migrate-result.json'), lint: rd('lint-result.json') };
 const { loadF1, loadF2 } = require('./lib/load-sources');
 const D1 = loadF1(), D2 = loadF2();
 
@@ -31,7 +31,7 @@ const los = { f1: 0, f2: 0, merged: 0 }; Object.keys(audit.merged).filter(k => /
 const glossExt = S.glossary.filter(g => g.extendedDefinition).length, glossMatched = S.glossary.filter(g => g.origin.indexOf('f2') > -1).length;
 const cmpMerged = S.comparisons.pairs.filter(p => p.origin.length > 1).length;
 const eff = (q) => q ? (q.checks ? q.checks.filter(c => c.ok).length : q.filter ? q.filter(c => c.ok).length : 0) : 0;
-const flowsN = Q.flows ? Q.flows.length : 0, flowsOk = eff(Q.flows), flows2N = Q.flows2 ? Q.flows2.length : 0, flows2Ok = eff(Q.flows2);
+const flowsN = Q.flows ? Q.flows.length : 0, flowsOk = eff(Q.flows), flows2N = Q.flows2 ? Q.flows2.length : 0, flows2Ok = eff(Q.flows2), flows3N = Q.flows3 ? Q.flows3.length : 0, flows3Ok = eff(Q.flows3);
 
 /* ================= CONTENT-RECONCILIATION.md ================= */
 const rec = [
@@ -178,7 +178,23 @@ ${table(['Feature', 'File 1', 'File 2', 'Final implementation', 'Action'], feat)
 | LEGACY/COMPATIBILITY | Both storage formats, both route tables, F2 ids (topic, question, flashcard, concept, comparison, mode) |
 | UNKNOWN_REQUIRES_REVIEW | none remaining |
 `;
-fs.writeFileSync(path.join(OUT, 'FEATURE-INVENTORY.md'), featMd);
+const improveMd = `
+
+## Improvements added after the merge
+
+These are additions on top of the merged feature set. They read and write the same single state record (no new stored fields, APP_STATE_VERSION unchanged) and reuse the existing engines.
+
+| Feature | Where | What it does |
+|---|---|---|
+| Today’s session | \`#/today\`, dashboard card, sidebar meter | Four steps derived from the student’s own state: review due flashcards, learn the next topics (count follows the daily goal), practise the weakest topics or missed questions, apply with one case or numerical. A step is ticked only by activity recorded today. |
+| Daily goal ring and week chart | dashboard hero, \`#/today\` | Minutes studied today against the goal set in Settings; seven-day bar chart. |
+| Mastery map | dashboard | One tile per chapter, shaded by a blend of topic completion and accuracy on that chapter’s questions. |
+| Stat strip | dashboard | Six linked figures replace the eight separate stat cards. |
+| Command palette | Ctrl/⌘ + K, or the ⌘K button | Jump to any page, chapter or action, and search all content through the one search index. |
+| Lesson shortcuts | topic pages | N next topic, P previous, M mark complete. |
+| Reading progress | topic and Teach-me pages | Thin bar under the top bar showing scroll position. |
+`;
+fs.writeFileSync(path.join(OUT, 'FEATURE-INVENTORY.md'), featMd + improveMd);
 
 /* ================= DATA-SCHEMA.md ================= */
 function keyStats(arr) { const m = {}; arr.forEach(o => { if (o && typeof o === 'object') Object.keys(o).forEach(k => { m[k] = (m[k] || 0) + 1; }); }); return Object.keys(m).map(k => { const ex = arr.find(o => o && o[k] !== undefined); const v = ex ? ex[k] : null; const ty = Array.isArray(v) ? 'array' : typeof v; return [k, ty, Math.round(100 * m[k] / arr.length) + '%']; }); }
@@ -375,6 +391,7 @@ Generated ${date}. All suites live in \`merged-src/tools/qa/\` and run against t
 | Route crawler (\`crawl.js\`) | every route and every record page (${Q.crawl ? Q.crawl.routes : 1151} visited: all topics, chapters × tabs, cases, modes, products, diagrams, concepts, comparisons, exam prompts, numericals, calculators, plans), plus every internal link found on them | **${Q.crawl ? Q.crawl.problems : 0} problem pages; ${Q.crawl ? Q.crawl.uniqueLinks : 3099} unique internal links found, ${Q.crawl ? Q.crawl.extraLinksVisited : 2048} extra visited, ${Q.crawl ? Q.crawl.brokenLinks : 0} broken; ${Q.crawl ? Q.crawl.errors : 0} JS/console errors** |
 | Interactive flows 1 (\`flows.js\`) | search (21 terms incl. all required), all 11 question types answered correctly through the UI, flashcards, SRS fuzz (20,000 grades), mock exam, both case formats, both finder pathways, all 3 guided plans, all ${Q.counts ? Q.counts.calculators : 25} calculators (default/zero/negative), all ${Q.counts ? Q.counts.numericals : 33} numerical generators (textbook + 40 seeds), bookmarks/notes/theme, persistence, **no network requests** | **${flowsOk}/${flowsN} pass** |
 | Interactive flows 2 (\`flows2.js\`) | learning journey, extended notes and level switch, Teach me, diagram stepping, modes catalogue/compare, both concept-map views, glossary/acronyms, settings, export/import UI, skip link, modal focus trap, Escape/focus return, single flashcard flip | **${flows2Ok}/${flows2N} pass** |
+| Interactive flows 3 (\`flows3.js\`) | daily session (each step completes from real activity; yesterday’s work does not count), mastery map, stat strip, command palette (open, filter, content search, arrow keys, Enter, Escape, focus return, actions), lesson shortcuts N / P / M, reading-progress bar, 390 px overflow | **${flows3Ok}/${flows3N} pass** |
 | Migration (\`migrate.js\`) | File 2 state, File 1 state, both, imports of raw/own exports, unknown-file rejection, corrupt record, blocked storage | **32/32 pass** |
 | Calculations (\`calc.js\`) | ${Q.calc ? Q.calc.checks : 27} independently computed expected values (formulas re-derived in the test, not read from the app) + edge inputs (0, −1, 1e12, 0.005; non-numeric input is coerced to 0 by the input handler) on every calculator | **${Q.calc ? Q.calc.checks - Q.calc.failed : 27}/${Q.calc ? Q.calc.checks : 27} values correct; edge inputs: 0 problems** |
 | Responsive / accessibility (\`responsive.js\`) | horizontal overflow at 375 / 768 / 1280 px (light + dark) on 39 routes, unlabeled controls, tap targets, drawer, contrast of 13 token pairs in both themes | **overflow 0 · unlabeled 0 · small targets 0 · contrast all ≥ 4.5:1** |

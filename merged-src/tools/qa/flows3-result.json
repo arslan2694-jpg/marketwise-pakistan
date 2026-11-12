@@ -1,0 +1,181 @@
+[
+ {
+  "name": "dashboard shows today card with four steps",
+  "ok": true
+ },
+ {
+  "name": "mastery map has 18 chapter tiles, all \"not started\" on a fresh profile",
+  "ok": true
+ },
+ {
+  "name": "stat strip has six linked figures",
+  "ok": true
+ },
+ {
+  "name": "navigation lists today with a 0/4 meter",
+  "ok": true
+ },
+ {
+  "name": "fresh plan: 0 of 4, first step is review",
+  "ok": true,
+  "extra": {
+   "done": 0,
+   "total": 4,
+   "next": "review",
+   "routes": [
+    "/flashcards/review?chapter=1&scope=new&n=10",
+    "/topic/t1.1",
+    "/practice/run?n=10",
+    "/case/c-salam-wheat"
+   ]
+  }
+ },
+ {
+  "name": "today step route renders: /flashcards/review",
+  "ok": true
+ },
+ {
+  "name": "today step route renders: /topic/t1.1",
+  "ok": true
+ },
+ {
+  "name": "today step route renders: /practice/run",
+  "ok": true
+ },
+ {
+  "name": "today step route renders: /case/c-salam-wheat",
+  "ok": true
+ },
+ {
+  "name": "review step completes after grading cards (none due)",
+  "ok": true,
+  "extra": [
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "\"m\" marks the topic complete",
+  "ok": true
+ },
+ {
+  "name": "\"n\" moves to the next topic",
+  "ok": true,
+  "extra": {
+   "before": "#/topic/t1.1",
+   "after": "#/topic/t1.2"
+  }
+ },
+ {
+  "name": "\"p\" moves back to the previous topic",
+  "ok": true
+ },
+ {
+  "name": "learn step completes after two topics (30-minute goal)",
+  "ok": true,
+  "extra": [
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "reading progress bar is shown on lessons only",
+  "ok": true
+ },
+ {
+  "name": "reading progress reaches the end when scrolled to the bottom",
+  "ok": true
+ },
+ {
+  "name": "reading progress bar hidden elsewhere",
+  "ok": true
+ },
+ {
+  "name": "practise step completes after ten answers",
+  "ok": true,
+  "extra": {
+   "d": [
+    true,
+    true,
+    true,
+    false
+   ],
+   "next": "apply"
+  }
+ },
+ {
+  "name": "all four steps done after a case is worked",
+  "ok": true,
+  "extra": {
+   "done": 4,
+   "next": null
+  }
+ },
+ {
+  "name": "/today shows the all-done state",
+  "ok": true
+ },
+ {
+  "name": "week chart has seven days",
+  "ok": true
+ },
+ {
+  "name": "mastery map reflects activity in chapter 1",
+  "ok": true
+ },
+ {
+  "name": "yesterday's work does not count for today",
+  "ok": true
+ },
+ {
+  "name": "Ctrl+K opens the palette with focus in its input",
+  "ok": true
+ },
+ {
+  "name": "palette lists suggested and go-to commands",
+  "ok": true
+ },
+ {
+  "name": "palette filters commands",
+  "ok": true
+ },
+ {
+  "name": "Enter opens the selected command and closes the palette",
+  "ok": true
+ },
+ {
+  "name": "palette searches all content",
+  "ok": true
+ },
+ {
+  "name": "arrow keys move the selection",
+  "ok": true
+ },
+ {
+  "name": "Escape closes the palette and returns focus",
+  "ok": true
+ },
+ {
+  "name": "palette actions run (theme switch)",
+  "ok": true
+ },
+ {
+  "name": "no horizontal overflow at 390px on /",
+  "ok": true,
+  "extra": 390
+ },
+ {
+  "name": "no horizontal overflow at 390px on /today",
+  "ok": true,
+  "extra": 390
+ },
+ {
+  "name": "no JS errors in part 3",
+  "ok": true,
+  "extra": []
+ }
+]

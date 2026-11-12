@@ -648,6 +648,79 @@ dd, dt, li, td, th, p, h1, h2, h3, h4 { overflow-wrap: anywhere; }
 .badge { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
 .grid .btn { white-space: normal; height: auto; min-height: 38px; padding-top: 6px; padding-bottom: 6px; text-align: left; line-height: 1.25; }
 
+/* ---------- Daily session, mastery map, stat strip ---------- */
+.hero { background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 9%, var(--bg-elev)), var(--bg-elev) 55%); }
+.hero-rings { display: flex; gap: var(--sp-5); text-align: center; }
+.hero-rings .small { margin-top: 6px; }
+@media (max-width: 720px) { .hero { grid-template-columns: 1fr; } .hero-rings { justify-content: space-around; } }
+.today-steps { list-style: none; margin: 0; padding: 0; }
+.today-step { display: grid; grid-template-columns: 30px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 10px 0; margin: 0; border-bottom: 1px solid var(--border); }
+.today-step:last-child { border-bottom: 0; padding-bottom: 0; }
+.today-mark { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: var(--fs-sm); background: var(--bg-sunk); color: var(--text-2); border: 1px solid var(--border-strong); }
+.today-mark svg { width: 16px; height: 16px; }
+.today-step.next .today-mark { background: var(--accent); border-color: var(--accent); color: var(--accent-contrast); }
+.today-step.done .today-mark { background: var(--ok-soft); border-color: transparent; color: var(--ok); }
+.today-step.done .today-title { color: var(--text-2); }
+.today-title { font-weight: 650; }
+@media (max-width: 600px) { .today-step { grid-template-columns: 30px minmax(0, 1fr); } .today-step > .btn { grid-column: 2; justify-self: start; } }
+.today-head { display: grid; grid-template-columns: 1fr auto; gap: var(--sp-5); align-items: center; }
+.today-goal { text-align: center; display: grid; gap: 4px; justify-items: center; }
+@media (max-width: 720px) { .today-head { grid-template-columns: 1fr; } }
+.week-bars { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; text-align: center; }
+.week-col { height: 96px; background: var(--bg-sunk); border-radius: 6px; display: flex; align-items: flex-end; overflow: hidden; border: 1px solid var(--border); }
+.week-col span { display: block; width: 100%; background: color-mix(in srgb, var(--accent) 55%, var(--bg-sunk)); }
+.week-col span.full { background: var(--accent); }
+.stat-strip { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0; padding: 0; overflow: hidden; }
+.strip-item { display: flex; flex-direction: column; gap: 2px; padding: var(--sp-4); color: inherit; text-decoration: none; border-right: 1px solid var(--border); min-width: 0; }
+.strip-item:last-child { border-right: 0; }
+.strip-item:hover { background: var(--bg-hover); color: inherit; }
+.strip-item .v { font-size: var(--fs-xl); font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.15; }
+.strip-item .l { font-size: var(--fs-xs); color: var(--text-3); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; }
+@media (max-width: 1100px) { .stat-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); } .strip-item:nth-child(3) { border-right: 0; } .strip-item:nth-child(-n+3) { border-bottom: 1px solid var(--border); } }
+@media (max-width: 520px) { .stat-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); } .strip-item { border-bottom: 1px solid var(--border); } .strip-item:nth-child(3) { border-right: 1px solid var(--border); } .strip-item:nth-child(2n) { border-right: 0; } .strip-item:nth-last-child(-n+2) { border-bottom: 0; } }
+.mastery-grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 1100px) { .mastery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .mastery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.mastery-tile { display: grid; gap: 3px; padding: 10px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--bg-elev); color: var(--text); text-decoration: none; min-width: 0; transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease); }
+.mastery-tile:hover { border-color: var(--accent); color: var(--text); transform: translateY(-1px); }
+.mastery-tile .mt-n { font-family: var(--font-serif, Georgia, serif); font-size: var(--fs-lg); font-weight: 600; color: var(--accent); line-height: 1; }
+.mastery-tile .mt-t { font-size: var(--fs-xs); line-height: 1.3; min-height: 2.6em; overflow: hidden; }
+.mastery-tile .mt-m { font-size: var(--fs-xs); color: var(--text-2); font-variant-numeric: tabular-nums; }
+.mastery-tile[data-l="1"], .mastery-legend span[data-l="1"] { background: color-mix(in srgb, var(--accent) 7%, var(--bg-elev)); }
+.mastery-tile[data-l="2"], .mastery-legend span[data-l="2"] { background: color-mix(in srgb, var(--accent) 14%, var(--bg-elev)); }
+.mastery-tile[data-l="3"], .mastery-legend span[data-l="3"] { background: color-mix(in srgb, var(--accent) 22%, var(--bg-elev)); }
+.mastery-tile[data-l="4"], .mastery-legend span[data-l="4"] { background: color-mix(in srgb, var(--accent) 32%, var(--bg-elev)); border-color: color-mix(in srgb, var(--accent) 50%, var(--border)); }
+.mastery-legend { display: flex; align-items: center; gap: 4px; }
+.mastery-legend span { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--border); background: var(--bg-elev); }
+.reduce-motion .mastery-tile { transition: none; }
+.reduce-motion .mastery-tile:hover { transform: none; }
+
+/* ---------- Reading progress + command palette ---------- */
+.read-progress { position: fixed; top: var(--topbar-h); left: 0; right: 0; height: 3px; z-index: 29; pointer-events: none; }
+.read-progress span { display: block; height: 100%; width: 0; background: var(--accent); }
+.palette-btn { border: 1px solid var(--border); background: var(--bg-sunk); border-radius: 8px; height: 32px; padding: 0 8px; cursor: pointer; color: var(--text-2); }
+.palette-btn:hover { border-color: var(--accent); color: var(--accent); }
+.palette-btn:focus-visible { outline: none; box-shadow: var(--focus); }
+.palette-btn kbd, .palette kbd, .key-hint kbd { font: inherit; font-size: var(--fs-xs); font-weight: 600; background: var(--bg-elev); border: 1px solid var(--border-strong); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; color: var(--text-2); }
+.palette-btn kbd { border: 0; background: none; padding: 0; }
+@media (max-width: 720px) { .palette-btn, .key-hint { display: none; } }
+.modal-root .palette-backdrop { place-items: start center; padding-top: min(14vh, 120px); }
+.palette { width: min(640px, 100%); background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); overflow: hidden; display: flex; flex-direction: column; max-height: min(70vh, 560px); }
+.palette-head { display: flex; align-items: center; gap: 10px; padding: 12px 16px; border-bottom: 1px solid var(--border); }
+.palette-head svg { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; color: var(--text-3); }
+.palette-input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--text); font: inherit; font-size: var(--fs-md, 1rem); padding: 4px 0; }
+.palette-list { overflow-y: auto; padding: 6px; }
+.palette-group { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: .08em; font-weight: 700; color: var(--text-3); padding: 8px 10px 4px; }
+.palette-item { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 8px; cursor: pointer; min-width: 0; }
+.palette-item svg { width: 17px; height: 17px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; color: var(--text-3); }
+.palette-item .palette-title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.palette-item .small { flex: none; }
+.palette-item[aria-selected="true"] { background: var(--accent-soft); color: var(--accent); }
+.palette-item[aria-selected="true"] svg { color: var(--accent); }
+.palette-empty { padding: 18px 12px; }
+.palette-foot { display: flex; gap: 16px; padding: 8px 16px; border-top: 1px solid var(--border); background: var(--bg-sunk); }
+@media print { .read-progress, .palette-btn, .key-hint { display: none !important; } }
+
 </style>
 </head>
 <body>
@@ -672,6 +745,7 @@ dd, dt, li, td, th, p, h1, h2, h3, h4 { overflow-wrap: anywhere; }
         <div class="suggest" id="search-suggest" role="listbox" aria-label="Search suggestions" hidden></div>
       </form>
       <div class="topbar-actions">
+        <button class="palette-btn" id="palette-btn" type="button" aria-label="Open the command palette (Ctrl or Command + K)" title="Jump anywhere (Ctrl/⌘ K)"><kbd>⌘K</kbd></button>
         <a class="streak-pill" id="streak-pill" href="#/progress" aria-label="Study streak"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-3 2-4 2-7 1.5 1 2 2 3 3 0-2 0-4 0-6z"/></svg><span class="streak-text">0-day streak</span></a>
         <button class="icon-btn" id="timer-btn" type="button" aria-label="Study timer" title="Study timer">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg>
@@ -688,6 +762,7 @@ dd, dt, li, td, th, p, h1, h2, h3, h4 { overflow-wrap: anywhere; }
     </nav>
     <div class="scrim" id="scrim" hidden></div>
 
+    <div class="read-progress" id="read-progress" aria-hidden="true" hidden><span></span></div>
     <main class="main" id="main" tabindex="-1">
       <div class="view" id="view" aria-live="polite">
         <div class="loading" role="status"><span class="spinner" aria-hidden="true"></span> Loading…</div>
@@ -2819,34 +2894,58 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
     var avg = P.quizAverage(), due = IFL.srs.dueCount(), weak = P.weakTopics(5);
     var cur = s.last && s.last.topic ? IFL.course.topic(s.last.topic) : null;
 
+    var plan = IFL.todayPlan();
     var hero = h('section.card.hero', { 'aria-labelledby': 'dash-title' },
       h('div',
         h('div.eyebrow', 'Understanding Islamic Finance · Muhammad Ayub'),
         h('h1#dash-title', started ? 'Welcome back' + name : 'Welcome' + name),
-        h('p.text-2', started ? 'Pick up where you left off, or follow the recommendation below. Everything here reflects your own study activity.' : 'A structured study platform for all 18 chapters of the textbook — lessons at three levels, diagrams, flashcards, quizzes, case studies and exam preparation. Your progress is saved only on this device.'),
+        h('p.text-2', started ? 'Pick up where you left off, or work through today’s session. Everything here reflects your own study activity.' : 'A structured study platform for all 18 chapters of the textbook — lessons at three levels, diagrams, flashcards, quizzes, case studies and exam preparation. Your progress is saved only on this device.'),
         h('div.row', { style: { marginTop: '12px' } },
           cur ? h('a.btn.primary.lg', { href: '#/topic/' + cur.id }, u.svg('play'), 'Continue: §' + cur.section + ' ' + trunc(cur.title, 38)) : h('a.btn.primary.lg', { href: '#/chapter/1' }, u.svg('play'), 'Start Chapter 1'),
           h('a.btn.lg', { href: '#/guided/crash45' }, u.svg('bolt'), '45-minute crash course'))),
-      h('div', C.ring(o.pct, 120, 'Course completion'), h('div.small.muted', { style: { textAlign: 'center', marginTop: '6px' } }, o.done + ' / ' + o.total + ' topics')));
+      h('div.hero-rings',
+        h('div', C.ring(o.pct, 104, 'Course completion'), h('div.small.muted', o.done + ' / ' + o.total + ' topics')),
+        h('div', C.ring(plan.goalPct, 104, 'Daily study goal'), h('div.small.muted', Math.floor(plan.seconds / 60) + ' / ' + plan.goalMin + ' min today'))));
 
-    var nextCard = recs.length ? h('section.card.next-card', { 'aria-labelledby': 'next-title' },
+    var todayCard = h('section.card.next-card', { 'aria-labelledby': 'today-title' },
+      h('div.card-title', h('h2#today-title', 'Today’s session'), h('div.row', h('span.badge.' + (plan.next ? '' : 'accent'), plan.done + ' of ' + plan.total + ' done'), h('a.btn.sm', { href: '#/today' }, 'Open'))),
+      IFL.todaySteps(plan, true));
+
+    var extra = recs.filter(function (r) { return r.kind !== 'continue' && r.kind !== 'cards'; }).slice(0, 2);
+    var nextCard = extra.length ? h('section.card', { 'aria-labelledby': 'next-title' },
       h('div.card-title', h('h2#next-title', 'Recommended next')),
-      h('div.stack', recs.map(function (r, i) {
-        return h('div.row', { style: { alignItems: 'flex-start', gap: '14px', paddingBottom: i < recs.length - 1 ? '12px' : 0, borderBottom: i < recs.length - 1 ? '1px solid var(--border)' : 0 } },
-          h('span.badge.' + (i === 0 ? 'accent' : ''), { style: { marginTop: '2px' } }, u.svg(r.icon)),
-          h('div', { style: { flex: 1, minWidth: '200px' } }, h('div', { style: { fontWeight: 650 } }, r.title), h('div.why', r.why)),
-          h('div.row', h('a.btn' + (i === 0 ? '.primary' : ''), { href: '#' + r.route }, r.action), r.extra ? h('a.btn', { href: '#' + r.extra.route }, r.extra.label) : null));
+      h('div.stack', extra.map(function (r, i) {
+        return h('div.row', { style: { alignItems: 'flex-start', gap: '14px', paddingBottom: i < extra.length - 1 ? '12px' : 0, borderBottom: i < extra.length - 1 ? '1px solid var(--border)' : 0 } },
+          h('span.badge', { style: { marginTop: '2px' } }, u.svg(r.icon)),
+          h('div', { style: { flex: 1, minWidth: '200px' } }, h('div', { style: { fontWeight: 650 } }, r.title), h('div.why.small.text-2', r.why)),
+          h('div.row', h('a.btn', { href: '#' + r.route }, r.action), r.extra ? h('a.btn', { href: '#' + r.extra.route }, r.extra.label) : null));
       }))) : null;
 
-    var stats = h('section.grid.grid-4.stats-grid', { 'aria-label': 'Study statistics' },
-      statCard('Chapters completed', o.chaptersDone + ' / 18', o.chaptersVisited + ' visited'),
-      statCard('Topics completed', o.done, o.visited + ' opened'),
-      statCard('Quiz average', avg == null ? '—' : avg + '%', s.attempts.length + ' quiz' + (s.attempts.length === 1 ? '' : 'zes') + ' taken'),
-      statCard('Flashcards reviewed', P.reviewCount(), due ? due + ' due now' : 'none due'),
-      statCard('Study streak', P.streak() + (P.streak() === 1 ? ' day' : ' days'), '≥ 1 min counts as a study day'),
-      statCard('Study time', u.fmtDuration(P.studySeconds()), 'today ' + u.fmtDuration(s.days[u.dayKey()] || 0)),
-      statCard('Bookmarks', s.bookmarks.length, h('a', { href: '#/bookmarks' }, 'Open bookmarks')),
-      statCard('Notes', s.notes.length, h('a', { href: '#/notes' }, 'Open notes')));
+    /* Mastery map: one tile per chapter. Level blends completion with accuracy on answered questions. */
+    var tstats = P.topicStats();
+    var tiles = IFL.course.chapters.map(function (c) {
+      var cp = P.chapterProgress(c.n), n = 0, ok = 0;
+      c.topicObjs.forEach(function (t) { var r = tstats[t.id]; if (r) { n += r.n; ok += r.correct; } });
+      var acc = n ? Math.round(100 * ok / n) : null;
+      var score = acc == null ? cp.pct * 0.5 : cp.pct * 0.5 + acc * 0.5;
+      var lvl = !cp.visited && !n ? 0 : score >= 85 ? 4 : score >= 60 ? 3 : score >= 30 ? 2 : 1;
+      var label = ['Not started', 'Started', 'In progress', 'Solid', 'Mastered'][lvl];
+      return h('a.mastery-tile', { href: '#/chapter/' + c.n, 'data-l': lvl, 'aria-label': 'Chapter ' + c.n + ': ' + c.title + '. ' + label + '. ' + cp.done + ' of ' + cp.total + ' topics complete' + (acc == null ? '' : ', accuracy ' + acc + '%') },
+        h('span.mt-n', String(c.n)), h('span.mt-t', trunc(c.title, 34)),
+        h('span.mt-m', cp.done + '/' + cp.total + (acc == null ? '' : ' · ' + acc + '%')), C.bar(cp.pct, 'thin'));
+    });
+    var masteryCard = h('section.card', { 'aria-labelledby': 'mastery-title' },
+      h('div.card-title', h('h2#mastery-title', 'Mastery map'), h('div.mastery-legend.small.muted', { 'aria-hidden': 'true' }, 'Not started', [0, 1, 2, 3, 4].map(function (l) { return h('span', { 'data-l': l }); }), 'Mastered')),
+      h('div.mastery-grid', tiles),
+      h('p.small.muted', { style: { marginTop: '10px' } }, 'Each tile blends topic completion with your accuracy on that chapter’s questions. Open a tile to study the chapter.'));
+
+    var stats = h('section.card.stat-strip', { 'aria-label': 'Study statistics' },
+      strip('Chapters', o.chaptersDone + ' / 18', o.chaptersVisited + ' visited', '/learn'),
+      strip('Quiz average', avg == null ? '—' : avg + '%', s.attempts.length + ' quiz' + (s.attempts.length === 1 ? '' : 'zes'), '/quiz'),
+      strip('Flashcards', P.reviewCount(), due ? due + ' due now' : 'none due', '/flashcards'),
+      strip('Streak', P.streak() + (P.streak() === 1 ? ' day' : ' days'), '≥ 1 min a day', '/progress'),
+      strip('Study time', u.fmtDuration(P.studySeconds()), 'today ' + u.fmtDuration(s.days[u.dayKey()] || 0), '/progress'),
+      strip('Saved', s.bookmarks.length + s.notes.length, s.bookmarks.length + ' bookmarks · ' + s.notes.length + ' notes', '/bookmarks'));
 
     var partsCard = h('section.card', h('div.card-title', h('h2', 'Progress by part'), h('a.btn.sm', { href: '#/progress' }, 'Details')),
       h('div.stack', IFL.course.parts.map(function (p) {
@@ -2886,22 +2985,136 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
         ['#/mock', 'flame', 'Timed mock exam'], ['#/tools', 'calc', 'Interactive tools'], ['#/mistakes', 'refresh', 'My mistakes' + (function () { var n = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false; }).length; return n ? ' (' + n + ')' : ''; })()]
       ].map(function (x) { return h('a.btn', { href: x[0], style: { justifyContent: 'flex-start' } }, u.svg(x[1]), x[2]); })));
 
-    var plan = IFL.buildPlan ? IFL.buildPlan() : null;
-    var planCard = plan && !plan.past ? h('section.card', h('div.card-title', h('h2', 'Exam in ' + plan.daysLeft + ' day' + (plan.daysLeft === 1 ? '' : 's')), h('a.btn.sm', { href: '#/planner' }, 'Planner')),
-      plan.days[0] && plan.days[0].kind === 'learn' ? h('p.small', 'Today: ' + plan.days[0].topics.length + ' topic' + (plan.days[0].topics.length > 1 ? 's' : '') + ' (~' + plan.days[0].minutes + ' min), starting with ', h('a', { href: '#/topic/' + plan.days[0].topics[0].id }, '§' + plan.days[0].topics[0].section + ' ' + trunc(plan.days[0].topics[0].title, 40)), '.')
-        : h('p.small', plan.remaining ? 'Revision period: rapid revision, mistakes and a mock exam.' : 'All topics complete — revise and take mock exams.'))
+    var xplan = IFL.buildPlan ? IFL.buildPlan() : null;
+    var planCard = xplan && !xplan.past ? h('section.card', h('div.card-title', h('h2', 'Exam in ' + xplan.daysLeft + ' day' + (xplan.daysLeft === 1 ? '' : 's')), h('a.btn.sm', { href: '#/planner' }, 'Planner')),
+      xplan.days[0] && xplan.days[0].kind === 'learn' ? h('p.small', 'Today: ' + xplan.days[0].topics.length + ' topic' + (xplan.days[0].topics.length > 1 ? 's' : '') + ' (~' + xplan.days[0].minutes + ' min), starting with ', h('a', { href: '#/topic/' + xplan.days[0].topics[0].id }, '§' + xplan.days[0].topics[0].section + ' ' + trunc(xplan.days[0].topics[0].title, 40)), '.')
+        : h('p.small', xplan.remaining ? 'Revision period: rapid revision, mistakes and a mock exam.' : 'All topics complete — revise and take mock exams.'))
       : h('section.card', h('div.card-title', h('h2', 'Exam date'), h('a.btn.sm', { href: '#/planner' }, 'Set date')), h('p.small.muted', 'Set your exam date to get a day-by-day plan built from your progress.'));
-    return h('div.stack', hero, nextCard, planCard, stats,
+    return h('div.stack', hero, todayCard, stats, masteryCard,
+      h('div.grid.grid-2', nextCard, planCard),
       h('div.grid.grid-2', partsCard, weakCard),
       h('div.grid.grid-2', readyCard, actCard),
       h('div.grid.grid-2', bmCard, quick));
   });
 
-  function statCard(label, value, sub) { return h('div.card', C.stat(value, label), h('div.small.muted', { style: { marginTop: '4px' } }, sub)); }
+  function strip(label, value, sub, route) { return h('a.strip-item', { href: '#' + route }, h('span.v', value), h('span.l', label), h('span.small.muted', sub)); }
   function trunc(s, n) { return s.length > n ? s.slice(0, n - 1) + '…' : s; }
   IFL.trunc = trunc;
 })();
 
+
+</script>
+<script data-src="modules/views/today.js">
+/* Today: one daily session assembled from the student's own state — review what is due, learn the next
+   topics, practise the weakest material, apply it once. Every step is derived from the single progress
+   model (nothing is stored separately), so it stays correct after imports, resets and migrations. */
+(function () {
+  var IFL = window.IFL, u = IFL.u, h = u.h, C = IFL.c;
+  var PRACTICE_TARGET = 10;
+
+  function startOfDay() { var n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()).getTime(); }
+  function count(obj, test) { var n = 0; Object.keys(obj || {}).forEach(function (k) { if (test(obj[k])) n++; }); return n; }
+
+  /* Next unfinished topics in book order, starting from the chapter the student was last in. */
+  function nextTopics(k) {
+    var ids = IFL.course.allTopicIds, s = IFL.store.state, out = [], start = 0;
+    if (s.last && s.last.chapter) { for (var i = 0; i < ids.length; i++) { if (IFL.course.topic(ids[i]).chapter === s.last.chapter) { start = i; break; } } }
+    for (var j = 0; j < ids.length && out.length < k; j++) { var id = ids[(start + j) % ids.length]; if (!IFL.progress.isComplete(id)) out.push(IFL.course.topic(id)); }
+    return out;
+  }
+
+  IFL.todayPlan = function () {
+    var s = IFL.store.state, P = IFL.progress, D = IFL.data, sod = startOfDay();
+    var goal = Number(s.settings.dailyGoal) || 30;
+    var seconds = s.days[u.dayKey()] || 0;
+    var reviewsToday = s.reviews.filter(function (r) { return r.ts >= sod; }).length;
+    var topicsToday = count(s.topics, function (t) { return t.completed && t.completed >= sod; });
+    var answersToday = count(s.answers, function (a) { return a.last && a.last >= sod; });
+    var appliedToday = count(s.cases, function (c) { return c.ts >= sod; }) + count(s.numericals, function (c) { return c.last >= sod; }) + count(s.calcs, function (c) { return c.last >= sod; });
+    var steps = [];
+
+    /* 1 — Review */
+    var due = IFL.srs.dueCount(), scheduled = Object.keys(s.cards).length;
+    var lastCh = (s.last && s.last.chapter) || 1;
+    if (due > 0) steps.push({ id: 'review', icon: 'cards', title: 'Review ' + due + ' due flashcard' + (due === 1 ? '' : 's'), detail: 'Spaced review first: these cards are scheduled for today or earlier.', route: '/flashcards/review?scope=due', action: 'Review', done: false, progress: reviewsToday ? reviewsToday + ' reviewed today' : null });
+    else if (reviewsToday > 0) steps.push({ id: 'review', icon: 'cards', title: 'Flashcard review', detail: 'Nothing else is due. ' + reviewsToday + ' card' + (reviewsToday === 1 ? '' : 's') + ' reviewed today.', route: '/flashcards', action: 'Open decks', done: true });
+    else steps.push({ id: 'review', icon: 'cards', title: scheduled ? 'Add new flashcards from Chapter ' + lastCh : 'Start your flashcard schedule', detail: scheduled ? 'No cards are due today — introduce a few new ones so tomorrow has something to review.' : 'Grade ten cards from Chapter ' + lastCh + ' and the scheduler will bring them back at the right time.', route: '/flashcards/review?chapter=' + lastCh + '&scope=new&n=10', action: 'Start', done: false });
+
+    /* 2 — Learn */
+    var target = Math.max(1, Math.round(goal / 15)), upcoming = nextTopics(Math.max(1, target - topicsToday));
+    var total = IFL.progress.overall();
+    if (total.done >= total.total) steps.push({ id: 'learn', icon: 'book', title: 'All 311 topics complete', detail: 'Use the time for a mock exam or rapid revision.', route: '/mock', action: 'Mock exam', done: true });
+    else if (topicsToday >= target) steps.push({ id: 'learn', icon: 'book', title: 'Learn new topics', detail: topicsToday + ' topic' + (topicsToday === 1 ? '' : 's') + ' completed today (goal ' + target + ').' + (upcoming[0] ? ' Next up: §' + upcoming[0].section + ' ' + upcoming[0].title + '.' : ''), route: upcoming[0] ? '/topic/' + upcoming[0].id : '/learn', action: 'Keep going', done: true });
+    else steps.push({ id: 'learn', icon: 'book', title: 'Learn ' + (target - topicsToday) + ' topic' + (target - topicsToday === 1 ? '' : 's'), detail: 'Next: ' + upcoming.map(function (t) { return '§' + t.section + ' ' + IFL.trunc(t.title, 46); }).join(' · '), route: '/topic/' + upcoming[0].id, action: topicsToday ? 'Continue' : 'Start', done: false, progress: topicsToday + ' of ' + target + ' completed today', topics: upcoming });
+
+    /* 3 — Practise */
+    var weak = P.weakTopics(3), missed = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false && D.question(k); });
+    var pr;
+    if (weak.length) pr = { title: 'Practise your weakest topics', detail: weak.map(function (w) { return '§' + w.topic.section + ' (' + w.pct + '%)'; }).join(' · ') + ' — accuracy below 70%.', route: '/practice/run?topics=' + weak.map(function (w) { return w.id; }).join(',') + '&n=' + PRACTICE_TARGET };
+    else if (missed.length) pr = { title: 'Retry ' + Math.min(missed.length, PRACTICE_TARGET) + ' missed question' + (missed.length === 1 ? '' : 's'), detail: 'Questions whose most recent answer was wrong.', route: '/quiz/run?retry=' + missed.slice(0, PRACTICE_TARGET).join(',') };
+    else pr = { title: 'Answer ' + PRACTICE_TARGET + ' practice questions', detail: 'A personalised set: unseen questions from topics you have studied come first.', route: '/practice/run?n=' + PRACTICE_TARGET };
+    pr.id = 'practise'; pr.icon = 'target'; pr.action = answersToday ? 'Continue' : 'Start'; pr.done = answersToday >= PRACTICE_TARGET;
+    pr.progress = answersToday + ' of ' + PRACTICE_TARGET + ' questions answered today';
+    if (pr.done) { pr.detail = answersToday + ' questions answered today.'; pr.action = 'More practice'; pr.route = '/practice'; }
+    steps.push(pr);
+
+    /* 4 — Apply */
+    var open = D.cases.filter(function (c) { return !s.cases[c.id]; });
+    var near = open.filter(function (c) { return IFL.progress.chapterProgress(c.chapter).visited > 0; })[0] || open[0];
+    if (appliedToday) steps.push({ id: 'apply', icon: 'case', title: 'Apply it', detail: 'Done — you worked a case, numerical or calculator today.', route: '/cases', action: 'More cases', done: true });
+    else if (near) steps.push({ id: 'apply', icon: 'case', title: 'Work one case study', detail: near.title + ' (Chapter ' + near.chapter + ').', route: '/case/' + near.id, action: 'Open case', done: false });
+    else steps.push({ id: 'apply', icon: 'sum', title: 'Solve one numerical', detail: 'Every case study is worked — keep the calculations sharp.', route: '/numericals', action: 'Open trainer', done: false });
+
+    var doneN = steps.filter(function (x) { return x.done; }).length;
+    return { steps: steps, done: doneN, total: steps.length, next: steps.filter(function (x) { return !x.done; })[0] || null,
+      goalMin: goal, seconds: seconds, goalPct: Math.min(100, Math.round(100 * seconds / (goal * 60))) };
+  };
+
+  /* Shared renderer (dashboard card and /today page). */
+  IFL.todaySteps = function (plan, compact) {
+    return h('ol.today-steps', plan.steps.map(function (st, i) {
+      var isNext = plan.next === st;
+      return h('li.today-step' + (st.done ? '.done' : '') + (isNext ? '.next' : ''),
+        h('span.today-mark', { 'aria-hidden': 'true' }, st.done ? u.svg('check') : String(i + 1)),
+        h('div.today-text',
+          h('div.today-title', st.title, st.done ? h('span.sr-only', ' (done)') : null),
+          compact && !isNext ? null : h('div.small.text-2', st.detail),
+          st.progress && !st.done ? h('div.small.muted', st.progress) : null),
+        h('a.btn' + (isNext ? '.primary' : '.sm'), { href: '#' + st.route, 'aria-label': st.action + ': ' + st.title }, st.action));
+    }));
+  };
+
+  IFL.route('/today', function () {
+    var plan = IFL.todayPlan(), s = IFL.store.state;
+    var allDone = !plan.next;
+    var head = h('header.card.today-head',
+      h('div',
+        h('div.eyebrow', new Date().toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long' })),
+        h('h1', 'Today’s session'),
+        h('p.text-2', allDone ? 'All four steps are done. Anything further today is a bonus — the schedule will have fresh work for you tomorrow.'
+          : 'Four short steps, in the order that makes them stick: review, learn, practise, apply. Each one is chosen from your own progress.'),
+        h('div.row', { style: { marginTop: '10px' } },
+          plan.next ? h('a.btn.primary.lg', { href: '#' + plan.next.route }, u.svg('play'), 'Step ' + (plan.steps.indexOf(plan.next) + 1) + ': ' + plan.next.action) : h('a.btn.primary.lg', { href: '#/revision-cards' }, u.svg('bolt'), 'Rapid revision'),
+          h('a.btn.lg', { href: '#/timer' }, u.svg('clock'), 'Study timer'))),
+      h('div.today-goal', C.ring(plan.goalPct, 112, 'Daily study goal'),
+        h('div.small.muted', u.fmtDuration(plan.seconds) + ' of ' + plan.goalMin + ' min'),
+        h('a.small', { href: '#/settings' }, 'Change goal')));
+    var streak = IFL.progress.streak();
+    var body = h('section.card', h('div.card-title', h('h2', plan.done + ' of ' + plan.total + ' steps done'), h('span.badge.' + (streak ? 'accent' : ''), streak + '-day streak')),
+      IFL.todaySteps(plan, false));
+    var days = IFL.progress.lastDays(7);
+    var week = h('section.card', h('div.card-title', h('h2', 'This week')),
+      h('div.week-bars', { role: 'img', 'aria-label': 'Minutes studied on each of the last seven days' }, days.map(function (d) {
+        var m = Math.round(d.sec / 60), pct = Math.min(100, Math.round(100 * d.sec / (plan.goalMin * 60)));
+        return h('div.week-day', h('div.week-col', h('span' + (pct >= 100 ? '.full' : ''), { style: { height: Math.max(pct, d.sec ? 6 : 0) + '%' } })), h('div.small.tabular', m + 'm'), h('div.small.muted', new Date(d.key + 'T12:00:00').toLocaleDateString(undefined, { weekday: 'short' })));
+      })),
+      h('p.small.muted', { style: { marginTop: '8px' } }, 'Bars fill to your daily goal of ' + plan.goalMin + ' minutes. Time counts while the app is open and you are active.'));
+    var recs = IFL.progress.recommendations().slice(0, 3);
+    var more = recs.length ? h('section.card', h('div.card-title', h('h2', 'Also worth doing')), h('ul.list', recs.map(function (r) { return h('li', h('a', { href: '#' + r.route }, r.title), h('div.small.muted', r.why)); }))) : null;
+    void s;
+    return h('div.stack', head, body, h('div.grid.grid-2', week, more));
+  });
+})();
 
 </script>
 <script data-src="modules/views/learn.js">
@@ -3167,6 +3380,8 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
       var qc = C.quickCheckQuestion(t);
       var next = IFL.course.nextTopic(t.id), prev = IFL.course.prevTopic(t.id);
       var bmItem = { type: 'topic', id: t.id, label: '§' + t.section + ' ' + t.title, route: '/topic/' + t.id };
+      /* keyboard: n / p move through the book, m toggles completion */
+      IFL.keys = function (k) { if (k === 'n' && next) { IFL.go('/topic/' + next.id); return true; } if (k === 'p' && prev) { IFL.go('/topic/' + prev.id); return true; } if (k === 'm') { completeBtn.click(); return true; } };
 
       var main = h('div.lesson-body.stack',
         h('header',
@@ -3200,7 +3415,8 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
         h('nav.row.between', { 'aria-label': 'Topic navigation' },
           prev ? h('a.btn', { href: '#/topic/' + prev.id }, u.svg('left'), '§' + prev.section) : h('span'),
           h('a.btn', { href: '#/chapter/' + ch.number + '?tab=topics' }, 'Chapter ' + ch.number + ' topics'),
-          next ? h('a.btn.primary', { href: '#/topic/' + next.id }, '§' + next.section + ' ' + IFL.trunc(next.title, 26), u.svg('right')) : h('span')));
+          next ? h('a.btn.primary', { href: '#/topic/' + next.id }, '§' + next.section + ' ' + IFL.trunc(next.title, 26), u.svg('right')) : h('span')),
+        h('p.small.muted.key-hint', { 'aria-hidden': 'true' }, 'Keys: ', h('kbd', 'N'), ' next topic · ', h('kbd', 'P'), ' previous · ', h('kbd', 'M'), ' mark complete · ', h('kbd', 'Ctrl'), '+', h('kbd', 'K'), ' jump anywhere'));
 
       var aside = h('aside.lesson-aside', { 'aria-label': 'Chapter navigation' });
       function refreshAside() {
@@ -6217,6 +6433,97 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
 
 
 </script>
+<script data-src="modules/palette.js">
+/* Command palette (Ctrl/Cmd + K): jump to any page, chapter or study action, or search all content,
+   without leaving the keyboard. It reuses the one search index — there is no second search system. */
+(function () {
+  var IFL = window.IFL, u = IFL.u, h = u.h;
+  var openState = null;
+
+  function commands() {
+    var s = IFL.store.state, out = [], plan = IFL.todayPlan ? IFL.todayPlan() : null;
+    function add(group, title, route, icon, hint, run) { out.push({ group: group, title: title, route: route, icon: icon, hint: hint || '', run: run, n: u.norm(title + ' ' + (hint || '')) }); }
+    if (plan && plan.next) add('Suggested', 'Today: ' + plan.next.title, plan.next.route, plan.next.icon, 'next step of today’s session');
+    if (s.last && s.last.topic && IFL.course.topic(s.last.topic)) { var t = IFL.course.topic(s.last.topic); add('Suggested', 'Continue §' + t.section + ' ' + t.title, '/topic/' + t.id, 'play', 'where you left off'); }
+    var due = IFL.srs.dueCount(); if (due) add('Suggested', 'Review ' + due + ' due flashcards', '/flashcards/review?scope=due', 'cards');
+    add('Suggested', 'Today’s session', '/today', 'calendar', 'daily plan');
+    (IFL.navItems || []).forEach(function (it) { if (it.r !== '/today') add('Go to', it.t, it.r, it.i, it.group); });
+    add('Go to', 'Achievements and history', '/progress', 'trophy');
+    IFL.course.chapters.forEach(function (c) { add('Chapters', 'Chapter ' + c.n + ': ' + c.title, '/chapter/' + c.n, 'book'); });
+    add('Actions', 'Quick quiz — 10 mixed questions', '/quiz/run?n=10', 'quiz');
+    add('Actions', 'Personalised practice — 10 questions', '/practice/run?n=10', 'target');
+    add('Actions', 'Retry my mistakes', '/mistakes', 'refresh');
+    add('Actions', 'Switch theme (light / dark / system)', null, 'settings', 'appearance', function () { document.getElementById('theme-btn').click(); });
+    add('Actions', 'Show or hide the navigation sidebar', null, 'layers', 'layout', function () { document.getElementById('collapse-btn').click(); });
+    return out;
+  }
+
+  function open() {
+    if (openState) return;
+    var root = document.getElementById('modal-root'), prev = document.activeElement;
+    var cmds = commands(), items = [], active = 0;
+    var input = h('input.palette-input', { type: 'text', role: 'combobox', 'aria-expanded': 'true', 'aria-controls': 'palette-list', 'aria-autocomplete': 'list', 'aria-label': 'Jump to a page or search', placeholder: 'Jump to a page, chapter or action — or search everything…', autocomplete: 'off', spellcheck: 'false' });
+    var list = h('div.palette-list#palette-list', { role: 'listbox', 'aria-label': 'Results' });
+    var dlg = h('div.palette', { role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Command palette' },
+      h('div.palette-head', u.svg('search'), input, h('kbd', 'Esc')),
+      list,
+      h('div.palette-foot.small.muted', h('span', h('kbd', '↑'), h('kbd', '↓'), ' move'), h('span', h('kbd', 'Enter'), ' open'), h('span', h('kbd', 'Ctrl'), '+', h('kbd', 'K'), ' toggle')));
+    var back = h('div.backdrop.palette-backdrop', { onclick: function (e) { if (e.target === back) close(); } }, dlg);
+
+    function close() { back.remove(); document.removeEventListener('keydown', onKey, true); openState = null; if (prev && prev.focus && document.contains(prev)) prev.focus(); }
+    function go(it) {
+      close();
+      if (it.run) it.run(); else if (it.route) IFL.go(it.route);
+    }
+    function setActive(i, scroll) {
+      active = i;
+      Array.prototype.forEach.call(list.querySelectorAll('[role="option"]'), function (el, k) { el.setAttribute('aria-selected', String(k === i)); if (k === i && scroll) el.scrollIntoView({ block: 'nearest' }); });
+      if (items[i]) input.setAttribute('aria-activedescendant', 'pal-' + i); else input.removeAttribute('aria-activedescendant');
+    }
+    function draw() {
+      var q = input.value.trim(), nq = u.norm(q), terms = nq.split(/\s+/).filter(Boolean);
+      items = [];
+      var matched = !terms.length ? cmds.filter(function (c) { return c.group === 'Suggested' || c.group === 'Go to'; })
+        : cmds.filter(function (c) { return terms.every(function (t) { return c.n.indexOf(t) > -1; }); })
+          .sort(function (a, b) { return (a.n.indexOf(terms[0]) === 0 ? 0 : 1) - (b.n.indexOf(terms[0]) === 0 ? 0 : 1); }).slice(0, 8);
+      matched.forEach(function (c) { items.push(c); });
+      if (q.length >= 2) {
+        IFL.searchQuery(q, 8).forEach(function (r) { items.push({ group: 'Content', title: r.d.title, route: r.d.route, badge: IFL.data.typeLabel(r.d.type) }); });
+        items.push({ group: 'Content', title: 'See all results for “' + q + '”', route: '/search?q=' + encodeURIComponent(q), icon: 'search' });
+      }
+      list.innerHTML = '';
+      var group = null;
+      items.forEach(function (it, i) {
+        if (it.group !== group) { group = it.group; list.appendChild(h('div.palette-group', { role: 'presentation' }, group)); }
+        list.appendChild(h('div.palette-item', { role: 'option', id: 'pal-' + i, 'aria-selected': 'false', onclick: function () { go(it); }, onmousemove: function () { if (active !== i) setActive(i, false); } },
+          it.badge ? h('span.badge', it.badge) : u.svg(it.icon || 'dot'), h('span.palette-title', it.title), it.hint ? h('span.small.muted', it.hint) : null));
+      });
+      if (!items.length) list.appendChild(h('div.palette-empty.muted', 'Nothing matches. Try a term such as “Murabaha”, “Riba” or “Sukuk”.'));
+      setActive(0, false); list.scrollTop = 0;
+    }
+    function onKey(e) {
+      if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); close(); }
+      else if (e.key === 'ArrowDown') { e.preventDefault(); if (items.length) setActive((active + 1) % items.length, true); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); if (items.length) setActive((active - 1 + items.length) % items.length, true); }
+      else if (e.key === 'Enter') { e.preventDefault(); if (items[active]) go(items[active]); }
+      else if (e.key === 'Tab') { e.preventDefault(); input.focus(); }
+    }
+    input.addEventListener('input', u.debounce(draw, 60));
+    document.addEventListener('keydown', onKey, true);
+    root.appendChild(back);
+    openState = { close: close };
+    IFL.searchIndex().then(function () { if (openState) { draw(); input.focus(); } });
+  }
+
+  IFL.palette = { open: open, close: function () { if (openState) openState.close(); }, isOpen: function () { return !!openState; } };
+  document.addEventListener('keydown', function (e) {
+    if ((e.ctrlKey || e.metaKey) && !e.altKey && !e.shiftKey && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); if (openState) openState.close(); else open(); }
+  });
+  var btn = document.getElementById('palette-btn');
+  if (btn) btn.addEventListener('click', open);
+})();
+
+</script>
 <script data-src="modules/legacy-routes.js">
 /* Deep-link compatibility: hash links written by the two applications this platform combines keep working.
    Each rule redirects (replacing the history entry) to the canonical route. */
@@ -6265,7 +6572,7 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
 
   /* ---------- Navigation (Learn → Practise → Apply → Calculate → Exam → Study → Reference → Personal) ---------- */
   var NAV = [
-    { label: null, items: [{ r: '/', t: 'Dashboard', i: 'home' }] },
+    { label: null, items: [{ r: '/', t: 'Dashboard', i: 'home' }, { r: '/today', t: 'Today’s session', i: 'calendar' }] },
     { label: 'Learn', items: [{ r: '/learn', t: 'Chapters and topics', i: 'book', sub: 'learn' }, { r: '/concepts', t: 'Concepts and map', i: 'map' }, { r: '/glossary', t: 'Glossary and acronyms', i: 'glossary' }] },
     { label: 'Practise', items: [{ r: '/quiz', t: 'Questions and quizzes', i: 'quiz' }, { r: '/practice', t: 'Adaptive practice and weak areas', i: 'target' }, { r: '/flashcards', t: 'Flashcards (spaced review)', i: 'cards' }, { r: '/mistakes', t: 'My mistakes', i: 'refresh' }] },
     { label: 'Apply', items: [{ r: '/modes', t: 'Financing modes', i: 'bank' }, { r: '/products', t: 'Products', i: 'layers' }, { r: '/diagrams', t: 'Transaction diagrams', i: 'flow' }, { r: '/cases', t: 'Case studies', i: 'case' }, { r: '/compare', t: 'Comparisons', i: 'compare' }, { r: '/finder', t: 'Which mode applies?', i: 'compass' }] },
@@ -6275,6 +6582,7 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
     { label: 'Reference', items: [{ r: '/search', t: 'Search everything', i: 'search' }, { r: '/sources', t: 'Sources and page map', i: 'source' }] },
     { label: 'Personal', items: [{ r: '/progress', t: 'Progress and history', i: 'chart' }, { r: '/bookmarks', t: 'Bookmarks', i: 'bookmark' }, { r: '/notes', t: 'My notes', i: 'note' }, { r: '/settings', t: 'Settings', i: 'settings' }] }
   ];
+  IFL.navItems = []; NAV.forEach(function (g) { g.items.forEach(function (it) { IFL.navItems.push({ r: it.r, t: it.t, i: it.i, group: g.label || '' }); }); });
   var nav = document.getElementById('nav');
   var learnOpen = true;
   function buildNav() {
@@ -6289,7 +6597,7 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
             IFL.course.parts.map(function (p) { var pp = IFL.progress.partProgress(p.id); return h('a.nav-link', { href: '#/learn/' + p.id, 'data-route': '/learn/' + p.id }, ({ 'part-i': 'Part I · Fundamentals', 'part-ii': 'Part II · Contracts', 'part-iii': 'Part III · Products' })[p.id] || p.title, h('span.nav-meter', pp.pct + '%')); }));
           toggle.addEventListener('click', function () { learnOpen = !learnOpen; toggle.setAttribute('aria-expanded', String(learnOpen)); sub.hidden = !learnOpen; });
           grp.appendChild(toggle); grp.appendChild(sub);
-        } else grp.appendChild(h('a.nav-link', { href: '#' + it.r, 'data-route': it.r }, u.svg(it.i), it.t, it.r === '/flashcards' && IFL.srs.dueCount() ? h('span.nav-meter', IFL.srs.dueCount() + ' due') : null));
+        } else grp.appendChild(h('a.nav-link', { href: '#' + it.r, 'data-route': it.r }, u.svg(it.i), it.t, it.r === '/flashcards' && IFL.srs.dueCount() ? h('span.nav-meter', IFL.srs.dueCount() + ' due') : it.r === '/today' ? (function () { var p = IFL.todayPlan(); return h('span.nav-meter', p.done + '/' + p.total); })() : null));
       });
       nav.appendChild(grp);
     });
@@ -6373,9 +6681,14 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
   });
 
   /* Keep nav meters and streak fresh */
-  IFL.store.on(u.debounce(function (what) { if (['complete', 'review', 'import', 'reset', 'chapter'].indexOf(what) > -1) buildNav(); if (['tick', 'complete', 'import', 'reset', 'attempt', 'review'].indexOf(what) > -1) drawStreak(); }, 400));
+  IFL.store.on(u.debounce(function (what) { if (['complete', 'review', 'import', 'reset', 'chapter', 'attempt'].indexOf(what) > -1) buildNav(); if (['tick', 'complete', 'import', 'reset', 'attempt', 'review'].indexOf(what) > -1) drawStreak(); }, 400));
   var firstRender = true;   /* on the very first render keep focus at the top so the skip link is the first Tab stop; afterwards move focus to <main> on navigation */
-  IFL.afterRender = function () { if (firstRender) { firstRender = false; return; } var m = document.getElementById('main'); if (m && document.activeElement === document.body) m.focus({ preventScroll: true }); };
+  /* Reading progress: a thin bar under the top bar while a lesson is open. */
+  var rp = document.getElementById('read-progress'), rpBar = rp.firstElementChild, rpOn = false;
+  function drawRead() { if (!rpOn) return; var d = document.documentElement, max = d.scrollHeight - window.innerHeight; rpBar.style.width = (max > 40 ? Math.min(100, Math.max(0, 100 * window.scrollY / max)) : 0) + '%'; }
+  window.addEventListener('scroll', drawRead, { passive: true });
+  window.addEventListener('resize', drawRead);
+  IFL.afterRender = function () { rpOn = /^\/(topic|teach)\//.test(currentPath()); rp.hidden = !rpOn; drawRead(); if (firstRender) { firstRender = false; return; } var m = document.getElementById('main'); if (m && document.activeElement === document.body) m.focus({ preventScroll: true }); };
 
   /* Errors: never crash silently */
   window.addEventListener('error', function (e) { console.error(e.error || e.message); });

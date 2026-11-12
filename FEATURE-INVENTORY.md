@@ -1,6 +1,6 @@
 # Feature Inventory and Feature Reconciliation
 
-Generated 2026-09-29. “File 1” is *Islamic-Finance-Learning* (modular learning engine); “File 2” is *Understanding-Islamic-Finance-STANDALONE* (structured product / reference layer). Both were read completely (all script blocks, data files and CSS) before merging.
+Generated 2026-11-12. “File 1” is *Islamic-Finance-Learning* (modular learning engine); “File 2” is *Understanding-Islamic-Finance-STANDALONE* (structured product / reference layer). Both were read completely (all script blocks, data files and CSS) before merging.
 
 Legend for **Action**: RETAINED · MERGED · IMPROVED · REPLACED WITH SUPERIOR IMPLEMENTATION · TRUE DUPLICATE REMOVED. **No feature is marked “not retained”.**
 
@@ -75,3 +75,18 @@ Legend for **Action**: RETAINED · MERGED · IMPROVED · REPLACED WITH SUPERIOR 
 | SHARED_DEPENDENCY | The book’s chapter/part structure, page numbers, terminology |
 | LEGACY/COMPATIBILITY | Both storage formats, both route tables, F2 ids (topic, question, flashcard, concept, comparison, mode) |
 | UNKNOWN_REQUIRES_REVIEW | none remaining |
+
+
+## Improvements added after the merge
+
+These are additions on top of the merged feature set. They read and write the same single state record (no new stored fields, APP_STATE_VERSION unchanged) and reuse the existing engines.
+
+| Feature | Where | What it does |
+|---|---|---|
+| Today’s session | `#/today`, dashboard card, sidebar meter | Four steps derived from the student’s own state: review due flashcards, learn the next topics (count follows the daily goal), practise the weakest topics or missed questions, apply with one case or numerical. A step is ticked only by activity recorded today. |
+| Daily goal ring and week chart | dashboard hero, `#/today` | Minutes studied today against the goal set in Settings; seven-day bar chart. |
+| Mastery map | dashboard | One tile per chapter, shaded by a blend of topic completion and accuracy on that chapter’s questions. |
+| Stat strip | dashboard | Six linked figures replace the eight separate stat cards. |
+| Command palette | Ctrl/⌘ + K, or the ⌘K button | Jump to any page, chapter or action, and search all content through the one search index. |
+| Lesson shortcuts | topic pages | N next topic, P previous, M mark complete. |
+| Reading progress | topic and Teach-me pages | Thin bar under the top bar showing scroll position. |

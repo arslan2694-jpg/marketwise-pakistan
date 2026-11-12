@@ -11,34 +11,58 @@
     var avg = P.quizAverage(), due = IFL.srs.dueCount(), weak = P.weakTopics(5);
     var cur = s.last && s.last.topic ? IFL.course.topic(s.last.topic) : null;
 
+    var plan = IFL.todayPlan();
     var hero = h('section.card.hero', { 'aria-labelledby': 'dash-title' },
       h('div',
         h('div.eyebrow', 'Understanding Islamic Finance · Muhammad Ayub'),
         h('h1#dash-title', started ? 'Welcome back' + name : 'Welcome' + name),
-        h('p.text-2', started ? 'Pick up where you left off, or follow the recommendation below. Everything here reflects your own study activity.' : 'A structured study platform for all 18 chapters of the textbook — lessons at three levels, diagrams, flashcards, quizzes, case studies and exam preparation. Your progress is saved only on this device.'),
+        h('p.text-2', started ? 'Pick up where you left off, or work through today’s session. Everything here reflects your own study activity.' : 'A structured study platform for all 18 chapters of the textbook — lessons at three levels, diagrams, flashcards, quizzes, case studies and exam preparation. Your progress is saved only on this device.'),
         h('div.row', { style: { marginTop: '12px' } },
           cur ? h('a.btn.primary.lg', { href: '#/topic/' + cur.id }, u.svg('play'), 'Continue: §' + cur.section + ' ' + trunc(cur.title, 38)) : h('a.btn.primary.lg', { href: '#/chapter/1' }, u.svg('play'), 'Start Chapter 1'),
           h('a.btn.lg', { href: '#/guided/crash45' }, u.svg('bolt'), '45-minute crash course'))),
-      h('div', C.ring(o.pct, 120, 'Course completion'), h('div.small.muted', { style: { textAlign: 'center', marginTop: '6px' } }, o.done + ' / ' + o.total + ' topics')));
+      h('div.hero-rings',
+        h('div', C.ring(o.pct, 104, 'Course completion'), h('div.small.muted', o.done + ' / ' + o.total + ' topics')),
+        h('div', C.ring(plan.goalPct, 104, 'Daily study goal'), h('div.small.muted', Math.floor(plan.seconds / 60) + ' / ' + plan.goalMin + ' min today'))));
 
-    var nextCard = recs.length ? h('section.card.next-card', { 'aria-labelledby': 'next-title' },
+    var todayCard = h('section.card.next-card', { 'aria-labelledby': 'today-title' },
+      h('div.card-title', h('h2#today-title', 'Today’s session'), h('div.row', h('span.badge.' + (plan.next ? '' : 'accent'), plan.done + ' of ' + plan.total + ' done'), h('a.btn.sm', { href: '#/today' }, 'Open'))),
+      IFL.todaySteps(plan, true));
+
+    var extra = recs.filter(function (r) { return r.kind !== 'continue' && r.kind !== 'cards'; }).slice(0, 2);
+    var nextCard = extra.length ? h('section.card', { 'aria-labelledby': 'next-title' },
       h('div.card-title', h('h2#next-title', 'Recommended next')),
-      h('div.stack', recs.map(function (r, i) {
-        return h('div.row', { style: { alignItems: 'flex-start', gap: '14px', paddingBottom: i < recs.length - 1 ? '12px' : 0, borderBottom: i < recs.length - 1 ? '1px solid var(--border)' : 0 } },
-          h('span.badge.' + (i === 0 ? 'accent' : ''), { style: { marginTop: '2px' } }, u.svg(r.icon)),
-          h('div', { style: { flex: 1, minWidth: '200px' } }, h('div', { style: { fontWeight: 650 } }, r.title), h('div.why', r.why)),
-          h('div.row', h('a.btn' + (i === 0 ? '.primary' : ''), { href: '#' + r.route }, r.action), r.extra ? h('a.btn', { href: '#' + r.extra.route }, r.extra.label) : null));
+      h('div.stack', extra.map(function (r, i) {
+        return h('div.row', { style: { alignItems: 'flex-start', gap: '14px', paddingBottom: i < extra.length - 1 ? '12px' : 0, borderBottom: i < extra.length - 1 ? '1px solid var(--border)' : 0 } },
+          h('span.badge', { style: { marginTop: '2px' } }, u.svg(r.icon)),
+          h('div', { style: { flex: 1, minWidth: '200px' } }, h('div', { style: { fontWeight: 650 } }, r.title), h('div.why.small.text-2', r.why)),
+          h('div.row', h('a.btn', { href: '#' + r.route }, r.action), r.extra ? h('a.btn', { href: '#' + r.extra.route }, r.extra.label) : null));
       }))) : null;
 
-    var stats = h('section.grid.grid-4.stats-grid', { 'aria-label': 'Study statistics' },
-      statCard('Chapters completed', o.chaptersDone + ' / 18', o.chaptersVisited + ' visited'),
-      statCard('Topics completed', o.done, o.visited + ' opened'),
-      statCard('Quiz average', avg == null ? '—' : avg + '%', s.attempts.length + ' quiz' + (s.attempts.length === 1 ? '' : 'zes') + ' taken'),
-      statCard('Flashcards reviewed', P.reviewCount(), due ? due + ' due now' : 'none due'),
-      statCard('Study streak', P.streak() + (P.streak() === 1 ? ' day' : ' days'), '≥ 1 min counts as a study day'),
-      statCard('Study time', u.fmtDuration(P.studySeconds()), 'today ' + u.fmtDuration(s.days[u.dayKey()] || 0)),
-      statCard('Bookmarks', s.bookmarks.length, h('a', { href: '#/bookmarks' }, 'Open bookmarks')),
-      statCard('Notes', s.notes.length, h('a', { href: '#/notes' }, 'Open notes')));
+    /* Mastery map: one tile per chapter. Level blends completion with accuracy on answered questions. */
+    var tstats = P.topicStats();
+    var tiles = IFL.course.chapters.map(function (c) {
+      var cp = P.chapterProgress(c.n), n = 0, ok = 0;
+      c.topicObjs.forEach(function (t) { var r = tstats[t.id]; if (r) { n += r.n; ok += r.correct; } });
+      var acc = n ? Math.round(100 * ok / n) : null;
+      var score = acc == null ? cp.pct * 0.5 : cp.pct * 0.5 + acc * 0.5;
+      var lvl = !cp.visited && !n ? 0 : score >= 85 ? 4 : score >= 60 ? 3 : score >= 30 ? 2 : 1;
+      var label = ['Not started', 'Started', 'In progress', 'Solid', 'Mastered'][lvl];
+      return h('a.mastery-tile', { href: '#/chapter/' + c.n, 'data-l': lvl, 'aria-label': 'Chapter ' + c.n + ': ' + c.title + '. ' + label + '. ' + cp.done + ' of ' + cp.total + ' topics complete' + (acc == null ? '' : ', accuracy ' + acc + '%') },
+        h('span.mt-n', String(c.n)), h('span.mt-t', trunc(c.title, 34)),
+        h('span.mt-m', cp.done + '/' + cp.total + (acc == null ? '' : ' · ' + acc + '%')), C.bar(cp.pct, 'thin'));
+    });
+    var masteryCard = h('section.card', { 'aria-labelledby': 'mastery-title' },
+      h('div.card-title', h('h2#mastery-title', 'Mastery map'), h('div.mastery-legend.small.muted', { 'aria-hidden': 'true' }, 'Not started', [0, 1, 2, 3, 4].map(function (l) { return h('span', { 'data-l': l }); }), 'Mastered')),
+      h('div.mastery-grid', tiles),
+      h('p.small.muted', { style: { marginTop: '10px' } }, 'Each tile blends topic completion with your accuracy on that chapter’s questions. Open a tile to study the chapter.'));
+
+    var stats = h('section.card.stat-strip', { 'aria-label': 'Study statistics' },
+      strip('Chapters', o.chaptersDone + ' / 18', o.chaptersVisited + ' visited', '/learn'),
+      strip('Quiz average', avg == null ? '—' : avg + '%', s.attempts.length + ' quiz' + (s.attempts.length === 1 ? '' : 'zes'), '/quiz'),
+      strip('Flashcards', P.reviewCount(), due ? due + ' due now' : 'none due', '/flashcards'),
+      strip('Streak', P.streak() + (P.streak() === 1 ? ' day' : ' days'), '≥ 1 min a day', '/progress'),
+      strip('Study time', u.fmtDuration(P.studySeconds()), 'today ' + u.fmtDuration(s.days[u.dayKey()] || 0), '/progress'),
+      strip('Saved', s.bookmarks.length + s.notes.length, s.bookmarks.length + ' bookmarks · ' + s.notes.length + ' notes', '/bookmarks'));
 
     var partsCard = h('section.card', h('div.card-title', h('h2', 'Progress by part'), h('a.btn.sm', { href: '#/progress' }, 'Details')),
       h('div.stack', IFL.course.parts.map(function (p) {
@@ -78,18 +102,19 @@
         ['#/mock', 'flame', 'Timed mock exam'], ['#/tools', 'calc', 'Interactive tools'], ['#/mistakes', 'refresh', 'My mistakes' + (function () { var n = Object.keys(s.answers).filter(function (k) { return s.answers[k].lastCorrect === false; }).length; return n ? ' (' + n + ')' : ''; })()]
       ].map(function (x) { return h('a.btn', { href: x[0], style: { justifyContent: 'flex-start' } }, u.svg(x[1]), x[2]); })));
 
-    var plan = IFL.buildPlan ? IFL.buildPlan() : null;
-    var planCard = plan && !plan.past ? h('section.card', h('div.card-title', h('h2', 'Exam in ' + plan.daysLeft + ' day' + (plan.daysLeft === 1 ? '' : 's')), h('a.btn.sm', { href: '#/planner' }, 'Planner')),
-      plan.days[0] && plan.days[0].kind === 'learn' ? h('p.small', 'Today: ' + plan.days[0].topics.length + ' topic' + (plan.days[0].topics.length > 1 ? 's' : '') + ' (~' + plan.days[0].minutes + ' min), starting with ', h('a', { href: '#/topic/' + plan.days[0].topics[0].id }, '§' + plan.days[0].topics[0].section + ' ' + trunc(plan.days[0].topics[0].title, 40)), '.')
-        : h('p.small', plan.remaining ? 'Revision period: rapid revision, mistakes and a mock exam.' : 'All topics complete — revise and take mock exams.'))
+    var xplan = IFL.buildPlan ? IFL.buildPlan() : null;
+    var planCard = xplan && !xplan.past ? h('section.card', h('div.card-title', h('h2', 'Exam in ' + xplan.daysLeft + ' day' + (xplan.daysLeft === 1 ? '' : 's')), h('a.btn.sm', { href: '#/planner' }, 'Planner')),
+      xplan.days[0] && xplan.days[0].kind === 'learn' ? h('p.small', 'Today: ' + xplan.days[0].topics.length + ' topic' + (xplan.days[0].topics.length > 1 ? 's' : '') + ' (~' + xplan.days[0].minutes + ' min), starting with ', h('a', { href: '#/topic/' + xplan.days[0].topics[0].id }, '§' + xplan.days[0].topics[0].section + ' ' + trunc(xplan.days[0].topics[0].title, 40)), '.')
+        : h('p.small', xplan.remaining ? 'Revision period: rapid revision, mistakes and a mock exam.' : 'All topics complete — revise and take mock exams.'))
       : h('section.card', h('div.card-title', h('h2', 'Exam date'), h('a.btn.sm', { href: '#/planner' }, 'Set date')), h('p.small.muted', 'Set your exam date to get a day-by-day plan built from your progress.'));
-    return h('div.stack', hero, nextCard, planCard, stats,
+    return h('div.stack', hero, todayCard, stats, masteryCard,
+      h('div.grid.grid-2', nextCard, planCard),
       h('div.grid.grid-2', partsCard, weakCard),
       h('div.grid.grid-2', readyCard, actCard),
       h('div.grid.grid-2', bmCard, quick));
   });
 
-  function statCard(label, value, sub) { return h('div.card', C.stat(value, label), h('div.small.muted', { style: { marginTop: '4px' } }, sub)); }
+  function strip(label, value, sub, route) { return h('a.strip-item', { href: '#' + route }, h('span.v', value), h('span.l', label), h('span.small.muted', sub)); }
   function trunc(s, n) { return s.length > n ? s.slice(0, n - 1) + '…' : s; }
   IFL.trunc = trunc;
 })();

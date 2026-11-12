@@ -23,7 +23,7 @@
    "extra": []
   },
   {
-   "name": "all 71 inline scripts parse without syntax errors",
+   "name": "all 73 inline scripts parse without syntax errors",
    "ok": true,
    "extra": []
   },
@@ -45,7 +45,7 @@
    "ok": true
   },
   {
-   "name": "no route pattern is registered twice (48 routes)",
+   "name": "no route pattern is registered twice (49 routes)",
    "ok": true,
    "extra": []
   },
@@ -67,7 +67,7 @@
    "ok": true
   }
  ],
- "bytes": 5972366,
- "scripts": 71,
- "routes": 48
+ "bytes": 6001676,
+ "scripts": 73,
+ "routes": 49
 }
