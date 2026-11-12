@@ -432,18 +432,18 @@
     var raf = 0;
     function still() { return document.documentElement.classList.contains('reduce-motion') || (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches); }
     function travel(i) {
-      cancelAnimationFrame(raf); while (tokenG.firstChild) tokenG.removeChild(tokenG.firstChild);
+      window.cancelAnimationFrame(raf); while (tokenG.firstChild) tokenG.removeChild(tokenG.firstChild);
       var path = edgeEls[i].querySelector('path'); if (!path || !path.getTotalLength) return;
       var len = path.getTotalLength(), tok = shapeEl(d.steps[i].kind), t0 = null, DUR = 1100; tokenG.appendChild(tok);
       function place(f) { var pt = path.getPointAtLength(len * f); tok.setAttribute('transform', 'translate(' + pt.x.toFixed(1) + ',' + pt.y.toFixed(1) + ')'); }
       if (still()) { place(0.5); return; }
       place(0);
-      raf = requestAnimationFrame(function frame(ts) {
+      raf = window.requestAnimationFrame(function frame(ts) {
         if (!svgEl.isConnected) return;
         if (t0 == null) t0 = ts;
         var f = Math.min(1, (ts - t0) / DUR), e = f < 0.5 ? 2 * f * f : 1 - Math.pow(-2 * f + 2, 2) / 2;
         place(0.04 + 0.9 * e);
-        if (f < 1) raf = requestAnimationFrame(frame);
+        if (f < 1) raf = window.requestAnimationFrame(frame);
       });
     }
     var playing = null;
@@ -479,7 +479,7 @@
       h('div.diagram-wrap', svgEl),
       h('div.row', playBtn, prev, next, h('span.spacer'), h('span.small.muted', 'Press Play to watch the deal unfold, or click an arrow or a step.')),
       (function () { var seen = {}, keys = []; d.steps.forEach(function (st) { var sh = SHAPE[st.kind] || 'doc'; if (!seen[sh]) { seen[sh] = 1; keys.push(sh); } });
-        return h('div.token-legend.small.muted', { 'aria-hidden': 'true' }, keys.map(function (sh) { var kind = Object.keys(SHAPE).filter(function (k) { return SHAPE[k] === sh; })[0]; var s2 = el('svg', { viewBox: '-14 -14 28 28', width: 22, height: 22, class: 'diagram-svg token-key' }); s2.appendChild(shapeEl(kind)); return h('span', s2, SHAPE_LABEL[sh]); })); })(),
+        return h('div.token-legend.small.muted', { 'aria-hidden': 'true' }, keys.map(function (sh) { var kind = Object.keys(SHAPE).filter(function (k) { return SHAPE[k] === sh; })[0]; var s2 = el('svg', { viewBox: '-14 -14 28 28', width: 22, height: 22, class: 'token-key' }); s2.appendChild(shapeEl(kind)); return h('span', s2, SHAPE_LABEL[sh]); })); })(),
       h('div.grid.grid-2', detail, h('div.card.flat', h('h4', 'All steps'), list)),
       opts.hideRules ? null : h('div.grid.grid-2',
         h('div.callout', h('div.t', 'Key Shari’ah rules'), h('ul', d.rules.map(function (r) { return h('li', r); }))),

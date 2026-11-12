@@ -90,3 +90,10 @@ These are additions on top of the merged feature set. They read and write the sa
 | Command palette | Ctrl/⌘ + K, or the ⌘K button | Jump to any page, chapter or action, and search all content through the one search index. |
 | Lesson shortcuts | topic pages | N next topic, P previous, M mark complete. |
 | Reading progress | topic and Teach-me pages | Thin bar under the top bar showing scroll position. |
+| Animated transaction diagrams | every diagram (diagram pages, lessons, modes, products) | Play / Pause runs the deal step by step; a token travels along the active arrow and its shape shows what moves (money, goods, a document, ownership, risk). Honours reduced motion. |
+| Calculator sliders and charts | `#/tools` and calculators inside lessons | Every numeric input has a slider; 14 calculators draw a live chart (part-to-whole bar, labelled bars, or a line chart with a scrubber) from the same formulas. Values are always printed as text beside the marks. |
+| Build the deal | `#/play/build` | The steps of any of the 34 transaction diagrams are shuffled; the student rebuilds the order, then watches it play. |
+| Term match | `#/play/match` | Six glossary terms against their definitions, by category; fewest wrong guesses wins. |
+| Sort the instruments | `#/play/sort` | Classify financing modes by how the financier earns or by contract family; feedback is the mode’s own profile text. |
+
+The games add one optional field to the state record, `games` (game → key → {best, n, ts}). It defaults to an empty object, so older saved records and exports load unchanged and APP_STATE_VERSION stays 3. No course content was added or altered: every game is generated from existing diagram, glossary and mode records.

@@ -730,10 +730,10 @@ svg.viz-line { display: block; width: 100%; height: auto; margin-top: 6px; touch
 .viz-read { display: flex; flex-wrap: wrap; gap: 4px 16px; min-height: 1.5em; margin-top: 4px; color: var(--text-2); }
 
 /* ---------- Animated transaction diagrams ---------- */
-.diagram-svg .token-bg { fill: var(--accent); stroke: var(--bg-sunk); stroke-width: 2.5; }
-.diagram-svg .token-fg { fill: var(--accent-contrast); }
-.diagram-svg .token-ink { stroke: var(--accent); stroke-width: 1.4; fill: none; stroke-linecap: round; }
-.diagram-svg .token-line { stroke: var(--accent-contrast); stroke-width: 2; fill: none; stroke-linecap: round; }
+.token-bg { fill: var(--accent); stroke: var(--bg-sunk); stroke-width: 2.5; }
+.token-fg { fill: var(--accent-contrast); }
+.token-ink { stroke: var(--accent); stroke-width: 1.4; fill: none; stroke-linecap: round; }
+.token-line { stroke: var(--accent-contrast); stroke-width: 2; fill: none; stroke-linecap: round; }
 .token-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; }
 .token-legend span { display: inline-flex; align-items: center; gap: 6px; }
 svg.token-key { width: 22px; height: 22px; flex: none; }
@@ -784,3 +784,4 @@ svg.token-key { width: 22px; height: 22px; flex: none; }
 .sort-bucket.right { border-color: var(--ok); background: var(--ok-soft); opacity: 1; }
 .sort-bucket.wrong { border-color: var(--bad); background: var(--bad-soft); opacity: 1; }
 .build-grid > .card { margin: 0; }
+svg.token-key { stroke: none; }

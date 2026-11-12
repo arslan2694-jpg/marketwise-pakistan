@@ -1,16 +1,16 @@
 {
- "firstRenderMs": 253,
- "bytes": 6021227,
- "dcl": 214,
- "load": 216,
- "transfer": 6021527,
- "searchIndexBuildMs": 22,
+ "firstRenderMs": 258,
+ "bytes": 6067157,
+ "dcl": 219,
+ "load": 220,
+ "transfer": 6067457,
+ "searchIndexBuildMs": 25,
  "searchQueryMs": 4,
- "topicPageMs": 22,
- "modesPageMs": 9,
- "glossaryMs": 119,
- "conceptMapMs": 7,
- "searchPageMs": 27,
+ "topicPageMs": 27,
+ "modesPageMs": 11,
+ "glossaryMs": 138,
+ "conceptMapMs": 8,
+ "searchPageMs": 37,
  "heapMB": 31.6,
- "domNodes": 1196
+ "domNodes": 1201
 }
