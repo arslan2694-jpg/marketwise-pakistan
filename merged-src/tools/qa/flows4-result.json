@@ -1,0 +1,194 @@
+[
+ {
+  "name": "diagram shows a moving token for the active step",
+  "ok": true
+ },
+ {
+  "name": "token travels along the arrow",
+  "ok": true,
+  "extra": {
+   "p0": "translate(183.5,207.3)",
+   "p1": "translate(286.9,208.0)"
+  }
+ },
+ {
+  "name": "legend explains the token shapes used in this diagram",
+  "ok": true
+ },
+ {
+  "name": "Play advances the steps automatically",
+  "ok": true
+ },
+ {
+  "name": "Pause stops the playback",
+  "ok": true
+ },
+ {
+  "name": "reduced motion: token is shown but does not move",
+  "ok": true
+ },
+ {
+  "name": "all 34 diagrams render with a token",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "every calculator with a chart definition draws it (14 charts, 89 sliders across 25 tools)",
+  "ok": true,
+  "extra": {
+   "n": 25,
+   "charts": 14,
+   "bad": [],
+   "sliders": 89
+  }
+ },
+ {
+  "name": "dragging a slider updates the number field, the chart and the result",
+  "ok": true,
+  "extra": {
+   "t": "Cost to the bank 250,000 · 89.3%Agreed profit 30,000 · 10.7%",
+   "num": "250000",
+   "res": "Debt fixed at 280,000 · instalment 23,333.33",
+   "badge": "Practice Example — generated for learning"
+  }
+ },
+ {
+  "name": "typing a number moves the slider",
+  "ok": true
+ },
+ {
+  "name": "textbook figures still reproduce Box 12.5 with the chart present",
+  "ok": true
+ },
+ {
+  "name": "line chart read-out follows the scrubber",
+  "ok": true
+ },
+ {
+  "name": "charts never print NaN/Infinity for edge inputs (0, −1, 1e12)",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "games hub lists three games",
+  "ok": true
+ },
+ {
+  "name": "navigation highlights the games entry",
+  "ok": true
+ },
+ {
+  "name": "deal picker lists all 34 transactions",
+  "ok": true
+ },
+ {
+  "name": "check is disabled until every step is placed",
+  "ok": true
+ },
+ {
+  "name": "a wrong sequence is marked and not accepted",
+  "ok": true
+ },
+ {
+  "name": "the correct sequence is accepted and the animated diagram is revealed",
+  "ok": true
+ },
+ {
+  "name": "result stored under state.games.build",
+  "ok": true,
+  "extra": {
+   "build": {
+    "murabaha": {
+     "n": 2,
+     "ts": 1794471866664,
+     "best": 85
+    }
+   }
+  }
+ },
+ {
+  "name": "diagrams with identical repeated steps (0) are judged by content, not position id",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "match board has six terms and six definitions",
+  "ok": true
+ },
+ {
+  "name": "a wrong guess is counted and nothing locks",
+  "ok": true
+ },
+ {
+  "name": "all pairs match and the round is recorded with one mistake",
+  "ok": true
+ },
+ {
+  "name": "sort (return): a wrong answer shows the right bucket and the mode’s own explanation",
+  "ok": true
+ },
+ {
+  "name": "sort (return): 7 of 8 scored and stored",
+  "ok": true
+ },
+ {
+  "name": "sort (family): a wrong answer shows the right bucket and the mode’s own explanation",
+  "ok": true
+ },
+ {
+  "name": "sort (family): 7 of 8 scored and stored",
+  "ok": true
+ },
+ {
+  "name": "games survive export → replace-import",
+  "ok": true
+ },
+ {
+  "name": "a v3 record saved before games existed still loads (games defaults to {})",
+  "ok": true
+ },
+ {
+  "name": "hub renders after reset of game data",
+  "ok": true
+ },
+ {
+  "name": "no horizontal overflow at 390px on /play",
+  "ok": true,
+  "extra": 390
+ },
+ {
+  "name": "no horizontal overflow at 390px on /play/build?id=salam",
+  "ok": true,
+  "extra": 390
+ },
+ {
+  "name": "no horizontal overflow at 390px on /play/match",
+  "ok": true,
+  "extra": 390
+ },
+ {
+  "name": "no horizontal overflow at 390px on /play/sort",
+  "ok": true,
+  "extra": 390
+ },
+ {
+  "name": "no horizontal overflow at 390px on /tools?tool=dm-schedule",
+  "ok": true,
+  "extra": 390
+ },
+ {
+  "name": "no horizontal overflow at 390px on /tools?tool=mudarabah-offset",
+  "ok": true,
+  "extra": 390
+ },
+ {
+  "name": "no horizontal overflow at 390px on /diagram/murabaha",
+  "ok": true,
+  "extra": 390
+ },
+ {
+  "name": "no JS errors in part 4",
+  "ok": true,
+  "extra": []
+ }
+]

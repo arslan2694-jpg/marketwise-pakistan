@@ -415,8 +415,53 @@
       list.appendChild(h('li', b)); return b;
     });
     var KIND = { contract: 'Contract', promise: 'Promise', cash: 'Payment', goods: 'Goods / delivery', ownership: 'Ownership', agency: 'Agency', rent: 'Rent', risk: 'Risk' };
-    function setStep(i) {
+    /* A token travels along the active arrow; its shape says what moves (money, goods, a document, title, risk). */
+    var SHAPE = { cash: 'coin', rent: 'coin', goods: 'box', ownership: 'key', risk: 'tri', contract: 'doc', promise: 'doc', agency: 'doc' };
+    var SHAPE_LABEL = { coin: 'Money moves', box: 'Goods move', doc: 'A contract, promise or agency', key: 'Ownership passes', tri: 'Risk is borne' };
+    function shapeEl(kind) {
+      var g = el('g', { class: 'token' }); g.appendChild(el('circle', { r: 13, class: 'token-bg' }));
+      var sh = SHAPE[kind] || 'doc';
+      if (sh === 'coin') { g.appendChild(el('circle', { r: 6.5, class: 'token-fg' })); g.appendChild(el('path', { d: 'M0,-3.5 V3.5 M-2.2,-1.6 H2.2 M-2.2,1.6 H2.2', class: 'token-ink' })); }
+      else if (sh === 'box') { g.appendChild(el('path', { d: 'M-6.5,-3.5 L0,-7 L6.5,-3.5 V4 L0,7.5 L-6.5,4 Z', class: 'token-fg' })); g.appendChild(el('path', { d: 'M-6.5,-3.5 L0,0 L6.5,-3.5 M0,0 V7.5', class: 'token-ink' })); }
+      else if (sh === 'key') { g.appendChild(el('circle', { cx: -3.5, cy: 0, r: 3.6, class: 'token-fg' })); g.appendChild(el('path', { d: 'M0,0 H7.5 M5,0 V3 M7.5,0 V2.4', class: 'token-line' })); }
+      else if (sh === 'tri') { g.appendChild(el('path', { d: 'M0,-7 L7,5.5 H-7 Z', class: 'token-fg' })); g.appendChild(el('path', { d: 'M0,-2.5 V1.5 M0,3.4 V3.6', class: 'token-ink' })); }
+      else { g.appendChild(el('path', { d: 'M-5,-7 H2.5 L5.5,-4 V7 H-5 Z', class: 'token-fg' })); g.appendChild(el('path', { d: 'M-2.5,-1.5 H3 M-2.5,1.5 H3 M-2.5,4.2 H1', class: 'token-ink' })); }
+      return g;
+    }
+    var tokenG = el('g', { 'aria-hidden': 'true' }); svgEl.appendChild(tokenG);
+    var raf = 0;
+    function still() { return document.documentElement.classList.contains('reduce-motion') || (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches); }
+    function travel(i) {
+      cancelAnimationFrame(raf); while (tokenG.firstChild) tokenG.removeChild(tokenG.firstChild);
+      var path = edgeEls[i].querySelector('path'); if (!path || !path.getTotalLength) return;
+      var len = path.getTotalLength(), tok = shapeEl(d.steps[i].kind), t0 = null, DUR = 1100; tokenG.appendChild(tok);
+      function place(f) { var pt = path.getPointAtLength(len * f); tok.setAttribute('transform', 'translate(' + pt.x.toFixed(1) + ',' + pt.y.toFixed(1) + ')'); }
+      if (still()) { place(0.5); return; }
+      place(0);
+      raf = requestAnimationFrame(function frame(ts) {
+        if (!svgEl.isConnected) return;
+        if (t0 == null) t0 = ts;
+        var f = Math.min(1, (ts - t0) / DUR), e = f < 0.5 ? 2 * f * f : 1 - Math.pow(-2 * f + 2, 2) / 2;
+        place(0.04 + 0.9 * e);
+        if (f < 1) raf = requestAnimationFrame(frame);
+      });
+    }
+    var playing = null;
+    function stopPlay() { if (playing) { clearInterval(playing); playing = null; } playBtn.lastChild.textContent = cur >= d.steps.length - 1 ? 'Replay' : 'Play'; playBtn.firstChild.innerHTML = IFL.ICONS.play; playBtn.setAttribute('aria-pressed', 'false'); }
+    function startPlay() {
+      setStep(cur >= d.steps.length - 1 ? 0 : cur, true);
+      playBtn.lastChild.textContent = 'Pause'; playBtn.firstChild.innerHTML = IFL.ICONS.pause; playBtn.setAttribute('aria-pressed', 'true');
+      playing = setInterval(function () {
+        if (!svgEl.isConnected) { clearInterval(playing); playing = null; return; }
+        if (cur >= d.steps.length - 1) { stopPlay(); return; }
+        setStep(cur + 1, true);
+      }, 2600);
+    }
+    var playBtn = h('button.btn', { type: 'button', 'aria-pressed': 'false', onclick: function () { if (playing) stopPlay(); else startPlay(); } }, u.svg('play'), 'Play');
+    function setStep(i, auto) {
+      if (!auto && playing) stopPlay();
       cur = Math.max(0, Math.min(d.steps.length - 1, i));
+      travel(cur);
       edgeEls.forEach(function (g, j) { g.setAttribute('class', 'edge kind-' + d.steps[j].kind + (j === cur ? ' active' : j < cur ? ' done' : ' future')); });
       labelEls.forEach(function (t, j) { t.classList.toggle('active', j === cur); });
       Object.keys(partyEls).forEach(function (k) { partyEls[k].setAttribute('class', 'party' + (k === d.steps[cur].from || k === d.steps[cur].to ? ' active' : '')); });
@@ -425,13 +470,16 @@
       detail.innerHTML = '';
       u.append(detail, [h('div.row', h('span.badge.accent', 'Step ' + (cur + 1) + ' of ' + d.steps.length), h('span.badge', KIND[s.kind] || s.kind)), h('h4', { style: { margin: '8px 0 4px' } }, s.label), h('p', { style: { margin: 0 } }, s.detail)]);
       prev.disabled = cur === 0; next.disabled = cur === d.steps.length - 1;
+      if (!playing) playBtn.lastChild.textContent = cur >= d.steps.length - 1 ? 'Replay' : 'Play';
     }
     var prev = h('button.btn', { type: 'button', onclick: function () { setStep(cur - 1); } }, u.svg('left'), 'Previous');
     var next = h('button.btn.primary', { type: 'button', onclick: function () { setStep(cur + 1); } }, 'Next step', u.svg('right'));
     var root = h('div.stack',
       opts.hideSummary ? null : h('p.text-2', d.summary),
       h('div.diagram-wrap', svgEl),
-      h('div.row', prev, next, h('span.spacer'), h('span.small.muted', 'Click an arrow or a step to see the explanation.')),
+      h('div.row', playBtn, prev, next, h('span.spacer'), h('span.small.muted', 'Press Play to watch the deal unfold, or click an arrow or a step.')),
+      (function () { var seen = {}, keys = []; d.steps.forEach(function (st) { var sh = SHAPE[st.kind] || 'doc'; if (!seen[sh]) { seen[sh] = 1; keys.push(sh); } });
+        return h('div.token-legend.small.muted', { 'aria-hidden': 'true' }, keys.map(function (sh) { var kind = Object.keys(SHAPE).filter(function (k) { return SHAPE[k] === sh; })[0]; var s2 = el('svg', { viewBox: '-14 -14 28 28', width: 22, height: 22, class: 'diagram-svg token-key' }); s2.appendChild(shapeEl(kind)); return h('span', s2, SHAPE_LABEL[sh]); })); })(),
       h('div.grid.grid-2', detail, h('div.card.flat', h('h4', 'All steps'), list)),
       opts.hideRules ? null : h('div.grid.grid-2',
         h('div.callout', h('div.t', 'Key Shari’ah rules'), h('ul', d.rules.map(function (r) { return h('li', r); }))),

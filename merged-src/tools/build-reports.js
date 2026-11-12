@@ -9,7 +9,7 @@ const OUT = path.join(ROOT, '..');
 const audit = require('../data/_audit.json');
 const integ = require('../data/_integrity.json');
 const rd = f => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, 'qa', f), 'utf8')); } catch (e) { return null; } };
-const Q = { flows: rd('flows-result.json'), flows2: rd('flows2-result.json'), flows3: rd('flows3-result.json'), crawl: rd('crawl-result.json'), resp: rd('responsive-result.json'), calc: rd('calc-result.json'), stat: rd('static-result.json'), zl: rd('zero-loss-result.json'), counts: rd('counts-result.json'), perf: rd('perf-result.json'), migrate: rd('migrate-result.json'), lint: rd('lint-result.json') };
+const Q = { flows: rd('flows-result.json'), flows2: rd('flows2-result.json'), flows3: rd('flows3-result.json'), flows4: rd('flows4-result.json'), crawl: rd('crawl-result.json'), resp: rd('responsive-result.json'), calc: rd('calc-result.json'), stat: rd('static-result.json'), zl: rd('zero-loss-result.json'), counts: rd('counts-result.json'), perf: rd('perf-result.json'), migrate: rd('migrate-result.json'), lint: rd('lint-result.json') };
 const { loadF1, loadF2 } = require('./lib/load-sources');
 const D1 = loadF1(), D2 = loadF2();
 
@@ -31,7 +31,7 @@ const los = { f1: 0, f2: 0, merged: 0 }; Object.keys(audit.merged).filter(k => /
 const glossExt = S.glossary.filter(g => g.extendedDefinition).length, glossMatched = S.glossary.filter(g => g.origin.indexOf('f2') > -1).length;
 const cmpMerged = S.comparisons.pairs.filter(p => p.origin.length > 1).length;
 const eff = (q) => q ? (q.checks ? q.checks.filter(c => c.ok).length : q.filter ? q.filter(c => c.ok).length : 0) : 0;
-const flowsN = Q.flows ? Q.flows.length : 0, flowsOk = eff(Q.flows), flows2N = Q.flows2 ? Q.flows2.length : 0, flows2Ok = eff(Q.flows2), flows3N = Q.flows3 ? Q.flows3.length : 0, flows3Ok = eff(Q.flows3);
+const flowsN = Q.flows ? Q.flows.length : 0, flowsOk = eff(Q.flows), flows2N = Q.flows2 ? Q.flows2.length : 0, flows2Ok = eff(Q.flows2), flows3N = Q.flows3 ? Q.flows3.length : 0, flows3Ok = eff(Q.flows3), flows4N = Q.flows4 ? Q.flows4.length : 0, flows4Ok = eff(Q.flows4);
 
 /* ================= CONTENT-RECONCILIATION.md ================= */
 const rec = [
@@ -193,6 +193,13 @@ These are additions on top of the merged feature set. They read and write the sa
 | Command palette | Ctrl/⌘ + K, or the ⌘K button | Jump to any page, chapter or action, and search all content through the one search index. |
 | Lesson shortcuts | topic pages | N next topic, P previous, M mark complete. |
 | Reading progress | topic and Teach-me pages | Thin bar under the top bar showing scroll position. |
+| Animated transaction diagrams | every diagram (diagram pages, lessons, modes, products) | Play / Pause runs the deal step by step; a token travels along the active arrow and its shape shows what moves (money, goods, a document, ownership, risk). Honours reduced motion. |
+| Calculator sliders and charts | \`#/tools\` and calculators inside lessons | Every numeric input has a slider; 14 calculators draw a live chart (part-to-whole bar, labelled bars, or a line chart with a scrubber) from the same formulas. Values are always printed as text beside the marks. |
+| Build the deal | \`#/play/build\` | The steps of any of the 34 transaction diagrams are shuffled; the student rebuilds the order, then watches it play. |
+| Term match | \`#/play/match\` | Six glossary terms against their definitions, by category; fewest wrong guesses wins. |
+| Sort the instruments | \`#/play/sort\` | Classify financing modes by how the financier earns or by contract family; feedback is the mode’s own profile text. |
+
+The games add one optional field to the state record, \`games\` (game → key → {best, n, ts}). It defaults to an empty object, so older saved records and exports load unchanged and APP_STATE_VERSION stays 3. No course content was added or altered: every game is generated from existing diagram, glossary and mode records.
 `;
 fs.writeFileSync(path.join(OUT, 'FEATURE-INVENTORY.md'), featMd + improveMd);
 
@@ -392,6 +399,7 @@ Generated ${date}. All suites live in \`merged-src/tools/qa/\` and run against t
 | Interactive flows 1 (\`flows.js\`) | search (21 terms incl. all required), all 11 question types answered correctly through the UI, flashcards, SRS fuzz (20,000 grades), mock exam, both case formats, both finder pathways, all 3 guided plans, all ${Q.counts ? Q.counts.calculators : 25} calculators (default/zero/negative), all ${Q.counts ? Q.counts.numericals : 33} numerical generators (textbook + 40 seeds), bookmarks/notes/theme, persistence, **no network requests** | **${flowsOk}/${flowsN} pass** |
 | Interactive flows 2 (\`flows2.js\`) | learning journey, extended notes and level switch, Teach me, diagram stepping, modes catalogue/compare, both concept-map views, glossary/acronyms, settings, export/import UI, skip link, modal focus trap, Escape/focus return, single flashcard flip | **${flows2Ok}/${flows2N} pass** |
 | Interactive flows 3 (\`flows3.js\`) | daily session (each step completes from real activity; yesterday’s work does not count), mastery map, stat strip, command palette (open, filter, content search, arrow keys, Enter, Escape, focus return, actions), lesson shortcuts N / P / M, reading-progress bar, 390 px overflow | **${flows3Ok}/${flows3N} pass** |
+| Interactive flows 4 (\`flows4.js\`) | animated diagrams (token motion, Play/Pause, reduced motion, all 34 render), calculator sliders and charts (two-way sync, textbook figures intact, no NaN on edge inputs), the three games (wrong and right paths, scoring, storage, export/import), 390 px overflow in dark theme | **${flows4Ok}/${flows4N} pass** |
 | Migration (\`migrate.js\`) | File 2 state, File 1 state, both, imports of raw/own exports, unknown-file rejection, corrupt record, blocked storage | **32/32 pass** |
 | Calculations (\`calc.js\`) | ${Q.calc ? Q.calc.checks : 27} independently computed expected values (formulas re-derived in the test, not read from the app) + edge inputs (0, −1, 1e12, 0.005; non-numeric input is coerced to 0 by the input handler) on every calculator | **${Q.calc ? Q.calc.checks - Q.calc.failed : 27}/${Q.calc ? Q.calc.checks : 27} values correct; edge inputs: 0 problems** |
 | Responsive / accessibility (\`responsive.js\`) | horizontal overflow at 375 / 768 / 1280 px (light + dark) on 39 routes, unlabeled controls, tap targets, drawer, contrast of 13 token pairs in both themes | **overflow 0 · unlabeled 0 · small targets 0 · contrast all ≥ 4.5:1** |

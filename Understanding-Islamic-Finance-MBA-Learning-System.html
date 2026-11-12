@@ -721,6 +721,96 @@ dd, dt, li, td, th, p, h1, h2, h3, h4 { overflow-wrap: anywhere; }
 .palette-foot { display: flex; gap: 16px; padding: 8px 16px; border-top: 1px solid var(--border); background: var(--bg-sunk); }
 @media print { .read-progress, .palette-btn, .key-hint { display: none !important; } }
 
+/* ---------- Charts (calculators) ---------- */
+:root, [data-theme="light"] { --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --series-4: #eda100; }
+[data-theme="dark"] { --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500; }
+.viz { margin: var(--sp-4) 0; padding: var(--sp-4); border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-elev); }
+.viz figcaption { font-weight: 650; font-size: var(--fs-sm); margin-bottom: 10px; color: var(--text); }
+.viz-split { display: flex; gap: 2px; height: 30px; border-radius: 6px; overflow: hidden; background: var(--bg-sunk); }
+.viz-split span { display: block; min-width: 3px; transition: width 220ms var(--ease); }
+.viz .s1, .viz-sw.s1 { background: var(--series-1); } .viz .s2, .viz-sw.s2 { background: var(--series-2); } .viz .s3, .viz-sw.s3 { background: var(--series-3); } .viz .s4, .viz-sw.s4 { background: var(--series-4); }
+.viz-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 10px; font-size: var(--fs-sm); color: var(--text-2); }
+.viz-key { display: inline-flex; align-items: center; gap: 6px; }
+.viz-key strong { color: var(--text); }
+.viz-sw { width: 11px; height: 11px; border-radius: 3px; flex: none; display: inline-block; }
+.viz-bars { display: grid; gap: 8px; }
+.viz-row { display: grid; grid-template-columns: minmax(90px, 30%) minmax(0, 1fr) minmax(70px, auto); gap: 10px; align-items: center; font-size: var(--fs-sm); }
+.viz-lbl { color: var(--text-2); }
+.viz-track { position: relative; height: 18px; display: block; }
+.viz-zero { position: absolute; top: -3px; bottom: -3px; width: 1px; background: var(--border-strong); }
+.viz-bar { position: absolute; top: 0; bottom: 0; background: var(--series-1); border-radius: 0 4px 4px 0; transition: width 220ms var(--ease), left 220ms var(--ease); }
+.viz-bar.neg { border-radius: 4px 0 0 4px; background: var(--series-2); }
+.viz-bar.warn { background: var(--series-2); }
+.viz-bar.net { background: var(--series-3); }
+.viz-val { text-align: right; font-weight: 600; color: var(--text); }
+svg.viz-line { display: block; width: 100%; height: auto; margin-top: 6px; touch-action: pan-y; }
+.viz-grid { stroke: var(--border); stroke-width: 1; }
+.viz-tick { fill: var(--text-3); font-size: 11px; font-family: var(--font-sans); }
+.viz-path { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.viz-path.s1 { stroke: var(--series-1); background: none; } .viz-path.s2 { stroke: var(--series-2); background: none; } .viz-path.s3 { stroke: var(--series-3); background: none; }
+.viz-path.dashed { stroke-dasharray: 6 5; }
+.viz-dot { stroke: var(--bg-elev); stroke-width: 2; }
+.viz-dot.s1 { fill: var(--series-1); } .viz-dot.s2 { fill: var(--series-2); } .viz-dot.s3 { fill: var(--series-3); }
+.viz-cross { stroke: var(--text-3); stroke-width: 1; stroke-dasharray: 3 3; }
+.viz-scrub, .calc-range { width: 100%; accent-color: var(--accent); margin: 6px 0 0; }
+.viz-read { display: flex; flex-wrap: wrap; gap: 4px 16px; min-height: 1.5em; margin-top: 4px; color: var(--text-2); }
+
+/* ---------- Animated transaction diagrams ---------- */
+.diagram-svg .token-bg { fill: var(--accent); stroke: var(--bg-sunk); stroke-width: 2.5; }
+.diagram-svg .token-fg { fill: var(--accent-contrast); }
+.diagram-svg .token-ink { stroke: var(--accent); stroke-width: 1.4; fill: none; stroke-linecap: round; }
+.diagram-svg .token-line { stroke: var(--accent-contrast); stroke-width: 2; fill: none; stroke-linecap: round; }
+.token-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.token-legend span { display: inline-flex; align-items: center; gap: 6px; }
+svg.token-key { width: 22px; height: 22px; flex: none; }
+
+/* ---------- Learning games ---------- */
+.play-card { display: grid; gap: 6px; align-content: start; }
+.play-card h2 { margin: 4px 0 0; font-size: var(--fs-lg); font-family: var(--font-sans); }
+.play-card p { margin: 0 0 6px; font-size: var(--fs-sm); }
+.play-card .badge { justify-self: start; }
+.play-ico { width: 40px; height: 40px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; }
+.play-ico svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.build-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--sp-4); align-items: start; margin-bottom: var(--sp-4); }
+@media (max-width: 860px) { .build-grid { grid-template-columns: minmax(0, 1fr); } }
+.build-seq { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.build-slot { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 10px; align-items: center; margin: 0; }
+.build-n { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: var(--bg-sunk); border: 1px solid var(--border-strong); font-weight: 700; font-size: var(--fs-sm); color: var(--text-2); }
+.build-empty { border: 1px dashed var(--border-strong); border-radius: var(--radius); min-height: 46px; display: flex; align-items: center; padding: 0 12px; font-size: var(--fs-sm); }
+.build-pool { display: grid; gap: 8px; }
+.build-step { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; text-align: left; width: 100%; padding: 9px 12px; border-radius: var(--radius); border: 1px solid var(--border-strong); background: var(--bg-elev); color: var(--text); font: inherit; cursor: pointer; min-height: 46px; }
+.build-step .build-label { font-weight: 600; grid-column: 1; }
+.build-step .small { grid-column: 1; }
+.build-step .build-mark { grid-column: 2; grid-row: 1 / span 2; align-self: center; display: grid; }
+.build-step .build-mark svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.4; }
+.build-step:hover:not(:disabled) { border-color: var(--accent); background: var(--bg-hover); }
+.build-step:focus-visible, .match-item:focus-visible, .sort-bucket:focus-visible { outline: none; box-shadow: var(--focus); }
+.build-step:disabled { cursor: default; opacity: 1; }
+.build-slot.right .build-step { border-color: var(--ok); background: var(--ok-soft); }
+.build-slot.right .build-mark { color: var(--ok); }
+.build-slot.wrong .build-step { border-color: var(--bad); background: var(--bad-soft); }
+.build-slot.wrong .build-mark { color: var(--bad); }
+.match-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: var(--sp-4); margin-top: 10px; }
+@media (max-width: 600px) { .match-grid { grid-template-columns: minmax(0, 1fr); } }
+.match-col { display: grid; gap: 8px; align-content: start; }
+.match-item { text-align: left; padding: 10px 12px; border-radius: var(--radius); border: 1px solid var(--border-strong); background: var(--bg-elev); color: var(--text); font: inherit; font-size: var(--fs-sm); line-height: 1.4; cursor: pointer; min-height: 44px; }
+.match-item.term { font-weight: 650; font-size: var(--fs-md, 1rem); }
+.match-item:hover:not(:disabled) { border-color: var(--accent); }
+.match-item[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-contrast); }
+.match-item.matched { background: var(--ok-soft); border-color: var(--ok); color: var(--text); cursor: default; opacity: 1; }
+.match-item.miss { border-color: var(--bad); background: var(--bad-soft); animation: shake 320ms var(--ease); }
+@keyframes shake { 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+.sort-card { max-width: 760px; }
+.sort-name { font-size: var(--fs-2xl); margin: 14px 0 4px; }
+.sort-buckets { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 14px 0; }
+@media (max-width: 600px) { .sort-buckets { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.sort-bucket { padding: 12px 10px; border-radius: var(--radius); border: 1px solid var(--border-strong); background: var(--bg-elev); color: var(--text); font: inherit; font-weight: 600; font-size: var(--fs-sm); cursor: pointer; min-height: 48px; }
+.sort-bucket:hover:not(:disabled) { border-color: var(--accent); background: var(--accent-soft); }
+.sort-bucket:disabled { cursor: default; opacity: .75; }
+.sort-bucket.right { border-color: var(--ok); background: var(--ok-soft); opacity: 1; }
+.sort-bucket.wrong { border-color: var(--bad); background: var(--bad-soft); opacity: 1; }
+.build-grid > .card { margin: 0; }
+
 </style>
 </head>
 <body>
@@ -1297,6 +1387,7 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
       calcs: {},           // calculator id -> {n, last}
       numericals: {},      // numerical id -> {n, correct, last}
       achievements: {},    // id -> ts
+      games: {},           // game -> key -> {best, n, ts}  (learning games; optional, absent in older records)
       legacy: { reviewsBefore: 0, imported: {} },
       last: {}
     };
@@ -2406,8 +2497,53 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
       list.appendChild(h('li', b)); return b;
     });
     var KIND = { contract: 'Contract', promise: 'Promise', cash: 'Payment', goods: 'Goods / delivery', ownership: 'Ownership', agency: 'Agency', rent: 'Rent', risk: 'Risk' };
-    function setStep(i) {
+    /* A token travels along the active arrow; its shape says what moves (money, goods, a document, title, risk). */
+    var SHAPE = { cash: 'coin', rent: 'coin', goods: 'box', ownership: 'key', risk: 'tri', contract: 'doc', promise: 'doc', agency: 'doc' };
+    var SHAPE_LABEL = { coin: 'Money moves', box: 'Goods move', doc: 'A contract, promise or agency', key: 'Ownership passes', tri: 'Risk is borne' };
+    function shapeEl(kind) {
+      var g = el('g', { class: 'token' }); g.appendChild(el('circle', { r: 13, class: 'token-bg' }));
+      var sh = SHAPE[kind] || 'doc';
+      if (sh === 'coin') { g.appendChild(el('circle', { r: 6.5, class: 'token-fg' })); g.appendChild(el('path', { d: 'M0,-3.5 V3.5 M-2.2,-1.6 H2.2 M-2.2,1.6 H2.2', class: 'token-ink' })); }
+      else if (sh === 'box') { g.appendChild(el('path', { d: 'M-6.5,-3.5 L0,-7 L6.5,-3.5 V4 L0,7.5 L-6.5,4 Z', class: 'token-fg' })); g.appendChild(el('path', { d: 'M-6.5,-3.5 L0,0 L6.5,-3.5 M0,0 V7.5', class: 'token-ink' })); }
+      else if (sh === 'key') { g.appendChild(el('circle', { cx: -3.5, cy: 0, r: 3.6, class: 'token-fg' })); g.appendChild(el('path', { d: 'M0,0 H7.5 M5,0 V3 M7.5,0 V2.4', class: 'token-line' })); }
+      else if (sh === 'tri') { g.appendChild(el('path', { d: 'M0,-7 L7,5.5 H-7 Z', class: 'token-fg' })); g.appendChild(el('path', { d: 'M0,-2.5 V1.5 M0,3.4 V3.6', class: 'token-ink' })); }
+      else { g.appendChild(el('path', { d: 'M-5,-7 H2.5 L5.5,-4 V7 H-5 Z', class: 'token-fg' })); g.appendChild(el('path', { d: 'M-2.5,-1.5 H3 M-2.5,1.5 H3 M-2.5,4.2 H1', class: 'token-ink' })); }
+      return g;
+    }
+    var tokenG = el('g', { 'aria-hidden': 'true' }); svgEl.appendChild(tokenG);
+    var raf = 0;
+    function still() { return document.documentElement.classList.contains('reduce-motion') || (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches); }
+    function travel(i) {
+      cancelAnimationFrame(raf); while (tokenG.firstChild) tokenG.removeChild(tokenG.firstChild);
+      var path = edgeEls[i].querySelector('path'); if (!path || !path.getTotalLength) return;
+      var len = path.getTotalLength(), tok = shapeEl(d.steps[i].kind), t0 = null, DUR = 1100; tokenG.appendChild(tok);
+      function place(f) { var pt = path.getPointAtLength(len * f); tok.setAttribute('transform', 'translate(' + pt.x.toFixed(1) + ',' + pt.y.toFixed(1) + ')'); }
+      if (still()) { place(0.5); return; }
+      place(0);
+      raf = requestAnimationFrame(function frame(ts) {
+        if (!svgEl.isConnected) return;
+        if (t0 == null) t0 = ts;
+        var f = Math.min(1, (ts - t0) / DUR), e = f < 0.5 ? 2 * f * f : 1 - Math.pow(-2 * f + 2, 2) / 2;
+        place(0.04 + 0.9 * e);
+        if (f < 1) raf = requestAnimationFrame(frame);
+      });
+    }
+    var playing = null;
+    function stopPlay() { if (playing) { clearInterval(playing); playing = null; } playBtn.lastChild.textContent = cur >= d.steps.length - 1 ? 'Replay' : 'Play'; playBtn.firstChild.innerHTML = IFL.ICONS.play; playBtn.setAttribute('aria-pressed', 'false'); }
+    function startPlay() {
+      setStep(cur >= d.steps.length - 1 ? 0 : cur, true);
+      playBtn.lastChild.textContent = 'Pause'; playBtn.firstChild.innerHTML = IFL.ICONS.pause; playBtn.setAttribute('aria-pressed', 'true');
+      playing = setInterval(function () {
+        if (!svgEl.isConnected) { clearInterval(playing); playing = null; return; }
+        if (cur >= d.steps.length - 1) { stopPlay(); return; }
+        setStep(cur + 1, true);
+      }, 2600);
+    }
+    var playBtn = h('button.btn', { type: 'button', 'aria-pressed': 'false', onclick: function () { if (playing) stopPlay(); else startPlay(); } }, u.svg('play'), 'Play');
+    function setStep(i, auto) {
+      if (!auto && playing) stopPlay();
       cur = Math.max(0, Math.min(d.steps.length - 1, i));
+      travel(cur);
       edgeEls.forEach(function (g, j) { g.setAttribute('class', 'edge kind-' + d.steps[j].kind + (j === cur ? ' active' : j < cur ? ' done' : ' future')); });
       labelEls.forEach(function (t, j) { t.classList.toggle('active', j === cur); });
       Object.keys(partyEls).forEach(function (k) { partyEls[k].setAttribute('class', 'party' + (k === d.steps[cur].from || k === d.steps[cur].to ? ' active' : '')); });
@@ -2416,13 +2552,16 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
       detail.innerHTML = '';
       u.append(detail, [h('div.row', h('span.badge.accent', 'Step ' + (cur + 1) + ' of ' + d.steps.length), h('span.badge', KIND[s.kind] || s.kind)), h('h4', { style: { margin: '8px 0 4px' } }, s.label), h('p', { style: { margin: 0 } }, s.detail)]);
       prev.disabled = cur === 0; next.disabled = cur === d.steps.length - 1;
+      if (!playing) playBtn.lastChild.textContent = cur >= d.steps.length - 1 ? 'Replay' : 'Play';
     }
     var prev = h('button.btn', { type: 'button', onclick: function () { setStep(cur - 1); } }, u.svg('left'), 'Previous');
     var next = h('button.btn.primary', { type: 'button', onclick: function () { setStep(cur + 1); } }, 'Next step', u.svg('right'));
     var root = h('div.stack',
       opts.hideSummary ? null : h('p.text-2', d.summary),
       h('div.diagram-wrap', svgEl),
-      h('div.row', prev, next, h('span.spacer'), h('span.small.muted', 'Click an arrow or a step to see the explanation.')),
+      h('div.row', playBtn, prev, next, h('span.spacer'), h('span.small.muted', 'Press Play to watch the deal unfold, or click an arrow or a step.')),
+      (function () { var seen = {}, keys = []; d.steps.forEach(function (st) { var sh = SHAPE[st.kind] || 'doc'; if (!seen[sh]) { seen[sh] = 1; keys.push(sh); } });
+        return h('div.token-legend.small.muted', { 'aria-hidden': 'true' }, keys.map(function (sh) { var kind = Object.keys(SHAPE).filter(function (k) { return SHAPE[k] === sh; })[0]; var s2 = el('svg', { viewBox: '-14 -14 28 28', width: 22, height: 22, class: 'diagram-svg token-key' }); s2.appendChild(shapeEl(kind)); return h('span', s2, SHAPE_LABEL[sh]); })); })(),
       h('div.grid.grid-2', detail, h('div.card.flat', h('h4', 'All steps'), list)),
       opts.hideRules ? null : h('div.grid.grid-2',
         h('div.callout', h('div.t', 'Key Shari’ah rules'), h('ul', d.rules.map(function (r) { return h('li', r); }))),
@@ -2839,6 +2978,8 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
     if (c.topic) IFL.data.addRelation('calculator', k, 'topic', c.topic);
     if (c.modeId) IFL.data.addRelation('calculator', k, 'mode', c.modeId);
   });
+  /* round up to 1, 2, 2.5 or 5 × 10^k */
+  function nice(x) { if (!(x > 0)) return 1; var p = Math.pow(10, Math.floor(Math.log(x) / Math.LN10)), f = x / p; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * p; }
   IFL.calc = function (type, note) {
     var c = CALCS[type]; if (!c) return null;
     var vals = {}, used = false; c.inputs.forEach(function (i) { vals[i.k] = i.v; });
@@ -2848,8 +2989,16 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
       var id = 'calc-' + type + '-' + i.k, inp;
       if (i.type === 'select') inp = h('select.input', { id: id }, i.options.map(function (o) { return h('option', { value: o, selected: o === i.v }, o); }));
       else inp = h('input.input', { id: id, type: 'number', value: i.v, step: i.step || 'any' });
-      inp.addEventListener('input', function () { vals[i.k] = i.type === 'select' ? inp.value : (isFinite(Number(inp.value)) ? Number(inp.value) : 0); if (!used) { used = true; IFL.progress.recordCalc(type); } run(); });
-      return h('div.field', h('label', { for: id }, i.label), inp);
+      function touch() { if (!used) { used = true; IFL.progress.recordCalc(type); } run(); }
+      /* numeric inputs get a slider so the effect of a change can be watched in the chart */
+      var rng = null;
+      if (i.type !== 'select' && Number(i.v) !== 0) {
+        var av = Math.abs(Number(i.v)), top = nice(av * 2.5), st = i.step || nice(top / 200);
+        rng = h('input.calc-range', { type: 'range', min: Number(i.v) < 0 ? -top : 0, max: top, step: st, value: i.v, 'aria-label': i.label + ' (slider)' });
+        rng.addEventListener('input', function () { inp.value = rng.value; vals[i.k] = Number(rng.value); touch(); });
+      }
+      inp.addEventListener('input', function () { vals[i.k] = i.type === 'select' ? inp.value : (isFinite(Number(inp.value)) ? Number(inp.value) : 0); if (rng) rng.value = vals[i.k]; touch(); });
+      return h('div.field', h('label', { for: id }, i.label), inp, rng);
     }));
     function isTextbook() {
       if (!c.textbook) return false;
@@ -2864,6 +3013,7 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
       else badge.textContent = c.textbook === null ? 'Practice Example — generated for learning' : tb ? 'Textbook figures (' + c.source + ')' : 'Practice Example — generated for learning';
       out.innerHTML = '';
       u.append(out, [r.formula ? h('div.formula', r.formula) : null,
+        IFL.calcChart ? IFL.calcChart(type, vals) : null,
         h('ol.steps-out', r.steps.map(function (s) { return h('li', s); })),
         r.table ? IFL.c.table(r.table) : null,
         h('div.result-line', r.result), h('p.small.text-2', { style: { marginTop: '4px' } }, r.meaning)]);
@@ -2878,6 +3028,123 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
   IFL.calcTypes = CALCS;
 })();
 
+
+</script>
+<script data-src="modules/viz.js">
+/* Small chart kit for the calculators: a part-to-whole bar, labelled bars and a line chart.
+   Marks carry identity by position, label and legend — never by colour alone; values are always
+   printed as text beside the marks, so every chart is readable without hovering. */
+(function () {
+  var IFL = window.IFL, u = IFL.u, h = u.h;
+  var NS = 'http://www.w3.org/2000/svg';
+  function el(tag, attrs, text) { var e = document.createElementNS(NS, tag); Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); }); if (text != null) e.textContent = text; return e; }
+  function fmt(x, d) { var v = Number(x); if (!isFinite(v)) v = 0; return v.toLocaleString(undefined, { maximumFractionDigits: d == null ? (Math.abs(v) < 100 ? 2 : 0) : d }); }
+  function legend(names) { return h('div.viz-legend', names.map(function (nm, i) { return h('span.viz-key', h('i.viz-sw.s' + (i + 1)), nm); })); }
+
+  /* Part-to-whole: one bar split into up to four labelled parts. Negative or zero parts are listed but not drawn. */
+  function split(spec) {
+    var parts = spec.parts.filter(function (p) { return isFinite(p.value); }), total = 0;
+    parts.forEach(function (p) { if (p.value > 0) total += p.value; });
+    var bar = h('div.viz-split', { role: 'img', 'aria-label': spec.title + ': ' + parts.map(function (p) { return p.label + ' ' + fmt(p.value); }).join(', ') },
+      parts.map(function (p, i) { return p.value > 0 && total ? h('span.s' + (i + 1), { style: { width: (100 * p.value / total) + '%' }, title: p.label + ': ' + fmt(p.value) + ' (' + fmt(100 * p.value / total, 1) + '%)' }) : null; }));
+    var keys = h('div.viz-legend', parts.map(function (p, i) {
+      return h('span.viz-key', h('i.viz-sw.s' + (i + 1)), p.label, h('strong.tabular', ' ' + fmt(p.value)), total && p.value > 0 ? h('span.muted', ' · ' + fmt(100 * p.value / total, 1) + '%') : null);
+    }));
+    return h('figure.viz', h('figcaption', spec.title, spec.total === false || !total ? null : h('span.muted', ' — total ' + fmt(total))), bar, keys, spec.note ? h('p.small.muted', spec.note) : null);
+  }
+
+  /* Labelled horizontal bars around a zero line (handles losses). */
+  function bars(spec) {
+    var max = 0, min = 0; spec.items.forEach(function (it) { max = Math.max(max, it.value); min = Math.min(min, it.value); });
+    var span = (max - min) || 1, zero = 100 * (-min) / span;
+    var rows = spec.items.map(function (it) {
+      var w = 100 * Math.abs(it.value) / span, left = it.value >= 0 ? zero : zero - w;
+      return h('div.viz-row', h('span.viz-lbl', it.label),
+        h('span.viz-track', { title: it.label + ': ' + fmt(it.value) }, h('span.viz-zero', { style: { left: zero + '%' } }), h('span.viz-bar' + (it.value < 0 ? '.neg' : '') + (it.tone ? '.' + it.tone : ''), { style: { left: left + '%', width: Math.max(w, it.value ? 0.6 : 0) + '%' } })),
+        h('span.viz-val.tabular', (it.value < 0 ? '−' : '') + fmt(Math.abs(it.value)) + (spec.unit || '')));
+    });
+    return h('figure.viz', h('figcaption', spec.title), h('div.viz-bars', { role: 'img', 'aria-label': spec.title + ': ' + spec.items.map(function (it) { return it.label + ' ' + fmt(it.value); }).join(', ') }, rows), spec.note ? h('p.small.muted', spec.note) : null);
+  }
+
+  /* Line chart with a hover/keyboard read-out. One y-axis; up to three series. */
+  function line(spec) {
+    var W = 640, H = 220, L = 54, R = 14, T = 12, B = 30, n = spec.x.length;
+    var max = 0, min = 0; spec.series.forEach(function (s) { s.values.forEach(function (v) { if (isFinite(v)) { max = Math.max(max, v); min = Math.min(min, v); } }); });
+    if (max === min) max = min + 1;
+    var pad = (max - min) * 0.08; max += pad;
+    function X(i) { return L + (n > 1 ? i / (n - 1) : 0.5) * (W - L - R); }
+    function Y(v) { return T + (1 - (v - min) / (max - min)) * (H - T - B); }
+    var svg = el('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'chart-svg viz-line', role: 'img', 'aria-label': spec.title + '. ' + spec.series.map(function (s) { return s.name + ' from ' + fmt(s.values[0]) + ' to ' + fmt(s.values[n - 1]); }).join('; ') });
+    for (var g = 0; g <= 4; g++) {
+      var val = min + (max - min) * g / 4, y = Y(val);
+      svg.appendChild(el('line', { x1: L, x2: W - R, y1: y, y2: y, class: 'viz-grid' }));
+      svg.appendChild(el('text', { x: L - 8, y: y + 4, 'text-anchor': 'end', class: 'viz-tick' }, fmt(val, max - min < 20 ? 1 : 0) + (spec.unit || '')));
+    }
+    var ticks = n <= 8 ? spec.x.map(function (_, i) { return i; }) : [0, Math.round((n - 1) / 4), Math.round((n - 1) / 2), Math.round(3 * (n - 1) / 4), n - 1];
+    ticks.forEach(function (i) { svg.appendChild(el('text', { x: X(i), y: H - 8, 'text-anchor': 'middle', class: 'viz-tick' }, String(spec.x[i]))); });
+    spec.series.forEach(function (s, k) {
+      var d = s.values.map(function (v, i) { return (i ? 'L' : 'M') + X(i).toFixed(1) + ',' + Y(v).toFixed(1); }).join(' ');
+      svg.appendChild(el('path', { d: d, class: 'viz-path s' + (k + 1) + (s.dashed ? ' dashed' : '') }));
+      if (n <= 12) s.values.forEach(function (v, i) { svg.appendChild(el('circle', { cx: X(i), cy: Y(v), r: 4, class: 'viz-dot s' + (k + 1) })); });
+    });
+    var cross = el('line', { y1: T, y2: H - B, class: 'viz-cross', visibility: 'hidden' }); svg.appendChild(cross);
+    var read = h('div.viz-read.small', { 'aria-live': 'off' });
+    function show(i) {
+      i = Math.max(0, Math.min(n - 1, i));
+      cross.setAttribute('x1', X(i)); cross.setAttribute('x2', X(i)); cross.setAttribute('visibility', 'visible');
+      read.innerHTML = ''; u.append(read, [h('strong', (spec.xLabel || '') + ' ' + spec.x[i] + ': '), spec.series.map(function (s, k) { return h('span.viz-key', h('i.viz-sw.s' + (k + 1)), s.name + ' ', h('strong.tabular', fmt(s.values[i]) + (spec.unit || ''))); })]);
+      slider.value = i;
+    }
+    svg.addEventListener('pointermove', function (e) { var r = svg.getBoundingClientRect(), px = (e.clientX - r.left) / r.width * W; show(Math.round((px - L) / (W - L - R) * (n - 1))); });
+    var slider = h('input.viz-scrub', { type: 'range', min: 0, max: n - 1, step: 1, value: 0, 'aria-label': 'Move along the chart: ' + (spec.xLabel || 'point') });
+    slider.addEventListener('input', function () { show(Number(slider.value)); });
+    var fig = h('figure.viz', h('figcaption', spec.title), spec.series.length > 1 ? legend(spec.series.map(function (s) { return s.name; })) : null, svg, n > 2 ? slider : null, read, spec.note ? h('p.small.muted', spec.note) : null);
+    show(0); cross.setAttribute('visibility', 'hidden');
+    return fig;
+  }
+
+  IFL.viz = { split: split, bars: bars, line: line, fmt: fmt, render: function (spec) { return !spec ? null : spec.kind === 'split' ? split(spec) : spec.kind === 'bars' ? bars(spec) : spec.kind === 'line' ? line(spec) : null; } };
+
+  /* ---------- Charts for the calculators (same formulas as the calculators themselves) ---------- */
+  var CH = {
+    'credit-price': function (v) { var p = v.cash * v.markup / 100; return { kind: 'split', title: 'What the credit price is made of', parts: [{ label: 'Cost to the bank', value: v.cash }, { label: 'Agreed profit', value: p }], note: 'The whole bar is the debt. It is fixed at the sale and does not grow if payment is late.' }; },
+    'dm-schedule': function (v) {
+      var months = Math.max(1, Math.min(600, Math.round(v.months) || 1)), inv = v.cost * v.share / 100, unit = inv / months, out = inv, rent = [], units = [], x = [];
+      for (var m = 1; m <= months; m++) { rent.push(out * v.rate / 1200); units.push(unit); x.push(m); out -= unit; }
+      return { kind: 'line', title: 'Monthly payment over the tenure', xLabel: 'Month', x: x, series: [{ name: 'Rent on the bank’s remaining share', values: rent }, { name: 'Unit purchase', values: units, dashed: true }], note: 'Rent falls every month because the client owns more of the house; the unit purchase stays level.' };
+    },
+    'floating-rent': function (v) {
+      var raw = [v.r1], app = [v.r1]; [v.b2, v.b3, v.b4].forEach(function (b) { var r = b + v.spread; raw.push(r); app.push(Math.min(v.cap, Math.max(v.floor, r))); });
+      return { kind: 'line', title: 'Rental rate each period', xLabel: 'Period', unit: '%', x: [1, 2, 3, 4], series: [{ name: 'Rate applied (between floor and cap)', values: app }, { name: 'Benchmark + spread', values: raw, dashed: true }], note: 'Where the two lines part, the floor or the cap is protecting one of the parties.' };
+    },
+    'mudarabah-mixed': function (v) { var tot = v.dep + v.bank, own = tot ? v.profit * v.bank / tot : 0, rest = v.profit - own, mud = rest * v.ratio / 100; return { kind: 'split', title: 'Who receives the profit', parts: [{ label: 'Bank — on its own capital', value: own }, { label: 'Bank — Mudarib share', value: mud }, { label: 'Depositors', value: rest - mud }] }; },
+    'pool-weightage': function (v) {
+      if (v.profit < 0) return null;
+      var D = [v.d1, v.d2, v.d3], W = [v.w1, v.w2, v.w3], bank = v.profit * v.mudarib / 100, pool = v.profit - bank, wa = D.map(function (d, i) { return d * W[i]; }), wt = wa[0] + wa[1] + wa[2];
+      if (!wt) return null;
+      return { kind: 'split', title: 'How the pool’s profit is shared', parts: [{ label: 'Bank (Mudarib)', value: bank }, { label: '3-month tier', value: wa[0] / wt * pool }, { label: '6-month tier', value: wa[1] / wt * pool }, { label: '12-month tier', value: wa[2] / wt * pool }] };
+    },
+    'sukuk-distribution': function (v) { var per = v.periods > 0 ? Math.round(v.periods) : 1; return { kind: 'split', title: 'Total cash flow to Sukuk holders', parts: [{ label: 'Principal redeemed at maturity', value: v.principal }, { label: 'Periodic distributions (' + per + ')', value: v.principal * v.rate / 100 * per }] }; },
+    'qard-vs-interest': function (v) { var months = Math.max(0, v.months), x = v.principal * v.rate / 100 * months / 12; return { kind: 'bars', title: 'What the borrower must repay', items: [{ label: 'Qard Hasan', value: v.principal }, { label: 'Interest loan', value: v.principal + x, tone: 'warn' }], note: 'The gap between the two bars (' + fmt(x) + ') is the stipulated excess — Riba.' }; },
+    'salam-discount': function (v) { var cap = v.qty * v.price, val = v.qty * v.spot; return val >= cap ? { kind: 'split', title: 'Expected value of the goods at delivery', parts: [{ label: 'Salam capital paid now', value: cap }, { label: 'Buyer’s discount', value: val - cap }] } : { kind: 'bars', title: 'Capital paid versus expected value', items: [{ label: 'Salam capital paid now', value: cap }, { label: 'Expected value at delivery', value: val }] }; },
+    'takaful-waqf': function (v) { var fee = v.contrib * v.fee / 100, uw = v.contrib - fee - v.claims; return uw >= 0 ? { kind: 'split', title: 'Where the participants’ contributions go', parts: [{ label: 'Wakalah fee (operator)', value: fee }, { label: 'Claims and re-Takaful', value: v.claims }, { label: 'Underwriting surplus (participants)', value: uw }] } : { kind: 'bars', title: 'Contributions against outgoings', items: [{ label: 'Contributions', value: v.contrib }, { label: 'Wakalah fee', value: fee }, { label: 'Claims and re-Takaful', value: v.claims }, { label: 'Deficit (Qard from operator)', value: uw }] }; },
+    'sukuk-trade': function (v) { return { kind: 'split', title: 'Composition of the asset pool', parts: [{ label: 'Real assets, usufruct, inventory', value: v.real }, { label: 'Receivables (debts)', value: v.recv }, { label: 'Cash', value: v.cash }], note: 'Only the first part is non-liquid; the tests below ask how large it is.' }; },
+    'mudarabah-offset': function (v) { return { kind: 'bars', title: 'Result of each deal, and the net', items: [{ label: 'Deal 1', value: v.d1 }, { label: 'Deal 2', value: v.d2 }, { label: 'Deal 3', value: v.d3 }, { label: 'Deal 4', value: v.d4 }, { label: 'Net result', value: v.d1 + v.d2 + v.d3 + v.d4, tone: 'net' }], note: 'Only the net is shared: losses are set off against profits first.' }; },
+    'parallel-istisna': function (v) { return v.sale >= v.cost ? { kind: 'split', title: 'The customer’s price', parts: [{ label: 'Paid to the contractor', value: v.cost }, { label: 'Bank’s margin', value: v.sale - v.cost }] } : null; },
+    'purification': function (v) { var rate = v.rev ? v.nc / v.rev : 0, amt = Math.max(0, Math.min(v.div, rate * v.div)); return { kind: 'split', title: 'The dividend after purification', parts: [{ label: 'Kept by the investor', value: v.div - amt }, { label: 'Given to charity', value: amt }] }; },
+    'musharakah-pl': function (v) {
+      var tot = v.ca + v.cb; if (!tot) return null;
+      var ka = 100 * v.ca / tot, pa = v.pa, pb = 100 - pa;
+      if (/^Yes/.test(v.sa) && pa > ka) { pa = ka; pb = 100 - pa; }
+      if (/^Yes/.test(v.sb) && pb > 100 - ka) { pb = 100 - ka; pa = 100 - pb; }
+      return v.result >= 0
+        ? { kind: 'split', title: 'Profit shared by the agreed ratio', parts: [{ label: 'Partner A', value: v.result * pa / 100 }, { label: 'Partner B', value: v.result * pb / 100 }], note: 'Capital is ' + fmt(ka, 1) + ' : ' + fmt(100 - ka, 1) + '. Profit may follow a different ratio; a loss never does.' }
+        : { kind: 'split', title: 'Loss borne by capital ratio', parts: [{ label: 'Partner A', value: -v.result * ka / 100 }, { label: 'Partner B', value: -v.result * (100 - ka) / 100 }], note: 'The agreed profit ratio is ignored for a loss.' };
+    }
+  };
+  IFL.calcChart = function (type, vals) { try { return CH[type] ? IFL.viz.render(CH[type](vals)) : null; } catch (e) { return null; } };
+  IFL.calcHasChart = function (type) { return !!CH[type]; };
+})();
 
 </script>
 <script data-src="modules/views/dashboard.js">
@@ -3113,6 +3380,192 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
     var more = recs.length ? h('section.card', h('div.card-title', h('h2', 'Also worth doing')), h('ul.list', recs.map(function (r) { return h('li', h('a', { href: '#' + r.route }, r.title), h('div.small.muted', r.why)); }))) : null;
     void s;
     return h('div.stack', head, body, h('div.grid.grid-2', week, more));
+  });
+})();
+
+</script>
+<script data-src="modules/views/play.js">
+/* Learning games. Each one is built only from records that already exist in the canonical data —
+   transaction-diagram steps, glossary definitions and financing-mode profiles — so nothing here adds
+   or alters course content. Best results are kept under state.games. */
+(function () {
+  var IFL = window.IFL, u = IFL.u, h = u.h, C = IFL.c;
+
+  function games() { return IFL.store.state.games || {}; }
+  function best(game, key) { return (games()[game] || {})[key] || null; }
+  /* lowerIsBetter: fewer mistakes wins; otherwise a higher score wins */
+  function record(game, key, score, lowerIsBetter) {
+    IFL.store.update(function (s) {
+      s.games = s.games || {}; var g = s.games[game] = s.games[game] || {}, r = g[key] = g[key] || { n: 0 };
+      r.n++; r.ts = Date.now();
+      if (r.best == null || (lowerIsBetter ? score < r.best : score > r.best)) r.best = score;
+    }, 'game');
+  }
+  function played(game) { return Object.keys(games()[game] || {}).length; }
+  function sameStep(a, b) { return a.label === b.label && a.from === b.from && a.to === b.to; }
+
+  /* ---------------- hub ---------------- */
+  IFL.route('/play', function () {
+    var D = IFL.data, solved = Object.keys(games().build || {}).filter(function (k) { return games().build[k].best === 100; }).length;
+    function card(route, icon, title, text, stat) {
+      return h('a.card.card-link.play-card', { href: '#' + route }, h('span.play-ico', u.svg(icon)), h('h2', title), h('p.text-2', text), h('span.badge.accent', stat));
+    }
+    return h('div', C.pageHead({ eyebrow: 'Practise', title: 'Learn by doing', desc: 'Three short games built from the course’s own diagrams, glossary and financing-mode profiles. They train the things exams ask for: the order of a transaction, the exact meaning of a term, and how each instrument earns its return.' }),
+      h('div.grid.grid-3',
+        card('/play/build', 'flow', 'Build the deal', 'The steps of a transaction are shuffled. Put them back in the order they must happen — then watch the deal play out.', solved + ' of ' + D.diagrams.length + ' deals solved'),
+        card('/play/match', 'cards', 'Term match', 'Pair six Arabic terms with their definitions. Fewer wrong guesses is better.', played('match') ? played('match') + ' categories played' : 'Not played yet'),
+        card('/play/sort', 'layers', 'Sort the instruments', 'One financing mode at a time: decide how the financier earns, or which family of contracts it belongs to.', played('sort') ? 'Best ' + Math.max.apply(null, Object.keys(games().sort).map(function (k) { return games().sort[k].best; })) + '%' : 'Not played yet')),
+      h('section.card', { style: { marginTop: 'var(--sp-4)' } }, h('div.card-title', h('h2', 'See it move')),
+        h('div.grid.grid-3',
+          h('a.btn', { href: '#/diagrams', style: { justifyContent: 'flex-start' } }, u.svg('play'), 'Animated transaction diagrams'),
+          h('a.btn', { href: '#/tools', style: { justifyContent: 'flex-start' } }, u.svg('chart'), 'Calculators with sliders and charts'),
+          h('a.btn', { href: '#/concepts', style: { justifyContent: 'flex-start' } }, u.svg('map'), 'Concept map'))));
+  });
+
+  /* ---------------- 1. Build the deal ---------------- */
+  IFL.route('/play/build', function (ctx) {
+    var D = IFL.data, id = ctx.query.id;
+    if (!id) {
+      /* picker: every diagram, with solved state */
+      return h('div', C.pageHead({ crumbs: [{ label: 'Learn by doing', route: '/play' }, { label: 'Build the deal' }], eyebrow: 'Game', title: 'Build the deal', desc: 'Choose a transaction. Its steps will be shuffled; rebuild the sequence from first step to last.' }),
+        h('div.grid.grid-3', D.diagrams.map(function (d) {
+          var b = best('build', d.id);
+          return h('a.card.card-link', { href: '#/play/build?id=' + d.id }, h('div.row.between', h('strong', d.title), b ? h('span.badge.' + (b.best === 100 ? 'ok' : 'gold'), b.best === 100 ? 'Solved' : 'Best ' + b.best + '%') : h('span.badge', d.steps.length + ' steps')), h('p.small.text-2', { style: { margin: '6px 0 0' } }, IFL.trunc(d.summary, 110)));
+        })));
+    }
+    var d = D.diagram(id); if (!d) throw new Error('There is no diagram “' + id + '”');
+    var pool = u.shuffle(d.steps.map(function (s, i) { return { s: s, i: i }; }));
+    if (pool.every(function (p, k) { return p.i === k; }) && pool.length > 1) pool.push(pool.shift());
+    var seq = [], checked = false, tries = 0;
+    var seqEl = h('ol.build-seq', { 'aria-label': 'Your sequence' }), poolEl = h('div.build-pool', { 'aria-label': 'Steps still to place' }), foot = h('div.stack'), status = h('p.small.muted', { role: 'status' });
+    function partyName(pid) { var p = d.parties.filter(function (x) { return x.id === pid; })[0]; return p ? p.label : pid; }
+    function stepBody(p) { return [h('span.build-label', p.s.label), h('span.small.muted', p.s.from === p.s.to ? partyName(p.s.from) : partyName(p.s.from) + ' → ' + partyName(p.s.to))]; }
+    function draw() {
+      seqEl.innerHTML = ''; poolEl.innerHTML = '';
+      for (var k = 0; k < d.steps.length; k++) {
+        (function (k) {
+          var p = seq[k], right = checked && p && sameStep(p.s, d.steps[k]);
+          seqEl.appendChild(h('li.build-slot' + (p ? '.filled' : '') + (checked && p ? (right ? '.right' : '.wrong') : ''),
+            h('span.build-n', String(k + 1)),
+            p ? h('button.build-step', { type: 'button', disabled: p.locked, 'aria-label': 'Step ' + (k + 1) + ': ' + p.s.label + (p.locked ? ' (correct)' : '. Press to take it back'), onclick: function () { seq.splice(k, 1); pool.push(p); checked = false; draw(); } }, stepBody(p), checked ? h('span.build-mark', u.svg(right ? 'check' : 'x')) : null)
+              : h('span.build-empty.muted', k === seq.length ? 'Choose the next step below' : '')));
+        })(k);
+      }
+      pool.forEach(function (p, j) {
+        poolEl.appendChild(h('button.build-step.pool', { type: 'button', onclick: function () { pool.splice(j, 1); seq.push(p); checked = false; draw(); var nb = poolEl.querySelector('button'); if (nb) nb.focus(); else checkBtn.focus(); } }, stepBody(p)));
+      });
+      if (!pool.length && !checked) poolEl.appendChild(h('p.small.muted', 'All steps placed — check your sequence.'));
+      checkBtn.disabled = pool.length > 0 || checked;
+      status.textContent = seq.length + ' of ' + d.steps.length + ' placed' + (tries ? ' · ' + tries + ' check' + (tries === 1 ? '' : 's') : '');
+    }
+    function check() {
+      checked = true; tries++;
+      var ok = 0, lead = true; seq.forEach(function (p, k) { if (sameStep(p.s, d.steps[k])) { ok++; if (lead) p.locked = true; } else lead = false; });
+      var pct = Math.round(100 * ok / d.steps.length), score = tries === 1 ? pct : ok === d.steps.length ? Math.max(50, 100 - 15 * (tries - 1)) : pct;
+      draw(); foot.innerHTML = '';
+      if (ok === d.steps.length) {
+        record('build', d.id, tries === 1 ? 100 : score);
+        status.textContent = 'Correct sequence' + (tries === 1 ? ' on the first check.' : ' after ' + tries + ' checks.');
+        var others = IFL.data.diagrams.filter(function (x) { return x.id !== d.id && !(best('build', x.id) && best('build', x.id).best === 100); }), nx = others[0];
+        u.append(foot, [h('div.callout.ok', h('div.t', tries === 1 ? 'Perfect — every step in order first time.' : 'Solved in ' + tries + ' checks.'), h('p', { style: { margin: 0 } }, 'Now watch the transaction run. The shape on each arrow shows what moves: money, goods, a document, ownership or risk.')),
+          h('section.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, d.title), C.diagram(d)),
+          h('div.row', nx ? h('a.btn.primary', { href: '#/play/build?id=' + nx.id }, 'Next deal: ' + IFL.trunc(nx.title, 40), u.svg('right')) : null, h('a.btn', { href: '#/play/build' }, 'All deals'), d.topicId ? h('a.btn', { href: '#/topic/' + d.topicId }, 'Open the lesson') : null)]);
+      } else {
+        record('build', d.id, pct);
+        status.textContent = ok + ' of ' + d.steps.length + ' steps are in the right place.';
+        var wrong = seq.filter(function (p, k) { return !sameStep(p.s, d.steps[k]); });
+        u.append(foot, [h('div.callout.bad', h('div.t', ok + ' of ' + d.steps.length + ' in the right place'), h('p', { style: { margin: 0 } }, 'Ticked steps are in the right place; the correct opening run stays locked. Ask what must already be true before each remaining step can happen — who owns the asset, and who bears its risk?')),
+          h('div.row', h('button.btn.primary', { type: 'button', onclick: function () { var keep = 0; while (keep < seq.length && sameStep(seq[keep].s, d.steps[keep])) keep++; var back = seq.slice(keep); back.forEach(function (p) { p.locked = false; }); pool = u.shuffle(back); seq = seq.slice(0, keep); checked = false; foot.innerHTML = ''; draw(); } }, u.svg('refresh'), 'Fix the ' + wrong.length + ' wrong step' + (wrong.length === 1 ? '' : 's')),
+            h('button.btn', { type: 'button', onclick: function () { foot.innerHTML = ''; u.append(foot, [h('section.card', h('h2', { style: { fontSize: 'var(--fs-lg)', fontFamily: 'var(--font-sans)' } }, 'The sequence, explained'), C.diagram(d)), h('a.btn', { href: '#/play/build?id=' + d.id + '&r=' + Date.now() }, u.svg('refresh'), 'Try again from the start')]); } }, 'Show me the answer'))]);
+      }
+    }
+    var checkBtn = h('button.btn.primary', { type: 'button', onclick: check }, u.svg('check'), 'Check sequence');
+    draw();
+    return h('div', C.pageHead({ crumbs: [{ label: 'Learn by doing', route: '/play' }, { label: 'Build the deal', route: '/play/build' }, { label: d.title }], eyebrow: 'Build the deal', title: d.title, desc: d.summary }),
+      h('div.build-grid',
+        h('section.card', h('div.card-title', h('h2', 'Your sequence'), status), seqEl, h('div.row', { style: { marginTop: '12px' } }, checkBtn)),
+        h('section.card', h('div.card-title', h('h2', 'Steps to place')), h('p.small.muted', 'Press a step to add it to the end of your sequence. Press a placed step to take it back.'), poolEl)),
+      foot);
+  });
+
+  /* ---------------- 2. Term match ---------------- */
+  IFL.route('/play/match', function (ctx) {
+    var D = IFL.data, PAIRS = 6;
+    var cats = {}; D.glossary.forEach(function (g) { if (g.definition && g.definition.length <= 170) (cats[g.category] = cats[g.category] || []).push(g); });
+    var names = Object.keys(cats).filter(function (c) { return cats[c].length >= PAIRS; }).sort();
+    var cat = ctx.query.cat && cats[ctx.query.cat] ? ctx.query.cat : '';
+    var chips = h('div.row', { style: { margin: '0 0 14px' } }, h('a.chip', { href: '#/play/match', 'aria-pressed': String(!cat) }, 'Any category'), names.map(function (c) { return h('a.chip', { href: '#/play/match?cat=' + encodeURIComponent(c), 'aria-pressed': String(cat === c) }, c); }));
+    var source = cat ? cats[cat] : [].concat.apply([], names.map(function (c) { return cats[c]; }));
+    var picked = u.shuffle(source.slice()).slice(0, PAIRS), defs = u.shuffle(picked.slice());
+    var sel = null, mistakes = 0, done = 0, t0 = Date.now(), key = cat || 'any';
+    var status = h('p.small.muted', { role: 'status' }, 'Pick a term, then its definition.'), foot = h('div');
+    var termBtns = {}, defBtns = {};
+    function pickTerm(g) { if (termBtns[g.id].disabled) return; sel = g; Object.keys(termBtns).forEach(function (k) { termBtns[k].setAttribute('aria-pressed', String(k === g.id)); }); status.textContent = 'Now choose the definition of ' + g.term + '.'; }
+    function pickDef(g) {
+      if (!sel) { status.textContent = 'Pick a term on the left first.'; return; }
+      if (sel.id === g.id) {
+        [termBtns[g.id], defBtns[g.id]].forEach(function (b) { b.disabled = true; b.classList.add('matched'); b.setAttribute('aria-pressed', 'false'); });
+        done++; sel = null; status.textContent = done + ' of ' + PAIRS + ' matched' + (mistakes ? ' · ' + mistakes + ' wrong guess' + (mistakes === 1 ? '' : 'es') : '') + '.';
+        if (done === picked.length) finish();
+      } else {
+        mistakes++; var b = defBtns[g.id]; b.classList.add('miss'); setTimeout(function () { b.classList.remove('miss'); }, 500);
+        status.textContent = 'Not that one — ' + mistakes + ' wrong guess' + (mistakes === 1 ? '' : 'es') + ' so far. Try another definition for ' + sel.term + '.';
+      }
+    }
+    function finish() {
+      var secs = Math.round((Date.now() - t0) / 1000), prev = best('match', key);
+      record('match', key, mistakes, true);
+      u.append(foot, [h('div.callout.ok', h('div.t', mistakes === 0 ? 'Flawless — six pairs, no wrong guesses.' : 'All six matched with ' + mistakes + ' wrong guess' + (mistakes === 1 ? '' : 'es') + '.'), h('p', { style: { margin: 0 } }, 'Time ' + u.fmtDuration(secs) + '.' + (prev && prev.best != null ? ' Previous best: ' + prev.best + ' wrong.' : ''))),
+        h('div.row', h('a.btn.primary', { href: '#/play/match?' + (cat ? 'cat=' + encodeURIComponent(cat) + '&' : '') + 'r=' + Date.now() }, u.svg('refresh'), 'New round'), h('a.btn', { href: '#/glossary' }, 'Open the glossary'), h('a.btn', { href: '#/play' }, 'Other games'))]);
+    }
+    var left = h('div.match-col', { role: 'group', 'aria-label': 'Terms' }, picked.map(function (g) { return (termBtns[g.id] = h('button.match-item.term', { type: 'button', 'aria-pressed': 'false', onclick: function () { pickTerm(g); } }, g.term)); }));
+    var right = h('div.match-col', { role: 'group', 'aria-label': 'Definitions' }, defs.map(function (g) { return (defBtns[g.id] = h('button.match-item', { type: 'button', onclick: function () { pickDef(g); } }, g.definition)); }));
+    return h('div', C.pageHead({ crumbs: [{ label: 'Learn by doing', route: '/play' }, { label: 'Term match' }], eyebrow: 'Game', title: 'Term match', desc: 'Six terms from the book’s glossary and their definitions. Match them with as few wrong guesses as you can.' }),
+      chips, h('section.card', status, h('div.match-grid', left, right)), foot);
+  });
+
+  /* ---------------- 3. Sort the instruments ---------------- */
+  IFL.route('/play/sort', function (ctx) {
+    var D = IFL.data, by = ctx.query.by === 'family' ? 'family' : 'return', field = by === 'family' ? 'category' : 'returnType';
+    var counts = {}; D.modes.forEach(function (m) { counts[m[field]] = (counts[m[field]] || 0) + 1; });
+    var buckets = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a] || (a < b ? -1 : 1); });
+    if (by === 'family') buckets = buckets.slice(0, 6);
+    var deck = u.shuffle(D.modes.filter(function (m) { return buckets.indexOf(m[field]) > -1; })).slice(0, 8);
+    var i = 0, score = 0, stage = h('div', { 'aria-live': 'polite' });
+    var seg = h('div.seg', { role: 'group', 'aria-label': 'What to sort by', style: { marginBottom: '14px' } },
+      h('button', { type: 'button', 'aria-pressed': String(by === 'return'), onclick: function () { IFL.go('/play/sort?by=return'); } }, 'How the financier earns'),
+      h('button', { type: 'button', 'aria-pressed': String(by === 'family'), onclick: function () { IFL.go('/play/sort?by=family'); } }, 'Contract family'));
+    function round() {
+      stage.innerHTML = '';
+      if (i >= deck.length) {
+        var pct = Math.round(100 * score / deck.length), prev = best('sort', by);
+        record('sort', by, pct);
+        u.append(stage, [h('section.card', h('div.row', { style: { gap: '20px' } }, C.ring(pct, 96, 'Score'), h('div', h('h2', { style: { margin: 0, fontFamily: 'var(--font-sans)', fontSize: 'var(--fs-xl)' } }, score + ' of ' + deck.length + ' correct'), h('p.text-2', pct === 100 ? 'Every instrument placed correctly.' : 'Open the modes you missed, then try another round.'), prev && prev.best != null ? h('p.small.muted', 'Previous best: ' + prev.best + '%') : null)),
+          h('div.row', { style: { marginTop: '12px' } }, h('a.btn.primary', { href: '#/play/sort?by=' + by + '&r=' + Date.now() }, u.svg('refresh'), 'New round'), h('a.btn', { href: '#/modes' }, 'Financing modes'), h('a.btn', { href: '#/compare' }, 'Comparison lab'), h('a.btn', { href: '#/play' }, 'Other games')))]);
+        return;
+      }
+      var m = deck[i], answered = false;
+      var hint = h('p.small.text-2', { hidden: true }, m.subjectMatter);
+      var hintBtn = h('button.btn.sm', { type: 'button', onclick: function () { hint.hidden = false; hintBtn.disabled = true; } }, 'Hint: what is being financed?');
+      var fb = h('div');
+      var opts = h('div.sort-buckets', buckets.map(function (b) {
+        var btn = h('button.sort-bucket', { type: 'button', onclick: function () {
+          if (answered) return; answered = true;
+          var ok = m[field] === b; if (ok) score++;
+          Array.prototype.forEach.call(opts.children, function (x) { x.disabled = true; if (x.dataset.b === m[field]) x.classList.add('right'); });
+          if (!ok) btn.classList.add('wrong');
+          u.append(fb, [h('div.callout.' + (ok ? 'ok' : 'bad'), h('div.t', ok ? 'Correct — ' + m[field] : 'It is ' + m[field]), h('p', { style: { margin: 0 } }, by === 'return' ? m.returnTypeDetail : m.distinguishingFeature)),
+            h('div.row', nextBtn, h('a.btn', { href: '#/mode/' + m.id }, 'Open ' + m.name))]);
+          nextBtn.focus();
+        } }, b);
+        btn.dataset.b = b; return btn;
+      }));
+      var nextBtn = h('button.btn.primary', { type: 'button', onclick: function () { i++; round(); } }, i === deck.length - 1 ? 'See result' : 'Next instrument', u.svg('right'));
+      u.append(stage, [h('section.card.sort-card', h('div.row.between.small.muted', h('span', 'Instrument ' + (i + 1) + ' of ' + deck.length), h('span.tabular', score + ' correct')), C.bar(Math.round(100 * i / deck.length), 'thin'),
+        h('h2.sort-name', m.name), h('p.text-2', by === 'return' ? 'How does the financier earn on this instrument?' : 'Which family of contracts does it belong to?'), hintBtn, hint, opts, fb)]);
+    }
+    round();
+    return h('div', C.pageHead({ crumbs: [{ label: 'Learn by doing', route: '/play' }, { label: 'Sort the instruments' }], eyebrow: 'Game', title: 'Sort the instruments', desc: 'Eight financing modes, one at a time. The classification and the explanation come from each mode’s own profile.' }), seg, stage);
   });
 })();
 
@@ -6574,7 +7027,7 @@ IFL_DATA.registerChapter({"number":18,"title":"The Way Forward","part":"part-iii
   var NAV = [
     { label: null, items: [{ r: '/', t: 'Dashboard', i: 'home' }, { r: '/today', t: 'Today’s session', i: 'calendar' }] },
     { label: 'Learn', items: [{ r: '/learn', t: 'Chapters and topics', i: 'book', sub: 'learn' }, { r: '/concepts', t: 'Concepts and map', i: 'map' }, { r: '/glossary', t: 'Glossary and acronyms', i: 'glossary' }] },
-    { label: 'Practise', items: [{ r: '/quiz', t: 'Questions and quizzes', i: 'quiz' }, { r: '/practice', t: 'Adaptive practice and weak areas', i: 'target' }, { r: '/flashcards', t: 'Flashcards (spaced review)', i: 'cards' }, { r: '/mistakes', t: 'My mistakes', i: 'refresh' }] },
+    { label: 'Practise', items: [{ r: '/quiz', t: 'Questions and quizzes', i: 'quiz' }, { r: '/practice', t: 'Adaptive practice and weak areas', i: 'target' }, { r: '/flashcards', t: 'Flashcards (spaced review)', i: 'cards' }, { r: '/mistakes', t: 'My mistakes', i: 'refresh' }, { r: '/play', t: 'Learn by doing (games)', i: 'play' }] },
     { label: 'Apply', items: [{ r: '/modes', t: 'Financing modes', i: 'bank' }, { r: '/products', t: 'Products', i: 'layers' }, { r: '/diagrams', t: 'Transaction diagrams', i: 'flow' }, { r: '/cases', t: 'Case studies', i: 'case' }, { r: '/compare', t: 'Comparisons', i: 'compare' }, { r: '/finder', t: 'Which mode applies?', i: 'compass' }] },
     { label: 'Calculate', items: [{ r: '/numericals', t: 'Numericals trainer', i: 'sum' }, { r: '/tools', t: 'Calculators and checkers', i: 'calc' }] },
     { label: 'Exam', items: [{ r: '/exam', t: 'Exam preparation', i: 'exam' }, { r: '/exam/trainer', t: 'Answer trainer', i: 'edit' }, { r: '/revision-cards', t: 'Rapid revision cards', i: 'bolt' }, { r: '/mock', t: 'Timed mock exams', i: 'flame' }, { r: '/planner', t: 'Exam planner', i: 'calendar' }] },

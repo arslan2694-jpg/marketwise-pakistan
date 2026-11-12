@@ -31,6 +31,7 @@
       calcs: {},           // calculator id -> {n, last}
       numericals: {},      // numerical id -> {n, correct, last}
       achievements: {},    // id -> ts
+      games: {},           // game -> key -> {best, n, ts}  (learning games; optional, absent in older records)
       legacy: { reviewsBefore: 0, imported: {} },
       last: {}
     };

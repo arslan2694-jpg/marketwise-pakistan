@@ -390,6 +390,8 @@
     if (c.topic) IFL.data.addRelation('calculator', k, 'topic', c.topic);
     if (c.modeId) IFL.data.addRelation('calculator', k, 'mode', c.modeId);
   });
+  /* round up to 1, 2, 2.5 or 5 × 10^k */
+  function nice(x) { if (!(x > 0)) return 1; var p = Math.pow(10, Math.floor(Math.log(x) / Math.LN10)), f = x / p; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * p; }
   IFL.calc = function (type, note) {
     var c = CALCS[type]; if (!c) return null;
     var vals = {}, used = false; c.inputs.forEach(function (i) { vals[i.k] = i.v; });
@@ -399,8 +401,16 @@
       var id = 'calc-' + type + '-' + i.k, inp;
       if (i.type === 'select') inp = h('select.input', { id: id }, i.options.map(function (o) { return h('option', { value: o, selected: o === i.v }, o); }));
       else inp = h('input.input', { id: id, type: 'number', value: i.v, step: i.step || 'any' });
-      inp.addEventListener('input', function () { vals[i.k] = i.type === 'select' ? inp.value : (isFinite(Number(inp.value)) ? Number(inp.value) : 0); if (!used) { used = true; IFL.progress.recordCalc(type); } run(); });
-      return h('div.field', h('label', { for: id }, i.label), inp);
+      function touch() { if (!used) { used = true; IFL.progress.recordCalc(type); } run(); }
+      /* numeric inputs get a slider so the effect of a change can be watched in the chart */
+      var rng = null;
+      if (i.type !== 'select' && Number(i.v) !== 0) {
+        var av = Math.abs(Number(i.v)), top = nice(av * 2.5), st = i.step || nice(top / 200);
+        rng = h('input.calc-range', { type: 'range', min: Number(i.v) < 0 ? -top : 0, max: top, step: st, value: i.v, 'aria-label': i.label + ' (slider)' });
+        rng.addEventListener('input', function () { inp.value = rng.value; vals[i.k] = Number(rng.value); touch(); });
+      }
+      inp.addEventListener('input', function () { vals[i.k] = i.type === 'select' ? inp.value : (isFinite(Number(inp.value)) ? Number(inp.value) : 0); if (rng) rng.value = vals[i.k]; touch(); });
+      return h('div.field', h('label', { for: id }, i.label), inp, rng);
     }));
     function isTextbook() {
       if (!c.textbook) return false;
@@ -415,6 +425,7 @@
       else badge.textContent = c.textbook === null ? 'Practice Example — generated for learning' : tb ? 'Textbook figures (' + c.source + ')' : 'Practice Example — generated for learning';
       out.innerHTML = '';
       u.append(out, [r.formula ? h('div.formula', r.formula) : null,
+        IFL.calcChart ? IFL.calcChart(type, vals) : null,
         h('ol.steps-out', r.steps.map(function (s) { return h('li', s); })),
         r.table ? IFL.c.table(r.table) : null,
         h('div.result-line', r.result), h('p.small.text-2', { style: { marginTop: '4px' } }, r.meaning)]);

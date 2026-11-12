@@ -15,6 +15,7 @@ step "8 migration";                  $NODE tools/qa/migrate.js | tail -2
 step "9 interactive flows 1";        $NODE tools/qa/flows.js | tail -3
 step "10 interactive flows 2";       $NODE tools/qa/flows2.js | tail -3
 step "10b interactive flows 3";      $NODE tools/qa/flows3.js | tail -3
+step "10c interactive flows 4";      $NODE tools/qa/flows4.js | tail -3
 step "11 responsive + a11y";         $NODE tools/qa/responsive.js | tail -8
 step "12 counts + perf";             $NODE tools/qa/counts.js >/dev/null; $NODE tools/qa/perf.js | tail -12
 step "13 route crawler + broken links"; $NODE tools/qa/crawl.js | tail -6
