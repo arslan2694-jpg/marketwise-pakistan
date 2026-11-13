@@ -785,3 +785,17 @@ svg.token-key { width: 22px; height: 22px; flex: none; }
 .sort-bucket.wrong { border-color: var(--bad); background: var(--bad-soft); opacity: 1; }
 .build-grid > .card { margin: 0; }
 svg.token-key { stroke: none; }
+
+/* ---------- Designer credit (shown under every page) ---------- */
+.credit { display: flex; align-items: center; gap: 14px; max-width: 1180px; margin: var(--sp-5) auto var(--sp-5); padding: 14px 18px; border-radius: var(--radius-lg); border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border)); background: linear-gradient(120deg, color-mix(in srgb, var(--accent) 12%, var(--bg-elev)), var(--bg-elev) 55%, color-mix(in srgb, var(--series-1) 10%, var(--bg-elev))); box-shadow: var(--shadow); width: calc(100% - 2 * var(--sp-5)); }
+.credit-logo { flex: none; filter: drop-shadow(0 3px 6px rgba(20, 30, 60, .25)); stroke: none; }
+.credit-text { display: grid; gap: 2px; min-width: 0; font-size: var(--fs-md, 1rem); line-height: 1.4; }
+.credit-label { color: var(--text-2); font-weight: 600; }
+.credit-name strong { font-size: 1.15em; font-weight: 800; color: var(--accent); letter-spacing: .01em; }
+.credit-mail a { font-weight: 700; color: var(--info); overflow-wrap: anywhere; }
+[data-theme="dark"] .credit-mail a { color: #8fb8ee; }
+svg.credit-logo { width: 52px; height: 52px; }
+@media (max-width: 960px) { .credit { width: calc(100% - 2 * var(--sp-4)); } .main::after { content: ""; display: block; height: 84px; } .app.lab .main::after { display: none; } }
+@media (max-width: 420px) { .credit { gap: 10px; padding: 12px; } svg.credit-logo { width: 44px; height: 44px; } }
+@media print { .credit { box-shadow: none; background: none; break-inside: avoid; } }
+.view { padding-bottom: var(--sp-5); }

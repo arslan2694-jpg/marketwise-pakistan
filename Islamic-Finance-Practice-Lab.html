@@ -812,6 +812,20 @@ svg.token-key { width: 22px; height: 22px; flex: none; }
 .build-grid > .card { margin: 0; }
 svg.token-key { stroke: none; }
 
+/* ---------- Designer credit (shown under every page) ---------- */
+.credit { display: flex; align-items: center; gap: 14px; max-width: 1180px; margin: var(--sp-5) auto var(--sp-5); padding: 14px 18px; border-radius: var(--radius-lg); border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border)); background: linear-gradient(120deg, color-mix(in srgb, var(--accent) 12%, var(--bg-elev)), var(--bg-elev) 55%, color-mix(in srgb, var(--series-1) 10%, var(--bg-elev))); box-shadow: var(--shadow); width: calc(100% - 2 * var(--sp-5)); }
+.credit-logo { flex: none; filter: drop-shadow(0 3px 6px rgba(20, 30, 60, .25)); stroke: none; }
+.credit-text { display: grid; gap: 2px; min-width: 0; font-size: var(--fs-md, 1rem); line-height: 1.4; }
+.credit-label { color: var(--text-2); font-weight: 600; }
+.credit-name strong { font-size: 1.15em; font-weight: 800; color: var(--accent); letter-spacing: .01em; }
+.credit-mail a { font-weight: 700; color: var(--info); overflow-wrap: anywhere; }
+[data-theme="dark"] .credit-mail a { color: #8fb8ee; }
+svg.credit-logo { width: 52px; height: 52px; }
+@media (max-width: 960px) { .credit { width: calc(100% - 2 * var(--sp-4)); } .main::after { content: ""; display: block; height: 84px; } .app.lab .main::after { display: none; } }
+@media (max-width: 420px) { .credit { gap: 10px; padding: 12px; } svg.credit-logo { width: 44px; height: 44px; } }
+@media print { .credit { box-shadow: none; background: none; break-inside: avoid; } }
+.view { padding-bottom: var(--sp-5); }
+
 </style>
   <style>
 /* Practice Lab shell: no sidebar, sections in the top bar. */
@@ -859,6 +873,21 @@ svg.token-key { stroke: none; }
       <div class="view" id="view" aria-live="polite">
         <div class="loading" role="status"><span class="spinner" aria-hidden="true"></span> Loading…</div>
       </div>
+      <footer class="credit" id="credit" aria-label="Designer credit">
+        <svg class="credit-logo" viewBox="0 0 56 56" width="52" height="52" role="img" aria-label="Arslan Ahmad logo">
+          <defs>
+            <linearGradient id="credit-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16857c"/><stop offset=".55" stop-color="#2a78d6"/><stop offset="1" stop-color="#7b4fd6"/></linearGradient>
+            <linearGradient id="credit-s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffd166"/><stop offset="1" stop-color="#ff9f43"/></linearGradient>
+          </defs>
+          <rect x="2" y="2" width="52" height="52" rx="15" fill="url(#credit-g)"/>
+          <path d="M11 40 L20 16 L29 40 M14.6 32 H25.4" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M27 40 L36 16 L45 40 M30.6 32 H41.4" fill="none" stroke="url(#credit-s)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="credit-text">
+          <div class="credit-name"><span class="credit-label">Designed by:</span> <strong>Arslan Ahmad</strong></div>
+          <div class="credit-mail"><span class="credit-label">Email:</span> <a href="mailto:arslan2694@gmail.com">arslan2694@gmail.com</a></div>
+        </div>
+      </footer>
       <noscript><div class="notice">This app needs JavaScript enabled.</div></noscript>
     </main>
   </div>
