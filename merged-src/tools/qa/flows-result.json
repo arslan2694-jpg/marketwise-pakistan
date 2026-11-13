@@ -392,13 +392,13 @@
   "extra": {
    "bad": 0,
    "sample": {
-    "reps": 0,
+    "reps": 1,
     "ease": 1.3,
-    "interval": 0,
+    "interval": 1,
     "lapses": 1000,
-    "due": 1866469135153,
-    "last": 1866468535153,
-    "grade": 0
+    "due": 1866658490683,
+    "last": 1866572090683,
+    "grade": 1
    }
   }
  },

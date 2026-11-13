@@ -1,6 +1,6 @@
 # Feature Inventory and Feature Reconciliation
 
-Generated 2026-11-12. “File 1” is *Islamic-Finance-Learning* (modular learning engine); “File 2” is *Understanding-Islamic-Finance-STANDALONE* (structured product / reference layer). Both were read completely (all script blocks, data files and CSS) before merging.
+Generated 2026-11-13. “File 1” is *Islamic-Finance-Learning* (modular learning engine); “File 2” is *Understanding-Islamic-Finance-STANDALONE* (structured product / reference layer). Both were read completely (all script blocks, data files and CSS) before merging.
 
 Legend for **Action**: RETAINED · MERGED · IMPROVED · REPLACED WITH SUPERIOR IMPLEMENTATION · TRUE DUPLICATE REMOVED. **No feature is marked “not retained”.**
 
@@ -95,5 +95,9 @@ These are additions on top of the merged feature set. They read and write the sa
 | Build the deal | `#/play/build` | The steps of any of the 34 transaction diagrams are shuffled; the student rebuilds the order, then watches it play. |
 | Term match | `#/play/match` | Six glossary terms against their definitions, by category; fewest wrong guesses wins. |
 | Sort the instruments | `#/play/sort` | Classify financing modes by how the financier earns or by contract family; feedback is the mode’s own profile text. |
+
+## Companion build: Practice Lab
+
+`Islamic-Finance-Practice-Lab.html` (about 0.6 MB) is a second single-file app containing only the transaction diagrams, the three games, the numericals trainer and the calculators. It is built from the same modules (`node tools/build-standalone.js --lab`, shell in `merged-src/lite/`), so both files stay in step. It ships only the diagram, glossary, mode, concept and course-index data; links to lessons and other pages of the full system are shown as plain text. It stores its scores under its own key (`ifl.lab.v3`) and never reads, converts or writes the full system’s record.
 
 The games add one optional field to the state record, `games` (game → key → {best, n, ts}). It defaults to an empty object, so older saved records and exports load unchanged and APP_STATE_VERSION stays 3. No course content was added or altered: every game is generated from existing diagram, glossary and mode records.

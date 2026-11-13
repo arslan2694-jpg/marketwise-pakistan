@@ -1,0 +1,76 @@
+[
+ {
+  "name": "home renders with four section tiles and five nav entries",
+  "ok": true
+ },
+ {
+  "name": "all 168 lab pages render",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "no link points to a page outside the lab",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "all 134 distinct internal links resolve",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "diagram plays",
+  "ok": true
+ },
+ {
+  "name": "build-the-deal solves and stores the score",
+  "ok": true
+ },
+ {
+  "name": "term match completes",
+  "ok": true
+ },
+ {
+  "name": "sort game scores 8 of 8",
+  "ok": true
+ },
+ {
+  "name": "calculator shows textbook figure, sliders and chart",
+  "ok": true
+ },
+ {
+  "name": "numerical problem panel opens",
+  "ok": true
+ },
+ {
+  "name": "lab keeps its own record and leaves the main app’s keys alone",
+  "ok": true
+ },
+ {
+  "name": "scores persist after reload",
+  "ok": true
+ },
+ {
+  "name": "theme switch works",
+  "ok": true
+ },
+ {
+  "name": "no horizontal overflow at 390px",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "single offline file: no external resources or network requests",
+  "ok": true,
+  "extra": []
+ },
+ {
+  "name": "file size under 1 MB (0.62 MB)",
+  "ok": true
+ },
+ {
+  "name": "no JS errors",
+  "ok": true,
+  "extra": []
+ }
+]

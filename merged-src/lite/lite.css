@@ -1,0 +1,21 @@
+/* Practice Lab shell: no sidebar, sections in the top bar. */
+.app.lab { grid-template-columns: 1fr; grid-template-areas: "top" "main"; }
+.lab-nav { display: flex; gap: 4px; margin-left: var(--sp-4); flex: 1; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.lab-nav::-webkit-scrollbar { display: none; }
+.lab-nav a { display: inline-flex; align-items: center; gap: 7px; padding: 7px 12px; border-radius: 999px; color: var(--text-2); text-decoration: none; font-size: var(--fs-sm); font-weight: 600; white-space: nowrap; }
+.lab-nav a svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.lab-nav a:hover { background: var(--bg-hover); color: var(--text); }
+.lab-nav a[aria-current="page"] { background: var(--accent-soft); color: var(--accent); }
+@media (max-width: 720px) {
+  .app.lab .brand-text { display: none; }
+  .lab-nav { margin-left: 4px; }
+  .lab-nav a { padding: 7px 9px; }
+  .lab-nav a span { display: none; }
+  .app.lab .topbar { gap: 4px; padding: 0 8px; }
+}
+.lab-hero { background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, var(--bg-elev)), var(--bg-elev) 60%); }
+.lab-tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--sp-4); }
+@media (max-width: 1000px) { .lab-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .lab-tiles { grid-template-columns: 1fr; } }
+.unlinked { color: inherit; }
+.lab-tiles > .card { margin: 0; }

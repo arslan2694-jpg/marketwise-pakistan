@@ -10,3 +10,7 @@ Source for `../Understanding-Islamic-Finance-MBA-Learning-System.html` (single-f
 - `tools/check-integrity.js`, `tools/qa/*` — QA suites; `tools/run-qa.sh` runs everything; `tools/build-reports.js` writes the reports
 
 Rebuild: `node tools/build-data.js && node tools/build-standalone.js`. The originals in `../source-backup/` are never modified.
+
+## Practice Lab (small companion app)
+
+`node tools/build-standalone.js --lab` writes `../Islamic-Finance-Practice-Lab.html`: transaction diagrams, games, numericals and calculators only. Its shell lives in `lite/`; everything else is the shared modules. QA: `node tools/qa/lab.js`.

@@ -1,6 +1,6 @@
 # Content Reconciliation
 
-Generated 2026-11-12 by `merged-src/tools/build-reports.js` from `merged-src/data/_audit.json`, the canonical data files and the QA result files. Every number below is computed, not estimated.
+Generated 2026-11-13 by `merged-src/tools/build-reports.js` from `merged-src/data/_audit.json`, the canonical data files and the QA result files. Every number below is computed, not estimated.
 
 **Columns.** *File 1* and *File 2* are the record counts in the two original applications. *True duplicates* are records collapsed into one canonical record because keeping both added no educational or functional value. *Complementary / merged* describes records that overlap in subject but carry different information (kept, and merged where they describe the same thing). *Final unique* is what the merged platform contains.
 

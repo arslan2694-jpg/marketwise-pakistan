@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Islamic Finance Practice Lab</title>
+  <meta name="description" content="Animated transaction diagrams, learning games, numericals and calculators for Islamic finance. Works offline from a single file.">
+  <meta name="theme-color" content="#1f5f5b">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJJc2xhbWljIEZpbmFuY2UgTGVhcm5pbmciPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSIjMWY1ZjViIi8+CiAgPHBhdGggZD0iTTMyIDEybDE3IDh2NUgxNXYtNXoiIGZpbGw9IiNmM2UzYmYiLz4KICA8cmVjdCB4PSIxOCIgeT0iMjciIHdpZHRoPSI1IiBoZWlnaHQ9IjE3IiByeD0iMSIgZmlsbD0iI2YzZTNiZiIvPgogIDxyZWN0IHg9IjI5LjUiIHk9IjI3IiB3aWR0aD0iNSIgaGVpZ2h0PSIxNyIgcng9IjEiIGZpbGw9IiNmM2UzYmYiLz4KICA8cmVjdCB4PSI0MSIgeT0iMjciIHdpZHRoPSI1IiBoZWlnaHQ9IjE3IiByeD0iMSIgZmlsbD0iI2YzZTNiZiIvPgogIDxyZWN0IHg9IjE0IiB5PSI0NiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiNmM2UzYmYiLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjE5LjUiIHI9IjIuMyIgZmlsbD0iIzFmNWY1YiIvPgo8L3N2Zz4K" type="image/svg+xml">
+  <script>
+    /* Apply the saved theme before first paint (reads the unified record, or an earlier application's record). */
+    (function () {
+      try {
+        var raw = localStorage.getItem('ifl.lab.v3'), s = raw ? (JSON.parse(raw).settings || {}) : null;
+        s = s || {};
+        var t = s.theme || 'system';
+        if (t === 'system') t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+        if (s.fontScale) document.documentElement.style.setProperty('--font-scale', s.fontScale);
+        if (s.reduceMotion || s.reducedMotion) document.documentElement.classList.add('reduce-motion');
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="lite/lite.css">
+  <script>window.IFL_STORE_KEY = 'ifl.lab.v3';</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="app lab" id="app">
+    <header class="topbar" role="banner">
+      <a class="brand" href="#/" aria-label="Islamic Finance Practice Lab — home">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJJc2xhbWljIEZpbmFuY2UgTGVhcm5pbmciPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSIjMWY1ZjViIi8+CiAgPHBhdGggZD0iTTMyIDEybDE3IDh2NUgxNXYtNXoiIGZpbGw9IiNmM2UzYmYiLz4KICA8cmVjdCB4PSIxOCIgeT0iMjciIHdpZHRoPSI1IiBoZWlnaHQ9IjE3IiByeD0iMSIgZmlsbD0iI2YzZTNiZiIvPgogIDxyZWN0IHg9IjI5LjUiIHk9IjI3IiB3aWR0aD0iNSIgaGVpZ2h0PSIxNyIgcng9IjEiIGZpbGw9IiNmM2UzYmYiLz4KICA8cmVjdCB4PSI0MSIgeT0iMjciIHdpZHRoPSI1IiBoZWlnaHQ9IjE3IiByeD0iMSIgZmlsbD0iI2YzZTNiZiIvPgogIDxyZWN0IHg9IjE0IiB5PSI0NiIgd2lkdGg9IjM2IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiNmM2UzYmYiLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjE5LjUiIHI9IjIuMyIgZmlsbD0iIzFmNWY1YiIvPgo8L3N2Zz4K" alt="" width="28" height="28">
+        <span class="brand-text"><strong>Practice Lab</strong><small>Islamic Finance · Ayub</small></span>
+      </a>
+      <nav class="lab-nav" id="nav" aria-label="Sections"></nav>
+      <div class="topbar-actions">
+        <button class="icon-btn" id="theme-btn" type="button" aria-label="Toggle theme" title="Theme">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+      </div>
+    </header>
+    <main class="main" id="main" tabindex="-1">
+      <div class="view" id="view" aria-live="polite">
+        <div class="loading" role="status"><span class="spinner" aria-hidden="true"></span> Loading…</div>
+      </div>
+      <noscript><div class="notice">This app needs JavaScript enabled.</div></noscript>
+    </main>
+  </div>
+  <div class="modal-root" id="modal-root"></div>
+  <div class="toast-root" id="toast-root" aria-live="polite"></div>
+<script src="modules/registry.js"></script>
+<script src="data/course-index.js"></script>
+<script src="data/glossary.js"></script>
+<script src="data/concepts.js"></script>
+<script src="data/diagrams.js"></script>
+<script src="data/modes.js"></script>
+<script src="lite/stub-data.js"></script>
+<script src="modules/util.js"></script>
+<script src="modules/data.js"></script>
+<script src="modules/migrate.js"></script>
+<script src="modules/store.js"></script>
+<script src="modules/progress.js"></script>
+<script src="modules/srs.js"></script>
+<script src="modules/router.js"></script>
+<script src="modules/components.js"></script>
+<script src="modules/calculators.js"></script>
+<script src="modules/viz.js"></script>
+<script src="modules/views/diagrams.js"></script>
+<script src="modules/views/numericals.js"></script>
+<script src="modules/views/play.js"></script>
+<script src="lite/lite-app.js"></script>
+</body>
+</html>

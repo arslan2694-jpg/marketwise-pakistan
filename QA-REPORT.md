@@ -1,6 +1,6 @@
 # QA Report
 
-Generated 2026-11-12. All suites live in `merged-src/tools/qa/` and run against the built single file in headless Chromium (`file://`). Result files (`*-result.json`) sit next to the scripts.
+Generated 2026-11-13. All suites live in `merged-src/tools/qa/` and run against the built single file in headless Chromium (`file://`). Result files (`*-result.json`) sit next to the scripts.
 
 | Suite | What it checks | Result |
 | --- | --- | --- |
@@ -12,6 +12,7 @@ Generated 2026-11-12. All suites live in `merged-src/tools/qa/` and run against 
 | Interactive flows 2 (`flows2.js`) | learning journey, extended notes and level switch, Teach me, diagram stepping, modes catalogue/compare, both concept-map views, glossary/acronyms, settings, export/import UI, skip link, modal focus trap, Escape/focus return, single flashcard flip | **33/33 pass** |
 | Interactive flows 3 (`flows3.js`) | daily session (each step completes from real activity; yesterday’s work does not count), mastery map, stat strip, command palette (open, filter, content search, arrow keys, Enter, Escape, focus return, actions), lesson shortcuts N / P / M, reading-progress bar, 390 px overflow | **34/34 pass** |
 | Interactive flows 4 (`flows4.js`) | animated diagrams (token motion, Play/Pause, reduced motion, all 34 render), calculator sliders and charts (two-way sync, textbook figures intact, no NaN on edge inputs), the three games (wrong and right paths, scoring, storage, export/import), 390 px overflow in dark theme | **39/39 pass** |
+| Practice Lab (`lab.js`) | the companion file `Islamic-Finance-Practice-Lab.html`: all 168 pages render, no link leaves the lab, diagrams play, the three games, numericals and calculators work, own storage key, reload persistence, 390 px overflow, no network requests | **17/17 pass** |
 | Migration (`migrate.js`) | File 2 state, File 1 state, both, imports of raw/own exports, unknown-file rejection, corrupt record, blocked storage | **32/32 pass** |
 | Calculations (`calc.js`) | 27 independently computed expected values (formulas re-derived in the test, not read from the app) + edge inputs (0, −1, 1e12, 0.005; non-numeric input is coerced to 0 by the input handler) on every calculator | **27/27 values correct; edge inputs: 0 problems** |
 | Responsive / accessibility (`responsive.js`) | horizontal overflow at 375 / 768 / 1280 px (light + dark) on 39 routes, unlabeled controls, tap targets, drawer, contrast of 13 token pairs in both themes | **overflow 0 · unlabeled 0 · small targets 0 · contrast all ≥ 4.5:1** |

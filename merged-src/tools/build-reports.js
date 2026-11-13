@@ -9,7 +9,7 @@ const OUT = path.join(ROOT, '..');
 const audit = require('../data/_audit.json');
 const integ = require('../data/_integrity.json');
 const rd = f => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, 'qa', f), 'utf8')); } catch (e) { return null; } };
-const Q = { flows: rd('flows-result.json'), flows2: rd('flows2-result.json'), flows3: rd('flows3-result.json'), flows4: rd('flows4-result.json'), crawl: rd('crawl-result.json'), resp: rd('responsive-result.json'), calc: rd('calc-result.json'), stat: rd('static-result.json'), zl: rd('zero-loss-result.json'), counts: rd('counts-result.json'), perf: rd('perf-result.json'), migrate: rd('migrate-result.json'), lint: rd('lint-result.json') };
+const Q = { flows: rd('flows-result.json'), flows2: rd('flows2-result.json'), flows3: rd('flows3-result.json'), flows4: rd('flows4-result.json'), lab: rd('lab-result.json'), crawl: rd('crawl-result.json'), resp: rd('responsive-result.json'), calc: rd('calc-result.json'), stat: rd('static-result.json'), zl: rd('zero-loss-result.json'), counts: rd('counts-result.json'), perf: rd('perf-result.json'), migrate: rd('migrate-result.json'), lint: rd('lint-result.json') };
 const { loadF1, loadF2 } = require('./lib/load-sources');
 const D1 = loadF1(), D2 = loadF2();
 
@@ -31,7 +31,7 @@ const los = { f1: 0, f2: 0, merged: 0 }; Object.keys(audit.merged).filter(k => /
 const glossExt = S.glossary.filter(g => g.extendedDefinition).length, glossMatched = S.glossary.filter(g => g.origin.indexOf('f2') > -1).length;
 const cmpMerged = S.comparisons.pairs.filter(p => p.origin.length > 1).length;
 const eff = (q) => q ? (q.checks ? q.checks.filter(c => c.ok).length : q.filter ? q.filter(c => c.ok).length : 0) : 0;
-const flowsN = Q.flows ? Q.flows.length : 0, flowsOk = eff(Q.flows), flows2N = Q.flows2 ? Q.flows2.length : 0, flows2Ok = eff(Q.flows2), flows3N = Q.flows3 ? Q.flows3.length : 0, flows3Ok = eff(Q.flows3), flows4N = Q.flows4 ? Q.flows4.length : 0, flows4Ok = eff(Q.flows4);
+const flowsN = Q.flows ? Q.flows.length : 0, flowsOk = eff(Q.flows), flows2N = Q.flows2 ? Q.flows2.length : 0, flows2Ok = eff(Q.flows2), flows3N = Q.flows3 ? Q.flows3.length : 0, flows3Ok = eff(Q.flows3), flows4N = Q.flows4 ? Q.flows4.length : 0, flows4Ok = eff(Q.flows4), labN = Q.lab ? Q.lab.length : 0, labOk = eff(Q.lab);
 
 /* ================= CONTENT-RECONCILIATION.md ================= */
 const rec = [
@@ -198,6 +198,10 @@ These are additions on top of the merged feature set. They read and write the sa
 | Build the deal | \`#/play/build\` | The steps of any of the 34 transaction diagrams are shuffled; the student rebuilds the order, then watches it play. |
 | Term match | \`#/play/match\` | Six glossary terms against their definitions, by category; fewest wrong guesses wins. |
 | Sort the instruments | \`#/play/sort\` | Classify financing modes by how the financier earns or by contract family; feedback is the mode’s own profile text. |
+
+## Companion build: Practice Lab
+
+\`Islamic-Finance-Practice-Lab.html\` (about 0.6 MB) is a second single-file app containing only the transaction diagrams, the three games, the numericals trainer and the calculators. It is built from the same modules (\`node tools/build-standalone.js --lab\`, shell in \`merged-src/lite/\`), so both files stay in step. It ships only the diagram, glossary, mode, concept and course-index data; links to lessons and other pages of the full system are shown as plain text. It stores its scores under its own key (\`ifl.lab.v3\`) and never reads, converts or writes the full system’s record.
 
 The games add one optional field to the state record, \`games\` (game → key → {best, n, ts}). It defaults to an empty object, so older saved records and exports load unchanged and APP_STATE_VERSION stays 3. No course content was added or altered: every game is generated from existing diagram, glossary and mode records.
 `;
@@ -400,6 +404,7 @@ Generated ${date}. All suites live in \`merged-src/tools/qa/\` and run against t
 | Interactive flows 2 (\`flows2.js\`) | learning journey, extended notes and level switch, Teach me, diagram stepping, modes catalogue/compare, both concept-map views, glossary/acronyms, settings, export/import UI, skip link, modal focus trap, Escape/focus return, single flashcard flip | **${flows2Ok}/${flows2N} pass** |
 | Interactive flows 3 (\`flows3.js\`) | daily session (each step completes from real activity; yesterday’s work does not count), mastery map, stat strip, command palette (open, filter, content search, arrow keys, Enter, Escape, focus return, actions), lesson shortcuts N / P / M, reading-progress bar, 390 px overflow | **${flows3Ok}/${flows3N} pass** |
 | Interactive flows 4 (\`flows4.js\`) | animated diagrams (token motion, Play/Pause, reduced motion, all 34 render), calculator sliders and charts (two-way sync, textbook figures intact, no NaN on edge inputs), the three games (wrong and right paths, scoring, storage, export/import), 390 px overflow in dark theme | **${flows4Ok}/${flows4N} pass** |
+| Practice Lab (\`lab.js\`) | the companion file \`Islamic-Finance-Practice-Lab.html\`: all 168 pages render, no link leaves the lab, diagrams play, the three games, numericals and calculators work, own storage key, reload persistence, 390 px overflow, no network requests | **${labOk}/${labN} pass** |
 | Migration (\`migrate.js\`) | File 2 state, File 1 state, both, imports of raw/own exports, unknown-file rejection, corrupt record, blocked storage | **32/32 pass** |
 | Calculations (\`calc.js\`) | ${Q.calc ? Q.calc.checks : 27} independently computed expected values (formulas re-derived in the test, not read from the app) + edge inputs (0, −1, 1e12, 0.005; non-numeric input is coerced to 0 by the input handler) on every calculator | **${Q.calc ? Q.calc.checks - Q.calc.failed : 27}/${Q.calc ? Q.calc.checks : 27} values correct; edge inputs: 0 problems** |
 | Responsive / accessibility (\`responsive.js\`) | horizontal overflow at 375 / 768 / 1280 px (light + dark) on 39 routes, unlabeled controls, tap targets, drawer, contrast of 13 token pairs in both themes | **overflow 0 · unlabeled 0 · small targets 0 · contrast all ≥ 4.5:1** |

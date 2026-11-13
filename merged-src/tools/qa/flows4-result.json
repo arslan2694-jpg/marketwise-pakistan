@@ -7,8 +7,8 @@
   "name": "token travels along the arrow",
   "ok": true,
   "extra": {
-   "p0": "translate(183.5,207.4)",
-   "p1": "translate(286.9,208.0)"
+   "p0": "translate(183.5,207.3)",
+   "p1": "translate(284.9,209.7)"
   }
  },
  {
@@ -100,7 +100,7 @@
    "build": {
     "murabaha": {
      "n": 2,
-     "ts": 1794472164685,
+     "ts": 1794575719823,
      "best": 85
     }
    }

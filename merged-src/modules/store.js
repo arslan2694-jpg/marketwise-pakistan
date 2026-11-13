@@ -6,7 +6,8 @@
 (function () {
   var IFL = window.IFL;
   var M = IFL.migrate;
-  var KEY = 'ifl.v3', LEGACY_A = 'ifl.v1', LEGACY_B = 'ifl_v1';
+  /* A companion build (e.g. the Practice Lab) sets IFL_STORE_KEY so it keeps its own record and never touches or converts the main app's data. */
+  var KEY = window.IFL_STORE_KEY || 'ifl.v3', LEGACY_A = 'ifl.v1', LEGACY_B = 'ifl_v1';
   var APP_STATE_VERSION = M.VERSION;
   IFL.APP_STATE_VERSION = APP_STATE_VERSION;
 
@@ -35,6 +36,7 @@
       try { localStorage.setItem(KEY + '.corrupt.' + Date.now(), raw); } catch (e2) { /* ignore */ }
     }
     /* first run of the unified app: bring over anything the earlier applications stored */
+    if (window.IFL_STORE_KEY) return M.defaults();
     var out = null, a = parse(readKey(LEGACY_A)), b = parse(readKey(LEGACY_B));
     try {
       if (a) out = M.migrateF1StateToV3(a);
